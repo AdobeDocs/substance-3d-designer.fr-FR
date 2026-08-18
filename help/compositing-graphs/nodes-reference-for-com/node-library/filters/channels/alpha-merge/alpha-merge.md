@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de fusion Alpha pour combiner des textures RGB avec des couches alpha afin de créer des textures RVBA.
 helpx_creative_field: ""
