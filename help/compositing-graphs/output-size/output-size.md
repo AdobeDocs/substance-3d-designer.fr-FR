@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configurez les paramètres de taille de sortie des graphiques de composition de Substances pour contrôler la résolution et la qualité de la texture.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Taille de sortie
 
-Il s&#39;agit du premier des <b>paramètres de base</b> d&#39;un graphique et, avec le <b>format de sortie</b> (ou profondeur de bit), il est essentiel de bien le comprendre car il a un impact important sur la sortie d&#39;un graphique, à la fois dans Designer et dans d&#39;autres applications en tant que fichier publié [actif Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html).
+Il s&#39;agit du premier des <b>paramètres de base</b> d&#39;un graphique et, avec le <b>format de sortie</b> (ou profondeur de bit), il est essentiel de bien le comprendre car il a un impact important sur la sortie d&#39;un graphique, à la fois dans Designer et dans d&#39;autres applications en tant que fichier publié [actif Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html).
 
 >[!TIP]
 >
@@ -96,7 +96,7 @@ Dans la plupart des cas, la [méthode d&#39;héritage](../../compositing-graphs/
 * Nœud : *Relative à l&#39;entrée* : les valeurs héritées par l&#39;[entrée principale](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) du nœud sont utilisées dans ce cas
 * Nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) :*Absolu* - consultez la page [Ressources bitmap](../../resources/bitmap-resource/bitmap-resource.md) et les [directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) pour savoir pourquoi
 
-Affichez les propriétés d&#39;un nœud ou d&#39;un graphique en cliquant sur cet élément, puis dans le panneau [Propriétés](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage pour sélectionner la méthode d’héritage souhaitée.
+Affichez les propriétés d&#39;un nœud ou d&#39;un graphique en cliquant sur cet élément, puis dans le panneau [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage pour sélectionner la méthode d’héritage souhaitée.
 
 ![Méthode d’héritage de la taille de sortie](../../assets/change-mode.gif "Méthode d’héritage de la taille de sortie"){width="512px"}
 

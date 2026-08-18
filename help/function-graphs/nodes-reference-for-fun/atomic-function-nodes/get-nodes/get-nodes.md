@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds Get dans les graphiques de fonction Substance 3D Designer pour récupérer les valeurs et les données des variables.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Les variables permettent de <b>stocker des valeurs</b> pour les récupérer ult�
 
 ![Graphique de fonction de Substance - Get float](../../../../assets/assign-getfloat.gif "Graphique de fonction de Substance - Get float"){zoomable="yes"}
 
-Ce que fait essentiellement un nœud Get, c&#39;est d&#39;attraper une variable dynamique, et de la retourner à partir de la sortie des nœuds Get pour l&#39;utiliser dans une fonction. Ces nœuds Get forment le lien entre les paramètres d&#39;entrée définis dans les [propriétés du graphique](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) et les [fonctions de paramètre](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Ce que fait essentiellement un nœud Get, c&#39;est d&#39;attraper une variable dynamique, et de la retourner à partir de la sortie des nœuds Get pour l&#39;utiliser dans une fonction. Ces nœuds Get forment le lien entre les paramètres d&#39;entrée définis dans les [propriétés du graphique](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) et les [fonctions de paramètre](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 Chaque fois que vous utilisez un nœud Get, vous devez choisir une valeur disponible dans le menu déroulant. Les nœuds Get <b>récupèrent une valeur du type correspondant</b>. Cela signifie que vous ne verrez que les options valides dans le menu d&#39;un nœud Get, vous ne pouvez jamais choisir une option non valide. Si une variable n’est pas disponible, cela signifie qu’il existe une incompatibilité de type
 

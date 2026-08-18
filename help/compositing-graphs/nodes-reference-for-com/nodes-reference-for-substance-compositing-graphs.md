@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Accédez à la référence complète des nœuds pour les graphiques de composition de Substances dans Designer pour en savoir plus sur tous les nœuds disponibles.
 helpx_creative_field: ""
@@ -35,10 +35,10 @@ Ce que nous appelons « nœud » à l&#39;intérieur de SD, peut être divisé e
 
 [Bibliothèque de nœuds](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Générateurs de textures](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
+* [Générateurs de textures](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
 * [Filtres](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
 * [Filtres de matériau](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Générateurs basés sur un maillage](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
+* [Générateurs basés sur un maillage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
 * [Outils Spline et Tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
