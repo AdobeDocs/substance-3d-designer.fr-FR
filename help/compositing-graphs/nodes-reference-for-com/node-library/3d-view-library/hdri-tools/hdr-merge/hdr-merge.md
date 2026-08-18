@@ -41,7 +41,7 @@ Fusionnez plusieurs expositions photographiques pour créer une image de Plage d
 
 ## Entrées
 
-* **Entrée 1-**** 16** : *Entrée couleur*Images d&#39;entrée. La quantité disponible dépend du paramètre.
+* **Entrée 1-**&#x200B;**&#x200B; 16** : *Entrée couleur*Images d&#39;entrée. La quantité disponible dépend du paramètre.
 
 ## Paramètres
 
