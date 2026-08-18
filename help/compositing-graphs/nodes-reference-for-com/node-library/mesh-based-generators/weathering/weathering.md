@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds d’altération dans Substance 3D Designer pour ajouter des effets d’usure et de vieillissement réalistes basés sur la géométrie du filet.
 helpx_creative_field: ""
