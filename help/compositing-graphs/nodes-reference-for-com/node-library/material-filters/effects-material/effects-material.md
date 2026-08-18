@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds d’effet de matériau dans Substance 3D Designer pour appliquer des effets d’environnement et de fusion aux matériaux.
 helpx_creative_field: ""
