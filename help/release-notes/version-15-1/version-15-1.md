@@ -68,7 +68,7 @@ Enfin, la profondeur de bits <b>n&#39;est plus verrouillée en mode 16 bits</b>.
 
 Consultez la liste complète des bruits mis à jour dans les [notes de mise à jour](#release-notes) ci-dessous.
 
-Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [ Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [ Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![bruit de désordre directionnel](../../assets/directionaldisorder.gif){zoomable="yes"}
 
