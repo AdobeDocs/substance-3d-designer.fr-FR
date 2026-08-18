@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Entrée pour définir les paramètres d’entrée des graphiques de Substances pouvant être affichés et ajustés par les utilisateurs.
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 >[!IMPORTANT]
 >
-> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
+> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
 
 ## Attributs d&#39;intégration
 

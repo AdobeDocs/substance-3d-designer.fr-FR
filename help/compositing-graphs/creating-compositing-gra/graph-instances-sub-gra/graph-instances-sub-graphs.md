@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Utilisez des instances de graphes et des sous-graphes pour créer des composants de graphe réutilisables et des workflows de matériaux modulaires.
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ Notez que si les concepts d&#39;instance de graphique et de sous-graphe s&#39;ap
 
 ### Puis-je ajouter mes propres instances de graphique à la bibliothèque de nœuds ?
 
-<b>Oui, c&#39;est possible </b>mais cela nécessite une configuration spécifique. Pour en savoir plus, consultez la page [Gestion du contenu et des filtres personnalisés](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) de cette documentation.
+<b>Oui, c&#39;est possible </b>mais cela nécessite une configuration spécifique. Pour en savoir plus, consultez la page [Gestion du contenu et des filtres personnalisés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) de cette documentation.
 
 ### Pouvez-vous inspecter le graphique source d’une instance de graphique ?
 

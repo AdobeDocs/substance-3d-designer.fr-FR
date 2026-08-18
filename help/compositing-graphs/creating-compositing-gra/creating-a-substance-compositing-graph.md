@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Apprenez à créer des graphiques de composition de Substances dans Substance 3D Designer pour créer des workflows de textures procédurales.
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ Pour commencer le processus de création d&#39;un graphique de [Substance](../..
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Sur n&#39;importe quel élément de package *existant* dans l&#39;[Explorateur](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), cliquez sur <b>RMB</b> et accédez à <b>Nouveau > graphique de Substance</b> dans le menu contextuel.
+  Sur n&#39;importe quel élément de package *existant* dans l&#39;[Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), cliquez sur <b>RMB</b> et accédez à <b>Nouveau > graphique de Substance</b> dans le menu contextuel.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -81,7 +81,7 @@ Pour commencer le processus de création d&#39;un graphique de [Substance](../..
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Dans le [menu principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), accédez à <b>Fichier > Nouveau > graphique de Substance...</b>
+  Dans le [menu principal](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), accédez à <b>Fichier > Nouveau > graphique de Substance...</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Après avoir sélectionné le modèle, vous pouvez définir des informations de 
 
 <b>Taille</b> : résolution parent du graphique, qui contrôle la résolution de sortie de la plupart des nœuds. Pour en savoir plus, consultez la page [Taille de sortie](../../compositing-graphs/output-size/output-size.md). La largeur et l’height sont liés par défaut. Vous pouvez rompre leur lien en cliquant sur le bouton Lier situé entre les zones de liste déroulante Largeur et height.
 
-<b>Créer un graphique dans</b> : vous pouvez utiliser cette zone de liste déroulante pour créer un *nouveau* package pour le nouveau graphique ou ajouter le nouveau graphique à tout *package existant* déjà chargé dans le panneau [Explorateur](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+<b>Créer un graphique dans</b> : vous pouvez utiliser cette zone de liste déroulante pour créer un *nouveau* package pour le nouveau graphique ou ajouter le nouveau graphique à tout *package existant* déjà chargé dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
 
 ### Info-bulle Aide
 
