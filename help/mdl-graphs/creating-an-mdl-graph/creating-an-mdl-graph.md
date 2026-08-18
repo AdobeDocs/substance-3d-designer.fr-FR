@@ -60,7 +60,7 @@ L&#39;option <b>Projet</b> vous permet de filtrer la liste des modèles par fich
 La liste des modèles peut être affichée dans différents modes à l&#39;aide des *boutons* en regard de la zone de liste déroulante **Projet** :
 
 * **![](../../assets/mdl-template-recent-icon.png)Afficher les modèles récemment utilisés** : filtre la liste pour afficher les derniers modèles utilisés dans l&#39;ordre *du plus récent au moins récent*, l&#39;élément supérieur étant le plus récent
-* **![](../../assets/mdl-template-graphs-icon.png)Graphiques d&#39;affichage** : les modèles sont affichés selon leur *étiquette uniquement*, dans l&#39;ordre des fichiers [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) dans le répertoire des modèles
+* **![](../../assets/mdl-template-graphs-icon.png)Graphiques d&#39;affichage** : les modèles sont affichés selon leur *étiquette uniquement*, dans l&#39;ordre des fichiers [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) dans le répertoire des modèles
 * **![](../../assets/mdl-template-packages-icon.png)Afficher les fichiers Substance 3D** : les modèles sont affichés selon leur étiquette en tant que *enfants du fichier Substance 3D auquel ils appartiennent*, dans l&#39;ordre des fichiers dans le répertoire des modèles
 * **![](../../assets/mdl-template-directory-icon.png)Répertoires d&#39;affichage** : les modèles sont affichés par leur étiquette en tant que *enfants du répertoire auquel ils appartiennent*, dans l&#39;ordre des fichiers dans le répertoire des modèles
 

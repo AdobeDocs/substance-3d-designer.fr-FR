@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Découvrez Substance 3D Designer et ses fonctionnalités de création de matières et de textures procédurales.
 helpx_creative_field: ""
@@ -155,7 +155,7 @@ Les types de ressources suivants existent :
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Images vectorielles (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Maillage 3D et scène](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [Maillage 3D et scène](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [Police](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

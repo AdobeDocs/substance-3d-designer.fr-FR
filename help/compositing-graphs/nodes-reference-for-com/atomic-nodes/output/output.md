@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -52,7 +52,7 @@ Chaque graphique de Substance doit avoir *au moins un* nœud de sortie. Si aucun
 | <b>Identifiant</b> *Chaîne* | Identificateur unique de la sortie. Cette propriété ne peut pas rester vide et ne peut pas contenir de caractères spéciaux ou d&#39;espaces.   L&#39;identificateur est utilisé car le libellé du nœud est la propriété « Label » laissée vide. Il peut également être utilisé pour nommer [les textures exportées](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Description</b> *Chaîne* | Description facultative utilisée comme info-bulle de la sortie : graphiques en Substances. |
 | <b>Libellé</b> *Chaîne* | Il est utilisé comme libellé pour le nœud de sortie et son connecteur correspondant dans les [nœuds d&#39;instance](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphique. L’étiquette peut contenir des espaces et des caractères spéciaux. |
-| <b>Données utilisateur</b> *Chaîne* | Métadonnées facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) utilisez ces données pour [piloter certaines fonctionnalités](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
+| <b>Données utilisateur</b> *Chaîne* | Métadonnées facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d/apps/painter.html) utilisez ces données pour [piloter certaines fonctionnalités](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
 | <b>Groupe</b> *Chaîne* | Attribut utilisé pour regrouper les sorties afin de [lier les modes de création](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Les sorties avec un attribut « Group » identique sont présentées comme une connexion unique dans le mode de création de lien « Compact Material ». |
 
 ## Attributs d&#39;intégration

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le mode graphique de Substance 3D Designer pour créer et modifier des graphiques de matériaux basés sur les nœuds.
 helpx_creative_field: ""
@@ -387,7 +387,7 @@ Choisissez entre les modes de création de liens Standard (1), Matériau (2) et 
 </b>*- Nettoyer :* supprime tous les nœuds qui font partie d&#39;un flux non connecté à un nœud [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Sorties d&#39;exportation :* ouvre l&#39;[interface d&#39;exportation bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Sorties de réexportation :* effectue à nouveau l&#39;opération d&#39;exportation précédente.\
-*- Exportateur de PSD :* ouvre[l&#39;interface de l&#39;exportateur de PSD.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportateur de PSD :* ouvre[l&#39;interface de l&#39;exportateur de PSD.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Cache d&#39;image de nœud\
 </b>Active/désactive l&#39;affichage du cache d&#39;image de nœud, voir ci-dessous.

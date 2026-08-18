@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds de conversion de matériau en un clic dans Substance 3D Designer pour transformer rapidement des bitmaps en matériaux.
 helpx_creative_field: ""

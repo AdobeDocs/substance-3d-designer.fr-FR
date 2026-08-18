@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flou de Pente pour appliquer des effets de flou directionnel en fonction des pentes de courbe d’height pour créer un flou directionnel.
 helpx_creative_field: ""

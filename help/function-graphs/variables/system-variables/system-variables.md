@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: Découvrez les variables système intégrées disponibles dans les graphiques fonctionnels Substance 3D Designer pour les workflows avancés.
 helpx_creative_field: ""

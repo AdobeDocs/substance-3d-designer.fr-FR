@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
 description: Utilisez les nœuds de fonction Aléatoire pour générer des valeurs aléatoires dans des limites spécifiques à l'aide de divers algorithmes.
 helpx_creative_field: ""

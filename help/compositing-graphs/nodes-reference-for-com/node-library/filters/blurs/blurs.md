@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds du filtre Flou dans Substance 3D Designer pour appliquer divers effets de flou afin de lisser et d’adoucir les textures.
 helpx_creative_field: ""

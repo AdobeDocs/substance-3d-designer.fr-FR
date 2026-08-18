@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Weave Generator pour créer des motifs de tissu et des textures de tissu procéduraux dans Substance 3D Designer.
 helpx_creative_field: ""

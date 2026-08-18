@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilisez des images dans le mode graphique Substance 3D Designer pour organiser et regrouper les nœuds afin d’obtenir une meilleure clarté visuelle.
 helpx_creative_field: ""

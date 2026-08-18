@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Décalage de l’histogramme pour décaler les distributions d’histogramme dans les textures afin de régler les plages de luminosité et de contraste.
 helpx_creative_field: ""

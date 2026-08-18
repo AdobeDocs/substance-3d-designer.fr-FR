@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds du générateur basés sur un filet dans Substance 3D Designer pour créer des textures basées sur la géométrie et les propriétés du filet 3D.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ Il existe trois catégories principales :
   Générateurs de masques noir et blanc basés sur une ou plusieurs maps bakées.
 * [Résilience](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   Effets d&#39;usure des matériaux en fonction des maps bakées.
-* [Utilitaires](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Utilitaires](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   Utilitaires et outils supplémentaires pour travailler avec les pâtisseries.

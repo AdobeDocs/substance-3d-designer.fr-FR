@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mosaïque automatique dynamique pour créer automatiquement des mosaïques homogènes à partir de matériaux numérisés à l’aide de la détection intelligente de motif.
 helpx_creative_field: ""

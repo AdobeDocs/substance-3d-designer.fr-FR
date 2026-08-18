@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure du cuir pour générer des masques d'usure sur les surfaces en cuir en fonction de la courbure du maillage et des points de contact.
 helpx_creative_field: ""

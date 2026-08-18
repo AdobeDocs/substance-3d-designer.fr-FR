@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Moucheture des bords pour générer des motifs d'usure mouchetés sur les bords du maillage afin de créer des effets d'endommagement des bords réalistes.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Éclaboussure pour dispersion des formes entre les textures afin de créer des motifs aléatoires et des détails de texture organique.
 helpx_creative_field: ""

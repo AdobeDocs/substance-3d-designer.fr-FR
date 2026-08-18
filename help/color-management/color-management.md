@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Découvrez la gestion des couleurs dans Substance 3D Designer, notamment les espaces colorimétriques, les profils et les workflows de tons directs.
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ Designer va *convertir* les images aux espaces colorimétriques spécifiés avan
 
 ![Boîte de dialogue Exporter les sorties](../assets/2019-3-0-clr-mgt-export-outputs.png "Boîte de dialogue Exporter les sorties"){width="512px"}
 
-Vous pouvez également attribuer un espace colorimétrique (OCIO) ou joindre un profil ICC (ACE Adobe) aux images *enregistrées* à partir de la [Vue 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+Vous pouvez également attribuer un espace colorimétrique (OCIO) ou joindre un profil ICC (ACE Adobe) aux images *enregistrées* à partir de la [Vue 2D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
 
 ![Options d’exportation de la vue 2D](../assets/2019-3-0-clr-mgt-save-image.png "Options d’exportation de la vue 2D")
 
@@ -209,7 +209,7 @@ La [bibliothèque](../interface/the-library/the-library.md) comprend les nœuds 
 </tr>
 </table>
 
-Ils sont utiles lorsque vous travaillez avec des graphiques créés *sans* gestion des couleurs ou des matériaux de la bibliothèque [Actifs Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html).
+Ils sont utiles lorsque vous travaillez avec des graphiques créés *sans* gestion des couleurs ou des matériaux de la bibliothèque [Actifs Substance 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html).
 
 ![Nœuds de conversion de couleur dans la bibliothèque](../assets/2019-3-0-clr-mgt-nodes.png "Nœuds de conversion de couleur dans la bibliothèque"){width="512px"}
 

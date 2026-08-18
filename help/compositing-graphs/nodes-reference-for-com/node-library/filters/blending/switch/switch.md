@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Basculer pour basculer entre deux textures d’entrée en fonction d’un masque pour la sélection de texture conditionnelle.
 helpx_creative_field: ""

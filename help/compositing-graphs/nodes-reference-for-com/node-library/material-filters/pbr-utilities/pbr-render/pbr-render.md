@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rendu PBR pour effectuer le rendu de matériaux basés physiquement avec un éclairage réaliste pour prévisualiser l’apparence du matériau.
 helpx_creative_field: ""
@@ -228,7 +228,7 @@ Sorties
 
 ## Exemples d’images
 
-Toutes les images ont été générées directement à l&#39;intérieur de Designer, dans la fenêtre d&#39;affichage 2D, à l&#39;aide des matériaux de la bibliothèque [Ressources Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html).
+Toutes les images ont été générées directement à l&#39;intérieur de Designer, dans la fenêtre d&#39;affichage 2D, à l&#39;aide des matériaux de la bibliothèque [Ressources Substance 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html).
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
 | --- | --- | --- | --- |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Voronoi 3D pour générer des motifs Voronoi basés sur la position mondiale 3D afin de créer des textures cellulaires volumétriques.
 helpx_creative_field: ""

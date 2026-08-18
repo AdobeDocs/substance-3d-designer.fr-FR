@@ -54,7 +54,7 @@ Le nœud racine comprend une vignette affichant un aperçu de sa sortie actuelle
 
 ![Nœud racine du graphique MDL](../../assets/mdl-root-hl.png "Nœud racine du graphique MDL")
 
-*Nœud racine dans un graphique MDL et ses propriétés affichées dans le [panneau Propriétés](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *5&rbrace;*
+*Nœud racine dans un graphique MDL et ses propriétés affichées dans le [panneau Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *5&rbrace;*
 
 ## Connecteurs et types
 

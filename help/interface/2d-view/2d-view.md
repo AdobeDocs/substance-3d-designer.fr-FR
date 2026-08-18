@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilisez la vue 2D dans Substance 3D Designer pour prévisualiser et inspecter les textures produites par vos graphiques Matériau.
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ Les <b>outils de peinture bitmap</b> sont disponibles pour les [ressources bitma
 
 >[!TIP]
 >
-> Pour en savoir plus, consultez la page [Éditeur de peinture bitmap](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) de la documentation.
+> Pour en savoir plus, consultez la page [Éditeur de peinture bitmap](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) de la documentation.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressour
 
 >[!TIP]
 >
-> Pour en savoir plus, consultez la page [Éditeur d’images vectorielles (obsolète)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) de la documentation.
+> Pour en savoir plus, consultez la page [Éditeur d’images vectorielles (obsolète)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) de la documentation.
 
 ![Gestion des couleurs en vue 2D](../../assets/2d-view-color-management-ocio.png "Gestion des couleurs en vue 2D"){width="360px"}
 

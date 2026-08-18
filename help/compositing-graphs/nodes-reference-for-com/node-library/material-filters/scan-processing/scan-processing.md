@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds de traitement de numérisation dans Substance 3D Designer pour nettoyer et traiter les matériaux et les textures numérisés.
 helpx_creative_field: ""

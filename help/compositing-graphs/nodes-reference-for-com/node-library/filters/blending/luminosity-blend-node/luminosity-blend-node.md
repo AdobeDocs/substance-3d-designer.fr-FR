@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de fusion Luminosité pour fusionner des textures en fonction des valeurs de luminosité afin de créer des effets composites basés sur la luminosité.
 helpx_creative_field: ""

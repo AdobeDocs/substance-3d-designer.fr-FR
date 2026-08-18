@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fractionner RVBA pour séparer une texture en ses couches rouge, verte, bleue et alpha pour un traitement individuel.
 helpx_creative_field: ""
