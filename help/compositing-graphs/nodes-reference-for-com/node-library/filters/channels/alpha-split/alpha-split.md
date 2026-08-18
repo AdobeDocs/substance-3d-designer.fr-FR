@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fractionner l’Alpha pour extraire la couche alpha des textures RVBA en vue d’un traitement et d’une manipulation distincts.
 helpx_creative_field: ""

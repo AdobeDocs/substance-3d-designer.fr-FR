@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Accédez à la fenêtre Préférences de Substance 3D Designer pour personnaliser les paramètres et le comportement de l’application.
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ Nous vous recommandons de passer en revue tous ces paramètres pour mieux compre
 
 |  |  |
 | --- | --- |
-| <b>La liste des documents récents contient</b>  *Par défaut : 10* | Cela vous permet de sélectionner le nombre de documents à répertorier dans l&#39;entrée <b>Packs récents</b> de l&#39;élément <b>Fichier</b> dans le [Menu principal](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+| <b>La liste des documents récents contient</b>  *Par défaut : 10* | Cela vous permet de sélectionner le nombre de documents à répertorier dans l&#39;entrée <b>Packs récents</b> de l&#39;élément <b>Fichier</b> dans le [Menu principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
 
 ### Historique
 
 |  |  |
 | --- | --- |
-| **Taille de la pile d&#39;historique** *Par défaut : 200* | Cela indique le nombre d&#39;opérations d&#39;annulation disponibles à tout moment dans l&#39;élément <b>Modifier > Annuler</b> du [menu principal](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Attention :** plus vous aurez besoin d&#39;opérations d&#39;annulation, plus l&#39;application aura besoin de mémoire. |
+| **Taille de la pile d&#39;historique** *Par défaut : 200* | Cela indique le nombre d&#39;opérations d&#39;annulation disponibles à tout moment dans l&#39;élément <b>Modifier > Annuler</b> du [menu principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Attention :** plus vous aurez besoin d&#39;opérations d&#39;annulation, plus l&#39;application aura besoin de mémoire. |
 
 ### Langue
 
@@ -111,13 +111,13 @@ Notez également que les enregistrements automatiques doivent être ouverts *apr
 
 |  |  |
 | --- | --- |
-| <b>Enregistrez toujours le fichier .sbs lors de la publication vers .sbsar ou de l&#39;envoi vers une autre application</b>  *Par défaut : True* | Contrôle l&#39;enregistrement automatique du package SBS lors de la [publication](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou de l&#39;[envoi à une autre application](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Enregistrez toujours le fichier .sbs lors de la publication vers .sbsar ou de l&#39;envoi vers une autre application</b>  *Par défaut : True* | Contrôle l&#39;enregistrement automatique du package SBS lors de la [publication](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou de l&#39;[envoi à une autre application](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
 
 ### Cooker
 
 |  |  |
 | --- | --- |
-| <b>Limite de taille de cuisson</b>  *Par défaut : 8 192 pixels* | Définit la résolution maximale de pixels autorisée pour tous les [nœuds](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) dans n&#39;importe quel [graphique](../../compositing-graphs/substance-compositing-graphs.md). Les sorties graphiques étant toujours des images carrées de résolutions de puissance 2, la valeur définie ici définit la largeur maximale et l’height, en pixels. |
+| <b>Limite de taille de cuisson</b>  *Par défaut : 8 192 pixels* | Définit la résolution maximale de pixels autorisée pour tous les [nœuds](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) dans n&#39;importe quel [graphique](../../compositing-graphs/substance-compositing-graphs.md). Les sorties graphiques étant toujours des images carrées de résolutions de puissance 2, la valeur définie ici définit la largeur maximale et l’height, en pixels. |
 
 ### Moteur
 

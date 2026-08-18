@@ -1,0 +1,36 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+breadcrumb-title: ''
+description: Découvrez les formats de fichier Substance 3D et comment ils stockent les matières et textures procédurales à utiliser dans toutes les applications.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Overview > What is a Substance 3D File
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Qu’est-ce qu’un fichier Substance 3D
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 0%
+
+---
+
+
+# Qu’est-ce qu’un fichier Substance 3D ?
+
+![Matériau de mur de brique paramétrique](../../../assets/MaterialsOverview.gif "Matériau de mur de brique paramétrique")
+
+*Exemple de matériau de mur en brique fabriqué par Käy Vriend.\
+Les paramètres peuvent être modifiés pour contrôler dynamiquement l&#39;apparence du matériau.*
+
+Un fichier Substance 3D est un générateur de textures dynamiques, qui peut être utilisé directement dans de nombreuses applications.
+
+Elle est dynamique, car contrairement à un fichier bitmap classique, le créateur d&#39;un fichier Substance 3D peut choisir d&#39;<b>exposer les paramètres</b> afin de donner <b>contrôle</b> du résultat final qui sera généré.
+
+Par exemple, il est possible de modifier la quantité de dust sur un objet ou la couleur du maillot d’une équipe de football. Votre talent et votre imagination sont les seules limites à ce que vous pouvez faire.
+
+Un document de Substance peut être publié, puis utilisé dans l&#39;<b>application externe</b> qui intègre le <b>Substance 3D Engine</b> (par exemple, *Unity* ou *Unreal Engine*).
+
+Les matériaux Substance 3D peuvent être *100 % procéduraux*, par conséquent leur taille de sortie sera très légère.
