@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Découvrez le workflow essentiel pour la création de documents de procédure dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Substance 3D Designer est un éditeur basé sur des nœuds. Cela signifie que pr
 
 ## Workflow basé sur les nœuds
 
-Travailler dans Designer est différent des autres logiciels de retouche d’images 2D tels que Photoshop. Au lieu d&#39;effectuer une action manuellement (comme ajuster la saturation en accédant à une option de menu et en modifiant un curseur), <b>construisez les étapes logiques</b> de la modification ou de la création de votre image. Cela se produit en créant un réseau de petites composantes, appelées « [Nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) ». Les données d&#39;image se déplacent de <b> gauche à droite</b> à travers les composantes, connectées par des liens qui déterminent le chemin des informations. Chaque nœud, s&#39;il est connecté, contribuera aux résultats finaux.
+Travailler dans Designer est différent des autres logiciels de retouche d’images 2D tels que Photoshop. Au lieu d&#39;effectuer une action manuellement (comme ajuster la saturation en accédant à une option de menu et en modifiant un curseur), <b>construisez les étapes logiques</b> de la modification ou de la création de votre image. Cela se produit en créant un réseau de petites composantes, appelées « [Nodes](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) ». Les données d&#39;image se déplacent de <b> gauche à droite</b> à travers les composantes, connectées par des liens qui déterminent le chemin des informations. Chaque nœud, s&#39;il est connecté, contribuera aux résultats finaux.
 
 Le principal avantage est que votre workflow devient <b>non linéaire</b>. Contrairement aux actions effectuées manuellement qui sont enregistrées dans une pile d&#39;historique, vous pouvez toujours remplacer ou modifier un nœud à tout moment. Si vous estimez que votre tout premier réglage de contraste, qui a affecté le résultat de votre image jusqu’à la fin, a été trop important, vous pouvez toujours revenir en arrière et l’ajuster ou même le découper complètement, sans perdre tout le travail que vous avez effectué par la suite.
 
@@ -129,7 +129,7 @@ Cet exemple utilise les [modes de création de liens](../../interface/the-graph-
 
 Les fonctions <b>traitent des valeurs uniques</b> (entiers, flottants, vecteurs) au lieu de données d&#39;image (ensembles entiers de pixels). Les fonctions sont également des graphes avec des réseaux de nœuds, mais les [nœuds utilisés](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et l&#39;interface sont différents des [graphes de Substance standard](../../compositing-graphs/substance-compositing-graphs.md). Le workflow est entièrement basé sur <b>des opérations mathématiques</b> et n&#39;affiche aucune vignette d&#39;aperçu d&#39;image, ce qui en fait une méthode de travail <b>beaucoup plus avancée</b> avec Substance 3D Designer.
 
-Les fonctions peuvent être utilisées dans de nombreux contextes différents, les principaux étant de modifier le comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), de créer le comportement de [processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [cartes d&#39;effets](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) et d&#39;utiliser des [valeurs dans un graphique.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+Les fonctions peuvent être utilisées dans de nombreux contextes différents, les principaux étant de modifier le comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), de créer le comportement de [processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [cartes d&#39;effets](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) et d&#39;utiliser des [valeurs dans un graphique.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 
 </td>
 </tr>

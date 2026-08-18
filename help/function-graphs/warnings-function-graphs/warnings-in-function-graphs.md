@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Familiarisez-vous avec les avertissements dans les graphiques de fonction de Substance 3D Designer et découvrez comment résoudre les problèmes courants.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les [graphiques fonctionnels](../../function-graphs/function-graphs.md) dans Substance 3D Designer et propose des étapes de dépannage courantes pour chacun d&#39;eux.
 
-Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.\
+Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.\
 Si la fonction est *appliquée à un paramètre* dans un [graphe de Substances](../../compositing-graphs/substance-compositing-graphs.md), tout avertissement entraîne l&#39;avertissement « *La fonction du paramètre [x] comporte des erreurs* » pour ce paramètre.
 
 ## ![(erreur)](../../assets/error.svg) Aucun nœud de sortie défini

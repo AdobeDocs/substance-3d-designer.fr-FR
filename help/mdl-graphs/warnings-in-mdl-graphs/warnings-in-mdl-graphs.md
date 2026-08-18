@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les graphiques MDL dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html), et propose des étapes de dépannage courantes pour chacun d&#39;eux.
 
-Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
+Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
 
 >[!NOTE]
 >

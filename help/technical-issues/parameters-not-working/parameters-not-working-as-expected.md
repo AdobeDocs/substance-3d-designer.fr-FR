@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes liés aux paramètres de graphique de Substance qui ne fonctionnent pas comme prévu et trouvez des solutions.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Cette page répertorie les causes courantes de dysfonctionnement des paramètres
 
 <b> ![(error)](../../assets/error.svg) Problème</b>
 
-Certains paramètres exposés pour un graphique ne sont *pas répertoriés* lors de l&#39;utilisation du [mode Aperçu](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) dans Designer, ou dans la liste de paramètres des [actifs Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) publiés à partir de ce graphique.
+Certains paramètres exposés pour un graphique ne sont *pas répertoriés* lors de l&#39;utilisation du [mode Aperçu](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) dans Designer, ou dans la liste de paramètres des [actifs Substance 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) publiés à partir de ce graphique.
 
 <b> ![(tick)](../../assets/check.svg)Étapes recommandées</b>
 

@@ -26,7 +26,7 @@ Cette page décrit les synergies entre les [graphes en Substances](../../composi
 
 Les sorties des graphiques de Substance peuvent être *transmises aux paramètres exposés* des matériaux MDL de deux manières, décrites dans cette page.
 
-Si la matière MDL actuellement appliquée dans la vue 3D présente des paramètres dont le type est *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - ce type peut être défini à l&#39;aide de l&#39;option <b>Modificateur de type</b> dans les [propriétés du paramètre exposé](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), ceux-ci peuvent être connectés à *des textures* :
+Si la matière MDL actuellement appliquée dans la vue 3D présente des paramètres dont le type est *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - ce type peut être défini à l&#39;aide de l&#39;option <b>Modificateur de type</b> dans les [propriétés du paramètre exposé](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), ceux-ci peuvent être connectés à *des textures* :
 
 * un paramètre <b>Color</b> peut être connecté aux textures RGBA
 * paramètre <b>Float</b> pour les textures en niveaux de gris

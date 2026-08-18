@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Apprenez à importer, créer et utiliser des bitmaps dans Substance 3D Designer pour créer des textures.
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ Contrairement aux ressources SVG (images vectorielles), les bitmaps sont toujour
 
 ### Dans les ressources Substance 3D (SBSAR)
 
-Dans les [fichiers SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), les bitmaps sont incorporés, ce qui signifie qu&#39;ils ont un impact important sur la taille finale des fichiers SBSAR. Pour en savoir plus sur l’impact sur la taille des fichiers, consultez cette page. Lorsque des fichiers SBSAR [sont publiés](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), seules les images bitmap utilisées pour calculer la sortie d&#39;un graphique sont incorporées. Toutes les images bitmap inutilisées sont optimisées et exclues du package SBSAR final, sans effet sur la taille du fichier.
+Dans les [fichiers SBSAR](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), les bitmaps sont incorporés, ce qui signifie qu&#39;ils ont un impact important sur la taille finale des fichiers SBSAR. Pour en savoir plus sur l’impact sur la taille des fichiers, consultez cette page. Lorsque des fichiers SBSAR [sont publiés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), seules les images bitmap utilisées pour calculer la sortie d&#39;un graphique sont incorporées. Toutes les images bitmap inutilisées sont optimisées et exclues du package SBSAR final, sans effet sur la taille du fichier.
 
 ## Type de fichier, mode colorimétrique et résolution
 
@@ -71,4 +71,4 @@ Les ressources bitmap d’un package possèdent un certain nombre d’attributs 
 
 ## Réduction de la taille des fichiers
 
-Consultez la page [Directives de réduction de la taille des fichiers](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) dans la section [Pratiques recommandées](../../best-practices/best-practices.md) pour nos recommandations concernant la réduction de la taille des fichiers des bitmaps incorporés dans [ressources Substance 3D publiées](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Consultez la page [Directives de réduction de la taille des fichiers](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) dans la section [Pratiques recommandées](../../best-practices/best-practices.md) pour nos recommandations concernant la réduction de la taille des fichiers des bitmaps incorporés dans [ressources Substance 3D publiées](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds utilitaires des générateurs basés sur les filets dans Substance 3D Designer pour manipuler les données et les projections de filet.
 helpx_creative_field: ""

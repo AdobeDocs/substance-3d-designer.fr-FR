@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ''
 description: Explorez les exemples de graphiques fonctionnels dans Substance 3D Designer pour découvrir les techniques avancées et les bonnes pratiques.
 helpx_creative_field: ""

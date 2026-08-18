@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et modifier des graphiques fonctionnels dans Substance 3D Designer pour créer des réseaux de nœuds réutilisables.
 helpx_creative_field: ""

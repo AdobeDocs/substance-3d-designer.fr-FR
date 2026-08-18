@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les threads dans les scripts Substance 3D Designer Python pour le traitement et les performances parallèles.
 helpx_creative_field: ""

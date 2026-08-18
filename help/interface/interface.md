@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Découvrez l’interface de l’espace de travail Substance 3D Designer, notamment les affichages, les panneaux et les options de personnalisation.
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ La barre d&#39;outils principale vous permet d&#39;accéder à des menus supplé
 
 ## Propriétés
 
-[Le dock des propriétés](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) est la fenêtre la plus technique. Il est toujours contextuel et présente des curseurs, des listes déroulantes et d’autres éléments qui modifient le comportement d’une ressource ou d’un nœud sélectionné.
+[Le dock des propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) est la fenêtre la plus technique. Il est toujours contextuel et présente des curseurs, des listes déroulantes et d’autres éléments qui modifient le comportement d’une ressource ou d’un nœud sélectionné.
 
 ![Propriétés](../assets/properties-15.jpg "Propriétés")
 

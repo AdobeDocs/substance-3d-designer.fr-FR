@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Choisissez entre les rendus pixellisé et tracé dans la vue 3D pour obtenir une qualité d’aperçu et des performances différentes.
 helpx_creative_field: ""
