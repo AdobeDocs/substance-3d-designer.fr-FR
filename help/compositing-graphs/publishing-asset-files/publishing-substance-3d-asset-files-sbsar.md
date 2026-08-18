@@ -40,7 +40,7 @@ lors de la publication d’un graphique en Substance, il est important de garder
 
 La publication nécessite davantage de préparation que l’exportation d’images bitmap. En effet, les actifs Substance 3D publiés sont des outils dynamiques et non pas simplement un instantané statique de l’état actuel de vos textures. Plus précisément, vous devez garder à l’esprit les points suivants :
 
-* Assurez-vous que les résolutions de graphique ([Taille de sortie](../../compositing-graphs/output-size/output-size.md)) sont définies sur la *méthode d&#39;héritage relative à la parente*[5}, ce qui signifie qu&#39;elles sont dynamiques et peuvent être modifiées à la volée.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
+* Assurez-vous que les résolutions de graphique ([Taille de sortie](../../compositing-graphs/output-size/output-size.md)) sont définies sur la *méthode d&#39;héritage relative à la parente*[5&rbrace;, ce qui signifie qu&#39;elles sont dynamiques et peuvent être modifiées à la volée.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 * Assurez-vous que les [sorties graphiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) sont correctement configurées avec les noms, les libellés et les balises d&#39;utilisation.
 * Assurez-vous que les [paramètres, si nécessaire, sont organisés et nommés correctement](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * Si un graphique décrit un matériau, définissez son attribut [modèle de matériau](../graph-parameters/graph-parameters.md) sur le modèle de ce matériau.

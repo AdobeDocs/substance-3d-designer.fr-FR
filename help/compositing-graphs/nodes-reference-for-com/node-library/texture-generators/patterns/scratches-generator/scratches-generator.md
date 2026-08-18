@@ -58,8 +58,8 @@ Il existe une version spéciale de Scratches Generator, Scratches Generator Norm
 * **Définir la largeur de la spline en px** : *Faux/Vrai* détermine les unités utilisées pour les paramètres de largeur de spline.
 * **Luminance aléatoire (version en niveaux de gris uniquement)** : *0.0 - 1.0* aléatoire la luminance de chaque spline individuellement.
 * **Intensité normale (version normale uniquement)** : *0.0 - 1.0* Définit globalement l&#39;intensité de l&#39;effet Normal pour chaque spline.
-* ** Intensité normale Aléatoire ** (version normale uniquement)**** : *0.0 - 1.0*aléatoire individuellement l&#39;intensité normale de chaque spline.
-* ** Format normal **(version normale uniquement)**** : *DirectX, OpenGL*\
+* **&#x200B; Intensité normale Aléatoire &#x200B;** (version normale uniquement)**&#x200B;** : *0.0 - 1.0*aléatoire individuellement l&#39;intensité normale de chaque spline.
+* **&#x200B; Format normal &#x200B;**(version normale uniquement)**&#x200B;** : *DirectX, OpenGL*\
   Bascule entre différents formats de mappage normal (inverse la couche verte).
 * **Mode de fondu** : *Aucun, Début, Fin, Début + Fin* Définit si et dans quelle direction les splines fondent.
 * **Longueur du fondu** : *0.0 - 1.0* Définit la longueur de l’effet de fondu, si cette option est activée ci-dessus.

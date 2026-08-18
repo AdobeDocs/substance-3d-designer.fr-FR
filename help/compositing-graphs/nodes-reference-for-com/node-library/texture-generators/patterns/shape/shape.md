@@ -55,7 +55,7 @@ Malgré sa simplicité, il s&#39;agit d&#39;un nœud très utile : c&#39;est la 
 * **Rotation 45°** : *Faux/Vrai* Rotation à 45 degrés prédéfinis.
 * **Extension non carrée** : *Faux/Vrai*\
   Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-* **Carrelage non carré****:** *Faux/Vrai*Lorsque l’Extension non carrée est activée, la forme est carrelée sans être écrasée.
+* **Carrelage non carré**&#x200B;**:** *Faux/Vrai*Lorsque l’Extension non carrée est activée, la forme est carrelée sans être écrasée.
 
 ## Exemples d’images
 

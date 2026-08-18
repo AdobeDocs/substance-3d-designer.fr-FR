@@ -81,7 +81,7 @@ Quelques conseils d’utilisation généraux :
   * **Aléatoire de symétrie** : *0.0 - 1.0* Le mode aléatoire de symétrie sélectionné reflète aléatoirement certains motifs. Plus cette valeur est élevée, plus les motifs seront mis en miroir.
   * **Mode aléatoire de symétrie** : *Horizontal + Vertical, Horizontal, Vertical* Détermine le comportement de mise en miroir lorsque le mode aléatoire de symétrie est supérieur à 0.
 * **Taille**
-  * **** Mode Taille **:***Normal - Interstice, Normal - Taille, Conserver le rapport, Absolu, Pixel*Définit le comportement général de la taille du motif.\
+  * **&#x200B;**&#x200B;Mode Taille **:***Normal - Interstice, Normal - Taille, Conserver le rapport, Absolu, Pixel*Définit le comportement général de la taille du motif.\
     Normal - L’interstice vous permet de définir l’espace entre les éléments de motif. Elle est affectée par les valeurs X et Y.\
     Normal - Taille vous permet de définir la taille des éléments de motif, quel que soit l’espace. Elle est affectée par les valeurs X et Y.\
     L’option Conserver le rapport vous permet de définir une taille affectée par les valeurs X et Y, mais le rapport X et Y entre les deux reste intact.\
