@@ -51,10 +51,10 @@ Prend les données d&#39;[éclaboussure de forme](../../../../../../compositing-
 
 * **Numéro de motif** : *1 - 8*
 * **Attribution Aléatoire De Motif (Couleur Uniquement)** : *0.0 - 1.0*
-* ** Correspond À La ** De Mappage Normale (Couleur Uniquement)**** : *Faux/Vrai*
+* **&#x200B; Correspond À La &#x200B;** De Mappage Normale (Couleur Uniquement)**&#x200B;** : *Faux/Vrai*
 * **Réglage TSL/Luminance** : *-1,0 - 1,0*
 * **HSL/Luminance aléatoire** : *-1.0 - 1.0*
-* ** aléatoire d&#39;angle normal (couleur uniquement)**** : *0.0 - 1.0*
+* **&#x200B; aléatoire d&#39;angle normal (couleur uniquement)**&#x200B;** : *0.0 - 1.0*
 * **Opacité d&#39;entrée de couleur** : *0.0 - 1.0*
 
 ## Exemples d’images

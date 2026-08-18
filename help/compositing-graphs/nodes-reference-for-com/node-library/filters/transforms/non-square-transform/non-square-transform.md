@@ -55,7 +55,7 @@ Assurez-vous de bien comprendre les [paramètres du graphique](../../../../../..
   Déplace ou traduit le résultat. Double-cliquez sur le curseur pour entrer des valeurs négatives.
 * **Rotation** : *0.0 - 1.0* Fait pivoter l’image d’entrée.
 * **Rotation sécurisée (carré uniquement)** :*Faux/Vrai* s’accroche aux valeurs sécurisées pour conserver la netteté des pixels.
-* **Couleur d&#39;arrière-plan** : *(Valeur de couleur)*Couleur d&#39;arrière-plan pour remplir l&#39;image. Visible uniquement lorsque le [mode Mosaïque dans les paramètres de base est défini sur « *Aucune mosaïque*« ](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md).
+* **Couleur d&#39;arrière-plan** : *(Valeur de couleur)*Couleur d&#39;arrière-plan pour remplir l&#39;image. Visible uniquement lorsque le [mode Mosaïque dans les paramètres de base est défini sur « *Aucune mosaïque*« &#x200B;](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 ## Exemples d’images
 

@@ -39,7 +39,7 @@ Comme pour les langages de programmation, l&#39;Id... Le nœud Else introduit la
 </tr>
 </table>
 
-Vous utiliserez ce nœud conjointement avec les [ nœuds logiques](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) et les [nœuds de comparaison](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) qui vous aideront à créer la condition à vérifier.
+Vous utiliserez ce nœud conjointement avec les [&#x200B; nœuds logiques](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) et les [nœuds de comparaison](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) qui vous aideront à créer la condition à vérifier.
 
 +++Connecteurs d’entrée
 <b>Condition</b> *Booléen*\

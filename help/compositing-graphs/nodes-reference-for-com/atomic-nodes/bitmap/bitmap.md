@@ -33,7 +33,7 @@ Charge une [ressource bitmap](../../../../resources/bitmap-resource/bitmap-resou
 
 Ce nœud est utilisé pour importer un [bitmap](../../../../glossary/glossary.md) dans votre graphique ou pour créer un bitmap à utiliser avec les [outils de peinture bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous compreniez[ la différence entre la liaison et l&#39;importation de ressources.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous compreniez[&#x200B; la différence entre la liaison et l&#39;importation de ressources.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>

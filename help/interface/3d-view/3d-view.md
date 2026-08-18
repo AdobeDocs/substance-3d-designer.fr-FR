@@ -548,7 +548,7 @@ La barre d&#39;outils <b>Affichage</b>, qui se trouve par défaut au *bas* du pa
 
 >[!NOTE]
 >
-> La barre d&#39;outils peut être *repositionnée* autour du dock **Vue 3**** D** à l&#39;aide de la *poignée* la plus à gauche représentée par trois lignes parallèles.
+> La barre d&#39;outils peut être *repositionnée* autour du dock **Vue 3**&#x200B;**&#x200B; D** à l&#39;aide de la *poignée* la plus à gauche représentée par trois lignes parallèles.
 
 ### Canaux de couleur
 
