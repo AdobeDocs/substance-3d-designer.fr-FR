@@ -41,7 +41,7 @@ Ce nœud est la version multicanal et matérielle complète de [Recadrage](../..
 
 >[!NOTE]
 >
-> [Voir le recadrage d&#39;origine](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[2}pour plus d&#39;informations](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md).](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[
+> [Voir le recadrage d&#39;origine](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [2&rbrace;pour plus d&#39;informations](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md).[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
 ## Paramètres
 
