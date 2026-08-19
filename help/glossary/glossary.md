@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Accédez au glossaire Substance 3D Designer pour trouver les définitions de termes, de concepts et de terminologie technique.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>Scène 3D</b> | Collection d’objets et de données impliqués dans la représentation et l’animation d’une visualisation de l’espace 3D :<ul data-preserve-html="true"> <li data-preserve-html="true">[Maillages](#mesh)</li> <li data-preserve-html="true">[Matières](#material)</li> <li data-preserve-html="true">Caméras</li> <li data-preserve-html="true">Lumières</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulations</li> <li data-preserve-html="true">...</li> </ul>[Les formats de fichiers les plus populaires](https://www.adobe.com/fr/products/substance3d/discover/3d-files-formats.html) pour stocker des scènes 3D incluent [USD](#usd) de Pixar et FBX d&#39;Autodesk. Tous les formats de fichiers ne prennent pas en charge tous ces composants |
+| <b><span id="three-d-scene"></span>Scène 3D</b> | Collection d’objets et de données impliqués dans la représentation et l’animation d’une visualisation de l’espace 3D :<ul data-preserve-html="true"> <li data-preserve-html="true">[Maillages](#mesh)</li> <li data-preserve-html="true">[Matières](#material)</li> <li data-preserve-html="true">Caméras</li> <li data-preserve-html="true">Lumières</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulations</li> <li data-preserve-html="true">...</li> </ul>[Les formats de fichiers les plus populaires](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) pour stocker des scènes 3D incluent [USD](#usd) de Pixar et FBX d&#39;Autodesk. Tous les formats de fichiers ne prennent pas en charge tous ces composants |
 
 ## A
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 | --- | --- |
 | <b><span id="renderer"></span>Moteur de rendu</b> | Programme qui traite les informations 3D telles que les lumières, les filets et les matières pour créer des images 2D. |
 | <b><span id="rendering"></span>Rendu </b>(Vue 3D) | Processus de calcul d&#39;une image en fonction des données d&#39;entrée, à l&#39;aide d&#39;un programme tel qu&#39;un [moteur de rendu](#renderer). |
-| <b><span id="resolution"></span>Résolution</b> | Quantité de pixels horizontalement et verticalement qui forment une [image bitmap](#bitmap). Plus de pixels permettent de représenter des détails plus fins.   Dans les graphiques de Substance, la résolution d&#39;une image bitmap calculée par un [nœud](#node) est contrôlée par le paramètre de base [Taille de sortie](#output-size) [&#x200B; du nœud.](#base-parameter) |
+| <b><span id="resolution"></span>Résolution</b> | Quantité de pixels horizontalement et verticalement qui forment une [image bitmap](#bitmap). Plus de pixels permettent de représenter des détails plus fins.   Dans les graphiques de Substance, la résolution d&#39;une image bitmap calculée par un [nœud](#node) est contrôlée par le paramètre de base [Taille de sortie](#output-size)[ du nœud.](#base-parameter) |
 | <b><span id="roughness"></span>Rugosité</b> | Canal d&#39;un [matériau](../glossary/glossary.md) défini à l&#39;aide du modèle de rugosité métallique PBR [ombrage](../glossary/glossary.md). La rugosité désigne la rugosité d&#39;une surface, c&#39;est-à-dire les variations microscopiques de l&#39;height, également appelées *microfacettes*.   Une forte rugosité donne un aspect mat, tandis qu’une faible rugosité donne un aspect lisse et brillant.   C&#39;est l&#39;inverse de [brillance](#glossiness). |
 
 ## S
