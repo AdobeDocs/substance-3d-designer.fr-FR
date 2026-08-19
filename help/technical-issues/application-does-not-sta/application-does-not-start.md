@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes qui empêchent Substance 3D Designer de démarrer et trouvez des solutions pour lancer l’application.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: L’application ne démarre pas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ Cette page répertorie les causes courantes d’échec du démarrage de Substanc
 
 ## Designer 15.0 et versions ultérieures
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](../../assets/error.svg) Problème</b>
 
 Les versions 15.0 et ultérieures de Designer ne peuvent pas démarrer sur les systèmes disposant à la fois d’un GPU intégré (iGPU) et d’un GPU distinct (dGPU).
 
-<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
 
 Mettez à jour les pilotes graphiques de l’iGPU. Vous trouverez les derniers pilotes ici : [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
@@ -86,11 +86,11 @@ Si la mise à niveau vers Windows 10 n&#39;est pas possible, *ne mettez pas à j
 
 ## Linux
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](../../assets/error.svg) Problème</b>
 
 Blocage lors de la fermeture de l’écran d’accueil et de l’affichage de la fenêtre principale.
 
-<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
 
 Designer ne parvient pas à charger les composants Python, car il charge la bibliothèque <b>libffi.so</b> du système au lieu de la sienne.
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b> ![(error)](../../assets/error.svg) Issu</b><b>e</b>
+<b>![(erreur)](../../assets/error.svg) Issu</b><b>e</b>
 
 Impossible de charger le plug-in `<b>xcb</b>`. Le message suivant s’affiche dans la ligne de commande :
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](../../assets/error.svg) Problème</b>
 
 Cette erreur se produit lors du démarrage de Designer :
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Une bibliothèque système chargée par Designer n&#39;est pas compatible avec la bibliothèque <b>libcrypto.so.1.1</b> de Designer.
 
-<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
 
 Supprimez la bibliothèque <b>`libcrypto.so.1.1`</b> du répertoire d&#39;installation de Designer afin que la bibliothèque du système soit utilisée à la place.
 
@@ -193,7 +193,7 @@ Supprimez la bibliothèque <b>`libcrypto.so.1.1`</b> du répertoire d&#39;instal
 >
 > Cette solution fonctionne uniquement lorsque le système dispose de sa propre bibliothèque libcrypto.so.1. Sur les distributions récentes, un package de compatibilité tel que <b>libxcrypt-compat</b> doit peut-être être installé.
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](../../assets/error.svg) Problème</b>
 
 Substance 3D Designer ne démarre pas sur les systèmes utilisant des distributions Linux *basées sur Arch*.
 
