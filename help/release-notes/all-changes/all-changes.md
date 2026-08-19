@@ -31,7 +31,7 @@ ht-degree: 0%
 * [Vue 3D] Rapprochez la résolution de rendu à 4 096 en X et en Y
 * [Bakers] Mise à jour de bake-sdk vers 3.22.3
 * [Engine] Mettez à jour le moteur de Substance vers la version 9.4.4
-* [OpenGL][OpenPBR] Réduction du bruit dans le lobe de specular pour une rugosité et une anisotropie élevées
+* [OpenGL]&#x200B;[OpenPBR] Réduction du bruit dans le lobe de specular pour une rugosité et une anisotropie élevées
 * [Scènes] Conserver le mode d’interpolation UV primaire
 
 **Fixe :**
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 * [Vue 3D] Fuite de VRAM dans le traceur de chemin du GPU lorsque le displacement est activé
 * [Vue 3D] Le thread principal reste occupé lorsque la vue 3D existe
-* [Vue 3D][OpenPBR] OpenGL : les widgets « Épaisseur » semblent être bridés, mais acceptent des valeurs hors plage
+* [Vue 3D]&#x200B;[OpenPBR] OpenGL : les widgets « Épaisseur » semblent être bridés, mais acceptent des valeurs hors plage
 * [Crash] Blocage lors du déplacement de l’entrée référencée à plusieurs endroits à la fois
 * [Crash] Blocage lors de l’agrandissement d’une fenêtre
 * [Crash] Blocage lors de l’écriture de TARGA ou BMP à partir du boulanger
 * [Blocage] Blocage aléatoire lors de l’affichage de la vue 3D
 * [Graphique] Ordre incorrect des épingles d’E/S lors du déplacement des E/S après la modification des identificateurs
-* [Linux][Exporter] Les boîtes de dialogue « Publish sbsar » et « Envoyer à » n’ajoutent pas d’extension de fichier
+* [Linux]&#x200B;[Exporter] Les boîtes de dialogue « Publish sbsar » et « Envoyer à » n’ajoutent pas d’extension de fichier
 
 ### 16.0.1
 
@@ -98,22 +98,22 @@ ht-degree: 0%
 **Fixe :**
 
 * [Vue 3D] La mise à l’échelle de la fenêtre est appliquée lors de l’utilisation d’une résolution fixe
-* [Vue 3D][OpenPBR] Blocage lors du chargement d’une scène GLTF exportée à partir de Designer et de l’utilisation d’une matière OpenPBR
-* [Vue 3D][OpenPBR] Les matières exportées depuis Painter ne peuvent pas être remplacées dans Designer
+* [Vue 3D]&#x200B;[OpenPBR] Blocage lors du chargement d’une scène GLTF exportée à partir de Designer et de l’utilisation d’une matière OpenPBR
+* [Vue 3D]&#x200B;[OpenPBR] Les matières exportées depuis Painter ne peuvent pas être remplacées dans Designer
 * [Contenu] Visionneuse 3D : shape.id n’est pas initialisé et génère des messages dans la console
 * [Contenu] Mappeur d’éclaboussures de forme v2 en niveaux de gris : l’entrée de motif 4 est inutilisée dans la projection triplanaire
 * [Contenu] Mappeur d’éclaboussures de forme v2 : l’ID SDF est décalé de -1 lors de l’utilisation du mode « 1 image par ID de matériau »
-* [Eclair][USD] résultat incorrect lors de l’application d’une matière sur un USD généré par Designer
+* [Eclair]&#x200B;[USD] résultat incorrect lors de l’application d’une matière sur un USD généré par Designer
 * [Moteur] Calcul d&#39;un nouveau nœud Niveaux Forme éclaboussure V2 graphique principal brouillé suite aux calculs
 * [Engine] Le module d’une variable par rapport à sa valeur égale ne renvoie pas 0 avec le moteur GPU dans certains cas
-* [Engine][Content] Arc tangent 2 renvoie 0 ou Pi pour les vecteurs X-right dans un cas spécifique
-* [Moteur][Ubuntu][SSE2] Blocage lors du chargement d’un SBSAR spécifique dans le graphique
+* [Engine]&#x200B;[Content] Arc tangent 2 renvoie 0 ou Pi pour les vecteurs X-right dans un cas spécifique
+* [Moteur]&#x200B;[Ubuntu]&#x200B;[SSE2] Blocage lors du chargement d’un SBSAR spécifique dans le graphique
 * [Graphique] Blocage lors de la connexion de la sortie du processeur de valeurs à l’entrée bitmap
 * [Graphique] Blocage lors du branchement de la valeur dans l’entrée d’image dans certains cas
 * [Graphique] Le graphique est automatiquement calculé à chaque enregistrement automatique lors de l’utilisation des maps bakées
 * [GraphRender] Blocage lors de la connexion de la sortie de valeur d’Atlas scatter à l’entrée d’image d’Atlas splitter
-* [Linux][Exporter] Le format de fichier modifié est ignoré dans les boîtes de dialogue d’enregistrement de fichier
-* [Mac][Steam] Une fenêtre contextuelle de sécurité s’affiche lorsque nous démarrons Designer
+* [Linux]&#x200B;[Exporter] Le format de fichier modifié est ignoré dans les boîtes de dialogue d’enregistrement de fichier
+* [Mac]&#x200B;[Steam] Une fenêtre contextuelle de sécurité s’affiche lorsque nous démarrons Designer
 * [Filet] Les matériaux OBJ ne sont pas importés correctement
 * [PSD] L’importateur de PSDS demande d’extraire des calques du fichier PSD à chaque enregistrement automatique
 
@@ -268,7 +268,7 @@ ht-degree: 0%
 * [Moteur] Niveaux : les valeurs à virgule flottante sont toujours serrées sur [0, 1]
 * [Bakers] La correspondance de la géométrie par nom de parent (hérité) ne fonctionne pas pour les sous-maillages
 * [Boulangers] Couleur : les modifications apportées aux couleurs de matière dans l’interface utilisateur sont ignorées
-* [Vue 3D][Bakers] Le chargement du fichier OBJ prend beaucoup de temps
+* [Vue 3D]&#x200B;[Bakers] Le chargement du fichier OBJ prend beaucoup de temps
 
 ### 15.1.1
 
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 * [Échantillons] Ajoutez deux échantillons pour créer des sections afin d’alimenter l’outil ruban Painter
 * [Moteur] Mise à jour vers la Substance Engine v9.3.2
-* [Moteur][Métal] Améliorer les performances
+* [Moteur]&#x200B;[Métal] Améliorer les performances
 * [Moteur] L’interpolation bilinéaire des textures entières est désormais effectuée avec une précision accrue (back-end du processeur).
 * [Boulangers] Consigner un avertissement si la couleur du sommet est absente du maillage poly élevé
 * [Branding] Mise à jour des icônes de types de fichiers
@@ -292,11 +292,11 @@ ht-degree: 0%
 * [Contenu] RGB à la fonction TSL : résultat incorrect pour près de 0 entrée
 * [Graphique] Le générateur d’icônes/de vignettes de graphique ne fonctionne pas
 * [Graphique] Menu Nœud : les éléments regroupés sans vignette n’ont pas de retrait.
-* [Moteur][Contenu] Couleur pour masquer v2 : artefacts sur le moteur SSE2 lors de l’utilisation de l’espace colorimétrique de distance Lab
-* [Moteur][Contenu] Couleur pour masquer v2 : artefacts sur les moteurs GPU arm64 lors de l’utilisation de l’espace colorimétrique de distance Lab
-* [Moteur][Métal] Sortie d&#39;irradiance noire pour nœud de Rendu PBR
-* [Moteur][Mac] Résultat incorrect dans une fonction de processeur de pixels sur Metal
-* [Moteur][Mac] Améliorez la précision de certaines instructions utilisées dans les processeurs pixellisés sur les GPU Apple Silicon M1/M2
+* [Moteur]&#x200B;[Contenu] Couleur pour masquer v2 : artefacts sur le moteur SSE2 lors de l’utilisation de l’espace colorimétrique de distance Lab
+* [Moteur]&#x200B;[Contenu] Couleur pour masquer v2 : artefacts sur les moteurs GPU arm64 lors de l’utilisation de l’espace colorimétrique de distance Lab
+* [Moteur]&#x200B;[Métal] Sortie d&#39;irradiance noire pour nœud de Rendu PBR
+* [Moteur]&#x200B;[Mac] Résultat incorrect dans une fonction de processeur de pixels sur Metal
+* [Moteur]&#x200B;[Mac] Améliorez la précision de certaines instructions utilisées dans les processeurs pixellisés sur les GPU Apple Silicon M1/M2
 * [Moteur] Le redimensionnement des images d’entrée (ou des ressources intégrées) n’introduira plus d’artefacts de bordure (back-end du processeur)
 * [Moteur] Le filtre Niveaux ne verrouille plus ses valeurs d’entrée en virgule flottante lors de la sortie de textures 8I/16I (back-end du processeur)
 * [Engine] Correction d’un bug FxMaps où les images d’entrée en niveaux de gris consommées par les nœuds FxMaps pouvaient être échantillonnées de manière incorrecte (back-end du processeur)
@@ -371,8 +371,8 @@ ht-degree: 0%
 * Le Specular level [Vue 3D] n’est pas appliqué correctement
 * [Vue 3D] Le Specular edge color ne fonctionne pas lors de l’utilisation de la pixellisation Eclair
 * [Vue 3D] La matière ajoutée par l’utilisateur n’est pas appliquée aux scènes par défaut
-* [Vue 3D][Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
-* [Vue 3D][Bakers] Aucune couleur de matière du fichier FBX
+* [Vue 3D]&#x200B;[Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
+* [Vue 3D]&#x200B;[Bakers] Aucune couleur de matière du fichier FBX
 * [Boulangers] Les couleurs de matériau dans les fichiers FBX ne sont pas correctement détectées
 * [Bakers] L’option « recalculer\_tangentes » est toujours « false » dans les exportations de paramètres prédéfinis JSON
 * [Bakers] CLI : Blocage lors de l’exécution du même baker de manière consécutive via un fichier JSON
@@ -424,15 +424,15 @@ ht-degree: 0%
 * [Vue 3D] Le menu contextuel de la clôture ne s’affiche pas pour des scènes spécifiques
 * [Vue 3D] Les badges « Vu en vue 3D » ne sont pas effacés lors du changement de scène dans un cas spécifique
 * [Vue 3D] Couleur délavée dans la vue 3D lors de l’utilisation de la gestion des couleurs ACE Adobe
-* [Vue 3D][Linux] Plusieurs scènes s’affichent en noir dans le moteur de rendu OpenGL
-* [Vue 3D][Scene Browser] Les touches fléchées déplacent la sélection à la racine
+* [Vue 3D]&#x200B;[Linux] Plusieurs scènes s’affichent en noir dans le moteur de rendu OpenGL
+* [Vue 3D]&#x200B;[Scene Browser] Les touches fléchées déplacent la sélection à la racine
 * [BakerCLI] Impossible de remplacer certains paramètres
 * [Boulangers] Artefacts en dilatation lors de l&#39;utilisation de boulangers normaux avec anticrénelage
 * [Boulangers] Le processus de cuisson s&#39;est brusquement arrêté dans l&#39;interface de ligne de commande tout en cuisant une grande quantité d&#39;UDIM à 4K
 * [Boulangers] Blocage lors de l’enfoncement du boulanger dans la liste des boulangers dans un cas spécifique
 * [Bakers] La sélection du format passe de .surface à .dds
 * [Boulangers] Geler pendant la cuisson d&#39;une grande quantité d&#39;UDIM à 4K
-* [Boulangers][macOS] Blocage lors du transfert de texture au four avec l’anticrénelage
+* [Boulangers]&#x200B;[macOS] Blocage lors du transfert de texture au four avec l’anticrénelage
 * [Contenu] Liste de points : les points ne sont pas dans le bon ordre lorsque la texture des données n’est pas carrée
 * [Contenu] Afficher la palette de couleurs : les nœuds internes sont calculés à des résolutions trop élevées
 * [Données] Blocage lors du changement de nom de la sortie pour corriger la sortie fantôme dans l’instance
@@ -468,13 +468,13 @@ ht-degree: 0%
 * [Vue 3D] L’option « Afficher uniquement » sur le sous-ensemble masque son filet parent
 * [Vue 3D] Les scènes par défaut chargées à partir d’un fichier apparaissent avec une couleur de base incorrecte
 * [Vue 3D] La propriété « Échelle UV » est réinitialisée lors du passage d’OpenGL à un autre moteur de rendu et inversement
-* [Vue 3D][Iray] Les rendus sont souvent flous et pixellisés
+* [Vue 3D]&#x200B;[Iray] Les rendus sont souvent flous et pixellisés
 * [Bakers] Artefacts lors de l’utilisation de la diffusion sur un GPU AMD
 * [Boulangers] La cuisson échoue avec certaines scènes pour les jeux UV autres que 0
 * [Boulangers] &#39;Texture transférée&#39; : La liste &#39;UV Set&#39; ne prend pas en compte l&#39;option &#39;Utiliser low as high poly&#39;
 * [Bakers] La sélection des tuiles UV est toujours réinitialisée sur &#39;Tous&#39;
 * [Graphique] Blocage lors de la suppression d’un nœud en contexte
-* [Mac OS][Vue 3D] Résolution de rendu incorrecte sur les écrans mac
+* [Mac OS]&#x200B;[Vue 3D] Résolution de rendu incorrecte sur les écrans mac
 * [Paramètres] Les paramètres modifiés ne sont pas stylisés lors du premier affichage
 * [UX] Les éléments désactivés dans le menu déroulant sont invisibles
 
@@ -605,8 +605,8 @@ ht-degree: 0%
 * [Contenu] Fibres 1 : artefacts visuels lors de la conversion en carte normale
 * [Contenu] Le rendu de RT AO, Shadows, Bent Normal est incorrect dans certains cas
 * [Boulangers] Les éléments de menu avec sous-menus ne laissent pas une marge à droite du texte
-* [MacArm][sbsrender] Moteur processeur incorrect lorsque le moteur GPU est introuvable
-* [Mac/Linux][sbsrender] Moteur GPU par défaut incorrect
+* [MacArm]&#x200B;[sbsrender] Moteur processeur incorrect lorsque le moteur GPU est introuvable
+* [Mac/Linux]&#x200B;[sbsrender] Moteur GPU par défaut incorrect
 
 ### 14.1.1
 
@@ -689,7 +689,7 @@ ht-degree: 0%
 * [Graphique de fonction] Les valeurs longues apparaissent chevauchées sur les nœuds &#39;Float&#39;
 * [Fx-Map] Blocage lors de l’affichage des propriétés du nœud de quadrant
 * [Graphique] [UDIM] Avoir une barre de défilement dans la liste UDIM donne 1..1 1..2 entrées
-* [Graphique][Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
+* [Graphique]&#x200B;[Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
 * [Propriétés] Affichage incorrect des paramètres lorsque la valeur n’est pas valide
 * [Publish] Les dépendances réciproques entraînent une boucle infinie lors de la publication d’un pack
 * [Publish] Échec silencieux lors de l’utilisation de l’action « Publish » sur un pack avec une dépendance déchargée
@@ -730,7 +730,7 @@ ht-degree: 0%
 * [Moteur] Le nœud Distance produit des artefacts lors de l’utilisation de tailles de pixels très faibles
 * [Engine] Résultat de nœud de distance incorrect à une résolution de 8K sur le moteur SSE2
 * [Graphique de fonction] Les valeurs longues apparaissent chevauchées sur les nœuds &#39;Float&#39;
-* [Graphique][Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
+* [Graphique]&#x200B;[Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
 * [Propriétés] Affichage incorrect des paramètres lorsque la valeur n’est pas valide
 
 ### 14.0.0
@@ -754,7 +754,7 @@ ht-degree: 0%
 * [Content] Nœud « Negate Float1 » obsolète dans le graphique de fonction de Substance
 * [Contenu] Renommez « Quantize Color » en « Quantize Color (Simple) ».
 * [Vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
-* [Moteur][Texte] Nouveau crénage pour certaines polices
+* [Moteur]&#x200B;[Texte] Nouveau crénage pour certaines polices
 * [Graphique] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
 * [Linker] Ne pas dupliquer les bitmaps dans SBSASM
 * [Paramètres] Ajout d’un nouveau widget « fonction » pour tous les types de paramètres d’entrée
@@ -831,7 +831,7 @@ ht-degree: 0%
 * [Graphique] Ancrage des images et des commentaires collés/dupliqués à la grille
 * [Images] Accrocher les nouvelles images et les nouveaux commentaires à la grille
 * [Contenu] « Courbure lisse » : ajoutez une note sur la prise en charge des mosaïques dans la description
-* [3DView][IRay] Autoriser l&#39;affectation de la sortie int au paramètre enum
+* [3DView]&#x200B;[IRay] Autoriser l&#39;affectation de la sortie int au paramètre enum
 * [AxF] Ajout de propriétés concernant le modèle de pelage transparent
 * [AxF] Amélioration de la gestion des erreurs lors de l’exportation
 * [AxF] Amélioration des matériaux GLSLFX et MDL pour la représentation « SVBRDF » telle que stockée dans un fichier AXF
@@ -981,8 +981,8 @@ ht-degree: 0%
 * [Contenu] Rendu spline : la sortie est verrouillée dans une plage [0, 1]
 * [Contenu] Exemple de Thickness spline : la spline peut être soustraite en valeurs négatives
 * [Contenu] Sélection de splines : par défaut, les splines sont fermées par un seul segment
-* [Blocage][Cooker] Blocage lors du chargement de graphiques spécifiques
-* [Blocage][UI] Blocage lors de l’activation des menus après le chargement du package depuis l’écran d’accueil
+* [Blocage]&#x200B;[Cooker] Blocage lors du chargement de graphiques spécifiques
+* [Blocage]&#x200B;[UI] Blocage lors de l’activation des menus après le chargement du package depuis l’écran d’accueil
 * Le lien [API] « Documentation de l’utilisateur » dans la référence des scripts est obsolète
 * [Propriétés] Impossible d’ouvrir la fonction de processeur de valeurs sur un graphique verrouillé
 * [Publish] Impossible de publier des packages contenant des graphiques MDL
@@ -1119,14 +1119,14 @@ ht-degree: 0%
 
 **Ajouté :**
 
-* [Cooker][Graph] Prendre en compte les balises de transformation EXIF dans le fichier JPEG
+* [Cooker]&#x200B;[Graph] Prendre en compte les balises de transformation EXIF dans le fichier JPEG
 * [Sécurité] Mise à niveau vers 23,02 USD
 * [Sécurité] Supprimer la prise en charge de l’importation de format de fichier Collada (.dae)
 * [Modèles de Substance] Avertissement concernant la fin de vie des graphiques de modèles de Substance dans la prochaine version majeure
 
 **Fixe :**
 
-* [Vue 3D][ASM] Artefact de rugosité de revêtement lors de l’utilisation d’une CoatNormal
+* [Vue 3D]&#x200B;[ASM] Artefact de rugosité de revêtement lors de l’utilisation d’une CoatNormal
 * [Contenu] Le paramètre « Cellules avec dégradé » du nœud Alveolus est inversé
 * [Contenu] Le nombre d&#39;entrées des nœuds à commutateurs multiples n&#39;est pas verrouillé
 * [Contenu] Avertissement de cuisson dans le nœud Normal de Scratches Generator
@@ -1165,7 +1165,7 @@ ht-degree: 0%
 * [Vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
 * [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur la couche alpha
 * [Localisation] Des curseurs et des boutons supplémentaires s’affichent dans les propriétés OpenGL de l’environnement.
-* [MDL][Substance de données] Blocage lors de la suppression de nœuds exposés
+* [MDL]&#x200B;[Substance de données] Blocage lors de la suppression de nœuds exposés
 * [Préférences] Le fichier par défaut\_config n’est jamais recréé s’il est supprimé
 * [modèle de Substance] Paramètre de réorganisation de blocage qui n&#39;apparaît pas au niveau de l&#39;instance
 
@@ -1365,7 +1365,7 @@ ht-degree: 0%
 * [Content] Nouvelle version du nœud Quantize Grayscale
 * [Contenu] Nouveaux bruits fractaux Voronoi et Voronoi (2D/3D)
 * [Contenu] Seuil : ajout du mode de comparaison « Inférieur » et « Inférieur et égal »
-* [Contenu][Vue 3D] Ajoutez un ajustement de maillage pour afficher les tissus aux ressources expédiées
+* [Contenu]&#x200B;[Vue 3D] Ajoutez un ajustement de maillage pour afficher les tissus aux ressources expédiées
 * [Modèles de Substance] Nouveau nœud Développer les instances de groupe
 * [Modèles de Substance] Nouveau nœud de Fuse
 * [Modèles de Substance] Nouveau nœud Renommer
@@ -1407,8 +1407,8 @@ ht-degree: 0%
 * [Contenu] Flood Fill : fond perdu de texte dans les boutons de paramètres booléens
 * [Contenu] Plage incorrecte pour le paramètre Angle du premier échantillon de lumière du nœud Plusieurs angles vers Normal
 * [Modèles de Substance] Les propriétés du nœud affichent l&#39;identificateur au lieu de l&#39;étiquette
-* [Modèles de Substance][Vue 3D] Problème d’actualisation lors de la réouverture d’un projet
-* [Modèles de Substance][3Dview] Problème d’actualisation lors de l’utilisation de l’aperçu structure filaire
+* [Modèles de Substance]&#x200B;[Vue 3D] Problème d’actualisation lors de la réouverture d’un projet
+* [Modèles de Substance]&#x200B;[3Dview] Problème d’actualisation lors de l’utilisation de l’aperçu structure filaire
 * [Paramètres] Blocage lors de la suppression rapide des entrées de graphique dans un cas spécifique
 * [Paramètres] Blocage lors de la réinitialisation d’un paramètre d’instance lors de la modification de sa description de référence
 * [Bitmap] La détection UDIM n&#39;est pas déclenchée pour les fichiers bitmap déposés dans le graphique
@@ -1429,8 +1429,8 @@ ht-degree: 0%
 **Fixe :**
 
 * [modèles de Substance] Les plages peuvent être perdues dans certains cas
-* [Modèles de Substance][Exporter] L’échelle est différente selon le type de fichier
-* [Modèles de Substance][Exporter] Les maillages sont dupliqués
+* [Modèles de Substance]&#x200B;[Exporter] L’échelle est différente selon le type de fichier
+* [Modèles de Substance]&#x200B;[Exporter] Les maillages sont dupliqués
 
 ### 11.3.2
 
@@ -1493,18 +1493,18 @@ ht-degree: 0%
 * [Modèles de Substance] Amélioration de l’affichage des bases
 * [Modèles de Substance] Conservez la hiérarchie des objets lors de l’exportation d’un graphique de modèle de Substance au format .fbx
 * [Modèles de Substance] Prise en charge de plusieurs matériaux dans l’exportation FBX/OBJ à partir du graphique Modèle de Substance
-* [Modèles de Substance][Contenu] Nœud de particule
-* [Modèles de Substance][Contenu] Nœud Transformation générative
-* [Modèles de Substance][Contenu] Nœud Motif organique
-* [Modèles de Substance][Contenu] Particules du nœud Instances
-* [Modèles de Substance][Contenu] Nœud de taille des particules
-* [Modèles de Substance][Contenu] Nœud de tour
-* [Modèles de Substance][Contenu] Nœud Shell
-* [Modèles de Substance][Contenu] Nœud de projection
-* [Modèles de Substance][Contenu] Nœud de rognage de courbe
-* [Modèles de Substance][Contenu] Mettre à jour le nœud Curve Sampler
-* [Modèles de Substance][Contenu] Mettre à jour le nœud Mesh Sampler
-* [Modèles de Substance][Contenu] Mettre à jour le nœud de variation
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de particule
+* [Modèles de Substance]&#x200B;[Contenu] Nœud Transformation générative
+* [Modèles de Substance]&#x200B;[Contenu] Nœud Motif organique
+* [Modèles de Substance]&#x200B;[Contenu] Particules du nœud Instances
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de taille des particules
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de tour
+* [Modèles de Substance]&#x200B;[Contenu] Nœud Shell
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de projection
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de rognage de courbe
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Curve Sampler
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Mesh Sampler
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud de variation
 * [UX] Bouton pour agrandir la vue actuelle
 * [UX] Mettre à jour la fenêtre Nouveau graphique
 * [UX] Ajouter l&#39;option « Télécharger le lecteur » dans le menu Outils et l&#39;agréger avec « Localiser le lecteur »
@@ -1542,7 +1542,7 @@ ht-degree: 0%
 * [UI] Appuyez deux fois sur la touche de tabulation pour naviguer entre les valeurs.
 * [UI] Le zoom avec la souris est inversé entre la vue 3D et les autres fenêtres.
 * [UI] Le chargement d’un fichier SBS déjà ouvert à l’aide de la liste « Fichiers récents » déclenche une invite « Package introuvable »
-* [UI][macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
+* [UI]&#x200B;[macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
 * [UI] Les packages ne peuvent pas être enregistrés à la racine d’un lecteur (Windows uniquement)
 * [Graphique] L’option « Afficher automatiquement dans la vue 2D » est incohérente dans un cas spécifique.
 * [Graphique] L&#39;option « Ouvrir la référence » est disponible pour les nœuds d&#39;instance SBSAR
@@ -1595,9 +1595,9 @@ ht-degree: 0%
 * [modèle de Substance] Mise à jour vers la version 1.0.3
 * [Modèle de Substance] Compléter et améliorer la documentation sur les graphiques de modèle de Substance
 * [Substance de données] Afficher les journaux dans la console
-* [Modèle de Substance][ScatterOnCurves] Modifier la valeur par défaut pour l&#39;espacement
-* [Modèle de Substance][ScatterOnCurves] Supprimer le paramètre HalfSpaceOddEVEN superflu
-* [Substance][Transformation] Mettre à jour la plage graduelle de rotation d&#39;Euler
+* [Modèle de Substance]&#x200B;[ScatterOnCurves] Modifier la valeur par défaut pour l&#39;espacement
+* [Modèle de Substance]&#x200B;[ScatterOnCurves] Supprimer le paramètre HalfSpaceOddEVEN superflu
+* [Substance]&#x200B;[Transformation] Mettre à jour la plage graduelle de rotation d&#39;Euler
 * [Publish] Mémoriser les paramètres dans la fenêtre Publish
 * [Publish] Avertissez l’utilisateur lorsqu’au moins une dépendance comporte des modifications non enregistrées
 * [Publish] Champ Initialiser le chemin d’accès au fichier
@@ -1615,11 +1615,11 @@ ht-degree: 0%
 * [modèle de Substance] Échec de l’exportation de projets spécifiques
 * [Modèle de Substance] L’affectation de matériau a échoué lors de l’ouverture d’un projet avec Iray activé
 * [Substance] La plage fixe minimale ne fonctionne pas correctement dans certaines circonstances
-* [Modèle de Substance][Primitif] Le premier niveau de subdivision de l&#39;icosphère ne fonctionne pas
-* [Substance][RandomFloat] Gère correctement le cas où Min >= Max
+* [Modèle de Substance]&#x200B;[Primitif] Le premier niveau de subdivision de l&#39;icosphère ne fonctionne pas
+* [Substance]&#x200B;[RandomFloat] Gère correctement le cas où Min >= Max
 * [Vue 3D] Blocage lors du glisser-déposer de cartes
 * [Vue 3D] Les chaînes exposées dans les matières MDL utilisent un widget d’espace colorimétrique.
-* [Vue 3D][Bakers] Les objets parents ne sont pas traités correctement
+* [Vue 3D]&#x200B;[Bakers] Les objets parents ne sont pas traités correctement
 * [Vue 3D] Message d’avertissement concernant le nom d’utilisation « heightScale » pour le fichier .glslfx hérité
 * [Content] Avertissements de cuisson dans Height Extrude
 * [Contenu] Le nœud Irradiance RT n&#39;apparaît pas dans la bibliothèque
@@ -1716,7 +1716,7 @@ ht-degree: 0%
 * [Contenu] La propriété « Pixel ratio » des graphes « Vector morphing » est définie sur « Stretch (Absolute) ».
 * [Contenu] Les bitmaps utilisés dans les outils de peinture apparaissent dans le menu Nœud
 * [Contenu] Sortie NaN pour entrée de couleur plate dans le nœud Niveaux automatiques à la précision en virgule flottante
-* [Moteur][SSE2] Valeur « Niveau intermédiaire » autre que 0,5 pour une sortie 1,0
+* [Moteur]&#x200B;[SSE2] Valeur « Niveau intermédiaire » autre que 0,5 pour une sortie 1,0
 * [Vignette] Les cartes d’entrée sont réduites à 256.
 * [UI] Les info-bulles des nœuds atomiques ont un saut de ligne incorrect
 
@@ -2425,7 +2425,7 @@ ht-degree: 0%
 **Ajouté :**
 
 * [Intégration Python] Enregistrement et restauration de l’état du gestionnaire de plug-ins
-* [Préférences][Dépendances] Ajoutez une option pour déterminer comment le chemin du fichier de dépendances est stocké
+* [Préférences]&#x200B;[Dépendances] Ajoutez une option pour déterminer comment le chemin du fichier de dépendances est stocké
 * Mappeur de Flood Fill [Content] : ajout d’une option « Adapter la forme BBox »
 
 **Fixe :**
@@ -2486,7 +2486,7 @@ ht-degree: 0%
 * [Contenu] Nouveau filtre d’Height Extrude
 * [Moteur] Fxmap : nouveau modèle « Grading with offset »
 * [Engine] Prise en charge du traitement de la valeur uniforme (nœud Nouveau processeur de valeur)
-* [Vue 3D][Bakers] Améliorer les performances du chargeur OBJ
+* [Vue 3D]&#x200B;[Bakers] Améliorer les performances du chargeur OBJ
 * [Vue 3D] Augmentez les distances des plans de l’élément de caméra
 * [Préférences] Ajouter des paramètres pour Bakers
 * [Graphique] Accélérez l’invalidation en évitant les comparaisons de chaînes
@@ -2869,7 +2869,7 @@ ht-degree: 0%
 
 * [Vue 3D] Artefact visuel étrange avec un GPU AMD spécifique
 * [Vue 3D] Gel avec des GPU AMD spécifiques
-* [Vue 3D][Bakers] Les normales générées à partir de .obj ont des bords nets sur la couture UV
+* [Vue 3D]&#x200B;[Bakers] Les normales générées à partir de .obj ont des bords nets sur la couture UV
 * [Vue 3D] Blocage lors du calcul des harmoniques sphériques
 * [Boulangers] Impossible de définir la ressource comme « incorporée »
 * [Boulangers] plantage lors de la cuisson
@@ -2893,7 +2893,7 @@ ht-degree: 0%
 * Le filtre Niveaux [Cuiseur] ne saisit pas les valeurs lorsqu’il est cuit dans une barre oblique
 * [Cooker] Les transformations implicites sont effectuées avant les nœuds FX-Map
 * [Explorer] Appuyer sur la touche Suppr d’un pack demande à l’utilisateur s’il souhaite le supprimer
-* [Explorer][Boulangers] Problème de déplacement
+* [Explorer]&#x200B;[Boulangers] Problème de déplacement
 * [Courbe] Blocage aléatoire lors de la manipulation des touches dans l’éditeur de courbes
 * [MDL] Type de gamma mal défini pour une utilisation personnalisée
 * [Paramètres] Blocage lors de l’exposition d’un paramètre avec le même identifiant qu’une entrée existante
@@ -2975,7 +2975,7 @@ ht-degree: 0%
 
 **Fixe :**
 
-* [Vue 3D][Bakers] Les normales ne sont pas recalculées si le modèle n&#39;a pas de normales
+* [Vue 3D]&#x200B;[Bakers] Les normales ne sont pas recalculées si le modèle n&#39;a pas de normales
 * [Graphique] La ressource bitmap non carrée est vide une fois instanciée
 * [Contenu] Le bruit de fonctionnement donne un résultat différent entre le processeur et le moteur GPU
 
@@ -3022,7 +3022,7 @@ ht-degree: 0%
 * [Iray] Blocage lors du passage à Iray
 * [Iray] La valeur du carrelage doit affecter l’intensité de l’échelle élevée
 * [Iray] Impossible de charger IRay sur un ordinateur Windows où VCCOMP110.dll n’était pas présent
-* [Vue 3D][Bakers] Les UV ne peuvent pas être décodés à partir d’un obj exporté depuis Modo
+* [Vue 3D]&#x200B;[Bakers] Les UV ne peuvent pas être décodés à partir d’un obj exporté depuis Modo
 * [Vue 3D] Les intensités de Displacement ne sont pas cohérentes entre Opengl et Iray
 * [Vue 3D] L’intensité d’Occlusion Displacement/Parallaxe est deux fois supérieure à ce qu’elle devrait être
 * Décalage [Vue 2D] lors de l’affichage de l’image alpha
@@ -3099,7 +3099,7 @@ ht-degree: 0%
 * [3DView] Optimisation de la vitesse de calcul des harmoniques sphériques
 * [Vue 3D] Mettez à jour les nuanceurs PBR pour utiliser l’échantillonnage Fibonacci au lieu de Hammersley
 * [Vue 3D] Ajoutez une option pour enregistrer l’état actuel de la scène comme état par défaut
-* [Vue 3D][Bakers] Sérialiser les données dans un format lisible par l&#39;homme
+* [Vue 3D]&#x200B;[Bakers] Sérialiser les données dans un format lisible par l&#39;homme
 * [Boulangers] Ajout de paramètres prédéfinis export/import (json)
 * [Publish] Création de l’archive sbsar comme non solide
 * [Publish] Stockez l’image/la vignette du graphique dans la barre d’outils d’élément rapide
@@ -3262,7 +3262,7 @@ ht-degree: 0%
 * [Vue 3D] Conversion sRVB séparée du nuanceur de fragments (vous devrez mettre à jour vos nuanceurs personnalisés !)
 * [Vue 3D] Ajoutez une option pour créer une ressource 3D à partir de l’état actuel
 * [Vue 3D] Amélioration du message d’erreur généré lorsque #include échouez dans un code de nuanceur
-* [Vue 3D][Explorateur] Créer une scène 3D à partir de primitives
+* [Vue 3D]&#x200B;[Explorateur] Créer une scène 3D à partir de primitives
 * [Vue 3D] Afficher le numéro de ligne correct lorsque la compilation du nuanceur GLSL échoue et que le code contient des directives #include
 * [Graphique] Pouvoir redimensionner un cadre à partir de tous les coins/bordures
 * [Graphique] Stockez les informations de taille du gabarit sur la ressource de graphique plutôt que sur le registre local.
@@ -3298,7 +3298,7 @@ ht-degree: 0%
 * [Graphique] Blocage lorsque les nœuds liés dans une fonction de graphique
 * [Vue 3D] Chargement parallèle en désordre avec ProgressManager
 * [Vue 3D] Rendu avec iray à une image de résolution personnalisée non plein format
-* [Vue 3D][Iray] La définition de matière n&#39;est pas conservée
+* [Vue 3D]&#x200B;[Iray] La définition de matière n&#39;est pas conservée
 * [Vue 2D] L’histogramme est vide sur les images LDR
 * [Vue 2D] Problème d’affichage lorsque le mode de mosaïque est activé
 * Paramètres [MDL] non exposés
@@ -3309,12 +3309,12 @@ ht-degree: 0%
 * [Transformation 2D] Impossible d’utiliser les touches fléchées pour modifier le décalage dans le nœud de transformation 2D
 * Problème d’artefact [Transformation 2D] avec une faible résolution
 * [Utilitaire de mise à jour] Le rapport de mise à jour ne s’affiche pas avec lorsque Ctrl+o/open
-* [Propriétés][Format] Certains caractères sont mis en échappement deux fois dans UserTags
+* [Propriétés]&#x200B;[Format] Certains caractères sont mis en échappement deux fois dans UserTags
 * [Nœud bitmap] Ctrl Z ne fonctionne pas sur la vue 2D
 * [Préférence] Espace vide inutile dans l’onglet Alias
 * [Programme d’installation] L’installation d’une version précédente ne fonctionne pas la première fois
 * Liste déroulante [Paramètres] : placer certains espaces sur le libellé de la dernière valeur fige SD indéfiniment
-* [UI][MAC] L’option « À propos de la Substance » affiche les informations Iray
+* [UI]&#x200B;[MAC] L’option « À propos de la Substance » affiche les informations Iray
 * [SVG] blocage lors de l’importation d’un SVG spécifique
 * Filtre HBAO [Content] : le paramètre Radius se comporte différemment en fonction de la résolution (un nouveau hbao\_2.sbs a été ajouté, l’ancien hbao.sbs est désormais obsolète)
 
@@ -3663,8 +3663,8 @@ ht-degree: 0%
 * [Graph] Blocage lors de la suppression de nœuds
 * [Graphique] Appuyer sur CTRL pour copier le lien ne fonctionne pas avec le mode Matière
 * [Graphique] Blocage lors de la suppression d’un nœud de sortie dans un matériau de nœud d’instance
-* [Bakers][Vue 3D] Impossible de charger le filet haute définition
-* [Mac][Vue 3D] Blocage lors de la tentative de restauration de fenêtres détachées sur le moniteur secondaire
+* [Bakers]&#x200B;[Vue 3D] Impossible de charger le filet haute définition
+* [Mac]&#x200B;[Vue 3D] Blocage lors de la tentative de restauration de fenêtres détachées sur le moniteur secondaire
 * [Paramètres] Impossible de modifier une valeur dans un spinboxedit sans supprimer le suffixe
 * [UI] Utiliser « Annuler » lors de la fermeture de la boîte de message SD doit s&#39;arrêter
 * Blocage lors de l’ouverture de deux vues 3D
@@ -3684,9 +3684,9 @@ ht-degree: 0%
 * [Bibliothèque] Ajoutez une option pour filtrer le résultat pour MDL, Composition, Fonction et Fxmap
 * [Graphique] Étendez l&#39;option « Afficher le nœud nouvellement créé » pour copier/coller/dupliquer les nœuds
 * [Nouveau document] Créer un widget de sélection de modèle lors de la création d’un graphique MDL
-* [Vue 3D][Iray] Mode de rendu d’affichage + nœuds VCA en regard des itérations/du temps
+* [Vue 3D]&#x200B;[Iray] Mode de rendu d’affichage + nœuds VCA en regard des itérations/du temps
 * [Vue 3D] Amélioration des performances du menu « Matériau » à l’ouverture
-* [3DView][Bakers] Mise à jour vers FBX SDK 2017
+* [3DView]&#x200B;[Bakers] Mise à jour vers FBX SDK 2017
 * [Vue 3D] Ajout de la possibilité d’afficher/masquer les informations de rendu (résolution, itérations, etc.) dans le menu d’affichage de la vue 3D
 * [Iris] Réexposition des paramètres de pixellisation dans le montage de scène
 * [Projet] Ajouter un alias généré automatiquement pour le répertoire de fichiers du projet
@@ -4044,7 +4044,7 @@ ht-degree: 0%
 * [Fonctions] Ajout de couleurs au titre du nœud
 * [Fonction] Améliorer les performances pour l&#39;évaluation des fonctions (utiliser le code généré par SSE)
 * [Fonction] Afficher un avertissement si le nœud Set/Get est vide
-* [Bakers][Graph] Image bitmap de tramage lors de la conversion en 8bpc
+* [Bakers]&#x200B;[Graph] Image bitmap de tramage lors de la conversion en 8bpc
 * [Bakers] Normales moyennes des sommets dans le fichier OBJ si le maillage ne contient aucune
 * [Bakers] Correspondance par nom : utiliser le suffixe comme séparateur
 * [Paramètres] Ajouter une option pour basculer entre RGB et HSV sur le widget de couleur
@@ -4076,7 +4076,7 @@ ht-degree: 0%
 * [Graphique] Pile d’annulation incorrecte (peut générer des blocages)
 * [Graphique] La connexion multiple avec Ctrl ne fonctionne pas si le coin est déjà branché
 * [Vue 3D] La couleur de la grille est affectée par la couleur d’arrière-plan
-* Le nœud de sortie [Vue 3D][Graphique] contenant plusieurs utilisations n’est pas envoyé correctement à la vue 3D
+* Le nœud de sortie [Vue 3D]&#x200B;[Graphique] contenant plusieurs utilisations n’est pas envoyé correctement à la vue 3D
 * [Vue 3D] Tesselling shader : bug de compilation sur les GPU AMD
 * [Vue 2D] Problème de système d&#39;épingles
 * [Fonctions] Bogue de compilation de fonction (si autre)
@@ -4092,7 +4092,7 @@ ht-degree: 0%
 
 **Ajouté :**
 
-* [Préférences][Bakers] Ajouter une option pour calculer tbn par sommet ou par pixel pour correspondre à UE4
+* [Préférences]&#x200B;[Bakers] Ajouter une option pour calculer tbn par sommet ou par pixel pour correspondre à UE4
 * [Library] Utiliser le filtrage bilinéaire pour les vignettes
 * [Boulangers] Permettre à la fenêtre d&#39;être réduite à moins de 800px height
 * [3DView] Égaliser l&#39;exposition de la carte d&#39;environnement / normaliser la rotation pour obtenir un éclair cohérent
