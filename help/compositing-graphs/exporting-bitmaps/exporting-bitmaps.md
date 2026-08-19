@@ -1,0 +1,93 @@
+---
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+breadcrumb-title: ''
+description: Découvrez comment exporter des textures et des bitmaps à partir de graphiques de composition de Substances pour les utiliser dans des applications et des workflows externes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Exporting Bitmaps
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exportation d’images bitmap
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 1%
+
+---
+
+
+# Exportation d’images bitmap
+
+Cette page explique comment Substance 3D Designer peut exporter des fichiers vers de nombreux formats Bitmap différents et comment exporter plusieurs fichiers UV par lots.[Si vous souhaitez exporter vers des fichiers PSD,](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [il existe une page dédiée distincte pour cela.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+
+![Exportation simplifiée](../../assets/exportflow.png "Exportation simplifiée")
+
+## Exportation de concepts
+
+Il est bon de garder à l’esprit les points suivants lors de l’export d’un bitmap :
+
+* Vous<b> exportez à partir d&#39;un graphique</b>, et non d&#39;un package. Un pack ne génère pas de contenu image par lui-même.
+* Le nombre (et la résolution) de bitmaps exportés sont déterminés par les <b>sorties</b> d’un graphique.
+* Le type de fichier est défini pour toutes les sorties/bitmaps.
+* L&#39;exportation est différente de la [publication](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Assurez-vous de bien comprendre la différence !
+
+## Méthodes d’exportation
+
+Une fois que vous êtes prêt à exporter, il existe deux façons d’accéder à la boîte de dialogue Exporter :
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+Dans la [fenêtre de l&#39;Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), cliquez avec le bouton droit de la souris sur le graphique à exporter et sélectionnez **« Exporter les sorties sous forme d&#39;images bitmap »**
+
+![](../../assets/export-explorer.gif)
+
+</td>
+<td style="border: 0;" valign="top">
+
+Dans la [Vue graphique](../../interface/the-graph-view/the-graph-view.md), en cliquant sur le bouton Outils ![](../../assets/image2019-9-17-14-44-17.png) et en choisissant **« Exporter les sorties... »**
+
+![](../../assets/export-graph.gif)
+
+</td>
+</tr>
+</table>
+
+## Boîte de dialogue Exporter
+
+La boîte de dialogue Exporter vous présente quelques options pour personnaliser votre exportation.
+
+La version affichée à droite est la boîte de dialogue standard. Le changement de résolution se produit sur le graphique, les sorties ou en définissant la résolution parent avant d’ouvrir la boîte de dialogue.
+
+1. <b>Destination : </b>emplacement de tous les fichiers à enregistrer.
+1. <b>Format :</b> type de fichier utilisé pour tous les fichiers exportés.
+1. <b>Motif</b> : méthode générique pour générer des types de fichiers basés sur des mots-clés de métadonnées. Un exemple de nom de fichier basé sur la première sortie est indiqué ci-dessous, à des fins de vérification.\
+   Toutes les options disponibles sont répertoriées ci-dessous :
+   1. *$(graphe)* - nom du graphique actuel
+   1. *$(identificateur)* - identificateur de la sortie actuelle
+   1. *$(description)* - description de la sortie actuelle
+   1. *$(label)* - libellé de la sortie actuelle
+   1. *$(user\_data)* - données utilisateur personnalisées de la sortie actuelle
+   1. *$(groupe)* - groupe de sortie de la sortie actuelle
+   1. *$(colorspace)* - espace colorimétrique de la sortie actuelle (disponible uniquement pour les modes *OCIO* et *ACE Adobe* [gestion des couleurs](../../color-management/color-management.md))
+1. <b>Sorties :</b> Activez ou désactivez des sorties et des groupes de sorties spécifiques à partir de votre graphique. Les boutons activent ou désactivent tous les éléments. Utile lorsqu’une seule image bitmap a été modifiée.
+1. <b>Exportation automatique :</b> bouton bascule pour activer la réexportation automatique des sorties de graphiques dès qu&#39;une modification est apportée. Uniquement pour le graphique actif. Peut être lourd et lent en fonction des paramètres.
+1. <b>Bouton Exporter :</b> exporte avec les paramètres actuels ou ferme la boîte de dialogue.
+
+![Boîte de dialogue Exporter les sorties](../../assets/fromgraph-1.png "Boîte de dialogue Exporter les sorties")
+
+## Boîte de dialogue Exporter (mosaïques Batch/UV)
+
+Lorsque vous travaillez avec des filets de mosaïque UV dans Designer, la boîte de dialogue Exporter peut être utilisée d’une manière légèrement différente, ce qui permet l’exportation par lots de plusieurs mosaïques UV à la fois. Assurez-vous de bien comprendre ce workflow et d&#39;avoir attribué correctement un [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md) à une ou plusieurs mosaïques UV.\
+L’onglet Lot permet également d’exporter plus rapidement votre graphique à une résolution différente de la résolution de travail (parent).
+
+Démarrez la boîte de dialogue avec les mêmes méthodes que celles décrites ci-dessus, en vous assurant simplement d&#39;avoir *ouvert avec le bouton droit de la souris le graphique attribué par UV-Tile dans l&#39;Explorateur* ou d&#39;avoir *ouvert le graphique attribué par UV-Tile* dans la vue Graphique lors de l&#39;utilisation du bouton Outils.
+
+1. <b>Onglet Traitement par lots</b> : veillez à sélectionner cet onglet au lieu de la méthode <b>À partir du graphique </b> standard, sinon les options 2 à 3 ne seront pas disponibles.
+1. <b>Carreaux UV :</b> tout comme pour les sorties, vous pouvez activer ou désactiver l&#39;exportation de carreaux UV spécifiques.
+1. <b>[Taille de sortie](../../compositing-graphs/output-size/output-size.md) : </b>Remplacez la résolution d&#39;exportation, ce qui vous permet de travailler plus petit et plus efficace, tout en exportant à la taille maximale.
+
+![Boîte de dialogue Sorties d’exportation par lot](../../assets/batch.png "Boîte de dialogue Sorties d’exportation par lot")
