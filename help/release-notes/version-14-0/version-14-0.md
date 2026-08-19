@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.0 pour en savoir plus sur les nouveaux nœuds, la navigation dans les graphiques et les améliorations des performances.
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ Cette version 14.0 apporte beaucoup de nouveau contenu avec les nouveaux nœuds 
 
 * <b>Filtre Kuwahara</b> : si vous souhaitez aller encore plus loin avec la stylisation, vous pouvez générer des effets picturaux grâce aux filtres [couleur Kuwahara anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Dans les détails, il applique un flou directionnel anisotrope conforme aux détails de l’image. Le résultat est une image qui semble s’écouler dans la direction des formes qu’elle contient.
 
-Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize_fr). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
+Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
 
 D&#39;autres nœuds puissants rejoignent le parti :
 
