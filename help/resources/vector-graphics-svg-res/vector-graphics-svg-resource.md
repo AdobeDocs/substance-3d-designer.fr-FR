@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer prend en charge un nombre limité d’images vectorielles grâce au format Scalable Vector Graphics. Les fichiers de SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphiques.
 
-Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
+Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
 >[!NOTE]
 >

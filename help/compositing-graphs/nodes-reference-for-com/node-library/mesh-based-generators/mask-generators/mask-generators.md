@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Générateurs de masques
 
-Cette catégorie contient une sélection de nœuds générant des masques en noir et blanc. En fonction des informations de map bakée, ils génèrent des masques qui peuvent ensuite être utilisés pour mélanger des matériaux et d’autres effets. Ces nœuds sont similaires aux [masques dynamiques](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) et aux [générateurs](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) en Substance Painter.
+Cette catégorie contient une sélection de nœuds générant des masques en noir et blanc. En fonction des informations de map bakée, ils génèrent des masques qui peuvent ensuite être utilisés pour mélanger des matériaux et d’autres effets. Ces nœuds sont similaires aux [masques dynamiques](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/features/smart-materials-and-masks) et aux [générateurs](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/content/creating-custom-effects/generators) en Substance Painter.
 
 Tous ces nœuds nécessitent [maps bakées](../../../../../bakers/bakers.md), car sans [maps bakées](../../../../../bakers/bakers.md), le résultat ne sera pas très satisfaisant.
 

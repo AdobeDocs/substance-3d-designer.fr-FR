@@ -178,7 +178,7 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 <b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
 
-La documentation Adobe Standard Material est documentée en détail dans [cette section](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
+La documentation Adobe Standard Material est documentée en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
 
 +++
 

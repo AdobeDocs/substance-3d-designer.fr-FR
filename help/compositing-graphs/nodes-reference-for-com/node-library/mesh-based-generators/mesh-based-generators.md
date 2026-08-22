@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Les générateurs basés sur un maillage sont des nœuds destinés à traiter des [Maps bakées](../../../../bakers/bakers.md) telles qu&#39;une carte de normales, une courbure, une Occlusion ambiante, etc.
 
-La catégorie tire son nom du fait que les maps bakées sont le seul moyen pour Designer d’utiliser des données basées sur des maillages 3D. Certaines des fonctionnalités de cette catégorie sont similaires aux [matériaux et masques intelligents](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) de Substance 3D Painter.
+La catégorie tire son nom du fait que les maps bakées sont le seul moyen pour Designer d’utiliser des données basées sur des maillages 3D. Certaines des fonctionnalités de cette catégorie sont similaires aux [matériaux et masques intelligents](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/features/smart-materials-and-masks) de Substance 3D Painter.
 
 Il existe trois catégories principales :
 

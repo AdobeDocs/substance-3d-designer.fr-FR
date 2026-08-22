@@ -24,7 +24,7 @@ Cette page répertorie les blocages survenant pendant le processus de rendu des 
 
 ## TDR (Windows uniquement)
 
-<b>[&#x200B; ![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problème</b>
+<b>[&#x200B; ![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problème</b>
 
 Le minuteur <b>Détection et récupération du délai d&#39;attente (TDR)</b> du système est *trop court* pour permettre à Substance 3D Designer de terminer ses calculs actuels avant le *redémarrage* du pilote graphique.
 
@@ -33,4 +33,4 @@ Par mesure de stabilité et de sécurité, le système d&#39;exploitation *redé
 
 <b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
 
-Les valeurs du minuteur TDR doivent être *augmentées* pour éviter de tels blocages. Pour ce faire, suivez les instructions fournies dans [cette page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de la documentation Substance 3D Painter, qui s&#39;appliquent également à Substance 3D Designer.
+Les valeurs du minuteur TDR doivent être *augmentées* pour éviter de tels blocages. Pour ce faire, suivez les instructions fournies dans [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de la documentation Substance 3D Painter, qui s&#39;appliquent également à Substance 3D Designer.

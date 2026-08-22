@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Altération
 
-Les nœuds d&#39;altération vont plus loin avec les [générateurs de masques](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) : ils produisent un effet d&#39;altération matériel complet en fonction des paramètres et des maps bakées. En Substance Painter, le concept est très similaire aux [matériaux intelligents](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks).
+Les nœuds d&#39;altération vont plus loin avec les [générateurs de masques](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) : ils produisent un effet d&#39;altération matériel complet en fonction des paramètres et des maps bakées. En Substance Painter, le concept est très similaire aux [matériaux intelligents](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/features/smart-materials-and-masks).
 
 Vous devez disposer d&#39;une ou plusieurs maps bakées pour obtenir un résultat complet à partir de ces nœuds.
 
