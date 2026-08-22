@@ -202,7 +202,7 @@ jusqu’à la version 15.1.
 Designer est passé à OpenPBR en tant que nouveau modèle par défaut, mais ASM est toujours inclus et ses propriétés sont également partagées
 dans le module de pixellisation, les modules de rendu Pathtracer GPU et OpenGL [3D](../3d-renderers/3d-renderers.md).
 
-Le modèle est documenté [ici](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+Le modèle est documenté [ici](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <a name="usdpreviewsurface"></a>
 

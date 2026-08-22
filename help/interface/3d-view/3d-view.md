@@ -215,7 +215,7 @@ Pour exporter le maillage Vue 3D, accédez à <b>Scène > Exporter le maillage t
 >
 > **TDR (Windows uniquement)**
 > 
-> Cette fonctionnalité nécessite que la <b>détection et récupération du délai d&#39;attente (TDR)</b> corresponde aux valeurs recommandées dans [cette page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation, comme indiqué dans Designer [Configuration technique](../../getting-started/system-requirements/system-requirements.md).
+> Cette fonctionnalité nécessite que la <b>détection et récupération du délai d&#39;attente (TDR)</b> corresponde aux valeurs recommandées dans [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation, comme indiqué dans Designer [Configuration technique](../../getting-started/system-requirements/system-requirements.md).
 
 ## Barre de menus
 
@@ -299,7 +299,7 @@ Le menu « Matières » contient une liste de toutes les matières attribuées �
 
 <b>Charger la définition... :</b>(moteur de rendu OpenGL uniquement) vous permet de charger votre propre nuanceur [GLSLFX personnalisé.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) L’ombrage est ajouté à la liste ci-dessus.
 
-<b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre les rendus Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre dans la [matière Adobe Standard](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
+<b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre les rendus Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre dans la [matière Adobe Standard](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
 
 <b>Renommer :</b> modifiez l&#39;étiquette de ce matériau.
 
