@@ -198,7 +198,7 @@ Notez que ces mises à jour ont deux conséquences majeures :
 * [Content] Nœud « Negate Float1 » obsolète dans le graphique de fonction de Substance
 * [Contenu] Renommez « Quantize Color » en « Quantize Color (Simple) ».
 * [Vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
-* [Moteur][Texte] Nouveau crénage pour certaines polices
+* [Moteur]&#x200B;[Texte] Nouveau crénage pour certaines polices
 * [Graphique] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
 * [Linker] Ne pas dupliquer les bitmaps dans SBSASM
 * [Paramètres] Ajout d’un nouveau widget « fonction » pour tous les types de paramètres d’entrée

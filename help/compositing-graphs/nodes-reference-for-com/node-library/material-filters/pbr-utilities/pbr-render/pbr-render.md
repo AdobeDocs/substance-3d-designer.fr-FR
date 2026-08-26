@@ -220,7 +220,7 @@ Sorties
     *Remarque :* la diffusion sous la surface nécessite que la valeur d&#39;entrée **Translucidité** soit *supérieure à 0,0*
   * **Distance de diffusion** *0.0 - 1.0*\
     Ajuste la distance maximale de l’effet de diffusion.\
-    *Remarque :* cette valeur est multipliée par rapport à la valeur d&#39;entrée *de l&#39;**échelle de distance de diffusion**par couche de couleur*.
+    *Remarque :* cette valeur est multipliée par rapport à la valeur d&#39;entrée *de l&#39;**échelle de distance de diffusion**&#x200B;par couche de couleur*.
   * **Décalage Rouge** *0.0 - 1.0*\
     Règle l’intensité de l’effet de décalage du rouge dans la diffusion.
   * **Rayleigh** *0.0 - 1.0*\

@@ -146,10 +146,10 @@ Les splines qui correspondent au début ou à la fin de la spline y sont conserv
 Les splines qui correspondent au début ou à la fin de la spline y sont conservées.
 
 <b>Décalage aléatoire de début</b> *Flottant* Applique un décalage aléatoire au point de départ de chaque spline le long des #1 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #1 splines.\
-#1 A 0, les splines sont régulièrement espacées entre les points de #1 Spline de début et Spline de fin.
+&#x200B;#1 A 0, les splines sont régulièrement espacées entre les points de #1 Spline de début et Spline de fin.
 
 <b>Décaler la fin aléatoire</b> *Flottant* Applique un décalage aléatoire au point d&#39;extrémité de chaque spline le long du #2 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #2 splines.\
-#2 A 0, les splines sont régulièrement espacées entre les points de #2 Spline de début et Spline de fin.
+&#x200B;#2 A 0, les splines sont régulièrement espacées entre les points de #2 Spline de début et Spline de fin.
 
 <b>Début de la longueur tangente</b> *Flottant* (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier »)Longueur de la tangente de sortie pour le point de départ sur la #1 de spline de toutes les splines générées.
 

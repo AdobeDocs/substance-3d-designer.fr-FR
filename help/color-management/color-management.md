@@ -104,13 +104,13 @@ Vous pouvez ajouter *vos propres profils ICC* en plaçant ces fichiers à l&#39;
 
 |  |  |
 | --- | --- |
-| <b>Affichage 2D et 3D par défaut</b> | Définit l&#39;espace colorimétrique par défaut de l&#39;*affichage* pour les fenêtres [Vue 2D](../interface/2d-view/2d-view.md) et [Vue 3D](../interface/3d-view/3d-view.md). *Par défaut :*** Profil ICC pour l’écran principal, récupéré à partir du système d’exploitation **** |
+| <b>Affichage 2D et 3D par défaut</b> | Définit l&#39;espace colorimétrique par défaut de l&#39;*affichage* pour les fenêtres [Vue 2D](../interface/2d-view/2d-view.md) et [Vue 3D](../interface/3d-view/3d-view.md). *Par défaut :*** Profil ICC pour l’écran principal, récupéré à partir du système d’exploitation &#x200B;**&#x200B;** |
 
 ### Affichage graphique
 
 |  |  |
 | --- | --- |
-| <b>Vignettes de gestion des couleurs</b> | Lorsque *coché*, Designer transformera les *vignettes de nœud* en *espace colorimétrique de travail*. *Par Défaut :*** Décoché&#x200B;**** |
+| <b>Vignettes de gestion des couleurs</b> | Lorsque *coché*, Designer transformera les *vignettes de nœud* en *espace colorimétrique de travail*. *Par Défaut :*** Décoché&#x200B;**&#x200B;** |
 
 ## Mode hérité
 
