@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Découvrez les termes et concepts utilisés dans Designer.
 
-## #
+## #&#x200B;
 
 |  |  |
 | --- | --- |
@@ -148,7 +148,7 @@ ht-degree: 1%
 | --- | --- |
 | <b><span id="renderer"></span>Moteur de rendu</b> | Programme qui traite les informations 3D telles que les lumières, les filets et les matières pour créer des images 2D. |
 | <b><span id="rendering"></span>Rendu </b>(Vue 3D) | Processus de calcul d&#39;une image en fonction des données d&#39;entrée, à l&#39;aide d&#39;un programme tel qu&#39;un [moteur de rendu](#renderer). |
-| <b><span id="resolution"></span>Résolution</b> | Quantité de pixels horizontalement et verticalement qui forment une [image bitmap](#bitmap). Plus de pixels permettent de représenter des détails plus fins.   Dans les graphiques de Substance, la résolution d&#39;une image bitmap calculée par un [nœud](#node) est contrôlée par le paramètre de base [Taille de sortie](#output-size)[ du nœud.](#base-parameter) |
+| <b><span id="resolution"></span>Résolution</b> | Quantité de pixels horizontalement et verticalement qui forment une [image bitmap](#bitmap). Plus de pixels permettent de représenter des détails plus fins.   Dans les graphiques de Substance, la résolution d&#39;une image bitmap calculée par un [nœud](#node) est contrôlée par le paramètre de base [Taille de sortie](#output-size) [&#x200B; du nœud.](#base-parameter) |
 | <b><span id="roughness"></span>Rugosité</b> | Canal d&#39;un [matériau](../glossary/glossary.md) défini à l&#39;aide du modèle de rugosité métallique PBR [ombrage](../glossary/glossary.md). La rugosité désigne la rugosité d&#39;une surface, c&#39;est-à-dire les variations microscopiques de l&#39;height, également appelées *microfacettes*.   Une forte rugosité donne un aspect mat, tandis qu’une faible rugosité donne un aspect lisse et brillant.   C&#39;est l&#39;inverse de [brillance](#glossiness). |
 
 ## S
