@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilisez les outils de peinture bitmap de Substance 3D Designer pour peindre directement sur des ressources bitmap à des fins d’édition de texture.
 helpx_creative_field: ""

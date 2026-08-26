@@ -58,7 +58,7 @@ Assurez-vous que `description` est précis et concis. Il est utilisé pour le r�
 
 * L&#39;anglais est la source de la vérité ; toutes les autres langues en sont traduites.
 * Tous les liens vers d&#39;autres pages de documentation doivent être des liens **relatifs** ; tous les liens vers des ressources externes doivent être des liens **absolus**.
-* Le contenu est écrit dans un Markdown parfumé GitHub avec des extensions/gotchas personnalisées de l&#39;Experience League, documenté [ici](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Utilisez la compétence `write-experience-league-markdown` (le cas échéant) pour les détails.
+* Le contenu est écrit dans un Markdown parfumé GitHub avec des extensions/gotchas personnalisées de l&#39;Experience League, documenté [ici](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/writing-essentials/markdown). Utilisez la compétence `write-experience-league-markdown` (le cas échéant) pour les détails.
 * Chaque modification soumise est soumise à des vérifications automatiques de liaison et à une validation de liaison dans CI (voir ci-dessous) — vérifiez `markdownlint_custom.json` et `linkcheckexclude.json` avant de supposer qu&#39;une règle s&#39;applique ou qu&#39;un lien doit être corrigé.
 
 &#x200B;# Validation / CI

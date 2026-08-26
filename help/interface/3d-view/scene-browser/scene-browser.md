@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Utilisez l’Explorateur de scènes pour parcourir et gérer les éléments, matières et objets de scène 3D dans la clôture.
 helpx_creative_field: ""

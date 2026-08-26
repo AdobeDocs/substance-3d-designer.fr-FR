@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le mode graphique de Substance 3D Designer pour créer et modifier des graphiques de matériaux basés sur les nœuds.
 helpx_creative_field: ""

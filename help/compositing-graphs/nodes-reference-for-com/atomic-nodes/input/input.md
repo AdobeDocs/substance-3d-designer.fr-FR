@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Entrée pour définir les paramètres d’entrée des graphiques de Substances pouvant être affichés et ajustés par les utilisateurs.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Les nœuds d’entrée sont un type spécial de nœud qui crée un emplacement d
 
 Contrairement aux [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), vous devez explicitement placer une entrée Couleur, Niveaux de gris ou Valeur. Il n’est pas possible de créer vos propres entrées « agnostiques » qui changent de type en fonction de ce qui y est connecté.
 
-Les nœuds d&#39;entrée ne sont pas aussi essentiels que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des graphiques avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser le résultat de votre instance de graphique ou de nœud sur une entrée externe, par exemple lors de la création d&#39;[instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
+Les nœuds d&#39;entrée ne sont pas aussi essentiels que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des graphiques avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser le résultat de votre instance de graphique ou de nœud sur une entrée externe, par exemple lors de la création d&#39;[instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -145,11 +145,11 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 >[!IMPORTANT]
 >
-> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
+> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
 
 ## Attributs d&#39;intégration
 
-Les entrées ne sont pas directement envoyées à la vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
+Les entrées ne sont pas directement envoyées à la vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
 
 En outre, les attributs Utilisation sont également utilisés avec les [modes de création de lien](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), pour correspondre aux emplacements d&#39;entrée et de sortie corrects.
 

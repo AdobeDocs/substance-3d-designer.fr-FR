@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds de filtre de mosaïque dans Substance 3D Designer pour créer des motifs de texture juxtaposés homogènes.
 helpx_creative_field: ""

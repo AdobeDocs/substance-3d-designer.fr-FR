@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les tons directs dans les scripts Substance 3D Designer Python pour les workflows de couleurs spécialisés.
 helpx_creative_field: ""
