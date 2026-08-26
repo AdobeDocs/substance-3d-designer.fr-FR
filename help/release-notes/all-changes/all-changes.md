@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Toutes les modifications
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 668654bbe14817873413cc80743c53ee2045f48a
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # Toutes les modifications
 
 ## Version 16
+
+### 16.0.5
+
+*(Publié le 26 août 2026)*
+
+**Ajouté :**
+
+* [Vue 3D] Ajout d’un bouton pour sélectionner l’AOV actuel
+* [Contenu] Bruit de Perlin/Gaussien : paramètre d’échelle unclamp
+* [Contenu] Masquer les ressources bitmap inutiles de la bibliothèque
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**Fixe :**
+
+* [Vue 3D] Les modifications de visibilité de l’environnement effectuées dans OpenGL ne sont pas répercutées dans les rendus Eclair
+* [Boulangers] Le contexte de boulangerie n&#39;a pas été détruit après l&#39;actualisation des boulangeries pour une ressource bitmap UDIM supprimée
+* [Bakers] Correction d’un crash lors de la suppression d’une ressource bitmap UDIM pendant l’actualisation de ses bakes
+* [Contenu] Éclaboussure de forme v2 : l’height de forme du cylindre n’est pas correct
+* [Contenu] Éclaboussure de forme v2 : la map density ne fonctionne pas correctement lorsque la taille du nœud dépasse 4 096
+* [Contenu] Éclaboussure de forme v2 : l’utilisation du fichier SDF « Rock » derrière un If/Else peut entraîner une boucle infinie
+* [Sécurité] Correction d’une vulnérabilité de déréférence de pointeur NULL dans l’analyse de fichier AXF
+* [Sécurité] Correction d’une vulnérabilité de déréférence de pointeur NULL dans l’analyse de fichiers GLB
+* [Sécurité] Correction des vulnérabilités d’écriture hors limites dans l’analyse de fichiers SBSAR
+* [Sécurité] Correction d’une vulnérabilité de corruption de segment de mémoire dans l’analyse de fichier DDS
+* [Sécurité] Correction d’une vulnérabilité de corruption du tas dans l’analyse de fichiers GLB
+* [Sécurité] Correction d’une vulnérabilité de corruption de segment de mémoire dans l’analyse du fichier TGA
+* [Sécurité] Correction d’une vulnérabilité de corruption de segment de mémoire dans l’analyse de fichier de TIFF
+* [Sécurité] Correction d’une vulnérabilité de corruption de segment de mémoire dans l’analyse de fichiers USDA
+* [Sécurité] Correction d’une vulnérabilité de corruption de tas dans l’analyse de fichiers WEBP
+* [UI] La liste des éléments des menus à cocher persistants ne s&#39;étend que sur le texte de l&#39;élément
+
 
 ### 16.0.4
 

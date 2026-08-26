@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Glossaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>canal Alpha</b> | Quatrième couche d’une image couleur, souvent utilisée pour décrire l’opacité. |
 | <b><span id="ambient-occlusion"></span>occlusion ambiante</b> | L&#39;atténuation de la lumière ambiante sur les surfaces moins exposées et donc plus difficiles à atteindre. |
 | <b><span id="anisotropy"></span>Anisotropie</b> | Propriété d&#39;être dépendant de la direction. En d’autres termes, fournir un résultat différent lorsqu’il est mesuré ou observé sur un axe différent.   Les matériaux anisotropes ont un aspect différent selon leur origine, et les filtres anisotropes ne sont pas appliqués uniformément dans toutes les directions. |
+| <b><span id="aov" ></span>AOV</b> | Variable de sortie arbitraire (AOV) est un terme utilisé dans le [rendu](#rendering) pour décrire les canaux de données supplémentaires qui peuvent être générés à partir d&#39;un rendu, tels que la profondeur, les normales ou les données personnalisées. |
 | <b><span id="api"></span>API</b> | Une interface de programmation d&#39;application (API) est un ensemble de fonctions et de procédures qui permet aux utilisateurs d&#39;accéder aux fonctions et aux procédures d&#39;une autre application de programme.   Une API fournit une couche contrôlée et sécurisée entre l’utilisateur et un programme. Il peut également utiliser un autre langage de programmation pour rendre ce programme plus facile à interagir et plus largement accessible.   Designer propose une [API Python](../scripting/scripting.md) qui fournit un accès facile à un large éventail de ses fonctionnalités pour la manipulation des données, la création d&#39;outils personnalisés et l&#39;accélération des workflows. |
 | <b><span id="atomic-node"></span>Nœud atomique</b> | Composantes fondamentales des graphiques. Tous les [nœuds d&#39;instance](#instance-node) peuvent être décomposés en graphiques de nœuds atomiques. Chaque type de graphe possède son propre ensemble de nœuds atomiques. |
 

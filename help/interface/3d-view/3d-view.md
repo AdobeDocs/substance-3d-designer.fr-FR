@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ La vue 3D propose également deux méthodes principales de rendu des matériaux 
 * Rendu par lancer de rayons de haute qualité avec moteur de rendu **Pathtracer GPU**
 
 En savoir plus ici : [Moteurs de rendu 3D](3d-renderers/3d-renderers.md)
+
++++ Le dock de vue 3D
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## Interactions de la fenêtre d’affichage
 
@@ -548,7 +554,23 @@ La barre d&#39;outils <b>Affichage</b>, qui se trouve par défaut au *bas* du pa
 
 >[!NOTE]
 >
-> La barre d&#39;outils peut être *repositionnée* autour du dock **Vue 3**&#x200B;**&#x200B; D** à l&#39;aide de la *poignée* la plus à gauche représentée par trois lignes parallèles.
+> La barre d&#39;outils peut être *repositionnée* autour du dock **Vue 3D** à l&#39;aide de la *poignée* la plus à gauche représentée par trois lignes parallèles.
+
+### AOV de rendu 3D
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>Vous pouvez afficher différents <a href="../../glossary/glossary.md#aov">AOV</a> à l’aide du bouton <img src="./3d-view.resources/aov/aov-icon.png" alt="Icône AOV de rendu 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV de rendu 3D</b>.</p>
+            <p>Les AOV vous permettent d'inspecter les informations de maillage et de matière de manière isolée pour un travail ciblé et le débogage.</p>
+            <p>Certains AOV incluent des <i>valeurs HDR</i> qui sont verrouillées sur 1 (blanc pur) ou 0 (noir pur) dans la clôture.<br>Pour inspecter la plage complète de valeurs, vous pouvez exporter un rendu 3D de l'AOV vers un format de fichier image qui prend en charge les valeurs HDR, tel que <code>.exr</code>.<br>Utilisez l'option de menu <code>Camera > Save render...</code> pour exporter l'AOV actuel.</p>
+            <p><i>Remarque :</i> les AOV sont uniquement disponibles lors de l'utilisation du pixelliseur et des <a href="./3d-renderers/3d-renderers.md">rendus 3D Pathtracer GPU</a>.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="Rendu 3D des AOV composites" />
+        </td>
+    </tr>
+</table>
 
 ### Canaux de couleur
 
