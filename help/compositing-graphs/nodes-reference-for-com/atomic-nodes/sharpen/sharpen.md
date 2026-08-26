@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Accentuer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -48,7 +48,7 @@ Image à accentuer.
 
 ## Paramètres
 
-<b>Intensité</b> *Flottement*\
+<b>Intensité</b> *Flotter*\
 Définit l’intensité de l’effet de renforcement.
 
 <b>Alpha ponctuel</b> *Booléen* (disponible lorsqu&#39;une image couleur est connectée à l&#39;<b>entrée</b>)\

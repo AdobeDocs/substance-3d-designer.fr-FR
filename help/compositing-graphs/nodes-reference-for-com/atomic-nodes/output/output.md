@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sortie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Chaque graphique de Substance doit avoir *au moins un* nœud de sortie. Si aucun
 
 |  |  |
 | --- | --- |
-| <b>Identifiant</b> *Chaîne* | Identificateur unique de la sortie. Cette propriété ne peut pas rester vide et ne peut pas contenir de caractères spéciaux ou d&#39;espaces.   L&#39;identificateur est utilisé car le libellé du nœud est la propriété « Label » laissée vide. Il peut également être utilisé pour nommer [les textures exportées](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
+| <b>Identifiant</b> *Chaîne* | Identificateur unique de la sortie. Cette propriété ne peut pas rester vide et ne peut pas contenir de caractères spéciaux ou d&#39;espaces.   L&#39;identificateur est utilisé car le libellé du nœud est la propriété « Label » laissée vide. Il peut également être utilisé pour nommer [les textures exportées](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Description</b> *Chaîne* | Description facultative utilisée comme info-bulle de la sortie : graphiques en Substances. |
 | <b>Libellé</b> *Chaîne* | Il est utilisé comme libellé pour le nœud de sortie et son connecteur correspondant dans les [nœuds d&#39;instance](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphique. L’étiquette peut contenir des espaces et des caractères spéciaux. |
 | <b>Données utilisateur</b> *Chaîne* | Métadonnées facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d/apps/painter.html) utilisez ces données pour [piloter certaines fonctionnalités](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
-| <b>Groupe</b> *Chaîne* | Attribut utilisé pour regrouper les sorties afin de [lier les modes de création](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Les sorties avec un attribut « Group » identique sont présentées comme une connexion unique dans le mode de création de lien « Compact Material ». |
+| <b>Groupe</b> *Chaîne* | Attribut utilisé pour regrouper les sorties afin de [lier les modes de création](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Les sorties avec un attribut « Group » identique sont présentées comme une connexion unique dans le mode de création de lien « Compact Material ». |
 
 ## Attributs d&#39;intégration
 
@@ -66,7 +66,7 @@ En tant que tels, ils n&#39;ont aucun impact sur le format des [exportations bit
 |  |  |
 | --- | --- |
 | <b>Composant</b> *Chaîne* | Utilisé pour mapper certaines couches de texture aux entrées de nuanceur SVBRDF appropriées dans les workflows AxF. |
-| <b>Utilisation</b> *Chaîne* | Définit le type et l&#39;utilisation du nœud de sortie. Cette propriété est importante car elle entraîne :<ul data-preserve-html="true"> <li data-preserve-html="true">Connexion des nœuds dans les graphiques de Substance lors de l&#39;utilisation de [modes de création de liens](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connexion des textures aux nuanceurs dans la vue 3D (voir ci-dessous : &#39;[À propos du rôle des utilisations dans la vue 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Connexion des textures aux matériaux dans les intégrations/modules</li> </ul> |
+| <b>Utilisation</b> *Chaîne* | Définit le type et l&#39;utilisation du nœud de sortie. Cette propriété est importante car elle entraîne :<ul data-preserve-html="true"> <li data-preserve-html="true">Connexion des nœuds dans les graphiques de Substance lors de l&#39;utilisation de [modes de création de liens](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Connexion des textures aux nuanceurs dans la vue 3D (voir ci-dessous : &#39;[À propos du rôle des utilisations dans la vue 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Connexion des textures aux matériaux dans les intégrations/modules</li> </ul> |
 | <b>Espace colorimétrique</b> *Chaîne* | Définit l’espace colorimétrique dans lequel cette sortie doit être interprétée. Est utilisé par certaines intégrations dans d’autres applications et n’a aucun impact sur Designer. |
 
 ### À propos du rôle des utilisations dans la vue 3D

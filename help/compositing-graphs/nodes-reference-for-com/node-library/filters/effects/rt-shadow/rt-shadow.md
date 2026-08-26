@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tons foncés RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Plus la valeur est élevée, plus le résultat est fluide et précis, au détrim
 <b>Mode</b> *Nombre entier*\
 Méthode de dessin des ombres sur la surface.
 
-<b>Échelle D&#39;Height</b> *Flottant*\
+<b>Échelle d&#39;Height</b> *Flotter*\
 Multiplicateur de l’intensité de la courbe d’height d’entrée.
 
 <b>Position Claire </b>*Float2*\
@@ -58,7 +58,7 @@ La position de la source lumineuse sur une sphère entourant la surface :
 * <b>X</b> : position horizontale, en nombre de tours ;
 * <b>Y</b> : position verticale, où 0,5 correspond au zénith et 0/1 à l&#39;horizon.
 
-<b>Intensité de la lumière</b> *Flottant*\
+<b>Intensité de la lumière</b> *Flotter*\
 Intensité de la source lumineuse.
 
 <b>Taille légère</b> *Float2* (disponible lorsque <b>Mode</b> est défini sur *Ombré*)\
@@ -71,14 +71,14 @@ Plus la valeur est élevée, plus les ombres sont lisses.
 <b>Garder La Lumière Au-Dessus De L&#39;Horizon</b> *Booléen*\
 Si la <b>position de la lumière</b> est définie de manière à placer la lumière sous l&#39;horizon, ce paramètre empêche la lumière de franchir ce seuil, ce qui signifie que les valeurs Y sont ajustées à la plage [0;1].
 
-<b>Opacité de l&#39;ombre</b> *Flottant*\
+<b>Opacité de l&#39;ombre</b> *Flotter*\
 Multiplicateur de l’opacité des tons foncés dessinés sur la surface.
 
-<b>Atténuation Des Ombres</b> *Flottant*\
+<b>Atténuation des ombres</b> *Flotter*\
 Multiplicateur pour l&#39;atténuation des ombres à mesure qu&#39;elles s&#39;éloignent de leur projection.\
 Une valeur de 0 donne des ombres uniformes (des ombres légères sont toujours appliquées).
 
-<b>Longueur max. des ombres</b> *Flottant*\
+<b>Longueur max. des ombres</b> *Flotter*\
 Distance maximale à laquelle une ombre peut être dessinée de sa projection.\
 Une valeur de 0 ne produit aucune ombre visible.
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bibliothèque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8cb5aa2a7e1cd668f00808b3cd0e15063990fb8b
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Le contenu de la <b>bibliothèque</b> s&#39;affiche sous la forme de *vignettes 
 
 * Les [graphiques de Substance](../../compositing-graphs/substance-compositing-graphs.md) dans les fichiers [SBS](../../getting-started/overview/overview.md) et [SBSAR](../../getting-started/overview/overview.md) sont représentés par leur *première sortie* ou par leur *icône personnalisée* si celle-ci a été définie par l&#39;auteur du graphique
 * Les [bitmaps](../../resources/bitmap-resource/bitmap-resource.md) et les [images vectorielles (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) sont représentées par un *rendu miniature* du bitmap lui-même
-* Les [maillages 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), les [graphiques de fonction](../../function-graphs/the-function-graph/the-function-graph.md), les [polices](../../resources/font-resource/font-resource.md) et les fichiers [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) sont représentés par des *icônes génériques* pour chaque type
+* Les [scènes 3D](../../resources/3d-scene-resource/3d-scene-resource.md), les [graphiques de fonction](../../function-graphs/the-function-graph/the-function-graph.md), les [polices](../../resources/font-resource/font-resource.md) et les fichiers [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) sont représentés par des *icônes génériques* pour chaque type
 
 >[!WARNING]
 >

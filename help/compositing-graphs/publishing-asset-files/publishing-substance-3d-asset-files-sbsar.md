@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Publication de fichiers Substance 3D Assets (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 806f21d88d2ce6b63164848f4f52906ec57471a3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 1%
+source-wordcount: '1234'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Cette page explique comment Substance 3D Designer peut publier des packs en tant que fichiers de <b>ressources Substance 3D</b>, un format de fichier spécial avec l’extension <b>SBSAR</b>, utilisé dans l’écosystème de Substance de données ainsi que dans d’autres applications qui le prennent en charge.
 
-Il est généralement préférable d’utiliser une ressource Substance 3D plutôt que des bitmaps, car elle est beaucoup plus flexible et légère. Si vous les utilisez dans Substance 3D [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/fr/substance-3d-sampler.html) ou [Player](https://helpx.adobe.com/substance-3d-player/home.html), il est plus rapide d&#39;utiliser la fonctionnalité [Envoyer à](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+Il est généralement préférable d’utiliser une ressource Substance 3D plutôt que des bitmaps, car elle est beaucoup plus flexible et légère. Si vous les utilisez dans Substance 3D [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/fr/substance-3d-sampler.html) ou [Player](https://helpx.adobe.com/substance-3d-player/home.html), il est plus rapide d&#39;utiliser la fonctionnalité [&#39;Envoyer à...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Publication de fichiers SBSAR simplifiée](../../assets/exportflow.png "Publication de fichiers SBSAR simplifiée")
 
@@ -49,13 +49,13 @@ La publication nécessite davantage de préparation que l’exportation d’imag
 
 ## Méthodes de publication
 
-Une fois que vous êtes prêt à publier, il existe deux façons d&#39;accéder à la boîte de dialogue de publication : [via la fenêtre de l&#39;Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+Une fois que vous êtes prêt à publier, il existe deux façons d&#39;accéder à la boîte de dialogue Publication, toutes deux via l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Dans la [fenêtre de l&#39;Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), cliquez avec le bouton droit de la souris sur le package et choisissez ![](../../assets/image2020-9-23-9-39-58.png) **Fichier .sbsar Publish...**, autre touche de raccourci Ctrl + P.
+Dans l’Explorateur, cliquez avec le bouton droit de la souris sur le package et sélectionnez ![](../../assets/image2020-9-23-9-39-58.png) **Fichier .sbsar Publish...**, autre touche de raccourci Ctrl + P.
 
 Après avoir publié une fois avec la boîte de dialogue, vous pouvez également utiliser le fichier ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar comme précédent** pour répéter le processus de publication sans voir les boîtes de dialogue, en publiant immédiatement avec les mêmes paramètres.
 
@@ -72,7 +72,7 @@ Après avoir publié une fois avec la boîte de dialogue, vous pouvez également
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Dans la [fenêtre de l&#39;Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), en cliquant sur le bouton Publish ![](../../assets/image2020-9-23-9-39-58.png) dans la barre d&#39;outils supérieure.
+Dans l&#39;Explorateur, en cliquant sur le bouton Publish ![](../../assets/image2020-9-23-9-39-58.png) dans la barre d&#39;outils supérieure.
 
 Après avoir publié une fois avec la boîte de dialogue, vous pouvez également utiliser le bouton Publish comme précédent ![](../../assets/image2020-9-23-11-15-35.png) pour répéter le processus de publication sans voir les boîtes de dialogue, en publiant immédiatement avec les mêmes paramètres.
 

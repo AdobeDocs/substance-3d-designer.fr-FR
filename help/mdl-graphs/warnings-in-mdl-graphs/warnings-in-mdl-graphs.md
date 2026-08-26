@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avertissements dans les graphiques MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les graphiques MDL dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html), et propose des étapes de dépannage courantes pour chacun d&#39;eux.
 
-Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
+Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Si ce n&#39;est pas le cas, supprimez le nœud d&#39;instance et remplacez-le pa
 Pour les nœuds de ressource Scène
 
 Recherchez les ressources référencées dans le panneau [Explorateur](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) et vérifiez qu&#39;elles existent à l&#39;emplacement enregistré dans leur attribut <b>Chemin d&#39;accès</b>.\
-Si ce n&#39;est pas le cas, cliquez sur *RMB* sur l&#39;élément de ressource dans l&#39;Explorateur et sélectionnez <b>Déplacer...Option </b> dans le menu contextuel pour définir un nouveau fichier cible valide pour cette ressource.
+Si ce n&#39;est pas le cas, cliquez sur *RMB* sur l&#39;élément de ressource dans l&#39;Explorateur et sélectionnez l&#39;option <b>Déplacer...</b> dans le menu contextuel pour définir un nouveau fichier cible valide pour cette ressource.
 
 ![&#39;Ressource référencée introuvable&#39; solution](../../assets/warnings-model-referenced-resource.gif "&#39;Ressource référencée introuvable&#39; solution")
 

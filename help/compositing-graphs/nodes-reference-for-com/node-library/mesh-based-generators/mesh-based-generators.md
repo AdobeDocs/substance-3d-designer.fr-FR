@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Générateurs basés sur des maillages
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ La catégorie tire son nom du fait que les maps bakées sont le seul moyen pour 
 
 Il existe trois catégories principales :
 
-* [Générateurs de masques](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [Générateurs de masques](mask-generators/mask-generators.md)\
   Générateurs de masques noir et blanc basés sur une ou plusieurs maps bakées.
-* [Résilience](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  Effets d&#39;usure des matériaux en fonction des maps bakées.
-* [Utilitaires](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Résilience](weathering/weathering.md)
+Effets d&#39;usure des matériaux en fonction des maps bakées.
+* [Utilitaires](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   Utilitaires et outils supplémentaires pour travailler avec les pâtisseries.

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modes de création de liens
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ Dans les modes <b>Matériau</b> et <b>Matériau compact</b>, les connexions entr
 
 ## Les modes
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compacter | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Matériau compact |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compacter | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Matériau compact |
 | --- | --- | --- | --- |
 | <b>Entrées</b> | Toutes les entrées sont visibles | Toutes les entrées sont visibles | Seulement 1 entrée par groupe |
 | <b>Sorties</b> | Toutes les sorties sont visibles | Toutes les sorties sont visibles | Une seule sortie par groupe |
 | <b>Liens</b> | Tous les liens sont visibles | Tous les liens sont visibles | Un seul lien par groupe (vert) |
-| <b>Connexions</b> | Vous connectez les liens un par un | Vous connectez des liens en tant que groupe de matériaux à liens multiples en fonction des utilisations correspondantes.   Lorsqu’une utilisation est présente à une extrémité, la connexion est une connexion standard. | Vous connectez des liens en tant que groupe de matériaux à lien unique. |
+| <b>Connexions</b> | Vous connectez les liens un par un | Vous connectez des liens en tant que groupe de matériaux à liens multiples en fonction des utilisations correspondantes.   Lorsqu’une utilisation est présente à une extrémité, la connexion est une connexion standard. | Vous connectez des liens en tant que groupe de matériaux à lien unique. |
 
 ## Affectation de groupes
 

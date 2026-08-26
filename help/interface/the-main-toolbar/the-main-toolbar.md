@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Barre d'outils principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Nouveau :</b> ouvre un sous-menu pour créer un graphique ou un package :
 
-* <b>Nouveau graphique de Substance...:</b>(Ctrl+N) Vous présente la fenêtre [Nouveau graphique de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) qui vous permet de configurer un nouveau [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md) ;
+* <b>Nouveau graphique de Substance...:</b>(Ctrl+N) Vous présente la fenêtre [Nouveau graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) qui vous permet de configurer un nouveau [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md) ;
 * <b>Nouveau graphique de fonction de Substance :</b> crée un pack avec un [graphique de fonction de Substance](../../function-graphs/function-graphs.md) ;
 * <b>Vide :</b> crée un package vide.
 
@@ -110,11 +110,11 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Annuler l&#39;agrandissement de la fenêtre :</b> lorsqu&#39;un panneau est *agrandi*, cette option l&#39;agrandit et restaure la disposition telle qu&#39;elle était *avant* l&#39;agrandissement de la fenêtre
 
-<b>Explorateur :</b> affichez/masquez [la ou les fenêtres de l&#39;Explorateur.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Explorateur :</b> affichez/masquez l&#39;[Explorateur](../the-explorer-window/the-explorer-window.md).
 
 <b>Graphique :</b> afficher/masquer la ou les [fenêtre de graphique](../../interface/the-graph-view/the-graph-view.md).
 
-<b>Paramètres :</b> affichez/masquez la [fenêtre Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Paramètres :</b> affichez/masquez les [propriétés](../properties/properties.md).
 
 <b>Console :</b> affichez/masquez la fenêtre de la console.
 
@@ -122,7 +122,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Gestionnaire de dépendances :</b> affichez/masquez le [Gestionnaire de dépendances](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Vues 2D :</b> affichez/masquez les [vues 2D.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>Vues 2D :</b> affichez/masquez la [vue 2D](../2d-view/2d-view.md).
 
 <b>Bibliothèque :</b> affichez/masquez la [fenêtre de bibliothèque](../../interface/the-library/the-library.md).
 
@@ -153,9 +153,9 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Donner votre avis...:</b> Ouvre votre navigateur web sur la page d&#39;accueil de la [Communauté de support](https://www.adobe.com/go/Substance-3D-feedback-Designer_fr) d&#39;Adobe.
 
-<b>Ressources Substance 3D :</b> parcourez [le contenu 3D premium](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html) pour les abonnés (anciennement Substance Source).
+<b>Ressources Substance 3D :</b> parcourez [le contenu 3D premium](https://substance3d.adobe.com/assets) pour les abonnés (anciennement Substance Source).
 
-<b>Ressources de la communauté Substance 3D :</b> vous permet de parcourir [les ressources gratuites de la communauté](https://helpx.adobe.com/fr/substance-3d/unlisted/community-assets.html) (anciennement Substance share).
+<b>Ressources de la communauté Substance 3D :</b> vous permet de parcourir [les ressources gratuites de la communauté](https://substance3d.adobe.com/community-assets/) (anciennement Substance share).
 
 <b>Gérer mon compte\*:</b> ouvre la page web de votre compte Adobe.
 

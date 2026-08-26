@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outils d’alignement des nœuds
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Barre d&#39;outils d&#39;alignement des nœuds](../../../assets/node-alignment-toolbar.png "Barre d&#39;outils d&#39;alignement des nœuds"){zoomable="yes"}
 
-Les outils d&#39;alignement des nœuds vous permettent d&#39;organiser les nœuds dans des graphiques pour améliorer leur lisibilité et leur expérience de création. Ils proposent des actions permettant d’aligner les nœuds, de les répartir uniformément et de les aligner sur la grille.
+Les outils d&#39;alignement des nœuds vous permettent d&#39;organiser les nœuds dans des graphiques pour améliorer leur lisibilité et leur expérience de création. Ils proposent des actions permettant d’aligner les nœuds, de les répartir uniformément et de les aligner sur la grille.
 
 Ils agissent sur les <b>nœuds actuellement sélectionnés uniquement</b>.
 
@@ -108,7 +108,7 @@ Les nœuds peuvent être alignés horizontalement et verticalement, avec trois m
 
 ### Empilement
 
-L&#39;option ![](../../../assets/node-alignment-stack.png) <b>Empiler</b> vous permet d&#39;<b>éviter tout chevauchement</b> lors de l&#39;utilisation des alignements. Elle est activée par défaut.
+L&#39;option ![](../../../assets/node-alignment-stack.png) <b>Empiler</b> vous permet d&#39;<b>éviter tout chevauchement</b> lors de l&#39;utilisation des alignements. Elle est activée par défaut.
 
 Lorsque cette option est activée, les nœuds sont déplacés le plus loin possible vers la position de référence jusqu&#39;à ce qu&#39;ils entrent en collision avec un autre nœud dans la sélection. Cela permet de les empiler dans l’axe sélectionné avec une marge d’une cellule de grille moyenne entre chaque nœud.
 

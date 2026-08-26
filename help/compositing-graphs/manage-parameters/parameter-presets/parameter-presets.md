@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Paramètres prédéfinis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Il existe deux façons de stocker et de charger des paramètres prédéfinis. Le
 
 Les paramètres prédéfinis externes impliquent un fichier externe sur le disque, un fichier \*.SBSPRS. Ils peuvent être transférés entre différents graphes et nœuds, mais uniquement au sein de l’application. Leur objectif principal est exactement le suivant : transférer un certain nombre de valeurs trop grandes pour les copier une par une.
 
-Les paramètres prédéfinis externes sont disponibles pour tous les paramètres spécifiques sur [instances de graphique](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), pour la plupart des paramètres spécifiques sur [nœuds atomiques](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([les exceptions sont les paramètres qui ne peuvent pas être exposés](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), et pour les paramètres d&#39;entrée exposés dans les propriétés d&#39;[un graphique.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+Les paramètres prédéfinis externes sont disponibles pour tous les paramètres spécifiques sur [instances de graphique](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), pour la plupart des paramètres spécifiques sur [nœuds atomiques](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([les exceptions sont les paramètres qui ne peuvent pas être exposés](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) et pour les paramètres d&#39;entrée exposés dans les [paramètres](../../graph-parameters/graph-parameters.md)paramètres d&#39;un graphique de Substance.
 
 Ils sont simplement enregistrés et chargés via ce menu. Les fichiers SBSPRS enregistrés peuvent être chargés sur n’importe quel autre nœud ou graphique.
 

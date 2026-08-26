@@ -10,7 +10,7 @@ helpx_tags: ""
 title: L’application ne démarre pas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Les versions 15.0 et ultérieures de Designer ne peuvent pas démarrer sur les s
 
 <b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
 
-Mettez à jour les pilotes graphiques de l’iGPU. Vous trouverez les derniers pilotes ici : [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+Mettez à jour les pilotes graphiques de l’iGPU. Vous trouverez les derniers pilotes ici : [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 

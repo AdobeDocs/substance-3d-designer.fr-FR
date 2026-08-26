@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Contrôle de version
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -113,8 +113,8 @@ Comme tous les outils de contrôle de version sont différents et incluent de no
 1. Plusieurs actions sont disponibles, en fonction de l’état du fichier du package dans l’espace de travail :
 
    * <b>Ajouter :</b> marquez les fichiers comme « ToAdd »
-   * <b>Envoyer :</b> envoyez les packages sélectionnés. Cette action affiche une boîte de dialogue permettant de spécifier un message de modification (voir ci-dessous)
-   * <b>Rétablir :</b> rétablissez les modifications. Cette action affiche une boîte de dialogue pour sélectionner les fichiers à rétablir (voir ci-dessous)
+   * <b>Envoyer :</b> envoyez les packages sélectionnés. Cette action affiche une boîte de dialogue permettant de spécifier un message de modification (voir ci-dessous)
+   * <b>Rétablir :</b> rétablissez les modifications. Cette action affiche une boîte de dialogue pour sélectionner les fichiers à rétablir (voir ci-dessous)
    * <b>Extraire :</b> Extraire le fichier du dépôt
    * <b>Obtenir la dernière version :</b> récupérer la dernière version du dépôt
    * <b>État d&#39;actualisation :</b> actualisez l&#39;état du fichier du package

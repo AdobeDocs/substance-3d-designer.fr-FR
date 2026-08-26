@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Espace de travail
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ La barre d&#39;outils principale vous permet d&#39;accéder à des menus supplé
 
 ## Propriétés
 
-[Le dock des propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) est la fenêtre la plus technique. Il est toujours contextuel et présente des curseurs, des listes déroulantes et d’autres éléments qui modifient le comportement d’une ressource ou d’un nœud sélectionné.
+Le [dock des propriétés](properties/properties.md) est la fenêtre la plus technique. Il est toujours contextuel et présente des curseurs, des listes déroulantes et d’autres éléments qui modifient le comportement d’une ressource ou d’un nœud sélectionné.
 
 ![Propriétés](../assets/properties-15.jpg "Propriétés")
 

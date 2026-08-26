@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (polyquadratique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -54,8 +54,8 @@ La trajectoire de la spline peut être lissée à partir de ses points interméd
 <b> G</b> - Position Y\
 <b> B</b> - Height\
 <b> A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\
@@ -69,12 +69,12 @@ La trajectoire de la spline peut être lissée à partir de ses points interméd
 
 <b>Liste des points d&#39;entrée</b> *Couleur* (disponible lorsque l&#39;option Utiliser la liste des points d&#39;entrée a la valeur True)\
 Liste des points codés dans les couches RVBA d’une image couleur :\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Partie entière : Smoothness ;\
-        * Fraction : Thickness.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Partie entière : Smoothness ;\
+* Fraction : Thickness.
 
 <b>Numéro De Point</b> *Nombre entier* (disponible lorsque l&#39;option Utiliser la liste des points d&#39;entrée a la valeur True)\
 Nombre de points.
@@ -88,18 +88,18 @@ Nombre de points.
 <b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
 
 <b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
 

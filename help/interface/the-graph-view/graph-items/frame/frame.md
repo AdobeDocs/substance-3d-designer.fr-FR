@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cadre
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -66,7 +66,7 @@ Le cadre peut être déplacé en faisant glisser cette barre d’en-tête ou son
 +++
 
 +++Sélection
-Lorsque cette option est sélectionnée, le titre et le contour du cadre sont mis en surbrillance en blanc. Le contour s’épaissit.
+Lorsque cette option est sélectionnée, le titre et le contour du cadre sont mis en surbrillance en blanc. Le contour s’épaissit.
 
 ![Image (état sélectionné)](../../../../assets/graph-frames-selected.png "Image (état sélectionné)")
 
@@ -160,7 +160,7 @@ Maintenez la touche <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) enfoncée pour d�
 Lorsqu&#39;un bloc est sélectionné, les propriétés suivantes sont disponibles dans le dock [Propriétés](../../../../interface/properties/properties.md) :
 
 +++Titre
-Le <b>Titre</b> se trouve en haut à gauche de l&#39;image. Sa visibilité du titre peut être activée ou désactivée à l&#39;aide de la propriété <b>Titre visible</b>.
+Le <b>Titre</b> se trouve en haut à gauche de l&#39;image. Sa visibilité du titre peut être activée ou désactivée à l&#39;aide de la propriété <b>Titre visible</b>.
 
 La taille du titre peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphique. Pour ce faire, cochez l&#39;option « Titres des images » dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue graphique](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -196,7 +196,7 @@ La couche alpha de la couleur contrôle l&#39;*opacité* de l&#39;image, où une
 
 ## Description
 
-Un bloc peut être annoté avec un texte qui sera placé à l’intérieur du bloc. Le texte est aligné à gauche et commence dans le coin supérieur gauche du bloc. Utilisez la propriété [Description](#properties) du cadre pour modifier ce texte.
+Un bloc peut être annoté avec un texte qui sera placé à l’intérieur du bloc. Le texte est aligné à gauche et commence dans le coin supérieur gauche du bloc. Utilisez la propriété [Description](#properties) du cadre pour modifier ce texte.
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +204,7 @@ Un bloc peut être annoté avec un texte qui sera placé à l’intérieur du bl
 
 ### Standard
 
-Le <b>Titre</b> s&#39;affiche dans une police en gras située en haut à gauche de l&#39;image. La visibilité du titre peut être activée ou désactivée.
+Le <b>Titre</b> s&#39;affiche dans une police en gras située en haut à gauche de l&#39;image. La visibilité du titre peut être activée ou désactivée.
 
 Sa taille peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphique. Pour ce faire, cochez l&#39;option « Titres des images » dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue graphique](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -270,7 +270,7 @@ Voici une liste de balises utiles pour la mise en forme du texte :
 
 ## Règles d’inclusion
 
-Un objet est considéré comme inclus dans une image s’il répond à sa règle d’inclusion. Ces règles varient en fonction de l’objet et du cas particulier. Ils sont répertoriés ci-dessous.
+Un objet est considéré comme inclus dans une image s’il répond à sa règle d’inclusion. Ces règles varient en fonction de l’objet et du cas particulier. Ils sont répertoriés ci-dessous.
 
 Le symbole jaune de chaque illustration représente le point ou la zone qui doit se trouver entièrement à l’intérieur des limites d’un cadre pour qu’un objet soit inclus dans ce cadre.
 

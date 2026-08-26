@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue Graphique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -387,7 +387,7 @@ Choisissez entre les modes de création de liens Standard (1), Matériau (2) et 
 </b>*- Nettoyer :* supprime tous les nœuds qui font partie d&#39;un flux non connecté à un nœud [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Sorties d&#39;exportation :* ouvre l&#39;[interface d&#39;exportation bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Sorties de réexportation :* effectue à nouveau l&#39;opération d&#39;exportation précédente.\
-*- Exportateur de PSD :* ouvre[l&#39;interface de l&#39;exportateur de PSD.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportateur de PSD :* ouvre l&#39;interface [Exportateur de PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Cache d&#39;image de nœud\
 </b>Active/désactive l&#39;affichage du cache d&#39;image de nœud, voir ci-dessous.

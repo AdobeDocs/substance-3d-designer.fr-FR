@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Appliquer la palette de couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 
 |  |  |
 | --- | --- |
-| <b>ID</b> *Niveaux de gris* PRINCIPAUX | Mappage d’ID d’entrée utilisé pour répartir les couleurs dans la palette d’entrée.   Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (par exemple, une forme) contiennent tous la même valeur d’identification unique. Dans ce cas, la valeur est un nombre entier.   Un mappage ID peut être produit à l&#39;aide d&#39;un nœud [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Palette</b> *Couleur* | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs. Il s&#39;agit de la palette que le nœud mappe aux index du mappage d&#39;ID.   Les palettes peuvent être produites avec un nœud [Quantifier la couleur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) et modifiées avec un nœud [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
+| <b>ID</b> *Niveaux de gris* PRINCIPAUX | Mappage d’ID d’entrée utilisé pour répartir les couleurs dans la palette d’entrée.   Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (par exemple, une forme) contiennent tous la même valeur d’identification unique. Dans ce cas, la valeur est un nombre entier.   Un mappage ID peut être produit à l&#39;aide d&#39;un nœud [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Palette</b> *Couleur* | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs. Il s&#39;agit de la palette que le nœud mappe aux index du mappage d&#39;ID.   Les palettes peuvent être produites avec un nœud [Quantifier la couleur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) et modifiées avec un nœud [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
 
 ## Connecteurs de sortie
 

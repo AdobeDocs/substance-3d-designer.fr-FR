@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forme d’onde 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -43,26 +43,6 @@ Disposition horizontale de motifs sélectionnés par l’utilisateur empilés da
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
-
 ## Sorties
 
 |  |  |
@@ -74,8 +54,8 @@ Disposition horizontale de motifs sélectionnés par l’utilisateur empilés da
 |  |  |
 | --- | --- |
 | <b>Échantillons</b> Entier | Quantité de motifs placés le long de l’axe X pour dessiner la forme d’onde. Une valeur plus faible donne un aspect plus étagé. |
-| Entier <b>Fonction</b> | Fonction utilisée pour dessiner la forme d’onde.   Cela contrôle la taille verticale du motif placé sur chaque échantillon :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Bruit de valeur :</i> distribution aléatoire des valeurs</li> <li data-preserve-html="true"><i>Cosinus :</i> les valeurs suivent la progression d&#39;une fonction cosinus</li> <li data-preserve-html="true"><i>Fonction personnalisée :</i> utilisez une fonction créée par l&#39;utilisateur pour piloter les valeurs</li> </ul> |
-| <b>Fonction personnalisée</b> Float *Disponible lorsque &#39;Function&#39; est défini sur &#39;Fonction personnalisée&#39;* | Calcule la taille verticale du motif placé sur chaque échantillon.   Variables disponibles :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) Position du motif sur l&#39;axe X. Elle peut être utilisée pour sélectionner des motifs.</li> </ul> |
+| Entier <b>Fonction</b> | Fonction utilisée pour dessiner la forme d’onde.   Cela contrôle la taille verticale du motif placé sur chaque échantillon :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Bruit de valeur :</i> distribution aléatoire des valeurs</li> <li data-preserve-html="true"><i>Cosinus :</i> les valeurs suivent la progression d&#39;une fonction cosinus</li> <li data-preserve-html="true"><i>Fonction personnalisée :</i> utilisez une fonction créée par l&#39;utilisateur pour piloter les valeurs</li> </ul> |
+| <b>Fonction personnalisée</b> Float *Disponible lorsque &#39;Function&#39; est défini sur &#39;Fonction personnalisée&#39;* | Calcule la taille verticale du motif placé sur chaque échantillon.   Variables disponibles :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) Position du motif sur l&#39;axe X. Elle peut être utilisée pour sélectionner des motifs.</li> </ul> |
 | <b>Cassure</b> Flottante | Effectue une interpolation entre une forme d’onde propre et lisse et une autre plus irrégulière et mieux répartie.    Ceci peut être considéré comme un signal propre par rapport au bruit blanc. |
 | Entier <b>Échelle</b> | Plage horizontale de la forme d’onde visible dans l’image. |
 | <b>Amplitude min.</b>  Flottant | Valeur minimale (ou thickness) de la forme d’onde. |

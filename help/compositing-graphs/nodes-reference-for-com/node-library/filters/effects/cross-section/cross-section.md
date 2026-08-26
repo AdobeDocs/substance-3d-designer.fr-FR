@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Section transversale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -45,37 +45,37 @@ Il peut également être utilisé pour créer des formes et des silhouettes 2D d
 
 ## Paramètres
 
-<b>Coordonnée de la section transversale</b> *Flottant*\
+<b>Coordonnée de la section transversale</b> *Flotter*\
 Définissez la coordonnée d’échantillonnage de la tranche. Il peut s&#39;agir de coordonnées X ou Y en fonction de l&#39;axe de section.
 
 <b>Axe de section</b> *Nombre entier*\
 Définissez si la tranche est verticale ou horizontale.
 
-<b>Afficher l&#39;assistant</b> *booléen*\
+<b>Afficher l&#39;assistant</b> *Booléen*\
 Active une incrustation affichant la position de la section sur l’image d’entrée.
 
 Paramètres d’assistant
 
-<b>Échelle d&#39;assistant</b> *Flottant*\
-    Taille de l’incrustation exprimée sous la forme d’un multiple, où 1,0 représente l’image entière.
+<b>Échelle de l&#39;assistant</b> *Flotter*\
+Taille de l’incrustation exprimée sous la forme d’un multiple, où 1,0 représente l’image entière.
 
-<b> Position de l&#39;assistant</b> *Float2*\
-    Position (X, Y) de l’incrustation dans l’image de sortie, où (0,0, 0,0) est en haut à gauche et (1,0, 1,0) est en bas à droite.
+<b> position de l&#39;assistant</b> *Float2*\
+Position (X, Y) de l’incrustation dans l’image de sortie, où (0,0, 0,0) est en haut à gauche et (1,0, 1,0) est en bas à droite.
 
-<b>Échelle d&#39;Height</b> *Flottant*
+<b>Échelle d&#39;Height</b> *Flotter*
 
 Réduit l’échelle du graphique entier. Utile pour l’affichage HDR.
 
-<b>Décalage de l&#39;Height</b> *Flottant*\
+<b>Décalage de l&#39;Height</b> *Flotter*\
 Déplace le graphique entier vers le haut ou vers le bas. Utile pour l’affichage HDR.
 
-<b>Style de dessin</b> *Entier*\
+<b>Style de dessin</b> *Nombre entier*\
 Basculer entre le remplissage uni et le dessin au trait.
 
-<b>Inverser le dégradé</b> *booléen* Si le style de dessin est défini sur *Dégradé* ou *Dégradé en miroir*, vous permet d&#39;inverser ce dégradé sans affecter l&#39;arrière-plan.\
+<b>Inverser le dégradé</b> *Booléen* Si le style de dessin est défini sur *Dégradé* ou *Dégradé en miroir*, vous permet d&#39;inverser ce dégradé sans affecter l&#39;arrière-plan.\
 *Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Gradient&#39; ou &#39;Gradient mirrored&#39;.
 
-<b>Lisse/Polygonale</b> *Booléenne*\
+<b>Lisse/Polygonale</b> *Booléen*\
 Bascule la forme entre un profil lisse parfait ou un polygone irrégulier.\
 *Remarque :* disponible uniquement lorsque « Style de dessin » est défini sur « Solide », « Dégradé » ou « Dégradé miroir ».
 
@@ -83,15 +83,15 @@ Bascule la forme entre un profil lisse parfait ou un polygone irrégulier.\
 Définit le nombre de segments utilisés pour dessiner dans le style polygonal ou dans le style de ligne.\
 *Remarque :* disponible uniquement lorsque l&#39;option Lisser/Polygonal est définie sur Polygonal ou lorsque l&#39;option Style de dessin est définie sur Ligne.
 
-<b>thickness de ligne</b> *Flottant*\
+<b>thickness de ligne</b> *Flotter*\
 Définit le thickness de la ligne.\
 *Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line.
 
-<b>Style de ligne</b> *Entier*\
+<b>Style de ligne</b> *Nombre entier*\
 Permet de choisir la coloration et l’atténuation de la ligne.\
 *Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line.
 
-<b>smoothness de ligne</b> *Flottant*\
+<b>smoothness de ligne</b> *Flotter*\
 Définit le retrait de dégradé de la ligne.\
 *Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line.
 
@@ -99,7 +99,7 @@ Définit le retrait de dégradé de la ligne.\
 Couleur en niveaux de gris de la ligne ou de la forme.\
 *Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Solid&#39; ou que &#39;Line&#39; et &#39;Line style&#39; sont définis sur &#39;Smooth&#39; ou &#39;Solid&#39;.
 
-<b>Couleur d&#39;arrière-plan</b> *Flottant* Couleur en niveaux de gris de l&#39;arrière-plan.\
+<b>Couleur d&#39;arrière-plan</b> *Couleur flottante* en niveaux de gris de l’arrière-plan.\
 *Remarque :* non disponible lorsque &#39;Style de dessin&#39; est défini sur &#39;Line&#39; et &#39;Line style&#39; sur &#39;Segment ID&#39; ou &#39;Gradient along line&#39;.
 
 ## Exemples

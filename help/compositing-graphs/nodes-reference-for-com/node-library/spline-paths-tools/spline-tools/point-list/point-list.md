@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Liste de points
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 
 <b>Entrée de liste de points</b> *Couleur*\
 Liste des points d’entrée codés dans les couches RVBA d’une image couleur :\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-            * Partie entière : Smoothness ;\
-            * Fraction : Thickness.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Partie entière : Smoothness ;\
+* Fraction : Thickness.
 
 <b>Entrée de numéro de point</b> *Nombre entier*\
 Nombre de points d’entrée.
@@ -71,12 +71,12 @@ Nombre de points d’entrée.
 
 <b>Liste de points </b>*Couleur*\
 Liste de sortie des points codés dans les couches RVBA d’une image couleur :\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-            * Partie entière : Smoothness ;\
-            * Fraction : Thickness.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Partie entière : Smoothness ;\
+* Fraction : Thickness.
 
 <b>Nombre De Points </b>*Entier*\
 Nombre de points en sortie.
@@ -102,16 +102,16 @@ La valeur de smoothness résultante est fixée à la plage [0;1].
 +++
 
 +++Prévisualiser
-<b>Afficher les libellés</b> *booléens*\
+<b>Afficher les libellés</b> *Booléen*\
 Pour chaque point, affiche le nom du point en regard de celui-ci dans la sortie « Aperçu ».
 
-<b>Taille des libellés</b> *Flottant* (disponible lorsque « Afficher les libellés » est défini sur « Vrai »)\
+<b>Taille de l&#39;étiquette</b> *Float* (disponible lorsque « Afficher les libellés » est défini sur « Vrai »)\
 Taille du libellé de chaque point dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture.
 
-<b>Afficher les points</b> *booléens*\
+<b>Afficher les points</b> *Booléen*\
 Affiche les points dans la sortie Aperçu.
 
-<b>Taille des points</b> *Flottant* (disponible lorsque « Afficher les points » est défini sur « Vrai »)\
+<b>Taille Des Points</b> *Float* (disponible lorsque « Afficher les points » est défini sur « Vrai »)\
 Rayon des points dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture.
 
 +++

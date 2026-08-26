@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Outils de peinture bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Les outils de peinture seront automatiquement activés dans le panneau [Vue 2D](
 
 Les bitmaps *nouveaux* peuvent être créés de l&#39;une des manières suivantes :
 
-* Dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), cliquez sur RMB sur un *pack SBS* ou sur un *dossier* dans un pack pour ouvrir leur menu contextuel, puis ouvrez le sous-menu <b>Nouveau</b> et sélectionnez l&#39;option <b>Bitmap</b>
+* Dans le panneau [Explorateur](../../../interface/the-explorer-window/the-explorer-window.md), cliquez sur RMB sur un *pack SBS* ou sur un *dossier* dans un pack pour ouvrir leur menu contextuel, puis ouvrez le sous-menu <b>Nouveau</b> et sélectionnez l&#39;option <b>Bitmap</b>
 * Dans un [graphique](../../../interface/the-graph-view/the-graph-view.md), créez un [nœud Bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) et sélectionnez l&#39;option <b>À partir d&#39;une nouvelle ressource...</b> dans le menu contextuel
 
 La fenêtre <b>Nouveau bitmap</b> s&#39;ouvre et vous permet de définir *nom*, *résolution* et *couleur d&#39;arrière-plan* de la nouvelle ressource bitmap.
@@ -128,13 +128,13 @@ Pour créer un paramètre prédéfini, définissez les propriétés ci-dessous �
 
 Les paramètres prédéfinis sont organisés et enregistrés dans des *bibliothèques*, qui peuvent être gérées dans le menu de la ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>bibliothèque de pinceaux</b> :
 
-<b>Exporter la bibliothèque :</b> *enregistrer* les paramètres prédéfinis actuels et tous leurs paramètres dans un fichier de bibliothèque
+<b>Exporter la bibliothèque :</b> *enregistrez* les paramètres prédéfinis actuels et tous leurs paramètres dans un fichier de bibliothèque
 
-<b>Importer la bibliothèque :</b> *charger* les paramètres prédéfinis à partir d&#39;un fichier de bibliothèque existant et *les ajouter* à la liste actuelle : les paramètres prédéfinis portant le *même nom sont remplacés* par ceux du fichier de bibliothèque
+<b>Importer la bibliothèque :</b> *charger* des paramètres prédéfinis à partir d&#39;un fichier de bibliothèque existant et *les ajouter* à la liste actuelle : les paramètres prédéfinis *portant le même nom* sont remplacés par ceux du fichier de bibliothèque
 
 <b>Réinitialiser la bibliothèque :</b> réinitialise les paramètres prédéfinis actuels par la bibliothèque par défaut
 
-<b>Remplacer la bibliothèque :</b> *charger* les paramètres prédéfinis à partir d&#39;un fichier de bibliothèque existant et *fermer* la liste actuelle
+<b>Remplacer la bibliothèque :</b> *charger* les paramètres prédéfinis à partir d&#39;un fichier de bibliothèque existant et *ignorer* la liste actuelle
 
 </td>
 <td style="border: 0;" valign="top">

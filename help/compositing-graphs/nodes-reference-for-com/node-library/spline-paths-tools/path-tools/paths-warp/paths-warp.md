@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Les tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../.
 <b>Intensité</b> *Flotter*\
 Le paramètre <b>Intensité</b> définit l&#39;intensité de la déformation.
 
-<b>Nombre d&#39;étapes</b> *Nombre entier*\
+<b>Nombre d’étapes</b> *Nombre entier*\
 Utilisez une valeur plus élevée pour déformer les tracés d’entrée par petits incréments multiples.\
 Cela peut empêcher le tracé de se croiser, en particulier lors de l&#39;utilisation de valeurs <b>Intensité</b> élevées.
 

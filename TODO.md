@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # TODO
@@ -18,12 +18,21 @@ ht-degree: 2%
 * Exemples dans la page contextuelle Documentation
 * Glossaire :
   * HDR
+  * Métallique / Métallique
+  * HDR
+  * Spéculaire
+  * table des Heights
+  * Opacité
+  * Frustum
+  * Repère tangent
+  * Graine/Graine aléatoire
+  * FX-Map
+  * Processeur de pixels
+  * Préréglage
 
 ## Correctifs
 
-* Liens rompus dans [Présentation](help/getting-started/overview/overview.md)
 * Liens et formatage rompus dans le [nœud de sortie](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Liens HelpX
 * Supprimer la table des matières intégrée à la page (par ex. nouveaux bruits)
 * Correction des mises en page des nœuds (par ex. nouveaux bruits)
 * Corrigez le lien du 1er exemple d&#39;image dans les pages de nœuds (par ex. nouveaux bruits)

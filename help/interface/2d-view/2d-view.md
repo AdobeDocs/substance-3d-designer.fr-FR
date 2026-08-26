@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Vous pouvez également *faire glisser et déposer* des images directement dans l
 Dans la vue Graphique, vous pouvez envoyer une image à la vue 2D à l&#39;aide de l&#39;option de menu contextuel <b>Afficher la sortie en vue 2D</b>, accessible en cliquant sur *RMB*...
 
 * ...sur un *nœud* pour afficher *la sortie de ce nœud*. Si le nœud a plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
-* ...sur *espace vide* dans la vue Graphique pour afficher *la sortie de ce graphique*. Si le graphique comporte plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
+* ...sur *espace vide* dans la vue Graphique pour afficher *la sortie de ce graphique*. Si le graphique comporte plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
 
 Lors du chargement d&#39;un graphique, sa *première sortie* s&#39;affiche automatiquement dans la vue 2D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à <b>Édition > Préférences > Graphique > Graphique de composition de Substances</b> et *décochez* l&#39;<b>Afficher la sortie en vue 2D lors de l&#39;ouverture d&#39;un graphique</b>.
 
@@ -124,7 +124,7 @@ Vous pouvez *superposer une autre image* sur celle actuellement affichée. Appuy
 
 Une fois le fichier sélectionné, une nouvelle barre d’outils apparaît avec les commandes suivantes pour l’incrustation d’image :
 
-<b>![](../../assets/2d-view-icon-background-close.png) Fermer :</b> *fermer* la barre d&#39;outils des contrôles d&#39;incrustation et *désactiver* l&#39;incrustation de l&#39;image d&#39;arrière-plan.
+Fermeture de <b>![](../../assets/2d-view-icon-background-close.png) :</b> *fermez* la barre d&#39;outils contrôles d&#39;incrustation et *désactivez* l&#39;incrustation de l&#39;image d&#39;arrière-plan.
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png) Charger l&#39;image :</b> sélectionnez *un autre fichier image* à utiliser comme superposition.
 
@@ -181,7 +181,7 @@ Cette fonctionnalité n&#39;est *pas* disponible pour les autres nœuds, y compr
 
 Si l&#39;option <b>Afficher les UV en vue 2D</b> est activée dans le menu <b>Scène</b> du dock [Vue 3D](../../interface/3d-view/3d-view.md), la fonction d&#39;incrustation UV est disponible dans la vue 2D.
 
-Vous pouvez l&#39;activer à l&#39;aide du bouton <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
+Vous pouvez l&#39;activer à l&#39;aide du bouton <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
 
 Cela affiche les UV du maillage [actuellement sélectionné dans la vue 3D](../../interface/3d-view/3d-view.md) sous la forme d&#39;une structure filaire colorée.
 
@@ -343,7 +343,7 @@ Les <b>outils de peinture bitmap</b> sont disponibles pour les [ressources bitma
 
 >[!TIP]
 >
-> Pour en savoir plus, consultez la page [Éditeur de peinture bitmap](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) de la documentation.
+> Pour en savoir plus, consultez la page [Outils de peinture bitmap](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) de la documentation.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressour
 
 >[!TIP]
 >
-> Pour en savoir plus, consultez la page [Éditeur d’images vectorielles (obsolète)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) de la documentation.
+> Pour en savoir plus, consultez la page [Outils de modification vectorielle](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsolète) de la documentation.
 
 ![Gestion des couleurs en vue 2D](../../assets/2d-view-color-management-ocio.png "Gestion des couleurs en vue 2D"){width="360px"}
 

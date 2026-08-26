@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (Liste)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Les splines générées peuvent être linéaires (droites) ou quadratiques (cour
 <b> R</b> - Position X\
 <b> G</b> - Position Y\
 <b> B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\
@@ -72,18 +72,18 @@ Les splines générées peuvent être linéaires (droites) ou quadratiques (cour
 <b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
 
 <b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
 
@@ -113,9 +113,9 @@ Les splines générées qui correspondent au début ou à la fin des splines tra
 *- Spline parente :* la longueur totale des splines parentes est utilisée. Peut entraîner des chevauchements.\
 *- Intervalle :* L&#39;intervalle entre les splines du pont est utilisé. Cela atténue les chevauchements. Cette distance diminue lorsque la quantité de splines du pont augmente.
 
-<b>Décalage aléatoire de départ</b> *Flottant* Un multiplicateur pour le décalage aléatoire appliqué sur la position de départ des splines du pont, où la distance maximale est spécifiée par le paramètre <b>Plage de décalage aléatoire</b>.
+<b>Décalage aléatoire de début</b> *Variation* Un multiplicateur pour le décalage aléatoire appliqué sur la position de départ des splines du pont, où la distance maximale est spécifiée par le paramètre <b>Plage de décalage aléatoire</b>.
 
-<b>Décalage aléatoire de fin</b> *Flottant* Un multiplicateur pour le décalage aléatoire appliqué sur la position d&#39;extrémité des splines du pont, où la distance maximale est spécifiée par le paramètre <b>Plage de décalage aléatoire</b>.
+<b>Décalage aléatoire de fin</b> *Variable* Un multiplicateur pour le décalage aléatoire appliqué sur la position d&#39;extrémité des splines du pont, où la distance maximale est spécifiée par le paramètre <b>Plage de décalage aléatoire</b>.
 
 <b>Décalage aléatoire global</b> *Flotter* Un multiplicateur pour la *quantité égale* de décalage aléatoire appliquée sur *les deux* positions de début et de fin des splines du pont, où la distance maximale est spécifiée par le paramètre <b>Plage de décalage aléatoire</b>.
 
@@ -128,20 +128,20 @@ Les splines générées qui correspondent au début ou à la fin des splines tra
 
 <b>Thickness</b> *Flottant* Valeur de thickness absolue appliquée aux splines du pont.
 
-<b>Thickness aléatoire</b> *Float* Un multiplicateur aléatoire pour le thickness des splines du pont, où le thickness initial auquel ce multiplicateur est appliqué est spécifié par le paramètre <b>mode Thickness</b>.
+<b>Thickness aléatoire</b> *Flotter* Un multiplicateur aléatoire pour le thickness des splines du pont, où le thickness initial auquel ce multiplicateur est appliqué est spécifié par le paramètre <b>mode Thickness</b>.
 
 +++
 
 +++Hauteur
-<b>Mode d&#39;Height</b> *Entier* Méthode d&#39;acquisition de la valeur d&#39;height pour les splines du pont.\
+<b>Mode Height</b> *Entier* Méthode d&#39;acquisition de la valeur d&#39;height pour les splines du pont.\
 *- Hériter des splines parentes :* L&#39;height des splines parentes aux positions de début et de fin des splines de pont est utilisé\
 *- Remplacement :* La valeur arbitraire que vous spécifiez dans le paramètre <b>Height</b> est utilisée
 
-<b>Décalage de l&#39;Height</b> *Flottant* Le décalage appliqué à l&#39;height hérité des splines parentes, avant l&#39;application de cet height aux splines du pont.
+<b>Décalage Height</b> *Variable* Le décalage appliqué à l&#39;height hérité des splines parentes, avant l&#39;application de cet height aux splines du pont.
 
 <b>Height</b> *Flottant* Valeur d&#39;height absolue appliquée aux splines du pont.
 
-<b>Height aléatoire</b> *Flotter* Une quantité aléatoire d&#39;ajustement de l&#39;height des splines du pont, où cet ajustement dépend du paramètre <b>mode Height</b> sélectionné :\
+<b>Height aléatoire</b> *Flotter* Une quantité aléatoire d&#39;ajustement de l&#39;height des splines du pont, où cet ajustement dépend du paramètre <b>mode d&#39;Height</b> sélectionné :\
 *- Hériter des splines parentes :* La valeur est un multiplicateur pour l&#39;height hérité.\
 *- Remplacement :* La valeur est un décalage ajouté à l&#39;height.
 

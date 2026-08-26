@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -83,7 +83,7 @@ Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-de
 |  |  |
 | --- | --- |
 | <b>Opacité</b> *Flotter* | Opacité du calque de premier plan fusionné avec l’arrière-plan. Il fonctionne indépendamment de l’entrée Opacité et agit comme un multiplicateur supplémentaire. |
-| <b>Mode de fusion</b> *Entier* [Statique](../../../../glossary/glossary.md) | Définit l’opération de fusion à utiliser.   Consultez la [page dédiée aux modes de fusion](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Mode de fusion</b> *Entier* [Statique](../../../../glossary/glossary.md) | Définit l’opération de fusion à utiliser.   Consultez la [page dédiée aux modes de fusion](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
 | <b>Fusion des Alpha</b> *Entier* [Statique](../../../../glossary/glossary.md) | Détermine le comportement de fusion lorsque les entrées de couleur ont des couches Alpha :<ul data-preserve-html="true"> <li data-preserve-html="true">Utiliser l’alpha de la source</li> <li data-preserve-html="true">Ignorer l’alpha</li> <li data-preserve-html="true">Simulation de transparence droite</li> <li data-preserve-html="true">Fusion alpha prémultipliée</li> </ul> |
 | <b>Zone de recadrage</b> *Float4* [Statique](../../../../glossary/glossary.md) | Permet de définir une zone de recadrage personnalisée qui se comporte comme un masque d’opacité supplémentaire. Toute zone recadrée affiche uniquement l’arrière-plan. |
 

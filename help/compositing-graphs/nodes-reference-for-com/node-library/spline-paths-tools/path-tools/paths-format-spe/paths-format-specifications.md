@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spécifications de format des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -111,7 +111,7 @@ L&#39;en-tête de chemin du Nième chemin sera défini à l&#39;adresse `path\_a
 +++Haut
 <b>X</b>
 
-Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
+Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
 
 Si les sommets de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 sommets.\
 Un tracé avec 0 sommet est un tracé valide.

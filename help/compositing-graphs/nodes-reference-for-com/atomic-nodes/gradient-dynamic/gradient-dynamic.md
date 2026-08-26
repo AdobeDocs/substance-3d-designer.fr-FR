@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé (dynamique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -94,7 +94,7 @@ Vous pouvez également utiliser le curseur Position de l’entrée de dégradé 
 
 |  |  |
 | --- | --- |
-| <b>Adressage de dégradé</b> *Booléen* | Définit si le dégradé se répète (carreaux) ou se bloque.   Ce paramètre détermine le mode de traitement des pixels HDR hors plage de [0, 1] de l’entrée en niveaux de gris : bridé ou plié jusqu’à [0, 1]. |
+| <b>Adressage de dégradé</b> *Booléen* | Définit si le dégradé se répète (carreaux) ou se bloque.   Ce paramètre détermine le mode de traitement des pixels HDR hors plage de [0, 1] de l’entrée en niveaux de gris : bridé ou plié jusqu’à [0, 1]. |
 | <b>Orientation du dégradé</b> *Nombre entier* | Définit l&#39;axe le long duquel le &#39;Dégradé d&#39;entrée&#39; doit être échantillonné :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal :</i> échantillonnez une ligne de pixels sur l&#39;axe X.</li> <li data-preserve-html="true"><i>Vertical :</i> échantillonnez une colonne de pixels sur l&#39;axe Y.</li> </ul> |
 | <b>Position d&#39;entrée de dégradé</b> *Flotter* | Position normalisée de la ligne ou de la colonne de pixels à échantillonner dans l&#39;«entrée de dégradé». |
 

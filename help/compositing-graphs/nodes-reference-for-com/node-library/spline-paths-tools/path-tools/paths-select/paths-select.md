@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sélection de tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -55,7 +55,7 @@ L’entrée Tracés comporte un seul tracé. Vous pouvez utiliser [Prévisualise
 *- Par ID :* sélectionne le chemin dans la liste dont l&#39;index correspond à celui spécifié dans <b>ID de chemin</b>;\
 *- Par longueur :* sélectionne les chemins dont la longueur est supérieure ou inférieure au seuil spécifié dans <b>Longueur cible</b>.
 
-<b>Path ID</b> *Integer* (disponible lorsque le <b>Mode de sélection</b> est défini sur *By ID*)\
+<b>Path ID</b> *Nombre entier* (disponible lorsque <b>Mode de sélection</b> est défini sur *Par ID*)\
 Index du tracé sélectionné.\
 Une valeur supérieure au nombre de tracés dans <b>Tracés *crée*</b> une sortie vide.
 

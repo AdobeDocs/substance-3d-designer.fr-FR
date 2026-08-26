@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lissage de courbure
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 
 |  |  |
 | --- | --- |
-| <b>Courbure</b> *Niveaux de gris* | Courbure map calculée à partir de la courbe normale map d&#39;entrée.   Les zones plates sont grises à 50 %. Les zones convexes sont plus claires, tandis que les zones concaves sont plus sombres. |
-| <b>Convexité</b> *Niveaux de gris* | La carte de convexité est calculée à partir de la carte normale d&#39;entrée.   Plus une zone est convexe, plus elle est lumineuse sur la carte.  Les zones plates ou concaves sont noires. |
-| <b>Concavité</b> *Niveaux de gris* | Carte de concavité calculée à partir de la carte normale d&#39;entrée.   Plus une zone est concave, plus elle est lumineuse sur la carte.  Les zones plates ou convexes sont noires. |
+| <b>Courbure</b> *Niveaux de gris* | Courbure map calculée à partir de la courbe normale map d&#39;entrée.   Les zones plates sont grises à 50 %. Les zones convexes sont plus claires, tandis que les zones concaves sont plus sombres. |
+| <b>Convexité</b> *Niveaux de gris* | La carte de convexité est calculée à partir de la carte normale d&#39;entrée.   Plus une zone est convexe, plus elle est lumineuse sur la carte.  Les zones plates ou concaves sont noires. |
+| <b>Concavité</b> *Niveaux de gris* | Carte de concavité calculée à partir de la carte normale d&#39;entrée.   Plus une zone est concave, plus elle est lumineuse sur la carte.  Les zones plates ou convexes sont noires. |
 
 ## Paramètres
 

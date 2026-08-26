@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur de formes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ La projection déforme l’image pour qu’elle suive le contour de la forme et 
 | --- | --- |
 | Entier <b>Forme</b> | Définit le type de forme le long de laquelle les motifs doivent être placés :<ul data-preserve-html="true"> <li data-preserve-html="true">Cercle</li> <li data-preserve-html="true">Polygone</li> </ul> |
 | <b>Quantité du motif</b> Entier | Quantité de motifs placés le long de la forme sélectionnée. |
-| <b>Lier les segments avec la quantité de motif</b> Booléen *Disponible lorsque &#39;Shape&#39; est défini sur &#39;Polygon&#39;* | Utilisez la <b>quantité de motif</b> comme nombre de <b>segments</b>.   Cela empêche les motifs de s’enrouler autour des coins, garantissant ainsi un aspect droit et cohérent. |
-| <b>Segments</b> Entier *Disponible lorsque &#39;Shape&#39; est défini sur &#39;Polygon&#39; et &#39;Link segments with pattern amount&#39; est défini sur &#39;False&#39;* | Nombre de segments du polygone le long desquels les motifs sont placés.   Les segments sont *de taille régulière* et tous les sommets sont *équidistants du centre*, de sorte que l&#39;augmentation de la quantité de segments fait converger le polygone vers un cercle. |
+| <b>Lier les segments avec la quantité de motif</b> Booléen *Disponible lorsque &#39;Shape&#39; est défini sur &#39;Polygon&#39;* | Utilisez la <b>quantité de motif</b> comme nombre de <b>segments</b>.   Cela empêche les motifs de s’enrouler autour des coins, garantissant ainsi un aspect droit et cohérent. |
+| <b>Segments</b> Entier *Disponible lorsque &#39;Shape&#39; est défini sur &#39;Polygon&#39; et &#39;Link segments with pattern amount&#39; est défini sur &#39;False&#39;* | Nombre de segments du polygone le long desquels les motifs sont placés.   Les segments sont *de taille régulière* et tous les sommets sont *équidistants du centre*, de sorte que l&#39;augmentation de la quantité de segments fait converger le polygone vers un cercle. |
 | <b>Rayon</b> Flottant | Multiplicateur du rayon de la forme, où 1,0 correspond à la moitié de la longueur du côté le plus court de l’image. |
 | <b>Largeur</b> Flottante | Multiplicateur de la largeur des motifs le long de la forme, où 1,0 correspond à la moitié de la longueur du côté le plus court de l’image. |
 | Flotteur De <b>Rotation</b> | Spécifie le degré de rotation appliqué à la forme, en nombre de tours dans le sens des aiguilles d’une montre à partir de la droite horizontale. |

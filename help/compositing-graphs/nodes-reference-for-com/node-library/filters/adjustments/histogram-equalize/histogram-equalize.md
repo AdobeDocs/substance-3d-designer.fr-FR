@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Histogramme égaliser
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
-| <b>Lissage de l&#39;histogramme</b> *Flotter* | L&#39;histogramme peut être lissé en redistribuant les valeurs de niveaux de gris dans l&#39;image pour égaliser la *différence* entre chaque valeur.   Ce paramètre ajuste l’intensité de ce lissage. |
+| <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
+| <b>Lissage de l&#39;histogramme</b> *Flotter* | L&#39;histogramme peut être lissé en redistribuant les valeurs de niveaux de gris dans l&#39;image pour égaliser la *différence* entre chaque valeur.   Ce paramètre ajuste l’intensité de ce lissage. |
 
 ## Exemples
 

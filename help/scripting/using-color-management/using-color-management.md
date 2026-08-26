@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilisation de la gestion des couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -154,6 +154,6 @@ for res in resources:
 
 ## Écriture de textures SDT avec des conversions d’espace colorimétrique
 
-La méthode **save** de la classe **SDTexture** accepte désormais un paramètre facultatif **outputColorSpace**. Une fois spécifiée, la conversion de l&#39;espace colorimétrique sera *appliquée avant d&#39;enregistrer l&#39;image*.
+La méthode **save** de la classe **SDTexture** accepte désormais un paramètre facultatif **outputColorSpace**. Une fois spécifiée, la conversion de l&#39;espace colorimétrique sera *appliquée avant d&#39;enregistrer l&#39;image*.
 
 Si le mode de gestion des couleurs prend en charge les profils ICC incorporés *et* le format de fichier de destination les prend également en charge, le profil ICC d&#39;espace colorimétrique sera *incorporé dans le fichier image obtenu*.

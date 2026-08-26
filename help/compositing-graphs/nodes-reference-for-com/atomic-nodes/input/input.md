@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -106,11 +106,11 @@ Si vous voulez le voir avec les sorties d&#39;un autre Graphe, vous devrez soit 
 
 |  |  |
 | --- | --- |
-| <b>Identifiant</b> *Chaîne* | Le seul attribut unique et obligatoire. Ne peut pas contenir d&#39;espaces.   Celui-ci est utilisé pour étiqueter les entrées si aucun libellé n&#39;est configuré et pour différencier les sorties. Ne les laissez pas simplement à « input\_1 » ! |
+| <b>Identifiant</b> *Chaîne* | Le seul attribut unique et obligatoire. Ne peut pas contenir d&#39;espaces.   Celui-ci est utilisé pour étiqueter les entrées si aucun libellé n&#39;est configuré et pour différencier les sorties. Ne les laissez pas simplement à « input\_1 » ! |
 | <b>Description</b> *Chaîne* | Description facultative utilisée dans la bibliothèque Designer et le tiroir Painter. |
-| <b>Libellé</b> *Chaîne* | Libellé de l’interface utilisateur utilisé pour un étiquetage agréable dans l’interface utilisateur de Designer et Painter. Peut contenir des espaces.   Il est recommandé de définir un nom similaire à l’identifiant, avec des barres d’espace au lieu de tirets de soulignement. |
+| <b>Libellé</b> *Chaîne* | Libellé de l’interface utilisateur utilisé pour un étiquetage agréable dans l’interface utilisateur de Designer et Painter. Peut contenir des espaces.   Il est recommandé de définir un nom similaire à l’identifiant, avec des barres d’espace au lieu de tirets de soulignement. |
 | <b>Données utilisateur</b> *Chaîne* | Données utilisateur supplémentaires et facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. Il s’agit essentiellement d’un champ de données personnalisé générique. |
-| <b>Groupe</b> *Chaîne* | Attribut de groupe utilisé pour regrouper les entrées afin de créer des [modes de création de liens](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) Designer.   Les entrées dotées d&#39;un attribut de groupe identique (sensible à la casse) seront présentées comme une connexion unique en mode Matériau compact. |
+| <b>Groupe</b> *Chaîne* | Attribut de groupe utilisé pour regrouper les entrées afin de créer des [modes de création de liens](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) Designer.   Les entrées dotées d&#39;un attribut de groupe identique (sensible à la casse) seront présentées comme une connexion unique en mode Matériau compact. |
 
 ## Transmission
 
@@ -157,6 +157,6 @@ En outre, les attributs Utilisation sont également utilisés avec les [modes de
 
 |  |  |
 | --- | --- |
-| <b>Composant</b> *Chaîne* | Cela détermine quelles couches sont réellement dans l’entrée résultante.   Il s’agit d’un paramètre hérité qui n’est plus utilisé par les intégrations et les graphiques. |
+| <b>Composant</b> *Chaîne* | Cela détermine quelles couches sont réellement dans l’entrée résultante.   Il s’agit d’un paramètre hérité qui n’est plus utilisé par les intégrations et les graphiques. |
 | <b>Utilisation</b> *Chaîne* | Définissez un type ou une utilisation pour cette entrée. Elle indique comment les autres nœuds doivent se connecter à cette entrée. |
 | <b>Espace colorimétrique</b> *Chaîne* | Définit l’espace colorimétrique dans lequel cette entrée doit être interprétée. |

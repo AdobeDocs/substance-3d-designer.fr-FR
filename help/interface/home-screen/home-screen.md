@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Écran d’accueil
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Écran d’accueil](../../assets/home-screen-home.jpg "Écran d’accueil")
 
-Écran d&#39;accueil <b>1&rbrace;<b> </b></b>vous souhaite la bienvenue lorsque vous lancez Substance 3D Designer. Il vous aide à démarrer vos projets et à accéder à des liens utiles.
+Écran d&#39;accueil <b>1&rbrace;<b> </b></b>vous souhaite la bienvenue lorsque vous lancez Substance 3D Designer. Il vous aide à démarrer vos projets et à accéder à des liens utiles.
 
 <table>
 <tr style="border: 0;">

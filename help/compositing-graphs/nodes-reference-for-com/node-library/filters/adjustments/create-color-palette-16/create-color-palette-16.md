@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Créer une palette de couleurs (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 
 |  |  |
 | --- | --- |
-| <b>Palette</b> *Couleur* PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Cette entrée est facultative. Si elles sont utilisées, les couleurs définies par le nœud sont ajoutées à cette palette.   La palette peut être visualisée avec le nœud [Afficher la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantité de couleur de la palette</b> *Nombre entier* | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
+| <b>Palette</b> *Couleur* PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Cette entrée est facultative. Si elles sont utilisées, les couleurs définies par le nœud sont ajoutées à cette palette.   La palette peut être visualisée avec le nœud [Afficher la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Quantité de couleur de la palette</b> *Nombre entier* | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
 
 ## Connecteurs de sortie
 
@@ -82,7 +82,7 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 |  |  |
 | --- | --- |
 | <b>Quantité de couleur</b> *Nombre entier* | Quantité de couleurs à ajouter à la palette. |
-| <b>Couleur #</b> *Float3* *Autant de paramètres disponibles que la valeur « Quantité de couleur »* | Couleur à ajouter à la palette.   Les couleurs sont ajoutées à la palette dans le même ordre que cette liste numérotée. |
+| <b>Couleur #</b> *Float3* *Autant de paramètres disponibles que la valeur « Quantité de couleur »* | Couleur à ajouter à la palette.   Les couleurs sont ajoutées à la palette dans le même ordre que cette liste numérotée. |
 
 ## Exemples
 

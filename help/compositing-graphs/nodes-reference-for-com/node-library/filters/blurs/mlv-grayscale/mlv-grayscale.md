@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveaux de gris MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Le filtre recherche les zones structurantes d’une image et les utilise pour la
 <b>Intensité</b> *Flottant* L’intensité du filtrage appliqué à l’image.\
 Plus la valeur est élevée, plus les détails et le bruit sont lissés dans les zones plus plates.
 
-<b>Smoothness</b> *Flotter* L&#39;intensité du lissage appliqué aux zones de structuration, ce qui donne des zones plus arrondies et réduit l&#39;effet de pas qui peut se produire à des intensités de filtrage plus élevées.
+<b>Smoothness</b> *Variable* L’intensité du lissage appliqué aux zones de structuration, ce qui donne des zones plus arrondies et réduit l’effet de pas qui peut se produire à des intensités de filtrage plus élevées.
 
 <b>Critère</b> *Entier* Critère utilisé pour sélectionner les valeurs qui définiront les zones de structuration de l&#39;image.\
 En d&#39;autres termes, comment les pixels doivent être *regroupés* en zones qui doivent être lissées.\

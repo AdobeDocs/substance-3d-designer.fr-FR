@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -48,43 +48,43 @@ Le nœud fonctionne comme une application avancée du nœud [Flood Fill](../../.
 <b>Mode Grille</b> *Booléen*\
 Affiche toutes les formes détectées dans une grille.
 
-<b>Opacité De La Grille</b> *Flottant*\
+<b>Opacité de la grille</b> *Flotter*\
 Définit l’opacité des lignes de la grille lorsque le mode Grille a la valeur True. Option de débogage
 
-<b>Opacité De La Sélection De La Grille</b> *Flottant*\
+<b>Opacité de la sélection de grille</b> *Flotter*\
 Définit l’opacité de la mise en surbrillance de la sélection de grille si le mode Grille a la valeur True. Option de débogage
 
-<b>Échelle automatique</b> *Booléenne*\
+<b>Mise à l&#39;échelle automatique</b> *Booléen*\
 Redimensionnez automatiquement les formes pour les adapter à la cellule de la grille.
 
 <b>Recadrage automatique</b> *Booléen*\
 Recadre automatiquement la taille de sortie en fonction de la forme la plus grande afin de réduire l’espace vide.
 
-<b>Sélection De Forme</b> *Nombre Entier*\
+<b>Sélection de forme</b> *Nombre entier*\
 En mode Grille, la cellule mise en surbrillance est définie, tandis qu’en dehors du mode Grille, la cellule renvoyée est définie.
 
 <b>Ignorer la forme inférieure à</b> *Flotter*\
 Ignore les formes dont la diagonale est inférieure à la valeur spécifiée.
 
-<b>Rotation automatique</b> *Booléenne*\
+<b>Rotation automatique</b> *Booléen*\
 Fait pivoter automatiquement la forme en fonction de son rapport de taille de cadre de sélection.
 
 <b>Rotation</b> *Flotter*\
 Angle de rotation de la forme globale
 
-<b>Format Normal D&#39;Entrée</b> *Nombre Entier*\
+<b>Format normal d&#39;entrée</b> *Nombre entier*\
 Définissez le format de la normale en entrée. Si vous définissez un format incorrect, le résultat obtenu est incorrect.
 
-<b>Réduire Le Masque D&#39;Opacité</b> *Nombre Entier*\
+<b>Réduire le masque d&#39;opacité</b> *Nombre entier*\
 Réduit l’échelle du masque d’opacité pour supprimer le bruit potentiel ou le pixel isolé. Il empêche la détection de formes indésirables et augmente également les performances.
 
-<b>Largeur de dilatation</b> *Flottant*\
+<b>Largeur de dilatation</b> *Flotter*\
 Applique un effet de dilatation basé sur le masque d’opacité sur toutes les couches, à l’exception de Normal et Height.
 
-<b>Activer les entrées supplémentaires</b> *booléennes*\
+<b>Activer les entrées supplémentaires</b> *Booléen*\
 Met à disposition les entrées et paramètres de l&#39;utilisateur 1 et de l&#39;utilisateur 2 pour tous les mappages supplémentaires non traités.
 
-<b>Couleur d&#39;arrière-plan personnalisée</b> *Booléenne*\
+<b>Couleur d&#39;arrière-plan personnalisée</b> *Booléen*\
 Permet de choisir une couleur d’arrière-plan personnalisée, au lieu d’une dilatation du contenu de ce calque.
 
 <b>Couleur De Base</b> *Float3*\
@@ -93,18 +93,18 @@ Couleur BG personnalisée pour la couleur de base.
 <b>Couleur Bg Normale</b> *Float3*\
 Couleur BG personnalisée pour la carte des normales.
 
-<b>Couleur métallique du sac</b> *Flottant*\
+<b>Couleur métallique du sac</b> *Flotter*\
 Couleur BG personnalisée pour Métallique.
 
-<b>Couleur De Rugosité</b> *Flottant*\
+<b>Cassure Par Couleur</b> *Flotter*\
 Couleur BG personnalisée pour la rugosité
 
-<b>Couleur Height</b> *Flottant*\
+<b>Couleur Height</b> *Flotter*\
 Couleur BG personnalisée pour l’Height
 
-<b>Utilisateur 1 Big Color</b> *Float*\
+<b>Utilisateur 1 Big Color</b> *Flotter*\
 Couleur BG personnalisée pour le mappage personnalisé Utilisateur 1
 
-<b>Couleur Bg de l’utilisateur 2</b> *Flottant* Couleur BG personnalisée pour le mappage Utilisateur 1 personnalisé
+<b>Utilisateur 2 Bg Color</b> *Couleur flottante* BG personnalisée pour le mappage personnalisé Utilisateur 1
 
 ## Exemples

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Graphiques MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Lors de la création de matériaux, vous pouvez utiliser le propre moteur de ren
 Les graphiques MDL sont complémentaires des [graphiques de Substance](../compositing-graphs/substance-compositing-graphs.md), car ces derniers produisent des *textures* qui peuvent être *échantillonnées* par le matériau MDL pour modifier son comportement et son apparence.
 
 Nous vous suggérons de parcourir les sections de cette documentation *dans l’ordre* pour un parcours d’apprentissage guidé, en commençant par les propriétés d’une ressource de graphique MDL, juste en dessous.\
-Envie d&#39;intervenir ? Commencez à utiliser les graphiques MDL dans la section [Ressources d&#39;apprentissage MDL](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html) !
+Envie d&#39;intervenir ? Familiarisez-vous avec les graphiques MDL dans la section Ressources d’apprentissage MDL !
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Envie d&#39;intervenir ? Commencez à utiliser les graphiques MDL dans la sectio
 
 ![Propriétés de graphique MDL](../assets/mdl-main.png "Propriétés de graphique MDL")
 
-*Propriétés de graphique MDL dans le panneau [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)*
+*Propriétés de graphique MDL dans le panneau Propriétés*
 
 ## Propriétés de graphique MDL
 
@@ -89,7 +89,7 @@ Remarque : les propriétés marquées d&#39;un astérisque (\*) sont des annotat
 
 ### Entrées du graphe
 
-Cette section répertorie les paramètres interactifs connectés aux [paramètres exposés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) du graphique MDL et définit leurs *valeurs par défaut*. Ils peuvent être *modifiés* et *réorganisés* à tout moment.
+Cette section répertorie les paramètres interactifs connectés aux paramètres exposés du graphique MDL et définit leurs *valeurs par défaut*. Ils peuvent être *modifiés* et *réorganisés* à tout moment.
 
 L&#39;interface et le comportement de ces entrées sont définis par le *type de valeur* et les *plages* des paramètres exposés auxquels elles sont connectées. Par exemple :
 

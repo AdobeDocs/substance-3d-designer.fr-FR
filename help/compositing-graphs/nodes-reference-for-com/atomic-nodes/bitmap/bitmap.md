@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Charge une [ressource bitmap](../../../../resources/bitmap-resource/bitmap-resou
 
 Ce nœud est utilisé pour importer un [bitmap](../../../../glossary/glossary.md) dans votre graphique ou pour créer un bitmap à utiliser avec les [outils de peinture bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous compreniez[&#x200B; la différence entre la liaison et l&#39;importation de ressources.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous compreniez[la différence entre lier et importer des ressources](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](.
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Détermine le type de sortie du nœud, à retourner en couleur ou en niveaux de gris. |
-| <b>Chemin de ressource PKG</b> *Chaîne* | Chemin d&#39;accès à la [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) référencée par le nœud.   Il est recommandé de ne pas taper manuellement, mais de copier une ressource de l&#39;explorateur et de la coller dans le champ de texte du paramètre, ou de glisser-déposer une ressource bitmap directement de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) sur le nœud Bitmap dans le graphique. |
+| <b>Chemin de ressource PKG</b> *Chaîne* | Chemin d&#39;accès à la [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) référencée par le nœud.   Il est recommandé de ne pas taper manuellement, mais de copier une ressource de l&#39;explorateur et de la coller dans le champ de texte du paramètre, ou de glisser-déposer une ressource bitmap directement de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) sur le nœud Bitmap dans le graphique. |
 | <b>Méthode de redimensionnement</b> *Nombre entier* | Méthode de rééchantillonnage à utiliser lors de la mise à l’échelle supérieure ou inférieure d’un bitmap :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Étirement lissé :</i> appliquez [un filtrage bilinéaire](../../../../glossary/glossary.md) pour effectuer une interpolation sur les pixels source de l’image étirée.</li> <li data-preserve-html="true"><i>Étirement le plus proche :</i> étirez l’image et utilisez la couleur du pixel source le plus proche telle quelle.</li> </ul> |
 
 ## Outils de peinture bitmap

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Histogramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -80,14 +80,14 @@ Les outils personnalisés peuvent être créés à l&#39;aide des données calcu
 
 |  |  |
 | --- | --- |
-| <b>Histogramme</b> *Niveaux de gris* | Histogramme calculé pour l&#39;image d&#39;entrée, codé sous la forme d&#39;une ligne de pixels où chaque valeur de pixel correspond à la *population* de la valeur de couleur correspondant à la position de pixel sur l&#39;axe X.   Par exemple, une valeur de pixel de 75 at (0,25, 0) signifie que 75 pixels ont la valeur de couleur 0,25 dans l’image. |
-| <b>CDF</b> *Niveaux de gris* | Résultat de la *fonction de distribution cumulative* (CDF) calculée pour l&#39;image, codée en une ligne de pixels où chaque pixel est la somme de toutes les valeurs de pixels à sa gauche.   Cette somme est ensuite *normalisée* par rapport au nombre total de pixels dans l&#39;image. |
+| <b>Histogramme</b> *Niveaux de gris* | Histogramme calculé pour l&#39;image d&#39;entrée, codé sous la forme d&#39;une ligne de pixels où chaque valeur de pixel correspond à la *population* de la valeur de couleur correspondant à la position de pixel sur l&#39;axe X.   Par exemple, une valeur de pixel de 75 at (0,25, 0) signifie que 75 pixels ont la valeur de couleur 0,25 dans l’image. |
+| <b>CDF</b> *Niveaux de gris* | Résultat de la *fonction de distribution cumulative* (CDF) calculée pour l&#39;image, codée en une ligne de pixels où chaque pixel est la somme de toutes les valeurs de pixels à sa gauche.   Cette somme est ensuite *normalisée* par rapport au nombre total de pixels dans l&#39;image. |
 
 ## Paramètres
 
 |  |  |
 | --- | --- |
-| <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
+| <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
 
 ## Exemples
 

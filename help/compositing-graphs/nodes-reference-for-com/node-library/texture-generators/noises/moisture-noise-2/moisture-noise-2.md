@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bruit d'humidité 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -42,26 +42,6 @@ Une variante des bruits riches et spongieux de l&#39;<b>humidité</b>.
 Disques de dureté et de taille variables et dispersés et additionnés ou soustraits de la couleur ci-dessous, à partir d&#39;un gris de base.
 
 Voir aussi : [Bruit d&#39;humidité 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
 
 </td>
 </tr>

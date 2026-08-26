@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avertissements et erreurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '817'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ En général, les avertissements et les erreurs sont affichés sur l&#39;éléme
 
 ### Explorateur
 
-Pour tout élément du panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
@@ -83,7 +83,7 @@ Ils suivent les règles suivantes :
 
 ### Propriétés
 
-Pour tout élément du panneau [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Propriétés](../../interface/properties/properties.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
@@ -106,7 +106,7 @@ Ils suivent les règles suivantes :
 
 ### Console
 
-Les avertissements et les erreurs sont signalés dans le panneau **Console**, auquel vous pouvez accéder via le menu **Windows** dans le [menu principal](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). Vous pouvez isoler les avertissements et les erreurs du reste des entrées de la console en définissant le paramètre **Canal** sur `ErrorMgr`.
+Les avertissements et les erreurs sont signalés dans le panneau **Console**, auquel vous pouvez accéder via le menu **Windows** dans le [menu principal](../../interface/the-main-toolbar/the-main-toolbar.md). Vous pouvez isoler les avertissements et les erreurs du reste des entrées de la console en définissant le paramètre **Canal** sur `ErrorMgr`.
 
 >[!NOTE]
 >
