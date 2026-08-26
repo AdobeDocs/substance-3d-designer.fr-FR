@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 12.4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Version 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Lorsque vous modifiez votre graphique, vous devez parfois expérimenter plusieur
 
 ### Saisir des formules dans les champs de paramètres
 
-Plus besoin d&#39;utiliser une calculatrice ou de calculer dans votre tête lorsque vous voulez entrer des valeurs de paramètres spécifiques. Vous pouvez désormais saisir directement des formules de base telles que des additions, des divisions, des multiplications ou des soustractions lors de la définition d&#39;une valeur numérique pour un paramètre dans les [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) et à d&#39;autres endroits dans l&#39;application.
+Plus besoin d&#39;utiliser une calculatrice ou de calculer dans votre tête lorsque vous voulez entrer des valeurs de paramètres spécifiques. Vous pouvez désormais saisir directement des formules de base telles que les additions, les divisions, les multiplications ou les soustractions lors de la définition d&#39;une valeur numérique pour un paramètre dans les Propriétés et à d&#39;autres endroits dans l&#39;application.
 
 ![](../../assets/final-formula.gif){width="640px"}
 
@@ -111,7 +111,7 @@ Cette version 12.4 offre également la prise en charge complète des graphiques 
 * [Vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
 * [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur la couche alpha
 * [Localisation] Des curseurs et des boutons supplémentaires s’affichent dans les propriétés OpenGL de l’environnement.
-* [MDL]&#x200B;[Substance de données] Blocage lors de la suppression de nœuds exposés
+* [MDL][Substance de données] Blocage lors de la suppression de nœuds exposés
 * [Préférences] Le fichier par défaut\_config n’est jamais recréé s’il est supprimé
 * [modèle de Substance] Paramètre de réorganisation de blocage qui n&#39;apparaît pas au niveau de l&#39;instance
 * [API] SDProperty.getDefaultValue() renvoie presque toujours None

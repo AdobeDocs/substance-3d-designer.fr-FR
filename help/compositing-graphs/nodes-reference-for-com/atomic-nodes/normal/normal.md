@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normal pour traiter et manipuler les textures de texture normales afin de contrôler les détails de la surface et l'éclairage.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ Il s&#39;agit d&#39;un nœud très utile, souvent utilisé pour convertir les en
 
 |  |  |
 | --- | --- |
-| <b>Intensité</b> *Flotter* | Modifie la courbe d’intensité des heights.   Définit l’intensité de l’interprétation de la texture d’height d’entrée pour la conversion en normales. En fonction des cartes d’entrée, les valeurs supérieures à 100 ont peu plus d’effet. |
-| <b>Format normal</b> *Booléen* | Inverse les coordonnées Y de la courbe d’height (OpenGL).   Définit le mode de codage de la couche verte (Y). En gros un commutateur « Flip Green/Y ». |
-| <b>Contenu de canal Alpha</b> *Booléen* | Remplissez la couche alpha de la texture normale avec la texture d&#39;entrée.   Alpha de remplissage avec l’Alpha Entrée/Force sur 1 : permet de définir le canal d’Alpha sur solide, au lieu d’utiliser l’entrée comme Alpha supplémentaire. |
+| <b>Intensité</b> *Flotter* | Modifie la courbe d’intensité des heights.   Définit l’intensité de l’interprétation de la texture d’height d’entrée pour la conversion en normales. En fonction des cartes d’entrée, les valeurs supérieures à 100 ont peu plus d’effet. |
+| <b>Format normal</b> *Booléen* | Inverse les coordonnées Y de la courbe d’height (OpenGL).   Définit le mode de codage de la couche verte (Y). En gros un commutateur « Flip Green/Y ». |
+| <b>Contenu de canal Alpha</b> *Booléen* | Remplissez la couche alpha de la texture normale avec la texture d&#39;entrée.   Alpha de remplissage avec l’Alpha Entrée/Force sur 1 : permet de définir le canal d’Alpha sur solide, au lieu d’utiliser l’entrée comme Alpha supplémentaire. |
 
 ## Connecteurs d’entrée
 

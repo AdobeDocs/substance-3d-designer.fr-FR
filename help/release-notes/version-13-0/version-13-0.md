@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 13.0 pour en savoir plus sur les nouveaux nœuds, la Substance Engine 9.0 et les nœuds de portail.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Dans certains cas, vous devrez traiter plusieurs splines comme une seule entité
 
 #### Modifier
 
-Nous fournissons également des outils pour retravailler et ajuster vos splines. Vous trouverez un nœud pour appliquer une [transformation 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md), comme une rotation, une translation, une échelle et un autre à [déformation](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>la forme et deux autres nœuds pour modifier le [thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b> ou l&#39;[height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) des splines.
+Nous fournissons également des outils pour retravailler et ajuster vos splines. Vous trouverez un nœud pour appliquer une [transformation 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md), comme une rotation, une translation, une échelle et une autre à la [déformation](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>la forme et deux autres nœuds pour modifier le [thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>ou l&#39;[height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) des splines.
 
 <table>
 <tr style="border: 0;">
@@ -119,7 +119,7 @@ Nous fournissons également des outils pour retravailler et ajuster vos splines.
 
 La dernière catégorie est celle qui permet de créer la forme ou le motif final en fonction de vos splines. La première idée qui vous viendra à l&#39;esprit sera de reproduire une forme donnée le long de la spline : le nœud [Dispersion sur la spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) vous permet de le faire, avec beaucoup de paramètres pour contrôler parfaitement la répartition (rotation, mise à l&#39;échelle, décalage, couleurs, masques, etc.).
 
-Grâce au [nœud de remplissage de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>, vous pouvez facilement créer un motif à partir d&#39;une spline fermée. Et si vous souhaitez mapper n&#39;importe quelle texture sur vos splines, avec un degré élevé de contrôle et de précision, le nœud [Mappeur de splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) est fait pour vous !
+Merci pour le [remplissage spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nœud, vous pouvez facilement créer un motif à partir d&#39;une spline fermée. Et si vous souhaitez mapper n&#39;importe quelle texture sur vos splines, avec un degré élevé de contrôle et de précision, le nœud [Mappeur de splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) est fait pour vous !
 
 <table>
 <tr style="border: 0;">
@@ -150,7 +150,7 @@ Grâce au [nœud de remplissage de spline](../../compositing-graphs/nodes-refere
 
 Le nœud [Masquer sur tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) vous permet d&#39;extraire la bordure d&#39;un motif en niveaux de gris, sous la forme d&#39;une liste de segments.
 
-Vous pouvez ensuite traiter ces tracés avec les nœuds [Transformation 2D du tracé](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Déformation des tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) afin de les ajuster en fonction de vos besoins.  Et grâce au nœud [Tracés vers spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), vous pouvez convertir votre tracé en spline, et ainsi profiter de tous les nœuds dédiés aux splines mentionnées précédemment, comme la diffusion.
+Vous pouvez ensuite traiter ces tracés avec les nœuds [Transformation 2D du tracé](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Déformation des tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) afin de les ajuster en fonction de vos besoins.  Et grâce au nœud [Tracés vers spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), vous pouvez convertir votre tracé en spline, et ainsi profiter de tous les nœuds dédiés aux splines mentionnées précédemment, comme la diffusion.
 
 <table>
 <tr style="border: 0;">

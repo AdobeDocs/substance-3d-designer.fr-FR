@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Processeur de sommets de tracés pour transformer et manipuler les sommets de tracé avec des options avancées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de sommets de tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Les tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../.
 
 ## Paramètres
 
-<b>Accès Aux Sommets Précédents</b> *Nombre Entier*\
+<b>Accès aux sommets précédents</b> *Nombre entier*\
 L&#39;utilisation de ce paramètre vous permettra d&#39;obtenir la position du sommet précédent le long du tracé (*prev.pos*) et du sommet précédent (*prev[2].pos*) à l&#39;aide des nœuds <b>Get</b> dans la fonction de paramètre <b>Fonction par sommet</b>.
 
 <b>Accès aux sommets suivants</b> *Nombre entier*\

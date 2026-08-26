@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Découvrez comment fonctionne l’héritage dans les graphiques de composition de Substances pour créer des hiérarchies et des variations de graphiques réutilisables.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Héritage dans les graphes Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Cela devrait vous permettre d&#39;apprécier l&#39;impact que les modifications 
 
 ### Modification des méthodes d’héritage
 
-Dans le panneau [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), tous les paramètres répertoriés dans la section [Paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) des propriétés d&#39;un nœud disposent d&#39;un bouton déroulant (icône) <b>Définir la méthode d&#39;héritage</b> opposé à leur libellé.\
+Dans le panneau Propriétés, tous les paramètres répertoriés dans la section [Paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) des propriétés d&#39;un nœud disposent d&#39;un bouton déroulant (icône) <b>Définir la méthode d&#39;héritage</b> en regard de leur libellé.\
 Ce bouton permet de sélectionner la méthode d&#39;héritage à utiliser pour un paramètre.
 
 ![Modification de la méthode d&#39;héritage](../../assets/inheritance-change.gif "Modification de la méthode d&#39;héritage"){width="512px"}

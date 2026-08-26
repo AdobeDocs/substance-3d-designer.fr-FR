@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Remplissage de spline pour remplir des zones définies par des splines fermées avec des textures ou des couleurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Remplissage spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -51,9 +51,9 @@ Les splines ouvertes sont fermées par une ligne droite du début à la fin. Les
 <b> R</b> - Position X\
 <b> G</b> - Position Y\
 <b> B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\

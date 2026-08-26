@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressources d’apprentissage MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Voici une liste de documents et de références utiles pour approfondir votre co
 
 ## Tutoriels
 
-Notre site Web [Substance 3D Tutorials](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials.html) propose le contenu suivant en rapport avec les graphiques MDL.
+Notre site Web [Substance 3D Tutorials](https://www.adobe.com/learn/substance-3d) propose le contenu suivant en rapport avec les graphiques MDL.
 
 <table>
 <tr style="border: 0;">
@@ -42,7 +42,7 @@ Notre site Web [Substance 3D Tutorials](https://helpx.adobe.com/fr/substance-3d/
 
 ### Création d’un fichier MDL dans Substance 3D Designer
 
-[Cette série](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials/courses/creating-an-mdl-in-substance-3d-designer/youtube-2-0-nyuri6w.html) est un *excellent point de départ* pour découvrir les graphiques MDL et travailler avec des matériaux MDL dans Designer.
+[Cette série](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer) est un *excellent point de départ* pour découvrir les graphiques MDL et travailler avec des matériaux MDL dans Designer.
 
 Le matériau du vernis transparent métallique traité dans ce tutoriel est impossible à définir uniquement à travers les textures : il présente *deux reflets de specular distincts* qui se comportent différemment : un vernis métallique plus rugueux avec des mouchetures et un vernis transparent très lisse.
 
@@ -63,7 +63,7 @@ Le matériau du vernis transparent métallique traité dans ce tutoriel est impo
 
 ### Décomposition de matériau malachite MDL
 
-[Cet article](https://helpx.adobe.com/fr/substance-3d/unlisted/tutorials/courses/mdl-malachite-material-breakdown.html) vous guide dans la production d&#39;un matériau *plus élaboré* qui ne peut pas non plus être obtenu uniquement à l&#39;aide de textures. Ici, la synergie entre les graphiques MDL et les [graphiques de Substance](../../compositing-graphs/substance-compositing-graphs.md) est exploitée pour obtenir d&#39;excellents résultats de manière très efficace.
+[Cet article](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) vous guide dans la production d&#39;un matériau *plus élaboré* qui ne peut pas non plus être obtenu uniquement à l&#39;aide de textures. Ici, la synergie entre les graphiques MDL et les [graphiques de Substance](../../compositing-graphs/substance-compositing-graphs.md) est exploitée pour obtenir d&#39;excellents résultats de manière très efficace.
 
 « Dans ce tutoriel épique, [Mark Foreman](https://www.artstation.com/oggyart), artiste environnemental senior chez CD PROJEKT RED, détaille son matériel MDL gagnant pour le concours Materialize ! Vous pouvez télécharger la documentation de Mark sur [Substance share](https://share-legacy.substance3d.com/libraries/4043). »
 

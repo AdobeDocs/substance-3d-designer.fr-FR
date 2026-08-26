@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux de gris du filtre médian pour réduire le bruit et préserver les contours des textures en niveaux de gris.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Filtre médian en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Ce paramètre contrôle la taille de ce noyau carré, en pixels. Un noyau plus g
 *- 3x3:* un noyau de 3 pixels de large et 3 pixels de haut, totalisant 8 pixels voisins.\
 *- 5x5:* un noyau de 5 pixels de large et 5 pixels de haut, totalisant 24 pixels voisins.
 
-<b>Type de filtre</b> *Entier* Le calcul appliqué aux voisins échantillonnés dans le noyau.\
+<b>Type de filtre</b> *Nombre entier* Le calcul appliqué aux voisins échantillonnés dans le noyau.\
 *- Médiane :* Utilisez directement la valeur médiane de tous les voisins.\
 *- MLMAD:* Signifie « Médiane De L’Écart Absolu Le Moins Médian ». L&#39;écart tient compte de la différence d&#39;une valeur par rapport à la médiane. Au lieu d&#39;utiliser directement la valeur médiane qui peut être inclinée par un pixel aberrant avec un écart élevé, la méthode MLMAD utilise la médiane de tous les écarts. Cette méthode produit un effet de lissage plus intense qui peut aplatir les zones en fonction de la taille du noyau.
 

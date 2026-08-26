@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: Utilisez le nœud quadratique spline pour créer des splines quadratiques lisses avec trois points de contrôle.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (quadratique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ L&#39;étendue de l&#39;arc formé par la spline est *réglable*, de sorte qu&#3
 | <b>height de démarrage</b> *Flotter* | Ajuste l&#39;height du point <b>p1</b> où une valeur inférieure signifie un emplacement plus bas ou plus profond.  Cela a un impact sur l&#39;height de la spline à <b>p1</b>. |
 | <b>height final</b> *Flotter* | Ajuste l&#39;height du point <b>p3</b> où une valeur inférieure signifie un emplacement plus bas ou plus profond.  Cela a un impact sur le thickness de la spline à <b>p3</b>. |
 | <b>height de tangente automatique</b> *Booléen* | Ajuste l&#39;height du point <b>p3</b> où une valeur inférieure signifie un emplacement plus bas ou plus profond.  Cela a un impact sur le thickness de la spline à <b>p3</b>. |
-| <b>height tangent</b> *Flotter* | Ajuste l&#39;height piloté par les tangentes contrôlées par le point <b>p2</b>.  Cela a un impact sur l&#39;height le long de la spline, car il s&#39;éloigne de <b>p1</b> et entre dans <b>p3</b>.   *Remarque :* ce paramètre n&#39;est disponible que lorsque <b>height de tangente automatique</b> est défini sur « False ». |
+| <b>height tangent</b> *Flotter* | Ajuste l&#39;height piloté par les tangentes contrôlées par le point <b>p2</b>.  Cela a un impact sur l&#39;height le long de la spline, car il s&#39;éloigne de <b>p1</b> et entre dans <b>p3</b>.   *Remarque :* ce paramètre n&#39;est disponible que lorsque <b>height de tangente automatique</b> est défini sur « False ». |
 
 
 +++
@@ -87,8 +87,8 @@ L&#39;étendue de l&#39;arc formé par la spline est *réglable*, de sorte qu&#3
 
 |  |  |
 | --- | --- |
-| <b>Démarrer le thickness</b> *Flotter* | Ajuste le thickness du point <b>p1</b>. Cela a un impact sur le thickness de la spline à <b>p1</b>.   *Remarque :* le Thickness est utilisé par des nœuds spline spécifiques. |
-| <b>Fin de thickness</b> *Flotter* | Ajuste le thickness du point <b>p3</b>. Cela a un impact sur le thickness de la spline à <b>p3</b>.   *Remarque :* le Thickness est utilisé par des nœuds spline spécifiques. |
+| <b>Démarrer le thickness</b> *Flotter* | Ajuste le thickness du point <b>p1</b>. Cela a un impact sur le thickness de la spline à <b>p1</b>.   *Remarque :* le Thickness est utilisé par des nœuds spline spécifiques. |
+| <b>Fin de thickness</b> *Flotter* | Ajuste le thickness du point <b>p3</b>. Cela a un impact sur le thickness de la spline à <b>p3</b>.   *Remarque :* le Thickness est utilisé par des nœuds spline spécifiques. |
 | <b>thickness tangent automatique</b> *Booléen* | Définit automatiquement le thickness des tangentes de la spline pour une interpolation linéaire entre le <b>Thickness de début</b> et le <b>Thickness de fin</b>.   *Remarque :* le Thickness est utilisé par des nœuds spline spécifiques. |
 | <b>thickness tangent</b> *Flotter* | Ajuste le thickness entraîné par les tangentes contrôlées par le point <b>p2</b>.  Cela a un impact sur le thickness le long de la spline, car il s&#39;éloigne de <b>p1</b> et entre dans <b>p3</b>.   *Remarque :* le Thickness est utilisé par des nœuds spline spécifiques.  *Remarque 2 :* ce paramètre est uniquement disponible lorsque <b>thickness tangent automatique</b> est défini sur « False ». |
 
@@ -110,7 +110,7 @@ L&#39;étendue de l&#39;arc formé par la spline est *réglable*, de sorte qu&#3
 
 |  |  |
 | --- | --- |
-| <b>Afficher les tangentes</b> *Booléen* | Affiche la tangente de « sortie » du point <b>p1</b> et la tangente d&#39;« entrée » du point <b>p3</b> dans la sortie <b>Aperçu</b>. Inverse la direction de la spline. |
+| <b>Afficher les tangentes</b> *Booléen* | Affiche la tangente de « sortie » du point <b>p1</b> et la tangente d&#39;« entrée » du point <b>p3</b> dans la sortie <b>Aperçu</b>.Inverse la direction de la spline. |
 | <b>Afficher l&#39;assistant de direction</b> *Booléen* | Affiche un point au début de la spline et une flèche à sa fin dans la sortie <b>Aperçu</b>. |
 | <b>Afficher l&#39;enveloppe de thickness</b> *Booléen* | Affiche des lignes supplémentaires sur les thickness de la spline. |
 | <b>Quantité de segments</b> *Nombre entier* | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie <b>Aperçu</b>.  Plus la valeur est élevée, plus la ligne est lisse. |

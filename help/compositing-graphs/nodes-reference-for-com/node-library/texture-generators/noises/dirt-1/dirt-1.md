@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dirt 1 pour générer des modèles de dirt de base afin de créer des détails de surface altérés et des effets d’accumulation.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: DIRT 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 1%
 
 ---
 
@@ -45,25 +45,6 @@ Voir aussi : [Dirt 2](../../../../../../compositing-graphs/nodes-reference-for-c
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Sorties
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Combinaison de normales pour combiner plusieurs cartes de normales pour superposer les détails de surface et les détails.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinaison normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Si vous souhaitez fusionner deux cartes normales sans combiner leurs détails (�
 
 ## Connecteurs d’entrée
 
-Description de la <b>couleur normale 2</b> *couleur*
+<b>Normal 2</b> *Couleur* Description
 
-Description de la <b>couleur normale 1</b> *couleur*
+<b>Normal 1</b> *Couleur* Description
 
 ## Paramètres
 

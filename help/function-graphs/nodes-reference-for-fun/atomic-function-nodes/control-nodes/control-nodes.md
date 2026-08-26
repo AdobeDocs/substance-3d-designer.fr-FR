@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Accès aux nœuds de contrôle dans les graphiques de fonction Substance 3D Designer pour contrôler le flux et la logique d’exécution.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Contrôle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Comme pour les langages de programmation, l&#39;Id... Le nœud Else introduit la
 </tr>
 </table>
 
-Vous utiliserez ce nœud conjointement avec les [&#x200B; nœuds logiques](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) et les [nœuds de comparaison](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) qui vous aideront à créer la condition à vérifier.
+Vous utiliserez ce nœud conjointement avec les [nœuds logiques](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) et les [nœuds de comparaison](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) qui vous aideront à créer la condition à vérifier.
 
 +++Connecteurs d’entrée
 <b>Condition</b> *Booléen*\
@@ -47,7 +47,7 @@ Condition qui contrôle la sortie du nœud.
 
 <b>Si</b> *Type de variable* La valeur sortie par le nœud si <b>Condition</b> est *True*.
 
-<b>Else</b> *Type de variable* La valeur sortie par le nœud si <b>Condition</b> est *False*.
+<b>Sinon</b> *Type de variable* La valeur sortie par le nœud si <b>Condition</b> est *False*.
 
 +++
 
@@ -73,7 +73,7 @@ Ceci est essentiel pour contrôler l&#39;état des variables si elles sont cré�
 Pour en savoir plus sur le nœud Séquence, consultez la page [Utilisation des nœuds Set/Sequence](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) de cette documentation.
 
 +++Connecteurs d’entrée
-<b>In</b> *Type de variable*\
+<b>Entrée</b> *Type de variable*\
 Partie du graphique qui doit être calculée en premier
 
 <b>Dernier</b> *Type de variable*\
@@ -110,7 +110,7 @@ Cela signifie que vous pouvez ajouter à une valeur d&#39;index chaque itératio
 > Nœuds connectés au <b>conteneur de sortie</b> et les branches <b>Corps de boucle</b> ne peuvent pas être connectées à d&#39;autres branches du graphique.
 
 +++Connecteurs d’entrée
-<b>Initialiser.</b> *Type de variable*\
+<b>Init.</b> *Type de variable*\
 Partie du graphique calculée avant la première itération, c&#39;est-à-dire le début de la boucle.
 
 <b>Quitter Cond.</b> *Booléen*\
@@ -123,7 +123,7 @@ Graphique qui bénéficie de la boucle. Il est recalculé à chaque itération.
 +++
 
 +++Paramètres
-<b>Max. itérations</b> *Entier*\
+<b>Max. itérations</b> *Nombre entier*\
 Nombre maximal d&#39;itérations effectuées par le nœud.\
 Le nœud arrête l&#39;itération lorsque l&#39;un des critères suivants est rempli en premier : ce nombre maximal est atteint ou la condition de sortie devient vraie.\
 Ce maximum peut être désactivé en définissant la valeur sur *-1*. À ce stade, seule la condition de sortie peut arrêter les itérations.

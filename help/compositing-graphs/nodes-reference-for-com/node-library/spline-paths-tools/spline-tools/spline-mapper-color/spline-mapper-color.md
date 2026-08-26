@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Couleur du mappeur de spline pour mapper les textures de couleur le long des tracés de spline avec des paramètres personnalisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur du mappeur de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -57,9 +57,9 @@ Le nœud produit l&#39;image mappée sous la forme d&#39;une image couleur, ains
 <b> R</b> - Position X\
 <b> G</b> - Position Y\
 <b> B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\
@@ -129,7 +129,7 @@ Cette valeur représente la longueur normalisée de la spline.
 <b>Multiplicateur d&#39;Height du cylindre</b> *Flotter* (disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre »)Un multiplicateur pour l&#39;intensité de la contribution de l&#39;height du cylindre dans la sortie d&#39;Height.\
 Les ajustements d’Height sont cumulatifs.
 
-<b>Décalage de l&#39;Height du cylindre</b> *Flottant* (disponible lorsque l&#39;option Forme est définie sur Demi-cylindre ou Cylindre) \
+<b>Décalage de l&#39;Height du cylindre</b> *Flottant* (disponible lorsque l’option Forme est définie sur Demi-cylindre ou Cylindre)\
 Décale le centre du profil en forme de cylindre ou de demi-cylindre par rapport à la surface de la spline d&#39;un diamètre sous la surface.
 
 <b>Intensité de torsion des UV</b> *Flotter* (disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre »)La torsion des coordonnées de l&#39;image autour du cylindre, en nombre de tours.\

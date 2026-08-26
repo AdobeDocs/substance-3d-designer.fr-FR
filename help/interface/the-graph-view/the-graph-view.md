@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser le mode graphique de Substance 3D Designer pour créer et modifier des graphiques de matériaux basés sur les nœuds.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue Graphique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -387,7 +387,7 @@ Choisissez entre les modes de création de liens Standard (1), Matériau (2) et 
 </b>*- Nettoyer :* supprime tous les nœuds qui font partie d&#39;un flux non connecté à un nœud [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Sorties d&#39;exportation :* ouvre l&#39;[interface d&#39;exportation bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Sorties de réexportation :* effectue à nouveau l&#39;opération d&#39;exportation précédente.\
-*- Exportateur de PSD :* ouvre[l&#39;interface de l&#39;exportateur de PSD.](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportateur de PSD :* ouvre l&#39;interface [Exportateur de PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Cache d&#39;image de nœud\
 </b>Active/désactive l&#39;affichage du cache d&#39;image de nœud, voir ci-dessous.
@@ -414,7 +414,7 @@ Palette ![FX-Map](../../assets/image2020-6-26-16-48-4.png "FX-Map")<br>
 
 ![Barre d’outils Taille du gabarit](../../assets/image2020-6-26-17-0-48.png "Barre d’outils Taille du gabarit")
 
-Cette barre d&#39;outils n&#39;est disponible que dans les [graphes de Substances](../../compositing-graphs/substance-compositing-graphs.md) et définit la [taille de sortie](../../compositing-graphs/output-size/output-size.md) du *parent* du graphe, ce qui a un impact sur la taille de sortie du graphe s&#39;il utilise la *méthode d&#39;héritage relative au parent*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Cette barre d&#39;outils n&#39;est disponible que dans les [graphes de Substances](../../compositing-graphs/substance-compositing-graphs.md) et définit la [taille de sortie](../../compositing-graphs/output-size/output-size.md) du *parent* du graphe, ce qui a un impact sur la taille de sortie du graphe s&#39;il utilise la *méthode d&#39;héritage relative au parent*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Les dimensions horizontale et verticale sont liées par défaut, mais peuvent être *dissociées* pour les textures non carrées. Les valeurs peuvent également être réinitialisées sur la valeur par défaut de 256 x 256.
 

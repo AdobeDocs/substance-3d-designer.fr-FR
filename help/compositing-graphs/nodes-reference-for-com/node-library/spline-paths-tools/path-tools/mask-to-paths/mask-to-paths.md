@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Masquer sur tracés pour convertir les textures de masque en données de tracé pour la génération de tracés procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Masquer sur les tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -62,20 +62,20 @@ Le résultat peut être traité à l&#39;aide d&#39;un autre nœud de traitement
 
 ## Paramètres
 
-<b>Masque Lisse</b> *Flottant*\
+<b>Masque lisse</b> *Flotter*\
 Appliquez le lissage sur le masque d’entrée.\
 Utile lorsque le motif d’entrée a des bords très nets, ce qui provoque généralement des artefacts.
 
-<b>Valeur du seuil de masque</b> *Flottant* Valeur de niveau de gris du <b>masque</b> qui sera utilisée pour séparer l&#39;extérieur (valeurs &lt; valeur du seuil de masque) et l&#39;intérieur (valeurs > valeur du seuil de masque) de la forme.
+<b>Valeur du seuil du masque</b> *Flotter* La valeur de niveau de gris de <b>Masque</b> qui sera utilisée pour séparer l&#39;extérieur (valeurs &lt; valeur de seuil du masque) et l&#39;intérieur (valeurs > valeur de seuil du masque) de la forme.
 
-<b>Décimer le chemin</b> *Flottant* contrôle implicitement le nombre de segments qui seront générés.\
+<b>Décimer le chemin</b> *Float* contrôle implicitement le nombre de segments qui seront générés.\
 Une décimation importante rendra les formes arrondies quelque peu polygonales, tandis qu’aucune décimation ne générera presque un segment par pixel.\
 Une quantité raisonnable correspondra mieux à la forme des lignes droites et des courbes sans créer beaucoup de points intermédiaires pour les lignes droites.
 
-<b>Fermer les tracés ouverts</b> *Booléens* Créez un segment entre les sommets de début et de fin des tracés ouverts.\
+<b>Fermer les tracés ouverts</b> *Booléen* Créez un segment entre les sommets de début et de fin des tracés ouverts.\
 La désactivation de cette option peut corriger les lignes indésirables traversant votre motif de manière inattendue, mais les tracés ne sont peut-être plus fermés.
 
-<b>Seuil D’Angle</b> *Flottant*\
+<b>Seuil d&#39;angle</b> *Flotter*\
 Chaque sommet codé dans des tracés peut contenir un drapeau indiquant s’il est dur (c’est-à-dire s’il s’agit d’un coin) ou lisse.\
 Ce paramètre vous permet de marquer plus ou moins d’angles en fonction de l’angle formé par leurs segments adjacents.\
 *Remarque :* cet indicateur d&#39;angle n&#39;est actuellement pris en charge par aucun nœud existant, mais peut être utilisé dans un [processeur de sommets de tracé](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). Vous pouvez également visualiser les coins avec le nœud [Tracés de prévisualisation](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md).
@@ -113,7 +113,7 @@ Cela a un impact significatif lors de la conversion des <b>chemins en splines</b
 *- Par taille de Bbox - Du plus petit au plus grand :* les chemins sont classés en fonction de la taille de leur Bbox, du plus petit au plus grand\
 *- Fonction d&#39;ordre personnalisée :* Utilisez une fonction personnalisée pour organiser les chemins
 
-<b>Direction de l’ordre</b> *Flotter* L’angle décrivant la direction utilisée pour ordonner les tracés du premier au dernier dans cette direction.\
+<b>Sens de la commande</b> *Flottant* L’angle décrivant la direction utilisée pour ordonner les tracés du premier au dernier dans cette direction.\
 La valeur est un *nombre de tours* utilisé pour faire pivoter un vecteur de direction X-gauche. Cela signifie que 0 définit un vecteur de direction de (-1, 0) et 0,25 (90 degrés) définit un vecteur de direction de (0, 1).
 
 <b>Fonction de commande</b> *Float* Fonction utilisée pour organiser les tracés. Elle renvoie une valeur de type Float.\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'ajout de spline pour ajouter plusieurs splines ensemble afin de créer des tracés continus plus longs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ajouter une spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -50,36 +50,36 @@ L&#39;ordre des listes est conservé, c&#39;est-à-dire que l&#39;ajout d&#39;un
 <b>Aperçu #1</b> *Niveaux de gris* Aperçu du premier ensemble de splines d&#39;entrée sous forme d&#39;image en niveaux de gris.
 
 <b>Spline #1 Coords</b> *Couleur* Les coordonnées du premier ensemble de points splines d&#39;entrée sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données de #1 spline</b> *Couleur* Données supplémentaires du premier ensemble de splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de #1 spline</b> *Nombre entier* Nombre de splines d&#39;entrée dans le premier jeu.
 
 <b>Aperçu #2</b> *Niveaux de gris* Aperçu du deuxième ensemble de splines d&#39;entrée sous la forme d&#39;une image en niveaux de gris.
 
 <b>Spline #2 Coords</b> *Couleur* Les coordonnées du deuxième ensemble de points splines d&#39;entrée sont codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données de #2 spline</b> *Couleur* Données supplémentaires du deuxième ensemble de splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de #2 spline</b> *Nombre entier* Nombre de splines d&#39;entrée dans le deuxième jeu.
 
@@ -88,18 +88,18 @@ L&#39;ordre des listes est conservé, c&#39;est-à-dire que l&#39;ajout d&#39;un
 <b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
 
 <b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
 

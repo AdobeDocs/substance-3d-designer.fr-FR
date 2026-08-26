@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Estampage pour appliquer des effets d’estampage aux textures et ajouter ainsi une profondeur et un relief aux détails d’une surface.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Estampage
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -78,10 +78,10 @@ Ce nœud n’est pas souvent utilisé pour les projets de type PBR, mais il peut
 
 |  |  |
 | --- | --- |
-| <b>Intensité</b> *Flotter* | Règle l&#39;intensité globale de l&#39;effet d&#39;illumination.   Définit l’intensité de la courbe de transfert de l’height et, par conséquent, l’intensité de l’effet d’éclairage |
-| <b>Angle de la lumière</b> *Flotter* | Définit l’angle selon lequel la lumière est simulée.   Définit l’angle d’éclairage de la mise en surbrillance de l’image gaufrée |
-| <b>Mettre en surbrillance la couleur</b> *Float/Float4* | Définit la couleur des zones orientées vers l’angle de la lumière.   Définit la couleur de la surbrillance si l’image d’entrée est en couleur. |
-| <b>Couleur de l&#39;ombre</b> *Float/Float4* | Définit la couleur des zones orientées à l’opposé de l’angle d’éclairage.   Définit la couleur des zones ombrées de l’image gaufrée. |
+| <b>Intensité</b> *Flotter* | Règle l&#39;intensité globale de l&#39;effet d&#39;illumination.   Définit l’intensité de la courbe de transfert de l’height et, par conséquent, l’intensité de l’effet d’éclairage |
+| <b>Angle de la lumière</b> *Flotter* | Définit l’angle selon lequel la lumière est simulée.   Définit l’angle d’éclairage de la mise en surbrillance de l’image gaufrée |
+| <b>Mettre en surbrillance la couleur</b> *Float/Float4* | Définit la couleur des zones orientées vers l’angle de la lumière.   Définit la couleur de la surbrillance si l’image d’entrée est en couleur. |
+| <b>Couleur de l&#39;ombre</b> *Float/Float4* | Définit la couleur des zones orientées à l’opposé de l’angle d’éclairage.   Définit la couleur des zones ombrées de l’image gaufrée. |
 
 ## Connecteurs d’entrée
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Découvrez les spécifications de format des tracés et la structure des données utilisées par les nœuds de tracé et de spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spécifications de format des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de 
 
 Adresse du dernier sommet défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -111,7 +111,7 @@ L&#39;en-tête de chemin du Nième chemin sera défini à l&#39;adresse `path\_a
 +++Haut
 <b>X</b>
 
-Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
+Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
 
 Si les sommets de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 sommets.\
 Un tracé avec 0 sommet est un tracé valide.

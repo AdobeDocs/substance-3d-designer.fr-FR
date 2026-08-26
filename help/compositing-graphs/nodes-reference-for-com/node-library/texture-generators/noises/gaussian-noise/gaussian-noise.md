@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit gaussien pour générer des motifs de bruit distribués en gaussien afin de créer des textures et des variations organiques.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bruit gaussien
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Bruit lisse généré par la combinaison de dégradés où les valeurs passent du noir au blanc suivant une distribution normale, semblable à une courbe en cloche.
 
 Voir aussi : [Taches gaussiennes 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md), [Taches gaussiennes 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
 
 </td>
 </tr>

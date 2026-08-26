@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Pont de spline pour relier des textures entre deux splines afin de créer des connexions homogènes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pont Spline (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -48,36 +48,36 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 <b>Aperçu #1</b> *Niveaux de gris* L&#39;aperçu des splines d&#39;entrée #1 sous forme d&#39;image en niveaux de gris.
 
 <b>Cœurs splines #1</b> *Couleur* Les coordonnées des points des splines d&#39;entrée #1 codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>#1 de données splines</b> *Couleur* Les données supplémentaires des splines d&#39;entrée #1 codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline #1</b> *Nombre entier* Nombre de splines d&#39;entrée #1.
 
 <b>Aperçu #2</b> *Niveaux de gris* L&#39;aperçu des splines d&#39;entrée #2 sous forme d&#39;image en niveaux de gris.
 
 <b>Cœurs splines #2</b> *Couleur* Les coordonnées des points de #2 des splines d&#39;entrée sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>#2 de données splines</b> *Couleur* Les données supplémentaires des splines d&#39;entrée #2 codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline #2</b> *Nombre entier* Nombre de splines d&#39;entrée #2.
 
@@ -104,18 +104,18 @@ Vous pouvez utiliser un nœud Courbe pour créer la courbe.
 <b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
 
 <b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
 
@@ -146,10 +146,10 @@ Les splines qui correspondent au début ou à la fin de la spline y sont conserv
 Les splines qui correspondent au début ou à la fin de la spline y sont conservées.
 
 <b>Décalage aléatoire de début</b> *Flottant* Applique un décalage aléatoire au point de départ de chaque spline le long des #1 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #1 splines.\
-&#x200B;#1 A 0, les splines sont régulièrement espacées entre les points de #1 Spline de début et Spline de fin.
+#1 A 0, les splines sont régulièrement espacées entre les points de #1 Spline de début et Spline de fin.
 
 <b>Décaler la fin aléatoire</b> *Flottant* Applique un décalage aléatoire au point d&#39;extrémité de chaque spline le long du #2 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #2 splines.\
-&#x200B;#2 A 0, les splines sont régulièrement espacées entre les points de #2 Spline de début et Spline de fin.
+#2 A 0, les splines sont régulièrement espacées entre les points de #2 Spline de début et Spline de fin.
 
 <b>Début de la longueur tangente</b> *Flottant* (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier »)Longueur de la tangente de sortie pour le point de départ sur la #1 de spline de toutes les splines générées.
 

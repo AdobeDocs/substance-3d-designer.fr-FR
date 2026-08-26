@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.0 pour en savoir plus sur les nouveaux nœuds, la navigation dans les graphiques et les améliorations des performances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Version 14.0
 
-<b>Substance 3D Designer 14.0 </b>apporte plusieurs améliorations à la qualité de vie (navigation dans les graphiques, performances, ...) mais surtout, il comprend beaucoup de nouveaux nœuds (manipulation de couleur, filtre Kuwahara, outils d&#39;histogramme, bevel smooth, directional distance, ...). Voir ci-dessous pour plus de détails sur toutes ces modifications. 
+<b>Substance 3D Designer 14.0 </b>apporte plusieurs améliorations à la qualité de vie (navigation dans les graphiques, performances, ...) mais surtout, il comprend beaucoup de nouveaux nœuds (manipulation de couleur, filtre Kuwahara, outils d&#39;histogramme, bevel smooth, directional distance, ...). Voir ci-dessous pour plus de détails sur toutes ces modifications.
 
 *Date de publication : 30 juillet 2024*
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 Cette version 14.0 apporte beaucoup de nouveau contenu avec les nouveaux nœuds répertoriés ci-dessous :
 
-* <b>Nœuds dédiés à la manipulation des couleurs : </b>un nœud <b>(</b>[Quantifiez la couleur](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>à<b> </b>réduisez le nombre de couleurs dans une image et extrayez une palette à partir de celle-ci, une famille de nœuds d’outils pour créer votre propre palette de couleurs ([Afficher](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Créer](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifier](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>la palette de couleurs) et un pour l’appliquer à une autre image à l’aide d’une carte d’identité ([Appliquer la palette de couleurs](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Vous trouverez également le nœud [ID pour masquer les niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) pour convertir votre mappage d&#39;ID (calculé par Quantize color) en masque de niveaux de gris. Avec cet ensemble complet de nœuds, vous disposez de tout ce dont vous avez besoin pour créer des effets de stylisation à l’aide de couleurs.
+* <b>Nœuds dédiés à la manipulation des couleurs : </b>un nœud <b>(</b>[Quantifier la couleur](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>à<b> </b>réduisez le nombre de couleurs d&#39;une image et extrayez une palette à partir de celle-ci, une famille de nœuds d&#39;outils pour créer votre propre palette de couleurs ([Afficher](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Créer](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifier](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>Palette de couleurs) et une pour l&#39;appliquer à une autre image à l&#39;aide d&#39;un mappage d&#39;ID ([Appliquer la palette de couleurs](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Vous trouverez également le nœud [ID pour masquer les niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) pour convertir votre mappage d&#39;ID (calculé par Quantize color) en masque de niveaux de gris. Avec cet ensemble complet de nœuds, vous disposez de tout ce dont vous avez besoin pour créer des effets de stylisation à l’aide de couleurs.
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -38,13 +38,13 @@ Cette version 14.0 apporte beaucoup de nouveau contenu avec les nouveaux nœuds 
 
 * <b>Filtre Kuwahara</b> : si vous souhaitez aller encore plus loin avec la stylisation, vous pouvez générer des effets picturaux grâce aux filtres [couleur Kuwahara anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Dans les détails, il applique un flou directionnel anisotrope conforme aux détails de l’image. Le résultat est une image qui semble s’écouler dans la direction des formes qu’elle contient.
 
-Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize_fr). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
+Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
 
 D&#39;autres nœuds puissants rejoignent le parti :
 
 * [<b>Lissage de courbure</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) : cette nouvelle version prend désormais correctement en charge tous les modes de mosaïque, ajoute deux nouvelles sorties (convexité et concavité) et améliore à la fois la précision et les performances.
-* <b>[Histogramme égaliser](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md) :</b> ce nœud égalise l&#39;histogramme d&#39;une image en niveaux de gris en ajustant les valeurs pour obtenir une distribution égale. Ce nœud est fourni avec deux nœuds compagnons : [Rendu de l&#39;histogramme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) pour générer l&#39;histogramme de l&#39;image et [Calcul de l&#39;histogramme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b> pour coder un histogramme sous la forme d&#39;une ligne de pixels.
-* <b>[Bevel smooth](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) :</b> grâce à celui-ci, vous pouvez dessiner un dégradé ou une couleur plate à partir des bordures d&#39;un masque (vers l&#39;extérieur, vers l&#39;intérieur ou les deux). Le nœud [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>dessine également un dégradé, mais dans une direction spécifique.
+* <b>[Histogramme égaliser](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md) :</b> ce nœud égalise l&#39;histogramme d&#39;une image en niveaux de gris en ajustant les valeurs pour obtenir une distribution égale. Ce nœud est fourni avec deux nœuds compagnons : [Rendu de l&#39;histogramme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) pour générer l&#39;histogramme de l&#39;image et [Calcul de l&#39;histogramme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>pour coder un histogramme en tant que ligne de pixels.
+* <b>[Bevel smooth](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) :</b> grâce à celui-ci, vous pouvez dessiner un dégradé ou une couleur plate à partir des bordures d&#39;un masque (vers l&#39;extérieur, vers l&#39;intérieur ou les deux). Le nœud [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>dessine également le dégradé, mais dans une direction spécifique.
 * <b>[Combinaison normale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> ce nœud est l&#39;opposé du nœud [Combinaison normale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), il supprime d&#39;une carte normale les détails de surface décrits par une carte d&#39;height.
 
 <table>
@@ -198,7 +198,7 @@ Notez que ces mises à jour ont deux conséquences majeures :
 * [Content] Nœud « Negate Float1 » obsolète dans le graphique de fonction de Substance
 * [Contenu] Renommez « Quantize Color » en « Quantize Color (Simple) ».
 * [Vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
-* [Moteur]&#x200B;[Texte] Nouveau crénage pour certaines polices
+* [Moteur][Texte] Nouveau crénage pour certaines polices
 * [Graphique] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
 * [Linker] Ne pas dupliquer les bitmaps dans SBSASM
 * [Paramètres] Ajout d’un nouveau widget « fonction » pour tous les types de paramètres d’entrée

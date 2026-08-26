@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Familiarisez-vous avec les avertissements dans les graphiques de composition de Substances et découvrez comment résoudre les problèmes et les erreurs courants.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avertissements dans les graphes Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les [graphiques de Substances](../../compositing-graphs/substance-compositing-graphs.md) dans Substance 3D Designer et propose des étapes de dépannage courantes pour chacun d&#39;eux.
 
-Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
+Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
 
 ## ![(erreur)](../../assets/error.svg) Aucun nœud de sortie défini
 
@@ -34,7 +34,7 @@ Ajoutez un ou plusieurs nœuds [Sortie](../../compositing-graphs/nodes-reference
 
 >[!NOTE]
 >
-> Les modèles de graphiques disponibles via la [boîte de dialogue Nouveau graphique de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) disposent de nœuds de sortie prédéfinis prêts à être utilisés.
+> Les modèles de graphiques disponibles via la boîte de dialogue [Nouveau graphique](../creating-compositing-gra/creating-a-substance-compositing-graph.md) disposent de nœuds de sortie prédéfinis prêts à être utilisés.
 
 ![Correction de l’avertissement « Aucun nœud de sortie défini »](../../assets/warnings-comp-output.gif "Correction de l’avertissement « Aucun nœud de sortie défini »"){width="512px"}
 
@@ -43,11 +43,11 @@ Ajoutez un ou plusieurs nœuds [Sortie](../../compositing-graphs/nodes-reference
 Le [graphique de fonction](../../function-graphs/function-graphs.md) appliqué au paramètre spécifié du nœud spécifié comporte au moins un avertissement.\
 Le paramètre de nœud est spécifié entre crochets après le libellé du nœud, à la suite du modèle Node[Parameter].
 
-E.g. Couleur Uniforme[Couleur De Sortie], Processeur De Pixels[Fonction Par Pixel]
+E.g. Couleur Uniforme[Couleur De Sortie], Processeur De Pixels[Fonction Par Pixel]
 
 Solution **![(tick)](../../assets/check.svg)**
 
-Localisez le nœud qui émet l&#39;avertissement par son étiquette et son badge d&#39;avertissement dans la [vue graphique](../../interface/the-graph-view/the-graph-view.md), puis sélectionnez-le pour afficher ses propriétés dans le panneau [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html). Recherchez le paramètre émettant l&#39;avertissement et ouvrez sa fonction en cliquant sur le bouton **Modifier la fonction**.
+Localisez le nœud qui émet l&#39;avertissement par son étiquette et son badge d&#39;avertissement dans la [vue graphique](../../interface/the-graph-view/the-graph-view.md), puis sélectionnez-le pour afficher ses propriétés dans le panneau [Propriétés](../../interface/properties/properties.md). Recherchez le paramètre émettant l&#39;avertissement et ouvrez sa fonction en cliquant sur le bouton **Modifier la fonction**.
 
 Évaluez ensuite les avertissements répertoriés dans le coin inférieur gauche de la vue Graphique et résolvez les problèmes. Vous pouvez vous référer à la page [Avertissements dans les graphiques de fonctions](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) pour la résolution des avertissements signalés dans les graphiques de fonctions.
 
@@ -64,7 +64,7 @@ La ressource référencée par un nœud comporte un ou plusieurs avertissements.
 
 Solution **![(tick)](../../assets/check.svg)**
 
-Dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), recherchez la ressource référencée et résolvez tous les avertissements déclenchés par la ressource :
+Dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), recherchez la ressource référencée et résolvez tous les avertissements déclenchés par la ressource :
 
 * Pour les graphiques, reportez-vous aux autres éléments de cette page
 * Pour tout autre type de ressource, consultez la page [Avertissements des dépendances](../../resources/warnings-from-dep/warnings-from-dependencies.md)
@@ -73,7 +73,7 @@ Dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/d
 
 ### Ressource de référence ![(erreur)](../../assets/error.svg) introuvable
 
-La ressource référencée par un nœud est introuvable au chemin d&#39;accès enregistré dans le fichier [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) (SBS). Voici quelques nœuds référençant une ressource :
+La ressource référencée par un nœud est introuvable au chemin d&#39;accès enregistré dans le fichier [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Voici quelques nœuds référençant une ressource :
 
 * Un nœud [instance de graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) référence un graphe
 * Un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) référence une [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
@@ -85,11 +85,11 @@ Solution **![(tick)](../../assets/check.svg)**
 Pour les nœuds de [l&#39;instance de graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 Vérifiez que le graphique source existe dans le package situé au chemin enregistré dans leur attribut **Package**.\
-Si ce n&#39;est pas le cas, supprimez le nœud d&#39;instance et remplacez-le par un nœud d&#39;instance référençant un package valide. Vous pouvez également recréer le package et le graphique référencés par le nœud d&#39;instance, puis recharger le package hôte en cliquant sur RMB dessus dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et en sélectionnant l&#39;option **Recharger** dans le menu contextuel.
+Si ce n&#39;est pas le cas, supprimez le nœud d&#39;instance et remplacez-le par un nœud d&#39;instance référençant un package valide. Vous pouvez également recréer le package et le graphique référencés par le nœud d&#39;instance, puis recharger le package hôte en cliquant sur RMB dessus dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et en sélectionnant l&#39;option **Recharger** dans le menu contextuel.
 
 Pour les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) ou [Texte](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
-Recherchez les ressources référencées dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et vérifiez qu&#39;elles existent à l&#39;emplacement enregistré dans leur attribut **Chemin d&#39;accès**.\
+Recherchez les ressources référencées dans le panneau Explorateur et vérifiez qu&#39;elles existent à l&#39;emplacement enregistré dans leur attribut **Chemin d&#39;accès**.\
 Si ce n&#39;est pas le cas, cliquez sur RMB sur l&#39;élément de ressource dans l&#39;Explorateur et sélectionnez l&#39;option **Déplacer...** dans le menu contextuel pour définir un nouveau fichier cible valide pour cette ressource.
 
 ![Correction de l’avertissement « Ressource de référence introuvable »](../../assets/warnings-comp-referenced-resource.gif "Correction de l’avertissement « Ressource de référence introuvable »")

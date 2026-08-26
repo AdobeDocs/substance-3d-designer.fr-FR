@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Utilisez des nœuds de point et de portail dans Substance 3D Designer pour créer des points de connexion et organiser le flux graphique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nœud Point (également Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le nœud <b>Point</b> est un assistant qui vous permet de simplifier et de nettoyer les graphiques en redirigeant et en regroupant les connexions. Elle est particulièrement utile pour les graphiques comportant de nombreuses connexions longues s&#39;exécutant sur d&#39;autres connexions ou nœuds.
+Le nœud <b>Point</b> est un assistant qui vous permet de simplifier et de nettoyer les graphiques en redirigeant et en regroupant les connexions. Elle est particulièrement utile pour les graphiques comportant de nombreuses connexions longues s&#39;exécutant sur d&#39;autres connexions ou nœuds.
 
 Une paire de nœuds Dot peut être utilisée comme <b>portails</b> pour masquer une connexion sur une longue distance ou dans des endroits où le routage de la connexion serait difficile.
 
@@ -102,7 +102,7 @@ Appuyez sur ALT et déplacez un nœud Point sur les liens pour fusionner plusieu
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Les nœuds point peuvent être utilisés comme <b>portails</b> pour envoyer des données sur une longue distance dans le graphique sans avoir un lien long encombrant qui nuit à la lisibilité. Cela masque efficacement le lien entre les nœuds Point.
+Les nœuds point peuvent être utilisés comme <b>portails</b> pour envoyer des données sur une longue distance dans le graphique sans avoir un lien long encombrant qui nuit à la lisibilité. Cela masque efficacement le lien entre les nœuds Point.
 
 </td>
 </tr>

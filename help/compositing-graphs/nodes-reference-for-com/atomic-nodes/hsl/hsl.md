@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: Utilisez le nœud TSL pour régler la teinte, la saturation et la luminosité des textures à des fins de manipulation et de correction des couleurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: TSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 9%
@@ -78,8 +78,8 @@ Si vous recherchez d&#39;autres façons de modifier les tons d&#39;une image, co
 
 |  |  |
 | --- | --- |
-| <b>Teinte</b> *Flotter* | Détermine la couleur de l’image d’entrée.   Les valeurs inférieures à 0,5 modifient la teinte négativement, les valeurs supérieures à 0,5 la modifient positivement. |
-| <b>Saturation</b> *Flotter* | Détermine la saturation de la couleur de l’image d’entrée.   Les valeurs inférieures à 0,5 diminuent la saturation, les valeurs supérieures à 0,5 l’augmentent. |
+| <b>Teinte</b> *Flotter* | Détermine la couleur de l’image d’entrée.   Les valeurs inférieures à 0,5 modifient la teinte négativement, les valeurs supérieures à 0,5 la modifient positivement. |
+| <b>Saturation</b> *Flotter* | Détermine la saturation de la couleur de l’image d’entrée.   Les valeurs inférieures à 0,5 diminuent la saturation, les valeurs supérieures à 0,5 l’augmentent. |
 | <b>Luminosité</b> *Flotter* | Détermine la luminosité de l’image d’entrée. Les valeurs inférieures à 0,5 diminuent la luminosité, les valeurs supérieures à 0,5 l’augmentent. |
 
 ## Connecteurs d’entrée

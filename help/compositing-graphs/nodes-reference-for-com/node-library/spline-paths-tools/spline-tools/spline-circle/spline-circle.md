@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cercle spline pour créer des splines circulaires afin de générer des motifs et des formes arrondis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cercle spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Génère une spline unique en forme de cercle.
 <b> R</b> - Position X\
 <b> G</b> - Position Y\
 <b> B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\
@@ -64,18 +64,18 @@ Génère une spline unique en forme de cercle.
 <b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
 
 <b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Inutilisé\
-    <b>A</b> - Inutilisé
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Inutilisé\
+<b>A</b> - Inutilisé
 
 <b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
 

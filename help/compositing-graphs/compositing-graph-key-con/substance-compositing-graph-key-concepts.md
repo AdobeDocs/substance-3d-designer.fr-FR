@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Découvrez les concepts clés des graphiques de composition de Substances de données, notamment les nœuds, les connexions et les principes de base du workflow.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Concepts clés du graphe Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '859'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Cette page répertorie les concepts importants à comprendre lors de l’utilisa
 
 ## Sous-graphes/publication
 
-[La publication d&#39;un graphique](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou la création d&#39;un sous-graphique sont deux concepts abstraits très similaires. Cela signifie que tout graphique ou réseau de nœuds peut être « assemblé » et transformé en une ressource réutilisable et autonome. La création de [sous-graphes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) s&#39;effectue principalement au sein de l&#39;application afin de rendre certains contenus réutilisables dans un workflow efficace et intelligent, car cela évite de dupliquer un ensemble de nœuds à l&#39;infini. La publication implique une étape supplémentaire pour exporter au format [Substance 3D asset (SBSAR)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), ce qui rend votre graphique de réseau de nœuds utilisable en dehors de l’application, par exemple lorsque vous créez un matériau pour Unreal Engine.
+[La publication d&#39;un graphique](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ou la création d&#39;un sous-graphique sont deux concepts abstraits très similaires. Cela signifie que tout graphique ou réseau de nœuds peut être « assemblé » et transformé en une ressource réutilisable et autonome. La création de [sous-graphes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) s&#39;effectue principalement au sein de l&#39;application afin de rendre certains contenus réutilisables dans un workflow efficace et intelligent, car cela évite de dupliquer un ensemble de nœuds à l&#39;infini. La publication implique une étape supplémentaire pour exporter au format SBSAR (Substance 3D Asset), ce qui rend votre graphique de réseau de nœuds utilisable en dehors de l’application, par exemple lorsque vous créez un matériau pour Unreal Engine.
 
 Les entrées, les sorties et les paramètres exposés sont extrêmement importants pour ce concept, car ils sont les seuls moyens d’interagir avec le graphique une fois qu’il est utilisé comme sous-graphique ou comme ressource Substance 3D publiée. Les raisons sont les suivantes :
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Accédez à la fenêtre Préférences de Substance 3D Designer pour personnaliser les paramètres et le comportement de l’application.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Préférences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b1b28e909a4d3c19c1dbc28e5ed25b3adc327ac3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ Nous vous recommandons de passer en revue tous ces paramètres pour mieux compre
 
 ### Documents récents
 
-|  |  |
-| --- | --- |
-| <b>La liste des documents récents contient</b>  *Par défaut : 10* | Cela vous permet de sélectionner le nombre de documents à répertorier dans l&#39;entrée <b>Packs récents</b> de l&#39;élément <b>Fichier</b> dans le [Menu principal](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>La liste des documents récents contient</b>  *Par défaut : 10* | Cela vous permet de sélectionner le nombre de documents à répertorier dans l&#39;entrée <b>Packs récents</b> de l&#39;élément <b>Fichier</b> dans le [menu principal](../the-main-toolbar/the-main-toolbar.md). |
 
 ### Historique
 
 |  |  |
 | --- | --- |
-| **Taille de la pile d&#39;historique** *Par défaut : 200* | Cela indique le nombre d&#39;opérations d&#39;annulation disponibles à tout moment dans l&#39;élément <b>Modifier > Annuler</b> du [menu principal](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Attention :** plus vous aurez besoin d&#39;opérations d&#39;annulation, plus l&#39;application aura besoin de mémoire. |
+| **Taille de la pile d&#39;historique** *Par défaut : 200* | Cela indique le nombre d&#39;opérations d&#39;annulation disponibles à tout moment dans l&#39;élément <b>Modifier > Annuler</b> du [menu principal](../the-main-toolbar/the-main-toolbar.md).  **Attention :** plus vous aurez besoin d&#39;opérations d&#39;annulation, plus l&#39;application aura besoin de mémoire. |
 
 ### Langue
 
@@ -111,13 +111,13 @@ Notez également que les enregistrements automatiques doivent être ouverts *apr
 
 |  |  |
 | --- | --- |
-| <b>Enregistrez toujours le fichier .sbs lors de la publication vers .sbsar ou de l&#39;envoi vers une autre application</b>  *Par défaut : True* | Contrôle l&#39;enregistrement automatique du package SBS lors de la [publication](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou de l&#39;[envoi à une autre application](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Enregistrez toujours le fichier .sbs lors de la publication vers .sbsar ou de l&#39;envoi vers une autre application</b>  *Par défaut : True* | Contrôle l&#39;enregistrement automatique du package SBS lors de la [publication](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ou de l&#39;envoi à une autre application. |
 
 ### Cooker
 
-|  |  |
-| --- | --- |
-| <b>Limite de taille de cuisson</b>  *Par défaut : 8 192 pixels* | Définit la résolution maximale de pixels autorisée pour tous les [nœuds](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) dans n&#39;importe quel [graphique](../../compositing-graphs/substance-compositing-graphs.md). Les sorties graphiques étant toujours des images carrées de résolutions de puissance 2, la valeur définie ici définit la largeur maximale et l’height, en pixels. |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Limite de taille de cuisson</b>  *Par défaut : 8 192 pixels* | Définit la résolution maximale de pixels autorisée pour tous les nœuds de n&#39;importe quelle Substance [graphe](../../compositing-graphs/substance-compositing-graphs.md). Les sorties graphiques étant toujours des images carrées de résolutions de puissance 2, la valeur définie ici définit la largeur maximale et l’height, en pixels. |
 
 ### Moteur
 
@@ -191,7 +191,7 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 
 |  |  |
 | --- | --- |
-| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le lancer de rayons sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les boulangers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
+| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le lancer de rayons sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les boulangers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
 
 ## Bibliothèque
 

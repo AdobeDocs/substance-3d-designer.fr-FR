@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de création ou de chargement de projets dans Substance 3D Designer et trouvez des solutions.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Impossible de charger un projet
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Forcer les meilleures performances
 
 Recherchez tout logiciel qui gère la *formule d&#39;alimentation* de votre système (par exemple, ASUS Armory Crate), en particulier lorsque le système est un ordinateur portable.
 
-Certaines applications de gestion de l’alimentation peuvent limiter l’accès d’autres applications au GPU du système ou nuire aux performances du GPU, ce qui peut entraîner des blocages. Si une application de gestion de l&#39;alimentation existe et est active, passez au mode qui offre les meilleures performances.
+Certaines applications de gestion de l’alimentation peuvent limiter l’accès d’autres applications au GPU du système ou nuire aux performances du GPU, ce qui peut entraîner des blocages. Si une application de gestion de l&#39;alimentation existe et est active, passez au mode qui offre les meilleures performances.
 
 Forcer l’utilisation d’un GPU discret
 

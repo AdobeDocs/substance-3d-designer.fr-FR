@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Consultez la section <b>Moteur de rendu</b> de cette page pour en savoir plus su
 
 ![Matériau de mur de château médiéval rendu en Iray](../../../assets/iray-overview.png "Matériau de mur de château médiéval rendu en Iray")
 
-*Matériau :[mur du château médiéval](https://helpx.adobe.com/fr/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *par [Mark Foreman](https://www.artstation.com/oggyart)* *disponible dans notre [bibliothèque Substance 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html)* *bibliothèque*
+*Matériau :[mur du château médiéval](https://oggyart.artstation.com/projects/Xnzx0a)* *par [Mark Foreman](https://www.artstation.com/oggyart)* *disponible dans notre [bibliothèque Substance 3D](https://substance3d.adobe.com/assets)* *bibliothèque*
 
 </td>
 </tr>

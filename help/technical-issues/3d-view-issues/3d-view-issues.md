@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de vue 3D dans Substance 3D Designer, notamment les problèmes de rendu, d’affichage et de performances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problèmes liés à la vue 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Versions 15.1 et ultérieures
 
 Les nouveaux rendus 3D ont été mis à niveau dans la version 15.1 et nécessitent des pilotes GPU récents. Mettez à jour les pilotes GPU de votre système vers la dernière version.
 
-Vous trouverez peut-être des pilotes ici : [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Vous trouverez peut-être des pilotes ici : [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Versions 15.0 et ultérieures
 
@@ -243,7 +243,7 @@ Designer se bloque au démarrage de la vue 3D, lors de la création d’un proje
 
 Tout d&#39;abord, assurez-vous que votre système est conforme à la [configuration requise](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
-Mettez ensuite à jour vos pilotes graphiques. Vous pouvez trouver les derniers pilotes pour votre GPU en suivant ces liens : [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Mettez ensuite à jour vos pilotes graphiques. Vous pouvez trouver les derniers pilotes pour votre GPU en suivant ces liens : [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Si votre système comprend à la fois un GPU intégré (iGPU) et un GPU distinct (dGPU), assurez-vous de *mettre à jour les pilotes pour les deux* !
 

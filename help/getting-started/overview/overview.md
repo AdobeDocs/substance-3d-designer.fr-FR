@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Découvrez Substance 3D Designer et ses fonctionnalités de création de matières et de textures procédurales.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue d’ensemble
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ Substance 3D Designer est un éditeur basé sur des nœuds qui vous permet de cr
 
 <b>[Non linéaire](../../compositing-graphs/substance-compositing-graphs.md) </b> : vous pouvez créer une multitude de sorties de texture à la fois. Modifiez un masque ou un curseur, et automatiquement toute sortie connectée est recalculée. Plus besoin de créer séparément des mappages tels que Couleur de base, Rugosité, Normal, etc.
 
-<b> [Non destructif](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b> : vous pouvez annuler n&#39;importe quelle action *sans* perdre votre travail. Il devient beaucoup plus rapide d’itérer et d’expérimenter, trouvant des workflows encore plus efficaces.
+<b>[Non destructif](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b> : vous pouvez annuler n&#39;importe quelle action *sans* perdre votre travail. Il devient beaucoup plus rapide d’itérer et d’expérimenter, trouvant des workflows encore plus efficaces.
 
-<b> [Integrated Baking](../../bakers/bakers.md) </b> : accédez à des outils de cuisson de filet avancés et ultra-rapides directement dans le logiciel. Vous n’avez plus besoin d’effectuer la cuisson dans un logiciel séparé et d’effectuer de longs processus d’importation et d’exportation.
+<b>[Baking intégrée](../../bakers/bakers.md) </b> : accédez à des outils de cuisson de filet avancés et ultra-rapides directement dans le logiciel. Vous n’avez plus besoin d’effectuer la cuisson dans un logiciel séparé et d’effectuer de longs processus d’importation et d’exportation.
 
-<b> [Parametric](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b> : vous pouvez configurer pour contrôler presque tous les aspects d&#39;une texture à l&#39;aide d&#39;un seul curseur ou d&#39;une seule liste déroulante. Cela vous permet d’ajouter un contrôle et une variation sans fin à une seule ressource.
+<b>[Paramétrique](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b> : vous pouvez configurer pour contrôler presque tous les aspects d&#39;une texture à l&#39;aide d&#39;un seul curseur ou d&#39;une seule liste déroulante. Cela vous permet d’ajouter un contrôle et une variation sans fin à une seule ressource.
 
 ## Filetypes
 
@@ -77,7 +77,7 @@ Les fichiers de Substance de données sont les **fichiers source principaux** po
 
 *(\*.SBSAR)*
 
-Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphique est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telle qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Engine ou Unity Engine.
+Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphique est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telle qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Engine ou Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Les types de ressources suivants existent :
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Images vectorielles (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Maillage 3D et scène](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Police](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [Scènes 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [Polices](../../resources/font-resource/font-resource.md)
+* [Fichiers AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

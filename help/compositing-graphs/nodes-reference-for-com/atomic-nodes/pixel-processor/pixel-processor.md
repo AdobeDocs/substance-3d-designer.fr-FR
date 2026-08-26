@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Processeur de pixels pour traiter des pixels individuels à l’aide d’expressions personnalisées pour une manipulation de texture avancée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de pixels
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Pour toute personne habituée à créer des fonctions de [shader](../../../../gl
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. |
-| <b>Par fonction de pixel</b> *Float/Float4* | [Graphique de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) évalué par pixel dans l&#39;image de sortie.   Utilisez le nœud [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) défini sur la variable <b>$pos</b> pour accéder à la position [normalisée](../../../../glossary/glossary.md) du pixel actuel. |
+| <b>Par fonction de pixel</b> *Float/Float4* | [Graphique de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) évalué par pixel dans l&#39;image de sortie.   Utilisez le nœud [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) défini sur la variable <b>$pos</b> pour accéder à la position [normalisée](../../../../glossary/glossary.md) du pixel actuel. |
 
 ## Connecteurs d’entrée
 

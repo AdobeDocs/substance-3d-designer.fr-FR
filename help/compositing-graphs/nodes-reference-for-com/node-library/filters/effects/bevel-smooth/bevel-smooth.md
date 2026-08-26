@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bevel smooth pour lisser les bords biseautés des formes et des motifs de surfaces réalistes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bevel smooth
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -71,16 +71,16 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 
 |  |  |
 | --- | --- |
-| <b>Entrée de masque</b> *Niveaux de gris* PRINCIPAUX | Image à partir de laquelle extraire le masque.   Toutes les valeurs supérieures à la valeur « Seuil du masque » sont blanches dans ce masque. |
-| <b>Entrée source</b> *Niveaux de gris* | Entrée facultative utilisée uniquement lorsque le paramètre « Mode de sortie » est défini sur « Dilatation ».   Dans ce cas, l’image est incrustée sur les zones blanches du masque et les valeurs de niveaux de gris des bordures sont dilatées. |
-| <b>Map distance</b> *Niveaux de gris* | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur de Map distance est supérieure à 0.   Il est utilisé pour ajuster la distance de biseautage/dilatation le long des bordures du masque, où une valeur plus sombre entraîne une distance plus courte. |
+| <b>Entrée de masque</b> *Niveaux de gris* PRINCIPAUX | Image à partir de laquelle extraire le masque.   Toutes les valeurs supérieures à la valeur « Seuil du masque » sont blanches dans ce masque. |
+| <b>Entrée source</b> *Niveaux de gris* | Entrée facultative utilisée uniquement lorsque le paramètre « Mode de sortie » est défini sur « Dilatation ».   Dans ce cas, l’image est incrustée sur les zones blanches du masque et les valeurs de niveaux de gris des bordures sont dilatées. |
+| <b>Map distance</b> *Niveaux de gris* | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur de Map distance est supérieure à 0.   Il est utilisé pour ajuster la distance de biseautage/dilatation le long des bordures du masque, où une valeur plus sombre entraîne une distance plus courte. |
 
 ## Connecteurs de sortie
 
 |  |  |
 | --- | --- |
 | <b>Sortie</b> *Niveaux de gris* | Image du résultat, en fonction du « Mode de sortie » sélectionné. |
-| <b>UV</b> *Couleur* | Carte UV dans laquelle les UV sont dilatés le long des bordures du masque.   Vous pouvez le connecter à un nœud [mappeur UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) pour mapper n&#39;importe quelle autre image à l&#39;aide de ces UV dilatés. |
+| <b>UV</b> *Couleur* | Carte UV dans laquelle les UV sont dilatés le long des bordures du masque.   Vous pouvez le connecter à un nœud [mappeur UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) pour mapper n&#39;importe quelle autre image à l&#39;aide de ces UV dilatés. |
 
 ## Paramètres
 
@@ -89,10 +89,10 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 | <b>Mode de sortie</b> *Nombre entier* | Méthode de dilatation des bordures du masque :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Biseau :</b> dessinez un dégradé de 1 à 0, où 0 est atteint à la &#39;distance&#39; maximale</li> <li data-preserve-html="true"><b>Dilatation :</b> dessinez une couleur unie jusqu&#39;à la distance maximale. Cette couleur est le blanc de l’image de couleur « Entrée source » à la bordure du masque, si elle est connectée</li> <li data-preserve-html="true"><b>Distance :</b> distance brute à partir de la bordure de masque la plus proche, dans l&#39;espace d&#39;image normalisé où 1 est la longueur du côté le plus court de l&#39;image</li> </ul> |
 | <b>Direction</b> *Nombre entier* *Disponible lorsque le « mode de sortie » est défini sur « Biseau » ou « Dilation »* | Le côté de la bordure du masque qui doit être dilaté :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Entrée :</b> dessinez vers l&#39;intérieur du masque</li> <li data-preserve-html="true"><b>Sortie :</b> dessinez vers l&#39;extérieur du masque</li> <li data-preserve-html="true"><b>Entrée/Sortie :</b> dessinez vers l&#39;intérieur et l&#39;extérieur du masque</li> </ul> |
 | <b>Distance maximale</b> *Flotter* | Distance de dilatation, dans l&#39;espace image normalisé où 1 est la longueur du côté le plus court de l&#39;image d&#39;entrée. |
-| <b>Masquer le smoothness</b> *Flotter* | Intensité du lissage appliqué au masque.   La valeur correspond au rayon du flou et 1 unité correspond à 1/256e de l’image. |
+| <b>Masquer le smoothness</b> *Flotter* | Intensité du lissage appliqué au masque.   La valeur correspond au rayon du flou et 1 unité correspond à 1/256e de l’image. |
 | <b>Décalage du masque</b> *Flotter* | Déplace les bordures du masque vers l’intérieur ou vers l’extérieur. |
-| <b>Seuil de masque</b> *Flotter* | Valeur utilisée pour détecter les bordures du masque dans l’image « Entrée de masque ».   Les valeurs supérieures à ce seuil correspondent à l&#39;*intérieur* des formes de masque, tandis que les valeurs inférieures correspondent à l&#39;*extérieur*. |
-| <b>Échelle</b> *Float2* | Règle les distances horizontale (X) et verticale (Y) de la dilatation.   Ces valeurs sont des multiplicateurs pour la valeur du paramètre Distance maximale. |
+| <b>Seuil de masque</b> *Flotter* | Valeur utilisée pour détecter les bordures du masque dans l’image « Entrée de masque ».   Les valeurs supérieures à ce seuil correspondent à l&#39;*intérieur* des formes de masque, tandis que les valeurs inférieures correspondent à l&#39;*extérieur*. |
+| <b>Échelle</b> *Float2* | Règle les distances horizontale (X) et verticale (Y) de la dilatation.   Ces valeurs sont des multiplicateurs pour la valeur du paramètre Distance maximale. |
 | <b>Multiplicateur de Map distance</b> *Nombre entier* | Ajuste l&#39;impact de la « Map distance » sur la « Distance maximale ». |
 
 ## Exemples

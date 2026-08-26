@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Découvrez comment importer et utiliser les ressources de format d’exchange d’apparence AxF dans Substance 3D Designer pour l’importation de matières.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: AxF (Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Cliquez sur le bouton <b>Importer AxF...</b> dans la section de gauche de l&#39;
 
 +++Explorateur
 
-Cliquez sur RMB sur un pack dans l&#39;[Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), puis accédez à <b>Importer > AxF</b> dans le menu contextuel du pack.
+Cliquez sur RMB sur un pack dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), puis accédez à <b>Importer > AxF</b> dans le menu contextuel du pack.
 
 ![AxF : démarrer l&#39;importation à partir de l&#39;Explorateur](../../assets/axf_explorer.png "AxF : démarrer l&#39;importation à partir de l&#39;Explorateur"){width="600px"}
 
@@ -144,7 +144,7 @@ Cliquez sur le bouton <b>Ajouter un modèle</b> et sélectionnez le type de grap
 Deux types de modèles de graphiques de Substance sont disponibles :
 
 Les modèles <b>AxF à rugosité métallique</b> et <b>AxF à brillance au Specular</b> sont des modèles de *conversion* qui vous permettent de mapper les matériaux AxF aux modèles PBR standard.\
-Ils peuvent ensuite être utilisés avec les nuanceurs 3D View par défaut et combinés avec d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
+Ils peuvent ensuite être utilisés avec les nuanceurs 3D View par défaut et combinés avec d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
 
 <b>AxF à AxF</b> est un modèle *transparent* qui vous permet de modifier les matériaux AxF en place et d&#39;exporter ces modifications sous forme de nouveaux calques dans les fichiers AxF existants. Voir Exportation de fichiers AxF ci-dessous pour en savoir plus.
 

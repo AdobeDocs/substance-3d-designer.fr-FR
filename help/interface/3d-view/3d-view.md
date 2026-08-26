@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Utilisez la vue 3D dans Substance 3D Designer pour prévisualiser les matériaux sur des objets 3D et tester les conditions d’éclairage.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3514'
 ht-degree: 1%
 
 ---
@@ -128,9 +128,9 @@ Vous pouvez afficher des matériaux entiers en tant que matériau complet dans l
 
 Pour afficher toutes les sorties d&#39;un graphique, cliquez sur *RMB* dans une zone vide de la [vue Graphique](../../interface/the-graph-view/the-graph-view.md), puis sélectionnez l&#39;option **Afficher les sorties en vue 3D** dans le menu contextuel.
 
-Vous pouvez également afficher les sorties d&#39;un graphique sans avoir à l&#39;ouvrir, en cliquant sur le RMB d&#39;une ressource de graphique dans le dock [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et en choisissant l&#39;option **Afficher les sorties en vue 3D** dans le menu contextuel.
+Vous pouvez également afficher les sorties d&#39;un graphique sans avoir à l&#39;ouvrir, en cliquant sur le RMB d&#39;une ressource de graphique dans le dock [Explorateur](../the-explorer-window/the-explorer-window.md) et en choisissant l&#39;option **Afficher les sorties en vue 3D** dans le menu contextuel.
 
-Au lieu du menu contextuel du graphique, vous pouvez obtenir le même résultat en faisant glisser le graphique depuis le dock [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) vers la [Vue 3D](https://substance3d.adobe.com/).
+Au lieu du menu contextuel du graphique, vous pouvez obtenir le même résultat en faisant glisser le graphique depuis le dock [Explorateur](../the-explorer-window/the-explorer-window.md) vers la vue 3D.
 
 Lors du *chargement d&#39;un graphique*, ses sorties sont automatiquement appliquées dans la vue 3D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à **Édition > Préférences > Graphique > Commun** et décochez l&#39;option **Afficher les sorties en vue 3D lors de l&#39;ouverture d&#39;un graphique**.
 
@@ -150,7 +150,7 @@ Vous pouvez afficher n&#39;importe quel nœud, pas seulement les nœuds de sorti
 
 Vous pouvez également utiliser *RMB* pour faire glisser et déposer n&#39;importe quel nœud de la vue Graphique vers la vue 3D. Une liste des canaux disponibles auxquels attribuer le nœud s’affiche. Cliquez sur n’importe lequel pour confirmer.
 
-Vous pouvez afficher une sortie graphique individuelle en développant la ressource graphique dans le dock [Explorer](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et en utilisant *LMB* pour faire glisser cette sortie vers la vue 3D. Une liste des canaux disponibles auxquels assigner le nœud s&#39;affiche. Cliquez sur n’importe lequel pour confirmer.
+Vous pouvez afficher une sortie graphique individuelle en développant la ressource graphique dans le dock [Explorer](../the-explorer-window/the-explorer-window.md) et en utilisant *LMB* pour faire glisser cette sortie vers la vue 3D. Une liste des canaux disponibles auxquels assigner le nœud s&#39;affiche. Cliquez sur n’importe lequel pour confirmer.
 
 ![Affichage de maillages 3D personnalisés](../../assets/3d-mesh.gif "Affichage de maillages 3D personnalisés")
 
@@ -221,7 +221,7 @@ Pour exporter le maillage Vue 3D, accédez à <b>Scène > Exporter le maillage t
 >
 > **TDR (Windows uniquement)**
 > 
-> Cette fonctionnalité nécessite que la <b>détection et récupération du délai d&#39;attente (TDR)</b> corresponde aux valeurs recommandées dans [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation, comme indiqué dans Designer [Configuration technique](../../getting-started/system-requirements/system-requirements.md).
+> Cette fonctionnalité nécessite que la <b>détection et récupération du délai d&#39;attente (TDR)</b> corresponde aux valeurs recommandées dans [cette page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation, comme indiqué dans Designer [Configuration technique](../../getting-started/system-requirements/system-requirements.md).
 
 ## Barre de menus
 
@@ -266,7 +266,7 @@ Le menu <b>Scène</b> traite de la géométrie (ressource 3D) affichée et des �
 
 * Tore
 
-<b>Afficher les UV dans la vue 2D :</b> active l&#39;affichage des UV pour le maillage actuellement sélectionné en tant qu&#39;incrustation dans [la vue 2D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+<b>Afficher les UV dans la vue 2D :</b> active l&#39;affichage des UV pour le maillage actuellement sélectionné en tant qu&#39;incrustation dans la [vue 2D](../2d-view/2d-view.md).
 
 <b>Créer une ressource 3D à partir de la scène actuelle...:</b> Crée une nouvelle [ressource de scène 3D](../../resources/3d-scene-resource/3d-scene-resource.md) dans un package à partir de la scène actuelle.
 
@@ -305,7 +305,7 @@ Le menu « Matières » contient une liste de toutes les matières attribuées �
 
 <b>Charger la définition... :</b>(moteur de rendu OpenGL uniquement) vous permet de charger votre propre nuanceur [GLSLFX personnalisé.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) L’ombrage est ajouté à la liste ci-dessus.
 
-<b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre les rendus Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre dans la [matière Adobe Standard](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
+<b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre les rendus Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre dans la [matière Adobe Standard](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
 
 <b>Renommer :</b> modifiez l&#39;étiquette de ce matériau.
 

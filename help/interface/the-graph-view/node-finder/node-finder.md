@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilisez le Finder de nœuds pour rechercher et localiser rapidement des nœuds dans vos graphiques de Substance afin d’optimiser la navigation.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Node Finder
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Barre d&#39;outils du Finder de nœuds](../../../assets/node-finder-toolbar.png "Barre d&#39;outils du Finder de nœuds"){zoomable="yes"}
 
-L&#39;outil Node Finder vous permet d&#39;effectuer une <b>recherche de nœuds et de variables</b> à l&#39;aide d&#39;une requête texte. Tous les nœuds qui ne correspondent pas à la requête sont grisés pour que les résultats ressortent.
+L&#39;outil Node Finder vous permet d&#39;effectuer une <b>recherche de nœuds et de variables</b> à l&#39;aide d&#39;une requête texte. Tous les nœuds qui ne correspondent pas à la requête sont grisés pour que les résultats ressortent.
 
 La requête peut correspondre à n&#39;importe lequel de ces critères :
 
@@ -31,7 +31,7 @@ La requête peut correspondre à n&#39;importe lequel de ces critères :
 * <b>UID</b> d&#39;un nœud (identifiant unique)
 * Étiquette <b>d&#39;un nœud</b>
 
-La recherche peut parcourir de manière récursive [les instances de graphique](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) afin que les nœuds et les variables soient disponibles sur [sous-graphes](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Si vous n&#39;êtes pas sûr du terme exact que vous devez rechercher, une option de recherche floue est disponible pour appliquer une tolérance à la requête.
+La recherche peut parcourir de manière récursive [les instances de graphique](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) afin que les nœuds et les variables soient disponibles sur [sous-graphes](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Si vous n&#39;êtes pas sûr du terme exact que vous devez rechercher, une option de recherche floue est disponible pour appliquer une tolérance à la requête.
 
 ## Interface
 

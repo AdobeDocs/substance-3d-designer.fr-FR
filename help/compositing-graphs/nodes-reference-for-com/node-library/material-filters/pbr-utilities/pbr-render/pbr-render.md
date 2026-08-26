@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rendu PBR pour effectuer le rendu de matériaux basés physiquement avec un éclairage réaliste pour prévisualiser l’apparence du matériau.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Rendu PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1362'
 ht-degree: 1%
 
 ---
@@ -220,7 +220,7 @@ Sorties
     *Remarque :* la diffusion sous la surface nécessite que la valeur d&#39;entrée **Translucidité** soit *supérieure à 0,0*
   * **Distance de diffusion** *0.0 - 1.0*\
     Ajuste la distance maximale de l’effet de diffusion.\
-    *Remarque :* cette valeur est multipliée par rapport à la valeur d&#39;entrée *de l&#39;**échelle de distance de diffusion**&#x200B;par couche de couleur*.
+    *Remarque :* cette valeur est multipliée par rapport à la valeur d&#39;entrée *de l&#39;**échelle de distance de diffusion**par couche de couleur*.
   * **Décalage Rouge** *0.0 - 1.0*\
     Règle l’intensité de l’effet de décalage du rouge dans la diffusion.
   * **Rayleigh** *0.0 - 1.0*\
@@ -228,7 +228,7 @@ Sorties
 
 ## Exemples d’images
 
-Toutes les images ont été générées directement à l&#39;intérieur de Designer, dans la fenêtre d&#39;affichage 2D, à l&#39;aide des matériaux de la bibliothèque [Ressources Substance 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html).
+Toutes les images ont été générées directement à l&#39;intérieur de Designer, dans la fenêtre d&#39;affichage 2D, à l&#39;aide des matériaux de la bibliothèque [Ressources Substance 3D](https://substance3d.adobe.com/assets).
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
 | --- | --- | --- | --- |

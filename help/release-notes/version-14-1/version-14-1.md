@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.1 pour en savoir plus sur les outils de disposition des nœuds et les nouveaux nœuds Spline et Tracé.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -146,7 +146,7 @@ L&#39;outil [Node Finder](../../interface/the-graph-view/node-finder/node-finder
 * [Graphique de fonction] Les valeurs longues apparaissent chevauchées sur les nœuds &#39;Float&#39;
 * [Fx-Map] Blocage lors de l’affichage des propriétés du nœud de quadrant
 * [Graphique] [UDIM] Avoir une barre de défilement dans la liste UDIM donne 1..1 1..2 entrées
-* [Graphique]&#x200B;[Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
+* [Graphique][Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
 * [Propriétés] Affichage incorrect des paramètres lorsque la valeur n’est pas valide
 * [Publish] Les dépendances réciproques entraînent une boucle infinie lors de la publication d’un pack
 * [Publish] Échec silencieux lors de l’utilisation de l’action « Publish » sur un pack avec une dépendance déchargée

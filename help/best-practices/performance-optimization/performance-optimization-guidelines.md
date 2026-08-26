@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Découvrez les directives d’optimisation des performances de Substance 3D Designer pour améliorer les performances des graphiques et réduire le temps de traitement.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Directives d’optimisation des performances
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Les opérations colorimétriques prennent quatre fois plus de temps que les opé
 +++
 
 +++Utiliser 8 bits lorsque le mode 16 bits n’est pas nécessaire
-La version CPU de la Substance Engine (SSE2) *ne prend pas* en charge les niveaux de gris 16 bits ou 8 bits. Le moteur GPU prend en charge les 4 combinaisons de 8/16 bits et niveaux de gris/couleur. *Actuellement, seul le moteur CPU est utilisé dans les plug-ins Unity et Unreal Engine*.
+La version CPU de la Substance Engine (SSE2) *ne prend pas* en charge les niveaux de gris 16 bits ou 8 bits. Le moteur GPU prend en charge les 4 combinaisons de 8/16 bits et niveaux de gris/couleur. *Actuellement, seul le moteur CPU est utilisé dans les plug-ins Unity et Unreal Engine*.
 
 +++
 
@@ -141,7 +141,7 @@ De cette façon, la taille du bitmap change en fonction du graphique parent et v
 
 >[!WARNING]
 >
-> Définir un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sur « Relatif au parent » et [publier](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) le graphique sur une ressource Substance 3D (SBSAR) enregistrera le bitmap à une résolution de **256x256** au lieu de sa taille d&#39;origine. Il est plutôt conseillé de conserver la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des [tailles de sortie](../../compositing-graphs/output-size/output-size.md) des nœuds Bitmap comme &#39;Absolue&#39; et d&#39;utiliser un nœud [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) défini sur &#39;Relative au parent&#39; juste après le nœud Bitmap.
+> Définir un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sur « Relatif au parent » et [publier](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) le graphique sur une ressource Substance 3D (SBSAR) enregistrera le bitmap à une résolution de **256x256** au lieu de sa taille d&#39;origine. Il est plutôt conseillé de conserver la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des [tailles de sortie](../../compositing-graphs/output-size/output-size.md) des nœuds Bitmap comme &#39;Absolue&#39; et d&#39;utiliser un nœud [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) défini sur &#39;Relative au parent&#39; juste après le nœud Bitmap.
 
 ![Optimisation des bitmaps incorporés 1](../../assets/input-1.jpg "Optimisation des bitmaps incorporés 1")
 
@@ -151,7 +151,7 @@ De cette façon, la taille du bitmap change en fonction du graphique parent et v
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Il est également conseillé de définir le format des ressources Bitmap sur Jpeg pour réduire la taille des ressources Substance 3D [publiées](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Il est également conseillé de définir le format des ressources Bitmap sur Jpeg afin de réduire la taille des ressources Substance 3D publiées (SBSAR).
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser Substance 3D Designer pour créer des matières procédurales, des textures et des ressources 3D à l’aide de workflows basés sur les nœuds.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Guide de l’utilisateur de Substance 3D Designer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 61535e3f89e10931c220096577e76abb9799d8df
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -49,8 +49,8 @@ Si vous avez une question à laquelle ce manuel ne répond pas, n’hésitez pas
 * [Écran d’accueil](../interface/home-screen/home-screen.md) : il vous accueille lorsque vous lancez Substance 3D Designer. Il est là pour vous aider à commencer à travailler avec le logiciel et à accéder aux liens les plus utiles.
 * [Personnalisation de votre espace de travail](../interface/customizing-your-wor/customizing-your-workspace.md) : cette page explique comment organiser les panneaux de l’interface utilisateur Adobe Substance 3D Designer (voir aussi https://www.adobe.com/fr/products/substance3d-designer.html) et utiliser leurs fonctionnalités pour améliorer vos workflows.
 * [Barre d’outils principale](../interface/the-main-toolbar/the-main-toolbar.md) : cette page décrit la barre d’outils principale et le menu d’Adobe Substance 3D Designer qui apparaissent en haut à gauche de la fenêtre principale.
-* [Préférences](../interface/preferences-window/preferences-window.md) : cette page présente la fenêtre Préférences et tous ses paramètres.
-* [Explorateur](../interface/the-explorer-window/the-explorer-window.md) : cette page décrit le dock Explorateur dans Adobe Substance 3D Designer. Ce dock vous permet de gérer les packages et leurs ressources.
+* [Préférences](../interface/preferences-window/preferences-window.md) : cette page présente la fenêtre Préférences et tous ses paramètres.
+* [Explorateur](../interface/the-explorer-window/the-explorer-window.md) : cette page décrit le dock Explorateur dans Adobe Substance 3D Designer. Ce dock vous permet de gérer les packages et leurs ressources.
 * [Vue du graphe](../interface/the-graph-view/the-graph-view.md) : cette page présente la Vue du graphe de Substance 3D Designer.
 * [Bibliothèque](../interface/the-library/the-library.md) : cette page présente le panneau Bibliothèque de Substance 3D Designer, sa mise en page ainsi que les outils qu’il propose pour la recherche et le filtrage de contenu.
 * [Propriétés](../interface/properties/properties.md) : cette page présente le panneau Propriétés de Substance 3D Designer, sa mise en page, ainsi que les différents déploiements, catégories et paramètres disponibles. Il est axé sur les propriétés des graphes Substance. Les graphiques de fonction Substance et FX-Map ont une mise en page plus simple.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normale courbée pour générer des cartes de normales courbées qui tiennent compte de l'occlusion ambiante et de l'éclairage indirect.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale courbée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 2%
@@ -44,10 +44,10 @@ Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en r
 
 ## Paramètres
 
-<b>Utiliser la Taille physique</b> *booléenne*\
+<b>Utiliser la Taille physique</b> *Booléen*\
 Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height.
 
-<b>Taille physique</b> *Float3* (disponible lorsque <b>Utiliser la Taille physique</b> est défini sur *Vrai*)\
+<b>Taille physique</b> *Float3* (disponible lorsque l&#39;option <b>Utiliser la Taille physique</b> est définie sur *True*)\
 Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface.
 
 <b>Exemples</b> *Nombre entier*\
@@ -63,10 +63,10 @@ Définit la méthode de distribution. Affecte la réduction vers les zones ombr�
 <b>Distance Maximale</b> *Flotter*\
 Définit la distance maximale que les rayons peuvent parcourir pour être occultés.
 
-<b>Angle De Répartition</b> *Flottant*\
+<b>Angle de répartition</b> *Flotter*\
 Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier.
 
-<b>Format Normal</b> *Entier*\
+<b>Format normal</b> *Nombre entier*\
 Inverse la couche verte de la sortie.
 
 ## Exemples d’images

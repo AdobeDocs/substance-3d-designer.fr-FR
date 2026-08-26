@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tons directs gaussiens 1 pour générer des motifs de tons directs gaussiens afin de créer des variations et des détails de texture organique.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Taches gaussiennes 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 2%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
@@ -41,26 +41,6 @@ Variation des bruits lisses de <b>talité gaussienne</b>.\
 Basé sur le nœud [Bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), avec des dégradés plus étroits.
 
 Voir aussi : [Taches gaussiennes 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
 
 </td>
 </tr>

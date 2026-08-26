@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Découvrez les avertissements liés aux dépendances de ressources dans Substance 3D Designer et comment les résoudre.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avertissements des dépendances
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ Il existe deux façons principales de corriger ce problème :
 
    Vérifiez que le package de dépendance existe à l&#39;emplacement spécifié dans le message d&#39;avertissement. Si ce n’est pas le cas, recherchez le fichier et replacez-le à cet emplacement, ou recréez-le sur place. Si le fichier existe, *essayez de le charger* dans Designer et recherchez les avertissements ou les erreurs liés à ce package. Reportez-vous à la section Étapes de dépannage pour ces problèmes spécifiques et corrigez-les en conséquence.
 
-   Ensuite, rechargez le package hôte en cliquant sur le RMB dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et en sélectionnant l&#39;option <b>Recharger</b> dans le menu contextuel.
+   Ensuite, rechargez le package hôte en cliquant sur le RMB dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et en sélectionnant l&#39;option <b>Recharger</b> dans le menu contextuel.
 
    ![&#39;Solution de package dépendant non valide&#39; 1](../../assets/warnings-dep-invalid-dependent-pkg.gif "&#39;Solution de package dépendant non valide&#39; 1")
 1. <b>Déplacer la dépendance dans le package</b>
 
-   Vous pouvez déplacer la dépendance à l&#39;aide du [Gestionnaire de dépendances](../../interface/dependency-manager/dependency-manager.md). Cliquez sur RMB sur le package hôte dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et sélectionnez l&#39;option <b>Gestionnaire de dépendances</b> dans le menu contextuel.
+   Vous pouvez déplacer la dépendance à l&#39;aide du [Gestionnaire de dépendances](../../interface/dependency-manager/dependency-manager.md). Cliquez sur RMB sur le package hôte dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Gestionnaire de dépendances</b> dans le menu contextuel.
 
    Recherchez la dépendance manquante dans la liste du gestionnaire de dépendances, cliquez sur RMB dessus et sélectionnez l&#39;option <b>Déplacer...</b>. Recherchez le package de dépendances à l&#39;aide de la boîte de dialogue du navigateur de fichiers et cliquez sur <b>Ouvrir</b>.
 
-   Ensuite, rechargez le package hôte en cliquant sur le RMB dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et en sélectionnant l&#39;option <b>Recharger</b> dans le menu contextuel.
+   Ensuite, rechargez le package hôte en cliquant sur le RMB dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et en sélectionnant l&#39;option <b>Recharger</b> dans le menu contextuel.
 
    ![&#39;Solution de package dépendant non valide&#39; 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "&#39;Solution de package dépendant non valide&#39; 2")
 
@@ -76,7 +76,7 @@ Il existe deux façons principales de corriger ce problème :
    ![&#39;Aucun fichier correspondant à la ressource&#39; solution 1](../../assets/warnings-dep-udim-2.gif "&#39;Aucun fichier correspondant à la ressource&#39; solution 1")
 1. <b>Déplacer les fichiers</b>
 
-   Si les fichiers ont été déplacés ou renommés, relocalisez-les en cliquant sur RMB sur l&#39;élément de ressource dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et sélectionnez l&#39;option <b>Déplacer</b> pour lier cette ressource au *premier fichier d&#39;un ensemble* d&#39;images UDIM du même type.
+   Si les fichiers ont été déplacés ou renommés, relocalisez-les en cliquant sur RMB sur l&#39;élément de ressource dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Déplacer</b> pour lier cette ressource au *premier fichier d&#39;un ensemble* d&#39;images UDIM du même type.
 
    ![&#39;Aucun fichier correspondant à la ressource&#39; solution 2](../../assets/warnings-dep-udim.gif "&#39;Aucun fichier correspondant à la ressource&#39; solution 2")
 
@@ -95,7 +95,7 @@ Il existe deux façons principales de corriger ce problème :
    ![&#39;Fichier lié introuvable&#39; solution 1](../../assets/warnings-dep-file-not-found.gif "&#39;Fichier lié introuvable&#39; solution 1")
 1. <b>Déplacer le fichier</b>
 
-   Si le fichier a été déplacé ou renommé, relocalisez-le en cliquant sur RMB sur l&#39;élément de ressource dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) et sélectionnez l&#39;option <b>Déplacer</b> pour lier cette ressource à un autre fichier du même type.
+   Si le fichier a été déplacé ou renommé, relocalisez-le en cliquant sur RMB sur l&#39;élément de ressource dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Déplacer</b> pour lier cette ressource à un autre fichier du même type.
 
    ![&#39;Fichier lié introuvable&#39; solution 2](../../assets/warnings-dep-file-not-found-2.gif "&#39;Fichier lié introuvable&#39; solution 2")
 
@@ -117,7 +117,7 @@ Vous pouvez également ajouter cet espace colorimétrique à l&#39;environnement
 
 ## Ressource de référence ![(erreur)](../../assets/error.svg) introuvable
 
-Le graphique attribué à la mosaïque UV d&#39;une [ressource de filet 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) est introuvable à l&#39;emplacement indiqué dans l&#39;avertissement.
+Le graphique attribué à la vignette UV d&#39;une [ressource de scène 3D](../3d-scene-resource/3d-scene-resource.md) est introuvable à l&#39;emplacement indiqué dans l&#39;avertissement.
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
@@ -125,7 +125,7 @@ Il existe deux façons principales de corriger ce problème :
 
 1. <b>Restauration du graphique</b>
 
-   Vérifiez le contenu du package dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) pour le graphique spécifié dans la liste <b>Carreaux UV</b>. S’il n’existe pas, restaurez-le ou recréez-le.
+   Vérifiez le contenu du package dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) pour le graphique spécifié dans la liste <b>Carreaux UV</b>. S’il n’existe pas, restaurez-le ou recréez-le.
 
    ![&#39;Ressource de référence introuvable&#39; solution 1](../../assets/warnings-dep-udim-graph-2.gif "&#39;Ressource de référence introuvable&#39; solution 1")
 1. <b>Sélectionner un autre graphique</b>
@@ -136,7 +136,7 @@ Il existe deux façons principales de corriger ce problème :
 
 ## ![(erreur)](../../assets/error.svg) mosaïques UV attribuées plusieurs fois
 
-Une mosaïque UV pour une [ressource de maillage 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) est affectée plusieurs fois à un [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Une vignette UV pour une [ressource de scène 3D](../3d-scene-resource/3d-scene-resource.md) est affectée plusieurs fois à un [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
@@ -146,7 +146,7 @@ Pour chaque jeu UV d&#39;une ressource de maillage 3D, assurez-vous qu&#39;aucun
 
 ## ![(erreur)](../../assets/error.svg) vignettes UV non valides
 
-Une vignette UV répertoriée pour une [ressource de filet 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) n&#39;est pas définie dans le filet ou est endommagée.
+Une vignette UV répertoriée pour une [ressource de scène 3D](../3d-scene-resource/3d-scene-resource.md) n&#39;est pas définie dans le maillage ou est endommagée.
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
