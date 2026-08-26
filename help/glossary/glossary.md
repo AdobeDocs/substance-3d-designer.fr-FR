@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Accédez au glossaire Substance 3D Designer pour trouver les définitions de termes, de concepts et de terminologie technique.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Glossaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Découvrez les termes et concepts utilisés dans Designer.
 
-## #&#x200B;
+## #
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>Scène 3D</b> | Collection d’objets et de données impliqués dans la représentation et l’animation d’une visualisation de l’espace 3D :<ul data-preserve-html="true"> <li data-preserve-html="true">[Maillages](#mesh)</li> <li data-preserve-html="true">[Matières](#material)</li> <li data-preserve-html="true">Caméras</li> <li data-preserve-html="true">Lumières</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulations</li> <li data-preserve-html="true">...</li> </ul>[Les formats de fichiers les plus populaires](https://www.adobe.com/fr/products/substance3d/discover/3d-files-formats.html) pour stocker des scènes 3D incluent [USD](#usd) de Pixar et FBX d&#39;Autodesk. Tous les formats de fichiers ne prennent pas en charge tous ces composants |
+| <b><span id="three-d-scene"></span>Scène 3D</b> | Collection d’objets et de données impliqués dans la représentation et l’animation d’une visualisation de l’espace 3D :<ul data-preserve-html="true"> <li data-preserve-html="true">[Maillages](#mesh)</li> <li data-preserve-html="true">[Matières](#material)</li> <li data-preserve-html="true">Caméras</li> <li data-preserve-html="true">Lumières</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulations</li> <li data-preserve-html="true">...</li> </ul>[Les formats de fichiers les plus populaires](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) pour stocker des scènes 3D incluent [USD](#usd) de Pixar et FBX d&#39;Autodesk. Tous les formats de fichiers ne prennent pas en charge tous ces composants |
 
 ## A
 
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>canal Alpha</b> | Quatrième couche d’une image couleur, souvent utilisée pour décrire l’opacité. |
 | <b><span id="ambient-occlusion"></span>occlusion ambiante</b> | L&#39;atténuation de la lumière ambiante sur les surfaces moins exposées et donc plus difficiles à atteindre. |
 | <b><span id="anisotropy"></span>Anisotropie</b> | Propriété d&#39;être dépendant de la direction. En d’autres termes, fournir un résultat différent lorsqu’il est mesuré ou observé sur un axe différent.   Les matériaux anisotropes ont un aspect différent selon leur origine, et les filtres anisotropes ne sont pas appliqués uniformément dans toutes les directions. |
+| <b><span id="aov" ></span>AOV</b> | Variable de sortie arbitraire (AOV) est un terme utilisé dans le [rendu](#rendering) pour décrire les canaux de données supplémentaires qui peuvent être générés à partir d&#39;un rendu, tels que la profondeur, les normales ou les données personnalisées. |
 | <b><span id="api"></span>API</b> | Une interface de programmation d&#39;application (API) est un ensemble de fonctions et de procédures qui permet aux utilisateurs d&#39;accéder aux fonctions et aux procédures d&#39;une autre application de programme.   Une API fournit une couche contrôlée et sécurisée entre l’utilisateur et un programme. Il peut également utiliser un autre langage de programmation pour rendre ce programme plus facile à interagir et plus largement accessible.   Designer propose une [API Python](../scripting/scripting.md) qui fournit un accès facile à un large éventail de ses fonctionnalités pour la manipulation des données, la création d&#39;outils personnalisés et l&#39;accélération des workflows. |
 | <b><span id="atomic-node"></span>Nœud atomique</b> | Composantes fondamentales des graphiques. Tous les [nœuds d&#39;instance](#instance-node) peuvent être décomposés en graphiques de nœuds atomiques. Chaque type de graphe possède son propre ensemble de nœuds atomiques. |
 
@@ -147,7 +148,7 @@ ht-degree: 1%
 | --- | --- |
 | <b><span id="renderer"></span>Moteur de rendu</b> | Programme qui traite les informations 3D telles que les lumières, les filets et les matières pour créer des images 2D. |
 | <b><span id="rendering"></span>Rendu </b>(Vue 3D) | Processus de calcul d&#39;une image en fonction des données d&#39;entrée, à l&#39;aide d&#39;un programme tel qu&#39;un [moteur de rendu](#renderer). |
-| <b><span id="resolution"></span>Résolution</b> | Quantité de pixels horizontalement et verticalement qui forment une [image bitmap](#bitmap). Plus de pixels permettent de représenter des détails plus fins.   Dans les graphiques de Substance, la résolution d&#39;une image bitmap calculée par un [nœud](#node) est contrôlée par le paramètre de base [Taille de sortie](#output-size) [&#x200B; du nœud.](#base-parameter) |
+| <b><span id="resolution"></span>Résolution</b> | Quantité de pixels horizontalement et verticalement qui forment une [image bitmap](#bitmap). Plus de pixels permettent de représenter des détails plus fins.   Dans les graphiques de Substance, la résolution d&#39;une image bitmap calculée par un [nœud](#node) est contrôlée par le paramètre de base [Taille de sortie](#output-size)[ du nœud.](#base-parameter) |
 | <b><span id="roughness"></span>Rugosité</b> | Canal d&#39;un [matériau](../glossary/glossary.md) défini à l&#39;aide du modèle de rugosité métallique PBR [ombrage](../glossary/glossary.md). La rugosité désigne la rugosité d&#39;une surface, c&#39;est-à-dire les variations microscopiques de l&#39;height, également appelées *microfacettes*.   Une forte rugosité donne un aspect mat, tandis qu’une faible rugosité donne un aspect lisse et brillant.   C&#39;est l&#39;inverse de [brillance](#glossiness). |
 
 ## S
