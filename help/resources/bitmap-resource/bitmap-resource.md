@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: Apprenez à importer, créer et utiliser des bitmaps dans Substance 3D Designer pour créer des textures.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
 breadcrumb-title: ''
 description: Découvrez comment accéder aux graphiques et aux sélections de nœuds dans les scripts Substance 3D Designer Python et les manipuler.
 helpx_creative_field: ""

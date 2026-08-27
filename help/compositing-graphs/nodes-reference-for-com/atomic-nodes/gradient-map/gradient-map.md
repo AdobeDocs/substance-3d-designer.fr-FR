@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Courbe de transfert de dégradé pour mapper les valeurs de niveaux de gris aux couleurs en utilisant des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""

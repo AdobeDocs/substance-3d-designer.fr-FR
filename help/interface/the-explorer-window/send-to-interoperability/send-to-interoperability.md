@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Utilisez la fonction Envoyer vers l’interopérabilité de Substance 3D Designer pour exporter des matériaux vers d’autres applications.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Envoyer de Designer vers les applications Substance 3D](../../../assets/explorer-interop.png "Envoyer de Designer vers les applications Substance 3D"){width="512px"}
 
-Adobe Substance 3D Designer est en interopérabilité avec [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) et [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html). Cela vous permet d&#39;*envoyer* et de *renvoyer* votre travail rapidement, ce qui facilite l&#39;itération dans l&#39;écosystème Substance 3D.
+Adobe Substance 3D Designer est en interopérabilité avec [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) et [Substance 3D Stager](https://www.adobe.com/fr/products/substance3d-stager.html). Cela vous permet d&#39;*envoyer* et de *renvoyer* votre travail rapidement, ce qui facilite l&#39;itération dans l&#39;écosystème Substance 3D.
 
 Le workflow est généralement le suivant :
 
@@ -55,12 +55,12 @@ Attribut Type du graphique en Substances![Attribut Type du graphique en Substanc
 </tr>
 </table>
 
-* **Non spécifié** est le type par défaut si vous ne l&#39;avez pas défini. En fonction de l’application à laquelle vous envoyez l’accord, celui-ci peut être interprété différemment. Par exemple, [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) utilisera par défaut l&#39;option Matière ;
+* **Non spécifié** est le type par défaut si vous ne l&#39;avez pas défini. En fonction de l’application à laquelle vous envoyez l’accord, celui-ci peut être interprété différemment. Par exemple, [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) utilisera par défaut l&#39;option Matière ;
 * **Matériau standard** est destiné aux matériaux PBR multicanaux, avec des [sorties](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) correctement étiquetées ;
-* **Matière de décalcomanie** est destinée à une matière PBR multicanal avec couche alpha, à appliquer en tant que décalcomanie dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html) ;
-* **Matériau Atlas** est destiné à un matériau PBR multicanal composé de plusieurs images d&#39;atlas, à utiliser avec le [nœud d&#39;Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) dans Designer ou [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html) ;
-* **Filtre** est destiné aux filtres universels, tous deux utilisés dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html) ;
-* **Le générateur basé sur le maillage** est destiné aux générateurs de masques à entrées multiples. Ce paramètre est utilisé uniquement par [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ;
+* **Matière de décalcomanie** est destinée à une matière PBR multicanal avec couche alpha, à appliquer en tant que décalcomanie dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ;
+* **Matériau Atlas** est destiné à un matériau PBR multicanal composé de plusieurs images d&#39;atlas, à utiliser avec le [nœud d&#39;Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) dans Designer ou [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ;
+* **Filtre** est destiné aux filtres universels, tous deux utilisés dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ;
+* **Le générateur basé sur le maillage** est destiné aux générateurs de masques à entrées multiples. Ce paramètre est utilisé uniquement par [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ;
 * **Le Générateur de textures** est destiné aux textures à canal unique, telles que les procédures et les bruits 2D ;
 * **Éclairage de l’environnement** est destiné à un environnement d’éclairage à canal unique, utilisé pour éclairer des scènes et des objets ;
 * La **texture claire** est destinée à une texture monocouche appliquée à une lumière physique.
