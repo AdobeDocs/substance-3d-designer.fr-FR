@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 15.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ La Substance Designer 15.1 offre une fenêtre de création de graphique entière
 
 ## Amélioration de la création de graphiques
 
-Dans cette version, la [fenêtre de création de graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) a été <b>entièrement repensée</b> pour améliorer l&#39;expérience utilisateur initiale dans Substance 3D Designer. L’objectif principal de cette mise à jour est de rationaliser le processus de sélection des modèles, ce qui permet aux utilisateurs d’identifier efficacement le modèle le mieux adapté à leurs besoins.
+Dans cette version, la [fenêtre de création de graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) a été <b>entièrement repensée</b> pour améliorer l&#39;expérience utilisateur initiale dans Substance 3D Designer. L’objectif principal de cette mise à jour est de rationaliser le processus de sélection des modèles, ce qui permet aux utilisateurs d’identifier efficacement le modèle le mieux adapté à leurs besoins.
 
-Les vignettes offrent des <b>références visuelles</b> instantanées pour les types de matériaux prévus, tandis que les info-bulles détaillées fournissent toutes les informations pertinentes. Pour une meilleure organisation, les modèles sont désormais classés dans des <b>catégories</b> spécifiques, telles que les matériaux, les filtres et le traitement de numérisation.
+Les vignettes offrent des <b>références visuelles</b> instantanées pour les types de matériaux prévus, tandis que les info-bulles détaillées fournissent toutes les informations pertinentes. Pour une meilleure organisation, les modèles sont désormais classés dans des <b>catégories</b> spécifiques, telles que les matériaux, les filtres et le traitement de numérisation.
 
 Bien que l’interface principale ait été mise à niveau, les utilisateurs continuent d’avoir accès aux affichages précédents, y compris les options de liste, de packages et de répertoires.
 
@@ -44,7 +44,7 @@ Avec le lancement de notre fenêtre de création de graphiques repensée, nous a
 
 ![Nouvelle fenêtre de création de graphique pour les échantillons](../../assets/GraphSample.png){zoomable="yes"}
 
-Pour répondre à ce besoin, nous avons inclus des échantillons de matériaux tels que les tissus (y compris le cuir et le satin), le bois, le métal, le plastique, la céramique et plus encore. Ces exemples ont pour but de vous aider à démarrer vos projets en toute simplicité et à vous familiariser avec les principaux nœuds de la famille disponibles dans Substance 3D Designer
+Pour répondre à ce besoin, nous avons inclus des échantillons de matériaux tels que les tissus (y compris le cuir et le satin), le bois, le métal, le plastique, la céramique et plus encore. Ces exemples ont pour but de vous aider à démarrer vos projets en toute simplicité et à vous familiariser avec les principaux nœuds de la famille disponibles dans Substance 3D Designer
 
 Chaque graphique est <b>annoté</b>, soigneusement organisé et contient un nombre minimal de nœuds pour le rendre aussi facile à comprendre que possible.
 
@@ -68,7 +68,7 @@ Enfin, la profondeur de bits <b>n&#39;est plus verrouillée en mode 16 bits</b>.
 
 Consultez la liste complète des bruits mis à jour dans les [notes de mise à jour](#release-notes) ci-dessous.
 
-Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![bruit de désordre directionnel](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -167,7 +167,7 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 * [Content] Somme fractale 1,2,3,4 v2 : ajout du format de sortie par défaut
 * [Contenu] Bruit gaussien v2 : ajout du format de sortie par défaut, pas de prise en charge des mosaïques
 * [Contenu] Taches gaussiennes 1&amp;2 v2 : ajout du format de sortie par défaut, pas de prise en charge des mosaïques
-* [Contenu] Fibres désordonnées 1,2,3 v2 : ajout du format de sortie par défaut, pas de prise en charge de la mosaïque, options de désordre
+* [Contenu] Fibres désordonnées 1,2,3 v2 : ajout du format de sortie par défaut, pas de prise en charge des répétitions, options de désordre
 * [Contenu] Bruit d’humidité v2 : ajout du format de sortie par défaut, pas de prise en charge des mosaïques
 * [Contenu] Nouveau nœud « Bruit d&#39;humidité 2 »
 * [Contenu] Bruits : mettre à jour pour ajouter le format de sortie par défaut
@@ -199,8 +199,8 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 * Le Specular level [Vue 3D] n’est pas appliqué correctement
 * [Vue 3D] Le Specular edge color ne fonctionne pas lors de l’utilisation de la pixellisation Eclair
 * [Vue 3D] La matière ajoutée par l’utilisateur n’est pas appliquée aux scènes par défaut
-* [Vue 3D]&#x200B;[Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
-* [Vue 3D]&#x200B;[Bakers] Aucune couleur de matière du fichier FBX
+* [Vue 3D][Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
+* [Vue 3D][Bakers] Aucune couleur de matière du fichier FBX
 * [Boulangers] Les couleurs de matériau dans les fichiers FBX ne sont pas correctement détectées
 * [Bakers] L’option « recalculer\_tangentes » est toujours « false » dans les exportations de paramètres prédéfinis JSON
 * [Bakers] CLI : Blocage lors de l’exécution du même baker de manière consécutive via un fichier JSON

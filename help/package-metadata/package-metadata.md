@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et gérer des métadonnées de pack dans Substance 3D Designer pour les bibliothèques de ressources organisées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Métadonnées du package
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Dans certains cas, vous pouvez récupérer les métadonnées que vous avez défi
 
 Les métadonnées sont stockées au format JSON dans un fichier nommé /assemblies/content/0000/metadata.json (le chemin est relatif à la racine de l’archive .sbsar).
 
-Les métadonnées (chaîne) normales sont stockées telles quelles, par ex. « key »: « stringValue », un par ligne. Là encore, l&#39;ordre d&#39;origine des différentes clés n&#39;est pas conservé et sa mise en œuvre est définie. Ne vous fiez jamais à l&#39;ordre dans votre processus, comme avec les dicts Python réguliers !
+Les métadonnées normales (chaîne) sont stockées telles quelles, par exemple « key » : « stringValue », une par ligne. Là encore, l&#39;ordre d&#39;origine des différentes clés n&#39;est pas conservé et sa mise en œuvre est définie. Ne vous fiez jamais à l&#39;ordre dans votre processus, comme avec les dicts Python réguliers !
 
 Comme le but des métadonnées d&#39;URL est de permettre aux utilisateurs et aux plug-ins d&#39;inclure des fichiers étrangers dans l&#39;archive .sbsar, ils sont soumis à une transformation spécifique : Tout d&#39;abord, le fichier de la ressource correspondant à l&#39;URL stockée est copié dans l&#39;archive dans un emplacement défini par l&#39;implémentation (généralement dans un sous-dossier numéroté, qui contiendra uniquement ce fichier. Il s’agit d’éviter tout conflit de nom.) Le fichier conserve son nom d’origine (le nom de la ressource est ignoré à ce stade). Ainsi, au lieu de l’URL d’origine dans metadata.json, le chemin d’accès au fichier copié dans l’archive relatif à metadata.json est écrit.
 

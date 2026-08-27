@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Courbe de transfert de dégradé pour mapper les valeurs de niveaux de gris aux couleurs en utilisant des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Map de dégradé
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 Remappe les valeurs de niveaux de gris d’une image à l’aide d’un dégradé personnalisé.
 
-Ce nœud a un double objectif : il peut être simplement utilisé en tant que <b> </b>nœud de conversion des niveaux de gris en couleur, ou pour coloriser les niveaux de gris en entrée en les mappant à un dégradé de couleurs personnalisé.
+Ce nœud a un double objectif : il peut être simplement utilisé comme <b> </b>nœud de conversion des niveaux de gris en couleurs ou, pour coloriser les niveaux de gris, je les mappe à une gamme de couleurs personnalisée.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Le nœud offre un éditeur de dégradé avancé et riche en fonctionnalités pou
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Définit le mode de sortie sur Couleur ou Niveaux de gris. |
 | <b>Adressage de dégradé</b> *Booléen* | Définit le dégradé sur des valeurs de répétition (carreau) ou de pincement qui sont en dehors de la plage [0, 1]. |
-| <b>Dégradé</b> *Tableau de dégradés* | Dégradé personnalisé utilisé pour mapper les valeurs de niveaux de gris d’entrée.   Peut être modifié sur place ou à l&#39;aide de l&#39;[éditeur de dégradé](#gradient-editor). |
+| <b>Dégradé</b> *Tableau de dégradés* | Dégradé personnalisé utilisé pour mapper les valeurs de niveaux de gris d’entrée.   Peut être modifié sur place ou à l&#39;aide de l&#39;[éditeur de dégradé](#gradient-editor). |
 
 ## Éditeur de dégradé
 

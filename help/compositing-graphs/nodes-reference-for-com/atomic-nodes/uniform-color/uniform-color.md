@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Couleur uniforme pour générer des textures de couleur uniforme afin de créer des fonds de couleur unie et des calques de base.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -96,7 +96,7 @@ Il s’agit d’un nœud simple, très souvent utilisé comme point de départ p
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. |
-| <b>Couleur de sortie</b> *Float/Float4* | Sélectionne la couleur plate à utiliser dans l’image de sortie.   Lorsque vous utilisez le mode colorimétrique Couleur, la couche Alpha est utilisée pour l’opacité, où 0 est entièrement transparent et 1 entièrement opaque. |
+| <b>Couleur de sortie</b> *Float/Float4* | Sélectionne la couleur plate à utiliser dans l’image de sortie.   Lorsque vous utilisez le mode colorimétrique Couleur, la couche Alpha est utilisée pour l’opacité, où 0 est entièrement transparent et 1 entièrement opaque. |
 
 ## Connecteurs de sortie
 

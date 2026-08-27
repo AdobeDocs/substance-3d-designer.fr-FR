@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Transformation 2D pour appliquer des transformations 2D aux textures, y compris la translation, la rotation et la mise à l’échelle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformation 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -92,11 +92,11 @@ Il ne peut toutefois pas correspondre parfaitement à certaines applications, de
 
 |  |  |
 | --- | --- |
-| <b>Matrice de transformation</b> *Float4* | Ouvrez la matrice de transformation sous-jacente pour la modifier directement. Permet de modifier la rotation et la mise à l’échelle. Peut également être ajusté à l&#39;aide de l&#39;objet dans la vue 2D.   Avertissement : ils ne sont pas directement corrélés à la vue et constituent des ajustements relatifs qui peuvent être appliqués par étapes. |
-| <b>Décalage</b> *Float2* | Définit le displacement 2D de l’image. Permet de modifier la position ou le décalage Peut également être ajusté via l&#39;objet dans la vue 2D.   Est directement lié à la sortie de la vue 2D. |
+| <b>Matrice de transformation</b> *Float4* | Ouvrez la matrice de transformation sous-jacente pour la modifier directement. Permet de modifier la rotation et la mise à l’échelle. Peut également être ajusté à l&#39;aide de l&#39;objet dans la vue 2D.   Avertissement : ils ne sont pas directement corrélés à la vue et constituent des ajustements relatifs qui peuvent être appliqués par étapes. |
+| <b>Décalage</b> *Float2* | Définit le displacement 2D de l’image. Permet de modifier la position ou le décalage Peut également être ajusté via l&#39;objet dans la vue 2D.   Est directement lié à la sortie de la vue 2D. |
 | <b>Mode Mipmap</b> *Nombre entier* | Vous permet de passer à un niveau manuel [mipmap](../../../../glossary/glossary.md), qui réduit les artefacts dans une image à l&#39;aide du filtrage de texture. |
-| <b>Niveau du mipmap</b> *Nombre entier* | Définit le niveau [mipmap](../../../../glossary/glossary.md) à utiliser.     *Disponible lorsque le mode Mipmap est défini sur « Manuel »* |
-| <b>Cache</b> *Float4* | Couleur utilisée comme arrière-plan lorsque la juxtaposition de transformations est désactivée. C’est-à-dire qu’il définit la couleur utilisée lorsque l’entrée transformée ne couvre pas une zone de la sortie.   Peut être rendu transparent si vous travaillez en couleur RVBA. |
+| <b>Niveau du mipmap</b> *Nombre entier* | Définit le niveau [mipmap](../../../../glossary/glossary.md) à utiliser.     *Disponible lorsque le mode Mipmap est défini sur « Manuel »* |
+| <b>Cache</b> *Float4* | Couleur utilisée comme arrière-plan lorsque la juxtaposition de transformations est désactivée. C’est-à-dire qu’il définit la couleur utilisée lorsque l’entrée transformée ne couvre pas une zone de la sortie.   Peut être rendu transparent si vous travaillez en couleur RVBA. |
 | <b>Filtrage</b> *Nombre entier* | Définit la méthode de sous-échantillonnage utilisée. Ne fonctionne pas particulièrement bien lorsque le Niveau du mipmap est réduit. |
 
 ## Connecteurs d’entrée

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les fichiers de configuration de projet SBSPRJ dans Substance 3D Designer pour gérer les paramètres du projet.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Fichiers de configuration du projet - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,9 @@ Les fichiers de projet peuvent contenir les paramètres suivants :
 
 <b>Cuisson :</b>paramètres pour cuire les conventions de dénomination.
 
-<b>Général :</b>modèles de graphiques, modules externes d’espace tangent, formats normal et d’image par défaut.
+<b>Général :</b>modèles de graphiques, modules externes d’espace tangent, formats normal et image par défaut.
 
-<b>Bibliothèque :</b>Chemins suivis à afficher dans la bibliothèque, ainsi que [filtres et catégories pour la vue Bibliothèque](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
-
-<b>MDL :</b>Chemins suivis par MDL.
+<b>Bibliothèque :</b>Tracés suivis à afficher dans la bibliothèque.
 
 <b>Scripts :</b>scripts et interpréteurs de rappel.
 
@@ -79,7 +77,7 @@ Les configurations de projet sont, comme tous les autres types, enregistrées en
 
 Consultez la page [Paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md) pour en savoir plus sur la gestion des fichiers de projet et la modification des paramètres du projet.
 
-Les fichiers de projet incluent également des <b>catégories</b> personnalisées et des <b>filtres</b> pour la [bibliothèque](../../interface/the-library/the-library.md), pour en savoir plus sur la page [Gestion du contenu et des filtres](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) personnalisés.
+Les fichiers de projet incluent également des <b>catégories</b> personnalisées et des <b>filtres</b> pour la [bibliothèque](../../interface/the-library/the-library.md), pour en savoir plus sur la page [Gestion du contenu et des filtres](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) personnalisés.
 
 ## Modifier XML en externe
 
@@ -91,7 +89,7 @@ Une fois que vous avez ouvert le fichier SBSPRJ dans un éditeur, vous devriez v
 
 ## Chemins relatifs et alias
 
-Les chemins relatifs combinés avec des alias sont l&#39;une des parties les plus complexes, mais les plus importantes d&#39;une configuration de projet. Cette section les clarifiera. L&#39;ajout d&#39;alias personnalisés pour un fichier de projet spécifique est effectué dans les [Paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md).
+Les chemins relatifs combinés avec des alias sont l&#39;une des parties les plus complexes, mais les plus importantes d&#39;une configuration de projet. Cette section les clarifiera. L&#39;ajout d&#39;alias personnalisés pour un fichier de projet spécifique est effectué dans les [Paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md).
 
 L&#39;un des principaux problèmes avec les fichiers référençant d&#39;autres fichiers dans un système sur le PC de plusieurs utilisateurs, est que les chemins de fichiers absolus ne fonctionneront pas. Les utilisateurs peuvent définir leurs référentiels SVN dans des emplacements complètement différents (p ex. C :/John/Gamedev/SubstanceLibrary ou D :/Dev/SubstanceLibrary). Les alias et les chemins relatifs fonctionnent ensemble pour résoudre ce problème. Sinon, vous pourriez ouvrir le fichier de quelqu&#39;un d&#39;autre et il essaiera de rechercher le nœud personnalisé utilisé dans l&#39;emplacement spécifique où l&#39;utilisateur l&#39;avait localement, que vous n&#39;aurez probablement pas défini exactement de la même manière.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Découvrez comment importer, créer et gérer des ressources dans Substance 3D Designer, notamment des bitmaps, des polices et des scènes 3D.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressources
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -55,10 +55,10 @@ Les ressources de graphe sont les principales ressources créées dans Designer.
 
 Les ressources autres que graphiques sont généralement des ressources d’assistant utilisées comme données supplémentaires dans les graphiques ou pour faciliter la visualisation des résultats à partir des graphiques. Les types suivants existent, chacun ayant une sous-page dans cette section des documents :
 
-* [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
-* [Graphiques vectoriels (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Ressource de scène 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Police](../resources/font-resource/font-resource.md)
+* [Bitmap](bitmap-resource/bitmap-resource.md)
+* [Graphiques vectoriels (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Ressource de scène 3D](3d-scene-resource/3d-scene-resource.md)
+* [Police](font-resource/font-resource.md)
 
 </td>
 </tr>

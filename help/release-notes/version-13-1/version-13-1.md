@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
-description: Consultez les notes de mise à jour de Substance 3D Designer version 13.1 pour en savoir plus sur les améliorations des graphiques de nœuds et la prise en charge de l’exportation AxF.
+description: Consultez les notes de mise à jour de Substance 3D Designer version 13.1 pour en savoir plus sur les améliorations apportées au graphe de nœuds et la prise en charge de l’exportation AxF.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Version 13.1
 
-<b>Substance 3D Designer 13.1</b> apporte de nombreuses améliorations à la qualité de vie du graphique de nœuds, principalement en ce qui concerne les images, afin d&#39;améliorer l&#39;expérience de création de matière. L’exportation AxF a également été ajoutée, ce qui permet un workflow d’interopérabilité pour les utilisateurs qui travaillent avec le format AxF. 
+<b>Substance 3D Designer 13.1</b> ajoute de nombreuses améliorations de la qualité de vie au graphe de nœuds, principalement en ce qui concerne les cadres, afin d&#39;améliorer l&#39;expérience de création de matériaux. L’exportation AxF a également été ajoutée, ce qui permet un workflow d’interopérabilité pour les utilisateurs qui travaillent avec le format AxF.
 
 *Date de publication : 12 décembre 2023*
 
@@ -28,23 +28,23 @@ ht-degree: 1%
 
 ## Améliorations en matière de cadres
 
-Les cadres sont un outil obligatoire pour que votre graphique reste bien organisé et lisible. C&#39;est pourquoi nous avons décidé de les peaufiner dans cette nouvelle version.
+Le cadre est un outil obligatoire pour que votre graphe reste bien organisé et lisible. C&#39;est pourquoi nous avons décidé de les peaufiner dans cette nouvelle version.
 
 ### Développement automatique
 
-Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité. Pour faciliter ces réglages, il est désormais possible de développer automatiquement un cadre lors du déplacement d&#39;objets inclus : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin de maintenir cet objet dans leurs limites.
+Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité. Pour faciliter ces réglages, il est désormais possible de développer automatiquement un cadre lors du déplacement d&#39;objets inclus : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin que cet objet reste dans leurs limites.
 
 ![développement automatique](../../assets/autoexpand.gif)
 
 ### Ajuster la taille au contenu
 
-Lorsque vous effectuez des réglages dans votre graphique, il se peut qu’un bloc ne soit plus ajusté de manière élégante à son contenu. Cette nouvelle commande vous permet d’ajuster automatiquement la position et la taille du bloc afin qu’il s’ajuste à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne. Si le cadre comporte une description, il est ajusté pour utiliser tout espace vide en regard de la description, si possible.
+Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Cette nouvelle commande vous permet d’ajuster automatiquement la position et la taille du cadre afin qu’il s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne. Si le cadre a une description, il est ajusté pour utiliser tout espace vide à côté de la description, si possible.
 
 ![fitsize](../../assets/fitsize.gif)
 
 ### Descriptions améliorées
 
-Grâce au code de HTML, vous pouvez désormais avoir du texte formaté dans la description d’un cadre. Cela s&#39;applique également aux commentaires.
+Grâce au code de HTML, vous pouvez désormais avoir du texte formaté dans une description de cadre. Cela s&#39;applique également aux commentaires.
 
 ![richtext](../../assets/description-3.png)
 

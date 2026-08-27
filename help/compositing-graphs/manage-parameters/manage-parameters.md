@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Découvrez comment gérer et organiser les paramètres dans les graphiques de composition de Substances pour une meilleure organisation du workflow.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gérer les paramètres
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ Les actions de ce menu auront un impact sur *tous* les paramètres répertoriés
 * <b>Coller les paramètres :</b> Voir la section [Copier et coller les paramètres](../../compositing-graphs/manage-parameters/manage-parameters.md) ci-dessous.
 * <b>Enregistrer les paramètres dans un fichier de paramètres prédéfinis :</b> Pour en savoir plus sur les paramètres prédéfinis, consultez [cette page dédiée](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
 * <b>Appliquer les paramètres d&#39;un fichier de paramètres prédéfinis :</b> Pour en savoir plus sur les paramètres prédéfinis, consultez [cette page dédiée](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Tout réinitialiser :</b> réinitialise tous les paramètres à leurs valeurs et plages par défaut. Si une fonction a été appliquée à un paramètre, elle est rejetée.
+* <b>Tout réinitialiser :</b> réinitialise tous les paramètres à leurs valeurs et plages par défaut. Si une fonction a été appliquée à un paramètre, elle est rejetée.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](../../
 
 ## Copier et coller des paramètres
 
-Il est possible de copier toutes les valeurs de paramètres d&#39;un nœud source et de les coller sur un nœud cible. Les paramètres des nœuds source et cible sont <b>mis en correspondance en fonction de leurs identificateurs et de leurs types</b>.
+Il est possible de copier toutes les valeurs de paramètres d&#39;un nœud source et de les coller sur un nœud cible. Les paramètres des nœuds source et cible sont <b>mis en correspondance en fonction de leurs identificateurs et de leurs types</b>.
 
 Par exemple, un paramètre « Scale » dont l&#39;identificateur est « scale » et le type est « Float » peut être copié et collé sur un autre paramètre « Shape Scale » lorsque son identificateur est également « scale » et son type est également « Float ».
 

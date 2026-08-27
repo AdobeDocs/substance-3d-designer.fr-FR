@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Découvrez les spécifications de format des tracés et la structure des données utilisées par les nœuds de tracé et de spline.
 helpx_creative_field: ""
@@ -90,7 +90,7 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de 
 
 Adresse du dernier sommet défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -164,21 +164,21 @@ Index de tracé de sommet. Un sommet ne peut appartenir qu’à un seul tracé. 
 
 <b>W</b>
 
-Type de sommet. Il est divisé entre le signe de la valeur et sa valeur absolue :
+type de vertex. Il est divisé entre le signe de la valeur et sa valeur absolue :
 
 Sur la partie signe, une valeur de 0 signifierait qu&#39;il n&#39;y a pas de sommet ici (tous les autres composants devraient également être à 0). Une valeur négative signifie que le sommet est marqué comme un « coin » ; une valeur positive signifie que le sommet est « lisse ». Le sommet arrondi ou arrondi est un attribut pur et isolé. Il n’a aucun impact ni aucune signification sur le reste du codage des tracés.
 
 Dans la partie valeur absolue, le type de pixel (Début, Milieu ou Fin) et un autre drapeau (trivial\_link) sont codés :
 
-* *0.125* : sommet de fin (le dernier sommet de la forme ; toujours des liens non triviaux, voir ci-dessous)
+* *0.125* : vertex de fin (dernier vertex de la forme ; liens toujours non triviaux, voir ci-dessous)
 
-* *0.25* : sommet de départ (premier sommet de la forme ; liens toujours non triviaux, voir ci-dessous)
+* *0.25* : vertex de début (premier vertex de la forme ; liens toujours non triviaux, voir ci-dessous)
 
 * *0.5* : sommet moyen avec des liens non triviaux
 
 * *1* : sommet central avec liens triviaux
 
-« Liens non triviaux » fait référence au fait que les sommets précédent et suivant (dans la liste des sommets du tracé courant) sont stockés respectivement dans le pixel à gauche (vert\_addr-(0,pixel\_size)) et à droite (vert\_addr+(0,pixel\_size)), tandis que « liens non triviaux » signifie qu&#39;au moins l&#39;un de ceux-ci est stocké ailleurs.
+Par « liens non triviaux », on entend le fait que les vertex précédent et suivant (dans la liste des vertex du tracé courant) sont stockés respectivement dans le pixel à gauche (vert\_addr-(0,pixel\_size)) et à droite (vert\_addr+(0,pixel\_size)), tandis que par « liens non triviaux », on entend qu&#39;au moins l&#39;un d&#39;entre eux est stocké ailleurs.
 
 +++
 
@@ -187,12 +187,12 @@ Indépendamment de la « banalité » des liens, les valeurs fiables des liens s
 
 <b>XY</b>
 
-Adresse du sommet précédent de ce tracé. Pour les sommets de départ, cette option pointe vers le sommet frère suivant.\
+Adresse du vertex précédent de ce chemin. Pour les vertex de démarrage, cette option pointe vers le vertex apparenté suivant.\
 si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
 
 <b>ZW</b>
 
-Adresse du sommet suivant de ce tracé. Dans le cas des sommets d’extrémité, il pointe vers le sommet frère suivant.\
+Adresse du sommet suivant de ce tracé. Pour les vertex d’extrémité, cette option pointe vers le vertex apparenté suivant.\
 si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
@@ -201,7 +201,7 @@ si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 Si vous souhaitez créer vos propres nœuds de traitement des tracés, vous disposez de plusieurs outils.
 
-Les bases sont fournies par les nœuds [Processeur de sommets de tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) et [Processeur de sommets de tracés simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), qui peuvent être utilisés de la même manière qu&#39;un [processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
+Les bases sont fournies par les nœuds [Processeur de Vertex de tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) et [Processeur de Vertex de tracés simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), qui peuvent être utilisés de la même manière qu&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
 Si vous avez besoin de fonctionnalités au-delà de ce que proposent les nœuds du processeur de sommets de tracés (plus de textures d’entrée, ou plus de sommets précédents ou suivants), la copie de l’implémentation de ce graphique peut être un bon point de départ (en supposant que vous remplacez le nœud <b>Get(« %perVertex »)</b> par votre traitement personnalisé).
 

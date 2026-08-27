@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Conversion en niveaux de gris pour convertir les textures colorimétriques en niveaux de gris à l’aide de diverses méthodes de conversion.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversion en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -92,9 +92,9 @@ Cela signifie qu’un nœud de conversion en niveaux de gris est généralement 
 
 |  |  |
 | --- | --- |
-| <b>Épaisseurs de canal</b> *Float4* | Définit le poids de chaque couche RVBA dans la conversion en niveaux de gris.   Par défaut, un fractionnement régulier est effectué sur les canaux du RGB. |
-| <b>Aplatir alpha</b> *Booléen* | Définit le comportement de l’Alpha sur les niveaux de gris finaux, car les valeurs de niveaux de gris ne peuvent pas contenir d’informations sur l’Alpha.   Lorsque *True*, la conversion en niveaux de gris est multipliée par rapport à la couche Alpha de l&#39;image d&#39;entrée |
-| <b>Valeur d&#39;arrière-plan</b> *Flotter* | Définit la valeur d’arrière-plan de base lorsque l’entrée comporte un masque alpha. C’est-à-dire qui détermine les pixels à traiter comme transparents.   *Disponible lorsque &#39;Flatten alpha&#39; est défini sur &#39;True&#39;.* |
+| <b>Épaisseurs de canal</b> *Float4* | Définit le poids de chaque couche RVBA dans la conversion en niveaux de gris.   Par défaut, un fractionnement régulier est effectué sur les canaux du RGB. |
+| <b>Aplatir alpha</b> *Booléen* | Définit le comportement de l’Alpha sur les niveaux de gris finaux, car les valeurs de niveaux de gris ne peuvent pas contenir d’informations sur l’Alpha.   Lorsque *True*, la conversion en niveaux de gris est multipliée par rapport à la couche Alpha de l&#39;image d&#39;entrée |
+| <b>Valeur d&#39;arrière-plan</b> *Flotter* | Définit la valeur d’arrière-plan de base lorsque l’entrée comporte un masque alpha. C’est-à-dire qui détermine les pixels à traiter comme transparents.   *Disponible lorsque &#39;Flatten alpha&#39; est défini sur &#39;True&#39;.* |
 
 ## Connecteurs d’entrée
 

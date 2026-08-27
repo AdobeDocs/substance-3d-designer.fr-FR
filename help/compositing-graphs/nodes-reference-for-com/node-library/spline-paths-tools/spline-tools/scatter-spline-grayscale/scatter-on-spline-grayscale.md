@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dispersion sur niveaux de gris spline pour répartir les éléments en niveaux de gris le long des tracés splines pour les motifs procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersion sur niveaux de gris spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2812'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <b> R</b> - Position X\
 <b> G</b> - Position Y\
 <b> B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\
@@ -192,7 +192,7 @@ Cela signifie que les décalages sont réduits pour les doublons sur une partie 
 
 <b>Taille</b> *Float2* Taille d’origine des motifs en X et en Y avant que d’autres réglages ne soient effectués par d’autres paramètres.
 
-<b>Taille aléatoire</b> *Float2* Applique un multiplicateur aléatoire jusqu&#39;à la valeur spécifiée pour réduire la taille des motifs dans X et Y.
+<b>Taille aléatoire</b> *Flottant 2* Applique un multiplicateur aléatoire jusqu&#39;à la valeur spécifiée pour réduire la taille des motifs dans X et Y.
 
 <b>Échelle de Thickness</b> *Flottant* (disponible lorsque le mode Taille est défini sur Utiliser le Thickness de la spline)Multiplicateur supplémentaire pour l&#39;échelle des motifs lorsque le thickness de la spline le pilote.
 

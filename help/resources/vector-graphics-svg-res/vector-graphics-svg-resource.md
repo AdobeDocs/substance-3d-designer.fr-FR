@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importez et utilisez des graphiques vectoriels SVG en tant que ressources dans Substance 3D Designer pour la création de documents procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressource d’images vectorielles (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer prend en charge un nombre limité d’images vectorielles grâce au format Scalable Vector Graphics. Les fichiers de SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphiques.
 
-Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
+Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Les options d’exportation sont légèrement différentes pour chaque applicati
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/fr/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
+[Illustrator](https://www.adobe.com/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
 
 * Utilisez uniquement <b>Enregistrer sous</b>, *pas* Exporter sous !
 * Le <b>profil de SVG</b> n&#39;a pas beaucoup d&#39;importance, bien que le profil Tiny utilise (principalement) par défaut des paramètres qui sont définitivement corrects ;

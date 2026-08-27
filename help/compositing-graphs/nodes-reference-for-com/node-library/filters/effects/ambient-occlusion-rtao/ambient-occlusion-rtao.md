@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'Occlusion ambiante (RTAO) pour générer des cartes d'occlusion ambiante en temps réel à partir de cartes d'height pour un ombrage réaliste.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Occlusion ambiante (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -45,10 +45,10 @@ Voir [Occlusion ambiante (HBAO) (nœud de filtre)](../../../../../../compositing
 
 ## Paramètres
 
-<b>Utiliser la Taille physique</b> *booléenne*\
+<b>Utiliser la Taille physique</b> *Booléen*\
 Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height.
 
-<b>Taille physique</b> *Float3* (disponible lorsque <b>Utiliser la Taille physique</b> est défini sur *Vrai*)\
+<b>Taille physique</b> *Float3* (disponible lorsque l&#39;option <b>Utiliser la Taille physique</b> est définie sur *True*)\
 Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface
 
 <b>Échantillons </b>*Entier*\
@@ -58,12 +58,12 @@ Plus la valeur est élevée, plus le résultat obtenu est fluide et précis, au 
 <b>Échelle d&#39;Height</b> *Flottant* (disponible lorsque <b>Utiliser la Taille physique</b> est défini sur *Faux*)\
 Multiplicateur de l’intensité de l’entrée de courbe de transfert d’height.
 
-<b>Distribution</b> *Integer* Définit la méthode de distribution. Affecte la réduction vers les zones ombrées,
+<b>Distribution</b> *Entier* Définit la méthode de distribution. Affecte la réduction vers les zones ombrées,
 
 <b>Distance Maximale</b> *Flotter*\
 Définit la distance maximale que les rayons peuvent parcourir pour être occultés.
 
-<b>Angle De Répartition</b> *Flottant*\
+<b>Angle de répartition</b> *Flotter*\
 Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier.
 
 ## Exemples d’images

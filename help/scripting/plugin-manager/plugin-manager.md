@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Utilisez le gestionnaire de plug-ins dans Substance 3D Designer pour installer, gérer et configurer les plug-ins Python afin d’étendre leurs fonctionnalités.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestionnaire de plugins
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Gestionnaire de plugins
 
-La boîte de dialogue <b>Gestionnaire de plug-ins</b> est accessible à partir du menu <b>Outils</b> dans la barre de menus principale. Cela vous permet de voir quels plug-ins sont *actifs*, ainsi que les plug-ins *chargés et déchargés*.
+La boîte de dialogue <b>Gestionnaire de plug-ins</b> est accessible à partir du menu <b>Outils</b> dans la barre de menus principale. Cela vous permet de voir quels plug-ins sont *actifs*, ainsi que les plug-ins *chargés et déchargés*.
 
 ![Gestionnaire de plug-ins](../../assets/pluginmgr.png "Gestionnaire de plug-ins")
 

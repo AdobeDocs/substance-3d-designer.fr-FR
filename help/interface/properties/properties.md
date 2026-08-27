@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Utilisez le panneau Propriétés de Substance 3D Designer pour afficher et modifier les propriétés de nœud et les paramètres de graphique.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Propriétés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Une caractéristique essentielle de l&#39;écosystème de Substance, [Exposer le
 
 ## Nœuds et graphiques de Substance
 
-Les [nœuds](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) et les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) ont un ensemble de catégories de propriétés qui se chevauchent légèrement et leur fonctionnalité est similaire.
+Les nœuds et les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) ont un ensemble de catégories de propriétés qui se chevauchent légèrement et leur fonctionnalité est similaire.
 
 Les <b>paramètres de base</b> et les <b>attributs</b> sont identiques entre les nœuds et les graphiques.
 
-Les nœuds offrent <b>paramètres spécifiques</b> ou<b> paramètres d&#39;instance</b> (selon qu&#39;il s&#39;agit de [nœuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou de [instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), ainsi que des <b>valeurs d&#39;entrée</b> pour l&#39;utilisation de [valeurs dans les graphiques de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+Les nœuds offrent <b>paramètres spécifiques</b> ou<b> paramètres d&#39;instance</b> (selon qu&#39;il s&#39;agit de [nœuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou de [instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), ainsi que des <b>valeurs d&#39;entrée</b> pour l&#39;utilisation de [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 Les nœuds atomiques [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et [de sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) sont des exceptions, car ils comportent des <b>attributs d&#39;intégration</b> et des <b>conditions</b> de visibilité. Ces deux ensembles de propriétés sont également accessibles de manière centralisée dans les propriétés Graph, sous Entrées et Sorties.
 
@@ -67,7 +67,7 @@ Les graphiques comportent quelques catégories supplémentaires. Les <b>paramèt
 
 ## Ressources et packs
 
-Le panneau Propriétés répond également aux modifications de sélection dans la [fenêtre de l&#39;Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Cela peut servir d&#39;autre moyen de sélectionner un graphique (au lieu de double-cliquer sur une zone vide), et vous permet également de modifier les propriétés du package et de la [ressource](../../resources/resources.md).
+Le panneau Propriétés répond également aux modifications de sélection dans l&#39;[Explorateur](../the-explorer-window/the-explorer-window.md). Cela peut servir d&#39;autre moyen de sélectionner un graphique (au lieu de double-cliquer sur une zone vide), et vous permet également de modifier les propriétés du package et de la [ressource](../../resources/resources.md).
 
 Les packages comportent des sections **Informations**, **Attributs** et **Métadonnées**. [Les métadonnées du package sont décrites sur une page dédiée.](../../package-metadata/package-metadata.md)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Courbe pour ajuster les valeurs de texture à l’aide de courbes personnalisables afin de contrôler avec précision la couleur et la luminosité.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Courbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -91,7 +91,7 @@ Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39
 | --- | --- |
 | <b>Appliquer/Exposer la courbe</b> *Booléen* | Permet de copier la courbe utilisateur vers la sortie au lieu de l’appliquer à l’image d’entrée |
 | <b>Adressage des courbes</b> *Booléen* | Ce paramètre détermine la façon dont les pixels HDR hors de la plage [0, 1] dans l’entrée sont traités : ils sont bridés ou pliés jusqu’à [0, 1]. |
-| <b>Courbe</b> *Tableau de touches de courbes* | Courbe personnalisée utilisée pour mapper les valeurs de niveaux de gris en entrée.   Peut être modifié à l&#39;aide de l&#39;[éditeur de courbes](#curve-editor). |
+| <b>Courbe</b> *Tableau de touches de courbes* | Courbe personnalisée utilisée pour mapper les valeurs de niveaux de gris en entrée.   Peut être modifié à l&#39;aide de l&#39;[éditeur de courbes](#curve-editor). |
 
 ## Éditeur de courbes
 

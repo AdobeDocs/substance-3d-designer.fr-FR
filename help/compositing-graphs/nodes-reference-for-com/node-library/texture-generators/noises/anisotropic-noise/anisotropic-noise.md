@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit anisotrope pour générer des motifs de bruit directionnel afin de créer des effets de texture anisotrope.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bruit anisotrope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -45,26 +45,6 @@ La quantité de bandes est réglable, de même que le smoothness de leurs transi
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
-
 ## Sorties
 
 |  |  |
@@ -81,8 +61,8 @@ La quantité de bandes est réglable, de même que le smoothness de leurs transi
 | <b>Rotation</b> Booléenne | Fait pivoter le bruit de 90 degrés. |
 | Flottement de <b>Smoothness</b> | La quantité de fondu entre les bandes, où 0 n&#39;est pas un fondu et 1 s&#39;estompe sur toute leur longueur. |
 | <b>Interpolation de Smoothness</b> Flottant | La pondération des deux méthodes d&#39;interpolation appliquées pour fondre les bandes, où 0 est linéaire et 1 est gaussien. |
-| <b>Désordre</b> Flottant | Déplace les ingrédients du bruit.   Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> Flotter | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.   Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Désordre</b> Flottant | Déplace les ingrédients du bruit.   Cela peut être utilisé pour animer le bruit. |
+| <b>Désorganiser la vitesse</b> Flotter | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.   Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
 | <b>Expansion non carrée</b> booléenne | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples

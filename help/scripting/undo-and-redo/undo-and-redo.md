@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: Découvrez comment implémenter les fonctionnalités d’annulation et de rétablissement dans les scripts Substance 3D Designer Python pour les actions utilisateur.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Annuler et rétablir
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Avec la classe <b>SDHistoryUtils.UndoGroup</b>, les utilisateurs peuvent *regrouper des actions* afin de *les annuler ou les rétablir* en une seule commande.
 
-Ces groupes sont *nommés* par les utilisateurs et apparaîtront sous ce nom dans la liste Annuler/Rétablir de l&#39;interface utilisateur.  Cela facilite la gestion d’un grand nombre d’actions.
+Ces groupes sont *nommés* par les utilisateurs et apparaîtront sous ce nom dans la liste Annuler/Rétablir de l&#39;interface utilisateur.  Cela facilite la gestion d’un grand nombre d’actions.
 
 ```
 import sd 

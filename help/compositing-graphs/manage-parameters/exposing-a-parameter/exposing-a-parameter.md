@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Découvrez comment exposer les paramètres dans les graphiques de composition Substance 3D Designer pour rendre les matériaux personnalisables et réutilisables.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exposition d’un paramètre
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2267'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ des paramètres exposés aux paramètres du graphique.*
 ## Présentation des paramètres
 
 +++Qu’est-ce qu’un paramètre ?
-*Un paramètre est une valeur simple, avec un élément d&#39;interface utilisateur, qui contrôle le comportement d&#39;un graphique.* Vous les utilisez constamment dans tous les logiciels de Substance : pour modifier une couleur, pour définir un mode de fusion, pour choisir une valeur d&#39;opacité, etc... Sans paramètres, les logiciels de Substance de données ne permettraient aucune personnalisation.
+*Un paramètre est une valeur simple, avec un élément d&#39;interface utilisateur, qui contrôle le comportement d&#39;un graphique.* Vous les utilisez constamment dans tous les logiciels de Substance : pour changer une couleur, pour définir un mode de fusion, pour choisir une valeur d&#39;opacité, etc... Sans paramètres, les logiciels de Substance de données ne permettraient aucune personnalisation.
 
 Les paramètres peuvent prendre différentes formes : curseurs, cadrans, zones de saisie, menus déroulants, etc... Les valeurs qu’ils représentent peuvent être de différents types : valeurs décimales, valeurs entières (entières), valeurs booléennes (true/false), et même des fragments de texte.
 
@@ -66,7 +66,7 @@ Actuellement, il existe deux méthodes principales pour exposer les paramètres.
 
 ### MÉTHODE D’EXPOSITION UNIQUE
 
-1. Recherchez le paramètre que vous souhaitez exposer dans la [fenêtre Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), sous l&#39;onglet Paramètres spécifiques
+1. Recherchez le paramètre à exposer dans le panneau [Propriétés](../../../interface/properties/properties.md), sous l&#39;onglet Paramètres spécifiques
 1. Cliquez sur le bouton des options déroulantes ![](../../../assets/image2020-9-17-15-35-59.png)
 1. Sélectionnez ![](../../../assets/image2020-9-17-15-37-7.png) <b>Exposer comme nouvelle entrée de graphique</b> dans la liste déroulante, la première option.
 1. La boîte de dialogue <b>Exposer le paramètre</b> s&#39;affiche. Définissez les propriétés du paramètre comme vous le souhaitez.
@@ -79,7 +79,7 @@ Actuellement, il existe deux méthodes principales pour exposer les paramètres.
 >[!NOTE]
 >
 > La plupart des champs numériques prennent en charge les *formules mathématiques de base* comme entrée, par exemple, `17+3.5`, `7/3`, `(4+2)*3`. Appuyez sur *Entrée* pour valider la formule. Le résultat sera saisi dans le champ. Si la formule n’est pas valide, le champ revient à sa valeur précédente.\
-> Certains champs numériques d&#39;autres parties de l&#39;application, tels que dans le dock [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), prennent également en charge cette fonctionnalité.
+> Certains champs numériques d&#39;autres parties de l&#39;application, tels que dans le dock [Propriétés](../../../interface/properties/properties.md), prennent également en charge cette fonctionnalité.
 
 ![Procédure pas à pas de la méthode d&#39;exposition par lots](../../../assets/batch-expose-2.gif "Procédure pas à pas de la méthode d&#39;exposition par lots"){width="512px"}
 
@@ -104,7 +104,7 @@ Certaines limitations sont liées à l’exposition des paramètres, comme indiq
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Exiger des widgets qui ne sont pas disponibles pour les paramètres créés par l’utilisateur. |
 
-Une autre limitation importante est liée aux [paramètres statiques](../../../glossary/glossary.md). Ils ne peuvent pas être modifiés dans une [ressource Substance 3D publiée](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Une autre limitation importante est liée aux [paramètres statiques](../../../glossary/glossary.md). Ils ne peuvent pas être modifiés dans une [ressource Substance 3D publiée (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 Les paramètres statiques (par opposition aux paramètres dynamiques) *ne peuvent pas être modifiés à la volée* une fois que le graphique a été *cuit*, c&#39;est-à-dire traité afin d&#39;exécuter son algorithme rapidement et efficacement. La cuisson se produit dans Designer chaque fois que le graphique est *modifié* ou *publié*.
 
@@ -128,7 +128,7 @@ Une fois exposé, il n&#39;est plus possible d&#39;accéder à un paramètre com
 Pour modifier les options d&#39;un paramètre exposé, procédez comme suit :
 
 1. Cliquez sur le bouton Options de liste déroulante ![](../../../assets/image2020-9-17-15-35-59.png) en regard du paramètre déjà exposé
-1. Sélectionnez ![](../../../assets/image2020-9-17-15-37-7.png)<b> Modifier l&#39;entrée de graphique exposée</b>. Cela vous amène directement à l’entrée correspondante dans les propriétés du graphique
+1. Sélectionnez ![](../../../assets/image2020-9-17-15-37-7.png)<b> Modifier l&#39;entrée de graphique exposée</b>. Cela vous amène directement à l’entrée correspondante dans les propriétés du graphique
 1. Double-cliquez dans une zone vide de votre graphique pour accéder aux propriétés du graphique, puis recherchez le paramètre dans la liste des <b>paramètres d&#39;entrée</b>
 1. Cliquez sur votre graphique dans l&#39;<b>Explorateur</b>, puis recherchez le paramètre dans la liste des <b>paramètres d&#39;entrée</b>
 
@@ -185,7 +185,7 @@ Normalement, toutes les modifications apportées en <b>mode Aperçu</b> sont *su
 
 >[!WARNING]
 >
-> Le mode Aperçu vise à représenter l&#39;expérience d&#39;une [ressource Substance 3D publiée](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) aussi précisément que possible. Par conséquent, les limitations répertoriées sur cette page s&#39;appliquent dans ce mode, notamment l&#39;absence de *paramètres statiques dans la liste*.
+> Le mode Aperçu vise à représenter l&#39;expérience d&#39;une [ressource Substance 3D publiée (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) de la manière la plus précise possible. Par conséquent, les limitations répertoriées sur cette page s&#39;appliquent dans ce mode, notamment l&#39;absence de *paramètres statiques dans la liste*.
 
 ![Copier et coller les paramètres d&#39;entrée](../../../assets/copy-paste-params-2.gif "Copier et coller les paramètres d&#39;entrée"){width="512px"}
 

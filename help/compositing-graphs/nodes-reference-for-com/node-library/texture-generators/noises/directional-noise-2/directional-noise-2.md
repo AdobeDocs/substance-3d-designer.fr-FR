@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit directionnel 2 pour générer des motifs de bruit directionnel avec deux octaves afin de créer des effets anisotropes.
 helpx_creative_field: ""

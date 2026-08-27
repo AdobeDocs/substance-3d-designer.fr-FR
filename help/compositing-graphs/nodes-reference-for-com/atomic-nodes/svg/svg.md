@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Utilisez le nœud SVG pour importer et effectuer le rendu de graphiques vectoriels SVG en tant que textures pour la création d’éléments graphiques évolutifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Détermine le type de sortie du nœud, à retourner en couleur ou en niveaux de gris. |
-| <b>Couleur d&#39;arrière-plan</b> *Couleur/Niveaux De Gris* | Définit la couleur d’arrière-plan de l’image de sortie à utiliser sur les zones non couvertes par une forme vectorielle.   *Est remplacé par l&#39;entrée &#39;[Arrière-plan](#inputs)&#39; lorsque cette entrée est connectée.* |
-| <b>Chemin de ressource PKG</b> *Chaîne* | Chemin d&#39;accès à la [ressource SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) référencée par le nœud.   Il est recommandé de ne pas taper manuellement, mais de copier une ressource de l&#39;explorateur et de la coller dans le champ de texte du paramètre, ou de glisser-déposer une ressource bitmap directement de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) sur le nœud du SVG dans le graphique. |
+| <b>Couleur d&#39;arrière-plan</b> *Couleur/Niveaux De Gris* | Définit la couleur d’arrière-plan de l’image de sortie à utiliser sur les zones non couvertes par une forme vectorielle.   *Est remplacé par l&#39;entrée &#39;[Arrière-plan](#inputs)&#39; lorsque cette entrée est connectée.* |
+| <b>Chemin de ressource PKG</b> *Chaîne* | Chemin d&#39;accès à la [ressource SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) référencée par le nœud.   Il est recommandé de ne pas taper manuellement, mais de copier une ressource de l&#39;explorateur et de la coller dans le champ de texte du paramètre, ou de glisser-déposer une ressource bitmap directement de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) sur le nœud du SVG dans le graphique. |
 
 ## Outils d’édition vectorielle
 
@@ -110,7 +110,7 @@ Les formes vectorielles peuvent être modifiées dans Designer. En savoir plus s
 
 |  |  |
 | --- | --- |
-| <b>Arrière-plan</b> *Niveaux de gris/Couleur* PRINCIPAL | Définit la couleur d’arrière-plan de l’image de sortie à utiliser sur les zones non couvertes par une forme vectorielle.   *Remplace le paramètre &#39;[Couleur d&#39;arrière-plan](#parameters)&#39; lors de la connexion.* |
+| <b>Arrière-plan</b> *Niveaux de gris/Couleur* PRINCIPAL | Définit la couleur d’arrière-plan de l’image de sortie à utiliser sur les zones non couvertes par une forme vectorielle.   *Remplace le paramètre &#39;[Couleur d&#39;arrière-plan](#parameters)&#39; lors de la connexion.* |
 
 ## Connecteurs de sortie
 

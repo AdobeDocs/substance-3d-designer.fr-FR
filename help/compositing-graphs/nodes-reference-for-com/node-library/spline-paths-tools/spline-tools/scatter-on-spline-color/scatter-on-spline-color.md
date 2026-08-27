@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dispersion sur la couleur de la spline pour répartir les éléments de couleur le long des tracés de spline pour les motifs procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersion sur la couleur de la spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '3048'
 ht-degree: 0%
@@ -52,12 +52,12 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <b>Arrière-plan </b>*en niveaux de gris* (principal)Image en niveaux de gris sur laquelle les splines doivent être dessinées.
 
 <b>Couleurs des splines </b>*Color* Les coordonnées des points des splines d&#39;entrée sont codées dans les couches RVBA d&#39;une image couleur :\
-    <b>R</b> - Position X\
-    <b>G</b> - Position Y\
-    <b>B</b> - Height\
-    <b>A</b> - Données compressées :\
-        * Signe : la spline est fermée (négative) ou ouverte (positive);\
-        * Valeur absolue : Thickness + 1.
+<b>R</b> - Position X\
+<b>G</b> - Position Y\
+<b>B</b> - Height\
+<b>A</b> - Données compressées :\
+* Signe : la spline est fermée (négative) ou ouverte (positive);\
+* Valeur absolue : Thickness + 1.
 
 <b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
 <b> R</b> - Tangentes X\
@@ -120,19 +120,19 @@ Remarque : la position des pivots a un impact sur l’effet des paramètres « �
 * Bell;
 * gaussien ;
 * Épine ;
-* Pyramide ;
+* PYRAMIDE ;
 * Brique ;
 * Gradation ;
 * Vagues ;
 * Demi-cloche ;
 * Cloche à dorsale;
-* Croissant ;
+* CROISSANT ;
 * Capsule ;
-* Cône ;
+* CÔNE ;
 * Graduation w. offset ;
 * Hémisphère.*
 
-<b>Numéro d&#39;entrée de motif</b> *Nombre entier* (disponible lorsque « Pattern » est défini sur « Pattern Input »)Sélectionne l&#39;index du motif d&#39;entrée qui doit être diffusé.
+<b>Numéro d&#39;entrée de motif</b> *Entier* (disponible lorsque « Pattern » est défini sur « Pattern Input »)Sélectionne l&#39;index du motif d&#39;entrée qui doit être diffusé.
 
 <b>Distribution d&#39;entrée de motif</b> *Nombre entier* (disponible lorsque « Pattern » est défini sur « Pattern Input »)Méthode utilisée pour sélectionner lequel des motifs d&#39;entrée doit être dispersé sur une spline donnée :\
 *- Aléatoire* : un motif est sélectionné de manière aléatoire ;\
@@ -148,7 +148,7 @@ Remarque : la position des pivots a un impact sur l’effet des paramètres « �
 
 <b>Remplacer le dernier motif</b> *Booléen* Sélectionnez manuellement l&#39;index du motif qui doit être placé à l&#39;extrémité de chaque spline.
 
-<b>Dernier index d&#39;entrée de motif</b> *Nombre entier* (disponible lorsque l&#39;option Remplacer le dernier motif est définie sur Vrai)Index du motif qui doit être placé à la fin de chaque spline.
+<b>Dernier index d&#39;entrée de motif</b> *Entier* (disponible lorsque l&#39;option Remplacer le dernier motif est définie sur Vrai) L&#39;index du motif qui doit être placé à la fin de chaque spline.
 
 +++
 
@@ -162,9 +162,9 @@ Remarque : la position des pivots a un impact sur l’effet des paramètres « �
 <b>Décalage</b> *Float2* (disponible lorsque le mode Distribution est défini sur Linéaire)Applique un décalage aux positions des duplicatas le long de la tangente (parallèle) et de la normale (perpendiculaire) de la spline.\
 Les copies situées sur les côtés opposés de la spline sont déplacées dans des directions opposées.
 
-<b>Décalage au centre</b> *Float2* (disponible lorsque le mode de distribution est défini sur Linéaire)Applique un décalage aux copies le long de la spline sur X (parallèle) et Y (perpendiculaire).
+<b>Décalage au centre</b> *Flottant 2* (disponible lorsque le mode Distribution est défini sur Linéaire)Applique un décalage aux copies le long de la spline sur X (parallèle) et Y (perpendiculaire).
 
-<b>Angle de répartition</b> *Flotter* (disponible lorsque le mode de distribution est défini sur Circulaire)Arc du cercle virtuel le long duquel les doublons sont distribués, comme l&#39;angle de cet arc où 1 est le cercle entier.
+<b>Angle de répartition</b> *Flottant* (disponible lorsque le mode Distribution est défini sur Circulaire)Arc du cercle virtuel le long duquel les doublons sont distribués, comme l&#39;angle de cet arc où 1 est le cercle entier.
 
 <b>Distance de décalage</b> *Flottant* (disponible lorsque le « Mode de distribution » est défini sur « Circulaire »)Le rayon du cercle virtuel le long duquel les doublons sont distribués.
 

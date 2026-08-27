@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Graphiques de Substance et matériaux MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Cette page décrit les synergies entre les [graphes en Substances](../../composi
 
 Les sorties des graphiques de Substance peuvent être *transmises aux paramètres exposés* des matériaux MDL de deux manières, décrites dans cette page.
 
-Si la matière MDL actuellement appliquée dans la vue 3D présente des paramètres dont le type est *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - ce type peut être défini à l&#39;aide de l&#39;option <b>Modificateur de type</b> dans les [propriétés du paramètre exposé](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), ceux-ci peuvent être connectés à *des textures* :
+Si la matière MDL actuellement appliquée dans la vue 3D présente des paramètres dont le type est *[variable](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - ce type peut être défini à l&#39;aide de l&#39;option <b>Modificateur de type</b> dans les propriétés du [paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), ceux-ci peuvent être connectés à *textures* :
 
 * un paramètre <b>Color</b> peut être connecté aux textures RGBA
 * paramètre <b>Float</b> pour les textures en niveaux de gris

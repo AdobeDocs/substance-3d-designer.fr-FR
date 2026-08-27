@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Familiarisez-vous avec les avertissements dans les graphiques de composition de Substances et découvrez comment résoudre les problèmes et les erreurs courants.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ Dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-w
 
 ### Ressource de référence ![(erreur)](../../assets/error.svg) introuvable
 
-La ressource référencée par un nœud est introuvable au chemin d&#39;accès enregistré dans le fichier [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) (SBS). Voici quelques nœuds référençant une ressource :
+La ressource référencée par un nœud est introuvable au chemin d&#39;accès enregistré dans le fichier [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBS). Voici quelques nœuds référençant une ressource :
 
 * Un nœud [instance de graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) référence un graphe
 * Un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) référence une [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Découvrez les modes de fusion disponibles dans Substance 3D Designer pour combiner des textures avec différents effets de composition.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modes de fusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -100,7 +100,7 @@ Le mode de fusion *Division* divise la valeur des pixels d&#39;entrée de l&#39;
 
 Le mode de fusion *Incrustation* combine les modes de fusion Produit et Superposition :
 
-* &#x200B;
+* 
   * Si la valeur du pixel du calque inférieur est inférieure à 0,5, une fusion de type *Produit* est appliquée
   * Si la valeur du pixel du calque inférieur est supérieure à 0,5, une fusion de type *Écran* est appliquée
 
