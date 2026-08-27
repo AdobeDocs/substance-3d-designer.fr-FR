@@ -73,7 +73,7 @@ Cela s&#39;applique également lorsque la valeur Taille de sortie est contrôlé
 
 ## Taille relative
 
-Lorsque la propriété Taille de sortie utilise une méthode d&#39;héritage *Relative à...* [3}, sa valeur est exprimée sous la forme d&#39;un modificateur *par rapport à la valeur logarithmique héritée*.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
+Lorsque la propriété Taille de sortie utilise une méthode d&#39;héritage *Relative à...* [3&rbrace;, sa valeur est exprimée sous la forme d&#39;un modificateur *par rapport à la valeur logarithmique héritée*.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 
 Les modificateurs relatifs à la résolution héritée vont de -12 à +12 sur une échelle logarithmique, la valeur par défaut étant 0. Cela signifie que chaque étape au-dessus ou au-dessous entraîne un doublement ou une réduction de moitié de la résolution. Le tableau de droite donne un exemple de la façon dont la résolution relative change dans une dimension pour une valeur héritée de 9 (c.-à-d. 512 = 2^9) et 11 (c.-à-d. 2048 = 2^11) :
 
