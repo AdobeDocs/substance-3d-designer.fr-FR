@@ -26,7 +26,7 @@ lint gotchas) suivez la compétence `write-experience-league-markdown`.
   `.../node-library/<category>/<subcategory>/<node-name>/<node-name>.md`.
 * Le dossier porte le nom de nœud kebab-case ; il contient le fichier **one** `.md`
 nommé de la même manière.
-* Tous les médias incorporés de la page (icône, exemples d&#39;images, GIFs) résident dans un frère **  `<node-name>.resources/` dossier **en regard de `.md` et sont référencés par un
+* Tous les médias incorporés de la page (icône, exemples d&#39;images, GIFs) résident dans un frère **&#x200B;  `<node-name>.resources/` dossier &#x200B;** en regard de `.md` et sont référencés par un
   chemin relatif (par exemple `<node-name>.resources/<file>.png`). Ne pas pointer les pages de nœud sur
   le dossier partagé `help/assets/`, c&#39;est-à-dire un modèle hérité en cours de suppression progressive ; nouveau et
   les pages modifiées utilisent leur propre dossier `.resources`.

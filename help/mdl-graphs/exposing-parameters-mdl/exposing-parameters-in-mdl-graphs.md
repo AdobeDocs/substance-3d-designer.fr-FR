@@ -57,7 +57,7 @@ En Graphe MDL, l&#39;expose d&#39;un paramètre au niveau du graphe - c&#39;est-
 
 Les nœuds qui peuvent être exposés disposent d&#39;une option <b>Exposer</b> dans leur menu contextuel. Dans la plupart des cas, il s’agit de nœuds qui génèrent une valeur ou des données telles que les coordonnées Float, Color ou Texture.
 
-Option ![« Exposer » dans le menu contextuel d&#39;un nœud](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&amp;quot;Option Exposer&amp;quot; dans le menu contextuel d&#39;un nœud")
+Option ![« Exposer » dans le menu contextuel d&#39;un nœud](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&quot;Option Exposer&quot; dans le menu contextuel d&#39;un nœud")
 
 Option *« Exposer » dans le menu contextuel d&#39;un nœud*
 

@@ -90,7 +90,7 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [Processeur de 
 
 Adresse du dernier vertex défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de balayage) à l&#39;adresse du dernier vertex. Il doit être compris entre ]0, 1[×]0,.5[
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de balayage) à l&#39;adresse du dernier vertex. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
 
 <b>ZW</b>
 
