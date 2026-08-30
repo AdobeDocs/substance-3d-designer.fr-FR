@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rotation du panorama pour faire pivoter les environnements de panorama HDRI afin de régler la direction de l’éclairage dans la vue 3D.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rotation du panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation.png){width="200px"}
 
-## Rotation du panorama
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Fait pivoter une image panoramique mappée de manière sphérique autour de son point central, en conservant la projection/le mappage correct. Utile pour incliner ou régler les images HDRI.
 
-## Paramètres
-
-* **Rotation** : *0.0 - 1.0*
-* **Angle De Direction** : *0.0 - 1.0*
-* **Pré-Rotation Autour Du Pôle** : *-1,0 - 1,0*
-* **Rotation De Post Autour Du Pôle** : *0.0 - 1.0*
-
-## Exemples d’images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Rotation</b> <i>0.0 - 1.0</i> |  |
+| <b>Angle de direction</b> <i>0.0 - 1.0</i> |  |
+| <b>Pré-Rotation Autour Du Pôle</b> <i>-1.0 - 1.0</i> |  |
+| <b>Rotation De Post Autour Du Pôle</b> <i>0.0 - 1.0</i> |  |

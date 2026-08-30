@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.1 pour en savoir plus sur les outils de disposition des nœuds et les nouveaux nœuds Spline et Tracé.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Cette mise à jour introduit de nouvelles fonctionnalités pour améliorer votre
 
 *Date de publication : 14 janvier 2025*
 
-![Dispersions splines sur splines](../../assets/fond.png)
+![Dispersions splines sur splines](version-14-1.resources/fond.png)
 
 ## Mises à jour des splines et des tracés
 
@@ -34,12 +34,12 @@ Les splines et les nœuds de tracé ont été introduits dans la version 13.0, e
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersion de la spline sur l&#39;animation de spline 1](../../assets/spline1.gif){zoomable="yes"}
+![Dispersion de la spline sur l&#39;animation de spline 1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersions splines sur splines 2](../../assets/spline2.gif){zoomable="yes"}
+![Dispersions splines sur splines 2](version-14-1.resources/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Les splines et les nœuds de tracé ont été introduits dans la version 13.0, e
 
 Si vous souhaitez conserver un graphique propre et lisible, les [outils d&#39;alignement des nœuds](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) sont faits pour vous et ont été complètement remaniés ! Il est désormais possible d&#39;espacer uniformément les nœuds (horizontalement ou verticalement) et l&#39;alignement des nœuds évite tout chevauchement en les empilant soigneusement. Cerise sur le gâteau : les deux fonctionnalités prennent en compte la taille réelle des nœuds !
 
-![Aligner les nœuds](../../assets/alignment.gif){zoomable="yes"}
+![Aligner les nœuds](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## Copier/coller les paramètres
 
@@ -59,7 +59,7 @@ Il est désormais possible de [copier les paramètres d&#39;un nœud et de les c
 
 Le nouvel [outil Sampler des couleurs](../../interface/2d-view/color-sampler/color-sampler.md) dans la vue 2D vous permet de suivre la valeur d&#39;un pixel sélectionné en y déposant une épingle. Cela permet de s’assurer que les informations d’un même pixel sont toujours affichées sur plusieurs nœuds d’un graphique. Ouvrez le panneau Informations pour accéder à l’outil et l’essayer !
 
-![Échantillonneur de couleur : utilisation de l&#39;outil](../../assets/color-sampler-demo.gif "Échantillonneur de couleur : utilisation de l&#39;outil"){width="640px" zoomable="yes"}
+![Échantillonneur de couleur : utilisation de l&#39;outil](version-14-1.resources/color-sampler-demo.gif "Échantillonneur de couleur : utilisation de l&#39;outil"){width="640px" zoomable="yes"}
 
 ## Améliorations de la recherche
 
@@ -70,7 +70,7 @@ L&#39;outil [Node Finder](../../interface/the-graph-view/node-finder/node-finder
 * Le focus est automatiquement mis sur le champ de recherche lors de l&#39;activation de l&#39;outil de recherche de nœuds ;
 * La disposition de la barre d’outils a été repensée pour économiser de l’espace.
 
-![Barre d&#39;outils de recherche](../../assets/search-53.png){width="640px"}
+![Barre d&#39;outils de recherche](version-14-1.resources/search-53.png){width="640px"}
 
 ## Vidéos
 
@@ -78,12 +78,12 @@ L&#39;outil [Node Finder](../../interface/the-graph-view/node-finder/node-finder
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![splines de dispersion vidéo sur les splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![splines de dispersion vidéo sur les splines](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![fonctionnalités de l’expérience utilisateur vidéo](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![fonctionnalités de l’expérience utilisateur vidéo](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ L&#39;outil [Node Finder](../../interface/the-graph-view/node-finder/node-finder
 * [Graphique de fonction] Les valeurs longues apparaissent chevauchées sur les nœuds &#39;Float&#39;
 * [Fx-Map] Blocage lors de l’affichage des propriétés du nœud de quadrant
 * [Graphique] [UDIM] Avoir une barre de défilement dans la liste UDIM donne 1..1 1..2 entrées
-* [Graphique]&#x200B;[Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
+* [Graphique][Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
 * [Propriétés] Affichage incorrect des paramètres lorsque la valeur n’est pas valide
 * [Publish] Les dépendances réciproques entraînent une boucle infinie lors de la publication d’un pack
 * [Publish] Échec silencieux lors de l’utilisation de l’action « Publish » sur un pack avec une dépendance déchargée

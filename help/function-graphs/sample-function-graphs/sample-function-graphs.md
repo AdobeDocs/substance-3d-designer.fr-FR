@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ''
 description: Explorez les exemples de graphiques fonctionnels dans Substance 3D Designer pour découvrir les techniques avancées et les bonnes pratiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exemples de graphiques de fonction
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -32,12 +32,12 @@ Cette page répertorie les exemples de fichiers [Substance 3D Designer](https://
 
 Ce projet constitue une introduction générale aux graphiques de fonctions et à la façon dont ils peuvent être utilisés pour étendre le contrôle que vous avez sur les paramètres de vos nœuds dans les [graphiques de composition de Substances](../../compositing-graphs/substance-compositing-graphs.md).
 
-[Icône ![Fichier d&#39;exemple de graphique de fonction de Substance](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[Icône ![Fichier d&#39;exemple de graphique de fonction de Substance](sample-function-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/demo-functions.png){width="512px"}
+![](sample-function-graphs.resources/demo-functions.png){width="512px"}
 
 </td>
 </tr>

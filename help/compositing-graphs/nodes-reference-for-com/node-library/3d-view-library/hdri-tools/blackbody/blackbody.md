@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Blackbody pour générer des couleurs de rayonnement Blackbody basées sur la température afin de simuler des couleurs lumineuses réalistes.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Blackbody
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blackbody.png){width="200px"}
+![](blackbody.resources/blackbody.png){width="200px"}
 
-## Blackbody
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Convertit la température de couleur en Kelvin en RGB. Des valeurs de Kelvin faibles signifient des couleurs plus chaudes, tandis que des valeurs de Kelvin élevées signifient des couleurs plus froides.
 
-## Paramètres
-
-* **Température** :*1000.0 - 27000.0* Valeur en Kelvin qui détermine la couleur.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Température</b> <i>1000.0 - 27000.0</i> | Valeur en Kelvin qui détermine la couleur. |

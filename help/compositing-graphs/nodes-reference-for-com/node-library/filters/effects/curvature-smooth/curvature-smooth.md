@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Lissage de courbure pour générer des cartes de courbure lisses à partir de cartes d'height pour l'extraction des détails de surface.
+description: Utilisez le nœud Lissage de Courbure pour générer des maps curvatures lisses à partir de maps height pour l'extraction des détails de surface.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Lissage de courbure
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud Arrondi de courbure](../../../../../../assets/CurvatureSmooth.png "Icône de nœud Arrondi de courbure"){width="200px"}
+![Icône de nœud Arrondi de Courbure](curvature-smooth.resources/CurvatureSmooth.png "Icône de nœud Arrondi de Courbure"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Description
 
-Calcule la courbure d&#39;une surface décrite par une texture normale.
+Calcule la courbure d&#39;une surface décrite par une map normal.
 
-Une courbe map représente les zones concaves et convexes d&#39;une surface.\
+Une map curvature représente les zones concaves et convexes d&#39;une surface.\
 Les zones plates sont grises à 50 %. Les zones convexes sont plus claires, tandis que les zones concaves sont plus sombres.
 
 </td>
@@ -46,46 +46,32 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 
 >[!TIP]
 >
-> Pour une version plus nette, consultez la section [Courbure](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) ou[Courbure Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) si vous avez besoin d&#39;autres options.
+> Examinez la [Courbure](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) pour une version plus nette ou la[Courbure Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) si vous avez besoin d&#39;autres options.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>Normal</b> *Couleur* <b>PRIMAIRE</b> | Carte de normales décrivant la surface dont la courbure doit être calculée. |
+|:---|:---|
+| <b>Normal</b> <i>Couleur</i> <b>PRINCIPAL</b> | Map normal décrivant la surface dont la courbure doit être calculée. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Courbure</b> *Niveaux de gris* | Courbure map calculée à partir de la courbe normale map d&#39;entrée.   Les zones plates sont grises à 50 %. Les zones convexes sont plus claires, tandis que les zones concaves sont plus sombres. |
-| <b>Convexité</b> *Niveaux de gris* | La carte de convexité est calculée à partir de la carte normale d&#39;entrée.   Plus une zone est convexe, plus elle est lumineuse sur la carte.  Les zones plates ou concaves sont noires. |
-| <b>Concavité</b> *Niveaux de gris* | Carte de concavité calculée à partir de la carte normale d&#39;entrée.   Plus une zone est concave, plus elle est lumineuse sur la carte.  Les zones plates ou convexes sont noires. |
+|:---|:---|
+| <b>Courbure</b> <i>Niveaux de gris</i> | Map curvature calculée à partir de la map normal d&#39;entrée.   Les zones plates sont grises à 50 %. Les zones convexes sont plus claires, tandis que les zones concaves sont plus sombres. |
+| <b>Convexité</b> <i>Niveaux de gris</i> | La carte de convexité calculée à partir de la map normal d&#39;entrée.   Plus une zone est convexe, plus elle est lumineuse sur la carte.  Les zones plates ou concaves sont noires. |
+| <b>Concavité</b> <i>Niveaux de gris</i> | Carte de concavité calculée à partir de la carte normale d&#39;entrée.   Plus une zone est concave, plus elle est lumineuse sur la carte.  Les zones plates ou convexes sont noires. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Format normal</b> *Nombre entier* | Format du mappage normal en entrée. Inverse efficacement la couche verte.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX :</b> l&#39;axe Y pointe vers le haut</li> <li data-preserve-html="true"><b style="">OpenGL :</b> l’axe Y pointe vers le bas</li> </ul> |
 
 ## Exemples
@@ -93,11 +79,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_blend_example_1_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_blend_example_1_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -107,12 +93,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 2](../../../../../../assets/curvature_smooth_example_2.jpg "Lissage de courbure : Exemple 2"){zoomable="yes"}
+![Lissage de courbure : Exemple 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Lissage de courbure : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 3](../../../../../../assets/curvature_smooth_example_3.jpg "Lissage de courbure : Exemple 3"){zoomable="yes"}
+![Lissage de courbure : Exemple 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Lissage de courbure : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -121,11 +107,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_blend_example_4_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_blend_example_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_blend_example_4_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_blend_example_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -135,12 +121,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 4](../../../../../../assets/curvature_smooth_example_5.jpg "Lissage de courbure : Exemple 4"){zoomable="yes"}
+![Lissage de courbure : Exemple 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Lissage de courbure : Exemple 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 5](../../../../../../assets/curvature_smooth_example_6.jpg "Lissage de courbure : Exemple 5"){zoomable="yes"}
+![Lissage de courbure : Exemple 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Lissage de courbure : Exemple 5"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et gérer des métadonnées de pack dans Substance 3D Designer pour les bibliothèques de ressources organisées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Métadonnées du package
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ Si vous développez un plug-in Python, vous pouvez modifier les métadonnées ma
 
 1. Si vous double-cliquez sur un pack dans l’explorateur, le panneau Propriétés s’ouvre sur ce pack.
 
-   ![Métadonnées du package](../assets/empty.png "Métadonnées du package")
+   ![Métadonnées du package](package-metadata.resources/empty.png "Métadonnées du package")
 1. Ici, vous avez une section dédiée « Métadonnées ». Il est probablement vide dans votre cas, comme dans la capture ci-dessus.
 
    Vous pouvez ajouter de nouvelles métadonnées en utilisant le bouton « plus ».
 
-   ![Bouton Ajouter des métadonnées](../assets/hoveradd.png "Bouton Ajouter des métadonnées")
+   ![Bouton Ajouter des métadonnées](package-metadata.resources/hoveradd.png "Bouton Ajouter des métadonnées")
 1. Un nouvel élément apparaît dans la section :
 
-   ![Nouvelles métadonnées](../assets/newitem-1.png "Nouvelles métadonnées")
+   ![Nouvelles métadonnées](package-metadata.resources/newitem-1.png "Nouvelles métadonnées")
 1. Il existe un champ « Clé » et un champ « Valeur ». Les deux peuvent être réglés sur tout ce qui convient à vos besoins. Le champ « Clé » doit avoir une valeur unique dans la liste.
 
-   ![Nouvelle valeur de métadonnées](../assets/newitemfilled.png "Nouvelle valeur de métadonnées")
+   ![Nouvelle valeur de métadonnées](package-metadata.resources/newitemfilled.png "Nouvelle valeur de métadonnées")
 1. Vous pouvez également choisir le « Type » de l’élément. Pour le moment, il peut s’agir de « String » ou « URL » :
 
-   ![Modifier le type de métadonnées](../assets/typecombo.png "Modifier le type de métadonnées")
+   ![Modifier le type de métadonnées](package-metadata.resources/typecombo.png "Modifier le type de métadonnées")
 1. Ici, le terme « URL » désigne une référence à une ressource incluse dans le package. Pour ce faire, sélectionnez un fichier sur votre disque dur, puis faites-le glisser sur le pack dans l’Explorateur. Il peut s’agir d’une ressource ordinaire, comme une image, ou de tout autre fichier, comme un fichier texte.
 
-   ![Ressource générique dans le pack](../assets/resourceinpackage.png "Ressource générique dans le pack")
+   ![Ressource générique dans le pack](package-metadata.resources/resourceinpackage.png "Ressource générique dans le pack")
 1. Le fichier apparaît comme une nouvelle ressource dans le package.
 
    Revenez maintenant au panneau Propriétés du package, créez une nouvelle métadonnée, attribuez-lui une clé appropriée et choisissez « URL » comme type. Sélectionnez ensuite le symbole « ... ». dans le champ « Valeur », et choisissez « De la ressource ». Enfin, choisissez le fichier que vous avez inclus juste avant et validez :
 
-   ![Métadonnées d&#39;URL](../assets/urlmetadata.gif "Métadonnées d&#39;URL")
+   ![Métadonnées d&#39;URL](package-metadata.resources/urlmetadata.gif "Métadonnées d&#39;URL")
 1. Vous pouvez maintenant voir que l&#39;URL de la ressource est stockée dans le champ Valeur.
 
    Vous pouvez également supprimer les métadonnées à l’aide du bouton « X » situé à droite de l’élément :
 
-   ![Supprimer les métadonnées](../assets/hoverdelete.png "Supprimer les métadonnées")
+   ![Supprimer les métadonnées](package-metadata.resources/hoverdelete.png "Supprimer les métadonnées")
 
 >[!NOTE]
 >

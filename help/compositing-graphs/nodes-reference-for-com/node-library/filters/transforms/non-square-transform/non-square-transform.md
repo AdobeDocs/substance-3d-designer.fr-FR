@@ -1,68 +1,71 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Transformation non carrée pour appliquer des transformations à des textures non carrées avec une mise à l’échelle indépendante X et Y.
+description: Utilisez le nœud Transforme non carré pour appliquer des transformations à des textures non carrées avec une mise à l’échelle indépendante X et Y.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Square Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformation non carrée
+title: Transforme non carré
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
 
-# Transformation non carrée
+# Transforme non carré
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/safe-transform-grayscale.png)
 
-## Transformation non carrée (niveaux de gris)
-
-**Entrée :** *Filtres/Transformations*
-
-**Intermédiaire**
+<b>Entrées :</b> Filtres > Transformes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Version sans carrés de [Transformation 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Détecte automatiquement les rapports non carrés et peut transformer les images carrées en zone de travail non carrée.
+Version sans carrés de [Transformer 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Détecte automatiquement les rapports non carrés et peut transformer des images d&#39;entrée carrées sur une zone de travail non carrée.
 
-Assurez-vous de bien comprendre les [paramètres du graphique](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)pour tirer le meilleur parti de ce nœud, car vous devrez définir correctement certains paramètres :
+Assurez-vous de bien comprendre les [paramètres de Graphe](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)pour tirer le meilleur parti de ce nœud, car vous devrez définir correctement certains paramètres :
 
-* La taille de votre **graphique** doit être non carrée, sinon ce nœud n&#39;est pas nécessaire.
-* Définissez la taille de sortie du **nœud** de transformation non carrée sur « *Relative au parent* ».
-* Définissez le mode de mosaïque du **nœud** sur « *Aucun mosaïque* » si vous souhaitez uniquement transformer votre entrée en une seule position.
-
-## Paramètres
-
-* **Mode mosaïque** :*Automatique, manuel* Activez ou non les compensations automatiques non carrées.
-* **Mosaïque** : *1 - 16* Uniquement accessible lorsque le mode Mosaïque est défini sur Manuel. Permet de modifier l’échelle de manière à éviter les mosaïques.
-* **Décalage** : *0,0 - 1,0*\
-  Déplace ou traduit le résultat. Double-cliquez sur le curseur pour entrer des valeurs négatives.
-* **Rotation** : *0.0 - 1.0* Fait pivoter l’image d’entrée.
-* **Rotation sécurisée (carré uniquement)** :*Faux/Vrai* s’accroche aux valeurs sécurisées pour conserver la netteté des pixels.
-* **Couleur d&#39;arrière-plan** : *(Valeur de couleur)*Couleur d&#39;arrière-plan pour remplir l&#39;image. Visible uniquement lorsque le [mode Mosaïque dans les paramètres de base est défini sur « *Aucune mosaïque*« &#x200B;](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md).
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
-| --- |
-|  |
+* Votre taille de **Graphe** doit être non carrée, sinon ce nœud n&#39;est pas nécessaire.
+* Définissez la taille de sortie du **nœud** de Transforme non carrée sur « *Relatif au parent* ».
+* Définissez le mode de répétition du **nœud** sur « *Aucune Répétition* » si vous souhaitez transformer votre entrée à une seule position.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Mode mosaïque</b> <i>Automatique, Manuel</i> | Activez ou non les compensations automatiques non carrées. |
+| <b>Mosaïque</b> <i>1 - 16</i> | Uniquement accessible lorsque le mode Mosaïque est défini sur Manuel. Permet de modifier l’échelle de manière à éviter les répétitions. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. Double-cliquez sur le curseur pour entrer des valeurs négatives. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter l’image d&#39;entrée. |
+| <b>Rotation Sécurisée (Carré Uniquement)</b> <i>Faux/Vrai</i> | Contraint sur des valeurs admissibles pour conserver la netteté des pixels. |
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Couleur d’arrière-plan pour remplir l’image. Visible uniquement lorsque le Mode de répétition [ dans les paramètres de base est défini sur « *Aucune Répétition* »](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-square-transform.resources/nonsquare-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirt sélectif pour générer des masques d'accumulation de dirt sélectif basés sur la géométrie du maillage pour un vieillissement réaliste.
+description: Utilisez le nœud Dirt sélectif pour générer des masques d'accumulation de dirt sélectif en fonction de la géométrie du maillage afin d'obtenir une altération réaliste.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Selective Dirt
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt sélectif
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 5%
+source-wordcount: '168'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/selective-dirt.png){width="128px"}
+![](selective-dirt.resources/selective-dirt.png){width="128px"}
 
-## Dirt sélectif
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Simple**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,30 +37,37 @@ Génère un masque noir et blanc en fonction des maps bakées et des paramètres
 
 Ce masque [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) représente un effet de dirt simple sur les contours convexes.
 
-## Paramètres
-
-### Entrées
-
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage.
-* **Masque De Variation** : *Entrée En Niveaux De Gris*\
-  Carte de variation facultative, qui peut être activée via des paramètres.
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Niveau** : *0.0 - 1.0*\
-  Définit le niveau total de l’effet, qui s’affiche progressivement.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste du résultat.
-* **Variation** : *0,0 - 1,0* définit la quantité de variation/usure/salissures à fusionner avec l&#39;effet.
-* **Remplacer le masque de variation** :*Faux/Vrai* Permet de remplacer la variation par un emplacement d&#39;entrée personnalisé.
-
-## Exemples d’images
-
-![](../../../../../../assets/selective-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Masque de variation</b> <i>Entrée en niveaux de gris</i> | Carte de variation facultative, qui peut être activée via des paramètres. |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Définit le niveau total de l’effet, qui s’affiche progressivement. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du résultat. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Définit la quantité de variation/usure/salissures à fusionner avec l’effet. |
+| <b>Remplacer le masque de variation</b> <i>Faux/Vrai</i> | Permet de remplacer la variante par un emplacement d’entrée personnalisé. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="selective-dirt.resources/selective-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

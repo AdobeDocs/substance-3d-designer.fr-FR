@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Circulaire éclaboussé pour effectuer une dispersion de formes circulaires entre les textures afin de créer des motifs organiques et aléatoires.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Éclaboussure circulaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 0%
+source-wordcount: '850'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular.png){width="128px"}
 
-![](../../../../../../assets/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
 
-## Éclaboussure circulaire (couleur)
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Complexe**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,96 +39,86 @@ Splatter Circular génère un motif en anneau avec différentes commandes. Il pe
 
 Cette option est utile lorsque vous souhaitez placer des formes de manière circulaire avec diverses options de randomisation.
 
-## Paramètres
+</td>
+</tr>
+</table>
 
-### Entrées
+<a name="inputs"></a>
+
+## Entrées
 
 Les deux entrées sont facultatives.
 
-* **Entrée d’image de motif 1-6** : *Entrée en niveaux de gris (entrée couleur)*\
-  Splatter Circular uniquement : image de motif personnalisé, utilisée lorsque le paramètre « Pattern » est défini sur « Image Input ».
-* **Arrière-plan** : *Entrée niveaux de gris (entrée couleur)*
+|  |  |
+|:---|:---|
+| <b>Entrée d’image de motif 1-6</b> <i>Entrée niveaux de gris (entrée couleur)</i> | Splatter Circular uniquement : image de motif personnalisé, utilisée lorsque le paramètre « Pattern » est défini sur « Image Input ». |
+| <b>Arrière-plan</b> <i>Entrée niveaux de gris (entrée couleur)</i> |  |
 
-### Paramètres
+<a name="parameters"></a>
 
-* **Quantité du motif** : *1 - 64*\
-  Quantité de carreaux de motif à placer sur un anneau.
-* **Quantité aléatoire du motif** : *0,0 - 1,0*\
-  Randomisation de la quantité de motifs à placer. À utiliser de préférence avec une quantité d’anneau supérieure à 1.
-* **Quantité aléatoire de motif min** : *1 - 10* définit la quantité minimale de motifs pour la randomisation.
-* **Quantité de sonnerie** : *1 - 10*\
-  Définit le nombre d&#39;anneaux à remplir. Les anneaux sont toujours placés à l&#39;intérieur de l&#39;anneau extérieur, et l&#39;espace uniformément.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-* **Motif**
-  * **Motif** :*Entrée d&#39;image, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Gradation, Ondes, Demi-Cloche, Cloche striée, Croissant, Capsule, Cône*\
-    Sélectionne la forme de motif à utiliser.
-  * **Numéro d’entrée du motif** : *1 - 6* définit le nombre d’entrées d’image différentes à utiliser. Disponible uniquement lorsque l&#39;option *Entrée d&#39;image* est sélectionnée ci-dessus.
-  * **Distribution D&#39;Entrée De Motif** : *Aléatoire, Par Numéro De Motif, Par Numéro D&#39;Anneau* Définit La Façon Dont Plusieurs Entrées De Motif Sont Choisies. Aléatoire signifie qu’un anneau aléatoire est choisi, Numéro de motif signifie qu’ils sont simplement placés dans une séquence en boucle, Par numéros d’anneau signifie que chaque anneau a un différent dans l’ordre.
-  * **Filtrage D&#39;Entrée D&#39;Image** : *Bilinéaire + Mipmaps, Bilinéaire, Au Plus Proche*
-  * **Spécifique Au Motif** : *0.0 - 1.0*\
-    Permet de modifier la forme du motif sélectionné. L’effet dépend du motif sélectionné.
-  * **Aléatoire de symétrie** : *0,0 - 1,0*\
-    Définit le nombre de vignettes qui doivent être retournées/mises en miroir de manière aléatoire en fonction du comportement ci-dessous.
-  * **Mode aléatoire de symétrie** : *Horizontal + Vertical, Horizontal, Vertical* Détermine le comportement de mise en miroir de la symétrie.
-* **Position**
-  * **Rayon** : *0,0 - 1,0*\
-    Définit le rayon à partir du centre auquel les motifs sont placés.
-  * **Rayon aléatoire** : *0.0 - 1.0* aléatoire le rayon de chaque carreau de motif.
-  * **Multiplicateur de rayon en anneau** : *0.0 - 1.0*\
-    Affecte l&#39;espacement de plusieurs anneaux.
-  * **Angle aléatoire** : *0,0 - 1,0* aléatoire l’angle de chaque motif. Plus les montants sont élevés, plus la rotation est importante.
-  * **Facteur De Spirale** : *0,0 - 1,0*\
-    Transforme les anneaux en spirales, où chaque carreau est placé à un rayon légèrement croissant.
-  * **Répartition** : *0.0 - 2.0* Définit le nombre de tours que fait un anneau. Cela peut être augmenté au-delà de ses limites.
-  * **Décalage dans la direction** : *0.0 - 1.0*\
-    Éloigne chaque motif du centre selon son angle. L’effet dépend en grande partie de l’option Angle aléatoire ou ressemble simplement à un multiplicateur pour le rayon.
-  * **Décalage global** : *0,0 - 1,0*\
-    Traduit la forme entière.
-* **Taille**
-  * **Connecter les motifs** :*Faux/Vrai* rend la longueur des éléments de motif dépendante du rayon, ce qui signifie que chaque forme doit toucher la précédente et la suivante.
-  * **Taille (Connectée)** : *0.0 - 1.0*\
-    Modifie la taille globale de chaque motif. Une fois connecté, il est relatif au rayon total.
-  * **Taille aléatoire** : *0,0 - 1,0*\
-    Rend aléatoire la taille de chaque motif individuellement.
-  * **Échelle** : *0.0 - 2.0*\
-    Redimensionne uniformément chaque motif.
-  * **Échelle Aléatoire** : *0.0 - 1.0*\
-    Rend aléatoire la mise à l’échelle uniforme.
-  * **Échelle par numéro de motif** : *0.0 - 1.0* L’échelle du motif dépend de la position le long de l’anneau.
-  * **Inverser le numéro de motif** : *Faux/Vrai*\
-    Utilisée avec l’option précédente, cette option permet d’inverser la mise à l’échelle de petite à grande et vice versa.
-  * **Échelle par numéro d&#39;anneau** : *0.0 - 1.0* rend l&#39;échelle dépendante du numéro d&#39;anneau.
-  * **Inverser la sonnerie** :*Faux/Vrai* Utilisé avec l&#39;option précédente, il peut inverser la mise à l&#39;échelle de petit à grand et vice versa.
-* **Rotation**
-  * **Rotation du motif** : *0.0 - 1.0* Fait pivoter chaque motif uniformément.
-  * **Aléatoire de la rotation du motif** : *0.0 - 1.0*\
-    Rend aléatoire la rotation du motif.
-  * **Pivot De Rotation Du Motif** : *Centre, Min X, Max X, Min Y, Max Y*\
-    Définit la position du point pivot autour duquel faire pivoter chaque motif individuellement.
-  * **Centrer l&#39;orientation** :*Faux/Vrai*\
-    Fait pivoter chaque motif de sorte qu’il soit orienté vers le centre de l’anneau. La désactiver leur donne la même orientation, ce qui peut produire des effets indésirables avec Décalage dans la direction.
-  * **Rotation de l&#39;anneau** : *0.0 - 1.0* Fait pivoter l&#39;anneau entier autour du centre.
-  * **Rotation aléatoire de l&#39;anneau** : *0.0 - 1.0* aléatoire la rotation par anneau.
-  * **Décalage de rotation de l&#39;anneau** : *0,0 - 1,0*\
-    Décale la rotation par anneau.
-* **Couleur**
-  * **Couleur** : *(valeur Niveaux de gris)*Couleur à multiplier avec le motif sélectionné.
-  * **Luminance aléatoire** :*0.0 - 1.0* aléatoire la couleur ou la luminance pour chaque carreau de motif.
-  * **Luminance par échelle** :*0.0 - 1.0* rend la luminance dépendante de l’échelle du motif individuel.
-  * **Luminance par numéro de motif** : *0.0 - 1.0* rend la luminance dépendante de la séquence de motif. Peut par exemple être utilisé avec des spirales.
-  * **Inverser le numéro de motif** : *Faux/Vrai* Inverse l’option précédente.
-  * **Luminance par numéro d&#39;anneau** :*0.0 - 1.0* rend la luminance dépendante de la séquence d&#39;anneau.
-  * **Inverser la sonnerie** :*Faux/Vrai* Inverse l&#39;option précédente.
-  * **Masque aléatoire** :*0.0 - 1.0* Masque aléatoirement les motifs.
-  * **Couleur d&#39;arrière-plan** : *(valeur Niveaux de gris)*Modifie la couleur d&#39;arrière-plan unie.
-  * **Mode de fusion** : *Ajouter, Max, Ajouter sub* Définit la façon de fusionner des motifs qui se chevauchent.
-  * **Opacité globale** : *0.0 - 1.0* Définit l’opacité globale de l’ensemble du résultat.
+## Paramètres
 
-## Exemples d’images
+|  |  |
+|:---|:---|
+| <b>Quantité du motif</b> <i>1 - 64</i> | Quantité de carreaux de motif à placer sur un anneau. |
+| <b>Quantité aléatoire du motif</b> <i>0.0 - 1.0</i> | Randomisation de la quantité de motifs à placer. À utiliser de préférence avec une quantité d’anneau supérieure à 1. |
+| <b>Quantité aléatoire de motif min</b> <i>1 - 10</i> | Définit la quantité minimale de motifs pour la randomisation. |
+| <b>Quantité De Sonnerie</b> <i>1 - 10</i> | Définit le nombre d&#39;anneaux à remplir. Les anneaux sont toujours placés à l&#39;intérieur de l&#39;anneau extérieur, et l&#39;espace uniformément. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Motif</b> |  |
+| <b>Motif</b> <i>Entrée d&#39;image, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
+| <b>Numéro d&#39;entrée de motif</b> <i>1 - 6</i> | Définit le nombre d’entrées Image différentes à utiliser. Disponible uniquement lorsque l&#39;option <i>Entrée d&#39;image</i> est sélectionnée ci-dessus. |
+| <b>Distribution d&#39;entrée de motif</b> <i>Aléatoire, Par Numéro De Motif, Par Numéro D&#39;Anneau</i> | Définit le mode de sélection des entrées de motif multiples. Aléatoire signifie qu’un anneau aléatoire est choisi, Numéro de motif signifie qu’ils sont simplement placés dans une séquence en boucle, Par numéros d’anneau signifie que chaque anneau a un différent dans l’ordre. |
+| <b>Filtrage d&#39;entrée d&#39;image</b> <i>Bilinéaire + Mipmaps, Bilinéaire, Nearest</i> |  |
+| <b>Spécifique Au Motif</b> <i>0.0 - 1.0</i> | Permet de modifier la forme du motif sélectionné. L’effet dépend du motif sélectionné. |
+| <b>Symétrie aléatoire</b> <i>0.0 - 1.0</i> | Définit le nombre de vignettes qui doivent être retournées/mises en miroir de manière aléatoire en fonction du comportement ci-dessous. |
+| <b>Mode aléatoire de Symétrie</b> <i>Horizontal + Vertical, Horizontal, Vertical</i> | Détermine le comportement de mise en miroir des symétries. |
+| <b>Position</b> |  |
+| <b>Rayon</b> <i>0.0 - 1.0</i> | Définit le rayon à partir du centre auquel les motifs sont placés. |
+| <b>Rayon aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire le rayon de chaque carreau de motif. |
+| <b>Multiplicateur de rayon en anneau</b> <i>0.0 - 1.0</i> | Affecte l&#39;espacement de plusieurs anneaux. |
+| <b>Angle aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire l’angle de chaque motif. Plus les montants sont élevés, plus la rotation est importante. |
+| <b>Facteur de spirale</b> <i>0.0 - 1.0</i> | Transforme les anneaux en spirales, où chaque carreau est placé à un rayon légèrement croissant. |
+| <b>Répartition</b> <i>0.0 - 2.0</i> | Définit le nombre de tours effectués par un anneau. Cela peut être augmenté au-delà de ses limites. |
+| <b>Décalage dans la direction</b> <i>0.0 - 1.0</i> | Éloigne chaque motif du centre selon son angle. L’effet dépend en grande partie de l’option Angle aléatoire ou ressemble simplement à un multiplicateur pour le rayon. |
+| <b>Décalage global</b> <i>0.0 - 1.0</i> | Translate la forme entière. |
+| <b>Taille</b> |  |
+| <b>Connecter les motifs</b> <i>Faux/Vrai</i> | Rend la longueur des éléments de motif dépendante du rayon, ce qui signifie que chaque forme doit toucher la précédente et la suivante. |
+| <b>Taille (Connectée)</b> <i>0.0 - 1.0</i> | Modifie la taille globale de chaque motif. Une fois connecté, il est relatif au rayon total. |
+| <b>Taille aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la taille de chaque motif individuellement. |
+| <b>Échelle</b> <i>0.0 - 2.0</i> | Redimensionne uniformément chaque motif. |
+| <b>Échelle aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la mise à l’échelle uniforme. |
+| <b>Mise à l&#39;échelle par numéro de motif</b> <i>0.0 - 1.0</i> | Rend l’échelle du motif dépendante de la position sur l’anneau. |
+| <b>Inverser le numéro de motif</b> <i>Faux/Vrai</i> | Utilisée avec l’option précédente, cette option permet d’inverser la mise à l’échelle de petite à grande et vice versa. |
+| <b>Mise à l&#39;échelle par numéro d&#39;anneau</b> <i>0.0 - 1.0</i> | Rend l&#39;échelle dépendante du nombre d&#39;anneaux. |
+| <b>Inverser la sonnerie</b> <i>Faux/Vrai</i> | Utilisée avec l’option précédente, elle permet d’inverser la mise à l’échelle de petite à grande et vice versa. |
+| <b>Rotation</b> |  |
+| <b>Rotation du motif</b> <i>0.0 - 1.0</i> | Fait pivoter tous les motifs de manière uniforme. |
+| <b>Rotation aléatoire du motif</b> <i>0.0 - 1.0</i> | Rend aléatoire la rotation du motif. |
+| <b>Pivot de rotation du motif</b> <i>Centre, Min X, Max X, Min Y, Max Y</i> | Définit la position du point pivot autour duquel faire pivoter chaque motif individuellement. |
+| <b>Centrer l&#39;orientation</b> <i>Faux/Vrai</i> | Fait pivoter chaque motif de sorte qu’il soit orienté vers le centre de l’anneau. La désactiver leur donne la même orientation, ce qui peut produire des effets indésirables avec Décalage dans la direction. |
+| <b>Rotation en anneau</b> <i>0.0 - 1.0</i> | Fait pivoter l’anneau entier autour du centre. |
+| <b>Rotation Aléatoire De L&#39;Anneau</b> <i>0.0 - 1.0</i> | Rend aléatoire la rotation par anneau. |
+| <b>Décalage de rotation de l&#39;anneau</b> <i>0.0 - 1.0</i> | Décale la rotation par anneau. |
+| <b>Couleur</b> |  |
+| <b>Couleur</b> <i>(valeur Niveaux de gris)</i> | Couleur à multiplier avec le motif sélectionné. |
+| <b>Luminance aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la couleur ou la Luminance de chaque mosaïque de motif. |
+| <b>Luminance Par Échelle</b> <i>0.0 - 1.0</i> | Rend la Luminance dépendante de l’échelle du motif individuel. |
+| <b>Luminance par numéro de motif</b> <i>0.0 - 1.0</i> | Rend la Luminance dépendante de la séquence de motif. Peut par exemple être utilisé avec des spirales. |
+| <b>Inverser le numéro de motif</b> <i>Faux/Vrai</i> | Inverse l’option précédente. |
+| <b>Luminance par sonnerie</b> <i>0.0 - 1.0</i> | Rend la Luminance dépendante de la séquence d&#39;anneau. |
+| <b>Inverser la sonnerie</b> <i>Faux/Vrai</i> | Inverse l’option précédente. |
+| <b>Masque Aléatoire</b> <i>0.0 - 1.0</i> | Masque les motifs de manière aléatoire. |
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur Niveaux de gris)</i> | Modifie la couleur d’arrière-plan unie. |
+| <b>Mode de fusion</b> <i>Ajouter, Max, Ajouter Sub</i> | Définit le mode de fusion des motifs qui se chevauchent. |
+| <b>Opacité globale</b> <i>0.0 - 1.0</i> | Définit l’opacité globale de l’ensemble du résultat. |
 
-![](../../../../../../assets/circularsplatter-ex.png)
+## Exemples
 
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="splatter-circular.resources/circularsplatter-ex.png" />
+        </td>
+    </tr>
 </table>

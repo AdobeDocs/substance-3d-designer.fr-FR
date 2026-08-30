@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Ajoutez des commentaires aux graphiques Substance 3D Designer pour documenter votre workflow et expliquer les connexions de nœuds.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Commentaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône de commentaire](../../../../assets/graphatomic-comment_1.png "Icône de commentaire")
+![Icône de commentaire](comment.resources/graphatomic-comment_1.png "Icône de commentaire")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ Les commentaires qui sont créés lorsqu&#39;un nœud *unique* est actuellement 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Commentaires : commentaires parentés](../../../../assets/graph-comment_parented.gif "Commentaires : commentaires parentés")
+![Commentaires : commentaires parentés](comment.resources/graph-comment_parented.gif "Commentaires : commentaires parentés")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ Les commentaires qui sont créés lorsqu&#39;un nœud *unique* est actuellement 
 
 ## formatage de HTML
 
-Le texte peut être formaté à l’aide d’étiquettes de HTML. Cette mise en forme est basculée à l&#39;aide du bouton ![](../../../../assets/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans la propriété <b>Description</b> du commentaire.
+Le texte peut être formaté à l’aide d’étiquettes de HTML. Cette mise en forme est basculée à l&#39;aide du bouton ![](comment.resources/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans la propriété <b>Description</b> du commentaire.
 
 >[!TIP]
 >
 > Pour en savoir plus sur cette fonctionnalité, consultez la section <b>Description</b> de la documentation [Images](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
-![Commentaires : balisage de HTML](../../../../assets/graph-comment_html-markup.gif "Commentaires : balisage de HTML")
+![Commentaires : balisage de HTML](comment.resources/graph-comment_html-markup.gif "Commentaires : balisage de HTML")

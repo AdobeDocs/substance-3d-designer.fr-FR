@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Réaction Diffusion Rapide pour générer des motifs organiques à l'aide d'algorithmes de réaction-diffusion rapide pour les textures procédurales.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Réaction Diffusion Rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône du nœud de diffusion de réaction](../../../../../../assets/reaction-diffusion.png "Icône du nœud de diffusion de réaction")
+![Icône du nœud de diffusion de réaction](reaction-diffusion-fast.resources/reaction-diffusion.png "Icône du nœud de diffusion de réaction")
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -43,20 +43,30 @@ Ce nœud est optimisé pour les performances et effectue certains compromis de p
 </tr>
 </table>
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Entrée</b> *Niveaux de gris* Image en niveaux de gris à laquelle l&#39;effet Réaction-diffusion doit être appliqué.
+## Entrées
 
-## Connecteurs de sortie
+|  |  |
+|:---|:---|
+| <b>Entrée</b> <i>Niveaux de gris</i> | Image en niveaux de gris à laquelle l&#39;effet Réaction-diffusion doit être appliqué. |
 
-<b>Sortie </b>*Niveaux de gris* Image en niveaux de gris représentant l&#39;effet Réaction-diffusion appliqué à l&#39;image d&#39;entrée.
+<a name="outputs"></a>
+
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Image en niveaux de gris représentant l&#39;effet Réaction-diffusion appliqué à l&#39;Image d&#39;entrée. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Rayon</b> *Flottant*&#x200B;Étendue de l’effet.
-
-<b>Contraste</b> *Flotter*\
-Règle le contraste de l’entrée et sert de seuil.
+|  |  |
+|:---|:---|
+| <b>Rayon</b> *Flotter* | L’étendue de l’effet. |
+| <b>Contraste</b> *Flotter* | Règle le contraste de l’entrée et sert de seuil. |
 
 ## Exemples
 
@@ -64,17 +74,17 @@ Règle le contraste de l’entrée et sert de seuil.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple 1](../../../../../../assets/reactdiff03.png "Exemple 1")
+![Exemple 1](reaction-diffusion-fast.resources/reactdiff03.png "Exemple 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple 2](../../../../../../assets/reactdiff02.png "Exemple 2")
+![Exemple 2](reaction-diffusion-fast.resources/reactdiff02.png "Exemple 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple 3](../../../../../../assets/reactdiff01.gif "Exemple 3")
+![Exemple 3](reaction-diffusion-fast.resources/reactdiff01.gif "Exemple 3")
 
 </td>
 </tr>

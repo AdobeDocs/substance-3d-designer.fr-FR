@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: Apprenez à importer, modifier et utiliser des scènes 3D dans Substance 3D Designer pour prévisualiser et tester vos matériaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilisation de scènes 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Utilisation de scènes 3D
 
-![Utilisation de scènes 3D](../assets/workingWith3DScenes.png "Utilisation de scènes 3D"){zoomable="yes"}
+![Utilisation de scènes 3D](working-with-3d-scenes.resources/workingWith3DScenes.png "Utilisation de scènes 3D"){zoomable="yes"}
 
 Designer vous permet de charger [des scènes 3D](../glossary/glossary.md) pour travailler sur des matériaux en contexte. Vous trouverez ici une liste des formats de fichiers pris en charge pour les scènes 3D, y compris une liste des fonctionnalités prises en charge pour chaque format. <b>&lt;link required></b>
 
@@ -64,37 +64,37 @@ Vous pouvez interagir avec les contenus suivants de la scène :
 * <b>Éclairages :</b> tous les éclairages de la scène peuvent être désactivés dans le [navigateur de scènes](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Caméras :</b> toute caméra détectée dans la scène est ajoutée en tant que préréglage à la caméra ajoutée par Designer.
 
-![Contenu d’une scène 3D](../assets/loaded3DScene.png "Contenu d’une scène 3D"){zoomable="yes"}
+![Contenu d’une scène 3D](working-with-3d-scenes.resources/loaded3DScene.png "Contenu d’une scène 3D"){zoomable="yes"}
 
-Designer utilise une description en USD pour sa scène 3D. Sa mise en page peut être parcourue dans le navigateur de scènes, où chaque type [USD prime](https://openusd.org/release/glossary.html#usdglossary-prim) a sa propre icône (géométrie, matériau, ombrage, caméra, transformation, ...).
+Designer utilise une description USD pour sa Scène 3D. Sa disposition peut être parcourue dans l&#39;explorateur de Scènes, où chaque type [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) a sa propre icône (géométrie, matériau, shader, caméra, transforme, ...).
 
-L&#39;[Explorateur de scènes](../interface/3d-view/scene-browser/scene-browser.md) peut être utilisé pour sélectionner, activer et désactiver le contenu de la scène. Par conséquent, nous vous recommandons de le conserver affiché lorsque vous travaillez avec des scènes 3D personnalisées.
+L&#39;[Explorateur de Scènes](../interface/3d-view/scene-browser/scene-browser.md) peut être utilisé pour sélectionner, activer et désactiver le contenu de la scène. Par conséquent, nous vous recommandons de le conserver affiché lorsque vous travaillez avec des scènes 3D personnalisées.
 
 ## Chargement d’une scène
 
-Il existe plusieurs chemins pour charger une scène 3D dans la vue 3D :
+Il existe plusieurs chemins pour charger une Scène 3D dans la vue 3D :
 
-1. Double-cliquez ou faites glisser une [ressource de scène 3D](../resources/3d-scene-resource/3d-scene-resource.md) depuis un [pack](../glossary/glossary.md) dans la vue 3D
-1. Faites glisser un élément de scène 3D de la [bibliothèque](../interface/the-library/the-library.md) dans la vue 3D (à condition que vous ayez [ajouté votre propre contenu à la bibliothèque](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
-1. Faites glisser un fichier de scène 3D du navigateur de fichiers du système dans la vue 3D
-1. Chargez un fichier d’état de scène 3D (SBSSCN) avec son maillage référencé
+1. Double-cliquez ou faites glisser une [ressource Scène 3D](../resources/3d-scene-resource/3d-scene-resource.md) d&#39;un [package](../glossary/glossary.md) dans vue 3D
+1. Faites glisser un élément Scène 3D de la [bibliothèque](../interface/the-library/the-library.md) dans la vue 3D (à condition que [vous ayez ajouté votre propre contenu à la bibliothèque](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
+1. Faites glisser un fichier Scène 3D du navigateur de fichiers du système dans le vue 3D
+1. Charger un fichier d&#39;état Scène 3D (SBSSCN) avec son maillage référencé
 
-Notez que seules les méthodes 1 et 4 vous permettent de charger à nouveau la scène exactement telle qu’elle était la dernière fois que vous avez travaillé dessus, car l’état de la scène est écrit dans le fichier de ressources et d’états de scène 3D et enregistré dans le package. Les méthodes 2 et 3 permettent de charger la scène comme n’importe quelle autre.
+Notez que seules les méthodes 1 et 4 vous permettent de charger à nouveau la scène exactement telle qu&#39;elle était la dernière fois que vous avez travaillé dessus, car l&#39;état de la scène est écrit dans le fichier d&#39;état de scène et de ressource Scène 3D et enregistré dans le package. Les méthodes 2 et 3 permettent de charger la scène comme toute autre.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Chargement d’une scène 3D à partir d’une ressource de scène 3D](../assets/load3DScene-3DSceneResource.gif "Chargement d’une scène 3D à partir d’une ressource de scène 3D"){zoomable="yes"}
+![Chargement d&#39;une Scène 3D à partir d&#39;une ressource Scène 3D](working-with-3d-scenes.resources/load3DScene-3DSceneResource.gif "Chargement d&#39;une Scène 3D à partir d&#39;une ressource Scène 3D"){zoomable="yes"}
 
-Chargement d’une ressource de scène 3D
+Chargement d&#39;une ressource Scène 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Chargement d’une scène 3D à partir de la bibliothèque](../assets/load3DScene-Library.gif "Chargement d’une scène 3D à partir de la bibliothèque"){zoomable="yes"}
+![Chargement d&#39;une Scène 3D à partir de la bibliothèque](working-with-3d-scenes.resources/load3DScene-Library.gif "Chargement d&#39;une Scène 3D à partir de la bibliothèque"){zoomable="yes"}
 
-Chargement d’une scène 3D à partir de la bibliothèque
+Chargement d&#39;une Scène 3D à partir de la bibliothèque
 
 </td>
 </tr>
@@ -104,14 +104,14 @@ Chargement d’une scène 3D à partir de la bibliothèque
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Chargement d’une scène 3D à partir d’un fichier de scène 3D](../assets/load3DScene-3DSceneFile.gif "Chargement d’une scène 3D à partir d’un fichier de scène 3D"){zoomable="yes"}
+![Chargement d&#39;une Scène 3D à partir d&#39;un fichier Scène 3D](working-with-3d-scenes.resources/load3DScene-3DSceneFile.gif "Chargement d&#39;une Scène 3D à partir d&#39;un fichier Scène 3D"){zoomable="yes"}
 
-Chargement d’un fichier de scène 3D
+Chargement d’un fichier Scène 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Chargement d’une scène 3D à partir d’un fichier d’état de scène](../assets/load3DScene-sceneStateFile.gif "Chargement d’une scène 3D à partir d’un fichier d’état de scène"){zoomable="yes"}
+![Chargement d&#39;une Scène 3D à partir d&#39;un fichier d&#39;état de scène](working-with-3d-scenes.resources/load3DScene-sceneStateFile.gif "Chargement d&#39;une Scène 3D à partir d&#39;un fichier d&#39;état de scène"){zoomable="yes"}
 
 Chargement d’un fichier d’état de scène
 
@@ -121,24 +121,24 @@ Chargement d’un fichier d’état de scène
 
 >[!NOTE]
 >
-> La navigation et la visualisation de la scène dans la vue 3D sont traitées dans la [documentation de la vue 3D](../interface/3d-view/3d-view.md).
+> La navigation et la visualisation de la scène dans la vue 3D sont traitées dans la [documentation vue 3D](../interface/3d-view/3d-view.md).
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Designer crée toujours son propre environnement (DomeLight en USD) et son appareil photo en plus de ceux qui peuvent exister dans la scène.
+Designer crée toujours son propre environnement (DomeLight dans USD) et sa propre caméra en plus de ceux qui peuvent exister dans la scène.
 
-Tous les éléments créés par Designer sont répertoriés avec des <b>étiquettes en gras</b> dans le navigateur de scènes.
+Tous les éléments créés par Designer sont répertoriés avec des <b>étiquettes en gras</b> dans l&#39;explorateur de Scènes.
 
 >[!NOTE]
 >
-> Lorsqu&#39;une scène chargée comporte au moins un environnement (DomeLight), l&#39;environnement créé par Designer est *désactivé par défaut* afin qu&#39;il n&#39;interfère pas avec l&#39;éclairage de l&#39;environnement de la scène.
+> Lorsqu&#39;une scène chargée comporte au moins un environnement (DomeLight), l&#39;environnement créé par Designer est *désactivé par défaut* afin de ne pas interférer avec l&#39;éclairage de l&#39;environnement de la scène.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene browser - Elements créés par Designer](../assets/sceneBrowser-createdByDesigner.png "Scene browser - Elements créés par Designer"){zoomable="yes"}
+![Explorateur de Scènes - Éléments créés par Designer](working-with-3d-scenes.resources/sceneBrowser-createdByDesigner.png "Explorateur de Scènes - Éléments créés par Designer"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Tous les éléments créés par Designer sont répertoriés avec des <b>étiquet
 
 Après avoir configuré des matériaux, une caméra, des lumières, etc. dans la vue 3D, cet état peut être enregistré dans un fichier d’état de scène (.sbsscn) qui peut être chargé ultérieurement pour restaurer cet état. Par exemple, vous pouvez configurer quelques scènes pour prévisualiser différents types de matériaux ou un environnement d’éclairage spécifique.
 
-![Charger le fichier d&#39;état de scène](../assets/loadSceneStateFile.gif "Charger le fichier d&#39;état de scène"){zoomable="yes"}
+![Charger le fichier d&#39;état de scène](working-with-3d-scenes.resources/loadSceneStateFile.gif "Charger le fichier d&#39;état de scène"){zoomable="yes"}
 
 Un état de scène enregistré peut également être utilisé comme état par défaut pour la vue 3D, de sorte que chaque fois qu’une nouvelle vue 3D est créée, cet état est utilisé. Cette option est utile si vous souhaitez prévisualiser les matériaux comme vos matériaux par défaut sur le maillage Sphère 2-Carreaux avec une valeur de carrelage de 2 et une carte d&#39;environnement spécifique.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds d’échantillonnage dans les graphiques fonctionnels Substance 3D Designer pour échantillonner des textures et extraire des valeurs chromatiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Échantillonnages
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nœuds Sampler
 
-![Nœuds Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nœuds Sampler")
+![Nœuds Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nœuds Sampler")
 
 Ces nœuds échantillonnent une valeur dans une image d’entrée aux coordonnées 2D fournies :
 
@@ -39,7 +39,7 @@ Les positions hors de cette plage sont traitées selon le <b>mode d&#39;adressag
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordonnées des pixels](../../../../assets/samplercoords.png "Coordonnées des pixels")
+![Coordonnées des pixels](sampler-nodes.resources/samplercoords.png "Coordonnées des pixels")
 
 </td>
 </tr>

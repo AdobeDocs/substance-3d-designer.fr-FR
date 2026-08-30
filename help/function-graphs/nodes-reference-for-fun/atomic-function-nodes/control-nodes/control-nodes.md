@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
-description: Accès aux nœuds de contrôle dans les graphiques de fonction Substance 3D Designer pour contrôler le flux et la logique d’exécution.
+description: Accès aux nœuds de contrôle dans les graphes de fonction Substance 3D Designer pour contrôler le flux et la logique d’exécution.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Control
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Contrôle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Nœuds de contrôle
 
-Cette page décrit les nœuds des [graphiques de fonction](../../../../function-graphs/the-function-graph/the-function-graph.md) dont l&#39;objectif est de contrôler le *flux d&#39;exécution*.
+Cette page décrit les nœuds des [graphes de fonction](../../../../function-graphs/the-function-graph/the-function-graph.md) dont l&#39;objectif est de contrôler le *flux d&#39;exécution*.
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nœud If...Else")
+![Nœud If...Else](../../../../assets/IfElse_Node.jpg "If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,14 +55,14 @@ Condition qui contrôle la sortie du nœud.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de séquence](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nœud de séquence")
+![Nœud de séquence](../../../../assets/Sequence_Node.jpg "Nœud de séquence")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Séquence
 
-Permet de s’assurer qu’une partie du graphique est calculée avant une autre.
+Permet de s’assurer qu’une partie du graphe est calculée avant une autre.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Partie du graphique à calculer en dernier
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de boucle entière](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nœud de boucle entière")
+![Nœud de boucle entière](../../../../assets/WhileLoop-Node.jpg "Nœud de boucle entière")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -115,7 +115,7 @@ Partie du graphique calculée avant la première itération, c&#39;est-à-dire l
 
 <b>Quitter Cond.</b> *Booléen*\
 Condition devant être vraie pour que la boucle s&#39;arrête. Il est recalculé à chaque itération.\
-*Remarque :* le nombre maximal d&#39;itérations est toujours limité au paramètre <b>Nombre maximal d&#39;itérations</b>.
+*Remarque :* le nombre maximal d&#39;itérations est toujours limité au paramètre <b>itérations maximales</b>.
 
 <b>Corps en boucle</b> *Type de variable*\
 Graphique qui bénéficie de la boucle. Il est recalculé à chaque itération.

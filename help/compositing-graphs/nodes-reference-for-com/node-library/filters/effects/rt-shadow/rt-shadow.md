@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Ombres RT pour calculer des informations d'ombre en temps réel à partir de la géométrie afin de créer des effets d'éclairage dynamiques.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tons foncés RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-Icône de nœud ![Ombres RT](../../../../../../assets/rt-shadow.png "Ombres RT")
+Icône de nœud ![Ombres RT](rt-shadow.resources/rt-shadow.png "Ombres RT")
 
-<b>Entrée :</b> *Filtres/Effets*
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,65 +41,36 @@ Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en r
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-<b>Exemples</b> *Nombre entier*\
-Nombre de rayons utilisés pour calculer les ombres.\
-Plus la valeur est élevée, plus le résultat est fluide et précis, au détriment des performances.
+|  |  |
+|:---|:---|
+| <b>Exemples</b> <i>Nombre entier</i> | Nombre de rayons utilisés pour calculer les ombres.<br>Une valeur plus élevée offre un résultat plus lisse et plus précis, au détriment des performances. |
+| <b>Mode</b> <i>Nombre entier</i> | Méthode de dessin des ombres sur la surface. |
+| <b>Échelle d&#39;Height</b> <i>Flotter</i> | Multiplicateur de l’intensité de la courbe d’height d’entrée. |
+| <b>Position claire</b> <i>Float2</i> | Position de la source lumineuse sur une sphère englobant la surface :<br><br>- <b>X</b> : position horizontale, en nombre de tours ;<br>- <b>Y</b> : position verticale, où 0,5 est le zénith et 0/1 est l&#39;horizon. |
+| <b>Intensité de la lumière</b> <i>Flotter</i> | Intensité de la source lumineuse. |
+| <b>Taille légère</b> <i>Float2</i> | (Disponible lorsque le <b>Mode</b> est défini sur <i>Ombré</i>) Taille de la source lumineuse sous forme de rectangle. |
+| <b>Échelle de la lumière (ombres douces)</b> <i>Flotter</i> | Multiplicateur de la contribution de la <b>taille de la lumière</b> à la direction des rayons.<br>Plus la valeur est élevée, plus les ombres sont lisses. |
+| <b>Garder La Lumière Au-Dessus De L&#39;Horizon</b> <i>Booléen</i> | Si la <b>position de la lumière</b> est définie de manière à placer la lumière sous l&#39;horizon, ce paramètre empêche la lumière de franchir ce seuil, ce qui signifie que les valeurs Y sont ajustées à la plage [0;1]. |
+| <b>Opacité de l&#39;ombre</b> <i>Flotter</i> | Multiplicateur de l’opacité des tons foncés dessinés sur la surface. |
+| <b>Atténuation des ombres</b> <i>Flotter</i> | Multiplicateur de l&#39;atténuation des ombres à mesure qu&#39;elles s&#39;éloignent de leur projection.<br>Une valeur de 0 donne des ombres uniformes (des ombres légères sont toujours appliquées). |
+| <b>Longueur max. des ombres</b> <i>Flotter</i> | Distance maximale à laquelle une ombre peut être dessinée de sa projection.<br>Une valeur de 0 ne produit aucune ombre visible. |
 
-<b>Mode</b> *Nombre entier*\
-Méthode de dessin des ombres sur la surface.
+## Exemples
 
-<b>Échelle d&#39;Height</b> *Flotter*\
-Multiplicateur de l’intensité de la courbe d’height d’entrée.
-
-<b>Position Claire </b>*Float2*\
-La position de la source lumineuse sur une sphère entourant la surface :
-* <b>X</b> : position horizontale, en nombre de tours ;
-* <b>Y</b> : position verticale, où 0,5 correspond au zénith et 0/1 à l&#39;horizon.
-
-<b>Intensité de la lumière</b> *Flotter*\
-Intensité de la source lumineuse.
-
-<b>Taille légère</b> *Float2* (disponible lorsque <b>Mode</b> est défini sur *Ombré*)\
-Taille de la source de lumière sous forme de rectangle.
-
-<b>Échelle de la lumière (ombres douces)</b> *Flotter*\
-Multiplicateur de la contribution de la <b>taille de la lumière</b> à la direction des rayons.\
-Plus la valeur est élevée, plus les ombres sont lisses.
-
-<b>Garder La Lumière Au-Dessus De L&#39;Horizon</b> *Booléen*\
-Si la <b>position de la lumière</b> est définie de manière à placer la lumière sous l&#39;horizon, ce paramètre empêche la lumière de franchir ce seuil, ce qui signifie que les valeurs Y sont ajustées à la plage [0;1].
-
-<b>Opacité de l&#39;ombre</b> *Flotter*\
-Multiplicateur de l’opacité des tons foncés dessinés sur la surface.
-
-<b>Atténuation des ombres</b> *Flotter*\
-Multiplicateur pour l&#39;atténuation des ombres à mesure qu&#39;elles s&#39;éloignent de leur projection.\
-Une valeur de 0 donne des ombres uniformes (des ombres légères sont toujours appliquées).
-
-<b>Longueur max. des ombres</b> *Flotter*\
-Distance maximale à laquelle une ombre peut être dessinée de sa projection.\
-Une valeur de 0 ne produit aucune ombre visible.
-
-## Exemples d’images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Nœud des ombres RT - Exemple 1](../../../../../../assets/RTShadows-01.jpg "Nœud des ombres RT - Exemple 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nœud des ombres RT - Exemple 2](../../../../../../assets/RTShadows-02.jpg "Nœud des ombres RT - Exemple 2")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nœud des ombres RT - Exemple 3](../../../../../../assets/RTShadows-03.jpg "Nœud des ombres RT - Exemple 3")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rt-shadow.resources/RTShadows-01.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-shadow.resources/RTShadows-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-shadow.resources/RTShadows-03.jpg" />
+        </td>
+    </tr>
 </table>

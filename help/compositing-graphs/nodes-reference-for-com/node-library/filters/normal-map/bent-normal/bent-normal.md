@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normale courbée pour générer des cartes de normales courbées qui tiennent compte de l'occlusion ambiante et de l'éclairage indirect.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Normale courbée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-Icône de nœud ![Normale courbée](../../../../../../assets/rt-bent-normal.png "Icône de nœud Normale courbée")
+Icône de nœud ![Normale courbée](bent-normal.resources/rt-bent-normal.png "Icône de nœud Normale courbée")
 
-<b>Entrée :</b> *Filtres/Mappage de normales*
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -42,33 +42,27 @@ Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en r
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-<b>Utiliser la Taille physique</b> *Booléen*\
-Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height.
+|  |  |
+|:---|:---|
+| <b>Utiliser la Taille physique</b> <i>Booléen</i> | Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height. |
+| <b>Taille physique</b> <i>Float3</i> | (Disponible lorsque <b>Utiliser la Taille physique</b> est défini sur <i>Vrai</i>) Ajuste l&#39;échelle d&#39;height en fonction de la taille physique réelle de la surface. |
+| <b>Exemples</b> <i>Nombre entier</i> | Nombre de rayons utilisés pour calculer la normale courbée.<br>Une valeur plus élevée offre un résultat plus lisse et plus précis au détriment des performances. |
+| <b>Échelle d&#39;Height</b> <i>Flotter</i> | (Disponible lorsque l’option Utiliser la Taille physique est définie sur Faux) Multiplicateur de l’intensité de la map height saisie. |
+| <b>Distribution</b> <i>Nombre entier</i> | Définit la méthode de distribution. Affecte la réduction vers les zones ombrées. |
+| <b>Distance Maximale</b> <i>Flotter</i> | Définit la distance maximale que les rayons peuvent parcourir pour être occultés. |
+| <b>Angle de répartition</b> <i>Flotter</i> | Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier. |
+| <b>Format normal</b> <i>Nombre entier</i> | Inverse la couche verte de la sortie. |
 
-<b>Taille physique</b> *Float3* (disponible lorsque l&#39;option <b>Utiliser la Taille physique</b> est définie sur *True*)\
-Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface.
+## Exemples
 
-<b>Exemples</b> *Nombre entier*\
-Nombre de rayons utilisés pour calculer la normale courbée.\
-Plus la valeur est élevée, plus le résultat obtenu est fluide et précis, au détriment des performances.
-
-<b>Échelle d&#39;Height</b> *Flottant (disponible lorsque l&#39;option Utiliser la Taille physique est définie sur Faux)*\
-Multiplicateur de l’intensité de l’entrée de courbe de transfert d’height.
-
-<b>Distribution</b> *Nombre entier*\
-Définit la méthode de distribution. Affecte la réduction vers les zones ombrées.
-
-<b>Distance Maximale</b> *Flotter*\
-Définit la distance maximale que les rayons peuvent parcourir pour être occultés.
-
-<b>Angle de répartition</b> *Flotter*\
-Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier.
-
-<b>Format normal</b> *Nombre entier*\
-Inverse la couche verte de la sortie.
-
-## Exemples d’images
-
-![Nœud normal plié - Exemple 1](../../../../../../assets/bent-normal-ex-1.jpg "Nœud normal plié - Exemple 1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+        </td>
+    </tr>
+</table>

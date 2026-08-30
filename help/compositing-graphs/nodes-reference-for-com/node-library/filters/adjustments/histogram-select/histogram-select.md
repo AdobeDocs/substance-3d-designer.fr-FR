@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de sélection d’histogramme pour sélectionner et extraire des plages spécifiques à partir d’histogrammes de texture pour des réglages ciblés.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sélection de l’histogramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select.png){width="128px"}
 
-## Sélection de l’histogramme
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,17 +37,26 @@ Similaire à l&#39;[analyse de l&#39;histogramme](../../../../../../compositing-
 
 [Cliquez ici pour visionner une vidéo de Substance Academy sur Histogram Select.](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## Paramètres
-
-* **Position** : *0.0 - 1.0* Définit la position médiane là où se produit la sélection de plage.
-* **Plage** : *0.0 - 1.0* définit la largeur de la plage de sélection.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste/atténuation du résultat.
-
-## Exemples d’images
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>0.0 - 1.0</i> | Définit la position médiane à laquelle se produit la sélection de plage. |
+| <b>Plage</b> <i>0.0 - 1.0</i> | Définit la largeur de la plage de sélection. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste/atténuation du résultat. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-select.resources/histoselect-ex.gif" />
+        </td>
+    </tr>
 </table>

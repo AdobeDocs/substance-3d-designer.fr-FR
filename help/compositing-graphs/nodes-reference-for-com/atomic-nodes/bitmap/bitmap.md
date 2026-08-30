@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bitmap pour importer et utiliser des images bitmap en tant que textures dans des graphiques de composition de Substances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Bitmap](../../../../assets/comp_bitmap.png "Nœud atomique : Bitmap"){width="200px"}
+![Nœud atomique : Bitmap](bitmap.resources/comp_bitmap.png "Nœud atomique : Bitmap"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -105,7 +105,7 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](.
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Détermine le type de sortie du nœud, à retourner en couleur ou en niveaux de gris. |
 | <b>Chemin de ressource PKG</b> *Chaîne* | Chemin d&#39;accès à la [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) référencée par le nœud.   Il est recommandé de ne pas taper manuellement, mais de copier une ressource de l&#39;explorateur et de la coller dans le champ de texte du paramètre, ou de glisser-déposer une ressource bitmap directement de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) sur le nœud Bitmap dans le graphique. |
-| <b>Méthode de redimensionnement</b> *Nombre entier* | Méthode de rééchantillonnage à utiliser lors de la mise à l’échelle supérieure ou inférieure d’un bitmap :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Étirement lissé :</i> appliquez [un filtrage bilinéaire](../../../../glossary/glossary.md) pour effectuer une interpolation sur les pixels source de l’image étirée.</li> <li data-preserve-html="true"><i>Étirement le plus proche :</i> étirez l’image et utilisez la couleur du pixel source le plus proche telle quelle.</li> </ul> |
+| <b>Méthode de redimensionnement</b> *Nombre entier* | Méthode de rééchantillonnage à utiliser lors de la mise à l’échelle supérieure ou inférieure d’un bitmap :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>étire lisse :</i> appliquez [du filtrage bilinéaire](../../../../glossary/glossary.md) pour effectuer une interpolation sur les pixels source de l&#39;image étirée.</li> <li data-preserve-html="true"><i>étire le plus proche :</i> Étirez l&#39;image et utilisez la couleur du pixel source le plus proche telle quelle.</li> </ul> |
 
 ## Outils de peinture bitmap
 

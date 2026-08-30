@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mappeur de fréquences de mappage d'Height pour mapper les fréquences de mappage d'height afin de séparer les niveaux de détail dans les textures.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mappeur de fréquences de mappage d'Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -22,33 +22,37 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-map-frequencies-mapper.png){width="128px"}
+![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper.png){width="128px"}
 
-## Mappeur de fréquences de mappage d&#39;Height
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Sépare les fréquences d&#39;une carte de hauteur en deux cartes distinctes : une avec des différences à grande échelle et une avec des différences à petite échelle.
 
-## Paramètres
-
-* **Relief** : *0.0 - 32.0* contrôle la taille détaillée de la sortie du Displacement.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/heightmap-frequencies.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Relief</b> <i>0.0 - 32.0</i> | Contrôle la taille des détails de la sortie Displacement. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="height-map-frequencies-mapper.resources/heightmap-frequencies.png" />
+        </td>
+    </tr>
 </table>

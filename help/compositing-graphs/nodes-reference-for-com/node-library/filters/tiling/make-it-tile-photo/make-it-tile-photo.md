@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Créer une photo en mosaïque pour convertir les photos en textures de mosaïque homogènes pour la création de matériaux.
+description: Utilisez le nœud Créer une vignette de photo pour convertir des photos en textures de répétition homogènes pour la création de matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Créer une photo en mosaïque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo.png)
 
-![](../../../../../../assets/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-grayscale.png)
 
-## Créer une photo en mosaïque (niveaux de gris)
-
-**Entrée :** *Filtres/Limites*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres > Répétition
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Ce nœud fournit une fonctionnalité de correction des contours pour toute image dont les contours non continus peuvent empêcher la formation de mosaïques. Elle n’affecte rien d’autre que les bords de l’image d’entrée. Si vous souhaitez ajuster l&#39;échelle ou la mosaïque de différentes manières, consultez la section [Réaliser un correctif de mosaïque](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md).
-
-## Paramètres
-
-* **Déformation du masque H** : *-100.0 - 100.0* Introduit la déformation sur l’axe horizontal, pour éviter les transitions non définies.
-* **Déformation du masque V** : *-100.0 - 100.0* Introduit la déformation sur l’axe vertical, pour éviter les transitions non définies.
-* **Taille du masque H** : *0.0 - 1.0* Définit la distance jusqu&#39;à laquelle le bord de transition atteint horizontalement.
-* **Taille du masque V** : *0.0 - 1.0* Définit la distance à laquelle le bord de transition atteint verticalement.
-* **Précision du masque H** : *0.0 - 1.0* Définit le lissage horizontal de la transition.
-* **Précision du masque V** : *0.0 - 1.0* Définit la fluidité de la transition verticale.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mit-photo-ex.png" width="300px"/></div> |
-| --- |
-|  |
+Ce nœud fournit une fonctionnalité de correction des contours pour toute image dont les contours non continus peuvent empêcher la formation de mosaïques. Elle n&#39;affecte que les contours de l&#39;image d&#39;entrée. Si vous souhaitez ajuster l&#39;échelle ou la mosaïque de différentes manières, consultez la section [Réaliser un correctif de mosaïque](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md).
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Déformation du masque H</b> <i>-100.0 - 100.0</i> | Introduit la déformation sur l’axe horizontal, pour éviter les transitions non définies. |
+| <b>Déformation du masque V</b> <i>-100.0 - 100.0</i> | Introduit la déformation sur l’axe vertical, pour éviter les transitions non définies. |
+| <b>Taille du masque H</b> <i>0.0 - 1.0</i> | Définit la distance horizontale du bord de transition. |
+| <b>Taille du masque V</b> <i>0.0 - 1.0</i> | Définit la distance verticale du bord de transition. |
+| <b>Précision du masque H</b> <i>0.0 - 1.0</i> | Définit le lissage horizontal de la transition. |
+| <b>Précision du masque V</b> <i>0.0 - 1.0</i> | Définit le lissage vertical de la transition. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-photo.resources/mit-photo-ex.png" />
+        </td>
+    </tr>
 </table>

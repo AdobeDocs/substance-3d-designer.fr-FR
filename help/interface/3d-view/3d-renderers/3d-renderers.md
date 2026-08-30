@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Choisissez entre les rendus pixellisé et tracé dans la vue 3D pour obtenir une qualité d’aperçu et des performances différentes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moteurs de rendu 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -22,8 +22,8 @@ ht-degree: 7%
 
 La vue 3D propose quatre systèmes de rendu :
 
-* Deux versions du rendu 3D interne d’Adobe : Pixelliseur pour la visualisation en temps réel avec prise en charge des ombres et Pathtracer GPU pour le rendu précis des ombres, des reflets, des propriétés de matériau complexes et plus encore.
-* Deux moteurs de rendu tiers obsolètes : OpenGL et Iray de NVIDIA.
+* Deux versions du rendu 3D interne d’Adobe : Pixelliseur pour la visualisation en temps réel avec prise en charge des ombres et Pathtracer GPU pour un rendu précis des ombres, des reflets, des propriétés de matériau complexes et plus encore.
+* Deux systèmes de rendu tiers obsolètes : OpenGL et Iray de NVIDIA.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ La vue 3D propose quatre systèmes de rendu :
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -50,20 +50,20 @@ La vue 3D propose quatre systèmes de rendu :
 
 +++
 
-Le moteur de rendu 3D d&#39;Adobe est entièrement conçu pour prendre en charge les technologies modernes telles que le langage d&#39;ombrage [MaterialX](https://materialx.org/) et la description de scène [USD](https://openusd.org/release/index.html), et est prêt à offrir une cohérence visuelle complète dans l&#39;ensemble de l&#39;écosystème Substance 3D.
+Le moteur de rendu 3D d&#39;Adobe est conçu en sol pour prendre en charge les technologies modernes telles que le langage d&#39;ombrage [MaterialX](https://materialx.org/) et la description de scène [USD](https://openusd.org/release/index.html), et est prêt à offrir une cohérence visuelle complète dans l&#39;ensemble de l&#39;écosystème Substance 3D.
 
-Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) d’Adobe pour importer de nombreux formats de scène 3D, tels que FBX et GLTF, et effectuer le rendu complet de ces scènes, y compris les matériaux, les textures, les caméras et les lumières.
+Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) d&#39;Adobe pour importer de nombreux formats Scène 3D, tels que FBX et GLTF, et restituer ces scènes intégralement, y compris les matériaux, les textures, les caméras et les éclairages.
 
-+++ Importation de scène : Pixellisation et OpenGL
++++ Importation de scènes : Pixellisation et OpenGL
 
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](
 
 +++
 
-![Pixellisation - Exemple 1](../../../assets/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
+![Pixellisation - Exemple 1](3d-renderers.resources/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](
 
 +++
 
-![Pathtracer GPU - Exemple 1](../../../assets/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
+![Pathtracer GPU - Exemple 1](3d-renderers.resources/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 <b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
 
-La documentation Adobe Standard Material est documentée en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
+La documentation Adobe Standard Material est documentée en détail dans [cette section](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
 
 +++
 
@@ -210,13 +210,13 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++ Lambert
 
-Ombrage à éclairage lambert très simple, ne prend en charge que le canal Diffuse. Utilise l’ancien système d’éclairage des points et ne prend pas en charge l’éclairage des images HDR.
+Shader d&#39;éclairage lambert très simple, ne prend en charge que le canal Diffuse. Utilise l’ancien système d’éclairage des points et ne prend pas en charge l’éclairage d’image HDR.
 
 +++
 
 +++ Informations sur le maillage
 
-Déboguer un shader non éclairé pour visualiser les données de géométrie suivantes :
+Déboguez le shader non éclairé pour visualiser les données de géométrie suivantes :
 
 * Normale
 
@@ -230,7 +230,7 @@ Déboguer un shader non éclairé pour visualiser les données de géométrie su
 
 * Couleur de vertex
 
-* Position (espace universel)
+* Position (espace monde)
 
 La visualisation est définie sur [0, 1]. Il n&#39;est donc pas possible d&#39;acquérir une lecture directe de valeurs en dehors de cette plage sur l&#39;écran.
 
@@ -238,7 +238,7 @@ La visualisation est définie sur [0, 1]. Il n&#39;est donc pas possible d&#39;a
 
 +++ Métallique rugosité
 
-Matériau PBR standard pour le modèle de rugosité métallique. Utilise les couches Couleur de base, Métallique et Rugosité.
+Matériau PBR standard pour le modèle de Métallique rugosité. Utilise les couches Base color, Métallique et Rugosité.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -248,9 +248,9 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++
 
-+++ Rugosité métallique - Revêtue
++++ Métallique rugosité - Enduite
 
-Matériau PBR revêtu pour le modèle de rugosité métallique. Utilise les couches Couleur de base, Métallique et Rugosité, ainsi que des couches « Couche » supplémentaires.
+Matériau PBR revêtu pour le modèle de Métallique rugosité. Utilise des canaux de Base color, Métallique et de Rugosité, ainsi que des canaux supplémentaires de type « couche ».
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -260,9 +260,9 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++
 
-+++ Rugosité métallique - SSS
++++ MÉTALLIQUE RUGOSITÉ - SSS
 
-Matériau PBR à diffusion sous-surface pour le modèle de rugosité métallique. Utilise les couches Couleur de base, Métallique et Rugosité, ainsi qu’une couche Diffusion supplémentaire.
+Matériau PBR de diffusion sous la surface pour le modèle de Métallique rugosité. Utilise des couches de Base color, Métallique et de Rugosité, ainsi qu’une couche de diffusion supplémentaire.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -274,7 +274,7 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++ Spéculaire Brillance
 
-Matériel PBR standard pour le modèle Specular Glossiness. Utilise les canaux Diffus, Specular et Brillance.
+Matériau PBR standard pour la Brillance Specular. Utilise des canaux de Diffuse, de Specular et de Brillance.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -286,14 +286,14 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++ Non éclairé
 
-Ombrage de débogage non éclairé pour visualiser les textures sans éclairage. Utilise uniquement une couche de « couleur ».
+Déboguer le shader sans éclairage pour visualiser les cartes de texture sans éclairage. Utilise uniquement une couche de « couleur ».
 
 +++
 
-Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l’aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l&#39;aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Ce moteur de rendu est **obsolète** : il ne recevra pas de nouvelles fonctionnalités et sera mis hors service dans une future version de Designer.
 
-![OpenGL - Exemple 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}
+![OpenGL - Exemple 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}

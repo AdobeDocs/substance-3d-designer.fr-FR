@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Prémultiplié vers Direct pour convertir les textures alpha prémultipliées au format alpha direct.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pré-multiplié en direct
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiply-straight.png){width="128px"}
 
-## Pré-multiplié en direct
-
-**Entrée :** *Filtres/Canaux*
-
-**Simple**
+<b>Entrées :</b> Filtres > Canaux
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Supprime la couleur prémultipliée du RGB sur les contours fusionnés alpha. La couleur d’arrière-plan est effectivement « déprémultipliée », mais la couche alpha est supprimée du processus.
 
 Cela supprime l’effet de frange parfois observé autour des bords des images avec une couche alpha.
-
-## Paramètres
-
-*Aucun paramètre.*
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
 
 </td>
 </tr>

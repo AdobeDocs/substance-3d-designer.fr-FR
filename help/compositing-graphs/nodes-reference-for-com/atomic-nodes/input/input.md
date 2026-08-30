@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Entrée pour définir les paramètres d’entrée des graphiques de Substances pouvant être affichés et ajustés par les utilisateurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nœud atomique : couleur d&#39;entrée](../../../../assets/comp_inputcolor_1.png "Nœud atomique : couleur d&#39;entrée"){width="200px"}
+![Nœud atomique : couleur d&#39;entrée](input.resources/comp_inputcolor_1.png "Nœud atomique : couleur d&#39;entrée"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœud atomique : Niveaux de gris d&#39;entrée](../../../../assets/comp_inputgrayscale_1.png "Nœud atomique : Niveaux de gris d&#39;entrée"){width="200px"}
+![Nœud atomique : Niveaux de gris d&#39;entrée](input.resources/comp_inputgrayscale_1.png "Nœud atomique : Niveaux de gris d&#39;entrée"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœud atomique : valeur d&#39;entrée](../../../../assets/comp_inputnumeric_1.png "Nœud atomique : valeur d&#39;entrée"){width="200px"}
+![Nœud atomique : valeur d&#39;entrée](input.resources/comp_inputnumeric_1.png "Nœud atomique : valeur d&#39;entrée"){width="200px"}
 
 </td>
 </tr>
@@ -44,7 +44,7 @@ Les nœuds d’entrée sont un type spécial de nœud qui crée un emplacement d
 
 Contrairement aux [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), vous devez explicitement placer une entrée Couleur, Niveaux de gris ou Valeur. Il n’est pas possible de créer vos propres entrées « agnostiques » qui changent de type en fonction de ce qui y est connecté.
 
-Les nœuds d&#39;entrée ne sont pas aussi essentiels que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des graphiques avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser le résultat de votre instance de graphique ou de nœud sur une entrée externe, par exemple lors de la création d&#39;[instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
+Les nœuds d&#39;entrée ne sont pas aussi essentiels que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des graphiques avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser le résultat de votre instance de graphique ou de nœud sur une entrée externe, par exemple lors de la création d&#39;[instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -107,10 +107,10 @@ Si vous voulez le voir avec les sorties d&#39;un autre Graphe, vous devrez soit 
 |  |  |
 | --- | --- |
 | <b>Identifiant</b> *Chaîne* | Le seul attribut unique et obligatoire. Ne peut pas contenir d&#39;espaces.   Celui-ci est utilisé pour étiqueter les entrées si aucun libellé n&#39;est configuré et pour différencier les sorties. Ne les laissez pas simplement à « input\_1 » ! |
-| <b>Description</b> *Chaîne* | Description facultative utilisée dans la bibliothèque Designer et le tiroir Painter. |
-| <b>Libellé</b> *Chaîne* | Libellé de l’interface utilisateur utilisé pour un étiquetage agréable dans l’interface utilisateur de Designer et Painter. Peut contenir des espaces.   Il est recommandé de définir un nom similaire à l’identifiant, avec des barres d’espace au lieu de tirets de soulignement. |
-| <b>Données utilisateur</b> *Chaîne* | Données utilisateur supplémentaires et facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. Il s’agit essentiellement d’un champ de données personnalisé générique. |
-| <b>Groupe</b> *Chaîne* | Attribut de groupe utilisé pour regrouper les entrées afin de créer des [modes de création de liens](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) Designer.   Les entrées dotées d&#39;un attribut de groupe identique (sensible à la casse) seront présentées comme une connexion unique en mode Matériau compact. |
+| <b>Description</b> *Chaîne* | Description facultative utilisée dans la bibliothèque Designer et l’étagère Painter. |
+| <b>Libellé</b> *Chaîne* | Libellé de l’interface utilisateur utilisé pour un étiquetage agréable dans l’interface utilisateur de Designer et Painter. Peut contenir des espaces.   Il est recommandé de définir un nom similaire à l’Identifiant, avec des barres d’espace au lieu des traits de soulignement. |
+| <b>Données utilisateur</b> *Chaîne* | Données utilisateur supplémentaires et facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. Il s’agit essentiellement d’un champ de données personnalisé, générique. |
+| <b>Groupe</b> *Chaîne* | Attribut de groupe utilisé pour regrouper les entrées afin de créer des [modes de création de liens](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) Designer.   Les entrées dotées d’un attribut de groupe identique (sensible à la casse) seront présentées comme une connexion unique dans Compact Mode de matériau. |
 
 ## Transmission
 
@@ -124,7 +124,7 @@ Les paramètres de base incluent, entre autres, la <b>taille de sortie</b>, le <
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Entrée principale dans le graphique de Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Entrée principale dans le graphique de Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
@@ -145,11 +145,11 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 >[!IMPORTANT]
 >
-> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
+> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
 
 ## Attributs d&#39;intégration
 
-Les entrées ne sont pas directement envoyées à la vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
+Les entrées ne sont pas directement envoyées à la vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 En outre, les attributs Utilisation sont également utilisés avec les [modes de création de lien](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), pour correspondre aux emplacements d&#39;entrée et de sortie corrects.
 

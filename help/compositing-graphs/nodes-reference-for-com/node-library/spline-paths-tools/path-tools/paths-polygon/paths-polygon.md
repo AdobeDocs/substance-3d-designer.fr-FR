@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Polygone des tracés pour créer des tracés polygonaux à partir de données de sommet pour la génération de motifs géométriques.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Polygone des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/paths-polygon-icon.png "Icône de nœud")
+![Icône de nœud](paths-polygon.resources/paths-polygon-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -41,16 +41,21 @@ Utilisez le nœud [Transformation 2D du tracé](../../../../../../compositing-gr
 </tr>
 </table>
 
-## Connecteurs de sortie
+<a name="outputs"></a>
 
-<b>Tracés</b> *Couleur*\
-Contient une liste d’un chemin codé, décrivant une liste de segments codés.\
-Il n’est pas destiné à être utilisé ou modifié directement. Recherchez Chemins pour trouver des nœuds compatibles.
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Tracés</b> <i>Couleur</i> | Contient une liste d’un chemin codé, décrivant une liste de segments codés.<br>Ceci n&#39;est pas destiné à être utilisé ou modifié directement. Recherchez Chemins pour trouver des nœuds compatibles. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Nombre de côtés</b> *Nombre entier*\
-Conseil : entrez un nombre compris entre 100 et 1 000 pour générer un cercle.
+|  |  |
+|:---|:---|
+| <b>Nombre de côtés</b> <i>Nombre entier</i> | Conseil : entrez un nombre compris entre 100 et 1 000 pour générer un cercle. |
 
 ## Exemples
 
@@ -58,12 +63,12 @@ Conseil : entrez un nombre compris entre 100 et 1 000 pour générer un cercle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

@@ -1,34 +1,30 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Niveaux de gris du mappeur UV pour mapper des textures en niveaux de gris le long des splines pour la génération de textures procédurales.
+description: Utilisez le nœud Niveaux de gris du mappeur d'UV pour mapper les textures en niveaux de gris le long des splines pour une génération de textures procédurale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Grayscale
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mappeur UV Niveaux de gris
+title: Mappeur d’UV en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
 
-# Mappeur UV Niveaux de gris
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+# Mappeur d’UV en niveaux de gris
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/uv-mapper-grayscale-icon.png "Icône de nœud")
+![Icône de nœud](uv-mapper-grayscale.resources/uv-mapper-grayscale-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -37,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Mappe l’image en niveaux de gris en entrée à l’aide des coordonnées fournies dans l’entrée UV.
+Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fournies dans l’entrée d’UV.
 
 </td>
 </tr>
@@ -45,17 +41,24 @@ Mappe l’image en niveaux de gris en entrée à l’aide des coordonnées fourn
 
 >[!NOTE]
 >
-> Voir aussi [Couleur du mappeur UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
+> Voir aussi [Couleur du mappeur d&#39;UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>UV</b> *Couleur* Les coordonnées de l&#39;image codées dans les couches rouge (U) et verte (V) d&#39;une image couleur.
+## Entrées
 
-<b>Entrée</b> *Couleur* L’image en niveaux de gris qui doit être mappée aux coordonnées fournies dans l’entrée UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Couleur</i> | Coordonnées d’image codées dans les couches rouge (U) et vert (V) d’une image couleur. |
+| <b>Entrée</b> <i>Couleur</i> | Image en niveaux de gris qui doit être mappée aux coordonnées fournies dans l&#39;entrée UV. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
 
-<b>Sortie</b> *Couleur* Résultat du mappage de l’image en entrée à l’aide des coordonnées UV en entrée, en tant qu’image en niveaux de gris.
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Sortie</b> <i>Couleur</i> | Résultat du mappage de l’Image d&#39;entrée à l’aide des coordonnées d’UV d’entrée, sous la forme d’une image en niveaux de gris. |
 
 ## Exemples
 
@@ -66,11 +69,11 @@ Mappe l’image en niveaux de gris en entrée à l’aide des coordonnées fourn
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -82,11 +85,11 @@ Mappe l’image en niveaux de gris en entrée à l’aide des coordonnées fourn
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -96,18 +99,4 @@ Mappe l’image en niveaux de gris en entrée à l’aide des coordonnées fourn
 </tr>
 </table>
 
-![Exemple de nœud 1](../../../../../../assets/UVMapper-Graph.jpg "Exemple de nœud 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Exemple de nœud 1](uv-mapper-grayscale.resources/UVMapper-Graph.jpg "Exemple de nœud 1")

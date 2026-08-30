@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirt pour générer des masques d’accumulation de dirts en fonction de la courbure, de la position et de l’occlusion du maillage.
+description: Utilisez le nœud Dirt pour générer des masques d'accumulation de dirt en fonction de la courbure, de la position et de l'occlusion du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Saleté
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 7%
 
 ---
 
@@ -22,57 +22,59 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
-## Saleté
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque représente les dirts des bords et des coins occultés et enfoncés, en fonction de l&#39;AO et de la courbure cuits.
-
-## Paramètres
-
-### Entrées
-
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage. Obligatoire !
-* **Occlusion ambiante** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage. Obligatoire !
-* **Entrée Usure/salissures** : *Entrée niveaux de gris*\
-  Entrée de mappage usure/salissures personnalisée, facultative, activée par le paramètre.
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-* **Espace universel normal** : *entrée de couleur*\
-  Utilisé uniquement pour le format triplanaire.
-* **Position** : *Entrée Couleur*\
-  Utilisé uniquement pour le format triplanaire.
-
-### Paramètres
-
-* **Niveau de Dirt** : *0,0 - 1,0* Contrôle principal du montant du dirt.
-* **Contraste du Dirt** :*0.0 - 1.0* contrôle le contraste principal du dirt dans le masque.
-* **Quantité d&#39;Usure/salissures** : *0.0 - 1.0* Définit le degré de granulosité du dirt. Réglez la valeur sur 0 pour obtenir un dirt parfaitement lisse.
-* **Masquage des bords** : *0,0 - 1,0* quantité de dirt à supprimer des bords relevés (en fonction de la courbe de référence).
-* **Utiliser l&#39;Usure/salissures personnalisée** : *Faux/Vrai* Active l&#39;utilisation de l&#39;entrée de mappage usure/salissures personnalisée au lieu de l&#39;Usure/salissures intégrée.
-* **Échelle d&#39;Usure/salissures** : *1 - 16* définit l&#39;échelle de mosaïque des détails d&#39;Usure/salissures.
-* **Utiliser la projection triplanaire** : *Faux/Vrai* Utiliser la [projection triplanaire](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) pour le mappage Usure/salissures, supprime les coutures.
-* **Contraste de fusion triplanaire** : *0.001 - 1.0* définit le contraste de la projection triplanaire.
-
-## Exemples d’images
-
-![](../../../../../../assets/dirt-ex.gif)
+Ce masque représente les dirts dans les angles et bords occultés et enfoncés, en fonction de l&#39;AO et de la courbure bakés.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Obligatoire ! |
+| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Obligatoire ! |
+| <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> | Entrée de mappage usure/salissures personnalisée, facultative, activée par le paramètre. |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+| <b>Espace universel normal</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
+| <b>Position</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau Dirt</b> <i>0.0 - 1.0</i> | Contrôle principal pour le montant du dirt. |
+| <b>Contraste du Dirt</b> <i>0.0 - 1.0</i> | Contrôle le contraste principal du dirt du masque. |
+| <b>Quantité Usure/salissures</b> <i>0.0 - 1.0</i> | Définit le degré de grunge du dirt. Réglez la valeur sur 0 pour obtenir un dirt parfaitement lisse. |
+| <b>Masquage des contours</b> <i>0.0 - 1.0</i> | Quantité de dirt à supprimer des bords relevés (en fonction de la map curvature). |
+| <b>Utiliser l&#39;Usure/salissures personnalisée</b> <i>Faux/Vrai</i> | Permet d&#39;utiliser l&#39;entrée de mappage usure/salissures personnalisée au lieu de l&#39;Usure/salissures intégrée. |
+| <b>Échelle Usure/salissures</b> <i>1 - 16</i> | Définit l’échelle de répétition des détails d’Usure/salissures. |
+| <b>Utiliser le mode triplanaire</b> <i>Faux/Vrai</i> | Utiliser [Projection triplanaire](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) pour le mappage Usure/salissures, supprime les seams. |
+| <b>Contraste de fusion triplanaire</b> <i>0.001 - 1.0</i> | Définit le contraste de la Projection triplanaire. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

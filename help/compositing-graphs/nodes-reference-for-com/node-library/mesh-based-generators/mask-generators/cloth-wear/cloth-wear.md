@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure du tissu pour générer des masques d'usure sur les surfaces du tissu en fonction de la courbure du maillage et des zones de contact.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Usure du tissu
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,45 +22,50 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cloth-wear.png){width="128px"}
+![](cloth-wear.resources/cloth-wear.png){width="128px"}
 
-## Usure du tissu
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Simple**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Le masque représente les bords effilochés sur les matériaux en tissu. Il utilise une carte de hauteur de détail de tissu qui détermine la plupart de l&#39;aspect ; sans une carte appropriée, l&#39;effet semble très basique.
-
-## Paramètres
-
-### Entrées
-
-* **Height Du Tissu** : *Entrée En Niveaux De Gris*\
-  Height pour le motif de tissu uniquement. Il ne s’agit pas de l’height de votre objet (cuit), mais plutôt d’un motif de détail en mosaïque.
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-* **Courbure** : *Entrée en niveaux de gris*\
-  Courbure cuite/générée pour déterminer les bords relevés.
-
-### Paramètres
-
-* **Quantité de bords nets** : *0,0 - 1,0*
-* **Lissage à l’usure** : *0.0 - 5.0* Détermine le degré de flou/douceur des bords usés.
-
-## Exemples d’images
-
-![](../../../../../../assets/cloth-wear-ex.gif)
+Le masque représente les bords effilochés sur les matériaux de tissu. Il utilise une carte de hauteur de détail de tissu qui détermine la plupart de l&#39;aspect ; sans une carte appropriée, l&#39;effet semble très basique.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Height de tissu</b> <i>Entrée en niveaux de gris</i> | Height pour le motif de tissu uniquement. Il ne s’agit pas de l’height de votre objet (baké), mais plutôt d’un motif de détail de répétition. |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | courbure bakée/générée pour déterminer les bords relevés. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Quantité de bords nets</b> <i>0.0 - 1.0</i> |  |
+| <b>Lissage</b> <i>0.0 - 5.0</i> | Détermine le niveau de flou/adoucissement des bords usés. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cloth-wear.resources/cloth-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

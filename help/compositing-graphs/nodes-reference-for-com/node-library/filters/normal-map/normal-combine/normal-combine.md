@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Combinaison de normales pour combiner plusieurs cartes de normales pour superposer les détails de surface et les détails.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Combinaison normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Mappage normal
 
@@ -45,17 +45,21 @@ Il s&#39;agit de la meilleure façon et de la plus correcte d&#39;ajouter des d�
 
 Si vous souhaitez fusionner deux cartes normales sans combiner leurs détails (à l&#39;aide d&#39;un masque, par exemple), vous devez utiliser [Fusion normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Normal 2</b> *Couleur* Description
+## Entrées
 
-<b>Normal 1</b> *Couleur* Description
+|  |  |
+|:---|:---|
+| <b>Normal 2</b> <i>Couleur</i> | Description |
+| <b>Normal 1</b> <i>Couleur</i> | Description |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Technique</b> *Entier* Définit la technique de fusion interne à utiliser, en négociant la vitesse pour la qualité.\
-*- Whiteout (qualité inférieure)
-* Mélangeur de couches (haute qualité)
-* Orienté vers le détail (haute qualité)*
+|  |  |
+|:---|:---|
+| <b>Technique</b> *Nombre entier* | Définit la technique de fusion interne à utiliser, en échangeant la vitesse contre la qualité.<br><br>*- Whiteout (qualité faible)<br>* Mélangeur de canaux (qualité élevée)<br>* Orienté vers le détail (qualité élevée)* |
 
 ## Exemples

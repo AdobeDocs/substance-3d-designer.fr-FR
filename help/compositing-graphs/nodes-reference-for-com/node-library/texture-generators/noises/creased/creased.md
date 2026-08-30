@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Plissé pour générer des motifs de plis afin de créer un tissu plissé et des effets de texture de surface froissée.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Plissé
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
-## Plissé
-
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Simple**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,20 +37,27 @@ Ce nœud génère un bruit de type tissu. Elle peut être interprétée comme un
 
 Cette option est utile lorsque vous avez besoin d’un bruit semi-directionnel avec une variation à grande échelle.
 
-## Paramètres
-
-* **Échelle** : *1 - 8*\
-  Définit l’échelle globale de l’effet.
-* **Intensité de déformation** : *0.0 - 128.0* Définit l’intensité de l’effet de courbure/déformation.
-* **Trouble** : *0,0 - 100,0*\
-  Décale légèrement les calques utilisés pour générer le bruit afin d’introduire une variation.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-![](../../../../../../assets/creased-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Échelle</b> <i>1 - 8</i> | Définit l’échelle globale de l’effet. |
+| <b>Intensité de déformation</b> <i>0.0 - 128.0</i> | Définit l’intensité de l’effet de courbure/déformation. |
+| <b>Désordre</b> <i>0.0 - 100.0</i> | Décale légèrement les calques utilisés pour générer le bruit afin d’introduire une variation. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="creased.resources/creased-ex.gif" />
+        </td>
+    </tr>
 </table>

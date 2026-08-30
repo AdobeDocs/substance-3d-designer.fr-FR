@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: Découvrez les graphiques de fonctions de Substance dans Designer pour créer des fonctions personnalisées et des réseaux de nœuds réutilisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphique de la fonction Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 À première vue, le graphique de fonction de Substance est très similaire à un graphique de Substance et le workflow est presque identique.
 
-![Graphique de fonction de Substance](../../assets/image2015-12-18-11-29-28.png "Graphique de fonction de Substance")
+![Graphique de fonction de Substance](the-function-graph.resources/image2015-12-18-11-29-28.png "Graphique de fonction de Substance")
 
 ## La navigation est similaire
 
@@ -53,7 +53,7 @@ Les nœuds disponibles dans le graphique de fonction de Substance sont complète
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Liste des nœuds de graphique de fonction de Substance](../../assets/image2015-12-18-13-46-55.png "Liste des nœuds de graphique de fonction de Substance")
+![Liste des nœuds de graphique de fonction de Substance](the-function-graph.resources/image2015-12-18-13-46-55.png "Liste des nœuds de graphique de fonction de Substance")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Autre point à noter : il n’y a pas de nœud de sortie spécifique où vous br
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœud de sortie du graphique de fonction de Substance](../../assets/image2015-12-18-13-49-43.png "Nœud de sortie du graphique de fonction de Substance")
+![Nœud de sortie du graphique de fonction de Substance](the-function-graph.resources/image2015-12-18-13-49-43.png "Nœud de sortie du graphique de fonction de Substance")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Autre point à noter : il n’y a pas de nœud de sortie spécifique où vous br
 
 Pour définir la sortie, cliquez avec le bouton droit de la souris sur le nœud qui génère la sortie attendue, puis cliquez sur *Définir comme nœud de sortie :*
 
-![Définition du nœud de sortie](../../assets/setoutputnode.gif "Définition du nœud de sortie")
+![Définition du nœud de sortie](the-function-graph.resources/setoutputnode.gif "Définition du nœud de sortie")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ En ce qui concerne les graphiques de Substance, vous pouvez importer des fonctio
 </td>
 <td style="border: 0;" valign="top">
 
-![Ouvrir le graphique de fonction de Substance référencée](../../assets/image2017-6-27-10-44-55.png "Ouvrir le graphique de fonction de Substance référencée")
+![Ouvrir le graphique de fonction de Substance référencée](the-function-graph.resources/image2017-6-27-10-44-55.png "Ouvrir le graphique de fonction de Substance référencée")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ En ce qui concerne les graphiques de Substance, vous pouvez importer des fonctio
 
 Si vous avez un sbs contenant plusieurs fonctions, vous pouvez le glisser-déposer directement dans un graphique de fonction de Substance et choisir la fonction que vous voulez importer dans la liste qui apparaît :
 
-![Graphique de fonction de Substance compensée à partir du package](../../assets/sbsdrag.gif "Graphique de fonction de Substance compensée à partir du package")
+![Graphique de fonction de Substance compensée à partir du package](the-function-graph.resources/sbsdrag.gif "Graphique de fonction de Substance compensée à partir du package")

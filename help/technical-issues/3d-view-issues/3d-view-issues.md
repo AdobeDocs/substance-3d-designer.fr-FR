@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de vue 3D dans Substance 3D Designer, notamment les problèmes de rendu, d’affichage et de performances.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problèmes liés à la vue 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Cette page répertorie les problèmes techniques liés à la [vue 3D](../../inte
 
 ## Basse performance : le GPU discret n’est pas utilisé
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Substance 3D Designer n&#39;utilise pas le GPU *discret* (<b>dGPU</b>) du système et utilise le GPU *intégré* (<b>iGPU</b>) à la place. Cela entraîne de faibles performances lors du rendu des graphiques et/ou de la [vue 3D](../../interface/3d-view/3d-view.md).
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Les systèmes avec graphiques commutables peuvent *forcer le dGPU* qui doit être utilisé pour une *application spécifique* dans un logiciel dédié, selon le fabricant du GPU.
 
@@ -47,39 +47,39 @@ Par exemple, les utilisateurs disposant d&#39;un <b>dGPU Nvidia</b> peuvent effe
 
 ## L’objet 3D est plat
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
-Un objet 3D qui présentait des volumes détaillés dans une session devient plat dans la session suivante, mais le graphique n’a pas changé et la carte d’Height contient les mêmes données.
+Un objet 3D qui présentait des volumes détaillés dans une session devient plat dans la session suivante, mais le graphe n’a pas changé et la Map height contient les mêmes données.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
-L&#39;effet de déformation d&#39;un objet 3D selon une courbe d&#39;Height est effectué à l&#39;aide d&#39;une technique appelée **displacement de facettisation**. Cette technique comporte deux étapes:
+L&#39;effet de déformation d&#39;un objet 3D selon une Map height est effectué à l&#39;aide d&#39;une technique appelée **displacement de Tessellation**. Cette technique comporte deux étapes:
 
-1. **Rotation** : la géométrie de l&#39;objet est *subdivisée* en sommets, ce qui donne une *géométrie plus dense* pour prendre en charge des détails de volume plus fins
-2. **Displacement** : les sommets sont *déplacés*, c&#39;est-à-dire déplacés, le long de leur *vecteur normal*. Le vecteur normal suit la direction vers laquelle se trouve un polygone et a une magnitude (longueur) de 1
+1. **Tessellation** : la géométrie de l&#39;objet est *subdivisée* en vertex, ce qui donne une *géométrie plus dense* pour prendre en charge des détails de volume plus fins
+2. **Displacement** : les vertex sont *déplacés*, c&#39;est-à-dire déplacés, le long de leur *vecteur normal*. Le vecteur normal suit la direction vers laquelle se trouve un polygone et a une magnitude (longueur) de 1
 
 La direction *du displacement* est connue : la direction du vecteur normal.\
-Le displacement *distance* de déplacement des sommets est calculé comme suit : `Distance = Height scale * Height map`. Comme la carte d&#39;Height n&#39;a *pas changé* dans le graphique, cela laisse l&#39;**échelle d&#39;Height**.
+Le displacement *distance* de déplacement des vertex est calculé comme suit : `Distance = Height scale * Height map`. Comme la Map height n&#39;a *pas changé* dans le graphe, cela laisse l&#39;**échelle d&#39;Height**.
 
-La valeur d&#39;échelle d&#39;Height par défaut est **1.0**, ce qui peut entraîner un effet de displacement *invisible* en fonction du maillage affiché dans la vue 3D et de la texture d&#39;Height qui lui est appliquée.
+La valeur d&#39;échelle d&#39;Height par défaut est **1.0**, ce qui peut entraîner un effet de displacement qui n&#39;est *pas perceptible* en fonction du maillage affiché dans la vue 3D et de la Map height qui lui est appliquée.
 
 Cette valeur peut être modifiée de l’une des manières suivantes :
 
-| Dans la vue 3D | Dans la vue Graphique |
+| Dans la vue 3D | Dans la Vue du graphe |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Utilisez la **fenêtre contextuelle Displacement** dans la barre d&#39;outils de gauche.<br>En savoir plus sur la [page dédiée](../../interface/3d-view/displacement/displacement.md). | Créez un nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) et définissez l&#39;utilisation `heightScale` dans ses propriétés.<br>Fournissez une valeur à cette sortie avec une valeur, en utilisant un [nœud flottant constant](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) par exemple, puis *réappliquez le graphique* dans la vue 3D. |
+| Utilisez la **fenêtre contextuelle Displacement** dans la barre d&#39;outils de gauche.<br>En savoir plus sur la [page dédiée](../../interface/3d-view/displacement/displacement.md). | Créez un nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) et définissez l&#39;utilisation `heightScale` dans ses propriétés.<br>Fournissez une valeur à cette sortie avec une valeur, en utilisant un [nœud de Flottant constant](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) par exemple, puis *réappliquez le graphe* dans la vue 3D. |
 
 >[!TIP]
 >
-> À l&#39;aide de cette méthode, vous pouvez définir une valeur d&#39;échelle d&#39;Height personnalisée *par graphique*, qui vous permet de l&#39;ajuster en fonction de la matière spécifique de ce graphique.
+> À l&#39;aide de cette méthode, vous pouvez définir une valeur d&#39;échelle d&#39;Height personnalisée *par graphe*, qui vous permet de l&#39;ajuster pour qu&#39;elle corresponde au matériau spécifique de ce graphe.
 
 ## La vue 3D est entièrement noire
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
-Dans les versions 15.0.0 et ultérieures, la fenêtre d’affichage de la vue 3D est noire plate. Je vois certaines incrustations de texte (par exemple, des échantillons et le temps de rendu), mais la scène 3D n’est pas visible.
+Dans les versions 15.0.0 et ultérieures, le viewport de la vue 3D est noir et plat. Je vois des incrustations de texte (par exemple, des échantillons et le temps de rendu), mais la Scène 3D n’est pas visible.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Versions 15.1 et ultérieures
 
@@ -113,11 +113,11 @@ Désormais, toutes les nouvelles vues 3D utilisent le rendu OpenGL par défaut, 
 
 ## Le message « Moteur de rendu non pris en charge » s’affiche
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Dans les versions 15.0.0 et ultérieures, le message « Moteur de rendu non pris en charge » s’affiche dans le coin inférieur droit de la fenêtre lors de l’utilisation des nouveaux rendus 3D (Pixellisation, Tracé GPU). La scène 3D n’est pas visible.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) a introduit nos nouveaux [rendus 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) internes, qui utilisent des technologies modernes et ne sont donc pas pris en charge par les GPU plus anciens.
 
@@ -144,7 +144,7 @@ Vous pouvez rechercher et ajuster cette option en procédant comme suit :
 
 ## L’objet 3D a l’air entièrement lisse
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Après avoir travaillé sur les données envoyées à l&#39;**Height** [sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), l&#39;objet semble avoir un certain volume, mais *semble tout à fait fluide*, comme si les informations d&#39;height étaient ignorées dans l&#39;ombrage.
 
@@ -152,7 +152,7 @@ Après avoir travaillé sur les données envoyées à l&#39;**Height** [sortie](
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Assurez-vous que les données d&#39;height sont *converties en normales* qui sont connectées à la **sortie normale** [sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
@@ -163,7 +163,7 @@ La solution est assez simple : connectez le dernier nœud du flux menant à la s
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ La solution est assez simple : connectez le dernier nœud du flux menant à la s
 
 ## Le rendu est flou/pixellisé
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 L&#39;image rendue semble floue ou pixellisée lorsque le système utilise la *mise à l&#39;échelle de l&#39;affichage*.
 
@@ -179,7 +179,7 @@ L&#39;image rendue semble floue ou pixellisée lorsque le système utilise la *m
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Par défaut, Designer utilise la résolution d&#39;affichage *mise à l&#39;échelle* pour définir la résolution de rendu de la [vue 3D](../../interface/3d-view/3d-view.md). Vous pouvez modifier ce paramètre afin que la résolution d&#39;affichage *native* soit utilisée à la place pour un rendu précis.
 
@@ -188,7 +188,7 @@ Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
 
 </td>
 </tr>
@@ -196,11 +196,11 @@ Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. 
 
 ## Je ne trouve pas la propriété « Facteur de facettisation »
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Après la mise à niveau de Designer vers la version 15.0.0, je ne trouve plus le paramètre « Facteur de facettisation » dans les propriétés du matériau où il se trouvait auparavant.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Lors de l’utilisation des nouveaux systèmes de rendu (Pixellisation et Pathtracer GPU), le « facteur de facettisation » se trouve dans les propriétés de ces systèmes de rendu. Dans la vue 3D, accédez à <b>Rendu > Modifier les paramètres</b>. La propriété sera répertoriée dans le dock Propriétés.
 
@@ -214,20 +214,20 @@ Lors de l’utilisation des nouveaux systèmes de rendu (Pixellisation et Pathtr
 
 ## Les objets 3D ne semblent pas corrects : leur ombrage ne convient pas à l’éclairage
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
-L’ombrage des objets repose sur leurs vecteurs normaux, tangents et binormaux. Leurs coordonnées utilisent la plage [-1, 1], tandis que les cartes normales utilisent la plage [0, 1] dans la plupart des cas. Pour adapter les valeurs de l&#39;une à l&#39;autre, un <b>biais et une échelle</b> doivent être appliqués : value\*scale+bias.
+L’ombrage des objets repose sur leurs vecteurs normaux, tangents et binormaux. Leurs coordonnées utilisent la plage `[-1, 1]`, tandis que les maps normal utilisent la plage `[0, 1]` dans la plupart des cas. Pour adapter les valeurs de l&#39;une à l&#39;autre, un <b>biais et une échelle</b> doivent être appliqués : `value * scale + bias`.
 
-Par exemple, une échelle de 2 et un biais de -1 adaptent la valeur x de [0, 1] à [-1, 1], donc : x\*2-1.
+Par exemple, une échelle de 2 et un biais de -1 adaptent la valeur x de `[0, 1]` à `[-1, 1]` de sorte que : `x * 2 - 1`.
 
-Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont spécifiés par un filet 3D. Si ces informations sont manquantes, un avertissement s&#39;affiche dans la console lorsque [l&#39;un de ses matériaux](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) est remplacé :
+Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont spécifiés par un Maillage 3D. Si ces informations sont manquantes, un avertissement s&#39;affiche dans la console lorsque [l&#39;un de ses matériaux](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) est remplacé :
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
 ```
 
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Pour les scènes exportées aux formats USD il y a un certain temps : réexportez la scène en utilisant une version récente de USD, qui inclut les données nécessaires. Faites attention aux propriétés liées à l’échelle normale et au biais, le cas échéant, qui dépendent du logiciel utilisé pour exporter la scène.
 
@@ -235,11 +235,11 @@ Lorsque [remplace une matière](../../working-with-3d-scenes/overriding-scene-ma
 
 ## Blocage lors du démarrage de la vue 3D
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Designer se bloque au démarrage de la vue 3D, lors de la création d’un projet, du chargement d’un projet ou du démarrage manuel d’une vue 3D.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Tout d&#39;abord, assurez-vous que votre système est conforme à la [configuration requise](../../getting-started/system-requirements/system-requirements.md) de Designer.
 

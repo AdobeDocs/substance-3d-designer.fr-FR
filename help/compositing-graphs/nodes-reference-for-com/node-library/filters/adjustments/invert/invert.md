@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Inverser pour inverser les valeurs de couleur dans les textures afin de créer des effets négatifs et des inversions de masque.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Inverser
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/invert-greyscale.png){width="128px"}
+![](invert.resources/invert-greyscale.png){width="128px"}
 
-![](../../../../../../assets/invert-3.png){width="128px"}
+![](invert.resources/invert-3.png){width="128px"}
 
-## Inverser (Niveaux de gris)
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,16 +39,24 @@ Inverse les couleurs d’entrée.
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Inverser » pour les entrées de couleur, « Inverser les niveaux de gris » pour les entrées de niveaux de gris.
 
-## Paramètres
-
-* **Inverser** :*Faux/Vrai* active ou désactive l&#39;effet.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/invert-gray.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Inverser</b> <i>Faux/Vrai</i> | Active ou désactive l’effet. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="invert.resources/invert-gray.png" />
+        </td>
+    </tr>
 </table>
