@@ -120,7 +120,7 @@ Ajustez la valeur par défaut ou la plage adoucie afin d’inclure la première 
 >
 > Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour inclure la valeur par défaut. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
-La plage souple ![ ne contient pas la valeur « solution ](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif " » La plage souple ne contient pas la valeur « solution ") »
+La plage souple ![&#x200B; ne contient pas la valeur « solution &#x200B;](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif " » La plage souple ne contient pas la valeur « solution ") »
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) La plage souple est hors de la plage fixe
 
