@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Quantifier la couleur pour réduire le nombre de niveaux de couleur des effets de postérisation stylisés.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Quantifier la couleur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](../../../../../../assets/QuantizeColor.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](quantize-color.resources/QuantizeColor.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -51,45 +51,31 @@ Cela permet de mieux contrôler les couleurs extraites.
 
 Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer une palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Appliquer la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md), [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [Afficher la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>Entrée</b> *Couleur* PRINCIPALE | Image couleur à quantifier. |
+|:---|:---|
+| <b>Entrée</b> <i>Couleur</i> PRINCIPALE | Image couleur à quantifier. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Couleur* | Image couleur quantifiée. |
-| <b>ID</b> *Niveaux de gris* | Carte dans laquelle chaque couleur quantifiée se voit attribuer un identifiant entier unique.   Il peut être utilisé pour :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extraire un masque</b> de certaines zones quantifiées avec le nœud [ID vers masque](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)</li> <li data-preserve-html="true"><b>Redéfinir les couleurs</b> de l&#39;image quantifiée avec les nœuds [Appliquer la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) ou [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)</li> </ul> |
-| <b>Palette</b> *Couleur* | Palette extraite de l’image, contenant les couleurs restantes après quantification.   L’image est une liste ordonnée de couleurs RGB codées sous la forme d’une ligne de pixels et peut contenir jusqu’à 256 couleurs.   La palette peut être visualisée avec le nœud [Afficher la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantité de couleur de la palette</b> *Nombre entier* | Quantité de couleurs stockées dans la palette. |
+|:---|:---|
+| <b>Sortie</b> <i>Couleur</i> | Image couleur quantifiée. |
+| <b>ID</b> <i>Niveaux de gris</i> | Carte dans laquelle chaque couleur quantifiée se voit attribuer un identifiant entier unique.   Il peut être utilisé pour :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extraire un masque</b> de certaines zones quantifiées avec le nœud [ID vers masque](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)</li> <li data-preserve-html="true"><b>Redéfinir les couleurs</b> de l&#39;image quantifiée avec les nœuds [Appliquer la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) ou [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)</li> </ul> |
+| <b>Palette</b> <i>Couleur</i> | Palette extraite de l’image, contenant les couleurs restantes après quantification.   L’image est une liste ordonnée de couleurs RGB codées sous la forme d’une ligne de pixels et peut contenir jusqu’à 256 couleurs.   La palette peut être visualisée avec le nœud [Afficher la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Quantité de couleur de la palette</b> <i>Nombre entier</i> | Quantité de couleurs stockées dans la palette. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Max. quantité de couleur</b> *Nombre entier* | Quantité maximale de couleurs à utiliser dans l’image quantifiée.   Cette valeur est identique à celle utilisée dans la palette extraite de l’image.   «Maximum» signifie que ce montant peut ne pas être atteint en raison de la technique de quantification utilisée. Vérifiez dans la sortie « Quantité de couleur de la palette » la quantité réelle de couleurs extraites. |
 | <b>Lissage de contour</b> *Flotter* | Contrôle le rayon d’un effet de lissage appliqué à l’image d’entrée, utilisé pour simplifier l’image quantifiée en formes plus unies et cohérentes.   Remarque : ce lissage nécessite des calculs intensifs. Par conséquent, l’augmentation de cette valeur augmente sensiblement le temps de calcul du nœud. |
 | <b>Tramage</b> *Flotter* | Applique un motif de tramage afin de recréer les dégradés et les mélanges de couleurs dans l’image d’origine, tout en utilisant uniquement les couleurs restantes après la quantification.   Veillez à utiliser la valeur de lissage de contour de 0 pour produire l’effet d’interpolation attendu. |
@@ -104,11 +90,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -117,11 +103,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -130,11 +116,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -143,11 +129,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -156,11 +142,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>Après</i>
     </td>
   </tr>

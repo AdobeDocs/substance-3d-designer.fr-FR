@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lueur pour ajouter des effets de lueur aux textures afin de créer des états de matériau lumineux et émissifs.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Lueur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-greyscale.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-3.png){width="128px"}
 
-## Lueur
-
-**Entrée :** *Filtres/Effets*
-
-**Simple**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -45,19 +41,27 @@ Gardez à l’esprit qu’il ne s’agit pas d’une fonctionnalité prévue pou
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez Lueur pour les entrées Couleur ou Lueur en niveaux de gris pour les entrées Niveaux de gris.
 
-## Paramètres
-
-* **Quantité de lueur** : *0.0 - 1.0* Opacité globale pour l’effet de lueur.
-* **Quantité de suppression** : *seuil de 0 à 1,0* seuil pour savoir quand couper l&#39;effet de lueur. Utile pour les zones semi-transparentes.
-* **Taille de la lueur** :*0.0 - 20.0* contrôle l’étendue de l’effet de lueur.
-* **Couleur de rayonnement** : *(Valeur de couleur) (Version de couleur uniquement)*Définit la couleur de l’effet de rayonnement.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Quantité de lueur</b> <i>0.0 - 1.0</i> | Opacité globale de l’effet Rayonnement. |
+| <b>Effacer la quantité</b> <i>0.0 - 1.0</i> | Seuil indiquant quand il faut supprimer l’effet de lueur. Utile pour les zones semi-transparentes. |
+| <b>Taille de la lueur</b> <i>0.0 - 20.0</i> | Détermine l’étendue de l’effet de lueur. |
+| <b>Couleur de lueur</b> <i>(valeur de couleur) (version de couleur uniquement)</i> | Définit la couleur de l’effet de lueur. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="glow.resources/glow-ex.png" />
+        </td>
+    </tr>
 </table>

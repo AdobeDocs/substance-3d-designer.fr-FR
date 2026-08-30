@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Correspondance de Rendu PBR pour convertir les sorties de matériau en différents formats de correspondance de Rendu PBR.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mappage de rendu PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '187'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-color.png)![](pbr-render-mapping.resources/pbr-render-mapping-grayscale.png)
 
-## Mappage du rendu PBR (couleur/niveaux de gris)
-
-**Entrée :** *Filtres de matériaux/Utilitaires PBR*
-
-**Simple**
+<b>Entrée :</b> Filtres de matériau > Utilitaires PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,24 +37,38 @@ Il s&#39;agit d&#39;un nœud d&#39;extension pour le [nœud Rendu PBR](../../../
 
 Il existe une version en couleurs et en niveaux de gris pour les deux types de données : utiliser la couleur pour les cartes de diffusion, utiliser les niveaux de gris pour les cartes de rugosité, de métal et autres cartes en niveaux de gris.
 
-### Entrées
+</td>
+</tr>
+</table>
 
-* **Texture** :*Entrée Couleur/Niveaux De Gris*\
-  Texture à mapper sur la forme.
-* **UV** : *entrée de couleur* entrée de données UV obligatoire à partir d&#39;un [nœud de Rendu PBR.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Texture</b> <i>Entrée Couleur/Niveaux De Gris</i> | Texture à mapper sur la forme. |
+| <b>UV</b> <i>Entrée couleur</i> | Entrée de données d&#39;UV obligatoire à partir d&#39;un [nœud de Rendu PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md). |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-* **Couleur d&#39;arrière-plan** : *(Valeur de couleur)*Définissez une valeur de couleur unie à utiliser en arrière-plan.
+|  |  |
+|:---|:---|
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Définissez une valeur de couleur unie à utiliser en arrière-plan. |
 
-## Exemples d’images
+## Exemples
 
 Exemple : composition de quatre nœuds de mappage de Rendu PBR différents utilisant un [histogramme sélectionné](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md) sur un [dégradé linéaire](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) comme masques.
 
-![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
-
-![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex-2.png" />
+        </td>
+    </tr>
 </table>

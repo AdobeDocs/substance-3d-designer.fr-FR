@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Découvrez les bonnes pratiques et les règles de création de graphiques de Substance pour garantir des workflows propres, maintenus et efficaces.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Règles de création de graphiques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Les éléments de graphique sont des objets d&#39;assistant qui peuvent être pl
 
 La principale caractéristique qui permet d’obtenir des graphiques plus nets et plus faciles à lire est l’emplacement des images autour des groupes principaux de votre graphique. Sans bloc, un grand graphique est presque illisible, et même les petits graphiques deviennent beaucoup plus faciles à comprendre une fois les blocs dessinés. L&#39;un des grands avantages des images est que leurs <b> noms sont toujours rendus à la même échelle</b>, même si vous effectuez un zoom arrière très éloigné.
 
-![Images dans les graphiques en Substances](../../assets/frames.gif "Images dans les graphiques en Substances")
+![Images dans les graphiques en Substances](graph-creation-etiquette.resources/frames.gif "Images dans les graphiques en Substances")
 
 Les cadres permettent de comprendre beaucoup plus facilement ce qui se passe dans un graphique. Ils peuvent vous aider, en tant qu’auteur, à reprendre votre travail des mois plus tard, ou aider un autre utilisateur, tel qu’un collègue, à trouver son chemin dans un graphique auquel il n’est pas habitué.
 
@@ -57,7 +57,7 @@ Les commentaires et les épingles sont secondaires par rapport aux blocs et ne s
 
 Les entrées et les sorties doivent être placées aux extrémités des graphiques : toutes les sorties à droite, toutes les entrées à gauche, chacune alignée verticalement. Cela facilite leur recherche et leur identification.
 
-![Position des entrées et sorties](../../assets/inout.gif "Position des entrées et sorties")
+![Position des entrées et sorties](graph-creation-etiquette.resources/inout.gif "Position des entrées et sorties")
 
 L’exemple ci-dessus est un cas extrême : les images ne sont pas toujours nécessaires ou possibles, mais il doit être clair que l’alignement vertical des Entrées et Sorties est beaucoup plus clair qu’un placement aléatoire et mélangé.
 
@@ -65,7 +65,7 @@ L’exemple ci-dessus est un cas extrême : les images ne sont pas toujours néc
 
 Dans les grands graphes très longs, les liens sont parfois établis sur une très grande étendue. Cela conduit à des fils de liaison confus traversant le graphique sans beaucoup de contrôle. Le raccourci « Alt + Maj + Faire glisser » vous permet de réorganiser ces liens, de les rediriger sur un chemin différent en subdivisant un lien et en ajoutant une poignée supplémentaire au milieu. Il est recommandé de l’utiliser dans les scénarios où cela est logique.
 
-![Réacheminement des liens](../../assets/linkjreroute.gif "Réacheminement des liens")
+![Réacheminement des liens](graph-creation-etiquette.resources/linkjreroute.gif "Réacheminement des liens")
 
 ### Étiquette, identificateur et utilisation
 
@@ -73,15 +73,15 @@ Tout graphique destiné au partage ou à la publication doit faire l’objet d�
 
 Les étiquettes suggérées par défaut ne sont jamais suffisantes. Prenez le temps et les efforts nécessaires pour ajouter des étiquettes personnalisées aux paramètres exposés et à vos entrées et sorties.
 
-![Identifiant et libellé](../../assets/output-label.png "Identifiant et libellé")
+![Identifiant et libellé](graph-creation-etiquette.resources/output-label.png "Identifiant et libellé")
 
 Essayez de ne pas avoir d&#39;identificateur et de libellé trop différents : dans le cas où l&#39;identificateur est utilisé ailleurs (dans plusieurs fonctions), il peut être très difficile de trouver quelle propriété d&#39;interface utilisateur est liée à quelle variable.
 
-![Clarté de l’identifiant](../../assets/labelvsidentifier.png "Clarté de l’identifiant")
+![Clarté de l’identifiant](graph-creation-etiquette.resources/labelvsidentifier.png "Clarté de l’identifiant")
 
 Essayez de faire correspondre vos libellés aux termes que vous utilisez dans les cadres (libellés de cadre) et les commentaires. Il est ainsi plus facile de savoir quelle section du graphique est liée à quel paramètre exposé
 
-![Libellés d’image et de paramètre correspondants](../../assets/match-labels.png "Libellés d’image et de paramètre correspondants")
+![Libellés d’image et de paramètre correspondants](graph-creation-etiquette.resources/match-labels.png "Libellés d’image et de paramètre correspondants")
 
 ### Paramètres
 
@@ -103,7 +103,7 @@ Une grande prudence est requise lors de l’utilisation des données de couleur 
 * Les données sont idéalement conservées le plus longtemps possible en niveaux de gris, et converties uniquement en cas de nécessité absolue. Cela réduit la complexité et réduit les performances.
 * Les entrées et les sorties doivent être créées ou configurées avec le type approprié à l&#39;esprit : par exemple, il n&#39;est pas logique d&#39;avoir une entrée « masque » définie sur couleur si elle sera convertie en niveaux de gris pour une utilisation comme masque binaire.
 
-![Conversions de couleurs et de niveaux de gris](../../assets/colorgray01.png "Conversions de couleurs et de niveaux de gris")
+![Conversions de couleurs et de niveaux de gris](graph-creation-etiquette.resources/colorgray01.png "Conversions de couleurs et de niveaux de gris")
 
 ### Contrôle de la résolution
 

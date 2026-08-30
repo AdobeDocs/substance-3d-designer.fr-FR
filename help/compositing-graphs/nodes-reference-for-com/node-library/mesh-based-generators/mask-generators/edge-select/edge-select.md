@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de sélection d'arête pour générer des masques en sélectionnant des arêtes de maillage pour créer des effets d'usure et de vieillissement basés sur les arêtes.
+description: Utilisez le nœud de sélection des contours pour générer des masques en sélectionnant des contours de maillage afin de créer des effets d'altération et d'usure basés sur les contours.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge Select
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 7%
 
 ---
 
@@ -22,53 +22,57 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-select.png){width="128px"}
+![](edge-select.resources/edge-select.png){width="128px"}
 
-## Edge Select
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque est le meilleur moyen de sélectionner n&#39;importe quel type de bord en fonction de la courbure. Convexe, Concave à n&#39;importe quel niveau ou contraste peut être isolé, fournissant un excellent raccourci pour éviter de le faire manuellement via un [nœud Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
-
-## Paramètres
-
-### Entrées
-
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour mettre en surbrillance les contours. Obligatoire !
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Niveau** : *0.0 - 1.0*\
-  Définit la quantité totale de mise en surbrillance des contours pour les modes Convexe et Concave.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste de la mise en surbrillance pour les modes Convexe et Concave.
-* **Convexe**
-  * **Largeur des bords convexes** : *0.0 - 1.0* définit la largeur de la mise en surbrillance des bords convexes. Gardez à l’esprit qu’une légère augmentation de la valeur Lissage peut entraîner un amincissement des bords.
-  * **Lissage convexe** : *0.0 - 1.0* Définissez le lissage de la transition pour les bords convexes.
-  * **Intensité convexe** : *0,0 - 1,0* définit l&#39;intensité maximale de la mise en surbrillance des contours pour les contours convexes. Définissez la valeur sur 0 pour ne pas mettre en surbrillance.
-* **Concave**
-  * **Largeur des bords concaves** : *0.0 - 1.0* Définissez la largeur de la mise en surbrillance pour les bords concaves. Gardez à l’esprit qu’une légère augmentation de la valeur Lissage peut entraîner un amincissement des bords.
-  * **Lissage concave** :*0.0 - 1.0* Définissez le lissage de la transition pour les bords concaves.
-  * **Intensité concave** : *0,0 - 1,0* Définissez l&#39;intensité maximale de la mise en surbrillance des contours pour les contours concaves. Définissez la valeur sur 0 pour ne pas mettre en surbrillance.
-
-## Exemples d’images
-
-![](../../../../../../assets/edge-select-ex.gif)
+Ce masque est le meilleur moyen de sélectionner n’importe quel type de contour en fonction de la courbure. Convexe, Concave à n&#39;importe quel niveau ou contraste peut être isolé, fournissant un excellent raccourci pour éviter de le faire manuellement via un [nœud Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour mettre en surbrillance les contours. Obligatoire ! |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Définit la quantité totale de mise en surbrillance des contours pour les modes Convexe et Concave. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste de la mise en surbrillance pour les modes Convexe et Concave. |
+| <b>Convexe</b> |  |
+| <b>Largeur des bords convexes</b> <i>0.0 - 1.0</i> | Définit la largeur de la mise en surbrillance des contours convexes. Gardez à l’esprit qu’une légère augmentation de la valeur Lissage peut entraîner un amincissement des bords. |
+| <b>Lissage convexe</b> <i>0.0 - 1.0</i> | Définissez l’adoucissement de la transition pour les contours convexes. |
+| <b>Intensité convexe</b> <i>0.0 - 1.0</i> | Définit l’intensité maximale de la mise en surbrillance des contours pour les contours convexes. Définissez la valeur sur 0 pour ne pas mettre en surbrillance. |
+| <b>Concave</b> |  |
+| <b>Largeur des contours concaves</b> <i>0.0 - 1.0</i> | Définissez la largeur de la mise en surbrillance pour les contours concaves. Gardez à l’esprit qu’une légère augmentation de la valeur Lissage peut entraîner un amincissement des bords. |
+| <b>Lissage concave</b> <i>0.0 - 1.0</i> | Définissez l’adoucissement de la transition pour les bords concaves. |
+| <b>Intensité concave</b> <i>0.0 - 1.0</i> | Définissez l’intensité maximale de la mise en surbrillance des contours pour les contours concaves. Définissez la valeur sur 0 pour ne pas mettre en surbrillance. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-select.resources/edge-select-ex.gif" />
+        </td>
+    </tr>
 </table>

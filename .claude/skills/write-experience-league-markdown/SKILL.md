@@ -1,11 +1,11 @@
 ---
 name: write-experience-league-markdown
 description: ""
-Source: https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -62,11 +62,13 @@ libellé, par exemple `Getting started{#getting-started}`.
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Les paramètres de requête de dimensionnement/optimisation facultatifs sont pris en charge :
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **Le texte alternatif ne doit pas contenir de traits de soulignement**, car ils ne s&#39;affichent pas correctement ;
 utilisez plutôt des tirets ou des espaces.
-* Des images spécifiques à la page sont disponibles dans `<page-name>.resources/` ; icônes partagées/d’application
-vivre dans `help/assets/` (voir CLAUDE.md).
+* Les images spécifiques à la page se trouvent dans un dossier frère `<page-name>.resources/`
+en regard de `.md`, référencé relativement (par ex.
+  `<page-name>.resources/image.png`). `help/assets/` est un ancien partage
+  dossier — n&#39;y ajoutez pas de nouvelles images (voir CLAUDE.md).
 
 ## Tableaux
 
@@ -91,7 +93,7 @@ que d&#39;inventer un nouveau HTML intégré, sauf en cas de nécessité.
 
 * Code intégré : backticks simples.
 * Blocs clôturés : triple backticks, avec un langage facultatif pour la syntaxe
-mise en surbrillance (` `&#x200B;``python `, ` ``&#x200B;`javascript `, etc.).
+mise en surbrillance (` ```python `, ` ```javascript `, etc.).
 
 ## Blocs de note/d’alerte
 
@@ -124,7 +126,7 @@ Types pris en charge : `NOTE`, `TIP`, `IMPORTANT`, `CAUTION`, `WARNING`,
 ## Balise UICONTROL
 
 Enchaîne les noms d’éléments de l’interface utilisateur (libellés de bouton, éléments de menu, noms de champ) de manière intégrée.
-le pipeline de localisation sait qu&#39;il doit rechercher une chaîne traduite et tombe
+le pipeline de localisation sait qu&#39;il doit rechercher une chaîne translatée et tombe
 Revenir à l’étiquette anglaise s’il n’en existe aucune :
 
 ```markdown
@@ -138,7 +140,7 @@ Utilisez-le pour chaque étiquette d’interface utilisateur littérale référe
 ## Balise DNL (« Ne pas localiser »)
 
 Enchaîne les noms de produit, les noms de fonctionnalités tierces ou toute expression qui doit
-ne jamais être traduit automatiquement :
+ne jamais être translaté par une machine :
 
 ```markdown
 Use [!DNL Adobe Analytics] to track metrics.

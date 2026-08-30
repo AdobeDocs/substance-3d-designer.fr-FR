@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de rendu d’histogramme pour visualiser les données d’histogramme sous forme de texture à des fins d’analyse et de débogage.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rendu de l’histogramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Nuances de gris anisotrope de Kuwahara](../../../../../../assets/histogram_render.png "Icône Nuances de gris anisotrope de Kuwahara"){width="200px"}
+Icône ![Nuances de gris anisotrope de Kuwahara](histogram-render.resources/histogram_render.png "Icône Nuances de gris anisotrope de Kuwahara"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -39,42 +39,28 @@ Trace l’histogramme d’une image en niveaux de gris.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>Entrée</b> *Niveaux de gris* PRINCIPAUX | Image pour laquelle l’histogramme doit être dessiné. |
+|:---|:---|
+| <b>Entrée</b> <i>Niveaux de gris</i> PRINCIPAUX | Image pour laquelle l’histogramme doit être dessiné. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* | Visualisation de l’histogramme calculée à partir de l’image d’entrée. |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Visualisation de l’histogramme calculée à partir de l’image d’entrée. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
 | <b>Échelle automatique</b> *Booléen* | Lorsque la valeur est True, remappe l’histogramme pour utiliser l’height complet de l’image.   Lorsque la valeur est False, chaque colonne utilise autant de pixels dans l’height que les occurrences d’une valeur dans l’image d’entrée. |
 | <b>Échelle</b> *Flotter* | Met à l’échelle l’histogramme verticalement, où une valeur de 1 correspond à l’height complet de l’histogramme. |
@@ -83,6 +69,6 @@ Trace l’histogramme d’une image en niveaux de gris.
 
 ## Exemples
 
-![Rendu de l&#39;histogramme : Exemple 1](../../../../../../assets/histogram_render_example_1.png "Rendu de l&#39;histogramme : Exemple 1"){zoomable="yes"}
+![Rendu de l&#39;histogramme : Exemple 1](histogram-render.resources/histogram_render_example_1.png "Rendu de l&#39;histogramme : Exemple 1"){zoomable="yes"}
 
-![Rendu de l&#39;histogramme : Exemple 2](../../../../../../assets/histogram_render_example_2.png "Rendu de l&#39;histogramme : Exemple 2"){zoomable="yes"}
+![Rendu de l&#39;histogramme : Exemple 2](histogram-render.resources/histogram_render_example_2.png "Rendu de l&#39;histogramme : Exemple 2"){zoomable="yes"}

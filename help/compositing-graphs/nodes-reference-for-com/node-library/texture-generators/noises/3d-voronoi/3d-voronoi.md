@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Voronoi 3D pour générer des motifs Voronoi basés sur la position mondiale 3D afin de créer des textures cellulaires volumétriques.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -22,113 +22,73 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
-**Entrée :** *Générateurs De Textures* */Bruits*
-
-**Intermédiaire**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Voronoi 3D** génère un bruit Voronoi dans l&#39;espace 3D en fonction de l&#39;entrée **Carte de position**.
+Le nœud <b>Voronoi 3D</b> génère un bruit Voronoi dans l&#39;espace 3D en fonction de l&#39;entrée <b>Carte de position</b>.
 
 Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) en entrée au lieu d&#39;une map bakée réelle (comme illustré dans l&#39;exemple ci-dessous).
-
->[!WARNING]
->
-> Ce bruit est destiné à être utilisé avec le *moteur GPU uniquement* (c&#39;est-à-dire **Direct3D** ou **OpenGL**). Accédez à **Outils > Changer de moteur...** ou appuyez sur la touche **F9** pour sélectionner le moteur souhaité.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Ce bruit est destiné à être utilisé avec le <i>moteur GPU uniquement</i> (c&#39;est-à-dire <b>Direct3D</b> ou <b>OpenGL</b>). Accédez à <b>Outils > Changer de moteur...</b> ou appuyez sur la touche <b>F9</b> pour sélectionner le moteur souhaité.
+
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Inverser** *Booléen*\
-  Inverse l’image de sortie.
-* **Échelle** *Flottant*\
-  Contrôle l’échelle du bruit de Voronoï 3D.\
-  *Remarque* : lorsque la fonctionnalité **Mosaïque** est activée sur *n&#39;importe quel axe*, l&#39;ajustement de l&#39;échelle est *gradué*. C&#39;est ce qui est attendu.
-* **Taille** *Float3*\
-  Contrôle la taille du bruit de Voronoï 3D sur les axes **X**, **Y** et **Z**. Les valeurs non uniformes entraînent un effet d&#39;*étirement ou de compression*.\
-  *Remarque* : lorsque la **mosaïque** est activée sur *n&#39;importe quel axe*, le réglage de la taille est *par paliers*. C&#39;est ce qui est attendu.
-* **Décalage** *Float3*\
-  Applique un décalage à la *position* du bruit de Voronoï 3D sur les axes **X**, **Y** et **Z**.
-* **Désordre** *Float3*\
-  Intensité du *décalage aléatoire* appliqué à chaque point du bruit sur les axes **X**, **Y** et **Z**.
-* **Intensité de la Distorsion** *Flottant*\
-  Contrôle l&#39;intensité d&#39;un *effet de déformation* appliqué sur le bruit de Voronoï 3D.
-* **Multiplicateur D&#39;Échelle De Distorsion** *Flottant*\
-  Contrôle l&#39;échelle du *motif de déformation* utilisé dans l&#39;effet de déformation contrôlé par l&#39;**intensité de la Distorsion**.
-* **Courbe Arrondie** *Flottant*\
-  Arrondit la *pente* autour de chaque point du bruit pour le rendre *convexe*.\
-  *Remarque* : ce paramètre n&#39;est pas disponible lorsque le paramètre **Style** est défini sur *Edge*.
-* **Échelle de distance** *Flottant*\
-  Ajuste la *distance du dégradé* autour de chaque point du bruit.
-* **Mode Distance** *Nombre entier*\
-  Définit la méthode pour *calculer le gradient de distance* autour de chaque point du bruit :
-  * *Euclidéen*
-  * *Manhattan*
-  * *Tchebychev*
-  * *Minkowski*
-* **Nombre de Minkowski** *Flottant*\
-  Ordre *p* de la distance de Minkowski. Si nous divisons le dégradé de distance en quadrants, ce nombre a l&#39;impact suivant sur ces quadrants :
-  * p est *exactement* 1 : droit
-  * p est *inférieur* à 1 : concave
-  * p est *supérieur* à 1 : convexe\
-    Valeurs intéressantes :\
-    *-1.0* : distance de Manhattan\
-    *-2.0* : distance euclidienne\
-    *- Infini* : distance de Tchebychev\
-    *Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Mode distance** est défini sur *Minkowski*.
-* **Style** *Entier* Définit la méthode *de rendu des données* du bruit de Voronoi 3D, étant donné que le bruit est basé sur un ensemble de points dans l’espace 3D :
-  * *F1* : distance jusqu&#39;au *point le plus proche* dans l&#39;espace 3D
-  * *F2* : distance jusqu&#39;au *deuxième point le plus proche* dans l&#39;espace 3D
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Bord *: le* bord entre chaque cellule* du bruit dans l&#39;espace 3D
-  * *Couleur aléatoire* : attribuez une *couleur plate aléatoire* à chaque cellule du bruit dans l&#39;espace 3D
-* **Thickness des contours** *Flotter* Ajuste le thickness des contours détectés entre les cellules du bruit de Voronoï 3D. Les arêtes sont détectées dans les axes X, Y et Z, de sorte que certaines épaisseurs peuvent augmenter plus rapidement que d&#39;autres en fonction de la *profondeur* des cellules.\
-  *Remarque* : ce paramètre est uniquement disponible lorsque le paramètre **Style** est défini sur *Edge*.
-* **Activer les limites** *booléennes*\
-  Ajuste le bruit de Voronoï 3D de sorte que son motif résultant *se répète* sur les axes X, Y et Z.
+|  |  |
+|:---|:---|
+| <b>Inverser</b> <i>Booléen</i> | Inverse l’image de sortie. |
+| <b>Échelle</b> <i>Flotter</i> | Contrôle l&#39;échelle du bruit 3D Voronoi.<br><br><i>Remarque</i> : lorsque la <b>Répétition</b> est activée sur <i>n&#39;importe quel axe</i>, l&#39;ajustement de l&#39;échelle est <i>gradué</i>. C&#39;est ce qui est attendu. |
+| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit de Voronoï 3D sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet de <i>étiré ou d&#39;écrasement</i>.<br><br><i>Remarque</i> : lorsque la <b>Répétition</b> est activée sur <i>n&#39;importe quel axe</i>, le réglage de la taille est <i>par paliers</i>. C&#39;est ce qui est attendu. |
+| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la <i>position</i> du bruit de Voronoï 3D sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Désordre</b> <i>Float3</i> | Intensité du <i>décalage aléatoire</i> appliqué à chaque point du bruit dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un <i>effet de déformation</i> appliqué sur le bruit Voronoi 3D. |
+| <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du <i>motif de déformation</i> utilisé dans l&#39;effet de déformation contrôlé par l&#39;<b>intensité de la Distorsion</b>. |
+| <b>Courbe Arrondie</b> <i>Flotter</i> | Arrondit la <i>pente</i> autour de chaque point du bruit pour le rendre <i>convexe</i>.<br><br><i>Remarque</i> : ce paramètre n&#39;est pas disponible lorsque le paramètre <b>Style</b> est défini sur <i>Edge</i>. |
+| <b>Échelle de distance</b> <i>Flotter</i> | Ajuste la <i>distance du dégradé</i> autour de chaque point du bruit. |
+| <b>Mode Distance</b> <i>Nombre entier</i> | Définit la méthode pour <i>calculer le gradient de distance</i> autour de chaque point du bruit :<br><br>- <i>euclidien</i><br>- <i>Manhattan</i><br>- <i>Tchebychev</i><br>- <i>Minkowski</i> |
+| <b>Nombre de Minkowski</b> <i>Flotter</i> | Ordre <i>p</i> de la distance de Minkowski. Si nous divisons le gradient de distance en quadrants, ce nombre a un impact sur ces quadrants comme suit :<br><br>- p est <i>exactement</i> 1 : droit<br>- p est <i>inférieur</i> à 1 : concave<br>- p est <i>supérieur</i> à 1 : convexe<br><br>valeurs intéressantes :<br>- <i>1.0</i> : distance de Manhattan<br>- <i>2.0</i> : distance euclidienne<br>- <i>Infini</i> : distance de Tchebychev<br><br><i>Remarque</i> : ce paramètre est uniquement disponible lorsque le paramètre <b>Mode de distance</b> est défini sur <i>Minkowski</i>. |
+| <b>Style</b> <i>Nombre entier</i> | Définit la méthode <i>de rendu des données</i> du bruit 3D de Voronoi, en tenant compte du fait que le bruit est fondé sur un ensemble de points dans l&#39;espace 3D :<br><br>- <i>F1</i> : distance jusqu&#39;au <i>point le plus proche</i> dans l&#39;espace 3D<br>- <i>F2</i> : distance jusqu&#39;au <i>deuxième point le plus proche</i> dans l&#39;espace 3D<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Bord</i> : le <i>bord entre chaque cellule</i> du bruit dans l&#39;espace 3D<br>- <i>Couleur aléatoire</i> : attribuez une <i>couleur plate aléatoire</i> à chaque cellule du bruit dans l&#39;espace 3D |
+| <b>Thickness Edge</b> <i>Flotter</i> | Ajuste le thickness des contours détectés entre les cellules du bruit Voronoi 3D. Les arêtes sont détectées dans les axes X, Y et Z. Certaines épaisseurs peuvent donc augmenter plus rapidement que d&#39;autres en fonction de la <i>profondeur</i> des cellules.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Style</b> est défini sur <i>Arête</i>. |
+| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit de Voronoï 3D de sorte que son motif résultant <i>se répète</i> sur les axes X, Y et Z. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+        </td>
+    </tr>
 </table>

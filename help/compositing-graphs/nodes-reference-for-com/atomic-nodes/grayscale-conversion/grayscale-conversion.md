@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Conversion en niveaux de gris pour convertir les textures colorimétriques en niveaux de gris à l’aide de diverses méthodes de conversion.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversion en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : conversion en niveaux de gris](../../../../assets/comp_grayscaleconversion_1.png "Nœud atomique : conversion en niveaux de gris"){width="200px"}
+![Nœud atomique : conversion en niveaux de gris](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nœud atomique : conversion en niveaux de gris"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

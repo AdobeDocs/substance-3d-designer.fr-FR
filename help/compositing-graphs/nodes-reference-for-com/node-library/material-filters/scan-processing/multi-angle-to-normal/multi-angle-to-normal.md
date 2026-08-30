@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Plusieurs angles vers Normal pour générer des cartes de normales à partir d'images numérisées sous plusieurs angles afin d'obtenir des détails de surface précis.
+description: Utilisez le nœud Plusieurs angles vers Normal pour générer des maps normal à partir d'images numérisées sous plusieurs angles afin d'obtenir des détails de surface précis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Angle multiple à normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
+![](multi-angle-to-normal.resources/multi-angle-to-normal.png){width="128px"}
 
-## Angle multiple à normal
-
-**Entrée :** *Filtres de matière/Traitement de la numérisation*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,29 +39,28 @@ Il est plus compliqué que l&#39;Albédo à [plusieurs angles](../../../../../..
 
 >[!NOTE]
 >
-> Voir [Multi-Angle vers l&#39;Albédo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) pour la version albédo de ce nœud. Si vous souhaitez prétraiter vos entrées, [Multi-Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi-recadrage](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) et [Multi-correctif de clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) peuvent être utiles, car ils sont destinés à être associés à ces nœuds.
-
-## Paramètres
-
-### Entrées
-
-* **Entrée 1-8** : *Entrée Couleur*
-
-### Paramètres
-
-* **Format normal** : *DirectX, OpenGL*\
-  Bascule entre différents formats de mappage normal (inverse la couche verte).
-* **Quantité d’échantillons** : *2 - 8* définit la quantité d’échantillons (entrées) à traiter.
-* **Intensité** : *0,0 - 1,0* définit l&#39;intensité de la carte normale.
-* **Premier angle d&#39;éclairage échantillon** : *0.0 - 360.0* définit la direction de l&#39;angle d&#39;éclairage de la première entrée.
-* **Angle du prochain échantillon de lumière** : *dans le sens inverse des aiguilles d&#39;une montre* Définit la direction vers laquelle l&#39;éclairage de l&#39;échantillon suivant se déplace.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
+> Voir [Multi-Angle vers l&#39;Albédo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) pour la version albédo de ce nœud. Si vous souhaitez prétraiter vos entrées, [Multi-Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi-recadrage](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) et [Multi-Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) peuvent être utiles, car ils sont destinés à être associés à ces nœuds.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Entrée 1-8</b> <i>Entrée couleur</i> |  |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
+| <b>Quantité D&#39;Échantillons</b> <i>2 - 8</i> | Définit la quantité d’échantillons (entrées) à traiter. |
+| <b>Intensité</b> <i>0.0 - 1.0</i> | Définit l’intensité de la texture Normale. |
+| <b>Premier angle d&#39;échantillonnage de la lumière</b> <i>0.0 - 360.0</i> | Définit la direction de l’angle d’éclairage de la première entrée. |
+| <b>Angle d&#39;éclairage de l&#39;échantillon suivant</b> <i>Dans le sens inverse des aiguilles d&#39;une montre</i> | Définit la direction dans laquelle se déplace l’éclairage dans l’échantillon suivant. |

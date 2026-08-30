@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 15.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La Substance Designer 15.1 offre une fenêtre de création de graphique entière
 
 *Date de publication : 11 décembre 2025*
 
-![Bannière Designer 15.1](../../assets/bannerweb.png)
+![Bannière Designer 15.1](version-15-1.resources/bannerweb.png)
 
 ## Amélioration de la création de graphiques
 
@@ -36,13 +36,13 @@ Bien que l’interface principale ait été mise à niveau, les utilisateurs con
 
 [En savoir plus](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![reconcevoir la nouvelle fenêtre graphique](../../assets/newgraph.png){zoomable="yes"}
+![reconcevoir la nouvelle fenêtre graphique](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## Échantillons incorporés
 
 Avec le lancement de notre fenêtre de création de graphiques repensée, nous avons ajouté une variété de [<b>matériaux d&#39;exemple</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directement dans le logiciel. Cette amélioration fait suite à votre demande d&#39;un meilleur accès aux ressources d&#39;apprentissage.
 
-![Nouvelle fenêtre de création de graphique pour les échantillons](../../assets/GraphSample.png){zoomable="yes"}
+![Nouvelle fenêtre de création de graphique pour les échantillons](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 Pour répondre à ce besoin, nous avons inclus des échantillons de matériaux tels que les tissus (y compris le cuir et le satin), le bois, le métal, le plastique, la céramique et plus encore. Ces exemples ont pour but de vous aider à démarrer vos projets en toute simplicité et à vous familiariser avec les principaux nœuds de la famille disponibles dans Substance 3D Designer
 
@@ -54,7 +54,7 @@ Outre ces documents fondamentaux, nous avons également fourni des <b>échantill
 
 [En savoir plus](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![échantillon de bois dans substance designer](../../assets/samplegraph.png){zoomable="yes"}
+![échantillon de bois dans substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## Nouveaux bruits
 
@@ -70,7 +70,7 @@ Consultez la liste complète des bruits mis à jour dans les [notes de mise à j
 
 Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![bruit de désordre directionnel](../../assets/directionaldisorder.gif){zoomable="yes"}
+![bruit de désordre directionnel](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## Hiérarchie dans le menu des nœuds
 
@@ -82,12 +82,12 @@ Le grand nombre de nœuds disponibles peut rendre difficile la recherche rapide 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![recherche de nœud avec catégorie 1](../../assets/search1-2.png){zoomable="yes"}
+![recherche de nœud avec catégorie 1](version-15-1.resources/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![recherche de nœud avec catégorie 2](../../assets/search2.png){zoomable="yes"}
+![recherche de nœud avec catégorie 2](version-15-1.resources/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Jouez avec l’image ci-dessous pour voir la différence avant et après la déf
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="Avec la sortie par défaut, les vignettes sont toujours pertinentes.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="Avec la sortie par défaut, les vignettes sont toujours pertinentes.">
       <br><i>Après</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 
 [En savoir plus](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Nœud défini](../../assets/isdefined.png){zoomable="yes"}
+![Nœud défini](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## Notes de mise à jour
 
@@ -199,8 +199,8 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 * Le Specular level [Vue 3D] n’est pas appliqué correctement
 * [Vue 3D] Le Specular edge color ne fonctionne pas lors de l’utilisation de la pixellisation Eclair
 * [Vue 3D] La matière ajoutée par l’utilisateur n’est pas appliquée aux scènes par défaut
-* [Vue 3D]&#x200B;[Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
-* [Vue 3D]&#x200B;[Bakers] Aucune couleur de matière du fichier FBX
+* [Vue 3D][Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
+* [Vue 3D][Bakers] Aucune couleur de matière du fichier FBX
 * [Boulangers] Les couleurs de matériau dans les fichiers FBX ne sont pas correctement détectées
 * [Bakers] L’option « recalculer\_tangentes » est toujours « false » dans les exportations de paramètres prédéfinis JSON
 * [Bakers] CLI : Blocage lors de l’exécution du même baker de manière consécutive via un fichier JSON

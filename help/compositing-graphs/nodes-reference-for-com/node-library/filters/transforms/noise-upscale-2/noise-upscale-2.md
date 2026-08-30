@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Noise Upscale 2 pour augmenter les textures à l’aide de l’interpolation basée sur le bruit afin de conserver la qualité de la texture à des tailles plus grandes.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Amélioration du bruit 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
 
-## Amélioration du bruit 2
-
-**Entrée :** *Filtres/Transformations*
-
-**Simple**
+<b>Entrées :</b> Filtres > Transformes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,20 +39,27 @@ Ce nœud est principalement destiné à l’optimisation des graphes lents qui u
 
 Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) et [Amélioration du bruit 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) pour différentes variantes de ce processus.
 
-## Paramètres
-
-* **Décalage1X** :*0.0 - 1.0* Fait glisser les parties supérieure et inférieure sur l&#39;axe X.
-* **Décalage1Y** : *0.0 - 1.0*\
-  Permet de faire glisser les parties supérieure et inférieure sur l’axe Y.
-* **Décalage2X** :*0.0 - 1.0* Fait glisser les parties gauche et droite sur l’axe X.
-* **Décalage2Y** : *0.0 - 1.0* Fait glisser les parties gauche et droite sur l’axe Y.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise2ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Décalage1X</b> <i>0.0 - 1.0</i> | Fait glisser les parties supérieure et inférieure sur l’axe X. |
+| <b>Décalage1Y</b> <i>0.0 - 1.0</i> | Permet de faire glisser les parties supérieure et inférieure sur l’axe Y. |
+| <b>Offset2X</b> <i>0.0 - 1.0</i> | Fait glisser les parties gauche et droite sur l’axe X. |
+| <b>Offset2Y</b> <i>0.0 - 1.0</i> | Fait glisser les parties gauche et droite sur l’axe Y. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-2.resources/noise2ex.png" />
+        </td>
+    </tr>
 </table>

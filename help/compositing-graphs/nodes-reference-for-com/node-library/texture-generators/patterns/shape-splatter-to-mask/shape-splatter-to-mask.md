@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-to-mask.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Éclaboussure de forme en masque pour convertir les motifs d’éclaboussure de forme en masques pour le mélange de matériaux et les effets.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Éclaboussure de forme en masque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 4%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-to-mask.png){width="128px"}
+![](shape-splatter-to-mask.resources/shape-splatter-to-mask.png){width="128px"}
 
-## Éclaboussure de forme en masque
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Convertit les données d&#39;[éclaboussure de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) en un masque noir et blanc en fonction de l&#39;ID de motif. Permet, par exemple, de créer un masque d’un certain type de motif uniquement. Propose des options supplémentaires pour sélectionner une plage d’ID de motif et masquer de manière aléatoire certaines formes.
 
-## Paramètres
-
-### Paramètres
-
-* **Plage de début de l’ID de motif** : *1 - 8* Définissez le premier ID de motif dans la plage à sélectionner.
-* **Plage de fin d’ID de motif** : *1 - 8* Définissez le dernier ID de motif dans la plage à sélectionner.
-* **Masque aléatoire** :*0,0 - 1,0* Définissez la proportion de motifs à masquer de manière aléatoire.
-* **Sortie** : *Masque binaire, Masque d&#39;entier, Valeurs de niveaux de gris* Déterminez le type de valeurs de sortie. Le masque binaire renvoie uniquement des valeurs de 0 ou 1 en noir et blanc. Le masque d’entier encode les valeurs supérieures jusqu’à 8 pour chaque motif au format HDR. Les valeurs de niveaux de gris répartissent la plage de manière proportionnelle entre 0 et 1.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Plage de début de l&#39;ID de motif</b> <i>1 - 8</i> | Définissez le premier ID de motif dans la plage à sélectionner. |
+| <b>Plage de fin d’ID de motif</b> <i>1 - 8</i> | Définissez le dernier ID de motif dans la plage à sélectionner. |
+| <b>Masque Aléatoire</b> <i>0.0 - 1.0</i> | Définissez la proportion de motifs pour qu’ils soient masqués de manière aléatoire. |
+| <b>Sortie</b> <i>Masque Binaire, Masque D’Entier, Valeurs De Niveaux De Gris</i> | Déterminer le type de valeurs de sortie. Le masque binaire renvoie uniquement des valeurs de 0 ou 1 en noir et blanc. Le masque d’entier encode les valeurs supérieures jusqu’à 8 pour chaque motif au format HDR. Les valeurs de niveaux de gris répartissent la plage de manière proportionnelle entre 0 et 1. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Découvrez les étapes de dépannage pour les problèmes techniques liés aux textures de cuisson dans Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problèmes de boulangerie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Cette page répertorie les problèmes techniques liés aux [textures de cuisson]
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](baking-issues.resources/error.svg) Problème</b>
 
 Lorsque l’option Correspondance est définie sur Par nom de maillage, la correspondance ne semble pas être appliquée ou n’est pas homogène sur tous les objets de la scène.
 
-<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](baking-issues.resources/check.svg) Étapes recommandées</b>
 
 Dans les versions 14.1 et antérieures de Designer, les objets à faible et à fort poly étaient mis en correspondance à l&#39;aide du nom de leurs *objets parents*, c&#39;est-à-dire, dans la plupart des cas, leur transformation parente.
 
@@ -45,7 +45,7 @@ Depuis Designer 15.0, le nom des objets *géométrie* est utilisé directement.
 </td>
 <td style="border: 0;" valign="top">
 
-![Objet Geometry et son parent dans l&#39;arbre de la scène](../../assets/sceneTree_objectsName.png "Objet Geometry et son parent dans l&#39;arbre de la scène"){zoomable="yes"}
+![Objet Geometry et son parent dans l&#39;arbre de la scène](baking-issues.resources/sceneTree_objectsName.png "Objet Geometry et son parent dans l&#39;arbre de la scène"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Couleur de diffusion pour appliquer des effets de diffusion des couleurs afin de créer des transitions et un mélange de couleurs lisses.
+description: Utilisez le nœud Couleur de Diffusion pour appliquer des effets de diffusion des couleurs afin de créer des transitions et des mélanges de couleurs lisses.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Color
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Couleur de diffusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 3%
+source-wordcount: '263'
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
 
-**Entrée :** *Filtres/Effets*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,78 +41,59 @@ Seules les couleurs des pixels correspondant au masque sont diffusées ; les aut
 </tr>
 </table>
 
-## Paramètres
-
-* **Itérations** : *0,0 - 64,0* le nombre d&#39;itérations de diffusion à effectuer (plus le nombre est élevé, mieux c&#39;est, mais plus le nombre est lent). Les valeurs utiles sont comprises dans la plage [8, 48].\
-  Veuillez noter que si vous ne recherchez pas l&#39;exactitude mathématique, les valeurs faibles sont correctes ou même meilleures.\
-  **Distance** : **0,0 - 1,0** ajuste la distance maximale de diffusion.
-* **Activer l&#39;interpolation** : *Vrai/Faux* contrôle la méthode d&#39;échantillonnage de chaque passe. L’interpolation permet une convergence en moins de passes, mais introduit du bruit.\
-  Sans lui, chaque passe est plus rapide, mais davantage de passes sont nécessaires pour obtenir un résultat lisse sans artefacts de bande.
-* **Correspondance des normales** : *Vrai/Faux* ajoute une normalisation des valeurs à chaque étape.
-* **Utiliser l&#39;Alpha comme masque** :*Vrai/Faux* Utiliser le canal alpha de l&#39;entrée *Source* comme masque de diffusion, au lieu de l&#39;entrée *Masque*.
+<a name="inputs"></a>
 
 ## Entrées
 
-* **Source** *Couleur*\
-  Image à diffuser.
-* **Masquer** *En Niveaux De Gris*\
-  Masque de diffusion : les pixels blancs sont échantillonnés dans *Source* et diffusés dans les pixels noirs. L’image doit être en noir et blanc. Si le masque comprend des dégradés, la valeur de découpe est 0,5.
-* **Intensité** *Niveaux de gris*\
-  Définit localement la force du processus de diffusion appliqué. Cette carte doit être *contrastée* pour un effet perceptible.
+|  |  |
+|:---|:---|
+| <b>Source</b> <i>Couleur</i> | Image à diffuser. |
+| <b>Masquer</b> <i>Niveaux de gris</i> | Masque de diffusion : les pixels blancs sont échantillonnés dans <i>Source</i> et diffusés dans les pixels noirs. L’image doit être en noir et blanc. Si le masque comprend des dégradés, la valeur de découpe est 0,5. |
+| <b>Intensité</b> <i>Niveaux de gris</i> | Définit localement la force du processus de diffusion. Cette carte doit être <i>contrastée</i> pour un effet perceptible. |
 
-## Exemples d’images
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Paramètres
 
-![](../../../../../../assets/diffusion-color-02-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Itérations</b> <i>0.0 - 64.0</i> | Le nombre d&#39;itérations de diffusion à effectuer (plus le nombre est élevé, mieux c&#39;est, mais plus lentement). Les valeurs utiles sont comprises dans la plage [8, 48].<br>Notez que si vous ne recherchez pas l&#39;exactitude mathématique, les valeurs faibles conviennent ou sont même préférables. |
+| <b>Distance</b> <i>0.0 - 1.0</i> | Ajuste la distance maximale de la diffusion. |
+| <b>Activer le Dithering</b> <i>Vrai/Faux</i> | Contrôle la méthode d’échantillonnage de chaque passe. L’interpolation permet une convergence en moins de passes, mais introduit du bruit.<br>Sans cette option, chaque passe est plus rapide, mais davantage de passes sont nécessaires pour obtenir un résultat fluide sans artefacts de bande. |
+| <b>La Map normal</b> <i>Vrai/Faux</i> | Ajoute une normalisation des valeurs à chaque étape. |
+| <b>Utiliser l&#39;Alpha comme masque</b> <i>Vrai/Faux</i> | Utilisez le canal Alpha de l&#39;entrée <i>Source</i> comme masque de diffusion, au lieu de l&#39;entrée <i>Masque</i>. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Exemples
 
-![](../../../../../../assets/diffusion-color-02a-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-02b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-01-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after-1.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01a-after-1.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-normal.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-normal-render.jpg){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
+        </td>
+    </tr>
 </table>

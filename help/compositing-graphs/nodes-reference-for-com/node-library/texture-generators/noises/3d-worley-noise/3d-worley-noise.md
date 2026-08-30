@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit Worley 3D pour générer un bruit Worley en fonction de la position 3D afin de créer des effets de texture volumique.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D Worley Noise
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,43 +22,53 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley.png){width="128px"}
 
-## 3D Worley Noise
-
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Intermédiaire**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Il s’agit de l’un des bruits les plus polyvalents et avancés de la bibliothèque. Il génère un bruit Worley dans l’espace 3D, à partir d’un mappage de position d’entrée. Propose de nombreuses options qui la rendent beaucoup plus puissante que les bruits standard basés sur les [Cellules](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)ou la [distance](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md).
 
-## Paramètres
-
-* **Échelle** : *1 - 64*\
-  Définissez l’échelle globale de l’effet.
-* **Taille** :*0.0 - 1.0* Effectuez une mise à l’échelle non uniforme sur les axes X, Y et Z séparément.
-* **Mode** : *Euclidean, Manhattan, Chebyshev, Minkowski\
-  Modifiez la mesure de distance. Permet certains types de bruit très différents.*
-* **Nombre de Minkowski** : *0,0 - 20,0* uniquement avec la mesure de distance de Minkowski. Fusionne entre différents types de mesures.
-* **Style** : *F1, F2, F2-F1, Bordure, Couleur aléatoire* définissez les mathématiques de la combinaison de mesure. Permet de nombreuses autres combinaisons.
-* **Largeur de la bordure** : *0.0 - 1.0* Lorsque le calcul de la combinaison de bordures est actif, contrôle la largeur de la bordure.
-* **Arrondi** : *0.0 - 1.0* Disponible uniquement avec les modes F1, F2 et F2-F1. Définit la position médiane du niveau.
-* **Inverser** : *Faux/Vrai*\
-  Inverse le résultat.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/3d-worley-ex04.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/3d-worley-ex03.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/3d-worley-ex02.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/3d-worley-ex01.png" width="256px"/></div> |
-| --- | --- | --- | --- |
-|  |  |  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Échelle</b> <i>1 - 64</i> | Définissez l’échelle globale de l’effet. |
+| <b>Taille</b> <i>0.0 - 1.0</i> | Effectuez une mise à l’échelle non uniforme sur les axes X, Y et Z séparément. |
+| <b>Mode</b> <i>Euclidean, Manhattan, Chebyshev, Minkowski</i> | Modifiez la mesure de distance. Permet d’utiliser des types de bruits très différents. |
+| <b>Nombre de Minkowski</b> <i>0.0 - 20.0</i> | Seulement avec la mesure de distance de Minkowski. Fusionne entre différents types de mesures. |
+| <b>Style</b> <i>F1, F2, F2-F1, Bordure, Couleur aléatoire</i> | Définissez les valeurs mathématiques de la combinaison Métrique. Permet de nombreuses autres combinaisons. |
+| <b>Largeur de la bordure</b> <i>0.0 - 1.0</i> | Lorsque la combinaison de bordures mathématiques est active, contrôle la largeur de la bordure. |
+| <b>Arrondi</b> <i>0.0 - 1.0</i> | Disponible uniquement avec les modes F1, F2 et F2-F1. Définit la position médiane du niveau. |
+| <b>Inverser</b> <i>Faux/Vrai</i> | Inverse le résultat. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les fichiers de configuration de projet SBSPRJ dans Substance 3D Designer pour gérer les paramètres du projet.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fichiers de configuration du projet - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ils sont spéciaux dans la mesure où vous pouvez utiliser plusieurs fichiers de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![SBSPRJ](../../assets/sbsprj.png "Icône de fichier SBSPRJ")
+Icône de fichier ![SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icône de fichier SBSPRJ")
 
 </td>
 </tr>
@@ -59,15 +59,15 @@ Les fichiers de projet peuvent contenir les paramètres suivants :
 
 <b>Alias :</b>Alias de mots-clés pour les chemins relatifs.
 
-<b>Cuisson :</b>paramètres pour cuire les conventions de dénomination.
+<b>Baking :</b>paramètres de baking des conventions de dénomination.
 
-<b>Général :</b>modèles de graphiques, modules externes d’espace tangent, formats normal et image par défaut.
+<b>Général :</b>modèles Graphe, plug-ins Repère tangent, formats normal et image par défaut.
 
 <b>Bibliothèque :</b>Tracés suivis à afficher dans la bibliothèque.
 
 <b>Scripts :</b>scripts et interpréteurs de rappel.
 
-<b>Contrôle de version :</b>Paramètres d’intégration du contrôle de version dans Designer.
+<b>Gestion de versions :</b>Paramètres d’intégration de la Gestion de versions dans Designer.
 
 ## Modification de fichiers de projet
 
@@ -85,7 +85,7 @@ Pour Windows, [le Bloc-notes++](https://notepad-plus-plus.org) est une bonne opt
 
 Une fois que vous avez ouvert le fichier SBSPRJ dans un éditeur, vous devriez voir une disposition structurée assez simple, avec des sections correspondant aux onglets dans l&#39;interface utilisateur. Tous les paramètres ne seront pas documentés ici, car ils sont assez explicites.
 
-![Modification XML](../../assets/project-xml.png "Modification XML")
+![Modification XML](project-configuration-files-sbsprj.resources/project-xml.png "Modification XML")
 
 ## Chemins relatifs et alias
 

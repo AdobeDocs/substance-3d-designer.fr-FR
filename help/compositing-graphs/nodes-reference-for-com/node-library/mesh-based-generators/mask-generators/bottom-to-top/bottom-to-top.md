@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: Utilisez le nœud De bas en haut pour générer des masques de dégradé de bas en haut en fonction de la position du maillage dans le monde.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: De bas en haut
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 5%
 
 ---
 
@@ -22,48 +22,51 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top.png){width="128px"}
 
-## De bas en haut
-
-**Entrée :** *Générateurs basés sur le maillage/Générateurs de masques*
-
-**Simple**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/features/smart-materials-and-masks) dans [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home).
+Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) dans [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
 
 Cela génère une transition du blanc vers le noir du bas vers le haut d&#39;un modèle, ce qui est utile pour effectuer des réductions et des sélections basées sur la géométrie.
 
-## Paramètres
-
-### Entrées
-
-* **Position** : *Entrée Couleur*\
-  Mappage de position ancrée. Obligatoire !
-* **Rugosité :** *Entrée en niveaux de gris*\
-  Cela n’a rien à voir avec la rugosité PBR, mais il s’agit d’une carte de variation (facultative) pour rompre la transition. S’affiche uniquement lorsque la rugosité est définie sur une valeur supérieure à 0.
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Niveau** : *0.0 - 1.0*\
-  Déplace le niveau moyen du résultat entre noir et blanc, comme un réglage de la luminosité.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste de la transition.
-* **Rugosité\_Variation** : *0.0 - 1.0* détermine la quantité de la carte de rugosité à fusionner pour la variation. Augmenter cette valeur sur 0 révèle l&#39;emplacement de mappage.
-
-## Exemples d’images
-
-![](../../../../../../assets/bottom-to-top-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Entrée couleur</i> | Mappage de position ancrée. Obligatoire ! |
+| <b>Rugosité</b> <i>Entrée en niveaux de gris</i> | Cela n’a rien à voir avec la rugosité PBR, mais il s’agit d’une carte de variation (facultative) pour rompre la transition. S’affiche uniquement lorsque la rugosité est définie sur une valeur supérieure à 0. |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Déplace le niveau moyen du résultat entre noir et blanc, comme un réglage de la luminosité. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste de la transition. |
+| <b>Variation_Rugosité</b> <i>0.0 - 1.0</i> | Détermine la quantité de mappage de Rugosité à fusionner pour la variation. Augmenter cette valeur sur 0 révèle l&#39;emplacement de mappage. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bottom-to-top.resources/bottom-to-top-ex.gif" />
+        </td>
+    </tr>
 </table>

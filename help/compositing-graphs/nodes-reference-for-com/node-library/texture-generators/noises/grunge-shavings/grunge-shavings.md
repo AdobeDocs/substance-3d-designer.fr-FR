@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Shavings pour générer des motifs de rasage afin de créer des détails de grain de bois et de texture de matériau.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Usure/salissures Shavings
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
 
-**Entrée :** *Générateurs De Textures* */Bruits*
-
-**Simple**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,31 +39,31 @@ Le nœud **Rasages Usure/salissures** dans [Substance 3D Designer](https://www.a
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Balance** *Flottant* Ajuste la balance entre les valeurs sombres et claires.
-* **Contraste** *Flottant* Ajuste le contraste de l&#39;image.
-* **Inverser** *Booléen* Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`.
-* **Extension non carrée** *booléenne* Permet la compensation de l&#39;écrasement et de l&#39;étirement avec des rapports autres que carrés.
-* Advanced
-  * **Quantité de taches de rayure** *Flotter* Quantité et *couverture* de l’effet de taches de rayure utilisé pour générer des copeaux.
-  * **Mosaïque des taches de rayure** *Entier* Quantité de mosaïque de l’effet des taches de rayure utilisée pour générer les copeaux.
-  * **Intensité du Dust** *Flotter* L&#39;intensité de l&#39;incrustation du dust sur la surface.
-  * **Intensité de la netteté** *Variation* L&#39;intensité de l&#39;effet de netteté globale.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Avancé</b> |  |
+| <b>Quantité de défauts de rayure</b> <i>Flotter</i> | Quantité et *couverture* de l’effet de taches rayées utilisé pour générer des copeaux. |
+| <b>Répétition des défauts de rayure</b> <i>Nombre entier</i> | Niveau de répétition de l’effet de taches rayées utilisé pour générer les copeaux. |
+| <b>Intensité du Dust</b> <i>Flotter</i> | Intensité de l’incrustation du dust sur la surface. |
+| <b>Netteté</b> <i>Flotter</i> | Intensité de l’effet de netteté globale. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeshavings-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeshavings-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+        </td>
+    </tr>
 </table>

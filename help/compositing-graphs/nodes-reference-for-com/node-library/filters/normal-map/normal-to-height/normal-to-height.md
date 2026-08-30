@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normal à Height pour convertir les cartes de normales en cartes d'height afin d'extraire les informations de profondeur de surface.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normal à l’Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height.png){width="128px"}
+![](normal-to-height.resources/normal-to-height.png){width="128px"}
 
-## Normal à l’Height
-
-**Entrée :** *Filtres/Mappage de normales*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,19 +37,26 @@ Nœud de conversion inverse qui tente de reconvertir une carte normale d&#39;esp
 
 Utile lorsque vous n&#39;avez qu&#39;une source Normalmap, mais que vous souhaitez néanmoins effectuer des opérations la combinant avec une carte de hauteur. Gardez à l’esprit que cela ne permettra jamais d’obtenir un résultat correct à 100 %, car les informations sont perdues par nature lors de la conversion de l’Height en normalité. Si vous réglez les paramètres en conséquence, cette version hors siège réussit correctement à convertir les détails simples.
 
-## Paramètres
-
-* **Balance des Reliefs** :*0,0 - 1,0* ajustez la mesure dans laquelle les différentes fréquences influencent le résultat final. Cela dépend en grande partie du mappage d&#39;entrée et nécessite un peu de réglages.
-* **Format normal** : *DirectX, OpenGL*\
-  Bascule entre différents formats de mappage normal (inverse la couche verte).
-* **Opacité globale** : *0.0 - 1.0* Ajuste l’opacité globale de l’effet.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2heightex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Balance des Reliefs</b> <i>0.0 - 1.0</i> | Ajustez la mesure dans laquelle les différentes fréquences influencent le résultat final. Cela dépend en grande partie du mappage d&#39;entrée et nécessite un peu de réglages. |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
+| <b>Opacité globale</b> <i>0.0 - 1.0</i> | Règle l’opacité globale de l’effet. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-to-height.resources/normal2heightex.png" />
+        </td>
+    </tr>
 </table>

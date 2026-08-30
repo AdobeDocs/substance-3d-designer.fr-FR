@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Configurez les chemins de recherche des plug-ins dans Substance 3D Designer pour spécifier où se trouvent les plug-ins Python.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Chemins de recherche des plug-ins
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Les utilisateurs peuvent *ajouter des répertoires personnalisés* manuellement 
 1. Dans l’onglet <b>Python</b>, cliquez sur le bouton *<b>+</b>*pour ajouter le répertoire contenant les plug-ins
 1. Cliquez sur <b>OK</b> pour valider
 
-![Configuration des plug-ins Python chemins de recherche Paramètres du projet](../../assets/image-70.png "Configuration des plug-ins Python chemins de recherche Paramètres du projet")
+![Configuration des plug-ins Python chemins de recherche Paramètres du projet](plugin-search-paths.resources/image-70.png "Configuration des plug-ins Python chemins de recherche Paramètres du projet")
 
 ## Utilisation de variables d’environnement
 

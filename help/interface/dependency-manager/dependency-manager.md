@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Utilisez le Gestionnaire de dépendances de Substance 3D Designer pour afficher et gérer les dépendances de ressources dans vos projets.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestionnaire de dépendances
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ Le <b>Gestionnaire de dépendances</b> vous permet de voir toutes les dépendanc
 
 Vous pouvez y accéder en cliquant avec le bouton droit de la souris sur un pack dans l’Explorateur et en choisissant l’option « Gestionnaire de dépendances » dans le menu contextuel.
 
-![Gestionnaire de dépendances](../../assets/dependency-manager.png "Gestionnaire de dépendances")
+![Gestionnaire de dépendances](dependency-manager.resources/dependency-manager.png "Gestionnaire de dépendances")

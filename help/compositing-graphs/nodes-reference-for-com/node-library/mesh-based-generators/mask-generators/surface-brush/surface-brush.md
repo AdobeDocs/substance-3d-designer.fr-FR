@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Pinceau de surface pour générer des masques en fonction de l'orientation de la surface afin de créer des effets directionnels d'usure.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pinceau de surface
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/surface-brush.png){width="128px"}
+![](surface-brush.resources/surface-brush.png){width="128px"}
 
-## Pinceau de surface
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,35 +37,42 @@ Génère un masque noir et blanc en fonction des maps bakées et des paramètres
 
 Ce masque représente un effet intéressant de brossage du métal sur une surface de l&#39;objet, occulté par la géométrie de l&#39;objet et l&#39;AO.
 
-## Paramètres
-
-### Entrées
-
-* **Espace universel normal** : *entrée de couleur*
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage.
-* **Occlusion ambiante** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage.
-* **Position** : *Entrée En Niveaux De Gris*
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Niveau** : *0.0 - 1.0*\
-  Définit le niveau d’effet global, progressivement révélateur.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste du résultat.
-* **Longueur Scratches** : *0.0 - 8.0* Définit la longueur des rayures. Les valeurs plus faibles sont plus semblables à des points, les valeurs plus élevées sont des traits longs.
-* **Axe d&#39;occlusion** : *axe X, Y, Z, aucun* de l&#39;objet qui doit recevoir les rayures. Ne modifie pas le sens des rayures.
-* **Intensité de l&#39;axe d&#39;occlusion** : *0.0 - 1.0* Intensité de l&#39;effet d&#39;occlusion de l&#39;axe.
-* **Occlusion** : *0,0 - 1,0* Force de l&#39;AO sur les rayures d&#39;occlusion.
-* **Intensité de la netteté** : *0,0 - 1,0* Définissez la quantité de post-netteté à appliquer aux rayures.
-
-## Exemples d’images
-
-![](../../../../../../assets/surface-brush-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Position</b> <i>Entrée en niveaux de gris</i> |  |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Définit le niveau d’effet global, progressivement révélateur. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du résultat. |
+| <b>Longueur Scratches</b> <i>0.0 - 8.0</i> | Définit la longueur des rayures. Les valeurs plus faibles sont plus semblables à des points, les valeurs plus élevées sont des traits longs. |
+| <b>Axe d&#39;occlusion</b> <i>X, Y, Z, none</i> | Axe de l’objet qui doit recevoir les rayures. Ne modifie pas le sens des rayures. |
+| <b>Intensité de l&#39;Axe d&#39;occlusion</b> <i>0.0 - 1.0</i> | Force de l’effet occlusion axe. |
+| <b>Occlusion</b> <i>0.0 - 1.0</i> | Force de l&#39;AO sur les rayures occlusives. |
+| <b>Netteté</b> <i>0.0 - 1.0</i> | Définissez la quantité de post-netteté à appliquer aux rayures. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="surface-brush.resources/surface-brush-ex.gif" />
+        </td>
+    </tr>
 </table>

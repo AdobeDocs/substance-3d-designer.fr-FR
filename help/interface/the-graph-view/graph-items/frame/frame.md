@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
-description: Utilisez des images dans le mode graphique Substance 3D Designer pour organiser et regrouper les nœuds afin d’obtenir une meilleure clarté visuelle.
+description: Utilisez les cadres dans la vue du graphe de données Substance 3D Designer pour organiser et regrouper les nœuds afin d’obtenir une meilleure clarté visuelle.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items > Frame
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cadre
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,14 +24,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône d’image](../../../../assets/graphatomic-frame_1.png "Icône d’image")
+![Icône de Cadre](frame.resources/graphatomic-frame_1.png "Icône de Cadre")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Un bloc facilite la lisibilité et la mise en page des graphiques en regroupant visuellement les objets dans ce graphique et en vous permettant de déplacer facilement tous ces objets ensemble.
+Un cadre facilite la lisibilité et la mise en page des graphes en regroupant visuellement les objets dans ce graphe et en vous permettant de déplacer facilement tous ces objets ensemble.
 
-Par exemple, les blocs peuvent être nommés et colorés de sorte que la structure du graphique ressorte clairement lors d’une présentation, ce qui est très utile à mesure que la complexité du graphique augmente.
+Par exemple, les cadres peuvent être nommés et colorés de sorte que la structure du graphe ressorte clairement lors d&#39;une présentation, ce qui est très utile à mesure que la complexité du graphe augmente.
 
 Ils peuvent également être annotés et fonctionnent ainsi comme un outil de documentation pour expliquer pourquoi certains nœuds ont été configurés d&#39;une manière spécifique.
 
@@ -41,96 +41,96 @@ Ils peuvent également être annotés et fonctionnent ainsi comme un outil de do
 
 ## Apparence
 
-Selon la position du curseur de la souris ou s’il fait partie d’une sélection, un cadre se présente dans différents styles visuels pour vous permettre de savoir si vous pouvez interagir avec lui et comment.
+Selon la position du curseur de la souris ou s’il fait partie d’une sélection, un cadre se présente dans différents styles visuels pour vous indiquer si vous pouvez interagir avec lui et comment.
 
 +++Par défaut
-Par défaut, le cadre est un rectangle avec des coins arrondis remplis avec la couleur sélectionnée dans sa propriété <b>Couleur de cadre</b>. Une teinte plus foncée de cette couleur est appliquée sur le contour du bloc.
+Par défaut, le cadre est un rectangle dont les coins arrondis sont remplis de la couleur sélectionnée dans sa propriété <b>Couleur Cadre</b>. Une teinte plus foncée de cette couleur est appliquée sur le contour du cadre.
 
-Le titre défini dans la propriété <b>Titre</b> est gris dans le coin supérieur gauche de l&#39;image.
+Le titre défini dans la propriété <b>Titre</b> est gris dans le coin supérieur gauche du cadre.
 
-![Image (état par défaut)](../../../../assets/graph-frames-default.png "Image (état par défaut)")
+![Cadre (état par défaut)](frame.resources/graph-frames-default.png "Cadre (état par défaut)")
 
 
 
 +++
 
 +++Survol de l’en-tête
-Lorsque vous survolez le haut de l’image, une barre d’en-tête s’affiche.
+Lorsque vous survolez le haut du cadre, une barre d’en-tête s’affiche.
 
 Le cadre peut être déplacé en faisant glisser cette barre d’en-tête ou son titre.
 
-![Image (état de survol)](../../../../assets/graph-frames-hover.png "Image (état de survol)")
+![Cadre (état de survol)](frame.resources/graph-frames-hover.png "Cadre (état de survol)")
 
 
 
 +++
 
 +++Sélection
-Lorsque cette option est sélectionnée, le titre et le contour du cadre sont mis en surbrillance en blanc. Le contour s’épaissit.
+Lorsque cette option est sélectionnée, le titre et le contour du cadre sont mis en évidence en blanc. Le contour s’épaissit.
 
-![Image (état sélectionné)](../../../../assets/graph-frames-selected.png "Image (état sélectionné)")
+![Cadre (état sélectionné)](frame.resources/graph-frames-selected.png "Cadre (état sélectionné)")
 
 
 
 +++
 
-## Création d’images
+## Création de cadres
 
-Les blocs peuvent être ajoutés dans n’importe quel type de graphique, de l’une des manières suivantes :
+Les mots de cadre peuvent être ajoutés dans n’importe quel type de graphe, de l’une des manières suivantes :
 
 +++Menu Nœud
-Appuyez sur la <b>barre d&#39;espace</b> dans la vue Graphique pour ouvrir le <b>menu Nœud</b>, puis sélectionnez l&#39;élément Cadre dans la liste.
+Appuyez sur la <b>barre d&#39;espace</b> dans la Vue du graphe pour ouvrir le <b>menu Nœud</b>, puis sélectionnez l&#39;élément « Cadre » dans la liste.
 
-Tapez « frame » dans le champ de recherche pour faire apparaître l’élément et le trouver plus rapidement.
+Tapez « cadre » dans le champ de recherche pour faire apparaître l’élément et le retrouver plus rapidement.
 
 +++
 
 +++Raccourci
-Si un raccourci clavier est mappé à l’élément « Cadre » dans les [Préférences](../../../../interface/preferences-window/preferences-window.md), appuyez sur ce raccourci lorsque la vue Graphique est active.
+Si un raccourci de clavier est associé à l&#39;élément « Cadre » dans les [Préférences](../../../../interface/preferences-window/preferences-window.md), appuyez sur ce raccourci lorsque la Vue du graphe est active.
 
 +++
 
 +++Menu contextuel
-Dans la vue Graphique, appuyez sur <b>RMB</b> sur n&#39;importe quel objet ou dans un espace vide et sélectionnez l&#39;option <b>Ajouter une image</b>.
+En Vue du graphe de compte, appuyez sur <b>RMB</b> sur n&#39;importe quel objet ou dans un espace vide et sélectionnez l&#39;option <b>Ajouter un Cadre</b>.
 
 +++
 
 +++Barre d’outils Graphique
-Dans la barre d&#39;outils du mode Graphique, cliquez sur le bouton Cadre dans la <b>Palette de noeuds</b>.
+Dans la barre d&#39;outils Vue du graphe, cliquez sur le bouton Cadre dans la <b>Palette de noeuds</b>.
 
 +++
 
 +++Bibliothèque
-Dans la bibliothèque, sélectionnez la catégorie <b>Éléments de graphique</b>, puis faites glisser l&#39;élément « Cadre » dans la vue Graphique.
+Dans la bibliothèque, sélectionnez la catégorie <b>Éléments de Graphe</b>, puis faites glisser l&#39;élément « Cadre » dans la Vue du graphe de données.
 
 +++
 
 ### Sélections de cadrage
 
-Si une sélection est active dans un graphique lors de la création d’un bloc, ce bloc est automatiquement ajusté pour inclure entièrement les objets sélectionnés.
+Si une sélection est active dans un graphe lors de la création d’un cadre, ce cadre est automatiquement ajusté pour inclure entièrement les objets sélectionnés.
 
-En gardant cela à l’esprit, la création d’images à l’aide d’un raccourci clavier rend le cadrage du contenu d’un graphique encore plus rapide.
+En gardant cela à l’esprit, la création de cadres à l’aide d’un raccourci de clavier rend encore plus rapide la cadre du contenu dans un graphe.
 
-![Images : Méthodes de création](../../../../assets/graph-frames_creation.gif "Images : Méthodes de création"){width="480px"}
+![Cadres : méthodes de création](frame.resources/graph-frames_creation.gif "Cadres : méthodes de création"){width="480px"}
 
 >[!TIP]
 >
-> Lorsqu’un bloc est créé, sa propriété Titre devient automatiquement active afin que vous puissiez immédiatement modifier le titre du bloc.
+> Lors de la création d’un cadre, sa propriété Titre devient automatiquement active pour vous permettre de modifier immédiatement le titre du cadre.
 
-## Manipulation d’images
+## Manipulation des cadres
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Les blocs peuvent être <b>panoramiques</b> en faisant glisser leur barre de titre ou d’en-tête et <b>redimensionnés</b> en faisant glisser l’une de leurs bordures ou de leurs angles.
+Les cadres peuvent être <b>panoramiques</b> en faisant glisser leur barre de titre ou d&#39;en-tête et <b>redimensionnés</b> en faisant glisser l&#39;une de leurs bordures ou de leurs angles.
 
 L’illustration met en évidence les zones d’interaction pour le panoramique (bleu) et le redimensionnement (jaune).
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Images : zones d’interaction](../../../../assets/graph-frames_interaction-zones.png "Images : zones d’interaction")
+![Cadres : zones d&#39;interaction](frame.resources/graph-frames_interaction-zones.png "Cadres : zones d&#39;interaction")
 
 </td>
 </tr>
@@ -142,14 +142,14 @@ L’illustration met en évidence les zones d’interaction pour le panoramique 
 
 ### Magnétisme de la grille
 
-Par défaut, un cadre s’aligne sur la grille moyenne lorsqu’il est déplacé ou redimensionné.
+Par défaut, un cadre contraint à la grille moyenne lorsqu’il est déplacé ou redimensionné.
 
-Maintenez la touche <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) enfoncée pour déplacer cet alignement sur la petite grille afin d’effectuer des réglages plus fins.
+Maintenez la touche <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) enfoncée pour déplacer ce contraint vers la petite grille pour des réglages plus fins.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Images : Magnétisme de la grille](../../../../assets/graph-frames_grid-snapping.gif "Images : Magnétisme de la grille")
+![Cadres : contraint des Grilles](frame.resources/graph-frames_grid-snapping.gif "Cadres : contraint des Grilles")
 
 </td>
 </tr>
@@ -157,38 +157,38 @@ Maintenez la touche <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) enfoncée pour d�
 
 ## Propriétés
 
-Lorsqu&#39;un bloc est sélectionné, les propriétés suivantes sont disponibles dans le dock [Propriétés](../../../../interface/properties/properties.md) :
+Lorsqu&#39;un cadre est sélectionné, les propriétés suivantes sont disponibles dans le dock [Propriétés](../../../../interface/properties/properties.md) :
 
 +++Titre
-Le <b>Titre</b> se trouve en haut à gauche de l&#39;image. Sa visibilité du titre peut être activée ou désactivée à l&#39;aide de la propriété <b>Titre visible</b>.
+Le <b>Titre</b> se trouve en haut à gauche du cadre. Sa visibilité du titre peut être activée ou désactivée à l&#39;aide de la propriété <b>Titre visible</b>.
 
-La taille du titre peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphique. Pour ce faire, cochez l&#39;option « Titres des images » dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue graphique](../../../../interface/the-graph-view/the-graph-view.md).
+La taille du titre peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphe. Pour ce faire, cochez l&#39;option Titres du Cadre dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue du graphe](../../../../interface/the-graph-view/the-graph-view.md).
 
-![Images : Titre](../../../../assets/graph_frames_title.gif "Images : Titre"){width="640px"}
+![Cadres : Titre](frame.resources/graph_frames_title.gif "Cadres : Titre"){width="640px"}
 
 
 
 +++
 
 +++Description
-La <b>Description</b> est une partie de texte supplémentaire facultative qui peut être utilisée pour annoter le contenu du bloc.
+La <b>Description</b> est une partie de texte supplémentaire facultative qui peut être utilisée pour annoter le contenu du cadre.
 
-Le texte peut être mis en forme à l’aide d’étiquettes de HTML. Cette mise en forme est basculée en cliquant sur le bouton ![](../../../../assets/graph-frames_html-markup-button.png) <b>Annotation de HTML</b>.
+Le texte peut être mis en forme à l’aide d’étiquettes de HTML. Cette mise en forme est basculée en cliquant sur le bouton ![](frame.resources/graph-frames_html-markup-button.png) <b>Annotation de HTML</b>.
 
 Pour en savoir plus, consultez la section Description ci-dessous.
 
-![Images : Description](../../../../assets/graph-frames_description.gif "Images : Description"){width="640px"}
+![Cadres : Description](frame.resources/graph-frames_description.gif "Cadres : Description"){width="640px"}
 
 
 
 +++
 
 +++Couleur
-La <b>couleur d&#39;image</b> est utilisée pour remplir le cadre dans la vue Graphique. Utilisez le sélecteur de couleurs pour sélectionner une couleur.
+La <b>couleur du Cadre</b> est utilisée pour remplir le cadre dans la Vue du graphe. Utilisez le sélecteur de couleurs pour sélectionner une couleur.
 
-La couche alpha de la couleur contrôle l&#39;*opacité* de l&#39;image, où une valeur de 0 signifie que l&#39;image est entièrement transparente.
+Le canal Alpha de la couleur contrôle l&#39;*opacité* du cadre, où une valeur de 0 signifie que le cadre est entièrement transparent.
 
-![Images : Color](../../../../assets/graph-frames_colour.gif "Images : Color"){width="640px"}
+![Cadres : Color](frame.resources/graph-frames_colour.gif "Cadres : Color"){width="640px"}
 
 
 
@@ -196,7 +196,7 @@ La couche alpha de la couleur contrôle l&#39;*opacité* de l&#39;image, où une
 
 ## Description
 
-Un bloc peut être annoté avec un texte qui sera placé à l’intérieur du bloc. Le texte est aligné à gauche et commence dans le coin supérieur gauche du bloc. Utilisez la propriété [Description](#properties) du cadre pour modifier ce texte.
+Un cadre peut être annoté avec un texte qui sera placé dans le cadre. Le texte est aligné à gauche et commence dans le coin supérieur gauche du cadre. Utilisez la propriété [Description](#properties) du cadre pour modifier ce texte.
 
 <table>
 <tr style="border: 0;">
@@ -204,14 +204,14 @@ Un bloc peut être annoté avec un texte qui sera placé à l’intérieur du bl
 
 ### Standard
 
-Le <b>Titre</b> s&#39;affiche dans une police en gras située en haut à gauche de l&#39;image. La visibilité du titre peut être activée ou désactivée.
+Le <b>Titre</b> s&#39;affiche dans une police en gras située en haut à gauche du cadre. La visibilité du titre peut être activée ou désactivée.
 
-Sa taille peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphique. Pour ce faire, cochez l&#39;option « Titres des images » dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue graphique](../../../../interface/the-graph-view/the-graph-view.md).
+Sa taille peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphe. Pour ce faire, cochez l&#39;option Titres du Cadre dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue du graphe](../../../../interface/the-graph-view/the-graph-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Image (description par défaut)](../../../../assets/graph-frames-descr.png "Image (description par défaut)"){zoomable="yes"}
+![Cadre (description par défaut)](frame.resources/graph-frames-descr.png "Cadre (description par défaut)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,18 +223,18 @@ Sa taille peut être verrouillée à une taille d’écran minimale afin qu’il
 
 ### formatage de HTML
 
-Le texte peut être formaté à l&#39;aide d&#39;étiquettes de HTML dans la propriété <b>Description</b> du cadre. La mise en forme doit être activée à l&#39;aide du bouton ![](../../../../assets/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans cette même propriété.
+Le texte peut être mis en forme à l&#39;aide de balises de HTML dans la propriété <b>Description</b> du cadre. La mise en forme doit être activée à l&#39;aide du bouton ![](frame.resources/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans cette même propriété.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Image (description au format HTML)](../../../../assets/graph-frames-descr-html.png "Image (description au format HTML)"){zoomable="yes"}
+![Cadre (description au format HTML)](frame.resources/graph-frames-descr-html.png "Cadre (description au format HTML)"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-Vous pouvez copier et coller cet exemple dans la propriété Description de l&#39;image pour tester cette fonctionnalité par vous-même :
+Vous pouvez copier et coller cet exemple dans la propriété Description du cadre pour tester cette fonctionnalité par vous-même :
 
 ```
 <h2>HTML formatting</h2>
@@ -285,7 +285,7 @@ Lorsque des connecteurs sont affichés ou masqués, ajoutés ou supprimés, l&#3
 
 Par conséquent, l&#39;emplacement du point central d&#39;un nœud ne doit pas être modifié tant qu&#39;il n&#39;a pas *été délibérément déplacé*.
 
-![Inclusion d’image : nœuds de grande taille](../../../../assets/frame_inclusion_node_tall.png "Inclusion d’image : nœuds de grande taille")
+![Inclusion d’image : nœuds de grande taille](frame.resources/frame_inclusion_node_tall.png "Inclusion d’image : nœuds de grande taille")
 
 
 
@@ -297,11 +297,11 @@ Si plusieurs nœuds sont ancrés dans une chaîne, le nœud hôte du dernier nœ
 
 Les badges, les connecteurs et les informations affichés sous le nœud sont tous ignorés.
 
-![Inclusion d’image : nœuds ancrés](../../../../assets/frame_inclusion_node_docked.png "Inclusion d’image : nœuds ancrés")
+![inclusion de Cadre : nœuds ancrés](frame.resources/frame_inclusion_node_docked.png "inclusion de Cadre : nœuds ancrés")
 
 
 
-![Inclusion d’image : nodes](../../../../assets/frame_inclusion_node.png "Inclusion d’image : nodes")
+![inclusion de Cadre : nodes](frame.resources/frame_inclusion_node.png "inclusion de Cadre : nodes")
 
 
 
@@ -312,7 +312,7 @@ Le <b>point central</b> du point est utilisé.
 
 Les connecteurs, les icônes de portail et les noms sont tous ignorés.
 
-![Inclusion d’image : nœuds de point](../../../../assets/frame_inclusion_dot.png "Inclusion d’image : nœuds de point")
+![Inclusion de Cadre : nœuds de point](frame.resources/frame_inclusion_dot.png "Inclusion de Cadre : nœuds de point")
 
 
 
@@ -329,33 +329,33 @@ Les badges, les connecteurs et les informations affichés sous le nœud sont tou
 
 
 
-![Inclusion d’image : commentaires parents](../../../../assets/frame_inclusion_comment_parented.png "Inclusion d’image : commentaires parents")
+![inclusion de Cadre : commentaires parents](frame.resources/frame_inclusion_comment_parented.png "inclusion de Cadre : commentaires parents")
 
 
 
-![Inclusion d’image : commentaires](../../../../assets/frame_inclusion_comment.png "Inclusion d’image : commentaires")
+![inclusion de Cadre : comments](frame.resources/frame_inclusion_comment.png "inclusion de Cadre : comments")
 
 
 
 +++
 
 +++Épingles
-Le <b>conseil</b> de l&#39;icône en forme d&#39;épingle est utilisé.
+Le <b>conseil</b> de l&#39;icône d&#39;épingle est utilisé.
 
-![Inclusion d’image : épingles de navigation](../../../../assets/frame_inclusion_pin.png "Inclusion d’image : épingles de navigation")
+![inclusion du Cadre : épingles de navigation](frame.resources/frame_inclusion_pin.png "inclusion du Cadre : épingles de navigation")
 
 
 
 +++
 
 +++Images
-Le <b>cadre de sélection</b> de l’image imbriquée est utilisé.
+Le <b>cadre de sélection</b> du cadre imbriqué est utilisé.
 
-Cela signifie qu’une image imbriquée doit se trouver entièrement à l’intérieur des limites d’une autre image pour être incluse dans cette dernière.
+Cela signifie qu’un cadre imbriqué doit se trouver entièrement dans les limites d’un autre cadre pour être inclus dans ce dernier.
 
 Le titre est ignoré.
 
-![Inclusion d’image : images imbriquées](../../../../assets/frame_inclusion_frame.png "Inclusion d’image : images imbriquées")
+![inclusion de Cadre : cadres imbriqués](frame.resources/frame_inclusion_frame.png "inclusion de Cadre : cadres imbriqués")
 
 
 
@@ -363,9 +363,9 @@ Le titre est ignoré.
 
 ## Ajuster la taille au contenu
 
-![Images : Taille adaptée au contenu](../../../../assets/graph-frames_fit-size-to-content.png "Images : Taille adaptée au contenu")
+![Cadres : adapter la taille au contenu](frame.resources/graph-frames_fit-size-to-content.png "Cadres : adapter la taille au contenu")
 
-Lorsque vous effectuez des réglages dans votre graphique, il se peut qu’un bloc ne soit plus ajusté de manière élégante à son contenu. Dans ce cas, il est possible d’ajuster automatiquement la position et la taille de l’image afin qu’elle s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne.
+Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Dans ce cas, il est possible d’ajuster automatiquement la position et la taille de l’image afin qu’elle s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne.
 
 Pour ce faire, cliquez sur <b>RMB</b> sur la barre de titre ou d&#39;en-tête du cadre (voir [Apparence](#appearance)) et sélectionnez l&#39;option <b>Adapter à la taille du contenu</b> dans le menu contextuel.
 
@@ -386,14 +386,14 @@ Si aucun objet inclus ne peut être placé dans cet espace, l’height du cadre 
 </td>
 <td style="border: 0;" valign="top">
 
-![Images : Taille adaptée au contenu (avec description)](../../../../assets/graph-frames_fit-description.png "Images : Taille adaptée au contenu (avec description)")
+![Images : Taille adaptée au contenu (avec description)](frame.resources/graph-frames_fit-description.png "Images : Taille adaptée au contenu (avec description)")
 
 </td>
 </tr>
 </table>
 
 +++Exemple
-![Images : Taille adaptée au contenu (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Images : Taille adaptée au contenu (GIF)"){width="640px"}
+![Images : Taille adaptée au contenu (GIF)](frame.resources/graph-frames_fit-size-to-content.gif "Images : Taille adaptée au contenu (GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ Si aucun objet inclus ne peut être placé dans cet espace, l’height du cadre 
 
 ## Développement automatique
 
-![Images : Développement automatique](../../../../assets/graph-frames_auto-expand.png "Images : Développement automatique")
+![Images : Développement automatique](frame.resources/graph-frames_auto-expand.png "Images : Développement automatique")
 
 Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité.
 
@@ -416,7 +416,7 @@ Si un objet n&#39;est pas entièrement entouré par les limites du cadre, mais q
 > Bien que la touche <b>Maj</b> puisse être enfoncée ou relâchée à tout moment pendant le déplacement pour déclencher ou annuler le réglage automatique de l&#39;image, elle *doit* être maintenue pendant la réalisation du déplacement pour appliquer efficacement le réglage.
 
 +++Exemple
-![Images : Développement automatique (GIF)](../../../../assets/graph-frames_auto-expand.gif "Images : Développement automatique (GIF)"){width="640px"}
+![Images : Développement automatique (GIF)](frame.resources/graph-frames_auto-expand.gif "Images : Développement automatique (GIF)"){width="640px"}
 
 
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Masque de volume 3D pour créer des masques volumiques basés sur la position 3D pour des effets de matériau avancés.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Masque de volume 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -22,80 +22,61 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
 
-**Entrée :** Générateur*/Motif*
-
-**Simple**
+<b>Entrée :</b> Générateur > Motif
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Masque de volume 3D** génère une représentation d&#39;une *forme primitive* basée sur le mappage d&#39;entrée **Position**.
+Le nœud **Masque de volume 3D** génère une représentation d&#39;une *forme primitive* en fonction de la map d&#39;entrée **Position**.
 
 </td>
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Couleur</i> | La carte décrivant les *coordonnées de l&#39;espace 3D* dans laquelle la primitive est représentée.<br><br>Les coordonnées **X/Y/Z** sont mappées aux canaux **R/G/B** respectivement. |
+
+<a name="parameters"></a>
+
 ## Paramètres
 
-### Entrées
+|  |  |
+|:---|:---|
+| <b>Forme</b> <i>Nombre entier</i> | La forme primitive qui doit être représentée :<br><br>- *Cube*<br>- *Cylindre*<br>- *Sphère* |
+| <b>Échelle</b> <i>Flotter</i> | Définit l&#39;échelle *globale* de la primitive, appliquée *uniformément* sur tous les axes. |
+| <b>Taille</b> <i>Float3</i> | Définit la taille de la forme sur chaque axe. |
+| <b>Entrée de position</b> <i>Nombre entier</i> | Méthode de *représentation de l&#39;espace* via l&#39;entrée **Position** :<br><br>- *UV* : utilisez un *UV map*. Les coordonnées X/Y (U/V) sont respectivement mappées aux canaux R/G. L&#39;axe Z est supposé être le vecteur *avant orthogonal*.<br>-*Position de l&#39;Espace monde* : utilisez une *carte de position* pour mapper la primitive dans l&#39;espace 3D. Les coordonnées X/Y/Z sont respectivement mappées sur les canaux R/G/B. |
+| <b>UV de position</b> <i>Float2</i> | Position de la primitive dans l&#39;espace UV.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Entrée de position** est défini sur *UV*. |
+| <b>Position</b> <i>Float3</i> | Position de la primitive dans l&#39;espace monde.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Entrée de position** est défini sur *Position de l&#39;Espace monde*. |
+| <b>Rotation</b> <i>Float3</i> | Définit la rotation de la forme en espace monde. |
+| <b>Largeur du contour progressif</b> <i>Flotter</i> | Ajuste la largeur du *dégradé de fondu* de la surface de la primitive vers l&#39;intérieur. |
 
-* **Position** *Couleur*\
-  La carte décrivant les *coordonnées de l&#39;espace 3D* dans laquelle la primitive est représentée.\
-  Les coordonnées **X/Y/Z** sont mappées aux canaux **R/G/B** respectivement.
+## Exemples
 
-### Paramètres
-
-* **Forme** *Nombre entier*\
-  La forme primitive qui doit être représentée:
-  * *Cube*- *Cylindre*- *Sphère*
-* **Échelle** *Flottant*\
-  Définit l&#39;échelle *globale* de la primitive, appliquée *uniformément* sur tous les axes.
-* **Taille** *Float3*\
-  Définit la taille de la forme sur chaque axe.
-* **Entrée de position** *Nombre entier*\
-  Méthode de *représentation de l&#39;espace* via l&#39;entrée **Position** :
-  * *Position UV* : utilisez une *carte UV*. Les coordonnées X/Y (U/V) sont respectivement mappées aux canaux R/G. L&#39;axe Z est supposé être le vecteur *avant orthogonal*.
-  * *Position dans l&#39;espace universel* : utilisez une *carte de position* pour mapper la primitive dans l&#39;espace 3D. Les coordonnées X/Y/Z sont respectivement mappées sur les canaux R/G/B.
-* **Positionner les UV** *Flotter2*\
-  Position de la primitive dans l’espace UV.\
-  *Remarque* : ce paramètre est uniquement disponible lorsque le paramètre **Entrée de position** est défini sur *Position UV*.
-* **Position** *Float3*\
-  La position du primitif dans l&#39;espace.\
-  *Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Entrée de position** est défini sur *Position dans l&#39;espace universel*.
-* **Rotation** *Float3*\
-  Définit la rotation de la forme dans l’espace univers.
-* **Largeur du contour progressif** *Flottant*\
-  Ajuste la largeur du *dégradé de fondu* de la surface de la primitive vers l&#39;intérieur.
-
-## Exemples d’images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant4.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
+        </td>
+    </tr>
 </table>

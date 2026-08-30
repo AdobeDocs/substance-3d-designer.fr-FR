@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Inversion de normales pour inverser les vecteurs de courbe de transfert normaux pour l'orientation de surface et la direction d'éclairage.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Inversion normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-invert.png){width="128px"}
+![](normal-invert.resources/normal-invert.png){width="128px"}
 
-## Inversion normale
-
-**Entrée :** *Filtres/Mappage de normales*
-
-**Simple**
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,19 +37,17 @@ Permet d’inverser n’importe quel canal d’une carte normale, ce qui fournit
 
 Gardez à l’esprit que presque tous les nœuds qui utilisent une carte normale comme entrée ou sortie disposent d’une option permettant d’inverser la couche verte pour les cartes normales de style OpenGL ou DirectX. Cela signifie que dans ces cas, vous ne devriez presque jamais avoir besoin de ce nœud.
 
-## Paramètres
-
-* **Inverser le rouge** : *Faux/Vrai*
-* **Inverser le vert** : *Faux/Vrai*
-* **Inverser le bleu** :*Faux/Vrai*
-* **Inverser l&#39;Alpha** : *Faux/Vrai*
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Inverser le rouge</b> <i>Faux/Vrai</i> |  |
+| <b>Inverser le vert</b> <i>Faux/Vrai</i> |  |
+| <b>Inverser le bleu</b> <i>Faux/Vrai</i> |  |
+| <b>Inverser l&#39;Alpha</b> <i>Faux/Vrai</i> |  |

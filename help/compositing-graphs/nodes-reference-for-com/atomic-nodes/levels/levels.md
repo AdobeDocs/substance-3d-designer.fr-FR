@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Niveaux pour régler la luminosité, le contraste et la gamme de tons des textures afin de corriger et d’améliorer les couleurs.
+description: Utilisez le nœud Niveaux pour régler la luminosité, le contraste et la gamme de tons des textures de correction et d’amélioration des couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveaux
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : niveaux](../../../../assets/comp_levels_1.png "Nœud atomique : niveaux"){width="200px"}
+![Noeud atomique : Levels](levels.resources/comp_levels_1.png "Noeud atomique : Levels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Le nœud Niveaux vous permet de remapper les tons d’une entrée en définissan
 </tr>
 </table>
 
-Il s’agit de l’un des nœuds principaux les plus utiles de Substance 3D Designer. Il est très souvent utilisé pour remapper et ajuster les valeurs d’un graphique, car il fournit l’interface la plus précise et la plus précise pour modifier les valeurs.
+Il s’agit de l’un des nœuds principaux les plus utiles de Substance 3D Designer. Il est très souvent utilisé pour remapper et ajuster les valeurs dans un graphe, car il fournit l’interface la plus précise et précise aux valeurs changeantes.
 
 Bien qu&#39;il s&#39;agisse d&#39;un nœud important, pour certains cas d&#39;utilisation, l&#39;interface peut être un peu lourde. Assurez-vous donc de rechercher des alternatives dans [Niveaux automatiques](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contraste/Luminosité](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) et [Histogramme de balayage](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md).
 
@@ -76,9 +76,9 @@ Le bouton jaune en surbrillance active/désactive l’interface entre les curseu
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -86,11 +86,11 @@ Le bouton jaune en surbrillance active/désactive l’interface entre les curseu
 
 |  |  |
 | --- | --- |
-| <b>Niveau bas</b> *Float/Float4* | Définit les niveaux de faible luminosité de l’image d’entrée. Remappe les valeurs d’entrée Faible pour obtenir un noir complet. |
-| <b>Niveau élevé</b> *Float/Float4* | Définit les niveaux de tons clairs de l’image d’entrée.  Les remappages saisissent des valeurs élevées pour obtenir un blanc complet. |
-| <b>Niveau en milieu</b> *Float/Float4* | Définit les niveaux de tons moyens de l’image d’entrée.  Remappe les valeurs intermédiaires d’entrée pour obtenir un gris moyen. |
-| <b>Niveau bas</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image de sortie.  Permet de fixer les valeurs Noir en sortie pour définir la limite. |
-| <b>Niveau supérieur</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image de sortie.  Permet de fixer des valeurs de blanc en sortie pour définir une limite. |
+| <b>Entrée basse du niveau</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image d&#39;entrée. Remappe les valeurs d’entrée Faible pour obtenir un noir complet. |
+| <b>Entrée haute du niveau</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image d&#39;entrée.  Les remappages saisissent des valeurs élevées pour obtenir un blanc complet. |
+| <b>Entrée moyenne du niveau</b> *Float/Float4* | Définit les niveaux de tons moyens de l’image d&#39;entrée.  Remappe les valeurs intermédiaires d’entrée pour obtenir un gris moyen. |
+| <b>Niveau bas</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image de sortie.  Verrouille les valeurs de noir en sortie pour définir une limite. |
+| <b>Sortie haute du niveau</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image de sortie.  Verrouille les valeurs de blanc en sortie pour définir une limite. |
 | <b>Pince intermédiaire</b> *Booléen* | Détermine si la valeur d&#39;entrée transformée est fixée à [0, 1] avant de calculer le niveau de sortie. |
 
 ## Guide d’utilisation
@@ -101,19 +101,19 @@ Regardez cette présentation vidéo du nœud Levels et de son éditeur d’histo
 
 Dans la barre d’en-tête « Paramètres spécifiques », vous trouverez des boutons permettant d’accéder aux fonctions pratiques de l’histogramme :
 
-![Actions rapides du nœud de niveaux](../../../../assets/levels-2.png "Actions rapides du nœud de niveaux")
+![Actions rapides du nœud de niveaux](levels.resources/levels-2.png "Actions rapides du nœud de niveaux")
 
-<b>1 - Inverser :</b> permute les valeurs des paramètres « Niveau bas » et « Niveau haut ».
+<b>1 - Inverser :</b> permute les valeurs des paramètres « Niveau bas sortant » et « Sortie haute du niveau ».
 
-<b>2 - Niveau automatique :</b> ajuste automatiquement les valeurs des paramètres « Niveau en bas » et « Niveau en haut » respectivement à la valeur la plus basse et à la valeur la plus élevée présentes dans l&#39;image.
+<b>2 - Niveau automatique :</b> ajuste automatiquement les valeurs des paramètres « Entrée basse du niveau » et « Entrée haute du niveau » respectivement à la valeur la plus basse et à la valeur la plus élevée présentes dans l&#39;image.
 
 <b>3 - Changer d&#39;interface :</b> basculer entre les éditeurs d&#39;histogramme et de curseur.
 
 ### Histogramme
 
-L’éditeur d’histogramme est destiné aux réglages visuels rapides pour lesquels des valeurs précises ne sont pas vraiment nécessaires et l’exposition des paramètres n’est pas importante. Il s’agit généralement du moyen le plus rapide et le plus simple de travailler avec les niveaux.
+L’éditeur d’histogramme est destiné aux réglages visuels et rapides pour lesquels des valeurs précises ne sont pas vraiment nécessaires et l’expose de paramètres n’est pas importante. Il s’agit généralement du moyen le plus rapide et le plus simple de travailler avec les niveaux.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 Selon le type d’entrée (Couleur ou Niveaux de gris), vous pouvez utiliser la liste déroulante au-dessus de l’histogramme pour choisir la couche que vous modifiez.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit directionnel 3 pour générer des motifs de bruit directionnel de trois octaves afin de créer des textures directionnelles.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BRUIT DIRECTIONNEL 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Icône](../../../../../../assets/directional_noise_3.png "Bruit directionnel 3 - Icône"){width="200px"}
+![Bruit directionnel 3 - Icône](directional-noise-3.resources/directional_noise_3.png "Bruit directionnel 3 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -45,25 +41,29 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* | Le bruit généré est une image bitmap en niveaux de gris. |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est une image bitmap en niveaux de gris. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
-| Entier <b>Échelle</b> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est important et plus le bruit est dense. |
-| <b>Désordre</b> Flottant | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> Flotter | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Désordre anisotropie</b> Flottant | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>Désorganiser l&#39;angle d&#39;anisotropie</b>. |
-| <b>Modification de l&#39;angle d&#39;anisotropie</b> Flottant | Contrôle la direction du displacement appliqué par le paramètre <b>Disorder</b>, lorsque le paramètre « Disorder anisotropie » n&#39;est pas nul. |
-| <b>Angle</b> Flottant | Angle utilisé pour définir la direction du bruit, en nombre de tours et à partir de l’horizontale vers la droite. |
-| <b>Angle aléatoire</b> Flottant | Quantité maximale de variation aléatoire appliquée à la valeur <b>Angle</b>, en nombre de tours. |
-| <b>Décalage de mosaïque</b> Float2 | Définit la position de la partie du plan infini utilisée pour le rendu du bruit. |
-| <b>Expansion non carrée</b> booléenne | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
+|:---|:---|
+| <b>Échelle</b> <i>Nombre entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est important et plus le bruit est dense. |
+| <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
+| <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Désorganiser l&#39;anisotropie</b> <i>Flotter</i> | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>Désorganiser l&#39;angle d&#39;anisotropie</b>. |
+| <b>Désorganiser l&#39;anisotropy angle</b> <i>Flotter</i> | Contrôle la direction du displacement appliqué par le paramètre <b>Disorder</b>, lorsque le paramètre « Disorder anisotropie » n&#39;est pas nul. |
+| <b>Angle</b> <i>Flotter</i> | Angle utilisé pour définir la direction du bruit, en nombre de tours et à partir de l’horizontale vers la droite. |
+| <b>Angle aléatoire</b> <i>Flotter</i> | Quantité maximale de variation aléatoire appliquée à la valeur <b>Angle</b>, en nombre de tours. |
+| <b>Décalage de mosaïque</b> <i>Float2</i> | Définit la position de la partie du plan infini utilisée pour le rendu du bruit. |
+| <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples
 
@@ -71,12 +71,12 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 1](../../../../../../assets/directional_noise_3_1.png "Bruit directionnel 3 - Exemple 1"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 1](directional-noise-3.resources/directional_noise_3_1.png "Bruit directionnel 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 2](../../../../../../assets/noise_directional_noise_3_v2_speed0.6_aniso0.gif "Bruit directionnel 3 - Exemple 2"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 2](directional-noise-3.resources/noise_directional_noise_3_v2_speed0.6_aniso0.gif "Bruit directionnel 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,26 +86,12 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 3](../../../../../../assets/noise_directional_noise_3_v2_speed0.6_aniso1.gif "Bruit directionnel 3 - Exemple 3"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 3](directional-noise-3.resources/noise_directional_noise_3_v2_speed0.6_aniso1.gif "Bruit directionnel 3 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 4](../../../../../../assets/noise_directional_noise_3_v2_speed0.3_aniso0.6.gif "Bruit directionnel 3 - Exemple 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Bruit directionnel 3 - Exemple 4](directional-noise-3.resources/noise_directional_noise_3_v2_speed0.3_aniso0.6.gif "Bruit directionnel 3 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

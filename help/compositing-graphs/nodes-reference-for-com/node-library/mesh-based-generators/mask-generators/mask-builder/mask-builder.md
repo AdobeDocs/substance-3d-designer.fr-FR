@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Concepteur de masque pour combiner plusieurs entrées de masque et créer des motifs de masque complexes pour des effets de matière.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Générateur de masques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 0%
+source-wordcount: '762'
+ht-degree: 10%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder.png){width="128px"}
 
-## Générateur de masques
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Complexe**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,95 +39,84 @@ Il s&#39;agit d&#39;un outil complexe conçu comme un constructeur de masques gl
 
 Aucun frein n&#39;est explicitement requis, mais plus vous fournissez, plus ce nœud est capable de faire.
 
-## Paramètres
-
-### Entrées
-
-* **Occlusion ambiante** : *Entrée en niveaux de gris*
-* **Courbure** : *Entrée en niveaux de gris*
-* **Espace universel normal** : *entrée de couleur*
-* **Entrée Usure/salissures** : *Entrée Niveaux De Gris*
-* **Entrée Usure/salissures 2** : *Entrée Niveaux De Gris*
-* **Entrée Dispersion** :*Entrée Niveaux De Gris*\
-  Tampon de dispersion personnalisé, requis pour utiliser les paramètres de Dispersion.
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-* **Position** : *Entrée Couleur*\
-  Ce paramètre est utilisé pour les effets triplanaires et de haut en bas.
-
-### Paramètres
-
-* **Niveau** : *0.0 - 1.0*\
-  Définit le niveau total de l’effet, qui s’affiche progressivement.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste du résultat.
-* **Inverser** : *Faux/Vrai*\
-  Inverse le résultat. Utile pour obtenir l’opposé du masque que vous créez.
-* **Utiliser triplanaire** :*Faux/Vrai* Active la projection triplanaire, en évitant toute jointure avec les cartes usure/salissures.
-* **Contraste de fusion triplanaire** : *0.0 - 1.0* définit le contraste de la fusion triplanaire.
-* **Usure/salissures** : *0,0 - 1,0* définit la quantité d&#39;Usure/salissures à intégrer globalement.
-* **Usure/salissures**
-  * **Échelle** : *0 - 10* Définit l’échelle de l’Usure/salissures globale.
-  * **Utiliser l&#39;Usure/salissures personnalisée** : *Faux/Vrai* Active l&#39;entrée d&#39;Usure/salissures personnalisée.
-  * **Usure/salissures personnalisée secondaire** : *0.0 - 1.0* Active une deuxième entrée Usure/salissures personnalisée.
-  * **Inverser** : *Faux/Vrai*\
-    Inverse la courbe d’Usure/salissures.
-* **AO** : *-1.0 - 1.0* Définit l&#39;étendue à laquelle l&#39;effet doit apparaître dans les zones AO occluses. Peut être modifié avec le groupe ci-dessous.
-* **AO**
-  * **Plage** : *0.0 - 1.0* Définit le seuil ou la plage pour l&#39;apparence du dirt.
-  * **Contraste** : *0,0 - 1,0*\
-    Règle le contraste de l’effet AOP.
-  * **Bruit** :*0,0 - 1,0* Définit la quantité de bruit/usure/salissures à fusionner avec l&#39;effet AO.
-  * **Échelle de bruit** : *0 - 10* définit l&#39;échelle du bruit/de l&#39;usure/salissures de l&#39;AO.
-  * **Type de bruit** :*Taches, nuages, humidité, bruit blanc* bascule entre 4 types de bruit AO différents.
-  * **Inverser** : *Faux/Vrai*\
-    Inverse l’interprétation de la carte AO : le bruit apparaîtra dans les zones AO claires, et non dans les zones AO sombres.
-* **Courbure** : *0.0 - 1.0* Définit l’effet qui doit apparaître sur les bords de courbure ; il peut être à la fois convexe et concave. Modifiez ceci avec le groupe ci-dessous.
-* **Courbure**
-  * **Plage de convexité** : *-1.0 - 1.0* Définit l&#39;effet à appliquer sur les bords de courbure convexes (clairs).
-  * **Contraste convexe** : *0.0 - 1.0* définit le contraste de l&#39;effet convexe.
-  * **Inversion convexe** :*Faux/Vrai* Inverse l&#39;interprétation des bords convexes.
-  * **Plage concave** : *-1.0 - 1.0* Définit l’effet à appliquer sur les bords de courbure concaves (sombres).
-  * **Contraste concave** : *0.0 - 1.0* définit le contraste de la plage concave.
-  * **Inversion concave** :*Faux/Vrai* Inverse l&#39;interprétation des bords concaves.
-  * **Smoothness** : *0,0 - 16,0* Niveau de flou et de lissage à appliquer aux bords de courbure.
-  * **Amplification de niveau** : *0,0 - 1,0* amplification supplémentaire si l’effet n’est pas assez visible.
-  * **Bruit** :*0.0 - 1.0* définit l’influence du bruit/de l’usure/salissures sur l’effet Courbure.
-  * **Échelle de bruit** : *0 - 10* définit l’échelle du bruit.
-  * **Type de bruit** :*Taches, nuages, humidité, bruit blanc* Choisissez entre 4 types de bruit différents.
-* **Dégradé de haut en bas** : *-1.0 - 1.0* Fusionne ou masque avec un dégradé de haut en bas en fonction du mappage de position. Les valeurs positives éclaircissent les choses, tandis que les valeurs négatives masquent les effets existants.
-* **Dégradé**
-  * **Plage** : *0,0 - 1,0* définit la position du dégradé.
-  * **Contraste** : *0,0 - 1,0*\
-    Règle le contraste du dégradé.
-  * **Inverser** : *Faux/Vrai*\
-    Inverse le dégradé. Permute efficacement le bas et le haut.
-* **Espace universel normal** :*0,0 - 1,0* similaire au dégradé de haut en bas, mais avec la carte de position et dans six directions, semblable à un faux éclairage. Les valeurs positives s’éclaircissent, les valeurs négatives s’assombrissent.
-* **Espace universel normal**
-  * **Intensité supérieure** : *-1,0 - 1,0*
-  * **Intensité inférieure** : *-1,0 - 1,0*
-  * **Intensité avant** : *-1,0 - 1,0*
-  * **Intensité du dos** : *-1,0 - 1,0*
-  * **Intensité correcte** : *-1,0 - 1,0*
-  * **Intensité gauche** : *-1,0 - 1,0*
-* **Scratches** : *-1.0 - 1.0* Mélange les rayures dans les zones blanches.
-* **Scratches**
-  * **Quantité** : *0 - 4096* Définit la quantité totale de rayures.
-  * **Échelle** : *0.0 - 1.0* Définit l’échelle de chaque rayure.
-* **Dispersion** : *-1.0 - 1.0* Dispersion un tampon personnalisé dans les zones blanches.
-* **Dispersion**
-  * **Échelle** : *0 - 50*&#x200B;Échelle totale de l’effet.
-  * **Densité** : *0.0 - 1.0* Contrôle de la densité de diffusion, valeur qui doit apparaître.
-  * **Taille** : *0,0 - 4,0* Taille du tampon dispersé.
-  * **Variation de taille** : *0.0 - 1.0* Variation dans la taille du tampon.
-  * **Variation d’opacité** : *0.0 - 1.0* Variation dans l’opacité du tampon.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> |  |
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> |  |
+| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> |  |
+| <b>Entrée Usure/salissures 2</b> <i>Entrée en niveaux de gris</i> |  |
+| <b>Entrée Dispersion</b> <i>Entrée en niveaux de gris</i> | Tampon de dispersion personnalisé, requis pour utiliser les paramètres de Dispersion. |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+| <b>Position</b> <i>Entrée couleur</i> | Ce paramètre est utilisé pour les effets triplanaires et de haut en bas. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Définit le niveau total de l’effet, qui s’affiche progressivement. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du résultat. |
+| <b>Inverser</b> <i>Faux/Vrai</i> | Inverse le résultat. Utile pour obtenir l’opposé du masque que vous créez. |
+| <b>Utiliser le mode triplanaire</b> <i>Faux/Vrai</i> | Permet la Projection triplanaire, en évitant tout seam avec des mappages usure/salissures. |
+| <b>Contraste de fusion triplanaire</b> <i>0.0 - 1.0</i> | Définit le contraste de la fusion triplanaire. |
+| <b>Usure/salissures</b> <i>0.0 - 1.0</i> | Définit la quantité d’Usure/salissures à intégrer globalement. |
+| <b>Usure/salissures</b> |  |
+| <b>Échelle</b> <i>0 - 10</i> | Définit l’échelle de l’Usure/salissures globale. |
+| <b>Utiliser l&#39;Usure/salissures personnalisée</b> <i>Faux/Vrai</i> | Active l&#39;entrée Usure/salissures personnalisée. |
+| <b>Usure/salissures personnalisée secondaire</b> <i>0.0 - 1.0</i> | Active une deuxième entrée Usure/salissures personnalisée. |
+| <b>Inverser</b> <i>Faux/Vrai</i> | Inverse la courbe d’Usure/salissures. |
+| <b>AO</b> <i>-1.0 - 1.0</i> | Définit la mesure dans laquelle l’effet doit apparaître dans les zones de zone de zoom occultées. Peut être modifié avec le groupe ci-dessous. |
+| <b>AO</b> |  |
+| <b>Plage</b> <i>0.0 - 1.0</i> | Définit le seuil ou la plage d’apparence du dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste de l’effet AOP. |
+| <b>Bruit</b> <i>0.0 - 1.0</i> | Définit la quantité de bruit/usure/salissures à fusionner avec l’effet AO. |
+| <b>Échelle de Bruit</b> <i>0 - 10</i> | Définit l’échelle du bruit/de l’usure/salissures AO. |
+| <b>Type de Bruit</b> <i>Taches, Nuages, Humidité, Bruit Blanc</i> | Permet de basculer entre 4 types de bruits AO différents. |
+| <b>Inverser</b> <i>Faux/Vrai</i> | Inverse l’interprétation de la carte AO : le bruit apparaîtra dans les zones AO claires, et non dans les zones AO sombres. |
+| <b>Courbure</b> <i>0.0 - 1.0</i> | Définit la quantité d’effet qui doit apparaître sur les contours de la Courbure. Il peut s’agir de formes convexes et concaves. Modifiez ceci avec le groupe ci-dessous. |
+| <b>Courbure</b> |  |
+| <b>Plage convexe</b> <i>-1.0 - 1.0</i> | Définit la quantité d’effet à appliquer aux contours de courbure convexes (clairs). |
+| <b>Contraste convexe</b> <i>0.0 - 1.0</i> | Définit le contraste de l’effet Convexe. |
+| <b>Inversion convexe</b> <i>Faux/Vrai</i> | Inverse l’interprétation des contours convexes. |
+| <b>Plage concave</b> <i>-1.0 - 1.0</i> | Définit la quantité d’effet à appliquer sur les bords de courbure concaves (sombres). |
+| <b>Contraste concave</b> <i>0.0 - 1.0</i> | Définit le contraste de la plage concave. |
+| <b>Conserver l&#39;inversion</b> <i>Faux/Vrai</i> | Inverse l&#39;interprétation des arêtes concaves. |
+| <b>Smoothness</b> <i>0.0 - 16.0</i> | Niveau de flou et de lissage à appliquer aux contours de la Courbure. |
+| <b>Amplification de niveau</b> <i>0.0 - 1.0</i> | Amplificateur supplémentaire si l&#39;effet n&#39;est pas assez visible. |
+| <b>Bruit</b> <i>0.0 - 1.0</i> | Définit l’influence du bruit/de l’usure/salissures sur l’effet Courbure. |
+| <b>Échelle de Bruit</b> <i>0 - 10</i> | Définit l’échelle du bruit. |
+| <b>Type de Bruit</b> <i>Taches, Nuages, Humidité, Bruit Blanc</i> | Choisissez entre 4 types de Bruits différents. |
+| <b>Dégradé Haut/Bas</b> <i>-1.0 - 1.0</i> | Fusion ou masque avec un dégradé de haut en bas en fonction du mappage de position. Les valeurs positives éclaircissent les choses, tandis que les valeurs négatives masquent les effets existants. |
+| <b>Dégradé</b> |  |
+| <b>Plage</b> <i>0.0 - 1.0</i> | Définit la position du dégradé. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du dégradé. |
+| <b>Inverser</b> <i>Faux/Vrai</i> | Inverse le dégradé. Permute efficacement le bas et le haut. |
+| <b>Espace universel normal</b> <i>0.0 - 1.0</i> | Similaire au dégradé Haut/Bas, mais avec la carte de position et dans six directions, semblable à un faux éclairage. Les valeurs positives s’éclaircissent, les valeurs négatives s’assombrissent. |
+| <b>Espace universel normal</b> |  |
+| <b>Intensité supérieure</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensité inférieure</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensité avant</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensité du dos</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensité correcte</b> <i>-1.0 - 1.0</i> |  |
+| <b>Intensité gauche</b> <i>-1.0 - 1.0</i> |  |
+| <b>Scratches</b> <i>-1.0 - 1.0</i> | Les fusions rayent sur les zones blanches. |
+| <b>Scratches</b> |  |
+| <b>Quantité</b> <i>0 - 4096</i> | Définit la quantité totale de rayures. |
+| <b>Échelle</b> <i>0.0 - 1.0</i> | Définit l’échelle des rayures individuelles. |
+| <b>Dispersion</b> <i>-1.0 - 1.0</i> | Dispersion un tampon personnalisé dans des zones blanches. |
+| <b>Dispersion</b> |  |
+| <b>Échelle</b> <i>0 - 50</i> | Échelle totale de l’effet. |
+| <b>Densité</b> <i>0.0 - 1.0</i> | Contrôle de la densité de diffusion, nombre qui doit apparaître. |
+| <b>Taille</b> <i>0.0 - 4.0</i> | Taille du tampon dispersé. |
+| <b>Variation de taille</b> <i>0.0 - 1.0</i> | Variation dans la taille du tampon. |
+| <b>Variation d&#39;opacité</b> <i>0.0 - 1.0</i> | Variation de l’opacité du tampon. |

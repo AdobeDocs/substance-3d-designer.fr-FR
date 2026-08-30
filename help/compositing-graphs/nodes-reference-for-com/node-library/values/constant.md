@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2cb8395834eb64124ebadb2cd051aead9babfa69
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type d&#39;entier](../../../../assets/fn-constant-integer.png "Icône Type d&#39;entier")
+Icône ![Type d&#39;entier](constant.resources/fn-constant-integer.png "Icône Type d&#39;entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier2](../../../../assets/fn-constant-integer2.png "Entier2")
+Icône de type ![Entier2](constant.resources/fn-constant-integer2.png "Entier2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de g
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer3](../../../../assets/fn-constant-integer3.png "Icône de type Integer3")
+Icône de type ![Integer3](constant.resources/fn-constant-integer3.png "Icône de type Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Un nœud Integer3 génère un vecteur entier statique à 3 composantes avec des 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer4](../../../../assets/fn-constant-integer4.png "Icône de type Integer4")
+Icône de type ![Integer4](constant.resources/fn-constant-integer4.png "Icône de type Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Les valeurs [flottantes peuvent être converties en nombres entiers](../../../..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type flottant](../../../../assets/fn-constant-float.png "Icône de type flottant")
+![Icône de type flottant](constant.resources/fn-constant-float.png "Icône de type flottant")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Un objet Float a un seul composant et est très couramment utilisé pour toute v
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float2](../../../../assets/fn-constant-float2.png "Float2")
+Icône de type ![Float2](constant.resources/fn-constant-float2.png "Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 est couramment utilisé pour [l&#39;échantillonnage des coordonnées](..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float3](../../../../assets/fn-constant-float3.png "Float3")
+Icône de type ![Float3](constant.resources/fn-constant-float3.png "Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3 est principalement utilisé lors de l&#39;utilisation d&#39;objets 3D et 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float4](../../../../assets/fn-constant-float4.png "Float4")
+Icône de type ![Float4](constant.resources/fn-constant-float4.png "Float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,16 +202,16 @@ Float4 est le moyen préféré de stocker et de définir des informations de cou
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type booléen](../../../../assets/fn-constant-boolean.png "Icône de type booléen")
+![Icône de type booléen](constant.resources/fn-constant-boolean.png "Icône de type booléen")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Booléen</b>
 
-Un booléen est le type de données le plus simple qui soit, ne connaissant que deux états : <code>true</code> ou <code>false</code>.
+Un Booléen est le type de données le plus simple qui soit, ne connaissant que deux états : <code>true</code> ou <code>false</code>.
 
-Ce type est assez courant lorsque vous travaillez avec des paramètres de bascule et des conditions [If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md).Les <br>booléens sont un moyen simple et efficace de contrôler le flux d&#39;une fonction ou d&#39;un graphique, par exemple à l&#39;aide d&#39;un [nœud de commutation](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md).
+Ce type est assez courant lorsque vous travaillez avec des paramètres de bascule et des conditions [If/Else](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md).Les <br>booléens sont un moyen simple et efficace de contrôler le flux d&#39;une fonction ou d&#39;un graphe, par exemple à l&#39;aide d&#39;un [nœud de commutation](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md).
 
 </td>
 </tr>

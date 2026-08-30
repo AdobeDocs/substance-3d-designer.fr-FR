@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rendu PBR pour effectuer le rendu de matériaux basés physiquement avec un éclairage réaliste pour prévisualiser l’apparence du matériau.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rendu PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 1%
+source-wordcount: '1365'
+ht-degree: 6%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render.png){width="250px"}
 
-**Entrée :** *Filtres de matériaux/Utilitaires PBR*
-
-**Complexe**
+<b>Entrée :</b> Filtres de matériau > Utilitaires PBR
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -49,189 +47,143 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 > 
 > Le nœud Rendu PBR est très lourd et ne fonctionne pas bien avec le moteur CPU de SSE2. Passez à un autre moteur en appuyant sur F9, si le nœud fonctionne extrêmement mal.
 
+<a name="inputs"></a>
+
 ## Entrées
 
-* **Canal matière** **entrées**\
-  Plusieurs entrées de matière sont utilisées pour effectuer le rendu de la matière sur la géométrie :
-  * Couleur de base
-  * Normale
-  * Émissif
-  * Rugosité
-  * Métallique
-  * Niveau spéculaire
-  * Hauteur
-  * Occlusion ambiante
-  * Masque d’opacité
-  * Niveau d&#39;anisotropie
-  * Angle d&#39;anisotropie
-  * Translucidité
-  * Échelle de distance de dispersion
-* **Carte de Dirt de l&#39;objectif** : *Carte d&#39;entrée en niveaux de gris* personnalisée pour le dirt sur l&#39;objectif, qui apparaît lorsque les halos sont visibles.
-* **Carte de l&#39;ouverture de l&#39;objectif** : *L&#39;entrée en niveaux de gris* peut être utilisée pour remplacer la forme Bokeh floue. Plus il est contrasté, plus il est visible. Gardez à l’esprit que seul un cercle de la texture est échantillonné, donc toute forme doit tenir dans un cercle.
-* **Entrée d&#39;arrière-plan** : *Entrée de couleur*\
-  Mappage personnalisé utilisé comme arrière-plan lorsque le paramètre **Mode arrière-plan** est défini sur *Entrée arrière-plan*
-* **Carte d&#39;environnement** : *entrée de couleur* carte d&#39;environnement utilisée pour calculer l&#39;éclairage. Doit être mappé sphériquement et en HDR.
+|  |  |
+|:---|:---|
+| <b>Entrées de canal Matériau</b> | Plusieurs entrées de matériau sont utilisées pour effectuer le rendu du matériau sur la géométrie :<br><br>- Base color<br>- Normal<br>- Emissive<br>- Rugosité<br>- Métallique<br>- Specular level<br>- Height<br>- Ambient occlusion<br>- Masque d&#39;opacité<br>- Anisotropy level<br>- Anisotropy angle<br>- Translucency<br>- Échelle de distance de diffusion |
+| <b>Carte de Dirt de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Carte personnalisée du dirt sur l’objectif, qui apparaît lorsque les halos sont visibles. |
+| <b>Carte d&#39;Ouverture de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Peut être utilisé pour remplacer la forme Bokeh floue. Plus il est contrasté, plus il est visible. Gardez à l’esprit que seul un cercle de la texture est échantillonné, donc toute forme doit tenir dans un cercle. |
+| <b>Entrée en arrière-plan</b> <i>Entrée de couleur</i> | Mappage personnalisé utilisé comme arrière-plan lorsque le paramètre <b>Mode arrière-plan</b> est défini sur <i>Entrée arrière-plan</i> |
+| <b>Map d&#39;environnement</b> <i>Entrée couleur</i> | Carte d&#39;environnement utilisée pour calculer l&#39;éclairage. Doit être mappé sphériquement et en HDR. |
 
-Sorties
+<a name="outputs"></a>
 
-* **Beauté**\
-  Le rendu final
-* **Irradiance brute**\
-  Les données d’irradiance du rendu final\
-  *Alpha :* mappage d&#39;opacité
-* **Specular Brut**\
-  Les données de specular du rendu final\
-  *Alpha :* carte de l&#39;ombre du Specular
-* **Espace universel normal**\
-  Données des normales de l’espace universel du rendu final\
-  *Alpha :* Carte de l&#39;height spatial mondial
-* **Espace Tangent Normal**\
-  Les données des normales de l’espace tangent du rendu final\
-  *Alpha :* mappage d&#39;height d&#39;espace tangent
-* **UV**\
-  Les données UV du rendu final\
-  *Alpha :* mappage d&#39;opacité
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Beauté</b> | Le rendu final |
+| <b>Irradiance brute</b> | Données d&#39;irradiance de la Map opacity <br><br><i>Alpha:</i> du rendu final |
+| <b>Specular Brut</b> | Les données de specular du rendu final<br><br><i>Alpha :</i> carte des ombres de Specular |
+| <b>Espace monde normal</b> | Les données de normale de l&#39;espace monde de la map height d&#39;Alpha <br><br><i>du rendu final :</i> d&#39;Espace monde |
+| <b>Repère tangent normal</b> | Les données des normales de l&#39;espace de tangente de l&#39;Alpha de rendu final <br><br><i> :</i> map height de l&#39;espace de Tangente |
+| <b>UV</b> | Les données d&#39;UV de la Map opacity <br><br><i>Alpha :</i> du rendu final |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-* **Forme** : *Sphère, Plan, Cylindre*\
-  Définit la forme utilisée pour le rendu. Les formes personnalisées ne sont pas possibles.
-* **Intensité du Displacement** : *0,0 - 0,5* Définissez l&#39;intensité du displacement à partir de l&#39;height.
-* **Rotation de l&#39;environnement** : *0.0 - 1.0*\
-  Fait pivoter l’environnement d’éclairage. Pré-rotation par rapport au déplacement de la caméra.
-* **Mode Arrière-Plan** : *Couleur, Environnement, Ambiant, Entrée Arrière-Plan*\
-  Définissez ce qui s’affiche en arrière-plan. La couleur est une couleur unie, l’environnement est la carte que vous avez connectée avec un flou facultatif. Ambiant est une version très floue de l&#39;environnement.
-* **Couleur d&#39;arrière-plan** : *(valeur de couleur)*\
-  Disponible uniquement lorsque le mode Arrière-plan est défini sur Couleur.
-* **Flou d&#39;arrière-plan de l&#39;environnement** : *0.0 - 1.0*\
-  Disponible uniquement lorsque le mode Arrière-plan est défini sur Environnement.
-* **Forme**
-  * **Échelle** : *0.0 - 2.0*\
-    Définissez l’échelle de la sphère.
-  * **Taille du plan** : *0.0 - 1.0*\
-    Définissez l’échelle du plan.
-  * **Rayon du cylindre** : *0.0 - 1.0*\
-    Définissez le rayon du cylindre.
-  * **Longueur du cylindre** : *0.0 - 1.0*\
-    Définissez la longueur du cylindre.
-  * **Rotation** : *0.0 - 1.0*\
-    Fait pivoter la forme sans faire pivoter l’éclairage.
-  * **Sens De La Rotation** : *0.0 - 1.0*\
-    Définit l’axe de rotation en 2D.
-  * **Rotation Autour De La Direction** : *0.0 - 1.0*\
-    Forme en rotation sur l’axe de rotation.
-  * **Position de la forme** : *-1.0 - 1.0*\
-    Déplace les formes.
-  * **Carrelage UV** : *1.0 - 6.0*\
-    Définit la quantité de recouvrement UV.
-  * **Échelle UV Sphère** : *0.0 - 4.0*\
-    Définit l&#39;échelle des UV sur la sphère.
-  * **Échelle UV de l&#39;avion** : *1.0 - 4.0*\
-    Définit l’échelle des UV sur le plan.
-  * **Échelle UV de cylindre** : *1.0 - 6.0*\
-    Définit l&#39;échelle des UV sur le cylindre.
-  * **Décalage des UV** : *0.0 - 1.0*\
-    Décale les UV
-  * **Inclinaison UV** : *Faux/Vrai*\
-    Inclinaison les UV de 45 degrés pour la sphère.
-* **Appareil photo**
-  * **Exposition** : *-4.0 - 4.0*\
-    Définissez l’exposition de l’appareil photo.
-  * **Mappeur de tonalité** : *Linear, ACES, Filmic Hejl*\
-    Définissez la solution de mappage de tonalité à utiliser pour l’image finale.
-  * **Mode Appareil Photo** : *Perspective, Orthographique*\
-    Permutez la caméra entre deux modes de projection.
-  * **Champ de vision** : *0.01 - 100.0*\
-    Définissez l’angle FOV de la caméra.
-  * **Distance** : *0,0 - 4,0*\
-    Définissez la distance entre la caméra et le centre de l’objet.
-  * **Intensité du vignetage** : *0.0 - 1.0*\
-    Définissez l’intensité de l’effet de vignette.
-  * **Rayon de vignetage** : *0.0 - 1.0*\
-    Définissez le rayon de l’effet de vignette.
-  * **Position à l&#39;écran** :\
-    Déplace la caméra autour de l’objet. Cette option peut également être modifiée à l’aide d’un objet dans la vue 2D.
-* **Profondeur de champ**
-  * **Rayon d’ouverture** : *0.0 - 0.1* Définit le rayon de l’ouverture. Des valeurs élevées signifient que les zones floues deviennent plus floues (bokeh).
-  * **Lames d&#39;ouverture** : *3 - 9*\
-    Définit la forme du flou bokeh.
-  * **Bague d&#39;ouverture** : *0.0 - 1.0*\
-    Ajoute un dégradé interne à la forme bokeh.
-  * **Difraction D&#39;Ouverture** : *0.0 - 2.0*\
-    Ajoute une aberration chromatique au bokeh.
-  * **Swirly Bokeh** : *0.0 - 1.0*\
-    Ajoute un effet de tourbillon ou de rotation aux zones floues bokeh floues floues.
-  * **Mode Focus** : *Auto, Point*\
-    Définissez si le focus est prédéterminé ou défini par l’utilisateur. La mise au point vous permet de déplacer un point dans la vue 2D pour déterminer la distance de mise au point.
-  * **Point focal** :\
-    Si le focus est défini sur Point, vous pouvez déplacer ce point. dispose d’un widget de vue 2D.
-  * **Décalage de mise au point** : *-0.5 - 0.5*\
-    Si le focus est défini sur Auto, vous permet de le déplacer d’avant en arrière.
-  * **Utiliser la carte d&#39;ouverture personnalisée** : *Faux/Vrai*\
-    Remplace les paramètres d’ouverture ci-dessus et utilise l’entrée de courbe d’ouverture pour déterminer la forme bokeh. Nécessite une entrée.
-* **Effets postérieurs**
-  * **Activer les effets postérieurs** : *Faux/Vrai*\
-    Active/désactive les post-effets *tous* dans le rendu final.
-  * **Intensité de la floraison** : *0.0 - 2.0* Définit l&#39;intensité de l&#39;effet de floraison.
-  * **Seuil de floraison** : *0.0 - 2.0* Définit un seuil bas pour l&#39;apparition de la floraison.
-  * **Décalage chromatique de la floraison** : *0.0 - 1.0*
-  * **Intensité du halo de l’objectif** : *0.0 - 1.0* Définit l’intensité de l’effet de halo de l’objectif.
-  * **Intensité du halo** : *0.0 - 1.0* Définit l&#39;intensité du halo. Assurez-vous que la lumière de l’arrière-plan de votre environnement est bien visible pour voir correctement cet effet.
-  * **Intensité du Dirt de l&#39;objectif** : *0.0 - 1.0* Définit l&#39;effet de la carte du dirt de l&#39;objectif sur les halos.
-* **Paramètres de rendu**
-  * **Qualité Diffuse** : *16 Échantillons, 32 Échantillons, 64 Échantillons, 128 Échantillons*\
-    Basculez entre les niveaux de qualité pour la carte de diffusion.
-  * **Multiplicateur Émissif Diffus** : *0.0 - 1.0*\
-    Contrôle la contribution des parties émissives à l&#39;irradiation.
-  * **Intensité de l&#39;ombre diffuse** : *0.0 - 1.0*\
-    Contrôle l’intensité des ombres diffuses.
-  * **Tramage Specular** : *0.0 - 1.0*\
-    Définissez la quantité de tramage pour le specular.
-  * **Multiplicateur d&#39;ombre de Specular** : *0.0 - 1.0*\
-    Contrôle l’intensité des ombres dans les reflets specular.
-  * **Test d&#39;Alpha tramé en mode opacité** *Mode Alpha simple*\
-    Contrôle la méthode d’application de la transparence. Le mode de fusion *Alpha simple* est plus visible sur des arrière-plans uniformes.
-  * **Intensité de l&#39;Occlusion ambiante** : *0,0 - 1,0*\
-    Définit l’intensité des ombres de l’occlusion ambiante.
-* **Réglages de matière**
-  * **Recalculer les normales** : *Faux/Vrai*\
-    Les normales seront recalculées à partir de la carte d&#39;height en fonction de l&#39;intensité du displacement.
-  * **Format normal** : *DirectX, OpenGL*\
-    Basculer entre différents Formats de map normaux (inverse la couche verte)
-  * **Entrée F0 diélectrique** : *valeur constante, entrée de Specular level*\
-    Définissez ce qui détermine les valeurs F0. Entrée de specular level signifie qu&#39;il sera piloté par un mappage d&#39;entrée.
-  * **F0** diélectrique : *0.0 - 0.08*\
-    Si l’option Valeur constante est choisie pour Entrée diélectrique F0, ce curseur vous permet de définir la valeur globale.
-* **Pelage transparent**
-  * **Activer le pelage transparent** :*Faux/Vrai*\
-    Permet d’ajouter un calque de revêtement transparent simple et supplémentaire sur le matériau d’entrée.
-  * **Effacer le poids du pelage** : *0,0 - 1,0*\
-    Définit l’intensité ou l’intensité du calque clearcoat.
-  * **Effacer le Specular level du pelage** : *0.0 - 1.0*\
-    Définit la rugosité du calque clearcoat.
-  * **Hériter de la normale à partir du calque de base** : *Faux/Vrai* Définissez cette option si clearcoat ignore ou utilise les normales du matériau de base.
-* **Émissif**
-  * **Activer l&#39;éclairage émissif** *Vrai/Faux* Active/désactive la contribution diffuse de l&#39;éclairage émissif.
-  * **Intensité émissive** : *0.0 - 10.0*\
-    Définit le multiplicateur global pour la carte émissive.
-* **Diffusion Souterraine**
-  * **Activer La Diffusion Subsurface** *Vrai/Faux*\
-    Active/désactive la diffusion de la sous-surface dans le rendu final.\
-    *Remarque :* la diffusion sous la surface nécessite que la valeur d&#39;entrée **Translucidité** soit *supérieure à 0,0*
-  * **Distance de diffusion** *0.0 - 1.0*\
-    Ajuste la distance maximale de l’effet de diffusion.\
-    *Remarque :* cette valeur est multipliée par rapport à la valeur d&#39;entrée *de l&#39;**échelle de distance de diffusion**&#x200B;par couche de couleur*.
-  * **Décalage Rouge** *0.0 - 1.0*\
-    Règle l’intensité de l’effet de décalage du rouge dans la diffusion.
-  * **Rayleigh** *0.0 - 1.0*\
-    Règle l’intensité de l’effet Rayleigh dans la diffusion.
+|  |  |
+|:---|:---|
+| <b>Forme</b> <i>Sphère, Plan, Cylindre</i> | Définit la forme utilisée pour le rendu. Les formes personnalisées ne sont pas possibles. |
+| <b>Intensité du Displacement</b> <i>0.0 - 0.5</i> | Définissez l’intensité du displacement à partir de l’height. |
+| <b>Rotation de l&#39;environnement</b> <i>0.0 - 1.0</i> | Fait pivoter l’environnement d’éclairage. Pré-rotation par rapport au déplacement de la caméra. |
+| <b>Mode Arrière-plan</b> <i>Entrée Couleur, Environnement, Ambiant, Arrière-Plan</i> | Définissez ce qui s’affiche en arrière-plan. La couleur est une couleur unie, l’environnement est la carte que vous avez connectée avec un flou facultatif. Ambiant est une version très floue de l&#39;environnement. |
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Disponible uniquement lorsque le mode Arrière-plan est défini sur Couleur. |
+| <b>Flou d&#39;arrière-plan de l&#39;environnement</b> <i>0.0 - 1.0</i> | Disponible uniquement lorsque le mode Arrière-plan est défini sur Environnement. |
+| <b>Forme</b> |  |
+| <b>Échelle</b> <i>0.0 - 2.0</i> | Définissez l’échelle de la sphère. |
+| <b>Taille du plan</b> <i>0.0 - 1.0</i> | Définissez l’échelle du plan. |
+| <b>Rayon du cylindre</b> <i>0.0 - 1.0</i> | Définissez le rayon du cylindre. |
+| <b>Longueur du cylindre</b> <i>0.0 - 1.0</i> | Définissez la longueur du cylindre. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter la forme sans faire pivoter l’éclairage. |
+| <b>Direction de la rotation</b> <i>0.0 - 1.0</i> | Définit l’axe de rotation en 2D. |
+| <b>Rotation Autour De La Direction</b> <i>0.0 - 1.0</i> | Forme en rotation sur l’axe de rotation. |
+| <b>Position de la forme</b> <i>-1.0 - 1.0</i> | Déplace les formes. |
+| <b>UV</b> <i>1.0 - 6.0</i> | Définit la quantité d’UV-Répétition. |
+| <b>Échelle UV Sphère</b> <i>0.0 - 4.0</i> | Définit l&#39;échelle des UV sur la sphère. |
+| <b>Échelle UV plane</b> <i>1.0 - 4.0</i> | Définit l&#39;échelle des UV sur le plan. |
+| <b>Échelle UV de cylindre</b> <i>1.0 - 6.0</i> | Définit l&#39;échelle des UV sur le cylindre. |
+| <b>Décalage des UV</b> <i>0.0 - 1.0</i> | UV de décalage |
+| <b>Inclinaison des UV</b> <i>Faux/Vrai</i> | Inclinaison l’UV de 45° pour la sphère. |
+| <b>Appareil photo</b> |  |
+| <b>Exposition</b> <i>-4.0 - 4.0</i> | Définissez l’exposition de la caméra. |
+| <b>Mappeur de tonalité</b> <i>Linear, ACE, Filmic Hejl</i> | Définissez la solution de mappage de tonalité à utiliser pour l’image finale. |
+| <b>Mode Caméra</b> <i>Perspective, Orthographique</i> | Permutez la caméra entre deux modes de projection. |
+| <b>Champ de vision</b> <i>0.01 - 100.0</i> | Définissez l’angle FOV de la caméra. |
+| <b>Distance</b> <i>0.0 - 4.0</i> | Définissez la distance entre la caméra et le centre de l’objet. |
+| <b>Intensité du vignetage</b> <i>0.0 - 1.0</i> | Définissez l’intensité de l’effet de vignette. |
+| <b>Rayon de vignetage</b> <i>0.0 - 1.0</i> | Définissez le rayon de l’effet de vignette. |
+| <b>Position à l&#39;écran</b> | Déplace la caméra autour de l’objet. Cette option peut également être modifiée à l’aide d’un objet dans la vue 2D. |
+| <b>Profondeur de champ</b> |  |
+| <b>Rayon D&#39;Ouverture</b> <i>0.0 - 0.1</i> | Définit le rayon de l’ouverture. Des valeurs élevées signifient que les zones floues deviennent plus floues (bokeh). |
+| <b>Lames d&#39;Ouverture</b> <i>3 - 9</i> | Définit la forme du flou bokeh. |
+| <b>Bague D&#39;Ouverture</b> <i>0.0 - 1.0</i> | Ajoute un dégradé interne à la forme bokeh. |
+| <b>Difraction Ouverture</b> <i>0.0 - 2.0</i> | Ajoute une aberration chromatique au bokeh. |
+| <b>Bokeh tourbillonnant</b> <i>0.0 - 1.0</i> | Ajoute un effet de tourbillon ou de rotation aux zones floues bokeh floues floues. |
+| <b>Mode Focus</b> <i>Auto, Point</i> | Définissez si le focus est prédéterminé ou défini par l’utilisateur. La mise au point vous permet de déplacer un point dans la vue 2D pour déterminer la distance de mise au point. |
+| <b>Point De Mise Au Point</b> | Si le focus est défini sur Point, vous pouvez déplacer ce point. dispose d’un widget de vue 2D. |
+| <b>Décalage de mise au point</b> <i>-0.5 - 0.5</i> | Si le focus est défini sur Auto, vous permet de le déplacer d’avant en arrière. |
+| <b>Utiliser le mappage d&#39;Ouverture personnalisé</b> <i>Faux/Vrai</i> | Remplace les paramètres d’ouverture ci-dessus et utilise l’entrée de courbe d’ouverture pour déterminer la forme bokeh. Nécessite une entrée. |
+| <b>Effets postérieurs</b> |  |
+| <b>Activer les Effets de post-traitement</b> <i>Faux/Vrai</i> | Active/désactive les post-effets <i>tous</i> dans le rendu final. |
+| <b>Intensité de la floraison</b> <i>0.0 - 2.0</i> | Définit la force de l’effet de floraison. |
+| <b>Seuil de floraison</b> <i>0.0 - 2.0</i> | Définit le seuil d’apparition de la floraison. |
+| <b>Décalage chromatique de la floraison</b> <i>0.0 - 1.0</i> |  |
+| <b>Intensité du halo de l&#39;objectif</b> <i>0.0 - 1.0</i> | Définit l’intensité de l’effet de halo. |
+| <b>Intensité des Halos</b> <i>0.0 - 1.0</i> | Définit l’intensité du halo. Assurez-vous que la lumière de l’arrière-plan de votre environnement est bien visible pour voir correctement cet effet. |
+| <b>Intensité du Dirt de l&#39;objectif</b> <i>0.0 - 1.0</i> | Définit l’effet de la texture dirt de l’objectif sur les Halos. |
+| <b>Paramètres de rendu</b> |  |
+| <b>Qualité de Diffuse</b> <i>16 Échantillons, 32 Échantillons, 64 Échantillons, 128 Échantillons</i> | Basculez entre les niveaux de qualité pour la carte de diffusion. |
+| <b>Multiplicateur Diffuse</b> <i>0.0 - 1.0</i> | Contrôle la contribution des parties émissives à l&#39;irradiation. |
+| <b>Intensité de l&#39;ombre du Diffuse</b> <i>0.0 - 1.0</i> | Contrôle l’intensité des ombres diffuses. |
+| <b>Dithering Specular</b> <i>0.0 - 1.0</i> | Définissez la quantité de tramage pour le specular. |
+| <b>Multiplicateur d&#39;ombre de Specular</b> <i>0.0 - 1.0</i> | Contrôle l’intensité des ombres dans les reflets specular. |
+| <b>Mode Opacité</b> <i>Test d&#39;Alpha tramé, Fusion d&#39;Alpha simple</i> | Contrôle la méthode d’application de la transparence. Le mode de fusion <i>Alpha simple</i> est plus visible sur des arrière-plans uniformes. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit l’intensité des ombres de l’occlusion ambiante. |
+| <b>Réglages de matière</b> |  |
+| <b>Recalculer les normales</b> <i>Faux/Vrai</i> | Les normales seront recalculées à partir de la carte d&#39;height en fonction de l&#39;intensité du displacement. |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte) |
+| <b>Entrée F0 diélectrique</b> <i>Valeur constante, entrée de Specular level</i> | Définissez ce qui détermine les valeurs F0. Entrée de specular level signifie qu&#39;il sera piloté par un mappage d&#39;entrée. |
+| <b>Diélectrique F0</b> <i>0.0 - 0.08</i> | Si l’option Valeur constante est choisie pour Entrée diélectrique F0, ce curseur vous permet de définir la valeur globale. |
+| <b>Pelage transparent</b> |  |
+| <b>Activer le pelage transparent</b> <i>Faux/Vrai</i> | Permet d’ajouter un calque de revêtement transparent simple et supplémentaire sur le matériau d’entrée. |
+| <b>Épaisseur de pelage nette</b> <i>0.0 - 1.0</i> | Définit l’intensité ou l’intensité du calque clearcoat. |
+| <b>Effacer le Coat specular level</b> <i>0.0 - 1.0</i> | Définit la rugosité du calque clearcoat. |
+| <b>Hériter de la normale à partir du calque de base</b> <i>Faux/Vrai</i> | Définissez cette option si clearcoat ignore ou utilise les normales du matériau de base. |
+| <b>Émissif</b> |  |
+| <b>Activer l&#39;éclairage Emissive</b> <i>Vrai/Faux</i> | Active/désactive la contribution diffuse de l’éclairage emissive. |
+| <b>Intensité émissive</b> <i>0.0 - 10.0</i> | Définit le multiplicateur global pour la carte émissive. |
+| <b>Subsurface scattering</b> |  |
+| <b>Activer la Subsurface scattering</b> <i>Vrai/Faux</i> | Active/désactive la subsurface scattering dans le rendu final.<br><br><i>Remarque :</i> la Subsurface scattering nécessite que la valeur d&#39;entrée <b>Translucency</b> soit <i>supérieure à 0,0</i> |
+| <b>Distance de diffusion</b> <i>0.0 - 1.0</i> | Ajuste la distance maximale de l&#39;effet de diffusion.<br><br><i>Remarque :</i> cette valeur est multipliée par rapport à la valeur d&#39;entrée <i> de l&#39;<b>échelle de distance de diffusion</b> par couche de couleur</i>. |
+| <b>Décalage Rouge</b> <i>0.0 - 1.0</i> | Règle l’intensité de l’effet de décalage du rouge dans la diffusion. |
+| <b>Rayleigh</b> <i>0.0 - 1.0</i> | Règle l’intensité de l’effet Rayleigh dans la diffusion. |
 
-## Exemples d’images
+## Exemples
 
 Toutes les images ont été générées directement à l&#39;intérieur de Designer, dans la fenêtre d&#39;affichage 2D, à l&#39;aide des matériaux de la bibliothèque [Ressources Substance 3D](https://substance3d.adobe.com/assets).
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
-| --- | --- | --- | --- |
-|  |  |  |  |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_image" src="../../../../../../assets/sphere-chesterfield-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_image" src="../../../../../../assets/sphere-carbon-fiber.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c2_image" src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c3_image" src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" width="300px"/></div> |
-|  |  |  |  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+        </td>
+    </tr>
+</table>

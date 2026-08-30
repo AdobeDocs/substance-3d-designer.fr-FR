@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et utiliser des paramètres prédéfinis dans Substance 3D Designer pour enregistrer et appliquer des configurations de paramètres.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Paramètres prédéfinis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Les paramètres prédéfinis donnent à l’utilisateur la possibilité de stock
 
 Il existe deux façons de stocker et de charger des paramètres prédéfinis. Les deux ont des cas d’utilisation différents, détaillés ci-dessous.
 
-![Menu déroulant Charger/Enregistrer la préconfiguration](../../../assets/preset-menu.gif "Menu déroulant Charger/Enregistrer la préconfiguration"){width="512px"}
+![Menu déroulant Charger/Enregistrer la préconfiguration](parameter-presets.resources/preset-menu.gif "Menu déroulant Charger/Enregistrer la préconfiguration"){width="512px"}
 
 ## Paramètres prédéfinis externes
 
@@ -38,7 +38,7 @@ Ils sont simplement enregistrés et chargés via ce menu. Les fichiers SBSPRS en
 >
 > Même les correspondances partielles fonctionneront : les paramètres stockés dans un SBSPRS qui n&#39;existent pas sur le nœud chargé, seront simplement ignorés. Cela signifie que vous pouvez transférer des propriétés entre des nœuds qui sont généralement similaires, [comme la version en couleurs et en niveaux de gris de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ! Tous les paramètres partagés se chargeront. La correspondance se produit sur l&#39;identificateur et le type.
 
-![Modification des paramètres prédéfinis intégrés](../../../assets/preset-embed.gif "Modification des paramètres prédéfinis intégrés"){width="512px"}
+![Modification des paramètres prédéfinis intégrés](parameter-presets.resources/preset-embed.gif "Modification des paramètres prédéfinis intégrés"){width="512px"}
 
 ## Paramètres prédéfinis intégrés
 

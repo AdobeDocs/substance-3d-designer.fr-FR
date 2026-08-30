@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'Occlusion ambiante (RTAO) pour générer des cartes d'occlusion ambiante en temps réel à partir de cartes d'height pour un ombrage réaliste.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Occlusion ambiante (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud RTAO](../../../../../../assets/rt-ao.png "Icône de nœud RTAO")
+![Icône de nœud RTAO](ambient-occlusion-rtao.resources/rt-ao.png "Icône de nœud RTAO")
 
-<b>Entrée :</b> *Filtres/Effets*
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,42 +43,29 @@ Voir [Occlusion ambiante (HBAO) (nœud de filtre)](../../../../../../compositing
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-<b>Utiliser la Taille physique</b> *Booléen*\
-Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height.
+|  |  |
+|:---|:---|
+| <b>Utiliser la Taille physique</b> <i>Booléen</i> | Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height. |
+| <b>Taille physique</b> <i>Float3</i> <i>(Disponible lorsque <b>Utiliser la Taille physique</b> est défini sur <i>Vrai</i>)</i> | Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface |
+| <b>Exemples</b> <i>Nombre entier</i> | Nombre de rayons utilisés pour calculer l&#39;ambient occlusion.<br>Une valeur plus élevée offre un résultat plus lisse et plus précis au détriment des performances. |
+| <b>Échelle d&#39;Height</b> <i>Flotter</i> <i>(Disponible lorsque <b>Utiliser la Taille physique</b> est défini sur <i>Faux</i>)</i> | Multiplicateur de l’intensité de l’entrée de courbe de transfert d’height. |
+| <b>Distribution</b> <i>Nombre entier</i> | Définit la méthode de distribution. Affecte la réduction vers les zones ombrées, |
+| <b>Distance Maximale</b> <i>Flotter</i> | Définit la distance maximale que les rayons peuvent parcourir pour être occultés. |
+| <b>Angle de répartition</b> <i>Flotter</i> | Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier. |
 
-<b>Taille physique</b> *Float3* (disponible lorsque l&#39;option <b>Utiliser la Taille physique</b> est définie sur *True*)\
-Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface
+## Exemples
 
-<b>Échantillons </b>*Entier*\
-Nombre de rayons utilisés pour calculer l&#39;occlusion ambiante.\
-Plus la valeur est élevée, plus le résultat obtenu est fluide et précis, au détriment des performances.
-
-<b>Échelle d&#39;Height</b> *Flottant* (disponible lorsque <b>Utiliser la Taille physique</b> est défini sur *Faux*)\
-Multiplicateur de l’intensité de l’entrée de courbe de transfert d’height.
-
-<b>Distribution</b> *Entier* Définit la méthode de distribution. Affecte la réduction vers les zones ombrées,
-
-<b>Distance Maximale</b> *Flotter*\
-Définit la distance maximale que les rayons peuvent parcourir pour être occultés.
-
-<b>Angle de répartition</b> *Flotter*\
-Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier.
-
-## Exemples d’images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Nœud RTAO - Exemple 1](../../../../../../assets/image2021-6-18-11-7-48.png "Nœud RTAO - Exemple 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nœud RTAO - Exemple 2](../../../../../../assets/image2021-6-18-11-9-0-1.png "Nœud RTAO - Exemple 2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+        </td>
+    </tr>
 </table>

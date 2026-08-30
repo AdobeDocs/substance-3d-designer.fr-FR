@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Utilisez le panneau Propriétés de Substance 3D Designer pour afficher et modifier les propriétés de nœud et les paramètres de graphique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Propriétés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Le panneau <b>Propriétés</b>est un panneau contextuel qui change en fonction d
 </td>
 <td style="border: 0;" valign="top">
 
-![Dock des propriétés](../../assets/image2020-11-9-13-49-48.png "Dock des propriétés")
+![Dock des propriétés](properties.resources/image2020-11-9-13-49-48.png "Dock des propriétés")
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Les nœuds et les [graphes de Substance](../../compositing-graphs/substance-comp
 
 Les <b>paramètres de base</b> et les <b>attributs</b> sont identiques entre les nœuds et les graphiques.
 
-Les nœuds offrent <b>paramètres spécifiques</b> ou<b> paramètres d&#39;instance</b> (selon qu&#39;il s&#39;agit de [nœuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou de [instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), ainsi que des <b>valeurs d&#39;entrée</b> pour l&#39;utilisation de [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+Les nœuds offrent <b>paramètres spécifiques</b> ou<b> paramètres d&#39;instance</b> (selon qu&#39;il s&#39;agit de [Noeuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou de [instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), ainsi que des <b>valeurs d&#39;entrée</b> pour l&#39;utilisation de [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 Les nœuds atomiques [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et [de sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) sont des exceptions, car ils comportent des <b>attributs d&#39;intégration</b> et des <b>conditions</b> de visibilité. Ces deux ensembles de propriétés sont également accessibles de manière centralisée dans les propriétés Graph, sous Entrées et Sorties.
 

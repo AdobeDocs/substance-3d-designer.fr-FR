@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Transformation normale pour appliquer des transformations aux cartes de normales tout en conservant correctement les directions des vecteurs.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformation normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -22,32 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-transform.png){width="128px"}
+![](normal-transform.resources/normal-transform.png){width="128px"}
 
-## Transformation normale
-
-**Entrée :** *Filtres/Mappage de normales*
-
-**Simple**
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Comme le nœud 2D de transformation atomique, cela permet la transformation de cartes normales sans rupture de l&#39;espace tangent. Au lieu de cela, il est recalculé à la volée, ce qui permet de toujours corriger les cartes normales.
 
-## Paramètres
-
-* **Matrix2x2** : *(Matrice de transformation) :*\
-  Faites pivoter ou mettez à l’échelle l’entrée.
-* **Décalage** : *-0.5 - 0.5*\
-  Déplace ou traduit le résultat. Lorsque la commande Transformation est présente, le résultat peut être modifié en interagissant directement avec la zone de travail.
-* **Format normal** : *DirectX, OpenGL*\
-  Basculer entre différents Formats de map normaux (inverse la couche verte)
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Matrix2x2</b> <i>(Matrice de transformation) :</i> | Faites pivoter ou mettez à l’échelle l’entrée. |
+| <b>Décalage</b> <i>-0.5 - 0.5</i> | Déplace ou traduit le résultat. Lorsque la commande Transformation est présente, le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte) |

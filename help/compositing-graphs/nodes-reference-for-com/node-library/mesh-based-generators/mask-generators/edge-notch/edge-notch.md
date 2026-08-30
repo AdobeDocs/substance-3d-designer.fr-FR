@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Encoche du contour pour générer des motifs d’entaille sur les bords du filet afin de créer des effets réalistes d’endommagement et de retrait des bords.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Encoche de bord
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-notch.png){width="128px"}
+![](edge-notch.resources/edge-notch.png){width="128px"}
 
-## Encoche de bord
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Simple**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,24 +37,34 @@ Génère un masque noir et blanc en fonction des maps bakées et des paramètres
 
 Ce masque représente un simple masque pour bords relevés, rompu par un bruit haute fréquence. Voir [Dirt du contour](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) ou [Dommages au contour](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) pour plus d&#39;options.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entrées
 
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour mettre en surbrillance les contours. Obligatoire !
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
+|  |  |
+|:---|:---|
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour mettre en surbrillance les contours. Obligatoire ! |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-* **Niveau** : *0.0 - 1.0*\
-  Définit le niveau de l’effet Encoche des contours.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste du résultat.
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Définit le niveau de l’effet Encoche des contours. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du résultat. |
 
-## Exemples d’images
+## Exemples
 
-![](../../../../../../assets/edge-notch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-notch.resources/edge-notch-ex.gif" />
+        </td>
+    </tr>
 </table>

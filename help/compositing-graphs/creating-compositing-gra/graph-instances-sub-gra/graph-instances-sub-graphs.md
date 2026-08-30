@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Utilisez des instances de graphes et des sous-graphes pour créer des composants de graphe réutilisables et des workflows de matériaux modulaires.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Instances de graphiques et sous-graphes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instances de graphiques et sous-graphes
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 Les instances de graphiques sont des nœuds qui <b>référencent un autre graphique</b>. Un graphique référencé par un nœud d&#39;instance dans un graphique hôte peut être appelé un <b>sous-graphe</b> du graphique hôte.
 
@@ -42,7 +42,7 @@ Faites glisser un graphique A de l&#39;Explorateur vers un autre graphique B pou
 
 Les nœuds peuvent être rapidement divisés en un nouveau graphique en sélectionnant les nœuds et en utilisant l’option Créer un graphique à partir de la sélection dans le menu contextuel. Vous êtes ensuite invité à définir l’identifiant du nouveau graphique, qui doit être unique.
 
-Notez que si les nœuds sélectionnés étaient connectés à d&#39;autres nœuds dans le graphique, vous devez également créer des nœuds [Entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et [Sortie](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) dans le nouveau graphique pour reporter ces connexions sur le sous-graphe.
+Notez que si les nœuds sélectionnés étaient connectés à d&#39;autres nœuds du graphe, vous devez également créer des nœuds [Entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et [Sortie](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) dans le nouveau graphe pour reporter ces connexions sur le sous-graphe.
 
 En outre, le remplacement des nœuds d&#39;origine par un nœud d&#39;instance référençant le nouveau graphique doit être effectué manuellement par la suite.
 
@@ -60,20 +60,20 @@ Notez que si les concepts d&#39;instance de graphique et de sous-graphe s&#39;ap
 
 <b>Oui, c&#39;est possible </b>mais cela nécessite une configuration spécifique. Pour en savoir plus, consultez la page [Gestion du contenu et des filtres personnalisés](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) de cette documentation.
 
-### Pouvez-vous inspecter le graphique source d’une instance de graphique ?
+### Pouvez-vous inspecter le graphe source d’une instance de graphe ?
 
-![(coche)](../../../assets/check.svg) Oui, et *uniquement* pour les instances de graphiques chargées à partir d&#39;un fichier **Substance 3D (SBS)**. Ces nœuds d&#39;instance ont un libellé *rouge foncé*.\
+![(coche)](graph-instances-sub-graphs.resources/check.svg) Oui, et *uniquement* pour les instances de graphes chargés à partir d&#39;un **fichier Substance 3D (SBS)**. Ces instanciers ont un libellé *rouge foncé*.\
 Cliquez avec le bouton droit sur le nœud pour ouvrir son menu contextuel et sélectionnez l&#39;option **Ouvrir la référence**.
 
 >[!NOTE]
 >
-> Lors de l&#39;inspection du graphique source, vous pouvez utiliser les données d&#39;entrée du graphique de l&#39;instance si l&#39;option **Édition contextuelle** est *cochée* dans la section **Graphique** des [Préférences](../../../interface/preferences-window/preferences-window.md).
+> Lors de l&#39;inspection du graphe source, vous pouvez utiliser les données d&#39;entrée du graphe de l&#39;instance si l&#39;option **Modification contextuelle** est *cochée* dans la section **Graphe** des [Préférences](../../../interface/preferences-window/preferences-window.md).
 
-![(moins)](../../../assets/forbidden.svg) Il n&#39;est *pas* possible d&#39;inspecter les graphiques chargés à partir d&#39;**instances de ressources Substance 3D (SBSAR)**, car ceux-ci sont déjà compilés. Vous ne pouvez charger la ressource que dans le panneau **Explorateur** pour inspecter la liste des graphiques exposés et leurs paramètres. Ces nœuds d&#39;instance ont un libellé *vert*.\
+![(moins)](graph-instances-sub-graphs.resources/forbidden.svg) Il n&#39;est *pas* possible d&#39;inspecter les graphes chargés à partir d&#39;instances de **ressources Substance 3D (SBSAR)**, car ceux-ci sont déjà compilés. Vous ne pouvez charger la ressource que dans le panneau **Explorateur** pour inspecter la liste des graphes exposés et leurs paramètres. Ces instanciers ont un libellé *vert*.\
 Cliquez avec le bouton droit sur le nœud pour ouvrir son menu contextuel et sélectionnez l&#39;option **Charger le package**.
 
 >[!NOTE]
 >
-> **Nœuds atomiques**
+> **Noeuds atomiques**
 > 
-> Les nœuds *atomiques* sont implémentés directement via le code dans le moteur de Substance de données et ne sont *pas* des instances de graphiques, d&#39;où le nom atomic : ce sont les *plus petites composantes* de *tous* les autres nœuds dans les [graphiques de Substance de données](../../../compositing-graphs/substance-compositing-graphs.md).
+> Les nœuds *atomiques* sont implémentés directement via le code dans le moteur de Substance de données et ne sont *pas* des instances de graphes, d&#39;où le nom atomic : ce sont les *plus petits composants* pour *tous* les autres nœuds dans [graphes de Substance de données](../../../compositing-graphs/substance-compositing-graphs.md).

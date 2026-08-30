@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importez et utilisez des graphiques vectoriels SVG en tant que ressources dans Substance 3D Designer pour la création de documents procéduraux.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressource d’images vectorielles (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer prend en charge un nombre limité d’images vectorielles grâce au format Scalable Vector Graphics. Les fichiers de SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphiques.
 
-Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
+Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ En général, ce qui suit est vrai :
 * Le contour est pris en charge, mais ne donne qu’un contour d’une largeur de 1 pixel et le style du contour est ignoré ;
 * Les styles de ligne en pointillés vont définitivement rompre ;
 * Le texte doit être converti en tracés/contour à rendre ;
-* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) ne sont pas pris en charge ;
+* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) ne sont pas pris en charge ;
 * Les fonctionnalités avancées telles que les dégradés ne sont pas prises en charge ;
 * Les éléments de style pour les propriétés CSS ne sont pas pris en charge.
 
@@ -70,7 +70,7 @@ Les options d’exportation sont légèrement différentes pour chaque applicati
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/fr/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
+[Illustrator](https://www.adobe.com/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
 
 * Utilisez uniquement <b>Enregistrer sous</b>, *pas* Exporter sous !
 * Le <b>profil de SVG</b> n&#39;a pas beaucoup d&#39;importance, bien que le profil Tiny utilise (principalement) par défaut des paramètres qui sont définitivement corrects ;
@@ -87,7 +87,7 @@ L’image de droite présente les options d’exportation recommandées. Cliquez
 > Les plans de travail peuvent affecter le résultat du fichier de SVG généré. Certains modèles de fichiers Illustrator présentent plusieurs plans de travail.\
 > Essayez d’en avoir un seul, correctement recadré, et de le faire sélectionner dans la fenêtre Plan de travail lors de l’enregistrement en tant que SVG.
 
-![Options d’exportation Illustrator SVG](../../assets/svg-export-options-ai.jpg "Options d’exportation Illustrator SVG"){width="512px"}
+![Options d’exportation Illustrator SVG](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Options d’exportation Illustrator SVG"){width="512px"}
 
 ### Inkscape
 
@@ -98,7 +98,7 @@ Inkscape est enregistré en mode natif en tant que SVG, mais avec moins de contr
 
 ### Adobe Photoshop
 
-Photoshop dispose d’un nombre très limité d’exportateurs de mots de SVG (<b>Fichier > Exporter > Exporter sous..</b>) qui n’est actuellement pas en mesure de produire des résultats corrects pour Substance 3D Designer. Vous pouvez obtenir vos informations de forme et de tracé, mais le style est toujours enregistré en tant qu’éléments, ce qui est incompatible.
+Photoshop a un exporteur de SVG très limité (<b>Fichier > Exporter > Exporter sous..</b>) qui n’est actuellement pas en mesure de produire des résultats corrects pour Substance 3D Designer. Vous pouvez obtenir vos informations de forme et de tracé, mais le style est toujours enregistré en tant qu’éléments, ce qui est incompatible.
 
 Il peut être utilisé pour les masques de forme simples en noir et blanc, où une solution consiste à extraire l&#39;Alpha du SVG à l&#39;aide de la [division d&#39;Alpha](../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md).
 

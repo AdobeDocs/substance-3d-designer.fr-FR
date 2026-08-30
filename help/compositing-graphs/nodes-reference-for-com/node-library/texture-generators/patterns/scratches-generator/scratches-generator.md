@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Scratches Generator pour créer des motifs de rayures procédurales afin d'ajouter de l'usure et des dommages aux matériaux.
+description: Utilisez le nœud Scratches Generator pour créer des motifs de rayures procéduraux afin d’ajouter de l’usure et des dommages aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Générateur Scratches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator.png)
 
-## Générateur Scratches (Normal)
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Complexe**
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,37 +37,46 @@ Cela place des rayures aléatoires avec beaucoup d’options de personnalisation
 
 Il existe une version spéciale de Scratches Generator, Scratches Generator Normal, qui génère des cartes de normales en fonction de la profondeur de ces rayures. La plupart des options sont identiques, mais quelques paramètres supplémentaires sont clairement indiqués pour les paramètres Normal (voir ci-dessous).
 
-## Paramètres
-
-* **Nombre de splines** : *1 - 512* quantité de rayures (splines) à placer.
-* **Segments max. par spline** : *2 - 256* quantité de segments/subdivisions sur la longueur d’une rayure. Permet d’obtenir des courbes et des distorsions plus lisses. L’effet est plus perceptible avec des valeurs de Distorsion plus élevées.
-* **Rotation de la spline** :*0.0 - 1.0* Rotation uniforme de toutes les splines, pour les orienter dans une direction.
-* **Aléatoire de la rotation de la spline** : *0.0 - 1.0* Variation de l&#39;angle, fait pivoter chaque spline de manière aléatoire.
-* **Échelle de spline** : *0.0 - 1.0* met à l&#39;échelle de manière uniforme toutes les splines.
-* **Échelle aléatoire de la spline** :*0.0 - 1.0* L&#39;échelle aléatoire met à l&#39;échelle chaque spline individuellement.
-* **Distorsion de la spline** : *0.0 - 1.0* Niveau de distorsion uniforme sur toutes les splines.
-* **Aléatoire de la Distorsion de la spline** : *0,0 - 1,0* aléatoire le niveau de distorsion de chaque spline individuellement.
-* **Fréquence de Distorsion de la spline** : *0.0 - 1.0* Définit la fréquence de distorsion, contrôle l&#39;échelle des détails de la distorsion.
-* **Largeur de spline** : *0.0 - 2.0* Définit uniformément la largeur de toutes les splines.
-* **Aléatoire de la largeur de spline** : *0.0 - 1.0* aléatoire la largeur de spline de chaque spline individuellement.
-* **Position aléatoire de la spline** :*0.0 - 1.0* aléatoire la position de chaque spline individuellement. Plus cette valeur est faible, plus les splines seront regroupées au centre de la zone de travail. Peut être utilisé pour créer des taches de rayures.
-* **Définir la largeur de la spline en px** : *Faux/Vrai* détermine les unités utilisées pour les paramètres de largeur de spline.
-* **Luminance aléatoire (version en niveaux de gris uniquement)** : *0.0 - 1.0* aléatoire la luminance de chaque spline individuellement.
-* **Intensité normale (version normale uniquement)** : *0.0 - 1.0* Définit globalement l&#39;intensité de l&#39;effet Normal pour chaque spline.
-* **&#x200B; Intensité normale Aléatoire &#x200B;** (version normale uniquement)**&#x200B;** : *0.0 - 1.0*aléatoire individuellement l&#39;intensité normale de chaque spline.
-* **&#x200B; Format normal &#x200B;**(version normale uniquement)**&#x200B;** : *DirectX, OpenGL*\
-  Bascule entre différents formats de mappage normal (inverse la couche verte).
-* **Mode de fondu** : *Aucun, Début, Fin, Début + Fin* Définit si et dans quelle direction les splines fondent.
-* **Longueur du fondu** : *0.0 - 1.0* Définit la longueur de l’effet de fondu, si cette option est activée ci-dessus.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/scratches-ex1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/scratches-ex2.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Numéro de spline</b> <i>1 - 512</i> | Quantité de rayures (splines) à placer. |
+| <b>Segments Max. Par Spline</b> <i>2 - 256</i> | Nombre de segments/subdivisions sur la longueur d’une rayure. Permet d’obtenir des courbes et des distorsions plus lisses. L’effet est plus perceptible avec des valeurs de Distorsion plus élevées. |
+| <b>Rotation de la spline</b> <i>0.0 - 1.0</i> | Rotation uniforme de toutes les splines, pour les orienter dans une direction. |
+| <b>Rotation Spline Aléatoire</b> <i>0.0 - 1.0</i> | Variation de l&#39;angle : fait pivoter chaque spline de manière aléatoire. |
+| <b>Échelle Spline</b> <i>0.0 - 1.0</i> | Redimensionne uniformément toutes les splines. |
+| <b>Échelle Spline Aléatoire</b> <i>0.0 - 1.0</i> | Redimensionne chaque spline de manière aléatoire et individuelle. |
+| <b>Distorsion spline</b> <i>0.0 - 1.0</i> | Niveau de distorsion uniforme sur toutes les splines. |
+| <b>Distorsion Spline Aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire le niveau de distorsion de chaque spline individuellement. |
+| <b>Fréquence de Distorsion de la spline</b> <i>0.0 - 1.0</i> | Définit la fréquence de distorsion et l’échelle des détails de la distorsion. |
+| <b>Largeur de la spline</b> <i>0.0 - 2.0</i> | Définit la largeur de toutes les splines de manière uniforme. |
+| <b>Spline Width Random</b> <i>0.0 - 1.0</i> | Rend aléatoire la largeur de spline de chaque spline individuellement. |
+| <b>Position De La Spline Aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la position de chaque spline individuellement. Plus cette valeur est faible, plus les splines seront regroupées au centre de la zone de travail. Peut être utilisé pour créer des taches de rayures. |
+| <b>Définir la largeur de la spline en px</b> <i>Faux/Vrai</i> | Détermine les unités utilisées pour les paramètres de largeur de spline. |
+| <b>Luminance aléatoire (version en niveaux de gris uniquement)</b> <i>0.0 - 1.0</i> | Rend aléatoire la Luminance de chaque spline individuellement. |
+| <b>Intensité normale (version normale uniquement)</b> <i>0.0 - 1.0</i> | Définit globalement la force de l&#39;effet Normal pour chaque spline. |
+| <b>Intensité normale aléatoire (version normale uniquement)</b> <i>0.0 - 1.0</i> | Rend aléatoire la force normale de chaque spline individuellement. |
+| <b>Format normal (version normale uniquement)</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
+| <b>Mode Atténuation</b> <i>Aucun, Début, Fin, Début + Fin</i> | Définit si les splines sont atténuations et dans quel sens. |
+| <b>Longueur Atténuation</b> <i>0.0 - 1.0</i> | Définit la longueur de l’effet d’atténuation, si cette option est activée ci-dessus. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="scratches-generator.resources/scratches-ex1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="scratches-generator.resources/scratches-ex2.png" />
+        </td>
+    </tr>
 </table>

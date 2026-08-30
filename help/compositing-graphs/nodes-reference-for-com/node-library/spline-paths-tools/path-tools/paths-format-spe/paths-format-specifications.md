@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Découvrez les spécifications de format des tracés et la structure des données utilisées par les nœuds de tracé et de spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spécifications de format des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Toutes les données d&#39;un pixel dans la partie &#39;supérieure&#39; sont sé
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Tracés de données codées en polygone](../../../../../../assets/PathsPolygon_Data.jpg "Tracés de données codées en polygone")
+![Tracés de données codées en polygone](paths-format-specifications.resources/PathsPolygon_Data.jpg "Tracés de données codées en polygone")
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Si certains tracés sont vides, ils comptent toujours ici. Vous pouvez donc l’
 
 Taille de pixel de ce document (c&#39;est-à-dire exactement `Float2(1,1) / $size`).
 
-Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou d&#39;un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), par exemple, dont la taille de sortie est différente.
+Cela est utile lors de la lecture des tracés à partir d&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou d&#39;un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), par exemple, dont la taille de sortie est différente.
 
 <b>W</b>
 
@@ -88,13 +88,13 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de 
 +++Bas
 <b>XY</b>
 
-Adresse du dernier sommet défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
+Adresse du dernier vertex défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de balayage) à l&#39;adresse du dernier vertex. Il doit être compris entre ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
-Inutilisé, doit être Float2(0, 1)
+Inutilisé, doit être Flottant 2(0, 1)
 
 +++
 
@@ -111,10 +111,10 @@ L&#39;en-tête de chemin du Nième chemin sera défini à l&#39;adresse `path\_a
 +++Haut
 <b>X</b>
 
-Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
+Nombre de vertex dans ce chemin. Doit être compris dans la plage [0, 16777216].
 
-Si les sommets de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 sommets.\
-Un tracé avec 0 sommet est un tracé valide.
+Si les vertex de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 vertex.\
+Un chemin avec 0 vertex est un chemin valide.
 
 <b>Y</b>
 
@@ -166,17 +166,17 @@ Index de tracé de sommet. Un sommet ne peut appartenir qu’à un seul tracé. 
 
 type de vertex. Il est divisé entre le signe de la valeur et sa valeur absolue :
 
-Sur la partie signe, une valeur de 0 signifierait qu&#39;il n&#39;y a pas de sommet ici (tous les autres composants devraient également être à 0). Une valeur négative signifie que le sommet est marqué comme un « coin » ; une valeur positive signifie que le sommet est « lisse ». Le sommet arrondi ou arrondi est un attribut pur et isolé. Il n’a aucun impact ni aucune signification sur le reste du codage des tracés.
+Sur la partie signe, une valeur de 0 signifierait qu&#39;il n&#39;y a pas de vertex ici en fait (tous les autres composants devraient également être 0). Une valeur négative signifie que le vertex est marqué comme un « coin » ; une valeur positive signifie que le vertex est « lisse ». Le vertex d’arrondi et le calque d’arrondi sont des attributs purs et isolés qui n’ont aucun impact ni aucune signification sur le codage des autres tracés.
 
-Dans la partie valeur absolue, le type de pixel (Début, Milieu ou Fin) et un autre drapeau (trivial\_link) sont codés :
+Sur la partie valeur absolue, le type de pixel (Début, Milieu ou Fin) et un autre drapeau (trivial\_link) sont codés:
 
 * *0.125* : vertex de fin (dernier vertex de la forme ; liens toujours non triviaux, voir ci-dessous)
 
 * *0.25* : vertex de début (premier vertex de la forme ; liens toujours non triviaux, voir ci-dessous)
 
-* *0.5* : sommet moyen avec des liens non triviaux
+* *0.5* : vertex moyen avec des liens non triviaux
 
-* *1* : sommet central avec liens triviaux
+* *1* : milieu de vertex avec des liens insignifiants
 
 Par « liens non triviaux », on entend le fait que les vertex précédent et suivant (dans la liste des vertex du tracé courant) sont stockés respectivement dans le pixel à gauche (vert\_addr-(0,pixel\_size)) et à droite (vert\_addr+(0,pixel\_size)), tandis que par « liens non triviaux », on entend qu&#39;au moins l&#39;un d&#39;entre eux est stocké ailleurs.
 
@@ -192,7 +192,7 @@ si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].XY = vert\_addr - (0,pixel\_
 
 <b>ZW</b>
 
-Adresse du sommet suivant de ce tracé. Pour les vertex d’extrémité, cette option pointe vers le vertex apparenté suivant.\
+Adresse du vertex suivant de ce chemin. Pour les vertex d’extrémité, cette option pointe vers le vertex apparenté suivant.\
 si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
@@ -269,11 +269,11 @@ Veuillez noter que pour plus de simplicité, les informations sur les <b>chemins
 
 Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), dans le paramètre Itérations du troisième nœud Itération, pour obtenir un exemple d&#39;utilisation.
 
-![Cas d’utilisation minimal de sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Cas d’utilisation minimal de sample_next")
+![Cas d’utilisation minimal de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Cas d’utilisation minimal de sample_next")
 
 
 
-![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
+![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
 
 
 

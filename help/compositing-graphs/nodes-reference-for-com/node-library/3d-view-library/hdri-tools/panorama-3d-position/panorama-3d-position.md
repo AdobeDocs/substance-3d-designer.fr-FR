@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Position 3D du panorama pour positionner des panoramas HDRI dans l’espace 3D afin de créer des environnements d’éclairage personnalisés.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Position 3D du panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-position.png){width="200px"}
+![](panorama-3d-position.resources/panorama-position.png){width="200px"}
 
-## Position 3D du panorama
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Nœud d’assistant qui affiche une carte de position de l’espace universel pour une image panoramique projetée sphériquement. Peut être utilisé pour effectuer vos propres transformations et recherches sphériques.
-
-## Paramètres
-
-* **Vecteur Up** : *Z Up, Y Up*
-
-## Exemples d’images
-
-![](../../../../../../assets/pano3d.png)
+Nœud d’Assistant qui affiche une carte de position de l’espace universel pour une image panoramique projetée sphériquement. Peut être utilisé pour effectuer vos propres transformations et recherches sphériques.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Up Vector</b> <i>Z vers le haut, Y vers le haut</i> |  |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="panorama-3d-position.resources/pano3d.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cube 3D GBuffers pour générer des tampons de géométrie à partir de projections de cube 3D pour des effets de rendu avancés.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cube 3D GBuffers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '105'
+ht-degree: 5%
 
 ---
 
@@ -22,35 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
 
-## Cube 3D GBuffers
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Simple**
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Version avancée de [Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) qui génère également des cartes de position et normales au lieu de la carte de hauteur uniquement.
 
-## Paramètres
-
-* **Décalage d&#39;orientation** :\
-  Permet une rotation X et Y du cube de type 3D. Peut également être effectué en manipulant le petit point dans l’aperçu 2D.
-* **Taille** : *0.0 - 1.0* Permet un redimensionnement non uniforme du cube.
-* **Échelle** : *0.0 - 1.0*\
-  Redimensionne uniformément le cube entier.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Décalage d&#39;orientation</b> | Permet une rotation X et Y du cube de type 3D. Peut également être effectué en manipulant le petit point dans l’aperçu 2D. |
+| <b>Taille</b> <i>0.0 - 1.0</i> | Permet un redimensionnement non uniforme du cube. |
+| <b>Échelle</b> <i>0.0 - 1.0</i> | Redimensionne uniformément le cube entier. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |

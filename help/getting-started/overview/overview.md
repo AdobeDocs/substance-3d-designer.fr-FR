@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Découvrez Substance 3D Designer et ses fonctionnalités de création de matières et de textures procédurales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue d’ensemble
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Voici comment il se compare aux autres applications :
 
-|  | <div><img alt="Icône Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Icône Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icône Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icône Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Icône Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Icône Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Icône Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icône Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icône Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Icône Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Courbe d&#39;apprentissage</b> | Faible | Moyen | Élevée |
 | <b>Création de documents</b> | Oui | Oui | Oui |
@@ -60,7 +60,7 @@ L’application et son écosystème utilisent 4 types de fichiers différents. S
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### Fichier Substance 3D
 
@@ -71,18 +71,18 @@ Les fichiers de Substance de données sont les **fichiers source principaux** po
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Ressource Substance 3D
 
 *(\*.SBSAR)*
 
-Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphique est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telle qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Engine ou Unity Engine.
+Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphique est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telle qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Engine ou Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### Fichiers statiques
 
@@ -104,7 +104,7 @@ Les fichiers Substance 3D peuvent contenir une grande variété de ressources à
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Les graphiques à Substances vous permettent de générer et de traiter *des don
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Les <b>fonctions</b> offrent un niveau supérieur d&#39;abstraction et de comple
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

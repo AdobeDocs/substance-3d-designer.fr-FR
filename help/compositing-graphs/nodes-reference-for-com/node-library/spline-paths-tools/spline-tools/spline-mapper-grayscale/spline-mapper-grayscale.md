@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux de gris du mappeur de spline pour mapper des textures en niveaux de gris le long de tracés de spline avec des paramètres personnalisables.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Niveaux de gris du mappeur de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-mapper-grayscale-icon.png "Icône de nœud")
+![Icône de nœud](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -51,103 +51,56 @@ Le nœud produit l&#39;image mappée sous forme d&#39;image en niveaux de gris, 
 >
 > Voir aussi [Couleur du mappeur de spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md).
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points des splines d&#39;entrée codées dans les couches RVBA d&#39;une image couleur :\
-<b> R</b> - Position X\
-<b> G</b> - Position Y\
-<b> B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+## Entrées
 
-<b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Inutilisé\
-<b> A</b> - Inutilisé
+|  |  |
+|:---|:---|
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> - signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Color Map</b> <i>Niveaux de gris</i> | Image en niveaux de gris d&#39;entrée à mapper le long des splines d&#39;entrée. |
+| <b>Mappage de l&#39;Height</b> <i>Niveaux de gris</i> | Map height de niveaux de gris d&#39;entrée à mapper le long des splines d&#39;entrée. |
+| <b>Twist curve</b> <i>Niveaux de gris</i> | Image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.<br>Lorsque le paramètre <b>Forme</b> est défini sur <i>Demi-cylindre</i> ou <i>Cylindre</i>, cette entrée est utilisée pour contrôler la torsion des UV autour de la forme. Son impact est contrôlé à l&#39;aide du paramètre <b>Multiplicateur de courbe de torsion des UV</b>.<br>La courbe fournit un profil pour le degré de rotation le long de la spline, où le premier pixel de la ligne correspond à la rotation au début de la spline et le dernier à la rotation à la fin. La valeur Niveaux de gris représente un nombre de tours.<br>Vous pouvez utiliser un nœud [Courbe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) pour créer la courbe. |
 
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines d&#39;entrée.
+<a name="outputs"></a>
 
-<b>Color Map</b> *Niveaux de gris* Image en niveaux de gris en entrée qui doit être mappée le long des splines en entrée.
+## Sorties
 
-<b>Mappage de l&#39;Height</b> *Niveaux de gris* La courbe d&#39;height des niveaux de gris en entrée qui doit être mappée le long des splines en entrée.
+|  |  |
+|:---|:---|
+| <b>Couleur</b> <i>Niveaux de gris</i> | Résultat du mappage de l’image couleur d’entrée sur les splines d’entrée, en tant qu’image en niveaux de gris. |
+| <b>Height</b> <i>Niveaux de gris</i> | Résultat du mappage de l&#39;image d&#39;Height d&#39;entrée sur les splines d&#39;entrée, en tant qu&#39;image en niveaux de gris. |
+| <b>UV</b> <i>Couleur</i> | UV (coordonnées) du mapping sur les splines d&#39;entrée, codés dans une image couleur. |
+| <b>ID</b> <i>Niveaux de gris</i> | Masque des images mappées le long des splines d’entrée, où les valeurs de blanc sont incrémentées de 1 d’une spline à la suivante afin que chaque forme puisse être sélectionnée indépendamment. |
 
-<b>Twist curve</b> *Niveaux de gris* L&#39;image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.\
-Lorsque le paramètre <b>Forme</b> est défini sur *Demi-cylindre* ou *Cylindre*, cette entrée est utilisée pour contrôler la torsion des UV autour de la forme. Son impact est contrôlé à l&#39;aide du paramètre <b>Multiplicateur de courbe de torsion des UV</b>.\
-La courbe fournit un profil pour le degré de rotation le long de la spline, où le premier pixel de la ligne est la rotation au début de la spline, et le dernier est la rotation à la fin. La valeur Niveaux de gris représente un nombre de tours.\
-Vous pouvez utiliser un nœud [Courbe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) pour créer la courbe.
-
-## Connecteurs de sortie
-
-<b>Couleur</b> *Niveaux de gris* Résultat du mappage de l&#39;image couleur d&#39;entrée sur les splines d&#39;entrée, en tant qu&#39;image en niveaux de gris.
-
-<b>Height</b> *Niveaux de gris* Résultat du mappage de l&#39;image d&#39;Height d&#39;entrée sur les splines d&#39;entrée, en tant qu&#39;image en niveaux de gris.
-
-<b>UV</b> *Couleur* Les UV (c&#39;est-à-dire les coordonnées) du mappage sur les splines d&#39;entrée, codés dans une image couleur.
-
-<b>ID</b> *Niveaux de gris* Un masque des images mappées le long des splines d&#39;entrée, où les valeurs de blanc sont incrémentées de 1 d&#39;une spline à la suivante afin que chaque forme puisse être sélectionnée indépendamment.
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Quantité de segments</b> Les splines *entières* sont simplifiées en segments avant que les coordonnées de l&#39;image ne les traversent.\
-Plus le nombre de segments est élevé, plus le placage le long des courbes est fluide.
-
-<b>Mise à l&#39;échelle automatique des UV</b> *Booléen* Ajuste automatiquement l&#39;échelle des coordonnées pour conserver une image carrée lors du mappage le long des splines.<b></b>
-
-<b>Échelle UV</b> *Float2* Ajuste l&#39;échelle des coordonnées mappées en X (horizontalement) et Y (verticalement).\
-Plus la valeur est élevée, plus la mosaïque de l&#39;image est dense.<b></b>
-
-<b>Mode</b> *Entier* Méthode de sélection des splines le long desquelles l&#39;image doit être mappée :\
-*- Dessiner la liste des splines* : toutes les splines de la liste d&#39;entrée sont utilisées ;\
-*- Dessiner une seule spline* : seule la spline avec l&#39;index spécifié est utilisée ;\
-*- Dessiner la plage de splines* : seules les splines dont l&#39;index est inclus dans la plage spécifiée sont utilisées.
-
-<b>Dessiner l&#39;index spline</b> *Nombre entier* (disponible lorsque le mode est défini sur Tracer une seule spline)Index de la spline le long de laquelle l&#39;image doit être mappée.
-
-<b>Tracer la plage de splines</b> *Entier2* (disponible lorsque le mode est défini sur Tracer la plage de splines) Plage d&#39;index pour les splines le long desquelles l&#39;image doit être mappée.
-
-<b>Démarrer</b> *Flottant* Décale le début de la partie de la spline qui doit être mappée.\
-Cette valeur représente la longueur normalisée de la spline.
-
-<b>Fin</b> *Flottant* Décale l&#39;extrémité de la partie de la spline qui doit être mappée.\
-Cette valeur représente la longueur normalisée de la spline.
-
-<b>Mode Thickness</b> *Entier* Méthode de définition du thickness de l&#39;image mappée :\
-*- Manuel* : définissez le thickness explicitement avec une valeur arbitraire ;\
-*- À partir de la spline* : utilisez le thickness de la spline.
-
-<b>Thickness</b> *Flottant* (disponible lorsque le mode Thickness est défini sur Manuel)Valeur arbitraire pour le thickness de l&#39;image mappée le long des splines.<b></b>
-
-<b>Multiplicateur de Thickness</b> *Flottant* (disponible lorsque le mode Thickness est défini sur Spline)Multiplicateur global pour le thickness de l&#39;image mappée le long des splines, lorsque ce thickness est piloté par celui des splines.
-
-<b>Forme</b> *Nombre entier* Forme primitive utilisée pour mapper les coordonnées de l&#39;image le long des splines :\
-*- Plan* : les coordonnées sont mappées à un plan plat ;\
-*- Demi-cylindre* : les coordonnées sont mappées à un demi-cylindre dont l&#39;axe du cercle de base suit la direction de la spline ;\
-*- Cylindre* : les coordonnées sont mappées à un cylindre dont l&#39;axe du cercle de base suit la direction de la spline.<b></b>
-
-<b>Multiplicateur d&#39;Height du cylindre</b> *Flotter* (disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre »)Un multiplicateur pour l&#39;intensité de la contribution de l&#39;height du cylindre dans la sortie d&#39;Height.\
-Les ajustements d’Height sont cumulatifs.
-
-<b>Décalage de l&#39;Height du cylindre</b> *Flottant* (disponible lorsque l’option Forme est définie sur Demi-cylindre ou Cylindre)\
-Décale le centre du profil en forme de cylindre ou de demi-cylindre par rapport à la surface de la spline d&#39;un diamètre sous la surface.
-
-<b>Intensité de torsion des UV</b> *Flotter* (disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre »)La torsion des coordonnées de l&#39;image autour du cylindre, en nombre de tours.\
-La torsion consiste à faire tourner le cylindre uniquement à l&#39;extrémité de la cannelure. La rotation est ensuite interpolée le long de la spline.
-
-<b>Multiplicateur de courbe de torsion UV</b> *Flotter* (disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre »)Un multiplicateur pour l’intensité de la contribution de l’entrée du Twist curve à la torsion du cylindre.\
-La courbe fournit un profil pour le degré de rotation le long de la spline, où le premier pixel de la ligne est la rotation au début de la spline, et le dernier est la rotation à la fin. La valeur Niveaux de gris représente un nombre de tours.
-
-<b>Décalage de la courbe de torsion UV</b> *Flotter* (disponible lorsque l&#39;option Forme est définie sur Demi-cylindre ou Cylindre)applique un décalage global aux valeurs de rotation fournies par le Twist curve, en nombre de tours.
-
-<b>Multiplicateur d&#39;Height spline</b> *Flottant* Ajuste l’intensité de la contribution de l’entrée d’Height spline à la sortie d’Height.\
-Les ajustements d&#39;Height sont cumulatifs.<b></b>
-
-<b>Multiplicateur d&#39;Height d&#39;entrée</b> *Flottant* Ajuste l’intensité de la contribution de l’entrée de la carte d’Height à la sortie d’Height.\
-Les ajustements d’Height sont cumulatifs.
-
-<b>Correction non carrée </b>*Booléenne* Ajustez la position et le thickness des points pour conserver la forme de spline dans des résolutions non carrées.\
-Cela a également un impact sur la distribution uniforme.
+|  |  |
+|:---|:---|
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Les splines sont simplifiées en segments avant que les coordonnées de l&#39;image ne les traversent.<br>Une plus grande quantité de segments permet une mise en correspondance plus fluide le long des courbes. |
+| <b>Mise à l&#39;échelle automatique des UV</b> <i>Booléen</i> | Ajuste automatiquement l&#39;échelle des coordonnées pour conserver une image carrée lors du mappage le long des splines. |
+| <b>Échelle UV</b> <i>Float2</i> | Ajuste l&#39;échelle des coordonnées mappées en X (horizontalement) et Y (verticalement).<br>Plus la valeur est élevée, plus la densité de la mosaïque de l&#39;image est élevée. |
+| <b>Mode</b> <i>Nombre entier</i> | Méthode de sélection des splines le long desquelles l&#39;image doit être mappée :<br>- <i>Dessiner une spline</i> : toutes les splines de la liste d&#39;entrée sont utilisées ;<br>- <i>Dessiner une spline unique</i> : seule la spline avec l&#39;index spécifié est utilisée ;<br>- <i>Dessiner une plage de splines</i> : seules les splines dont l&#39;index est inclus dans la plage spécifiée sont utilisées. |
+| <b>Dessiner l&#39;index spline</b> <i>Nombre entier</i> | (Disponible lorsque le mode est défini sur Tracer une seule spline) Index de la spline le long de laquelle l’image doit être mappée. |
+| <b>Tracer la plage de splines</b> <i>Entier2</i> | (Disponible lorsque le mode est défini sur Tracer la plage de splines) Plage d&#39;index des splines le long desquelles l&#39;image doit être mappée. |
+| <b>Démarrer</b> <i>Flotter</i> | Décale le début de la partie de la spline à plaquer.<br>La valeur représente la longueur normalisée de la spline. |
+| <b>Fin</b> <i>Flotter</i> | Décale l&#39;extrémité de la partie de la spline à plaquer.<br>La valeur représente la longueur normalisée de la spline. |
+| <b>Mode Thickness</b> <i>Nombre entier</i> | Méthode de définition du thickness de l&#39;image mappée :<br>- <i>Manuel</i> : définissez le thickness explicitement avec une valeur arbitraire ;<br>- <i>À partir de la spline</i> : utilisez le thickness de la spline. |
+| <b>Thickness</b> <i>Flotter</i> | (Disponible lorsque le mode Thickness est défini sur Manuel) Valeur arbitraire pour le thickness de l&#39;image mappée le long des splines. |
+| <b>Multiplicateur de Thickness</b> <i>Flotter</i> | (Disponible lorsque le mode Thickness est défini sur Spline) Multiplicateur global pour le thickness de l&#39;image mappée le long des splines, lorsque ce thickness est piloté par celui des splines. |
+| <b>Forme</b> <i>Nombre entier</i> | Forme primitive utilisée pour mapper les coordonnées de l&#39;image le long des splines :<br>- <i>Plan</i> : les coordonnées sont mappées sur un plan plat ;<br>- <i>Demi-cylindre</i> : les coordonnées sont mappées sur un demi-cylindre dont l&#39;axe du cercle de base suit la direction de la spline ;<br>- <i>Cylindre</i> : les coordonnées sont mappées sur un cylindre dont l&#39;axe du cercle de base suit la direction de la spline. |
+| <b>Multiplicateur d&#39;Height du cylindre</b> <i>Flotter</i> | (Disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre ») Multiplicateur de l’intensité de la contribution de la bouteille à l’height dans la sortie d’Height.<br>Les ajustements d&#39;Height sont cumulatifs. |
+| <b>Décalage de l&#39;Height du cylindre</b> <i>Flotter</i> | (Disponible lorsque l&#39;option Forme est définie sur Demi-cylindre ou Cylindre) Décale le centre du profil de forme Cylindre ou Demi-cylindre de la surface de la spline d&#39;un diamètre sous la surface. |
+| <b>Intensité de torsion des UV</b> <i>Flotter</i> | (Disponible lorsque « Forme » est défini sur « Demi-cylindre » ou « Cylindre ») La torsion des coordonnées de l’image autour du cylindre, en nombre de tours.<br>La torsion implique la rotation du cylindre à l&#39;extrémité de la spline uniquement. La rotation est ensuite interpolée le long de la spline. |
+| <b>Multiplicateur de courbe de torsion UV</b> <i>Flotter</i> | (Disponible lorsque le paramètre Forme est défini sur Demi-cylindre ou Cylindre) Multiplicateur de l’intensité de la contribution du Twist curve à la torsion de la bouteille.<br>La courbe fournit un profil pour le degré de rotation le long de la spline, où le premier pixel de la ligne correspond à la rotation au début de la spline et le dernier à la rotation à la fin. La valeur Niveaux de gris représente un nombre de tours. |
+| <b>Décalage de la courbe de torsion UV</b> <i>Flotter</i> | (Disponible lorsque l’option Forme est définie sur Demi-cylindre ou Cylindre) Applique un décalage global aux valeurs de rotation fournies par le Twist curve, en nombre de tours. |
+| <b>Multiplicateur d&#39;Height spline</b> <i>Flotter</i> | Règle l’intensité de la contribution de l’entrée d’Height spline à la sortie d’Height.<br>Les ajustements d&#39;Height sont cumulatifs. |
+| <b>Multiplicateur d&#39;Height d&#39;entrée</b> <i>Flotter</i> | Règle l’intensité de la contribution de l’entrée de Map height à la sortie d’Height.<br>Les ajustements d&#39;Height sont cumulatifs. |
+| <b>Correction Non Carrée</b> <i>Booléen</i> | Ajustez la position et le thickness des points pour conserver la forme de la spline dans des résolutions autres que carrées.<br>Cela a également un impact sur la distribution uniforme. |
 
 ## Exemples
 
@@ -158,11 +111,11 @@ Cela a également un impact sur la distribution uniforme.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -171,7 +124,7 @@ Cela a également un impact sur la distribution uniforme.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -181,7 +134,7 @@ Cela a également un impact sur la distribution uniforme.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Exemple de nœud 3")
+![Exemple de nœud 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "Exemple de nœud 3")
 
 </td>
 <td style="border: 0;" valign="top">

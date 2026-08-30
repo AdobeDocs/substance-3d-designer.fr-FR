@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Découvrez comment gérer et organiser les paramètres dans les graphiques de composition de Substances pour une meilleure organisation du workflow.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gérer les paramètres
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Lorsque les propriétés d&#39;un nœud sont affichées dans le dock Propriété
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu global « Gérer les paramètres » dans Propriétés](../../assets/manage-parameters-menu-global.png "Menu global « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
+![Menu global « Gérer les paramètres » dans Propriétés](manage-parameters.resources/manage-parameters-menu-global.png "Menu global « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Si vous souhaitez gérer un paramètre *unique*, utilisez le menu « <b>Gérer l
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu local « Gérer les paramètres » dans Propriétés](../../assets/manage-parameters-menu.png "Menu local « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
+![Menu local « Gérer les paramètres » dans Propriétés](manage-parameters.resources/manage-parameters-menu.png "Menu local « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Si vous souhaitez gérer un paramètre *unique*, utilisez le menu « <b>Gérer l
 
 Vous pouvez appliquer un graphique de fonction de [Substance](../../function-graphs/the-function-graph/the-function-graph.md) à ce paramètre de trois façons :
 
-* <b>Exposer comme nouvelle entrée de graphique :</b> qui crée une nouvelle entrée de graphique et définit automatiquement une fonction à l&#39;aide de cette entrée de graphique. En savoir plus sur l&#39;exposition des paramètres dans [cette page dédiée](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Exposer comme nouvelle entrée de graphe :</b> qui crée une nouvelle entrée de graphe et définit automatiquement une fonction à l&#39;aide de cette entrée de graphe. En savoir plus sur l&#39;exposition des paramètres dans [cette page dédiée](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Fonction vide :</b> créez une fonction à partir de zéro.
 * <b>Valeur constante :</b> modifiez une fonction à partir d&#39;un [nœud de valeur constante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) défini sur la valeur actuelle du paramètre.
 * <b>Réinitialiser :</b> réinitialise le paramètre à sa valeur et sa plage par défaut. Si une fonction a été appliquée au paramètre, elle est rejetée.
@@ -108,7 +108,7 @@ Les mêmes limitations répertoriées ci-dessous pour les nœuds atomiques s’a
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](../../assets/manage-parameters-node-menu.png "&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud"){zoomable="yes"}
+Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](manage-parameters.resources/manage-parameters-node-menu.png "&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,16 +120,16 @@ Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](../../
 
 ## Copier et coller des paramètres
 
-Il est possible de copier toutes les valeurs de paramètres d&#39;un nœud source et de les coller sur un nœud cible. Les paramètres des nœuds source et cible sont <b>mis en correspondance en fonction de leurs identificateurs et de leurs types</b>.
+Il est possible de copier toutes les valeurs de paramètres d&#39;un nœud source et de les coller sur un nœud cible. Les paramètres des nœuds source et cible sont <b>mis en correspondance en fonction de leurs identifiants et types</b>.
 
-Par exemple, un paramètre « Scale » dont l&#39;identificateur est « scale » et le type est « Float » peut être copié et collé sur un autre paramètre « Shape Scale » lorsque son identificateur est également « scale » et son type est également « Float ».
+Par exemple, un paramètre « Scale » dont l&#39;identifiant est « scale » et le type est « Flottant » peut être copié et collé sur un autre paramètre « Shape Scale » lorsque son identifiant est également « scale » et son type est également « Flottant ».
 
 Cette fonctionnalité fonctionne de la même manière que l&#39;utilisation d&#39;un fichier de paramètre prédéfini [paramètre](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). En effet, les données copiées dans le Presse-papiers sont les mêmes que celles stockées dans les fichiers de paramètres prédéfinis SBSPRS et peuvent être collées dans n’importe quel éditeur de texte pour être révisées et modifiées.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Copier et coller des paramètres](../../assets/copy-paste-parameters.gif "Copier et coller des paramètres"){zoomable="yes"}
+![Copier et coller des paramètres](manage-parameters.resources/copy-paste-parameters.gif "Copier et coller des paramètres"){zoomable="yes"}
 
 </td>
 </tr>

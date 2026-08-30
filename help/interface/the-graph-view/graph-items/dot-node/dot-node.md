@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Utilisez des nœuds de point et de portail dans Substance 3D Designer pour créer des points de connexion et organiser le flux graphique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nœud Point (également Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône de nœud de point](../../../../assets/graphatomic-dot_1.png "Icône de nœud de point")
+![Icône de nœud de point](dot-node.resources/graphatomic-dot_1.png "Icône de nœud de point")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Les nœuds de point peuvent être ajoutés dans n’importe quel type de graphiq
 +++Insérer sur le lien
 Maintenez la touche <b>Alt</b> enfoncée tout en survolant une connexion pour afficher l&#39;aperçu du nœud Point, puis cliquez sur LMB pour ajouter un nœud Point sur la connexion à cet emplacement.
 
-![Insertion d&#39;un nœud de point](../../../../assets/dot-node-insert-optim.gif "Insertion d&#39;un nœud de point"){width="512px"}
+![Insertion d&#39;un nœud de point](dot-node.resources/dot-node-insert-optim.gif "Insertion d&#39;un nœud de point"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Appuyez sur la touche <b>Alt</b> tout en faisant glisser une nouvelle connexion 
 
 Vous pouvez continuer à faire glisser la nouvelle connexion et répéter l&#39;opération pour router cette connexion comme vous le souhaitez.
 
-![Point : création à partir du connecteur](../../../../assets/graph-dot_create-from-connector.gif "Point : création à partir du connecteur")
+![Point : création à partir du connecteur](dot-node.resources/graph-dot_create-from-connector.gif "Point : création à partir du connecteur")
 
 
 
@@ -64,7 +64,7 @@ Vous pouvez continuer à faire glisser la nouvelle connexion et répéter l&#39;
 +++Menu Nœud
 Appuyez sur la <b>barre d&#39;espace</b> pour afficher le <b>menu Nœud</b>, puis sélectionnez l&#39;élément Point ou tapez Point dans le champ de recherche pour faire apparaître l&#39;élément et le trouver plus rapidement.
 
-![Nœud point dans le menu Nœud](../../../../assets/dot-node-insert-menu.png "Nœud point dans le menu Nœud")
+![Nœud point dans le menu Nœud](dot-node.resources/dot-node-insert-menu.png "Nœud point dans le menu Nœud")
 
 
 
@@ -85,7 +85,7 @@ Appuyez sur ALT et déplacez un nœud Point sur les liens pour fusionner plusieu
 </td>
 <td style="border: 0;" valign="top">
 
-![Fusion des liens](../../../../assets/dot-node-congrenate-links-optim.gif "Fusion des liens"){width="512px"}
+![Fusion des liens](dot-node.resources/dot-node-congrenate-links-optim.gif "Fusion des liens"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Appuyez sur ALT et déplacez un nœud Point sur les liens pour fusionner plusieu
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Nœud point comme portail - icône](../../../../assets/DotNode_Portal-1.png "Nœud point comme portail - icône")
+![Nœud point comme portail - icône](dot-node.resources/DotNode_Portal-1.png "Nœud point comme portail - icône")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ Les nœuds point peuvent être utilisés comme <b>portails</b> pour envoyer des 
 </tr>
 </table>
 
-![Nœud point comme portail](../../../../assets/DotNode_Portal.gif "Nœud point comme portail")
+![Nœud point comme portail](dot-node.resources/DotNode_Portal.gif "Nœud point comme portail")
 
 ### Création de portails
 

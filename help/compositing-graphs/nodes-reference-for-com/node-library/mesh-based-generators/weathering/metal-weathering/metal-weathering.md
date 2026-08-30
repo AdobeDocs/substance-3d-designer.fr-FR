@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Météo pour ajouter des effets de rouille et de corrosion réalistes aux matériaux métalliques en fonction de la géométrie du maillage.
+description: Utilisez le nœud Altération de métal pour ajouter des effets de rouille et de corrosion réalistes aux matériaux métalliques en fonction de la géométrie du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Metal Weathering
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Altération Métallique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 1%
+source-wordcount: '284'
+ht-degree: 14%
 
 ---
 
@@ -22,83 +22,64 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering.png){width="128px"}
 
-## Altération Métallique
-
-**Entrée :** *Générateurs À Maillage**/Résilience*
-
-**Complexe**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
-
-## Paramètres
-
-### Entrées
-
-* **WS normal** : *entrée de couleur*\
-  Baked World Space Normalmap utilisé pour les effets internes et le masquage.
-* **Occlusion ambiante** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage.
-* **Masque** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ».
-
-### Paramètres
-
-* **Canaux**
-  * Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité.
-* **Avancé**
-  * **Format normal** : *Direct X, Open GL*\
-    Bascule entre différents formats de mappage normal (inverse la couche verte).
-  * **Masque** : *Faux/Vrai*\
-    Active ou désactive l&#39;utilisation de la carte de masque.
-* **Effet**
-  * **Dust** : *0.0 - 1.0*
-  * **Sale** : *0.0 - 1.0*
-  * **Usure Des Bords** : *0.0 - 1.0*
-  * **Écaillage De La Peinture** : *0.0 - 1.0*
-  * **Rouille** : *0.0 - 1.0*
-  * **Écaillage De La Rouille** : *0.0 - 1.0*
-  * **Rouille du Verdigris** : *Rouille du Verdigris*
-  * **Échelle Des Fissures De Peinture** : *1.0 - 16.0*
-  * **Intensité de déformation des Fissures de peinture** : *0.0 - 1.0*
-  * **Échelle Scratches Des Contours Nets** : *1.0 - 32.0*
-  * **Intensité de la déformation Scratches des bords nets** : *0.0 - 1.0*
-  * **Couleur du métal brut** : *(valeur chromatique)*
-  * **Couleur Specular du métal brut** : *(valeur chromatique)*
-  * **Valeur de brillance du métal brut** : *(valeur Niveaux de gris)*
-  * **Valeur de rugosité du métal brut** : *(valeur Niveaux de gris)*
-* **Fusion**
-  * **Intensité diffuse** : *0,0 - 1,0*\
-    Intensité de fusion du diffus.
-  * **Intensité des couleurs de base** : *0.0 - 1.0*\
-    Intensité de fusion de la couleur de base.
-  * **Intensité normale** : *0,0 - 64,0*\
-    Intensité de fusion de la normale.
-  * **Intensité du Specular** : *0,0 - 1,0*\
-    Intensité de fusion du Specular.
-  * **Intensité du brillant** : *0.0 - 1.0*\
-    Intensité de fusion du brillant.
-  * **Intensité de la rugosité** : *0.0 - 1.0*\
-    Intensité de fusion de la rugosité.
-  * **Intensité métallique** : *0,0 - 1,0*\
-    Intensité de fusion du métal.
-  * **Intensité de l&#39;Occlusion ambiante** : *0,0 - 1,0*\
-    Intensité de fusion de l&#39;Occlusion ambiante.
-  * **Intensité des Heights** : *0,0 - 1,0*\
-    Intensité de fusion de l&#39;Height.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>WS normal</b> <i>Entrée couleur</i> | Espace monde baké Normalmap utilisé pour les effets internes et le masquage. |
+| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ». |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Avancé</b> |  |
+| <b>Format normal</b> <i>Direct X, ouvrir GL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
+| <b>Masquer</b> <i>Faux/Vrai</i> | Active ou désactive l&#39;utilisation de la carte de masque. |
+| <b>Effet</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Sale</b> <i>0.0 - 1.0</i> |  |
+| <b>Usure Des Bords</b> <i>0.0 - 1.0</i> |  |
+| <b>Décollement De La Peinture</b> <i>0.0 - 1.0</i> |  |
+| <b>Rouille</b> <i>0.0 - 1.0</i> |  |
+| <b>Décollement De La Rouille</b> <i>0.0 - 1.0</i> |  |
+| <b>Rouille Verdigris</b> <i>Rouille, Verdigris</i> |  |
+| <b>Échelle des Fissures de Peinture</b> <i>1.0 - 16.0</i> |  |
+| <b>Intensité de déformation des Fissures de Peinture</b> <i>0.0 - 1.0</i> |  |
+| <b>Échelle Scratches Des Contours Nets</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensité de déformation Scratches des contours nets</b> <i>0.0 - 1.0</i> |  |
+| <b>Couleur du métal brut</b> <i>(valeur de couleur)</i> |  |
+| <b>Couleur Specular Du Métal Brut</b> <i>(valeur de couleur)</i> |  |
+| <b>Valeur De La Brillance Raw Metal</b> <i>(valeur Niveaux de gris)</i> |  |
+| <b>Valeur De La Rugosité Raw Metal</b> <i>(valeur Niveaux de gris)</i> |  |
+| <b>Fusion</b> |  |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
+| <b>Intensité normale</b> <i>0.0 - 64.0</i> | Intensité de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
+| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Intensité de fusion de la rugosité. |
+| <b>Intensité Métallique</b> <i>0.0 - 1.0</i> | Force de fusion du Métallique. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Occlusion ambiante. |
+| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Height. |

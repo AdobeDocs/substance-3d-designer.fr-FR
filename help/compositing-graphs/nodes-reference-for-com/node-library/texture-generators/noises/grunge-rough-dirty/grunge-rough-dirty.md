@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Rough Dirty pour générer des textures usure/salissures rugueuses et sales afin d'ajouter des détails de surface altérés.
+description: Utilisez le nœud Usure/salissures Rough Dirty pour générer des textures d'usure/salissures rugueuses et sales afin d'ajouter des détails de surface altérés.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Usure/salissures Rough Dirty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
+![](grunge-rough-dirty.resources/grungeroughdirty.jpg){width="200px"}
 
-**Entrée :** *Générateurs De Textures* */Bruits*
-
-**Simple**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,31 +39,31 @@ Le nœud **Usure/salissures Rough Dirty** génère une carte usure/salissures se
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Balance** *Flottant* Ajuste la balance entre les valeurs sombres et claires.
-* **Contraste** *Flottant* Ajuste le contraste de l&#39;image.
-* **Inverser** *Booléen* Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`.
-* **Extension non carrée** *booléenne* Permet la compensation de l&#39;écrasement et de l&#39;étirement avec des rapports autres que carrés.
-* Advanced
-  * **Intensité de l&#39;Usure/salissures principale** *Flottant* Ajuste l&#39;intensité de la texture d&#39;usure/salissures principale utilisée pour rompre la surface.
-  * **Inverser les Scratches** *Booléen* Inverse la luminance des rayures sur la surface.
-  * **Intensité Scratches** *Flottant* Ajuste l’intensité des rayures sur la surface.
-  * **Intensité du grain** *Flottant* Ajuste l&#39;intensité de l&#39;effet de grain global.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Avancé</b> |  |
+| <b>Intensité d&#39;Usure/salissures principale</b> <i>Flotter</i> | Règle l’intensité de la texture d’usure/salissures principale utilisée pour rompre la surface. |
+| <b>Inverser les mots de Scratches</b> <i>Booléen</i> | Inverse la luminance des rayures sur la surface. |
+| <b>Intensité Scratches</b> <i>Flotter</i> | Règle l’intensité des rayures sur la surface. |
+| <b>Intensité du grain</b> <i>Flotter</i> | Règle l’intensité de l’effet de grain global. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeroughdirty-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeroughdirty-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+        </td>
+    </tr>
 </table>

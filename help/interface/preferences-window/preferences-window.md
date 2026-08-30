@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Accédez à la fenêtre Préférences de Substance 3D Designer pour personnaliser les paramètres et le comportement de l’application.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Préférences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Fenêtre Préférences
 
-![Fenêtre Préférences](../../assets/image2021-6-22-20-56-1.png "Fenêtre Préférences")
+![Fenêtre Préférences](preferences-window.resources/image2021-6-22-20-56-1.png "Fenêtre Préférences")
 
 Cette page présente la fenêtre <b>Préférences</b> et tous ses paramètres.
 
@@ -117,17 +117,17 @@ Notez également que les enregistrements automatiques doivent être ouverts *apr
 
 |  |                                                                                                                                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Limite de taille de cuisson</b>  *Par défaut : 8 192 pixels* | Définit la résolution maximale de pixels autorisée pour tous les nœuds de n&#39;importe quelle Substance [graphe](../../compositing-graphs/substance-compositing-graphs.md). Les sorties graphiques étant toujours des images carrées de résolutions de puissance 2, la valeur définie ici définit la largeur maximale et l’height, en pixels. |
+| <b>Limite de taille de cuisson</b>  *Par défaut : 8 192 pixels* | Définit la résolution maximale de pixels autorisée pour tous les nœuds dans une Substance de [graphe](../../compositing-graphs/substance-compositing-graphs.md). Les sorties du graphe étant toujours des images carrées de résolutions de puissance 2, la valeur définie ici définit la largeur maximale et l’height, en pixels. |
 
 ### Moteur
 
 |  |  |
 | --- | --- |
-| <b>Limite de cache GPU</b>  *Par défaut : 2 048 Mo* | Ce paramètre vous permet de définir la quantité de mémoire à réserver pour la mise en cache des étapes de rendu. Généralement, la Substance Engine met en cache la sortie de chaque nœud dans un graphique de Substance. |
+| <b>Limite de cache GPU</b>  *Par défaut : 2 048 Mo* | Ce paramètre vous permet de définir la quantité de mémoire à réserver pour la mise en cache des étapes de rendu. Généralement, la Substance Engine met en cache la sortie de chaque nœud dans un graphe de Substance. |
 
 >[!NOTE]
 >
-> Nous vous recommandons d&#39;examiner les suggestions de réduction de l&#39;empreinte mémoire d&#39;un graphique dans la section [Directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) de la documentation.
+> Nous vous recommandons d&#39;examiner les suggestions pour réduire l&#39;empreinte mémoire d&#39;un graphe dans la section [Directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) de la documentation.
 
 ## Projets
 
@@ -140,7 +140,7 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 |  |  |
 | --- | --- |
 | La touche de tabulation <b>affiche le menu du nœud</b>  *Par défaut : coché* | Si cette case est cochée, la touche Tab ouvre le menu <b>Nœud</b>, en répliquant la fonctionnalité de la touche Espace. |
-| <b>Activer la création de nœuds en faisant glisser les connecteurs</b>  *Par défaut : coché* | Si cette case est cochée, lorsque vous cliquez sur un connecteur, faites glisser le curseur et relâchez le lien créé dans l&#39;espace vide du graphique pour afficher le <b>menu Nœud</b>.   Le menu sera également *filtré* en fonction du type du connecteur sur lequel vous avez cliqué. Cela signifie que seuls les nœuds compatibles avec le connecteur cliqué seront affichés. |
+| <b>Activer la création de nœuds en faisant glisser les connecteurs</b>  *Par défaut : coché* | Si cette case est cochée, lorsque vous cliquez sur un connecteur, faites glisser le curseur et relâchez le lien créé dans l&#39;espace vide du graphe pour afficher le <b>menu Nœud</b>.   Le menu sera également *filtré* en fonction du type de connecteur sur lequel vous avez cliqué. Cela signifie que seuls les nœuds compatibles avec le connecteur cliqué seront affichés. |
 | <b>Afficher les sorties en vue 3D lors de l’ouverture d’un graphique</b>  *Par défaut : coché* | Si cette case est cochée, toutes les sorties de graphique sont automatiquement appliquées dans la [Vue 3D](../../interface/3d-view/3d-view.md) lorsque ce graphique est ouvert.   Cela a également pour effet de rendre tous les nœuds qui font partie d&#39;un flux menant à un nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
 
 ### Graphe de composition Substance
@@ -157,14 +157,14 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modification contextuelle désactivée](../../assets/substance3ddesigner_incontext_no.gif "Modification contextuelle désactivée")
+![Modification contextuelle désactivée](preferences-window.resources/substance3ddesigner_incontext_no.gif "Modification contextuelle désactivée")
 
 *Ouvrir la référence*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![La modification contextuelle a été activée](../../assets/substance3ddesigner_incontext_yes.gif "La modification contextuelle a été activée")
+![La modification contextuelle a été activée](preferences-window.resources/substance3ddesigner_incontext_yes.gif "La modification contextuelle a été activée")
 
 *Ouvrir La Référence En Contexte*
 
@@ -191,7 +191,7 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 
 |  |  |
 | --- | --- |
-| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le lancer de rayons sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les boulangers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
+| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le lancer de rayons sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les boulangers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
 
 ## Bibliothèque
 

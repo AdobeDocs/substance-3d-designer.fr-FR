@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 12.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Date de publication : *26 avril 2022*
 
 ### Nouveau contenu pour les graphiques de matériaux de Substance
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
 Beaucoup de nœuds ont été ajoutés dans cette version, vous trouverez de nouveaux motifs, de nouveaux bruits, de nouveaux filtres, ...
 
@@ -38,36 +38,36 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 
   * Nous avons ajouté un nouveau nœud <b>Mosaïque aléatoire 2</b> pour générer des mosaïques adjacentes de tailles et de rapports aléatoires, ce qui est très utile pour créer rapidement des grilles entièrement irrégulières avec des coins et des biseaux inclinés et arrondis.
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
   * Nouveau motif de <b>Triangle Grid</b> pour générer une grille composée de triangles. Nous l&#39;utilisons dans le matériau ci-dessous pour simuler facilement et parfaitement le grain du cuir. Ce générateur représente une surface de sommets dans l’espace 3D et peut être utilisé pour créer divers styles polygonaux.
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **Nouveaux bruits**
 
   * Afin de vous donner plus de variété, un ensemble de <b>15 nouvelles cartes d&#39;Usure/salissures</b> (béton, fuites, éclaboussures sales, ...) a été ajouté à la bibliothèque.
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
   * Vous trouverez également de <b>nouveaux bruits 2D et 3D</b>, tels que Voronoi (2D et 3D), Voronoi Fractal (2D et 3D), 3D Ridged Fractal et une mise à jour du bruit Perlin 3D actuel (ajout de carrelage et d’options absolues).\
     Ces bruits sont tous cartographiés dans l&#39;espace 3D et offrent plusieurs styles, ce qui permet une plus grande variété et un contrôle qui vous donnera beaucoup de choix pour créer la carte parfaite pour votre matériel, comme la mer et les panneaux de science-fiction ci-dessous.
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
   * Collection de <b>nœuds de texture 3D</b> (position, SDF, décalage) et de <b>nœuds de rendu 3D </b> (surface ou volume) pour créer et rendre des textures 3D, qui sont un atlas des tranches d’un modèle 3D.
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **Nouveaux filtres**
 
   * Avec le nœud <b>Recadrage automatique</b>, vous pouvez placer une forme au *centre* de l&#39;image sans être redimensionnée, ou la redimensionner pour l&#39;adapter à l&#39;espace. Par exemple, votre forme peut être librement modifiée tout en conservant une position et une taille cohérentes lorsqu’elle est dispersée.
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
   * Avec le nœud <b> Extend Shape</b>, vous pourrez étirer une section d&#39;une forme dans une direction et une distance personnalisées.
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * Et avec le nœud <b>Rotation non uniforme</b>, vous pouvez faire pivoter une entrée en fonction d&#39;un mappage donné.
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **Et aussi...**
 
   * Fonctions d&#39;accélération (graphique de fonction) très utiles pour piloter une valeur de manière non linéaire.
@@ -75,33 +75,33 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 
 ### Amélioration de l’interopérabilité
 
-* **Assistance USD** En plus de la
+* **Support USD** En plus du
 
   et
 
-  formats de fichiers, vous pouvez désormais importer et exporter des fichiers USD (
+  formats de fichier, vous pouvez désormais importer et exporter des fichiers USD (
 
   ,
 
   ,
 
-  ) afin de les utiliser comme ressources de vos graphiques de Substance, pour les appliquer à la cuisson ou dans la vue 3D pour présenter votre matériau de Substance. Vous pouvez également utiliser ce format pour exporter votre graphique de Substance ou le contenu de la vue 3D.
+  ) afin de les utiliser comme ressources de vos Graphes Substance models, pour le baking ou dans la vue 3D pour présenter votre matériau de Substance. Vous pouvez également utiliser ce format pour exporter votre Graphe Substance model ou le contenu de la vue 3D.
 * <b>Envoyer vers Stager\
-  </b>Vous pouvez désormais envoyer votre matériel de Substance à Stager en un clic, comme cela était déjà possible avec Sampler et Painter. Grâce à cette fonctionnalité, plus besoin de publier en tant que SBSAR et de charger des fichiers individuels (nécessite Stager version 1.2.0 avec le nouveau gestionnaire de matériaux)
+  </b>Vous pouvez désormais envoyer votre matériau de Substance à Stager en un clic, comme cela était déjà possible avec Sampler et Painter. Grâce à cette fonctionnalité, plus besoin de publier en tant que SBSAR et de charger des fichiers individuels (nécessite Stager version 1.2.0 avec le nouveau gestionnaire de matériau)
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### Divers
 
-* Si vous travaillez sur des tissus, vous pouvez désormais afficher un filet dédié dans la vue 3D afin de mieux voir comment votre matériau est rendu sur une forme drapée. Ouvrez le menu <b>Scène</b> dans le panneau Vue 3D et sélectionnez l&#39;option <b>Tissu</b> pour afficher ce modèle.
+* Si vous travaillez sur des tissus, vous pouvez désormais afficher un maillage dédié dans la vue 3D afin de mieux voir comment votre matériau est rendu sur une forme drapée. Ouvrez le menu <b>Scène</b> dans le panneau Vue 3D et sélectionnez l&#39;option <b>Tissu</b> pour afficher ce modèle.
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
-* Nous avons également ajouté de nouveaux nœuds de gestion de scènes pour les graphiques de modèles de Substance. Ces nœuds vous permettent de renommer, redéfinir la parenté, fusionner ou développer les éléments de votre scène afin d’organiser la hiérarchie de celle-ci. Il existe également un nouveau nœud pour définir le pivot d’un ou plusieurs éléments d’une scène.
+* Nous avons également ajouté de nouveaux nœuds de gestion des scènes pour les Graphes Substance models. Ces nœuds vous permettent de renommer, redéfinir la parenté, fusionner ou développer vos éléments de scène de données afin d&#39;organiser votre hiérarchie de scène de données. Il existe également un nouveau nœud pour définir le pivot d&#39;un ou plusieurs éléments d&#39;une scène.
 
-* Lorsque vous travaillez sur des projets dans Designer, vous pouvez rencontrer des avertissements et des messages d’erreur, qui vous informent d’un problème dans le projet. Dans cette version, nous <b>améliorons le système de gestion des erreurs</b> afin de faire apparaître toutes les erreurs et tous les avertissements dans l&#39;Explorateur : tout est répertorié au même endroit, il est donc plus facile de vérifier si votre projet contient des problèmes.
+* Lorsque vous travaillez sur des projets dans Designer, vous pouvez rencontrer des avertissements et des messages d’erreur, qui vous informent d’un problème dans le projet. Dans cette version, nous <b>améliorons le système de gestion des erreurs</b> afin de faire apparaître toutes les erreurs et tous les avertissements dans l&#39;Explorateur : tout est répertorié au même endroit et il est donc plus facile de vérifier si votre projet contient des problèmes.
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## Notes de mise à jour
 
@@ -134,7 +134,7 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 * [Content] Nouvelle version du nœud Quantize Grayscale
 * [Contenu] Nouveaux bruits fractaux Voronoi et Voronoi (2D/3D)
 * [Contenu] Seuil : ajout du mode de comparaison « Inférieur » et « Inférieur et égal »
-* [Contenu]&#x200B;[Vue 3D] Ajoutez un ajustement de maillage pour afficher les tissus aux ressources expédiées
+* [Contenu][Vue 3D] Ajoutez un ajustement de maillage pour afficher les tissus aux ressources expédiées
 * [Modèles de Substance] Nouveau nœud Développer les instances de groupe
 * [Modèles de Substance] Nouveau nœud de Fuse
 * [Modèles de Substance] Nouveau nœud Renommer
@@ -176,8 +176,8 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 * [Contenu] Flood Fill : fond perdu de texte dans les boutons de paramètres booléens
 * [Contenu] Plage incorrecte pour le paramètre Angle du premier échantillon de lumière du nœud Plusieurs angles vers Normal
 * [Modèles de Substance] Les propriétés du nœud affichent l&#39;identificateur au lieu de l&#39;étiquette
-* [Modèles de Substance]&#x200B;[Vue 3D] Problème d’actualisation lors de la réouverture d’un projet
-* [Modèles de Substance]&#x200B;[3Dview] Problème d’actualisation lors de l’utilisation de l’aperçu structure filaire
+* [Modèles de Substance][Vue 3D] Problème d’actualisation lors de la réouverture d’un projet
+* [Modèles de Substance][3Dview] Problème d’actualisation lors de l’utilisation de l’aperçu structure filaire
 * [Paramètres] Blocage lors de la suppression rapide des entrées de graphique dans un cas spécifique
 * [Paramètres] Blocage lors de la réinitialisation d’un paramètre d’instance lors de la modification de sa description de référence
 * [Bitmap] La détection UDIM n&#39;est pas déclenchée pour les fichiers bitmap déposés dans le graphique

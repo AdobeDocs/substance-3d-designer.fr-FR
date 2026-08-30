@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 15.0 pour en savoir plus sur le nouveau moteur de rendu 3D et la prise en charge native de la version USD.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Cette mise à jour apporte un tout nouveau rendu 3D, avec les modes pixelliseur 
 
 *Date de publication : 15 juillet 2025*
 
-![Bannière](../../assets/banner-47.png "Version 15.0")
+![Bannière](version-15-0.resources/banner-47.png "Version 15.0")
 
 ## Nouveau moteur de rendu 3D
 
@@ -32,7 +32,7 @@ Cette mise à jour apporte un tout nouveau rendu 3D, avec les modes pixelliseur 
 
 Cette nouvelle version vous donne accès à un [rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) avancé, avec un mode de pixellisation (pour avoir un aperçu en temps réel lorsque vous travaillez sur votre matière) et un mode de traceur de tracé (un mode de lancer de rayon pour obtenir un rendu parfait et précis). Ce nouveau moteur de rendu améliore les fonctionnalités avec des fonctionnalités telles que les ombres en mode pixellisé, améliore la qualité et les performances, et est conçu pour prendre en charge les technologies futures telles que [MaterialX](https://materialx.org/). Il complète les systèmes de rendu OpenGL et Iray existants dans Designer et s’aligne sur les systèmes de rendu disponibles dans Substance 3D Viewer et Substance 3D Sampler, garantissant une expérience uniforme dans l’ensemble de l’écosystème.
 
-![ombres et translucidité dans la pixellisation](../../assets/feature_1b.png)
+![ombres et translucidité dans la pixellisation](version-15-0.resources/feature_1b.png)
 
 La barre d&#39;outils de la vue [3D](../../interface/3d-view/3d-view.md) a été mise à jour pour avoir un accès rapide à certaines des nouvelles fonctionnalités disponibles dans ce moteur de rendu :
 
@@ -51,13 +51,13 @@ En outre, le raccourci clavier permettant de faire pivoter la luminosité de l&#
 * <b>Mappage des tonalités :</b>la gamme de couleurs avec les profils pour obtenir un effet HDR (High-Dynamic-Range).
 * <b>Profondeur de champ :</b> simule les propriétés de mise au point d&#39;un objectif de caméra (pixellisation uniquement).
 
-![Publier l’outil FX dans Designer 15.0](../../assets/postfx.gif)
+![Publier l’outil FX dans Designer 15.0](version-15-0.resources/postfx.gif)
 
 ## Édition d’actifs en contexte
 
 Lorsque vous travaillez sur vos matériaux, vous pouvez [les prévisualiser dans le contexte d&#39;une scène 3D spécifique](../../working-with-3d-scenes/working-with-3d-scenes.md). C’est pourquoi nous avons ajouté la possibilité d’importer et de rendre une scène complète, avec toutes ses textures, ses caméras et ses éclairages. Et cerise sur le gâteau, si cette scène fait référence à des ombrages MaterialX, ils seront correctement rendus avec le pixelliseur !
 
-Scène ![USD chargée et rendue dans Designer](../../assets/feature_2.png)
+Scène ![USD chargée et rendue dans Designer](version-15-0.resources/feature_2.png)
 
 Une fois importé, vous pouvez travailler sur votre scène en sélectionnant un filet (avec MAJ + clic ou grâce à l’explorateur de scènes) et en [remplaçant l’une de ses matières](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Vous pouvez alors :
 
@@ -76,17 +76,17 @@ Des info-bulles riches ont été introduites pour mieux démontrer l&#39;objecti
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nœud de fusion](../../assets/blend.gif)
+![nœud de fusion](version-15-0.resources/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nœud de flou](../../assets/blur.gif)
+![nœud de flou](version-15-0.resources/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nœud de distance](../../assets/distance.gif)
+![nœud de distance](version-15-0.resources/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Des info-bulles riches ont été introduites pour mieux démontrer l&#39;objecti
 
 Si vous devez travailler avec des textures non carrées, cette nouvelle option est faite pour vous. Dans les [propriétés du matériau](../../interface/3d-view/material-properties/material-properties.md) de la vue 3D, dans les options UV pour contrôler le carrelage, vous pouvez désormais définir une valeur différente pour les deux axes.
 
-![échelle U V différente](../../assets/nonsquare.png){zoomable="yes"}
+![échelle U V différente](version-15-0.resources/nonsquare.png){zoomable="yes"}
 
 ## Bakers
 
@@ -110,7 +110,7 @@ Chaque année, la [plateforme de référence pour les effets visuels](https://vf
 
 ## Vidéo
 
-[![Mise à jour de Substance 3D Designer : nouveau moteur de rendu, post-FX et modification du contexte | Adobe Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Mise à jour de Substance 3D Designer : nouveau moteur de rendu, post-FX et modification du contexte | Adobe Substance 3D](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Notes de mise à jour
 
@@ -217,15 +217,15 @@ Chaque année, la [plateforme de référence pour les effets visuels](https://vf
 * [Sécurité] Vulnérabilité II d’écriture hors limites lors de l’analyse du fichier NEF
 * [Sécurité] Vulnérabilité de lecture III hors limites lors de l’analyse du fichier DNG
 * [Préférences] Problèmes UX dans les paramètres de projet pour les projets en lecture seule
-* [Ressources] Les jeux UV multiples ne sont pas affichés lors de l&#39;ouverture des fichiers FBX
+* [Ressources] Les Ensembles d&#39;UV multiples ne s’affichent pas lors de l’ouverture de fichiers FBX
 * [UI] Libellés qui se chevauchent dans la barre d’état
 * [UI] Les info-bulles du menu déroulant « Mode de création de lien » ne sont pas affichées
 
 ### PROBLÈMES CONNUS
 
-* [Boulangers] Blocages lors de la cuisson avec certains pilotes NVidia spécifiques
+* [Bakers] Crashs pendant le baking avec certains pilotes NVidia spécifiques
 * [Vue 3D] OpenGL : certaines scènes importées peuvent ne pas être rendues
-* [Vue 3D] Pixellisation : artefacts d’ombre lors de l’utilisation du displacement sur une scène plate
+* [vue 3D] Pixellisation : artefacts d’ombre lors de l’utilisation du displacement sur une Scène plate
 * [Vue 3D] Traceur de tracé : performances lentes lors de la mise à jour des textures avec la tessation/le displacement activé
 * [Vue 3D] Certaines propriétés de matériau de couleur ne sont pas gérées correctement lorsqu’elles sont remplacées
 * [Vue 3D] Les scènes avec des primitives animées ne sont pas prises en charge correctement

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dégradé linéaire 1 pour créer des dégradés linéaires afin de fusionner les couleurs et de créer des transitions lisses.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dégradé linéaire 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-1.png){width="128px"}
+![](gradient-linear-1.resources/gradient-linear-1.png){width="128px"}
 
-## Dégradé linéaire 1
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Simple**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,16 +37,25 @@ Dégradé linéaire simple en noir et blanc. Donne un résultat parfaitement lis
 
 Malgré sa simplicité, il s&#39;agit d&#39;un motif extrêmement utile qui peut être utilisé comme une composante avec de nombreux autres nœuds ! Essayez-le avec une [analyse d&#39;histogramme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), par exemple.
 
-## Paramètres
-
-* **Mosaïque** : *1 - 16*\
-  Définit le nombre de fois où le résultat doit se produire.
-* **Rotation** :*0°, 90°, 180°, 270°* tourne selon un angle prédéfini. Modifie la direction du dégradé.
-
-## Exemples d’images
-
-![](../../../../../../assets/gradient-linear-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Rotation</b> <i>0°, 90°, 180°, 270°</i> | Permet une rotation selon un angle prédéfini. Modifie la direction du dégradé. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-1.resources/gradient-linear-1-ex.gif" />
+        </td>
+    </tr>
 </table>

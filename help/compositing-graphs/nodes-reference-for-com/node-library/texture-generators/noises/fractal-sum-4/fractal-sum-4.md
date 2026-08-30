@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Somme fractale 4 pour générer un bruit fractal de quatre octaves afin de créer des textures organiques détaillées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMME FRACTALE 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Somme fractale 4 - Icône](../../../../../../assets/fractal_sum_4.png "Somme fractale 4 - Icône"){width="200px"}
+![Somme fractale 4 - Icône](fractal-sum-4.resources/fractal_sum_4.png "Somme fractale 4 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -45,19 +41,23 @@ Voir aussi : [Somme fractale de base](../../../../../../compositing-graphs/nodes
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* | Le bruit généré est une image bitmap en niveaux de gris. |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est une image bitmap en niveaux de gris. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
-| <b>Désordre</b> Flottant | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> Flotter | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Expansion non carrée</b> booléenne | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
+|:---|:---|
+| <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
+| <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples
 
@@ -65,26 +65,12 @@ Voir aussi : [Somme fractale de base](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Somme fractale 4 - Exemple 1](../../../../../../assets/fractal_sum_4_1.png "Somme fractale 4 - Exemple 1"){zoomable="yes"}
+![Somme fractale 4 - Exemple 1](fractal-sum-4.resources/fractal_sum_4_1.png "Somme fractale 4 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Somme fractale 4 - Exemple 2](../../../../../../assets/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "Somme fractale 4 - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Somme fractale 4 - Exemple 2](fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "Somme fractale 4 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>

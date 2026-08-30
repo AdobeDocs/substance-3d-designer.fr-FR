@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de création ou de chargement de projets dans Substance 3D Designer et trouvez des solutions.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Impossible de charger un projet
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Cette page répertorie les causes courantes d’échec de la création ou du cha
 
 ## L’application est trop ancienne pour ouvrir l’URL
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](cannot-create-load-a-project.resources/error.svg) Problème**
 
 Le fichier **Substance 3D (SBS)** est chargé par une version de Substance 3D Designer qui *ne prend pas en charge son format*. Le fichier Substance 3D a probablement été *enregistré dans une version plus récente* du logiciel qui utilise un format mis à jour pour ces fichiers.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](cannot-create-load-a-project.resources/check.svg) Étapes recommandées**
 
 Le format de fichier Substance 3D (SBS) évolue au même rythme que Substance 3D Designer. Le plus souvent, une nouvelle version du logiciel devra *mettre à jour vos fichiers* afin qu&#39;ils puissent prendre en charge les dernières fonctionnalités.
 
@@ -54,7 +54,7 @@ Vérifiez d’abord que vous utilisez la dernière version de Substance 3D Desig
 
 ## Blocage lors de la création ou du chargement d’un projet
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](cannot-create-load-a-project.resources/error.svg) Problème</b>
 
 Un crash lors de la création ou du chargement d&#39;un projet est souvent causé par une erreur lors de l&#39;initialisation de la [Vue 3D](../../interface/3d-view/3d-view.md), qui se produit lors de la configuration de l&#39;espace de travail.
 
@@ -62,7 +62,7 @@ Si le système est un ordinateur portable, une application tierce peut appliquer
 
 Un crash peut également se produire lorsque la configuration ou la mise à l&#39;échelle *d&#39;affichage* a été modifiée entre les sessions, de sorte que l&#39;image de rendu de la vue 3D est créée à des coordonnées non valides.
 
-<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](cannot-create-load-a-project.resources/check.svg) Étapes recommandées</b>
 
 Compte tenu des multiples causes possibles de ce blocage, nous vous suggérons de suivre les étapes de dépannage suivantes dans l’ordre :
 
