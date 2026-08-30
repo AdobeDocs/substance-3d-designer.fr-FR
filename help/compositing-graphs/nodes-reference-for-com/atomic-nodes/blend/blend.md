@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Il s&#39;agit du nœud le plus utile de tous les Noeuds atomiques. Presque tous 
 </tr>
 </table>
 
-Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
+Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
 
 >[!TIP]
 >
