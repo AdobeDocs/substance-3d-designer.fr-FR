@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Étoile pour créer des motifs en forme d’étoile qui rayonnent à partir d’un point central pour créer des effets de texture décoratifs.
 helpx_creative_field: ""

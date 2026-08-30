@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les tons directs Pantone dans Substance 3D Designer pour une correspondance exacte des couleurs dans les workflows d’impression et de conception.
 helpx_creative_field: ""

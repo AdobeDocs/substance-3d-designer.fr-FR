@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Trouvez des guides de dépannage pour les problèmes techniques dans Substance 3D Designer afin de résoudre les problèmes rapidement.
 helpx_creative_field: ""

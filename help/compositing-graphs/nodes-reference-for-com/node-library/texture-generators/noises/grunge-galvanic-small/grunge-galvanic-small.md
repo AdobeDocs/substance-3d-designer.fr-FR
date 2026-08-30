@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Galvanic Small pour générer des motifs de corrosion galvanique à petite échelle pour les effets d'altération des métaux.
 helpx_creative_field: ""

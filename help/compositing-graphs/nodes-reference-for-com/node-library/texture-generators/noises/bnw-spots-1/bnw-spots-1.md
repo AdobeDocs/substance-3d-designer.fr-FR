@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud BnW Spots 1 pour générer des motifs de points noir et blanc afin de créer des variantes de texture et des masques de détails.
 helpx_creative_field: ""

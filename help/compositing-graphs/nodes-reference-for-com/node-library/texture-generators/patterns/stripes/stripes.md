@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Stripe pour générer des motifs de bande avec une largeur, un espacement et une orientation personnalisables pour la création de textures.
 helpx_creative_field: ""

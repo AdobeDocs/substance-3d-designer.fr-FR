@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Découvrez comment exposer les paramètres dans les graphiques de composition Substance 3D Designer pour rendre les matériaux personnalisables et réutilisables.
 helpx_creative_field: ""

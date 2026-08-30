@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Map 002 pour générer des motifs usure/salissures procéduraux afin de créer des surfaces de matériau usées et vieillies.
 helpx_creative_field: ""
