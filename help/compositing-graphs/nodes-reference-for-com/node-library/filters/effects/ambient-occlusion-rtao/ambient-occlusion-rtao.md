@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Occlusion ambiante (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud RTAO](../../../../../../assets/rt-ao.png "Icône de nœud RTAO")
+![Icône de nœud RTAO](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "Icône de nœud RTAO")
 
-<b>Entrée :</b> *Filtres/Effets*
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,42 +43,29 @@ Voir [Occlusion ambiante (HBAO) (nœud de filtre)](../../../../../../compositing
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-<b>Utiliser la Taille physique</b> *booléenne*\
-Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height.
+|  |  |
+|:---|:---|
+| <b>Utiliser la Taille physique</b> <i>Booléen</i> | Activez/désactivez cette option pour utiliser les paramètres de Taille physique afin de déterminer l’échelle d’height. |
+| <b>Taille physique</b> <i>Float3</i> <i>(Disponible lorsque <b>Utiliser la Taille physique</b> est défini sur <i>Vrai</i>)</i> | Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface |
+| <b>Exemples</b> <i>Nombre entier</i> | Nombre de rayons utilisés pour calculer l&#39;ambient occlusion.<br>Une valeur plus élevée offre un résultat plus lisse et plus précis au détriment des performances. |
+| <b>Échelle d&#39;Height</b> <i>Flotter</i> <i>(Disponible lorsque <b>Utiliser la Taille physique</b> est défini sur <i>Faux</i>)</i> | Multiplicateur de l’intensité de l’entrée de courbe de transfert d’height. |
+| <b>Distribution</b> <i>Nombre entier</i> | Définit la méthode de distribution. Affecte la réduction vers les zones ombrées, |
+| <b>Distance Maximale</b> <i>Flotter</i> | Définit la distance maximale que les rayons peuvent parcourir pour être occultés. |
+| <b>Angle de répartition</b> <i>Flotter</i> | Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier. |
 
-<b>Taille physique</b> *Float3* (disponible lorsque <b>Utiliser la Taille physique</b> est défini sur *Vrai*)\
-Ajuste l’échelle d’height en fonction de la taille physique réelle de la surface
+## Exemples
 
-<b>Échantillons </b>*Entier*\
-Nombre de rayons utilisés pour calculer l&#39;occlusion ambiante.\
-Plus la valeur est élevée, plus le résultat obtenu est fluide et précis, au détriment des performances.
-
-<b>Échelle d&#39;Height</b> *Flottant* (disponible lorsque <b>Utiliser la Taille physique</b> est défini sur *Faux*)\
-Multiplicateur de l’intensité de l’entrée de courbe de transfert d’height.
-
-<b>Distribution</b> *Integer* Définit la méthode de distribution. Affecte la réduction vers les zones ombrées,
-
-<b>Distance Maximale</b> *Flotter*\
-Définit la distance maximale que les rayons peuvent parcourir pour être occultés.
-
-<b>Angle De Répartition</b> *Flottant*\
-Définit l’angle d’étalement des rayons sur lesquels la prise de vue doit être effectuée. Une valeur de 1 correspond à un hémisphère entier.
-
-## Exemples d’images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Nœud RTAO - Exemple 1](../../../../../../assets/image2021-6-18-11-7-48.png "Nœud RTAO - Exemple 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Nœud RTAO - Exemple 2](../../../../../../assets/image2021-6-18-11-9-0-1.png "Nœud RTAO - Exemple 2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
+        </td>
+    </tr>
 </table>

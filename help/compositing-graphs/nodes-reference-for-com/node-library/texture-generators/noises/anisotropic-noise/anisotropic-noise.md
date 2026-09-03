@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bruit anisotrope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit anisotrope - Icône](../../../../../../assets/anisotropic_noise_v2.png "Bruit anisotrope - Icône"){width="200px"}
+![Bruit anisotrope - Icône](anisotropic-noise.resources/anisotropic-noise-01.png "Bruit anisotrope - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -45,45 +41,25 @@ La quantité de bandes est réglable, de même que le smoothness de leurs transi
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Sorties
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
-
 ## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* | Le bruit généré est une image bitmap en niveaux de gris. |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est une image bitmap en niveaux de gris. |
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
-| <b>X</b> Entier | Quantité de bandes sur l&#39;axe X. |
-| Nombre entier de <b>Y</b> | Nombre de bandes sur l&#39;axe Y. |
-| Valeur booléenne de <b>Y par résolution</b> | Si la valeur est True, le nombre de bandes sur l&#39;axe Y sera égal à la taille de l&#39;image sur cet axe. |
-| <b>Rotation</b> Booléenne | Fait pivoter le bruit de 90 degrés. |
-| Flottement de <b>Smoothness</b> | La quantité de fondu entre les bandes, où 0 n&#39;est pas un fondu et 1 s&#39;estompe sur toute leur longueur. |
-| <b>Interpolation de Smoothness</b> Flottant | La pondération des deux méthodes d&#39;interpolation appliquées pour fondre les bandes, où 0 est linéaire et 1 est gaussien. |
-| <b>Désordre</b> Flottant | Déplace les ingrédients du bruit.   Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> Flotter | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.   Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Expansion non carrée</b> booléenne | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
+|:---|:---|
+| <b>X</b> <i>Nombre entier</i> | Quantité de bandes sur l&#39;axe X. |
+| <b>Quantité Y</b> <i>Nombre entier</i> | Nombre de bandes sur l&#39;axe Y. |
+| <b>Quantité Y par résolution</b> <i>Booléen</i> | Si la valeur est True, le nombre de bandes sur l&#39;axe Y sera égal à la taille de l&#39;image sur cet axe. |
+| <b>Rotation</b> <i>Booléen</i> | Fait pivoter le bruit de 90 degrés. |
+| <b>Smoothness</b> <i>Flotter</i> | La quantité de fondu entre les bandes, où 0 n&#39;est pas un fondu et 1 s&#39;estompe sur toute leur longueur. |
+| <b>Interpolation de Smoothness</b> <i>Flotter</i> | La pondération des deux méthodes d&#39;interpolation appliquées pour fondre les bandes, où 0 est linéaire et 1 est gaussien. |
+| <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.   Cela peut être utilisé pour animer le bruit. |
+| <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.   Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples
 
@@ -91,26 +67,12 @@ La quantité de bandes est réglable, de même que le smoothness de leurs transi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit anisotrope - Exemple 1](../../../../../../assets/anisotropic_noise_v2_1.png "Bruit anisotrope - Exemple 1"){zoomable="yes"}
+![Bruit anisotrope - Exemple 1](anisotropic-noise.resources/anisotropic-noise-02.png "Bruit anisotrope - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit anisotrope - Exemple 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Bruit anisotrope - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Bruit anisotrope - Exemple 2](anisotropic-noise.resources/anisotropic-noise-03.gif "Bruit anisotrope - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>

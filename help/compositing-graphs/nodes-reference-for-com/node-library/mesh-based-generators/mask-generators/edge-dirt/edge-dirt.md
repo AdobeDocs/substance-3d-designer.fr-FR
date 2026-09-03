@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt Edge
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt-01.png){width="128px"}
 
-## Dirt Edge
-
-**Entrée :** *Générateurs basés sur le maillage**/Générateurs de masques*
-
-**Simple**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,30 +37,37 @@ Génère un masque noir et blanc en fonction des maps bakées et des paramètres
 
 Ce masque représente un effet de dirt qui s’accumule autour des contours, en fonction uniquement d’une courbe de référence.
 
-## Paramètres
-
-### Entrées
-
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour le placement de l’effet. Obligatoire !
-* **Masque De Variation** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud, utilisé uniquement lorsque le paramètre de remplacement est activé.
-* **Masque (facultatif)** : *Entrée en niveaux de gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Niveau** : *0.0 - 1.0*\
-  Définit le montant du dirt.
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste du résultat.
-* **Variation** :*0.0 - 1.0* Mélange de la quantité de masquage/rupture à grande échelle qui doit se produire.
-* **Remplacer le masque de variation** : *Faux/Vrai*
-
-## Exemples d’images
-
-![](../../../../../../assets/edge-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour le placement de l’effet. Obligatoire ! |
+| <b>Masque de variation</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud, utilisé uniquement lorsque le paramètre de remplacement est activé. |
+| <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Niveau</b> <i>0.0 - 1.0</i> | Définit le montant du dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du résultat. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Fusions sur la quantité de masquage/rupture à grande échelle qui doit se produire. |
+| <b>Remplacer le masque de variation</b> <i>Faux/Vrai</i> |  |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-dirt.resources/edge-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explorateur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ L’Explorateur est l’endroit où vous commencez et terminez vos projets, car 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dock Explorateur](../../assets/explorer-3.jpg "Dock Explorateur")
+![Dock Explorateur](the-explorer-window.resources/the-explorer-window-01.jpg "Dock Explorateur")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ Vous pouvez effectuer quelques actions importantes via le dock Explorateur :
 
 Cette barre d’outils vous permet d’exécuter rapidement des fonctions liées à votre workflow global. Tous les boutons sont *sensibles au contexte*, ce qui signifie qu&#39;ils activent et modifient leur comportement en fonction de votre sélection actuelle dans l&#39;Explorateur.
 
-![](../../assets/save.png) <b>Enregistrer</b> le package sélectionné.
+![](the-explorer-window.resources/the-explorer-window-02.png) <b>Enregistrer</b> le package sélectionné.
 
-![](../../assets/sendto-icon.jpg) <b>élément(s) sélectionné(s) dans Publish ou [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> :
+![](the-explorer-window.resources/the-explorer-window-03.jpg) <b>élément(s) sélectionné(s) dans Publish ou [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> :
 
 * [Publish tout pack sélectionné vers une ressource Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ;
 * Envoyez le package sélectionné à [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Substance 3D Stager](https://www.adobe.com/fr/products/substance3d-stager.html).
 
-![](../../assets/republish.png) <b>Publish ou envoi comme précédent :</b> Publish ou envoi des éléments sélectionnés avec les mêmes paramètres qu&#39;auparavant. Cette option est uniquement disponible sur un pack qui a déjà été publié *au moins une fois* dans la session *actuelle*.
+![](the-explorer-window.resources/the-explorer-window-04.png) <b>Publish ou envoi comme précédent :</b> Publish ou envoi des éléments sélectionnés avec les mêmes paramètres qu&#39;auparavant. Cette option est uniquement disponible sur un pack qui a déjà été publié *au moins une fois* dans la session *actuelle*.
 
-![](../../assets/graph-cleaner.jpg) <b>Supprimer les nœuds inutilisés</b> dans le ou les graphiques sélectionnés. L’outil suit les règles suivantes :
+![](the-explorer-window.resources/the-explorer-window-05.jpg) <b>Supprimer les nœuds inutilisés</b> dans le ou les graphiques sélectionnés. L’outil suit les règles suivantes :
 
 * L&#39;outil n&#39;est disponible que si les éléments sélectionnés sont du *même type* : graphes, dossiers ou packages uniquement ;
 * Lorsque la sélection comprend des dossiers ou des packages, l&#39;outil nettoie tous les graphiques qu&#39;ils contiennent *de manière récursive* ;
@@ -77,14 +77,14 @@ Pour en savoir plus sur l&#39;outil, consultez la section « Supprimer les nœud
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Menu déroulant Publish/Envoyer](../../assets/explorer-sendto-displayed.jpg "Publish/Envoyer")
+![Menu déroulant Publish/Envoyer](the-explorer-window.resources/the-explorer-window-06.jpg "Publish/Envoyer")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu déroulant Supprimer les nœuds inutilisés](../../assets/explorer-graph-cleaner.jpg "Menu déroulant Supprimer les nœuds inutilisés")
+![Menu déroulant Supprimer les nœuds inutilisés](the-explorer-window.resources/the-explorer-window-07.jpg "Menu déroulant Supprimer les nœuds inutilisés")
 
 *Supprimer les nœuds inutilisés*
 
@@ -200,9 +200,9 @@ Le <b>Gestionnaire de dépendances</b> ouvre la fenêtre Gestionnaire de dépend
 
 La barre d’outils située au bas du dock Explorateur fournit des informations sur un pack ou une ressource de pack :
 
-<b>![](../../assets/explorer-dependencies.jpg) Dépendances :</b> Lorsqu&#39;un package est sélectionné, ses dépendances de package sont répertoriées dans un panneau dédié.
+<b>![](the-explorer-window.resources/the-explorer-window-08.jpg) Dépendances :</b> Lorsqu&#39;un package est sélectionné, ses dépendances de package sont répertoriées dans un panneau dédié.
 
-Informations <b>![](../../assets/explorer-information.jpg) :</b> fournit des métadonnées liées au package ou à la ressource actuellement sélectionné(e) :
+Informations <b>![](the-explorer-window.resources/the-explorer-window-09.jpg) :</b> fournit des métadonnées liées au package ou à la ressource actuellement sélectionné(e) :
 
 * Package : chemin d’accès complet au fichier du package
 * [Ressource bitmap](../../resources/bitmap-resource/bitmap-resource.md) : le chemin d&#39;accès complet au fichier de la ressource, son [profil ICC](../../color-management/color-management.md), la taille de l&#39;image et la [méthode d&#39;importation](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (c&#39;est-à-dire *lié* ou *importé*)
@@ -211,14 +211,14 @@ Informations <b>![](../../assets/explorer-information.jpg) :</b> fournit des mé
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Panneau Dépendances](../../assets/explorer-dependencies-displayed.jpg "Panneau Dépendances")
+![Panneau Dépendances](the-explorer-window.resources/the-explorer-window-10.jpg "Panneau Dépendances")
 
 *Dépendances*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Panneau Informations](../../assets/explorer-information-displayed.jpg "Panneau Informations")
+![Panneau Informations](the-explorer-window.resources/the-explorer-window-11.jpg "Panneau Informations")
 
 *Informations*
 

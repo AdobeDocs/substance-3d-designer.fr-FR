@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Section transversale pour créer des masques de section transversale basés sur des cartes d’height pour des effets de coupe et de découpe.
+description: Utilisez le nœud Section transversale pour créer des masques de section transversale basés sur des maps height d’effets de coupe et de découpe.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Cross Section
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Section transversale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône de nœud ![&#39;Cross section&#39;](../../../../../../assets/cross-section-2.png "&#39;Cross section&#39; icon"){width="200px"}
+Icône de nœud ![&#39;Cross section&#39;](cross-section.resources/cross-section-01.png "&#39;Cross section&#39; icon"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,81 +33,46 @@ Icône de nœud ![&#39;Cross section&#39;](../../../../../../assets/cross-sectio
 
 ## Description
 
-Trace le profil en coupe d&#39;une entrée. Peut être ajusté à la verticale ou à l’horizontale, et dispose de commandes pour le style de dessin et le décalage et la mise à l’échelle du graphique.
+Trace le profil en coupe d&#39;une entrée. Peut être ajusté à la verticale ou à l’horizontale et dispose de commandes pour le style de dessin, le décalage de graphe et la mise à l’échelle.
 
 </td>
 </tr>
 </table>
 
-Ce nœud est particulièrement utile pour le débogage et l&#39;analyse des images de hauteur. vous offrant une vue de profil parfaite en pixels, sans avoir besoin de nœuds complexes ou d’une configuration longue et moins précise dans la vue 3D.
+Ce nœud est particulièrement utile pour le débogage et l&#39;analyse des images de hauteur. vous offrant une vue de profil au pixel près, sans avoir besoin de nœuds complexes ou d’une configuration longue et moins précise dans la vue 3D.
 
 Il peut également être utilisé pour créer des formes et des silhouettes 2D difficiles à réaliser autrement. Combiné avec un [nœud de courbe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)il peut visualiser directement le profil de courbe appliqué à un dégradé linéaire.
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-<b>Coordonnée de la section transversale</b> *Flotter*\
-Définissez la coordonnée d’échantillonnage de la tranche. Il peut s&#39;agir de coordonnées X ou Y en fonction de l&#39;axe de section.
-
-<b>Axe de section</b> *Nombre entier*\
-Définissez si la tranche est verticale ou horizontale.
-
-<b>Afficher l&#39;assistant</b> *Booléen*\
-Active une incrustation affichant la position de la section sur l’image d’entrée.
-
-Paramètres d’assistant
-
-<b>Échelle de l&#39;assistant</b> *Flotter*\
-Taille de l’incrustation exprimée sous la forme d’un multiple, où 1,0 représente l’image entière.
-
-<b> position de l&#39;assistant</b> *Float2*\
-Position (X, Y) de l’incrustation dans l’image de sortie, où (0,0, 0,0) est en haut à gauche et (1,0, 1,0) est en bas à droite.
-
-<b>Échelle d&#39;Height</b> *Flotter*
-
-Réduit l’échelle du graphique entier. Utile pour l’affichage HDR.
-
-<b>Décalage de l&#39;Height</b> *Flotter*\
-Déplace le graphique entier vers le haut ou vers le bas. Utile pour l’affichage HDR.
-
-<b>Style de dessin</b> *Nombre entier*\
-Basculer entre le remplissage uni et le dessin au trait.
-
-<b>Inverser le dégradé</b> *Booléen* Si le style de dessin est défini sur *Dégradé* ou *Dégradé en miroir*, vous permet d&#39;inverser ce dégradé sans affecter l&#39;arrière-plan.\
-*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Gradient&#39; ou &#39;Gradient mirrored&#39;.
-
-<b>Lisse/Polygonale</b> *Booléen*\
-Bascule la forme entre un profil lisse parfait ou un polygone irrégulier.\
-*Remarque :* disponible uniquement lorsque « Style de dessin » est défini sur « Solide », « Dégradé » ou « Dégradé miroir ».
-
-<b>Quantité du segment</b> : *nombre entier*\
-Définit le nombre de segments utilisés pour dessiner dans le style polygonal ou dans le style de ligne.\
-*Remarque :* disponible uniquement lorsque l&#39;option Lisser/Polygonal est définie sur Polygonal ou lorsque l&#39;option Style de dessin est définie sur Ligne.
-
-<b>thickness de ligne</b> *Flotter*\
-Définit le thickness de la ligne.\
-*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line.
-
-<b>Style de ligne</b> *Nombre entier*\
-Permet de choisir la coloration et l’atténuation de la ligne.\
-*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line.
-
-<b>smoothness de ligne</b> *Flotter*\
-Définit le retrait de dégradé de la ligne.\
-*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line.
-
-<b>Couleur</b> *Flotter*\
-Couleur en niveaux de gris de la ligne ou de la forme.\
-*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Solid&#39; ou que &#39;Line&#39; et &#39;Line style&#39; sont définis sur &#39;Smooth&#39; ou &#39;Solid&#39;.
-
-<b>Couleur d&#39;arrière-plan</b> *Couleur flottante* en niveaux de gris de l’arrière-plan.\
-*Remarque :* non disponible lorsque &#39;Style de dessin&#39; est défini sur &#39;Line&#39; et &#39;Line style&#39; sur &#39;Segment ID&#39; ou &#39;Gradient along line&#39;.
+|  |  |
+|:---|:---|
+| <b>Coordonnée de la section transversale</b> *Flotter* | Définissez la coordonnée d’échantillonnage de la tranche. Il peut s’agir de coordonnées X ou Y en fonction de l’Axe de la section. |
+| <b>axe de section</b> *Nombre entier* | Définissez si la tranche est verticale ou horizontale. |
+| <b>Afficher l&#39;assistant</b> *Booléen* | Active une incrustation affichant la position de la section sur l&#39;image d&#39;entrée. |
+| <b>Paramètres d&#39;Assistant</b> |  |
+| <b>Échelle d&#39;Assistant</b> *Flotter* | Taille de l’incrustation exprimée sous la forme d’un multiple, où 1,0 représente l’image entière. |
+| <b>Position Assistant</b> *Float2* | Position (X, Y) de l’incrustation dans l’image de sortie, où (0,0, 0,0) est en haut à gauche et (1,0, 1,0) est en bas à droite. |
+| <b>Échelle d&#39;Height</b> *Flotter* | Réduit l’échelle du graphique entier. Utile pour l’affichage HDR. |
+| <b>Décalage de l&#39;Height</b> *Flotter* | Déplace le graphique entier vers le haut ou vers le bas. Utile pour l’affichage HDR. |
+| <b>Style de dessin</b> *Nombre entier* | Basculer entre le remplissage uni et le dessin au trait. |
+| <b>Inverser le dégradé</b> *Booléen* | Si le style de dessin est défini sur *Dégradé* ou *Dégradé miroir*, vous permet d&#39;inverser ce dégradé sans affecter l&#39;arrière-plan.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Gradient&#39; ou &#39;Gradient mirrored&#39;. |
+| <b>Lisse/Polygonale</b> *Booléen* | Bascule la forme entre un profil lisse parfait ou un polygone irrégulier.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Solid&#39;, &#39;Gradient&#39; ou &#39;Gradient mirrored&#39;. |
+| <b>Quantité de segment</b> *Nombre entier* | Définit le nombre de segments utilisés pour dessiner dans le style polygonal ou le style de ligne.<br><br>*Remarque :* disponible uniquement lorsque le paramètre Lisser/Polygonal est défini sur Polygonal ou lorsque le paramètre Style de dessin est défini sur Ligne. |
+| <b>thickness de ligne</b> *Flotter* | Définit le thickness de la ligne.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line. |
+| <b>Style de ligne</b> *Nombre entier* | Permet de choisir la coloration et l&#39;atténuation de la ligne.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line. |
+| <b>smoothness de ligne</b> *Flotter* | Définit le retrait de dégradé de la ligne.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Line. |
+| <b>Couleur</b> *Flotter* | Couleur en niveaux de gris de la ligne ou de la forme.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Solid&#39; ou que &#39;Line&#39; et &#39;Line style&#39; sont définis sur &#39;Smooth&#39; ou &#39;Solid&#39;. |
+| <b>Couleur d&#39;arrière-plan</b> *Flotter* | Couleur en niveaux de gris de l&#39;arrière-plan.<br><br>*Remarque :* non disponible lorsque &#39;Drawing style&#39; est défini sur &#39;Line&#39; et &#39;Line style&#39; est défini sur &#39;Segment ID&#39; ou &#39;Gradient along line&#39;. |
 
 ## Exemples
 
-![Section transversale : exemple 1](../../../../../../assets/cross-section-example-01.gif "Section transversale : exemple 1")
+![Section transversale : exemple 1](cross-section.resources/cross-section-02.gif "Section transversale : exemple 1")
 
-![Section transversale : exemple 2](../../../../../../assets/cross-section-example-02.gif "Section transversale : exemple 2")
+![Section transversale : exemple 2](cross-section.resources/cross-section-03.gif "Section transversale : exemple 2")
 
-![Section transversale : exemple 3](../../../../../../assets/cross-section-example-03.png "Section transversale : exemple 3")
+![Section transversale : exemple 3](cross-section.resources/cross-section-04.png "Section transversale : exemple 3")
 
-![Section transversale : exemple 4](../../../../../../assets/cross-section-example-04.png "Section transversale : exemple 4")
+![Section transversale : exemple 4](cross-section.resources/cross-section-05.png "Section transversale : exemple 4")

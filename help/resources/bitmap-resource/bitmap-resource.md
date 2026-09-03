@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressource bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Contrairement aux ressources SVG (images vectorielles), les bitmaps sont toujour
 
 ### Dans les ressources Substance 3D (SBSAR)
 
-Dans les [fichiers SBSAR](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), les bitmaps sont incorporés, ce qui signifie qu&#39;ils ont un impact important sur la taille finale des fichiers SBSAR. Pour en savoir plus sur l’impact sur la taille des fichiers, consultez cette page. Lorsque des fichiers SBSAR [sont publiés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), seules les images bitmap utilisées pour calculer la sortie d&#39;un graphique sont incorporées. Toutes les images bitmap inutilisées sont optimisées et exclues du package SBSAR final, sans effet sur la taille du fichier.
+Dans les [fichiers SBSAR](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), les bitmaps sont incorporés, ce qui signifie qu&#39;ils ont un impact important sur la taille finale des fichiers SBSAR. Pour en savoir plus sur l’impact sur la taille des fichiers, consultez cette page. Lors de la publication de fichiers SBSAR, seules les images bitmap utilisées pour calculer la sortie d’un graphique sont incorporées. Toutes les images bitmap inutilisées sont optimisées et exclues du package SBSAR final, sans effet sur la taille du fichier.
 
 ## Type de fichier, mode colorimétrique et résolution
 
@@ -71,4 +71,4 @@ Les ressources bitmap d’un package possèdent un certain nombre d’attributs 
 
 ## Réduction de la taille des fichiers
 
-Consultez la page [Directives de réduction de la taille des fichiers](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) dans la section [Pratiques recommandées](../../best-practices/best-practices.md) pour nos recommandations concernant la réduction de la taille des fichiers des bitmaps incorporés dans [ressources Substance 3D publiées](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Consultez la page [Directives de réduction de la taille des fichiers](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) dans la section [Pratiques recommandées](../../best-practices/best-practices.md) pour nos recommandations concernant la réduction de la taille des fichiers des bitmaps incorporés dans [ressources Substance 3D publiées (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).

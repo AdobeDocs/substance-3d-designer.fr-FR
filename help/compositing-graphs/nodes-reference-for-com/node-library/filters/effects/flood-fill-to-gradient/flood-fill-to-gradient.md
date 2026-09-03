@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill au dégradé
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -22,49 +22,56 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/flood-fill-to-gradient-01.png){width="128px"}
 
-## Flood Fill au dégradé
-
-**Entrée :** *Filtres/Effets*
-
-**Simple**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Transforme une base [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) en dégradés (orientés de manière aléatoire). Très utile pour créer une carte de hauteur où les carreaux sont inclinés et inclinés de manière aléatoire.
 
-## Paramètres
-
-### Entrées
-
-* **Flood Fill** : *entrée de couleur* données du Flood Fill de base.
-* **Entrée Angle** : *Entrée Niveaux De Gris*\
-  Carte facultative pour déterminer l’angle par cellule avec une carte externe.
-* **Entrée de Pente** : *Entrée en niveaux de gris* Mappage facultatif pour déterminer l’intensité de la pente du dégradé par cellule.
-
-### *Paramètres*
-
-* **Angle** :*0.0 - 1.0* Définit un angle/une direction uniforme et global pour toutes les mosaïques.
-* **Variation d’angle** : *0.0 - 1.0* aléatoire l’angle de chaque carreau individuellement. C&#39;est le paramètre le plus utile et le plus puissant !
-* **Multiplier par la taille du cadre de sélection** :*0.0 - 1.0* met à l’échelle l’ensemble de l’effet linéaire en fonction de la taille du cadre de sélection individuel de la vignette. Cela signifie que les carreaux plus petits finiront par être plus sombres que les plus grands.
-* **Multiplicateur d&#39;entrée d&#39;image d&#39;angle** : *0.0 - 1.0* Définir l&#39;influence de la carte d&#39;entrée d&#39;angle facultative sur les directions de dégradé générées
-* **Multiplicateur d&#39;entrée d&#39;image de Pente** : *0.0 - 1.0*\
-  Définir l&#39;influence de la carte d&#39;entrée de Pente facultative sur l&#39;intensité de la pente de dégradé générée.
-* **Multiplier par l&#39;intensité de la Pente** : *0,0 - 1,0*
-* **Couleur de Pente plate** : *(Valeur de niveaux de gris)*Permet de définir une valeur solide pour les pentes plates.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodgradient-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodgradient-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>Entrée couleur</i> | Données du Flood Fill de base. |
+| <b>Entrée d&#39;angle</b> <i>Entrée en niveaux de gris</i> | Carte facultative pour déterminer l’angle par cellule avec une carte externe. |
+| <b>Entrée Pente</b> <i>Entrée en niveaux de gris</i> | Mappage facultatif pour déterminer la pente-force du dégradé par cellule. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Angle</b> <i>0.0 - 1.0</i> | Définit un angle/une direction uniforme et global pour toutes les mosaïques. |
+| <b>Variation d&#39;angle</b> <i>0.0 - 1.0</i> | Rend aléatoire l’angle de chaque carreau individuellement. C&#39;est le paramètre le plus utile et le plus puissant ! |
+| <b>Multiplier par la taille du cadre de sélection</b> <i>0.0 - 1.0</i> | Met à l’échelle l’ensemble de l’effet linéaire en fonction de la taille de chaque cadre de sélection. Cela signifie que les carreaux plus petits finiront par être plus sombres que les plus grands. |
+| <b>Multiplicateur d&#39;entrée d&#39;image d&#39;angle</b> <i>0.0 - 1.0</i> | Définir l&#39;influence de la Map d&#39;entrée angulaire facultative sur les directions de dégradé générées |
+| <b>Multiplicateur d&#39;entrée d&#39;image de Pente</b> <i>0.0 - 1.0</i> | Définir l&#39;influence de la carte d&#39;entrée de Pente facultative sur l&#39;intensité de la pente de dégradé générée. |
+| <b>Multiplier par l&#39;intensité de la Pente</b> <i>0.0 - 1.0</i> |  |
+| <b>Couleur de Pente plate</b> <i>(valeur Niveaux de gris)</i> | Permet de définir la valeur solide pour les pentes plates. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-03.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bruit bleu rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise-fast-01.png){width="128px"}
 
-## Bruit bleu rapide
-
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Simple**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Un bruit simple, rapide, à l’échelle des pixels.
 
-## Paramètres
-
-* **Rotation** : *0.0 - 1.0* Les rotations affectent les calculs internes. Cela peut modifier considérablement l’aspect visuel du bruit : plus on s’éloigne de 1, moins l’effet est mis à l’échelle en pixels et plus les « ondes » sont visibles.
-
-## Exemples d’images
-
-![](../../../../../../assets/blue-noise-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Les rotations affectent les calculs internes. Cela peut modifier considérablement l’aspect visuel du bruit : plus on s’éloigne de 1, moins l’effet est mis à l’échelle en pixels et plus les « ondes » sont visibles. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="blue-noise-fast.resources/blue-noise-fast-02.gif" />
+        </td>
+    </tr>
 </table>

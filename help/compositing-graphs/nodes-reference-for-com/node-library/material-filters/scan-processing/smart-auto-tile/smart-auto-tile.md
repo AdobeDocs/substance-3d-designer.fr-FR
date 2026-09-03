@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaïque automatique dynamique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/smart-auto-tile.png){width="128px"}
+![](smart-auto-tile.resources/smart-auto-tile-01.png){width="128px"}
 
-## Mosaïque automatique dynamique
-
-**Entrée :** *Filtres de matière/Traitement de la numérisation*
-
-**Complexe**
+<b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,44 +37,40 @@ Ce nœud transforme un ensemble sans mosaïque de couleurs de base, de normales 
 
 Pour utiliser ce nœud, commencez par définir votre zone recadrée, puis utilisez les paramètres Contour pour déterminer la manière dont les contours carrelés sont fusionnés au centre. Les paramètres Seuil sont d&#39;une importance capitale pour cela ! Gardez à l’esprit que les zones grandes et uniformes ne fonctionnent pas très bien avec cet effet ; plus il y a de détails et de formes, plus cela doit fonctionner.
 
-## Paramètres
-
-### Entrées
-
-* **Masque** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Utiliser le masque ».
-
-### Paramètres
-
-* **Recadrer**
-  * **Taille d&#39;entrée** : *0 - 8192* résolution et proportions des images d&#39;entrée. Très important pour les images non carrées.
-  * **Transformation** : *(Matrice De Transformation)*\
-    Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail.
-  * **Décalage** : *0,0 - 1,0*\
-    Déplace ou traduit le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail.
-* **Edge**
-  * **Détecter les contours** :*Faux/Vrai* active ou désactive la fusion spéciale détectée de contour.
-  * **Utiliser le seuil par canal** : *Faux/Vrai* bascule entre une valeur de seuil globale ou un pour chaque canal.
-  * **Seuil** : *0.0 - 1.0*
-  * **Couleur de base du seuil** : *0.0 - 1.0*
-  * **Seuil Normal** : *0.0 - 1.0*
-  * **Height du seuil** : *0.0 - 1.0*
-  * **Décalage de coupe** : *0,0 - 0,5* Contrôle principal pour déplacer la coupe, les axes X et Y sont séparés.
-  * **Flou** :*0.0 - 2.0* Floute la transition de fusion.
-  * **Smoothness** : *0.0 - 2.0* contrôle le décalage des résultats de l&#39;analyse des contours.
-  * **Résolution de la grille** : *1 - 11* Résolution de qualité de l’analyse des contours.
-  * **Utiliser la couleur de base** : *Faux/Vrai* Active/désactive le traitement de la couleur de base (entrée et sortie).
-  * **Utiliser la normale** : *Faux/Vrai* Active/désactive le traitement normal (entrée et sortie).
-  * **Utiliser l&#39;Height** : *Faux/Vrai* Active/désactive le traitement normal (entrée et sortie).
-  * **Utiliser le masque** : *Faux/Vrai*\
-    Active ou désactive l’utilisation de la carte de masque pour les formes de masque de tampon personnalisées.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Utiliser le masque ». |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Recadrer</b> |  |
+| <b>Taille d&#39;entrée</b> <i>0 - 8192</i> | Résolution et proportions des Images d&#39;entrée. Très important pour les images non carrées. |
+| <b>Transformation</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Edge</b> |  |
+| <b>Détecter les contours</b> <i>Faux/Vrai</i> | Active ou désactive la fusion détectée par arête spéciale. |
+| <b>Utiliser Le Seuil Par Canal</b> <i>Faux/Vrai</i> | Bascule entre une valeur de seuil globale ou une valeur pour chaque canal. |
+| <b>Seuil</b> <i>0.0 - 1.0</i> |  |
+| <b>Base color de seuil</b> <i>0.0 - 1.0</i> |  |
+| <b>Seuil normal</b> <i>0.0 - 1.0</i> |  |
+| <b>Height du seuil</b> <i>0.0 - 1.0</i> |  |
+| <b>Décalage de coupe</b> <i>0.0 - 0.5</i> | Contrôle principal pour déplacer la coupe, les axes X et Y sont séparés. |
+| <b>Flou</b> <i>0.0 - 2.0</i> | Atténue la transition de fusion. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Contrôle l&#39;irrégularité des résultats de l&#39;analyse des contours. |
+| <b>Résolution de Grille</b> <i>1 - 11</i> | Résolution de la qualité de l&#39;analyse des contours. |
+| <b>Utiliser la Base color</b> <i>Faux/Vrai</i> | Active/désactive le traitement de Base color (entrée et sortie). |
+| <b>Utiliser la normale</b> <i>Faux/Vrai</i> | Active/désactive le traitement normal (entrée et sortie). |
+| <b>Utiliser l&#39;Height</b> <i>Faux/Vrai</i> | Active/désactive le traitement normal (entrée et sortie). |
+| <b>Utiliser le masque</b> <i>Faux/Vrai</i> | Active ou désactive l’utilisation de la carte de masque pour les formes de masque de tampon personnalisées. |

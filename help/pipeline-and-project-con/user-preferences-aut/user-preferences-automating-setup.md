@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Préférences utilisateur - Automatisation de la configuration
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Vous pouvez également ignorer complètement la modification des préférences u
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône ![Fichier XML](../../assets/xml-5.png "Icône de fichier XML")
+Icône ![Fichier XML](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "Icône de fichier XML")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Il existe deux façons différentes de configurer Designer pour utiliser un autr
 
 S&#39;il n&#39;y a pas d&#39;installation automatisée, ou à des fins de test, vous pouvez accéder manuellement à <b>Modifier > Préférences...</b>, puis cliquer sur la section « <b>Projets</b> » sur la gauche.
 
-![Paramètres du projet](../../assets/preferences-ui.png "Paramètres du projet")
+![Paramètres du projet](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "Paramètres du projet")
 
 Le bouton marqué en rouge permet à l&#39;utilisateur de choisir un autre[fichier SBSCFG](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
@@ -210,4 +210,4 @@ Bien qu&#39;il ne soit pas recommandé d&#39;utiliser une méthode manuelle dans
 
    *« C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe » —config-file « C:\Dev\Substance\custom\_configuration.sbscfg«*
 
-![Entrée du fichier de configuration dans les propriétés du fichier exécutable](../../assets/shortcutargument.jpg "Entrée du fichier de configuration dans les propriétés du fichier exécutable")
+![Entrée du fichier de configuration dans les propriétés du fichier exécutable](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "Entrée du fichier de configuration dans les propriétés du fichier exécutable")

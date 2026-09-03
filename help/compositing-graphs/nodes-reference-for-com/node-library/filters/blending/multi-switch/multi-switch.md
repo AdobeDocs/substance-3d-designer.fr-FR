@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Commutation multiple pour basculer entre plusieurs textures d’entrée en fonction d’un sélecteur pour la sélection de texture conditionnelle.
+description: Utilisez le nœud Commutateur multiple pour basculer entre plusieurs textures d'entrée en fonction d'un sélecteur pour la sélection conditionnelle de texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Commutateur multiple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,42 +22,42 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-01.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch-02.png){width="128px"}
 
-## Commutateur multiple (niveaux de gris)
-
-**Entrée :** *Filtres/Fusion*
-
-**Simple**
+<b>Entrée :</b> Filtres > Fusion
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Agit comme une boîte de commutation, ne passant que par l&#39;entrée définie par le paramètre &#39;Sélection d&#39;entrée&#39;. Ainsi, si deux entrées sont connectées, une seule d&#39;entre elles sera retournée (non modifiée), selon le choix de l&#39;utilisateur.
 
-Très utile pour ajouter de nombreuses options différentes dans un graphique. Combinée à l&#39;[exposition](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) (de préférence sous forme de liste déroulante), une grande personnalisation est possible.
+Très utile pour ajouter de nombreuses options différentes dans un graphe. Associé à [exposer](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) (de préférence sous forme de liste déroulante), un grand nombre de personnalisations est possible.
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Multi-commutateur » pour les entrées Couleur, « Multi-commutateur Niveaux de gris » pour les entrées Niveaux de gris.
-
-## Paramètres
-
-### Entrées
-
-* **Entrée 1-20** : *Entrée Couleur*
-
-### Paramètres
-
-* **Nombre d&#39;entrées** : *2 - 20* Quantité d&#39;entrées à exposer. Important : ne supprime pas les connexions lorsque le nombre est réduit !
-* **Sélection d&#39;entrée** : *1 - 20* Quelle entrée retourner comme résultat.
-
-## Exemples d’images
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Entrée 1-20</b> <i>Entrée couleur</i> |  |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Numéro d&#39;entrée</b> <i>2 - 20</i> | Quantité d’entrées à exposer. Important : ne supprime pas les connexions lorsque le nombre est réduit ! |
+| <b>Sélection d&#39;entrée</b> <i>1 - 20</i> | Entrée à renvoyer comme résultat. |

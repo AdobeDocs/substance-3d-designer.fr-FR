@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flou radial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 2%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur-01.png)![](radial-blur.resources/radial-blur-02.png)
 
-## Flou radial (niveaux de gris)
-
-**Entrée :** *Filtres/Flous*
-
-**Simple**
+<b>Entrée :</b> Filtres > Flous
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un flou de type mouvement rotatif sur une entrée.
 
-## Paramètres
-
-* **Échantillons** : *1 - 128* Définissez la qualité de l&#39;effet de flou.
-* **Angle** : *0,0 - 0,5* Définissez la quantité de « rotation » de l&#39;effet.
-* **Position centrale** :\
-  Définissez le point central de l’effet.
-
-## Exemples d’images
-
-![](../../../../../../assets/radial-blur-ex01.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Exemples</b> <i>1 - 128</i> | Définissez la qualité de l’effet de flou. |
+| <b>Angle</b> <i>0.0 - 0.5</i> | Définissez la quantité de « rotation » de l’effet. |
+| <b>Position centrale</b> | Définissez le point central de l’effet. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="radial-blur.resources/radial-blur-03.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Éclairage Annuler Basses Fréquences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 3%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-01.png){width="128px"}
 
-## Éclairage Annuler Basses Fréquences
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,16 +37,24 @@ Identique à la passe-haut, mais sans désaturer le résultat final.
 
 Voir également [Passe-haut de luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) pour une version plus avancée.
 
-## Paramètres
-
-* **Rayon d&#39;annulation** : *0,0 - 64,0* Rayon de l&#39;effet passe-haut.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Rayon d&#39;annulation</b> <i>0.0 - 64.0</i> | Rayon de l’effet passe-haut. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-02.png" />
+        </td>
+    </tr>
 </table>

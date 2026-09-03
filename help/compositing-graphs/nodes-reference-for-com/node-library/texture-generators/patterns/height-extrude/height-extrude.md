@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Height Extrude
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-extrude.png){width="200px"}
+![](height-extrude.resources/height-extrude-01.png){width="200px"}
 
-## Height Extrude
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,25 +37,20 @@ Height Extrude restitue la Profondeur Z 3D à partir d’une carte d’Height d�
 
 La principale différence avec l&#39;[extrusion de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) est que la carte d&#39;entrée ne doit pas nécessairement être une carte de type « alpha » binaire, mais une carte en niveaux de gris à plage complète. Cela signifie que vous avez plus de contrôle sur l’height d’extrusion (formes organiques complexes), mais aucun contrôle sur les profils de biseautage (surfaces dures, formes plus simples).
 
-## Paramètres
-
-* **Angle de la caméra** :\
-  Angles d’Euler de la caméra, en demi-tours. Veuillez noter que la rotation horizontale et l&#39;échelle sont appliquées directement à l&#39;entrée.
-* **Échelle de la caméra** : *0.001 - 3.0*\
-  Échelle globale appliquée à la sortie.
-* **Échelle D&#39;Height** : *0.0 - 2.0*\
-  Applique un facteur global aux valeurs d&#39;height d&#39;entrée.
-* **Décalage vertical** : *-1.0 - 1.0*\
-  Déplace la sortie finale vers le haut ou vers le bas.
-* **Au Sol** : *Désactivé/Activé*\
-  Si l’option Masse est désactivée, un arrière-plan noir s’affiche, dans lequel l’entrée est définie sur 0 plutôt qu’un plan semblable à la masse.
-* **Format normal** : *DirectX/OpenGL*\
-  Le paramètre **Format normal** inverse la coordonnée y de la carte normale.
-* **Intensité normale** : *0,0 - 256,0*\
-  Identique au paramètre **Intensité** du nœud **Normal**. Réglez-le sur 256 pour obtenir une normale sans cisaillement lors de la rotation.
-
-## Exemples d’images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Angle De Caméra</b> | Angles d’Euler de la caméra, en demi-tours. Veuillez noter que la rotation horizontale et l&#39;échelle sont appliquées directement à l&#39;entrée. |
+| <b>Échelle De Caméra</b> <i>0.001 - 3.0</i> | Échelle globale appliquée à la sortie. |
+| <b>Échelle d&#39;Height</b> <i>0.0 - 2.0</i> | Applique un facteur global aux valeurs d&#39;height d&#39;entrée. |
+| <b>Décalage vertical</b> <i>-1.0 - 1.0</i> | Déplace la sortie finale vers le haut ou vers le bas. |
+| <b>Sol</b> <i>Désactivé/Activé</i> | Si l’option Masse est désactivée, un arrière-plan noir s’affiche, dans lequel l’entrée est définie sur 0 plutôt qu’un plan semblable à la masse. |
+| <b>Format normal</b> <i>DirectX/OpenGL</i> | Le paramètre <b>Format normal</b> inverse la coordonnée y de la carte normale. |
+| <b>Intensité normale</b> <i>0.0 - 256.0</i> | Identique au paramètre <b>Intensité</b> du nœud <b>Normal</b>. Réglez-le sur 256 pour obtenir une normale sans cisaillement lors de la rotation. |

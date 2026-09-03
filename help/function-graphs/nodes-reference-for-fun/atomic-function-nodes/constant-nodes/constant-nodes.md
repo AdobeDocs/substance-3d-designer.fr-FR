@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type d&#39;entier](../../../../assets/fn-constant-integer.png "Icône Type d&#39;entier")
+Icône ![Type d&#39;entier](constant-nodes.resources/constant-nodes-01.png "Icône Type d&#39;entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier2](../../../../assets/fn-constant-integer2.png "Entier2")
+Icône de type ![Entier2](constant-nodes.resources/constant-nodes-02.png "Entier2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2 n&#39;est pas courant, mais est utilisé par exemple pour définir des 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer3](../../../../assets/fn-constant-integer3.png "Icône de type Integer3")
+Icône de type ![Integer3](constant-nodes.resources/constant-nodes-03.png "Icône de type Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ L&#39;entier 3 n&#39;est pas courant et est peu susceptible d&#39;être rencontr
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer4](../../../../assets/fn-constant-integer4.png "Icône de type Integer4")
+Icône de type ![Integer4](constant-nodes.resources/constant-nodes-04.png "Icône de type Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Les valeurs [flottantes peuvent être converties en nombres entiers](../../../..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type flottant](../../../../assets/fn-constant-float.png "Icône de type flottant")
+![Icône de type flottant](constant-nodes.resources/constant-nodes-05.png "Icône de type flottant")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Un objet Float a un seul composant, le (1) est omis du nom par souci de brièvet
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float2](../../../../assets/fn-constant-float2.png "Float2")
+Icône de type ![Float2](constant-nodes.resources/constant-nodes-06.png "Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Un nœud Float2 génère un vecteur flottant statique à 2 composants. Les compo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float3](../../../../assets/fn-constant-float3.png "Float3")
+Icône de type ![Float3](constant-nodes.resources/constant-nodes-07.png "Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Un nœud Float3 génère un vecteur flottant statique à 3 composants. Les compo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float4](../../../../assets/fn-constant-float4.png "Float4")
+Icône de type ![Float4](constant-nodes.resources/constant-nodes-08.png "Float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Deux types de données supplémentaires existent dans les graphiques de fonction
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type booléen](../../../../assets/fn-constant-boolean.png "Icône de type booléen")
+![Icône de type booléen](constant-nodes.resources/constant-nodes-09.png "Icône de type booléen")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Un booléen est le type de données le plus simple qui soit, ne connaissant que 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type de chaîne](../../../../assets/fn-constant-string.png "Icône de type de chaîne")
+![Icône de type de chaîne](constant-nodes.resources/constant-nodes-10.png "Icône de type de chaîne")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

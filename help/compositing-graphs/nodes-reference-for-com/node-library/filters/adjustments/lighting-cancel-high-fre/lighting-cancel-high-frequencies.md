@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Éclairage Annuler Hautes Fréquences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-frequencies.png){width="128px"}
+![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-01.png){width="128px"}
 
-## Éclairage Annuler Hautes Fréquences
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Similaire à [Passe-haut](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md), mais plus adapté aux images couleur (cela ne désature pas autant le résultat), ce nœud tente d&#39;annuler les détails d&#39;éclairage de petite taille et haute fréquence.
 
-Voir également [Éclairage Annuler les basses fréquences](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md) et, plus avancé, [Passe-haut de luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) recommandé.
-
-## Paramètres
-
-* **Intensité** : *0,0 -* 1,0\
-  Intensité de l’effet d’annulation de l’éclairage.
-* **Rayon** : *0,0 - 10,0* Rayon ou taille des détails d’éclairage à annuler.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-highfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
+Voir également [Éclairage Annuler les basses fréquences](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md) et, plus avancé, [Passe-haut de Luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) recommandé.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Intensité</b> <i>0.0 - 1.0</i> | Force de l’effet d’annulation d’éclairage. |
+| <b>Rayon</b> <i>0.0 - 10.0</i> | Rayon ou taille des détails d’éclairage à annuler. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-02.png" />
+        </td>
+    </tr>
 </table>

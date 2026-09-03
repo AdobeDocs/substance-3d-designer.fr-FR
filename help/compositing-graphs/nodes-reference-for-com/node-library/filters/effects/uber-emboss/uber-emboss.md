@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Uber Emboss
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss-01.png){width="128px"}
 
-## Uber Emboss
-
-**Entrée :** *Filtres/Effets*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,35 +37,41 @@ Version avancée et riche en fonctionnalités de [Emboss](../../../../../../comp
 
 Utile lors de la création d’un éclairage intégré pour certains styles de texture lorsqu’un contrôle important est nécessaire.
 
-## Paramètres
-
-### Entrées
-
-* **Couleur** : *Entrée Couleur*\
-  Image de base à modifier.
-* **Height** : *Entrée en niveaux de gris*\
-  Image de la hauteur utilisée comme pilote pour l’effet.
-
-### Paramètres
-
-* **Couleur ambiante** : *(valeur chromatique)*Couleur utilisée dans les zones ombrées.
-* **Couleur diffuse** : *(Valeur de couleur)*Couleur utilisée dans les zones éclairées.
-* **Couleur Specular** : *(Valeur de couleur)*Couleur utilisée pour les reflets specular
-* **Intensité de la lumière** : *0,0 - 1,0*\
-  Intensité de la lumière (simulée).
-* **Angle De La Lumière** : *0,0 - 1,0*\
-  Angle d’incidence de la lumière (simulée)
-* **Intensité du Specular** : *0,0 - 1,0* Intensité des reflets du specular.
-* **Brillance du Specular** : *0,0 - 1,0* taille de la mise en évidence du specular.
-* **Rugosité diffuse** :*0.0 - 1.0* Rugosité utilisée dans le calcul de l’éclairage diffus.
-* **Opacité des ombres** : *0.0 - 1.0* Opacité de fusion des zones ombrées.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/uberemboss-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Couleur</b> <i>Entrée couleur</i> | Image de base à modifier. |
+| <b>Height</b> <i>Entrée en niveaux de gris</i> | Image de la hauteur utilisée comme pilote pour l’effet. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Couleur ambiante</b> <i>(valeur de couleur)</i> | Couleur utilisée dans les zones ombrées. |
+| <b>Couleur Diffuse</b> <i>(valeur de couleur)</i> | Couleur utilisée dans les zones éclairées. |
+| <b>Couleur Specular</b> <i>(valeur de couleur)</i> | Couleur utilisée pour les reflets specular |
+| <b>Intensité de la lumière</b> <i>0.0 - 1.0</i> | Intensité de la lumière (simulée). |
+| <b>Angle de la lumière</b> <i>0.0 - 1.0</i> | Angle d’incidence de la lumière (simulée) |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité des reflets du specular. |
+| <b>Brillance Specular</b> <i>0.0 - 1.0</i> | Taille du ton clair du specular. |
+| <b>Rugosité</b> <i>0.0 - 1.0</i> | Rugosité utilisée pour calculer l’éclairage diffus. |
+| <b>Opacité des ombres</b> <i>0.0 - 1.0</i> | Opacité de fusion des zones ombrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="uber-emboss.resources/uber-emboss-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problèmes avec l’interface utilisateur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -28,14 +28,14 @@ Cette page répertorie les problèmes techniques liés à l&#39;[interface utili
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Problème **![(出错)](../../assets/error.svg)**
+Problème **![(出错)](user-interface-issues.resources/error.svg)**
 
 Les éléments de l’interface utilisateur sont trop petits ou trop grands.
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg) Étapes recommandées**
+**![(滴答)](user-interface-issues.resources/check.svg) Étapes recommandées**
 
 Designer acquiert l&#39;échelle spécifique des éléments d&#39;interface utilisateur *à partir du système d&#39;exploitation*. Par conséquent, tout réglage de la mise à l’échelle de l’interface utilisateur doit être effectué dans les paramètres d’affichage du système d’exploitation.
 

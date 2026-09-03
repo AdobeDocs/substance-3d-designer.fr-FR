@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Publication de fichiers Substance 3D Assets (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 Cette page explique comment Substance 3D Designer peut publier des packs en tant que fichiers de <b>ressources Substance 3D</b>, un format de fichier spécial avec l’extension <b>SBSAR</b>, utilisé dans l’écosystème de Substance de données ainsi que dans d’autres applications qui le prennent en charge.
 
-Il est généralement préférable d’utiliser une ressource Substance 3D plutôt que des bitmaps, car elle est beaucoup plus flexible et légère. Si vous les utilisez dans Substance 3D [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/fr/substance-3d-sampler.html) ou [Player](https://helpx.adobe.com/substance-3d-player/home.html), il est plus rapide d&#39;utiliser la fonctionnalité [&#39;Envoyer à...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+Il est généralement préférable d’utiliser une ressource Substance 3D plutôt que des bitmaps, car elle est beaucoup plus flexible et légère. Si vous les utilisez dans Substance 3D [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home) ou [Player](https://helpx.adobe.com/substance-3d-player/home.html), il est plus rapide d&#39;utiliser la fonctionnalité [&#39;Envoyer à...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
-![Publication de fichiers SBSAR simplifiée](../../assets/exportflow.png "Publication de fichiers SBSAR simplifiée")
+![Publication de fichiers SBSAR simplifiée](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "Publication de fichiers SBSAR simplifiée")
 
 ## Concepts de publication
 
@@ -55,14 +55,14 @@ Une fois que vous êtes prêt à publier, il existe deux façons d&#39;accéder 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Dans l’Explorateur, cliquez avec le bouton droit de la souris sur le package et sélectionnez ![](../../assets/image2020-9-23-9-39-58.png) **Fichier .sbsar Publish...**, autre touche de raccourci Ctrl + P.
+Dans l’Explorateur, cliquez avec le bouton droit de la souris sur le package et sélectionnez ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Fichier .sbsar Publish...**, autre touche de raccourci Ctrl + P.
 
-Après avoir publié une fois avec la boîte de dialogue, vous pouvez également utiliser le fichier ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar comme précédent** pour répéter le processus de publication sans voir les boîtes de dialogue, en publiant immédiatement avec les mêmes paramètres.
+Après avoir publié une fois avec la boîte de dialogue, vous pouvez également utiliser le fichier ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) **Publish .sbsar comme précédent** pour répéter le processus de publication sans voir les boîtes de dialogue, en publiant immédiatement avec les mêmes paramètres.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Après avoir publié une fois avec la boîte de dialogue, vous pouvez également
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Dans l&#39;Explorateur, en cliquant sur le bouton Publish ![](../../assets/image2020-9-23-9-39-58.png) dans la barre d&#39;outils supérieure.
+Dans l&#39;Explorateur, en cliquant sur le bouton Publish ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) dans la barre d&#39;outils supérieure.
 
-Après avoir publié une fois avec la boîte de dialogue, vous pouvez également utiliser le bouton Publish comme précédent ![](../../assets/image2020-9-23-11-15-35.png) pour répéter le processus de publication sans voir les boîtes de dialogue, en publiant immédiatement avec les mêmes paramètres.
+Après avoir publié une fois avec la boîte de dialogue, vous pouvez également utiliser le bouton Publish comme précédent ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) pour répéter le processus de publication sans voir les boîtes de dialogue, en publiant immédiatement avec les mêmes paramètres.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Avant l’affichage des options de Publish des ressources, vous serez invité à
 </td>
 <td style="border: 0;" valign="top">
 
-![Options de publication de ressources](../../assets/publish-dialog.png "Options de publication de ressources")
+![Options de publication de ressources](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "Options de publication de ressources")
 
 </td>
 </tr>
@@ -126,12 +126,12 @@ Certains graphiques de votre pack ne sont pas destinés à une utilisation en de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Pour empêcher un graphique de devenir visible ou utilisable dans un fichier de ressources Substance 3D, accédez aux propriétés de ce graphique (double-cliquez sur la zone vide dans la vue du graphique ou cliquez une fois sur le graphique dans l&#39;Explorateur), puis ouvrez le panneau déroulant <b>Attributs</b>. Définissez <b>Exposé dans SBSAR</b> sur <b>Non</b> pour le masquer lors de la publication.
+Pour empêcher un graphe de devenir visible ou utilisable dans un fichier de ressources Substance 3D, accédez aux propriétés de ce graphe (double-cliquez sur la zone vide de la vue du graphe ou cliquez une fois sur le graphe dans l&#39;Explorateur), puis ouvrez le panneau déroulant <b>Attributs</b>. Définissez <b>Exposé dans SBSAR</b> sur <b>Non</b> pour le masquer lors de la publication.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
 
 </td>
 </tr>

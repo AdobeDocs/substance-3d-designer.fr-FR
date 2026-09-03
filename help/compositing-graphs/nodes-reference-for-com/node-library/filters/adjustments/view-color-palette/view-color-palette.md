@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Afficher la palette de couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '232'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](../../../../../../assets/ViewColorPalette.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](view-color-palette.resources/view-color-palette-01.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -44,38 +44,22 @@ L’ordre des couleurs dans la palette est conservé, avec des couleurs qui s’
 
 Ce nœud peut être utilisé pour visualiser les palettes produites par les nœuds suivants : [Quantifier la couleur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Créer une palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>Palette</b> *Couleur* PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Il s’agit de la palette que le nœud compresse et restitue. |
-| <b>Quantité de couleur de la palette</b> *Nombre entier* | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
+|:---|:---|
+| <b>Palette</b> <i>Couleur</i> PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Il s’agit de la palette que le nœud compresse et restitue. |
+| <b>Quantité de couleur de la palette</b> <i>Entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Couleur* | Visualisation de la palette compactée. |
+|:---|:---|
+| <b>Sortie</b> <i>Couleur</i> | Visualisation de la palette compactée. |
 
 ## Exemples
 
@@ -83,12 +67,12 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 1](../../../../../../assets/view_color_palette_example_1.png "Afficher la palette de couleurs : Exemple 1"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 1](view-color-palette.resources/view-color-palette-02.png "Afficher la palette de couleurs : Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 2](../../../../../../assets/view_color_palette_example_2.png "Afficher la palette de couleurs : Exemple 2"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 2](view-color-palette.resources/view-color-palette-03.png "Afficher la palette de couleurs : Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -98,12 +82,12 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 3](../../../../../../assets/view_color_palette_example_3.png "Afficher la palette de couleurs : Exemple 3"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 3](view-color-palette.resources/view-color-palette-04.png "Afficher la palette de couleurs : Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 4](../../../../../../assets/view_color_palette_example_4.png "Afficher la palette de couleurs : Exemple 4"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 4](view-color-palette.resources/view-color-palette-05.png "Afficher la palette de couleurs : Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

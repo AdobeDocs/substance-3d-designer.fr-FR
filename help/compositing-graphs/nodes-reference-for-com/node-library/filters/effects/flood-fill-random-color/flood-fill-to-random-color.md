@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Flood Fill à Couleur aléatoire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '53'
 ht-degree: 3%
 
 ---
@@ -22,33 +22,32 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-random-color.png){width="128px"}
+![](flood-fill-to-random-color.resources/flood-fill-to-random-color-01.png){width="128px"}
 
-## Flood Fill à Couleur aléatoire
-
-**Entrée :** *Filtres/Effets*
-
-**Simple**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère des vignettes avec des couleurs de RGB aléatoires à partir d&#39;une base [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Utile pour ajouter des variantes de couleur aux carreaux.
 
-## Paramètres
-
-*Aucun paramètre.*
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodrandomcolor-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodrandomcolor-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-03.png" />
+        </td>
+    </tr>
 </table>

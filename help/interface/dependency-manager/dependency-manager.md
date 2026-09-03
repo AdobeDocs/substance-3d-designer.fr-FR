@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestionnaire de dépendances
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ Le <b>Gestionnaire de dépendances</b> vous permet de voir toutes les dépendanc
 
 Vous pouvez y accéder en cliquant avec le bouton droit de la souris sur un pack dans l’Explorateur et en choisissant l’option « Gestionnaire de dépendances » dans le menu contextuel.
 
-![Gestionnaire de dépendances](../../assets/dependency-manager.png "Gestionnaire de dépendances")
+![Gestionnaire de dépendances](dependency-manager.resources/dependency-manager-01.png "Gestionnaire de dépendances")

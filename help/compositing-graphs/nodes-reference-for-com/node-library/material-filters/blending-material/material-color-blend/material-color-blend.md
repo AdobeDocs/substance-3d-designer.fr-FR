@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mélange de couleurs de matière
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend-01.png){width="128px"}
 
-## Mélange de couleurs de matière
-
-**Entrée :** *Filtres de matière/Fusion*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres de matériau > Fusion
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,62 +37,47 @@ Ce nœud permet d’effectuer des réglages sur un matériau multicanal complet 
 
 Ce nœud est particulièrement utile lorsque vous souhaitez soit introduire un conseil de couleur plat dans Couleur diffuse ou Couleur de base, soit « aplatir » d’autres couches à l’aide d’une valeur de couleur unie définie.
 
-## Paramètres
-
-### Entrées
-
-* **ColorID** : *entrée de couleur*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-* **Masque De Niveaux De Gris** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Canaux**
-  * Activez et désactivez les couches de matériau dans ce groupe, lors de l’utilisation de cartes de Specular/brillance au lieu de cartes de métal/rugosité, par exemple.
-* **Diffus**
-  * **Couleur** : *(Valeur de couleur)*Quelle valeur de couleur fusionner au-dessus de la couche diffuse ?
-  * **Opacité** : *0.0 - 1.0*\
-    Opacité de fusion entre le premier plan et l’arrière-plan.
-  * **Mode de fusion** : *Normal, Ajouter, Soustraire, Multiplier, Ajouter/Soustraire, Max, Min, Basculer* le mode de fusion à utiliser dans l&#39;opération.
-* **Couleur de base**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Normal**
-  * **Source** : *Height, masque*
-  * **Mode de fusion** : *Combiner, Fusionner*
-  * **Intensité des Heights** : *0,0 - 1,0*
-  * **Opacité de l&#39;Height** : *0.0 - 1.0*
-  * **Format** : *DirectX, OpenGL*
-* **Specular**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Émissif**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Lustre**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Rugosité**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Métallique**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Specular level**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Occlusion ambiante**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Height**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Opacité**
-  * Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse.
-* **Masque d&#39;identifiant de couleur** :*Faux/Vrai* Utilisez le Masque d&#39;identifiant de couleur à la place du masque en niveaux de gris. Gardez à l’esprit qu’il ne s’agit que d’une seule couleur !\
-  Active toutes les options ci-dessous.
-* **Couleur** : *(Valeur de couleur)*Quelle couleur choisir et convertir en blanc.
-* **Flou** :*0.01 - 1.0* Degré de fusion de la couleur sélectionnée avec ses voisines.
-* **Remplissage** : *0.0 - 1.0* contraste de transition de la couleur sélectionnée.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>ColorID</b> <i>Entrée couleur</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+| <b>Masque de niveaux de gris</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Canaux</b> | Activez et désactivez les couches de matériau dans ce groupe, lors de l’utilisation de cartes de Specular/brillance au lieu de cartes de métal/rugosité, par exemple. |
+| <b>Diffus</b> |  |
+| <b>Couleur</b> <i>(valeur de couleur)</i> | Valeur de couleur à fusionner au-dessus de la couche Diffuse. |
+| <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan. |
+| <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> | Mode de fusion à utiliser dans l’opération. |
+| <b>Couleur de base</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Normal</b> |  |
+| <b>Source</b> <i>Height, Masque</i> |  |
+| <b>Mode de fusion</b> <i>Combiner, Fusion</i> |  |
+| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacité de l&#39;Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Format</b> <i>DirectX, OpenGL</i> |  |
+| <b>Specular</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Émissif</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Lustre</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Rugosité</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Métallique</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Specular level</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Occlusion ambiante</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Height</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Opacité</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Masque d&#39;identifiant de couleur</b> <i>Faux/Vrai</i> | Utilisez le Masque d&#39;identifiant de couleur au lieu du masque en niveaux de gris. Gardez à l&#39;esprit qu&#39;il ne s&#39;agit que d&#39;une seule couleur !<br><br>Active toutes les options ci-dessous. |
+| <b>Couleur</b> <i>(valeur de couleur)</i> | Quelle couleur choisir et convertir en blanc. |
+| <b>Flou</b> <i>0.01 - 1.0</i> | Degré de fusion de la couleur sélectionnée avec ses voisines. |
+| <b>Remplissage</b> <i>0.0 - 1.0</i> | Contraste de transition de la couleur sélectionnée. |

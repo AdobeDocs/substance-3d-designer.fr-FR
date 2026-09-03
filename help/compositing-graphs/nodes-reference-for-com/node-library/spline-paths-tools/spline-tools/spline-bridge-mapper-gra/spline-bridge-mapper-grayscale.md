@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mappeur de pont spline en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Icône de nœud")
+![Icône de nœud](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -49,47 +49,38 @@ Etablit une correspondance entre une image en niveaux de gris et une liste de sp
 >
 > Voir aussi [Couleur du mappeur de pont spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-col/spline-bridge-mapper-color.md).
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points des splines d&#39;entrée codées dans les couches RVBA d&#39;une image couleur :
+## Entrées
 
-<b> R</b> - Position X\
-<b> G</b> - Position Y\
-<b> B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Color Map</b> <i>Niveaux de gris</i> | Image en niveaux de gris d&#39;entrée à mapper sur les splines d&#39;entrée. |
 
-<b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Inutilisé\
-<b> A</b> - Inutilisé
+<a name="outputs"></a>
 
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines d&#39;entrée.
+## Sorties
 
-<b>Color Map </b>*Grayscale* Image en niveaux de gris en entrée qui doit être mappée sur les splines en entrée.
+|  |  |
+|:---|:---|
+| <b>Couleur</b> <i>Niveaux de gris</i> | Résultat du mappage de l’image couleur d’entrée sur les splines, en tant qu’image en niveaux de gris. |
+| <b>Height</b> <i>Niveaux de gris</i> | Height des splines mappées sur les splines, sous forme d&#39;image en niveaux de gris. |
+| <b>UV</b> <i>Couleur</i> | Les UV (c’est-à-dire les coordonnées) de l’image mappée, codés dans les canaux rouge (U) et vert (V) d’une image couleur. |
+| <b>Masquer</b> <i>Niveaux de gris</i> | Masque du placage sur les splines. |
 
-## Connecteurs de sortie
-
-<b>Couleur</b> *Niveaux de gris* Résultat du mappage de l&#39;image couleur d&#39;entrée sur les splines, en tant qu&#39;image en niveaux de gris.
-
-<b>Height</b> *Niveaux de gris* L&#39;height des splines mappées sur les splines, sous forme d&#39;image en niveaux de gris.
-
-<b>UV</b> *Couleur* Les UV (c’est-à-dire les coordonnées) de l’image mappée, codés dans les canaux rouge (U) et vert (V) d’une image couleur.
-
-<b>Masquer</b> *Niveaux de gris* Masque du mappage sur les splines.
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Quantité de segments</b> Les splines *entières* sont simplifiées en segments avant que les coordonnées de l&#39;image ne les traversent.\
-Plus le nombre de segments est élevé, plus le placage le long des courbes est fluide.
-
-<b>Réduction des UV</b> *Booléen* Ajuste la méthode utilisée pour interpoler les coordonnées d&#39;image d&#39;une spline à la suivante afin de minimiser l&#39;étirement lorsque la distance entre les splines est inégale.
-
-<b>Échelle UV</b> *Float2* Ajuste l’échelle des coordonnées de l’image. Plus la valeur est élevée, plus la densité de mosaïque de l’image est élevée.
-
-<b>Rotation UV</b> *Flottant* Fait pivoter les coordonnées de l&#39;image autour de leur centre.
+|  |  |
+|:---|:---|
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Les splines sont simplifiées en segments avant que les coordonnées de l’image ne les traversent. Plus le nombre de segments est élevé, plus le placage le long des courbes est fluide. |
+| <b>Réduction des UV</b> <i>Booléen</i> | Ajuste la méthode utilisée pour interpoler les coordonnées d’image d’une spline à la suivante afin de minimiser le étiré lorsque la distance entre les splines est irrégulière. |
+| <b>Échelle UV</b> <i>Float2</i> | Règle l’échelle des coordonnées de l’image. Plus la valeur est élevée, plus la densité de mosaïque de l’image est élevée. |
+| <b>Rotation UV</b> <i>Flotter</i> | Fait pivoter les coordonnées de l’image autour de leur centre. |
 
 ## Exemples
 
@@ -100,11 +91,11 @@ Plus le nombre de segments est élevé, plus le placage le long des courbes est 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -113,7 +104,7 @@ Plus le nombre de segments est élevé, plus le placage le long des courbes est 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -123,12 +114,12 @@ Plus le nombre de segments est élevé, plus le placage le long des courbes est 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

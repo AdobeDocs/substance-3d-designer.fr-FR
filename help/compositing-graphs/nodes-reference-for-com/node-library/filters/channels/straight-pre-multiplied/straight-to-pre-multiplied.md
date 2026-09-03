@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Direct vers prémultiplié pour convertir les couches alpha du format direct vers le format prémultiplié pour la composition.
+description: Utilisez le nœud Direct vers prémultiplié pour convertir les canaux Alphas du format direct vers le format prémultiplié pour la composition.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Straight to Pre-multiplied
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Directe à prémultipliée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
+![](straight-to-pre-multiplied.resources/straight-to-pre-multiplied-01.png){width="128px"}
 
-## Directe à prémultipliée
-
-**Entrée :** *Filtres/Canaux*
-
-**Simple**
+<b>Entrées :</b> Filtres > Canaux
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Convertit un alpha direct en prémultiplié, en multipliant une couleur en pixels fusionnés alpha.
-
-## Paramètres
-
-*Aucun paramètre.*
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
 
 </td>
 </tr>

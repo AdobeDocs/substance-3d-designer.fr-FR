@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Height en unités universelles normales pour convertir les mappages d'height en mappages normaux à l'aide de la mise à l'échelle des unités universelles pour des détails précis.
+description: Utilisez le nœud Height aux unités universelles normales pour convertir les maps height en maps normal en utilisant la mise à l'échelle des unités universelles pour obtenir des détails précis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height to Normal World Units
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Height aux unités universelles normales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -22,39 +22,32 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](height-to-normal-world-units.resources/height-to-normal-world-units-01.png){width="128px"}
 
-## Height aux unités universelles normales
-
-**Entrée :** *Filtres/Mappage de normales*
-
-**Simple**
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Nœud avancé de conversion Height à normal qui utilise des unités réelles pendant la conversion.
 
-Cette option est utile lorsque vous connaissez les dimensions de votre carte de hauteur source et que vous souhaitez effectuer la conversion la plus précise possible, par exemple lorsque vous travaillez avec une matière numérisée.
-
-## Paramètres
-
-* **Taille de surface (cm)** : *0,0 - 1000,0* Dimensions de la carte de hauteur d’entrée.
-* **Profondeur d&#39;Height (cm)** : *0,0 - 100,0* profondeur maximale des détails de la carte de hauteur.
-* **Format normal** : *OpenGL, DirectX*\
-  Bascule entre différents formats de mappage normal (inverse la couche verte).
-* **Échantillonnage** : *Standard, Sobel* Bascule entre deux modes d&#39;échantillonnage déterminant la précision.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
+Utile lorsque vous connaissez les dimensions de votre carte de hauteur source et souhaitez effectuer la conversion la plus précise possible, par exemple lorsque vous travaillez avec du matériau numérisé.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Taille de la surface (cm)</b> <i>0.0 - 1000.0</i> | Dimensions de la carte de hauteur d’entrée. |
+| <b>Profondeur Height (cm)</b> <i>0.0 - 100.0</i> | Profondeur maximale des détails de la carte de hauteur. |
+| <b>Format normal</b> <i>OpenGL, DirectX</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
+| <b>Échantillonnage</b> <i>Standard, Sobel</i> | Bascule entre deux modes d’échantillonnage déterminant la précision. |

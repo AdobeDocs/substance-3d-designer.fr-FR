@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forme de panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
@@ -22,41 +22,38 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape-1.png){width="128px"}
+![](panorama-shape.resources/panorama-shape-01.png){width="128px"}
 
-## Forme de panorama
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Complexe**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Il s’agit d’un nœud utile pour générer des cartes panoramiques de type « Studio » procédurales. Permet de placer et de modifier des images de projecteur, ainsi que de définir leurs propriétés HDR. Il peut être enchaîné pour plusieurs formes.
 
-## Paramètres
-
-* **Matrice de forme**\
-  Déplace ou traduit le résultat. Modifiable en interagissant directement avec la zone de travail.
-* **Forme** : *carré, disque* définit le type de forme.
-* **Couleur de la forme** : *(Valeur de couleur)*Définit la couleur de la forme.
-* **Intensité de la forme** : *0.0 - 100.0* Définit l’intensité HDR de la forme.
-* **Bordure douce de la forme** : *0.0 - 1.0* modifie l’adoucissement de la bordure de la forme.
-* **Intensité de la zone réactive** : *0.0 - 100.0* Définit l’intensité HDR de la zone réactive de la forme.
-* **Taille de la zone réactive** :*0.0 - 1.0* Modifie la taille de la zone réactive dans la forme.
-* **Atténuation de la zone réactive** : *0.0 - 1.0* modifie l’atténuation, la fusion des bords de la zone réactive.
-* **Position de la zone réactive** : *0.0 - 1.0* déplace la zone réactive par rapport à la forme.
-* **Activer l&#39;arrière-plan** :*Faux/Vrai* Active le remplissage de l&#39;arrière-plan avec une couleur unie. Notez que cela signifie que vous ne pouvez plus les enchaîner par fusion.
-* **Couleur d&#39;arrière-plan** : *(Valeur de couleur)*Définit la couleur unie de l&#39;arrière-plan.
-* **Activer l&#39;entrée de texture** : *Faux/Vrai* Autorise une entrée personnalisée au lieu d&#39;un type de forme prédéfini.
-
-## Exemples d’images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Matrice de forme</b> | Déplace ou traduit le résultat. Modifiable en interagissant directement avec la zone de travail. |
+| <b>Forme</b> <i>carré, disque</i> | Définit le type de forme. |
+| <b>Couleur de forme</b> <i>(valeur de couleur)</i> | Définit la couleur de la forme. |
+| <b>Intensité de la forme</b> <i>0.0 - 100.0</i> | Définit l’intensité HDR de la forme. |
+| <b>Bordure souple de forme</b> <i>0.0 - 1.0</i> | Modifie le lissage de la bordure de la forme. |
+| <b>Intensité de la zone réactive</b> <i>0.0 - 100.0</i> | Définit l’intensité HDR de la zone réactive de la forme. |
+| <b>Taille de la zone réactive</b> <i>0.0 - 1.0</i> | Modifie la taille de la zone réactive dans la forme. |
+| <b>Suppression de la zone réactive</b> <i>0.0 - 1.0</i> | Modifie la fusion des contours atténués de la zone réactive. |
+| <b>Position de la zone réactive</b> <i>0.0 - 1.0</i> | Déplace la zone réactive par rapport à la forme. |
+| <b>Activer l&#39;arrière-plan</b> <i>Faux/Vrai</i> | Permet de remplir l’arrière-plan avec une couleur unie. Notez que cela signifie que vous ne pouvez plus les enchaîner par fusion. |
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Définit la couleur unie de l’arrière-plan. |
+| <b>Activer l&#39;entrée de Texture</b> <i>Faux/Vrai</i> | Permet une entrée personnalisée au lieu d’un type de forme prédéfini. |

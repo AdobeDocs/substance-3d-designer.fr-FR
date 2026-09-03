@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bevel smooth
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Nuances de gris anisotrope de Kuwahara](../../../../../../assets/bevel_smooth.png "Icône Nuances de gris anisotrope de Kuwahara"){width="200px"}
+Icône ![Nuances de gris anisotrope de Kuwahara](bevel-smooth.resources/bevel-smooth-01.png "Icône Nuances de gris anisotrope de Kuwahara"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -47,50 +47,36 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 >
 > Le nœud [Directional distance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md) offre des fonctionnalités similaires, où la dilatation est effectuée dans une direction spécifique.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>Entrée de masque</b> *Niveaux de gris* PRINCIPAUX | Image à partir de laquelle extraire le masque.   Toutes les valeurs supérieures à la valeur « Seuil du masque » sont blanches dans ce masque. |
-| <b>Entrée source</b> *Niveaux de gris* | Entrée facultative utilisée uniquement lorsque le paramètre « Mode de sortie » est défini sur « Dilatation ».   Dans ce cas, l’image est incrustée sur les zones blanches du masque et les valeurs de niveaux de gris des bordures sont dilatées. |
-| <b>Map distance</b> *Niveaux de gris* | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur de Map distance est supérieure à 0.   Il est utilisé pour ajuster la distance de biseautage/dilatation le long des bordures du masque, où une valeur plus sombre entraîne une distance plus courte. |
+|:---|:---|
+| <b>Entrée de masque</b> <i>Niveaux de gris</i> PRINCIPAUX | Image à partir de laquelle extraire le masque.   Toutes les valeurs supérieures à la valeur « Seuil du masque » sont blanches dans ce masque. |
+| <b>Entrée source</b> <i>Niveaux de gris</i> | Entrée facultative utilisée uniquement lorsque le paramètre « Mode de sortie » est défini sur « Dilatation ».   Dans ce cas, l’image est incrustée sur les zones blanches du masque et les valeurs de niveaux de gris des bordures sont dilatées. |
+| <b>Map distance</b> <i>Niveaux de gris</i> | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur de Map distance est supérieure à 0.   Il est utilisé pour ajuster la distance de biseautage/dilatation le long des bordures du masque, où une valeur plus sombre entraîne une distance plus courte. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* | Image du résultat, en fonction du « Mode de sortie » sélectionné. |
-| <b>UV</b> *Couleur* | Carte UV dans laquelle les UV sont dilatés le long des bordures du masque.   Vous pouvez le connecter à un nœud [mappeur UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) pour mapper n&#39;importe quelle autre image à l&#39;aide de ces UV dilatés. |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Image du résultat, en fonction du « Mode de sortie » sélectionné. |
+| <b>UV</b> <i>Couleur</i> | UV dans lequel les UV sont dilatés le long des bordures du masque.   Vous pouvez le connecter à un nœud [mappeur d&#39;UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) pour mapper n&#39;importe quelle autre image à l&#39;aide de ces UV dilatés. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
-| <b>Mode de sortie</b> *Nombre entier* | Méthode de dilatation des bordures du masque :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Biseau :</b> dessinez un dégradé de 1 à 0, où 0 est atteint à la &#39;distance&#39; maximale</li> <li data-preserve-html="true"><b>Dilatation :</b> dessinez une couleur unie jusqu&#39;à la distance maximale. Cette couleur est le blanc de l’image de couleur « Entrée source » à la bordure du masque, si elle est connectée</li> <li data-preserve-html="true"><b>Distance :</b> distance brute à partir de la bordure de masque la plus proche, dans l&#39;espace d&#39;image normalisé où 1 est la longueur du côté le plus court de l&#39;image</li> </ul> |
+|:---|:---|
+| <b>Mode de sortie</b> *Entier* | Méthode de dilatation des bordures du masque :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Biseau :</b> dessinez un dégradé de 1 à 0, où 0 est atteint à la &#39;distance&#39; maximale</li> <li data-preserve-html="true"><b>Dilatation :</b> dessinez une couleur unie jusqu&#39;à la &#39;Distance maximale&#39;. Cette couleur est le blanc de l’image de couleur « Entrée source » à la bordure du masque, si elle est connectée</li> <li data-preserve-html="true"><b>Distance :</b> distance brute à partir de la bordure de masque la plus proche, dans l&#39;espace d&#39;image normalisé où 1 est la longueur du côté le plus court de l&#39;image</li> </ul> |
 | <b>Direction</b> *Nombre entier* *Disponible lorsque le « mode de sortie » est défini sur « Biseau » ou « Dilation »* | Le côté de la bordure du masque qui doit être dilaté :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Entrée :</b> dessinez vers l&#39;intérieur du masque</li> <li data-preserve-html="true"><b>Sortie :</b> dessinez vers l&#39;extérieur du masque</li> <li data-preserve-html="true"><b>Entrée/Sortie :</b> dessinez vers l&#39;intérieur et l&#39;extérieur du masque</li> </ul> |
 | <b>Distance maximale</b> *Flotter* | Distance de dilatation, dans l&#39;espace image normalisé où 1 est la longueur du côté le plus court de l&#39;image d&#39;entrée. |
-| <b>Masquer le smoothness</b> *Flotter* | Intensité du lissage appliqué au masque.   La valeur correspond au rayon du flou et 1 unité correspond à 1/256e de l’image. |
-| <b>Décalage du masque</b> *Flotter* | Déplace les bordures du masque vers l’intérieur ou vers l’extérieur. |
+| <b>Masquer le smoothness</b> *Flottant* | Intensité du lissage appliqué au masque.   La valeur correspond au rayon du flou et 1 unité correspond à 1/256e de l’image. |
+| <b>Décalage du masque</b> *Flottant* | Déplace les bordures du masque vers l’intérieur ou vers l’extérieur. |
 | <b>Seuil de masque</b> *Flotter* | Valeur utilisée pour détecter les bordures du masque dans l’image « Entrée de masque ».   Les valeurs supérieures à ce seuil correspondent à l&#39;*intérieur* des formes de masque, tandis que les valeurs inférieures correspondent à l&#39;*extérieur*. |
 | <b>Échelle</b> *Float2* | Règle les distances horizontale (X) et verticale (Y) de la dilatation.   Ces valeurs sont des multiplicateurs pour la valeur du paramètre Distance maximale. |
 | <b>Multiplicateur de Map distance</b> *Nombre entier* | Ajuste l&#39;impact de la « Map distance » sur la « Distance maximale ». |
@@ -101,12 +87,12 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bevel smooth : Exemple 1](../../../../../../assets/bevel_smooth_example_1.gif "Bevel smooth : Exemple 1"){width="1024px" zoomable="yes"}
+![Bevel smooth : Exemple 1](bevel-smooth.resources/bevel-smooth-02.gif "Bevel smooth : Exemple 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bevel smooth : Exemple 8](../../../../../../assets/bevel_smooth_example_8.jpg "Bevel smooth : Exemple 8"){width="1024px" zoomable="yes"}
+![Bevel smooth : Exemple 8](bevel-smooth.resources/bevel-smooth-03.jpg "Bevel smooth : Exemple 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -119,11 +105,11 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="biseau_lisse_exemple_4_before">
+      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="biseau_lisse_exemple_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="biseau_lisse_exemple_4_after">
+      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="biseau_lisse_exemple_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -135,11 +121,11 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="biseau_lisse_exemple_2_before">
+      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="biseau_lisse_exemple_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_sleigh_example_2_after">
+      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_sleigh_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -156,11 +142,11 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="biseau_lisse_exemple_3_before">
+      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="biseau_lisse_exemple_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_sleigh_example_3_after">
+      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_sleigh_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -172,11 +158,11 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="biseau_lisse_exemple_5_before">
+      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="biseau_lisse_exemple_5_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_sleigh_example_5_after">
+      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_sleigh_example_5_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -189,11 +175,11 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="biseau_lisse_exemple_7_before">
+      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="biseau_lisse_exemple_7_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="biseau_lisse_exemple_7_after">
+      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="biseau_lisse_exemple_7_after">
       <br><i>Après</i>
     </td>
   </tr>

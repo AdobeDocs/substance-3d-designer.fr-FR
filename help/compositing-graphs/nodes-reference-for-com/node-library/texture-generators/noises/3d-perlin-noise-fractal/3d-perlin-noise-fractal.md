@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bruit de Perlin 3D fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,83 +22,63 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dperlinnoisefractal.png){width="200px"}
+![](3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-01.png){width="200px"}
 
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Intermédiaire**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Fractal de bruit Perlin 3D** génère un bruit Perlin *fractal* dans l&#39;espace 3D en fonction de l&#39;entrée **Carte de position**.
+Le nœud <b>Fractal de bruit Perlin 3D</b> génère un bruit Perlin <i>fractal</i> dans l&#39;espace 3D en fonction de l&#39;entrée <b>Carte de position</b>.
 
 Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) en entrée au lieu d&#39;une map bakée réelle (comme illustré dans l&#39;exemple ci-dessous).
-
->[!WARNING]
->
-> Ce bruit est destiné à être utilisé avec le *moteur GPU uniquement* (c&#39;est-à-dire **Direct3D** ou **OpenGL**). Accédez à **Outils > Changer de moteur...** ou appuyez sur la touche **F9** pour sélectionner le moteur souhaité.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Ce bruit est destiné à être utilisé avec le <i>moteur GPU uniquement</i> (c&#39;est-à-dire <b>Direct3D</b> ou <b>OpenGL</b>). Accédez à <b>Outils > Changer de moteur...</b> ou appuyez sur la touche <b>F9</b> pour sélectionner le moteur souhaité.
+
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Inverser** *Booléen*\
-  Inverse l’image de sortie.
-* **Échelle** *Flottant*\
-  Contrôle l’échelle du bruit de Perlin 3D fractal.
-* **Taille** *Float3*\
-  Contrôle la taille du bruit de Perlin 3D fractal sur les axes **X**, **Y** et **Z**. Les valeurs non uniformes entraînent un effet d&#39;*étirement ou de compression*.
-* **Décalage** *Float3*\
-  Applique un décalage à la *position* du bruit de Perlin 3D fractal sur les axes **X**, **Y** et **Z**.
-* **Intensité de la Distorsion** *Flottant*\
-  Contrôle l&#39;intensité d&#39;un *effet de déformation* appliqué sur le bruit de Perlin 3D fractal.
-* **Multiplicateur D&#39;Échelle De Distorsion** *Flottant*\
-  Contrôle l&#39;échelle du *motif de déformation* utilisé dans l&#39;effet de déformation contrôlé par l&#39;**intensité de la Distorsion**.
-* **Niveau Min** *Nombre Entier*\
-  *niveau minimum de répétition* utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif *plus riche* avec une variation sur davantage de plages de fréquences.
-* **Niveau Max** *Nombre Entier*\
-  *niveau de répétition* maximum utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif *plus riche* avec une variation sur davantage de plages de fréquences.
-* **Rugosité** *Flotter*\
-  Contrôle l&#39;*équilibre* entre les *niveaux de répétition* bas et élevés dans le motif fractal.\
-  *Remarque* : une valeur de **0** entraîne une sortie *non conforme* à d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu.
-* **Lacunarité** *Flottant*\
-  Contrôle la façon dont le motif fractal appliqué *remplit l&#39;espace*. Une valeur *plus élevée* entraîne *moins d&#39;espaces* dans le motif et un bruit *plus dense*.
-* **Opacité globale** *Flottant*\
-  Contrôle la *plage* des valeurs de bruit de Perlin 3D fractal *autour* de la **valeur de base**.
-* **Ligne De Base** *Flotter*\
-  Applique un *décalage* à la valeur de base de *luminance* pour la distribution de la valeur de bruit de Perlin 3D.
-* **Contraste** *Flottant*\
-  Règle le contraste du bruit de Perlin 3D.
-* **Absolu** *Booléen*\
-  Utilise des valeurs absolues dans le bruit de Perlin 3D. Cela *inverse* la distribution des valeurs *inférieures à 0,5*.
-* **Activer les limites** *booléennes*\
-  Ajuste le bruit de Perlin 3D de sorte que le motif obtenu *se répète* sur les axes X, Y et Z.
+|  |  |
+|:---|:---|
+| <b>Inverser</b> <i>Booléen</i> | Inverse l’image de sortie. |
+| <b>Échelle</b> <i>Flotter</i> | Contrôle l’échelle du bruit de Perlin 3D fractal. |
+| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit de Perlin 3D fractal sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet d&#39;<i>étirement ou de compression</i>. |
+| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la <i>position</i> du bruit de Perlin 3D fractal sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un <i>effet de déformation</i> appliqué sur le bruit de Perlin 3D fractal. |
+| <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du <i>motif de déformation</i> utilisé dans l&#39;effet de déformation contrôlé par l&#39;<b>intensité de la Distorsion</b>. |
+| <b>Niveau Min</b> <i>Nombre entier</i> | <i>niveau minimum de répétition</i> utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif <i>plus riche</i> avec une variation sur davantage de plages de fréquences. |
+| <b>Niveau Max</b> <i>Nombre entier</i> | <i>niveau de répétition</i> maximum utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif <i>plus riche</i> avec une variation sur davantage de plages de fréquences. |
+| <b>Rugosité</b> <i>Flotter</i> | Contrôle l&#39;<i>équilibre</i> entre les <i>niveaux de répétition</i> bas et élevés dans le motif fractal.<br><br><i>Remarque</i> : une valeur de <b>0</b> entraîne une sortie <i>non alignée</i> avec d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu. |
+| <b>Lacunarité</b> <i>Flotter</i> | Contrôle la façon dont le motif fractal appliqué <i>remplit l&#39;espace</i>. Une valeur <i>plus élevée</i> entraîne <i>moins d&#39;espaces</i> dans le motif et un bruit <i>plus dense</i>. |
+| <b>Opacité globale</b> <i>Flotter</i> | Contrôle la <i>plage</i> des valeurs du bruit de Perlin 3D fractal <i>autour</i> de la <b>valeur de base</b>. |
+| <b>Ligne de base</b> <i>Flotter</i> | Applique un <i>décalage</i> à la valeur de ligne de base <i>luminance</i> pour la distribution des valeurs de bruit Perlin 3D. |
+| <b>Contraste</b> <i>Flotter</i> | Règle le contraste du bruit Perlin 3D. |
+| <b>Absolu</b> <i>Booléen</i> | Utilise les valeurs absolues du bruit Perlin 3D. Cela <i>inverse</i> la distribution des valeurs <i>inférieures à 0,5</i>. |
+| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit Perlin 3D de sorte que son motif résultant <i>se répète</i> dans les axes X, Y et Z. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dfractal.gif){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoisefractal-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dperlinnoisefractal-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-04.jpg" />
+        </td>
+    </tr>
 </table>

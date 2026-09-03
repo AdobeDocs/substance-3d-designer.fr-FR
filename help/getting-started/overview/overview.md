@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue d’ensemble
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Voici comment il se compare aux autres applications :
 
-|  | <div><img alt="Icône Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Icône Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icône Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icône Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Icône Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Icône Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Icône Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Icône Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Icône Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Icône Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Courbe d&#39;apprentissage</b> | Faible | Moyen | Élevée |
 | <b>Création de documents</b> | Oui | Oui | Oui |
@@ -60,7 +60,7 @@ L’application et son écosystème utilisent 4 types de fichiers différents. S
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/overview-04.png)
 
 ### Fichier Substance 3D
 
@@ -71,7 +71,7 @@ Les fichiers de Substance de données sont les **fichiers source principaux** po
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/overview-05.png)
 
 ### Ressource Substance 3D
 
@@ -82,7 +82,7 @@ Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Subs
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/overview-06.png){width="48px"}
 
 ### Fichiers statiques
 
@@ -104,7 +104,7 @@ Les fichiers Substance 3D peuvent contenir une grande variété de ressources à
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Les graphiques à Substances vous permettent de générer et de traiter *des don
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Les <b>fonctions</b> offrent un niveau supérieur d&#39;abstraction et de comple
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

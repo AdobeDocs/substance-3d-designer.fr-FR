@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Altération Des Roches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 16%
 
 ---
 
@@ -22,78 +22,71 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
 
-## Altération Des Roches
-
-**Entrée :** *Générateurs À Maillage**/Résilience*
-
-**Complexe**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-## Paramètres
-
-### Entrées
-
-* **Occlusion ambiante** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage.
-* **Courbure** : *Entrée en niveaux de gris*\
-  Map bakée utilisée pour les effets internes et le masquage.
-* **WS normal** : *entrée de couleur*\
-  Baked World Space Normalmap utilisé pour les effets internes et le masquage.
-* **Masque** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ».
-
-### Paramètres
-
-* **Canaux**
-  * Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité.
-* **Avancé**
-  * **Format normal** : *DirectX, OpenGL*\
-    Bascule entre différents formats de mappage normal (inverse la couche verte).
-  * **Masque** : *Faux/Vrai*\
-    Active ou désactive l&#39;utilisation de la carte de masque.
-* **Effet**
-  * **Dust** : *0.0 - 1.0*
-  * **Sale** : *0.0 - 1.0*
-  * **Usure Des Bords** : *0.0 - 1.0*
-  * **Roche usagée** : *0.0 - 1.0*
-  * **Échelle Des Fissures** : *1.0 - 60.0*
-  * **Intensité des Fissures** : *0,0 - 1,0*
-  * **Âge** : *0,0 - 1,0*
-  * **Seuil D’Âge** : *0,0 - 1,0*
-  * **Échelle Scratches Des Contours Nets** : *1.0 - 32.0*
-  * **Intensité de la déformation Scratches des bords nets** : *0.0 - 1.0*
-  * **Désaturation De La Roche Utilisée** : *0,0 - 1,0*
-  * **Luminosité rocheuse utilisée** : *0,0 - 1,0*
-* **Fusion**
-  * **Intensité diffuse** : *0,0 - 1,0*\
-    Intensité de fusion du diffus.
-  * **Intensité des couleurs de base** : *0.0 - 1.0*\
-    Intensité de fusion de la couleur de base.
-  * **Intensité normale** : *0,0 - 64,0*\
-    Intensité de fusion de la normale.
-  * **Intensité du Specular** : *0,0 - 1,0*\
-    Intensité de fusion du Specular.
-  * **Intensité du brillant** : *0.0 - 1.0*\
-    Intensité de fusion du brillant.
-  * **Intensité de la rugosité** : *0.0 - 1.0*\
-    Intensité de fusion de la rugosité.
-  * **Intensité de l&#39;Occlusion ambiante** : *0,0 - 1,0*\
-    Intensité de fusion de l&#39;Occlusion ambiante.
-  * **Intensité des Heights** : *0,0 - 1,0*\
-    Intensité de fusion de l&#39;Height.
-
-## Exemples d’images
-
-![](../../../../../../assets/rock-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>WS normal</b> <i>Entrée couleur</i> | Baked World Space Normalmap utilisé pour les effets internes et le masquage. |
+| <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ». |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Avancé</b> |  |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
+| <b>Masquer</b> <i>Faux/Vrai</i> | Active ou désactive l&#39;utilisation de la carte de masque. |
+| <b>Effet</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Sale</b> <i>0.0 - 1.0</i> |  |
+| <b>Usure Des Bords</b> <i>0.0 - 1.0</i> |  |
+| <b>Roche usagée</b> <i>0.0 - 1.0</i> |  |
+| <b>Échelle des Fissures</b> <i>1.0 - 60.0</i> |  |
+| <b>Intensité des Fissures</b> <i>0.0 - 1.0</i> |  |
+| <b>Âge</b> <i>0.0 - 1.0</i> |  |
+| <b>Seuil d&#39;âge</b> <i>0.0 - 1.0</i> |  |
+| <b>Échelle Scratches Des Contours Nets</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensité de déformation Scratches des contours nets</b> <i>0.0 - 1.0</i> |  |
+| <b>Désaturation De La Roche Utilisée</b> <i>0.0 - 1.0</i> |  |
+| <b>Luminosité rocheuse utilisée</b> <i>0.0 - 1.0</i> |  |
+| <b>Fusion</b> |  |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
+| <b>Intensité normale</b> <i>0.0 - 64.0</i> | Intensité de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
+| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Intensité de fusion de la rugosité. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Occlusion ambiante. |
+| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Height. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rock-weathering.resources/rock-weathering-02.gif" />
+        </td>
+    </tr>
 </table>

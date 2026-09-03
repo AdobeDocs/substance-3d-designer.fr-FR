@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Plage d’histogrammes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-01.png){width="128px"}
 
-## Plage d’histogrammes
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -42,15 +38,25 @@ Voir également [Analyse de l&#39;histogramme](../../../../../../compositing-gra
 
 [Cliquez ici pour visionner une vidéo de Substance Academy sur la gamme d&#39;histogrammes.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## Paramètres
-
-* **Plage** : *0,0 - 1,0* Jusqu&#39;à quel point réduire la plage. Cela revient à déplacer les curseurs Niveaux min et Max vers l’intérieur.
-* **Position** : *0,0 - 1,0* décalage pour la réduction de la plage, en définissant un point médian différent pour la réduction de la plage.
-
-## Exemples d’images
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Plage</b> <i>0.0 - 1.0</i> | Valeur de réduction de la plage. Cela revient à déplacer les curseurs Niveaux min et Max vers l’intérieur. |
+| <b>Position</b> <i>0.0 - 1.0</i> | Décalage pour la réduction de la plage, en définissant un point médian différent pour la réduction de la plage. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range-02.gif" />
+        </td>
+    </tr>
 </table>

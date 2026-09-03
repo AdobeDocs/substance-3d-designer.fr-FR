@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Polygone 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
@@ -22,43 +22,47 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-1-1.png){width="128px"}
+![](polygon-1.resources/polygon-1-01.png){width="128px"}
 
-## Polygone 1
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère une forme polygonale avec de nombreuses options de réglage. Voir [Polygone 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md) pour une version plus simple.
 
-## Paramètres
-
-* **Côtés** : *3 - 32* Définit le nombre de côtés que le polygone doit avoir.
-* **Éclatement** :*0.0 - 1.0*&#x200B;éloigne les « tranches » du polygone.
-* **Taille du triangle** : *0.0 - 1.0* ajuste la taille des tranches/triangles. Tout réglage peut décomposer la forme, seulement 1,1. est parfaitement connecté !
-* **Échelle** :*0.0 - 1.0* met à l’échelle la forme entière en une seule fois.
-* **Échelle automatique** :*Faux/Vrai* Ajuste les échelles de sorte que l’ensemble du polygone s’affiche, avec les paramètres par défaut.
-* **Rotation** : *0.0 - 1.0* Fait pivoter la forme entière.
-* **Dégradé** :*Faux/Vrai* génère des tranches/triangles dégradés au lieu de triangles pleins. Remarque : devient similaire à Polygone 2 lorsque ce paramètre est activé.
-* **Inversion de dégradé** :*Faux/Vrai* inverse la direction du dégradé si l’option « Dégradé » est activée.
-* **Mosaïque** : *1 - 16*\
-  Définit le nombre de fois où le résultat doit se produire.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-* **Carrelage non carré**&#x200B;**:** *Faux/Vrai*Lorsque l’Extension non carrée est activée, la forme est carrelée sans être écrasée.
-
-## Exemples d’images
-
-![](../../../../../../assets/polygon-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Côtés</b> <i>3 - 32</i> | Définit le nombre de côtés que le polygone doit avoir. |
+| <b>Exploser</b> <i>0.0 - 1.0</i> | Éloigne le polygone des « tranches ». |
+| <b>Taille du triangle</b> <i>0.0 - 1.0</i> | Ajuste la taille des tranches/triangles. Tout réglage peut décomposer la forme, seulement 1,1. est parfaitement connecté ! |
+| <b>Échelle</b> <i>0.0 - 1.0</i> | Met à l’échelle l’ensemble de la forme. |
+| <b>Mise à l&#39;échelle automatique</b> <i>Faux/Vrai</i> | Ajuste les échelles pour que l’ensemble du polygone s’affiche, avec les paramètres par défaut. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter la forme entière. |
+| <b>Dégradé</b> <i>Faux/Vrai</i> | Génère des tranches/triangles dégradés au lieu de tranches unies. Remarque : devient similaire à Polygone 2 lorsque ce paramètre est activé. |
+| <b>Inversion de dégradé</b> <i>Faux/Vrai</i> | Inverse la direction du dégradé si l’option Dégradé est activée. |
+| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Répétition Non Carrée</b> <i>Faux/Vrai</i> | Lorsque l’Extension non carrée est activée, la forme est mosaïque sans être écrasée. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="polygon-1.resources/polygon-1-02.gif" />
+        </td>
+    </tr>
 </table>

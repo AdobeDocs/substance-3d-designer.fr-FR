@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,27 +24,27 @@ La Substance Designer 15.1 offre une fenêtre de création de graphique entière
 
 *Date de publication : 11 décembre 2025*
 
-![Bannière Designer 15.1](../../assets/bannerweb.png)
+![Bannière Designer 15.1](version-15-1.resources/version-15-1-01.png)
 
 ## Amélioration de la création de graphiques
 
-Dans cette version, la [fenêtre de création de graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) a été <b>entièrement repensée</b> pour améliorer l&#39;expérience utilisateur initiale dans Substance 3D Designer. L’objectif principal de cette mise à jour est de rationaliser le processus de sélection des modèles, ce qui permet aux utilisateurs d’identifier efficacement le modèle le mieux adapté à leurs besoins.
+Dans cette version, la [fenêtre de création de graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) a été <b>entièrement repensée</b> pour améliorer l&#39;expérience utilisateur initiale dans Substance 3D Designer. L’objectif principal de cette mise à jour est de rationaliser le processus de sélection des modèles, ce qui permet aux utilisateurs d’identifier efficacement le modèle le mieux adapté à leurs besoins.
 
-Les vignettes offrent des <b>références visuelles</b> instantanées pour les types de matériaux prévus, tandis que les info-bulles détaillées fournissent toutes les informations pertinentes. Pour une meilleure organisation, les modèles sont désormais classés dans des <b>catégories</b> spécifiques, telles que les matériaux, les filtres et le traitement de numérisation.
+Les vignettes offrent des <b>références visuelles</b> instantanées pour les types de matériaux prévus, tandis que les info-bulles détaillées fournissent toutes les informations pertinentes. Pour une meilleure organisation, les modèles sont désormais classés dans des <b>catégories</b> spécifiques, telles que les matériaux, les filtres et le traitement de numérisation.
 
 Bien que l’interface principale ait été mise à niveau, les utilisateurs continuent d’avoir accès aux affichages précédents, y compris les options de liste, de packages et de répertoires.
 
 [En savoir plus](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![reconcevoir la nouvelle fenêtre graphique](../../assets/newgraph.png){zoomable="yes"}
+![reconcevoir la nouvelle fenêtre graphique](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## Échantillons incorporés
 
 Avec le lancement de notre fenêtre de création de graphiques repensée, nous avons ajouté une variété de [<b>matériaux d&#39;exemple</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directement dans le logiciel. Cette amélioration fait suite à votre demande d&#39;un meilleur accès aux ressources d&#39;apprentissage.
 
-![Nouvelle fenêtre de création de graphique pour les échantillons](../../assets/GraphSample.png){zoomable="yes"}
+![Nouvelle fenêtre de création de graphique pour les échantillons](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
-Pour répondre à ce besoin, nous avons inclus des échantillons de matériaux tels que les tissus (y compris le cuir et le satin), le bois, le métal, le plastique, la céramique et plus encore. Ces exemples ont pour but de vous aider à démarrer vos projets en toute simplicité et à vous familiariser avec les principaux nœuds de la famille disponibles dans Substance 3D Designer
+Pour répondre à ce besoin, nous avons inclus des échantillons de matériaux tels que les tissus (y compris le cuir et le satin), le bois, le métal, le plastique, la céramique et plus encore. Ces exemples ont pour but de vous aider à démarrer vos projets en toute simplicité et à vous familiariser avec les principaux nœuds de la famille disponibles dans Substance 3D Designer
 
 Chaque graphique est <b>annoté</b>, soigneusement organisé et contient un nombre minimal de nœuds pour le rendre aussi facile à comprendre que possible.
 
@@ -54,7 +54,7 @@ Outre ces documents fondamentaux, nous avons également fourni des <b>échantill
 
 [En savoir plus](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![échantillon de bois dans substance designer](../../assets/samplegraph.png){zoomable="yes"}
+![échantillon de bois dans substance designer](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## Nouveaux bruits
 
@@ -68,9 +68,9 @@ Enfin, la profondeur de bits <b>n&#39;est plus verrouillée en mode 16 bits</b>.
 
 Consultez la liste complète des bruits mis à jour dans les [notes de mise à jour](#release-notes) ci-dessous.
 
-Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![bruit de désordre directionnel](../../assets/directionaldisorder.gif){zoomable="yes"}
+![bruit de désordre directionnel](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## Hiérarchie dans le menu des nœuds
 
@@ -82,12 +82,12 @@ Le grand nombre de nœuds disponibles peut rendre difficile la recherche rapide 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![recherche de nœud avec catégorie 1](../../assets/search1-2.png){zoomable="yes"}
+![recherche de nœud avec catégorie 1](version-15-1.resources/version-15-1-06.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![recherche de nœud avec catégorie 2](../../assets/search2.png){zoomable="yes"}
+![recherche de nœud avec catégorie 2](version-15-1.resources/version-15-1-07.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Jouez avec l’image ci-dessous pour voir la différence avant et après la déf
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="Avec la sortie par défaut, les vignettes sont toujours pertinentes.">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="Avec la sortie par défaut, les vignettes sont toujours pertinentes.">
       <br><i>Après</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 
 [En savoir plus](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Nœud défini](../../assets/isdefined.png){zoomable="yes"}
+![Nœud défini](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
 
 ## Notes de mise à jour
 
@@ -167,7 +167,7 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 * [Content] Somme fractale 1,2,3,4 v2 : ajout du format de sortie par défaut
 * [Contenu] Bruit gaussien v2 : ajout du format de sortie par défaut, pas de prise en charge des mosaïques
 * [Contenu] Taches gaussiennes 1&amp;2 v2 : ajout du format de sortie par défaut, pas de prise en charge des mosaïques
-* [Contenu] Fibres désordonnées 1,2,3 v2 : ajout du format de sortie par défaut, pas de prise en charge de la mosaïque, options de désordre
+* [Contenu] Fibres désordonnées 1,2,3 v2 : ajout du format de sortie par défaut, pas de prise en charge des répétitions, options de désordre
 * [Contenu] Bruit d’humidité v2 : ajout du format de sortie par défaut, pas de prise en charge des mosaïques
 * [Contenu] Nouveau nœud « Bruit d&#39;humidité 2 »
 * [Contenu] Bruits : mettre à jour pour ajouter le format de sortie par défaut

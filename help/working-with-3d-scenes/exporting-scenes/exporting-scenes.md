@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportation de séquences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Pour les autres formats, le contenu de la scène et sa structure interne dépend
 >
 > Tous les éléments ajoutés à la scène par Designer seront inclus dans la scène exportée : la caméra par défaut, l’environnement par défaut, toutes les matières copient les lumières supplémentaires.
 
-![Actions d’exportation de scène](../../assets/exportActions.png "Actions d’exportation de scène"){zoomable="yes"}
+![Actions d’exportation de scène](exporting-scenes.resources/exporting-scenes-01.png "Actions d’exportation de scène"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Cela signifie que les modifications apportées à la scène d’origine n’ont 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fichiers de scène exportés - Aplatis](../../assets/exportFlattened.png "Fichiers de scène exportés - Aplatis"){zoomable="yes"}
+![Fichiers de scène exportés - Aplatis](exporting-scenes.resources/exporting-scenes-02.png "Fichiers de scène exportés - Aplatis"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Cela signifie que les modifications apportées à la scène d’origine sont rep
 </td>
 <td style="border: 0;" valign="top">
 
-![Fichiers de scène exportés - Superposés](../../assets/exportLayered.png "Fichiers de scène exportés - Superposés"){zoomable="yes"}
+![Fichiers de scène exportés - Superposés](exporting-scenes.resources/exporting-scenes-03.png "Fichiers de scène exportés - Superposés"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sortie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,34 +24,34 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Sortie](../../../../assets/comp_output_1.png "Nœud atomique : Sortie"){width="200px"}
+![Noeud atomique : Sortie](output.resources/output-01.png "Noeud atomique : Sortie"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le nœud Sortie spécifie le <b>résultat</b> d&#39;un graphique de Substance ou l&#39;un de ses résultats si plusieurs nœuds Sortie y sont présents.
+Le nœud Output spécifie le <b>résultat</b> d&#39;un graphe de Substance de données ou l&#39;un de ses résultats si plusieurs nœuds Output y sont présents.
 
-L&#39;image ou la valeur connectée au nœud de sortie d&#39;un graphique est générée par n&#39;importe quel [nœud d&#39;instance](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphique et peut [être exportée en tant que sortie de graphique](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
+L&#39;image ou la valeur connectée au nœud de sortie d&#39;un graphe est générée par n&#39;importe quel [instancier](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphe et peut [être exportée en tant que sortie du graphe](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
 
 </td>
 </tr>
 </table>
 
-De même, lorsqu&#39;un [fichier SBSAR publié](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) inclut ce graphique, ce fichier peut générer cette image dans n&#39;importe quelle intégration ou plug-in qui consomme le fichier.
+De même, lorsqu&#39;un [Fichier sbsar publié](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) inclut ce graphe, ce fichier peut générer cette image dans n&#39;importe quelle intégration ou plug-in qui consomme le fichier.
 
 Il dispose d&#39;un seul emplacement d&#39;entrée qui est indépendant du type, ce qui signifie qu&#39;il saisit lui-même après le type de données qui lui est connecté.
 
 Il n&#39;a pas de paramètres, mais plutôt des attributs qui sont d&#39;une grande importance pour étiqueter correctement la sortie et la mettre à son usage prévu.
 
-Chaque graphique de Substance doit avoir *au moins un* nœud de sortie. Si aucune sortie n&#39;existe, le graphique ne peut jamais renvoyer de résultat réel et un [avertissement](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md) est déclenché.
+Chaque graphe de Substance doit avoir *au moins un* nœud de sortie. Si aucune sortie n&#39;existe, le graphe ne peut jamais renvoyer de résultat réel et un [avertissement](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md) est déclenché.
 
 ## Attributs
 
 |  |  |
 | --- | --- |
-| <b>Identifiant</b> *Chaîne* | Identificateur unique de la sortie. Cette propriété ne peut pas rester vide et ne peut pas contenir de caractères spéciaux ou d&#39;espaces.   L&#39;identificateur est utilisé car le libellé du nœud est la propriété « Label » laissée vide. Il peut également être utilisé pour nommer [les textures exportées](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
-| <b>Description</b> *Chaîne* | Description facultative utilisée comme info-bulle de la sortie : graphiques en Substances. |
-| <b>Libellé</b> *Chaîne* | Il est utilisé comme libellé pour le nœud de sortie et son connecteur correspondant dans les [nœuds d&#39;instance](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphique. L’étiquette peut contenir des espaces et des caractères spéciaux. |
+| <b>Identifiant</b> *Chaîne* | Identifiant unique de la sortie. Cette propriété ne peut pas rester vide et ne peut pas contenir de caractères spéciaux ou d&#39;espaces.   L&#39;identifiant est utilisé car le libellé du nœud est la propriété « Label » laissée vide. Il peut également être utilisé pour nommer [textures exportées](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
+| <b>Description</b> *Chaîne* | Description facultative utilisée comme info-bulle de la sortie : graphes de Substance. |
+| <b>Libellé</b> *Chaîne* | Il est utilisé comme libellé pour le nœud de sortie et son connecteur correspondant dans [instanciers](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphe. L’étiquette peut contenir des espaces et des caractères spéciaux. |
 | <b>Données utilisateur</b> *Chaîne* | Métadonnées facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d/apps/painter.html) utilisez ces données pour [piloter certaines fonctionnalités](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
 | <b>Groupe</b> *Chaîne* | Attribut utilisé pour regrouper les sorties afin de [lier les modes de création](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Les sorties avec un attribut « Group » identique sont présentées comme une connexion unique dans le mode de création de lien « Compact Material ». |
 
@@ -101,11 +101,11 @@ Voici un exemple de nœuds d’instance avant et après la définition d’une s
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/output-02.png" alt="defaultouput2">
       <br><i>Avant</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/output-03.png" alt="defaultouput1">
       <br><i>Après</i>
     </td>
   </tr>

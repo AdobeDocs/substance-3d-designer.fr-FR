@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Concepts principaux du graphique MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Les matériaux MDL utilisent une description destinée aux solutions de rendu ph
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logo NVIDIA Iray](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logo NVIDIA Iray](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ Par exemple, si vous souhaitez travailler sur un matériau de type verre, vous p
 
 Le nœud racine comprend une vignette affichant un aperçu de sa sortie actuelle.
 
-![Nœud racine du graphique MDL](../../assets/mdl-root-hl.png "Nœud racine du graphique MDL")
+![Nœud racine du graphique MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "Nœud racine du graphique MDL")
 
 *Nœud racine dans un graphique MDL et ses propriétés affichées dans le [panneau Propriétés](../../interface/properties/properties.md)* *4&rbrace;*
 
@@ -81,7 +81,7 @@ Le *type de données* provenant d&#39;un connecteur de sortie ou attendu par un 
 >
 > Seuls les connecteurs de *types de données correspondants* peuvent être liés entre eux. Le seul objectif du codage couleur est d’améliorer la lisibilité en ce qui concerne le type de données transmises dans le graphique et les connecteurs pouvant être liés entre eux.
 
-![Types de connecteurs de nœuds MDL](../../assets/mdl-connector-types.png "Types de connecteurs de nœuds MDL"){width="512px"}
+![Types de connecteurs de nœuds MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-03.png "Types de connecteurs de nœuds MDL"){width="512px"}
 
 *L&#39;aspect des connecteurs varie en fonction du type de valeur d&#39;E/S, qui s&#39;affiche entre parenthèses après l&#39;identificateur d&#39;E/S*
 
@@ -98,19 +98,19 @@ Vous pouvez garder à l&#39;esprit les *règles* appliquées pour le filtrage :
 
 * si le menu Nœud s&#39;affiche en appuyant sur <b>barre d&#39;espace</b> lorsqu&#39;un *nœud unique* est sélectionné, la liste inclut les nœuds dont le type de données de la *première entrée* correspond au type de données *sortie* du nœud sélectionné
 * si le menu Nœud s&#39;affiche en appuyant sur la <b>barre d&#39;espace</b> lorsque *plusieurs* nœuds sont sélectionnés, la liste inclut les nœuds dont le type de données de la *première entrée* correspond au type de données de la *dernière sortie* nœud sélectionné&#x200B;**
-* si le menu Nœud s&#39;affiche en *faisant glisser un lien* hors d&#39;un connecteur *output*, la liste inclut les nœuds pour lesquels le type de données *première entrée* correspond au type de données *sortie* sélectionné
-* si le menu Nœud s&#39;affiche en *faisant glisser un lien* à partir d&#39;un connecteur *d&#39;entrée*, la liste inclut les nœuds dont le type de données *de sortie* correspond au type de données *d&#39;entrée* sélectionné
+* si le menu Nœud s&#39;affiche en *faisant glisser un lien* hors d&#39;un connecteur *output*, la liste inclut les nœuds pour lesquels le type de données *première entrée* correspond au type de données *output* sélectionné
+* si le menu Nœud s&#39;affiche en *faisant glisser un lien* depuis un connecteur *d&#39;entrée*, la liste inclut les nœuds dont le type de données *output* correspond au type de données *input* sélectionné
 
-![Création de nœud filtrée](../../assets/mdl-filtered-node-creation.gif "Création de nœud filtrée")
+![Création de nœud filtrée](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-04.gif "Création de nœud filtrée")
 
-*Création de nœuds filtrée dans le graphique MDL. Notez que la liste change en fonction du type de valeur pour le connecteur*
+*Création de nœuds filtrée dans Graphe MDL, notez que la liste change en fonction du type de valeur pour le connecteur*
 
-## Entrées et textures du graphique
+## Entrées et textures du graphe
 
-Les matériaux MDL peuvent recevoir des données de sources externes, sous la forme de valeurs et de textures par exemple. Pour ce faire, <b>exposez un nœud</b>, contrairement au [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md) où des nœuds d&#39;entrée dédiés existent à cet effet.
+Les matériaux MDL peuvent recevoir des données de sources externes, sous la forme de valeurs et de textures par exemple. Pour ce faire, <b>exposez un nœud</b>, contrairement au [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md) où des noeuds d&#39;entrée dédiés existent à cet effet.
 
-Les données peuvent être transmises au nœud exposé selon son *type*. Par exemple, les valeurs Float peuvent être transmises à un nœud <b>float</b> exposé et une texture peut être transmise à un nœud <b>color</b> exposé (dans ce cas, les valeurs RVBA du pixel échantillonné sont transmises en tant que valeur de couleur).
+Les données peuvent être transmises au nœud exposé selon son *type*. Par exemple, des valeurs de Flottant peuvent être transmises à un nœud <b>flottant</b> exposé et une texture peut être transmise à un nœud <b>couleur</b> exposé (dans ce cas, les valeurs RVBA du pixel échantillonné sont transmises en tant que valeur de couleur).
 
-![Entrées de graphique affichées](../../assets/mdl-graph-inputs-samplers.png "Entrées de graphique affichées")
+![Entrées de graphe Exposées](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-05.png "Entrées de graphe Exposées")
 
-*Les nœuds exposés créent des entrées de graphique qui sont à la fois des entrées de valeur brute et des échantillonneurs pour les textures*
+*Les nœuds Exposés créent des entrées de graphe qui sont à la fois des entrées de valeur brute et des échantillonneurs pour les textures*

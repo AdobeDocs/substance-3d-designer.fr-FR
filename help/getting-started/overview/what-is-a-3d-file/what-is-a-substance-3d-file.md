@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Qu’est-ce qu’un fichier Substance 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Qu’est-ce qu’un fichier Substance 3D ?
 
-![Matériau de mur de brique paramétrique](../../../assets/MaterialsOverview.gif "Matériau de mur de brique paramétrique")
+![Matériau de mur de brique paramétrique](what-is-a-substance-3d-file.resources/what-is-a-substance-3d-file-01.gif "Matériau de mur de brique paramétrique")
 
 *Exemple de matériau de mur en brique fabriqué par Käy Vriend.\
 Les paramètres peuvent être modifiés pour contrôler dynamiquement l&#39;apparence du matériau.*

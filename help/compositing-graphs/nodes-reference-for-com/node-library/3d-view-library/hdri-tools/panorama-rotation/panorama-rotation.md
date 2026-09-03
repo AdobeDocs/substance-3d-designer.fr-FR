@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rotation du panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
 
-## Rotation du panorama
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Fait pivoter une image panoramique mappée de manière sphérique autour de son point central, en conservant la projection/le mappage correct. Utile pour incliner ou régler les images HDRI.
-
-## Paramètres
-
-* **Rotation** : *0.0 - 1.0*
-* **Angle De Direction** : *0.0 - 1.0*
-* **Pré-Rotation Autour Du Pôle** : *-1,0 - 1,0*
-* **Rotation De Post Autour Du Pôle** : *0.0 - 1.0*
-
-## Exemples d’images
+Fait pivoter une image panoramique mappée de manière sphérique autour de son point central, en conservant une projection/un mappage correct. Utile pour incliner ou régler les images HDRI.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Rotation</b> <i>0.0 - 1.0</i> |  |
+| <b>Angle de direction</b> <i>0.0 - 1.0</i> |  |
+| <b>Pré-Rotation Autour Du Pôle</b> <i>-1.0 - 1.0</i> |  |
+| <b>Rotation De Post Autour Du Pôle</b> <i>0.0 - 1.0</i> |  |

@@ -1,7 +1,7 @@
 ---
 title: couleur Atlas en grille
-description: Designer > Graphiques de composition de Substances > Référence des nœuds pour les graphiques de composition de Substances > Bibliothèque de nœuds > Générateur > Motif > Couleur d’Atlas en grille
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Générateur > Motif > Couleur Atlas en grille
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Couleur d&#39;Atlas en grille](grid-atlas-color.resources/grid-atlas-color.png "Couleur d&#39;Atlas en grille")
+Icône ![Couleur d&#39;Atlas en grille](grid-atlas-color.resources/grid-atlas-color-01.png "Couleur d&#39;Atlas en grille")
 
 <b>Entrée :</b> Générateur > Motif
 
@@ -24,7 +24,7 @@ Icône ![Couleur d&#39;Atlas en grille](grid-atlas-color.resources/grid-atlas-co
 
 ## Description
 
-Composez jusqu’à 16 images couleur sur une grille de taille XY réglable.<br>L&#39;image de l&#39;atlas de sortie peut être échantillonnée par un nœud [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) ou [Shape splatter mapper color](../shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md).
+Emportez jusqu’à 16 images couleur sur une grille de taille XY réglable.<br>L&#39;image de l&#39;atlas de sortie peut être échantillonnée par un nœud [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) ou [Shape splatter mapper color](../shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md).
 
 Voir aussi [Niveaux de gris Atlas en grille](../grid-atlas-grayscale/grid-atlas-grayscale.md).
 
@@ -75,5 +75,5 @@ Voir aussi [Niveaux de gris Atlas en grille](../grid-atlas-grayscale/grid-atlas-
 
 ## Exemples
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Nœud de couleur d&#39;Atlas en grille dans le contexte d&#39;un graphe" style="width: 50%"><br>
-<i>Nœud de couleur Atlas en grille dans le contexte d&#39;un graphique</i>
+<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="Nœud de couleur Atlas en grille dans le contexte d&#39;un graphe" style="width: 50%"><br>
+<i>Nœud de couleur Atlas en grille dans le contexte d&#39;un graphe</i>

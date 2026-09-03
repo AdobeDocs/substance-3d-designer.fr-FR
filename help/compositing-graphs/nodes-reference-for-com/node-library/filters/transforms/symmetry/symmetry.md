@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Symétrie pour créer des motifs symétriques en mettant en miroir des textures le long d'axes spécifiés.
+description: Utilisez le nœud Symétrie pour créer des motifs symétriques en mettant en miroir des textures selon des axes spécifiques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Symétrie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-01.png){width="128px"}
 
-## Symétrie
-
-**Entrée :** *Filtres/Transformations*
-
-**Intermédiaire**
+<b>Entrées :</b> Filtres > Transformes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Effectue diverses opérations de symétrie sur une image en entrée. Permet de rendre des formes géométriques symétriques.
+Effectue diverses opérations de symétrie sur une image d&#39;entrée. Permet de rendre des formes géométriques symétriques.
 
 Ce nœud est très similaire à [Miroir](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), mais dispose de commandes supplémentaires pour les modes de fusion.
 
-## Paramètres
-
-* **Mode De Symétrie** : *Miroir Y, Miroir X, Diagonale Gauche, Diagonale Droite, Miroir X/Y, Miroir X/Miroir Y, Diagonale Gauche/Diagonale Droite, Diagonale Droite/Diagonale Gauche, 8* Choisit le mode géométrique de symétrie.
-* **Mode de transfert** : *0 - 6* Choisit le mode de fusion de la symétrie : Copier, Ajouter, Soustraire, Multiplier, Ajouter sub, Max, Min.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Mode Symétrie</b> <i>Miroir Y, Miroir X, Diagonale gauche, Diagonale droite, Miroir X/Y, Miroir X/Miroir Y, Diagonale gauche/Diagonale droite, Diagonale droite/Diagonale gauche, 8</i> | Choisit le mode géométrique de la symétrie. |
+| <b>Mode de transfert</b> <i>0 - 6</i> | Choisit le mode de fusion symétrie : Copier, Ajouter, Subtract, Multiplier, Ajouter Sub, Max, Min. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : couleur uniforme](../../../../assets/comp_uniform_1.png "Nœud atomique : couleur uniforme"){width="200px"}
+![Nœud atomique : couleur uniforme](uniform-color.resources/uniform-color-01.png "Nœud atomique : couleur uniforme"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Il s’agit d’un nœud simple, très souvent utilisé comme point de départ p
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. |
-| <b>Couleur de sortie</b> *Float/Float4* | Sélectionne la couleur plate à utiliser dans l’image de sortie.   Lorsque vous utilisez le mode colorimétrique Couleur, la couche Alpha est utilisée pour l’opacité, où 0 est entièrement transparent et 1 entièrement opaque. |
+| <b>Couleur de sortie</b> *Float/Float4* | Sélectionne la couleur plate à utiliser dans l’image de sortie.   Lorsque vous utilisez le mode colorimétrique Couleur, la couche Alpha est utilisée pour l’opacité, où 0 est entièrement transparent et 1 entièrement opaque. |
 
 ## Connecteurs de sortie
 

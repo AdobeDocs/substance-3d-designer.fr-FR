@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Exposition
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-01.png){width="250px"}
 
-## Exposition
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Réglez l’exposition de l’image d’entrée. Éclaircit ou assombrit les photos HDR selon le concept de valeur « stop », comme dans un logiciel de retouche photo.
 
-## Paramètres
-
-* **Exposition (EV)** : *-8.0 - 8.0* Valeur d’exposition, en étapes.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Exposition (EV)</b> <i>-8.0 - 8.0</i> | Valeur d’exposition, en étapes. |

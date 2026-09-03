@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rayures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 4%
+source-wordcount: '111'
+ht-degree: 11%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes-01.png){width="128px"}
 
-## Rayures
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un motif de mosaïque, d’angle et de bande. Le modèle s&#39;ajuste pour toujours assurer la continuité.
 
-## Paramètres
-
-* **Stripe** : *1 - 100* définit la quantité de bandes. Décale automatiquement le résultat pour assurer une mosaïque.
-* **Largeur** : *0.0 - 1.0* Définit la largeur du Stripe.
-* **Lissage** : *0.0 - 1.0* Définit la transition des bords de bande.
-* **Maj** :*0 - 20* incline les bandes. Ajoute automatiquement d’autres bandes pour garantir la juxtaposition.
-* **Aligner** :*Contours, centre* définit le pivot pour le déplacement.
-* **Filtrage** :*Faux/Vrai* Active le filtrage.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-![](../../../../../../assets/stripes-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Stripe</b> <i>1 - 100</i> | Définit le nombre de bandes. Décale automatiquement le résultat pour assurer une mosaïque. |
+| <b>Largeur</b> <i>0.0 - 1.0</i> | Définit la largeur du Stripe. |
+| <b>Lissage</b> <i>0.0 - 1.0</i> | Définit la transition des bords de bande. |
+| <b>Maj</b> <i>0 - 20</i> | Incline les bandes. Ajoute automatiquement d’autres bandes pour garantir la juxtaposition. |
+| <b>Aligner</b> <i>Bords, Centre</i> | Définit le pivot pour le déplacement. |
+| <b>Filtrage</b> <i>Faux/Vrai</i> | Active le filtrage. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="stripes.resources/stripes-02.gif" />
+        </td>
+    </tr>
 </table>

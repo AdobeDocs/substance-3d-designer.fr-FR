@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dégradé axial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,29 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial.png){width="128px"}
+![](gradient-axial.resources/gradient-axial-01.png){width="128px"}
 
-## Dégradé axial
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Simple**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Crée une transition de dégradé en niveaux de gris entre deux points définis personnalisés. Permet de créer des dégradés linéaires sous n’importe quel angle, mais gardez à l’esprit que les résultats ne seront pas toujours au format mosaïque.
 
-## Paramètres
-
-### Paramètres
-
-* **Point 1** :\
-  Premier point de départ du dégradé (noir)
-* **Point 2** :\
-  Deuxième point pour terminer le dégradé à (blanc)
-* **Extension non carrée** : *Faux/Vrai*\
-  Activez la compensation de la courbure et de l’étirement avec des rapports non carrés.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Point 1</b> | Premier point de départ du dégradé (noir) |
+| <b>Point 2</b> | Deuxième point pour terminer le dégradé à (blanc) |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |

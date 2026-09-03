@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pièce de duplication
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: '456'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch.png){width="128px"}
+![](clone-patch.resources/clone-patch-01.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
+![](clone-patch.resources/clone-patch-02.png){width="128px"}
 
-## Pièce dupliquée/Pièce dupliquée en niveaux de gris
-
-**Entrée :** *Filtres de matière/Traitement de la numérisation*
-
-**Complexe**
+<b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -53,28 +49,25 @@ Il est également important de comprendre que vous pouvez déplacer la zone cibl
 > 
 > Pour les cas où vous souhaitez effectuer cette opération sur plusieurs entrées en même temps (sans qu&#39;il s&#39;agisse d&#39;un matériau), consultez [Pièce à plusieurs clones](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
-## Paramètres
-
-* **Est normal (uniquement pour la couleur)** : *Faux/Vrai*\
-  Définit si l&#39;entrée est une carte normale et si la fusion doit être traitée comme telle.
-* **Forme** : *Carré, disque* définit la forme du tampon. Utilisé uniquement comme base.
-* **Edge**
-  * **Seuil** : *0.0 - 1.0* Définit la distance que doit atteindre la zone fusionnée. Cette technique se développe par paliers le long des formes dans la zone cible et a très peu d’effet avec des arrière-plans uniformes*.*
-  * **Flou** :*0.0 - 2.0* Atténue les bords de la zone de tampon au cas où une transition plus douce serait nécessaire.
-  * **Smoothness** :*0.0 - 2.0* Arrondit les bords de la forme du tampon, ce qui permet d&#39;obtenir des contours plus fluides.
-  * **Résolution de la grille** : *1 - 11* définit la résolution de la qualité de l’analyse de fusion. Plus la valeur est élevée, plus la fusion est précise.
-* **Transformations**
-  * **Matrice source** : *(Matrice de transformation)*Transforme la source (Échelle et rotation). Ne peut pas être effectué sur la zone de travail, modifiez uniquement via ces paramètres.
-  * **Décalage source** : *-0.5 - 0.5* Traduit l&#39;emplacement de la source. Ne peut pas être effectué sur la zone de travail, modifiez uniquement via ces paramètres. *Ce paramètre est probablement le principal que vous souhaitez modifier !*
-  * **Matrice cible** : *(Matrice de transformation)*Transforme l&#39;emplacement cible (Échelle et rotation). Peut également être effectué via le widget sur la zone de travail.
-  * **Décalage cible** : *-0.5 - 0.5* Traduit l&#39;emplacement cible. Peut également être effectué via le widget sur la zone de travail.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Est normal (uniquement pour la couleur)</b> <i>Faux/Vrai</i> | Définit si l&#39;entrée est une carte normale et si la fusion doit être traitée comme telle. |
+| <b>Forme</b> <i>Carré, Disque</i> | Définit la forme du tampon. Utilisé uniquement comme base. |
+| <b>Edge</b> |  |
+| <b>Seuil</b> <i>0.0 - 1.0</i> | Définit l’étendue de la zone de fusion. Cette technique se développe par étapes, le long des formes dans la zone cible, et a très peu d&#39;effet avec des arrière-plans uniformes<i>.</i> |
+| <b>Flou</b> <i>0.0 - 2.0</i> | Atténue les bords de la zone de tampon au cas où une transition plus douce serait nécessaire. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Arrondit les bords de la forme du tampon pour créer des contours plus fluides. |
+| <b>Résolution de Grille</b> <i>1 - 11</i> | Définit la résolution de la qualité de l’analyse de fusion. Plus la valeur est élevée, plus la fusion est précise. |
+| <b>Transformations</b> |  |
+| <b>Matrice source</b> <i>(Matrice de transformation)</i> | Transforme la source (échelle et rotation). Ne peut pas être effectué sur la zone de travail, modifiez uniquement via ces paramètres. |
+| <b>Décalage source</b> <i>-0.5 - 0.5</i> | Translate l’emplacement source. Ne peut pas être effectué sur la zone de travail, modifiez uniquement via ces paramètres. <i>Ce paramètre est probablement le principal que vous souhaitez modifier !</i> |
+| <b>Matrice cible</b> <i>(Matrice de transformation)</i> | Transforme l’emplacement cible (échelle et rotation). Peut également être effectué via le widget sur la zone de travail. |
+| <b>Décalage cible</b> <i>-0.5 - 0.5</i> | Translate l’emplacement cible. Peut également être effectué via le widget sur la zone de travail. |

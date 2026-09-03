@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color temperature adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
 
-## Color temperature adjustment
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Règle la balance des couleurs de l’image d’entrée. Similaire au réglage de la balance des blancs en photographie. Peut être utilisé pour réchauffer ou refroidir les couleurs des images HDR qui ne sont pas essentielles.
-
-## Paramètres
-
-* **Température** : *-1,0 - 1,0*\
-  Déplacez les couleurs entre chaud et froid.
-* **Magenta-Vert** : *-1.0 - 1.0*\
-  Déplacez le ton entre le magenta et le vert.
-* **Espace colorimétrique** : *HDR (linéaire), LDR (sRVB)*Déterminez la façon dont l’espace colorimétrique de l’image d’entrée est interprété.
-
-## Exemples d’images
-
-![](../../../../../../assets/color-tempadjust-ex.gif)
+Règle la balance des couleurs de l’image d&#39;entrée. Similaire au réglage de la balance des blancs en photographie. Peut être utilisé pour réchauffer ou refroidir les couleurs des images HDR qui sont discrètes.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Température</b> <i>-1.0 - 1.0</i> | Déplacez les couleurs entre chaud et froid. |
+| <b>Magenta-Vert</b> <i>-1.0 - 1.0</i> | Déplacez le ton entre le magenta et le vert. |
+| <b>Espace colorimétrique</b> <i>HDR (linéaire), LDR (sRVB)</i> | Détermine l’interprétation de l’espace colorimétrique de l’image d&#39;entrée. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
+        </td>
+    </tr>
 </table>

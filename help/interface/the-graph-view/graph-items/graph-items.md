@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
-description: Découvrez les éléments de graphique dans Substance 3D Designer, notamment les cadres, les commentaires, les épingles et les nœuds de portail pour organiser les graphiques.
+description: Découvrez les éléments de graphe dans Substance 3D Designer, notamment les cadres, les commentaires, les épingles et les nœuds de portail pour organiser les graphes.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Éléments du graphe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -20,20 +20,20 @@ ht-degree: 7%
 
 # Éléments du graphe
 
-Les éléments de graphique sont des objets spéciaux qui vous aident à organiser vos graphiques, à améliorer leur lisibilité et à accélérer leur navigation.
+Les éléments de graphe sont des objets spéciaux qui vous aident à organiser vos graphes, à améliorer leur lisibilité et à accélérer leur navigation.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icône de nœud de point](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Icône de nœud de point](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nœud Point (également Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[Icône ![Image](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[Icône ![Cadre](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Cadre
 
@@ -60,14 +60,14 @@ Regroupez les nœuds avec libellé et code couleur, puis déplacez-les facilemen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icône de commentaire](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Icône de commentaire](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Commentaire
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icône d&#39;épingle de navigation](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Icône d&#39;épingle de navigation](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Épingle
 
@@ -79,12 +79,12 @@ Regroupez les nœuds avec libellé et code couleur, puis déplacez-les facilemen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Annotez votre graphique.
+Annotez votre graphe.
 
 </td>
 <td style="border: 0;" valign="top">
 
-Marquez les points d’intérêt dans votre graphique, puis accédez-y rapidement.
+Marquez les points d’intérêt dans votre graphe, puis accédez-y rapidement.
 
 </td>
 </tr>

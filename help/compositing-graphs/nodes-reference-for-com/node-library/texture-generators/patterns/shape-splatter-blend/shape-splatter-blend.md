@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forme Éclaboussure
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
@@ -22,43 +22,45 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
+![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
 
-## Forme Éclaboussure (Couleur)
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Complexe**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Prend les données d&#39;[éclaboussure de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) comme entrée pour générer des cartes de couleurs ou en niveaux de gris à partir de.
 
-## Paramètres
-
-* **Couleur D&#39;Arrière-Plan** : *Entrée De Couleur*
-* **Motif 1-8** : *Entrée de couleur*
-* **Entrée Couleur** :*Entrée Couleur*
-* **Données D&#39;Éclaboussures 1** : *Entrée Couleur*
-* **Données D&#39;Éclaboussures 2** : *Entrée Couleur*
-
-### Paramètres
-
-* **Numéro de motif** : *1 - 8*
-* **Attribution Aléatoire De Motif (Couleur Uniquement)** : *0.0 - 1.0*
-* **&#x200B; Correspond À La &#x200B;** De Mappage Normale (Couleur Uniquement)**&#x200B;** : *Faux/Vrai*
-* **Réglage TSL/Luminance** : *-1,0 - 1,0*
-* **HSL/Luminance aléatoire** : *-1.0 - 1.0*
-* **&#x200B; aléatoire d&#39;angle normal (couleur uniquement)**&#x200B;** : *0.0 - 1.0*
-* **Opacité d&#39;entrée de couleur** : *0.0 - 1.0*
-
-## Exemples d’images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Couleur d&#39;arrière-plan</b> <i>Entrée couleur</i> |  |
+| <b>Motif 1-8</b> <i>Entrée couleur</i> |  |
+| <b>Entrée couleur</b> <i>Entrée couleur</i> |  |
+| <b>Données d&#39;éclaboussures 1</b> <i>Entrée couleur</i> |  |
+| <b>Données d&#39;éclaboussures 2</b> <i>Entrée couleur</i> |  |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Numéro de motif</b> <i>1 - 8</i> |  |
+| <b>Attribution Aléatoire De Motif (Couleur Uniquement)</b> <i>0.0 - 1.0</i> |  |
+| <b>Est Une Map normal (Couleur Uniquement)</b> <i>Faux/Vrai</i> |  |
+| <b>Réglage TSL/Luminance</b> <i>-1.0 - 1.0</i> |  |
+| <b>TSL/Luminance aléatoire</b> <i>-1.0 - 1.0</i> |  |
+| <b>Angle Normal Aléatoire (Couleur Uniquement)</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacité d&#39;entrée de couleur</b> <i>0.0 - 1.0</i> |  |

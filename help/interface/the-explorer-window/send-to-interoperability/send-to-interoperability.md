@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Envoyer à...  Interopérabilité
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -20,16 +20,16 @@ ht-degree: 1%
 
 # Envoyer à...  Interopérabilité
 
-![Envoyer de Designer vers les applications Substance 3D](../../../assets/explorer-interop.png "Envoyer de Designer vers les applications Substance 3D"){width="512px"}
+![Envoyer de Designer vers les applications Substance 3D](send-to-interoperability.resources/send-to-interoperability-01.png "Envoyer de Designer vers les applications Substance 3D"){width="512px"}
 
 Adobe Substance 3D Designer est en interopérabilité avec [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) et [Substance 3D Stager](https://www.adobe.com/fr/products/substance3d-stager.html). Cela vous permet d&#39;*envoyer* et de *renvoyer* votre travail rapidement, ce qui facilite l&#39;itération dans l&#39;écosystème Substance 3D.
 
 Le workflow est généralement le suivant :
 
-1. Définir l&#39;attribut <b>Type</b> dans les [propriétés d&#39;un graphique à Substances](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. Dans le panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), sélectionnez le package que vous souhaitez envoyer
+1. Définir l&#39;attribut <b>Type</b> dans les [propriétés d&#39;un graphe de Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md)
+1. Dans le panneau [Explorateur](../the-explorer-window.md), sélectionnez le pack que vous souhaitez envoyer
 1. Dans la liste déroulante <b>Publish/Envoyer</b> de l&#39;Explorateur, sélectionnez l&#39;application cible
-1. Apporter des modifications aux graphiques
+1. Apporter des modifications aux graphes
 1. Répétez l’étape 3 pour renvoyer le package et mettre à jour la ressource envoyée existante avec vos modifications
 
 >[!WARNING]
@@ -49,7 +49,7 @@ Dans la section <b>Attributs </b> des [propriétés d&#39;un graphique en Substa
 </td>
 <td style="border: 0;" valign="top">
 
-Attribut Type du graphique en Substances![Attribut Type du graphique en Substances](../../../assets/type-attribute.jpg "Attribut Type du graphique en ")
+Attribut Type du graphique en Substances![Attribut Type du graphique en Substances](send-to-interoperability.resources/send-to-interoperability-02.jpg "Attribut Type du graphique en ")
 
 </td>
 </tr>
@@ -75,13 +75,13 @@ Le processus d&#39;envoi a impliqué la [publication](../../../compositing-graph
 
 L’envoi de contenu peut s’effectuer de la manière suivante :
 
-* Cliquez avec le bouton droit de la souris sur un package et ouvrez <b>Envoyer à...Sous-menu </b> dans le menu contextuel, puis sélectionnez <b>Envoyer à...option </b> pour l’application cible ;
-* Cliquez sur le bouton ![](../../../assets/sendto-icon.jpg) <b>Publish/Envoyer</b> en haut du panneau [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), puis choisissez <b>Envoyer à...Option </b> pour l’application cible.
+* Cliquez avec le bouton droit de la souris sur un pack et ouvrez le sous-menu <b>Envoyer à...</b> dans le menu contextuel, puis choisissez l’option <b>Envoyer à...</b> pour l’application cible ;
+* Cliquez sur le bouton ![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/Envoyer</b> en haut du panneau de l’Explorateur, puis choisissez l’option <b>Envoyer à...</b> pour l’application cible.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Publish/Envoyer vers dans l&#39;Explorateur](../../../assets/explorer-sendto-displayed.jpg "Publish/Envoyer vers dans l&#39;Explorateur")
+![Menu Publish/Envoyer vers dans l&#39;Explorateur](send-to-interoperability.resources/send-to-interoperability-04.jpg "Publish/Envoyer vers dans l&#39;Explorateur")
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Height d'échantillon spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-sample-height-icon.png "Icône de nœud")
+![Icône de nœud](spline-sample-height.resources/spline-sample-height-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -45,76 +41,43 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 </tr>
 </table>
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Aperçu</b> *Niveaux de gris* Aperçu des splines d&#39;entrée sous la forme d&#39;une image en niveaux de gris.
+## Entrées
 
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points des splines d&#39;entrée codées dans les couches RVBA d&#39;une image couleur :\
-<b> R</b> - Position X\
-<b> G</b> - Position Y\
-<b> B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> - signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Mappage de l&#39;Height</b> <i>Niveaux de gris</i> | Image en niveaux de gris d&#39;entrée utilisée pour modifier l&#39;height de la spline d&#39;entrée. |
 
-<b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Inutilisé\
-<b> A</b> - Inutilisé
+<a name="outputs"></a>
 
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines d&#39;entrée.
+## Sorties
 
-<b>Mappage de l&#39;Height</b> *Niveaux de gris* Image en niveaux de gris utilisée pour modifier l&#39;height de la spline d&#39;entrée.
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br> - Signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
 
-## Connecteurs de sortie
-
-<b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
-
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
-
-<b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
-
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Mode d&#39;échantillonnage</b> *Entier* Méthode de mappage des valeurs de l&#39;Height Mapper sur les splines :\
-*- Espace de texture* : les valeurs sont appliquées aux splines où elles se trouveraient si elles étaient placées dans une texture à l&#39;aide des coordonnées UV de la texture. Cela applique effectivement la valeur aux cannelures « en place »;\
-*- Horizontal le long de la spline* : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), où chaque ligne est appliquée à une spline différente de haut en bas ;\
-*- Heure. le long de la spline (rand. offset X)* : les valeurs sont appliquées directement aux coordonnées des splines codées (voir entrée Spline Coords), avec un décalage horizontal aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans Spline Coords);\
-*- Heure. le long de la spline (rand. décalage Y)* : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cœurs de spline), avec un décalage vertical aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cœurs de spline).
-
-<b>Opacité</b> *Variable* Multiplicateur de l&#39;intensité de la contribution de l&#39;entrée de courbe de transfert d&#39;Height à l&#39;height de la spline.<b></b>
-
-<b>Mode de fusion</b> *Entier* Méthode de fusion des données de la courbe de transfert d&#39;Height avec l&#39;height de la spline d&#39;entrée :\
-*- Copier* : remplacer l&#39;height de la spline par les valeurs de courbe de transfert d&#39;Height ;\
-*- Add* : ajoutez les valeurs de courbe d&#39;Height à l&#39;height de la spline ;\
-*- Soustraire* : soustrayez les valeurs de courbe d&#39;Height à l&#39;height de la spline ;\
-*- Multiplier* : multipliez les valeurs de courbe d&#39;Height par rapport à l&#39;height de la spline.
-
-+++Prévisualiser
-<b>Quantité de segments</b> *Nombre entier* Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.\
-Plus la valeur est élevée, plus la ligne est lisse.
-
-<b>Afficher l&#39;assistant de direction</b> *Booléen* Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu.
-
-<b>Afficher l&#39;enveloppe de Thickness</b> *Booléen*\
-Affiche des lignes supplémentaires sur les thickness de la spline.
-
-<b>Thickness (px)</b> *Flottant* Ajuste le thickness de la visualisation de la spline en pixels dans la sortie d&#39;aperçu.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Mode d&#39;échantillonnage</b> <i>Nombre entier</i> | Méthode de mappage des valeurs de la Map height aux splines :<br>- <i>espace de Texture</i> : les valeurs sont appliquées aux splines où elles se trouveraient si elles étaient placées dans une texture à l&#39;aide des coordonnées UV de la texture. Cela applique efficacement la valeur aux splines « en place »;<br>- <i>Horizontalement le long de la spline</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), où chaque ligne est appliquée à une spline différente de haut en bas ;<br>- <i>Heure. le long de la spline (rand. offset X)</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), avec un décalage horizontal aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cordons de spline);<br>- <i>Hor. le long de la spline (rand. décalage Y)</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cœurs de spline), avec un décalage vertical aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cœurs de spline). |
+| <b>Opacité</b> <i>Flottant</i> | Multiplicateur de l&#39;intensité de la contribution de la Map height à l&#39;height de la spline. |
+| <b>Mode de fusion</b> <i>Nombre entier</i> | Méthode de fusion des données de la Map height avec l&#39;height de la spline d&#39;entrée :<br>- <i>Copier</i> : remplacer l&#39;height de la spline par les valeurs de Map height ;<br>- <i>Ajouter</i> : ajouter les valeurs de Map height à l&#39;height de la spline ;<br>- <i>Subtract</i> : valeurs de Subtract à l&#39;Map height de la spline ;<br>- <i>Multiplier</i> : multiplier les valeurs de height par rapport à l&#39;Map height de la spline. |
+| <b>Aperçu</b> |  |
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Afficher l&#39;enveloppe de Thickness</b> <i>Booléen</i> | Affiche des lignes supplémentaires sur les thickness de la spline. |
+| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
 
 ## Exemples
 
@@ -125,11 +88,11 @@ Affiche des lignes supplémentaires sur les thickness de la spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -141,11 +104,11 @@ Affiche des lignes supplémentaires sur les thickness de la spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Après</i>
     </td>
   </tr>
@@ -159,26 +122,12 @@ Affiche des lignes supplémentaires sur les thickness de la spline.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-sample-height.resources/spline-sample-height-05.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Exemple de nœud 2")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Exemple de nœud 2](spline-sample-height.resources/spline-sample-height-06.gif "Exemple de nœud 2")
 
 </td>
 </tr>

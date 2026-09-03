@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,85 +22,71 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extend-shape-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extend-shape-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**Entrée :** Filtres*/Effets*
-
-**Simple**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Extend Shape** étend une *section* de l&#39;**entrée** sur une direction et une distance définies.
+Le nœud <b>Extend Shape</b> étend une <i>section</i> de l&#39;<b>entrée</b> sur une direction et une distance définies.
 
-Le paramètre **Afficher l&#39;assistant** vous permet de visualiser la section étendue et la direction de l&#39;extension.
+Le paramètre <b>Afficher l&#39;assistant</b> vous permet de visualiser la section étendue et la direction de l&#39;extension.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Mode** *Entier* Définit les *paramètres* utilisés pour appliquer l&#39;extension :
-  * *Bidirectionnelle* : la section de l&#39;**entrée** spécifiée par **position d&#39;extension** et **angle d&#39;extension** est étendue sur la **distance d&#39;extension** dans *des directions opposées*
-  * *Unidirectionnelle* : la section de l&#39;**entrée** spécifiée par **position d&#39;extension** et **angle d&#39;extension** est étendue sur la **distance d&#39;extension** dans une *direction unique*
-  * *Positions de début/fin* : une extension *vectorielle* est définie par **Position de début** et **Position de fin**. La section *perpendiculaire* de l&#39;**entrée** à la **position de départ** est étendue *sur ce vecteur* jusqu&#39;à la **position de fin**
-* **Distance d&#39;extension** *Flotter* La distance sur laquelle la section spécifiée par **Position d&#39;extension** et **Angle d&#39;extension** doit être étendue. La distance est exprimée en *proportion* de l&#39;étendue d&#39;image.
-* **Position d&#39;extension** *Flotter* La position dans l&#39;image de la section qui doit être étendue. La valeur est exprimée en un *décalage par rapport au centre*.
-* **Angle d&#39;extension** *Flottant* L&#39;angle de la section qui doit être étendue, compte tenu du point de départ, est une *section verticale*.
-* **Position de départ** *Float2* Position de départ du *vecteur d&#39;extension*.
-* **Position de fin** *Float2* La position de fin du *vecteur d&#39;extension*.
-* **Décalage de luminance de début** *Flottant* Applique un décalage de luminance à la zone de l&#39;image *précédant* la section étendue. Ce décalage de luminance est *interpolé le long de la section* à la luminance de la zone de l&#39;image suivant la section.\
-  *Remarque* : ce paramètre est uniquement disponible dans la version **en niveaux de gris** du nœud.
-* **Décalage de luminance de fin** *Flottant* Applique un décalage de luminance à la zone de l&#39;image *suivant* la section étendue. Ce décalage de luminance est *interpolé le long de la section* à la luminance de la zone de l&#39;image précédant la section.\
-  *Remarque* : ce paramètre est uniquement disponible dans la version **en niveaux de gris** du nœud.
-* **Lum. Le décalage ignore les pixels noirs** *booléens* Lorsque cette option est définie sur *True*, les décalages de luminance spécifiés dans *Décalage de luminance de début *** et** Décalage de luminance de fin **ne sont appliqués qu&#39;à des pixels *non noirs*, c&#39;est-à-dire des pixels dont la valeur est supérieure à 0.**\
-  *Remarque* : ce paramètre est uniquement disponible dans la version **en niveaux de gris** du nœud.
-* Le **mode de filtrage** *entier* définit comment traiter les résultats échantillonnés lors de l&#39;*interpolation* entre les pixels :
-  * *Nearest* : échantillonnera exactement la *même* valeur (plus rapide)
-  * *Bilinéaire* : appliquera un filtre bilinéaire au résultat pour un aspect *plus lisse*
-* **Afficher l&#39;assistant** *booléen* Visualisez la *section étendue* sous la forme d&#39;une incrustation avec des flèches indiquant la *direction* de l&#39;extension.
+|  |  |
+|:---|:---|
+| <b>Mode</b> <i>Nombre entier</i> | Définit les <i>paramètres</i> utilisés pour appliquer l&#39;extension :<br><br>- <i>Bidirectionnel</i> : la section de l&#39;<b>entrée</b> spécifiée par les <b>position d&#39;extension</b> et <b>angle d&#39;extension</b> est étendue sur la <b>distance d&#39;extension</b> dans des <i>directions opposées</i><br>-<i>unidirectionnelles</i> : la section de l&#39;<b>entrée</b> spécifiée par les <b>position d&#39;extension</b> et <b>extension L&#39;angle</b> est étendu sur la <b>distance d&#39;extension</b> dans une <i>direction unique</i><br>-<i>positions de début/fin</i> : une extension <i>vectorielle</i> est définie par <b>position de début</b> et <b>position de fin</b>. La section <i>perpendiculaire</i> de l&#39;<b>entrée</b> à la <b>position de départ</b> est étendue <i>sur ce vecteur</i> jusqu&#39;à la <b>position de fin</b> |
+| <b>Distance d&#39;extension</b> <i>Flotter</i> | Distance sur laquelle la section spécifiée par <b>Position d&#39;extension</b> et <b>Angle d&#39;extension</b> doit être étendue. La distance est exprimée en <i>proportion</i> de l&#39;étendue d&#39;image. |
+| <b>Position de l&#39;extension</b> <i>Flotter</i> | La position dans l&#39;image de la section qui doit être étendue. La valeur est exprimée en un <i>décalage par rapport au centre</i>. |
+| <b>Angle d&#39;extension</b> <i>Flotter</i> | L&#39;angle de la section qui doit être étendue, en considérant le point de départ est une <i>section verticale</i>. |
+| <b>Position de départ</b> <i>Float2</i> | Position de début du <i>vecteur d&#39;extension</i>. |
+| <b>Position de fin</b> <i>Float2</i> | Position de fin du <i>vecteur d&#39;extension</i>. |
+| <b>Décalage de la Luminance de début</b> <i>Flotter</i> | Applique un décalage de luminance à la zone de l&#39;image <i>précédant</i> la section étendue. Ce décalage de luminance est <i>interpolé le long de la section</i> jusqu&#39;à la luminance de la zone de l&#39;image qui suit la section.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que dans la version en <b>niveaux de gris</b> du nœud. |
+| <b>Décalage de la Luminance de fin</b> <i>Flotter</i> | Applique un décalage de luminance à la zone de l&#39;image <i>suivant</i> la section étendue. Ce décalage de luminance est <i>interpolé le long de la section</i> jusqu&#39;à la luminance de la zone de l&#39;image précédant la section.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que dans la version <b>en niveaux de gris</b> du nœud. |
+| <b>Lum. Le décalage ignore les pixels noirs</b> <i>Booléen</i> | Lorsqu&#39;elle est définie sur <i>True</i>, les décalages de luminance spécifiés dans <i>les deux</i> Le <b>décalage de la Luminance de début</b> et le <b>décalage de la Luminance de fin</b> sont uniquement appliqués aux <i>pixels non noirs</i>, c&#39;est-à-dire aux pixels dont la valeur est supérieure à 0.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que dans la version en <b>niveaux de gris</b> du nœud. |
+| <b>Mode de filtrage</b> <i>Nombre entier</i> | Définit le traitement des résultats échantillonnés lors de l&#39;<i>interpolation</i> entre les pixels :<br><br>-<i>Nearest</i> : échantillonnera exactement la <i>même</i> valeur (plus rapide)<br>-<i>Bilinéaire</i> : appliquera un filtre bilinéaire sur le résultat pour un aspect <i>plus lisse</i> |
+| <b>Afficher l&#39;Assistant</b> <i>Booléen</i> | Visualisez la <i>section étendue</i> sous forme d&#39;incrustation avec des flèches indiquant la <i>direction</i> de l&#39;extension. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/extendshape-node.png){width="360px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="extend-shape.resources/extend-shape-06.png" />
+        </td>
+    </tr>
 </table>

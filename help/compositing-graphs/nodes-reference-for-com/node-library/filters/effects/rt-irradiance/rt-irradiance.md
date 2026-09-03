@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Irradiance RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -22,56 +22,61 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
 
-**Entrée :** *Filtres/Effets*
-
-**Complexe**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Génère une irradiance par lancer de rayons sur une entrée de carte d&#39;height générée à partir d&#39;une carte d&#39;environnement et d&#39;une carte émissive. Peut être utilisé pour « transformer » l’éclairage en texture à l’intérieur d’un graphique. Utilisé pour de faux éclairages et lueurs globaux.Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en raison du temps de calcul. Renvoie deux cartes : une sortie d&#39;irradiance où l&#39;irradiance est appliquée aux entrées de matière, une carte d&#39;irradiance brute contenant uniquement les valeurs d&#39;irradiance calculées.
+Génère une irradiance avec lancer de rayon sur une entrée de map height générée à partir d&#39;une map d&#39;environnement et d&#39;une carte emissive. Peut être utilisé pour « transformer » l’éclairage en texture à l’intérieur d’un graphique. Utilisé pour de faux éclairages et lueurs globaux.Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en raison du temps de calcul. Renvoie deux cartes : une sortie d’irradiance où l’irradiance est appliquée aux entrées de matériau, une carte d’irradiance brute contenant uniquement les valeurs d’irradiance calculées.
 
 </td>
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Entrée en niveaux de gris</i> | L&#39;Height est la seule entrée requise de l&#39;emplacement de matériau. Sans lui, le nœud ne fonctionnera pas bien. |
+| <b>Émissif</b> <i>Entrée de couleur</i> | L’Emissive doit être dans un format où le noir pur n’émet aucune lumière, toute autre valeur colorée émettant de la lumière. Alpha ignoré. Une connexion à cet emplacement ou à l&#39;emplacement de l&#39;environnement est requise pour voir le résultat. |
+| <b>Environnement</b> <i>Entrée couleur</i> | Environnement d’éclairage HDR pour calculer l’irradiance avec. Une connexion à cet emplacement ou à l&#39;emplacement d&#39;Emissive est requise pour voir les résultats. |
+
+<a name="parameters"></a>
+
 ## Paramètres
 
-### Entrées
+|  |  |
+|:---|:---|
+| <b>Échelle d&#39;Height</b> <i>0.0 - 1.0</i> | Redimensionnez pour interpréter l’height à. Affecte l’aspect de la scène entière. |
+| <b>Qualité</b> <i>32 rayons, 64 rayons, 128 rayons</i> | Détermine la qualité du résultat, mais affecte également les performances. Moins de rayons signifie plus de bruit. |
+| <b>Calculer les rebonds</b> <i>Faux/Vrai</i> | Activer/désactiver le calcul des rebonds. Affecte la qualité et la vitesse. |
+| <b>Rotation de l&#39;environnement</b> <i>0.0 - 1.0</i> | Faites pivoter l&#39;environnement autour. |
+| <b>Exposition à l&#39;environnement (EV)</b> <i>-4.0 - 4.0</i> | Valeur d’exposition à utiliser pour l’environnement, qui affecte la luminosité totale de l’effet. |
+| <b>Intensité émissive</b> <i>0.0 - 20.0</i> | Multiplicateur pour l&#39;entrée émissive, affecte la force d&#39;irradiation de l&#39;entrée émissive. |
+| <b>Espace colorimétrique Emissive</b> <i>sRVB, linéaire</i> | Espace colorimétrique utilisé pour interpréter l’entrée Intensive. |
+| <b>Ombres IBL dans l&#39;Alpha d&#39;irradiation brute</b> <i>Faux/Vrai</i> | Activez/désactivez l’option Ajouter des ombres au masque |
+| <b>Biais LOD Emissive</b> <i>-1.0 - 1.0</i> | Affinez la qualité de l&#39;irradiance emissive. Une valeur faible signifie plus de bruit. |
 
-* **Height :** *Entrée en niveaux de gris* L&#39;Height est la seule entrée requise à partir de l&#39;emplacement Matériau. Sans lui, le nœud ne fonctionnera pas bien.
-* **Émissif :** *L&#39;entrée de couleur*&#x200B;Émissif doit être dans un format où le noir pur n&#39;émet pas de lumière, toute autre valeur colorée émet de la lumière. Alpha ignoré. Une connexion à cet emplacement ou à l&#39;emplacement de l&#39;environnement est requise pour voir le résultat.
-* **Environnement** : *Entrée Couleur*\
-  Environnement d’éclairage HDR pour calculer l’irradiance avec. Une connexion à cet emplacement, ou à l&#39;emplacement Emissive, est requise pour voir le résultat.
+## Exemples
 
-### Paramètres
-
-* **Échelle D&#39;Height** : *0.0 - 1.0*\
-  Redimensionnez pour interpréter l’height à. Affecte l’aspect de toute la scène.
-* **Qualité** : *32 rayons, 64 rayons, 128 rayons*\
-  Détermine la qualité du résultat, mais affecte également les performances. Moins de rayons signifie plus de bruit.
-* **Rebonds de calcul** : *Faux/Vrai*\
-  Activer/désactiver le calcul des rebonds. Affecte la qualité et la vitesse.
-* **Rotation de l&#39;environnement** : *0.0 - 1.0*\
-  Faites pivoter l&#39;environnement autour.
-* **Exposition à l’environnement (EV)** : *-4.0 - 4.0*\
-  Valeur d’exposition à utiliser pour l’environnement, qui affecte la luminosité totale de l’effet.
-* **Intensité émissive** : *0.0 - 20.0*\
-  Multiplicateur pour l&#39;entrée émissive, affecte la force d&#39;irradiation de l&#39;entrée émissive.
-* **Espace colorimétrique émissif** : *sRVB, linéaire*\
-  Espace colorimétrique utilisé pour interpréter l’entrée Intensive.
-* **Ombres IBL dans l&#39;Alpha d&#39;irradiation brute** : *Faux/Vrai*\
-  Activez/désactivez l’option Ajouter des ombres au masque
-* **Biais de charge émissive** : *-1.0 - 1.0* Qualité du réglage de l&#39;irradiance émissive. Une valeur faible signifie plus de bruit.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-irr-03-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/rt-irr-01-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/rt-irr-02-1.jpg" width="300px"/></div> |
-| --- | --- | --- |
-|  |  |  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
+        </td>
+    </tr>
+</table>

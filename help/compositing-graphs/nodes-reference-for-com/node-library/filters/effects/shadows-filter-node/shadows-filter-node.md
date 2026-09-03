@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de filtre Ombres pour générer des effets d’ombre à partir des textures d’entrée afin d’ajouter de la profondeur et du réalisme aux matières.
+description: Utilisez le noeud de filtrage Ombres pour générer des effets d’ombre à partir de textures de saisie afin d’ajouter de la profondeur et du réalisme aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)
 helpx_experience_level: ""
@@ -10,50 +10,54 @@ helpx_tags: ""
 title: Tons foncés (nœud de filtre)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 2%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
 
-# Tons foncés (nœud de filtre)
+# Tons foncés (Noeud de filtrage)
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
 
-## Ombres
-
-**Entrée :** *Filtres/Effets*
-
-**Simple**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Version brute en niveaux de gris uniquement du nœud [Shape Drop Shadow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md). Il prend uniquement une forme binaire en noir et blanc comme entrée et renvoie uniquement l’ombre.
 
-Peut être utile si vous êtes juste après l&#39;ombre et que vous ne souhaitez pas travailler avec un nœud plus complet, par exemple lors de la construction de votre propre matériau ou éclairage cuit.
-
-## Paramètres
-
-* **Distance de l&#39;ombre** : *0,0 - 1,0* contrôle la distance à laquelle l&#39;ombre doit tomber.
-* **Angle de la lumière** : *0,0 - 1,0* contrôle l&#39;angle d&#39;incidence de la lumière.
-* **Lissage des contours** :*0.0 - 1.0* détermine la dureté ou le flou des contours des ombres.
-* **Échantillons** : *1 - 16* définit la qualité du paramètre Lissage des contours.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
-| --- |
-|  |
+Peut être utile si vous êtes juste après l&#39;ombre et que vous ne souhaitez pas travailler avec un nœud plus complet, par exemple lors de la construction de votre propre matériau ou de l&#39;éclairage baké.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Distance de l&#39;ombre</b> <i>0.0 - 1.0</i> | Détermine la distance sur laquelle l’ombre doit tomber. |
+| <b>Angle de la lumière</b> <i>0.0 - 1.0</i> | Contrôle l’angle d’incidence de la lumière. |
+| <b>Lissage Des Bords</b> <i>0.0 - 1.0</i> | Détermine la dureté ou la douceur des contours des ombres. |
+| <b>Exemples</b> <i>1 - 16</i> | Définit la qualité du paramètre Lissage des contours. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
+        </td>
+    </tr>
 </table>

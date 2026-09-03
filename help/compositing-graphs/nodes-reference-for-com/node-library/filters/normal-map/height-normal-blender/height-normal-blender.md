@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mélangeur Height normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
 
-## Mélangeur Height normal
-
-**Entrée :** *Filtres/Mappage de normales*
-
-**Simple**
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,27 +37,24 @@ Nœud de raccourci qui fusionne une image en niveaux de gris en hauteur sur une 
 
 Il s&#39;agit d&#39;un moyen plus rapide de fusionner les détails que de le faire manuellement avec des nœuds distincts, mais vous pourriez trouver qu&#39;il manque un peu de contrôle et d&#39;affinement pour certains besoins.
 
-## Paramètres
-
-### Entrées
-
-* **Height** : *Entrée en niveaux de gris*\
-  Fusion de la hauteur des niveaux de gris
-* **Normal** : *Entrée Couleur*\
-  Fond normal sur lequel fusionner.
-
-### Paramètres
-
-* **Intensité normale** : *0.0 - 16.0* Intensité de la conversion normale de l&#39;entrée d&#39;Height.
-* **Format normal** : *DirectX, OpenGL*\
-  Bascule entre différents formats de mappage normal (inverse la couche verte).
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Entrée en niveaux de gris</i> | Fusion de la hauteur des niveaux de gris |
+| <b>Normal</b> <i>Entrée couleur</i> | Fond normal sur lequel fusionner. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Intensité normale</b> <i>0.0 - 16.0</i> | Intensité de la conversion normale de l&#39;entrée Height. |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |

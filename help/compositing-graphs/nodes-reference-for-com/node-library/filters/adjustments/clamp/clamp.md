@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Verrouiller
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-01.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-02.png){width="128px"}
 
-## Clamp (Niveaux de gris)
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Rattache les valeurs d’entrée aux limites définies.
 
-## Paramètres
-
-* **Min** : *0,0 -* 1,0\
-  Limite inférieure de pince.
-* **Max** : *0,0 - 1,0* limite supérieure de pince.
-* **Appliquer à l&#39;Alpha** : *Faux/Vrai* (version couleur uniquement)\
-  Indiquez si le verrouillage doit également être appliqué à l’alpha.
-
-## Exemples d’images
-
-![](../../../../../../assets/clamp.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Min</b> <i>0.0 - 1.0</i> | Limite inférieure de pince. |
+| <b>Max</b> <i>0.0 - 1.0</i> | Limite supérieure de pince. |
+| <b>Appliquer à l&#39;Alpha</b> <i>Faux/Vrai</i> (version couleur uniquement) | Indiquez si le verrouillage doit également être appliqué à l’alpha. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clamp.resources/clamp-03.gif" />
+        </td>
+    </tr>
 </table>

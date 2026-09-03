@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nœud du quadrant
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -76,15 +76,15 @@ Ce paramètre peut être contrôlé avec une fonction dynamique.
 
 ### Hériter aléatoirement
 
-Si la valeur est Oui, la valeur de départ du générateur de nombres aléatoires est héritée du nœud précédent du graphique (c&#39;est-à-dire le nœud situé au-dessus de celui-ci dans l&#39;arbre quadruple). S&#39;il s&#39;agit du premier nœud, il prend sa valeur de départ aléatoire du [graphique de Substance](../../../compositing-graphs/substance-compositing-graphs.md).
+Si la valeur est Oui, la valeur de départ du générateur de nombres aléatoires est héritée du nœud précédent dans le graphe (c&#39;est-à-dire le nœud situé au-dessus de celui-ci dans l&#39;arbre quadruple). S&#39;il s&#39;agit du premier nœud, il prend sa valeur de départ aléatoire du [graphique de Substance](../../../compositing-graphs/substance-compositing-graphs.md).
 
 ## Motifs
 
-Chaque nœud de quadrant peut éventuellement ajouter une image à la FX-Map finale.
+Chaque nœud de quadrant peut éventuellement ajouter une image au FX-Map final.
 
 Par défaut, l’option Aucun motif est sélectionnée et aucune image n’est rendue. Le nœud de quadrant ne fait que subdiviser l&#39;image FX-Map, la divisant en quatre pour le nœud suivant de la chaîne.
 
-L&#39;option suivante, *Image d&#39;entrée*, consiste à utiliser une image fournie au nœud FX-Map. Le nœud FX-Map accepte les images en couleurs ou en niveaux de gris à utiliser comme arrière-plan ou en remplacement de l’un des motifs intégrés. Notez que le nœud de quadrant ne peut effectuer le rendu d’une image d’entrée en niveaux de gris que dans une FX-Map en niveaux de gris, et inversement, il ne peut effectuer le rendu d’une image d’entrée en couleurs que dans une FX-Map en couleurs. Si vous souhaitez mélanger les types de couleurs, vous devez convertir vos entrées avant dans le graphique.
+L&#39;option suivante, *Image d&#39;entrée*, consiste à utiliser une image fournie au nœud FX-Map. Le nœud FX-Map accepte la couleur ou les images en niveaux de gris à utiliser comme arrière-plan ou en remplacement de l’un des motifs intégrés. Notez que le nœud de quadrant ne peut effectuer le rendu d’une image d’entrée en niveaux de gris que dans une FX-Map en niveaux de gris, et inversement, il ne peut effectuer le rendu d’une image d’entrée en couleurs que dans une FX-Map en couleurs. Si vous souhaitez mélanger les types de couleurs, vous devez convertir vos entrées avant dans le graphique.
 
 Enfin, vous pouvez choisir parmi l&#39;un des motifs intégrés : Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Gradation, Ondes, Demi-cloche, Cloche striée, Croissant et Capsule.
 
@@ -102,12 +102,12 @@ Le paramètre Variation de motif ajuste une fonction définie du motif.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

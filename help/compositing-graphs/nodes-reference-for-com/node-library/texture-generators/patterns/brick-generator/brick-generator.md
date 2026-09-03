@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Générateur de briques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator-01.png){width="128px"}
 
-## Générateur de briques
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,26 +37,35 @@ Générateur de motif de briques avancé. Propose de nombreuses options pour gé
 
 Pour plus d&#39;options, voir [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
-## Paramètres
-
-* **Briques** : *1 - 64* définit la quantité de briques dans les axes X et Y.
-* **Biseau** :*0.0 - 1.0* Modifie le profil de biseau des briques, permet de le modifier dans deux directions, ainsi que de définir le profil de retrait et l’arrondi des angles.
-* **Conserver le rapport** :*Faux/Vrai* Le profil en biseau est lié ou non à la taille de la brique.
-* **Espace** :*0,0 - 1,0* Espace à laisser entre les briques. Gardez à l’esprit que Biseau introduit également un espace. Par conséquent, définir également des biseaux signifie que vous devez compenser avec ce paramètre.
-* **Taille moyenne** : *0,0 - 1,0* décalage du motif de brique, modifie la taille d&#39;une colonne ou d&#39;une ligne sur deux.
-* **Height** : *-1.0 - 1.0* Modifie les profils d&#39;height. Permet l’introduction de la variation de luminance et toutes sortes de randomisation.
-* **Pente** : *-1.0 - 1.0* Introduit une pente par brique, comme si certaines briques étaient inclinées.
-* **Décalage** : *0,0 - 1,0*\
-  Décale les briques par ligne et affecte l’espacement par ligne.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-![](../../../../../../assets/brick-generator-ex-01.gif)
-
-![](../../../../../../assets/brick-generator-ex-02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Briques</b> <i>1 - 64</i> | Définit la quantité de briques dans les axes X et Y. |
+| <b>Biseau</b> <i>0.0 - 1.0</i> | Modifie le profil de biseau des briques, permet de le modifier dans deux directions et définit le profil de retrait et l’arrondi des angles. |
+| <b>Conserver le rapport</b> <i>Faux/Vrai</i> | Rend le profil de biseau lié ou non à la taille de la brique. |
+| <b>Écart</b> <i>0.0 - 1.0</i> | Espace à laisser entre les briques. Gardez à l’esprit que Biseau introduit également un espace. Par conséquent, définir également des biseaux signifie que vous devez compenser avec ce paramètre. |
+| <b>Taille moyenne</b> <i>0.0 - 1.0</i> | Décalage du motif de brique, modifie la taille d’une colonne ou ligne sur deux. |
+| <b>Height</b> <i>-1.0 - 1.0</i> | Modifie les profils d’height. Permet l’introduction de la variation de luminance et toutes sortes de randomisation. |
+| <b>Pente</b> <i>-1.0 - 1.0</i> | Introduit une pente par brique, comme si certaines briques étaient inclinées d’un certain angle. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Décale les briques par ligne et affecte l’espacement par ligne. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="brick-generator.resources/brick-generator-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="brick-generator.resources/brick-generator-03.gif" />
+        </td>
+    </tr>
 </table>

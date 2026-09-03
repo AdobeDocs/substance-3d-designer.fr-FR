@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Instances de graphiques et sous-graphes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instances de graphiques et sous-graphes
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 Les instances de graphiques sont des nœuds qui <b>référencent un autre graphique</b>. Un graphique référencé par un nœud d&#39;instance dans un graphique hôte peut être appelé un <b>sous-graphe</b> du graphique hôte.
 
@@ -58,18 +58,18 @@ Notez que si les concepts d&#39;instance de graphique et de sous-graphe s&#39;ap
 
 ### Puis-je ajouter mes propres instances de graphique à la bibliothèque de nœuds ?
 
-<b>Oui, c&#39;est possible </b>mais cela nécessite une configuration spécifique. Pour en savoir plus, consultez la page [Gestion du contenu et des filtres personnalisés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) de cette documentation.
+<b>Oui, c&#39;est possible </b>mais cela nécessite une configuration spécifique. Pour en savoir plus, consultez la page [Gestion du contenu et des filtres personnalisés](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) de cette documentation.
 
 ### Pouvez-vous inspecter le graphique source d’une instance de graphique ?
 
-![(coche)](../../../assets/check.svg) Oui, et *uniquement* pour les instances de graphiques chargées à partir d&#39;un fichier **Substance 3D (SBS)**. Ces nœuds d&#39;instance ont un libellé *rouge foncé*.\
+![(coche)](graph-instances-sub-graphs.resources/check.svg) Oui, et *uniquement* pour les instances de graphiques chargées à partir d&#39;un fichier **Substance 3D (SBS)**. Ces nœuds d&#39;instance ont un libellé *rouge foncé*.\
 Cliquez avec le bouton droit sur le nœud pour ouvrir son menu contextuel et sélectionnez l&#39;option **Ouvrir la référence**.
 
 >[!NOTE]
 >
 > Lors de l&#39;inspection du graphique source, vous pouvez utiliser les données d&#39;entrée du graphique de l&#39;instance si l&#39;option **Édition contextuelle** est *cochée* dans la section **Graphique** des [Préférences](../../../interface/preferences-window/preferences-window.md).
 
-![(moins)](../../../assets/forbidden.svg) Il n&#39;est *pas* possible d&#39;inspecter les graphiques chargés à partir d&#39;**instances de ressources Substance 3D (SBSAR)**, car ceux-ci sont déjà compilés. Vous ne pouvez charger la ressource que dans le panneau **Explorateur** pour inspecter la liste des graphiques exposés et leurs paramètres. Ces nœuds d&#39;instance ont un libellé *vert*.\
+![(moins)](graph-instances-sub-graphs.resources/forbidden.svg) Il n&#39;est *pas* possible d&#39;inspecter les graphiques chargés à partir d&#39;**instances de ressources Substance 3D (SBSAR)**, car ceux-ci sont déjà compilés. Vous ne pouvez charger la ressource que dans le panneau **Explorateur** pour inspecter la liste des graphiques exposés et leurs paramètres. Ces nœuds d&#39;instance ont un libellé *vert*.\
 Cliquez avec le bouton droit sur le nœud pour ouvrir son menu contextuel et sélectionnez l&#39;option **Charger le package**.
 
 >[!NOTE]

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/voronoi.png){width="200px"}
+![](voronoi.resources/voronoi-01.png){width="200px"}
 
-**Entrée :** *Générateurs De Textures* */Bruits*
-
-**Intermédiaire**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -47,96 +45,50 @@ Ce nœud peut être testé avec [Cube GBuffers](../../../../../../compositing-gr
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Inverser** *Booléen*\
-  Inverse l’image de sortie.
-* **Échelle** *Flottant*\
-  Contrôle l’échelle du bruit de Voronoï.\
-  *Remarque* : lorsque la fonctionnalité **Mosaïque** est activée sur *n&#39;importe quel axe*, l&#39;ajustement de l&#39;échelle est *gradué*. C&#39;est ce qui est attendu.
-* **Taille** *Float3*\
-  Contrôle la taille du bruit de Voronoï sur les axes **X**, **Y** et **Z**. Les valeurs non uniformes entraînent un effet d&#39;*étirement ou de compression*.\
-  *Remarque* : lorsque la **mosaïque** est activée sur *n&#39;importe quel axe*, le réglage de la taille est *par paliers*. C&#39;est ce qui est attendu.
-* **Décalage** *Float3*\
-  Applique un décalage à la *position* du bruit de Voronoï sur les axes **X**, **Y** et **Z**.
-* **Désordre** *Float3*\
-  Intensité du *décalage aléatoire* appliqué à chaque point du bruit sur les axes **X**, **Y** et **Z**.
-* **Intensité de la Distorsion** *Flottant*\
-  Contrôle l&#39;intensité d&#39;un *effet de déformation* appliqué sur le bruit de Voronoï.
-* **Multiplicateur D&#39;Échelle De Distorsion** *Flottant*\
-  Contrôle l&#39;échelle du *motif de déformation* utilisé dans l&#39;effet de déformation contrôlé par l&#39;**intensité de la Distorsion**.
-* **Courbe Arrondie** *Flottant*\
-  Arrondit la *pente* autour de chaque point du bruit pour le rendre *convexe*.\
-  *Remarque* : ce paramètre n&#39;est pas disponible lorsque le paramètre **Style** est défini sur *Edge*.
-* **Échelle de distance** *Flottant*\
-  Ajuste la *distance du dégradé* autour de chaque point du bruit.
-* **Mode Distance** *Nombre entier*\
-  Définit la méthode pour *calculer le gradient de distance* autour de chaque point du bruit :
-  * *Euclidéen*
-  * *Manhattan*
-  * *Tchebychev*
-  * *Minkowski*
-* **Nombre de Minkowski** *Flottant*\
-  Ordre *p* de la distance de Minkowski. Si nous divisons le dégradé de distance en quadrants, ce nombre a l&#39;impact suivant sur ces quadrants :
-  * p est *exactement* 1 : droit
-  * p est *inférieur* à 1 : concave
-  * p est *supérieur* à 1 : convexe\
-    Valeurs intéressantes :\
-    *-1.0* : distance de Manhattan\
-    *-2.0* : distance euclidienne\
-    *- Infini* : distance de Tchebychev\
-    *Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Mode distance** est défini sur *Minkowski*.
-* **Style** *Entier* Définit la méthode *de rendu des données* du bruit de Voronoï, en tenant compte du fait que le bruit est basé sur un ensemble de points dans l&#39;espace :
-  * *F1* : distance jusqu&#39;au *point le plus proche* dans l&#39;espace
-  * *F2* : distance jusqu&#39;au *deuxième point le plus proche* dans l&#39;espace
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Bord *: le* bord entre chaque cellule* du bruit dans l&#39;espace
-  * *Couleur aléatoire* : attribuez une *couleur plate aléatoire* à chaque cellule du bruit dans l&#39;espace
-* **Thickness des contours** *Flotter* Ajuste le thickness des contours détectés entre les cellules du bruit de Voronoï. Les arêtes sont détectées dans les axes X, Y et Z, de sorte que certaines épaisseurs peuvent augmenter plus rapidement que d&#39;autres en fonction de la *profondeur* des cellules.\
-  *Remarque* : ce paramètre est uniquement disponible lorsque le paramètre **Style** est défini sur *Edge*.
-* **Mode générateur de couleurs aléatoire** *Entier*\
-  Définit la méthode d&#39;*acquisition* de la valeur de départ aléatoire pour la sélection de couleur par cellule :
-  * *Valeur de départ aléatoire globale* : utilisez la valeur de départ *héritée* par le nœud
-  * *Valeur initiale manuelle* : utilisez une valeur initiale *discrète*\
-    *Remarque* : ce paramètre est uniquement disponible lorsque le paramètre **Style** est défini sur *Couleur aléatoire*.
-* **Générateur De Couleurs Aléatoire** *Nombre Entier*\
-  Valeur de départ aléatoire discrète qui doit être utilisée pour la sélection de couleur par cellule.\
-  *Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Couleur aléatoire* et que le paramètre **Mode générateur de couleur aléatoire** est défini sur ***Générateur manuel***.
-* **Extension non carrée** *Booléenne*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
+|  |  |
+|:---|:---|
+| <b>Inverser</b> <i>Booléen</i> | Inverse l’image de sortie. |
+| <b>Échelle</b> <i>Flotter</i> | Contrôle l&#39;échelle du bruit Voronoi.<br><br>*Remarque* : lorsque la **Répétition** est activée sur *n&#39;importe quel axe*, l&#39;ajustement de l&#39;échelle est *gradué*. C&#39;est ce qui est attendu. |
+| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit de Voronoï sur les axes **X**, **Y** et **Z**. Les valeurs non uniformes entraînent un effet de *étiré ou d&#39;écrasement*.<br><br>*Remarque* : lorsque la **Répétition** est activée sur *n&#39;importe quel axe*, le réglage de la taille est *par paliers*. C&#39;est ce qui est attendu. |
+| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la *position* du bruit de Voronoï sur les axes **X**, **Y** et **Z**. |
+| <b>Désordre</b> <i>Float3</i> | Intensité du *décalage aléatoire* appliqué à chaque point du bruit sur les axes **X**, **Y** et **Z**. |
+| <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un *effet de déformation* appliqué sur le bruit Voronoi. |
+| <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du *motif de déformation* utilisé dans l&#39;effet de déformation contrôlé par l&#39;**intensité de la Distorsion**. |
+| <b>Courbe Arrondie</b> <i>Flotter</i> | Arrondit la *pente* autour de chaque point du bruit pour le rendre *convexe*.<br><br>*Remarque* : ce paramètre n&#39;est pas disponible lorsque le paramètre **Style** est défini sur *Edge*. |
+| <b>Échelle de distance</b> <i>Flotter</i> | Ajuste la *distance du dégradé* autour de chaque point du bruit. |
+| <b>Mode Distance</b> <i>Nombre entier</i> | Définit la méthode pour *calculer le gradient de distance* autour de chaque point du bruit :<br><br>- *euclidien*<br>- *Manhattan*<br>- *Tchebychev*<br>- *Minkowski* |
+| <b>Nombre de Minkowski</b> <i>Flotter</i> | Ordre *p* de la distance de Minkowski. Si nous divisons le gradient de distance en quadrants, ce nombre a un impact sur ces quadrants comme suit :<br><br>- p est *exactement* 1 : droit<br>- p est *inférieur* à 1 : concave<br>- p est *supérieur* à 1 : convexe<br><br>valeurs intéressantes :<br><br>- *1.0* : distance de Manhattan<br>- *2.0* : distance euclidienne<br>- *Infini* : distance de Tchebychev <br><br>*Remarque* : ce paramètre est uniquement disponible lorsque le paramètre **Mode de distance** est défini sur *Minkowski*. |
+| <b>Style</b> <i>Nombre entier</i> | Définit la méthode *de rendu des données* du bruit de Voronoi, en tenant compte du fait que le bruit est fondé sur un ensemble de points dans l&#39;espace :<br><br>- *F1* : la distance au *point le plus proche* dans l&#39;espace<br>- *F2* : la distance au *deuxième point le plus proche* dans l&#39;espace<br>- *F2-F1*<br>- *F1\* F2 *<br>-* F1/F2 *<br>-* Bord *: le* bord entre chaque cellule *du bruit dans l&#39;espace<br>-* Couleur aléatoire *: attribuez une* couleur plate aléatoire* à chaque cellule du bruit dans l&#39;espace |
+| <b>Thickness Edge</b> <i>Flotter</i> | Ajuste le thickness des contours détectés entre les cellules du bruit Voronoi. Les arêtes sont détectées dans les axes X, Y et Z. Certaines épaisseurs peuvent donc augmenter plus rapidement que d&#39;autres en fonction de la *profondeur* des cellules.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Arête*. |
+| <b>Mode générateur de couleurs aléatoire</b> <i>Nombre entier</i> | Définit la méthode d&#39;*acquisition* de la valeur de départ aléatoire pour le choix de couleur par cellule :<br><br>-*Valeur de départ aléatoire globale* : utilisez la valeur de départ *héritée* par le nœud<br>-*Valeur de départ manuelle* : utilisez une valeur de départ *discrète*<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Couleur aléatoire*. |
+| <b>Générateur aléatoire de couleurs</b> <i>Nombre entier</i> | Valeur de départ aléatoire discrète qui doit être utilisée pour le choix de couleur par cellule.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Couleur aléatoire* et le paramètre **Mode de valeur de départ aléatoire** sur ***Valeur de départ manuelle***. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-07.jpg" />
+        </td>
+    </tr>
 </table>

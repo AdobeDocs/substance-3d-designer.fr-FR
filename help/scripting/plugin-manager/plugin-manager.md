@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestionnaire de plugins
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 # Gestionnaire de plugins
 
-La boîte de dialogue <b>Gestionnaire de plug-ins</b> est accessible à partir du menu <b>Outils</b> dans la barre de menus principale. Cela vous permet de voir quels plug-ins sont *actifs*, ainsi que les plug-ins *chargés et déchargés*.
+La boîte de dialogue <b>Gestionnaire de plug-ins</b> est accessible à partir du menu <b>Outils</b> dans la barre de menus principale. Cela vous permet de voir quels plug-ins sont *actifs*, ainsi que les plug-ins *chargés et déchargés*.
 
-![Gestionnaire de plug-ins](../../assets/pluginmgr.png "Gestionnaire de plug-ins")
+![Gestionnaire de plug-ins](plugin-manager.resources/plugin-manager-01.png "Gestionnaire de plug-ins")
 
 Il est également possible de *charger manuellement* les plug-ins en utilisant le bouton <b>Parcourir</b> et en choisissant un fichier Python.
 

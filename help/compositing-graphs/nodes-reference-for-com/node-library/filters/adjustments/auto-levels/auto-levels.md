@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Niveaux automatiques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
+source-wordcount: '68'
+ht-degree: 2%
 
 ---
 
@@ -22,29 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/auto-levels.png){width="128px"}
+![](auto-levels.resources/auto-levels-01.png){width="128px"}
 
-## Niveaux automatiques
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Ajuste automatiquement les niveaux d’entrée pour utiliser toute la plage, du noir au blanc. Cela signifie que la valeur la plus sombre de l’image sera réglée sur noir complet, tandis que la valeur la plus lumineuse sera réglée sur blanc complet, maximisant ainsi le contraste.
 
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/auto-levels-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="auto-levels.resources/auto-levels-02.png" />
+        </td>
+    </tr>
 </table>

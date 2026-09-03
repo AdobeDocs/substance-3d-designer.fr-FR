@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Min Max
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max-01.png){width="200px"}
 
-## Min Max
-
-**Entrée :** *Filtres/Réglages*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,14 +37,16 @@ Min Max trouve les valeurs les plus claires et les plus sombres d&#39;une entré
 
 Pour utiliser ce nœud avec un niveau, vous devez au moins savoir comment utiliser la liste déroulante [Exposer le paramètre](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), ainsi que l&#39;[onglet Entrée de valeur](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
-## Paramètres
-
-*Aucun paramètre.*
-
-## Exemples d’images
-
-![](../../../../../../assets/minmax.png)
-
 </td>
 </tr>
+</table>
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="min-max.resources/min-max-02.png" />
+        </td>
+    </tr>
 </table>

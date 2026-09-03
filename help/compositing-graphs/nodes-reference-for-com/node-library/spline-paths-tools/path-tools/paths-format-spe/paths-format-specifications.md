@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spécifications de format des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Toutes les données d&#39;un pixel dans la partie &#39;supérieure&#39; sont sé
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Tracés de données codées en polygone](../../../../../../assets/PathsPolygon_Data.jpg "Tracés de données codées en polygone")
+![Tracés de données codées en polygone](paths-format-specifications.resources/paths-format-specifications-01.jpg "Tracés de données codées en polygone")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Indicateur *Est\_fermé* : 1 si le tracé est fermé (par exemple, un cercle), 0
 
 <b>Z</b>
 
-L&#39;index de chemin *N.* Il doit absolument correspondre à *path\_addr* (voir remarque ci-dessous).
+L&#39;index de chemin d&#39;accès *N.* Il doit absolument correspondre à *path\_addr* (voir la note ci-dessous).
 
 <b>W</b>
 
@@ -156,7 +156,7 @@ Formellement, chaque sommet à l&#39;adresse `*vert\_addr*` est défini comme ce
 +++Haut
 <b>XY</b>
 
-Position du sommet. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de carrelage à ce niveau (il peut être géré ou non par la mise en œuvre de chaque filtre), donc les chemins sont supposés être définis sur le plan euclidien.
+La position vertex. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de répétition à ce niveau (elle peut être gérée ou non par la mise en œuvre de chaque filtre), les chemins sont donc supposés être définis sur le plan euclidien.
 
 <b>Z</b>
 
@@ -164,21 +164,21 @@ Index de tracé de sommet. Un sommet ne peut appartenir qu’à un seul tracé. 
 
 <b>W</b>
 
-Type de sommet. Il est divisé entre le signe de la valeur et sa valeur absolue :
+type de vertex. Il est divisé entre le signe de la valeur et sa valeur absolue :
 
-Sur la partie signe, une valeur de 0 signifierait qu&#39;il n&#39;y a pas de sommet ici (tous les autres composants devraient également être à 0). Une valeur négative signifie que le sommet est marqué comme un « coin » ; une valeur positive signifie que le sommet est « lisse ». Le sommet arrondi ou arrondi est un attribut pur et isolé. Il n’a aucun impact ni aucune signification sur le reste du codage des tracés.
+Sur la partie signe, une valeur de 0 signifierait qu&#39;il n&#39;y a pas de vertex ici en fait (tous les autres composants devraient également être 0). Une valeur négative signifie que le vertex est marqué comme un « coin » ; une valeur positive signifie que le vertex est « lisse ». Le vertex d’arrondi et le calque d’arrondi sont des attributs purs et isolés qui n’ont aucun impact ni aucune signification sur le codage des autres tracés.
 
-Dans la partie valeur absolue, le type de pixel (Début, Milieu ou Fin) et un autre drapeau (trivial\_link) sont codés :
+Sur la partie valeur absolue, le type de pixel (Début, Milieu ou Fin) et un autre drapeau (trivial\_link) sont codés:
 
-* *0.125* : sommet de fin (le dernier sommet de la forme ; toujours des liens non triviaux, voir ci-dessous)
+* *0.125* : vertex de fin (dernier vertex de la forme ; liens toujours non triviaux, voir ci-dessous)
 
-* *0.25* : sommet de départ (premier sommet de la forme ; liens toujours non triviaux, voir ci-dessous)
+* *0.25* : vertex de début (premier vertex de la forme ; liens toujours non triviaux, voir ci-dessous)
 
-* *0.5* : sommet moyen avec des liens non triviaux
+* *0.5* : vertex moyen avec des liens non triviaux
 
-* *1* : sommet central avec liens triviaux
+* *1* : milieu de vertex avec des liens insignifiants
 
-« Liens non triviaux » fait référence au fait que les sommets précédent et suivant (dans la liste des sommets du tracé courant) sont stockés respectivement dans le pixel à gauche (vert\_addr-(0,pixel\_size)) et à droite (vert\_addr+(0,pixel\_size)), tandis que « liens non triviaux » signifie qu&#39;au moins l&#39;un de ceux-ci est stocké ailleurs.
+Par « liens non triviaux », on entend le fait que les vertex précédent et suivant (dans la liste des vertex du tracé courant) sont stockés respectivement dans le pixel à gauche (vert\_addr-(0,pixel\_size)) et à droite (vert\_addr+(0,pixel\_size)), tandis que par « liens non triviaux », on entend qu&#39;au moins l&#39;un d&#39;entre eux est stocké ailleurs.
 
 +++
 
@@ -187,12 +187,12 @@ Indépendamment de la « banalité » des liens, les valeurs fiables des liens s
 
 <b>XY</b>
 
-Adresse du sommet précédent de ce tracé. Pour les sommets de départ, cette option pointe vers le sommet frère suivant.\
+Adresse du vertex précédent de ce chemin. Pour les vertex de démarrage, cette option pointe vers le vertex apparenté suivant.\
 si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
 
 <b>ZW</b>
 
-Adresse du sommet suivant de ce tracé. Dans le cas des sommets d’extrémité, il pointe vers le sommet frère suivant.\
+Adresse du vertex suivant de ce chemin. Pour les vertex d’extrémité, cette option pointe vers le vertex apparenté suivant.\
 si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
@@ -201,7 +201,7 @@ si |top[vert\_addr].W| = 1, puis bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_
 
 Si vous souhaitez créer vos propres nœuds de traitement des tracés, vous disposez de plusieurs outils.
 
-Les bases sont fournies par les nœuds [Processeur de sommets de tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) et [Processeur de sommets de tracés simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), qui peuvent être utilisés de la même manière qu&#39;un [processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
+Les bases sont fournies par les nœuds [Processeur de Vertex de tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) et [Processeur de Vertex de tracés simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), qui peuvent être utilisés de la même manière qu&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
 Si vous avez besoin de fonctionnalités au-delà de ce que proposent les nœuds du processeur de sommets de tracés (plus de textures d’entrée, ou plus de sommets précédents ou suivants), la copie de l’implémentation de ce graphique peut être un bon point de départ (en supposant que vous remplacez le nœud <b>Get(« %perVertex »)</b> par votre traitement personnalisé).
 
@@ -269,11 +269,11 @@ Veuillez noter que pour plus de simplicité, les informations sur les <b>chemins
 
 Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), dans le paramètre Itérations du troisième nœud Itération, pour obtenir un exemple d&#39;utilisation.
 
-![Cas d’utilisation minimal de sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Cas d’utilisation minimal de sample_next")
+![Cas d’utilisation minimal de sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Cas d’utilisation minimal de sample_next")
 
 
 
-![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
+![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
 
 
 

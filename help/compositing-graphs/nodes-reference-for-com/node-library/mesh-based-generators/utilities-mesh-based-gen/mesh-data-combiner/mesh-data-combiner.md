@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mélangeur de données de maillage
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
 
-## Mélangeur de données de maillage
-
-**Entrée :** *Générateurs Basés Sur Le Maillage**/Utilitaires*
-
-**Simple**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,30 +37,26 @@ Il s&#39;agit d&#39;un nœud très simple qui « rassemble » les données de ma
 
 Ce nœud est principalement un assistant qui facilite le travail avec de nombreuses entrées cuites sur certains nœuds de la galerie, comme [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Cela vous permet d’éviter de tout connecter manuellement.
 
-## Paramètres
-
-### Paramètres
-
-Activez/désactivez les entrées de mappage à activer et à générer dans le résultat compressé.
-
-* **Occlusion ambiante** : *Faux/Vrai*
-* **Masques UV** :*Faux/Vrai*
-* **Courbure** : *Faux/Vrai*
-* **Height** : *Faux/Vrai*
-* **Position (Niveaux De Gris)** : *Faux/Vrai*
-* **Thickness** : *Faux/Vrai*
-* **Normal** : *Faux/Vrai*
-* **Position (RGB)** : *Faux/Vrai*
-* **ID de couleur** : *Faux/Vrai*
-* **Sens De L&#39;Espace Mondial** : *Faux/Vrai*
-* **Espace universel normal** : *Faux/Vrai*
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+Activez/désactivez les entrées de mappage à activer et à générer dans le résultat compressé.
+
+|  |  |
+|:---|:---|
+| <b>Occlusion ambiante</b> <i>Faux/Vrai</i> |  |
+| <b>Masques UV</b> <i>Faux/Vrai</i> |  |
+| <b>Courbure</b> <i>Faux/Vrai</i> |  |
+| <b>Height</b> <i>Faux/Vrai</i> |  |
+| <b>Position (Niveaux De Gris)</b> <i>Faux/Vrai</i> |  |
+| <b>Thickness</b> <i>Faux/Vrai</i> |  |
+| <b>Normal</b> <i>Faux/Vrai</i> |  |
+| <b>Position (RGB)</b> <i>Faux/Vrai</i> |  |
+| <b>ID de couleur</b> <i>Faux/Vrai</i> |  |
+| <b>Direction dans l&#39;espace monde</b> <i>Faux/Vrai</i> |  |
+| <b>Espace universel normal</b> <i>Faux/Vrai</i> |  |

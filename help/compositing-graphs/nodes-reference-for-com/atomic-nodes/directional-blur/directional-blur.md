@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Flou directionnel pour appliquer des effets de flou dans une direction spécifique afin de créer un flou directionnel et des traînées.
+description: Utilisez le nœud Flou directionnel pour appliquer des effets de flou dans une direction spécifique afin de créer des effets de flou directionnel et de traînée.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou directionnel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,14 +24,14 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Flou directionnel](../../../../assets/comp_dirmotionblur_1.png "Nœud atomique : Flou directionnel"){width="200px"}
+![Noeud atomique : Flou directionnel](directional-blur.resources/directional-blur-01.png "Noeud atomique : Flou directionnel"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Applique un floutage dans une direction spécifiée selon une map d’intensité.
 
-Ce nœud effectue une opération similaire à un flou de mouvement sur une entrée. Contrairement au nœud « [Flou](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) » standard, qui applique un flou uniforme dans toutes les directions, le « Flou directionnel » fonctionne selon un angle défini par l&#39;utilisateur.
+Ce nœud effectue une opération similaire à un flou directionnel sur une entrée. Contrairement au nœud « [Flou](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) » standard, qui applique un flou uniforme dans toutes les directions, le « Flou directionnel » fonctionne selon un angle défini par l&#39;utilisateur.
 
 </td>
 </tr>
@@ -69,14 +69,14 @@ Les images ci-dessous montrent le flou directionnel et le flou [anisotrope](../.
 
 <b>Flou directionnel</b>
 
-![Comparaison du flou directionnel](../../../../assets/dirblur-01.png "Comparaison du flou directionnel"){zoomable="yes"}
+![Comparaison du flou directionnel](directional-blur.resources/directional-blur-02.png "Comparaison du flou directionnel"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Flou anisotrope</b>
 
-![Comparaison du flou anisotrope](../../../../assets/aniso-01.png "Comparaison du flou anisotrope"){zoomable="yes"}
+![Comparaison du flou anisotrope](directional-blur.resources/directional-blur-03.png "Comparaison du flou anisotrope"){zoomable="yes"}
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Les images ci-dessous montrent le flou directionnel et le flou [anisotrope](../.
 |  |  |
 | --- | --- |
 | <b>Intensité</b> *Flotter* | Définit le rayon de flou en pixels. |
-| <b>Angle</b> *Flotter* | La direction de l’effet de flou en nombre de tours dans le sens horaire, en partant de l’horizontale - c’est-à-dire le vecteur de direction (1, 0). |
+| <b>Angle</b> *Flotter* | La direction de l&#39;effet de flou en nombre de tours dans le sens horaire, en partant de l&#39;horizontale - c&#39;est-à-dire le vecteur de direction (1, 0). |
 
 ## Connecteurs d’entrée
 

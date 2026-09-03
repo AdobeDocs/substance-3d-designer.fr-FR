@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Date de publication : 30 juillet 2024*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/version-14-0-01.png)
 
 ## Nouveau contenu
 
@@ -32,9 +32,9 @@ Cette version 14.0 apporte beaucoup de nouveau contenu avec les nouveaux nœuds 
 
 * <b>Nœuds dédiés à la manipulation des couleurs : </b>un nœud <b>(</b>[Quantifier la couleur](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>à<b> </b>réduisez le nombre de couleurs d&#39;une image et extrayez une palette à partir de celle-ci, une famille de nœuds d&#39;outils pour créer votre propre palette de couleurs ([Afficher](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Créer](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifier](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>Palette de couleurs) et une pour l&#39;appliquer à une autre image à l&#39;aide d&#39;un mappage d&#39;ID ([Appliquer la palette de couleurs](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Vous trouverez également le nœud [ID pour masquer les niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) pour convertir votre mappage d&#39;ID (calculé par Quantize color) en masque de niveaux de gris. Avec cet ensemble complet de nœuds, vous disposez de tout ce dont vous avez besoin pour créer des effets de stylisation à l’aide de couleurs.
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
 
-![Quantifier la couleur 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![Quantifier la couleur 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
 
 * <b>Filtre Kuwahara</b> : si vous souhaitez aller encore plus loin avec la stylisation, vous pouvez générer des effets picturaux grâce aux filtres [couleur Kuwahara anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Dans les détails, il applique un flou directionnel anisotrope conforme aux détails de l’image. Le résultat est une image qui semble s’écouler dans la direction des formes qu’elle contient.
 
@@ -56,11 +56,11 @@ Lissage de courbure
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_blend_example_1_before">
+      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_blend_example_1_after">
+      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Histogramme égaliser
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Bevel smooth
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="biseau_lisse_exemple_6_before">
+      <img src="version-14-0.resources/version-14-0-08.jpg" alt="biseau_lisse_exemple_6_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="biseau_lisse_exemple_6_after">
+      <img src="version-14-0.resources/version-14-0-09.jpg" alt="biseau_lisse_exemple_6_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Dissociation normale
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -137,21 +137,21 @@ Dissociation normale
 
 * <b>Vue 2D :</b>lorsque l’affichage en mosaïque est activé dans la [vue 2D](../../interface/2d-view/2d-view.md), vous pouvez désormais obtenir des valeurs même pour les pixels qui ne se trouvent pas sur la mosaïque d’origine : il est très utile de vérifier l’[échantillonnage](../../glossary/glossary.md) et les transitions de valeurs entre les mosaïques.
 
-![Vue 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![Vue 2d](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
 
-* <b>Courbe de transfert de dégradé</b> : utilisez le clic du milieu de la souris pour déplacer toutes les [touches de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) vers la gauche ou vers la droite (et ainsi conserver tous les espaces entre toutes les touches).
-* <b>Paramètres</b> : pour injecter des fonctions personnalisées via des paramètres, vous pouvez désormais utiliser le widget de fonction Modifier. C&#39;est une solution puissante pour créer des outils personnalisés où vous souhaitez piloter des paramètres à l&#39;aide d&#39;un [graphique de fonction de Substance](../../function-graphs/the-function-graph/the-function-graph.md).
+* <b>Courbe de transfert de dégradé</b> : utilisez le clic du milieu de la souris pour déplacer toutes les [clés de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) vers la gauche ou vers la droite (et ainsi conserver tous les espaces entre toutes les touches).
+* <b>Paramètres</b> : pour injecter des fonctions personnalisées via des paramètres, vous pouvez désormais utiliser le widget de fonction Modifier. C&#39;est une solution puissante pour créer des outils personnalisés où vous souhaitez piloter des paramètres à l&#39;aide d&#39;un [graphe de fonction de Substance](../../function-graphs/the-function-graph/the-function-graph.md).
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifier la fonction](../../assets/functionedit.png){zoomable="yes"}
+![Modifier la fonction](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fonction de modification 2](../../assets/functionedit2.png){zoomable="yes"}
+![Fonction de modification 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}
 
 </td>
 </tr>

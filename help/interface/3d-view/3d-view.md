@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 La vue 3D vous permet d’afficher et de comprendre vos matériaux avec des maillages personnalisés et des matériaux PBR rendus.<br>Comme toutes les fenêtres Substance 3D Designer, il fonctionne avec les autres fenêtres via les options du menu contextuel et les opérations de glisser-déposer.
 
-La vue 3D propose également deux méthodes principales de rendu des matériaux dans les scènes 3D :
+La vue 3D fournit également deux méthodes principales de rendu des matériaux dans les scènes 3D :
 * Visualisation rapide et en temps réel avec les rendus **Pixelliseur** et **OpenGL**
 * Rendu par lancer de rayons de haute qualité avec moteur de rendu **Pathtracer GPU**
 
@@ -30,7 +30,7 @@ En savoir plus ici : [Moteurs de rendu 3D](3d-renderers/3d-renderers.md)
 
 +++ Le dock de vue 3D
 
-![3d-view.png](3d-view.resources/3d-view.png)
+![3d-view.png](3d-view.resources/3d-view-01.png)
 
 +++
 
@@ -38,11 +38,11 @@ En savoir plus ici : [Moteurs de rendu 3D](3d-renderers/3d-renderers.md)
 
 La section ci-dessous explique comment effectuer des actions courantes, ainsi qu’un gif animé pour illustrer le processus.
 
-![Navigation dans l&#39;aire d&#39;affichage](../../assets/3d-navigate.gif "Navigation dans l&#39;aire d&#39;affichage")
+![Navigation dans l&#39;aire d&#39;affichage](3d-view.resources/3d-view-02.gif "Navigation dans l&#39;aire d&#39;affichage")
 
 ### Navigation
 
-La caméra Vue 3D et l’environnement peuvent être manipulés de trois manières :
+La caméra et l&#39;environnement vue 3D peuvent être manipulés de trois manières :
 
 * <b>Orbite :</b> LMB+faire glisser
 * <b>Panoramique</b> : MMB+faire glisser / Ctrl+RMB+faire glisser
@@ -84,11 +84,11 @@ Vous pouvez interagir avec les filets directement dans la clôture :
 
 <b>Appuyez sur Échap pour désélectionner.</b> Il n’est pas nécessaire que le curseur se trouve sur le filet.
 
-![Vue 3D - Focus et désélection](../../assets/sceneBrowser-focus.gif "Vue 3D - Focus et désélection"){zoomable="yes"}
+![Vue 3D - Focus et désélection](3d-view.resources/3d-view-03.gif "Vue 3D - Focus et désélection"){zoomable="yes"}
 
 *Sélectionner, mettre au point, désélectionner*
 
-![Vue 3D - Menu contextuel](../../assets/sceneBrowser-contextualMenu.gif "Vue 3D - Menu contextuel"){zoomable="yes"}
+![Vue 3D - Menu contextuel](3d-view.resources/3d-view-04.gif "Vue 3D - Menu contextuel"){zoomable="yes"}
 
 *Sélectionner, menu contextuel*
 
@@ -114,13 +114,13 @@ Pour utiliser votre propre environnement d&#39;éclairage HDR personnalisé, imp
 
 Accédez à <b>Éclairages > Modifier les propriétés</b> pour activer/désactiver les éclairages ponctuels dans votre scène.
 
-La lumière ponctuelle 1 peut être déplacée autour de l&#39;origine de la scène en maintenant la touche LMB ou RMB enfoncée et en la faisant glisser dans la clôture en mode Éclairage. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+La lumière ponctuelle 1 peut être déplacée autour de l&#39;origine de la scène en maintenant la touche LMB ou RMB enfoncée et en la faisant glisser dans la clôture en mode Éclairage. <img src="3d-view.resources/3d-view-05.png" width="24" />
 
-En mode Caméra <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , vous pouvez également passer temporairement en mode Éclairage en maintenant les touches Ctrl+⇧ enfoncées en combinaison avec les boutons de la souris.
+En mode Caméra <img src="3d-view.resources/3d-view-06.png" width="24" /> , vous pouvez également passer temporairement en mode Éclairage en maintenant les touches Ctrl+⇧ enfoncées en combinaison avec les boutons de la souris.
 
 ## Afficher les données dans la vue 3D
 
-![Afficher les sorties de graphique en Substance](../../assets/3d-material.gif "Afficher les sorties de graphique en Substance")
+![Afficher les sorties de graphique en Substance](3d-view.resources/3d-view-07.gif "Afficher les sorties de graphique en Substance")
 
 ### Graphes Substance
 
@@ -130,7 +130,7 @@ Pour afficher toutes les sorties d&#39;un graphique, cliquez sur *RMB* dans une 
 
 Vous pouvez également afficher les sorties d&#39;un graphique sans avoir à l&#39;ouvrir, en cliquant sur le RMB d&#39;une ressource de graphique dans le dock [Explorateur](../the-explorer-window/the-explorer-window.md) et en choisissant l&#39;option **Afficher les sorties en vue 3D** dans le menu contextuel.
 
-Au lieu du menu contextuel du graphique, vous pouvez obtenir le même résultat en faisant glisser le graphique depuis le dock [Explorateur](../the-explorer-window/the-explorer-window.md) vers la vue 3D.
+Au lieu du menu contextuel du graphe, vous pouvez obtenir le même résultat en faisant glisser le graphe du dock [Explorateur](../the-explorer-window/the-explorer-window.md) vers la vue 3D.
 
 Lors du *chargement d&#39;un graphique*, ses sorties sont automatiquement appliquées dans la vue 3D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à **Édition > Préférences > Graphique > Commun** et décochez l&#39;option **Afficher les sorties en vue 3D lors de l&#39;ouverture d&#39;un graphique**.
 
@@ -140,7 +140,7 @@ Lors du *chargement d&#39;un graphique*, ses sorties sont automatiquement appliq
 > 
 > Si vous utilisez des maillages personnalisés avec plusieurs matières, vous serez invité à choisir l&#39;emplacement de matière auquel assigner la matière. Avec l&#39;une des méthodes ci-dessus, cliquez sur un emplacement pour confirmer votre choix. Pour plus d’informations sur les matières et leur affectation, lisez la section détaillée ci-dessous.
 
-![Affichage des sorties de nœud et de graphique dans la vue 3D](../../assets/3d-channel.gif "Affichage des sorties de nœud et de graphique dans la vue 3D")
+![Affichage des sorties de nœud et de graphique dans la vue 3D](3d-view.resources/3d-view-08.gif "Affichage des sorties de nœud et de graphique dans la vue 3D")
 
 ### Sortie de nœud/graphique individuel
 
@@ -152,49 +152,49 @@ Vous pouvez également utiliser *RMB* pour faire glisser et déposer n&#39;impor
 
 Vous pouvez afficher une sortie graphique individuelle en développant la ressource graphique dans le dock [Explorer](../the-explorer-window/the-explorer-window.md) et en utilisant *LMB* pour faire glisser cette sortie vers la vue 3D. Une liste des canaux disponibles auxquels assigner le nœud s&#39;affiche. Cliquez sur n’importe lequel pour confirmer.
 
-![Affichage de maillages 3D personnalisés](../../assets/3d-mesh.gif "Affichage de maillages 3D personnalisés")
+![Affichage de maillages 3D personnalisés](3d-view.resources/3d-view-09.gif "Affichage de maillages 3D personnalisés")
 
 ## Affichage (personnalisé) de scènes 3D
 
-Designer propose une douzaine de maillages prédéfinis. Ces maillages ont des coordonnées UV uniformes et utilisables et servent à la plupart des scénarios pour les textures de mosaïque. Il est également possible d’importer et d’afficher vos propres maillages 3D.\
+Designer propose une douzaine de maillages prédéfinis. Ces maillages ont des coordonnées d&#39;UV uniformes et utilisables et servent à la plupart des scénarios pour les textures de répétition. Il est également possible d’importer et d’afficher vos propres maillages 3D.\
 Sélectionnez l&#39;un des maillages par défaut dans le menu déroulant <b>Scène</b> de la barre supérieure.
 
-Pour les scènes 3D personnalisées, accédez à la section [Utilisation de scènes 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
+Pour des scènes 3D personnalisées, consultez la section [Utilisation des scènes 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Modification des propriétés du matériau](../../assets/3d-materials.gif "Modification des propriétés du matériau")
+![Modification des propriétés du matériau](3d-view.resources/3d-view-10.gif "Modification des propriétés du matériau")
 
-## Modification des propriétés de l’ombrage
+## Modification des propriétés du shader
 
-Il existe quelques [shaders](../../glossary/glossary.md) différents disponibles par défaut dans Designer, et chaque shader a des options au-delà des couches de texture. Ils peuvent être configurés individuellement.
+Il existe quelques [shaders](../../glossary/glossary.md) différents disponibles par défaut dans Designer, et chaque shader a des options au-delà des canaux de texture. Ils peuvent être configurés individuellement.
 
 Gardez à l’esprit que les nuanciers sont différents entre les [systèmes de rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) de Designer et que seuls les paramètres marqués avec un libellé « Commun » sont conservés lors du changement de système de rendu.
 
-Pour modifier le shader actuel, accédez à <b> Le menu « </b>Matières » ouvre ensuite le sous-menu correspondant à la matière que vous souhaitez modifier.
+Pour modifier le shader actuel, accédez à <b> Dans le menu « </b>Matériaux », ouvrez le sous-menu correspondant au matériau que vous souhaitez modifier.
 
-Par exemple, pour ajuster la propriété « Échelle de l’Height » pour le matériau « Par défaut » dans la scène « Plan (haute résolution) », accédez à « Matériaux > Par défaut > Modifier les propriétés ». Recherchez ensuite la propriété « Échelle d’Height » dans le dock Propriétés.
+Par exemple, pour ajuster la propriété « Échelle d’Height » pour le matériau « Par défaut » dans la scène « Plan (haute résolution) », accédez à « Matériaux > Par défaut > Modifier les propriétés ». Recherchez ensuite la propriété « Échelle d’Height » dans le dock Propriétés.
 
-Les ombrages peuvent être réinitialisés à l’aide des actions « Réinitialiser la matière » ou « Réinitialiser l’état de la scène » dans le sous-menu. Si vous visualisiez les sorties du graphique en Substance dans la vue 3D, vous devrez les réappliquer.
+Les shaders peuvent être réinitialisés à l’aide des actions « Réinitialiser le matériau » ou « Réinitialiser l’état de la scène » dans le sous-menu. Si vous visualisiez des sorties du graphe de Substance dans la vue 3D, vous devrez les réappliquer.
 
 >[!NOTE]
 >
-> À propos de la facettisation
+> À propos de la tessellation
 > 
-> La propriété « Facteur de facettisation » varie en fonction du moteur de rendu 3D sélectionné :
+> La propriété « Facteur de Tessellation » varie en fonction du moteur de rendu 3D sélectionné :
 > 
-> * <b>Pixellisation/Pathtracer GPU :</b> situé dans les paramètres de rendu (Moteur de rendu > Modifier les paramètres), a un impact sur *toute la scène*.
-> * <b>OpenGL :</b> situé dans les propriétés du matériau, a un impact sur le matériau.
+> * <b>Pixellisation/Pathtracer GPU :</b> situé dans les paramètres de rendu (Moteur de rendu > Modifier les paramètres), a un impact sur *la scène entière*.
+> * <b>OpenGL :</b> situé dans les propriétés du matériau, affecte le matériau.
 
-![Exportation de la scène](../../assets/3d-view-export-scene.gif "Exportation de la scène")
+![Exportation de la scène](3d-view.resources/3d-view-11.gif "Exportation de la scène")
 
 ## Exporter la scène
 
 Découvrez comment exporter des scènes 3D dans [cette page](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
-### Exporter un maillage tesselé (moteur de rendu OpenGL uniquement)
+### Exportation d’un maillage tesellé (moteur de rendu OpenGL uniquement)
 
-Vous pouvez exporter le filet de la <b>vue 3D</b> vers un fichier aux formats <b>OBJ</b>, <b>FBX</b> ou <b>PLY</b>. Si le displacement de *facettisation* est activé, la subdivision de la géométrie est transformée en filet exporté.
+Vous pouvez exporter le maillage de la <b>vue 3D</b> vers un fichier aux formats <b>OBJ</b>, <b>FBX</b> ou <b>PLY</b>. Si le displacement de *tessellation* est activé, la subdivision de la géométrie est bakée dans le maillage exporté.
 
-Cependant, les normales des sommets du maillage d’origine peuvent ne pas correspondre à sa nouvelle forme déplacée, ce qui signifie que le maillage déplacé peut ne pas être rendu correctement. Vous pouvez gérer cela de deux manières :
+Cependant, les normales de vertex du maillage d&#39;origine peuvent ne pas correspondre à sa nouvelle forme déplacée, ce qui signifie que le maillage déplacé peut ne pas s&#39;afficher correctement. Vous pouvez gérer cela de deux manières :
 
 * Utilisez le maillage *carte des normales* qui fournira les normales correctes
 * *Recalculez les normales de maillage* lors de l&#39;exportation à l&#39;aide de la carte des normales de maillage, ce qui signifie que ces normales sont ancrées dans le maillage exporté et que la carte des normales n&#39;est plus nécessaire
@@ -230,7 +230,7 @@ La barre de menus propose 7 menus avec des options liées à la vue 3D. vous tro
 +++Scène
 Le menu <b>Scène</b> traite de la géométrie (ressource 3D) affichée et des états de vue 3D. Les ressources 3D partagent uniquement le maillage, les états de la scène sont les lumières, la caméra et les paramètres associés. Ils peuvent également contenir le maillage à côté.
 
-![Maillages du menu Scène](../../assets/3d-view-meshes.png "Maillages du menu Scène")
+![Maillages du menu Scène](3d-view.resources/3d-view-12.png "Maillages du menu Scène")
 
 
 
@@ -303,7 +303,7 @@ Le menu « Matières » contient une liste de toutes les matières attribuées �
 
 <b>Liste des nuanciers</b> : tous les [nuanciers](../../glossary/glossary.md) sont disponibles pour le [moteur de rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) actuel.
 
-<b>Charger la définition... :</b>(moteur de rendu OpenGL uniquement) vous permet de charger votre propre nuanceur [GLSLFX personnalisé.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) L’ombrage est ajouté à la liste ci-dessus.
+<b>Charger la définition... :</b>(moteur de rendu OpenGL uniquement) vous permet de charger votre propre [shader GLSLFX personnalisé.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) L’ombrage est ajouté à la liste ci-dessus.
 
 <b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre les rendus Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre dans la [matière Adobe Standard](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
 
@@ -373,17 +373,17 @@ Le menu <b>Environnement</b> vous permet de modifier les paramètres liés à l&
 +++Affichage
 Le menu d’affichage vous permet de basculer entre les modes d’affichage, les assistants et les informations de la scène rendue :
 
-<b>Axe :</b> Active/désactive l&#39;affichage de l&#39;axe 3D dans la clôture.
+<b>Axe :</b> Active/désactive l&#39;affichage de l&#39;axe 3D dans le viewport.
 
-<b>Grille :</b> active/désactive l&#39;affichage de la grille universelle.
+<b>Grille :</b> active/désactive l&#39;affichage de la frid mondiale.
 
 <b>Résolution :</b> active/désactive l&#39;affichage d&#39;un petit compteur de résolution.
 
-<b>Statistiques de scène :</b> active l&#39;affichage des statistiques de scène, telles que le nombre de polyomètres, de matières, de maillages statiques, etc.
+<b>Statistiques de Scène :</b> active l&#39;affichage des statistiques de scène, telles que polycount, nombre de matériaux, nombre de maillages statiques, etc.
 
 <b>Temps de rendu :</b> temps nécessaire pour calculer un échantillon pour l&#39;image complète.
 
-<b>Échantillons :</b> quantité d’échantillons de pixels calculée pour l’anticrénelage (pixellisation) ou le pathtracing (pathtracer GPU) d’accumulation.
+<b>Échantillons :</b> la quantité d’échantillons de pixels calculée pour l’antialiasing d’accumulation (pixellisation) ou le tracé (tracé GPU).
 
 <b>Abattage du dos :</b> la désactivation de cette option vous permet de voir un filet des *deux côtés*. Cette option fonctionne en combinaison avec Structure filaire
 
@@ -406,7 +406,7 @@ Les moteurs de rendu disponibles et leurs paramètres sont documentés dans [cet
 
 +++
 
-## Barre d’outils Scène
+## Barre d’outils scène
 
 La barre d&#39;outils **Scène**, qui se trouve par défaut sur le bord gauche de la vue 3D, offre des commandes pour visualiser la scène et interagir avec elle.
 
@@ -425,7 +425,7 @@ Il vous permet également d&#39;accéder à la [fenêtre contextuelle du Displac
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-scene-browser.png" width="24" /> <b>Explorateur de scènes</b>
+<img src="3d-view.resources/3d-view-13.png" width="24" /> <b>Explorateur de Scènes</b>
 
 Affiche la hiérarchie de tous les éléments d’une scène 3D.
 
@@ -434,7 +434,7 @@ Affiche la hiérarchie de tous les éléments d’une scène 3D.
 >Le navigateur de scène et ses fonctionnalités sont largement traités dans [la page dédiée](../../interface/3d-view/scene-browser/scene-browser.md).
 
 
-<img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Sélectionner</b>
+<img src="3d-view.resources/3d-view-14.png" width="24" /> <b>Sélectionner</b>
 
 Active la sélection directe des filets dans la scène.
 
@@ -448,7 +448,7 @@ Les filets peuvent également être sélectionnés en mode Caméra ou Lumière, 
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-camera.png" width="22" /> <b>Appareil photo</b>
+<img src="3d-view.resources/3d-view-15.png" width="22" /> <b>Appareil photo</b>
 
 Active le contrôle direct de la caméra dans la scène.
 
@@ -456,13 +456,13 @@ Active le contrôle direct de la caméra dans la scène.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width="24" /> <b>Afficher l&#39;environnement</b>
+<img src="3d-view.resources/3d-view-16.png" width="24" /> <b>Afficher l&#39;environnement</b>
 
 Ce bouton active/désactive l’affichage de l’environnement de la scène. Le même paramètre se trouve dans le dock Propriétés après avoir accédé à <b>Environnement > Modifier</b> dans la barre de menus de la vue 3D.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-light.png" width="24" /> <b>Clair</b>
+<img src="3d-view.resources/3d-view-17.png" width="24" /> <b>Clair</b>
 
 Active le contrôle direct de la lumière Point 1 dans la scène.
 
@@ -470,31 +470,31 @@ Active le contrôle direct de la lumière Point 1 dans la scène.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="24" /> <b>Paramètres de rendu</b>
+<img src="3d-view.resources/3d-view-18.png" width="24" /> <b>Paramètres de rendu</b>
 
 Affiche les paramètres du moteur de rendu actuel dans le dock [Propriétés](../properties/properties.md).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pathtracer.png" width="24" /> <b>Activer le traceur</b>
+<img src="3d-view.resources/3d-view-19.png" width="24" /> <b>Activer le traceur</b>
 
 Active/désactive la sélection du moteur de rendu [Pathtracer GPU](3d-renderers/3d-renderers.md#gpu-pathtracer).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-shadows.png" width="24" /> <b>Activer les ombres</b>
+<img src="3d-view.resources/3d-view-20.png" width="24" /> <b>Activer les ombres</b>
 
 Active/désactive le rendu des ombres en temps réel dans le rendu [Pixelliseur](3d-renderers/3d-renderers.md#rasterizer).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-ground-plane.png" width="24" /> <b>Activer le plan au sol</b>
+<img src="3d-view.resources/3d-view-21.png" width="24" /> <b>Activer le plan de sol</b>
 
-Active/désactive le rendu du plan au sol dans les rendus [Pixellisation](3d-renderers/3d-renderers.md#rasterizer) et [Pathtracer GPU](3d-renderers/3d-renderers.md#gpu-pathtracer).
+Active/désactive le rendu du plan de sol dans les rendus [Pixellisé](3d-renderers/3d-renderers.md#rasterizer) et [Pathtracer GPU](3d-renderers/3d-renderers.md#gpu-pathtracer).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-displacement.png" width="24" /> <b>Displacement</b>
+<img src="3d-view.resources/3d-view-22.png" width="24" /> <b>Displacement</b>
 
 Affiche la fenêtre [Displacement](displacement/displacement.md).
 
@@ -504,21 +504,21 @@ Affiche la fenêtre [Displacement](displacement/displacement.md).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-grid.png" width="24" /> <b>Grille</b>
+<img src="3d-view.resources/3d-view-23.png" width="24" /> <b>Grille</b>
 
-Active/désactive l’affichage de la grille globale.
-
-<br>
-
-<img src="3d-view.resources/3d-view-scene-toolbar-stats.png" width="24" /> <b>Statistiques de scène</b>
-
-Active/désactive l’affichage des statistiques de scène, telles que le nombre de polygones, le nombre de matières, le nombre de maillages statiques, etc.
+Active/désactive l’affichage de la grille du monde.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pivot.png" width="24" /> <b>Axe</b>
+<img src="3d-view.resources/3d-view-24.png" width="24" /> <b>Statistiques de Scène</b>
 
-Active/désactive l&#39;affichage de l&#39;axe 3D dans la clôture.
+Active/désactive l’affichage des statistiques de scène, telles que le polycount, le nombre de matériaux, le nombre de maillages statiques, etc.
+
+<br>
+
+<img src="3d-view.resources/3d-view-25.png" width="24" /> <b>Axe</b>
+
+Active/désactive l’affichage de l’axe 3D dans le viewport.
 
 <br>
 
@@ -526,25 +526,25 @@ Active/désactive l&#39;affichage de l&#39;axe 3D dans la clôture.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Abattage du dos</b>
+![](3d-view.resources/3d-view-26.jpg) <b>Backface culling</b>
 
-La désactivation de cette option vous permet de voir une face maillée de *chaque côté*. Cette option fonctionne en association avec Structure filaire.
-
-<br>
-
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Cadre de sélection</b>
-
-Active/désactive l&#39;affichage du cadre de sélection du filet.
+La désactivation de cette option vous permet de voir une face de maillage de *chaque côté*. Cette option fonctionne en association avec Structure filaire.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Espace tangent au sommet</b>
+![](3d-view.resources/3d-view-27.jpg) <b>Cadre de sélection</b>
 
-Affiche les vecteurs tangents, binormaux et normaux de tous les sommets sous forme de gadgets colorés.
+Active/désactive l’affichage du cadre de sélection du maillage.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Structure filaire</b>
+![](3d-view.resources/3d-view-28.jpg) <b>Espace de tangente de Vertex</b>
+
+Affiche la tangente, le binormal et les vecteurs normaux de tous les vertex sous forme de gadgets colorés.
+
+<br>
+
+![](3d-view.resources/3d-view-29.jpg) <b>Structure filaire</b>
 
 Active/désactive l&#39;affichage du filet sous forme de structure filaire.
 
@@ -561,20 +561,20 @@ La barre d&#39;outils <b>Affichage</b>, qui se trouve par défaut au *bas* du pa
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0; vertical-align: top">
         <td style="border: 0">
-            <p>Vous pouvez afficher différents <a href="../../glossary/glossary.md#aov">AOV</a> à l’aide du bouton <img src="./3d-view.resources/aov/aov-icon.png" alt="Icône AOV de rendu 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV de rendu 3D</b>.</p>
-            <p>Les AOV vous permettent d'inspecter les informations de maillage et de matière de manière isolée pour un travail ciblé et le débogage.</p>
-            <p>Certains AOV incluent des <i>valeurs HDR</i> qui sont verrouillées sur 1 (blanc pur) ou 0 (noir pur) dans la clôture.<br>Pour inspecter la plage complète de valeurs, vous pouvez exporter un rendu 3D de l'AOV vers un format de fichier image qui prend en charge les valeurs HDR, tel que <code>.exr</code>.<br>Utilisez l'option de menu <code>Camera > Save render...</code> pour exporter l'AOV actuel.</p>
+            <p>Vous pouvez afficher différents <a href="../../glossary/glossary.md#aov">AOV</a> à l’aide du bouton <img src="./3d-view.resources/aov/3d-view-30.png" alt="Icône AOV de rendu 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOV de rendu 3D</b>.</p>
+            <p>Les AOV vous permettent d'inspecter les informations de maillage et de matériau séparément pour un travail ciblé et le débogage.</p>
+            <p>Certains AOV incluent des <i>Valeurs HDR</i> qui sont fixées à 1 (blanc pur) ou à 0 (noir pur) dans le viewport.<br>Pour inspecter la plage complète de valeurs, vous pouvez exporter un rendu 3D de l'AOV vers un format de fichier image qui prend en charge les Valeurs HDR, comme <code>.exr</code>.<br>Utilisez l'option de menu <code>Camera > Save render...</code> pour exporter l'AOV actif.</p>
             <p><i>Remarque :</i> les AOV sont uniquement disponibles lors de l'utilisation du pixelliseur et des <a href="./3d-renderers/3d-renderers.md">rendus 3D Pathtracer GPU</a>.</p>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="3d-view.resources/aov/aov-composited.jpg" alt="Rendu 3D des AOV composites" />
+            <img src="3d-view.resources/aov/3d-view-31.jpg" alt="Rendu 3D des AOV composites" />
         </td>
     </tr>
 </table>
 
 ### Canaux de couleur
 
-Vous pouvez afficher une seule couche de l&#39;image à l&#39;aide du bouton ![](../../assets/2d-view-icon-channels.png) <b>Couches de couleur</b>. Une zone de liste déroulante s&#39;ouvre, vous permettant de sélectionner les canaux <b>rouge</b>, <b>vert</b> et <b>bleu</b> qui doivent être affichés. L&#39;aspect normal de l&#39;image avec tous les canaux est restauré en sélectionnant l&#39;option <b>RGB</b>.
+Vous pouvez afficher une seule couche de l&#39;image à l&#39;aide du bouton ![](3d-view.resources/3d-view-32.png) <b>Couches de couleur</b>. Une zone de liste déroulante s&#39;ouvre, vous permettant de sélectionner les canaux <b>rouge</b>, <b>vert</b> et <b>bleu</b> qui doivent être affichés. L&#39;aspect normal de l&#39;image avec tous les canaux est restauré en sélectionnant l&#39;option <b>RGB</b>.
 
 L&#39;*icône* du bouton <b>Couches de couleur</b> *change* en fonction des couches actuellement affichées.
 

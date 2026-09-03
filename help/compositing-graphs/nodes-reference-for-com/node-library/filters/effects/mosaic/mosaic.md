@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaïque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-01.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-02.png){width="128px"}
 
-## Mosaïque (Niveaux de gris)
-
-**Entrée :** *Filtres/Effets*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,25 +39,34 @@ ht-degree: 3%
 
 Cette option est utile pour ajouter plus de définition aux cartes en niveaux de gris telles que Heightmap, car elle peut donner plus de définition aux formes.
 
-## Paramètres
-
-### Entrées
-
-* **Couleur** :*Entrée Couleur/Niveaux De Gris*
-* **Carte Mosaïque** : *Entrée En Niveaux De Gris*\
-  Déformation de la carte de pilote. Peut être identique à la première entrée.
-
-### Paramètres
-
-* **Échantillons** : *0 - 16* Détermine la qualité multi-échantillon.
-* **Intensité** : *0,0 - 1,0* Intensité de l&#39;effet.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Couleur</b> <i>Entrée Couleur/Niveaux De Gris</i> |  |
+| <b>Mosaic Map</b> <i>Entrée en niveaux de gris</i> | Déformation de la carte de pilote. Peut être identique à la première entrée. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Exemples</b> <i>0 - 16</i> | Détermine la qualité multi-échantillon. |
+| <b>Intensité</b> <i>0.0 - 1.0</i> | Force de l’effet. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaic-03.png" />
+        </td>
+    </tr>
 </table>

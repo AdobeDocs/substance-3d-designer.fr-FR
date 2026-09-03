@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst-01.png){width="128px"}
 
-## Starburst
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un effet d’étoile simple, avec des paramètres de réglage disponibles.
 
-## Paramètres
-
-* **Branches** : *3 - 512* quantité de branches pour l’effet.
-* **Niveau de flou** : *0,0 - 32,0* contrôle le niveau total de flou ou d&#39;adoucissement.
-* **Aléatoire** :*0,0 - 1,0* définit l&#39;aléa axial, fait pivoter les branches de manière aléatoire autour du centre.
-* **Taille min.** :*0.0 - 1.0* définit la taille minimale de variation.
-* **Taille max** : *0.0 - 2.0* Définit la taille maximale, contrôle l&#39;échelle globale si aucune variation n&#39;est utilisée.
-* **Variation de taille** : *0.0 - 1.0* introduit la mise à l&#39;échelle aléatoire par branche.
-* **Mosaïque** : *1 - 16*\
-  Définit le nombre de fois où le résultat doit se produire.
-
-## Exemples d’images
-
-![](../../../../../../assets/starburst-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Branches</b> <i>3 - 512</i> | Nombre de branches de l’effet. |
+| <b>Niveau de flou</b> <i>0.0 - 32.0</i> | Contrôle la quantité totale de flou ou d’adoucissement. |
+| <b>Aléatoire</b> <i>0.0 - 1.0</i> | Définit le caractère aléatoire axial et fait pivoter les branches de manière aléatoire autour du centre. |
+| <b>Taille Min</b> <i>0.0 - 1.0</i> | Définit la taille minimale de variation. |
+| <b>Taille max</b> <i>0.0 - 2.0</i> | Définit la taille maximale et contrôle l’échelle globale si aucune variation n’est utilisée. |
+| <b>Variation de taille</b> <i>0.0 - 1.0</i> | Introduit la mise à l&#39;échelle aléatoire par branche. |
+| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="starburst.resources/starburst-02.gif" />
+        </td>
+    </tr>
 </table>

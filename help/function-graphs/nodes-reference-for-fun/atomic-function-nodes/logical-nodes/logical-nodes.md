@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Logique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Les nœuds logiques sont utilisés pour ajouter plusieurs conditions à votre graphique :
 
-![](../../../../assets/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/logical-nodes-01.png)
 
 ## Nœud *And*
 
-![](../../../../assets/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/logical-nodes-02.png)
 
 Le nœud And prend deux nœuds booléens comme entrée :
 
@@ -35,7 +35,7 @@ Le nœud And prend deux nœuds booléens comme entrée :
 
 ## Le nœud *Or*
 
-![](../../../../assets/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/logical-nodes-03.png)
 
 Le nœud Or prend deux nœuds booléens comme entrée :
 
@@ -44,7 +44,7 @@ Le nœud Or prend deux nœuds booléens comme entrée :
 
 ## Nœud *Not*
 
-![](../../../../assets/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/logical-nodes-04.png)
 
 Le nœud Not prend un booléen comme entrée : il va regarder la valeur d&#39;entrée et retourner son contraire :
 

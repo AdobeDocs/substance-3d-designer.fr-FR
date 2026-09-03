@@ -1,34 +1,30 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Couleur du mappeur UV pour mapper les textures colorimétriques le long des splines pour la génération de textures procédurales.
+description: Utilisez le nœud Couleur du mappeur d'UV pour mapper les textures de couleur le long des splines pour une génération de texture procédurale.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Couleur du mappeur UV
+title: Couleur du mappeur d’UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 2%
 
 ---
 
 
-# Couleur du mappeur UV
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+# Couleur du mappeur d’UV
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/uv-mapper-color-icon.png "Icône de nœud")
+![Icône de nœud](uv-mapper-color.resources/uv-mapper-color-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -45,22 +41,32 @@ Mappe l’image couleur d’entrée à l’aide des coordonnées fournies dans l
 
 >[!NOTE]
 >
-> Voir aussi [Niveaux de gris du mappeur UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md).
+> Voir aussi [Niveaux de gris du mappeur d&#39;UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md).
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>UV</b> *Couleur* Les coordonnées de l&#39;image codées dans les couches rouge (U) et verte (V) d&#39;une image couleur.
+## Entrées
 
-<b>Entrée</b> *Couleur* L&#39;image couleur qui doit être mappée aux coordonnées fournies dans l&#39;entrée UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Couleur</i> | Coordonnées d’image codées dans les couches rouge (U) et vert (V) d’une image couleur. |
+| <b>Entrée</b> <i>Couleur</i> | Image couleur qui doit être mappée aux coordonnées fournies dans l’entrée UV. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
 
-<b>Sortie</b> *Couleur* Résultat du mappage de l’image d’entrée à l’aide des coordonnées UV d’entrée, en tant qu’image couleur.
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Sortie</b> <i>Couleur</i> | Résultat du mappage de l’Image d&#39;entrée à l’aide des coordonnées de l’UV d’entrée, sous la forme d’une image couleur. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Couleur d&#39;arrière-plan</b> *Float4* Couleur d&#39;arrière-plan de l&#39;image de sortie.\
-L’arrière-plan est visible dans les zones de l’image où les UV ne sont pas définis (c’est-à-dire que la valeur est (0, 0, 0, 0)).
+|  |  |
+|:---|:---|
+| <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur d’arrière-plan de l’image de sortie.<br>L&#39;arrière-plan est visible dans les zones de l&#39;image où les UV ne sont pas définis (c&#39;est-à-dire, la valeur est (0, 0, 0, 0)). |
 
 ## Exemples
 
@@ -71,11 +77,11 @@ L’arrière-plan est visible dans les zones de l’image où les UV ne sont pas
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -87,11 +93,11 @@ L’arrière-plan est visible dans les zones de l’image où les UV ne sont pas
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -101,18 +107,4 @@ L’arrière-plan est visible dans les zones de l’image où les UV ne sont pas
 </tr>
 </table>
 
-![Nœud dans le graphique](../../../../../../assets/UVMapperColor-Graph.jpg "Nœud dans le graphique")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Nœud dans le graphique](uv-mapper-color.resources/uv-mapper-color-06.jpg "Nœud dans le graphique")

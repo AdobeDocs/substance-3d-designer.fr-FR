@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de valeurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : processeur de valeur](../../../../assets/comp_valueprocessor_1.png "Nœud atomique : processeur de valeur"){width="200px"}
+![Nœud atomique : processeur de valeur](value-processor.resources/value-processor-01.png "Nœud atomique : processeur de valeur"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -82,7 +82,7 @@ Elle est comparable à un [processeur de pixels](../../../../compositing-graphs/
 
 |  |  |
 | --- | --- |
-| <b>Fonction de processeur de valeur</b> *Tout type de valeur disponible* | [Graphique de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) évalué pour calculer la valeur de sortie. |
+| <b>Fonction de processeur de valeur</b> *Tout type de valeur disponible* | [graphe de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) évalué pour calculer la valeur de sortie. |
 
 ## Connecteurs d’entrée
 

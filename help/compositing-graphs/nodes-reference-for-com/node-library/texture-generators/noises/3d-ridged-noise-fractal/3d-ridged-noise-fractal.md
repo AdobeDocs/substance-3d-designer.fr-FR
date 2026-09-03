@@ -1,97 +1,80 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Fractal de bruit strié 3D pour générer des motifs de bruit fractal strié dans l’espace 3D afin de créer des textures de type montagne.
+description: Utilisez le nœud fractal de Bruit strié 3D pour générer des motifs de bruit fractal strié dans l’espace 3D afin de créer des textures de type montagne.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Bruit 3D ridgé fractal
+title: bruit 3D à arête fractale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 
-# Bruit 3D ridgé fractal
+# bruit 3D à arête fractale
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
 
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Intermédiaire**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud Fractal de **bruit structuré 3D** génère un bruit structuré *fractal* dans l&#39;espace 3D en fonction de l&#39;entrée **Carte de position**.
+Le nœud Fractal de Bruit strié <b>3D</b> génère un bruit strié <i>fractal</i> dans l&#39;espace 3D en fonction de l&#39;entrée de <b>carte de position</b>.
 
 Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) en entrée au lieu d&#39;une map bakée réelle (comme illustré dans l&#39;exemple ci-dessous).
-
->[!WARNING]
->
-> Ce bruit est destiné à être utilisé avec le *moteur GPU uniquement* (c&#39;est-à-dire **Direct3D** ou **OpenGL**). Accédez à **Outils > Changer de moteur...** ou appuyez sur la touche **F9** pour sélectionner le moteur souhaité.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> Ce bruit est destiné à être utilisé avec le <i>moteur GPU uniquement</i> (c&#39;est-à-dire <b>Direct3D</b> ou <b>OpenGL</b>). Accédez à <b>Outils > Changer de moteur...</b> ou appuyez sur la touche <b>F9</b> pour sélectionner le moteur souhaité.
+
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Inverser** *Booléen*\
-  Inverse l’image de sortie.
-* **Échelle** *Flottant*\
-  Contrôle l’échelle du bruit fractal 3D avec arête.
-* **Taille** *Float3*\
-  Contrôle la taille du bruit fractal 3D avec arête sur les axes **X**, **Y** et **Z**. Les valeurs non uniformes entraînent un effet d&#39;*étirement ou de compression*.
-* **Décalage** *Float3*\
-  Applique un décalage à la *position* du bruit fractal en 3D sur les axes **X**, **Y** et **Z**.
-* **Intensité de la Distorsion** *Flottant*\
-  Contrôle l&#39;intensité d&#39;un *effet de déformation* appliqué sur le bruit fractal 3D Ridged.
-* **Multiplicateur D&#39;Échelle De Distorsion** *Flottant*\
-  Contrôle l&#39;échelle du *motif de déformation* utilisé dans l&#39;effet de déformation contrôlé par l&#39;**intensité de la Distorsion**.
-* **Niveau Min** *Nombre Entier*\
-  *niveau minimum de répétition* utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif *plus riche* avec une variation sur davantage de plages de fréquences.
-* **Niveau Max** *Nombre Entier*\
-  *niveau de répétition* maximum utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif *plus riche* avec une variation sur davantage de plages de fréquences.
-* **Rugosité** *Flotter*\
-  Contrôle l&#39;*équilibre* entre les *niveaux de répétition* bas et élevés dans le motif fractal.\
-  *Remarque* : une valeur de **0** entraîne une sortie *non conforme* à d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu.
-* **Lacunarité** *Flottant*\
-  Contrôle la façon dont le motif fractal appliqué *remplit l&#39;espace*. Une valeur *plus élevée* entraîne *moins d&#39;espaces* dans le motif et un bruit *plus dense*.
-* **Opacité globale** *Flottant*\
-  Contrôle la *plage* des valeurs de bruit fractal 3D avec arête *autour* de la **valeur de base**.
-* **Ligne De Base** *Flotter*\
-  Applique un *décalage* à la valeur de base de *luminance* pour la distribution de la valeur de bruit 3D Ridged.
-* **Contraste** *Flottant*\
-  Règle le contraste du bruit 3D avec arête.
-* **Activer les limites** *booléennes*\
-  Règle le bruit 3D avec arête de sorte que le motif résultant *se répète* sur les axes X, Y et Z.
+|  |  |
+|:---|:---|
+| <b>Inverser</b> <i>Booléen</i> | Inverse l’image de sortie. |
+| <b>Échelle</b> <i>Flotter</i> | Contrôle l’échelle du bruit fractal 3D avec arête. |
+| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit fractal 3D avec arête dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet d&#39;<i>étirement ou de compression</i>. |
+| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la <i>position</i> du bruit fractal à arête 3D dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un <i>effet de déformation</i> appliqué sur le bruit fractal à arête 3D. |
+| <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du <i>motif de déformation</i> utilisé dans l&#39;effet de déformation contrôlé par l&#39;<b>intensité de la Distorsion</b>. |
+| <b>Niveau Min</b> <i>Nombre entier</i> | <i>niveau minimum de répétition</i> utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif <i>plus riche</i> avec une variation sur davantage de plages de fréquences. |
+| <b>Niveau Max</b> <i>Nombre entier</i> | <i>niveau de répétition</i> maximum utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif <i>plus riche</i> avec une variation sur davantage de plages de fréquences. |
+| <b>Rugosité</b> <i>Flotter</i> | Contrôle l&#39;<i>équilibre</i> entre les <i>niveaux de répétition</i> bas et élevés dans le motif fractal.<br><br><i>Remarque</i> : une valeur de <b>0</b> entraîne une sortie <i>non alignée</i> avec d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu. |
+| <b>Lacunarité</b> <i>Flotter</i> | Contrôle la façon dont le motif fractal appliqué <i>remplit l&#39;espace</i>. Une valeur <i>plus élevée</i> entraîne <i>moins d&#39;espaces</i> dans le motif et un bruit <i>plus dense</i>. |
+| <b>Opacité globale</b> <i>Flotter</i> | Contrôle la <i>plage</i> des valeurs de bruit fractal 3D avec arête <i>autour</i> de la <b>valeur de base</b>. |
+| <b>Ligne de base</b> <i>Flotter</i> | Applique un <i>décalage</i> à la valeur de base de <i>luminance</i> pour la distribution de la valeur de bruit 3D Ridged. |
+| <b>Contraste</b> <i>Flotter</i> | Règle le contraste du bruit 3D avec arête. |
+| <b>Activer la Répétition</b> <i>Booléen</i> | Règle le bruit 3D avec arête de sorte que le motif résultant <i>se répète</i> sur les axes X, Y et Z. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dridgednoisefractal-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dridgednoisefractal-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
+        </td>
+    </tr>
 </table>

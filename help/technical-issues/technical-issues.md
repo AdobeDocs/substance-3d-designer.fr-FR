@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problèmes techniques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -37,13 +37,13 @@ Dans chacune des pages répertoriées, vous trouverez *étapes de dépannage* po
 
 ## Signaler un problème
 
-Designer permet de signaler directement les blocages et les bogues.
+Designer permet de signaler directement les crashs et les bogues.
 
 >[!TIP]
 >
 > Soyez descriptif !
 > 
-> *Chaque rapport de blocage et de bogue* que vous nous envoyez *sera* révisé par un membre de l’équipe Designer.
+> *Chaque rapport de crash et de bogue* que vous nous envoyez *sera* révisé par un membre de l’équipe Designer.
 > 
 > Lorsque vous signalez un problème, <b>incluez autant de détails et de contexte que possible</b>. Cela facilite et accélère considérablement la compréhension du problème et la recherche d&#39;une solution.
 > 
@@ -55,16 +55,16 @@ Designer permet de signaler directement les blocages et les bogues.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Lorsque l’application se bloque, la boîte de dialogue de rapport de blocage s’affiche dans la plupart des cas.
+Lors du crash de l’application, la boîte de dialogue Rapport de Crash s’affiche dans la plupart des cas.
 
-Vous pouvez nous informer des circonstances du plantage dans le champ Description afin que nous puissions enquêter et, espérons-le, résoudre le problème dans une prochaine version de Designer.
+Vous pouvez nous informer des circonstances du crash dans le champ Description afin que nous puissions enquêter et, espérons-le, corriger le problème dans une prochaine version de Designer.
 
-Partagez une <b>adresse e-mail valide</b> afin que nous puissions vous contacter si nous avons besoin de plus de détails et/ou fournir une solution pour le blocage que vous avez rencontré.
+Partagez une <b>adresse e-mail valide</b> afin que nous puissions vous contacter si nous avons besoin de plus de détails et/ou fournir une solution de contournement pour le crash que vous avez rencontré.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Boîte de dialogue de rapport d’incident](../assets/crash-reporter-2.png "Boîte de dialogue de rapport d’incident"){zoomable="yes"}
+![Boîte de dialogue de rapport de Crash](technical-issues.resources/technical-issues-01.png "Boîte de dialogue de rapport de Crash"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
@@ -74,7 +74,7 @@ Partagez une <b>adresse e-mail valide</b> afin que nous puissions vous contacter
 
 >[!NOTE]
 >
-> Les rapports d’incident incluent le fichier journal Designer, les préférences et les fichiers de projet *par défaut*. Par conséquent, certains <b>chemins d&#39;accès au système et aux fichiers peuvent apparaître</b> dans ces fichiers.
+> Les rapports de crash incluent le fichier journal Designer, les préférences et les fichiers de projet *par défaut*. Par conséquent, certains <b>chemins d&#39;accès au système et aux fichiers peuvent apparaître</b> dans ces fichiers.
 > 
 > L&#39;utilisation de ces fichiers est <b>strictement interne et limitée</b> à l&#39;enquête sur le problème signalé.
 
@@ -91,7 +91,7 @@ Vous pouvez nous informer du problème dans le champ Description afin que nous p
 </td>
 <td style="border: 0;" valign="top">
 
-![Boîte de dialogue de rapport de bogue](../assets/bug-reporter.png "Boîte de dialogue de rapport de bogue"){zoomable="yes"}
+![Boîte de dialogue de rapport de bogue](technical-issues.resources/technical-issues-02.png "Boîte de dialogue de rapport de bogue"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 

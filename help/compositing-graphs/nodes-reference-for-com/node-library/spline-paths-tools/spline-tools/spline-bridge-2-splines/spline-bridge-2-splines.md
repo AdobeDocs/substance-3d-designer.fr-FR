@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pont Spline (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-bridge-2splines-icon.png "Icône de nœud")
+![Icône de nœud](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -43,136 +43,61 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 >
 > Si les données fournies aux entrées <b>Spline #1</b> et <b>Spline #2</b> contiennent plusieurs splines, seule la dernière spline de chaque liste est utilisée.
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Aperçu #1</b> *Niveaux de gris* L&#39;aperçu des splines d&#39;entrée #1 sous forme d&#39;image en niveaux de gris.
+## Entrées
 
-<b>Cœurs splines #1</b> *Couleur* Les coordonnées des points des splines d&#39;entrée #1 codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Aperçu #1</b> <i>Niveaux de gris</i> | L&#39;aperçu des splines d&#39;entrée #1 sous forme d&#39;image en niveaux de gris. |
+| <b>Cœurs splines #1</b> <i>Couleur</i> | Les coordonnées des points des splines d&#39;entrée #1 codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>#1 de données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée #1 codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline #1</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée #1. |
+| <b>Aperçu #2</b> <i>Niveaux de gris</i> | L&#39;aperçu des splines d&#39;entrée #2 sous forme d&#39;image en niveaux de gris. |
+| <b>Cœurs splines #2</b> <i>Couleur</i> | Coordonnées des points de #2 des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>#2 de données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée #2 codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline #2</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée #2. |
+| <b>Courbe de longueur tangente de début</b> <i>Niveaux de gris</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.<br>Cette entrée est utilisée pour contrôler la longueur des tangentes de sortie pour le point de départ de chaque spline générée le long des #1 de spline.<br>Vous pouvez utiliser un nœud de courbe pour créer la courbe. |
+| <b>Courbe de rotation tangente de départ</b> <i>Niveaux de gris</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.<br>Cette entrée est utilisée pour contrôler la rotation des tangentes de sortie pour le point de départ de chaque spline générée le long de la spline #1.<br>La valeur de niveaux de gris de l&#39;image représente un certain nombre de tours.<br>Vous pouvez utiliser un nœud Courbe pour créer la courbe. |
+| <b>Courbe de longueur tangente de fin</b> <i>Niveaux de gris</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.<br>Cette entrée est utilisée pour contrôler la longueur des tangentes d&#39;entrée pour le point d&#39;extrémité de chaque spline générée le long de la spline #2.<br>Vous pouvez utiliser un nœud Courbe pour créer la courbure. |
+| <b>Courbe de rotation tangente de fin</b> <i>Niveaux de gris</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.<br>Cette entrée est utilisée pour contrôler la rotation des tangentes d&#39;entrée pour le point d&#39;extrémité de chaque spline générée le long de la spline #2.<br>La valeur de niveaux de gris de l&#39;image représente un certain nombre de tours.<br>Vous pouvez utiliser un nœud Courbe pour créer la courbe. |
 
-<b>#1 de données splines</b> *Couleur* Les données supplémentaires des splines d&#39;entrée #1 codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
+<a name="outputs"></a>
 
-<b>Quantité de spline #1</b> *Nombre entier* Nombre de splines d&#39;entrée #1.
+## Sorties
 
-<b>Aperçu #2</b> *Niveaux de gris* L&#39;aperçu des splines d&#39;entrée #2 sous forme d&#39;image en niveaux de gris.
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
 
-<b>Cœurs splines #2</b> *Couleur* Les coordonnées des points de #2 des splines d&#39;entrée sont codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
-
-<b>#2 de données splines</b> *Couleur* Les données supplémentaires des splines d&#39;entrée #2 codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
-
-<b>Quantité de spline #2</b> *Nombre entier* Nombre de splines d&#39;entrée #2.
-
-<b>Courbe de longueur tangente de début</b> *Niveaux de gris* (disponible lorsque l’option Type de spline de pont est définie sur Bézier cube) L’image décrivant une courbe utilise les valeurs de sa première ligne de pixels.\
-Cette entrée est utilisée pour contrôler la longueur des tangentes de sortie pour le point de départ de chaque spline générée le long de la spline #1.\
-Vous pouvez utiliser un nœud Courbe pour créer la courbe.
-
-<b>Courbe de rotation tangente de départ</b> *Niveaux de gris* (disponible lorsque l’option Type de spline de pont est définie sur Bézier cube) L’image décrivant une courbe utilise les valeurs de sa première ligne de pixels.\
-Cette entrée est utilisée pour contrôler la rotation des tangentes de sortie pour le point de départ de chaque spline générée le long de la spline #1.\
-La valeur de niveaux de gris de l’image représente un certain nombre de tours.\
-Vous pouvez utiliser un nœud Courbe pour créer la courbe.
-
-<b>Courbe de longueur tangente de fin</b> *Niveaux de gris* (disponible lorsque l’option Type de spline de pont est définie sur Bézier cube) L’image décrivant une courbe utilise les valeurs de sa première ligne de pixels.\
-Cette entrée est utilisée pour contrôler la longueur des tangentes d&#39;entrée pour le point d&#39;extrémité de chaque spline générée le long de la spline #2.\
-Vous pouvez utiliser un nœud Courbe pour créer la courbe.
-
-<b>Courbe de rotation tangente de fin</b> *Niveaux de gris* (disponible lorsque l’option Type de spline de pont est définie sur Bézier cube) L’image décrivant une courbe utilise les valeurs de sa première ligne de pixels.\
-Cette entrée est utilisée pour contrôler la rotation des tangentes d&#39;entrée pour le point d&#39;extrémité de chaque spline générée le long de la spline #2.\
-La valeur de niveaux de gris de l’image représente un certain nombre de tours.\
-Vous pouvez utiliser un nœud Courbe pour créer la courbe.
-
-## Connecteurs de sortie
-
-<b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
-
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
-
-<b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
-
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Quantité de splines du pont</b> *Nombre entier* Nombre de splines générées le long de la spline #1 à la spline #2.
-
-<b>Type de splines Bridge</b> *Nombre entier* Type de spline généré :
-* Linéaire : une spline droite du début à la fin ;
-* Bézier cubique : spline incurvée de début à fin, la courbe étant contrôlée par la longueur et l&#39;angle des points de début et de fin.
-
-<b>Démarrer la spline #1</b> *Flottant* Décale l&#39;emplacement le long des #1 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée de la #1 spline.\
-Plus la valeur est élevée, plus le même nombre de splines est resserré.
-
-<b>Démarrer la spline #2</b> *Flottant* Décale l&#39;emplacement le long des #2 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée de la #2 spline.\
-Plus la valeur est élevée, plus le même nombre de splines est resserré.
-
-<b>Terminer la spline #1</b> *Flottant* Décale l&#39;emplacement le long des #1 splines jusqu&#39;à l&#39;endroit où les splines sont générées. Cette valeur correspond à la longueur normalisée de la #1 spline.\
-Une valeur inférieure permet de tasser le même nombre de splines de manière plus serrée.
-
-<b>Terminer la spline #1</b> *Flottant* Décale l&#39;emplacement le long des #2 splines jusqu&#39;à l&#39;endroit où les splines sont générées. Cette valeur correspond à la longueur normalisée de la #2 spline.\
-Une valeur inférieure permet de tasser le même nombre de splines de manière plus serrée.
-
-<b>Décaler la spline #1</b> *Flottant* Applique un décalage au point de départ de toutes les splines le long des #1 splines. Cette valeur correspond à la longueur normalisée de la #1 spline.\
-Les splines qui correspondent au début ou à la fin de la spline y sont conservées.
-
-<b>Décaler la spline #2</b> *Flottant* Applique un décalage au point de départ de toutes les splines le long des #2 splines. Cette valeur correspond à la longueur normalisée de la #2 spline.\
-Les splines qui correspondent au début ou à la fin de la spline y sont conservées.
-
-<b>Décalage aléatoire de début</b> *Flottant* Applique un décalage aléatoire au point de départ de chaque spline le long des #1 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #1 splines.\
-&#x200B;#1 A 0, les splines sont régulièrement espacées entre les points de #1 Spline de début et Spline de fin.
-
-<b>Décaler la fin aléatoire</b> *Flottant* Applique un décalage aléatoire au point d&#39;extrémité de chaque spline le long du #2 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #2 splines.\
-&#x200B;#2 A 0, les splines sont régulièrement espacées entre les points de #2 Spline de début et Spline de fin.
-
-<b>Début de la longueur tangente</b> *Flottant* (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier »)Longueur de la tangente de sortie pour le point de départ sur la #1 de spline de toutes les splines générées.
-
-<b>Fin de longueur tangente</b> *Flottant* (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier »)Longueur de la tangente d&#39;entrée pour le point d&#39;extrémité sur la #2 de spline de toutes les splines générées.
-
-<b>Début de rotation tangente</b> *Flottant* (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier »)La rotation de la tangente de sortie pour le point de départ sur la #1 de spline de toutes les splines générées.\
-La valeur est un nombre de tours.
-
-<b>Fin de rotation tangente</b> *Flottant* (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier »)Rotation de la tangente d&#39;entrée pour le point d&#39;extrémité sur la #2 de spline de toutes les splines générées.\
-La valeur est un nombre de tours.
-
-+++Prévisualiser
-<b>Quantité de segments</b> *Nombre entier* Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.\
-Plus la valeur est élevée, plus la ligne est lisse.
-
-<b>Afficher l&#39;assistant de direction</b> *Booléen* Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu.
-
-<b>Afficher l&#39;enveloppe de Thickness</b> *Booléen*\
-Affiche des lignes supplémentaires sur les thickness de la spline.
-
-<b>Thickness (px)</b> *Flottant* Ajuste le thickness de la visualisation de la spline en pixels dans la sortie d&#39;aperçu.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Quantité de splines du pont</b> <i>Nombre entier</i> | Nombre de splines générées le long de la spline #1 à la spline #2. |
+| <b>Type de splines Bridge</b> <i>Nombre entier</i> | Type de spline générée :<br><br>- Linéaire : spline droite du début à la fin ;<br>- Cubique de Bézier : spline courbe du début à la fin, la courbe étant contrôlée par la longueur et l&#39;angle des points de début et de fin. |
+| <b>Démarrer la spline #1</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #1 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée des #1 splines.<br>Plus la valeur est élevée, plus le même nombre de splines est tassé de manière serrée. |
+| <b>Démarrer la spline #2</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #2 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée des #2 splines.<br>Plus la valeur est élevée, plus le même nombre de splines est tassé de manière serrée. |
+| <b>Terminer la spline #1</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #1 splines jusqu&#39;à l&#39;endroit où les splines sont générées. Cette valeur correspond à la longueur normalisée des #1 splines.<br>Une valeur inférieure a pour effet de tasser un nombre identique de splines plus serrées. |
+| <b>Terminer la spline #1</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #2 splines jusqu&#39;à l&#39;endroit où les splines sont générées. Cette valeur correspond à la longueur normalisée des #2 splines.<br>Une valeur inférieure a pour effet de tasser un nombre identique de splines plus serrées. |
+| <b>Décaler la spline #1</b> <i>Flotter</i> | Applique un décalage au point de départ de toutes les splines situées le long des #1 splines. La valeur est la longueur normalisée de la spline #1.<br>Les splines qui correspondent au début ou à la fin de la spline y sont laissées. |
+| <b>Décaler la spline #2</b> <i>Flotter</i> | Applique un décalage au point de départ de toutes les splines situées le long des #2 splines. La valeur est la longueur normalisée de la spline #2.<br>Les splines qui correspondent au début ou à la fin de la spline y sont laissées. |
+| <b>Décalage aléatoire de début</b> <i>Flotter</i> | Applique un décalage aléatoire au point de départ de chaque spline le long du #1 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #1 #1 splines.<br>Lorsqu&#39;on laisse la valeur 0, les splines sont espacées régulièrement entre les points de #1 Spline de début et Spline de fin. |
+| <b>Décaler la fin aléatoire</b> <i>Flotter</i> | Applique un décalage aléatoire au point d&#39;extrémité de chaque spline le long du #2 de spline. Cette valeur correspond à la distance normalisée entre les splines sur les #2 #2 splines.<br>Lorsqu&#39;on laisse la valeur 0, les splines sont espacées régulièrement entre les points de #2 Spline de début et Spline de fin. |
+| <b>Début de la longueur tangente</b> <i>Flottant</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Longueur de la tangente de sortie du point de départ sur la spline #1 de toutes les splines générées. |
+| <b>Fin de longueur tangente</b> <i>Flottant</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Longueur de la tangente d&#39;entrée du point d&#39;extrémité sur la spline #2 de toutes les splines générées. |
+| <b>Début de rotation tangente</b> <i>Flottant</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Rotation de la tangente de sortie du point de départ sur la spline #1 de toutes les splines générées.<br>La valeur est un nombre de tours. |
+| <b>Fin de la rotation de la Tangente</b> <i>Flottant</i> (disponible lorsque « Bridge Splines Type » est défini sur « Cubic Bézier ») | Rotation de la tangente d&#39;entrée du point d&#39;extrémité sur la spline #2 de toutes les splines générées.<br>La valeur est un nombre de tours. |
+| <b>Aperçu</b> |  |
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie Aperçu. Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Afficher l&#39;enveloppe de Thickness</b> <i>Booléen</i> | Affiche des lignes supplémentaires sur les bords du thickness de la spline. |
+| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
 
 ## Exemples
 
@@ -183,11 +108,11 @@ Affiche des lignes supplémentaires sur les thickness de la spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -196,7 +121,7 @@ Affiche des lignes supplémentaires sur les thickness de la spline.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>

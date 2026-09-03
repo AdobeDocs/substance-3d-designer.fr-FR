@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé (dynamique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Dégradé dynamique](../../../../assets/comp_dyngradient_1.png "Nœud atomique : Dégradé dynamique"){width="200px"}
+![Nœud atomique : Dégradé dynamique](gradient-dynamic.resources/gradient-dynamic-01.png "Nœud atomique : Dégradé dynamique"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,7 +102,7 @@ Vous pouvez également utiliser le curseur Position de l’entrée de dégradé 
 
 |  |  |
 | --- | --- |
-| <b>Entrée en niveaux de gris</b> *Niveaux de gris* PRINCIPAUX | Image en niveaux de gris à remapper. |
+| <b>Entrée en niveaux de gris</b> *Niveaux de gris* PRINCIPAUX | Image en niveaux de gris de remappage. |
 | <b>Entrée de dégradé</b> *Couleur/Niveaux De Gris* | Le dégradé est prélevé sur cette image |
 
 ## Connecteurs de sortie

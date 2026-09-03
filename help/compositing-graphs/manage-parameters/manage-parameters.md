@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gérer les paramètres
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Lorsque les propriétés d&#39;un nœud sont affichées dans le dock Propriété
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu global « Gérer les paramètres » dans Propriétés](../../assets/manage-parameters-menu-global.png "Menu global « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
+![Menu global « Gérer les paramètres » dans Propriétés](manage-parameters.resources/manage-parameters-01.png "Menu global « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Les actions de ce menu auront un impact sur *tous* les paramètres répertoriés
 * <b>Coller les paramètres :</b> Voir la section [Copier et coller les paramètres](../../compositing-graphs/manage-parameters/manage-parameters.md) ci-dessous.
 * <b>Enregistrer les paramètres dans un fichier de paramètres prédéfinis :</b> Pour en savoir plus sur les paramètres prédéfinis, consultez [cette page dédiée](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
 * <b>Appliquer les paramètres d&#39;un fichier de paramètres prédéfinis :</b> Pour en savoir plus sur les paramètres prédéfinis, consultez [cette page dédiée](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Tout réinitialiser :</b> réinitialise tous les paramètres à leurs valeurs et plages par défaut. Si une fonction a été appliquée à un paramètre, elle est rejetée.
+* <b>Tout réinitialiser :</b> réinitialise tous les paramètres à leurs valeurs et plages par défaut. Si une fonction a été appliquée à un paramètre, elle est rejetée.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Si vous souhaitez gérer un paramètre *unique*, utilisez le menu « <b>Gérer l
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu local « Gérer les paramètres » dans Propriétés](../../assets/manage-parameters-menu.png "Menu local « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
+![Menu local « Gérer les paramètres » dans Propriétés](manage-parameters.resources/manage-parameters-02.png "Menu local « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Les mêmes limitations répertoriées ci-dessous pour les nœuds atomiques s’a
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](../../assets/manage-parameters-node-menu.png "&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud"){zoomable="yes"}
+Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](manage-parameters.resources/manage-parameters-03.png "&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](../../
 
 ## Copier et coller des paramètres
 
-Il est possible de copier toutes les valeurs de paramètres d&#39;un nœud source et de les coller sur un nœud cible. Les paramètres des nœuds source et cible sont <b>mis en correspondance en fonction de leurs identificateurs et de leurs types</b>.
+Il est possible de copier toutes les valeurs de paramètres d&#39;un nœud source et de les coller sur un nœud cible. Les paramètres des nœuds source et cible sont <b>mis en correspondance en fonction de leurs identificateurs et de leurs types</b>.
 
 Par exemple, un paramètre « Scale » dont l&#39;identificateur est « scale » et le type est « Float » peut être copié et collé sur un autre paramètre « Shape Scale » lorsque son identificateur est également « scale » et son type est également « Float ».
 
@@ -129,7 +129,7 @@ Cette fonctionnalité fonctionne de la même manière que l&#39;utilisation d&#3
 </td>
 <td style="border: 0;" valign="top">
 
-![Copier et coller des paramètres](../../assets/copy-paste-parameters.gif "Copier et coller des paramètres"){zoomable="yes"}
+![Copier et coller des paramètres](manage-parameters.resources/manage-parameters-04.gif "Copier et coller des paramètres"){zoomable="yes"}
 
 </td>
 </tr>

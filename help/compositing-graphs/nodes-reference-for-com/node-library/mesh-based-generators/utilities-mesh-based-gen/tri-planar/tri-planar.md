@@ -1,90 +1,82 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Plan triangulaire pour projeter les textures de trois plans orthogonaux afin d'obtenir un mappage de texture fluide sur une géométrie complexe.
+description: Utilisez le nœud Tri Planaire pour projeter des textures à partir de trois plans orthogonaux pour une correspondance de texture transparente sur une géométrie complexe.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Tri Planar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Triplan
+title: Tri Planaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 6%
 
 ---
 
 
-# Triplan
+# Tri Planaire
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/triplanar-1.png){width="128px"}
+![](tri-planar.resources/tri-planar-01.png){width="128px"}
 
-![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/tri-planar-02.png){width="128px"}
 
-## Tri planaire (niveaux de gris)
-
-**Entrée :** *Générateurs Basés Sur Le Maillage**/Utilitaires*
-
-**Complexe**
+<b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Ce nœud avancé effectue un mappage de projection triplanaire en 2D, en fonction des données de position et de normale de l&#39;espace universel. Cela signifie qu’il convertit essentiellement toutes les coordonnées UV en une cartographie (principalement) sans couture basée sur le maillage lui-même.
+Ce nœud avancé effectue le mappage des Projections triplanaires en 2D, en fonction de la position bakée et des données de Normale de l&#39;espace monde. Cela signifie qu’il convertit pratiquement toutes les coordonnées UV en un mappage (principalement) sans seam, basé sur le maillage lui-même.
 
-C&#39;est une bonne façon d&#39;éviter les coutures sans avoir à refaire à chaque fois (il est possible d&#39;obtenir quelque chose de similaire avec le boulanger). L&#39;inconvénient est que ce nœud est assez lourd et donc pas rapide.
+C&#39;est une bonne façon d&#39;éviter les seams sans avoir à refaire à chaque fois (il est possible d&#39;obtenir quelque chose de similaire avec le baker). L&#39;inconvénient est que ce nœud est assez lourd et donc pas rapide.
 
-Gardez à l&#39;esprit que vos pâtisseries doivent être de haute précision : les pâtisseries 8 bits ne donneront pas de très bons résultats.
-
-## Paramètres
-
-### Entrées
-
-* **Position** : *Entrée Couleur*\
-  Mappage de position ancrée. Idéalement, précision de 16 bits ou supérieure.
-* **Espace universel normal** : *entrée de couleur*\
-  Carte des normales de l&#39;espace mondial au four, idéalement précision de 16 bits ou plus.
-* **Entrée X** : *Entrée couleur (Entrée niveaux de gris)*Carte d&#39;entrée pour remapper l&#39;espace UV vers l&#39;espace mondial via une projection triplanaire. Utilisé pour tous les axes lorsque la valeur Entrée image est définie sur 1, pour l’axe X si elle est définie sur 3.
-* **Entrée Y** : *Entrée couleur (entrée niveaux de gris)*uniquement si la valeur Entrée image est définie sur 3. Mappage d’entrée pour remapper l’espace universel sur l’axe Y.
-* **Entrée Z** : *Entrée couleur (entrée niveaux de gris)*uniquement si la valeur Entrée image est définie sur 3. Carte d&#39;entrée pour remapper l&#39;espace universel sur l&#39;axe Z.
-
-### Paramètres
-
-* **Projection** :*Tous les axes, X uniquement, Y uniquement, Z uniquement* définit les axes avec lesquels fusionner.
-* **Entrées d’image** : *1 entrée, 3 entrées*\
-  Indiquez si vous souhaitez utiliser une carte pour tous les axes ou une carte spécifique par axe.
-* **Mode de fusion** : *linéaire, avancé* augmente la précision.
-* **Contraste de fusion** :*0.001 - 1.0* Contraste de transition, mélange entre des transitions lisses ou dures.
-* **Facteur De Normalisation** : *0,0 - 1,0*\
-  Améliore la fusion par projection en rétablissant la perte de contraste dans la zone de fusion.
-* **Mosaïque de texture** : *0.0 - 10.0* nombre de fois où les textures d&#39;entrée sont mosaïquées.
-* **Rotation globale** : *0.0 - 1.0*\
-  Rotation globale pour tous les axes.
-* **Corriger la projection mise en miroir** : *Faux/Vrai* Définissez la façon de gérer les projections mises en miroir.
-* **Rotation X** : *0,0 - 1,0* Rotation individuelle sur l&#39;axe X de projection.
-* **Rotation Y** : *0,0 - 1,0* Rotation individuelle sur l&#39;axe Y de projection.
-* **Rotation Z** : *0,0 - 1,0* Rotation individuelle sur l&#39;axe Z de projection.
-* **Décalage X** : *0,0 - 1,0* Décalage sur l&#39;axe X de projection.
-* **Décalage Aléatoire X** : *0,0 - 1,0*\
-  Permet de rendre aléatoire le décalage de l’axe X.
-* **Décalage Y** : *0,0 - 1,0* Décalage sur l&#39;axe Y de projection.
-* **Décalage aléatoire Y** : *0.0 - 1.0*\
-  Permet de rendre aléatoire le décalage de l’axe Y.
-* **Décalage Z** : *0,0 - 1,0* Décalage sur l&#39;axe Z de projection.
-* **Décalage aléatoire Z** : *0,0 - 1,0*\
-  Permet de rendre aléatoire le décalage de l’axe Z.
-
-## Exemples d’images
+Gardez à l’esprit que vos bakes doivent être d’une grande précision : les bakes 8 bits ne donneront pas de très bons résultats.
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Entrée couleur</i> | Mappage de position baké. Idéalement, précision de 16 bits ou supérieure. |
+| <b>Espace universel normal</b> <i>Entrée couleur</i> | Carte de Normale de l&#39;espace monde bakée, idéalement précision de 16 bits ou plus. |
+| <b>Entrée X</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Map d&#39;entrée de remappage de l’Espace monde UV via la Projection triplanaire. Utilisé pour tous les Axes lorsque la valeur Entrée image est définie sur 1, pour l’axe X si elle est définie sur 3. |
+| <b>Entrée Y</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Map d&#39;entrée de remappage de l’Espace monde UV vers l’Axe Y. |
+| <b>Entrée Z</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Map d&#39;entrée de remappage de l’Espace monde UV vers l’Axe Z. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Projection</b> <i>Tous les axes, X uniquement, Y uniquement, Z uniquement</i> | Définit les Axes avec lesquels fusionner. |
+| <b>Entrées d&#39;image</b> <i>1 entrée, 3 entrées</i> | Indiquez si vous souhaitez utiliser une carte pour tous les Axes ou une carte spécifique par Axe. |
+| <b>Mode de fusion</b> <i>linéaire, avancé</i> | Augmente la précision. |
+| <b>Contraste de fusion</b> <i>0.001 - 1.0</i> | Contraste de transition, fusion entre des transitions lisses ou dures. |
+| <b>Facteur de normalisation</b> <i>0.0 - 1.0</i> | Améliore la fusion des projections en rétablissant la perte de contraste dans la zone de fusion. |
+| <b>Répétition de Texture</b> <i>0.0 - 10.0</i> | Nombre de fois où placer les textures d’entrée en mosaïque. |
+| <b>Rotation globale</b> <i>0.0 - 1.0</i> | Rotation globale pour tous les Axes. |
+| <b>Corriger la Projection mise en miroir</b> <i>Faux/Vrai</i> | Définissez le mode de gestion des Projections mises en miroir. |
+| <b>Rotation X</b> <i>0.0 - 1.0</i> | Rotation individuelle sur l’axe X de la projection. |
+| <b>Rotation Y</b> <i>0.0 - 1.0</i> | Rotation individuelle sur l’axe Y de la projection. |
+| <b>Rotation Z</b> <i>0.0 - 1.0</i> | Rotation individuelle sur l’axe Z de la projection. |
+| <b>Décalage X</b> <i>0.0 - 1.0</i> | Décalage sur l’axe X de la projection. |
+| <b>Décalage aléatoire X</b> <i>0.0 - 1.0</i> | Autoriser la randomisation du décalage de l&#39;axe X. |
+| <b>Décalage Y</b> <i>0.0 - 1.0</i> | Décalage sur l’axe Y de la projection. |
+| <b>Décalage aléatoire Y</b> <i>0.0 - 1.0</i> | Permet la randomisation du décalage de l’axe Y. |
+| <b>Décalage Z</b> <i>0.0 - 1.0</i> | Décalage sur l’axe Z de la projection. |
+| <b>Décalage aléatoire Z</b> <i>0.0 - 1.0</i> | Permet la randomisation du décalage de l’axe Z. |

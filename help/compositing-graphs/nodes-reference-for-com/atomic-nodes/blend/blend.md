@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
+description: Utilisez le nœud Fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,14 +24,14 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Fusion](../../../../assets/comp_blend_1.png "Nœud atomique : Fusion"){width="200px"}
+![Noeud atomique : Fusion](blend.resources/blend-01.png "Noeud atomique : Fusion"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Combine deux images à l’aide d’un mode de fusion spécifié et d’un masque facultatif.
 
-Il s&#39;agit du nœud le plus utile de tous les nœuds atomiques. Presque tous les graphiques que vous construisez dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) utiliseront ce nœud.
+Il s&#39;agit du nœud le plus utile de tous les Noeuds atomiques. Presque tous les Graphes que vous construisez dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) utiliseront ce nœud.
 
 </td>
 </tr>
@@ -41,7 +41,7 @@ Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-de
 
 >[!TIP]
 >
-> Découvrez les modes de fusion disponibles dans le nœud Fusion dans [cette page dédiée](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
+> Découvrez les modes de fusion disponibles dans le nœud de Fusion de données de [cette page dédiée](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
 <table>
 <tr style="border: 0;">
@@ -84,8 +84,8 @@ Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-de
 | --- | --- |
 | <b>Opacité</b> *Flotter* | Opacité du calque de premier plan fusionné avec l’arrière-plan. Il fonctionne indépendamment de l’entrée Opacité et agit comme un multiplicateur supplémentaire. |
 | <b>Mode de fusion</b> *Entier* [Statique](../../../../glossary/glossary.md) | Définit l’opération de fusion à utiliser.   Consultez la [page dédiée aux modes de fusion](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Fusion des Alpha</b> *Entier* [Statique](../../../../glossary/glossary.md) | Détermine le comportement de fusion lorsque les entrées de couleur ont des couches Alpha :<ul data-preserve-html="true"> <li data-preserve-html="true">Utiliser l’alpha de la source</li> <li data-preserve-html="true">Ignorer l’alpha</li> <li data-preserve-html="true">Simulation de transparence droite</li> <li data-preserve-html="true">Fusion alpha prémultipliée</li> </ul> |
-| <b>Zone de recadrage</b> *Float4* [Statique](../../../../glossary/glossary.md) | Permet de définir une zone de recadrage personnalisée qui se comporte comme un masque d’opacité supplémentaire. Toute zone recadrée affiche uniquement l’arrière-plan. |
+| <b>Simulation de transparence</b> *Entier* [Statique](../../../../glossary/glossary.md) | Détermine le comportement de fusion lorsque les entrées de couleur ont des Canaux Alphas :<ul data-preserve-html="true"> <li data-preserve-html="true">Utiliser l’alpha de la source</li> <li data-preserve-html="true">Ignorer l’alpha</li> <li data-preserve-html="true">Simulation de transparence droite</li> <li data-preserve-html="true">Simulation de transparence prémultipliée</li> </ul> |
+| <b>Zone de recadrage</b> *Flottant 4* [Statique](../../../../glossary/glossary.md) | Permet de définir une zone de recadrage personnalisée qui se comporte comme un masque d’opacité supplémentaire. Toute zone recadrée affiche uniquement l’arrière-plan. |
 
 ## Connecteurs d’entrée
 

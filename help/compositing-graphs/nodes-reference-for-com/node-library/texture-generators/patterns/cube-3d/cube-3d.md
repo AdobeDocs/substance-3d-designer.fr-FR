@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cube 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 1%
+source-wordcount: '128'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
-## Cube 3D
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Simple**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Effectue le rendu d’un cube 3D en niveaux de gris dont l’ombrage sert également de profondeur d’écran. Le cube résultant a des bords ultra-nets et nets lorsqu’il est utilisé avec des profondeurs binaires de haute précision. Très intéressant et utile !
 
-## Paramètres
-
-* **Décalage d&#39;orientation** :\
-  Permet une rotation X et Y du cube de type 3D. Peut également être effectué en manipulant le petit point dans l’aperçu 2D (comme indiqué dans l’exemple ci-dessous)
-* **Taille** : *0.0 - 1.0* Permet un redimensionnement non uniforme du cube.
-* **Échelle** : *0.0 - 1.0*\
-  Redimensionne uniformément le cube entier.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-![](../../../../../../assets/cube3d-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Décalage d&#39;orientation</b> | Permet une rotation X et Y du cube de type 3D. Peut également être effectué en manipulant le petit point dans l’aperçu 2D (comme indiqué dans l’exemple ci-dessous) |
+| <b>Taille</b> <i>0.0 - 1.0</i> | Permet un redimensionnement non uniforme du cube. |
+| <b>Échelle</b> <i>0.0 - 1.0</i> | Redimensionne uniformément le cube entier. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cube-3d.resources/cube-3d-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : FX-Map](../../../../assets/fxmap.png "Nœud atomique : FX-Map"){width="200px"}
+![Nœud atomique : FX-Map](fx-map.resources/fx-map-01.png "Nœud atomique : FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Gardez à l&#39;esprit que contrairement aux autres nœuds, la majorité du comp
 
 |  |  |
 | --- | --- |
-| <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. La couleur sera beaucoup plus lente que les niveaux de gris. |
+| <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. La couleur sera beaucoup plus lente que les niveaux de gris. |
 | <b>Arrière-plan</b> *Float/Float4* | Définit la couleur de départ de l’arrière-plan sur laquelle composer les résultats. |
 | <b>Zone de rendu</b> *Float4* | Permet de définir la plage de pixels de départ de chaque côté de la FX-Map, ce qui produit un effet d’étirement. |
 | <b>Zone de mosaïque</b> *Float4* | Permet de décaler la distance de mosaïque du FX-Map. |
@@ -102,4 +102,4 @@ Gardez à l&#39;esprit que contrairement aux autres nœuds, la majorité du comp
 
 ## Exemples
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

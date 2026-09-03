@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 2%
+source-wordcount: '217'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-01.png){width="128px"}
 
-## Forme
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,26 +37,32 @@ Génère diverses formes procédurales, avec des options pour modifier les forme
 
 Malgré sa simplicité, il s&#39;agit d&#39;un nœud très utile : c&#39;est la pierre angulaire de la plupart des générations de Heightmap procédurales ! En combinant des formes simples avec des nœuds de transformation, vous pouvez créer une forme Heightmap entièrement procédurale, beaucoup plus précise qu’une image bitmap.
 
-## Paramètres
-
-* **Mosaïque** : *1 - 16*\
-  Définit le nombre de fois où le résultat doit se produire.
-* **Motif** : *Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Gradation, Ondes, Demi-Cloche, Cloche Arquée, Croissant, Capsule, Cône*, Hémisphère**\
-  Sélectionne la forme de motif à utiliser.
-* **Spécifique Au Motif** : *0.0 - 1.0*\
-  Permet de modifier la forme du motif sélectionné. L’effet dépend du motif sélectionné.
-* **Échelle** :*0.0 - 1.0* met à l’échelle la forme entière.
-* **Taille** :*0.0 - 1.0* Permet une mise à l’échelle non uniforme sur l’axe X ou Y.
-* **Angle** : *0.0 - 1.0* Fait pivoter la forme entière.
-* **Rotation 45°** : *Faux/Vrai* Rotation à 45 degrés prédéfinis.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-* **Carrelage non carré**&#x200B;**:** *Faux/Vrai*Lorsque l’Extension non carrée est activée, la forme est carrelée sans être écrasée.
-
-## Exemples d’images
-
-![](../../../../../../assets/shape-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Motif</b> <i>Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône, Hémisphère</i> | Sélectionne la forme de motif à utiliser. |
+| <b>Spécifique Au Motif</b> <i>0.0 - 1.0</i> | Permet de modifier la forme du motif sélectionné. L’effet dépend du motif sélectionné. |
+| <b>Échelle</b> <i>0.0 - 1.0</i> | Met à l’échelle toute la forme. |
+| <b>Taille</b> <i>0.0 - 1.0</i> | Permet une mise à l’échelle non uniforme sur l’axe X ou Y. |
+| <b>Angle</b> <i>0.0 - 1.0</i> | Fait pivoter la forme entière. |
+| <b>Rotation 45°</b> <i>Faux/Vrai</i> | Permet une rotation à 45 degrés prédéfinis. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Répétition Non Carrée</b> <i>Faux/Vrai</i> | Lorsque l’Extension non carrée est activée, la forme est mosaïque sans être écrasée. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape.resources/shape-02.gif" />
+        </td>
+    </tr>
 </table>

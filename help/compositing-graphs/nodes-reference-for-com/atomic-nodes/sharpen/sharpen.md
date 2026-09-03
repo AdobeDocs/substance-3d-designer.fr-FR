@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Netteté pour améliorer les détails de texture et les bords afin de créer des détails de surface nets et définis.
+description: Utilisez le nœud Netteté pour améliorer les détails et les contours de la texture afin de créer des détails de surface nets et définis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Accentuer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud plus net](../../../../assets/sharpen-4.png "Icône de nœud plus net")
+![Icône de nœud plus net](sharpen.resources/sharpen-01.png "Icône de nœud plus net")
 
-<b>Entrée :</b> nœuds atomiques
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,7 +39,7 @@ Le nœud Netteté effectue une opération de netteté sur une entrée. Il s’ag
 </tr>
 </table>
 
-Il est mathématiquement très similaire au filtre Accentuation de Photoshop, bien que son nom soit différent. Elle fonctionne bien pour les cartes couleur de base, par exemple, mais doit être évitée sur les cartes telles que les cartes de normales et les cartes métalliques.
+Il est mathématiquement très similaire au filtre Accentuation de Photoshop, bien que son nom soit différent. Cela fonctionne bien pour les cartes de couleur de base, par exemple, mais doit être évité sur les cartes comme les Maps normal et les cartes Métalliques.
 
 ## Entrées
 
@@ -52,8 +52,8 @@ Image à accentuer.
 Définit l’intensité de l’effet de renforcement.
 
 <b>Alpha ponctuel</b> *Booléen* (disponible lorsqu&#39;une image couleur est connectée à l&#39;<b>entrée</b>)\
-Détermine si la couche alpha de l’image doit être accentuée ou non.
+Détermine si le canal Alpha de l’image doit être accentué ou laissé intact.
 
 ## Exemples
 
-![Nœud plus net - Exemple 1](../../../../assets/sharpen-ex.png "Nœud plus net - Exemple 1")
+![Nœud plus net - Exemple 1](sharpen.resources/sharpen-02.png "Nœud plus net - Exemple 1")

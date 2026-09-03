@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Alpha de la fusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '89'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-merge.png)
+![](alpha-merge.resources/alpha-merge-01.png)
 
-## Alpha de la fusion
-
-**Entrée :** *Filtres/Canaux*
-
-**Simple**
+<b>Entrées :</b> Filtres > Canaux
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,23 +37,15 @@ Ajoute une couche alpha à une entrée sans couche alpha. À ne pas confondre av
 
 Nœud simple mais pratique lorsque vous souhaitez simplement masquer quelque chose, ou lorsque votre résultat nécessite un alpha.
 
-## Paramètres
-
-### Entrées
-
-* **RGB** : *Entrée de couleur*\
-  Image couleur sans alpha
-* **A** : *Entrée En Niveaux De Gris*\
-  Image en niveaux de gris à utiliser comme alpha du résultat.
-
-*Aucun paramètre.*
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>RGB</b> <i>Entrée couleur</i> | Image couleur sans alpha |
+| <b>A</b> <i>Entrée en niveaux de gris</i> | Image en niveaux de gris à utiliser comme alpha du résultat. |

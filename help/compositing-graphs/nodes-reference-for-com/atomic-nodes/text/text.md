@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Texte pour générer des textures de texte avec des polices et des styles personnalisables afin de créer des motifs textuels.
+description: Utilisez le nœud Texte pour générer des textures de texte avec des polices et des styles personnalisables afin de créer des modèles textuels.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Texte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,12 +24,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Texte](../../../../assets/comp_text_1.png "Nœud atomique : Texte"){width="200px"}
+![Noeud atomique : Texte](text.resources/text-01.png "Noeud atomique : Texte"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le nœud Texte permet d’insérer du texte créé par l’utilisateur dans vos graphiques. Les utilisateurs peuvent également sélectionner des paramètres tels que la police, l’alignement et la rotation pour personnaliser l’emplacement du texte.
+Le nœud Texte fournit un moyen de placer du texte créé par l’utilisateur dans vos graphes. Les utilisateurs peuvent également sélectionner des paramètres tels que la police, l’alignement et la rotation pour personnaliser l’emplacement du texte.
 
 Le nœud Texte est très puissant et constitue le seul moyen de placer facilement du texte. Cela peut être un peu difficile à utiliser en raison du placement qui se produit toujours sur une zone de travail carrée et limitée et parce que les polices sont pilotées par une liste externe définie par le système.
 
@@ -37,9 +37,9 @@ Le nœud Texte est très puissant et constitue le seul moyen de placer facilemen
 </tr>
 </table>
 
-Seules les polices Truetype (.ttf) et certaines polices Opentype sont prises en charge. Si des polices sont absentes de la liste, il s’agit probablement de la raison. <b>Les polices ne peuvent pas être affichées en tant que paramètre.</b>
+Seules les polices Truetype (.ttf) et certaines polices Opentype sont prises en charge. Si des polices sont absentes de la liste, il s’agit probablement de la raison. <b>Les polices ne peuvent pas être exposées en tant que paramètre.</b>
 
-Lorsqu’un graphique utilisant du texte est publié sur sbsar, la police est incorporée dans le package, comme pour les bitmaps et autres ressources, afin de garantir son bon fonctionnement sur tous les systèmes et applications.
+Lorsqu’un Graphe utilisant du texte est publié sur sbsar, la police est incorporée dans le package, tout comme les bitmaps et autres ressources, pour s’assurer qu’elle fonctionne sur tous les systèmes et applications.
 
 <table>
 <tr style="border: 0;">

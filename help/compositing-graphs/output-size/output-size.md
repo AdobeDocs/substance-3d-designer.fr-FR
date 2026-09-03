@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Taille de sortie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Taille de sortie
 
-Il s&#39;agit du premier des <b>paramètres de base</b> d&#39;un graphique et, avec le <b>format de sortie</b> (ou profondeur de bit), il est essentiel de bien le comprendre car il a un impact important sur la sortie d&#39;un graphique, à la fois dans Designer et dans d&#39;autres applications en tant que fichier publié [actif Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html).
+Il s&#39;agit du premier des <b>paramètres de base</b> d&#39;un graphique et, avec le <b>format de sortie</b> (ou profondeur de bit), il est essentiel de bien le comprendre car il a un impact important sur la sortie d&#39;un graphique, à la fois dans Designer et dans d&#39;autres applications en tant que fichier [SBSAR (actif Substance 3D publié)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 >[!TIP]
 >
@@ -28,7 +28,7 @@ Il s&#39;agit du premier des <b>paramètres de base</b> d&#39;un graphique et, a
 
 >[!NOTE]
 >
-> Utilisez le bouton de verrouillage ![](../../assets/props-output-size-lock.jpg) pour que la valeur Height *corresponde* à la valeur Largeur.
+> Utilisez le bouton de verrouillage ![](output-size.resources/output-size-01.jpg) pour que la valeur Height *corresponde* à la valeur Largeur.
 
 <table>
 <tr style="border: 0;">
@@ -96,18 +96,18 @@ Dans la plupart des cas, la [méthode d&#39;héritage](../../compositing-graphs/
 * Nœud : *Relative à l&#39;entrée* : les valeurs héritées par l&#39;[entrée principale](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) du nœud sont utilisées dans ce cas
 * Nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) :*Absolu* - consultez la page [Ressources bitmap](../../resources/bitmap-resource/bitmap-resource.md) et les [directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) pour savoir pourquoi
 
-Affichez les propriétés d&#39;un nœud ou d&#39;un graphique en cliquant sur cet élément, puis dans le panneau [Propriétés](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage pour sélectionner la méthode d’héritage souhaitée.
+Affichez les propriétés d&#39;un nœud ou d&#39;un graphique en cliquant sur cet élément, puis dans le panneau [Propriétés](../../interface/properties/properties.md) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage pour sélectionner la méthode d’héritage souhaitée.
 
-![Méthode d’héritage de la taille de sortie](../../assets/change-mode.gif "Méthode d’héritage de la taille de sortie"){width="512px"}
+![Méthode d’héritage de la taille de sortie](output-size.resources/output-size-02.gif "Méthode d’héritage de la taille de sortie"){width="512px"}
 
 ## Exemples de problèmes
 
 Si vous êtes un nouvel utilisateur de [Adobe Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html), vous risquez de rencontrer des problèmes courants. Nous énumérerons quelques exemples ci-dessous, ainsi que des solutions.
 
 +++Problème 1
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](output-size.resources/error.svg) Problème**
 
-![Exemple de problème 1](../../assets/problem2-bad.png "Exemple de problème 1")
+![Exemple de problème 1](output-size.resources/output-size-03.png "Exemple de problème 1")
 
 
 
@@ -115,9 +115,9 @@ Le paramètre **Taille du gabarit** est *grisé* et le graphique utilise une ré
 
 Dans les propriétés du graphique, la méthode d&#39;héritage de la propriété Taille de sortie était définie sur *Absolue*, ce qui bloque l&#39;héritage en faveur d&#39;une valeur arbitraire.
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](output-size.resources/check.svg)**
 
-![Exemple de problème 1 Solution](../../assets/problem2-good.png "Exemple de problème 1 Solution")
+![Exemple de problème 1 Solution](output-size.resources/output-size-04.png "Exemple de problème 1 Solution")
 
 
 
@@ -126,9 +126,9 @@ Définissez la méthode d&#39;héritage pour la taille Sortie du graphique sur *
 +++
 
 +++Problème 2
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](output-size.resources/error.svg) Problème**
 
-![Exemple de problème 2](../../assets/problem1-bad.png "Exemple de problème 2")
+![Exemple de problème 2](output-size.resources/output-size-05.png "Exemple de problème 2")
 
 
 
@@ -136,9 +136,9 @@ Ci-dessus, vous voyez un cas où la sortie d&#39;un graphique entraîne une rés
 
 Le problème provient du nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md). Il utilise par défaut la méthode d&#39;héritage *Absolue* et a choisi 512\*512 comme résolution basée sur la [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md). Les nœuds qui y sont connectés sont définis sur *Relative à l&#39;entrée*, héritant ainsi de leur taille de sortie du nœud Bitmap.
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](output-size.resources/check.svg)**
 
-![Exemple de problème 2 Solution](../../assets/problem1-good.png "Exemple de problème 2 Solution")
+![Exemple de problème 2 Solution](output-size.resources/output-size-06.png "Exemple de problème 2 Solution")
 
 
 
@@ -147,9 +147,9 @@ Définissez la méthode d&#39;héritage de la taille de sortie du nœud Bitmap s
 +++
 
 +++Problème 3
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](output-size.resources/error.svg) Problème**
 
-![Exemple de problème 3](../../assets/problem3-bad.png "Exemple de problème 3")
+![Exemple de problème 3](output-size.resources/output-size-07.png "Exemple de problème 3")
 
 
 
@@ -157,9 +157,9 @@ Au-dessus de vous voyez un problème où la résolution saute beaucoup plus haut
 
 Le problème est causé par un modificateur relatif de 3 sur le nœud [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md), ce qui rend la sortie 8 fois plus grande.
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](output-size.resources/check.svg)**
 
-![Exemple de problème 3 Solution](../../assets/problem3-good.png "Exemple de problème 3 Solution")
+![Exemple de problème 3 Solution](output-size.resources/output-size-08.png "Exemple de problème 3 Solution")
 
 
 

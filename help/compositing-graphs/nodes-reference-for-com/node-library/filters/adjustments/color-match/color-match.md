@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Correspondance des couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-match-3.png){width="128px"}
+![](color-match.resources/color-match-01.png){width="128px"}
 
-## Correspondance des couleurs
-
-**Entrée :** *Filtres/Réglages*
-
-**Complexe**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,38 +37,32 @@ Tente de faire correspondre la plage de *couleurs source* à une plage de *coule
 
 Pour les versions plus simples, voir [Remplacer la gamme de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) ou [Remplacer la couleur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color/replace-color.md).
 
-## Paramètres
-
-### Entrées
-
-* **Entrée** : Entrée *Couleur*\
-  Entrée principale à modifier pour le résultat.
-* **Couleur source** : *Entrée de couleur*\
-  Emplacement d&#39;entrée pour la couleur source, utilisé uniquement lorsque le mode Couleur source est défini sur *Entrée*.
-* **Couleur cible** : emplacement d&#39;entrée *Entrée de couleur* pour la couleur cible, utilisé uniquement lorsque le mode Couleur cible est défini sur *Entrée*.
-
-### Paramètres
-
-* **Mode de la couleur source** : *Moyenne, paramètre, entrée* Définit si la couleur source est définie en calculant la moyenne de l&#39;image d&#39;entrée, en définissant un paramètre ou en utilisant un emplacement d&#39;entrée.
-* **Couleur source** : *(Valeur de couleur)* Si le mode Couleur source est défini sur *Paramètre*, ce paramètre détermine la couleur source.
-* **Mode colorimétrique cible** : *paramètre, entrée d&#39;image* Définit si la couleur source est définie en calculant la moyenne de l&#39;image d&#39;entrée, en définissant un paramètre ou en utilisant un emplacement d&#39;entrée.
-* **Couleur cible** : *(Valeur de couleur)* Si le mode colorimétrique cible est défini sur *Paramètre*, ce paramètre détermine la couleur cible.
-* **Variation de couleur personnalisée** : False/True\
-  Active une variante de couleur supplémentaire.
-* **Variation de couleur**\
-  Définit les variations de teinte, de chrominance ou de luminance sur le résultat si cette option est activée.
-* **Utiliser le masque** : *Faux/Vrai*\
-  Active/désactive l’utilisation de l’entrée ou de la sortie de masque, selon le mode de masque ci-dessous.
-* **Mode de masque** : *Paramètre, entrée* Le mode Paramètre génère un masque détaillant la façon dont la couleur a été modifiée. Le mode Entrée permet à un masque de contrôler l’intensité de l’effet Correspondance des couleurs.
-* **Masquer**\
-  Génère un masque indiquant exactement où l’effet Correspondance des couleurs a été appliqué, avec des commandes supplémentaires pour lisser et flouter le masque obtenu.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Entrée</b> <i>Entrée couleur</i> | Entrée principale à modifier pour le résultat. |
+| <b>Couleur source</b> <i>Entrée couleur</i> | Emplacement d&#39;entrée pour la couleur source, utilisé uniquement lorsque le mode Couleur source est défini sur *Entrée*. |
+| <b>Couleur cible</b> <i>Entrée couleur</i> | Emplacement d&#39;entrée pour la couleur cible, utilisé uniquement lorsque le mode Couleur cible est défini sur *Entrée*. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Mode de la couleur source</b> <i>Moyenne, Paramètre, Entrée</i> | Indique si la couleur source est définie en calculant la moyenne de l’image d&#39;entrée, en définissant un paramètre ou en utilisant un emplacement d’entrée. |
+| <b>Couleur source</b> <i>(valeur de couleur)</i> | Si le mode de la couleur source est défini sur *Paramètre*, ce paramètre détermine la couleur source. |
+| <b>Mode colorimétrique cible</b> <i>Paramètre, Entrée Image</i> | Indique si la couleur source est définie en calculant la moyenne de l’image d&#39;entrée, en définissant un paramètre ou en utilisant un emplacement d’entrée. |
+| <b>Couleur cible</b> <i>(valeur de couleur)</i> | Si le mode colorimétrique cible est défini sur *Paramètre*, ce paramètre détermine la couleur cible. |
+| <b>Variation de couleur personnalisée</b> <i>Faux/Vrai</i> | Active une variante de couleur supplémentaire. |
+| <b>Variation de couleur</b> | Définit les variations de teinte, de chrominance ou de Luminance sur le résultat si cette option est activée. |
+| <b>Utiliser le masque</b> <i>Faux/Vrai</i> | Active/désactive l’utilisation de l’entrée ou de la sortie de masque, selon le mode de masque ci-dessous. |
+| <b>Mode Masque</b> <i>Paramètre, Entrée</i> | Le mode Paramètre génère un masque détaillant la façon dont la couleur a été modifiée. Le mode Entrée permet à un masque de contrôler la force de l’effet Correspondance des couleurs. |
+| <b>Masquer</b> | Génère un masque indiquant exactement où l’effet Correspondance des couleurs a été appliqué, avec des commandes supplémentaires pour lisser et flouter le masque obtenu. |

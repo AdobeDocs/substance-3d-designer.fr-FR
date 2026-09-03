@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moteurs de rendu 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -22,8 +22,8 @@ ht-degree: 7%
 
 La vue 3D propose quatre systèmes de rendu :
 
-* Deux versions du rendu 3D interne d’Adobe : Pixelliseur pour la visualisation en temps réel avec prise en charge des ombres et Pathtracer GPU pour le rendu précis des ombres, des reflets, des propriétés de matériau complexes et plus encore.
-* Deux moteurs de rendu tiers obsolètes : OpenGL et Iray de NVIDIA.
+* Deux versions du rendu 3D interne d’Adobe : Pixelliseur pour la visualisation en temps réel avec prise en charge des ombres et Pathtracer GPU pour un rendu précis des ombres, des reflets, des propriétés de matériau complexes et plus encore.
+* Deux systèmes de rendu tiers obsolètes : OpenGL et Iray de NVIDIA.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ La vue 3D propose quatre systèmes de rendu :
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -50,20 +50,20 @@ La vue 3D propose quatre systèmes de rendu :
 
 +++
 
-Le moteur de rendu 3D d&#39;Adobe est entièrement conçu pour prendre en charge les technologies modernes telles que le langage d&#39;ombrage [MaterialX](https://materialx.org/) et la description de scène [USD](https://openusd.org/release/index.html), et est prêt à offrir une cohérence visuelle complète dans l&#39;ensemble de l&#39;écosystème Substance 3D.
+Le moteur de rendu 3D d&#39;Adobe est conçu en sol pour prendre en charge les technologies modernes telles que le langage d&#39;ombrage [MaterialX](https://materialx.org/) et la description de scène [USD](https://openusd.org/release/index.html), et est prêt à offrir une cohérence visuelle complète dans l&#39;ensemble de l&#39;écosystème Substance 3D.
 
-Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) d’Adobe pour importer de nombreux formats de scène 3D, tels que FBX et GLTF, et effectuer le rendu complet de ces scènes, y compris les matériaux, les textures, les caméras et les lumières.
+Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](https://github.com/adobe/USD-Fileformat-plugins) d&#39;Adobe pour importer de nombreux formats Scène 3D, tels que FBX et GLTF, et restituer ces scènes intégralement, y compris les matériaux, les textures, les caméras et les éclairages.
 
-+++ Importation de scène : Pixellisation et OpenGL
++++ Importation de scènes : Pixellisation et OpenGL
 
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](
 
 >[!TIP]
 >
-> Vous pouvez sélectionner le moteur de rendu utilisé par défaut lors du démarrage d&#39;une nouvelle vue 3D dans la section [« vue 3D » des paramètres du projet](../../../interface/preferences-window/project-settings/project-settings.md).
+> Vous pouvez sélectionner le moteur de rendu utilisé par défaut lors du démarrage d&#39;une nouvelle vue 3D dans la section [« Vue 3D » des paramètres du projet](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -84,16 +84,16 @@ Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Échantillons** flottants | Indique le nombre d’échantillons de pixels à calculer pour que l’image soit considérée comme convergente. |
-| **Opacité de l&#39;occlusion ambiante** flottant | Spécifie la valeur de l’opacité de l’occlusion ambiante. |
+| flottant d&#39;**opacité de l&#39;Ambient occlusion** | Spécifie la valeur de l’opacité de l’occlusion ambiante. |
 | **Activer le displacement** booléen | Indique si le displacement doit être activé. |
 | **Seuil de Displacement** Flottant | Définit un seuil pour activer ou désactiver la tessellation par le GPU. |
 | **Activer l&#39;abattage de la face arrière** booléen | Une valeur true permet d’éliminer les filets triangulaires dont les normales sont orientées vers l’extérieur de la caméra. Une valeur fausse désactivera l’abattage de la face arrière. |
 | Entier **mode diagnostic** | Indique le mode de diagnostic pour le rendu. |
-| **Mode Ombre pixellisée** Entier | Spécifie la technique à utiliser pour le rendu des ombres :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Aucune ombre :</i> aucune ombre ne sera rendue.</li> <li data-preserve-html="true"><i>Voxel a marché :</i> mars les rayons de l&#39;ombre dans une scène voxélisée.</li> </ul> |
-| **Nombre d’échantillons d’ombre pixellisés** Entier | Spécifie le nombre de rayons d’ombre vectorisés par pixel. |
-| **Opacité de l&#39;ombre de la pixellisation** Flottant | Indique l’opacité des tons foncés, de 0,0 (aucune ombre) à 1,0 (tons foncés complets). |
-| **Transparence indépendante de l&#39;ordre de pixellisation activée** Booléenne | Ne tient pas compte de l&#39;ordre des surfaces transparentes lors de leur rendu. Cela sacrifie une certaine précision pour un rendu plus rapide des surfaces transparentes. |
-| **Activer la pixellisation SSS** booléenne | Active/désactive l&#39;effet de diffusion de la sous-surface. |
+| entier du **mode Ombre de la pixellisation** | Spécifie la technique à utiliser pour le rendu des ombres :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Aucune ombre :</i> aucune ombre ne sera rendue.</li> <li data-preserve-html="true"><i>Voxel a marché :</i> mars les rayons de l&#39;ombre dans une scène voxélisée.</li> </ul> |
+| **Nombre d&#39;échantillons d&#39;ombre de la pixellisation** Entier | Spécifie le nombre de rayons d’ombre vectorisés par pixel. |
+| flottant d&#39;**opacité de l&#39;ombre de la pixellisation** | Indique l’opacité des tons foncés, de 0,0 (aucune ombre) à 1,0 (tons foncés complets). |
+| **La transparence indépendante de l&#39;ordre de pixellisation est activée** Booléen | Ne tient pas compte de l&#39;ordre des surfaces transparentes lors de leur rendu. Cela sacrifie une certaine précision pour un rendu plus rapide des surfaces transparentes. |
+| **Activer le Booléen de pixellisation SSS** | Active/désactive l&#39;effet de diffusion de la sous-surface. |
 | **Nombre d’échantillons SSS pixellisés** Entier | Spécifie le nombre d’échantillons prélevés par pixel pour le rendu de la diffusion de la sous-surface. |
 | **Activer l&#39;anticrénelage de l&#39;accumulation de pixellisation** Booléen | Active/désactive l’anticrénelage par accumulation, ce qui améliore le ou les smoothness de l’image rendue en effectuant des rendus avec variation et en calculant la couleur moyenne locale de chaque pixel, de manière cumulative. C’est-à-dire qu’il accumule des valeurs pour calculer une moyenne à partir de. |
 | **Résolution de grille voxel de la pixellisation** Entier | Détermine la résolution de la grille de voxel utilisée dans le voxel de la pixellisation.   Des valeurs élevées produisent des ombres plus précises au détriment des performances. |
@@ -111,7 +111,7 @@ Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](
 
 +++
 
-![Pixellisation - Exemple 1](../../../assets/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
+![Pixellisation - Exemple 1](3d-renderers.resources/3d-renderers-04.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Grâce à sa dépendance à USD, il peut tirer parti du [plug-in USDFileFormat](
 
 +++
 
-![Pathtracer GPU - Exemple 1](../../../assets/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
+![Pathtracer GPU - Exemple 1](3d-renderers.resources/3d-renderers-05.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -170,7 +170,7 @@ En savoir plus sur OpenPBR dans Designer [ici](../material-properties/material-p
 
 +++ Adobe Standard Material
 
-Shader normalisé d&#39;Adobe. Assure un aspect correct entre toutes les applications Substance 3D Adobe et prend en charge un large éventail de fonctionnalités.
+shader standardisé de l&#39;Adobe. Assure un aspect correct entre toutes les applications Substance 3D Adobe et prend en charge un large éventail de fonctionnalités.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -178,13 +178,13 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 <b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
 
-La documentation Adobe Standard Material est documentée en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
+L&#39;Adobe Standard Material est documenté en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
 
 +++
 
 +++ AxF SVBRDF
 
-Un shader dédié à la visualisation des matériaux extraits des [fichiers AxF](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) et utilisant la représentation <b>SVBRDF</b>.
+Un shader dédié à la visualisation des matériaux extraits des [Fichiers AxF](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) et à l&#39;utilisation de la représentation <b>SVBRDF</b>.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -192,13 +192,13 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 <b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
 
-Cet ombrage est actuellement un *travail en cours* et fournit un aperçu des caractéristiques des matériaux, mais il ne doit pas être utilisé pour des réglages fins et certaines fonctionnalités ne sont toujours pas prises en charge.
+Ce shader est actuellement un *travail en cours* et fournit un aperçu des caractéristiques des matériaux, mais il ne doit pas être utilisé pour des ajustements fins et certaines fonctionnalités ne sont toujours pas prises en charge.
 
 +++
 
 +++ Blinn
 
-« Ancien - génération », nuanceur correct non PBR. Utilise les couches Diffus, Specular et Brillance en regard des couches standard telles que l’Opacité, l’Height et Normal.
+« Ancienne génération », shader correct non PBR. Utilise les couches de Diffuse, de Specular et de Brillance en regard des couches standard telles que l’opacité, l’Height et la normale.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -210,13 +210,13 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++ Lambert
 
-Ombrage à éclairage lambert très simple, ne prend en charge que le canal Diffuse. Utilise l’ancien système d’éclairage des points et ne prend pas en charge l’éclairage des images HDR.
+Shader d&#39;éclairage lambert très simple, ne prend en charge que le canal Diffuse. Utilise l’ancien système d’éclairage des points et ne prend pas en charge l’éclairage d’image HDR.
 
 +++
 
 +++ Informations sur le maillage
 
-Déboguer un shader non éclairé pour visualiser les données de géométrie suivantes :
+Déboguez le shader non éclairé pour visualiser les données de géométrie suivantes :
 
 * Normale
 
@@ -230,7 +230,7 @@ Déboguer un shader non éclairé pour visualiser les données de géométrie su
 
 * Couleur de vertex
 
-* Position (espace universel)
+* Position (espace monde)
 
 La visualisation est définie sur [0, 1]. Il n&#39;est donc pas possible d&#39;acquérir une lecture directe de valeurs en dehors de cette plage sur l&#39;écran.
 
@@ -238,7 +238,7 @@ La visualisation est définie sur [0, 1]. Il n&#39;est donc pas possible d&#39;a
 
 +++ Métallique rugosité
 
-Matériau PBR standard pour le modèle de rugosité métallique. Utilise les couches Couleur de base, Métallique et Rugosité.
+Matériau PBR standard pour le modèle de Métallique rugosité. Utilise les couches Base color, Métallique et Rugosité.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -248,9 +248,9 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++
 
-+++ Rugosité métallique - Revêtue
++++ Métallique rugosité - Enduite
 
-Matériau PBR revêtu pour le modèle de rugosité métallique. Utilise les couches Couleur de base, Métallique et Rugosité, ainsi que des couches « Couche » supplémentaires.
+Matériau PBR revêtu pour le modèle de Métallique rugosité. Utilise des canaux de Base color, Métallique et de Rugosité, ainsi que des canaux supplémentaires de type « couche ».
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -260,9 +260,9 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++
 
-+++ Rugosité métallique - SSS
++++ MÉTALLIQUE RUGOSITÉ - SSS
 
-Matériau PBR à diffusion sous-surface pour le modèle de rugosité métallique. Utilise les couches Couleur de base, Métallique et Rugosité, ainsi qu’une couche Diffusion supplémentaire.
+Matériau PBR de diffusion sous la surface pour le modèle de Métallique rugosité. Utilise des couches de Base color, Métallique et de Rugosité, ainsi qu’une couche de diffusion supplémentaire.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -274,7 +274,7 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 +++ Spéculaire Brillance
 
-Matériel PBR standard pour le modèle Specular Glossiness. Utilise les canaux Diffus, Specular et Brillance.
+Matériau PBR standard pour la Brillance Specular. Utilise les canaux Diffus, Specular et Brillance.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
@@ -290,10 +290,10 @@ Ombrage de débogage non éclairé pour visualiser les textures sans éclairage.
 
 +++
 
-Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l’aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l&#39;aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Ce moteur de rendu est **obsolète** : il ne recevra pas de nouvelles fonctionnalités et sera mis hors service dans une future version de Designer.
 
-![OpenGL - Exemple 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}
+![OpenGL - Exemple 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - Exemple 1"){zoomable="yes"}

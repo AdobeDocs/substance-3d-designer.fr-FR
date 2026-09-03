@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Sélection de tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/paths-select-icon.png "Icône de nœud")
+![Icône de nœud](paths-select.resources/paths-select-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -39,31 +39,32 @@ Isolez un tracé parmi les multiples contenus dans les tracés.
 </tr>
 </table>
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Libellé</b> *Type*\
-Liste des chemins d’accès des segments codés. Connectez cette entrée au résultat d&#39;un [masque sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou à un autre nœud de traitement de tracé.
+## Entrées
 
-## Connecteurs de sortie
+|  |  |
+|:---|:---|
+| <b>Libellé</b> <i>Type</i> | Liste des chemins d’accès des segments codés. Connectez cette entrée au résultat d&#39;un [masque sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou à un autre nœud de traitement de tracé. |
 
-<b>Tracés</b> *Couleur*\
-L’entrée Tracés comporte un seul tracé. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines.
+<a name="outputs"></a>
+
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Tracés</b> <i>Couleur</i> | L’entrée Tracés comporte un seul tracé. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Mode de sélection</b> *Entier* Méthode utilisée pour sélectionner les tracés :\
-*- Par ID :* sélectionne le chemin dans la liste dont l&#39;index correspond à celui spécifié dans <b>ID de chemin</b>;\
-*- Par longueur :* sélectionne les chemins dont la longueur est supérieure ou inférieure au seuil spécifié dans <b>Longueur cible</b>.
-
-<b>Path ID</b> *Nombre entier* (disponible lorsque <b>Mode de sélection</b> est défini sur *Par ID*)\
-Index du tracé sélectionné.\
-Une valeur supérieure au nombre de tracés dans <b>Tracés *crée*</b> une sortie vide.
-
-<b>Longueur supérieure ou inférieure ?</b> *Booléen* (disponible lorsque le <b>mode de sélection</b> est défini sur *Par longueur*)\
-Détermine si la sélection doit inclure une longueur supérieure ou inférieure à la <b>longueur cible</b>.
-
-<b>Longueur cible</b> *Flottant*(disponible lorsque le <b>mode de sélection</b> est défini sur *Par longueur*)\
-Seuil de longueur utilisé pour sélectionner les splines.
+|  |  |
+|:---|:---|
+| <b>Mode de sélection</b> <i>Nombre entier</i> | La méthode utilisée pour sélectionner les chemins :<br>*- Par ID :* sélectionne le chemin dans la liste dont l&#39;index correspond à celui spécifié dans <b>ID de chemin</b>;<br>*- Par longueur :* sélectionne les chemins dont la longueur est supérieure ou inférieure au seuil spécifié dans <b>Longueur cible</b>. |
+| <b>Path ID</b> <i>Nombre entier</i> (disponible lorsque <b>Mode de sélection</b> est défini sur *Par ID*) | Index du chemin sélectionné.<br>Une valeur supérieure au nombre de chemins dans <b>Chemins d&#39;accès *entraîne*</b> une sortie vide. |
+| <b>Longueur supérieure ou inférieure ?</b> <i>Booléen</i> (disponible lorsque le <b>mode de sélection</b> est défini sur *Par longueur*) | Détermine si la sélection doit inclure une longueur supérieure ou inférieure à la <b>longueur cible</b>. |
+| <b>Longueur cible</b> <i>Flottant</i> (disponible lorsque <b>Mode de sélection</b> est défini sur *Par longueur*) | Seuil de longueur utilisé pour sélectionner les splines. |
 
 ## Exemples
 
@@ -74,11 +75,11 @@ Seuil de longueur utilisé pour sélectionner les splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
       <br><i>Après</i>
     </td>
   </tr>
@@ -90,11 +91,11 @@ Seuil de longueur utilisé pour sélectionner les splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
       <br><i>Après</i>
     </td>
   </tr>

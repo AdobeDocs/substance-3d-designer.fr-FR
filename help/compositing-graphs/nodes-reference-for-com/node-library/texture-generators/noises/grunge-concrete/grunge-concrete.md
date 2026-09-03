@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Béton Usure/salissures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -22,39 +22,47 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
 
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Simple**
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Usure/salissures Concrete** génère une carte d&#39;usure/salissures semblable à la carte d&#39;height d&#39;une surface concrète.
+Le nœud **Usure/salissures Concrete** génère une carte usure/salissures semblable à la map height d&#39;une surface en béton.
 
 </td>
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Balance** *Flottant* Ajuste la balance entre les valeurs sombres et claires.
-* **Contraste** *Flottant* Ajuste le contraste de l&#39;image.
-* **Inverser** *Booléen* Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`.
-* **Extension non carrée** *booléenne* Permet la compensation de l&#39;écrasement et de l&#39;étirement avec des rapports autres que carrés.
-* Advanced
-  * **Bruit de base** *Flottant* Règle le bruit de la texture de base.
-  * **Opacité des taches de Dirt** *Flottant* Ajuste l&#39;opacité des taches de dirt.
-  * **Inverser le Dirt** *Booléen* Inverse l&#39;impact des taches de dirt.
-  * **Opacité Scratches** *Flottant* Ajuste l’opacité des rayures.
-  * **Netteté** *Flottement* Ajuste l&#39;intensité d&#39;un effet de netteté appliqué à l&#39;image.
-  * **Grande intensité de variation** *Flottant* Ajuste les variations à grande échelle (basse fréquence) appliquées à la texture de base.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
+| <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
+| <b>Avancé</b> |  |
+| <b>Bruit de base</b> <i>Flotter</i> | Règle le niveau de bruit de la texture de base. |
+| <b>Opacité des taches de Dirt</b> <i>Flottant</i> | Règle l’opacité des taches de dirt. |
+| <b>Inverser le Dirt</b> <i>Booléen</i> | Inverse l’impact des taches de dirt. |
+| <b>Opacité Scratches</b> <i>Flotter</i> | Règle l’opacité des rayures. |
+| <b>Netteté</b> <i>Flotter</i> | Règle l’intensité d’un effet de netteté appliqué à l’image. |
+| <b>Grande intensité de variation</b> <i>Flotter</i> | Règle les variations à grande échelle (basse fréquence) appliquées à la texture de base. |
 
-## Exemples d’images
+## Exemples
 
-![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
+        </td>
+    </tr>
+</table>

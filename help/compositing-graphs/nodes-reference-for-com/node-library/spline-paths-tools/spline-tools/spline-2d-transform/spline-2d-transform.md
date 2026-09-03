@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Transformation 2D de spline pour transformer des splines avec des opérations de translation, de rotation et de mise à l'échelle.
+description: Utilisez le nœud de Transforme Spline 2D pour transformer des splines avec des opérations de translation, de rotation et de mise à l'échelle.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformation 2D spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-2d-transform-icon.png "Icône de nœud")
+![Icône de nœud](spline-2d-transform.resources/spline-2d-transform-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -39,70 +39,42 @@ Applique une transformation globale à toutes les splines d&#39;entrée, y compr
 </tr>
 </table>
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Aperçu</b> *Niveaux de gris* Aperçu des splines d&#39;entrée sous la forme d&#39;une image en niveaux de gris.
+## Entrées
 
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points des splines d&#39;entrée codées dans les couches RVBA d&#39;une image couleur :\
-<b> R</b> - Position X\
-<b> G</b> - Position Y\
-<b> B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
 
-<b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Inutilisé\
-<b> A</b> - Inutilisé
+<a name="outputs"></a>
 
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines d&#39;entrée.
+## Sorties
 
-## Connecteurs de sortie
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
 
-<b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
-
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
-
-<b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
-
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Inverser la direction</b> *Booléen* Inverse la direction de la spline.
-
-<b>Matrice de transformation</b> *Float4* La matrice de transformation appliquée aux splines.\
-Trois modes de modification des paramètres de matrice sont disponibles :\
-*- Widget de transformation* : ajustez les poignées du widget affiché dans la vue 2D lorsque le nœud de transformation 2D spline est sélectionné ;\
-*- Rotation/Étirement* : contrôle individuel de la rotation et de l&#39;étirement des splines. Notez que les valeurs sont toujours appliquées par rapport à la transformation courante. Par exemple, si vous appliquez une largeur de 50 % deux fois, vous obtenez une largeur de 25 %.\
-*- Valeurs de matrice* : cliquez sur le bouton Modifier les valeurs de matrice pour saisir directement les valeurs numériques brutes de la matrice.
-
-<b>Décalage</b> *Float2* Applique un décalage de position aux splines en X (horizontal) et Y (vertical).
-
-+++Prévisualiser
-<b>Afficher l&#39;assistant de direction</b> *Booléen* Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu.
-
-<b>Afficher l&#39;enveloppe de Thickness</b> *Booléen*\
-Affiche des lignes supplémentaires sur les thickness de la spline.
-
-<b>Quantité de segments</b> *Nombre entier* Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.\
-Plus la valeur est élevée, plus la ligne est lisse.
-
-<b>Thickness (px)</b> *Flottant* Ajuste le thickness de la visualisation de la spline en pixels dans la sortie d&#39;aperçu.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Inverser la direction</b> <i>Booléen</i> | Inverse la direction de la spline. |
+| <b>Matrice de transformation</b> <i>Float4</i> | Matrice de transformation appliquée aux splines.<br>Trois modes de modification des paramètres de matrice sont disponibles :<br><br>- <i>gadget de transformation</i> : ajustez les poignées du widget affiché dans la vue 2D lorsque le nœud de Transforme Spline 2D est sélectionné ;<br>- <i>Rotation/Étire</i> : contrôlez individuellement la rotation et le étiré des splines. Notez que les valeurs sont toujours appliquées par rapport à la transformation courante. Par exemple, l&#39;application d&#39;une largeur de 50 % deux fois donne une largeur de 25 %;<br>- <i>Valeurs de matrice</i> : cliquez sur le bouton Modifier les valeurs de matrice pour saisir directement les valeurs numériques brutes de la matrice. |
+| <b>Décalage</b> <i>Float2</i> | Applique un décalage de position aux splines en X (horizontal) et Y (vertical). |
+| <b>Aperçu</b> |  |
+| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Afficher l&#39;enveloppe de Thickness</b> <i>Booléen</i> | Affiche des lignes supplémentaires sur les bords du thickness de la spline. |
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie Aperçu. Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
 
 ## Exemples
 
@@ -113,11 +85,11 @@ Plus la valeur est élevée, plus la ligne est lisse.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -129,11 +101,11 @@ Plus la valeur est élevée, plus la ligne est lisse.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -147,7 +119,7 @@ Plus la valeur est élevée, plus la ligne est lisse.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/Spline2DTransform-Demo1.gif "Exemple de nœud 1")
+![Exemple de nœud 1](spline-2d-transform.resources/spline-2d-transform-05.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">

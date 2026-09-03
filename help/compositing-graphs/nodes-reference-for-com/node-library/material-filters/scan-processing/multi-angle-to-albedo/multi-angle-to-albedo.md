@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Plusieurs angles par rapport à l’Albédo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo-01.png){width="128px"}
 
-## Plusieurs angles par rapport à l’Albédo
-
-**Entrée :** *Filtres de matière/Traitement de la numérisation*
-
-**Simple**
+<b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -47,22 +43,22 @@ Gardez à l’esprit que plus vous avez d’échantillons et plus la différence
 > 
 > [L’article de blog « Your Smartphone is a Material Scanner » illustre un peu mieux ce processus.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
-## Paramètres
-
-### Entrées
-
-* **Entrée 1-8** :*Entrée couleur* Le nombre d&#39;entrées est déterminé par le paramètre Quantité d&#39;échantillons.
-
-### Paramètres
-
-* **Quantité d&#39;échantillons** : *2 - 8* définit le nombre d&#39;échantillons (entrées) à utiliser dans le traitement.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Entrée 1-8</b> <i>Entrée couleur</i> | Le nombre d’entrées est déterminé par le paramètre Quantité d’échantillons. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Quantité D&#39;Échantillons</b> <i>2 - 8</i> | Définit le nombre d’échantillons (entrées) à utiliser dans le traitement. |

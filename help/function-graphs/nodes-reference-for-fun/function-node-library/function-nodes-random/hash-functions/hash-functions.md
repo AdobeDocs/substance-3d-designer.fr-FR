@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fonctions de hachage
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de hachage : icon](../../../../../assets/hash-icon.png "Nœud de hachage : icon"){width="200px"}
+![Nœud de hachage : icon](hash-functions.resources/hash-functions-01.png "Nœud de hachage : icon"){width="200px"}
 
 <b>Fonctions In:</b> > Aléatoire
 
@@ -82,12 +82,12 @@ Versions disponibles, avec leur type d’entrée et de sortie :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de hachage 14](../../../../../assets/hash14-example.png "Exemple de hachage 14"){zoomable="yes"}
+![Exemple de hachage 14](hash-functions.resources/hash-functions-02.png "Exemple de hachage 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de hachage 32](../../../../../assets/hash32-example.png "Exemple de hachage 32"){zoomable="yes"}
+![Exemple de hachage 32](hash-functions.resources/hash-functions-03.png "Exemple de hachage 32"){zoomable="yes"}
 
 </td>
 </tr>

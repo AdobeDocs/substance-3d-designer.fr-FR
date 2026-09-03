@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Vérificateur 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-01.png){width="128px"}
 
-## Vérificateur 1
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Simple**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Motif de damier très simple. Le carrelage est délibérément mis bas pour le rendre aussi générique que possible.
+Motif de damier très simple. La répétition est délibérément faible pour qu’elle soit aussi générique que possible.
 
-Il s’agit d’un motif utile pour les cas de test, en raison de son contraste et de sa structure en mosaïque évidents.
-
-## Paramètres
-
-* **Mosaïque** : *1 - 16*\
-  Définit le nombre de fois où le résultat doit se produire.
-* **Rotation de 45 degrés** :*Faux/Vrai* Fait pivoter l’ensemble du motif de 45 degrés.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-![](../../../../../../assets/checker-1-ex.gif)
+Il s’agit d’un modèle utile pour les cas tests, en raison de son contraste et de sa répétition évidents.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Rotation De 45 Degrés</b> <i>Faux/Vrai</i> | Fait pivoter le motif entier de 45 degrés. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="checker-1.resources/checker-1-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Numérisation de l’histogramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 5%
+source-wordcount: '146'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-01.png){width="128px"}
 
-## Numérisation de l’histogramme
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,22 +37,32 @@ Nœud très simple mais utile qui fournit un moyen intuitif de remapper le contr
 
 [Cliquez ici pour visionner une vidéo de Substance Academy sur les opérations d&#39;histogramme.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=427s)
 
-## Paramètres
-
-* **Position** :*0.0 - 1.0* Comme pour une commande de luminosité, décale le milieu du résultat. Lorsqu’il est utilisé sur une entrée de dégradé, le point de transition est développé et réduit.\
-  Important : une valeur par défaut de 0 signifie que le résultat final est toujours noir. Commencez par 0,5 !
-* **Contraste** : *0,0 - 1,0*\
-  Règle le contraste du résultat. Permet de définir la dureté de la transition.
-* **Inverser la position** :*Faux/Vrai* Inverse le résultat final.
-
-## Exemples d’images
-
-![](../../../../../../assets/histogram-scan.gif)
-
-![](../../../../../../assets/histogram-scan2.gif)
-
-![](../../../../../../assets/histogram-scan3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>0.0 - 1.0</i> | Comme pour une commande de luminosité, décale le milieu du résultat. Lorsqu&#39;il est utilisé sur une entrée de dégradé, ce paramètre étend et réduit le point de transition.<br><br>Important : une valeur par défaut de 0 signifie que le résultat final est toujours noir, alors essayez de commencer par 0,5 ! |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du résultat. Permet de définir la dureté de la transition. |
+| <b>Inverser la position</b> <i>Faux/Vrai</i> | Inverse le résultat final. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-scan.resources/histogram-scan-04.gif" />
+        </td>
+    </tr>
 </table>

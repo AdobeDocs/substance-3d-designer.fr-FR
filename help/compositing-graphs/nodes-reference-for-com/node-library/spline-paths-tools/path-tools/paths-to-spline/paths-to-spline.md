@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tracés à spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/paths-to-splines-icon.png "Icône de nœud")
+![Icône de nœud](paths-to-spline.resources/paths-to-spline-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -47,35 +47,31 @@ Convertit un tracé en splines qui peuvent être visualisées à l&#39;aide d&#3
 >
 > Ce nœud peut être utilisé après le nœud [Masquer les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) pour former une chaîne qui convertit un masque en splines.
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Tracés</b> *Couleur*\
-Liste des chemins d’accès des segments codés. Connectez cette entrée au résultat d&#39;un [masque sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou à un autre nœud de traitement de tracé.
+## Entrées
 
-## Connecteurs de sortie
+|  |  |
+|:---|:---|
+| <b>Tracés</b> <i>Couleur</i> | Liste des chemins d’accès des segments codés. Connectez cette entrée au résultat d&#39;un [masque sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou à un autre nœud de traitement de tracé. |
 
-<b>Couleurs des splines </b>*Color* Les coordonnées des points des splines d&#39;entrée sont codées dans les couches RVBA d&#39;une image couleur :\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+<a name="outputs"></a>
 
-<b>Données splines</b> *Couleur*\
-Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image <b>couleur</b> :\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
+## Sorties
 
-<b>Quantité de spline</b> *Nombre entier*\
-Nombre de splines d&#39;entrée.
+|  |  |
+|:---|:---|
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> * Signe : la spline est fermée (négative) ou ouverte (positive);<br> * Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image <b>couleur</b> :<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisée<br><b>A</b> - Inutilisée |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Précision des splines</b> *Nombre entier*\
-Logarithme en base 2 (log2) du nombre de sommets échantillonnés dans chaque tracé de l&#39;entrée Tracés pour construire la spline correspondante.
+|  |  |
+|:---|:---|
+| <b>Précision des splines</b> <i>Nombre entier</i> | Logarithme en base 2 (log2) du nombre de sommets échantillonnés dans chaque tracé de l&#39;entrée Tracés pour construire la spline correspondante. |
 
 ## Exemples
 
@@ -86,11 +82,11 @@ Logarithme en base 2 (log2) du nombre de sommets échantillonnés dans chaque tr
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ Logarithme en base 2 (log2) du nombre de sommets échantillonnés dans chaque tr
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>

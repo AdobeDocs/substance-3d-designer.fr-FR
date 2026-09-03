@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de Nadir extract pour extraire la région nadir des panoramas HDRI afin de traiter les zones inférieures des cartes d’environnement.
+description: Utilisez le nœud de Nadir extract pour extraire la région nadir des panoramas HDRI afin de traiter les zones inférieures des maps d'environnement.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Extract
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir extract
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,29 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/nadir-extract.png){width="200px"}
+![](nadir-extract.resources/nadir-extract-01.png){width="200px"}
 
-## Nadir extract
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Extrait le point central au sol (nadir) d’une image d’entrée mappée sphérique. Peut être utilisé pour transférer le nadir d’une image à l’autre, en masquant l’appareil photo ou le trépied.
-
-## Paramètres
-
-* **Échelle** : *0.0 - 10.0*\
-  Définir le « niveau de zoom » pour le point au sol
-* **Rotation** : *0.0 - 1.0*\
-  Pivote autour de l’axe central.
-* **Gamma de sortie** : *sRVB, linéaire* gamma de sortie.
+Extrait le point sol central (nadir) d&#39;une image d&#39;entrée mappée sphérique. Permet de transférer le nadir d’une image à l’autre, en masquant la caméra ou le trépied.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Échelle</b> <i>0.0 - 10.0</i> | Définir le « niveau de zoom » pour le point de sol |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Rotation autour de l’axe central. |
+| <b>Gamma de sortie</b> <i>sRVB, linéaire</i> | Gamma de sortie. |

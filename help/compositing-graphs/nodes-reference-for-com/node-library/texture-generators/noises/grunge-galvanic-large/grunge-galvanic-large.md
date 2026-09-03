@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Galvanic Large pour générer des motifs de corrosion galvanique à grande échelle pour les effets d'altération du métal.
+description: Utilisez le nœud Usure/salissures Galvanic Large pour générer des motifs de corrosion galvanique à grande échelle pour des effets d'altération métallique.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Usure/salissures Galvanic Large
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
+![](grunge-galvanic-large.resources/grunge-galvanic-large-01.jpg){width="200px"}
 
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Simple**
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,30 +39,30 @@ Le nœud **Usure/salissures Galvanic Large** génère une carte usure/salissures
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Balance** *Flottant* Ajuste la balance entre les valeurs sombres et claires.
-* **Contraste** *Flottant* Ajuste le contraste de l&#39;image.
-* **Inverser** *Booléen* Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`.
-* **Extension non carrée** *booléenne* Permet la compensation de l&#39;écrasement et de l&#39;étirement avec des rapports autres que carrés.
-* Advanced
-  * **Intensité de déformation** *Flottement* Ajuste l’intensité de l’effet de déformation principal.
-  * **Opacité des détails de la crête** *Flottant* Ajuste l&#39;opacité des crêtes les plus lumineuses.
-  * **Intensité du renforcement** *Flottant* Ajuste l&#39;intensité de l&#39;effet de renforcement global.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
+| <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
+| <b>Avancé</b> |  |
+| <b>Intensité de déformation</b> <i>Flotter</i> | Règle l’intensité de l’effet de déformation principal. |
+| <b>Opacité des détails de la crête</b> <i>Flottant</i> | Règle l’opacité des crêtes les plus claires. |
+| <b>Netteté</b> <i>Flotter</i> | Règle l’intensité de l’effet de netteté globale. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvaniclarge-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungegalvaniclarge-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-03.jpg" />
+        </td>
+    </tr>
 </table>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressource d’images vectorielles (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Ressource d’images vectorielles (SVG)
 
-Substance 3D Designer prend en charge un nombre limité d’images vectorielles grâce au format Scalable Vector Graphics. Les fichiers de SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphiques.
+Substance 3D Designer prend en charge un nombre limité d’Images vectorielles, via le format Images vectorielles évolutives. Les fichiers du SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphes.
 
 Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
@@ -60,7 +60,7 @@ En général, ce qui suit est vrai :
 * Le contour est pris en charge, mais ne donne qu’un contour d’une largeur de 1 pixel et le style du contour est ignoré ;
 * Les styles de ligne en pointillés vont définitivement rompre ;
 * Le texte doit être converti en tracés/contour à rendre ;
-* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) ne sont pas pris en charge ;
+* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) ne sont pas pris en charge ;
 * Les fonctionnalités avancées telles que les dégradés ne sont pas prises en charge ;
 * Les éléments de style pour les propriétés CSS ne sont pas pris en charge.
 
@@ -87,7 +87,7 @@ L’image de droite présente les options d’exportation recommandées. Cliquez
 > Les plans de travail peuvent affecter le résultat du fichier de SVG généré. Certains modèles de fichiers Illustrator présentent plusieurs plans de travail.\
 > Essayez d’en avoir un seul, correctement recadré, et de le faire sélectionner dans la fenêtre Plan de travail lors de l’enregistrement en tant que SVG.
 
-![Options d’exportation Illustrator SVG](../../assets/svg-export-options-ai.jpg "Options d’exportation Illustrator SVG"){width="512px"}
+![Options d’exportation Illustrator SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Options d’exportation Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

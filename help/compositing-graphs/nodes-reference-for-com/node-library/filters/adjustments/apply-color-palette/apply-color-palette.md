@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Appliquer la palette de couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](../../../../../../assets/ApplyColorPalette.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](apply-color-palette.resources/apply-color-palette-01.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -45,66 +45,50 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Niveaux de gris* PRINCIPAUX | Mappage d’ID d’entrée utilisé pour répartir les couleurs dans la palette d’entrée.   Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (par exemple, une forme) contiennent tous la même valeur d’identification unique. Dans ce cas, la valeur est un nombre entier.   Un mappage ID peut être produit à l&#39;aide d&#39;un nœud [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Palette</b> *Couleur* | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs. Il s&#39;agit de la palette que le nœud mappe aux index du mappage d&#39;ID.   Les palettes peuvent être produites avec un nœud [Quantifier la couleur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) et modifiées avec un nœud [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
+|:---|:---|
+| <b>ID</b> <i>Niveaux de gris</i> PRINCIPAUX | Mappage d’ID d’entrée utilisé pour répartir les couleurs dans la palette d’entrée.   Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (par exemple, une forme) contiennent tous la même valeur d’identification unique. Dans ce cas, la valeur est un nombre entier.   Un mappage ID peut être produit à l&#39;aide d&#39;un nœud [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Palette</b> <i>Couleur</i> | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs. Il s&#39;agit de la palette que le nœud mappe aux index du mappage d&#39;ID.   Les palettes peuvent être produites avec un nœud [Quantifier la couleur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) et modifiées avec un nœud [Modifier la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Couleur* | Résultat du mappage des couleurs de la palette aux index du mappage d’ID. |
+|:---|:---|
+| <b>Sortie</b> <i>Couleur</i> | Résultat du mappage des couleurs de la palette aux index du mappage d’ID. |
 
 ## Exemples
 
-![Appliquer la palette de couleurs : Exemple 1](../../../../../../assets/apply_color_palette_example_2.png "Appliquer la palette de couleurs : Exemple 1"){zoomable="yes"}
+![Appliquer la palette de couleurs : Exemple 1](apply-color-palette.resources/apply-color-palette-02.png "Appliquer la palette de couleurs : Exemple 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply-color-palette-03.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply-color-palette-04.jpg" alt="apply_color_palette_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Appliquer la palette de couleurs : exemple 3](../../../../../../assets/apply_color_palette_example_4.png "Appliquer la palette de couleurs : exemple 3"){zoomable="yes"}
+![Appliquer la palette de couleurs : exemple 3](apply-color-palette.resources/apply-color-palette-05.png "Appliquer la palette de couleurs : exemple 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply-color-palette-06.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply-color-palette-07.jpg" alt="apply_color_palette_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>

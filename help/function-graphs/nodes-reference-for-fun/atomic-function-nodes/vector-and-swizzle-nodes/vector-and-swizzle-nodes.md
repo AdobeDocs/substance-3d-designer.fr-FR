@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vecteur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 5%
@@ -41,7 +41,7 @@ Cela signifie que les méthodes suivantes sont les mieux utilisées :
 
 Réfléchissez bien à l&#39;ordre des connexions. L’ordre de connexion des entrées est illustré ci-dessous.
 
-![](../../../../assets/vector-int1.png){width="200px"}
+![](vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-01.png){width="200px"}
 
 Exemple à gauche Connecte d&#39;abord un nombre entier(1), puis un nombre entier 3. Le résultat est comme ci-dessous
 
@@ -50,7 +50,7 @@ Exemple à gauche Connecte d&#39;abord un nombre entier(1), puis un nombre entie
 | Entrée 1 | 0 |  |  |  |
 | Entrée 2 |  | 1 | 2 | 4 |
 
-![](../../../../assets/vector-int2.png){width="200px"}
+![](vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-02.png){width="200px"}
 
 Exemple à gauche : permute les entrées du premier exemple, d’abord Entier 3, puis Entier(1).
 
@@ -62,10 +62,10 @@ Exemple à gauche : permute les entrées du premier exemple, d’abord Entier 3,
 </td>
 <td style="border: 0;" valign="top">
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/fn-vector-vectorint4.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../assets/fn-vector-vectorint2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../assets/fn-vector-vectorint3.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-03.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-04.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-05.png"/></div> |
 | --- | --- | --- |
 | **Vector Integer2** | **Vector Integer3** | **Vector Integer4** |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="../../../../assets/fn-vector-vectofloat3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="../../../../assets/fn-vector-vectofloat2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="../../../../assets/fn-vector-vectofloat4.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-06.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-07.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-08.png"/></div> |
 | **Vector Float2** | **Vector Float3** | **Vector Float4** |
 
 </td>
@@ -81,13 +81,13 @@ Exemple à gauche : permute les entrées du premier exemple, d’abord Entier 3,
 Les nœuds de swizzle déconstruisent ou fractionnent les composants des vecteurs à plusieurs composants, ce qui vous permet d’utiliser les composants X, Y, Z et W individuellement et de les permuter. Les règles et limitations suivantes s’appliquent :
 
 * Les nœuds de redimensionnement n&#39;ont **qu&#39;une seule sortie**.
-* Les nœuds de redimensionnement **prennent n&#39;importe quelle entrée** du type approprié (Int ou Float).
+* Les nœuds de swizzle **prennent n&#39;importe quelle entrée** du type approprié (Int ou Flottant).
 
 ### Diviser les composants
 
-L&#39;utilisation la plus courante de Swizzle est de l&#39;utiliser pour diviser des composants, tels que le freinage d&#39;un Integer4 en 4 Entiers individuels. Les limitations signifient que vous aurez besoin de quatre nœuds Swizzle Integer distincts pour cela.
+L&#39;utilisation la plus courante de Swizzle est de l&#39;utiliser pour diviser des composants, tels que le freinage d&#39;un Entier 4 en 4 Entiers individuels. Les limitations signifient que vous aurez besoin de quatre nœuds de Swizzle integer distincts pour cela.
 
-Tout autre type de division est également possible pour un Integer4, tel que deux Integer2, ou un Integer et un Integer3, toujours en gardant à l&#39;esprit que chaque résultat a besoin de son propre nœud.
+Tout autre type de séparation est également possible pour un Entier 4, tel que deux Entiers 2, ou un Entier et un Entier 3, toujours en gardant à l&#39;esprit que chaque résultat a besoin de son propre nœud.
 
 ### Permuter/Pivoter les composants
 
@@ -96,11 +96,11 @@ Comme son nom l’indique, Swizzle peut être utilisé pour modifier l’ordre d
 </td>
 <td style="border: 0;" valign="top">
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/fn-vector-swizzleint1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../assets/fn-vector-swizzleint2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../assets/fn-vector-swizzleint3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="../../../../assets/fn-vector-swizzleint4.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-09.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-10.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-11.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-12.png"/></div> |
 | --- | --- | --- | --- |
-| **Nombre entier de swizzle** | **Swizzle** **Integer2** | **Swizzle** **Integer3** | **Swizzle** **Integer4** |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="../../../../assets/fn-vector-swizzlefloat1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="../../../../assets/fn-vector-swizzlefloat2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="../../../../assets/fn-vector-swizzlefloat3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="../../../../assets/fn-vector-swizzlefloat4.png"/></div> |
-| **Balancer** **Flotter** | **Swizzle** **Float2** | **Élargissement** **Float3** | **Swizzle** **Float4** |
+| **Swizzle integer** | **Piquer** **Entier 2** | **Piquer** **Entier 3** | **Piquer** **Entier 4** |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-13.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-14.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-15.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-16.png"/></div> |
+| **Piquer** **Flottant** | **Swizzle** **Flottant 2** | **Swizzle** **Flottant3** | **Swizzle** **Flottant4** |
 
 </td>
 </tr>

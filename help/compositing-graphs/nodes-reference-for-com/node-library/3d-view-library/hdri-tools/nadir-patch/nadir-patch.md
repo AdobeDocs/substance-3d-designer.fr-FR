@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/nadir-patch-01.png){width="200px"}
 
-## Nadir patch
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Complexe**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,42 +37,44 @@ Ce nœud fournit une fonctionnalité permettant de corriger le point au sol cent
 
 L&#39;effet peut être rapidement vérifié et validé avec [Nadir extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entrées
 
-* **Entrée** : *Entrée Couleur*
-* **Entrée de masque** :*Entrée en niveaux de gris*\
-  Emplacement de masque facultatif utilisé pour masquer le correctif. Fonctionne comme un alpha.
+|  |  |
+|:---|:---|
+| <b>Entrée</b> <i>Entrée couleur</i> |  |
+| <b>Entrée de masque</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque facultatif utilisé pour masquer le correctif. Fonctionne comme un alpha. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-* **Activer** : *Faux/Vrai*\
-  Activez ou désactivez l’effet de correction.
-* **Assistant Afficher les images** : *Faux/Vrai*\
-  Afficher ou masquer les lignes d&#39;assistant, à des fins de débogage.
-* **Thickness d’images** : *0.0 - 1.0*\
-  Thickness des lignes auxiliaires.
-* **Échelle De Correctif** : *0.0 - 1.0*\
-  Échelle globale et uniforme du correctif. Affecte la source et la cible.
-* **Taille du correctif** : *0.0 - 1.0*\
-  Taille non uniforme du patch.
-* **Rotation du correctif** : *0.0 - 1.0*\
-  Rotation du patch. Affecte la source et la cible.
-* **Alpha De La Pièce** : *Entrée Carré Lisse, Gaussienne, Masque*\
-  Définissez le paramètre alpha à utiliser pour fusionner le patch avec l’arrière-plan.
-* **Dureté du correctif** : *0.0 - 1.0*\
-  Définissez la dureté/le contraste alpha.
-* **Décalage de rotation source** : *0,0 - 1,0*\
-  Rotation uniquement pour la source du correctif.
-* **Coordonnées De Position**
-  * **Position source** :\
-    Position de la source. Possède un handle en vue 2D.
-  * **Position du correctif** :\
-    Position de la cible. Possède un handle en vue 2D.
+|  |  |
+|:---|:---|
+| <b>Activer</b> <i>Faux/Vrai</i> | Activez ou désactivez l’effet de correction. |
+| <b>Afficher l&#39;Assistant Cadre</b> <i>Faux/Vrai</i> | Afficher ou masquer les lignes d&#39;assistant, à des fins de débogage. |
+| <b>Thickness Cadre</b> <i>0.0 - 1.0</i> | Thickness des lignes auxiliaires. |
+| <b>Échelle de correctif</b> <i>0.0 - 1.0</i> | Échelle globale et uniforme du correctif. Affecte la source et la cible. |
+| <b>Taille du correctif</b> <i>0.0 - 1.0</i> | Taille non uniforme du patch. |
+| <b>Rotation du correctif</b> <i>0.0 - 1.0</i> | Rotation du patch. Affecte la source et la cible. |
+| <b>Alpha du correctif</b> <i>Entrée de masque carrée lisse, gaussienne</i> | Définissez le paramètre alpha à utiliser pour fusionner le patch avec l’arrière-plan. |
+| <b>Dureté de correctif</b> <i>0.0 - 1.0</i> | Définissez la dureté/le contraste de la couche alpha. |
+| <b>Décalage de rotation source</b> <i>0.0 - 1.0</i> | Rotation uniquement pour la source du correctif. |
+| <b>Coordonnées De Position</b> |  |
+| <b>Position source</b> | Position de la source. Possède un handle en vue 2D. |
+| <b>Position du correctif</b> | Position de la cible. Possède un handle en vue 2D. |
 
-## Exemples d’images
+## Exemples
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-02.gif" />
+        </td>
+    </tr>
 </table>

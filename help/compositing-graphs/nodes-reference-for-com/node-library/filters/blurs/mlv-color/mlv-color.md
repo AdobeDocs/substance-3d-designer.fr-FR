@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Couleur MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Couleur MLV : icon](../../../../../../assets/MLV_Color_Icon.png "Couleur MLV : icon")
+![Couleur MLV : icon](mlv-color.resources/mlv-color-01.png "Couleur MLV : icon")
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -45,45 +45,45 @@ Le filtre recherche les zones structurantes d’une image et les utilise pour la
 >
 > Voir aussi [Niveaux de gris MLV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-grayscale/mlv-grayscale.md).
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Entrez </b>*Couleur* l&#39;image couleur qui doit être traitée.
+## Entrées
 
-## Connecteurs de sortie
+|  |  |
+|:---|:---|
+| <b>Entrée</b> <i>Couleur</i> | Image couleur à traiter. |
 
-<b>Sortie</b> *Couleur* L’image couleur filtrée.
+<a name="outputs"></a>
+
+## Sorties
+
+|  |  |
+|:---|:---|
+| <b>Sortie</b> <i>Couleur</i> | Image couleur filtrée. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Intensité</b> *Flottant* L’intensité du filtrage appliqué à l’image.\
-Plus la valeur est élevée, plus les détails et le bruit sont lissés dans les zones plus plates.
-
-<b>Smoothness</b> *Flotter* L&#39;intensité du lissage appliqué aux zones de structuration, ce qui donne des zones plus arrondies et réduit l&#39;effet de pas qui peut se produire à des intensités de filtrage plus élevées.
-
-<b>Critère</b> *Entier* Critère utilisé pour sélectionner les valeurs qui définiront les zones de structuration de l&#39;image.\
-En d&#39;autres termes, comment les pixels doivent être *regroupés* en zones qui doivent être lissées.\
-*- Variance :* sélectionnez les valeurs avec la dispersion la plus faible autour de la moyenne, ce qui donne des groupes de pixels similaires les uns aux autres\
-*- Coefficient de variation :* sélectionnez les valeurs en tenant compte de la moyenne, ce qui entraîne inversement une variation moindre dans les zones plus lumineuses
-
-<b>Gaussien</b> *Booléen* Utilisez une distribution gaussienne pour regrouper les pixels dans des zones de structuration.\
-Lorsque la valeur est True, les zones sont plus lisses et l&#39;effet d&#39;aplatissement est réduit.
-
-<b>Affecter alpha</b> *Booléen* Lorsque la valeur est True, le filtrage est également appliqué sur la couche alpha de l’image.\
-Lorsque la valeur est False, la couche alpha est entièrement ignorée et laissée telle quelle dans la sortie.
-
-<b>Itérations</b> *Entier* Nombre d&#39;exécutions du filtre, où chaque itération est appliquée au résultat de la précédente.\
-Plus il y a d’itérations, plus les zones de structuration sont plates et nettes.
+|  |  |
+|:---|:---|
+| <b>Intensité</b> *Flotter* | Force du filtrage appliqué à l’image.<br><br>Des valeurs plus élevées lissent les détails et accentuent le bruit des zones plus plates. |
+| <b>Smoothness</b> *Flotter* | Intensité du lissage appliqué aux zones de structuration, ce qui produit des zones plus arrondies et réduit l’effet de pas qui peut se produire à des intensités de filtrage plus élevées. |
+| <b>Critère</b> *Nombre entier* | Critère utilisé pour sélectionner les valeurs qui définiront les zones de structuration de l’image.<br><br>En d&#39;autres termes, comment les pixels doivent être *regroupés* en zones qui doivent être lissées.<br><br>*- Variance :* Sélectionnez les valeurs avec la plus faible dispersion autour de la moyenne, ce qui entraîne des clusters de pixels similaires les uns aux autres <br>*- Coefficient de variation :* Sélectionnez des valeurs tout en tenant compte de la moyenne, ce qui entraîne inversement une moindre variation dans les zones plus lumineuses |
+| <b>Gaussien</b> *Booléen* | Utilisez une distribution gaussienne pour regrouper les pixels dans des zones de structuration.<br><br>Lorsque la valeur est True, les zones sont plus lisses et l&#39;effet d&#39;aplatissement est réduit. |
+| <b>Affecter alpha</b> *Booléen* | Lorsque la valeur est True, le filtrage est également appliqué sur le canal Alpha de l’image.<br><br>Lorsque la valeur est False, le canal Alpha est entièrement ignoré et laissé tel quel dans la sortie. |
+| <b>Itérations</b> *Nombre entier* | Nombre d’exécutions du filtre, chaque itération s’appliquant au résultat de la précédente.<br><br>Plus d&#39;itérations entraînent des zones de structuration plus plates et plus nettes. |
 
 ## Exemples
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Plus il y a d’itérations, plus les zones de structuration sont plates et nett
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ Plus il y a d’itérations, plus les zones de structuration sont plates et nett
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
       <br><i>Après</i>
     </td>
   </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Déformation vectorielle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '233'
+ht-degree: 2%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp-01.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-02.png){width="128px"}
 
-## Déformation vectorielle (niveaux de gris)
-
-**Entrée :** *Filtres/Effets*
-
-**Complexe**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -45,26 +41,34 @@ La texture vectorielle est similaire à une texture normale, mais elle n’a pas
 
 Ce nœud peut être utile lorsque vous voulez effectuer des distorsions très spécifiques avec des directions variables, où les nœuds de déformation standard ne le coupent pas.
 
-## Paramètres
-
-### Entrées
-
-* **Entrée** : *Entrée Couleur*\
-  Mappez pour déformer.
-* **Carte Vectorielle** : *Entrée Couleur*\
-  Mappage du pilote de distorsion. Les couches de couleur Rouge et Bleu sont utilisées.
-
-### Paramètres
-
-* **Intensité** : *0,0 - 1,0* multiplicateur d’intensité pour la carte vectorielle.
-* **Format vectoriel** : *DirectX, OpenGL* permute le canal vert entre l&#39;interprétation Haut et Bas.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Entrée</b> <i>Entrée couleur</i> | Mappez pour déformer. |
+| <b>Carte vectorielle</b> <i>Entrée couleur</i> | Mappage du pilote de distorsion. Les couches de couleur Rouge et Bleu sont utilisées. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Intensité</b> <i>0.0 - 1.0</i> | Multiplicateur d’intensité pour la carte vectorielle. |
+| <b>Format vectoriel</b> <i>DirectX, OpenGL</i> | Permute la couche verte entre les interprétations Haut et Bas. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="vector-warp.resources/vector-warp-03.png" />
+        </td>
+    </tr>
 </table>

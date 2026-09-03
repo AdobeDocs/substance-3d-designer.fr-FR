@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Extraction de données d’éclaboussures de forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 3%
+source-wordcount: '71'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract-01.png){width="128px"}
 
-## Extraction de données d’éclaboussures de forme
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Complexe**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Utilitaire de séparation/séparation de données pour les données [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). Permet de convertir et d’afficher des données individuelles pour effectuer des calculs personnalisés, vérifier des données ou en savoir plus sur Shape Splatter.
 
-## Paramètres
-
-### Entrées
-
-* **Données D&#39;Éclaboussures 1** : *Entrée Couleur*
-* **Données D&#39;Éclaboussures 2** : *Entrée Couleur*
-
-*Aucun paramètre.*
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Données d&#39;éclaboussures 1</b> <i>Entrée couleur</i> |  |
+| <b>Données d&#39;éclaboussures 2</b> <i>Entrée couleur</i> |  |

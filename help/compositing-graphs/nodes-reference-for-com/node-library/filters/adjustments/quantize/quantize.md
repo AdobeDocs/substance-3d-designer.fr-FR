@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Quantifier la couleur (simple)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](../../../../../../assets/quantize.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](quantize.resources/quantize-01.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -39,14 +39,13 @@ Rapproche la plage d’entrée d’un nombre prédéfini de valeurs. Introduit e
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-<b>Quantifier le canal rouge</b> *Entier* Définit le nombre d&#39;étapes pour obtenir une approximation de la couche rouge.
-
-<b>Quantifier le canal vert</b> *Nombre entier* Définit le nombre d’étapes pour obtenir une approximation de la couche verte.
-
-<b>Quantifier le canal bleu</b> *Nombre entier*
-
-Définit le nombre d’étapes pour obtenir une approximation de la couche bleue.
-
-<b>Quantifier le canal d&#39;Alpha</b> *Entier* Définit le nombre d&#39;étapes pour obtenir une approximation de la couche d&#39;Alpha.
+|  |  |
+|:---|:---|
+| <b>Quantifier le canal rouge</b> *Nombre entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche rouge par. |
+| <b>Quantifier le canal vert</b> *Nombre entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche verte par. |
+| <b>Quantifier le canal bleu</b> *Nombre entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche bleue. |
+| <b>Quantifier le canal d&#39;Alpha</b> *Nombre entier* | Définit le nombre d’étapes à suivre pour obtenir une approximation du Canal Alpha. |

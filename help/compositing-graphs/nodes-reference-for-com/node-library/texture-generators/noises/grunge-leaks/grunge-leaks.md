@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Fuites d’Usure/salissures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
 
-**Entrée :** *Générateurs De Textures* */Bruits*
-
-**Simple**
+<b>Entrée :</b> Générateurs de textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,31 +39,31 @@ Le nœud **Usure/salissures Leaks** génère une carte usure/salissures semblabl
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Balance** *Flottant* Ajuste la balance entre les valeurs sombres et claires.
-* **Contraste** *Flottant* Ajuste le contraste de l&#39;image.
-* **Inverser** *Booléen* Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`.
-* **Extension non carrée** *booléenne* Permet la compensation de l&#39;écrasement et de l&#39;étirement avec des rapports autres que carrés.
-* Advanced
-  * **Longueur du goutte à goutte** *Flottant* Ajuste la longueur des traînées de goutte à goutte.
-  * **Contraste de forme** *Flottant* Varie entre les formes claires et sombres, en contrastant entre les gouttes.
-  * **Netteté des gouttes** *Flottant* Ajuste la netteté et l&#39;irrégularité des gouttes.
-  * **Netteté** *Flottement* Ajustez la brillance générale de l&#39;image.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Avancé</b> |  |
+| <b>Longueur Du Goutte</b> <i>Flotter</i> | Ajuste la longueur des stries d’égouttement. |
+| <b>Contraste de forme</b> <i>Flotter</i> | Se déplace entre les formes claires et sombres, en contrastant sur les gouttes. |
+| <b>Netteté goutte à goutte</b> <i>Flotter</i> | Règle la netteté et le degré de cassure des gouttes. |
+| <b>Netteté</b> <i>Flotter</i> | Ajustez la texture globale de l&#39;image. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+        </td>
+    </tr>
 </table>

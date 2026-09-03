@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Inclinaison
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,35 +22,41 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/skew-5.png){width="128px"}
+![](skew.resources/skew-01.png){width="128px"}
 
-![](../../../../../../assets/skew-grayscale.png){width="128px"}
+![](skew.resources/skew-02.png){width="128px"}
 
-## Inclinaison (Niveaux de gris)
-
-**Entrée :** *Filtres/Transformations*
-
-**Simple**
+<b>Entrées :</b> Filtres > Transformes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Inclinaison d’une image d’entrée.
-
-## Paramètres
-
-* **Axe** : *Horizontal, vertical* Choisissez d&#39;incliner verticalement ou horizontalement.
-* **Quantité** : *-1,0 - 1,0* Inclinaison.
-* **Aligner** :*Centrer, Haut, Gauche, Bas, Droite* définit le point d’origine de la transformation Inclinaison.
-
-## Exemples d’images
-
-![](../../../../../../assets/skew-ex.gif)
+Inclinaison une image d&#39;entrée.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Axe</b> <i>Horizontal, Vertical</i> | Choisissez de l’incliner verticalement ou horizontalement. |
+| <b>Quantité</b> <i>-1.0 - 1.0</i> | Inclinaison. |
+| <b>Aligner</b> <i>Centre, Haut, Gauche, Bas, Droite</i> | Définit le point d’origine de la transformation Inclinaison. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="skew.resources/skew-03.gif" />
+        </td>
+    </tr>
 </table>

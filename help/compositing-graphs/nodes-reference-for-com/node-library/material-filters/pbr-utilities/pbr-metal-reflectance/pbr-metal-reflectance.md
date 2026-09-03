@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Réflectance du métal PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
+![](pbr-metal-reflectance.resources/pbr-metal-reflectance-01.png){width="128px"}
 
-## Réflectance du métal PBR
-
-**Entrée :** *Filtres de matériaux/Utilitaires PBR*
-
-**Simple**
+<b>Entrée :</b> Filtres de matériau > Utilitaires PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,16 +37,14 @@ Il s&#39;agit d&#39;un nœud d&#39;aide de paramètre prédéfini rapide pour re
 
 Ce nœud est utile lorsque vous souhaitez un point de départ pour un métal pur et vous permet d&#39;éviter le choix de couleurs dans un graphique.
 
-## Paramètres
-
-* **Couleur du métal** :*Or, Argent, Aluminium, Fer, Cuivre, Titane, Nickel, Cobalt, Platine* Choisissez une valeur de métal prédéfinie.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Couleur du métal</b> <i>Or, Argent, Aluminium, Fer, Cuivre, Titane, Nickel, Cobalt, Platine</i> | Choisit une valeur de métal prédéfinie. |

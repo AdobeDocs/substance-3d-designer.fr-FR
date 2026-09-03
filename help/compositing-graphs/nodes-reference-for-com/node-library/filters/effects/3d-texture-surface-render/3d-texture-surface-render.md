@@ -1,41 +1,39 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Rendu de surface de texture 3D pour effectuer le rendu des textures de surface à partir de données 3D afin de créer des effets de surface procéduraux.
+description: Utilisez le nœud de rendu de surface de Texture 3D pour effectuer le rendu des textures de surface à partir de données 3D afin de créer des effets de surface procéduraux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Rendu de surface de texture 3D
+title: Rendu de surface de Texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 
-# Rendu de surface de texture 3D
+# Rendu de surface de Texture 3D
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3d-texture-surface-render-01.png){width="200px"}
 
-**Entrée :** *Filtre/Effet*
-
-**Simple**
+<b>Entrée :</b> Filtre > Effet
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Rendu de surface de texture 3D** effectue le rendu de la surface d&#39;une forme décrite par une *texture 3D*, en utilisant son *champ de distance* correspondant à partir de l&#39;entrée d&#39;image **Champ de distance 3D**.
+Le nœud **Rendu de surface de Texture 3D** effectue le rendu de surface d&#39;une forme décrite par une *texture 3D*, en utilisant son *champ de distance* correspondant à partir de l&#39;entrée d&#39;image **Champ de distance 3D**.
 
 La surface est représentée dans les limites d&#39;un *cube unitaire*. L&#39;éclairage est calculé à l&#39;aide de l&#39;image d&#39;entrée **Environnement** mappée à une sphère infinie.
 
@@ -48,75 +46,50 @@ La surface est représentée dans les limites d&#39;un *cube unitaire*. L&#39;é
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Champ de distance 3D</b> <i>Niveaux de gris</i> | Image 4 096 x 4 096 représentant les 256 <i>tranches</i> du champ de <i>distance</i> d&#39;une forme, organisées dans une grille de 16 x 16.<br>Vous pouvez utiliser le nœud [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) pour calculer le champ de distance pour une texture 3D de 256 tranches. |
+| <b>Environnement</b> <i>Couleur</i> | Image représentant l&#39;<i>environnement</i> qui doit être mappée à une sphère infinie dans le rendu et utilisée pour calculer l&#39;<i>éclairage</i>.<br>L&#39;image est également utilisée pour effectuer le rendu de l&#39;arrière-plan de la scène lorsque le paramètre <b>Mode de l&#39;arrière-plan</b> est défini sur <i>Ambiant</i> ou <i>Environnement</i>. |
+
+<a name="parameters"></a>
+
 ## Paramètres
 
-### Entrées
+|  |  |
+|:---|:---|
+| <b>Résolution de sortie</b> <i>Entier2</i> | Résolution de l&#39;image de sortie en <b>X</b> et <b>Y</b>, exprimée comme une <i>puissance de deux</i>. |
+| <b>Position de la Caméra</b> <i>Float2</i> | Position de la caméra autour de la forme.<br>Lorsque le nœud est sélectionné, vous pouvez utiliser le widget de position dans la <b>vue 2D</b> pour <i>orbite</i> de la caméra. |
+| <b>Distance De Caméra</b> <i>Flotter</i> | Distance entre la caméra et la forme. |
+| <b>Caméra FOV</b> <i>Flotter</i> | Champ de vision de l&#39;appareil photo en <i>degrés</i>. |
+| <b>Albédo</b> <i>Float3</i> | Couleur albédo de la surface de la forme. |
+| <b>Mode Arrière-plan</b> <i>Nombre entier</i> | Méthode de représentation de l&#39;arrière-plan de la scène rendue : <br>- <i>Éclairement du Sol</i> : éclairement calculé du plan du sol<br>- <i>Ambiant</i> : couleur ambiante de l&#39;entrée d&#39;image <b>Environnement</b> mappée à une sphère infinie, qui est semblable à une version fortement floue de l&#39;image<br>- <i>Couleur uniforme</i> : remplir uniformément l&#39;arrière-plan avec une couleur spécifiée<br>- <i>Environnement</i> : l&#39;entrée d&#39;image <b>Environnement</b> mappée à un sphère infinie |
+| <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur utilisée pour remplir uniformément l&#39;arrière-plan de la scène rendue.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Mode arrière-plan</b> est défini sur <i>Couleur uniforme</i>. |
+| <b>Activer le plan de Sol</b> <i>Booléen</i> | Lorsque <i>Vrai</i>, rend un plan au sol. Le <i>cube unitaire</i> entourant la forme repose sur ce plan. |
+| <b>Plan Infini</b> <i>Booléen</i> | Définit le plan du sol sur <i>s&#39;étendre à l&#39;infini</i> jusqu&#39;à l&#39;horizon.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Activer le plan du Sol</b> est défini sur <i>Vrai</i>. |
+| <b>Taille du plan du Sol</b> <i>Float2</i> | Ajuste la taille du plan du sol.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Activer le plan du Sol</b> est défini sur <i>Vrai</i> et le paramètre <b>Plan infini</b> sur <i>Faux</i>. |
 
-* **Champ De Distance 3D** *Niveaux De Gris*\
-  Image 4 096 x 4 096 représentant les 256 *tranches* du *champ de distance* d&#39;une forme, organisées dans une grille 16 x 16.\
-  Vous pouvez utiliser le nœud [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) pour calculer le champ de distance pour une texture 3D de 256 tranches.
-* **Environnement** *Couleur*\
-  Image représentant l&#39;*environnement* qui doit être mappée à une sphère infinie dans le rendu et utilisée pour calculer l&#39;*éclairage*.\
-  L&#39;image est également utilisée pour effectuer le rendu de l&#39;arrière-plan de la scène lorsque le paramètre **Mode de l&#39;arrière-plan** est défini sur *Ambiant* ou *Environnement*.
+## Exemples
 
-### Paramètres
-
-* **Résolution de sortie** *Entier2*\
-  Résolution de l&#39;image de sortie en **X** et **Y**, exprimée comme une *puissance de deux*.
-* **Position de l&#39;appareil photo** *Float2*\
-  Position de la caméra autour de la forme.\
-  Lorsque le nœud est sélectionné, vous pouvez utiliser l&#39;objet de positionnement dans la **Vue 2D** pour *orbiter* la caméra.
-* **Distance appareil photo** *Flottant*\
-  Distance entre la caméra et la forme.
-* **Camera FOV** *Float*\
-  Champ de vision de l&#39;appareil photo en *degrés*.
-* **Albédo** *Float3*\
-  Couleur albédo de la surface de la forme.
-* **Mode Arrière-Plan** *Entier*\
-  Méthode de représentation de l’arrière-plan de la scène rendue :
-  * *Irradiance du sol* : l&#39;irradiance calculée du plan au sol
-  * *Ambiant* : la couleur ambiante de l&#39;entrée d&#39;image de l&#39;**environnement** mappée à une sphère infinie, qui s&#39;apparente à une version fortement floue de l&#39;image
-  * *Couleur uniforme* : remplir uniformément l&#39;arrière-plan avec une couleur spécifiée
-  * *Environnement* : entrée d&#39;image **Environnement** mappée à une sphère infinie
-* **Couleur D&#39;Arrière-Plan** *Float4*\
-  Couleur utilisée pour remplir uniformément l’arrière-plan de la scène rendue.\
-  *Remarque* : ce paramètre est uniquement disponible lorsque le paramètre **Mode d&#39;arrière-plan** est défini sur *Couleur uniforme*.
-* **Activer le plan au sol** *booléen*\
-  Lorsque *Vrai*, rend un plan au sol. Le *cube unitaire* entourant la forme repose sur ce plan.
-* **Plan Infini** *Booléen*\
-  Définit le plan au sol sur *s&#39;étendre infiniment* jusqu&#39;à l&#39;horizon.\
-  *Remarque* : ce paramètre est disponible uniquement lorsque le paramètre **Activer le plan au sol** est défini sur *Vrai*.
-* **Taille du plan au sol** *Float2* Ajuste la taille du plan au sol.\
-  *Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Activer le plan au sol** est défini sur *Vrai* et le paramètre **Plan infini** sur *Faux*.
-
-## Exemples d’images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-05.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-06.png" />
+        </td>
+    </tr>
 </table>

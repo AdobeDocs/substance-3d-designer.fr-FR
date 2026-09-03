@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Tracés d’aperçu
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/preview-paths-icon.png "Icône de nœud")
+![Icône de nœud](preview-paths.resources/preview-paths-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -41,24 +41,24 @@ Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[opt
 </tr>
 </table>
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Arrière-plan</b> *Couleur*\
-Une image d’arrière-plan au-dessus de avec affiche le tracé. Cela contrôle également la taille du rendu.
+## Entrées
 
-<b>Tracés</b> *Couleur*\
-Liste des chemins d’accès des segments codés. Connectez cette entrée au résultat d&#39;un [masque sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou à un autre nœud de traitement de tracé.
+|  |  |
+|:---|:---|
+| <b>Arrière-plan</b> <i>Couleur</i> | Une image d’arrière-plan au-dessus de avec affiche le tracé. Cela contrôle également la taille du rendu. |
+| <b>Tracés</b> <i>Couleur</i> | Liste des chemins d’accès des segments codés. Connectez cette entrée au résultat d&#39;un [masque sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou à un autre nœud de traitement de tracé. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Afficher les coins</b> *Booléen*\
-Affiche un carré sur chaque sommet marqué comme angle (fusion additive).
-
-<b>Afficher les sommets</b> *Booléen*\
-Affiche une forme circulaire sur chaque sommet (fusion additive). Les coins sont toujours affichés sous forme de carrés.
-
-<b>Thickness des segments (px)</b> *Float*\
-Ajuste le thickness des segments rendus en pixels.
+|  |  |
+|:---|:---|
+| <b>Afficher les coins</b> <i>Booléen</i> | Affiche un carré sur chaque sommet marqué comme angle (fusion additive). |
+| <b>Afficher les sommets</b> <i>Booléen</i> | Affiche une forme circulaire sur chaque sommet (fusion additive). Les coins sont toujours affichés sous forme de carrés. |
+| <b>Thickness des segments (px)</b> <i>Flotter</i> | Ajuste le thickness des segments rendus en pixels. |
 
 ## Exemples
 
@@ -66,12 +66,12 @@ Ajuste le thickness des segments rendus en pixels.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](preview-paths.resources/preview-paths-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](preview-paths.resources/preview-paths-03.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

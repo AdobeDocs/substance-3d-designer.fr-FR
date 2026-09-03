@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bruit blanc rapide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
@@ -22,33 +22,29 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/white-noise-fast.png){width="128px"}
+![](white-noise-fast.resources/white-noise-fast-01.png){width="128px"}
 
-## Bruit blanc rapide
-
-**Entrée :** *Générateurs De Texture**/Bruits*
-
-**Simple**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Il s&#39;agit d&#39;une version plus rapide de [White Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md), car la qualité n&#39;est pas votre principale préoccupation et vous souhaitez économiser un peu sur les performances. Dans la plupart des cas, cette version rapide ne devrait pas vous poser de problème.
 
-## Paramètres
-
-Aucun paramètre.
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/white-noise-fast-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="white-noise-fast.resources/white-noise-fast-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Obtenir une valeur de variable
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Pour utiliser une variable dans une fonction, vous devez l’« appeler », ce q
 
 Pour ce faire, vous devez utiliser un nœud *Get* :
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/get-a-variable-value-01.png)
 
 Il existe différents types de nœuds Get : choisissez le bon en fonction du type de valeur que vous souhaitez importer :
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/get-a-variable-value-02.png)
 
 ## Affectation d&#39;une variable à un nœud Get
 
@@ -38,7 +38,7 @@ Pour lier une variable, accédez aux paramètres et choisissez une variable dans
 
 Le nom de la variable s’affiche dans le nœud :
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/get-a-variable-value-03.gif)
 
 Notez que seules les variables qui proviennent du même type du nœud Get apparaîtront dans la liste.
 

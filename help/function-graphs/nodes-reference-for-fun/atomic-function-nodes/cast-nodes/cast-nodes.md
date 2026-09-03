@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
-description: Utilisez les nœuds de conversion dans les graphiques fonctionnels Substance 3D Designer pour convertir les types de données float, int et vector.
+description: Utilisez les nœuds de convertit dans les graphes de fonction Substance 3D Designer pour convertir les types de données float, int et vector.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Cast
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Convertir
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 # Nœuds de fonderie
 
-Les nœuds Cast sont utilisés pour convertir un nœud d’un type en un autre type :
+Les nœuds de convertit sont utilisés pour convertir un nœud d’un type en un autre type :
 
-![](../../../../assets/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/cast-nodes-01.png)
 
-## Comment utiliser un nœud de cast ?
+## Comment utiliser un nœud de convertit ?
 
-Sélectionnez simplement le nœud cast qui correspond à la longueur du nœud que vous souhaitez convertir.
+Sélectionnez simplement le nœud de convertit qui correspond à la longueur du nœud que vous souhaitez convertir.

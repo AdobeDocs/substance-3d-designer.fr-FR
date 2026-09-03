@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Usure/salissures des taches sales
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '114'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
+![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
 
-**Entrée :** *Générateurs De Textures* */Bruits*
-
-**Simple**
+<b>Entrées :</b> Générateurs de Textures > Bruits
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,29 +39,29 @@ Le nœud **Usure/salissures Spots Dirty** génère un mappage usure/salissures s
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Paramètres
 
-* **Balance** *Flottant* Ajuste la balance entre les valeurs sombres et claires.
-* **Contraste** *Flottant* Ajuste le contraste de l&#39;image.
-* **Inverser** *Booléen* Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`.
-* **Extension non carrée** *booléenne* Permet la compensation de l&#39;écrasement et de l&#39;étirement avec des rapports autres que carrés.
-* Advanced
-  * **Couverture** *Flottant* Ajuste la couverture du dirt.
-  * **Échelle** *Entier* Ajuste l&#39;échelle des taches de dirt. Une valeur *supérieure* donne des taches *plus fines*.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Avancé</b> |  |
+| <b>Couverture</b> <i>Flotter</i> | Ajuste la couverture du dirt. |
+| <b>Échelle</b> <i>Nombre entier</i> | Règle l’échelle des taches de dirt. Une valeur *supérieure* donne des taches *plus fines*. |
 
-## Exemples d’images
+## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
+        </td>
+    </tr>
 </table>

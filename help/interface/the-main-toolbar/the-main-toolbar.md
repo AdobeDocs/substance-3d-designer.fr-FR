@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barre d'outils principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barre d&#39;outils principale](../../assets/mainmenu.png "Barre d&#39;outils principale")
+![Barre d&#39;outils principale](the-main-toolbar.resources/the-main-toolbar-01.png "Barre d&#39;outils principale")
 
 </td>
 </tr>
@@ -37,21 +37,21 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 ## Boutons d’accès rapide
 
-![](../../assets/newsubstance.png) <b>Nouveau graphique de Substance...:</b> (Ctrl+N)Présente la fenêtre [Nouveau graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), puis crée un pack avec un [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Nouveau graphe de Substance...:</b> (Ctrl+N)Affiche la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), puis crée un pack avec un [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](../../assets/saveall.png) <b>Enregistrer tout :</b> (Ctrl+⇧+S) Enregistre tous les packages répertoriés dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Enregistrer tout :</b> (Ctrl+⇧+S) Enregistre tous les packages répertoriés dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Annuler :</b> (Ctrl+Z) Annuler la dernière opération.
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Annuler :</b> (Ctrl+Z) Annuler la dernière opération.
 
-![](../../assets/redo.png) <b>Rétablir :</b> (Ctrl+Y) Rétablir la dernière opération annulée.
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Rétablir :</b> (Ctrl+Y) Rétablir la dernière opération annulée.
 
 ## Fichier
 
-<b>Nouveau :</b> ouvre un sous-menu pour créer un graphique ou un package :
+<b>Nouveau :</b> ouvre un sous-menu pour créer un graphe ou un pack :
 
-* <b>Nouveau graphique de Substance...:</b>(Ctrl+N) Vous présente la fenêtre [Nouveau graphique](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) qui vous permet de configurer un nouveau [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md) ;
+* <b>Nouveau graphe de Substance...:</b>(Ctrl+N) Vous présente la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) qui vous permet de configurer un nouveau [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md) ;
 * <b>Nouveau graphique de fonction de Substance :</b> crée un pack avec un [graphique de fonction de Substance](../../function-graphs/function-graphs.md) ;
 * <b>Vide :</b> crée un package vide.
 

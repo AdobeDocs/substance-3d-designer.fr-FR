@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modules externes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Ce sont des fichiers uniques avec une extension sdplugin contenant tout ce dont 
 
 ## Installation de packs de plug-ins
 
-![Gestionnaire de plug-ins](../../assets/screenshot-from-2019-07-18-11-48-56.png "Gestionnaire de plug-ins")
+![Gestionnaire de plug-ins](plugins-packages.resources/plugins-packages-01.png "Gestionnaire de plug-ins")
 
 Les packages de plug-ins sont installés à l&#39;aide de <b>Plugin Manager</b>, dans le menu <b>Outils</b> :
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill à l’index
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 2%
+source-wordcount: '201'
+ht-degree: 3%
 
 ---
 
@@ -22,40 +22,50 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
-## Flood Fill à l’index
-
-**Entrée :** *Filtres/Effets*
-
-**Complexe**
+<b>Entrée :</b> Filtres > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Flood Fill à l’index convertit chaque cellule Flood Fill en une valeur correspondant à son numéro d’index, en commençant par 0 dans le coin supérieur gauche. Il peut être utilisé pour renvoyer des teintes en niveaux de gris sous une forme normalisée (0,0 à 1,0, divisé par autant de cellules que celles trouvées par Flood Fill) ou sous la forme d’une valeur HDR non répartie (0 à n où n est le nombre de cellules).
 
-En outre, le Flood Fill à Index utilise le nouveau système [Value, renvoyant des valeurs supplémentaires](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) contenant la quantité de formes détectées et la table de données interne facultative.
-
-### Entrées
-
-* **Boîte de Flood Fill** : *mappage d&#39;entrée de couleur* Flood Fill standard. Obligatoire.
-* **Informations sur la forme spéciale** : *entrée de couleur* mappage Flood Fill supplémentaire, doit être explicitement activé sur le nœud Flood Fill précédent et doit être connecté !
-
-### Paramètres
-
-* **Sortie** : *normalisée, entier* Déterminez si la sortie est dans la plage LDR 0-1 ou HDR 0-n.
-* **Ignorer les formes inférieures à** : *0.0 - 1.0* valeur de tolérance pour l&#39;ignorance des petites formes.
-* **Afficher la table de données du Flood Fill** : *Faux/Vrai* renvoie des données supplémentaires (débogage) pour une utilisation avancée.
-
-## Exemples
-
-![](../../../../../../assets/flood-fill-ex02.jpg)
+En outre, le Flood Fill à Index utilise des [valeurs](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), renvoyant la quantité de formes trouvées et la table de données interne facultative.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Boîte de Flood Fill</b> <i>Entrée couleur</i> | Map d&#39;entrée de Flood Fill standard. Obligatoire. |
+| <b>Informations sur la forme spéciale</b> <i>Entrée couleur</i> | Mappage de Flood Fill supplémentaire, doit être explicitement activé sur le nœud de Flood Fill précédent et doit être connecté !. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Sortie</b> <i>Normalisé, Entier</i> | Déterminez si la sortie est dans la plage LDR 0-1 ou HDR 0-n. |
+| <b>Ignorer la forme inférieure à</b> <i>0.0 - 1.0</i> | Valeur de tolérance pour ignorer les petites formes. |
+| <b>Afficher la table de données du Flood Fill</b> <i>Faux/Vrai</i> | Renvoie des données supplémentaires (débogage) pour une utilisation avancée. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
+        </td>
+    </tr>
 </table>

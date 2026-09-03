@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Dégradé circulaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 1%
 
 ---
@@ -22,32 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-circular.png){width="128px"}
+![](gradient-circular.resources/gradient-circular-01.png){width="128px"}
 
-## Dégradé circulaire
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Simple**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Crée une transition de dégradé en niveaux de gris définie par deux points personnalisés de manière circulaire. La transition n&#39;est pas de a vers b, mais plutôt comme une révolution autour du premier point, commençant et se terminant au deuxième point. Gardez à l’esprit que les résultats ne seront jamais affichés.
 
-## Paramètres
-
-* **Point 1** :\
-  Le premier point pour faire tourner le dégradé n’a pas besoin d’être centré
-* **Point 2** :\
-  Deuxième point pour que le dégradé commence et se termine à.
-* **Extension non carrée** : *Faux/Vrai*\
-  Activez la compensation de la courbure et de l’étirement avec des rapports non carrés.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Point 1</b> | Le premier point pour faire tourner le dégradé n’a pas besoin d’être centré |
+| <b>Point 2</b> | Deuxième point pour que le dégradé commence et se termine à. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |

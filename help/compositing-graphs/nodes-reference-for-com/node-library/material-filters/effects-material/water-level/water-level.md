@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Niveau de l'eau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 1%
+source-wordcount: '282'
+ht-degree: 8%
 
 ---
 
@@ -22,54 +22,48 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/water-level.png){width="128px"}
+![](water-level.resources/water-level-01.png){width="128px"}
 
-## Niveau de l&#39;eau
-
-**Entrée :** *Filtres/Effets De Matière*
-
-**Complexe**
+<b>Entrée :</b> Filtres de matériau > Effets
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Effet tout-en-un qui ajoute un niveau d’eau à une entrée de matière complète. Pour que l’effet fonctionne, la matière d’entrée doit avoir une image de hauteur correcte et de haute qualité. Le résultat est PBR-correct.
 
-## Paramètres
-
-### Entrées
-
-* **Masque** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Canaux**\
-  Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité.
-* **Niveau d&#39;eau** :*0,0 - 1,0* Contrôle principal pour augmenter ou diminuer le niveau d&#39;eau.
-* **Obscurcissement de l&#39;eau** :*0.0 - 1.0* définit la « transparence » générale de l&#39;eau.
-* **Humidité des bords** :*0.0 - 1.0* détermine l&#39;aspect humide que devraient présenter les bords de l&#39;eau.
-* **Distance d&#39;humidité des bords** : *0.0 - 1.0* définit la distance d&#39;humidité des bords.
-* **Niveau de flou de Profondeur** : *0,0 - 1,0* définit le niveau de flou en fonction de la profondeur sous l&#39;eau. Modifie le rayon de flou.
-* **Opacité du flou de Profondeur** : *0.0 - 1.0* Détermine la quantité de flou de profondeur fusionnée, qui peut être utilisée pour réduire l&#39;effet du flou.
-* **Couleur de la boue** : *(Valeur de couleur)*Définit la couleur de l’effet de boue.
-* **Profondeur de la boue** : *0.0 - 1.0* Définit la profondeur à laquelle la boue commence à apparaître, par rapport au niveau de l&#39;eau.
-* **Opacité de la boue** : *0.0 - 1.0* définit l’opacité globale de l’effet de boue.
-* **Gel** : *0.0 - 1.0* Définit la quantité de givre. Commence à apparaître à partir des bords extérieurs et se déplace vers l&#39;intérieur.
-* **Intensité du givre** : *0.0 - 1.0* Définit l&#39;intensité du givre et contrôle l&#39;« opacité » de l&#39;effet.
-* **Fissures de givre** : *0.0 - 1.0* Définit la quantité de fissures dans les transitions du gel au liquide.
-* **Format normal du givre** : *DirectX/OpenGL* change le canal vert de l&#39;effet Carte normale du givre.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Niveau d&#39;eau</b> <i>0.0 - 1.0</i> | Contrôle principal pour élever ou abaisser le niveau de l&#39;eau. |
+| <b>Obscurcissement de l&#39;eau</b> <i>0.0 - 1.0</i> | Définit la « transparence » générale de l’eau. |
+| <b>Humidité des bords</b> <i>0.0 - 1.0</i> | Détermine l’aspect humide que doivent présenter les bords de l’eau. |
+| <b>Distance d&#39;humidité des bords</b> <i>0.0 - 1.0</i> | Définit l’étendue des contours humides. |
+| <b>Niveau de flou de Profondeur</b> <i>0.0 - 1.0</i> | Définit la quantité de flou en fonction de la profondeur sous l’eau. Modifie le rayon de flou. |
+| <b>Opacité du flou de Profondeur</b> <i>0.0 - 1.0</i> | Détermine la quantité de flou de profondeur fusionnée, qui peut être utilisée pour réduire l’effet du flou. |
+| <b>Couleur de la boue</b> <i>(valeur de couleur)</i> | Définit la couleur de l’effet de boue. |
+| <b>Profondeur des boues</b> <i>0.0 - 1.0</i> | Définit la profondeur à laquelle la boue commence à apparaître par rapport au niveau de l’eau. |
+| <b>Opacité de la boue</b> <i>0.0 - 1.0</i> | Définit l’opacité globale de l’effet de boue. |
+| <b>Gel</b> <i>0.0 - 1.0</i> | Définit la quantité de givre. Commence à apparaître à partir des bords extérieurs et se déplace vers l&#39;intérieur. |
+| <b>Intensité du gel</b> <i>0.0 - 1.0</i> | Définit l’intensité du givre et contrôle l’opacité de l’effet. |
+| <b>Fissures de givre</b> <i>0.0 - 1.0</i> | Définit le nombre de fissures dans les transitions de l’état congelé à l’état liquide. |
+| <b>Format Normal Frost</b> <i>DirectX/OpenGL</i> | Options Effet givre Normal couche verte. |

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Chaussée Arc
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -22,57 +22,52 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/arcpavement-ex.png)
+![](arc-pavement.resources/arc-pavement-01.png)
 
-## Chaussée Arc
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Intermédiaire**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Génère un motif de pavage en arc de Paris. Cet effet ne peut pas être obtenu avec le [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)standard ou le [Mosaïque Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md), d&#39;où ce nœud dédié.
 
-## Paramètres
-
-* **Échelle** : *1 - 8* définit l’échelle/la mosaïque globale.
-* **Quantité du motif** : *1 -* 32\
-  Définit la quantité de briques utilisées dans chaque arc.
-* **Quantité aléatoire du motif** : *0,0 - 1,0*\
-  Rend aléatoire la quantité de briques dans chaque arc. A pour effet supplémentaire de donner aux briques différentes échelles.
-* **Quantité minimale du motif** : *1 - 10*\
-  Contrôle la quantité minimale de briques lors de la sélection aléatoire des arcs.
-* **Quantité D&#39;Arcs** : *0 - 20*\
-  Définit la quantité d’arcs empilés verticalement. Modifie l’height des briques.
-* **Motif** :*Image D&#39;Entrée, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Gradations, Ondes, Demi-Cloche, Cloche Arquée, Croissant, Capsule, Cône*\
-  Sélectionne la forme de motif à utiliser.
-* **Filtrage Des Images D&#39;Entrée** : *Bilinéaire + Mipmaps, Bilinéaire, Au Plus Proche*
-* **Échelle du motif** : *0.0 - 1.0* définit l’échelle pour chaque carreau.
-* **Largeur du motif** : *0.0 - 1.0*\
-  Définit la largeur de chaque carreau.
-* **Height du motif** : *0.0 - 1.0*\
-  Définit l’height de chaque mosaïque.
-* **Largeur aléatoire du motif** : *0.0 - 1.0*\
-  Aléatoire la largeur des carreaux.
-* **Aléatoire de l&#39;Height du motif** : *0.0 - 1.0*\
-  Aléatoire de l’height de la vignette.
-* **Aléatoire de la largeur globale du motif** :*0.0 - 1.0* aléatoire la largeur des carreaux, sans créer d’espaces plus grands entre eux.
-* **Diminution de l’Height du motif** :*0.0 - 1.0* contrôle l’écrasement de l’height des carreaux à la fin de chaque arc.
-* **Color Random** : *0.0 - 1.0*\
-  Aléatoire des couleurs des carreaux.
-* **Extension non carrée** : *Faux/Vrai*\
-  Permet la compensation de la courbure et de l’étirement avec des proportions non carrées.
-
-## Exemples d’images
-
-![](../../../../../../assets/arcpavement-ex.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Échelle</b> <i>1 - 8</i> | Définit l’échelle/la répétition globale. |
+| <b>Quantité du motif</b> <i>1 - 32</i> | Définit la quantité de briques utilisées dans chaque arc. |
+| <b>Quantité aléatoire du motif</b> <i>0.0 - 1.0</i> | Rend aléatoire la quantité de briques dans chaque arc. A pour effet supplémentaire de donner aux briques différentes échelles. |
+| <b>Quantité minimale du motif</b> <i>1 - 10</i> | Contrôle le nombre minimal de briques lors de la sélection aléatoire des arcs. |
+| <b>Quantité D&#39;Arcs</b> <i>0 - 20</i> | Définit la quantité d’arcs empilés verticalement. Modifie l’height de la brique. |
+| <b>Motif</b> <i>Image d&#39;entrée, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduations, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône, </i> | Sélectionne la forme de motif à utiliser. |
+| <b>Filtrage d&#39;Image d&#39;entrée</b> <i>Bilinéaire + Mipmaps, Bilinéaire, Nearest</i> |  |
+| <b>Échelle du motif</b> <i>0.0 - 1.0</i> | Définit l’échelle de chaque mosaïque. |
+| <b>Largeur du motif</b> <i>0.0 - 1.0</i> | Définit la largeur de chaque carreau. |
+| <b>Height du motif</b> <i>0.0 - 1.0</i> | Définit l’height de chaque mosaïque. |
+| <b>Largeur aléatoire du motif</b> <i>0.0 - 1.0</i> | Aléatoire la largeur des carreaux. |
+| <b>Aléatoire de l&#39;Height du motif</b> <i>0.0 - 1.0</i> | Aléatoire de l’height de la vignette. |
+| <b>Largeur aléatoire globale du motif</b> <i>0.0 - 1.0</i> | Aléatoire la largeur des carreaux, sans créer d’espaces plus grands entre eux. |
+| <b>Diminution de l&#39;Height du motif</b> <i>0.0 - 1.0</i> | Contrôle l’écrasement de l’height des carreaux aux extrémités de chaque arc. |
+| <b>Color Random</b> <i>0.0 - 1.0</i> | Aléatoire des couleurs des carreaux. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="arc-pavement.resources/arc-pavement-01.png" />
+        </td>
+    </tr>
 </table>

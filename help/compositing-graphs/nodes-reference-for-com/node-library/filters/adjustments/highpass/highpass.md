@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Passe-haut pour extraire les détails haute fréquence des textures afin de créer des effets de netteté et d’amélioration des détails.
+description: Utilisez le nœud Passe-haut pour extraire les détails haute fréquence des textures de création des effets de netteté et d’amélioration des détails.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Highpass
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Passe-haut
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 4%
 
 ---
 
@@ -22,39 +22,45 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/highpass-01.png){width="128px"}
 
-![](../../../../../../assets/high-pass.png){width="128px"}
+![](highpass.resources/highpass-02.png){width="128px"}
 
-## Passe-haut (niveaux de gris)
-
-**Entrée :** *Filtres/Réglages*
-
-**Simple**
+<b>Entrée :</b> Filtres > Réglages
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Effectue un filtre passe-haut, disponible en couleur ainsi que dans une version en niveaux de gris. Similaire à l’action Photoshop portant le même nom.\
-Utile pour supprimer les grandes différences de luminance dans les images, par exemple lors du nettoyage de textures pour une mosaïque.
+Utile pour supprimer les grandes différences de Luminance dans les images, par exemple lors du nettoyage de textures pour la répétition.
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Passe-haut » pour les entrées Couleur et « Niveaux de gris passe-haut » pour les entrées Niveaux de gris.
 
-## Paramètres
-
-* **Rayon** : *0,0 - 64,0*\
-  Rayon du filtre : un petit rayon supprime les petites différences, un rayon plus grand supprime les grandes zones.
-
-## Exemples d’images
-
-![](../../../../../../assets/highpass.gif)
-
-![](../../../../../../assets/highpass-example.png){width="400px"}
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Rayon</b> <i>0.0 - 64.0</i> | Rayon du filtre : un petit rayon supprime les petites différences, un rayon plus grand supprime les grandes zones. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-03.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="highpass.resources/highpass-04.png" />
+        </td>
+    </tr>
 </table>

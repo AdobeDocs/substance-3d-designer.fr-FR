@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Éclaboussure
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 9%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](../../../../../../assets/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
-## Éclaboussure (couleur)
-
-**Entrée :** *Générateurs de textures**/Motifs*
-
-**Complexe**
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -45,34 +41,43 @@ Splatter fonctionne bien pour tamponner rapidement certaines formes, sans avoir 
 
 Gardez à l’esprit que les paramètres par défaut Éclaboussure ne semblent pas du tout aléatoires : vous devez en régler quelques-uns pour obtenir une randomisation (principalement les paramètres Trouble). Gardez également à l’esprit que Splatter nécessite une entrée de mappage pour fonctionner.
 
-## Paramètres
-
-* **Largeur de la taille du motif** : *0,0 - 1000,0* nombre de motifs à utiliser sur l’axe X.
-* **Height de la taille du motif** : *0,0 - 1000,0* nombre de motifs à utiliser sur l’axe Y.
-* **Rotation** : *-360.0 - 360.0* Fait pivoter chaque motif selon une valeur définie.
-* **Variation de rotation** : *0.0 - 360.0* Introduit une rotation aléatoire pour chaque forme distincte.
-* **Zoom** :*100.0 - 10000.0* Agrandit le résultat final. Gardez à l’esprit que cela casse le carrelage !
-* **Gain** : *0.0 - 10.0* ajuste le gain de fusion de chaque motif. Les fait ressortir davantage.
-* **Panoramique X** : *-100.0 - 100.0* Résultat du panoramique entier sur l&#39;axe X.
-* **Panoramique Y** : *-100.0 - 100.0* Résultat du panoramique entier sur l’axe Y.
-* **Trouble** : *0,0 - 100,0*\
-  Décale les formes de manière aléatoire.
-* **Numéro de grille** : *0 - 8* Parcourt différentes tailles de grille pour ajuster l’échelle des résultats. Conserve la mosaïque.
-* **Angle du trouble** : *0,0 - 360,0* contrôle l&#39;angle du déplacement du trouble.
-* **Désordre aléatoire** :*Faux/Vrai* aléatoire l&#39;angle du trouble, ajoutant beaucoup plus de chaos.
-* **Taille du motif** : *5 - 12*
-* **Variation de taille** : *0.0 - 100.0* Introduit la mise à l’échelle aléatoire pour chaque forme.
-* **Filtrage d&#39;entrée d&#39;image (moteur > v4 uniquement)** : *Bilinéaire + Mipmaps, Bilinéaire, Au plus proche* Filtrage à appliquer à l&#39;image d&#39;entrée.
-* **Niveau de sortie minimal** : *0,0 - 1,0* réglage du niveau de sortie minimum.
-* **Niveau de sortie max** : *0,0 - 1,0* Réglage du niveau maximal de sortie.
-* **Couleur d&#39;arrière-plan** : *(valeur Niveaux de gris)*Définit une couleur d&#39;arrière-plan unie.
-* **Variation de luminance** : *0,0 - 1,0 (version en niveaux de gris uniquement)*Introduit la variation de luminance.
-* **Variation de couleur** : *0.0 - 1.0 (version couleur uniquement)*Introduit la variation de couleur.
-
-## Exemples d’images
-
-![](../../../../../../assets/splatter-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Largeur de la taille du motif</b> <i>0.0 - 1000.0</i> | Nombre de motifs à utiliser sur l&#39;axe X. |
+| <b>Height de la taille du motif</b> <i>0.0 - 1000.0</i> | Nombre de motifs à utiliser sur l’axe Y. |
+| <b>Rotation</b> <i>-360.0 - 360.0</i> | Fait pivoter chaque motif selon une valeur définie. |
+| <b>Variation de rotation</b> <i>0.0 - 360.0</i> | Introduit une rotation aléatoire pour chaque forme distincte. |
+| <b>Zoom</b> <i>100.0 - 10000.0</i> | Augmente l’échelle du résultat final. Gardez à l’esprit que cela casse la répétition ! |
+| <b>Gain</b> <i>0.0 - 10.0</i> | Ajuste le gain de fusion de chaque motif. Les fait ressortir davantage. |
+| <b>Panoramique X</b> <i>-100.0 - 100.0</i> | Résultat de l’ensemble des panoramas à l’axe X. |
+| <b>Panoramique Y</b> <i>-100.0 - 100.0</i> | Résultat de l’ensemble du panoramique sur l’axe Y. |
+| <b>Désordre</b> <i>0.0 - 100.0</i> | Décale les formes de manière aléatoire. |
+| <b>Numéro De Grille</b> <i>0 - 8</i> | Permet de parcourir différentes tailles de grille pour ajuster l’échelle des résultats. Conserve la répétition. |
+| <b>Angle de désordre</b> <i>0.0 - 360.0</i> | Contrôle le déplacement de l’angle de la perturbation. |
+| <b>Désordre aléatoire</b> <i>Faux/Vrai</i> | Aléatoire l&#39;angle du trouble, ajoutant beaucoup plus de chaos. |
+| <b>Taille du motif</b> <i>5 - 12</i> |  |
+| <b>Variation de taille</b> <i>0.0 - 100.0</i> | Introduit une mise à l’échelle aléatoire pour chaque forme. |
+| <b>Filtrage d’entrée d’image (Moteur > v4 uniquement)</b> <i>Bilinéaire + Mipmaps, Bilinéaire, Nearest</i> | Quel filtrage appliquer à l’image d&#39;entrée ? |
+| <b>Niveau De Sortie Min</b> <i>0.0 - 1.0</i> | Ajustement du niveau minimum de sortie. |
+| <b>Niveau De Sortie Max</b> <i>0.0 - 1.0</i> | Ajustement du niveau maximal. |
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur Niveaux de gris)</i> | Définit la couleur d’arrière-plan unie. |
+| <b>Variation de Luminance</b> <i>0.0 - 1.0 (version en niveaux de gris uniquement)</i> | Introduit la variation de luminance. |
+| <b>Variation de couleur</b> <i>0.0 - 1.0 (Version En Couleur Uniquement)</i> | Introduit la variation de couleur. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="splatter.resources/splatter-03.gif" />
+        </td>
+    </tr>
 </table>

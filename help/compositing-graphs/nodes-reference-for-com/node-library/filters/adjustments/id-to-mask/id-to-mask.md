@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ID pour masquer les niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 1%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Identifier pour masquer l’icône en niveaux de gris](../../../../../../assets/IDToMask.png "Identifier pour masquer l’icône en niveaux de gris"){width="200px"}
+![Identifier pour masquer l’icône en niveaux de gris](id-to-mask.resources/id-to-mask-01.png "Identifier pour masquer l’icône en niveaux de gris"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -41,42 +41,28 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Paramètres
-
-</td>
-</tr>
-</table>
-
-## Connecteurs d’entrée
+## Entrées
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Niveaux de gris* PRINCIPAUX | Mappage d’ID d’entrée à partir duquel un masque doit être extrait. |
+|:---|:---|
+| <b>ID</b> <i>Niveaux de gris</i> PRINCIPAUX | Mappage d’ID d’entrée à partir duquel un masque doit être extrait. |
 
-## Connecteurs de sortie
+<a name="outputs"></a>
+
+## Sorties
 
 |  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* | Masque binaire extrait du mappage d&#39;ID d&#39;entrée. |
+|:---|:---|
+| <b>Sortie</b> <i>Niveaux de gris</i> | Masque binaire extrait du mappage d&#39;ID d&#39;entrée. |
+
+<a name="parameters"></a>
 
 ## Paramètres
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Mode de sélection</b> *Nombre entier* | Méthode de sélection des valeurs de pixels dans la carte d’ID, qui doivent être blanches dans le masque :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo :</b> sélectionnez une seule valeur de pixel</li> <li data-preserve-html="true"><b>Plage :</b> sélectionnez une plage de valeurs de pixels</li> </ul> |
 | <b>Nombre entier d&#39;ID</b> *Nombre entier* *Disponible lorsque le « mode Sélection » est défini sur « Solo »* | Valeur de pixel dans le mappage d’ID qui doit être blanche dans le masque de sortie. |
 | <b>Plage d’ID</b> *Entier2* *Disponible lorsque &#39;Mode de sélection&#39; est défini sur &#39;Plage&#39;* | Plage de valeurs de pixels dans le mappage ID, du début à la fin, qui doit être blanche dans le masque de sortie. |
@@ -86,11 +72,11 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -100,12 +86,12 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID à masquer : Exemple 2](../../../../../../assets/id_to_mask_example_2.gif "ID à masquer : Exemple 2"){zoomable="yes"}
+![ID à masquer : Exemple 2](id-to-mask.resources/id-to-mask-04.gif "ID à masquer : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID à masquer : Exemple 3](../../../../../../assets/id_to_mask_example_3.png "ID à masquer : Exemple 3"){zoomable="yes"}
+![ID à masquer : Exemple 3](id-to-mask.resources/id-to-mask-05.png "ID à masquer : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 16.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dd03ffc77a6d09c680dcf3e1fc204e4cb86cc336
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Cette version 16.0 introduit un flux de travail plus créatif pour la diffusion 
 
 *Date de publication : 14 avril 2026*
 
-<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Bannière Substance 3D Designer version 16.0" style="margin-top: 32px; margin-bottom: 32px">
+<img src="./version-16-0.resources/version-16-0-01.jpg" alt="Bannière Substance 3D Designer version 16.0" style="margin-top: 32px; margin-bottom: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 
@@ -38,13 +38,13 @@ Les utilisateurs avancés peuvent configurer des *distributions personnalisées*
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="Forme éclatée v2 : distribution de Poisson" /><br><i>Distribution de Poisson</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-02.gif" alt="Forme éclatée v2 : distribution de Poisson" /><br><i>Distribution de Poisson</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="Éclaboussure de forme v2 : distribution uniforme" /><br><i>Distribution uniforme</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-03.gif" alt="Éclaboussure de forme v2 : distribution uniforme" /><br><i>Distribution uniforme</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="Map density" /><br><i>Éclaboussure de forme v2 : Map density</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-04.gif" alt="Map density" /><br><i>Éclaboussure de forme v2 : Map density</i>
         </td>
     </tr>
 </table>
@@ -60,13 +60,13 @@ Cela débloque des diffusions plus dynamiques, plus variées et plus crédibles 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="Éclaboussure de forme v2 : rotation 3D aléatoire" /><br><i>Rotation 3D aléatoire</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-05.gif" alt="Éclaboussure de forme v2 : rotation 3D aléatoire" /><br><i>Rotation 3D aléatoire</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="Éclaboussure de forme v2 : extrusion de forme" /><br><i>Extrusion de forme</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-07.gif" alt="Éclaboussure de forme v2 : extrusion de forme" /><br><i>Extrusion de forme</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="Forme éclaboussée v2 : formes 3D SDF" /><br><i>Formes 3D SDF</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-08.jpg" alt="Forme éclaboussée v2 : formes 3D SDF" /><br><i>Formes 3D SDF</i>
         </td>
     </tr>
 </table>
@@ -75,21 +75,21 @@ Cela débloque des diffusions plus dynamiques, plus variées et plus crédibles 
 
 Comme pour la famille de nœuds Shape Splatter v1, Shape Splatter v2 est livré avec sa propre cohorte de nœuds compagnon.
 
-Les nœuds du mappeur v2 [Shape splatter](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) permettent la projection de textures sur les formes 3D dispersées, avec prise en charge de la *projection triplanaire* et des *ID de matériau* pour le mappage de plusieurs textures. Les résultats peuvent être ajustés globalement ou par forme pour les décalages de texture et les variations de couleur.\
-Là encore, les utilisateurs expérimentés peuvent configurer des *mappages de textures personnalisés* définis par un graphique de fonction.
+Les nœuds du mappeur v2 [Shape splatter](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) activent la projection des textures sur les formes 3D dispersées, avec prise en charge des *projections triplanaires* et des *ID de matériau* pour le mappage de plusieurs textures. Les résultats peuvent être ajustés globalement ou par forme pour les décalages de texture et les variations de couleur.\
+Encore une fois, les utilisateurs avancés peuvent configurer *des mappages de textures personnalisés* définis par un graphe de fonction.
 
-[L&#39;éclaboussure de forme v2 vers le masque](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) crée des masques pour une sélection spécifique de formes et/ou d&#39;ID de matériau, permettant une utilisation plus granulaire des formes en aval du graphique.
+[L&#39;éclaboussure de forme v2 vers le masque](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) crée des masques pour une sélection spécifique de formes et/ou d&#39;ID de matériau, permettant une utilisation plus granulaire des formes en aval dans le graphe.
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="Mappeur de couleurs Shape Splatter v2 : Mappage triplanaire" /><br><i>Mappage triplanaire</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" alt="Mappeur de couleurs Shape Splatter v2 : Mappage triplanaire" /><br><i>Mappage triplanaire</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="Mappeur de couleurs Shape Splatter v2 : mappage normal" /><br><i>Mappage normal</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" alt="Mappeur de couleurs Shape Splatter v2 : mappage normal" /><br><i>Mappage normal</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="Mappeur de couleurs Shape Splatter v2 : mappage par ID de matériau à partir de formes SDF" /><br><i>Mappage par ID de matériau à partir de formes SDF</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" alt="Mappeur de couleurs Shape Splatter v2 : mappage par ID de matériau à partir de formes SDF" /><br><i>Mappage par ID de matériau à partir de formes SDF</i>
         </td>
     </tr>
 </table>
@@ -102,7 +102,7 @@ Là encore, les utilisateurs expérimentés peuvent configurer des *mappages de 
             <p>Les motifs personnalisés peuvent être fournis séparément au nœud Shape splatter v2 ou regroupés dans un atlas en grille pour des workflows plus épurés et plus efficaces.</p><p>Les modèles de packing sont simplifiés grâce aux nouveaux nœuds <a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">Atlas en grille</a>.</p>
         </td>
         <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="nœud de couleur Atlas en grille" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-02.png" alt="nœud de couleur Atlas en grille" />
         </td>
     </tr>
 </table>
@@ -114,10 +114,10 @@ Là encore, les utilisateurs expérimentés peuvent configurer des *mappages de 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>L'<b>échantillon de matériau<a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">rouillé</b></a>est disponible pour sauter la famille de nœuds Shape Splatter v2 et leurs caractéristiques.</p><p>Le graphique est organisé et annoté pour vous guider à travers sa structure, ses paramètres de nœuds et ses techniques.</p><p>Il est également <i>entièrement modifiable</i>. Il peut donc être utilisé comme sandbox pour mieux comprendre le jeu d’outils Shape splatter v2. Vous pouvez créer autant d’exemples de graphiques que vous le souhaitez, alors n’hésitez pas à jouer !</p>
+            <p>L'<b>échantillon de matériau<a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md"></b> de </a>boulons rouillés est disponible pour passer à la famille de nœuds de la version 2 des éclaboussures de forme et à leurs caractéristiques.</p><p>Le graphe est organisé et annoté pour vous guider à travers sa structure, ses paramètres de nœuds et ses techniques.</p><p>Il est également <i>entièrement modifiable</i>. Il peut donc être utilisé comme sandbox pour mieux comprendre le jeu d’outils Shape splatter v2. Vous pouvez créer autant d’exemples de graphiques que vous le souhaitez, alors n’hésitez pas à jouer !</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>
@@ -127,10 +127,10 @@ Là encore, les utilisateurs expérimentés peuvent configurer des *mappages de 
 <table>
     <tr style="vertical-align: top; width: 75%; border: 0">
         <td style="border: 0">
-            <p>Designer 16.0 ajoute une méthode puissante de génération de formes 3D dans un graphique fonctionnel à l’aide d’un vaste catalogue de nœuds pour la création de Fonctions SDF.</p><p>Les champs Distance signée sont des représentations de l'espace sous la forme d'une distance par rapport aux surfaces définies mathématiquement. Ils peuvent être utilisés pour définir des formes de plus en plus complexes à mesure que ces surfaces sont transformées et combinées à l'aide de divers opérateurs.</p>
+            <p>Designer 16.0 ajoute une méthode puissante de génération de formes 3D dans un graphe fonctionnel à l’aide d’un vaste catalogue de nœuds pour la création de Fonctions SDF.</p><p>Les champs Distance signée sont des représentations de l'espace sous la forme d'une distance par rapport aux surfaces définies mathématiquement. Ils peuvent être utilisés pour définir des formes de plus en plus complexes, ces surfaces étant transformées et associées à l'aide de divers opérateurs.</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="Création de formes à l’aide de Fonctions SDF" />
+            <img src="./version-16-0.resources/version-16-0-02.gif" alt="Création de formes à l’aide de Fonctions SDF" />
         </td>
     </tr>
 </table>
@@ -140,45 +140,45 @@ Là encore, les utilisateurs expérimentés peuvent configurer des *mappages de 
 Les fonctions SDF impliquent une [nouvelle famille de nœuds](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions) qui se divise en 4 catégories :
 
 * Les **primitives** sont les composantes de base. Elles génèrent des formes simples et ajustables avec quelques commandes qui vous permettent de les adapter selon vos besoins.
-* Les **opérateurs** combinent ou répliquent des formes de manière simple ou complexe en fonction du nœud : des simples opérateurs booléens aux morphes, aux coquilles et aux symétries, ils élargissent considérablement les possibilités de type de forme 3D qui peut être obtenu
-* Les **transformations** vous permettent d&#39;ajuster la position, la rotation et la taille des formes comme vous pouvez vous y attendre et au-delà avec la flexion, la torsion et l&#39;élongation.
-* Les nœuds de **matière** vous permettent de définir certains attributs de matière de base, tels que la couleur et l&#39;ID de matière, qui peuvent être utilisés par la famille de nœuds de [éclaboussures de forme v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) pour le masquage ou la coloration des formes.
+* Les **opérateurs** associent ou répliquent des formes de manière simple ou complexe en fonction du nœud : des simples opérateurs booléens aux morphes, aux coques et aux symétries, ils élargissent considérablement les possibilités de type de forme 3D qui peut être obtenu
+* Les **Transformes** vous permettent d&#39;ajuster la position, la rotation et la taille des formes comme vous pouvez vous y attendre et au-delà avec la flexion, la torsion et l&#39;élongation.
+* Les nœuds **Matériau** vous permettent de définir certains attributs de matériau de base, tels que la couleur et l&#39;ID de matériau, qui peuvent être utilisés par la famille de nœuds [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) pour le masquage ou la coloration des formes.
 
 >[!INFO]
 > 
 > Accédez à la page [Utilisation des Fonctions SDF](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) pour commencer à travailler avec ces nœuds.
 
-<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="nœuds de fonction SDF" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="nœuds de fonction SDF" />
 
 Les nœuds légers dotés d’icônes claires et lisibles facilitent la création de Fonctions SDF 3D, en particulier avec ce nouvel outil...
 
 ### Nœud de la visionneuse 3D
 
-Lorsque vous créez des Fonctions SDF 3D, vous devez visualiser les formes obtenues dans l’espace 3D. Le [nœud de visionneuse 3D](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) effectue le rendu des fonctions 3D SDF ou d’intersection sous la forme d’une scène 3D avec des commandes de caméra réglables, un éclairage d’environnement personnalisé et la prise en charge du rendu des matériaux de base. (Couleur, rugosité et aspect métallique)
+Lorsque vous créez des Fonctions SDF 3D, vous devez visualiser les formes obtenues dans l’espace 3D. Le [nœud de la visionneuse 3D](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) effectue le rendu des fonctions 3D SDF ou d&#39;intersection sous la forme d&#39;une Scène 3D avec des commandes de caméra ajustables, un éclairage d&#39;environnement personnalisé et la prise en charge du rendu des matériaux de base. (Couleur, rugosité et métallisme)
 
-Le nœud comprend également des fonctionnalités permettant de vérifier les formes générées en détail et de résoudre les problèmes de débogage : des passes de rendu distinctes (AOV), des isolignes SDF et des assistants visuels. (E.g. Couleur de fond perdu de la boîte, grille et arcs de rotation)
+Le nœud comprend également des fonctionnalités permettant de vérifier les formes générées en détail et de résoudre les problèmes de débogage : passes de rendu distinctes (AOV), isolignes SDF et assistants visuels. (E.g. Fond perdu de couleur, grille et arcs de rotation)
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%; border: 0">
         <td style="text-align: center; width: 50%; border: 0; padding: 15px">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="Exemple 1" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-02.jpg" alt="Exemple 1" />
         </td>
         <td style="width: 50%; border: 0; padding: 0">
             <table>
                 <tr style="vertical-align: top; border: 0">
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Exemple 1" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-03.jpg" alt="Exemple 1" />
                     </td>
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Exemple 2" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-04.jpg" alt="Exemple 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top; border: 0; background: transparent">
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Exemple 3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-05.jpg" alt="Exemple 3" />
                     </td>
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Exemple 4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-06.jpg" alt="Exemple 4" />
                     </td>
                 </tr>
             </table>
@@ -193,57 +193,57 @@ Le nœud comprend également des fonctionnalités permettant de vérifier les fo
 
 Ce modèle de matériau est désormais pris en charge dans l&#39;ensemble de l&#39;application, avec [nuanceurs dédiés](../../interface/3d-view/material-properties/material-properties.md#openpbr) dans nos nouveaux systèmes de rendu (Pixellisation, Pathtracer GPU) et le système de rendu OpenGL.
 
-<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Prise en charge d’OpenPBR dans Substance 3D Designer et comparaisons avec d’autres DCC" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/version-16-0-03.gif" alt="Prise en charge d’OpenPBR dans Substance 3D Designer et comparaisons avec d’autres DCC" />
 
-Commencez avec cette norme largement adoptée par l’industrie avec de nouveaux modèles de graphiques, ou passez en revue les échantillons de matériau intégrés désormais basés sur l’OpenPBR.
+Commencez avec cette norme largement adoptée par l’industrie avec de nouveaux modèles de graphe, ou passez en revue les exemples de matériau intégrés désormais basés sur l’OpenPBR.
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="Modèles d’OpenPBR" />
+            <img src="./version-16-0.resources/version-16-0-04.png" alt="Modèles d’OpenPBR" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="échantillons de matières OpenPBR" />
+            <img src="./version-16-0.resources/version-16-0-05.png" alt="échantillons d’OpenPBR" />
         </td>
     </tr>
 </table>
 
-Le nuanceur d’OpenPBR est désormais l’outil par défaut pour la vue 3D et prend en charge en mode natif les graphiques des versions précédentes en faisant correspondre les utilisations PBR héritées aux OpenPBR.
+L’shader est désormais la norme par défaut pour vue 3D et prend en charge en mode natif les graphes des versions précédentes en associant les utilisations PBR héritées aux OpenPBR.
 
 Les ombrages OpenPBR prennent en charge davantage d’effets que les ombrages existants, tels que les couches minces et les parois minces. Tous les effets sont disponibles dans la pixellisation (Pixellisation, OpenGL), y compris enfin la réfraction !
 
 <table style="border: none;">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            Il est également plus facile de synchroniser les workflows impliquant des nuanceurs spécifiques, grâce au nouvel attribut <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'Modèle de matériau'</a> pour les graphiques de Substance, qui garantit que les graphiques affichés dans la vue 3D utilisent le nuanceur approprié pour le modèle de matériau du graphique.
+            Il est également plus facile de synchroniser les workflows impliquant des shaders spécifiques, avec un nouvel attribut <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'Modèle de matériau'</a> pour les graphes de Substance, qui garantit que les graphes affichés dans la vue 3D utilisent le shader approprié pour le modèle de matériau du graphe.
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="échantillons de matières OpenPBR" />
+            <img src="./version-16-0.resources/version-16-0-06.png" alt="échantillons d’OpenPBR" />
         </td>
     </tr>
 </table>
 
 >[!NOTE]
 > 
->L&#39;attribut est également inclus dans les fichiers SBSAR publiés à intégrer dans votre flux de matières.
+>L’attribut est également inclus dans les fichiers SBSAR publiés à intégrer dans votre flux de travaux de matériau.
 
 <a name="displacement-popup"></a>
 
-## Commandes de displacement dans la vue 3D
+## Commandes de displacement dans vue 3D
 
-Il est désormais plus rapide et plus facile d&#39;ajuster le displacement et la facettisation dans la vue 3D, avec un accès direct dans une [fenêtre contextuelle de nouveau Displacement](../../interface/3d-view/displacement/displacement.md) disponible dans la barre d&#39;outils Vue 3D.
+Il est désormais plus rapide et plus facile d&#39;ajuster le displacement et la tessellation dans vue 3D, avec un accès direct dans une [fenêtre contextuelle de nouveau Displacement](../../interface/3d-view/displacement/displacement.md) disponible dans la barre d&#39;outils vue 3D.
 
-Ajustez les valeurs de **l&#39;échelle d&#39;Height**, de **niveau d&#39;Height** et de **facettisation** sans effectuer de va-et-vient répétés dans les propriétés de matériau et les paramètres de rendu.
+Ajustez les valeurs de **l&#39;échelle d&#39;Height**, de **niveau d&#39;Height** et de **Tessellation** sans effectuer de va-et-vient répétés dans les propriétés de matériau et les paramètres de rendu.
 
 Ces commandes sont disponibles pour nos nouveaux systèmes de rendu (Pixellisation, Pathtracer GPU) et pour le système de rendu OpenGL.
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Fenêtre contextuelle displacement dans la vue 3D" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/displacement-01.gif" alt="Fenêtre contextuelle displacement dans la vue 3D" />
 
-Si la scène comprend plusieurs matières, sélectionnez l’objet de la scène que vous souhaitez ajuster au préalable en maintenant la touche <code>Maj enfoncée</code> et en cliquant dessus (Pixellisation et Pathtracer GPU uniquement) ou en la sélectionnant dans l’explorateur de scènes.
+Si la scène comprend plusieurs matériaux, sélectionnez l&#39;objet de la scène que vous souhaitez ajuster au préalable en maintenant la touche <code>Maj enfoncée</code> et en cliquant dessus (Pixellisation et Pathtracer GPU uniquement) ou en la sélectionnant dans l’explorateur de Scènes.
 
 >[!NOTE]
 > 
->La facettisation est de *par objet* dans le pixelliseur et le Pathtracer GPU, et de *par matière* dans OpenGL.
+>La tessellation est de *par objet* dans la pixellisation et Pathtracer GPU, et de *par matériau* dans OpenGL.
 
 <a name="other-changes"></a>
 
@@ -254,25 +254,25 @@ Si la scène comprend plusieurs matières, sélectionnez l’objet de la scène 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>Pour faciliter l'accès aux valeurs constantes dans les graphiques de Substance, <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">de nouveaux nœuds</a> ont été ajoutés pour générer une valeur simple de chaque type.</p><p>Vous les trouverez tous dans la section <b>Valeurs &gt; Constantes</b> de la bibliothèque.</p>
+            <p>Pour faciliter l'accès aux valeurs constantes dans les graphes de Substance, <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">nouveaux nœuds</a> ont été ajoutés pour générer une valeur simple de chaque type.</p><p>Vous les trouverez tous dans la section <b>Valeurs &gt; Constantes</b> de la bibliothèque.</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="Nœud « Float » constant" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constant-02.png" alt="Nœud « Flottant » constant" />
         </td>
     </tr>
 </table>
 
-### Graphiques MDL et fin de vie en Irlande
+### Graphes MDL et Iray de vie
 
-Comme vous en avez été informé dans la version 15.1, le jeu de fonctionnalités de graphiques MDL et le rendu Iray sont désormais supprimés de Designer.\
+Comme vous en avez été informé dans la version 15.1, le jeu de fonctionnalités par Graphe MDL et le moteur de rendu d’Iray sont désormais supprimés de Designer.\
 Notre Pathtracer GPU interne est le système de rendu de choix pour un rendu photoréaliste de haute qualité dans Designer.
 
-Designer s’éloigne du langage MDL pour privilégier MaterialX comme langue ombrage de choix pour les définitions de matériaux interchangeables et largement prises en charge.\
-MaterialX a rapidement pris de l’ampleur dans les industries de l’infographie et peut être transporté par des fichiers USD pour une portabilité totale de la scène entre les DCC et les systèmes de rendu.
+Designer s’éloigne du langage MDL pour privilégier MaterialX en tant que langue ombrage de choix pour les définitions de matériau interchangeables et largement prises en charge.\
+MaterialX a rapidement pris de l’ampleur dans les industries de l’infographie et peut être transporté par des fichiers USD pour une portabilité totale des scènes entre les DCC et les systèmes de rendu.
 
 >[!NOTE]
 > 
->La documentation des graphiques MDL et du rendu Iray est disponible sur leur [page de fin de vie dédiée](../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md).
+>La documentation des Graphes MDL et du moteur de rendu d&#39;Iray est disponible sur leur [page de fin de vie dédiée](../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md).
 
 ### Mises à niveau de la plateforme VFX et version minimale de macOS
 
@@ -379,8 +379,8 @@ sont synchronisées
 * [Graphique] Graphique de fonction : la propagation de type ne fonctionne pas correctement dans certaines situations
 * [Graphique] Les liens de graphique sont supprimés lorsqu’un nœud d’entrée d’image est renommé
 * [Graphique] Les liens et les épingles affichent parfois des artefacts
-* [Préférences] La mise à l’échelle de la fenêtre d’affichage est inversée
-* [Propriétés] Blocage lors de la modification du réglage d’entrée de graphique lors de l’affichage de ses paramètres d’instance
+* [Préférences] La mise à l’échelle du Viewport est inversée
+* [Propriétés] Crash lors de la modification de l’ajustement d’entrée de graphe lors de l’affichage de ses paramètres d’instance
 * [Python] Impossible d&#39;importer les modules PySide6 (conflit possible avec l&#39;installation existante de PySide6)
 * [Python] Les modules PySide et Shiboken existants sont en conflit avec Designer
 * [UI] Le style de survol disparaît sur les boutons dans un cas spécifique (Windows uniquement)
@@ -389,7 +389,7 @@ sont synchronisées
 
 ### PROBLÈMES CONNUS
 
-* [Graphique] Les icônes générées pour les OpenPBR ne sont pas précises
-* [Vue 3D] Les scènes avec des primitives animées ne sont pas prises en charge correctement
-* [Vue 3D] Le traceur de tracé n’est pas pris en charge sur toutes les cartes graphiques AMD
+* [Graphe] Les icônes générées pour les OpenPBR ne sont pas précises
+* [vue 3D] Les Scènes avec des primitives animées ne sont pas correctement prises en charge
+* [vue 3D] Le traceur de tracé n’est pas pris en charge sur toutes les cartes graphiques AMD
 

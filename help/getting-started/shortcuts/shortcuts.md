@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Raccourcis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 
 **Windows**
 
-![Raccourcis clavier sous Windows](../../assets/keyboard_shortcuts_win.png "Raccourcis clavier sous Windows"){zoomable="yes"}
+![Raccourcis clavier sous Windows](shortcuts.resources/shortcuts-01.png "Raccourcis clavier sous Windows"){zoomable="yes"}
 
 **macOS**
 
-![Raccourcis clavier dans macOS](../../assets/keyboard_shortcuts_mac.png "Raccourcis clavier dans macOS"){zoomable="yes"}
+![Raccourcis clavier dans macOS](shortcuts.resources/shortcuts-02.png "Raccourcis clavier dans macOS"){zoomable="yes"}
 
 ## Listes de raccourcis
 

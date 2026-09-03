@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nœud itéré
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Chaque nœud itéré a deux connecteurs le long de sa base. Le connecteur de gau
 
 Notez que l’image directe est toujours transmise sans modification, quel que soit le paramètre Itération.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/the-iterate-node-01.jpg)

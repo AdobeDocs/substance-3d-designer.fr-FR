@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusion en HDR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 13%
 
 ---
 
@@ -22,35 +22,37 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge-01.png){width="200px"}
 
-## Fusion en HDR
-
-**Entrée :** *Vue/Outils HDRI 3D*
-
-**Simple**
+<b>Entrée :</b> vue 3D > Outils HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Fusionnez plusieurs expositions photographiques pour créer une image de Plage dynamique élevée. La première entrée est l’image la plus sous-exposée.
 
-## Entrées
-
-* **Entrée 1-**&#x200B;**&#x200B; 16** : *Entrée couleur*Images d&#39;entrée. La quantité disponible dépend du paramètre.
-
-## Paramètres
-
-* **Entrées** : *2 - 16*\
-  Définit la quantité d&#39;entrées disponibles.
-* **Delta d&#39;exposition (EV)** : *0.0 - 4.0*\
-  Définit la différence d’exposition pour interpréter les différentes images.
-* **Point blanc** : *0,0 - 13,0* Définissez le point blanc pour effectuer un réglage sur le résultat final.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Entrée 1-16</b> <i>Entrée couleur</i> | Images d&#39;entrée. La quantité disponible dépend du paramètre. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Entrées</b> <i>2 - 16</i> | Définit la quantité d&#39;entrées disponibles. |
+| <b>Delta d&#39;exposition (EV)</b> <i>0.0 - 4.0</i> | Définit la différence d’exposition pour interpréter les différentes images. |
+| <b>Point blanc</b> <i>0.0 - 13.0</i> | Définissez le point blanc pour effectuer un réglage sur le résultat final. |

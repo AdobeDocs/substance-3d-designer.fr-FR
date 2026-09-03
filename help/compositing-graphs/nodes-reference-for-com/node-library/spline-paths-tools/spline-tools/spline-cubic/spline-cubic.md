@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (Cubique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-cubic-icon.png "Icône de nœud")
+![Icône de nœud](spline-cubic.resources/spline-cubic-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -41,122 +41,59 @@ La trajectoire de la spline est contrôlée par la tangente « out » de <b>p1</
 </tr>
 </table>
 
-## Connecteurs d’entrée
+<a name="inputs"></a>
 
-<b>Aperçu</b> *Niveaux de gris* Aperçu des splines d&#39;entrée sous la forme d&#39;une image en niveaux de gris.
+## Entrées
 
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points des splines d&#39;entrée codées dans les couches RVBA d&#39;une image couleur :\
-<b> R</b> - Position X\
-<b> G</b> - Position Y\
-<b> B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
 
-<b>Données splines</b> *Couleur* Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Inutilisé\
-<b> A</b> - Inutilisé
+<a name="outputs"></a>
 
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines d&#39;entrée.
+## Sorties
 
-## Connecteurs de sortie
+|  |  |
+|:---|:---|
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d’image en niveaux de gris. |
+| <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
+| <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
 
-<b>Aperçu</b> *Niveaux de gris* L’aperçu des splines de sortie sous forme d’image en niveaux de gris.
-
-<b>Couleurs splines</b> *Couleur* Les coordonnées des points splines de sortie sont codées dans les couches RVBA d&#39;une image couleur.\
-<b>R</b> - Position X\
-<b>G</b> - Position Y\
-<b>B</b> - Height\
-<b>A</b> - Données compressées :\
-* Signe : la spline est fermée (négative) ou ouverte (positive);\
-* Valeur absolue : Thickness + 1.
-
-<b>Données splines</b> *Couleur* Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Inutilisé\
-<b>A</b> - Inutilisé
-
-<b>Quantité de spline</b> *Nombre entier* Nombre de splines de sortie.
+<a name="parameters"></a>
 
 ## Paramètres
 
-<b>Inverser la direction</b> *Booléen*\
-Inverse la direction de la spline.
-
-<b>Ajouter une spline d&#39;entrée</b> *Booléen*\
-Ajoute la spline générée à la fin de la liste des splines connectées aux entrées de <b>spline</b>.
-
-<b>Correction non carrée </b>*Booléenne* Ajustez la position et le thickness des points pour conserver la forme de spline dans des résolutions non carrées.\
-Cela a également un impact sur la distribution uniforme.
-
-+++Hauteur
-<b>Height de démarrage</b> *Flottant* Ajuste l&#39;height du point p1 où une valeur inférieure signifie un emplacement plus bas ou plus profond.\
-Cela a un impact sur l&#39;height de la spline en p1.
-
-<b>Height final</b> *Flottant* Ajuste l&#39;height du point p2 où une valeur inférieure signifie un emplacement plus bas ou plus profond.\
-Cela a un impact sur le thickness de la spline à p2.
-
-<b>Height de tangence automatique</b> *Booléen* définit automatiquement l&#39;height des tangentes de spline à interpoler linéairement de l&#39;Height Début à l&#39;Height Fin.
-
-<b>Height tangent p1</b> *Flottant* (disponible lorsque « Height de tangente automatique » a la valeur True)\
-Règle l’height de la tangente de « sortie » du point p1 où une valeur inférieure signifie un emplacement plus bas ou plus profond.\
-Cela a un impact sur l&#39;height le long de la spline lorsqu&#39;il s&#39;éloigne de p1.
-
-<b>Height tangent p2</b> *Flottant* (disponible lorsque « Height de tangente automatique » a la valeur True)\
-Règle l’height de la tangente « entrée » du point p2 où une valeur inférieure signifie un emplacement plus bas ou plus profond.\
-Cela a un impact sur l&#39;height le long de la spline lorsqu&#39;il s&#39;éloigne de p2.
-
-+++
-
-+++Épaisseur
-<b>Démarrer le Thickness</b> *Flottant* Ajuste le thickness du point p1.\
-Cela a un impact sur le thickness de la spline à p1.\
-Remarque : Thickness est utilisé par des nœuds Spline spécifiques.
-
-<b>Fin de Thickness</b> *Flottant* Ajuste le thickness du point p2.\
-Cela a un impact sur le thickness de la spline à p2.\
-Remarque : Thickness est utilisé par des nœuds Spline spécifiques.
-
-<b>Thickness tangent automatique</b> *Booléen* Définit automatiquement le thickness des tangentes de spline à interpoler linéairement du Thickness de début au Thickness de fin.\
-Remarque : Thickness est utilisé par des nœuds Spline spécifiques.
-
-<b>Thickness tangent p1</b> *Flottant* (disponible lorsque « Thickness de tangente automatique » a la valeur True)\
-Ajuste le thickness de la tangente de sortie du point p1.\
-Cela a un impact sur le thickness le long de la spline lorsqu&#39;il s&#39;éloigne de p1.\
-Remarque : Thickness est utilisé par des nœuds Spline spécifiques.
-
-<b>Thickness tangent p2</b> *Flottant* (disponible lorsque « Thickness de tangente automatique » a la valeur True)\
-Règle le thickness de la tangente « entrée » du point p2.\
-Cela a un impact sur le thickness le long de la spline lorsqu&#39;il s&#39;éloigne de p2.\
-Remarque : Thickness est utilisé par des nœuds Spline spécifiques.
-
-+++
-
-+++Coordonnées des points
-<b>p1</b> *Float2* Définit la position du point p1 dans l’espace de texture.
-
-<b>p1 Tangente</b> *Float2* Définit la position de la poignée de tangente de sortie du point p1 dans l’espace de texture.
-
-<b>p2</b> *Float2* Définit la position du point p2 dans l’espace de texture.
-
-<b>p2 tangente</b> *Float2* Définit la position de la poignée de tangente « d’entrée » du point p2 dans l’espace de texture.
-
-+++
-
-+++Prévisualiser
-<b>Afficher les tangentes</b> *Booléen* Affiche la tangente de sortie du point p1 et la tangente d’entrée du point p2 dans la sortie Aperçu.
-
-<b>Afficher l&#39;assistant de direction</b> *Booléen* Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu.
-
-<b>Quantité de segments</b> *Nombre entier* Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.\
-Plus la valeur est élevée, plus la ligne est lisse.
-
-<b>Thickness (px)</b> *Flottant* Ajuste le thickness en pixels de la visualisation de la spline dans la sortie Aperçu.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Inverser la direction</b> <i>Booléen</i> | Inverse la direction de la spline. |
+| <b>Ajouter une spline d&#39;entrée</b> <i>Booléen</i> | Ajoute la spline générée à la fin de la liste des splines connectées aux entrées de <b>spline</b>. |
+| <b>Correction Non Carrée</b> <i>Booléen</i> | Ajustez la position et le thickness des points pour conserver la forme de la spline dans des résolutions autres que carrées. Cela a également un impact sur la distribution uniforme. |
+| <b>Height</b> |  |
+| <b>Height de démarrage</b> <i>Flotter</i> | Ajuste l’height du point p1 où une valeur plus faible signifie un emplacement plus bas ou plus profond. Cela a un impact sur l&#39;height de la spline en p1. |
+| <b>Height final</b> <i>Flotter</i> | Ajuste l’height du point p2 où une valeur plus faible signifie un emplacement plus bas ou plus profond. Cela a un impact sur le thickness de la spline à p2. |
+| <b>Height de tangence automatique</b> <i>Booléen</i> | Définit automatiquement l&#39;height d&#39;interpolation linéaire des tangentes splines entre l&#39;Height Début et l&#39;Height Fin. |
+| <b>Height tangent p1</b> <i>Flottant</i> (disponible lorsque « Height de la Tangente automatique » a la valeur True) | Règle l’height de la tangente de « sortie » du point p1 où une valeur plus faible signifie un emplacement plus bas ou plus profond. Cela a un impact sur l&#39;height le long de la spline lorsqu&#39;il s&#39;éloigne de p1. |
+| <b>Height tangent p2</b> <i>Flottant</i> (disponible lorsque « Height de la Tangente automatique » a la valeur True) | Règle l’height de la tangente « entrée » du point p2 où une valeur inférieure signifie un emplacement plus bas ou plus profond. Cela a un impact sur l&#39;height le long de la spline lorsqu&#39;il s&#39;éloigne de p2. |
+| <b>Thickness</b> |  |
+| <b>Démarrer le Thickness</b> <i>Flotter</i> | Ajuste le thickness du point p1. Cela a un impact sur le thickness de la spline à p1.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| <b>Fin de Thickness</b> <i>Flotter</i> | Ajuste le thickness du point p2. Cela a un impact sur le thickness de la spline à p2.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| <b>Thickness tangent automatique</b> <i>Booléen</i> | Définit automatiquement le thickness des tangentes de spline à interpoler linéairement du Thickness de début au Thickness de fin.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| <b>Thickness tangent p1</b> <i>Flottant</i> (disponible lorsque « Thickness de Tangente automatique » a la valeur True) | Ajuste le thickness de la tangente « out » du point p1. Cela a un impact sur le thickness le long de la spline, car il s&#39;éloigne de p1.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| <b>Thickness tangent p2</b> <i>Flottant</i> (disponible lorsque « Thickness de Tangente automatique » a la valeur True) | Ajuste le thickness de la tangente « entrée » du point p2. Cela a un impact sur le thickness le long de la spline, car il s&#39;éloigne de p2.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| <b>Coordonnées Des Points</b> |  |
+| <b>p1</b> <i>Float2</i> | Définit la position du point p1 dans l’espace de texture. |
+| <b>p1 Tangente</b> <i>Float2</i> | Définit la position de la poignée de tangente « out » du point p1 dans l’espace de texture. |
+| <b>p2</b> <i>Float2</i> | Définit la position du point p2 dans l’espace de texture. |
+| <b>p2 tangente</b> <i>Float2</i> | Définit la position de la poignée de tangente « entrée » du point p2 dans l’espace de texture. |
+| <b>Aperçu</b> |  |
+| <b>Afficher les tangentes</b> <i>Booléen</i> | Affiche la tangente de sortie du point p1 et la tangente d’entrée du point p2 dans la sortie d’aperçu. |
+| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie Aperçu. Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness en pixels de la visualisation de la spline dans la sortie Aperçu. |
 
 ## Exemples
 
@@ -164,12 +101,12 @@ Plus la valeur est élevée, plus la ligne est lisse.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineCubic-Variant1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-cubic.resources/spline-cubic-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineCubic-Variant2.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-cubic.resources/spline-cubic-03.jpg "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -179,7 +116,7 @@ Plus la valeur est élevée, plus la ligne est lisse.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3](../../../../../../assets/SplineCubic-Demo.gif "Exemple de nœud 3")
+![Exemple de nœud 3](spline-cubic.resources/spline-cubic-04.gif "Exemple de nœud 3")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -26,22 +26,22 @@ Date de publication : *24 novembre 2021*
 
 ## Fonctionnalité majeure
 
-### Nouvelles fonctionnalités de graphe de modèle
+### Nouvelles fonctionnalités de graphe model
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
-De nombreuses améliorations ont été apportées au graphique du modèle afin d’étendre les capacités de modélisation :
+De nombreuses améliorations ont été apportées au graphe model pour étendre les capacités de modélisation :
 
-* <b>Nouveau workflow de particules</b>\
-  Le nouveau workflow de modélisation des particules permet de créer des nuages de points pour manipuler la géométrie. Ils peuvent être utilisés pour créer de nombreuses nouvelles formes complexes et/ou répétitives, telles que les tuiles du toit sur l’image juste au-dessus.\
-  Pour en savoir plus sur le nouveau workflow de particules, consultez les pages de documentation suivantes :
+* <b>Nouveau workflow de particule</b>\
+  Le nouveau workflow de modélisation de particule permet de créer des nuages de points pour manipuler la géométrie. Ils peuvent être utilisés pour créer de nombreuses nouvelles formes complexes et/ou répétitives, telles que les tuiles du toit sur l’image juste au-dessus.\
+  Pour en savoir plus sur le nouveau workflow de particule, consultez les pages de documentation suivantes :
 
   * Types d’éléments dans une scène
   * Particules
   * Rognage de particule
   * Particules d&#39;instances
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>Nouveaux nœuds de modélisation et de déformation</b>\
   D’autres nœuds ont été ajoutés pour créer des formes plus complexes. Cliquez sur chaque nœud pour en savoir plus :
@@ -51,15 +51,15 @@ De nombreuses améliorations ont été apportées au graphique du modèle afin d
   * Rognage de courbe
 
 * <b>Améliorations générales\
-  </b>Le workflow autour du graphique de modélisation a été amélioré avec :
+  </b>Le workflow autour du graphe de modélisation a été amélioré avec :
   * Nouvelles info-bulles sur les paramètres des nœuds pour faciliter leur apprentissage.
   * La hiérarchie du modèle 3D est désormais conservée lors de l’exportation au format FBX
   * L’affectation de matériau peut être exportée aux formats de fichier OBJ et FBX.
-  * Affichez un aperçu des nœuds intermédiaires dans la clôture en mode d&#39;incrustation.
+  * Prévisualisation des nœuds intermédiaires dans le viewport en mode d’incrustation.
 
 ### Interopérabilité améliorée
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 
@@ -71,24 +71,24 @@ Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 
 ### Divers
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 Diverses améliorations ont été apportées à la qualité de vie :
 
 * **Entrées par rapport aux entrées**\
   Les entrées de graphique définies dans Relative aux entrées héritent désormais de la taille des nœuds connectés au lieu de la taille par défaut du graphique parent. Cela facilite considérablement la gestion des différentes résolutions via des entrées de tailles différentes.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **Nouvelle fenêtre graphique**\
   La nouvelle fenêtre de graphique a été retravaillée et permet désormais de mieux voir les détails d’un modèle spécifique et de créer un graphique directement dans un package existant.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **Fermer tous les packages**\
   Une petite action qui rend moins fastidieuse la gestion de nombreux packs dans l’explorateur. Utilisez **Fichier** > **Fermer tout** pour fermer tous les packs actuellement ouverts.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **Agrandir la vue actuelle**\
   Utilisez la nouvelle icône de barre de titre **icône** ou le raccourci **MAJ+Espace** pour développer une fenêtre en plein écran. Cela peut également être utilisé sur une fenêtre flottante.
@@ -98,16 +98,16 @@ Diverses améliorations ont été apportées à la qualité de vie :
 
 ### Contenu
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour le nœud Rendu PBR :
 
 * <b>Nœuds de diffusion</b>\
   Les nouveaux nœuds de couleur de diffusion, de niveaux de gris de diffusion et de diffusion UV permettent de générer des flous de saignement doux à partir d’un masque d’entrée.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **Nœud de Rendu PBR amélioré**\
   Ce nœud a subi les modifications suivantes :

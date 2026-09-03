@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fusion ajustement matière
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
 
-## Fusion ajustement matière
-
-**Entrée :** *Filtres de matière/Fusion*
-
-**Intermédiaire**
+<b>Entrée :</b> Filtres de matériau > Fusion
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,55 +37,40 @@ Ce nœud permet de régler tous les canaux d’un matériau complet, en fonction
 
 Cette option est utile lorsque vous souhaitez ajuster quelques couches d’un matériau (comme éclaircir une diffusion et assombrir une rugosité) en fonction du même masque.
 
-## Paramètres
-
-### Entrées
-
-* **Masque d&#39;identifiant de couleur** : *Entrée couleur*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-* **Masque De Niveaux De Gris** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-### Paramètres
-
-* **Canaux**\
-  Active et désactive les couches de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/brillance au lieu de cartes de métal/rugosité.\
-  Cela active et désactive également l’apparence des groupes pertinents du canal.
-* **Diffus**\
-  Effectue des opérations de réglage sur la couche diffuse, dans les zones définies par le masque.
-* **Couleur de base**\
-  Effectue des opérations de réglage sur la couche de couleur de base, dans les zones définies par le masque.
-* **Normal**
-  * **Intensité** : *0,0 - 1,0* Atténuation de l&#39;intensité normale
-* **Specular**\
-  Effectue des opérations de réglage sur la couche de Specular, dans les zones définies par le masque.
-* **Émissif**\
-  Effectue des opérations de réglage sur la couche émissive, dans les zones définies par le masque.
-* **Lustre**\
-  Effectue des opérations de réglage sur la couche Lustre, dans les zones définies par le masque.
-* **Rugosité**\
-  Effectue des opérations de réglage sur la couche de rugosité, dans les zones définies par le masque.
-* **Métallique**\
-  Effectue des opérations de réglage sur la couche métallique, dans les zones définies par le masque.
-* **Specular level**\
-  Effectue des opérations de réglage sur la couche de Specular level, dans les zones définies par le masque.
-* **Occlusion ambiante**\
-  Effectue des opérations de réglage sur la couche Occlusion ambiante, dans les zones définies par le masque.
-* **Height**\
-  Effectue des opérations de réglage sur la couche Height, dans les zones définies par le masque.
-* **Opacité**\
-  Effectue des opérations de réglage sur la couche d’opacité, dans les zones définies par le masque.
-* **Masque d&#39;identifiant de couleur** : *Faux/Vrai* Définissez pour utiliser Masque d&#39;identifiant de couleur au lieu du masque en niveaux de gris.
-* **Tolérance** :*0.01 - 1.0* Si l’option Masque d&#39;identifiant de couleur est activée, elle détermine l’étendue de la couleur de sélection de l’ID de couleur.
-* **Couleur** : *(Valeur de couleur)*Définit la couleur à choisir dans le mappage d&#39;ID de couleur et le masque.
-* **Remplissage** : *0.0 - 1.0* détermine le contraste de fusion/les transitions du masquage Color ID.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Masque d&#39;identifiant de couleur</b> <i>Entrée couleur</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+| <b>Masque de niveaux de gris</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Canaux</b> | Active et désactive les canaux matériau dans ce groupe, par exemple lors de l&#39;utilisation de cartes de Specular/Brillance au lieu de Métallique/Rugosité.<br><br>Cela active et désactive également l&#39;apparence des groupes pertinents du canal. |
+| <b>Diffus</b> | Effectue des opérations de réglage sur la couche diffuse, dans les zones définies par le masque. |
+| <b>Couleur de base</b> | Effectue des opérations de réglage sur la couche de couleur de base, dans les zones définies par le masque. |
+| <b>Normal</b> |  |
+| <b>Intensité</b> <i>0.0 - 1.0</i> | Atténue l’intensité normale |
+| <b>Specular</b> | Effectue des opérations de réglage sur la couche de Specular, dans les zones définies par le masque. |
+| <b>Émissif</b> | Effectue des opérations de réglage sur la couche émissive, dans les zones définies par le masque. |
+| <b>Lustre</b> | Effectue des opérations de réglage sur la couche de Brillance, dans les zones définies par le masque. |
+| <b>Rugosité</b> | Effectue des opérations de réglage sur la couche de Rugosité, dans les zones définies par le masque. |
+| <b>Métallique</b> | Effectue des opérations de réglage sur la couche Métallique, dans les zones définies par le masque. |
+| <b>Specular level</b> | Effectue des opérations de réglage sur la couche de Specular level, dans les zones définies par le masque. |
+| <b>Occlusion ambiante</b> | Effectue des opérations de réglage sur la couche Ambient occlusion, dans les zones définies par le masque. |
+| <b>Height</b> | Effectue des opérations de réglage sur la couche Height, dans les zones définies par le masque. |
+| <b>Opacité</b> | Effectue des opérations de réglage sur la couche d’opacité, dans les zones définies par le masque. |
+| <b>Masque d&#39;identifiant de couleur</b> <i>Faux/Vrai</i> | Définissez pour utiliser le Masque d&#39;identifiant de couleur au lieu du masque en niveaux de gris. |
+| <b>Flou</b> <i>0.01 - 1.0</i> | Si l’option Masque d&#39;identifiant de couleur est activée, elle détermine l’étendue de la couleur de sélection de l’ID couleur. |
+| <b>Couleur</b> <i>(valeur de couleur)</i> | Définit la couleur à utiliser dans le Map id de couleurs et le masque. |
+| <b>Remplissage</b> <i>0.0 - 1.0</i> | Détermine le contraste de fusion/les transitions du masquage Color ID. |

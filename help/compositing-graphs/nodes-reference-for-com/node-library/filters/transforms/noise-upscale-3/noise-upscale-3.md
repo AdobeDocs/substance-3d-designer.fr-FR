@@ -10,30 +10,26 @@ helpx_tags: ""
 title: Amélioration du bruit 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '132'
 ht-degree: 2%
 
 ---
 
 
-# Amélioration du bruit 3
+# Bruit Upscale 3
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-3.resources/noise-upscale-3-01.png){width="128px"}
 
-## Amélioration du bruit 3
-
-**Entrée :** *Filtres/Transformations*
-
-**Simple**
+<b>Entrées :</b> Filtres > Transformes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,23 +39,25 @@ Ce nœud est principalement destiné à l’optimisation des graphes lents qui u
 
 Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) et [Amélioration du bruit 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md), qui, dans la plupart des cas, ont tendance à être légèrement meilleurs pour masquer les carreaux.
 
-## Paramètres
-
-### Entrées
-
-* **Niveaux De Gris** : *Entrée En Niveaux De Gris*\
-  Image Bruit cible.
-* **Masque** : *Entrée En Niveaux De Gris*\
-  Emplacement de masque utilisé pour masquer les effets du nœud.
-
-*Aucun paramètre.*
-
-## Exemples d’images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise3ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entrées
+
+|  |  |
+|:---|:---|
+| <b>Niveaux de gris</b> <i>Entrée en niveaux de gris</i> | Image du Bruit cible. |
+| <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
+
+## Exemples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-3.resources/noise-upscale-3-02.png" />
+        </td>
+    </tr>
 </table>

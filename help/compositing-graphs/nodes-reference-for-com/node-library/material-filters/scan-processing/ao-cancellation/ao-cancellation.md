@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Annulation AO pour supprimer l'occlusion ambiante des matériaux numérisés pour un traitement de texture propre.
+description: Utilisez le nœud d'annulation AO pour supprimer l'ambient occlusion des matériaux numérisés pour un traitement de texture propre.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Annulation d’AO
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancellation-01.png){width="128px"}
 
-## Annulation d’AO
-
-**Entrée :** *Filtres de matière/Traitement de la numérisation*
-
-**Simple**
+<b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Ce nœud tente de supprimer toutes les informations d&#39;éclairage de l&#39;Occlusion ambiante de votre mappage d&#39;Albédo (couleur de base), en fonction d&#39;une entrée de mappage AO distincte. Il peut être utilisé pour s&#39;assurer que les informations de votre Albédo sont correctes et généralement dépourvues d&#39;informations d&#39;éclairage (fort).
+Ce nœud tente de supprimer toutes les informations d&#39;éclairage d&#39;Ambient occlusion de votre mappage d&#39;Albédo (de Base color), en fonction d&#39;une entrée de mappage AO distincte. Il peut être utilisé pour s&#39;assurer que les informations de votre Albédo sont correctes et généralement dépourvues d&#39;informations d&#39;éclairage (fort).
 
-Un nœud utile pour lorsque vous avez une carte AO d&#39;un maillage numérisé, ou même une carte AO générée à partir d&#39;informations d&#39;Height ou Normal.
-
-## Paramètres
-
-* **Annulation de l&#39;AO** : *0.0 - 1.0* Intensité avec laquelle supprimer les informations d&#39;éclairage.
-* **Saturation AO** : *0.0 - 1.0*(Désaturation) pour les zones où l’éclairage est supprimé. Cela permet de corriger toute perte de couleur dans les zones plus sombres.
-
-## Exemples d’images
-
-|  |
-| --- |
-| Aucune image n&#39;est jointe à cette page. |
+Un nœud utile pour lorsque vous avez un mappage AO baké à partir d&#39;un maillage numérisé, ou même un mappage AO généré à partir d&#39;informations d&#39;Height ou Normal.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Paramètres
+
+|  |  |
+|:---|:---|
+| <b>Annulation de l&#39;AO</b> <i>0.0 - 1.0</i> | Force de suppression des informations d’éclairage. |
+| <b>Saturation AO</b> <i>0.0 - 1.0</i> | Compensation de la saturation pour les zones où l’éclairage est supprimé. Cela permet de corriger toute perte de couleur dans les zones plus sombres. |
