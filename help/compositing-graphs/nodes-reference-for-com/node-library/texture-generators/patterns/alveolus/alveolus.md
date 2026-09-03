@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Alvéole pour générer des motifs cellulaires en nid d’abeille afin de créer des effets de texture organique et géométrique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alvéole
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alveolus.resources/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-01.png){width="128px"}
 
-<b>Entrée :</b> Générateurs De Textures > Motifs
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Motif de sphère floue pouvant générer des carreaux hexagonaux.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="alveolus.resources/alveolus.gif" />
+            <img src="alveolus.resources/alveolus-02.gif" />
         </td>
     </tr>
 </table>

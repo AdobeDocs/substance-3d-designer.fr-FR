@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Non Uniform Directional Warp pour appliquer une déformation directionnelle non uniforme afin de créer divers effets de distorsion.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-directional-warp.resources/non-uniform-directional-warp-color.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-01.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-02.png)
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -59,7 +59,7 @@ Elle diffère de la [déformation multidirectionnelle](../../../../../../composi
 |:---|:---|
 | <b>Intensité</b> <i>0.0 - 20.0</i> | Définit l’intensité de l’effet de déformation et la distance à laquelle les pixels doivent être sortis. |
 | <b>Angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’angle ou la direction d’application de l’effet de déformation. |
-| <b>Multiplicateur d&#39;entrée d&#39;angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’effet de la courbe d’entrée d’angle de déformation. La texture d’entrée Angle de déformation sera ensuite utilisée pour effectuer une interpolation de 0 à la valeur de ce paramètre. |
+| <b>Multiplicateur d&#39;entrée d&#39;angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’effet de la courbe d’entrée d’angle de déformation. La Map d&#39;entrée Angle de déformation sera ensuite utilisée pour interpoler de 0 à la valeur de ce paramètre. |
 | <b>Mode de piste</b> <i>Min, Max, Moyenne</i> | Définit la façon dont les traînées sont fusionnées. |
 | <b>Longueur de piste</b> <i>0.0 - 1.0</i> | Définit la longueur des pistes. |
 | <b>Atténuation de piste</b> <i>0.0 - 1.0</i> | Définit l’atténuation de chaque piste |

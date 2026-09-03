@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mappeur de flux de spline pour créer des motifs de texture fluide le long des tracés de spline pour des effets organiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Flow Mapper
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-flow-mapper.resources/spline-flow-mapper-icon.png "Icône de nœud")
+![Icône de nœud](spline-flow-mapper.resources/spline-flow-mapper-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -94,11 +94,11 @@ Cela vous permet d&#39;utiliser des splines pour contrôler la direction, la tra
 <table>
   <tr>
     <td>
-      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
+      <img src="spline-flow-mapper.resources/spline-flow-mapper-02.jpg" alt="SplineFlowMapper-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
+      <img src="spline-flow-mapper.resources/spline-flow-mapper-03.jpg" alt="SplineFlowMapper-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -107,7 +107,7 @@ Cela vous permet d&#39;utiliser des splines pour contrôler la direction, la tra
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-flow-mapper.resources/SplineFlowMapper-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-flow-mapper.resources/spline-flow-mapper-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>

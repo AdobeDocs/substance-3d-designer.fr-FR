@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Déformation de spline pour déformer des textures le long de tracés de spline afin de créer des motifs courbes et organiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation de la spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-warp.resources/spline-warp-icon.png "Icône de nœud")
+![Icône de nœud](spline-warp.resources/spline-warp-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -47,7 +47,7 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 
 |  |  |
 |:---|:---|
-| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d&#39;entrée sous forme d&#39;image en niveaux de gris. |
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> - signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
 | <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
@@ -97,11 +97,11 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-warp.resources/SplineWarp-Demo.gif "Exemple de nœud 1")
+![Exemple de nœud 1](spline-warp.resources/spline-warp-06.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
 description: Utilisez le noeud de filtrage Ombres pour générer des effets d’ombre à partir de textures de saisie afin d’ajouter de la profondeur et du réalisme aux matériaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tons foncés (nœud de filtre)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 8%
@@ -18,13 +18,13 @@ ht-degree: 8%
 ---
 
 
-# Tons foncés (nœud de filtre)
+# Tons foncés (Noeud de filtrage)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -57,7 +57,7 @@ Peut être utile si vous êtes juste après l&#39;ombre et que vous ne souhaitez
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadow-ex.png" />
+            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
         </td>
     </tr>
 </table>

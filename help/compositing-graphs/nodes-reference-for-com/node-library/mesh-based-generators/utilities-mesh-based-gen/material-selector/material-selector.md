@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Sélecteur de matière pour sélectionner des matières en fonction des données de maillage afin de créer des effets de texture multi-matières.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sélecteur de matière
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-selector.resources/material-selector.png){width="128px"}
+![](material-selector.resources/material-selector-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
@@ -59,7 +59,7 @@ C&#39;est pratique si vous ne souhaitez pas utiliser [Fusion de plusieurs matér
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-selector.resources/matselector-ex.png" />
+            <img src="material-selector.resources/material-selector-02.png" />
         </td>
     </tr>
 </table>

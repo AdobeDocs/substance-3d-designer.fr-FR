@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirt pour générer des masques d'accumulation de dirt en fonction de la courbure, de la position et de l'occlusion du maillage.
+description: Utilisez le nœud Dirt pour générer des masques d’accumulation de dirts en fonction de la courbure, de la position et de l’occlusion du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Saleté
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dirt.resources/dirt.png){width="128px"}
+![](dirt.resources/dirt-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque représente les dirts dans les angles et bords occultés et enfoncés, en fonction de l&#39;AO et de la courbure bakés.
+Ce masque représente les dirts des bords et des coins occultés et enfoncés, en fonction de l&#39;AO et de la courbure cuits.
 
 </td>
 </tr>
@@ -74,7 +74,7 @@ Ce masque représente les dirts dans les angles et bords occultés et enfoncés,
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dirt.resources/dirt-ex.gif" />
+            <img src="dirt.resources/dirt-02.gif" />
         </td>
     </tr>
 </table>

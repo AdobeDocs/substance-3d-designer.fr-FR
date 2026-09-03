@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: Les fonctions de hachage des graphiques de fonctions permettent de générer des valeurs aléatoires déterministes basées sur les coordonnées d’entrée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fonctions de hachage
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de hachage : icon](hash-functions.resources/hash-icon.png "Nœud de hachage : icon"){width="200px"}
+![Nœud de hachage : icon](hash-functions.resources/hash-functions-01.png "Nœud de hachage : icon"){width="200px"}
 
 <b>Fonctions In:</b> > Aléatoire
 
@@ -82,12 +82,12 @@ Versions disponibles, avec leur type d’entrée et de sortie :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de hachage 14](hash-functions.resources/hash14-example.png "Exemple de hachage 14"){zoomable="yes"}
+![Exemple de hachage 14](hash-functions.resources/hash-functions-02.png "Exemple de hachage 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de hachage 32](hash-functions.resources/hash32-example.png "Exemple de hachage 32"){zoomable="yes"}
+![Exemple de hachage 32](hash-functions.resources/hash-functions-03.png "Exemple de hachage 32"){zoomable="yes"}
 
 </td>
 </tr>

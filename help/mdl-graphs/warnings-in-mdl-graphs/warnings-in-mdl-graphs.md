@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avertissements dans les graphiques MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Aucun nœud de sortie n’est défini pour le graphique.
 Sélectionnez un nœud dans le graphe qui génère une valeur dont le type correspond au type attendu pour cette fonction, le cas échéant, puis cliquez sur RMB et sélectionnez l&#39;option <b>Définir comme racine</b> dans le menu contextuel ou double-cliquez sur LMB sur le nœud.\
 Le nœud de sortie d&#39;un Graphe Substance model est coloré en *orange*.
 
-![&#39;Aucune solution de nœud de sortie définie&#39;](warnings-in-mdl-graphs.resources/warnings-model-output.gif "&#39;Aucune solution de nœud de sortie définie&#39;")
+![&#39;Aucune solution de nœud de sortie définie&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "&#39;Aucune solution de nœud de sortie définie&#39;")
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) Au moins une valeur d&#39;entrée a été rejetée
 
@@ -47,7 +47,7 @@ La valeur fournie pour un paramètre n&#39;entraîne pas un calcul valide du nœ
 
 Ajustez la valeur afin qu’elle soit logique pour le paramètre cible.
 
-![&#39;Au moins une valeur d&#39;entrée a été rejetée&#39; solution](warnings-in-mdl-graphs.resources/warnings-model-rejected-value.gif "&#39;Au moins une valeur d&#39;entrée a été rejetée&#39; solution")
+![&#39;Au moins une valeur d&#39;entrée a été rejetée&#39; solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "&#39;Au moins une valeur d&#39;entrée a été rejetée&#39; solution")
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) Aucune valeur d&#39;entrée
 
@@ -59,7 +59,7 @@ Certains paramètres de nœud ne peuvent pas revenir à une valeur par défaut l
 
 Connectez les entrées de nœud au connecteur de sortie d&#39;un autre nœud de type correspondant.
 
-![&#39;Aucune valeur d&#39;entrée&#39; solution](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;Aucune valeur d&#39;entrée&#39; solution")
+![&#39;Aucune valeur d&#39;entrée&#39; solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;Aucune valeur d&#39;entrée&#39; solution")
 
 ### Le nœud ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) n&#39;a pas été calculé
 
@@ -69,7 +69,7 @@ Les informations fournies au nœud sont incomplètes ou non valides, le nœud n&
 
 Montez en amont dans le graphique et recherchez les avertissements déclenchés par des problèmes qui empêchent les nœuds de fournir une sortie valide.
 
-![&#39;Le nœud n&#39;était pas calculé&#39; solution](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;Le nœud n&#39;était pas calculé&#39; solution")
+![&#39;Le nœud n&#39;était pas calculé&#39; solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;Le nœud n&#39;était pas calculé&#39; solution")
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) Les données référencées comportent des avertissements
 
@@ -85,7 +85,7 @@ Dans le panneau Explorateur, recherchez la ressource référencée et résolvez 
 * Pour les graphiques, reportez-vous aux autres éléments de cette page
 * Pour tout autre type de ressource, reportez-vous à la page Avertissements des dépendances
 
-![&#39;Les données référencées ont la solution de certains avertissements](warnings-in-mdl-graphs.resources/warnings-model-referenced-data.gif "&#39;Les données référencées ont la solution de certains avertissements")
+![&#39;Les données référencées ont la solution de certains avertissements](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "&#39;Les données référencées ont la solution de certains avertissements")
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) ressource référencée introuvable
 
@@ -106,7 +106,7 @@ Pour les nœuds de ressource Scène
 Recherchez les ressources référencées dans le panneau [Explorateur](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) et vérifiez qu&#39;elles existent à l&#39;emplacement enregistré dans leur attribut <b>Chemin d&#39;accès</b>.\
 Si ce n&#39;est pas le cas, cliquez sur *RMB* sur l&#39;élément de ressource dans l&#39;Explorateur et sélectionnez l&#39;option <b>Déplacer...</b> dans le menu contextuel pour définir un nouveau fichier cible valide pour cette ressource.
 
-![&#39;Ressource référencée introuvable&#39; solution](warnings-in-mdl-graphs.resources/warnings-model-referenced-resource.gif "&#39;Ressource référencée introuvable&#39; solution")
+![&#39;Ressource référencée introuvable&#39; solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "&#39;Ressource référencée introuvable&#39; solution")
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) La plage souple ne contient pas la valeur
 
@@ -120,11 +120,11 @@ Ajustez la valeur par défaut ou la plage adoucie afin d’inclure la première 
 >
 > Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour inclure la valeur par défaut. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
-La plage souple ![&#x200B; ne contient pas la valeur « solution &#x200B;](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif " » La plage souple ne contient pas la valeur « solution ") »
+La plage souple ![ ne contient pas la valeur « solution ](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif " » La plage souple ne contient pas la valeur « solution ") »
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) La plage souple est hors de la plage fixe
 
-La plage paramétrée et le paramètre exposé ne sont pas entièrement inclus dans la plage fixe définie pour ce paramètre.
+La plage paramétrée et le paramètre exposé ne sont pas entièrement inclus dans la plage paramétrée définie pour ce paramètre.
 
 <b> ![(tick)](warnings-in-mdl-graphs.resources/check.svg) Solution</b>
 
@@ -132,9 +132,9 @@ Ajustez la plage souple ou la plage stricte de sorte que la première soit enti�
 
 >[!NOTE]
 >
-> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour qu&#39;elle soit entièrement incluse dans la plage dure. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
+> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour qu&#39;elle soit entièrement incluse dans la plage dure. Seule la modification directe des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
-![&#39;La plage souple est hors de la plage dure&#39; solution](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;La plage souple est hors de la plage dure&#39; solution")
+![&#39;La plage souple est hors de la plage dure&#39; solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;La plage souple est hors de la plage dure&#39; solution")
 
 ### ![(erreur)](warnings-in-mdl-graphs.resources/error.svg) La valeur est hors limites
 
@@ -146,6 +146,6 @@ Ajustez la valeur par défaut ou la plage fixe de manière à inclure la premiè
 
 >[!NOTE]
 >
-> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la valeur par défaut à inclure dans la plage fixe. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
+> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la valeur par défaut à inclure dans la plage fixe. Seule la modification directe des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
-![&#39;La valeur est hors plage&#39; solution](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;La valeur est hors plage&#39; solution")
+![&#39;La valeur est hors plage&#39; solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;La valeur est hors plage&#39; solution")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dissociation normale pour séparer les données de mappage normales combinées en composants X, Y et Z individuels.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dissociation normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de dissociation normale](normal-uncombine.resources/NormalUncombine.png "Icône de dissociation normale"){width="200px"}
+![Icône de dissociation normale](normal-uncombine.resources/normal-uncombine-01.png "Icône de dissociation normale"){width="200px"}
 
 <b>Entrée :</b> Filtres > Mappage normal
 
@@ -70,44 +70,44 @@ Supprime d&#39;une carte de normales les détails de surface décrits par une ca
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="normal-uncombine.resources/normal-uncombine-02.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="normal-uncombine.resources/normal-uncombine-03.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 2](normal-uncombine.resources/normal_uncombine_example_4.png "Désassociation normale : Exemple 2"){zoomable="yes"}
+![Désassociation normale : Exemple 2](normal-uncombine.resources/normal-uncombine-04.png "Désassociation normale : Exemple 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="normal-uncombine.resources/normal-uncombine-05.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="normal-uncombine.resources/normal-uncombine-06.jpg" alt="normal_uncombine_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 4](normal-uncombine.resources/normal_uncombine_example_6.png "Désassociation normale : Exemple 4"){zoomable="yes"}
+![Désassociation normale : Exemple 4](normal-uncombine.resources/normal-uncombine-07.png "Désassociation normale : Exemple 4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="normal-uncombine.resources/normal-uncombine-08.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="normal-uncombine.resources/normal-uncombine-09.jpg" alt="normal_uncombine_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 6](normal-uncombine.resources/normal_uncombine_example_5.png "Désassociation normale : Exemple 6"){zoomable="yes"}
+![Désassociation normale : Exemple 6](normal-uncombine.resources/normal-uncombine-10.png "Désassociation normale : Exemple 6"){zoomable="yes"}

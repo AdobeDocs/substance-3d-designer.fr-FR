@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Bitmap en Matériau de lumière pour convertir rapidement des images bitmap en matériaux avec un éclairage optimisé pour des workflows rapides.
+description: Utilisez le nœud Bitmap en matériau clair pour convertir rapidement des images bitmap en matériaux avec un éclairage optimisé pour des workflows rapides.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click > Bitmap to Material Light
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap en lumière de matériau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
 <b>Entrée :</b> Filtres de matériau > En un clic
 
@@ -33,9 +33,9 @@ ht-degree: 11%
 
 ## Description
 
-Ce nœud convertit une seule entrée Diffuse/Couleur de base en un matériau complet. En tant que version simple et « légère » du Matériau Bitmap2 d’[Allegorithmic à part entière, qui peut être acheté séparément](https://www.allegorithmic.com/products/bitmap2material), elle vous donne un aperçu de la version complète. Cela peut bien fonctionner dans les cas les plus simples.
+Ce nœud convertit une seule entrée Diffuse/Basecolor en un matériau complet. En tant que version simple et « légère » de Bitmap2Material entièrement développé par [Allegorithmic, qui peut être acheté séparément](https://www.allegorithmic.com/products/bitmap2material), elle vous donne un aperçu de la version complète. Cela peut bien fonctionner dans les cas les plus simples.
 
-Bien qu&#39;il ne soit pas garanti que les matériaux soient parfaits et corrects pour le PBR, c&#39;est un bon moyen rapide de commencer si vous n&#39;avez qu&#39;une seule image et que vous voulez un matériau complet.
+Bien qu’elle ne garantisse pas l’obtention de matériaux parfaits et corrects pour le PBR, c’est un bon moyen rapide de commencer si vous n’avez qu’une seule image et que vous souhaitez un matériau complet.
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Bien qu&#39;il ne soit pas garanti que les matériaux soient parfaits et correct
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Active et désactive les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
+| <b>Canaux</b> | Active et désactive les couches de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
 | <b>Global</b> |  |
 | <b>Balance des Profondeurs</b> <i>-1.0 - 1.0</i> | Définit un biais/décalage pour la carte de hauteur. |
 | <b>Diffus</b> |  |

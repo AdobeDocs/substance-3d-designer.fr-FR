@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud fractal de Voronoï pour générer des motifs fractaux de Voronoï pour créer des textures cellulaires organiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoifractal.png){width="200px"}
+![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -55,12 +55,12 @@ Ce nœud peut être testé avec [Cube GBuffers](../../../../../../compositing-gr
 | <b>Échelle</b> <i>Flotter</i> | Contrôle l&#39;échelle du bruit fractal de Voronoi.<br><br>*Remarque* : lorsque la **Répétition** est activée sur *n&#39;importe quel axe*, l&#39;ajustement de l&#39;échelle est *échelonné*. C&#39;est ce qui est attendu. |
 | <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit fractal de Voronoï sur les axes **X**, **Y** et **Z**. Les valeurs non uniformes entraînent un effet de *étiré ou d&#39;écrasement*.<br><br>*Remarque* : lorsque la **Répétition** est activée sur *n&#39;importe quel axe*, le réglage de la taille est *par paliers*. C&#39;est ce qui est attendu. |
 | <b>Décalage</b> <i>Float3</i> | Applique un décalage à la *position* du bruit fractal de Voronoï sur les axes **X**, **Y** et **Z**. |
-| <b>Désordre</b> <i>Float3</i> | Intensité du *décalage aléatoire* appliqué à chaque point du bruit dans les axes **X**, **Y** et **Z**. |
+| <b>Désordre</b> <i>Float3</i> | Intensité du *décalage aléatoire* appliqué à chaque point du bruit sur les axes **X**, **Y** et **Z**. |
 | <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un *effet de déformation* appliqué sur le bruit fractal de Voronoi. |
 | <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du *motif de déformation* utilisé dans l&#39;effet de déformation contrôlé par l&#39;**intensité de la Distorsion**. |
 | <b>Niveau Min</b> <i>Nombre entier</i> | *niveau minimum de répétition* utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif *plus riche* avec une variation sur davantage de plages de fréquences. |
 | <b>Niveau Max</b> <i>Nombre entier</i> | *niveau de répétition* maximum utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif *plus riche* avec une variation sur davantage de plages de fréquences. |
-| <b>Rugosité</b> <i>Flotter</i> | Contrôle l&#39;*équilibre* entre les *niveaux de répétition* bas et élevés dans le motif fractal.<br><br>*Remarque* : une valeur de **0** entraîne une sortie *non alignée* avec d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu.<br><br>*Remarque 2* : ce paramètre est disponible uniquement lorsque le paramètre **Mode de Fusion** est défini sur *Ajouter*. |
+| <b>Rugosité</b> <i>Flotter</i> | Contrôle l&#39;*équilibre* entre les *niveaux de répétition* bas et élevés dans le motif fractal.<br><br>*Remarque* : une valeur de **0** entraîne une sortie *non alignée* avec d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu.<br><br>*Remarque 2* : ce paramètre est disponible uniquement lorsque le paramètre **Mode de fusion** est défini sur *Ajouter*. |
 | <b>Lacunarité</b> <i>Flotter</i> | Contrôle la façon dont le motif fractal appliqué *remplit l&#39;espace*. Une valeur *plus élevée* entraîne *moins d&#39;espaces* dans le motif et un bruit *plus dense*. |
 | <b>Opacité globale</b> <i>Flotter</i> | Contrôle la *plage* des valeurs fractales de bruit de Perlin à partir de 0. |
 | <b>Courbe Arrondie</b> <i>Flotter</i> | Arrondit la *pente* autour de chaque point du bruit pour le rendre *convexe*.<br><br>*Remarque* : ce paramètre n&#39;est pas disponible lorsque le paramètre **Style** est défini sur *Edge*. |
@@ -72,35 +72,35 @@ Ce nœud peut être testé avec [Cube GBuffers](../../../../../../compositing-gr
 | <b>Thickness Edge</b> <i>Flotter</i> | Ajuste le thickness des contours détectés entre les cellules du bruit fractal de Voronoï. Les arêtes sont détectées dans les axes X, Y et Z. Certaines épaisseurs peuvent donc augmenter plus rapidement que d&#39;autres en fonction de la *profondeur* des cellules.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Arête*. |
 | <b>Mode générateur de couleurs aléatoire</b> <i>Nombre entier</i> | Définit la méthode d&#39;*acquisition* de la valeur de départ aléatoire pour le choix de couleur par cellule :<br><br>-*Valeur de départ aléatoire globale* : utilisez la valeur de départ *héritée* par le nœud<br>-*Valeur de départ manuelle* : utilisez une valeur de départ *discrète*<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Couleur aléatoire*. |
 | <b>Générateur aléatoire de couleurs</b> <i>Nombre entier</i> | Valeur de départ aléatoire discrète qui doit être utilisée pour le choix de couleur par cellule.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Style** est défini sur *Couleur aléatoire* et le paramètre **Mode de valeur de départ aléatoire** sur *Valeur de départ manuelle*. |
-| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit fractal de Voronoi de sorte que son motif résultant *se répète* sur les axes X, Y et Z. |
+| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit fractal de Voronoï de sorte que son motif résultant *se répète* dans les axes X, Y et Z. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
         </td>
     </tr>
 </table>

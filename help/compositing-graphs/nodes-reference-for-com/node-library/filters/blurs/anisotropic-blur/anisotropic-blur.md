@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flou anisotrope pour appliquer des effets de flou directionnel afin de créer un flou directionnel et des traînées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou anisotrope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](anisotropic-blur.resources/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-01.png){width="128px"}
 
-![](anisotropic-blur.resources/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-02.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -59,7 +59,7 @@ Important : assurez-vous d’utiliser la version appropriée pour vos commentair
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="anisotropic-blur.resources/aniso-blur-example.gif" />
+            <img src="anisotropic-blur.resources/anisotropic-blur-03.gif" />
         </td>
     </tr>
 </table>

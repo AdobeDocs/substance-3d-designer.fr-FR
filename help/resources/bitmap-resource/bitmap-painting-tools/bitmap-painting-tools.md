@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Utilisez les outils de peinture bitmap de Substance 3D Designer pour peindre directement sur des ressources bitmap à des fins d’édition de texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outils de peinture bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page décrit les outils de peinture disponibles dans le panneau [Vue 2D](../../../interface/2d-view/2d-view.md) pour les bitmaps compatibles.
 
-![Outils de peinture bitmap en vue 2D](bitmap-painting-tools.resources/2dview-paintingtools-main_1.png "Outils de peinture bitmap en vue 2D"){width="512px"}
+![Outils de peinture bitmap en vue 2D](bitmap-painting-tools.resources/bitmap-painting-tools-01.png "Outils de peinture bitmap en vue 2D"){width="512px"}
 
 ## Vue d’ensemble
 
@@ -42,7 +42,7 @@ Les modifications peuvent être *annulées individuellement* et toutes les autre
 > 
 > Les utilisateurs de tablettes doivent appliquer les paramètres décrits dans la page suivante pour une expérience optimale : [Configuration des stylos et des tablettes](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![Boîte de dialogue Nouveau bitmap](bitmap-painting-tools.resources/2dview-paintingtools-new-bitmap.png "Boîte de dialogue Nouveau bitmap"){width="512px"}
+![Boîte de dialogue Nouveau bitmap](bitmap-painting-tools.resources/bitmap-painting-tools-02.png "Boîte de dialogue Nouveau bitmap"){width="512px"}
 
 ## Activation des outils de peinture
 
@@ -77,15 +77,15 @@ Deux barres d&#39;outils s&#39;affichent lorsque les outils de peinture sont act
 
 Les outils de peinture se trouvent dans la **barre d&#39;outils de sélection d&#39;outils**, qui est placée par défaut *à gauche* du panneau [Vue 2D](../../../interface/2d-view/2d-view.md). Les raccourcis clavier vous permettent d’accéder rapidement à ces outils et sont indiqués ci-dessous entre parenthèses après le nom de l’outil/de la fonction :
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-secondary.png) <b>Sélection de couleurs</b> <b>vignettes :</b> permet de définir une couleur *primaire* et *secondaire*. Cliquez sur l&#39;une de ces vignettes pour afficher la fenêtre <b>Éditeur de couleurs</b> et définir une couleur. Les outils utiliseront la couleur *primaire*. Les couleurs primaire et secondaire peuvent être *permutées* (<b>X</b>) à tout moment
+![](bitmap-painting-tools.resources/bitmap-painting-tools-03.png)![](bitmap-painting-tools.resources/bitmap-painting-tools-04.png) <b>Sélection de couleurs</b> <b>vignettes :</b> permet de définir une couleur *primaire* et *secondaire*. Cliquez sur l&#39;une de ces vignettes pour afficher la fenêtre <b>Éditeur de couleurs</b> et définir une couleur. Les outils utiliseront la couleur *primaire*. Les couleurs primaire et secondaire peuvent être *permutées* (<b>X</b>) à tout moment
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush.png) <b>Outil Pinceau (B) :</b> applique la couleur *primaire* à l&#39;emplacement du curseur, lorsque l&#39;utilisateur appuie sur la pointe du stylet ou le bouton <b>LMB</b>, à l&#39;aide des options définies dans la barre d&#39;outils Options d&#39;outil
+![](bitmap-painting-tools.resources/bitmap-painting-tools-05.png) <b>Outil Pinceau (B) :</b> applique la couleur *primaire* à l&#39;emplacement du curseur, lorsque l&#39;utilisateur appuie sur la pointe du stylet ou le bouton <b>LMB</b>, à l&#39;aide des options définies dans la barre d&#39;outils Options d&#39;outil
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-clone.png) <b>Outil Tampon (T) :</b> vous permet de tamponner une partie de l&#39;image sur une autre. Vous pouvez définir la *source* qui doit être tamponnée en maintenant la touche <b>Alt</b> enfoncée et en cliquant sur <b>LMB</b>. Cette zone de l&#39;image sera ensuite tamponnée sur la zone *cible* de l&#39;image à l&#39;emplacement du curseur, lorsque vous appuyez sur la pointe du stylet ou le bouton <b>LMB</b>, à l&#39;aide des options définies dans la barre d&#39;outils Options d&#39;outil. Veuillez noter que la source *suivra* les mouvements de la cible et que la taille de la zone *source* *correspondra* à la taille du *pinceau*
+![](bitmap-painting-tools.resources/bitmap-painting-tools-06.png) <b>Outil Tampon (T) :</b> vous permet de tamponner une partie de l&#39;image sur une autre. Vous pouvez définir la *source* qui doit être tamponnée en maintenant la touche <b>Alt</b> enfoncée et en cliquant sur <b>LMB</b>. Cette zone de l&#39;image sera ensuite tamponnée sur la zone *cible* de l&#39;image à l&#39;emplacement du curseur, lorsque vous appuyez sur la pointe du stylet ou le bouton <b>LMB</b>, à l&#39;aide des options définies dans la barre d&#39;outils Options d&#39;outil. Veuillez noter que la source *suivra* les mouvements de la cible et que la taille de la zone *source* *correspondra* à la taille du *pinceau*
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-clone-alignment.png) <b>Activer l&#39;alignement (option de l&#39;outil Tampon) :</b> vous permet de définir si la source doit *rester en place* lorsqu&#39;un nouveau tampon commence, ou si elle doit *se déplacer par rapport au nouvel emplacement du tampon*
+![](bitmap-painting-tools.resources/bitmap-painting-tools-07.png) <b>Activer l&#39;alignement (option de l&#39;outil Tampon) :</b> vous permet de définir si la source doit *rester en place* lorsqu&#39;un nouveau tampon commence, ou si elle doit *se déplacer par rapport au nouvel emplacement du tampon*
 
-Gomme <b>![](bitmap-painting-tools.resources/2dview-paintingtools-icon-eraser.png) (E) :</b> remplace la couleur actuelle de l&#39;image par la valeur (0, 0, 0, 0) à l&#39;emplacement du curseur, lorsque vous appuyez sur la pointe du stylet ou le bouton <b>LMB</b>, à l&#39;aide des options définies dans la barre d&#39;outils Options d&#39;outil. Assurez-vous que l&#39;[affichage de la transparence](../../../interface/2d-view/2d-view.md) est activé pour suivre l&#39;impact de cet outil sur le canal <b>Alpha</b>.
+Gomme <b>![](bitmap-painting-tools.resources/bitmap-painting-tools-08.png) (E) :</b> remplace la couleur actuelle de l&#39;image par la valeur (0, 0, 0, 0) à l&#39;emplacement du curseur, lorsque vous appuyez sur la pointe du stylet ou le bouton <b>LMB</b>, à l&#39;aide des options définies dans la barre d&#39;outils Options d&#39;outil. Assurez-vous que l&#39;[affichage de la transparence](../../../interface/2d-view/2d-view.md) est activé pour suivre l&#39;impact de cet outil sur le canal <b>Alpha</b>.
 
 ## Barre d’outils Options d’outil
 
@@ -97,16 +97,16 @@ Les options des outils disponibles dans la [barre d&#39;outils de sélection d&#
 
 ### SÉLECTION DU PINCEAU
 
-La ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>sélection du pinceau</b> vous permet de sélectionner un pinceau *préconfiguré* à partir des *paramètres prédéfinis* de pinceau disponibles, de définir sa <b>taille</b> et sa <b>dureté</b> *(* voir la section <b>Forme</b> de l’éditeur de pinceau), et affiche un *aperçu* d’un coup de pinceau.
+La ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>sélection du pinceau</b> vous permet de sélectionner un pinceau *préconfiguré* à partir des *paramètres prédéfinis* de pinceau disponibles, de définir sa <b>taille</b> et sa <b>dureté</b> *(* voir la section <b>Forme</b> de l’éditeur de pinceau), et affiche un *aperçu* d’un coup de pinceau.
 
-Les pinceaux prédéfinis peuvent être créés et modifiés dans l&#39;éditeur de pinceaux et classés dans *bibliothèques*. Les pinceaux prédéfinis qui apparaîtront dans ce panneau représentent la *somme* de toutes les bibliothèques de pinceaux prédéfinis chargées. Ces bibliothèques peuvent être gérées en accédant au menu ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-library.png) <b>Bibliothèque de pinceaux</b> (voir la section <b>Paramètres prédéfinis</b> de l’éditeur de pinceaux)
+Les pinceaux prédéfinis peuvent être créés et modifiés dans l&#39;éditeur de pinceaux et classés dans *bibliothèques*. Les pinceaux prédéfinis qui apparaîtront dans ce panneau représentent la *somme* de toutes les bibliothèques de pinceaux prédéfinis chargées. Ces bibliothèques peuvent être gérées en accédant au menu ![](bitmap-painting-tools.resources/bitmap-painting-tools-10.png) <b>Bibliothèque de pinceaux</b> (voir la section <b>Paramètres prédéfinis</b> de l’éditeur de pinceaux)
 
-Le bouton ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-previewbkgd.png) <b>Sélectionner la couleur d&#39;arrière-plan</b> vous permet de modifier la couleur d&#39;arrière-plan de l&#39;*aperçu du contour*.
+Le bouton ![](bitmap-painting-tools.resources/bitmap-painting-tools-11.png) <b>Sélectionner la couleur d&#39;arrière-plan</b> vous permet de modifier la couleur d&#39;arrière-plan de l&#39;*aperçu du contour*.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Panneau Sélection pinceau](bitmap-painting-tools.resources/2dview-paintingtools-brushes.png "Panneau Sélection pinceau")
+![Panneau Sélection pinceau](bitmap-painting-tools.resources/bitmap-painting-tools-12.png "Panneau Sélection pinceau")
 
 </td>
 </tr>
@@ -118,15 +118,15 @@ Le bouton ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-
 
 ### ÉDITEUR DE PINCEAUX
 
-L&#39;![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush-options.png) <b>éditeur de pinceau</b> donne accès à des options granulaires pour définir le comportement du pinceau :
+L&#39;![](bitmap-painting-tools.resources/bitmap-painting-tools-13.png) <b>éditeur de pinceau</b> donne accès à des options granulaires pour définir le comportement du pinceau :
 
 <b>Paramètres prédéfinis</b>
 
-Les pinceaux peuvent être personnalisés, puis enregistrés en tant que <b>pinceau prédéfini</b>, qui sera ensuite disponible dans la ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-currentpreset.png) <b>liste de pinceaux prédéfinis</b> et dans le panneau ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>Sélection de pinceaux</b>.
+Les pinceaux peuvent être personnalisés, puis enregistrés en tant que <b>pinceau prédéfini</b>, qui sera ensuite disponible dans la ![](bitmap-painting-tools.resources/bitmap-painting-tools-14.png) <b>liste de pinceaux prédéfinis</b> et dans le panneau ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>Sélection de pinceaux</b>.
 
-Pour créer un paramètre prédéfini, définissez les propriétés ci-dessous à votre convenance, puis cliquez sur le bouton ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-addpreset.png) <b>Ajouter un pinceau prédéfini </b> et définissez un nom de pinceau dans la fenêtre <b>Nom du paramètre prédéfini</b>. Le nouveau paramètre prédéfini est désormais automatiquement sélectionné dans la <b>liste des pinceaux prédéfinis</b>. Vous pouvez à tout moment le ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-updatepreset.png) <b>mettre à jour</b> avec les nouveaux paramètres actuels ou le ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-deletepreset.png) <b>supprimer</b>.
+Pour créer un paramètre prédéfini, définissez les propriétés ci-dessous à votre convenance, puis cliquez sur le bouton ![](bitmap-painting-tools.resources/bitmap-painting-tools-15.png) <b>Ajouter un pinceau prédéfini </b> et définissez un nom de pinceau dans la fenêtre <b>Nom du paramètre prédéfini</b>. Le nouveau paramètre prédéfini est désormais automatiquement sélectionné dans la <b>liste des pinceaux prédéfinis</b>. Vous pouvez à tout moment le ![](bitmap-painting-tools.resources/bitmap-painting-tools-16.png) <b>mettre à jour</b> avec les nouveaux paramètres actuels ou le ![](bitmap-painting-tools.resources/bitmap-painting-tools-17.png) <b>supprimer</b>.
 
-Les paramètres prédéfinis sont organisés et enregistrés dans des *bibliothèques*, qui peuvent être gérées dans le menu de la ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-presetlibrary.png) <b>bibliothèque de pinceaux</b> :
+Les paramètres prédéfinis sont organisés et enregistrés dans des *bibliothèques*, qui peuvent être gérées dans le menu de la ![](bitmap-painting-tools.resources/bitmap-painting-tools-18.png) <b>bibliothèque de pinceaux</b> :
 
 <b>Exporter la bibliothèque :</b> *enregistrez* les paramètres prédéfinis actuels et tous leurs paramètres dans un fichier de bibliothèque
 
@@ -139,7 +139,7 @@ Les paramètres prédéfinis sont organisés et enregistrés dans des *biblioth�
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de pinceau](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor.png "Éditeur de pinceau")
+![Éditeur de pinceau](bitmap-painting-tools.resources/bitmap-painting-tools-19.png "Éditeur de pinceau")
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ La couleur appliquée par le pinceau est définie par la *couleur primaire séle
 +++Texture
 Vous pouvez appliquer un *fichier bitmap* au pinceau et l&#39;utiliser pour *tamponner* ce bitmap au lieu d&#39;une couleur plate. La texture du pinceau se comporte comme suit :
 
-<b>Fichier de texture :</b>définit le *chemin* du bitmap qui doit être utilisé comme texture de pinceau. Vous pouvez sélectionner l’image bitmap via votre explorateur de fichiers système à l’aide du bouton ![](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor-selecttexture.png) en regard du champ de saisie
+<b>Fichier de texture :</b>définit le *chemin* du bitmap qui doit être utilisé comme texture de pinceau. Vous pouvez sélectionner l’image bitmap via votre explorateur de fichiers système à l’aide du bouton ![](bitmap-painting-tools.resources/bitmap-painting-tools-20.png) en regard du champ de saisie
 
 La texture *uniquement* remplace la couleur plate de base du pinceau, ce qui signifie que *toutes les propriétés de pinceau répertoriées ci-dessus peuvent toujours être utilisées* et fonctionner comme décrit
 
@@ -230,7 +230,7 @@ L&#39;<b>opacité</b> contrôle l&#39;*opacité maximale* du tampon. Il s&#39;ag
 
 <b>Flux</b> contrôle la *quantité d&#39;effet de l&#39;outil* qui est appliquée à tout moment. Il s&#39;agit d&#39;*un additif sur le même contour*, ce qui signifie que l&#39;opacité d&#39;une zone peut être ramenée à son maximum de 100 % en effectuant plusieurs passes du *même contour* dans cette zone, ou plusieurs contours distincts.
 
-![Commandes d&#39;opacité et de flux](bitmap-painting-tools.resources/2dview-paintingtools-opacityflow.png "Commandes d&#39;opacité et de flux")
+![Commandes d&#39;opacité et de flux](bitmap-painting-tools.resources/bitmap-painting-tools-21.png "Commandes d&#39;opacité et de flux")
 
 <table>
 <tr style="border: 0;">
@@ -238,7 +238,7 @@ L&#39;<b>opacité</b> contrôle l&#39;*opacité maximale* du tampon. Il s&#39;ag
 
 ### MODE MOSAÏQUE
 
-Les outils Pinceau, Tampon et Gomme vous permettent également de définir leurs ![](bitmap-painting-tools.resources/2dview-paintingtools-icon-tiling.png) <b>modes de mosaïque</b>, qui définissent leur capacité à *boucler* vers le côté opposé de l&#39;image lorsqu&#39;un trait affecte une zone en dehors des limites de l&#39;image :
+Les outils Pinceau, Tampon et Gomme vous permettent également de définir leurs ![](bitmap-painting-tools.resources/bitmap-painting-tools-22.png) <b>modes de mosaïque</b>, qui définissent leur capacité à *boucler* vers le côté opposé de l&#39;image lorsqu&#39;un trait affecte une zone en dehors des limites de l&#39;image :
 
 <b>Mosaïque X et Y</b> : mosaïque de coups de pinceau *horizontalement et verticalement*
 
@@ -251,7 +251,7 @@ Les outils Pinceau, Tampon et Gomme vous permettent également de définir leurs
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Mode mosaïque](bitmap-painting-tools.resources/2dview-paintingtools-tiling.png "Mode mosaïque")
+![Mode mosaïque](bitmap-painting-tools.resources/bitmap-painting-tools-23.png "Mode mosaïque")
 
 </td>
 </tr>

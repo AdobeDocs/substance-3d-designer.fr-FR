@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Position 3D du panorama pour positionner des panoramas HDRI dans l’espace 3D afin de créer des environnements d’éclairage personnalisés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Position 3D du panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](panorama-3d-position.resources/panorama-position.png){width="200px"}
+![](panorama-3d-position.resources/panorama-3d-position-01.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -52,7 +52,7 @@ Nœud d’Assistant qui affiche une carte de position de l’espace universel po
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="panorama-3d-position.resources/pano3d.png" />
+            <img src="panorama-3d-position.resources/panorama-3d-position-02.png" />
         </td>
     </tr>
 </table>

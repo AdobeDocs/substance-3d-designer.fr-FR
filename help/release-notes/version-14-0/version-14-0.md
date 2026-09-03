@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.0 pour en savoir plus sur les nouveaux nœuds, la navigation dans les graphiques et les améliorations des performances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Date de publication : 30 juillet 2024*
 
-![](version-14-0.resources/2024-BannerRN.png)
+![](version-14-0.resources/version-14-0-01.png)
 
 ## Nouveau contenu
 
@@ -32,13 +32,13 @@ Cette version 14.0 apporte beaucoup de nouveau contenu avec les nouveaux nœuds 
 
 * <b>Nœuds dédiés à la manipulation des couleurs : </b>un nœud <b>(</b>[Quantifier la couleur](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>à<b> </b>réduisez le nombre de couleurs d&#39;une image et extrayez une palette à partir de celle-ci, une famille de nœuds d&#39;outils pour créer votre propre palette de couleurs ([Afficher](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Créer](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modifier](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>Palette de couleurs) et une pour l&#39;appliquer à une autre image à l&#39;aide d&#39;un mappage d&#39;ID ([Appliquer la palette de couleurs](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Vous trouverez également le nœud [ID pour masquer les niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) pour convertir votre mappage d&#39;ID (calculé par Quantize color) en masque de niveaux de gris. Avec cet ensemble complet de nœuds, vous disposez de tout ce dont vous avez besoin pour créer des effets de stylisation à l’aide de couleurs.
 
-![](version-14-0.resources/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
 
-![Quantifier la couleur 2](version-14-0.resources/GIF3_2.gif){zoomable="yes"}
+![Quantifier la couleur 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
 
 * <b>Filtre Kuwahara</b> : si vous souhaitez aller encore plus loin avec la stylisation, vous pouvez générer des effets picturaux grâce aux filtres [couleur Kuwahara anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Dans les détails, il applique un flou directionnel anisotrope conforme aux détails de l’image. Le résultat est une image qui semble s’écouler dans la direction des formes qu’elle contient.
 
-Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize_fr). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
+Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
 
 D&#39;autres nœuds puissants rejoignent le parti :
 
@@ -56,11 +56,11 @@ Lissage de courbure
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_blend_example_1_before">
+      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_blend_example_1_after">
+      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Histogramme égaliser
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="version-14-0.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Bevel smooth
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/bevel_smooth_example_6_before.jpg" alt="biseau_lisse_exemple_6_before">
+      <img src="version-14-0.resources/version-14-0-08.jpg" alt="biseau_lisse_exemple_6_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="version-14-0.resources/bevel_smooth_example_6_after.jpg" alt="biseau_lisse_exemple_6_after">
+      <img src="version-14-0.resources/version-14-0-09.jpg" alt="biseau_lisse_exemple_6_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Dissociation normale
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="version-14-0.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Dissociation normale
 
 * <b>Vue 2D :</b>lorsque l’affichage en mosaïque est activé dans la [vue 2D](../../interface/2d-view/2d-view.md), vous pouvez désormais obtenir des valeurs même pour les pixels qui ne se trouvent pas sur la mosaïque d’origine : il est très utile de vérifier l’[échantillonnage](../../glossary/glossary.md) et les transitions de valeurs entre les mosaïques.
 
-![Vue 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
+![Vue 2d](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
 
 * <b>Courbe de transfert de dégradé</b> : utilisez le clic du milieu de la souris pour déplacer toutes les [clés de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) vers la gauche ou vers la droite (et ainsi conserver tous les espaces entre toutes les touches).
 * <b>Paramètres</b> : pour injecter des fonctions personnalisées via des paramètres, vous pouvez désormais utiliser le widget de fonction Modifier. C&#39;est une solution puissante pour créer des outils personnalisés où vous souhaitez piloter des paramètres à l&#39;aide d&#39;un [graphe de fonction de Substance](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -146,12 +146,12 @@ Dissociation normale
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modifier la fonction](version-14-0.resources/functionedit.png){zoomable="yes"}
+![Modifier la fonction](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fonction de modification 2](version-14-0.resources/functionedit2.png){zoomable="yes"}
+![Fonction de modification 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Notez que ces mises à jour ont deux conséquences majeures :
 * [Content] Nœud « Negate Float1 » obsolète dans le graphique de fonction de Substance
 * [Contenu] Renommez « Quantize Color » en « Quantize Color (Simple) ».
 * [Vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
-* [Moteur]&#x200B;[Texte] Nouveau crénage pour certaines polices
+* [Moteur][Texte] Nouveau crénage pour certaines polices
 * [Graphique] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
 * [Linker] Ne pas dupliquer les bitmaps dans SBSASM
 * [Paramètres] Ajout d’un nouveau widget « fonction » pour tous les types de paramètres d’entrée

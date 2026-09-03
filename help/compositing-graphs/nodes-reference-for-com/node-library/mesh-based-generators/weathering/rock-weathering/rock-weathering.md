@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Altération de roche pour générer des motifs d'altération sur les surfaces rocheuses en fonction de la géométrie du maillage pour obtenir des effets d'érosion réalistes.
+description: Utilisez le nœud Altération rocheuse pour générer des motifs d'altération sur les surfaces rocheuses en fonction de la géométrie du maillage pour obtenir des effets d'érosion réalistes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rock Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altération Des Roches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rock-weathering.resources/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 |:---|:---|
 | <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
-| <b>WS normal</b> <i>Entrée couleur</i> | Espace monde baké Normalmap utilisé pour les effets internes et le masquage. |
+| <b>WS normal</b> <i>Entrée couleur</i> | Baked World Space Normalmap utilisé pour les effets internes et le masquage. |
 | <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ». |
 
 <a name="parameters"></a>
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rock-weathering.resources/rock-ex.gif" />
+            <img src="rock-weathering.resources/rock-weathering-02.gif" />
         </td>
     </tr>
 </table>

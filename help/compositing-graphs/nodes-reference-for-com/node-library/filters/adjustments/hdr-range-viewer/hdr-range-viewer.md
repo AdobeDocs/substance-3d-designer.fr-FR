@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
-description: Utilisez le nœud HDR Range Viewer pour visualiser les plages de texture HDR afin d'analyser et de régler les valeurs de plage dynamique élevée.
+description: Utilisez le nœud Visualiseur de plage HDR pour visualiser les plages de textures HDR afin d’analyser et de régler les valeurs de plage dynamique élevée.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > HDR Range Viewer
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visionneuse de plage HDR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](hdr-range-viewer.resources/hdr-range-viewer-grayscale.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-01.png){width="128px"}
 
-![](hdr-range-viewer.resources/hdr-range-viewer.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-02.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -55,7 +55,7 @@ Outil de débogage pour vérifier les zones exactes avec Plage dynamique élevé
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="hdr-range-viewer.resources/hdr-viewer-example.png" />
+            <img src="hdr-range-viewer.resources/hdr-range-viewer-03.png" />
         </td>
     </tr>
 </table>

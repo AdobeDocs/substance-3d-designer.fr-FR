@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit Upscale 1 pour mettre à niveau les textures à l’aide d’algorithmes basés sur le bruit afin de préserver les détails lors de l’augmentation de la résolution des textures.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Amélioration du bruit 1
+title: Bruit Upscale 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# Amélioration du bruit 1
+# Bruit Upscale 1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale-1-01.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -59,7 +59,7 @@ Voir également [Amélioration de Bruit 2](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-1.resources/noise1ex.png" />
+            <img src="noise-upscale-1.resources/noise-upscale-1-02.png" />
         </td>
     </tr>
 </table>

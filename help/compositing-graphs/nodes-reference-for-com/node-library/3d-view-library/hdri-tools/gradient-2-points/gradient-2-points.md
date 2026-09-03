@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dégradé 2 points pour créer des dégradés à deux points dans des environnements HDRI pour les transitions de couleurs de ciel et de sol.
+description: Utilisez le nœud Dégradé 2 points pour créer des dégradés à deux points dans des environnements HDRI pour les transitions de couleurs du ciel et du sol.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé de 2 points
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -57,7 +57,7 @@ Crée un dégradé de 2 couleurs entre deux points sélectionnés par l’utilis
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-2-points.resources/gradient-ex2.gif" />
+            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
         </td>
     </tr>
 </table>

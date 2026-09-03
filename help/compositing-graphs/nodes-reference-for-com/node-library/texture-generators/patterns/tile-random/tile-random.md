@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Aléatoire de mosaïque pour créer des motifs de mosaïque aléatoires avec une variation procédurale pour les effets de texture organique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaïque aléatoire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs > Motifs
 
@@ -85,7 +85,7 @@ L&#39;option Mosaïque aléatoire est utilisée à la place de l&#39;option [Til
 | <b>Rotation aléatoire</b> <i>0.0 - 1.0</i> | Permet une rotation aléatoire par carreau. |
 | <b>Contrainte de rotation</b> <i>Faux/Vrai</i> | Contraint l’échelle afin que les carreaux pivotés ne se chevauchent jamais. |
 | <b>Position</b> |  |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate les carreaux globalement, en les faisant glisser uniquement sur l’axe X |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit les carreaux globalement, en glissant uniquement sur l’axe X |
 | <b>Décalage aléatoire</b> <i>0.0 - 1.0</i> | Décalage aléatoire par carreau, diapositives sur l’axe X uniquement |
 | <b>Aléatoire</b> <i>0.0 - 1.0</i> | Aléatoire de la position, les carreaux se déplacent sur les axes X et Y. |
 | <b>Contraintes aléatoires</b> <i>Faux/Vrai</i> | Réduit l’échelle pour que les mosaïques se touchent, sans se chevaucher. Atténue considérablement l’effet Position aléatoire. |
@@ -106,7 +106,7 @@ L&#39;option Mosaïque aléatoire est utilisée à la place de l&#39;option [Til
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-02.png" />
         </td>
     </tr>
 </table>

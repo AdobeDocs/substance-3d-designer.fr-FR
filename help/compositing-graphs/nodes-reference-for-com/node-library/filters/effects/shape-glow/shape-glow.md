@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Shape Glow pour ajouter des effets de lueur aux formes et aux textures afin de créer des effets visuels lumineux et atmosphériques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Shape Glow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-glow.resources/shape-glow-grayscale.png){width="128px"}
+![](shape-glow.resources/shape-glow-01.png){width="128px"}
 
-![](shape-glow.resources/shape-glow.png){width="128px"}
+![](shape-glow.resources/shape-glow-02.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -61,7 +61,7 @@ Crée une lueur diffuse autour d’un masque d’entrée (pour la version en niv
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-glow.resources/shapeglow-ex.png" />
+            <img src="shape-glow.resources/shape-glow-03.png" />
         </td>
     </tr>
 </table>

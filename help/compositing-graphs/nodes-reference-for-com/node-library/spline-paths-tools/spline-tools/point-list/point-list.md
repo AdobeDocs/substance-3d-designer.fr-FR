@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Liste de points pour créer et gérer des listes de points pour la génération de splines et de tracés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Liste de points
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](point-list.resources/point-list-icon.png "Icône de nœud")
+![Icône de nœud](point-list.resources/point-list-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -83,9 +83,9 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 | <b>p#</b> <i>Float2</i> | Définit la position du point p# dans l’espace de texture. |
 | <b>Aperçu</b> |  |
 | <b>Afficher les libellés</b> <i>Booléen</i> | Pour chaque point, affiche le nom du point en regard de celui-ci dans la sortie « Aperçu ». |
-| <b>Taille de l&#39;étiquette</b> <i>Flottant</i> (disponible lorsque &#39;Show Labels&#39; est défini sur &#39;True&#39;) | Taille du libellé de chaque point dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture. |
+| <b>Taille de l&#39;étiquette</b> <i>Float</i> (disponible lorsque « Afficher les libellés » est défini sur « Vrai ») | Taille du libellé de chaque point dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture. |
 | <b>Afficher les points</b> <i>Booléen</i> | Affiche les points dans la sortie Aperçu. |
-| <b>Taille Des Points</b> <i>Flottant</i> (disponible lorsque &#39;Show Points&#39; est défini sur &#39;True&#39;) | Rayon des points dans l&#39;espace de texture, où 0,1 correspond à un dixième de la largeur de la texture. |
+| <b>Taille Des Points</b> <i>Float</i> (disponible lorsque « Afficher les points » est défini sur « Vrai ») | Rayon des points dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture. |
 
 ## Exemples
 
@@ -93,12 +93,12 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](point-list.resources/PointList-Variant1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](point-list.resources/point-list-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](point-list.resources/PointList-Demo1.gif "Exemple de nœud 2")
+![Exemple de nœud 2](point-list.resources/point-list-03.gif "Exemple de nœud 2")
 
 </td>
 </tr>

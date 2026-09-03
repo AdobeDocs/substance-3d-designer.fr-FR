@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lumière de ligne pour créer des sources lumineuses linéaires dans des environnements HDRI afin de simuler l’éclairage fluorescent et en bande.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lumière de ligne
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](line-light.resources/panorama-line-light.png){width="200px"}
+![](line-light.resources/line-light-01.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -61,17 +61,17 @@ Les modes de positionnement de ce nœud sont légèrement plus complexes que ceu
 | <b>Afficher la Grille du Sol</b> <i>Faux/Vrai</i> | Fonction d&#39;aide permettant de dessiner une grille de mise à la terre de débogage. Permet d’estimer la position des lignes dans l’espace. |
 | <b>Coordonnées De Position</b> |  |
 | <b>Up Vector</b> <i>Z vers le haut, Y vers le haut</i> | En mode Position universelle uniquement, déterminez l&#39;orientation du repère. |
-| <b>UV Point 1</b> | Seulement avec Sol / plafond et Distance avec l&#39;origine. Définit la position du premier point dans l’espace UV. |
-| <b>UV Point 2</b> | Seulement avec Sol / plafond et Distance avec l&#39;origine. Définit la position du second point dans l’espace UV. |
-| <b>Position Mondiale Du Point 1</b> <i>-2.0 - 2.0</i> | Uniquement avec le mode Positions universelles. Définit le premier point dans l’espace monde. Aucune interaction Vue 2D prise en charge. |
-| <b>Position Mondiale Du Point 2</b> <i>-2.0 - 2.0</i> | Uniquement avec le mode Positions universelles. Définit le deuxième point dans l’espace monde. Aucune interaction Vue 2D prise en charge. |
-| <b>Height absolu de ligne</b> <i>0.0 - 1.0</i> | Uniquement avec le mode Sol/Position plafond, définit l&#39;height absolu à partir du plafond. Utilisez Afficher la Grille du Sol pour mieux estimer la position. |
+| <b>UV Point 1</b> | Seulement avec sol / plafond et Distance avec l&#39;origine. Définit la position du premier point dans l’espace UV. |
+| <b>UV Point 2</b> | Seulement avec sol / plafond et Distance avec l&#39;origine. Définit la position du second point dans l’espace UV. |
+| <b>Position Mondiale Du Point 1</b> <i>-2.0 - 2.0</i> | Uniquement avec le mode Positions universelles. Définit le premier point dans l’espace univers. Aucune interaction de vue 2D prise en charge. |
+| <b>Position Mondiale Du Point 2</b> <i>-2.0 - 2.0</i> | Uniquement avec le mode Positions universelles. Définit le deuxième point dans l’espace univers. Aucune interaction de vue 2D prise en charge. |
+| <b>Height absolu de ligne</b> <i>0.0 - 1.0</i> | Uniquement avec le mode Position sol/plafond, définit l&#39;height absolu à partir du plafond. Utilisez Afficher la grille au sol pour mieux estimer la position. |
 | <b>Distance avec l&#39;origine</b> <i>0.0 - 1.0</i> | Uniquement avec le mode Position de la Distance avec l&#39;origine. Définit la distance entre les deux points du panorama. |
 | <b>Mode colorimétrique de la forme</b> <i>RGB, Température (Kelvin), Entrée d&#39;image</i> | Choisissez la méthode à utiliser pour définir la couleur de la forme. Image Input permet d&#39;utiliser le deuxième emplacement d&#39;entrée. |
 | <b>Couleur</b> <i>(valeur de couleur)</i> | Uniquement avec le mode colorimétrique de la forme défini sur RGB. Choisit la couleur de la forme. |
 | <b>Température</b> <i>800.0 - 20000.0</i> | Uniquement avec le mode Couleur de la forme réglé sur Température. Définit la valeur Kelvin pour la couleur de la forme. |
-| <b>Mode D&#39;UV D&#39;Image De Forme</b> <i>Étirer, Étirer au milieu uniquement, Répéter + Espacement</i> | Uniquement avec le mode colorimétrique de la forme défini sur Entrée image. Définit le mode d’application de l’image à la forme de trait et détermine le comportement de répétition de l’UV. |
-| <b>Espacement de répétition de l&#39;image de forme</b> <i>0.0 - 1.0</i> | Uniquement avec le mode colorimétrique de la forme défini sur Entrée image et avec le mode UV défini sur Répéter + Espacement. Définit la quantité d’espacement lorsque l’image se répète sur la ligne. |
+| <b>Mode D&#39;UV D&#39;Image De Forme</b> <i>Étirer, Étirer au milieu uniquement, Répéter + Espacement</i> | Uniquement avec le mode colorimétrique de la forme défini sur Entrée image. Définit la façon dont l’image est appliquée à la forme de trait et détermine le comportement de répétition UV. |
+| <b>Espacement de répétition de l&#39;image de forme</b> <i>0.0 - 1.0</i> | Uniquement avec le mode colorimétrique de la forme défini sur Entrée image et avec le mode UV défini sur Répétition + Espacement. Définit l’espacement lorsque l’image se répète le long de la ligne. |
 | <b>Gamma d&#39;image de forme</b> <i>sRVB, linéaire</i> | Uniquement avec le mode colorimétrique de la forme défini sur Entrée image. Déterminez comment interpréter l’entrée d’image de forme. |
 | <b>Exposition (EV)</b> <i>0.0 - 10.0</i> | Définissez la valeur d’exposition de la forme générée, idéalement adaptée à la valeur d’exposition de l’image d’arrière-plan. |
 | <b>Rotation de ligne</b> <i>0.0 - 1.0</i> | Fait pivoter la ligne le long de son axe de longueur. La ligne est traitée comme une carte plate lors de la rotation. |
@@ -91,7 +91,7 @@ Les modes de positionnement de ce nœud sont légèrement plus complexes que ceu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="line-light.resources/line-light-ex.gif" />
+            <img src="line-light.resources/line-light-02.gif" />
         </td>
     </tr>
 </table>

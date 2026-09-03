@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designer propose une sélection d’exemples de graphes couvrant différents types de matériaux, pour en tirer des leçons et les tester.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exemples de matériaux
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Exemples de matériaux
 
-![Exemples de Matériau - Modèles de carte](material-samples.resources/materialSamples-cards.png "Exemples de Matériau - Modèles de carte")
+![Exemples de Matériau - Modèles de carte](material-samples.resources/material-samples-01.png "Exemples de Matériau - Modèles de carte")
 
 Designer propose une sélection d’exemples de graphes couvrant différents types de matériaux, pour en tirer des leçons et les tester.
 
@@ -36,14 +36,14 @@ Lors de la création d&#39;un nouveau graphe de Substance, vous trouverez les ex
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Boîte de dialogue Nouveau graphe de Substance - Exemples de Matériau](material-samples.resources/newGraphDialog-samples-1.png "Boîte de dialogue Nouveau graphe de Substance - Exemples de Matériau"){zoomable="yes"}
+![Boîte de dialogue Nouveau graphe de Substance - Exemples de Matériau](material-samples.resources/material-samples-02.png "Boîte de dialogue Nouveau graphe de Substance - Exemples de Matériau"){zoomable="yes"}
 
 Ouvrez la zone de liste déroulante <b>Catégorie</b> et sélectionnez <b>Exemples de Matériau</b> pour répertorier les modèles disponibles.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Échantillons de Matériau - Bouton de bannière](material-samples.resources/materialSamples-bannerButton.png "Échantillons de Matériau - Bouton de bannière"){zoomable="yes"}
+![Échantillons de Matériau - Bouton de bannière](material-samples.resources/material-samples-03.png "Échantillons de Matériau - Bouton de bannière"){zoomable="yes"}
 
 Vous pouvez accéder directement à la liste des échantillons dans la boîte de dialogue, en utilisant le bouton <b>Accéder aux échantillons</b>, placé de manière pratique
 dans l&#39;<b>écran d&#39;accueil</b>.
@@ -62,7 +62,7 @@ exploré dans l’exemple.
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Échantillons de Matériau - Info-bulle de la carte de modèle](material-samples.resources/newGraphDialog-sampleTooltip.png "Échantillons de Matériau - Info-bulle de la carte de modèle"){zoomable="yes"}
+![Échantillons de Matériau - Info-bulle de la carte de modèle](material-samples.resources/material-samples-04.png "Échantillons de Matériau - Info-bulle de la carte de modèle"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,4 +84,4 @@ Ainsi, votre espace de travail est automatiquement configuré et vous êtes prê
 > le matériau dans la vue 3D passera automatiquement à l&#39;<code>OpenPBR Surface</code> shader afin de
 > affichez l’échantillon avec précision.
 
-![Exemple de Matériau - Graphe](material-samples.resources/materialSamples-graph.png "Exemple de Matériau - Graphe"){zoomable="yes"}
+![Exemple de Matériau - Graphe](material-samples.resources/material-samples-05.png "Exemple de Matériau - Graphe"){zoomable="yes"}

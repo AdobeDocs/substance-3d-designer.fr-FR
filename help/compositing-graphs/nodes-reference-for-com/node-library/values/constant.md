@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Ils incluent tous un simple nœud [Value processor](../../atomic-nodes/value-pro
 
 +++ Nœuds constants dans la bibliothèque
 
-![constants-library.png](constant.resources/constants-library.png)
+![constants-library.png](constant.resources/constant-01.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nœud flottant constant" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Nœud flottant constant" /></p>
 
 ## Entiers
 
@@ -43,7 +43,7 @@ Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type d&#39;entier](constant.resources/fn-constant-integer.png "Icône Type d&#39;entier")
+Icône ![Type d&#39;entier](constant.resources/constant-03.png "Icône Type d&#39;entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier2](constant.resources/fn-constant-integer2.png "Entier2")
+Icône de type ![Entier2](constant.resources/constant-04.png "Entier2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de g
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer3](constant.resources/fn-constant-integer3.png "Icône de type Integer3")
+Icône de type ![Integer3](constant.resources/constant-05.png "Icône de type Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Un nœud Integer3 génère un vecteur entier statique à 3 composantes avec des 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer4](constant.resources/fn-constant-integer4.png "Icône de type Integer4")
+Icône de type ![Integer4](constant.resources/constant-06.png "Icône de type Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Les valeurs [flottantes peuvent être converties en nombres entiers](../../../..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type flottant](constant.resources/fn-constant-float.png "Icône de type flottant")
+![Icône de type flottant](constant.resources/constant-07.png "Icône de type flottant")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Un objet Float a un seul composant et est très couramment utilisé pour toute v
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float2](constant.resources/fn-constant-float2.png "Float2")
+Icône de type ![Float2](constant.resources/constant-08.png "Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 est couramment utilisé pour [l&#39;échantillonnage des coordonnées](..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float3](constant.resources/fn-constant-float3.png "Float3")
+Icône de type ![Float3](constant.resources/constant-09.png "Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3 est principalement utilisé lors de l&#39;utilisation d&#39;objets 3D et 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float4](constant.resources/fn-constant-float4.png "Float4")
+Icône de type ![Float4](constant.resources/constant-10.png "Float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Float4 est le moyen préféré de stocker et de définir des informations de cou
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type booléen](constant.resources/fn-constant-boolean.png "Icône de type booléen")
+![Icône de type booléen](constant.resources/constant-11.png "Icône de type booléen")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

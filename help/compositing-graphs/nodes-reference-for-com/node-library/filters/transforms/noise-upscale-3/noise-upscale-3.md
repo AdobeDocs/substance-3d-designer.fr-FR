@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Noise Upscale 3 pour mettre à niveau les textures à l’aide d’algorithmes avancés basés sur le bruit afin de préserver les détails à des résolutions plus élevées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amélioration du bruit 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# Amélioration du bruit 3
+# Bruit Upscale 3
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-3.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-3.resources/noise-upscale-3-01.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -49,7 +49,7 @@ Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/
 
 |  |  |
 |:---|:---|
-| <b>Niveaux de gris</b> <i>Entrée en niveaux de gris</i> | Image Bruit cible. |
+| <b>Niveaux de gris</b> <i>Entrée en niveaux de gris</i> | Image du Bruit cible. |
 | <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
 ## Exemples
@@ -57,7 +57,7 @@ Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-3.resources/noise3ex.png" />
+            <img src="noise-upscale-3.resources/noise-upscale-3-02.png" />
         </td>
     </tr>
 </table>

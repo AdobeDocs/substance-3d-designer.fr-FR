@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Décalage de texture 3D pour décaler les textures dans l’espace 3D afin de créer des effets de parallaxe et des variations de surface.
+description: Utilisez le nœud Décalage de la Texture 3D pour décaler les textures dans l’espace 3D afin de créer des effets de parallaxe et des variations de surface.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Décalage de texture 3D
+title: Décalage de la Texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Décalage de texture 3D
+# Décalage de la Texture 3D
 
 <table>
 <tr style="border: 0;">
@@ -28,12 +28,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
 
 </td>
 </tr>
@@ -46,7 +46,7 @@ Filtre <b>Entrée :</b> > Transformation
 
 ## Description
 
-Le nœud **Décalage de texture 3D** applique une *transformation de décalage* dans les axes **X**, **Y** et **Z** sur un objet décrit par la *texture 3D* connectée à l&#39;**entrée**.
+Le nœud **Décalage de Texture 3D** applique une *transformation de décalage* dans les axes **X**, **Y** et **Z** sur un objet décrit par la *texture 3D* connectée à l&#39;**entrée**.
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ Le nœud **Décalage de texture 3D** applique une *transformation de décalage* 
 
 |  |  |
 |:---|:---|
-| <b>Entrée</b> <i>Niveaux de gris/Couleur</i> | <i>Texture 3D</i> décrivant un objet 3D.<br>L&#39;objet est généralement décrit dans un <i>cube unitaire</i>. |
+| <b>Entrée</b> <i>Niveaux de gris/Couleur</i> | La <i>texture 3D</i> décrivant un objet 3D.<br>L&#39;objet est généralement décrit dans un <i>cube unitaire</i>. |
 
 <a name="parameters"></a>
 
@@ -66,17 +66,17 @@ Le nœud **Décalage de texture 3D** applique une *transformation de décalage* 
 
 |  |  |
 |:---|:---|
-| <b>Décalage</b> <i>Float3</i> | Quantité de décalage dans l&#39;<i>espace univers</i> appliquée à l&#39;objet décrit par la <i>texture 3D</i> connectée à l&#39;<b>entrée</b>. |
+| <b>Décalage</b> <i>Flottant3</i> | Quantité de décalage en <i>espace monde</i> appliquée à l&#39;objet décrit par la <i>texture 3D</i> connectée à l&#39;<b>entrée</b>. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
+            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
+            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
         </td>
     </tr>
 </table>

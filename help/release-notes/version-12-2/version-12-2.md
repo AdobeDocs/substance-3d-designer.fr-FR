@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-12-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 12.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Version 12.2
 
-<b>Substance 3D Designer 12.2</b> apporte la prise en charge native des machines avec puce Apple (M1), certaines améliorations pour les Graphes Substance models et d’autres petites mises à jour. Cette page décrira tous les détails concernant cette nouvelle version.
+<b>Substance 3D Designer 12.2</b> offre la prise en charge native des machines avec puce Apple (M1), ainsi que quelques améliorations pour les graphiques de modèles de Substance de données et d’autres petites mises à jour. Cette page décrira tous les détails concernant cette nouvelle version.
 
 Date de publication : *19 juillet 2022*
 
-![](version-12-2.resources/final3.png)
+![](version-12-2.resources/version-12-2-01.png)
 
 ## Principales fonctionnalités
 
@@ -32,34 +32,34 @@ Date de publication : *19 juillet 2022*
 
 La version 12.2 de Designer est la première à bénéficier de la prise en charge native complète des nouveaux ordinateurs Apple équipés de la puce M1. Bien que Designer puisse s’exécuter techniquement sur les appareils Apple Silicon précédemment, la prise en charge native vous offrira une expérience plus rapide et plus efficace. Comme vous pouvez le voir sur l&#39;image ci-dessous, les calculs sont *jusqu&#39;à deux fois plus rapides* avec cette nouvelle version sur ces ordinateurs.
 
-![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/version-12-2-02.png){width="600px"}
 
-### Améliorations pour les Graphes Substance models
+### Améliorations apportées aux graphiques de modèles de Substance
 
 * <b>Info-bulles sur les nœuds\
-  </b>Il n&#39;est pas toujours possible d&#39;expliquer ce qu&#39;un nœud fait avec une simple icône et un titre. C&#39;est pourquoi nous avons maintenant une info-bulle avec une *description complète du nœud* lorsque vous êtes dans la bibliothèque ou dans la Vue du graphe de données. Il vous aidera à trouver le nœud que vous recherchez ou à mieux comprendre quelles sont ses capacités. ![](version-12-2.resources/tootlipnode.png)
+  </b>Il n&#39;est pas toujours possible d&#39;expliquer ce qu&#39;un nœud fait avec une simple icône et un titre. C&#39;est pourquoi nous avons maintenant une info-bulle avec une *description complète du nœud* lorsque vous êtes dans la bibliothèque ou dans la vue Graphique. Il vous aidera à trouver le nœud que vous recherchez ou à mieux comprendre quelles sont ses capacités. ![](version-12-2.resources/version-12-2-03.png)
 
 * <b>Raccourcis pour la création de nœuds\
-  </b>Pour accélérer la création de vos nœuds les plus utilisés, vous pouvez désormais définir vos propres raccourcis dans les Préférences, comme pour les autres types de graphes.![](version-12-2.resources/shorcuts.png)
+  </b>Pour accélérer la création de vos nœuds les plus utilisés, vous pouvez désormais définir vos propres raccourcis dans les Préférences, comme pour les autres types de graphiques.![](version-12-2.resources/version-12-2-04.png)
 
 * <b>Aperçu du nœud à partir du menu contextuel du nœud\
-  </b>Dans notre dernière version, nous avons ajouté la possibilité de prévisualiser un nœud dans la vue 3D grâce à un raccourci du clavier (*MAJ+clic* sur un nœud). Cette fonctionnalité est désormais également disponible dans le *menu contextuel des nœuds* afin de la rendre plus facilement identifiable.
+  </b>Dans notre dernière version, nous avons ajouté la possibilité de prévisualiser un nœud dans la vue 3D grâce à un raccourci clavier (*MAJ+clic* sur un nœud). Cette fonctionnalité est désormais également disponible dans le *menu contextuel des nœuds* afin de la rendre plus facilement identifiable.
 
-  ![](version-12-2.resources/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/version-12-2-05.gif){width="600px"}
 * <b>Rechercher en fonction de la compatibilité des nœuds\
-  </b>Lorsque vous recherchez un nœud dans le menu des nœuds (accessible en appuyant sur *barre d&#39;espace* dans la Vue du graphe de données), les nœuds sont désormais correctement filtrés afin d&#39;afficher uniquement ceux qui sont *compatibles avec celui actuellement sélectionné* dans le graphe. Cela vous aide à trouver rapidement le nœud que vous recherchez.
+  </b>Lorsque vous recherchez un nœud dans le menu des nœuds (accessible en appuyant sur *barre d&#39;espace* dans la vue Graphique), les nœuds sont désormais correctement filtrés afin d&#39;afficher uniquement ceux qui sont *compatibles avec celui actuellement sélectionné* dans le graphique. Cela vous aide à trouver rapidement le nœud que vous recherchez.
 
 ### Divers
 
-* <b>Améliorations de vue 2D</b>\
-  Alors qu&#39;il était possible dans les versions précédentes d&#39;afficher les sorties du graphe dans la vue 3D via le *menu contextuel* du graphe de Substance, il n&#39;était pas possible d&#39;afficher une sortie du graphe dans la vue 2D. Cette option a été ajoutée à ce menu, avec un sous-menu répertoriant toutes les sorties du graphe à afficher dans la vue 2D.\
-  Le bouton « Afficher les sorties » de la barre d&#39;outils vue 2D a également été mis à jour avec une flèche vers le bas et une info-bulle afin de rendre son comportement plus clair.\
+* <b>Améliorations de la vue 2D</b>\
+  Dans les versions précédentes, lorsqu&#39;il était possible d&#39;afficher les sorties du graphique dans la vue 3D à l&#39;aide du *menu contextuel* du graphique de Substance, il n&#39;était pas possible d&#39;afficher une sortie de graphique dans la vue 2D. Cette option a été ajoutée à ce menu, avec un sous-menu répertoriant toutes les sorties graphiques à afficher dans la vue 2D.\
+  Le bouton « Afficher les sorties » de la barre d&#39;outils Vue 2D a également été mis à jour avec une flèche vers le bas et une info-bulle afin de rendre son comportement plus clair.\
   Enfin, l&#39;option « Afficher automatiquement les sorties de graphique lors du chargement d&#39;un graphique » dans les Préférences a été *divisée en deux paramètres distincts*, pour la vue 2D et la vue 3D respectivement, afin de vous permettre de contrôler la vue à ouvrir et à remplir automatiquement lors du chargement d&#39;un graphique.
 
 * <b>Modèle CLO</b>\
   Afin d&#39;améliorer l&#39;interopérabilité avec le logiciel CLO, nous avons ajouté un *nouveau modèle dédié*. Cela ajoutera automatiquement à votre graphique toutes les *métadonnées* requises pour importer correctement votre matière dans CLO.
 
-  ![](version-12-2.resources/clo.png){width="600px"}
+  ![](version-12-2.resources/version-12-2-06.png){width="600px"}
 
 * <b>Configuration requise pour la plateforme de référence VFX</b>\
   Chaque année, la Plateforme de Référence VFX publie une liste d&#39;outils et de bibliothèques à utiliser dans chaque logiciel pour l&#39;industrie des effets visuels afin de minimiser les incompatibilités entre les logiciels. Comme d&#39;habitude, nous *mettons à jour toutes nos dépendances* afin de respecter toutes ces recommandations.

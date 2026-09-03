@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion normale pour fusionner des maps normal afin de créer des transitions lisses entre les détails d'une surface.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-blend.resources/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend-01.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Map normal
 
@@ -65,7 +65,7 @@ La Fusion des normales n&#39;est pas destinée à la combinaison (superposition)
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(.gif format introduit le dithering dans l'exemple, les résultats dans l'application sont lisses)</i>
+            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(.gif format introduit le dithering dans l'exemple, les résultats dans l'application sont lisses)</i>
         </td>
     </tr>
 </table>

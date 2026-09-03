@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: Utilisez le filtre Flou de couleur MLV pour appliquer des effets de flou de mouvement aux textures de couleur afin de créer des aspects visuels dynamiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Couleur MLV : icon](mlv-color.resources/MLV_Color_Icon.png "Couleur MLV : icon")
+![Couleur MLV : icon](mlv-color.resources/mlv-color-01.png "Couleur MLV : icon")
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -79,11 +79,11 @@ Le filtre recherche les zones structurantes d’une image et les utilise pour la
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Le filtre recherche les zones structurantes d’une image et les utilise pour la
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ Le filtre recherche les zones structurantes d’une image et les utilise pour la
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
       <br><i>Après</i>
     </td>
   </tr>

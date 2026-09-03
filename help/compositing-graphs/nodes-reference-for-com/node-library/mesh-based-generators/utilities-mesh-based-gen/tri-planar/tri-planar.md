@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tri Planaire pour projeter des textures à partir de trois plans orthogonaux pour une correspondance de texture transparente sur une géométrie complexe.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tri Planaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tri-planar.resources/triplanar-1.png){width="128px"}
+![](tri-planar.resources/tri-planar-01.png){width="128px"}
 
-![](tri-planar.resources/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/tri-planar-02.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
@@ -55,7 +55,7 @@ Gardez à l’esprit que vos bakes doivent être d’une grande précision : les
 | <b>Espace universel normal</b> <i>Entrée couleur</i> | Carte de Normale de l&#39;espace monde bakée, idéalement précision de 16 bits ou plus. |
 | <b>Entrée X</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Map d&#39;entrée de remappage de l’Espace monde UV via la Projection triplanaire. Utilisé pour tous les Axes lorsque la valeur Entrée image est définie sur 1, pour l’axe X si elle est définie sur 3. |
 | <b>Entrée Y</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Map d&#39;entrée de remappage de l’Espace monde UV vers l’Axe Y. |
-| <b>Entrée Z</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Carte d&#39;entrée pour remapper l&#39;espace universel sur l&#39;axe Z. |
+| <b>Entrée Z</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Map d&#39;entrée de remappage de l’Espace monde UV vers l’Axe Z. |
 
 <a name="parameters"></a>
 
@@ -64,12 +64,12 @@ Gardez à l’esprit que vos bakes doivent être d’une grande précision : les
 |  |  |
 |:---|:---|
 | <b>Projection</b> <i>Tous les axes, X uniquement, Y uniquement, Z uniquement</i> | Définit les Axes avec lesquels fusionner. |
-| <b>Entrées d&#39;image</b> <i>1 entrée, 3 entrées</i> | Indiquez si vous souhaitez utiliser une carte pour tous les axes ou une carte spécifique par axe. |
+| <b>Entrées d&#39;image</b> <i>1 entrée, 3 entrées</i> | Indiquez si vous souhaitez utiliser une carte pour tous les Axes ou une carte spécifique par Axe. |
 | <b>Mode de fusion</b> <i>linéaire, avancé</i> | Augmente la précision. |
 | <b>Contraste de fusion</b> <i>0.001 - 1.0</i> | Contraste de transition, fusion entre des transitions lisses ou dures. |
-| <b>Facteur de normalisation</b> <i>0.0 - 1.0</i> | Améliore la fusion par projection en rétablissant la perte de contraste dans la zone de fusion. |
+| <b>Facteur de normalisation</b> <i>0.0 - 1.0</i> | Améliore la fusion des projections en rétablissant la perte de contraste dans la zone de fusion. |
 | <b>Répétition de Texture</b> <i>0.0 - 10.0</i> | Nombre de fois où placer les textures d’entrée en mosaïque. |
-| <b>Rotation globale</b> <i>0.0 - 1.0</i> | Rotation globale pour tous les axes. |
+| <b>Rotation globale</b> <i>0.0 - 1.0</i> | Rotation globale pour tous les Axes. |
 | <b>Corriger la Projection mise en miroir</b> <i>Faux/Vrai</i> | Définissez le mode de gestion des Projections mises en miroir. |
 | <b>Rotation X</b> <i>0.0 - 1.0</i> | Rotation individuelle sur l’axe X de la projection. |
 | <b>Rotation Y</b> <i>0.0 - 1.0</i> | Rotation individuelle sur l’axe Y de la projection. |

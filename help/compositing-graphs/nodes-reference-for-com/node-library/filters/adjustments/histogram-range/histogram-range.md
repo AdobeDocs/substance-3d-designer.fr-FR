@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Plage d’histogrammes pour remapper les valeurs de texture en fonction des plages d’histogrammes pour la correction et les réglages des couleurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Plage d’histogrammes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-range.resources/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-01.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -56,7 +56,7 @@ Voir également [Analyse de l&#39;histogramme](../../../../../../compositing-gra
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-range.resources/histogram-range.gif" />
+            <img src="histogram-range.resources/histogram-range-02.gif" />
         </td>
     </tr>
 </table>

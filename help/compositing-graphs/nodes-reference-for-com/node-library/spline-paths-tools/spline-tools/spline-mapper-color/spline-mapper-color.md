@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Couleur du mappeur de spline pour mapper les textures de couleur le long des tracés de spline avec des paramètres personnalisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur du mappeur de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-mapper-color.resources/spline-mapper-color-icon.png "Icône de nœud")
+![Icône de nœud](spline-mapper-color.resources/spline-mapper-color-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -112,11 +112,11 @@ Le nœud produit l&#39;image mappée sous la forme d&#39;une image couleur, ains
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ Le nœud produit l&#39;image mappée sous la forme d&#39;une image couleur, ains
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-mapper-color.resources/spline-mapper-color-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Le nœud produit l&#39;image mappée sous la forme d&#39;une image couleur, ains
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "Exemple de nœud 3")
+![Exemple de nœud 3](spline-mapper-color.resources/spline-mapper-color-05.jpg "Exemple de nœud 3")
 
 </td>
 <td style="border: 0;" valign="top">

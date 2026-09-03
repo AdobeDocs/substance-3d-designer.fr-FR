@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Extrusion de forme pour extruder des formes et créer des effets de profondeur de type 3D dans les textures Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extrusion de forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
 
-<b>Entrée :</b> Générateurs De Textures > Motifs
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -66,7 +66,7 @@ Nœud avancé qui permet le rendu d’entrées de « forme » binaires 2D sur de
 | <b>Courbe en biseau</b> <i>-1.0 - 1.0</i> | Définissez la courbe convexe ou concave de l’effet Biseau. Une valeur de 0 signifie qu’il n’y a pas de courbe. |
 | <b>Biseau miroir</b> <i>Faux/Vrai</i> | Activez/désactivez cette option pour appliquer le biseau en haut et en bas de la forme. |
 | <b>Multiplicateur de réduction d&#39;échelle</b> <i>0 - 2</i> | Commande de réduction d’échelle facile intégrée. Peut être utilisé pour ajouter rapidement un anticrénelage. Veillez à augmenter également la résolution des nœuds. |
-| <b>Position</b> | Contrôle principal de la rotation du résultat dans l’espace 3D. Correspond à l&#39;interface Gizmo dans la Vue 2D. |
+| <b>Position</b> | Contrôle principal de la rotation du résultat dans l’espace 3D. Correspond à l&#39;interactivité Gizmo dans la vue 2D. |
 | <b>Plage de sortie</b> <i>[0, 1], [-1, 1]</i> | Définissez les valeurs minimales et maximales de sortie. Si la plage est définie sur [-1,1], les valeurs négatives sont affichées en noir. |
 
 ## Exemples
@@ -74,7 +74,7 @@ Nœud avancé qui permet le rendu d’entrées de « forme » binaires 2D sur de
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-02.png" />
         </td>
     </tr>
 </table>

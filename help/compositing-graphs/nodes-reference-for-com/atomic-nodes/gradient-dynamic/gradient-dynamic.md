@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dégradé (dynamique) pour créer des dégradés dynamiques qui peuvent être contrôlés par des paramètres et des valeurs d’entrée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé (dynamique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Dégradé dynamique](gradient-dynamic.resources/comp_dyngradient_1.png "Nœud atomique : Dégradé dynamique"){width="200px"}
+![Nœud atomique : Dégradé dynamique](gradient-dynamic.resources/gradient-dynamic-01.png "Nœud atomique : Dégradé dynamique"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

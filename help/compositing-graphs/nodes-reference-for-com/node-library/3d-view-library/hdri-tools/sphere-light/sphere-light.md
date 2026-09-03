@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lumière sphérique pour ajouter des sources de lumière sphériques aux environnements HDRI afin d’améliorer le contrôle de l’éclairage.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lumière sphérique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sphere-light.resources/panorama-sphere-light.png){width="200px"}
+![](sphere-light.resources/sphere-light-01.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -60,7 +60,7 @@ La Sphère lumineuse est très polyvalente et dispose d&#39;options qui lui perm
 | <b>Coordonnées De Position</b> |  |
 | <b>Up Vector</b> <i>Z vers le haut, Y vers le haut</i> | En mode Position universelle uniquement, déterminez l&#39;orientation du repère. |
 | <b>Position mondiale Sphère</b> <i>-2.0 - 2.0</i> | Le mode Position universelle permet uniquement de définir la position de la sphère dans l’espace univers. |
-| <b>Position</b> | Uniquement en mode Distance avec l&#39;origine. Définit la position par rapport au centre. Peut être manipulé en vue 2D. |
+| <b>Position</b> | Uniquement en mode Distance avec l&#39;origine. Définit la position par rapport au centre. Peut être manipulé dans la vue 2D. |
 | <b>Distance avec l&#39;origine</b> <i>0.0 - 20.0</i> | Uniquement en mode Distance avec l&#39;origine. Définit la distance par rapport à l’origine et affecte la taille visible de la sphère. |
 | <b>Mode colorimétrique de la forme</b> <i>RGB, Température (Kelvin), Entrée d&#39;image</i> | Choisissez la méthode à utiliser pour définir la couleur de la forme. Image Input permet d&#39;utiliser le deuxième emplacement d&#39;entrée. |
 | <b>Couleur</b> <i>(valeur de couleur)</i> | Uniquement avec le mode colorimétrique de la forme défini sur RGB. Choisit la couleur de la forme. |
@@ -82,10 +82,10 @@ La Sphère lumineuse est très polyvalente et dispose d&#39;options qui lui perm
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-ex.gif" />
+            <img src="sphere-light.resources/sphere-light-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/spherelight-ex1.png" />
+            <img src="sphere-light.resources/sphere-light-03.png" />
         </td>
     </tr>
 </table>

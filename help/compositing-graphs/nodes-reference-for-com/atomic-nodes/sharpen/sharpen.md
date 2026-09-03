@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Netteté pour améliorer les détails et les contours de la texture afin de créer des détails de surface nets et définis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Accentuer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud plus net](sharpen.resources/sharpen-4.png "Icône de nœud plus net")
+![Icône de nœud plus net](sharpen.resources/sharpen-01.png "Icône de nœud plus net")
 
 <b>Entrée :</b> Noeuds atomiques
 
@@ -56,4 +56,4 @@ Détermine si le canal Alpha de l’image doit être accentué ou laissé intact
 
 ## Exemples
 
-![Nœud plus net - Exemple 1](sharpen.resources/sharpen-ex.png "Nœud plus net - Exemple 1")
+![Nœud plus net - Exemple 1](sharpen.resources/sharpen-02.png "Nœud plus net - Exemple 1")

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Nuages 2 pour générer des motifs de nuages intermédiaires afin de créer des effets de texture atmosphérique et volumétrique.
+description: Utilisez le nœud Nuages 2 pour générer des motifs de nuages intermédiaires afin de créer des effets de texture atmosphériques et volumétriques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nuages 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nuages 2 - Icône](clouds-2.resources/clouds_2.png "Nuages 2 - Icône"){width="200px"}
+![Nuages 2 - Icône](clouds-2.resources/clouds-2-01.png "Nuages 2 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Variante des <b>nuages</b> rugueux bruits.
+Variante des bruits grossiers de <b>nuages</b>.
 
 Voir aussi : [Nuages 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-1/clouds-1.md), [Nuages 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-3/clouds-3.md)
 
@@ -69,12 +69,12 @@ Voir aussi : [Nuages 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuages 2 - Exemple 1](clouds-2.resources/clouds_2_1.png "Nuages 2 - Exemple 1"){zoomable="yes"}
+![Nuages 2 - Exemple 1](clouds-2.resources/clouds-2-02.png "Nuages 2 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuages 2 - Exemple 2](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif "Nuages 2 - Exemple 2"){zoomable="yes"}
+![Nuages 2 - Exemple 2](clouds-2.resources/clouds-2-03.gif "Nuages 2 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Voir aussi : [Nuages 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuages 2 - Exemple 3](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif "Nuages 2 - Exemple 3"){zoomable="yes"}
+![Nuages 2 - Exemple 3](clouds-2.resources/clouds-2-04.gif "Nuages 2 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuages 2 - Exemple 4](clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif "Nuages 2 - Exemple 4"){zoomable="yes"}
+![Nuages 2 - Exemple 4](clouds-2.resources/clouds-2-05.gif "Nuages 2 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

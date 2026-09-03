@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Étoile pour créer des motifs en forme d’étoile qui rayonnent à partir d’un point central pour créer des effets de texture décoratifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -24,9 +24,9 @@ ht-degree: 15%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](starburst.resources/starburst.png){width="128px"}
+![](starburst.resources/starburst-01.png){width="128px"}
 
-<b>Entrée :</b> Générateurs De Textures > Motifs
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Génère un effet d’étoile simple, avec des paramètres de réglage disponibl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="starburst.resources/starburst-ex.gif" />
+            <img src="starburst.resources/starburst-02.gif" />
         </td>
     </tr>
 </table>

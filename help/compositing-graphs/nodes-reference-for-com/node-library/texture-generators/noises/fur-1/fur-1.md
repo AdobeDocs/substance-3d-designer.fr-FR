@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Fourrure 1 pour générer des textures de fourrure de base afin de créer des effets de cheveux, de tissus et de matières fibreuses.
+description: Utilisez le nœud Fourrure 1 pour générer des textures de fourrure de base afin de créer des effets de cheveux, de tissus et de matériaux fibreux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fourrure 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-1.resources/fur-1.png){width="128px"}
+![](fur-1.resources/fur-1-01.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Description
 
-Cela génère un bruit de type fourrure droite.
+Cela génère un type de bruit à fourrure droite.
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Cela génère un bruit de type fourrure droite.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-1.resources/fur-1-ex.gif" />
+            <img src="fur-1.resources/fur-1-02.gif" />
         </td>
     </tr>
 </table>

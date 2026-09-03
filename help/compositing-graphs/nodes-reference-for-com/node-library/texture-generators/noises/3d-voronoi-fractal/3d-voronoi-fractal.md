@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de 3D voronoi fractal pour générer des motifs Voronoi fractals en fonction de la position 3D des textures volumiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D voronoi fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -62,7 +62,7 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 | <b>Niveau Max</b> <i>Nombre entier</i> | <i>niveau de répétition</i> maximum utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif <i>plus riche</i> avec une variation sur davantage de plages de fréquences. |
 | <b>Rugosité</b> <i>Flotter</i> | Contrôle l&#39;<i>équilibre</i> entre les <i>niveaux de répétition</i> bas et élevés dans le motif fractal.<br><br><i>Remarque</i> : une valeur de <b>0</b> entraîne une sortie <i>non alignée</i> avec d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu.<br><br><i>Remarque 2</i> : ce paramètre est disponible uniquement lorsque le paramètre <b>Mode de fusion</b> est défini sur <i>Ajouter</i>. |
 | <b>Lacunarité</b> <i>Flotter</i> | Contrôle la façon dont le motif fractal appliqué <i>remplit l&#39;espace</i>. Une valeur <i>plus élevée</i> entraîne <i>moins d&#39;espaces</i> dans le motif et un bruit <i>plus dense</i>. |
-| <b>Opacité globale</b> <i>Flotter</i> | Contrôle la <i>plage</i> des valeurs du bruit de Perlin 3D fractal à partir de 0. |
+| <b>Opacité globale</b> <i>Flotter</i> | Contrôle la <i>plage</i> des valeurs de bruit de Perlin 3D fractal de 0. |
 | <b>Courbe Arrondie</b> <i>Flotter</i> | Arrondit la <i>pente</i> autour de chaque point du bruit pour le rendre <i>convexe</i>.<br><br><i>Remarque</i> : ce paramètre n&#39;est pas disponible lorsque le paramètre <b>Style</b> est défini sur <i>Edge</i>. |
 | <b>Échelle de distance</b> <i>Flotter</i> | Ajuste la <i>distance du dégradé</i> autour de chaque point du bruit. |
 | <b>Mode Distance</b> <i>Nombre entier</i> | Définit la méthode pour <i>calculer le gradient de distance</i> autour de chaque point du bruit :<br><br>- <i>euclidien</i><br>- <i>Manhattan</i><br>- <i>Tchebychev</i><br>- <i>Minkowski</i> |
@@ -70,31 +70,31 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 | <b>Mode de fusion</b> <i>Nombre entier</i> | Définit la méthode de fusion des valeurs de <i>cellules se chevauchant</i> dans l&#39;espace 3D :<br><br>-<i>Ajouter</i> : ajouter les valeurs<br>-<i>Max</i> : conserver la <i>valeur la plus élevée</i><br>-<i>Min</i> : conserver la <i>valeur la plus basse</i> |
 | <b>Style</b> <i>Nombre entier</i> | Définit la méthode <i>de rendu des données</i> du bruit fractal 3D de Voronoi, en tenant compte du fait que le bruit est fondé sur un ensemble de points dans l&#39;espace 3D :<br><br>- <i>F1</i> : la distance au <i>point le plus proche</i> dans l&#39;espace 3D<br>- <i>F2</i> : la distance au <i>deuxième point le plus proche</i> dans l&#39;espace 3D<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Bord</i> : le <i>bord entre chaque cellule</i> du bruit dans l&#39;espace 3D<br>- <i>Couleur aléatoire</i> : attribuez une <i>couleur plate aléatoire</i> à chaque cellule du bruit dans l&#39;espace 3D |
 | <b>Thickness Edge</b> <i>Flotter</i> | Ajuste le thickness des contours détectés entre les cellules du bruit fractal 3D Voronoi. Les arêtes sont détectées dans les axes X, Y et Z. Certaines épaisseurs peuvent donc augmenter plus rapidement que d&#39;autres en fonction de la <i>profondeur</i> des cellules.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Style</b> est défini sur <i>Arête</i>. |
-| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit de Voronoï 3D fractal de sorte que son motif résultant <i>se répète</i> dans les axes X, Y et Z. |
+| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit de Voronoï 3D fractal de sorte que son motif résultant <i>se répète</i> sur les axes X, Y et Z. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
         </td>
     </tr>
 </table>

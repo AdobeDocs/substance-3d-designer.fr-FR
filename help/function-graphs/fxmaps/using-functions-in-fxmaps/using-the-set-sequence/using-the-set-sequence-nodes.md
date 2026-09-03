@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les nœuds SetSequence dans FXMaps pour créer des motifs séquentiels et des variations de procédure.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilisation des nœuds SetSequence
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Lorsque vous travaillez avec des fonctions dans <b>FX-Maps</b>, vous vous retrou
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœuds Set et Sequence](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Nœuds Set et Sequence")
+![Nœuds Set et Sequence](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-01.png "Nœuds Set et Sequence")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Par défaut, la variable définie par ce nœud est *uniquement* accessible dans 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Définir le nœud](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Définir le nœud")
+![Définir le nœud](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-02.png "Définir le nœud")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Dans cet exemple, le nom de la variable a été défini sur **`myVariable`** et 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Exemple de nœud")
+![Exemple de nœud](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-03.png "Exemple de nœud")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ La sortie de la *deuxième branche* est ensuite transmise à la sortie du nœud.
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Nœud de séquence](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Nœud de séquence")
+![Nœud de séquence](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-04.png "Nœud de séquence")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Toutefois, avant cela, la variable `<b>myVariable</b>` est définie avec une val
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud de séquence](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Exemple de nœud de séquence")
+![Exemple de nœud de séquence](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-05.png "Exemple de nœud de séquence")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Les nœuds de **séquence** peuvent être *chaînés* pour contrôler le flux d&
 
 Par exemple, vous pouvez *définir* une variable en premier, *mettre à jour* sa valeur à un moment ultérieur, puis *lire* sa valeur finale, tout en vous assurant que ces actions se produisent *dans un ordre spécifique*.
 
-![Nœud de séquence chaîné](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Nœud de séquence chaîné")
+![Nœud de séquence chaîné](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-06.png "Nœud de séquence chaîné")
 
 ## Visibilité variable
 
@@ -148,7 +148,7 @@ Nous allons maintenant faire fonctionner tout le calcul dans le paramètre <b>Co
 </td>
 <td style="border: 0;" valign="top">
 
-![Propriétés du quadrant](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Propriétés du quadrant")
+![Propriétés du quadrant](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-07.png "Propriétés du quadrant")
 
 </td>
 </tr>
@@ -167,24 +167,24 @@ Notez que la propriété **Position** est déjà définie par une valeur aléato
 </td>
 <td style="border: 0;" valign="top">
 
-![Fonction Couleur/Luminosité du quadrant](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Fonction Couleur/Luminosité du quadrant")
+![Fonction Couleur/Luminosité du quadrant](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-08.png "Fonction Couleur/Luminosité du quadrant")
 
 </td>
 </tr>
 </table>
 
-![Motifs dispersés](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Motifs dispersés")
+![Motifs dispersés](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-09.png "Motifs dispersés")
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Maintenant que la variable `myRotation` existe et a une valeur, accédons au graphique de la fonction de Substance de la propriété <b>Rotation du motif</b>.
+Maintenant que la variable `myRotation` existe et a une valeur, accédons au graphe de la fonction de Substance de la propriété <b>Rotation du motif</b>.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu de la fonction de paramètre de la rotation du motif](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Menu de la fonction de paramètre de la rotation du motif")
+![Menu de la fonction de paramètre de la rotation du motif](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-10.png "Menu de la fonction de paramètre de la rotation du motif")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Dans la fonction, nous lisons la valeur du paramètre `myRotation` à l&#39;aide
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Sortie Get float de la rotation de motif](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Sortie Get float de la rotation de motif")
+![Sortie Get float de la rotation de motif](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-11.png "Sortie Get float de la rotation de motif")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ Dans la fonction, nous lisons la valeur du paramètre `myRotation` à l&#39;aide
 
 La luminosité contrôle désormais également la rotation.
 
-![Motifs pivotés](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Motifs pivotés")
+![Motifs pivotés](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-12.png "Motifs pivotés")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Modifier la palette de couleurs pour ajuster et transformer les palettes de couleurs extraites des textures.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modifier la palette de couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](modify-color-palette.resources/ModifyColorPalette.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](modify-color-palette.resources/modify-color-palette-01.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -82,18 +82,18 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 
 ## Exemples
 
-![Modifier la palette de couleurs : exemple 1](modify-color-palette.resources/modify_color_palette_example_1.png "Modifier la palette de couleurs : exemple 1"){zoomable="yes"}
+![Modifier la palette de couleurs : exemple 1](modify-color-palette.resources/modify-color-palette-02.png "Modifier la palette de couleurs : exemple 1"){zoomable="yes"}
 
-![Modifier la palette de couleurs : exemple 2](modify-color-palette.resources/modify_color_palette_example_3.png "Modifier la palette de couleurs : exemple 2"){zoomable="yes"}
+![Modifier la palette de couleurs : exemple 2](modify-color-palette.resources/modify-color-palette-03.png "Modifier la palette de couleurs : exemple 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cercle spline pour créer des splines circulaires afin de générer des motifs et des formes arrondis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cercle spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-circle.resources/spline-circle-icon.png "Icône de nœud")
+![Icône de nœud](spline-circle.resources/spline-circle-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -45,7 +45,7 @@ Génère une spline unique en forme de cercle.
 
 |  |  |
 |:---|:---|
-| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d&#39;entrée sous forme d&#39;image en niveaux de gris. |
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
 | <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
@@ -96,12 +96,12 @@ Génère une spline unique en forme de cercle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-circle.resources/SplineCircle-Variant1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-circle.resources/spline-circle-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-circle.resources/SplineCircle-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-circle.resources/spline-circle-03.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Génère une spline unique en forme de cercle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple 3](spline-circle.resources/SplineCircle-Variant2.jpg "Exemple 3")
+![Exemple 3](spline-circle.resources/spline-circle-04.jpg "Exemple 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple 4](spline-circle.resources/SplineCircle-Variant3.jpg "Exemple 4")
+![Exemple 4](spline-circle.resources/spline-circle-05.jpg "Exemple 4")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Exposition pour régler les niveaux d’exposition dans les environnements HDRI afin de contrôler la luminosité et l’éclairage globaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exposition
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](exposure.resources/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-01.png){width="250px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## Description
 
-Réglez l’exposition de l’image d&#39;entrée. Éclaircit ou assombrit les photos HDR selon le concept de valeur « stop », comme dans un logiciel de retouche photo.
+Réglez l’exposition de l’image d’entrée. Éclaircit ou assombrit les photos HDR selon le concept de valeur « stop », comme dans un logiciel de retouche photo.
 
 </td>
 </tr>

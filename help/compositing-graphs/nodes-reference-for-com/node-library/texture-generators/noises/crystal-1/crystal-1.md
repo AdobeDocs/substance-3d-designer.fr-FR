@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Crystal 1 pour générer des motifs de cristal afin de créer des effets de texture cristalline et à facettes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cristal 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crystal-1.resources/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1-01.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -54,7 +54,7 @@ Génère un bruit de type Worlye Voronoi, avec une mesure de distance légèreme
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="crystal-1.resources/crystal-1-ex.gif" />
+            <img src="crystal-1.resources/crystal-1-02.gif" />
         </td>
     </tr>
 </table>

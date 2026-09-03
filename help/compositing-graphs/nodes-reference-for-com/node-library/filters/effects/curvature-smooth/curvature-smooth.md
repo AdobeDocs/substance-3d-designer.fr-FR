@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lissage de Courbure pour générer des maps curvatures lisses à partir de maps height pour l'extraction des détails de surface.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Lissage de courbure
+title: Courbure lisse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# Lissage de courbure
+# Courbure lisse
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud Arrondi de Courbure](curvature-smooth.resources/CurvatureSmooth.png "Icône de nœud Arrondi de Courbure"){width="200px"}
+![Icône de nœud Arrondi de Courbure](curvature-smooth.resources/curvature-smooth-01.png "Icône de nœud Arrondi de Courbure"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -79,11 +79,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_blend_example_1_before">
+      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_blend_example_1_after">
+      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Lissage de courbure : Exemple 2"){zoomable="yes"}
+![Lissage de courbure : Exemple 2](curvature-smooth.resources/curvature-smooth-04.jpg "Lissage de courbure : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Lissage de courbure : Exemple 3"){zoomable="yes"}
+![Lissage de courbure : Exemple 3](curvature-smooth.resources/curvature-smooth-05.jpg "Lissage de courbure : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_blend_example_4_before">
+      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_blend_example_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_blend_example_4_after">
+      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_blend_example_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Lissage de courbure : Exemple 4"){zoomable="yes"}
+![Lissage de courbure : Exemple 4](curvature-smooth.resources/curvature-smooth-08.jpg "Lissage de courbure : Exemple 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Lissage de courbure : Exemple 5"){zoomable="yes"}
+![Lissage de courbure : Exemple 5](curvature-smooth.resources/curvature-smooth-09.jpg "Lissage de courbure : Exemple 5"){zoomable="yes"}
 
 </td>
 </tr>

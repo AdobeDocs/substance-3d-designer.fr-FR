@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dégradé de Dirt pour générer des motifs de dirt basés sur des dégradés afin de créer des effets d’altération et d’accumulation directionnels.
+description: Utilisez le nœud Dégradé de Dirt pour générer des motifs de dirt basés sur un dégradé afin de créer des effets directionnels d'altération et d'accumulation.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: dégradé de dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dégradé de Dirt - Icône](dirt-gradient.resources/dirt_gradient.png "Dégradé de Dirt - Icône"){width="200px"}
+![Dégradé de Dirt - Icône](dirt-gradient.resources/dirt-gradient-01.png "Dégradé de Dirt - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Variation des bruits granuleux de <b>Dirt</b>, avec un dégradé directionnel de retrait.
+Variation des bruits granuleux de <b>Dirt</b>, avec un dégradé de retrait directionnel.
 
 Voir aussi : [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md), [Dirt 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-2/dirt-2.md), [Dirt 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md), [Dirt 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md), [Dirt 5](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)
 
@@ -67,12 +67,12 @@ Voir aussi : [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 1](dirt-gradient.resources/dirt_gradient_1.png "Dégradé de Dirts - Exemple 1"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 1](dirt-gradient.resources/dirt-gradient-02.png "Dégradé de Dirts - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dégradé de Dirts - Exemple 2"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 2](dirt-gradient.resources/dirt-gradient-03.gif "Dégradé de Dirts - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Voir aussi : [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dégradé de Dirts - Exemple 3"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 3](dirt-gradient.resources/dirt-gradient-04.gif "Dégradé de Dirts - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dégradé de Dirts - Exemple 4"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 4](dirt-gradient.resources/dirt-gradient-05.gif "Dégradé de Dirts - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flood Fill à Index pour remplir des régions avec des valeurs d’index afin de créer des motifs numérotés et étiquetés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill à l’index
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-index.resources/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Flood Fill à l’index convertit chaque cellule Flood Fill en une valeur correspondant à son numéro d’index, en commençant par 0 dans le coin supérieur gauche. Il peut être utilisé pour renvoyer des teintes en niveaux de gris sous une forme normalisée (0,0 à 1,0, divisé par autant de cellules que le Flood Fill en trouve) ou sous la forme d’une valeur HDR non répartie (0 à n où n est le nombre de cellules).
+Flood Fill à l’index convertit chaque cellule Flood Fill en une valeur correspondant à son numéro d’index, en commençant par 0 dans le coin supérieur gauche. Il peut être utilisé pour renvoyer des teintes en niveaux de gris sous une forme normalisée (0,0 à 1,0, divisé par autant de cellules que celles trouvées par Flood Fill) ou sous la forme d’une valeur HDR non répartie (0 à n où n est le nombre de cellules).
 
 En outre, le Flood Fill à Index utilise des [valeurs](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), renvoyant la quantité de formes trouvées et la table de données interne facultative.
 
@@ -65,7 +65,7 @@ En outre, le Flood Fill à Index utilise des [valeurs](../../../../../values-com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-index.resources/flood-fill-ex02.jpg" />
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
         </td>
     </tr>
 </table>

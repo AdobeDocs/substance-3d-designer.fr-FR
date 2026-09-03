@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Brut d’Usure/salissures Scratches pour ajouter des motifs de rayures bruts afin de créer des effets d’usure et d’endommagement importants.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures de Scratches bruts
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grunge-scratches-rough-01.jpg){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -69,10 +69,10 @@ Le nœud **Usure/salissures Scratches Rough** génère une carte usure/salissure
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
+            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
+            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-03.jpg" />
         </td>
     </tr>
 </table>

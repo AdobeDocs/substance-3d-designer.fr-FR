@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Découvrez les spécifications de format des tracés et la structure des données utilisées par les nœuds de tracé et de spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spécifications de format des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Toutes les données d&#39;un pixel dans la partie &#39;supérieure&#39; sont sé
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Tracés de données codées en polygone](paths-format-specifications.resources/PathsPolygon_Data.jpg "Tracés de données codées en polygone")
+![Tracés de données codées en polygone](paths-format-specifications.resources/paths-format-specifications-01.jpg "Tracés de données codées en polygone")
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Si certains tracés sont vides, ils comptent toujours ici. Vous pouvez donc l’
 
 Taille de pixel de ce document (c&#39;est-à-dire exactement `Float2(1,1) / $size`).
 
-Cela est utile lors de la lecture des tracés à partir d&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou d&#39;un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), par exemple, dont la taille de sortie est différente.
+Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou d&#39;un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), par exemple, dont la taille de sortie est différente.
 
 <b>W</b>
 
@@ -88,13 +88,13 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [Processeur de 
 +++Bas
 <b>XY</b>
 
-Adresse du dernier vertex défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
+Adresse du dernier sommet défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de balayage) à l&#39;adresse du dernier vertex. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
-Inutilisé, doit être Flottant 2(0, 1)
+Inutilisé, doit être Float2(0, 1)
 
 +++
 
@@ -111,10 +111,10 @@ L&#39;en-tête de chemin du Nième chemin sera défini à l&#39;adresse `path\_a
 +++Haut
 <b>X</b>
 
-Nombre de vertex dans ce chemin. Doit être compris dans la plage [0, 16777216].
+Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
 
-Si les vertex de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 vertex.\
-Un chemin avec 0 vertex est un chemin valide.
+Si les sommets de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 sommets.\
+Un tracé avec 0 sommet est un tracé valide.
 
 <b>Y</b>
 
@@ -122,7 +122,7 @@ Indicateur *Est\_fermé* : 1 si le tracé est fermé (par exemple, un cercle), 0
 
 <b>Z</b>
 
-L&#39;index de chemin *N.* Il doit absolument correspondre à *path\_addr* (voir remarque ci-dessous).
+L&#39;index de chemin d&#39;accès *N.* Il doit absolument correspondre à *path\_addr* (voir la note ci-dessous).
 
 <b>W</b>
 
@@ -156,7 +156,7 @@ Formellement, chaque sommet à l&#39;adresse `*vert\_addr*` est défini comme ce
 +++Haut
 <b>XY</b>
 
-Position du sommet. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de carrelage à ce niveau (il peut être géré ou non par la mise en œuvre de chaque filtre), donc les chemins sont supposés être définis sur le plan euclidien.
+La position vertex. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de répétition à ce niveau (elle peut être gérée ou non par la mise en œuvre de chaque filtre), les chemins sont donc supposés être définis sur le plan euclidien.
 
 <b>Z</b>
 
@@ -269,11 +269,11 @@ Veuillez noter que pour plus de simplicité, les informations sur les <b>chemins
 
 Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), dans le paramètre Itérations du troisième nœud Itération, pour obtenir un exemple d&#39;utilisation.
 
-![Cas d’utilisation minimal de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Cas d’utilisation minimal de sample_next")
+![Cas d’utilisation minimal de sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Cas d’utilisation minimal de sample_next")
 
 
 
-![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
+![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
 
 
 

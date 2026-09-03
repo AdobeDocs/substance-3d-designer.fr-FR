@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Découvrez comment activer Substance 3D Designer et gérer les licences pour accéder à toutes les fonctionnalités et capacités.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Activation et licences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Le processus d’activation dépend de l’endroit où vous avez acheté ou acc�
 
 | Edition | Processus d’activation |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/fr/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/fr/account/individual.html) |
+| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/account/individual.html) |
 | Vapeur | Lancez le produit directement depuis votre bibliothèque Steam. |
 | Substance (autonome) | Voir le processus d’activation décrit ci-dessous. |
 
 ## Étapes d’activation (édition Substance)
 
-### UTILISATION DE L’ASSISTANT D’ACTIVATION
+### UTILISATION DE L’ASSISTANT D&#39;ACTIVATION
 
 Trois choix s&#39;offrent à vous :
 
@@ -42,7 +42,7 @@ Trois choix s&#39;offrent à vous :
 >
 > Pour installer le fichier de licence avec l’Assistant d’activation, assurez-vous d’exécuter Designer en tant qu’administrateur et de désactiver temporairement votre antivirus.
 
-![Assistant d&#39;activation](activation-and-licenses.resources/activation-wizard.png "Assistant d&#39;activation")
+![Assistant d&#39;activation](activation-and-licenses.resources/activation-and-licenses-01.png "Assistant d&#39;activation")
 
 ### Activation manuelle
 

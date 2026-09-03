@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mappeur de Flood Fill pour mapper les valeurs sur les régions connectées à l’aide d’algorithmes de remplissage par diffusion pour le traitement de la texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur de mots de Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/floodfill-mapper-gray.png)![](flood-fill-mapper.resources/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -89,7 +89,7 @@ La version Couleur dispose de commandes supplémentaires pour travailler avec le
 | <b>Couleur d&#39;arrière-plan</b> <i>(valeur Niveaux de gris)</i> | Définit la couleur d’arrière-plan sur laquelle les textures sont fusionnées. |
 | <b>Couleur (uniquement pour la version Color)</b> |  |
 | <b>La Map normal</b> <i>Faux/Vrai</i> | Définit pour interpréter l’entrée de motif comme une Map normal. Permet de compenser et de corriger la rotation de l’espace tangente normale. |
-| <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte). Actif uniquement lorsque la Map normal Is a la valeur True. |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte). Actif uniquement lorsque l’option Est mappage normal a la valeur True. |
 | <b>Réglage TSL</b> <i>-1.0 - 1.0</i> | Ajustez la TSL globalement. |
 | <b>TSL aléatoire</b> <i>-1.0 - 1.0</i> | Définissez la randomisation TSL par cellule. |
 | <b>Réglage de l&#39;Alpha</b> <i>-1.0 - 1.0</i> | Définissez le réglage global de l&#39;Alpha, réduit le contraste de l&#39;Alpha. |
@@ -101,10 +101,10 @@ La version Couleur dispose de commandes supplémentaires pour travailler avec le
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/floodfill-mapper-ex01.png" />
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/floodfill-mapper-ex02.jpg" />
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Tons directs gaussiens 2 pour générer des motifs de tons directs gaussiens avancés afin de créer des variations de textures organiques.
+description: Utilisez le nœud Tons directs gaussiens 2 pour générer des motifs de tons directs gaussiens avancés afin de créer des variations de texture organique.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian spots 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Taches gaussiennes 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Taches gaussiennes 2 - Icône](gaussian-spots-2.resources/gaussian_spots_2.png "Taches gaussiennes 2 - Icône"){width="200px"}
+![Taches gaussiennes 2 - Icône](gaussian-spots-2.resources/gaussian-spots-2-01.png "Taches gaussiennes 2 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -33,8 +33,8 @@ ht-degree: 1%
 
 ## Description
 
-Variation des <b>taches gaussiennes</b> lisses des bruits.\
-Basé sur le nœud [bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), avec des dégradés plus étroits et des fréquences plus élevées.
+Variation des bruits lisses de <b>talité gaussienne</b>.\
+Basé sur le nœud [Bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), avec des dégradés plus étroits et des fréquences plus élevées.
 
 Voir aussi : [Taches gaussiennes 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md)
 
@@ -70,12 +70,12 @@ Voir aussi : [Taches gaussiennes 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Taches gaussiennes 2 - Exemple 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "Taches gaussiennes 2 - Exemple 1"){zoomable="yes"}
+![Taches gaussiennes 2 - Exemple 1](gaussian-spots-2.resources/gaussian-spots-2-02.png "Taches gaussiennes 2 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Taches gaussiennes 2 - Exemple 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "Taches gaussiennes 2 - Exemple 2"){zoomable="yes"}
+![Taches gaussiennes 2 - Exemple 2](gaussian-spots-2.resources/gaussian-spots-2-03.gif "Taches gaussiennes 2 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Voir aussi : [Taches gaussiennes 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Taches gaussiennes 2 - Exemple 3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "Taches gaussiennes 2 - Exemple 3"){zoomable="yes"}
+![Taches gaussiennes 2 - Exemple 3](gaussian-spots-2.resources/gaussian-spots-2-04.gif "Taches gaussiennes 2 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Taches gaussiennes 2 - Exemple 4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "Taches gaussiennes 2 - Exemple 4"){zoomable="yes"}
+![Taches gaussiennes 2 - Exemple 4](gaussian-spots-2.resources/gaussian-spots-2-05.gif "Taches gaussiennes 2 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

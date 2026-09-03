@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'ajout de spline pour ajouter plusieurs splines ensemble afin de créer des tracés continus plus longs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ajouter une spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-append.resources/spline-append-icon.png "Icône de nœud")
+![Icône de nœud](spline-append.resources/spline-append-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -91,15 +91,15 @@ L&#39;ordre des listes est conservé, c&#39;est-à-dire que l&#39;ajout d&#39;un
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-append.resources/SplineAppend-Demo.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-append.resources/spline-append-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-append.resources/SplineAppend-Graph.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-append.resources/spline-append-03.jpg "Exemple de nœud 2")
 
 </td>
 </tr>
 </table>
 
-![Démonstration de nœud](spline-append.resources/SplineAppend-Demo2.gif "Démonstration de nœud")
+![Démonstration de nœud](spline-append.resources/spline-append-04.gif "Démonstration de nœud")

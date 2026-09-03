@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
-description: Utilisez le nœud d'Altération de Rouille pour générer des motifs de rouille en fonction de la géométrie du maillage afin de créer des effets réalistes de corrosion des métaux.
+description: Utilisez le nœud Altération de Rouille pour générer des motifs de rouille en fonction de la géométrie du maillage afin de créer des effets de corrosion métallique réalistes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rust Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altération De La rouille
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rust-weathering.resources/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
@@ -81,7 +81,7 @@ ht-degree: 14%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rust-weathering.resources/rust-ex.gif" />
+            <img src="rust-weathering.resources/rust-weathering-02.gif" />
         </td>
     </tr>
 </table>

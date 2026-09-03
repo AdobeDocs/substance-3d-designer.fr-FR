@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Découvrez le workflow essentiel pour créer des matériaux procéduraux dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Présentation du workflow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer est un éditeur basé sur des nœuds. Cela signifie que pr
 
 [types de graphe](#graph-types)
 
-![Flux de données simplifié](workflow-overview.resources/graph-direction.png "Flux de données simplifié")
+![Flux de données simplifié](workflow-overview.resources/workflow-overview-01.png "Flux de données simplifié")
 
 ## Workflow basé sur les nœuds
 
@@ -40,7 +40,7 @@ Travailler dans Designer est différent des autres logiciels de retouche d’ima
 
 Le principal avantage est que votre workflow devient <b>non linéaire</b>. Contrairement aux actions exécutées manuellement qui sont consignées dans une pile de données d&#39;historique, vous pouvez toujours remplacer ou modifier un nœud à tout moment. Si vous estimez que votre tout premier réglage de contraste, qui a affecté le résultat de votre image jusqu’à la fin, a été trop important, vous pouvez toujours revenir en arrière et l’ajuster ou même le découper complètement, sans perdre tout le travail que vous avez effectué par la suite.
 
-![Instances de graphe simplifiées](workflow-overview.resources/sub-graph.png "Instances de graphe simplifiées")
+![Instances de graphe simplifiées](workflow-overview.resources/workflow-overview-02.png "Instances de graphe simplifiées")
 
 ## Workflow d’Instance de graphe
 
@@ -48,7 +48,7 @@ L’instanciation de Graphes est un processus essentiel dans Designer. Il vous p
 
 Pour plus d&#39;informations sur les Instances de graphe dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md), une [section dédiée](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) est disponible à leur sujet dans la documentation.
 
-![Paramètres de Graphe simplifiés](workflow-overview.resources/parameters-5.png "Paramètres de Graphe simplifiés")
+![Paramètres de Graphe simplifiés](workflow-overview.resources/workflow-overview-03.png "Paramètres de Graphe simplifiés")
 
 ## Paramètres personnalisés
 
@@ -62,7 +62,7 @@ Vous trouverez ci-dessous un résumé des trois types de Graphes que vous pouvez
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-04.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Les graphes de Substance sont[le type de graphe le plus largement pris en charge
 Vous trouverez ci-dessous quelques exemples typiques de cas d’utilisation courants.
 
 +++Forme simple
-![Forme simple dans le graphe Substance](workflow-overview.resources/simpleshape.png "Forme simple dans le graphe Substance"){width="512px"}
+![Forme simple dans le graphe Substance](workflow-overview.resources/workflow-overview-05.png "Forme simple dans le graphe Substance"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Le texte portant le numéro ou le thickness du contour peut être exposé à l�
 +++
 
 +++Filtre Réglage
-![Filtre d&#39;ajustement dans le graphique de Substance](workflow-overview.resources/simplefilter.png "Filtre d&#39;ajustement dans le graphique de Substance"){width="512px"}
+![Filtre d&#39;ajustement dans le graphique de Substance](workflow-overview.resources/workflow-overview-06.png "Filtre d&#39;ajustement dans le graphique de Substance"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Les valeurs de contraste définies dans l’histogramme peuvent être affichées
 +++
 
 +++Matière complète
-![Matière complète dans le graphique en Substances](workflow-overview.resources/simplematerial.png "Matière complète dans le graphique en Substances"){width="512px"}
+![matériau total en graphe de Substance](workflow-overview.resources/workflow-overview-07.png "matériau complet en graphe de Substance"){width="512px"}
 
 
 
@@ -120,14 +120,14 @@ Cet exemple utilise les [modes de création de liens](../../interface/the-graph-
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-08.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-### graphiques de fonction de Substance
+### graphes de fonction de Substance
 
-Les fonctions <b>traitent des valeurs uniques</b> (entiers, flottants, vecteurs) au lieu de données d&#39;image (ensembles entiers de pixels). Les fonctions sont également des graphes avec des réseaux de nœuds, mais les [nœuds utilisés](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et l&#39;interface sont différents des [graphes de Substance standard](../../compositing-graphs/substance-compositing-graphs.md). Le workflow est entièrement basé sur <b>des opérations mathématiques</b> et n&#39;affiche aucune vignette d&#39;aperçu d&#39;image, ce qui en fait une méthode de travail <b>beaucoup plus avancée</b> avec Substance 3D Designer.
+Les fonctions <b>traitent des valeurs uniques</b> (entiers, flots, vecteurs) au lieu de données d&#39;image (ensembles entiers de pixels). Les fonctions sont également des Graphes avec des réseaux de nœuds, mais les [nœuds utilisés](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et l&#39;interface sont différents des [graphes de Substance normaux](../../compositing-graphs/substance-compositing-graphs.md). Le workflow est entièrement basé sur <b>des opérations mathématiques</b> et n&#39;affiche aucune vignette d&#39;aperçu d&#39;image, ce qui en fait une méthode de travail <b>beaucoup plus avancée</b> avec Substance 3D Designer.
 
 Les fonctions peuvent être utilisées dans de nombreux contextes différents, les principaux étant de modifier le comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), de créer le comportement de [Processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) et d&#39;utiliser des [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) dans un graphe de Substance.
 
@@ -137,10 +137,10 @@ Les fonctions peuvent être utilisées dans de nombreux contextes différents, l
 
 #### Exemples
 
-Vous trouverez ci-dessous quelques exemples de cas d&#39;utilisation courants des graphiques de fonction de Substance.
+Vous trouverez ci-dessous quelques exemples de cas d’utilisation courants pour les graphes de fonction de Substance.
 
 +++Fonction simple
-![Graphique de fonction simple](workflow-overview.resources/lerpfunction.png "Graphique de fonction simple"){width="256px"}
+![Graphique de fonction simple](workflow-overview.resources/workflow-overview-09.png "Graphique de fonction simple"){width="256px"}
 
 
 
@@ -151,13 +151,13 @@ Cette fonction peut également être écrite en tant que *lerp(0.1, 0.8, Intensi
 +++
 
 +++Fonction avancée
-![Fonction avancée](workflow-overview.resources/pixel-function.png "Fonction avancée"){width="512px"}
+![Fonction avancée](workflow-overview.resources/workflow-overview-10.png "Fonction avancée"){width="512px"}
 
 
 
 Cette fonction avancée montre le fonctionnement interne d&#39;un [processeur de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) conçu pour régler la teinte d&#39;une entrée de table des couleurs en fonction de l&#39;intensité d&#39;une seconde entrée de masque en niveaux de gris.
 
-Il échantillonne les deux entrées avec la variable système « $pos », puis supprime l&#39;Alpha, convertit la valeur de couleur en TSL et modifie la composante de teinte en la multipliant par la valeur de niveaux de gris échantillonnée. Ensuite, il réassemble le vecteur, reconvertit la TSI en RGB et ajoute l’Alpha pour la sortie finale.
+Il échantillonne les deux entrées avec la variable système « $pos », puis supprime l&#39;Alpha, convertit la valeur de couleur en TSL et modifie la composante Teinte en la multipliant par la valeur de niveaux de gris échantillonnée. Ensuite, il réassemble le vecteur, reconvertit la TSI en RGB et ajoute l’Alpha pour la sortie finale.
 
 dans le pseudo-code, il s&#39;agirait d&#39;une fonction beaucoup plus compliquée qui ne tiendrait pas sur une seule ligne.
 

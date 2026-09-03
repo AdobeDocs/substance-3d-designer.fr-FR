@@ -1,7 +1,7 @@
 ---
 title: Atlas en grille des niveaux de gris
-description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Générateur > Motif > Niveaux de gris Atlas en grille
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Générateur > Motif > Niveaux de gris Atlas en grille
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Atlas en grille en niveaux de gris](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "Atlas en grille en niveaux de gris")
+Icône ![Atlas en grille en niveaux de gris](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "Atlas en grille en niveaux de gris")
 
 <b>Entrée :</b> Générateur > Motif
 
@@ -24,7 +24,7 @@ Icône ![Atlas en grille en niveaux de gris](grid-atlas-grayscale.resources/grid
 
 ## Description
 
-Composez jusqu’à 16 images en niveaux de gris sur une grille de taille XY réglable.<br>L&#39;image de l&#39;atlas de sortie peut être échantillonnée à partir d&#39;un nœud [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) ou [Shape splatter mapper grayscale](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md).
+Emportez jusqu&#39;à 16 images en niveaux de gris sur une grille de taille XY réglable.<br>L&#39;image de l&#39;atlas de sortie peut être échantillonnée à partir d&#39;un nœud [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) ou [Shape splatter mapper grayscale](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md).
 
 Voir aussi [Couleur Atlas en grille](../grid-atlas-color/grid-atlas-color.md).
 
@@ -38,11 +38,11 @@ Voir aussi [Couleur Atlas en grille](../grid-atlas-color/grid-atlas-color.md).
 
 |                             |                                |
 |:----------------------------|:-------------------------------|
-| <b>Entrée 1</b> *Niveaux de gris* | #1 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 2</b> *Niveaux de gris* | #2 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 3</b> *Niveaux de gris* | #3 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 4</b> *Niveaux de gris* | #4 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 5</b> *Niveaux de gris* | #5 d’entrée de l’image en niveaux de gris. |
+| <b>Entrée 1</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #1. |
+| <b>Entrée 2</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #2. |
+| <b>Entrée 3</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #3. |
+| <b>Entrée 4</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #4. |
+| <b>Entrée 5</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #5. |
 | <b>Entrée 6</b> *Niveaux de gris* | #6 d’entrée de l’image en niveaux de gris. |
 | <b>Entrée 7</b> *Niveaux de gris* | #7 d’entrée de l’image en niveaux de gris. |
 | <b>Entrée 8</b> *Niveaux de gris* | #8 d’entrée de l’image en niveaux de gris. |
@@ -75,5 +75,5 @@ Voir aussi [Couleur Atlas en grille](../grid-atlas-color/grid-atlas-color.md).
 
 ## Exemples
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Nœud d&#39;Atlas en grille en niveaux de gris dans le contexte d&#39;un graphe" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Nœud d&#39;Atlas en grille en niveaux de gris dans le contexte d&#39;un graphe" style="width: 50%"><br>
 <i>Nœud en niveaux de gris Atlas en grille dans le contexte d&#39;un graphique</i>

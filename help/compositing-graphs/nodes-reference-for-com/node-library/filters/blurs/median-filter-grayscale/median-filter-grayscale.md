@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux de gris du filtre médian pour réduire le bruit et préserver les contours des textures en niveaux de gris.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Filtre médian en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Filtre médian en niveaux de gris : icône](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "Filtre médian en niveaux de gris : icône")
+![Filtre médian en niveaux de gris : icône](median-filter-grayscale.resources/median-filter-grayscale-01.png "Filtre médian en niveaux de gris : icône")
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -75,11 +75,11 @@ Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
       <br><i>Après</i>
     </td>
   </tr>

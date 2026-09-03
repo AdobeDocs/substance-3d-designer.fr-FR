@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Configurez les paramètres de contrôle de version dans les préférences de Substance 3D Designer pour les intégrer à Git et à d’autres systèmes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Contrôle de version
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 Designer offre une intégration Python du système de contrôle de version [Perforce](https://www.perforce.com/) (P4).
 
-L&#39;intégration ajoute un sous-menu « Gestion de versions » personnalisé au menu contextuel des packs dans l&#39;[Explorateur](../../../interface/the-explorer-window/the-explorer-window.md), ainsi que des icônes personnalisées pour correspondre au statut d&#39;un pack dans P4.
+L&#39;intégration ajoute un sous-menu personnalisé « Contrôle de version » au menu contextuel des packs dans l&#39;[Explorateur](../../../interface/the-explorer-window/the-explorer-window.md), ainsi que des icônes personnalisées pour correspondre à l&#39;état d&#39;un pack dans P4.
 
 ## Préparation de P4
 
 Dans [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v), notez le nom et le chemin de l&#39;espace de travail, comme indiqué ci-dessous :
 
-![Informations de l’espace de travail P4V](version-control.resources/p4v-workspace-strings.jpg "Informations de l’espace de travail P4V"){zoomable="yes"}
+![Informations de l’espace de travail P4V](version-control.resources/version-control-01.jpg "Informations de l’espace de travail P4V"){zoomable="yes"}
 
 Dans n&#39;importe quel éditeur de texte ou IDE, ouvrez ce script situé dans l&#39;installation de Designer : &#39;*tools/version\_control/perforce.py*&#39;.
 
@@ -52,9 +52,9 @@ cVerbose = False
 
 ## Configuration dans Designer
 
-La gestion de versions est configurée dans les [paramètres du projet](../../../interface/preferences-window/project-settings/project-settings.md), qui sont disponibles dans les [préférences](../../../interface/preferences-window/preferences-window.md) de Designer.
+Le contrôle de version est configuré dans les [paramètres du projet](../../../interface/preferences-window/project-settings/project-settings.md), qui sont disponibles dans les [préférences](../../../interface/preferences-window/preferences-window.md) de Designer.
 
-Onglet ![&#39;Contrôle de version&#39; dans les paramètres du projet](version-control.resources/p4v-project-settings.jpg "&#39;Contrôle de version&#39; dans les paramètres du projet"){zoomable="yes"}
+Onglet ![&#39;Contrôle de version&#39; dans les paramètres du projet](version-control.resources/version-control-02.jpg "&#39;Contrôle de version&#39; dans les paramètres du projet"){zoomable="yes"}
 
 1. Accédez à Modifier > Préférences.
 1. Accédez à « Projets », sélectionnez le [fichier de projet](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) cible et accédez à l&#39;onglet « Contrôle de version »
@@ -64,11 +64,11 @@ Onglet ![&#39;Contrôle de version&#39; dans les paramètres du projet](version-
    * <b>Nom :</b> entrez le « Nom de l&#39;espace de travail » précédemment récupéré dans P4V
    * <b>Chemin :</b> entrez le « Chemin d&#39;accès de l&#39;espace de travail » que vous avez précédemment récupéré à partir de P4V
 
-![Configuration P4 dans Designer : workspace](version-control.resources/p4v-project-settings-workspace.jpg "Configuration P4 dans Designer : workspace"){zoomable="yes"}
+![Configuration P4 dans Designer : workspace](version-control.resources/version-control-03.jpg "Configuration P4 dans Designer : workspace"){zoomable="yes"}
 
 ### Configuration des actions
 
-Les actions seront disponibles dans le menu contextuel d’un pack dans l’Explorateur. Il existe des actions prédéfinies qui correspondent à la plupart des concepts de l’outil de contrôle de version :
+Les actions seront disponibles dans le menu contextuel d’un pack dans l’Explorateur. Il existe des actions prédéfinies correspondant à la plupart des concepts d’outils de Gestion de versions :
 
 * Tous les libellés d’action peuvent être modifiés selon les besoins.
 * Toutes les actions nécessitent un script pour être valides.
@@ -88,7 +88,7 @@ Un script de démarrage pour toutes les actions est disponible dans l&#39;instal
 1. Sélectionnez le script suivant dans l&#39;installation de Designer : &#39;*tools/version\_control/perforce.py*&#39;
 1. Le script doit être automatiquement configuré pour toutes les autres actions.
 
-![Configuration P4 dans Designer : actions](version-control.resources/p4v-project-settings-actions.jpg "Configuration P4 dans Designer : actions"){zoomable="yes"}
+![Configuration P4 dans Designer : actions](version-control.resources/version-control-04.jpg "Configuration P4 dans Designer : actions"){zoomable="yes"}
 
 ### Configuration d’actions personnalisées
 
@@ -103,9 +103,9 @@ Comme tous les outils de contrôle de version sont différents et incluent de no
 1. Définissez une extension ou un suffixe de fichier de script et le chemin d’accès à l’exécutable de l’interpréteur
 1. Modifiez le script perforce.py pour mettre à jour l&#39;emplacement du binaire « p4 »
 
-![Configuration de P4 dans Designer : interprète](version-control.resources/p4v-project-settings-interpreters.jpg "Configuration de P4 dans Designer : interprète"){zoomable="yes"}
+![Configuration de P4 dans Designer : interprète](version-control.resources/version-control-05.jpg "Configuration de P4 dans Designer : interprète"){zoomable="yes"}
 
-## Comment utiliser le contrôle de version
+## Comment utiliser gestion de versions
 
 1. Création d’un pack
 1. Enregistrez le package sous le répertoire « Chemin d’accès de l’espace de travail »
@@ -123,12 +123,12 @@ Comme tous les outils de contrôle de version sont différents et incluent de no
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   Boîte de dialogue ![&#39;Envoyer&#39;](version-control.resources/p4v-submit.jpg "&#39;Envoyer&#39;"){zoomable="yes"}
+   Boîte de dialogue ![&#39;Envoyer&#39;](version-control.resources/version-control-06.jpg "&#39;Envoyer&#39;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   Boîte de dialogue ![&#39;Revert&#39;](version-control.resources/p4v-revert.jpg "&#39;Revert&#39;"){zoomable="yes"}
+   Boîte de dialogue ![&#39;Revert&#39;](version-control.resources/version-control-07.jpg "&#39;Revert&#39;"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ Le pack contient les icônes suivantes, en fonction de son statut :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icône du pack : à jour](version-control.resources/p4-up-to-date.png "Icône du pack : à jour")
+![Icône du pack : à jour](version-control.resources/version-control-08.png "Icône du pack : à jour")
 
 À jour
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône du pack : Extrait](version-control.resources/p4-checked-out.png "Icône du pack : Extrait")
+![Icône du pack : Extrait](version-control.resources/version-control-09.png "Icône du pack : Extrait")
 
 Extrait
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône du pack : Ajouté](version-control.resources/p4-added.png "Icône du pack : Ajouté")
+![Icône du pack : Ajouté](version-control.resources/version-control-10.png "Icône du pack : Ajouté")
 
 Marqué pour ajout
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône de pack : Pas dans le dépôt](version-control.resources/p4-not-in-depot.png "Icône de pack : Pas dans le dépôt")
+![Icône de pack : Pas dans le dépôt](version-control.resources/version-control-11.png "Icône de pack : Pas dans le dépôt")
 
 Pas en dépôt
 

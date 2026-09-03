@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Endommagement des contours pour générer des masques d'endommagement sur les contours du maillage afin de créer des effets d'usure et de cassure réalistes des contours.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dommages aux contours
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-damages.resources/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -66,7 +66,7 @@ Ce masque représente les dommages infligés aux bords relevés et convexes en f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-damages.resources/edge-damages-ex.gif" />
+            <img src="edge-damages.resources/edge-damages-02.gif" />
         </td>
     </tr>
 </table>

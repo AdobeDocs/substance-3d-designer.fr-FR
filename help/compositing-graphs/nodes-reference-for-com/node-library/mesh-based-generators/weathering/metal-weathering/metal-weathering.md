@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Altération de métal pour ajouter des effets de rouille et de corrosion réalistes aux matériaux métalliques en fonction de la géométrie du maillage.
+description: Utilisez le nœud Météo pour ajouter des effets de rouille et de corrosion réalistes aux matériaux métalliques en fonction de la géométrie du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Metal Weathering
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altération Métallique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](metal-weathering.resources/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
@@ -43,7 +43,7 @@ ht-degree: 14%
 
 |  |  |
 |:---|:---|
-| <b>WS normal</b> <i>Entrée couleur</i> | Espace monde baké Normalmap utilisé pour les effets internes et le masquage. |
+| <b>WS normal</b> <i>Entrée couleur</i> | Baked World Space Normalmap utilisé pour les effets internes et le masquage. |
 | <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ». |
 

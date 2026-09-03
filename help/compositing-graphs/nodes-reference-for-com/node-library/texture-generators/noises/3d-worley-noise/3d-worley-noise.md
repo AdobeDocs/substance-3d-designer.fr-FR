@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit Worley 3D pour générer un bruit Worley en fonction de la position 3D afin de créer des effets de texture volumique.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D Worley Noise
+title: bruit 3D Worley
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 ---
 
 
-# 3D Worley Noise
+# bruit 3D Worley
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-worley-noise.resources/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley-noise-01.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -48,7 +48,7 @@ Il s’agit de l’un des bruits les plus polyvalents et avancés de la biblioth
 | <b>Échelle</b> <i>1 - 64</i> | Définissez l’échelle globale de l’effet. |
 | <b>Taille</b> <i>0.0 - 1.0</i> | Effectuez une mise à l’échelle non uniforme sur les axes X, Y et Z séparément. |
 | <b>Mode</b> <i>Euclidean, Manhattan, Chebyshev, Minkowski</i> | Modifiez la mesure de distance. Permet d’utiliser des types de bruits très différents. |
-| <b>Nombre de Minkowski</b> <i>0.0 - 20.0</i> | Seulement avec la mesure de distance de Minkowski. Fusionne entre différents types de mesures. |
+| <b>Nombre de Minkowski</b> <i>0.0 - 20.0</i> | Seulement avec la mesure de distance de Minkowski. Fusions entre différents types de mesures. |
 | <b>Style</b> <i>F1, F2, F2-F1, Bordure, Couleur aléatoire</i> | Définissez les valeurs mathématiques de la combinaison Métrique. Permet de nombreuses autres combinaisons. |
 | <b>Largeur de la bordure</b> <i>0.0 - 1.0</i> | Lorsque la combinaison de bordures mathématiques est active, contrôle la largeur de la bordure. |
 | <b>Arrondi</b> <i>0.0 - 1.0</i> | Disponible uniquement avec les modes F1, F2 et F2-F1. Définit la position médiane du niveau. |
@@ -59,16 +59,16 @@ Il s’agit de l’un des bruits les plus polyvalents et avancés de la biblioth
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-04.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-05.png" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
-description: Utilisez la bibliothèque de Substance 3D Designer pour accéder aux nœuds prédéfinis, aux matières et au contenu personnalisé et les gérer.
+description: Utilisez la bibliothèque de Substance 3D Designer pour accéder aux paramètres prédéfinis de nœuds, aux matériaux et au contenu personnalisé, et les gérer.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Library
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bibliothèque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Cette page présente le panneau **Bibliothèque** de Substance 3D Designer, sa mise en page ainsi que les outils qu&#39;il propose pour la recherche et le filtrage de contenu.
 
-![Bibliothèque](the-library.resources/library-main.png "Bibliothèque")
+![Bibliothèque](the-library.resources/the-library-01.png "Bibliothèque")
 
 ## Vue d’ensemble
 
-Le panneau <b>Bibliothèque</b> est un *gestionnaire de ressources* à double affichage, où vous pouvez trouver et rassembler tous vos *actifs* avec lesquels vous devez travailler dans votre graphique.
+Le panneau <b>Bibliothèque</b> est un *gestionnaire de ressources* à double affichage, dans lequel vous pouvez rechercher et rassembler tous vos *actifs* avec lesquels vous devez travailler dans votre graphe.
 
 Il surveille *les dossiers* sur votre disque dur ou sur un réseau qui sont ajoutés à la liste des [chemins de contrôle de bibliothèque](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary) dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md). Toute modification apportée à ces dossiers (ajout, suppression et mise à jour du contenu) est *reportée* sur la <b>bibliothèque</b>.
 
@@ -39,13 +39,13 @@ Il surveille *les dossiers* sur votre disque dur ou sur un réseau qui sont ajou
 
 La **bibliothèque** peut surveiller toutes les ressources prises en charge par [Ressources](../../resources/resources.md) :
 
-* Graphiques provenant de [packs de Substances](../../getting-started/overview/overview.md) (SBS) et de [archives de Substances](../../getting-started/overview/overview.md) (SBSAR)
+* Graphes de [packs de Substances](../../getting-started/overview/overview.md) (SBS) et [archives de Substances](../../getting-started/overview/overview.md) (SBSAR)
 * [Images bitmap](../../resources/bitmap-resource/bitmap-resource.md)
 * [Images vectorielles](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Graphes fonctionnels](../../function-graphs/function-graphs.md)
 * [Fichiers AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 * [Polices](../../resources/font-resource/font-resource.md)
-* [Scènes 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [scènes 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
 
 Le panneau est divisé en 2 parties principales :
 
@@ -103,7 +103,7 @@ Vous pouvez sélectionner *plusieurs* éléments dans la section <b>Contenu</b> 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Suppression d&#39;un nœud de la bibliothèque](the-library.resources/library-create-node.gif "Suppression d&#39;un nœud de la bibliothèque")
+![Suppression d&#39;un nœud de la bibliothèque](the-library.resources/the-library-02.gif "Suppression d&#39;un nœud de la bibliothèque")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Vous pouvez sélectionner *plusieurs* éléments dans la section <b>Contenu</b> 
 ### Recherche d’une ressource par nom
 
 La barre de <b>recherche</b>, située en haut à gauche de la section <b>Contenu</b>, vous permet de rechercher *n’importe quelle ressource par nom*. Lors de la recherche de contenu de cette manière, la sélection actuelle dans la section <b>Catégories</b> est ignorée et la *totalité du contenu* dans la <b>bibliothèque</b> est recherchée.\
-Vous pouvez filtrer les résultats de la recherche par *type de graphe*, à l&#39;aide de l&#39;icône ![](the-library.resources/library-icon-search-filter.png) <b>Filtrer par...</b> située en regard de la barre <b>Rechercher</b>.
+Vous pouvez filtrer les résultats de la recherche par *type de graphe*, à l&#39;aide de l&#39;icône ![](the-library.resources/the-library-03.png) <b>Filtrer par...</b> située en regard de la barre <b>Rechercher</b>.
 
 >[!NOTE]
 >
 > La barre de recherche tient compte du nom de l&#39;actif que vous recherchez, mais également des *balises* que l&#39;actif peut contenir ou de la *catégorie* à laquelle il appartient.\
 > Par exemple, la saisie de « *Normal* » répertorie tous les actifs pouvant être utilisés pour générer ou modifier une map normal. C&#39;est un bon moyen de découvrir de nouveaux nœuds, et donc de nouvelles possibilités !
 
-![Recherche de ressources dans la bibliothèque](the-library.resources/library-search-2.png "Recherche de ressources dans la bibliothèque")
+![Recherche de ressources dans la bibliothèque](the-library.resources/the-library-04.png "Recherche de ressources dans la bibliothèque")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Vous pouvez filtrer les résultats de la recherche par *type de graphe*, à l&#3
 
 ### Visualisation des ressources de la bibliothèque
 
-En utilisant le bouton déroulant ![](the-library.resources/library-icon-view-mode.png) <b>Mode d&#39;affichage</b>, vous pouvez sélectionner la taille d&#39;affichage des éléments de contenu.
+En utilisant le bouton déroulant ![](the-library.resources/the-library-05.png) <b>Mode d&#39;affichage</b>, vous pouvez sélectionner la taille d&#39;affichage des éléments de contenu.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Mode d’affichage des ressources de bibliothèque](the-library.resources/library-display-modes.png "Mode d’affichage des ressources de bibliothèque")
+![Mode d’affichage des ressources de bibliothèque](the-library.resources/the-library-06.png "Mode d’affichage des ressources de bibliothèque")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ En utilisant le bouton déroulant ![](the-library.resources/library-icon-view-mo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Le bouton ![](the-library.resources/library-icon-toggle-label.png) **Activer/Désactiver les étiquettes** vous permet d&#39;afficher ou de masquer les étiquettes des nœuds.
+Le bouton ![](the-library.resources/the-library-07.png) **Activer/Désactiver les étiquettes** vous permet d&#39;afficher ou de masquer les étiquettes des nœuds.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bouton à bascule des libellés](the-library.resources/library-toggle-label.png "Bouton à bascule des libellés")
+![Bouton à bascule des libellés](the-library.resources/the-library-08.png "Bouton à bascule des libellés")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Lorsque vous placez le curseur sur un élément de contenu, une info-bulle s&#39
 </td>
 <td style="border: 0;" valign="top">
 
-![Info-bulle des informations sur les ressources](the-library.resources/library-item-tooltip.png "Info-bulle des informations sur les ressources")
+![Info-bulle des informations sur les ressources](the-library.resources/the-library-09.png "Info-bulle des informations sur les ressources")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Lorsque vous placez le curseur sur un élément de contenu, une info-bulle s&#39
 
 ### Favoris
 
-Vous pouvez ajouter n&#39;importe quel élément de la section <b>Contenu</b> à votre liste <b>Favoris</b> à l&#39;aide du bouton ![](the-library.resources/library-icon-favoritepng.png) <b>Ajouter aux favoris</b>. Le bouton vous permet également de *supprimer* du contenu de cette liste s&#39;il a déjà été ajouté.\
-Lorsque du contenu est ajouté à cette liste, il est disponible dans la catégorie <b>Favoris</b> de la <b>Bibliothèque</b> et s&#39;affiche dans le *haut* de la liste de menus <b>Nœud</b> lors de la recherche d&#39;un nœud dans le graphique, à condition que les termes de recherche y correspondent.
+Vous pouvez ajouter n&#39;importe quel élément de la section <b>Contenu</b> à votre liste <b>Favoris</b> à l&#39;aide du bouton ![](the-library.resources/the-library-10.png) <b>Ajouter aux favoris</b>. Le bouton vous permet également de *supprimer* du contenu de cette liste s&#39;il a déjà été ajouté.\
+Lorsque du contenu est ajouté à cette liste, il est disponible dans la catégorie <b>Favoris</b> de la <b>Bibliothèque</b> et s&#39;affiche dans le *haut* de la liste de menus <b>Nœud</b> lors de la recherche d&#39;un nœud dans le graphe, à condition que les termes de recherche y correspondent.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoris dans la bibliothèque](the-library.resources/library-favourites.png "Favoris dans la bibliothèque")
+![Favoris dans la bibliothèque](the-library.resources/the-library-11.png "Favoris dans la bibliothèque")
 
 </td>
 </tr>

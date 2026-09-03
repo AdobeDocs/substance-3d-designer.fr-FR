@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Pont de spline pour relier des textures entre deux splines afin de créer des connexions homogènes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pont Spline (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "Icône de nœud")
+![Icône de nœud](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -108,11 +108,11 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>

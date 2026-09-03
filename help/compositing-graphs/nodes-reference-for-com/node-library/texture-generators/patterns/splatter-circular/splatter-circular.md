@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Circulaire éclaboussé pour effectuer une dispersion de formes circulaires entre les textures afin de créer des motifs organiques et aléatoires.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Éclaboussure circulaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter-circular.resources/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-01.png){width="128px"}
 
-![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-02.png){width="128px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -81,7 +81,7 @@ Les deux entrées sont facultatives.
 | <b>Facteur de spirale</b> <i>0.0 - 1.0</i> | Transforme les anneaux en spirales, où chaque carreau est placé à un rayon légèrement croissant. |
 | <b>Répartition</b> <i>0.0 - 2.0</i> | Définit le nombre de tours effectués par un anneau. Cela peut être augmenté au-delà de ses limites. |
 | <b>Décalage dans la direction</b> <i>0.0 - 1.0</i> | Éloigne chaque motif du centre selon son angle. L’effet dépend en grande partie de l’option Angle aléatoire ou ressemble simplement à un multiplicateur pour le rayon. |
-| <b>Décalage global</b> <i>0.0 - 1.0</i> | Translate la forme entière. |
+| <b>Décalage global</b> <i>0.0 - 1.0</i> | Traduit la forme entière. |
 | <b>Taille</b> |  |
 | <b>Connecter les motifs</b> <i>Faux/Vrai</i> | Rend la longueur des éléments de motif dépendante du rayon, ce qui signifie que chaque forme doit toucher la précédente et la suivante. |
 | <b>Taille (Connectée)</b> <i>0.0 - 1.0</i> | Modifie la taille globale de chaque motif. Une fois connecté, il est relatif au rayon total. |
@@ -118,7 +118,7 @@ Les deux entrées sont facultatives.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter-circular.resources/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/splatter-circular-03.png" />
         </td>
     </tr>
 </table>

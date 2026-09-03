@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d’extraction de chrominance pour extraire les informations de chrominance des textures à des fins d’analyse et de traitement des couleurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extrait de chrominance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](chrominance-extract.resources/chrominance-extract.png)
+![](chrominance-extract.resources/chrominance-extract-01.png)
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -44,7 +44,7 @@ Extrait la valeur de chrominance de l’entrée. La luminance est alors supprim�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="chrominance-extract.resources/chrominance-example.png" />
+            <img src="chrominance-extract.resources/chrominance-extract-02.png" />
         </td>
     </tr>
 </table>

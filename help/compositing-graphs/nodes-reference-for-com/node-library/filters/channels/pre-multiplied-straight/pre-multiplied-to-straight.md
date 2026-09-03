@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Prémultiplié vers Direct pour convertir les textures alpha prémultipliées au format alpha direct.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pré-multiplié en direct
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pre-multiplied-to-straight.resources/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiplied-to-straight-01.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Canaux
 

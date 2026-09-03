@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Couleur de Diffusion pour appliquer des effets de diffusion des couleurs afin de créer des transitions et des mélanges de couleurs lisses.
+description: Utilisez le nœud Couleur de diffusion pour appliquer des effets de diffusion des couleurs afin de créer des transitions et un mélange de couleurs lisses.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur de diffusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Couleur de diffusion
+# Couleur de la diffusion
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-01.png){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -49,7 +49,7 @@ Seules les couleurs des pixels correspondant au masque sont diffusées ; les aut
 |:---|:---|
 | <b>Source</b> <i>Couleur</i> | Image à diffuser. |
 | <b>Masquer</b> <i>Niveaux de gris</i> | Masque de diffusion : les pixels blancs sont échantillonnés dans <i>Source</i> et diffusés dans les pixels noirs. L’image doit être en noir et blanc. Si le masque comprend des dégradés, la valeur de découpe est 0,5. |
-| <b>Intensité</b> <i>Niveaux de gris</i> | Définit localement la force du processus de diffusion. Cette carte doit être <i>contrastée</i> pour un effet perceptible. |
+| <b>Intensité</b> <i>Niveaux de gris</i> | Définit localement la force du processus de diffusion appliqué. Cette carte doit être <i>contrastée</i> pour un effet perceptible. |
 
 <a name="parameters"></a>
 
@@ -68,32 +68,32 @@ Seules les couleurs des pixels correspondant au masque sont diffusées ; les aut
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-07.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-08.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-09.jpg" />
         </td>
     </tr>
 </table>

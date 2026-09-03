@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Position de la texture 3D pour extraire les informations de position des textures 3D afin de créer des effets spatiaux et des mappages.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Position de la texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
 
 <b>Entrée :</b> Filtre > Effet
 
@@ -46,10 +46,10 @@ Cela peut être utilisé pour cuire des bruits 3D ou fonctionne comme un *atlas 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
         </td>
     </tr>
 </table>

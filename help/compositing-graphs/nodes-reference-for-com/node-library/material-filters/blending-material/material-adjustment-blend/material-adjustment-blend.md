@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion Réglage matière pour fusionner les réglages de matière entre les matières afin d'affiner les effets composites.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion ajustement matière
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-adjustment-blend.resources/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Fusion
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 Ce nœud permet de régler tous les canaux d’un matériau complet, en fonction d’un masque. Il est conçu pour faciliter et accélérer un flux de production matériel complet.
 
-Cette option est utile lorsque vous souhaitez ajuster quelques couches d’un matériau (comme éclaircir une rugosité diffuse ou l’assombrir) en fonction du même masque.
+Cette option est utile lorsque vous souhaitez ajuster quelques couches d’un matériau (comme éclaircir une diffusion et assombrir une rugosité) en fonction du même masque.
 
 </td>
 </tr>
@@ -63,11 +63,11 @@ Cette option est utile lorsque vous souhaitez ajuster quelques couches d’un ma
 | <b>Intensité</b> <i>0.0 - 1.0</i> | Atténue l’intensité normale |
 | <b>Specular</b> | Effectue des opérations de réglage sur la couche de Specular, dans les zones définies par le masque. |
 | <b>Émissif</b> | Effectue des opérations de réglage sur la couche émissive, dans les zones définies par le masque. |
-| <b>Lustre</b> | Effectue des opérations de réglage sur la couche Lustre, dans les zones définies par le masque. |
-| <b>Rugosité</b> | Effectue des opérations de réglage sur la couche de rugosité, dans les zones définies par le masque. |
-| <b>Métallique</b> | Effectue des opérations de réglage sur la couche métallique, dans les zones définies par le masque. |
+| <b>Lustre</b> | Effectue des opérations de réglage sur la couche de Brillance, dans les zones définies par le masque. |
+| <b>Rugosité</b> | Effectue des opérations de réglage sur la couche de Rugosité, dans les zones définies par le masque. |
+| <b>Métallique</b> | Effectue des opérations de réglage sur la couche Métallique, dans les zones définies par le masque. |
 | <b>Specular level</b> | Effectue des opérations de réglage sur la couche de Specular level, dans les zones définies par le masque. |
-| <b>Occlusion ambiante</b> | Effectue des opérations de réglage sur la couche Occlusion ambiante, dans les zones définies par le masque. |
+| <b>Occlusion ambiante</b> | Effectue des opérations de réglage sur la couche Ambient occlusion, dans les zones définies par le masque. |
 | <b>Height</b> | Effectue des opérations de réglage sur la couche Height, dans les zones définies par le masque. |
 | <b>Opacité</b> | Effectue des opérations de réglage sur la couche d’opacité, dans les zones définies par le masque. |
 | <b>Masque d&#39;identifiant de couleur</b> <i>Faux/Vrai</i> | Définissez pour utiliser le Masque d&#39;identifiant de couleur au lieu du masque en niveaux de gris. |

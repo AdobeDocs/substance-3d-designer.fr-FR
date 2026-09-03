@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes qui empêchent Substance 3D Designer de démarrer et trouvez des solutions pour lancer l’application.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: L’application ne démarre pas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Les utilisateurs Linux qui démarrent Designer à partir de Steam peuvent défin
 
 Une fois cela fait, Designer peut être démarré à partir de Steam normalement pour toutes les sessions futures.
 
-![Options de lancement de vapeur](application-does-not-start.resources/steam_linux_launch_option.jpg "Options de lancement de vapeur")
+![Options de lancement de vapeur](application-does-not-start.resources/application-does-not-start-01.jpg "Options de lancement de vapeur")
 
 
 

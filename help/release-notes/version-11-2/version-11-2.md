@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 11.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Un tout nouveau type de graphe, le graphe du modèle de Substance, est disponibl
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Il s’agit d’une première version, alors attendez-vous à quelques limitatio
 
 Les versions Adobes de Substance 3D Designer possèdent une nouvelle fonctionnalité Envoyer vers, qui vous permet d’envoyer rapidement des actifs à d’autres applications Substance 3D. Plus besoin de publier au format SBSAR et de charger des fichiers individuels, Envoyer vers résout ce problème en un clic.
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Aucune version de Designer n’est terminée sans nouveaux nœuds. S&#39;appuyan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Aucune version de Designer n’est terminée sans nouveaux nœuds. S&#39;appuyan
 
 La fonction RTAO offre un résultat encore meilleur à un AO précis et correct que le nœud HBAO précédent.
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 L’option Caustiques génère des caustiques physiquement corrects avec lancer de rayon basés sur une carte de hauteur, comme un simple bruit de Perlin. Parfait pour créer des textures de flipbook animées réalistes pour des réverbérations en temps réel.
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 RT Shadow génère des ombres précises avec lancer de rayons, avec quelques commandes simples.
 
@@ -92,17 +92,17 @@ RT Shadow génère des ombres précises avec lancer de rayons, avec quelques com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,21 +110,21 @@ RT Shadow génère des ombres précises avec lancer de rayons, avec quelques com
 
 RT Irradiance est le plus avancé des nouveaux nœuds. Il effectue une irradiation par lancer de rayons à partir d’un matériau avec une carte d’height, une carte d’environnement et/ou une carte d’émission.
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 Cela signifie que vous pouvez créer des textures avec un éclairage précuit, comme pour les projets stylisés, ou vous pouvez appliquer une lueur de lancer de rayons rebondissant sur votre carte de hauteur.
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
-Enfin, il y a le nœud Bent Normal. Par rapport à une conversion normale normale ordinaire, ce nœud utilise AO pour modifier votre mappage normal afin d&#39;utiliser ces informations d&#39;AO. Avant que vous n&#39;ayez besoin de bakers de maillage pour créer l&#39;effet, ce nœud le fait dans l&#39;espace de la texture pour vous.
+Enfin, il y a le nœud Bent Normal. Par rapport à une conversion normale normale ordinaire, ce nœud utilise AO pour modifier votre mappage normal afin d&#39;utiliser ces informations d&#39;AO. Avant que vous n&#39;ayez besoin de boulons de maillage pour créer l&#39;effet, ce nœud le fait dans l&#39;espace de texture pour vous.
 
-### Shader Adobe Standard Material
+### Adobe Standard Material Shader
 
-Dans nos efforts pour unifier les matériaux et le rendu dans nos applications, le nouveau shader par défaut dans la vue 3D est le Shader d’Adobe Standard Material. À première vue, il n’est pas différent de l’ancien shader de Métallique rugosité PBR (il s’en inspire de toute façon), mais il prend en charge de nombreux canaux plus exotiques, ce qui vous permet de les prévisualiser sans avoir besoin d’un moteur de rendu externe.
+Dans le cadre de nos efforts pour unifier les matériaux et le rendu dans nos applications, le nouvel ombrage par défaut dans la vue 3D est l’ombrage de matériau standard Adobe. À première vue, il n’est pas différent de l’ancien ombrage de rugosité métallique PBR (il s’en inspire de toute façon), mais il prend en charge de nombreux canaux plus exotiques, ce qui vous permet de les prévisualiser sans avoir besoin d’un moteur de rendu externe.
 
 ### Modifications de l’interface utilisateur
 
-De petites modifications ont été apportées à l’interface utilisateur, mais les plus évidentes sont un menu Fichier > Nouveau pack amélioré, qui vous permet de choisir le type de graphe, ainsi que des boutons améliorés et mis à jour sur la barre d’outils principale, offrant des raccourcis pour les nouveaux types de Graphe et leur envoi à d’autres applications.
+De petites modifications ont été apportées à l’interface utilisateur, mais les plus évidentes sont un menu Fichier > Nouveau pack amélioré, qui vous permet de choisir le type de graphique, ainsi que des boutons améliorés et mis à jour dans la barre d’outils principale, offrant des raccourcis pour les nouveaux types de graphique et leur envoi à d’autres applications.
 
 ## Tutoriels
 
@@ -142,7 +142,7 @@ Vous trouverez ci-dessous nos tutoriels vidéo couvrant les nouvelles fonctionna
 * [Modèles de Substance] Nouveaux graphiques de modèles de Substance pour créer des modèles 3D procéduraux
 * [Contenu] Ajout de nouveaux mappages d’environnement HDR
 * [Contenu] Nouveau nœud Courbé normal
-* [Content] Nouveau nœud d&#39;Occlusion ambiante RT
+* [Content] Nouveau nœud d&#39;Ambient occlusion RT
 * [Content] Nouveau nœud RT Caustics
 * [Content] Nouveau nœud RT Caustics
 * [Contenu] Nouveau nœud d&#39;irradiation RT
@@ -150,10 +150,10 @@ Vous trouverez ci-dessous nos tutoriels vidéo couvrant les nouvelles fonctionna
 * [Interopérabilité] Envoyer la ressource vers Painter, lance Painter et ajoute ou met à jour la ressource dans la bibliothèque (nécessite une formule Substance 3D Adobe)
 * [Interopérabilité] Envoyer la ressource vers Sampler, lance Sampler et ajoute ou met à jour la ressource dans la bibliothèque (nécessite une formule Substance 3D Adobe)
 * [Interopérabilité] Parcourez votre ressource dans Adobe Bridge et lancez Bridge à l’emplacement de la ressource (nécessite une formule Substance 3D Adobe).
-* [ASM] Prise en charge du nouveau matériau Adobe Standard Material (ASM) dans Graphe Substance et MDL Graph
+* [ASM] Soutien du nouvel Adobe Standard Material (ASM) dans le Graphe Substance et le Graphe MDL
 * [ASM] Ajouter des modèles ASM
-* [ASM] Ajouter OpenGL Shader pour ASM
-* [ASM] Définir ASM Shader comme shader par défaut
+* [ASM] Ajout de Shader OpenGL pour ASM
+* [ASM] Définir le shader ASM comme Shader par défaut
 * [Général] Agréger tous les fichiers temporaires dans le répertoire temporaire défini par l’utilisateur
 * [Général] Nouvelle commande Enregistrer une copie sous
 * [Général] Menu Fichier de mise à jour

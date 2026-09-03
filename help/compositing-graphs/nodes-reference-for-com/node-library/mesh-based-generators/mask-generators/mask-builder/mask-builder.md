@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Concepteur de masque pour combiner plusieurs entrées de masque et créer des motifs de masque complexes pour des effets de matière.
+description: Utilisez le nœud Concepteur de masque pour combiner plusieurs entrées de masque et créer des motifs de masque complexes pour des effets de matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Mask Builder
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur de masques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mask-builder.resources/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -35,9 +35,9 @@ ht-degree: 10%
 
 Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Il s’agit de la version Designer de Painter Mask Builder.
 
-Il s&#39;agit d&#39;un outil complexe conçu comme un constructeur de masques global, basé sur des maps bakées, des paramètres utilisateur et des modèles et cartes d&#39;usure/salissures. Il est principalement conçu comme un nœud très avancé et à contrôle total pour se fondre dans le dirt de pli et l&#39;usure des bords. Ce nœud est suffisamment puissant pour imiter tous les autres générateurs de masques.
+Il s&#39;agit d&#39;un outil complexe conçu comme un constructeur de masques global, basé sur des maps bakées, des paramètres utilisateur et des modèles et cartes d&#39;usure/salissures. Il est principalement conçu comme un nœud très avancé et à contrôle total pour se fondre dans le dirt de pli et l&#39;usure des bords. Ce nœud est assez puissant pour imiter tous les autres Générateurs de masque.
 
-Aucun frein n&#39;est explicitement requis, mais plus vous fournissez, plus ce nœud est capable de faire.
+Aucun bake n&#39;est explicitement requis, mais plus vous fournissez de ressources, plus ce nœud est capable d&#39;effectuer de tâches.
 
 </td>
 </tr>

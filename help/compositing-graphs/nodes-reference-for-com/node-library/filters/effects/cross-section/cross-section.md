@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Section transversale pour créer des masques de section transversale basés sur des cartes d’height pour des effets de coupe et de découpe.
+description: Utilisez le nœud Section transversale pour créer des masques de section transversale basés sur des maps height d’effets de coupe et de découpe.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Cross Section
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Section transversale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône de nœud ![&#39;Cross section&#39;](cross-section.resources/cross-section-2.png "&#39;Cross section&#39; icon"){width="200px"}
+Icône de nœud ![&#39;Cross section&#39;](cross-section.resources/cross-section-01.png "&#39;Cross section&#39; icon"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,13 +33,13 @@ Icône de nœud ![&#39;Cross section&#39;](cross-section.resources/cross-section
 
 ## Description
 
-Trace le profil en coupe d&#39;une entrée. Peut être ajusté à la verticale ou à l’horizontale, et dispose de commandes pour le style de dessin et le décalage et la mise à l’échelle du graphique.
+Trace le profil en coupe d&#39;une entrée. Peut être ajusté à la verticale ou à l’horizontale et dispose de commandes pour le style de dessin, le décalage de graphe et la mise à l’échelle.
 
 </td>
 </tr>
 </table>
 
-Ce nœud est particulièrement utile pour le débogage et l&#39;analyse des images de hauteur. vous offrant une vue de profil parfaite en pixels, sans avoir besoin de nœuds complexes ou d’une configuration longue et moins précise dans la vue 3D.
+Ce nœud est particulièrement utile pour le débogage et l&#39;analyse des images de hauteur. vous offrant une vue de profil au pixel près, sans avoir besoin de nœuds complexes ou d’une configuration longue et moins précise dans la vue 3D.
 
 Il peut également être utilisé pour créer des formes et des silhouettes 2D difficiles à réaliser autrement. Combiné avec un [nœud de courbe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)il peut visualiser directement le profil de courbe appliqué à un dégradé linéaire.
 
@@ -49,14 +49,14 @@ Il peut également être utilisé pour créer des formes et des silhouettes 2D d
 
 |  |  |
 |:---|:---|
-| <b>Coordonnée de la section transversale</b> *Flotter* | Définissez la coordonnée d’échantillonnage de la tranche. Il peut s&#39;agir de coordonnées X ou Y en fonction de l&#39;axe de section. |
-| <b>Axe de section</b> *Nombre entier* | Définissez si la tranche est verticale ou horizontale. |
-| <b>Afficher l&#39;assistant</b> *Booléen* | Active une incrustation affichant la position de la section sur l’image d’entrée. |
+| <b>Coordonnée de la section transversale</b> *Flotter* | Définissez la coordonnée d’échantillonnage de la tranche. Il peut s’agir de coordonnées X ou Y en fonction de l’Axe de la section. |
+| <b>axe de section</b> *Nombre entier* | Définissez si la tranche est verticale ou horizontale. |
+| <b>Afficher l&#39;assistant</b> *Booléen* | Active une incrustation affichant la position de la section sur l&#39;image d&#39;entrée. |
 | <b>Paramètres d&#39;Assistant</b> |  |
-| <b>Échelle de l&#39;assistant</b> *Flotter* | Taille de l’incrustation exprimée sous la forme d’un multiple, où 1,0 représente l’image entière. |
+| <b>Échelle d&#39;Assistant</b> *Flotter* | Taille de l’incrustation exprimée sous la forme d’un multiple, où 1,0 représente l’image entière. |
 | <b>Position Assistant</b> *Float2* | Position (X, Y) de l’incrustation dans l’image de sortie, où (0,0, 0,0) est en haut à gauche et (1,0, 1,0) est en bas à droite. |
 | <b>Échelle d&#39;Height</b> *Flotter* | Réduit l’échelle du graphique entier. Utile pour l’affichage HDR. |
-| <b>Décalage de l&#39;Height</b> *Flotter* | Décale le graphe entier vers le haut ou vers le bas. Utile pour l’affichage HDR. |
+| <b>Décalage de l&#39;Height</b> *Flotter* | Déplace le graphique entier vers le haut ou vers le bas. Utile pour l’affichage HDR. |
 | <b>Style de dessin</b> *Nombre entier* | Basculer entre le remplissage uni et le dessin au trait. |
 | <b>Inverser le dégradé</b> *Booléen* | Si le style de dessin est défini sur *Dégradé* ou *Dégradé miroir*, vous permet d&#39;inverser ce dégradé sans affecter l&#39;arrière-plan.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Gradient&#39; ou &#39;Gradient mirrored&#39;. |
 | <b>Lisse/Polygonale</b> *Booléen* | Bascule la forme entre un profil lisse parfait ou un polygone irrégulier.<br><br>*Remarque :* disponible uniquement lorsque &#39;Drawing style&#39; est défini sur &#39;Solid&#39;, &#39;Gradient&#39; ou &#39;Gradient mirrored&#39;. |
@@ -69,10 +69,10 @@ Il peut également être utilisé pour créer des formes et des silhouettes 2D d
 
 ## Exemples
 
-![Section transversale : exemple 1](cross-section.resources/cross-section-example-01.gif "Section transversale : exemple 1")
+![Section transversale : exemple 1](cross-section.resources/cross-section-02.gif "Section transversale : exemple 1")
 
-![Section transversale : exemple 2](cross-section.resources/cross-section-example-02.gif "Section transversale : exemple 2")
+![Section transversale : exemple 2](cross-section.resources/cross-section-03.gif "Section transversale : exemple 2")
 
-![Section transversale : exemple 3](cross-section.resources/cross-section-example-03.png "Section transversale : exemple 3")
+![Section transversale : exemple 3](cross-section.resources/cross-section-04.png "Section transversale : exemple 3")
 
-![Section transversale : exemple 4](cross-section.resources/cross-section-example-04.png "Section transversale : exemple 4")
+![Section transversale : exemple 4](cross-section.resources/cross-section-05.png "Section transversale : exemple 4")

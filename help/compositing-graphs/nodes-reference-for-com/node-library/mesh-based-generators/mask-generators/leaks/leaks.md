@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Fuites pour générer des motifs de fuite en fonction de la géométrie du maillage afin de créer des taches d'eau et des effets de fluide.
+description: Utilisez le nœud Fuites pour générer des motifs de fuite basés sur la géométrie du maillage afin de créer des taches d'eau et des effets de fluide.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leaks
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fuites
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks.png){width="128px"}
+![](leaks.resources/leaks-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -35,9 +35,9 @@ ht-degree: 3%
 
 Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce nœud représente des stries de dirt et de crasse qui fuient à partir des arêtes vives. Comme les traînées sont générées avec la position bakée, elles s’étendent toujours vers le bas.
+Ce nœud représente des stries de dirt et de crasse qui fuient à partir des arêtes vives. Comme les traînées sont générées avec la position cuite, elles s&#39;étendent toujours vers le bas.
 
-Assurez-vous de modifier le masque de variation : comme il détermine le placement des traînées, il peut avoir une influence beaucoup plus grande qu’avec d’autres Générateurs de masque.
+Assurez-vous de modifier le masque de variation : comme il détermine le placement des traînées, il peut avoir une influence beaucoup plus grande qu’avec d’autres générateurs de masques.
 
 </td>
 </tr>
@@ -49,10 +49,10 @@ Assurez-vous de modifier le masque de variation : comme il détermine le placeme
 
 |  |  |
 |:---|:---|
-| <b>Position</b> <i>Entrée en niveaux de gris</i> | Carte de position bakée, utilisée pour les directions des stries. Obligatoire ! |
+| <b>Position</b> <i>Entrée en niveaux de gris</i> | Carte de position ancrée, utilisée pour l’orientation des stries. Obligatoire ! |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour la mise en place des stries. Obligatoire ! |
 | <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Recommandé, mais vous pouvez utiliser un blanc plat à la place. |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> | Baké Espace monde Normalmap, utilisé pour la direction de la strie. Obligatoire ! |
+| <b>Espace monde normal</b> <i>Entrée couleur</i> | Carte normale de l&#39;espace mondial au four, utilisée pour la direction des stries. Obligatoire ! |
 | <b>Masque de variation</b> <i>Entrée en niveaux de gris</i> | Masque de variation facultatif, activez en définissant le remplacement sur True. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
@@ -74,7 +74,7 @@ Assurez-vous de modifier le masque de variation : comme il détermine le placeme
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-ex.gif" />
+            <img src="leaks.resources/leaks-02.gif" />
         </td>
     </tr>
 </table>

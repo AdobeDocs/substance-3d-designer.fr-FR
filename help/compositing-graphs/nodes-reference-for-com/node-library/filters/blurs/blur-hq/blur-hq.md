@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Blur HQ pour appliquer des effets de flou de haute qualité aux textures afin de créer des effets de flou lisses et de qualité professionnelle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou HQ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](blur-hq.resources/blur-hq-1.png){width="128px"}
+![](blur-hq.resources/blur-hq-01.png){width="128px"}
 
-![](blur-hq.resources/blur-hq-grayscale.png){width="128px"}
+![](blur-hq.resources/blur-hq-02.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Description
 
-Applique un flou gaussien de haute qualité au résultat. Bien meilleure qualité que le [flou de boîte atomique standard](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Applique un flou gaussien de haute qualité au résultat. Bien meilleure qualité que le [flou de boîte atomique standard](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Blur HQ » pour les entrées Color ou « Blur HQ Grayscale » pour les entrées Grayscale.
 
@@ -57,7 +57,7 @@ Important : assurez-vous d’utiliser la version appropriée pour vos commentair
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="blur-hq.resources/hqblur-example.gif" />
+            <img src="blur-hq.resources/blur-hq-03.gif" />
         </td>
     </tr>
 </table>

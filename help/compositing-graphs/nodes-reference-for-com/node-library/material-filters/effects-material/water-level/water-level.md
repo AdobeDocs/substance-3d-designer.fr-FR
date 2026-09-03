@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveau d'eau pour fusionner des matériaux en fonction de l'height du niveau d'eau afin de créer des effets d'eau réalistes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveau de l'eau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](water-level.resources/water-level.png){width="128px"}
+![](water-level.resources/water-level-01.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Effets
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Description
 
-Effet tout-en-un qui ajoute un niveau d’eau à une entrée de matériau complète. Pour que l’effet fonctionne, le matériau d’entrée doit disposer d’une carte de hauteur de qualité supérieure. Le résultat est PBR-correct.
+Effet tout-en-un qui ajoute un niveau d’eau à une entrée de matière complète. Pour que l’effet fonctionne, la matière d’entrée doit avoir une image de hauteur correcte et de haute qualité. Le résultat est PBR-correct.
 
 </td>
 </tr>

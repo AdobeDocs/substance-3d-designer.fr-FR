@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Splashes Dusty pour créer des motifs d’éclaboussures poussiéreuses afin d’ajouter des détails sur la texture usée.
+description: Utilisez le nœud Usure/salissures Splashes Dusty pour créer des motifs d’éclaboussures poussiéreuses afin d’ajouter des détails de texture usées par le temps.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures Splashes Dusty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grunge-splashes-dusty-01.jpg){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -60,10 +60,10 @@ Le nœud **Usure/salissures Splashes Dusty** génère une carte usure/salissures
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-03.jpg" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Flou de Pente pour appliquer des effets de flou directionnel en fonction des pentes de courbe d’height pour créer un flou directionnel.
+description: Utilisez le nœud Flou de Pente pour appliquer des effets de flou directionnels en fonction des pentes de map height de création de flou directionnel.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou de pente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](slope-blur.resources/slope-blur.png){width="128px"}
+![](slope-blur.resources/slope-blur-01.png){width="128px"}
 
-![](slope-blur.resources/slope-blur-grayscale.png){width="128px"}
+![](slope-blur.resources/slope-blur-02.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Description
 
-Effectue un flou avancé de haute qualité lorsque l’Anisotropie/la direction est pilotée par une « carte de Pente » en niveaux de gris. Imaginez-le comme l&#39;effet Flou de Pente suivant les pentes de votre carte de Pente comme s&#39;il s&#39;agissait d&#39;une carte de hauteur, similaire à la [Déformation directionnelle](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (sur laquelle il est basé en interne).
+Effectue un flou avancé de haute qualité lorsque l’Anisotropie/la direction est pilotée par une « carte de Pente » en niveaux de gris. Imaginez-le comme l&#39;Effet de flou de Pente suivant les pentes de votre mappage de Pente comme s&#39;il s&#39;agissait d&#39;une carte de hauteur, similaire à la [Déformation directionnelle](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (sur laquelle elle est basée en interne).
 
 Il s’agit de l’un des flous les plus intéressants et puissants de Designer. Il peut être utilisé pour obtenir des effets très intéressants et inattendus, tels que l&#39;écaillage et l&#39;altération des bords ou le maculage et la fuite de dirt ou de rouille.
 
@@ -68,10 +68,10 @@ Important : assurez-vous d’utiliser la version appropriée pour vos commentair
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slopeblur01.gif" />
+            <img src="slope-blur.resources/slope-blur-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slopeblur02.gif" />
+            <img src="slope-blur.resources/slope-blur-04.gif" />
         </td>
     </tr>
 </table>

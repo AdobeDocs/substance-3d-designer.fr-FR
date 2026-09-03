@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Polygone des tracés pour créer des tracés polygonaux à partir de données de sommet pour la génération de motifs géométriques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polygone des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](paths-polygon.resources/paths-polygon-icon.png "Icône de nœud")
+![Icône de nœud](paths-polygon.resources/paths-polygon-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -63,12 +63,12 @@ Utilisez le nœud [Transformation 2D du tracé](../../../../../../compositing-gr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](paths-polygon.resources/paths-polygon-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](paths-polygon.resources/paths-polygon-03.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

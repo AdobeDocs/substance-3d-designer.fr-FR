@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Somme fractale 3 pour générer un bruit fractal de trois octaves afin de créer des motifs de texture organique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMME FRACTALE 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Somme fractale 3 - Icône](fractal-sum-3.resources/fractal_sum_3.png "Somme fractale 3 - Icône"){width="200px"}
+![Somme fractale 3 - Icône](fractal-sum-3.resources/fractal-sum-3-01.png "Somme fractale 3 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -65,12 +65,12 @@ Voir aussi : [Somme fractale de base](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Somme fractale 3 - Exemple 1](fractal-sum-3.resources/fractal_sum_3_1.png "Somme fractale 3 - Exemple 1"){zoomable="yes"}
+![Somme fractale 3 - Exemple 1](fractal-sum-3.resources/fractal-sum-3-02.png "Somme fractale 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Somme fractale 3 - Exemple 2](fractal-sum-3.resources/noise_fractal_sum_3_v2_speed0.6_aniso0.gif "Somme fractale 3 - Exemple 2"){zoomable="yes"}
+![Somme fractale 3 - Exemple 2](fractal-sum-3.resources/fractal-sum-3-03.gif "Somme fractale 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Luminosité du contraste pour régler les valeurs de contraste et de luminosité afin de contrôler les plages de luminosité et de contraste.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: LuminositéContraste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 13%
@@ -24,9 +24,9 @@ ht-degree: 13%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](contrast-luminosity.resources/contrast-luminosity-color.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-01.png){width="128px"}
 
-![](contrast-luminosity.resources/contrast-luminosity-grayscale.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-02.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -55,7 +55,7 @@ Un réglage simple du contraste et de la luminosité.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="contrast-luminosity.resources/contrastluminosity-optim.gif" />
+            <img src="contrast-luminosity.resources/contrast-luminosity-03.gif" />
         </td>
     </tr>
 </table>

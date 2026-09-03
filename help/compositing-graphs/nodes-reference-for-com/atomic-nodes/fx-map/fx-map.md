@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: Utilisez le nœud FX-Map pour appliquer des graphiques de fonction aux textures afin de créer des motifs et des effets procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,12 +24,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : FX-Map](fx-map.resources/fxmap.png "Nœud atomique : FX-Map"){width="200px"}
+![Nœud atomique : FX-Map](fx-map.resources/fx-map-01.png "Nœud atomique : FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le FX-Map peut répliquer et subdiviser une image ou un motif saisi à plusieurs reprises, et contrôler la répartition de chaque motif grâce à des paramètres et des fonctions logiques.
+La FX-Map peut répliquer et subdiviser une image ou une entrée de motif encore et encore, et contrôler la distribution de chaque motif grâce à des paramètres et des fonctions logiques.
 
 C&#39;est l&#39;un des nœuds atomiques les plus puissants, ainsi que le nœud le plus complexe disponible dans l&#39;application.
 
@@ -102,4 +102,4 @@ Gardez à l&#39;esprit que contrairement aux autres nœuds, la majorité du comp
 
 ## Exemples
 
-![](fx-map.resources/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

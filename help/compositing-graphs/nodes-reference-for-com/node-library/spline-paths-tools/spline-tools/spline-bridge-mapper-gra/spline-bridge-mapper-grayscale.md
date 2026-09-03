@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux de gris du mappeur de pont de splines pour relier des textures entre deux splines avec le mappage de niveaux de gris.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur de pont spline en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Icône de nœud")
+![Icône de nœud](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -91,11 +91,11 @@ Etablit une correspondance entre une image en niveaux de gris et une liste de sp
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Etablit une correspondance entre une image en niveaux de gris et une liste de sp
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Etablit une correspondance entre une image en niveaux de gris et une liste de sp
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

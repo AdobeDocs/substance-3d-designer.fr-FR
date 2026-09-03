@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue 3D - fenêtre contextuelle Displacement
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
                 <li>Tessellation</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Fenêtre contextuelle displacement dans la vue 3D" />
+            <img src="./displacement.resources/displacement-01.gif" alt="Fenêtre contextuelle displacement dans la vue 3D" />
         </td>
     </tr>
 </table>
@@ -73,9 +73,9 @@ Lors de l&#39;utilisation du rendu [Pixelliseur](../3d-renderers/3d-renderers.md
 valeur de subdivision.
 
 La subdivision est contextuelle : elle est optimisée de sorte que seule une surface présente une *valeur d&#39;height non uniforme* ou
-une *carte d&#39;height non plate* sera subdivisée, quelle que soit la valeur du paramètre.
+une *map height non plate* sera subdivisée, quelle que soit la valeur du paramètre.
 
-### Par matière
+### Par matériau
 
 Lors de l&#39;utilisation du moteur de rendu [OpenGL](../3d-renderers/3d-renderers.md#opengl), chaque matériau de la scène a une valeur de subdivision *distincte*, qui
 est appliqué à *toutes les faces utilisant ce matériau*.
@@ -83,16 +83,16 @@ est appliqué à *toutes les faces utilisant ce matériau*.
 La subdivision n&#39;est pas contextuelle : les surfaces sont subdivisées le nombre de fois spécifié indépendamment de leur courant
 Valeur ou texture height.
 
-## Visualisation de la facettisation
+## Visualisation de la tessellation
 
-Vous pouvez visualiser le résultat de la facettisation en vérifiant la **structure filaire** du maillage.<br>
+Vous pouvez visualiser le résultat de la tessellation en vérifiant la **structure filaire** du maillage.<br>
 Les étapes permettant d’afficher la structure filaire de chaque moteur de rendu sont décrites ci-dessous :
 
 ### Pixellisation/Pathtracer GPU
 
-Utilisez la commande <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **Paramètres de rendu**
+Utilisez la commande <img src="../3d-view.resources/3d-view-18.png" width="22" /> **Paramètres de rendu**
  , puis dans le dock Propriétés, accédez à **Paramètres de rendu > Mode diagnostic** et sélectionnez la **Structure filaire
- (espace universel)**.
+ Option (espace monde)**.
 
 ### OpenGL
 

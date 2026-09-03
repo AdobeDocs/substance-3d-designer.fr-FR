@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
-description: Utilisez le nœud fractal du Bruit Perlin 3D pour générer des motifs de bruit Perlin fractal dans l’espace 3D afin de créer des textures volumiques détaillées.
+description: Utilisez le nœud fractal Bruit de Perlin 3D pour générer des motifs de bruit de Perlin fractal dans l’espace 3D afin de créer des textures volumiques détaillées.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise Fractal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bruit de Perlin 3D fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise-fractal.resources/3dperlinnoisefractal.png){width="200px"}
+![](3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-01.png){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Description
 
-Le nœud <b>Fractal de Bruit Perlin 3D</b> génère un bruit Perlin <i>fractal</i> dans l&#39;espace 3D en fonction de l&#39;entrée <b>Carte de position</b>.
+Le nœud <b>Fractal de bruit Perlin 3D</b> génère un bruit Perlin <i>fractal</i> dans l&#39;espace 3D en fonction de l&#39;entrée <b>Carte de position</b>.
 
 Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) en entrée au lieu d&#39;une map bakée réelle (comme illustré dans l&#39;exemple ci-dessous).
 
@@ -53,8 +53,8 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 |:---|:---|
 | <b>Inverser</b> <i>Booléen</i> | Inverse l’image de sortie. |
 | <b>Échelle</b> <i>Flotter</i> | Contrôle l’échelle du bruit de Perlin 3D fractal. |
-| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit de Perlin 3D fractal dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet d&#39;<i>étirement ou de compression</i>. |
-| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la <i>position</i> du bruit de Perlin 3D fractal dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit de Perlin 3D fractal sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet d&#39;<i>étirement ou de compression</i>. |
+| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la <i>position</i> du bruit de Perlin 3D fractal sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
 | <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un <i>effet de déformation</i> appliqué sur le bruit de Perlin 3D fractal. |
 | <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du <i>motif de déformation</i> utilisé dans l&#39;effet de déformation contrôlé par l&#39;<b>intensité de la Distorsion</b>. |
 | <b>Niveau Min</b> <i>Nombre entier</i> | <i>niveau minimum de répétition</i> utilisé dans le motif fractal. Une plage minimale/maximale plus large donne un motif <i>plus riche</i> avec une variation sur davantage de plages de fréquences. |
@@ -72,13 +72,13 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+            <img src="3d-perlin-noise-fractal.resources/3d-perlin-noise-fractal-04.jpg" />
         </td>
     </tr>
 </table>

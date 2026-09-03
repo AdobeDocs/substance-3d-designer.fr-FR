@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
-description: Utilisez le nœud altération de la mousse pour ajouter des motifs de croissance de mousse aux matériaux en fonction de la courbure et de la position du maillage.
+description: Utilisez le nœud Altération de mousse pour ajouter des modèles de croissance de mousse aux matériaux en fonction de la courbure et de la position du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Moss Weathering
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Altération De La Mousse
+title: Altération de mousse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 7%
@@ -18,13 +18,13 @@ ht-degree: 7%
 ---
 
 
-# Altération De La Mousse
+# Altération de mousse
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](moss-weathering.resources/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Il s’agit d’un effet matériel qui fonctionne sur plusieurs canaux à la fois. Il génère un effet de mousse sur-développée, avec un seul contrôle pour la propagation.
 
-Cet effet fonctionne mieux avec une carte de position de l&#39;espace universel et une carte de hauteur supplémentaire. Bien que ce ne soit pas une exigence exacte, cela confère à l&#39;effet un placement plus crédible.
+Cet effet fonctionne mieux avec un mappage de position d’Espace monde baké et un mappage de hauteur supplémentaire. Bien que ce ne soit pas une exigence exacte, cela confère à l&#39;effet un placement plus crédible.
 
 Assurez-vous de bien comprendre les [modes de création de liens](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) lorsque vous travaillez avec des matériaux complets.
 
@@ -49,7 +49,7 @@ Assurez-vous de bien comprendre les [modes de création de liens](https://suppor
 
 |  |  |
 |:---|:---|
-| <b>Position</b> <i>Entrée couleur</i> | Baking World Space Position. |
+| <b>Position</b> <i>Entrée couleur</i> | Position Espace monde bakée. |
 | <b>Height</b> <i>Entrée en niveaux de gris</i> | Entrée Heightmap supplémentaire. |
 | <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ». |
 
@@ -80,7 +80,7 @@ Assurez-vous de bien comprendre les [modes de création de liens](https://suppor
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="moss-weathering.resources/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-weathering-02.gif" />
         </td>
     </tr>
 </table>

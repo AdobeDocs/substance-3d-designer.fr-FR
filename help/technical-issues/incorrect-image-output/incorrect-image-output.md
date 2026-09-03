@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes d’image en sortie incorrecte dans Substance 3D Designer et découvrez comment résoudre les problèmes de rendu.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sortie d’image incorrecte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Si vous n’avez pas besoin de travailler spécifiquement avec des images HDR, l
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Si vous n’avez pas besoin de travailler spécifiquement avec des images HDR, l
 
 Vérifiez le **format de sortie** (c&#39;est-à-dire la profondeur de bits) du nœud et de tous les nœuds en amont et assurez-vous que ces nœuds utilisent une *précision d&#39;Entier d&#39;au moins 16 bits*.
 
-Le paramètre Format de sortie est souvent défini sur la méthode d&#39;héritage *Relative à l&#39;entrée* [3&rbrace;, qui peut propager la faible précision dans tout le graphe. &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)Idéalement, en remontant dans le graphe, vous trouverez la cause première du problème.
+Le paramètre Format de sortie est souvent défini sur la méthode d&#39;héritage *Relative à l&#39;entrée* [3}, qui peut propager la faible précision dans tout le graphe. ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)Idéalement, en remontant dans le graphe, vous trouverez la cause première du problème.
 
 Vous pouvez rapidement identifier la précision de la sortie d&#39;un nœud en examinant les informations textuelles affichées sous le nœud :
 
@@ -81,7 +81,7 @@ La sortie semble basse résolution.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Les formes sont légèrement floues après l&#39;utilisation de certains nœuds,
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
 
 </td>
 </tr>

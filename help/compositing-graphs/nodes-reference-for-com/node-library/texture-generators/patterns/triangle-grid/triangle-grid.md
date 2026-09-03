@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Triangle Grid pour générer des motifs de grille triangulaire afin de créer des textures géométriques dans Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
 
-![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -68,17 +68,17 @@ Les *positions* des sommets peuvent être ajustées, ce qui a un impact sur le m
 
 |  |  |
 |:---|:---|
-| <b>Sortie couleur</b> *Nombre entier* | La méthode de représentation de la surface triangulée:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Par Vertex :</b> une couleur est attribuée à chaque vertex et interpolée sur la surface du triangle</li> <li data-preserve-html="true"><b>Par triangle :</b> une couleur plate est affectée à chaque triangle</li> <li data-preserve-html="true"><b>Ligne fine</b><b>:</b> applique un contour aux segments entre les vertex</li> <li data-preserve-html="true"><b>Distance jusqu&#39;au contour</b><b>:</b> effectue le rendu de la distance jusqu&#39;au segment le plus proche sur chaque triangle</li> <li data-preserve-html="true"><b>Centre</b><b>:</b> restitue la distance normalisée par rapport au barycentre de chaque triangle</li> </ul> |
-| <b>Triangulation</b> *Nombre entier* | Définit la méthode de triangulation de la surface, c&#39;est-à-dire la *paire de vertex opposés* dans un quad à relier :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Auto :</b> sélectionne automatiquement la paire de vertex, ce qui fait que les triangles <i>sont orientés le moins loin</i> de la caméra<br/> <b>45° :</b> connectez les vertex opposés, ce qui donne une ligne <i>tournée de 45°</i> par rapport à l&#39;axe X droit</li> <li data-preserve-html="true"><b>-45° :</b> connectez les vertex opposés, ce qui a pour effet de faire tourner la ligne <i>de -45°</i> par rapport à l&#39;axe X droit</li> <li data-preserve-html="true"><b>Quincux horizontal :</b> alternent l&#39;orientation de triangulation <i>une rangée sur deux</i> de vertex</li> <li data-preserve-html="true"><b>Quincux vertical :</b> alterne l&#39;orientation de triangulation <i>une colonne sur deux</i> de vertex<br/> </li> </ul> |
-| <b>X Quantité</b> *Nombre entier* | Nombre de vertex générés sur l’axe X. |
-| <b>Quantité Y</b> *Nombre entier* | Nombre de vertex générés sur l’axe Y. |
+| <b>Sortie couleur</b> *Nombre entier* | La méthode de représentation de la surface triangulée:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Par sommet :</b> une couleur est affectée à chaque sommet et interpolée sur la surface du triangle</li> <li data-preserve-html="true"><b>Par triangle :</b> une couleur plate est affectée à chaque triangle</li> <li data-preserve-html="true"><b>Ligne fine</b><b>:</b> applique un contour aux segments entre les sommets</li> <li data-preserve-html="true"><b>Distance jusqu&#39;au contour</b><b>:</b> effectue le rendu de la distance jusqu&#39;au segment le plus proche sur chaque triangle</li> <li data-preserve-html="true"><b>Centre</b><b>:</b> restitue la distance normalisée par rapport au barycentre de chaque triangle</li> </ul> |
+| <b>Triangulation</b> *Nombre entier* | Définit la méthode de triangulation de la surface, c&#39;est-à-dire la *paire de sommets opposés* dans un quad qui doit être connectée :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Auto :</b> sélectionne automatiquement la paire de sommets, ce qui fait que les triangles <i>sont orientés le moins loin</i> de l&#39;appareil photo<br/> <b>45° :</b> connectez des sommets opposés, ce qui donne une ligne <i>tournée de 45 degrés</i> par rapport à l&#39;axe X-droit</li> <li data-preserve-html="true"><b>-45° :</b> connectez des sommets opposés, ce qui entraîne une ligne <i>tournée de -45 degrés</i> par rapport à l&#39;axe X-droit</li> <li data-preserve-html="true"><b>Quincux horizontal :</b> alternent l&#39;orientation de triangulation <i>une ligne sur deux</i> de sommets</li> <li data-preserve-html="true"><b>Vertical quincux :</b> alterne l&#39;orientation de triangulation <i>une colonne sur deux</i> de sommets<br/> </li> </ul> |
+| <b>X Quantité</b> *Nombre entier* | Nombre de sommets générés sur l’axe X. |
+| <b>Quantité Y</b> *Nombre entier* | Nombre de sommets générés sur l’axe Y. |
 | <b>Multiplicateur De Position Aléatoire</b> *Flotter* | Règle l’intensité de l’effet de déformation principal. |
 | <b>Position Aléatoire</b> *Float2* | Ajuste l&#39;intensité du décalage aléatoire appliqué aux positions X et Y de chaque sommet, par rapport à la *taille de leur cellule* dans la grille.   Ce décalage *s&#39;empile* avec les paramètres <b>Décalage Quincux</b> et <b>Displacement de mappage vectoriel</b>. |
-| <b>Displacement de mappage vectoriel</b> *Flotter* | Ajuste la quantité *globale* de displacement appliquée à chaque sommet à l&#39;aide des valeurs *échantillonnées* de l&#39;entrée <b>Carte vectorielle</b>.    Ce décalage *pile* avec les paramètres <b>Position aléatoire</b> et <b>Décalage Quincux</b>. |
+| <b>Displacement de mappage vectoriel</b> *Flotter* | Ajuste la quantité *globale* de displacement appliquée à chaque sommet à l&#39;aide des valeurs *échantillonnées* de l&#39;entrée <b>Carte vectorielle</b>.    Ce décalage *empile* avec les paramètres <b>Position aléatoire</b> et <b>Décalage Quincux</b>. |
 | <b>Décalage Quincux X</b> *Flotter* | Applique le décalage spécifié à *une ligne sur deux* de sommets, par rapport à la *taille de leur cellule* dans la grille.   Ce décalage *empile* avec les paramètres <b>Position aléatoire</b> et <b>Displacement de mappage vectoriel</b>. |
 | <b>Décalage Quincux Y</b> *Flotter* | Applique le décalage spécifié à *une colonne sur deux* de sommets, par rapport à la *taille de leur cellule* dans la grille.    Ce décalage *empile* avec les paramètres <b>Position aléatoire</b> et <b>Displacement de mappage vectoriel</b>. |
-| <b>Rotation</b> *Flotter* | Applique le degré de rotation *spécifié* à chaque sommet autour de sa *position de base*, c&#39;est-à-dire sa position *avant* le décalage aléatoire et le displacement.    Cette rotation *pile* avec le paramètre <b>trouble de rotation</b>. |
-| <b>Trouble De La Rotation</b> *Flotter* | Applique une rotation *aléatoire* à chaque sommet autour de sa *position de base*, c&#39;est-à-dire sa position *avant* l&#39;application du décalage et du displacement aléatoires.    Cette rotation *pile* avec le paramètre <b>Rotation</b>. |
+| <b>Rotation</b> *Flotter* | Applique le degré de rotation *spécifié* à chaque sommet autour de sa *position de base*, c&#39;est-à-dire sa position *avant* le décalage aléatoire et le displacement.    Cette rotation *s&#39;empile* avec le paramètre <b>Trouble de rotation</b>. |
+| <b>Trouble De La Rotation</b> *Flotter* | Applique une rotation *aléatoire* à chaque sommet autour de sa *position de base*, c&#39;est-à-dire sa position *avant* l&#39;application du décalage et du displacement aléatoires.    Cette rotation *empile* avec le paramètre <b>Rotation</b>. |
 | <b>Multiplicateur d&#39;entrée Height</b> *Flotter* | Ajuste la position Z de chaque sommet à l&#39;aide des valeurs *échantillonnées* à partir de l&#39;entrée <b>Height</b>.    Ce décalage *pile* avec le paramètre <b>Height aléatoire</b>. |
 | <b>Height aléatoire</b> *Flotter* | Applique un décalage aléatoire à la position Z de chaque sommet.  Ce décalage *empile* avec le paramètre <b>Multiplicateur d&#39;entrée d&#39;Height</b>. |
 | <b>Mode de fusion</b> *Nombre entier* | Définit la méthode de fusion des valeurs des *triangles superposés*. Le mode vous permet de sélectionner *lequel* des triangles doit être visible : <ul data-preserve-html="true"> <li data-preserve-html="true"><b>Min :</b> Texte</li> <li data-preserve-html="true"><b>Max. :</b> Texte</li> <li data-preserve-html="true"><b>Test De Profondeur</b> : Texte</li> <li data-preserve-html="true"><b>Dégradé de formes d&#39;Alpha :</b> Texte</li> </ul>Remarque : les modes de fusion disponibles dépendent de la valeur du paramètre <b>Sortie couleur</b>. |
@@ -97,37 +97,17 @@ Les *positions* des sommets peuvent être ajustées, ce qui a un impact sur le m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Exemple 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid : Exemple 1"){zoomable="yes"}
+![Triangle Grid : Exemple 1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid : Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Exemple 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid : Exemple 2"){zoomable="yes"}
+![Triangle Grid : Exemple 2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Exemple 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid : Exemple 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid : Exemple 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid : Exemple 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid : Exemple 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid : Exemple 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid : Exemple 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid : Exemple 6"){zoomable="yes"}
+![Triangle Grid : Exemple 3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ Les *positions* des sommets peuvent être ajustées, ce qui a un impact sur le m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Cuir](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid : Cuir"){zoomable="yes"}
+![Triangle Grid : Exemple 4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid : Exemple 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : graphique](triangle-grid.resources/trianglegrid-node.png "Triangle Grid : graphique"){zoomable="yes"}
+![Triangle Grid : Exemple 5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid : Exemple 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid : Exemple 6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid : Exemple 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid : Cuir](triangle-grid.resources/triangle-grid-09.png "Triangle Grid : Cuir"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid : graphique](triangle-grid.resources/triangle-grid-10.png "Triangle Grid : graphique"){zoomable="yes"}
 
 </td>
 </tr>

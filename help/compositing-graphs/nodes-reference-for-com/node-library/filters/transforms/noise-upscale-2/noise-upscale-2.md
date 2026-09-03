@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Noise Upscale 2 pour augmenter les textures à l’aide de l’interpolation basée sur le bruit afin de conserver la qualité de la texture à des tailles plus grandes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amélioration du bruit 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale-2-01.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -59,7 +59,7 @@ Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-2.resources/noise2ex.png" />
+            <img src="noise-upscale-2.resources/noise-upscale-2-02.png" />
         </td>
     </tr>
 </table>

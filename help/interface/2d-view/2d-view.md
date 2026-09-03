@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Utilisez la vue 2D dans Substance 3D Designer pour prévisualiser et inspecter les textures produites par vos graphiques Matériau.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page décrit l&#39;interface utilisateur et les fonctionnalités du panneau **Vue 2D** dans Substance 3D Designer.
 
-![Vue 2D](2d-view.resources/2d-view-main.png "Vue 2D")
+![Vue 2D](2d-view.resources/2d-view-01.png "Vue 2D")
 
 ## Vue d’ensemble
 
@@ -34,7 +34,7 @@ La [Vue 2D](https://substance3d.adobe.com/) est l’un des panneaux principaux d
 * contrôle des paramètres *gizmos*
 
 Lorsqu&#39;une image ou une valeur affichée est modifiée, la vue 2D *se met à jour automatiquement* pour rester synchronisée avec l&#39;état actuel des données.\
-Les panneaux d&#39;affichage 2D *multiples* peuvent être actifs à tout moment et chacun peut afficher différentes images ou valeurs. Vous pouvez contrôler quand un nouveau panneau doit être utilisé à l&#39;aide de la fonctionnalité ![](2d-view.resources/2d-view-icon-pin.png) <b>Coin</b> du panneau de l&#39;interface utilisateur.
+Les panneaux d&#39;affichage 2D *multiples* peuvent être actifs à tout moment et chacun peut afficher différentes images ou valeurs. Vous pouvez contrôler quand un nouveau panneau doit être utilisé à l&#39;aide de la fonctionnalité ![](2d-view.resources/2d-view-02.png) <b>Coin</b> du panneau de l&#39;interface utilisateur.
 
 ### Affichage du contenu dans la vue 2D
 
@@ -54,7 +54,7 @@ Dans la vue Graphique, vous pouvez envoyer une image à la vue 2D à l&#39;aide 
 * ...sur un *nœud* pour afficher *la sortie de ce nœud*. Si le nœud a plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
 * ...sur *espace vide* dans la vue Graphique pour afficher *la sortie de ce graphique*. Si le graphique comporte plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
 
-Lors du chargement d&#39;un graphique, sa *première sortie* s&#39;affiche automatiquement dans la vue 2D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à <b>Édition > Préférences > Graphique > Graphique de composition de Substances</b> et *décochez* l&#39;<b>Afficher la sortie en vue 2D lors de l&#39;ouverture d&#39;un graphique</b>.
+Lors du chargement d&#39;un graphique, sa *première sortie* s&#39;affiche automatiquement dans la vue 2D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à <b>Modifier > Préférences > Graphe > graphe de composition de Substance</b> et *décochez* l&#39;<b>Afficher la sortie dans Vue 2D lors de l&#39;ouverture d&#39;un graphe</b>.
 
 ## Viewport
 
@@ -66,14 +66,14 @@ La fenêtre d&#39;affichage est la *zone d&#39;affichage* de la <b>Vue 2D</b> et
 
 * <b>Panoramique :</b> Ctrl+RMB/MMB
 * <b>Zoom :</b> Alt + RMB / MouseWheel / Outil « Afficher l’échelle » :\
-  ![](2d-view.resources/2d-view-icon-zoom.png)
-* <b>Ajuster à la fenêtre d&#39;affichage :</b> F / bouton « Ajuster à la vue » ![](2d-view.resources/2d-view-icon-fit-to-view.png)
-* <b>Ajuster à l&#39;échelle 1:1 :</b> bouton Z / Adapter à l&#39;échelle ![](2d-view.resources/2d-view-icon-fit-to-scale.png)
+  ![](2d-view.resources/2d-view-03.png)
+* <b>Ajuster au viewport :</b> F / bouton « Ajuster à l&#39;affichage » ![](2d-view.resources/2d-view-04.png)
+* <b>Ajuster à l&#39;échelle 1:1 :</b> bouton Z / Adapter à l&#39;échelle ![](2d-view.resources/2d-view-05.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Navigation dans la fenêtre d&#39;affichage 2D](2d-view.resources/2d-view-viewport-navigation.gif "Navigation dans la fenêtre d&#39;affichage 2D")
+![Navigation dans la fenêtre d&#39;affichage 2D](2d-view.resources/2d-view-06.gif "Navigation dans la fenêtre d&#39;affichage 2D")
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Utilisation d’un pavé tactile (macOS uniquement)
 >
 > Actions non disponibles
 > 
-> Il n&#39;est *pas* possible de panoramiser l&#39;image si la taille d&#39;affichage actuelle de l&#39;image est *inférieure à la taille de la fenêtre d&#39;affichage*.
+> Il n&#39;est *pas* possible de panoramiser l&#39;image si la taille d&#39;affichage actuelle de l&#39;image est *inférieure à la taille du viewport*.
 > 
 > Il n&#39;est *pas* possible d&#39;effectuer un zoom avant/arrière sur l&#39;image si le contenu affiché *n&#39;existe plus* - par exemple, le nœud ou la ressource de référence d&#39;une image a été supprimé.
 
@@ -107,43 +107,43 @@ La *résolution*, le *format de couleur* et le *nombre de bits par pixel* natifs
 
 En plus de la navigation, la clôture offre les fonctionnalités suivantes :
 
-* Affichage en mosaïque : *répète l&#39;image* dans la fenêtre d&#39;affichage avec un motif en mosaïque. Ceci est utile pour vérifier la manière dont un motif ou une texture se répétera. Elle est activée à l&#39;aide du bouton **Barre d&#39;espace** ou ![](2d-view.resources/2d-view-icon-tiling.png) **Affichage en mosaïque**
-* Affichage de la taille physique : affiche l&#39;image avec un *rapport* correspondant à la propriété [Taille physique](../../compositing-graphs/graph-parameters/graph-parameters.md) du graphique. Elle est activée à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-physical-size.png) **Rapport de Taille physique**
-* Conserver la taille de l&#39;affichage : cette option *verrouille l&#39;échelle d&#39;affichage* afin qu&#39;elle reste cohérente sur les différentes images. Elle est *activée par défaut* et peut être désactivée à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-lock-scale.png) **Conserver la taille de l&#39;affichage**
+* Affichage en mosaïque : *répète l&#39;image* dans la fenêtre d&#39;affichage avec un motif en mosaïque. Ceci est utile pour vérifier la manière dont un motif ou une texture se répétera. Elle est activée à l&#39;aide du bouton **Barre d&#39;espace** ou ![](2d-view.resources/2d-view-07.png) **Affichage en mosaïque**
+* Affichage de la taille physique : affiche l&#39;image avec un *rapport* correspondant à la propriété [Taille physique](../../compositing-graphs/graph-parameters/graph-parameters.md) du graphique. Elle est activée à l&#39;aide du bouton ![](2d-view.resources/2d-view-08.png) **Rapport de Taille physique**
+* Conserver la taille de l&#39;affichage : cette option *verrouille l&#39;échelle d&#39;affichage* afin qu&#39;elle reste cohérente sur les différentes images. Elle est *activée par défaut* et peut être désactivée à l&#39;aide du bouton ![](2d-view.resources/2d-view-09.png) **Conserver la taille de l&#39;affichage**
 
 ## Barre d&#39;outils principale
 
 La barre d&#39;outils principale du panneau <b>Vue 2D</b> vous permet d&#39;en faire plus avec vos images affichées et offre les fonctionnalités suivantes :
 
 +++Image d’arrière-plan
-![Image d&#39;arrière-plan de la vue 2D](2d-view.resources/2d-view-background.png "Image d&#39;arrière-plan de la vue 2D"){width="360px"}
+![Image d&#39;arrière-plan de la vue 2D](2d-view.resources/2d-view-10.png "Image d&#39;arrière-plan de la vue 2D"){width="360px"}
 
 
 
-Vous pouvez *superposer une autre image* sur celle actuellement affichée. Appuyez sur le bouton ![](2d-view.resources/2d-view-icon-background.png) <b>Image d&#39;arrière-plan</b> et vous serez invité à sélectionner un fichier image à utiliser comme incrustation.
+Vous pouvez *superposer une autre image* sur celle actuellement affichée. Appuyez sur le bouton ![](2d-view.resources/2d-view-11.png) <b>Image d&#39;arrière-plan</b> et vous serez invité à sélectionner un fichier image à utiliser comme incrustation.
 
 Une fois le fichier sélectionné, une nouvelle barre d’outils apparaît avec les commandes suivantes pour l’incrustation d’image :
 
-Fermeture de <b>![](2d-view.resources/2d-view-icon-background-close.png) :</b> *fermez* la barre d&#39;outils contrôles d&#39;incrustation et *désactivez* l&#39;incrustation de l&#39;image d&#39;arrière-plan.
+Fermeture de <b>![](2d-view.resources/2d-view-12.png) :</b> *fermez* la barre d&#39;outils contrôles d&#39;incrustation et *désactivez* l&#39;incrustation de l&#39;image d&#39;arrière-plan.
 
-<b>![](2d-view.resources/2d-view-icon-background-loadpng.png) Charger l&#39;image :</b> sélectionnez *un autre fichier image* à utiliser comme superposition.
+<b>![](2d-view.resources/2d-view-13.png) Charger l&#39;image :</b> sélectionnez *un autre fichier image* à utiliser comme superposition.
 
-<b>![](2d-view.resources/2d-view-icon-background-0.png) Image source :</b> définit l&#39;image d&#39;incrustation sur une opacité de *0 %*.
+<b>![](2d-view.resources/2d-view-14.png) Image source :</b> définit l&#39;image d&#39;incrustation sur une opacité de *0 %*.
 
-Image d&#39;arrière-plan <b>![](2d-view.resources/2d-view-icon-background-100.png) :</b> définit l&#39;image d&#39;incrustation sur l&#39;opacité *100 %*.
+Image d&#39;arrière-plan <b>![](2d-view.resources/2d-view-15.png) :</b> définit l&#39;image d&#39;incrustation sur l&#39;opacité *100 %*.
 
-<b>![](2d-view.resources/2d-view-icon-background-50.png) Réinitialiser :</b> définit l&#39;image d&#39;incrustation sur une opacité de *50 %*.
+<b>![](2d-view.resources/2d-view-16.png) Réinitialiser :</b> définit l&#39;image d&#39;incrustation sur une opacité de *50 %*.
 
 Un curseur vous permet de *contrôler manuellement* l&#39;opacité de l&#39;image d&#39;incrustation.
 
 +++
 
 +++Exporter l’image
-![Image d&#39;exportation de la vue 2D](2d-view.resources/2d-view-export-bitmap.png "Image d&#39;exportation de la vue 2D"){width="360px"}
+![Image d&#39;exportation de la vue 2D](2d-view.resources/2d-view-17.png "Image d&#39;exportation de la vue 2D"){width="360px"}
 
 
 
-L&#39;image actuellement affichée peut être *exportée vers un fichier image*. Appuyez sur le bouton ![](2d-view.resources/2d-view-icon-export.png) <b>Enregistrer l&#39;image...</b> et vous serez invité à sélectionner un *emplacement*, un *nom* et un *format de fichier* pour le fichier exporté.
+L&#39;image actuellement affichée peut être *exportée vers un fichier image*. Appuyez sur le bouton ![](2d-view.resources/2d-view-18.png) <b>Enregistrer l&#39;image...</b> et vous serez invité à sélectionner un *emplacement*, un *nom* et un *format de fichier* pour le fichier exporté.
 
 Bien que l&#39;image soit exportée en tant que *résolution native* (affichée dans la zone inférieure gauche de la fenêtre d&#39;affichage), le *format de nombre de bits par pixel* et le *format de couleur* *dépendent du format d&#39;image* sélectionné. Par exemple, les images 32 bits en virgule flottante ne peuvent être exportées à leur plage de données complète qu’avec des formats d’image qui prennent en charge cette précision, tels que TIFF, EXR et HDR. Si le format de l’image ne prend pas en charge les données, un verrouillage et/ou un effet de bande chromatique risquent de se produire dans l’image exportée.\
 En général, n’oubliez pas quelles sont la précision et les fonctionnalités offertes par les formats d’image que vous avez l’intention d’utiliser (prise en charge de la virgule flottante, profils ICC, etc.).
@@ -153,56 +153,56 @@ Si <b>OCIO</b> ou <b>ACE Adobe</b> Le [mode de gestion des couleurs](../../color
 +++
 
 +++Copier dans le presse-papiers
-![Copie de la vue 2D dans le presse-papiers](2d-view.resources/2d-view-copy-clipboard.gif "Copie de la vue 2D dans le presse-papiers"){width="360px"}
+![Copie de la vue 2D dans le presse-papiers](2d-view.resources/2d-view-19.gif "Copie de la vue 2D dans le presse-papiers"){width="360px"}
 
 
 
-L&#39;image actuellement affichée peut être *copiée dans le Presse-papiers*. Appuyez sur le bouton ![](2d-view.resources/2d-view-icon-copy.png) <b>Copier l&#39;image dans le Presse-papiers</b> pour coller l&#39;image dans n&#39;importe quel logiciel tiers, tel qu&#39;Adobe Photoshop.
+L&#39;image actuellement affichée peut être *copiée dans le Presse-papiers*. Appuyez sur le bouton ![](2d-view.resources/2d-view-20.png) <b>Copier l&#39;image dans le Presse-papiers</b> pour coller l&#39;image dans n&#39;importe quel logiciel tiers, tel qu&#39;Adobe Photoshop.
 
 L&#39;image sera copiée en tant qu&#39;image de précision *8 bits* à sa *résolution native*, qui s&#39;affiche dans la zone inférieure gauche de la fenêtre.
 
 +++
 
 +++Permuter les sorties graphiques
-![Sorties du graphique de changement d&#39;affichage 2D](2d-view.resources/2d-view-switch-graph-outputs.gif "Sorties du graphique de changement d&#39;affichage 2D"){width="360px"}
+![sorties du graphe de commutateur vue 2D](2d-view.resources/2d-view-21.gif "sorties du graphe de commutateur vue 2D"){width="360px"}
 
 
 
-Si l&#39;image actuellement affichée est une *sortie graphique*, vous pouvez *rapidement passer à n&#39;importe quelle* autre sortie graphique à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-view-outputs.png) <b>Sélectionner la sortie</b>.
+Si l&#39;image actuellement affichée est une *sortie du graphe*, vous pouvez *rapidement passer à n&#39;importe quelle* autre sortie du graphe![](2d-view.resources/2d-view-22.png) à l&#39;aide du bouton <b>Sélectionner la sortie</b>.
 
 Cette fonctionnalité n&#39;est *pas* disponible pour les autres nœuds, y compris les nœuds qui ont plusieurs sorties.
 
 +++
 
 +++Incrustation UV
-![Incrustation UV de vue 2D](2d-view.resources/2d-view-uv.png "Incrustation UV de vue 2D"){width="357px"}
+![Incrustation UV de vue 2D](2d-view.resources/2d-view-23.png "Incrustation UV de vue 2D"){width="357px"}
 
 
 
-Si l&#39;option <b>Afficher les UV en vue 2D</b> est activée dans le menu <b>Scène</b> du dock [Vue 3D](../../interface/3d-view/3d-view.md), la fonction d&#39;incrustation UV est disponible dans la vue 2D.
+Si l&#39;option <b>Afficher les UV dans vue 2D</b> est activée dans le menu <b>Scène</b> du dock [vue 3D](../../interface/3d-view/3d-view.md), la fonction d&#39;incrustation d&#39;UV est disponible dans la vue 2D.
 
-Vous pouvez l&#39;activer à l&#39;aide du bouton <b>UV</b>. ![](2d-view.resources/2d-view-icon-uv.png)
+Vous pouvez l&#39;activer à l&#39;aide du bouton <b>UV</b>. ![](2d-view.resources/2d-view-24.png)
 
 Cela affiche les UV du maillage [actuellement sélectionné dans la vue 3D](../../interface/3d-view/3d-view.md) sous la forme d&#39;une structure filaire colorée.
 
-Si les informations de couleur du matériau sont disponibles dans le fichier de maillage, la couleur du matériau est utilisée comme couleur de l&#39;incrustation UV.
+Si les informations de couleur du matériau sont disponibles dans le fichier de maillage, la couleur du matériau est utilisée comme couleur de l’incrustation de l’UV.
 
 Si le maillage comporte <b>plusieurs jeux d&#39;UV</b>, les UV souhaités peuvent être sélectionnés dans la liste déroulante qui peut être ouverte en cliquant sur la flèche à côté de l&#39;étiquette « UV » dans le bouton.
 
 +++
 
 +++Informations sur l’image
-![Informations sur l&#39;image vue en 2D](2d-view.resources/2d-view-information.png "Informations sur l&#39;image vue en 2D"){width="360px"}
+![Informations sur l&#39;image vue en 2D](2d-view.resources/2d-view-25.png "Informations sur l&#39;image vue en 2D"){width="360px"}
 
 
 
-Vous pouvez afficher les *valeurs de pixel exactes* *et les* dans une image à l&#39;aide du panneau <b>Informations</b>, qui est activé à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-information.png) <b>Informations sur l&#39;image</b>. Cela s’avère très utile lors de l’inspection d’images HDR, par exemple, ou pour s’assurer que le passage d’un pixel à l’autre suit la progression prévue.
+Vous pouvez afficher les *valeurs de pixel exactes* *et les* dans une image à l&#39;aide du panneau <b>Informations</b>, qui est activé à l&#39;aide du bouton ![](2d-view.resources/2d-view-26.png) <b>Informations sur l&#39;image</b>. Cette fonction est très utile lors de l’inspection d’images HDR, par exemple, ou pour s’assurer que le passage d’un pixel à l’autre suit la progression prévue.
 
 Les couleurs sont représentées par des valeurs <b>RVBA</b> et <b>HSV</b>, et affichées en fonction de la *précision* de l&#39;image, comme suit :
 
 * <b>8 bits</b> : 0-255 entier / 0,0-1,0 virgule flottante
 
-* <b>16 bits</b> : entier 0-65532 / point flottant 0,0-1,0
+* <b>16 bits</b> : entier 0-65532 / virgule flottante 0,0-1,0
 
 * <b>16F</b> (virgule flottante 16 bits) : valeur de virgule flottante brute
 
@@ -213,11 +213,11 @@ Les coordonnées des pixels sont représentées par les valeurs <b>X</b> et <b>Y
 +++
 
 +++Histogramme
-![Histogramme de l&#39;affichage 2D](2d-view.resources/2d-view-histogram.png "Histogramme de l&#39;affichage 2D"){width="360px"}
+![Histogramme de l&#39;affichage 2D](2d-view.resources/2d-view-27.png "Histogramme de l&#39;affichage 2D"){width="360px"}
 
 
 
-Vous pouvez afficher l&#39;*histogramme* de l&#39;image avec le panneau <b>Histogramme</b>, qui est activé à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-histogram.png) <b>Afficher l&#39;histogramme</b>.
+Vous pouvez afficher l&#39;*histogramme* de l&#39;image avec le panneau <b>Histogramme</b>, qui est activé à l&#39;aide du bouton ![](2d-view.resources/2d-view-28.png) <b>Afficher l&#39;histogramme</b>.
 
 Les *modes d&#39;histogramme* suivants sont disponibles :
 
@@ -265,7 +265,7 @@ Certaines parties de l’histogramme peuvent inclure des valeurs de nombre de pi
 
 ## Afficher la barre d’outils
 
-La barre d&#39;outils **Affichage**, qui se trouve par défaut au *bas* du panneau **vue 2D**, vous permet de contrôler l&#39;affichage de l&#39;image dans le viewport.
+La barre d&#39;outils **Affichage**, qui se trouve par défaut au *bas* du panneau **Vue 2D**, vous permet de contrôler l&#39;affichage de l&#39;image dans la clôture.
 
 La section *la plus à gauche* inclut des commandes pour la *couleur* et la *transparence*, tandis que la section *la plus à droite* inclut les commandes de la *fenêtre d&#39;affichage* détaillées dans la section Fenêtre d&#39;affichage de cette page.
 
@@ -273,11 +273,11 @@ La section *la plus à gauche* inclut des commandes pour la *couleur* et la *tra
 >
 > La barre d&#39;outils peut être *repositionnée* autour du panneau **Vue 2D** à l&#39;aide de la *poignée* la plus à gauche représentée par trois lignes parallèles.
 
-![Couches de couleur de la vue 2D](2d-view.resources/2d-view-color-channel.png "Couches de couleur de la vue 2D"){width="360px"}
+![Couches de couleur de la vue 2D](2d-view.resources/2d-view-29.png "Couches de couleur de la vue 2D"){width="360px"}
 
 ### Canaux de couleur
 
-Vous pouvez afficher une seule couche de l&#39;image à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-channels.png) <b>Couches de couleur</b>. Une zone de liste déroulante s&#39;ouvre, vous permettant de sélectionner les canaux <b>rouge</b>, <b>vert</b>, <b>bleu</b> et <b>Alpha</b> qui doivent être affichés. L&#39;aspect normal de l&#39;image avec tous les canaux est restauré en sélectionnant l&#39;option <b>RGB</b>.
+Vous pouvez afficher une seule couche de l&#39;image à l&#39;aide du bouton ![](2d-view.resources/2d-view-30.png) <b>Couches de couleur</b>. Une zone de liste déroulante s&#39;ouvre, vous permettant de sélectionner les canaux <b>rouge</b>, <b>vert</b>, <b>bleu</b> et <b>Alpha</b> qui doivent être affichés. L&#39;aspect normal de l&#39;image avec tous les canaux est restauré en sélectionnant l&#39;option <b>RGB</b>.
 
 Les *raccourcis clavier* suivants peuvent être utilisés pour basculer rapidement vers différentes couches de couleur :
 
@@ -295,27 +295,27 @@ L&#39;*icône* du bouton <b>Couches de couleur</b> *change* en fonction des couc
 > 
 > Comme le panneau doit être mis au point, ces raccourcis *n&#39;interfèrent* avec aucun *raccourci personnalisé* que vous avez peut-être défini pour créer des nœuds dans le graphique. Pour en savoir plus sur cette fonctionnalité, cliquez [ici](../../interface/preferences-window/preferences-window.md).
 
-![Bouton de transparence de l&#39;affichage 2D](2d-view.resources/2d-view-transparency.png "Bouton de transparence de l&#39;affichage 2D"){width="360px"}
+![Bouton de transparence de l&#39;affichage 2D](2d-view.resources/2d-view-31.png "Bouton de transparence de l&#39;affichage 2D"){width="360px"}
 
 ### Bouton Transparence
 
-L&#39;affichage de la transparence peut être activé et désactivé à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-transparency-off.png)/![](2d-view.resources/2d-view-icon-transparency-on.png) <b>Afficher le damier</b>. Lorsque cette option est activée, la transparence s’affiche avec un motif à damier.
+L&#39;affichage de la transparence peut être activé et désactivé à l&#39;aide du bouton ![](2d-view.resources/2d-view-32.png)/![](2d-view.resources/2d-view-33.png) <b>Afficher le damier</b>. Lorsque cette option est activée, la transparence s’affiche avec un motif à damier.
 
-Il existe deux façons principales d&#39;interpréter la transparence, qui peuvent être sélectionnées à l&#39;aide du bouton ![](2d-view.resources/2d-view-icon-transparency-straight.png)/![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) <b>Mode de transparence</b> :
+Il existe deux façons principales d&#39;interpréter la transparence, qui peuvent être sélectionnées à l&#39;aide du bouton ![](2d-view.resources/2d-view-34.png)/![](2d-view.resources/2d-view-35.png) <b>Mode de transparence</b> :
 
-<b>![](2d-view.resources/2d-view-icon-transparency-straight.png) Direct :</b> les informations de transparence sont uniquement stockées dans la couche alpha et n&#39;ont aucune incidence sur les autres aspects de l&#39;image
+<b>![](2d-view.resources/2d-view-34.png) Direct :</b> les informations de transparence sont uniquement stockées dans la couche alpha et n&#39;ont aucune incidence sur les autres aspects de l&#39;image
 
-<b>![](2d-view.resources/3d-view-icon-transparency-premultiplied.png) prémultiplié :</b> les informations de transparence sont stockées dans la couche alpha. Elles ont également un impact sur les couches RGB, car elles sont effectivement multipliées par rapport à la couche alpha
+<b>![](2d-view.resources/2d-view-35.png) prémultiplié :</b> les informations de transparence sont stockées dans la couche alpha. Elles ont également un impact sur les couches RGB, car elles sont effectivement multipliées par rapport à la couche alpha
 
 Pour afficher *les bonnes couleurs*, le mode de transparence approprié doit être sélectionné dans le panneau <b>Vue 2D</b> pour correspondre à la méthode de transparence qui a été appliquée lorsque l&#39;image a été *créée*.
 
-![Espace colorimétrique de la vue 2D](2d-view.resources/2d-view-viewport-color-space.png "Espace colorimétrique de la vue 2D"){width="360px"}
+![Espace colorimétrique de la vue 2D](2d-view.resources/2d-view-36.png "Espace colorimétrique de la vue 2D"){width="360px"}
 
 ### Espace colorimétrique
 
 Pour une représentation plus précise des couleurs, les images sont affichées par défaut dans un *espace colorimétrique* qui correspond à celui utilisé par le *moniteur*.
 
-Les commandes disponibles et l&#39;effet du bouton ![](2d-view.resources/2d-view-icon-color-space.png)/![](2d-view.resources/2d-view-icon-color-space-linear.png) <b>Espace colorimétrique</b> dépendront du [mode de gestion des couleurs](../../color-management/color-management.md) défini dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md). Pour en savoir plus sur ces commandes, consultez la section Gestion des couleurs de cette page.
+Les commandes disponibles et l&#39;effet du bouton ![](2d-view.resources/2d-view-37.png)/![](2d-view.resources/2d-view-38.png) <b>Espace colorimétrique</b> dépendront du [mode de gestion des couleurs](../../color-management/color-management.md) défini dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md). Pour en savoir plus sur ces commandes, consultez la section Gestion des couleurs de cette page.
 
 <table>
 <tr style="border: 0;">
@@ -335,7 +335,7 @@ Les <b>outils de peinture bitmap</b> sont disponibles pour les [ressources bitma
 </td>
 <td style="border: 0;" valign="top">
 
-![Outils de peinture bitmap en vue 2D](2d-view.resources/2dview-paintingtools-main.png "Outils de peinture bitmap en vue 2D")
+![Outils de peinture bitmap en vue 2D](2d-view.resources/2d-view-39.png "Outils de peinture bitmap en vue 2D")
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressour
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur d’images vectorielles Vue 2D](2d-view.resources/2dview-vectorediting-main.png "Éditeur d’images vectorielles Vue 2D")
+![Éditeur d’images vectorielles Vue 2D](2d-view.resources/2d-view-40.png "Éditeur d’images vectorielles Vue 2D")
 
 </td>
 </tr>
@@ -370,7 +370,7 @@ L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressour
 >
 > Pour en savoir plus, consultez la page [Outils de modification vectorielle](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsolète) de la documentation.
 
-![Gestion des couleurs en vue 2D](2d-view.resources/2d-view-color-management-ocio.png "Gestion des couleurs en vue 2D"){width="360px"}
+![Gestion des couleurs en vue 2D](2d-view.resources/2d-view-41.png "Gestion des couleurs en vue 2D"){width="360px"}
 
 ## Gestion des couleurs
 
@@ -378,9 +378,9 @@ La <b>Vue 2D</b> offre des commandes simples de *gestion des couleurs* pour vous
 
 Ces commandes s&#39;adapteront au [mode de gestion des couleurs](../../color-management/color-management.md) actuel défini dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md), comme suit :
 
-* <b>Hérité :</b> vous pouvez afficher l&#39;image dans les espaces colorimétriques sRVB ![](2d-view.resources/2d-view-icon-color-space.png) ou sRVB ![](2d-view.resources/2d-view-icon-color-space-linear.png) linéaires ;
-* <b>Adobe ACE :</b> vous pouvez ![](2d-view.resources/2d-view-icon-color-space.png) *activer* la gestion des couleurs et définir l&#39;espace colorimétrique le plus approprié pour le *moniteur actif* tel que détecté par le moteur ACE Adobe, ou ![](2d-view.resources/2d-view-icon-color-space-linear.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brute ;
-* <b>OCIO :</b> vous pouvez ![](2d-view.resources/2d-view-icon-color-space.png) *activer* la gestion des couleurs et définir le moniteur le plus approprié pour le *moniteur actuel* tel que détecté par le moteur OCIO, utiliser la zone de liste déroulante et sélectionner l&#39;un des *espaces colorimétriques d&#39;affichage* disponibles dans le [fichier de configuration OCIO](../../color-management/color-management.md) actuellement utilisé, ou ![](2d-view.resources/2d-view-icon-color-space-linear.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brutes.
+* <b>Hérité :</b> vous pouvez afficher l&#39;image dans les espaces colorimétriques sRVB ![](2d-view.resources/2d-view-37.png) ou sRVB ![](2d-view.resources/2d-view-38.png) linéaires ;
+* <b>ACE d&#39;Adobe :</b> vous pouvez ![](2d-view.resources/2d-view-37.png) *activer* la gestion des couleurs et définir l&#39;espace colorimétrique le plus approprié pour le *moniteur actif* tel que détecté par le Adobe ACE, ou ![](2d-view.resources/2d-view-38.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brute ;
+* <b>OCIO :</b> vous pouvez ![](2d-view.resources/2d-view-37.png) *activer* la gestion des couleurs et définir le moniteur le plus approprié pour le *moniteur actuel* tel que détecté par le moteur OCIO, utiliser la zone de liste déroulante et sélectionner l&#39;un des *espaces colorimétriques d&#39;affichage* disponibles dans le [fichier de configuration OCIO](../../color-management/color-management.md) actuellement utilisé, ou ![](2d-view.resources/2d-view-38.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brute.
 
 >[!WARNING]
 >

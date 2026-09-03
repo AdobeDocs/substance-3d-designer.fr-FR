@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mappeur de formes pour mapper des formes sur des textures avec des transformations et un positionnement personnalisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur de formes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Mappeur de formes - Icône](shape-mapper.resources/shape_mapper.png "Mappeur de formes - Icône"){width="200px"}
+![Mappeur de formes - Icône](shape-mapper.resources/shape-mapper-01.png "Mappeur de formes - Icône"){width="200px"}
 
 <b>Entrée :</b> générateurs de Textures > Motifs
 
@@ -66,7 +66,7 @@ La projection déforme l’image pour qu’elle suive le contour de la forme et 
 | <b>Forme</b> <i>Nombre entier</i> | Définit le type de forme le long de laquelle les motifs doivent être placés :<ul data-preserve-html="true"> <li data-preserve-html="true">Cercle</li> <li data-preserve-html="true">Polygone</li> </ul> |
 | <b>Quantité du motif</b> <i>Nombre entier</i> | Quantité de motifs placés le long de la forme sélectionnée. |
 | <b>Lier les segments avec la quantité de motif</b> <i>Booléen</i>   *Disponible lorsque « Forme » est défini sur « Polygone »* | Utilisez la <b>quantité de motif</b> comme nombre de <b>segments</b>.   Cela empêche les motifs de s’enrouler autour des coins, garantissant ainsi un aspect droit et cohérent. |
-| <b>Segments</b> <i>Nombre entier</i>   *Disponible lorsque &#39;Shape&#39; est défini sur &#39;Polygon&#39; et &#39;Link segments with pattern amount&#39; est défini sur &#39;False&#39;* | Nombre de segments du polygone le long desquels les motifs sont placés.   Les segments sont *de taille régulière* et tous les sommets sont *équidistants du centre*, de sorte que l&#39;augmentation de la quantité de segments fait converger le polygone vers un cercle. |
+| <b>Segments</b> <i>Nombre entier</i>   *Disponible lorsque &#39;Shape&#39; est défini sur &#39;Polygon&#39; et &#39;Link segments with pattern amount&#39; est défini sur &#39;False&#39;* | Nombre de segments du polygone le long desquels les motifs sont placés.   Les segments sont *de taille régulière* et tous les vertex sont *équidistants du centre*, de sorte que l&#39;augmentation de la quantité de segments fait converger le polygone vers un cercle. |
 | <b>Rayon</b> <i>Flotter</i> | Multiplicateur du rayon de la forme, où 1,0 correspond à la moitié de la longueur du côté le plus court de l’image. |
 | <b>Largeur</b> <i>Flotter</i> | Multiplicateur de la largeur des motifs le long de la forme, où 1,0 correspond à la moitié de la longueur du côté le plus court de l’image. |
 | <b>Rotation</b> <i>Flotter</i> | Spécifie le degré de rotation appliqué à la forme, en nombre de tours dans le sens des aiguilles d’une montre à partir de la droite horizontale. |

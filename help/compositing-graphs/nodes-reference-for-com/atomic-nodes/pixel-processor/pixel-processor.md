@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Processeur de pixels pour traiter des pixels individuels à l’aide d’expressions personnalisées pour une manipulation de texture avancée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de pixels
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : processeur de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Nœud atomique : processeur de pixels"){width="200px"}
+![Nœud atomique : processeur de pixels](pixel-processor.resources/pixel-processor-01.png "Nœud atomique : processeur de pixels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

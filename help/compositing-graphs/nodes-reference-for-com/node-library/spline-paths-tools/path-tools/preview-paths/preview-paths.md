@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Chemins d’accès de prévisualisation pour visualiser les données de chemin dans la Vue 2D à des fins de débogage et de vérification.
+description: Utilisez le nœud Chemins d’aperçu pour visualiser les données de chemin dans la vue 2D à des fins de débogage et de vérification.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tracés d’aperçu
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](preview-paths.resources/preview-paths-icon.png "Icône de nœud")
+![Icône de nœud](preview-paths.resources/preview-paths-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Description
 
-Tracez des segments et des vertex du tracé par-dessus l’arrière-plan donné. Une couleur aléatoire par tracé.
+Tracez des segments et des sommets du tracé au-dessus de l’arrière-plan donné. Une couleur aléatoire par tracé.
 
 Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[option Masquer sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md), mais avec plus d&#39;options.
 
@@ -56,8 +56,8 @@ Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[opt
 
 |  |  |
 |:---|:---|
-| <b>Afficher les coins</b> <i>Booléen</i> | Affiche un carré sur chaque vertex marqué comme angle (fusion additive). |
-| <b>Afficher les Vertex</b> <i>Booléen</i> | Affiche une forme circulaire sur chaque vertex (fusion additive). Les coins sont toujours affichés sous forme de carrés. |
+| <b>Afficher les coins</b> <i>Booléen</i> | Affiche un carré sur chaque sommet marqué comme angle (fusion additive). |
+| <b>Afficher les sommets</b> <i>Booléen</i> | Affiche une forme circulaire sur chaque sommet (fusion additive). Les coins sont toujours affichés sous forme de carrés. |
 | <b>Thickness des segments (px)</b> <i>Flotter</i> | Ajuste le thickness des segments rendus en pixels. |
 
 ## Exemples
@@ -66,12 +66,12 @@ Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[opt
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](preview-paths.resources/preview-paths-02.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](preview-paths.resources/preview-paths-03.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

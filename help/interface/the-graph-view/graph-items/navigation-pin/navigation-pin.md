@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Utilisez les repères de navigation dans la vue Graphique pour passer rapidement d’un emplacement à l’autre dans les graphiques Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Épingle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône d&#39;épingle de navigation](navigation-pin.resources/graphatomic-pin_1.png "Icône d&#39;épingle de navigation")
+![Icône d&#39;épingle de navigation](navigation-pin.resources/navigation-pin-01.png "Icône d&#39;épingle de navigation")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Quel que soit le type de graphique, appuyer sur <b>F2</b> permet de parcourir to
 
 Les épingles seront encadrées dans la clôture au niveau de zoom actuel.
 
-![Épingles : passage aux épingles](navigation-pin.resources/graph-pin_jumping.gif "Épingles : passage aux épingles")
+![Épingles : passage aux épingles](navigation-pin.resources/navigation-pin-02.gif "Épingles : passage aux épingles")

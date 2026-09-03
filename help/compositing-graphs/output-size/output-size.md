@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Configurez les paramètres de taille de sortie des graphiques de composition de Substances pour contrôler la résolution et la qualité de la texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Taille de sortie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Il s&#39;agit du premier des <b>paramètres de base</b> d&#39;un graphique et, a
 
 >[!NOTE]
 >
-> Utilisez le bouton de verrouillage ![](output-size.resources/props-output-size-lock.jpg) pour que la valeur Height *corresponde* à la valeur Largeur.
+> Utilisez le bouton de verrouillage ![](output-size.resources/output-size-01.jpg) pour que la valeur Height *corresponde* à la valeur Largeur.
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ Cela s&#39;applique également lorsque la valeur Taille de sortie est contrôlé
 
 ## Taille relative
 
-Lorsque la propriété Taille de sortie utilise une méthode d&#39;héritage *Relative à...* [3&rbrace;, sa valeur est exprimée sous la forme d&#39;un modificateur *par rapport à la valeur logarithmique héritée*.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
+Lorsque la propriété Taille de sortie utilise une méthode d&#39;héritage *Relative à...* [3}, sa valeur est exprimée sous la forme d&#39;un modificateur *par rapport à la valeur logarithmique héritée*.](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 
 Les modificateurs relatifs à la résolution héritée vont de -12 à +12 sur une échelle logarithmique, la valeur par défaut étant 0. Cela signifie que chaque étape au-dessus ou au-dessous entraîne un doublement ou une réduction de moitié de la résolution. Le tableau de droite donne un exemple de la façon dont la résolution relative change dans une dimension pour une valeur héritée de 9 (c.-à-d. 512 = 2^9) et 11 (c.-à-d. 2048 = 2^11) :
 
@@ -86,19 +86,19 @@ Notez qu&#39;au-dessus de 8 196, la taille est *plafonnée*. Cette limite est co
 
 >[!NOTE]
 >
-> En dessous de 16, la résolution n&#39;est *pas* limitée, mais il n&#39;est pas recommandé d&#39;aller plus bas, car il n&#39;y a aucun gain de performances en dessous de ce seuil. Au contraire, les performances *chutent* en raison de l&#39;implémentation spécifique du <b>moteur de Substance</b>. Par conséquent, utilisez une résolution minimale générale de 16 x 16 dans les graphes de Substance.
+> En dessous de 16, la résolution n&#39;est *pas* limitée, mais il n&#39;est pas recommandé d&#39;aller plus bas, car il n&#39;y a aucun gain de performances en dessous de ce seuil. Au contraire, les performances *chutent* en raison de l&#39;implémentation spécifique du <b>moteur de Substance</b>. Par conséquent, utilisez une résolution minimale générale de 16 x 16 dans les graphiques de Substance.
 
 ## Modification de la méthode d’héritage
 
 Dans la plupart des cas, la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) par défaut pour la propriété Taille de la sortie est la suivante en fonction de l&#39;élément :
 
-* Graphe : *Relatif au parent*
+* Graphique : *relatif au parent*
 * Nœud : *Relative à l&#39;entrée* : les valeurs héritées par l&#39;[entrée principale](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) du nœud sont utilisées dans ce cas
 * Nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) :*Absolu* - consultez la page [Ressources bitmap](../../resources/bitmap-resource/bitmap-resource.md) et les [directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) pour savoir pourquoi
 
-Affichez les propriétés d&#39;un nœud ou d&#39;un graphe en cliquant sur cet élément, puis dans le panneau [Propriétés](../../interface/properties/properties.md) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage et sélectionnez la méthode d’héritage souhaitée.
+Affichez les propriétés d&#39;un nœud ou d&#39;un graphique en cliquant sur cet élément, puis dans le panneau [Propriétés](../../interface/properties/properties.md) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage pour sélectionner la méthode d’héritage souhaitée.
 
-![Méthode d’héritage de la taille de sortie](output-size.resources/change-mode.gif "Méthode d’héritage de la taille de sortie"){width="512px"}
+![Méthode d’héritage de la taille de sortie](output-size.resources/output-size-02.gif "Méthode d’héritage de la taille de sortie"){width="512px"}
 
 ## Exemples de problèmes
 
@@ -107,28 +107,28 @@ Si vous êtes un nouvel utilisateur de [Adobe Substance 3D Designer](https://www
 +++Problème 1
 **![(erreur)](output-size.resources/error.svg) Problème**
 
-![Exemple de problème 1](output-size.resources/problem2-bad.png "Exemple de problème 1")
+![Exemple de problème 1](output-size.resources/output-size-03.png "Exemple de problème 1")
 
 
 
-Le paramètre **Taille du gabarit** est *grisé* et le graphe l&#39;utilise dans une résolution 256\*256 non souhaitée.
+Le paramètre **Taille du gabarit** est *grisé* et le graphique utilise une résolution 256\*256 non souhaitée.
 
-Dans les propriétés du graphe, la méthode d&#39;héritage de la propriété Taille de sortie était définie sur *Absolue*, ce qui arrête l&#39;héritage en faveur d&#39;une valeur arbitraire.
+Dans les propriétés du graphique, la méthode d&#39;héritage de la propriété Taille de sortie était définie sur *Absolue*, ce qui bloque l&#39;héritage en faveur d&#39;une valeur arbitraire.
 
 Solution **![(tick)](output-size.resources/check.svg)**
 
-![Exemple de problème 1 Solution](output-size.resources/problem2-good.png "Exemple de problème 1 Solution")
+![Exemple de problème 1 Solution](output-size.resources/output-size-04.png "Exemple de problème 1 Solution")
 
 
 
-Définissez la méthode d&#39;héritage de la taille de sortie du graphe sur *Relatif au parent*.
+Définissez la méthode d&#39;héritage pour la taille Sortie du graphique sur *Relative au parent*.
 
 +++
 
 +++Problème 2
 **![(erreur)](output-size.resources/error.svg) Problème**
 
-![Exemple de problème 2](output-size.resources/problem1-bad.png "Exemple de problème 2")
+![Exemple de problème 2](output-size.resources/output-size-05.png "Exemple de problème 2")
 
 
 
@@ -138,7 +138,7 @@ Le problème provient du nœud [Bitmap](../../compositing-graphs/nodes-reference
 
 Solution **![(tick)](output-size.resources/check.svg)**
 
-![Exemple de problème 2 Solution](output-size.resources/problem1-good.png "Exemple de problème 2 Solution")
+![Exemple de problème 2 Solution](output-size.resources/output-size-06.png "Exemple de problème 2 Solution")
 
 
 
@@ -149,7 +149,7 @@ Définissez la méthode d&#39;héritage de la taille de sortie du nœud Bitmap s
 +++Problème 3
 **![(erreur)](output-size.resources/error.svg) Problème**
 
-![Exemple de problème 3](output-size.resources/problem3-bad.png "Exemple de problème 3")
+![Exemple de problème 3](output-size.resources/output-size-07.png "Exemple de problème 3")
 
 
 
@@ -159,7 +159,7 @@ Le problème est causé par un modificateur relatif de 3 sur le nœud [Transform
 
 Solution **![(tick)](output-size.resources/check.svg)**
 
-![Exemple de problème 3 Solution](output-size.resources/problem3-good.png "Exemple de problème 3 Solution")
+![Exemple de problème 3 Solution](output-size.resources/output-size-08.png "Exemple de problème 3 Solution")
 
 
 

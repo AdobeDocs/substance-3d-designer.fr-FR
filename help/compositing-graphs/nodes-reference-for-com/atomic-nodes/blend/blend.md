@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Fusion](blend.resources/comp_blend_1.png "Noeud atomique : Fusion"){width="200px"}
+![Noeud atomique : Fusion](blend.resources/blend-01.png "Noeud atomique : Fusion"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Il s&#39;agit du nœud le plus utile de tous les Noeuds atomiques. Presque tous 
 </tr>
 </table>
 
-Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
+Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
 
 >[!TIP]
 >

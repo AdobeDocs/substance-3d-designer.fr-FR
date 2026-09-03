@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Checker 1 pour générer des motifs en damier avec une taille de mosaïque et des couleurs personnalisables pour les tests et les textures.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vérificateur 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 5%
@@ -24,18 +24,18 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](checker-1.resources/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-01.png){width="128px"}
 
-<b>Entrée :</b> Générateurs De Textures > Motifs
+<b>Entrée :</b> Générateurs de textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Motif de damier très simple. Le carrelage est délibérément mis bas pour le rendre aussi générique que possible.
+Motif de damier très simple. La répétition est délibérément faible pour qu’elle soit aussi générique que possible.
 
-Il s’agit d’un motif utile pour les cas de test, en raison de son contraste et de sa structure en mosaïque évidents.
+Il s’agit d’un modèle utile pour les cas tests, en raison de son contraste et de sa répétition évidents.
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ Il s’agit d’un motif utile pour les cas de test, en raison de son contraste 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="checker-1.resources/checker-1-ex.gif" />
+            <img src="checker-1.resources/checker-1-02.gif" />
         </td>
     </tr>
 </table>

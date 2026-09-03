@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de 3D linear gradient pour créer des dégradés linéaires basés sur la position universelle 3D pour les effets spatiaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-linear-gradient.resources/3d-linear-gradient.png){width="128px"}
+![](3d-linear-gradient.resources/3d-linear-gradient-01.png){width="128px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -57,7 +57,7 @@ Voir également [Masque de volume 3D](../../../../../../compositing-graphs/nodes
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-linear-gradient.resources/3d-gradient.gif" />
+            <img src="3d-linear-gradient.resources/3d-linear-gradient-02.gif" />
         </td>
     </tr>
 </table>

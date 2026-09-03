@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Caustique pour générer des motifs de lumière caustique afin de créer des effets d'éclairage sous-marin et réfractif.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Caustique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](caustics.resources/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/caustics-01.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -52,8 +52,8 @@ Génère des réverbérations projetées en fonction d’une courbe d’height e
 | <b>IOR de surface</b> <i>1.0 - 2.0</i> | Définissez l’index de réfraction. Dans la version couleur, cette option ajoute plus de dispersion des couleurs. |
 | <b>Taille du photon</b> <i>1.0 - 50.0</i> | La taille du photon affecte la netteté de l’effet. |
 | <b>Dispersion</b> <i>0.0 - 0.01 (version couleur uniquement)</i> | Affectez uniquement la dispersion des couleurs. Non visible lorsque l&#39;IOR est faible. |
-| <b>Variation</b> <i>0.0 - 1.0</i> | Ajoutez une variation irrégulière aux particules de photons de convertit. |
-| <b>Position claire</b> | Déplace la position de la lumière. Également fait à travers un gadget dans la Vue 2D. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Ajoutez une variation irrégulière aux particules de photons projetées. |
+| <b>Position claire</b> | Déplace la position de la lumière. Effectuez également cette opération à l’aide d’un gadget dans la vue 2D. |
 | <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur) (version de couleur uniquement)</i> | Modifiez la couleur d’arrière-plan. Limité au noir dans la version en niveaux de gris. |
 | <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |
 
@@ -62,7 +62,7 @@ Génère des réverbérations projetées en fonction d’une courbe d’height e
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+            <img src="caustics.resources/caustics-02.png" />
         </td>
     </tr>
 </table>

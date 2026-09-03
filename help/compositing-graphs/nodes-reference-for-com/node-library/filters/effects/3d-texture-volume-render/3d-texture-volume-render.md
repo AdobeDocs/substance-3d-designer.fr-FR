@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de rendu de volume de texture 3D pour effectuer le rendu des textures volumétriques à partir de données 3D afin de créer des effets de nuage et de brouillard.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendu du volume de texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
 <b>Entrée :</b> Filtre > Effet
 
@@ -77,7 +77,7 @@ Le volume est représenté dans les limites d&#39;un *cube unitaire*. L&#39;écl
 | <b>Albédo</b> <i>Float3</i> | Couleur albédo du volume. |
 | <b>Mode Arrière-plan</b> <i>Nombre entier</i> | Méthode d&#39;ombrage de l&#39;arrière-plan de la scène rendue, en fonction de la <b>couleur d&#39;arrière-plan</b> :<br>-<i>ombrée</i> : la couleur est affectée par la <i>couleur</i> et l&#39;<i>intensité</i><br>-<i>couleur constante</i> de la lumière directionnelle : la couleur est appliquée uniformément <i>quelle que soit</i> la lumière directionnelle |
 | <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur utilisée pour remplir l’arrière-plan de la scène rendue. |
-| <b>Dithering</b> <i>Flotter</i> | Règle l&#39;intensité du <i>dithering bruit bleu</i> utilisé pour lisser l&#39;ombrage. |
+| <b>Tramage</b> <i>Flotter</i> | Règle l&#39;intensité du <i>tramage du bruit bleu</i> utilisé pour lisser l&#39;ombrage. |
 | <b>Activer le plan de Sol</b> <i>Booléen</i> | Lorsque la valeur <i>True</i> est appliquée, elle rend un plan au sol <i>infini</i>. Le <i>cube unitaire</i> entourant la forme repose sur ce plan. |
 | <b>Plan Infini</b> <i>Booléen</i> | Définit le plan du sol sur <i>s&#39;étendre à l&#39;infini</i> jusqu&#39;à l&#39;horizon.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Activer le plan du Sol</b> est défini sur <i>Vrai</i>. |
 | <b>Taille du plan du Sol</b> <i>Float2</i> | Ajuste la taille du plan du sol.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Activer le plan du Sol</b> est défini sur <i>Vrai</i> et le paramètre <b>Plan infini</b> sur <i>Faux</i>. |
@@ -87,22 +87,22 @@ Le volume est représenté dans les limites d&#39;un *cube unitaire*. L&#39;écl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
         </td>
     </tr>
 </table>

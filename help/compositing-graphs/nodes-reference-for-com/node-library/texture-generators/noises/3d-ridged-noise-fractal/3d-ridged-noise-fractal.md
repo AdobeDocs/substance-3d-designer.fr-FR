@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud fractal de Bruit strié 3D pour générer des motifs de bruit fractal strié dans l’espace 3D afin de créer des textures de type montagne.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: bruit 3D à arête fractale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -62,19 +62,19 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 | <b>Rugosité</b> <i>Flotter</i> | Contrôle l&#39;<i>équilibre</i> entre les <i>niveaux de répétition</i> bas et élevés dans le motif fractal.<br><br><i>Remarque</i> : une valeur de <b>0</b> entraîne une sortie <i>non alignée</i> avec d&#39;autres valeurs faibles qui la suivent. C&#39;est ce qui est attendu. |
 | <b>Lacunarité</b> <i>Flotter</i> | Contrôle la façon dont le motif fractal appliqué <i>remplit l&#39;espace</i>. Une valeur <i>plus élevée</i> entraîne <i>moins d&#39;espaces</i> dans le motif et un bruit <i>plus dense</i>. |
 | <b>Opacité globale</b> <i>Flotter</i> | Contrôle la <i>plage</i> des valeurs de bruit fractal 3D avec arête <i>autour</i> de la <b>valeur de base</b>. |
-| <b>Ligne de base</b> <i>Flotter</i> | Applique un <i>décalage</i> à la valeur de ligne de base <i>luminance</i> pour la distribution des valeurs de bruit 3D avec arête. |
+| <b>Ligne de base</b> <i>Flotter</i> | Applique un <i>décalage</i> à la valeur de base de <i>luminance</i> pour la distribution de la valeur de bruit 3D Ridged. |
 | <b>Contraste</b> <i>Flotter</i> | Règle le contraste du bruit 3D avec arête. |
-| <b>Activer la Répétition</b> <i>Booléen</i> | Ajuste le bruit 3D avec arête de sorte que son motif résultant <i>se répète</i> dans les axes X, Y et Z. |
+| <b>Activer la Répétition</b> <i>Booléen</i> | Règle le bruit 3D avec arête de sorte que le motif résultant <i>se répète</i> sur les axes X, Y et Z. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
         </td>
     </tr>
 </table>

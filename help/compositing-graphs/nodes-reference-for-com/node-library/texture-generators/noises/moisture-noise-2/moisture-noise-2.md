@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit d'humidité 2 pour générer des motifs d'humidité organiques pour des textures de surface réalistes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bruit d'humidité 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 2 - Icône](moisture-noise-2.resources/moisture_noise_2.png "Bruit d&#39;humidité 2 - Icône"){width="200px"}
+![Bruit d&#39;humidité 2 - Icône](moisture-noise-2.resources/moisture-noise-2-01.png "Bruit d&#39;humidité 2 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -75,12 +75,12 @@ Voir aussi : [Bruit d&#39;humidité 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 2 - Exemple 1](moisture-noise-2.resources/moisture_noise_2_1.png "Bruit d&#39;humidité 2 - Exemple 1"){zoomable="yes"}
+![Bruit d&#39;humidité 2 - Exemple 1](moisture-noise-2.resources/moisture-noise-2-02.png "Bruit d&#39;humidité 2 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 2 - Exemple 2](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif "Bruit d&#39;humidité 2 - Exemple 2"){zoomable="yes"}
+![Bruit d&#39;humidité 2 - Exemple 2](moisture-noise-2.resources/moisture-noise-2-03.gif "Bruit d&#39;humidité 2 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Voir aussi : [Bruit d&#39;humidité 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 2 - Exemple 3](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif "Bruit d&#39;humidité 2 - Exemple 3"){zoomable="yes"}
+![Bruit d&#39;humidité 2 - Exemple 3](moisture-noise-2.resources/moisture-noise-2-04.gif "Bruit d&#39;humidité 2 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 2 - Exemple 4](moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Bruit d&#39;humidité 2 - Exemple 4"){zoomable="yes"}
+![Bruit d&#39;humidité 2 - Exemple 4](moisture-noise-2.resources/moisture-noise-2-05.gif "Bruit d&#39;humidité 2 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

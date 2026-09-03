@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-012.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-012.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Map 012 pour générer des textures d'usure/salissures procédurales afin d'ajouter des détails de surface et des effets d'usure aux matériaux.
+description: Utilisez le nœud Usure/salissures Map 012 pour générer des textures usure/salissures procédurales afin d'ajouter des détails de surface et des effets d'usure aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 012
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Carte Usure/salissures 012
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-012.resources/grungemap-012.png){width="128px"}
+![](grunge-map-012.resources/grunge-map-012-01.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -56,7 +56,7 @@ Cela génère une carte de bruit combinée complexe. Il peut être très utile e
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-012.resources/grungemap-012-ex.gif" />
+            <img src="grunge-map-012.resources/grunge-map-012-02.gif" />
         </td>
     </tr>
 </table>

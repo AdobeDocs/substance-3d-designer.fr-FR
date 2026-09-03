@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dispersion sur niveaux de gris spline pour répartir les éléments en niveaux de gris le long des tracés splines pour les motifs procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersion sur niveaux de gris spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "Icône de nœud")
+![Icône de nœud](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -97,7 +97,7 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 | <b>Dernier index d&#39;entrée de motif</b> <i>Entier</i> (disponible lorsque &#39;Override Last Pattern&#39; est défini sur &#39;True&#39;) | Index du motif à placer à l&#39;extrémité de chaque spline. |
 | <b>Doublons</b> |  |
 | <b>Mode de distribution</b> <i>Nombre entier</i> | Méthode utilisée pour placer les motifs dupliqués :<br><br>- <i>Linéaire</i> : les duplicatas sont espacés de manière régulière le long de la normale de la spline à partir de l&#39;emplacement d&#39;origine du motif ;<br>- <i>Circulaire</i> : les duplicatas sont disposés le long d&#39;un cercle virtuel centré sur la spline à l&#39;emplacement d&#39;origine du motif. |
-| <b>Quantité de doublons</b> <i>Nombre entier</i> | Nombre de motifs dupliqués. |
+| <b>Quantité de doublons</b> <i>Entier</i> | Nombre de motifs dupliqués. |
 | <b>Décalage</b> <i>Flottant 2</i> (disponible lorsque le mode de distribution est défini sur Linéaire) | Applique un décalage aux positions des duplicatas le long de la tangente (parallèle) et de la normale (perpendiculaire) de la spline.<br>Les duplicatas de part et d&#39;autre de la spline sont déplacés dans des directions opposées. |
 | <b>Décalage au centre</b> <i>Flottant 2</i> (disponible lorsque le mode de distribution est défini sur Linéaire) | Applique un décalage aux copies le long de la spline sur X (parallèle) et Y (perpendiculaire). |
 | <b>Angle de répartition</b> <i>Flottant</i> (disponible lorsque le « Mode de distribution » est défini sur « Circulaire ») | L&#39;arc du cercle virtuel le long duquel les doublons sont distribués, comme l&#39;angle de cet arc où 1 est le cercle entier. |
@@ -117,15 +117,15 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 | <b>Mode D&#39;Échantillonnage D&#39;Entrée À L&#39;Échelle</b> <i>Espace Texture</i> | Méthode de mappage des valeurs de la carte d&#39;échelle aux splines :<br><br>- <i>espace de Texture</i> : les valeurs sont appliquées aux splines où elles se trouveraient si elles étaient placées dans une texture à l&#39;aide des coordonnées d&#39;UV de la texture. Cela applique efficacement la valeur aux splines « en place »;<br>- <i>Horizontalement le long de la spline</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), où chaque ligne est appliquée à une spline différente de haut en bas ;<br>- <i>Heure. le long de la spline (rand. offset X)</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), avec un décalage horizontal aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cordons de spline);<br>- <i>Hor. le long de la spline (rand. décalage Y)</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cœurs de spline), avec un décalage vertical aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cœurs de spline). |
 | <b>Atténuation Début/Fin</b> <i>Float2</i> | Tient compte de la distance entre le point médian de la spline et ses extrémités lors de la mise à l&#39;échelle des motifs.<br>Cela signifie que la taille est réduite pour les motifs plus proches des extrémités d&#39;une spline. |
 | <b>Position</b> |  |
-| <b>Décalage local</b> <i>Float2</i> | Applique un décalage aux positions des motifs le long de la tangente (parallèle) et de la normale (perpendiculaire) de la spline. |
+| <b>Décalage local</b> <i>Flottant 2</i> | Applique un décalage aux positions des motifs le long de la tangente (parallèle) et de la normale (perpendiculaire) de la spline. |
 | <b>Décalage local aléatoire</b> <i>Float2</i> | Applique un décalage aléatoire supplémentaire aux positions des motifs le long de la tangente (parallèle) et de la normale (perpendiculaire) de la spline. |
 | <b>Décalage local au centre aléatoire</b> <i>Float2</i> | Décale le centre du décalage aléatoire appliqué par le paramètre Aléatoire de décalage local le long de la tangente (parallèle) et de la normale (perpendiculaire) de la spline. |
 | <b>Atténuation du début/de la fin du décalage local</b> <i>Float2</i> | Tient compte de la distance entre le point médian de la spline et ses extrémités lors de l&#39;application de décalages de position aux motifs.<br>Cela signifie que les décalages sont diminués pour les motifs plus proches des extrémités d&#39;une spline. |
 | <b>Atténuation du décalage local par Thickness</b> <i>Flotter</i> | Facteurs dans le thickness de la spline lors de l&#39;application de décalages aux motifs.<br>Cela signifie que les décalages sont réduits pour les doublons sur une partie d&#39;une spline avec un thickness inférieur. |
-| <b>Décalage sur la spline</b> <i>Flotter</i> | Applique un décalage de position aux motifs le long des splines. |
+| <b>Décalage sur la spline</b> <i>Flottant</i> | Applique un décalage de position aux motifs le long des splines. |
 | <b>Décalage aléatoire sur la spline</b> <i>Flotter</i> | Applique un décalage de position supplémentaire aux motifs le long des splines. |
 | <b>Rotation</b> |  |
-| <b>Aligner sur la Tangente</b> <i>Booléen</i> | Fait pivoter les motifs en fonction de la direction de la spline à leur emplacement. |
+| <b>Aligner avec la tangente</b> <i>Booléen</i> | Fait pivoter les motifs en fonction de la direction de la spline à leur emplacement. |
 | <b>Rotation (Pivot)</b> <i>Flotter</i> | Fait pivoter les motifs autour de leurs pivots.<br>La position de pivot peut être décalée à l&#39;aide du paramètre « Shape Pivot ». |
 | <b>Rotation Aléatoire (Pivot)</b> <i>Flotter</i> | Applique une rotation aléatoire supplémentaire aux motifs autour de leurs pivots.<br>La position de pivot peut être décalée à l&#39;aide du paramètre « Shape Pivot ». |
 | <b>Rotation aléatoire au centre (pivot)</b> <i>Flotter</i> | Fait pivoter autour du motif le centre des rotations aléatoires appliquées par le paramètre Rotation aléatoire. |
@@ -160,11 +160,11 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Exemple de nœud 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Démonstration de nœud 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "Démonstration de nœud 2")
+![Démonstration de nœud 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Démonstration de nœud 2")
 
 </td>
 </tr>

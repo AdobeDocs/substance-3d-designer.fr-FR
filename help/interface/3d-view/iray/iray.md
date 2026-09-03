@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Cette page présente le rendu Iray disponible dans le panneau de vue 3D de [Subs
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logo NVIDIA Iray](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logo NVIDIA Iray](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Consultez la section <b>Moteur de rendu</b> de cette page pour en savoir plus su
 </td>
 <td style="border: 0;" valign="top">
 
-![Matériau de mur de château médiéval rendu en Iray](iray.resources/iray-overview.png "Matériau de mur de château médiéval rendu en Iray")
+![Matériau de mur de château médiéval rendu en Iray](iray.resources/iray-02.png "Matériau de mur de château médiéval rendu en Iray")
 
 *Matériau :[mur du château médiéval](https://oggyart.artstation.com/projects/Xnzx0a)* *par [Mark Foreman](https://www.artstation.com/oggyart)* *disponible dans notre [bibliothèque Substance 3D](https://substance3d.adobe.com/assets)* *bibliothèque*
 
@@ -104,7 +104,7 @@ Composant d’affichage du maillage
 > La subdivision du maillage *augmente son temps de traitement de manière exponentielle* avant et pendant le rendu. Nous vous suggérons d&#39;être *conservateur* avec les valeurs saisies.\
 > Faites attention lorsque vous utilisez des valeurs *haute* **nombre** pour la méthode Parametric et des valeurs *basse* **longueur minimale** pour la méthode Length.
 
-![Options de scène](iray.resources/iray-scene-subdivision.gif "Options de scène")
+![Options de scène](iray.resources/iray-03.gif "Options de scène")
 
 <a name="materials"></a>
 
@@ -137,7 +137,7 @@ Les autres options notables de ce menu sont les suivantes :
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Matières](iray.resources/iray-mdl-list.png "Menu Matières")
+![Menu Matières](iray.resources/iray-04.png "Menu Matières")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Les paramètres suivants sont disponibles dans les propriétés de la caméra lo
 * <b>Distance de mise au point</b> : distance par rapport à la caméra du point focal, c’est-à-dire là où l’image est la plus nette
 * <b>Diamètre de l&#39;ouverture</b> : valeur déterminant l&#39;ouverture de l&#39;appareil photo. Plus la valeur est faible, plus les éléments de l’image sont nets avant et après le point focal. Plus simplement, cette valeur contrôle l’intensité de la profondeur de l’effet de champ
 
-![Paramètres de l&#39;appareil photo](iray.resources/camera-dof.png "Paramètres de l&#39;appareil photo")
+![Paramètres de l&#39;appareil photo](iray.resources/iray-05.png "Paramètres de l&#39;appareil photo")
 
 <a name="environment"></a>
 
@@ -205,11 +205,11 @@ L’impact de certains de ces paramètres est démontré ci-dessous :
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-environment-hidden.png" alt="Iray - Environnement masqué">
+      <img src="iray.resources/iray-06.png" alt="Iray - Environnement masqué">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="iray.resources/iray-env-visible.png" alt="Iray - Environnement visible">
+      <img src="iray.resources/iray-07.png" alt="Iray - Environnement visible">
       <br><i>Après</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ L’impact de certains de ces paramètres est démontré ci-dessous :
 
 
 
-![Iray - Environnement masqué](iray.resources/iray-environment-hidden.png "Iray - Environnement masqué")
+![Iray - Environnement masqué](iray.resources/iray-06.png "Iray - Environnement masqué")
 
-![Iray - Environnement visible](iray.resources/iray-env-visible.png "Iray - Environnement visible")
+![Iray - Environnement visible](iray.resources/iray-07.png "Iray - Environnement visible")
 
 +++
 
@@ -229,11 +229,11 @@ L’impact de certains de ces paramètres est démontré ci-dessous :
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iris - Sphère infinie uniquement">
+      <img src="iray.resources/iray-08.png" alt="Iris - Sphère infinie uniquement">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray - Sphère infinie avec plan au sol">
+      <img src="iray.resources/iray-09.png" alt="Iray - Sphère infinie avec plan au sol">
       <br><i>Après</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ L’impact de certains de ces paramètres est démontré ci-dessous :
 
 
 
-![Iray - Sphère infinie uniquement](iray.resources/iray-env-infinite-sphere.png "Iray - Sphère infinie uniquement")
+![Iray - Sphère infinie uniquement](iray.resources/iray-08.png "Iray - Sphère infinie uniquement")
 
-![Iray - Sphère infinie avec plan au sol](iray.resources/iray-env-sphere-ground.png "Iray - Sphère infinie avec plan au sol")
+![Iray - Sphère infinie avec plan au sol](iray.resources/iray-09.png "Iray - Sphère infinie avec plan au sol")
 
 +++
 
 +++Faire une Rotation de l&#39;environnement
-![Faire pivoter l’environnement](iray.resources/iray-env-rotation.gif "Faire pivoter l’environnement")
+![Faire pivoter l’environnement](iray.resources/iray-10.gif "Faire pivoter l’environnement")
 
 
 
 +++
 
 +++Ajuster le plan au sol
-![Réflexion au sol](iray.resources/iray-env-ground-options.gif "Réflexion au sol")
+![Réflexion au sol](iray.resources/iray-11.gif "Réflexion au sol")
 
 
 
 +++
 
 +++Ajuster la sphère infinie
-![Échelle de l’environnement (sphère)](iray.resources/iray-env-sphere-radius.gif "Échelle de l’environnement (sphère)")
+![Échelle de l’environnement (sphère)](iray.resources/iray-12.gif "Échelle de l’environnement (sphère)")
 
 
 
 +++
 
 +++Ajuster le cadre de sélection
-![Échelle de l&#39;environnement (cube)](iray.resources/iray-env-box-dimensions.gif "Échelle de l&#39;environnement (cube)")
+![Échelle de l&#39;environnement (cube)](iray.resources/iray-13.gif "Échelle de l&#39;environnement (cube)")
 
 
 
@@ -287,7 +287,7 @@ Ces options affichent une *incrustation de texte* au-dessus de l&#39;image rendu
 * <b>Résolution</b> : résolution de rendu effective. Si l’option Utiliser la résolution de la fenêtre dans les propriétés de la caméra est définie sur Faux, le rapport de l’image est automatiquement ajusté pour correspondre au rapport de résolution
 * <b>Statistiques de scène</b> : liste de statistiques liées à la scène rendue, qui inclut le nombre de triangles et le nombre de matières, entre autres données
 
-![Options d’affichage](iray.resources/iray-display-data.png "Options d’affichage"){width="512px"}
+![Options d’affichage](iray.resources/iray-14.png "Options d’affichage"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-none.png" alt="Iris - Rendu de base">
+      <img src="iray.resources/iray-15.png" alt="Iris - Rendu de base">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Échantillonneur caustique activé">
+      <img src="iray.resources/iray-16.png" alt="Iray - Échantillonneur caustique activé">
       <br><i>Après</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 
 
 
-![Iray - Rendu de base](iray.resources/iray-renderer-none.png "Iray - Rendu de base")
+![Iray - Rendu de base](iray.resources/iray-15.png "Iray - Rendu de base")
 
-![Iray - Échantillonneur caustique activé](iray.resources/iray-renderer-caustics.png "Iray - Échantillonneur caustique activé")
+![Iray - Échantillonneur caustique activé](iray.resources/iray-16.png "Iray - Échantillonneur caustique activé")
 
 +++
 
@@ -340,11 +340,11 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Filtre Firefly désactivé">
+      <img src="iray.resources/iray-16.png" alt="Iray - Filtre Firefly désactivé">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Filtre Firefly activé">
+      <img src="iray.resources/iray-17.png" alt="Iray - Filtre Firefly activé">
       <br><i>Après</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 
 
 
-![Iray - Filtre Firefly désactivé](iray.resources/iray-renderer-caustics.png "Iray - Filtre Firefly désactivé")
+![Iray - Filtre Firefly désactivé](iray.resources/iray-16.png "Iray - Filtre Firefly désactivé")
 
-![Iray - Filtre Firefly activé](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Filtre Firefly activé")
+![Iray - filtre de Firefly activé](iray.resources/iray-17.png "Iray - filtre de Firefly activé")
 
 +++
 
@@ -364,11 +364,11 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Post-dénoiseur désactivé">
+      <img src="iray.resources/iray-17.png" alt="Iray - Post-dénoiseur désactivé">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-dénoiseur activé">
+      <img src="iray.resources/iray-18.png" alt="Iray - Post-dénoiseur activé">
       <br><i>Après</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 
 
 
-![Iray - Post-dénoiseur désactivé](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Post-dénoiseur désactivé")
+![Iray - Post-dénoiseur désactivé](iray.resources/iray-17.png "Iray - Post-dénoiseur désactivé")
 
-![Iray - Post-dénoiseur activé](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-dénoiseur activé")
+![Iray - Post-dénoiseur activé](iray.resources/iray-18.png "Iray - Post-dénoiseur activé")
 
 +++
 
@@ -386,7 +386,7 @@ L’impact de certains de ces paramètres est démontré dans les comparaisons d
 
 ## Accélération matérielle
 
-Le moteur de rendu Iray offre une accélération matérielle sur les GPU NVIDIA exclusivement, ce qui offre les avantages suivants :
+Le moteur de rendu d’Iray offre une accélération matérielle sur les GPU NVIDIA exclusivement, ce qui offre les avantages suivants :
 
 * Augmentation significative de la vitesse de rendu
 * [Suppression de bruit accélérée par l&#39;IA Optix](https://developer.nvidia.com/optix-denoiser) (voir « Post-dénoiseur » dans la section <b>Moteur de rendu</b> de cette page)
@@ -404,4 +404,4 @@ Lorsqu&#39;un GPU pris en charge est détecté, il est répertorié dans cette s
 > L&#39;accélération matérielle du GPU utilise la technologie [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone). Assurez-vous que votre pilote graphique *est à jour* pour une compatibilité et une fiabilité optimales. Cliquez [ici](https://www.nvidia.com/Download/index.aspx?lang=en-us) pour trouver le pilote le plus récent pour votre GPU NVIDIA.\
 > Pour les configurations à plusieurs GPU, il est recommandé de *désactiver SLI* et de sélectionner un seul GPU pour une fiabilité optimale.
 
-![Préférences Iray](iray.resources/iray-preferences-hardware.png "Préférences Iray")
+![Préférences Iray](iray.resources/iray-19.png "Préférences Iray")

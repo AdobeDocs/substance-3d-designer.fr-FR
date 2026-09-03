@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Messy Fibres 3 pour générer des motifs de fibres complexes afin de créer des effets de texture textile et de tissu.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibres désordonnées 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibres désordonnées 3 - Icône](messy-fibers-3.resources/messy_fibers_3.png "Fibres désordonnées 3 - Icône"){width="200px"}
+![Fibres désordonnées 3 - Icône](messy-fibers-3.resources/messy-fibers-3-01.png "Fibres désordonnées 3 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Une variante des bruits structurés <b>fibres désordonnées</b>.
+Variante des bruits structurés de <b>fibres désordonnées</b>.
 
 Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-1/messy-fibers-1.md), [Fibres désordonnées 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
 
@@ -72,12 +72,12 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 3 - Exemple 1](messy-fibers-3.resources/messy_fibers_3_1.png "Fibres désordonnées 3 - Exemple 1"){zoomable="yes"}
+![Fibres désordonnées 3 - Exemple 1](messy-fibers-3.resources/messy-fibers-3-02.png "Fibres désordonnées 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 3 - Exemple 2](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "Fibres désordonnées 3 - Exemple 2"){zoomable="yes"}
+![Fibres désordonnées 3 - Exemple 2](messy-fibers-3.resources/messy-fibers-3-03.gif "Fibres désordonnées 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 3 - Exemple 3](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "Fibres désordonnées 3 - Exemple 3"){zoomable="yes"}
+![Fibres désordonnées 3 - Exemple 3](messy-fibers-3.resources/messy-fibers-3-04.gif "Fibres désordonnées 3 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 3 - Exemple 4](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "Fibres désordonnées 3 - Exemple 4"){zoomable="yes"}
+![Fibres désordonnées 3 - Exemple 4](messy-fibers-3.resources/messy-fibers-3-05.gif "Fibres désordonnées 3 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

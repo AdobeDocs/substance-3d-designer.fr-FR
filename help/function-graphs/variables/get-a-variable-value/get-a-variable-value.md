@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
-description: Découvrez comment récupérer des valeurs de variable dans les graphes de fonction Substance 3D Designer à l’aide du nœud Obtenir la variable.
+description: Découvrez comment récupérer des valeurs de variable dans les graphiques fonctionnels Substance 3D Designer à l’aide du nœud Obtenir la variable.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables > Get a variable value
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Obtenir une valeur de variable
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Pour utiliser une variable dans une fonction, vous devez l’« appeler », ce q
 
 Pour ce faire, vous devez utiliser un nœud *Get* :
 
-![](get-a-variable-value.resources/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/get-a-variable-value-01.png)
 
 Il existe différents types de nœuds Get : choisissez le bon en fonction du type de valeur que vous souhaitez importer :
 
-![](get-a-variable-value.resources/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/get-a-variable-value-02.png)
 
 ## Affectation d&#39;une variable à un nœud Get
 
@@ -38,7 +38,7 @@ Pour lier une variable, accédez aux paramètres et choisissez une variable dans
 
 Le nom de la variable s’affiche dans le nœud :
 
-![](get-a-variable-value.resources/assign-getfloat.gif)
+![](get-a-variable-value.resources/get-a-variable-value-03.gif)
 
 Notez que seules les variables qui proviennent du même type du nœud Get apparaîtront dans la liste.
 
@@ -50,5 +50,5 @@ Notez que seules les variables qui proviennent du même type du nœud Get appara
 > 
 > N&#39;oubliez pas que vous pouvez simplement appeler une variable créée avec un nœud Set, si :
 > 
-> * Les nœuds Get et Set se trouvent dans des graphes de fonction contrôlant les paramètres d&#39;un même nœud
-> * Le paramètre contrôlé par le graphe de nœuds *Get* est le même ou se trouve sous le paramètre du graphe de nœuds *Set*, dans la pile de paramètres.
+> * Les nœuds Get et Set se trouvent dans des graphiques de fonction contrôlant les paramètres d&#39;un même nœud
+> * Le paramètre contrôlé par le graphique de nœud *Get* est identique ou se trouve sous le paramètre du graphique de nœud *Set*, dans la pile de paramètres.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Découvrez comment gérer le contenu et les filtres personnalisés dans la bibliothèque Substance 3D Designer pour un accès organisé aux ressources.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestion de contenu et de filtres personnalisés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -34,11 +34,11 @@ La bibliothèque utilise un certain nombre de *points de données* pour identifi
 * Attributs
 
 Vous pouvez organiser votre <b>bibliothèque</b> en catégories contenant des filtres spécifiques et l&#39;adapter aux besoins de votre projet.\
-En effet, les catégories et les filtres personnalisés peuvent être *spécifiques à un projet* et être enregistrés dans [fichiers de projet](../../../interface/preferences-window/project-settings/project-settings.md) (\*.sbsprj). Ces fichiers peuvent ensuite être assemblés en [fichiers de configuration](../../../interface/preferences-window/project-settings/project-settings.md) (\*.sbscfg) et distribués à une équipe afin que les artistes puissent tous utiliser les* mêmes catégories de <b>bibliothèque</b>* pour un projet donné.
+En effet, les catégories et les filtres personnalisés peuvent être *spécifiques à un projet* et être enregistrés dans [fichiers de projet](../../../interface/preferences-window/project-settings/project-settings.md) (\*.sbsprj). Ces fichiers peuvent ensuite être assemblés en [fichiers de configuration](../../../interface/preferences-window/project-settings/project-settings.md) (\*.sbscfg) et distribués à une équipe afin que les artistes puissent tous utiliser les* mêmes catégories de <b>bibliothèques</b>* pour un projet donné.
 
 Cela signifie qu&#39;avec un ou plusieurs fichiers de projet, vous pouvez définir les dossiers dont le contenu doit être ajouté à la <b>bibliothèque</b>, ainsi que les catégories et les filtres qui trieront et organiseront ce contenu.
 
-![Contenu personnalisé dans la bibliothèque](managing-custom-content-and-filters.resources/library-filters.png "Contenu personnalisé dans la bibliothèque")
+![Contenu personnalisé dans la bibliothèque](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "Contenu personnalisé dans la bibliothèque")
 
 ## Attributs du graphe
 
@@ -57,11 +57,11 @@ Les filtres sont de simples paramètres de recherche booléens (Vrai/Faux) qui e
 
 Les catégories (c’est-à-dire les dossiers) et les filtres sont créés et modifiés à l’aide des boutons suivants :
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Ajouter un dossier :</b> Crée un dossier extensible dans la vue Bibliothèque. Vous *ne pouvez pas* créer de sous-dossiers.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png) Ajouter un dossier :</b> Crée un dossier extensible dans la vue Bibliothèque. Vous *ne pouvez pas* créer de sous-dossiers.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Ajouter un filtre :</b> ajoute un nouveau filtre dans le dossier sélectionné. Vous *ne pouvez pas* ajouter de filtres aux dossiers par défaut existants.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png) Ajouter un filtre :</b> ajoute un nouveau filtre dans le dossier sélectionné. Vous *ne pouvez pas* ajouter de filtres aux dossiers par défaut existants.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Modifier l&#39;élément :</b> Modifie le dossier ou le filtre actuellement sélectionné. Vous *ne pouvez pas* modifier les propriétés des dossiers et filtres par défaut.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png) Modifier l&#39;élément :</b> Modifie le dossier ou le filtre actuellement sélectionné. Vous *ne pouvez pas* modifier les propriétés des dossiers et filtres par défaut.
 
 Pour *supprimer* un dossier ou un filtre, *cliquez avec le bouton droit* dessus et sélectionnez l&#39;option <b>Supprimer</b> dans le menu contextuel.
 
@@ -76,7 +76,7 @@ Les <b>dossiers</b> et les <b>filtres</b> sont identifiés par les données suiv
 >
 > Il est *très* important de les configurer correctement, pour vous assurer de modifier le *projet correct* !
 
-![Édition de filtre personnalisée](managing-custom-content-and-filters.resources/library-filters-edit.png "Édition de filtre personnalisée")
+![Édition de filtre personnalisée](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "Édition de filtre personnalisée")
 
 Les **filtres** doivent généralement avoir *conditions* configurées pour atteindre leur objectif de filtrage. Ces conditions sont configurées en utilisant les critères suivants :
 

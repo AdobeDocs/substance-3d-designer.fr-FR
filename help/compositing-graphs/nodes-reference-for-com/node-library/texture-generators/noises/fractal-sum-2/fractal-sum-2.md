@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Somme fractale 2 pour générer un bruit fractal de deux octaves afin de créer des variations de texture organique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMME FRACTALE 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Somme fractale 2 - Icône](fractal-sum-2.resources/fractal_sum_2.png "Somme fractale 2 - Icône"){width="200px"}
+![Somme fractale 2 - Icône](fractal-sum-2.resources/fractal-sum-2-01.png "Somme fractale 2 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -65,12 +65,12 @@ Voir aussi : [Somme fractale de base](../../../../../../compositing-graphs/nodes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Somme fractale 2 - Exemple 1](fractal-sum-2.resources/fractal_sum_2_1.png "Somme fractale 2 - Exemple 1"){zoomable="yes"}
+![Somme fractale 2 - Exemple 1](fractal-sum-2.resources/fractal-sum-2-02.png "Somme fractale 2 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Somme fractale 2 - Exemple 2](fractal-sum-2.resources/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Somme fractale 2 - Exemple 2"){zoomable="yes"}
+![Somme fractale 2 - Exemple 2](fractal-sum-2.resources/fractal-sum-2-03.gif "Somme fractale 2 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>

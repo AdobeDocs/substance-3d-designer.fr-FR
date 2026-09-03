@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser Substance 3D Designer bakers pour calculer des informations de maillage dans des fichiers de texture.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bakers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La cuisson fait référence à l&#39;action de **transfert d&#39;informations ba
 
 >[!NOTE]
 >
-> Pour en savoir plus sur la cuisson, consultez la [Documentation sur la cuisson](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home).
+> Pour en savoir plus sur la cuisson, consultez la [Documentation sur la cuisson](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -35,13 +35,13 @@ La fenêtre de cuisson est accessible via le fichier de maillage dans la fenêtr
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-Option ![&#39;Informations de mode de cuisson&#39; dans le menu contextuel de la ressource de scène 3D](bakers.resources/sd-mesh-right-click.png "&#39;Informations de mode de cuisson&#39; dans le menu contextuel de la ressource de scène 3D")
+Option ![&#39;Informations de mode de cuisson&#39; dans le menu contextuel de la ressource de scène 3D](bakers.resources/bakers-01.png "&#39;Informations de mode de cuisson&#39; dans le menu contextuel de la ressource de scène 3D")
 
 </td>
 </tr>
 </table>
 
-![Fenêtre de cuisson](bakers.resources/sd-window-overview.png "Fenêtre de cuisson")
+![Fenêtre de cuisson](bakers.resources/bakers-02.png "Fenêtre de cuisson")
 
 ## Vue d’ensemble
 
@@ -60,7 +60,7 @@ Elle répertorie la géométrie trouvée dans le fichier de maillage low-poly. P
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/sd-mesh-selection.png)
+![](bakers.resources/bakers-03.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Ce panneau contrôle l’emplacement de la texture cuite.
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/sd-output.png)
+![](bakers.resources/bakers-04.png)
 
 </td>
 </tr>
@@ -93,15 +93,15 @@ Ce panneau contrôle l’emplacement de la texture cuite.
 
 ### Maillages haute définition
 
-Ce panneau contrôle la liste des maillages à haute densité de polices et les paramètres associés. Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
+Ce panneau contrôle la liste des maillages à haute densité de polices et les paramètres associés. Voir les [paramètres communs](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
 
-![Maillages haute définition](bakers.resources/sd-high.png "Maillages haute définition")
+![Maillages haute définition](bakers.resources/bakers-05.png "Maillages haute définition")
 
 ### Valeurs par défaut
 
-Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
+Voir les [paramètres communs](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
 
-![Valeurs par défaut](bakers.resources/sd-default-values.png "Valeurs par défaut")
+![Valeurs par défaut](bakers.resources/bakers-06.png "Valeurs par défaut")
 
 ### Liste et paramètres de rendu des bakers
 
@@ -116,6 +116,6 @@ Chaque boulanger hérite par défaut des valeurs par défaut (voir ci-dessus). L
 
 Lorsque vous cliquez sur un baker dans la liste, la vue Paramètres de Baker est mise à jour avec ses paramètres spécifiques.
 
-Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres de Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Liste de rendu des Bakers](bakers.resources/sd-baker-list.png "Liste de rendu des Bakers")
+![Liste de rendu des Bakers](bakers.resources/bakers-07.png "Liste de rendu des Bakers")

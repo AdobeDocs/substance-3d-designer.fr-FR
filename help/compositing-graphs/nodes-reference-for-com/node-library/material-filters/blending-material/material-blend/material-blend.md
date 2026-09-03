@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Fusion de matériau pour fusionner des matériaux entiers à l'aide de masques pour créer des effets de matériau composite.
+description: Utilisez le nœud Fusion de Matériau pour fusionner des matériaux entiers à l’aide de masques afin de créer des effets de matériau composites.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion de matériaux
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-blend.resources/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend-01.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Fusion
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Fusion de matériaux est l&#39;équivalent de matériau complet multicanal de [le nœud de fusion atomique](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Il se mélange entre deux matières complètes (toutes les couches possibles) à partir d’un masque de niveaux de gris, ou éventuellement à partir d’une seule couleur d’un Masque d&#39;identifiant de couleur.
+La Fusion de matériau est l&#39;équivalent de Matériau complet multicanal du [nœud de Fusion atomique](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Il se fond dans deux matériaux entiers (tous les canaux possibles) à partir d’un masque de niveaux de gris, ou éventuellement d’une seule couleur de Masque d&#39;identifiant de couleur.
 
-Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une texture en niveaux de gris, mais pas d’ID de couleur complet. Si vous avez un biscuit avec ID de couleur et que vous souhaitez fusionner plus de deux matériaux, nous vous suggérons d&#39;utiliser le [mélange de matériaux multiples](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
+Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une carte en niveaux de gris, mais pas de baking d’ID de couleur complet. Si vous disposez d&#39;un baking d&#39;ID de couleur et que vous souhaitez fusionner plus de deux matériaux, nous vous recommandons d&#39;utiliser la [Fusion multi-Matériaux](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une text
 
 |  |  |
 |:---|:---|
-| <b>ColorID</b> <i>Entrée couleur</i> | Mappage d’ID de couleur cuit facultatif. |
+| <b>ColorID</b> <i>Entrée couleur</i> | Map id de couleurs Baké facultatif. |
 | <b>Masque de niveaux de gris</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
 <a name="parameters"></a>

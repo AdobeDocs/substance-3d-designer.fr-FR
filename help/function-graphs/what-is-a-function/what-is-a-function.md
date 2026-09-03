@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/what-is-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/what-is-a-function.html"
 breadcrumb-title: ''
 description: Découvrez les fonctions de Substance 3D Designer et comment les utiliser pour créer des réseaux de nœuds réutilisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Qu’est-ce qu’une fonction ? '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Les fonctions de Substance 3D Designer permettent à l’utilisateur de génére
 
 Mais plutôt que d’utiliser des lignes de codes, les fonctions de Designer conservent la même approche nodale. À première vue, un graphe de fonction ressemble beaucoup à un graphe normal.
 
-![](what-is-a-function.resources/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/what-is-a-function-01.png)
 
 Vous pouvez rencontrer des fonctions dans 2 cas principaux :
 
@@ -35,16 +35,16 @@ Vous pouvez rencontrer des fonctions dans 2 cas principaux :
 
 Dans Substance 3D Designer, n’importe quel paramètre peut être contrôlé par une fonction.
 
-![](what-is-a-function.resources/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/what-is-a-function-02.png)
 
 Par conséquent, vous pouvez imaginer des règles et des dépendances entre les parties de votre graphe, pour obtenir des résultats uniques.
 
 Par exemple, vous pouvez décider que l’opacité d’un nœud de fusion correspondra à la moitié de l’intensité d’un nœud de déformation :
 
-![](what-is-a-function.resources/warpblend.gif)
+![](what-is-a-function.resources/what-is-a-function-03.gif)
 
 En fait, vous avez peut-être déjà créé des fonctions sans en être conscient :
 
 si vous avez exposé un paramètre, vous avez automatiquement créé une fonction et une variable : la fonction contient un nœud get float qui capture la valeur de la nouvelle variable créée :
 
-![](what-is-a-function.resources/expose.gif)
+![](what-is-a-function.resources/what-is-a-function-04.gif)

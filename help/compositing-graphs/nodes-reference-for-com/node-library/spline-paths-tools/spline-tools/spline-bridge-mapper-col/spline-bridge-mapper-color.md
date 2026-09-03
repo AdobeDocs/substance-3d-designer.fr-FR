@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Couleur du mappeur de pont de splines pour relier les textures entre deux splines avec le mappage de couleurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur du mappeur de pont de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "Icône de nœud")
+![Icône de nœud](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -78,9 +78,9 @@ Etablit une correspondance entre une image couleur et une liste de splines d&#39
 |  |  |
 |:---|:---|
 | <b>Quantité de segments</b> <i>Nombre entier</i> | Les splines sont simplifiées en segments avant que les coordonnées de l’image ne les traversent. Plus le nombre de segments est élevé, plus le placage le long des courbes est fluide. |
-| <b>Réduire le Étiré UV</b> <i>Booléen</i> | Ajuste la méthode utilisée pour interpoler les coordonnées d’image d’une spline à la suivante afin de minimiser le étiré lorsque la distance entre les splines est irrégulière. |
+| <b>Réduction des UV</b> <i>Booléen</i> | Ajuste la méthode utilisée pour interpoler les coordonnées d’image d’une spline à la suivante afin de minimiser le étiré lorsque la distance entre les splines est irrégulière. |
 | <b>Échelle UV</b> <i>Float2</i> | Règle l’échelle des coordonnées de l’image. Plus la valeur est élevée, plus la densité de mosaïque de l’image est élevée. |
-| <b>Rotation de l&#39;UV</b> <i>Flotter</i> | Fait pivoter les coordonnées de l’image autour de leur centre. |
+| <b>Rotation UV</b> <i>Flotter</i> | Fait pivoter les coordonnées de l’image autour de leur centre. |
 | <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur d’arrière-plan dans l’image de sortie. |
 
 ## Exemples
@@ -92,11 +92,11 @@ Etablit une correspondance entre une image couleur et une liste de splines d&#39
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Etablit une correspondance entre une image couleur et une liste de splines d&#39
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ Etablit une correspondance entre une image couleur et une liste de splines d&#39
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

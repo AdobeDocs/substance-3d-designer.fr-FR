@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Utilisez le nœud SVG pour importer et effectuer le rendu de graphiques vectoriels SVG en tant que textures pour la création d’éléments graphiques évolutifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : SVG](svg.resources/comp_svg_1.png "Nœud atomique : SVG"){width="200px"}
+![Nœud atomique : SVG](svg.resources/svg-01.png "Nœud atomique : SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous 
 </tr>
 </table>
 
-Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de SVG dans la Vue du graphe de données.
+Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de SVG dans la vue Graphique.
 
 <table>
 <tr style="border: 0;">
@@ -67,9 +67,9 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de
 >
 > Ce nœud dépend d&#39;une ressource externe, il y a donc quelques points à garder à l&#39;esprit lorsque vous travaillez avec eux :
 > 
-> * Les nœuds SVG peuvent renvoyer une couleur ou des niveaux de gris, mais la couleur par défaut est sélectionnée même si la ressource est un vecteur en niveaux de gris. Cela peut affecter les performances et la complexité du graphe. Assurez-vous donc toujours de passer en [mode colorimétrique](#parameters) « Niveaux de gris » si nécessaire.
+> * Les nœuds SVG peuvent renvoyer une couleur ou des niveaux de gris, mais la couleur par défaut est sélectionnée même si la ressource est un vecteur en niveaux de gris. Cela peut affecter les performances et la complexité du graphique. Assurez-vous donc toujours de passer en [mode colorimétrique](#parameters) « Niveaux de gris » si nécessaire.
 > * La suppression d&#39;un nœud de SVG ne supprime pas la [ressource de SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) dans votre [package](../../../../glossary/glossary.md). Vous devez le faire manuellement dans l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md).
-> * Les formes SVG sont [tesselées](../../../../glossary/glossary.md) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphes de Substance en tant qu&#39;images bitmap. La technologie utilisée pour ces opérations ne prend pas en charge plusieurs propriétés vectorielles, telles que les contours. En savoir plus sur ces limitations [ici](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> * Les formes SVG sont [tesselées](../../../../glossary/glossary.md) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphiques en Substances sous forme d&#39;images bitmap. La technologie utilisée pour ces opérations ne prend pas en charge plusieurs propriétés vectorielles, telles que les contours. En savoir plus sur ces limitations [ici](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 >[!WARNING]
 >

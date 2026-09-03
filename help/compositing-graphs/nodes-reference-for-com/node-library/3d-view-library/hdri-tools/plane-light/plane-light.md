@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Lumière plane pour ajouter des sources lumineuses planaires aux environnements HDRI afin de contrôler l’éclairage directionnel.
+description: Utilisez le nœud Lumière plane pour ajouter des sources lumineuses planes aux environnements HDRI afin de contrôler l’éclairage directionnel.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Éclairage plan
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/plane-light-01.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Description
 
-Génère une forme plane projetée sphériquement. Le plan peut être placé et orienté en 3D à l’aide des paramètres d&#39;entrée.
+Génère une forme plane projetée sphériquement. Le plan peut être placé et orienté en 3D à l’aide des paramètres d’entrée.
 
 Elle diffère de la [lumière de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) plus simple en ce sens qu&#39;elle offre des options de placement plus avancées en dehors de la projection de Distance avec l&#39;origine plus simple, et que davantage de motifs et de masques peuvent être appliqués, tout comme la [lumière de ligne](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md).
 
@@ -89,7 +89,7 @@ Elle diffère de la [lumière de forme](../../../../../../compositing-graphs/nod
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-02.gif" />
         </td>
     </tr>
 </table>
