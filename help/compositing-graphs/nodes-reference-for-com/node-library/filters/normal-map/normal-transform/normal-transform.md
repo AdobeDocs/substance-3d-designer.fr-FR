@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Transforme normal pour appliquer des transformations aux maps normal tout en conservant correctement les directions des vecteurs.
 helpx_creative_field: ""

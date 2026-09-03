@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Rouille Fine pour générer des motifs de rouille fine afin d'ajouter des effets de corrosion et d'altération aux métaux.
 helpx_creative_field: ""

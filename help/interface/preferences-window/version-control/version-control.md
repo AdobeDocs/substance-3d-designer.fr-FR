@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Configurez les paramètres de contrôle de version dans les préférences de Substance 3D Designer pour les intégrer à Git et à d’autres systèmes.
 helpx_creative_field: ""

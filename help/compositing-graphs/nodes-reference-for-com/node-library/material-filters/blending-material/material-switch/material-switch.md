@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Commutation de Matériau pour basculer entre plusieurs matériaux en fonction des conditions ou des masques de saisie.
 helpx_creative_field: ""

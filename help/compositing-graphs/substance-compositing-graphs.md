@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Découvrez les graphes de composition de Substances dans Substance 3D Designer pour créer des textures procédurales et des workflows de matériau.
 helpx_creative_field: ""

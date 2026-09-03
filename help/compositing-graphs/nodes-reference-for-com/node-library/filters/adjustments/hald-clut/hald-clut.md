@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Hald CLUT pour appliquer des tables de correspondance de couleur à l'aide du format Hald CLUT pour l'étalonnage et la correction des couleurs.
 helpx_creative_field: ""

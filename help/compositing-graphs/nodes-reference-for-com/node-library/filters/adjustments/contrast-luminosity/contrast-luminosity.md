@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Luminosité du contraste pour régler les valeurs de contraste et de luminosité afin de contrôler les plages de luminosité et de contraste.
 helpx_creative_field: ""

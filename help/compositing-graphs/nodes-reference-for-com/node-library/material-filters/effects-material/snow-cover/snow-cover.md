@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Couverture Snow pour ajouter des effets d'accumulation de neige aux matériaux en fonction de l'angle de la surface et de la position.
 helpx_creative_field: ""

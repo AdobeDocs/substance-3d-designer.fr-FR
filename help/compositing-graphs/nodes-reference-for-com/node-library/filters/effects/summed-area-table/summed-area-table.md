@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tableau des zones additionnées pour créer des tableaux de zones additionnées afin de réaliser des opérations efficaces de filtrage et de flou de zone.
 helpx_creative_field: ""

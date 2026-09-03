@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flou radial pour appliquer des effets de flou radial à partir d’un point central afin de créer un mouvement et un zoom.
 helpx_creative_field: ""

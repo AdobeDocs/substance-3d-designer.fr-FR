@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bitmap en matériau clair pour convertir rapidement des images bitmap en matériaux avec un éclairage optimisé pour des workflows rapides.
 helpx_creative_field: ""

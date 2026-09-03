@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mélangeur Height normal pour fusionner les cartes d'height et de normales afin de combiner les informations de détails de surface.
 helpx_creative_field: ""

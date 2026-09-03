@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Gaussien 2 pour générer des motifs de bruit gaussiens avancés avec des propriétés de distribution personnalisables.
 helpx_creative_field: ""

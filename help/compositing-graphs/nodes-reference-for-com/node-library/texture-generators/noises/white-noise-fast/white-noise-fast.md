@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit blanc accéléré pour générer des motifs de bruit blanc accéléré afin d’obtenir des variations de texture rapides et une randomisation.
 helpx_creative_field: ""

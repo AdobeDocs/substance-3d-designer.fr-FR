@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Caustique pour générer des motifs de lumière caustique afin de créer des effets d'éclairage sous-marin et réfractif.
 helpx_creative_field: ""

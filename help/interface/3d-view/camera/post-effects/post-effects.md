@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: Appliquez des effets de post-traitement à la caméra de vue 3D pour une prévisualisation et une visualisation du matériau améliorées.
 helpx_creative_field: ""

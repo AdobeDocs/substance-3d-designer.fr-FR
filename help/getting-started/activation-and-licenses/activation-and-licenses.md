@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Découvrez comment activer Substance 3D Designer et gérer les licences pour accéder à toutes les fonctionnalités et capacités.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Le processus d’activation dépend de l’endroit où vous avez acheté ou acc�
 
 | Edition | Processus d’activation |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/account/individual.html) |
+| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/fr/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/fr/account/individual.html) |
 | Vapeur | Lancez le produit directement depuis votre bibliothèque Steam. |
 | Substance (autonome) | Voir le processus d’activation décrit ci-dessous. |
 

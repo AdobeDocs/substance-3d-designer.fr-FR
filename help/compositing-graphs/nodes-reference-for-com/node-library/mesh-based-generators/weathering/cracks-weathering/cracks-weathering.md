@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'Altération Fissures pour ajouter des motifs de fissures aux matériaux en fonction de la courbure du maillage et des points de contrainte.
 helpx_creative_field: ""

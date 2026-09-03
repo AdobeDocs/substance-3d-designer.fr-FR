@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Explorez les exemples de graphiques de composition de Substances dans Designer pour découvrir les techniques avancées et les bonnes pratiques.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Maillage 2 pour générer des motifs de maillage avancés avec des commandes améliorées pour la création de textures géométriques.
 helpx_creative_field: ""

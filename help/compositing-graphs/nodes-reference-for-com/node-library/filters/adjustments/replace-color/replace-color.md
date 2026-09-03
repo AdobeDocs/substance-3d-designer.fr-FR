@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Remplacer la couleur pour remplacer des couleurs spécifiques dans des textures par de nouvelles couleurs pour la correction et le réglage des couleurs.
 helpx_creative_field: ""

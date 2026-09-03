@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Color Equalizer pour équilibrer les variations de couleur dans les matériaux numérisés afin d’obtenir une apparence de texture homogène.
 helpx_creative_field: ""

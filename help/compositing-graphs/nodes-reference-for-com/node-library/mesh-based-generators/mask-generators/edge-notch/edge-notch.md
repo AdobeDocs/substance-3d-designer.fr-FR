@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Encoche du contour pour générer des motifs d’entaille sur les bords du filet afin de créer des effets réalistes d’endommagement et de retrait des bords.
 helpx_creative_field: ""

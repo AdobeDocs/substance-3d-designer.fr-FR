@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Non Uniform Directional Warp pour appliquer une déformation directionnelle non uniforme afin de créer divers effets de distorsion.
 helpx_creative_field: ""
