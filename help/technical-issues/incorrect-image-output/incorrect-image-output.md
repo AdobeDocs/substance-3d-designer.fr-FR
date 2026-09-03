@@ -53,7 +53,7 @@ Si vous n’avez pas besoin de travailler spécifiquement avec des images HDR, l
 
 Vérifiez le **format de sortie** (c&#39;est-à-dire la profondeur de bits) du nœud et de tous les nœuds en amont et assurez-vous que ces nœuds utilisent une *précision d&#39;Entier d&#39;au moins 16 bits*.
 
-Le paramètre Format de sortie est souvent défini sur la méthode d&#39;héritage *Relative à l&#39;entrée* [3}, qui peut propager la faible précision dans tout le graphe. ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)Idéalement, en remontant dans le graphe, vous trouverez la cause première du problème.
+Le paramètre Format de sortie est souvent défini sur la méthode d&#39;héritage *Relative à l&#39;entrée* [3&rbrace;, qui peut propager la faible précision dans tout le graphe. &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)Idéalement, en remontant dans le graphe, vous trouverez la cause première du problème.
 
 Vous pouvez rapidement identifier la précision de la sortie d&#39;un nœud en examinant les informations textuelles affichées sous le nœud :
 

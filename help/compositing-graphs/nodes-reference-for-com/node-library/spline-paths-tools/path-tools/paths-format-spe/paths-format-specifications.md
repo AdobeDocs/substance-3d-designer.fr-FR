@@ -90,7 +90,7 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de 
 
 Adresse du dernier sommet défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre ]0, 1[×]0,.5[
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
 
 <b>ZW</b>
 

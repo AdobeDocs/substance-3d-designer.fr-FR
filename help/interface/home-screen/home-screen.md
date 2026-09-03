@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Écran d’accueil](home-screen.resources/home-screen-01.jpg "Écran d’accueil")
 
-Écran d&#39;accueil <b>1}<b> </b></b>vous souhaite la bienvenue lorsque vous lancez Substance 3D Designer. Il vous aide à démarrer vos projets et à accéder à des liens utiles.
+Écran d&#39;accueil <b>1&rbrace;<b> </b></b>vous souhaite la bienvenue lorsque vous lancez Substance 3D Designer. Il vous aide à démarrer vos projets et à accéder à des liens utiles.
 
 <table>
 <tr style="border: 0;">

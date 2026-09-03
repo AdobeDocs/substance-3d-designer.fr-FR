@@ -146,7 +146,7 @@ L&#39;outil [Node Finder](../../interface/the-graph-view/node-finder/node-finder
 * [Graphique de fonction] Les valeurs longues apparaissent chevauchées sur les nœuds &#39;Float&#39;
 * [Fx-Map] Blocage lors de l’affichage des propriétés du nœud de quadrant
 * [Graphique] [UDIM] Avoir une barre de défilement dans la liste UDIM donne 1..1 1..2 entrées
-* [Graphique][Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
+* [Graphique]&#x200B;[Raccourcis] Le nœud créé à l’aide d’un raccourci n’est pas placé sur le lien existant après la duplication du nœud
 * [Propriétés] Affichage incorrect des paramètres lorsque la valeur n’est pas valide
 * [Publish] Les dépendances réciproques entraînent une boucle infinie lors de la publication d’un pack
 * [Publish] Échec silencieux lors de l’utilisation de l’action « Publish » sur un pack avec une dépendance déchargée

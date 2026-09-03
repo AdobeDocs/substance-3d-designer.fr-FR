@@ -100,7 +100,7 @@ L&#39;envoi au lecteur nécessite que l&#39;exécutable de la Substance Player d
 * Lorsque vous êtes invité à confirmer que le lecteur n&#39;a *jamais été localisé* depuis l&#39;installation de Designer ;
 * À tout moment dans le menu <b>Outils</b>, en utilisant l&#39;option <b>Substance Player > Localiser...</b>.
 
-Dans Player, la réception depuis Designer nécessite que le répertoire d&#39;installation de Substance 3D Designer *1} soit localisé manuellement par l&#39;utilisateur, ce qui peut être fait :*
+Dans Player, la réception depuis Designer nécessite que le répertoire d&#39;installation de Substance 3D Designer *1&rbrace; soit localisé manuellement par l&#39;utilisateur, ce qui peut être fait :*
 
 * Lorsque vous êtes invité à confirmer que Designer n&#39;a *jamais été localisé* depuis l&#39;installation de Player ;
 * À tout moment dans le menu <b>Options</b>, à l&#39;aide de l&#39;option <b>Localiser Adobe Substance 3D Designer</b>.
