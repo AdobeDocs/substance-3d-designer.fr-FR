@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Déformation de tracés pour déformer des textures le long de courbes de tracé afin de créer des motifs courbes et organiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](paths-warp.resources/paths-warp-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/paths-warp-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -74,11 +74,11 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="paths-warp.resources/paths-warp-03.jpg" alt="PathsWarp-Variant1-After">
+      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="paths-warp.resources/paths-warp-04.jpg" alt="PathsWarp-Variant2-After">
+      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](paths-warp.resources/paths-warp-05.gif "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/PathsWarp-Demo1.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">

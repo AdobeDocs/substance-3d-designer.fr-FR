@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Processeur de sommets de tracés pour transformer et manipuler les sommets de tracé avec des options avancées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de sommets de tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](paths-vertex-processor.resources/paths-vertex-processor-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/paths-vertex-processor-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -73,7 +73,7 @@ Vous pouvez également accéder aux variables *prev[2].pos* (Float2), *next[2].p
 
 |  |  |
 |:---|:---|
-| <b>Tracés</b> <i>Couleur</i> | Les Tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
+| <b>Tracés</b> <i>Couleur</i> | Les tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
 
 <a name="parameters"></a>
 
@@ -81,10 +81,10 @@ Vous pouvez également accéder aux variables *prev[2].pos* (Float2), *next[2].p
 
 |  |  |
 |:---|:---|
-| <b>Accès aux Vertex précédents</b> <i>Entier</i> | L&#39;utilisation de ce paramètre vous permettra d&#39;obtenir la position du vertex précédent le long du chemin (*prev.pos*) et du vertex précédent (*prev[2].pos*) à l&#39;aide des nœuds <b>Get</b> dans la fonction de paramètre <b>Fonction par sommet</b>. |
-| <b>Vertex suivants consultés</b> <i>Entier</i> | L&#39;utilisation de ce paramètre vous permettra d&#39;obtenir la position du vertex suivant le long du chemin (*next.pos*) et du vertex suivant (*next[2].pos*) à l&#39;aide des nœuds <b>Get</b> dans la fonction de paramètre <b>Fonction par sommet</b>. |
+| <b>Accès aux Vertex précédents</b> <i>Nombre entier</i> | L&#39;utilisation de ce paramètre vous permettra d&#39;obtenir la position du vertex précédent le long du chemin (*prev.pos*) et du vertex précédent (*prev[2].pos*) à l&#39;aide des nœuds <b>Get</b> dans la fonction de paramètre <b>Fonction par sommet</b>. |
+| <b>Accès aux sommets suivants</b> <i>Nombre entier</i> | L&#39;utilisation de ce paramètre vous permettra d&#39;obtenir la position du vertex suivant le long du chemin (*next.pos*) et du vertex suivant (*next[2].pos*) à l&#39;aide des nœuds <b>Get</b> dans la fonction de paramètre <b>Fonction par sommet</b>. |
 | <b>Nombre d&#39;entrées d&#39;image</b> <i>Nombre entier</i> | Nombre de connecteurs d&#39;entrée <b>Entrée #</b> visibles pour connecter des images qui doivent être échantillonnées dans la fonction de paramètre <b>Fonction par sommet</b>.<br>Une fois que vous avez terminé de configurer tous les échantillons souhaités, vous pouvez masquer les épingles inutilisées en réduisant la valeur de ce paramètre à 0. |
-| <b>Fonction par sommet</b> <i>Flottant 2</i> | Fonction appliquée à chaque sommet. Doit renvoyer la nouvelle position du sommet.<br>Consultez la section <b>Description</b> de cette page pour plus d&#39;informations. |
+| <b>Fonction par sommet</b> <i>Float2</i> | Fonction appliquée à chaque sommet. Doit renvoyer la nouvelle position du sommet.<br>Consultez la section <b>Description</b> de cette page pour plus d&#39;informations. |
 
 ## Exemples
 
@@ -92,7 +92,7 @@ Vous pouvez également accéder aux variables *prev[2].pos* (Float2), *next[2].p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](paths-vertex-processor.resources/paths-vertex-processor-02.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Exemple de nœud 2")
 
 </td>
 <td style="border: 0;" valign="top">

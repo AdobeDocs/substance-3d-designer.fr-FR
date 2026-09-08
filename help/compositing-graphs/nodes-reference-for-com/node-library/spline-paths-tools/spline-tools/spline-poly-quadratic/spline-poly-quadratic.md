@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Polyquadratique spline pour créer des splines quadratiques complexes avec plusieurs points de contrôle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (polyquadratique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-poly-quadratic-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -50,7 +50,7 @@ La trajectoire de la spline peut être lissée à partir de ses points interméd
 | <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> - signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
 | <b>Aperçu Des Points</b> <i>Niveaux de gris</i> | Aperçu des points sous forme d’image en niveaux de gris. |
 | <b>Liste des points d&#39;entrée</b> <i>Couleur</i> | (disponible lorsque l’option Utiliser la liste des points d’entrée a la valeur True) Liste de points codés dans les canaux RVBA d’une image couleur :<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br> - Partie Entier : Smoothness ;<br> - Partie fractionnaire : Thickness. |
 | <b>Numéro De Point</b> <i>Nombre entier</i> | (disponible lorsque l’option Utiliser la liste des points d’entrée a la valeur True) Le nombre de points. |
@@ -115,11 +115,11 @@ La trajectoire de la spline peut être lissée à partir de ses points interméd
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadrique-Variant1-Before">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadrique-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadrique-Variant1-After">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadrique-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ La trajectoire de la spline peut être lissée à partir de ses points interméd
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

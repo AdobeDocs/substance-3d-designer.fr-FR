@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Déformation de spline pour déformer des textures le long de tracés de spline afin de créer des motifs courbes et organiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation de la spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-warp.resources/spline-warp-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-warp-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -97,11 +97,11 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-warp.resources/spline-warp-06.gif "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/SplineWarp-Demo.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de liste de ponts de spline pour relier des textures entre plusieurs splines dans une liste pour des motifs complexes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline Bridge (Liste)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-bridge-list.resources/spline-bridge-list-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-bridge-list-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -113,11 +113,11 @@ Les splines générées peuvent être linéaires (droites) ou quadratiques (cour
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ Les splines générées peuvent être linéaires (droites) ou quadratiques (cour
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-list.resources/spline-bridge-list-04.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplineBridge-List_Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>
 </table>
 
-![Nœud dans le graphique](spline-bridge-list.resources/spline-bridge-list-05.jpg "Nœud dans le graphique")
+![Nœud dans le graphique](../../../../../../assets/SplineBridge-List_Graph.jpg "Nœud dans le graphique")
