@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 11%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 11%
 ## Ajouts
 
 * Points d’entrée pour la documentation de l’API Python sur Adobe Docs
+* Vue 3D : utilisez `refineLevel = 0` pour améliorer les performances lors de l’utilisation du displacement sur les maillages à poly élevé
 * Exemples dans la page contextuelle Documentation
 * Glossaire :
   * HDR
@@ -33,8 +34,6 @@ ht-degree: 11%
 ## Correctifs
 
 * Liens et formatage rompus dans le [nœud de sortie](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Supprimer la table des matières intégrée à la page (par ex. nouveaux bruits)
-* Correction des mises en page des nœuds (par ex. nouveaux bruits)
 * Corrigez le lien du 1er exemple d&#39;image dans les pages de nœuds (par ex. nouveaux bruits)
 * Élément « Entier négatif » manquant et liens rompus dans [parameters-not-working-as-Expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
