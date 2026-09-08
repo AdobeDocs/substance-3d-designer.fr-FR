@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit directionnel 3 pour générer des motifs de bruit directionnel de trois octaves afin de créer des textures directionnelles.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BRUIT DIRECTIONNEL 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Icône](directional-noise-3.resources/directional-noise-3-01.png "Bruit directionnel 3 - Icône"){width="200px"}
+![Bruit directionnel 3 - Icône](../../../../../../assets/directional_noise_3.png "Bruit directionnel 3 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -71,12 +71,12 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 1](directional-noise-3.resources/directional-noise-3-02.png "Bruit directionnel 3 - Exemple 1"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 1](../../../../../../assets/directional_noise_3_1.png "Bruit directionnel 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 2](directional-noise-3.resources/directional-noise-3-03.gif "Bruit directionnel 3 - Exemple 2"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 2](../../../../../../assets/noise_directional_noise_3_v2_speed0.6_aniso0.gif "Bruit directionnel 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 3](directional-noise-3.resources/directional-noise-3-04.gif "Bruit directionnel 3 - Exemple 3"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 3](../../../../../../assets/noise_directional_noise_3_v2_speed0.6_aniso1.gif "Bruit directionnel 3 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 3 - Exemple 4](directional-noise-3.resources/directional-noise-3-05.gif "Bruit directionnel 3 - Exemple 4"){zoomable="yes"}
+![Bruit directionnel 3 - Exemple 4](../../../../../../assets/noise_directional_noise_3_v2_speed0.3_aniso0.6.gif "Bruit directionnel 3 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>
