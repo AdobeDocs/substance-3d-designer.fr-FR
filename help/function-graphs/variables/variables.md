@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser des variables dans les graphiques fonctionnels Substance 3D Designer pour stocker et réutiliser efficacement des valeurs.
 helpx_creative_field: ""

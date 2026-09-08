@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Utilisez les repères de navigation dans la vue Graphique pour passer rapidement d’un emplacement à l’autre dans les graphiques Substance 3D Designer.
 helpx_creative_field: ""

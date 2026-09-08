@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Apprenez à créer et à utiliser des graphiques de fonctions de Substance dans Designer pour créer des fonctions personnalisées et des réseaux de nœuds réutilisables.
 helpx_creative_field: ""

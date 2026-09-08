@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Découvrez les modes de création de liens dans la vue du graphe de données Substance 3D Designer pour connecter efficacement des nœuds.
 helpx_creative_field: ""

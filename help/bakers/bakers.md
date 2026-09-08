@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser Substance 3D Designer bakers pour calculer des informations de maillage dans des fichiers de texture.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ La cuisson fait référence à l&#39;action de **transfert d&#39;informations ba
 
 >[!NOTE]
 >
-> Pour en savoir plus sur la cuisson, consultez la [Documentation sur la cuisson](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Pour en savoir plus sur la cuisson, consultez la [Documentation sur la cuisson](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ Ce panneau contrôle l’emplacement de la texture cuite.
 
 ### Maillages haute définition
 
-Ce panneau contrôle la liste des maillages à haut niveau de concurrence et les paramètres associés. Voir les [paramètres communs](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
+Ce panneau contrôle la liste des maillages à haut niveau de concurrence et les paramètres associés. Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
 
 ![Maillages haute définition](../assets/sd-high.png "Maillages haute définition")
 
 ### Valeurs par défaut
 
-Voir les [paramètres communs](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
+Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
 
 ![Valeurs par défaut](../assets/sd-default-values.png "Valeurs par défaut")
 
@@ -116,6 +116,6 @@ Par défaut, chaque baker hérite des valeurs par défaut (voir ci-dessus). La t
 
 Lorsque vous cliquez sur un boulanger dans la liste, la vue Baker Parameters est mise à jour avec ses paramètres spécifiques.
 
-Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![Liste de rendu des boulangers](../assets/sd-baker-list.png "Liste de rendu des boulangers")

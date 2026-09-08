@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilisez le Finder de nœuds pour rechercher et localiser rapidement des nœuds dans vos graphes de Substance de données afin d’assurer une navigation efficace.
 helpx_creative_field: ""

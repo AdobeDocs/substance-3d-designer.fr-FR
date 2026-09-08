@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: Découvrez l’interface héritée pour Substance 3D Designer Bakers pour les utilisateurs familiarisés avec les anciennes versions.
 helpx_creative_field: ""
