@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Fusion](../../../../assets/comp_blend_1.png "Noeud atomique : Fusion"){width="200px"}
+![Noeud atomique : Fusion](blend.resources/comp_blend_1.png "Noeud atomique : Fusion"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Il s&#39;agit du nœud le plus utile de tous les Noeuds atomiques. Presque tous 
 </tr>
 </table>
 
-Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
+Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
 
 >[!TIP]
 >
@@ -91,13 +91,13 @@ Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-de
 
 |  |  |
 | --- | --- |
-| <b>Premier plan</b> *Niveaux de gris/Couleur* | Calque supérieur ou de premier plan de l’opération de fusion. |
+| <b>Premier plan</b> *Niveaux de gris/Couleur* | Calque supérieur ou de premier plan de l’opération de Fusion. |
 | <b>Arrière-plan</b> *Niveaux de gris/Couleur* PRINCIPAL | Calque inférieur ou d’arrière-plan de l’opération de fusion. |
 | <b>Opacité</b> *Niveaux de gris* | Entrée de masque d’Alpha facultative. |
 
 >[!IMPORTANT]
 >
-> Les nœuds de fusion ont des entrées dynamiques qui basculent entre les niveaux de gris et les couleurs en fonction de vos connexions.<b> Un nœud de fusion ne peut fusionner que deux entrées du même type</b>.
+> Les nœuds de fusion ont des entrées dynamiques qui basculent entre les niveaux de gris et les couleurs en fonction de vos connexions.<b> Un nœud de Fusion ne peut fusionner que deux entrées du même type</b>.
 > 
 > La connexion d’une entrée Couleur et Niveaux de gris au premier plan et à l’arrière-plan crée une ligne de connexion en pointillé rouge, ce qui signifie une erreur de calcul.
 > 
