@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normal de face pour générer des maps normal basées sur la direction de face de la surface afin de créer des effets basés sur l'orientation.
 helpx_creative_field: ""
