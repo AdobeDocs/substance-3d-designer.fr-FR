@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Rough Dirty pour générer des textures usure/salissures rugueuses et sales afin d'ajouter des détails de surface altérés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures Rough Dirty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rough-dirty.resources/grunge-rough-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -48,7 +48,7 @@ Le nœud **Usure/salissures Rough Dirty** génère une carte usure/salissures se
 | <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
 | <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
 | <b>Avancé</b> |  |
 | <b>Intensité d&#39;Usure/salissures principale</b> <i>Flotter</i> | Règle l’intensité de la texture d’usure/salissures principale utilisée pour rompre la surface. |
 | <b>Inverser les mots de Scratches</b> <i>Booléen</i> | Inverse la luminance des rayures sur la surface. |
@@ -60,10 +60,10 @@ Le nœud **Usure/salissures Rough Dirty** génère une carte usure/salissures se
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-02.jpg" />
+            <img src="../../../../../../assets/grungeroughdirty-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-03.jpg" />
+            <img src="../../../../../../assets/grungeroughdirty-variant2.jpg" />
         </td>
     </tr>
 </table>
