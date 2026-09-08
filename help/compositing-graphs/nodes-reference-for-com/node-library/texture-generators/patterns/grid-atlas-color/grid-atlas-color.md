@@ -1,7 +1,7 @@
 ---
 title: couleur Atlas en grille
 description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Générateur > Motif > Couleur Atlas en grille
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Couleur d&#39;Atlas en grille](grid-atlas-color.resources/grid-atlas-color-01.png "Couleur d&#39;Atlas en grille")
+Icône ![Couleur d&#39;Atlas en grille](grid-atlas-color.resources/grid-atlas-color.png "Couleur d&#39;Atlas en grille")
 
 <b>Entrée :</b> Générateur > Motif
 
@@ -75,5 +75,5 @@ Voir aussi [Niveaux de gris Atlas en grille](../grid-atlas-grayscale/grid-atlas-
 
 ## Exemples
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="Nœud de couleur Atlas en grille dans le contexte d&#39;un graphe" style="width: 50%"><br>
+<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Nœud de couleur Atlas en grille dans le contexte d&#39;un graphe" style="width: 50%"><br>
 <i>Nœud de couleur Atlas en grille dans le contexte d&#39;un graphe</i>

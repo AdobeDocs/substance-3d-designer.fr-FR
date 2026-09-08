@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de Map de dégradé pour mapper les valeurs de niveaux de gris aux couleurs à l’aide des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Map de dégradé
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/gradient-map-01.png "Noeud atomique : Courbe de transfert de dégradé"){width="200px"}
+![Noeud atomique : Courbe de transfert de dégradé](../../../../assets/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ Il peut être ouvert à partir des <b>propriétés</b> du nœud de Map de dégra
 * Cliquez sur LMB sur le bouton <b>Éditeur de dégradé</b> ;
 * Double-cliquez sur LMB sur une épingle dans la barre de dégradé. L’épingle cliquée sera alors automatiquement sélectionnée dans l’Éditeur de dégradé afin que vous puissiez modifier directement ses valeurs.
 
-![Éditeur de dégradé](gradient-map.resources/gradient-map-02.png "Éditeur de dégradé")
+![Éditeur de dégradé](../../../../assets/image2017-2-17-16-13-5.png "Éditeur de dégradé")
 
 ### Modification des épingles de dégradé
 
@@ -88,7 +88,7 @@ Chaque épingle définit une couleur à sa position le long du dégradé.
 
 Les parties du dégradé avant et après la première et la dernière épingles sont définies sur les couleurs de ces épingles respectivement.
 
-![Éditeur de dégradé - Vue de dégradé](gradient-map.resources/gradient-map-03.png "Éditeur de dégradé - Vue de dégradé")
+![Éditeur de dégradé - Vue de dégradé](../../../../assets/image2017-2-17-17-27-46.png "Éditeur de dégradé - Vue de dégradé")
 
 Les commandes suivantes sont disponibles pour modifier des épingles :
 
@@ -105,7 +105,7 @@ La nouvelle épingle sera définie sur la couleur du dégradé à cette position
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé - Ajouter une épingle](gradient-map.resources/gradient-map-04.gif "Éditeur de dégradé - Ajouter une épingle")
+![Éditeur de dégradé - Ajouter une épingle](../../../../assets/move-pin.gif "Éditeur de dégradé - Ajouter une épingle")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ Maintenez la touche LMB enfoncée et faites glisser les coins sélectionnés le 
 
 Vous pouvez également définir la position d&#39;un coin avec une valeur numérique en le sélectionnant et en utilisant le paramètre <b>Position</b>. La position est une valeur comprise dans la plage [0;1], où 0 correspond au début du dégradé et 1 à sa fin.
 
-![Éditeur de dégradé - Paramètre de position de coin](gradient-map.resources/gradient-map-05.png "Éditeur de dégradé - Paramètre de position de coin")
+![Éditeur de dégradé - Paramètre de position de coin](../../../../assets/image2015-8-27-13-56-2.png "Éditeur de dégradé - Paramètre de position de coin")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé - Déplacer la broche](gradient-map.resources/gradient-map-06.gif "Éditeur de dégradé - Déplacer la broche")
+![Éditeur de dégradé - Déplacer la broche](../../../../assets/movepin2.gif "Éditeur de dégradé - Déplacer la broche")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Sélectionnez les épingles et appuyez sur Supprimer, ou faites-les glisser hors
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé - Supprimer l’épingle](gradient-map.resources/gradient-map-07.gif "Éditeur de dégradé - Supprimer l’épingle")
+![Éditeur de dégradé - Supprimer l’épingle](../../../../assets/removepin.gif "Éditeur de dégradé - Supprimer l’épingle")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Permet de refléter la position des coins sélectionnés sur le dégradé.
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé : inverser les positions](gradient-map.resources/gradient-map-08.gif "Éditeur de dégradé : inverser les positions")
+![Éditeur de dégradé : inverser les positions](../../../../assets/invert.gif "Éditeur de dégradé : inverser les positions")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Supprime tous les coins de la bande de dégradé.
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé - Tout effacer](gradient-map.resources/gradient-map-09.gif "Éditeur de dégradé - Tout effacer")
+![Éditeur de dégradé - Tout effacer](../../../../assets/remove.gif "Éditeur de dégradé - Tout effacer")
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ Supprime tous les coins de la bande de dégradé.
 
 <b>Inverser les couleurs</b>
 
-Ce bouton applique les couleurs négatives aux épingles sélectionnées.
+Ce bouton applique les couleurs négatives aux coins sélectionnés.
 
 <b>Désaturer</b>
 
@@ -198,19 +198,19 @@ Ce bouton désature les couleurs définies sur les épingles sélectionnées.
 
 ### Modes d’interpolation
 
-Une fois les épingles configurées, vous pouvez contrôler la transition des couleurs d’une épingle à l’autre à l’aide des modes d’interpolation disponibles :
+Une fois les coins configurés, vous pouvez contrôler la transition des couleurs d’un coin à l’autre à l’aide des modes d’interpolation disponibles :
 
 +++Linéaire
-Mode d’interpolation par défaut : applique une interpolation linéaire simple entre chaque épingle pour que le dégradé progresse uniformément.
+Le mode d’interpolation par défaut : applique une interpolation linéaire simple entre chaque broche pour que le dégradé progresse uniformément.
 
 +++
 
 +++Tangentes plates
-Lorsque vous considérez la transition entre les dégradés comme des courbes de Bézier où les épingles sont des points de la courbe, ce mode définit ces points pour qu’ils aient des tangentes horizontales.
+Lorsque vous considérez la transition entre les dégradés comme des courbes de Bézier où les coins sont des points de la courbe, ce mode définit ces points pour qu’ils aient des tangentes horizontales.
 
 Il en résulte une transition évocatrice d’une interpolation à pas fluide.
 
-Lorsque ce mode est sélectionné, le paramètre <b>Milieu</b> est activé et vous permet de décaler la position horizontale du milieu vertical de la courbe entre les points. Cela fait basculer l&#39;échelle entre les tangentes « out » et « in ».
+Lorsque ce mode est sélectionné, le paramètre <b>Milieu</b> est activé et vous permet de décaler la position horizontale du milieu vertical de la courbe entre les points. Cela permet de faire basculer efficacement l&#39;échelle entre les tangentes « out » et « in ».
 
 +++
 
@@ -224,13 +224,13 @@ Lorsque ce mode est sélectionné, le paramètre <b>Smoothness</b> est activé e
 +++Aucune interpolation
 La couleur change uniquement à l’emplacement d’une épingle et reste constante jusqu’à l’épingle suivante le long de la bande de dégradé.
 
-Il en résulte des étapes difficiles entre les couleurs, et seules les couleurs définies par les épingles sont présentes sur le dégradé.
+Il en résulte des décalages importants entre les couleurs, et seules les couleurs définies par les épingles sont présentes sur le dégradé.
 
 +++
 
 ### sélecteur de couleurs
 
-![Éditeur de dégradé - Sélecteur de couleurs](gradient-map.resources/gradient-map-10.png "Éditeur de dégradé - Sélecteur de couleurs")
+![Éditeur de dégradé - Sélecteur de couleurs](../../../../assets/image2017-2-17-18-21-29.png "Éditeur de dégradé - Sélecteur de couleurs")
 
 Le sélecteur de couleurs permet de définir une couleur de plusieurs manières :
 
@@ -245,7 +245,7 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Sélecteur de couleurs - Zone de dégradé et barre de teinte](gradient-map.resources/gradient-map-11.gif "Sélecteur de couleurs - Zone de dégradé et barre de teinte")
+  ![Sélecteur de couleurs - Zone de dégradé et barre de teinte](../../../../assets/colorpalette.gif "Sélecteur de couleurs - Zone de dégradé et barre de teinte")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![Sélecteur de couleurs - Curseurs RGB, TSL et Alpha](gradient-map.resources/gradient-map-12.png "Sélecteur de couleurs - Curseurs RGB, TSL et Alpha")
+  ![Sélecteur de couleurs - Curseurs RGB, TSL et Alpha](../../../../assets/image2017-2-17-18-31-41.png "Sélecteur de couleurs - Curseurs RGB, TSL et Alpha")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Sélecteur de couleurs - Sélection à l&#39;écran](gradient-map.resources/gradient-map-13.gif "Sélecteur de couleurs - Sélection à l&#39;écran")
+  ![Sélecteur de couleurs - Sélection à l&#39;écran](../../../../assets/pick.gif "Sélecteur de couleurs - Sélection à l&#39;écran")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ La moitié inférieure affiche la couleur précédemment utilisée. Double-cliqu
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Sélecteur de couleurs - Rétablir la couleur](gradient-map.resources/gradient-map-14.png "Sélecteur de couleurs - Rétablir la couleur")
+![Sélecteur de couleurs - Rétablir la couleur](../../../../assets/image2015-8-27-14-40-39.png "Sélecteur de couleurs - Rétablir la couleur")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ En outre, les fonctionnalités suivantes sont disponibles sous la vignette de co
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Sélecteur De Couleurs - Boutons](gradient-map.resources/gradient-map-15.gif "Sélecteur De Couleurs - Boutons")
+![Sélecteur De Couleurs - Boutons](../../../../assets/invert2.gif "Sélecteur De Couleurs - Boutons")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ En outre, les fonctionnalités suivantes sont disponibles sous la vignette de co
 
 L’outil Pipette de dégradé est l’une des fonctionnalités les plus utiles de ce nœud, car vous pouvez créer des dégradés complexes en traçant simplement une ligne sur une image de référence.
 
-![Éditeur de dégradé - Sélecteur de dégradé](gradient-map.resources/gradient-map-16.gif "Éditeur de dégradé - Sélecteur de dégradé")
+![Éditeur de dégradé - Sélecteur de dégradé](../../../../assets/pickgradient.gif "Éditeur de dégradé - Sélecteur de dégradé")
 
 Le curseur <b>Précision</b> vous aidera à ajuster le dégradé que vous venez de créer en augmentant ou en diminuant le nombre de touches : plus leurs valeurs sont faibles, plus votre dégradé correspondra précisément aux valeurs que vous avez choisies.
 

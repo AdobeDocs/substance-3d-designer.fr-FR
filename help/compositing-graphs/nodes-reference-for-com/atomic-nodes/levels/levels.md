@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux pour régler la luminosité, le contraste et la gamme de tons des textures de correction et d’amélioration des couleurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveaux
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Levels](levels.resources/levels-01.png "Noeud atomique : Levels"){width="200px"}
+![Noeud atomique : Levels](../../../../assets/comp_levels_1.png "Noeud atomique : Levels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Le bouton jaune en surbrillance active/désactive l’interface entre les curseu
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-02.png)
+![](../../../../assets/levels-2-1.png)
 
-![](levels.resources/levels-03.png)
+![](../../../../assets/levels-1-1.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Regardez cette présentation vidéo du nœud Levels et de son éditeur d’histo
 
 Dans la barre d’en-tête « Paramètres spécifiques », vous trouverez des boutons permettant d’accéder aux fonctions pratiques de l’histogramme :
 
-![Actions rapides du nœud de niveaux](levels.resources/levels-04.png "Actions rapides du nœud de niveaux")
+![Actions rapides du nœud de niveaux](../../../../assets/levels-2.png "Actions rapides du nœud de niveaux")
 
 <b>1 - Inverser :</b> permute les valeurs des paramètres « Niveau bas » et « Niveau haut ».
 
@@ -113,7 +113,7 @@ Dans la barre d’en-tête « Paramètres spécifiques », vous trouverez des bo
 
 L’éditeur d’histogramme est destiné aux réglages visuels rapides pour lesquels des valeurs précises ne sont pas vraiment nécessaires et l’exposition des paramètres n’est pas importante. Il s’agit généralement du moyen le plus rapide et le plus simple de travailler avec les niveaux.
 
-![](levels.resources/levels-05.gif)
+![](../../../../assets/levels-histo.gif)
 
 Selon le type d’entrée (Couleur ou Niveaux de gris), vous pouvez utiliser la liste déroulante au-dessus de l’histogramme pour choisir la couche que vous modifiez.
 

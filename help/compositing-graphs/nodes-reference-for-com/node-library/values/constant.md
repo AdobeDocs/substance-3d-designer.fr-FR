@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Ils incluent tous un simple nœud [Value processor](../../atomic-nodes/value-pro
 
 +++ Nœuds constants dans la bibliothèque
 
-![constants-library.png](constant.resources/constant-01.png)
+![constants-library.png](constant.resources/constants-library.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Nœud flottant constant" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nœud flottant constant" /></p>
 
 ## Entiers
 
@@ -43,7 +43,7 @@ Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type d&#39;entier](constant.resources/constant-03.png "Icône Type d&#39;entier")
+Icône ![Type d&#39;entier](../../../../assets/fn-constant-integer.png "Icône Type d&#39;entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier2](constant.resources/constant-04.png "Entier2")
+Icône de type ![Entier2](../../../../assets/fn-constant-integer2.png "Entier2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de g
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer3](constant.resources/constant-05.png "Icône de type Integer3")
+Icône de type ![Integer3](../../../../assets/fn-constant-integer3.png "Icône de type Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,56 +103,37 @@ Un nœud Integer3 génère un vecteur entier statique à 3 composantes avec des 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer4](constant.resources/constant-06.png "Icône de type Integer4")
+Icône de type ![Entier 4](../../../../assets/fn-constant-integer4.png "Entier 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Entier4</b>
+<b>Entier 4</b>
 
-Un nœud Integer4 génère un vecteur entier statique à 4 composantes avec des composantes (X, Y, Z, W).
+Un nœud Entier 4 génère un vecteur d’entier statique à 4 composantes avec des composantes (X, Y, Z, W).
 
 </td>
 </tr>
 </table>
 
-## Flotteurs
+## Flottants
 
-Les valeurs Flottant constantes génèrent des nombres fractionnaires, c’est-à-dire qu’elles prennent en charge les valeurs après le signe décimal et peuvent être ajustées par incréments inférieurs à 1. (Par défaut : 0,01)
+Les valeurs de Flottant constantes génèrent des nombres fractionnaires, c&#39;est-à-dire qu&#39;elles prennent en charge les valeurs après le signe décimal et peuvent être ajustées par incréments inférieurs à 1. (Par défaut : 0,01)
 
-Les valeurs [flottantes peuvent être converties en nombres entiers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), mais elles seront arrondies à l&#39;entier supérieur ou inférieur le plus proche, ce qui signifie que les données et l&#39;exactitude sont perdues.
-
-<table>
-<tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
-
-![Icône de type flottant](constant.resources/constant-07.png "Icône de type flottant")
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-<b>Flotter</b>
-
-Un objet Float a un seul composant et est très couramment utilisé pour toute valeur unique nécessitant une précision.
-
-</td>
-</tr>
-</table>
+[Les Flottants peuvent être convertis en Entiers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), mais ils seront arrondis à l&#39;Entier supérieur ou inférieur le plus proche, ce qui signifie que les données et l&#39;exactitude sont perdues.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float2](constant.resources/constant-08.png "Float2")
+Icône ![Type de Flottant](../../../../assets/fn-constant-float.png "Icône Type de Flottant")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float2</b>
+<b>Flottant</b>
 
-Un nœud Float2 génère un vecteur à 2 composantes avec des composantes (X, Y).
-
-Float2 est couramment utilisé pour [l&#39;échantillonnage des coordonnées](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), les [transformations de décalage](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) et la manipulation vectorielle 2D générale.
+Un Flottant a un seul composant et est très couramment utilisé pour toute valeur unique nécessitant une précision.
 
 </td>
 </tr>
@@ -162,16 +143,16 @@ Float2 est couramment utilisé pour [l&#39;échantillonnage des coordonnées](..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float3](constant.resources/constant-09.png "Float3")
+Icône de type ![Flottant 2](../../../../assets/fn-constant-float2.png "Flottant 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float3</b>
+<b>Flottant 2</b>
 
-Un nœud Float3 génère un vecteur à 3 composantes (X, Y, Z).
+Un nœud Flottant 2 génère un vecteur à 2 composantes avec des composantes (X, Y).
 
-Float3 est principalement utilisé lors de l&#39;utilisation d&#39;objets 3D et de [coordonnées d&#39;échelle 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), comme dans les [nœuds SDF 3D](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), et comme moyen plus simple de stocker des couleurs RGB, c&#39;est-à-dire sans Alpha.
+Flottant2 est couramment utilisé pour [l&#39;échantillonnage des coordonnées](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), les [transformations de décalage](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) et la manipulation vectorielle 2D générale.
 
 </td>
 </tr>
@@ -181,16 +162,35 @@ Float3 est principalement utilisé lors de l&#39;utilisation d&#39;objets 3D et 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Float4](constant.resources/constant-10.png "Float4")
+Icône de type ![Flottant 3](../../../../assets/fn-constant-float3.png "Flottant 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float4</b>
+<b>Flottant3</b>
 
-Un objet Float4 génère un vecteur à 4 composantes (X, Y, Z, W).
+Un nœud Flottant3 génère un vecteur à 3 composantes (X, Y, Z).
 
-Float4 est le moyen préféré de stocker et de définir des informations de couleur où les valeurs XYZW sont mappées à RVBA, comme dans le [nœud de couleur uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
+Flottant3 est principalement utilisé lors de l&#39;utilisation d&#39;objets 3D et de [coordonnées d&#39;échelle 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), comme dans les [nœuds SDF 3D](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), et comme moyen plus simple de stocker des couleurs RGB, c&#39;est-à-dire sans Alpha.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td width="16.67%" style="border: 0;" valign="top">
+
+Icône de type ![Flottant 4](../../../../assets/fn-constant-float4.png "Flottant 4")
+
+</td>
+<td width="100.00%" style="border: 0;" valign="top">
+
+<b>Flottant4</b>
+
+Un Flottant 4 génère un vecteur à 4 composantes (X, Y, Z, W).
+
+Flottant 4 est le moyen privilégié de stocker et de définir les informations de couleur là où les valeurs XYZW sont mappées à RVBA, comme dans le [nœud de Couleur uniforme de données](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Float4 est le moyen préféré de stocker et de définir des informations de cou
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type booléen](constant.resources/constant-11.png "Icône de type booléen")
+Icône ![Booléen](../../../../assets/fn-constant-boolean.png "Booléen")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

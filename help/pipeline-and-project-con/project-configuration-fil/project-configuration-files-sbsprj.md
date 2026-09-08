@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les fichiers de configuration de projet SBSPRJ dans Substance 3D Designer pour gérer les paramètres du projet.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fichiers de configuration du projet - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ils sont spéciaux dans la mesure où vous pouvez utiliser plusieurs fichiers de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![SBSPRJ](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "Icône de fichier SBSPRJ")
+Icône de fichier ![SBSPRJ](../../assets/sbsprj.png "Icône de fichier SBSPRJ")
 
 </td>
 </tr>
@@ -59,15 +59,15 @@ Les fichiers de projet peuvent contenir les paramètres suivants :
 
 <b>Alias :</b>Alias de mots-clés pour les chemins relatifs.
 
-<b>Cuisson :</b>paramètres pour cuire les conventions de dénomination.
+<b>Baking :</b>paramètres de baking des conventions de dénomination.
 
-<b>Général :</b>modèles de graphiques, modules externes d’espace tangent, formats normal et image par défaut.
+<b>Général :</b>modèles Graphe, plug-ins Repère tangent, formats normal et image par défaut.
 
 <b>Bibliothèque :</b>Tracés suivis à afficher dans la bibliothèque.
 
 <b>Scripts :</b>scripts et interpréteurs de rappel.
 
-<b>Contrôle de version :</b>Paramètres d’intégration du contrôle de version dans Designer.
+<b>Gestion de versions :</b>Paramètres d’intégration de la Gestion de versions dans Designer.
 
 ## Modification de fichiers de projet
 
@@ -85,7 +85,7 @@ Pour Windows, [le Bloc-notes++](https://notepad-plus-plus.org) est une bonne opt
 
 Une fois que vous avez ouvert le fichier SBSPRJ dans un éditeur, vous devriez voir une disposition structurée assez simple, avec des sections correspondant aux onglets dans l&#39;interface utilisateur. Tous les paramètres ne seront pas documentés ici, car ils sont assez explicites.
 
-![Modification XML](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "Modification XML")
+![Modification XML](../../assets/project-xml.png "Modification XML")
 
 ## Chemins relatifs et alias
 
@@ -93,7 +93,7 @@ Les chemins relatifs combinés avec des alias sont l&#39;une des parties les plu
 
 L&#39;un des principaux problèmes avec les fichiers référençant d&#39;autres fichiers dans un système sur le PC de plusieurs utilisateurs, est que les chemins de fichiers absolus ne fonctionneront pas. Les utilisateurs peuvent définir leurs référentiels SVN dans des emplacements complètement différents (p ex. C :/John/Gamedev/SubstanceLibrary ou D :/Dev/SubstanceLibrary). Les alias et les chemins relatifs fonctionnent ensemble pour résoudre ce problème. Sinon, vous pourriez ouvrir le fichier de quelqu&#39;un d&#39;autre et il essaiera de rechercher le nœud personnalisé utilisé dans l&#39;emplacement spécifique où l&#39;utilisateur l&#39;avait localement, que vous n&#39;aurez probablement pas défini exactement de la même manière.
 
-Un <b>alias</b> est un mot-clé qui remplace (fait partie) d&#39;un chemin. Il est similaire à une variable d’environnement Windows comme %TEMP%, où un seul mot remplace un chemin souvent utilisé qui est ensuite défini de manière centralisée. L’avantage est que les tracés sont partout simplifiés et qu’ils permettent de modifier toutes les références en une seule fois lorsque vous décidez de déplacer ce tracé.
+Un <b>alias</b> est un mot-clé qui remplace (fait partie) d&#39;un chemin. Il est similaire à une variable d’environnement Windows comme %TEMP%, où un seul mot remplace un chemin souvent utilisé qui est ensuite défini de manière centralisée. L’avantage est que les tracés sont simplifiés partout et qu’ils permettent de modifier toutes les références en une seule fois lorsque vous décidez de redéfinir l&#39;emplacement ce tracé.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Un <b>alias</b> est un mot-clé qui remplace (fait partie) d&#39;un chemin. Il e
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>personnalisé</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> La bibliothèque par défaut se trouve par défaut à l&#39;emplacement *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*, et tous les graphiques utilisant le contenu par défaut font référence à ce répertoire. Au lieu de référencer le chemin complet, un alias de &#39;<b>SBS</b>&#39; (sans guillemets) est défini. Dans le cas d’une bibliothèque par défaut, la valeur exacte du chemin SBS est définie lors de l’installation dans le répertoire choisi par l’utilisateur pour Designer.
+> La bibliothèque par défaut se trouve par défaut à l&#39;emplacement *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*, et tous les graphes utilisant le contenu par défaut font référence à ce répertoire. Au lieu de référencer le chemin complet, un alias de &#39;<b>SBS</b>&#39; (sans guillemets) est défini. Dans le cas d’une bibliothèque par défaut, la valeur exacte du chemin SBS est définie lors de l’installation dans le répertoire choisi par l’utilisateur pour Designer.
 > 
 > En interne, une référence est modifiée de la manière suivante, lorsqu’elle contient un chemin avec un alias :
 > 

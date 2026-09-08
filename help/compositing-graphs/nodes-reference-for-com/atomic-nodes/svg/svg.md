@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Utilisez le nœud SVG pour importer et effectuer le rendu de graphiques vectoriels SVG en tant que textures pour la création d’éléments graphiques évolutifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : SVG](svg.resources/svg-01.png "Nœud atomique : SVG"){width="200px"}
+![Nœud atomique : SVG](../../../../assets/comp_svg_1.png "Nœud atomique : SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -73,7 +73,7 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de
 
 >[!WARNING]
 >
-> Les formes SVG sont [tesselées](../../../../glossary/glossary.md) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphes de Substance en tant qu&#39;images bitmap.
+> Les formes SVG sont [tesselées](../../../../glossary/glossary.md) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphiques en Substances sous forme d&#39;images bitmap.
 > 
 > La technologie utilisée pour ces opérations ne prend pas en charge plusieurs propriétés vectorielles, telles que les contours.
 > 

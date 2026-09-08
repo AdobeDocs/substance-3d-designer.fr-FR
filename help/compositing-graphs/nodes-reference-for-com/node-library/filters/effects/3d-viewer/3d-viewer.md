@@ -1,7 +1,7 @@
 ---
 title: Visionneuse 3D
 description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Filtre > Effet > Visualiseur 3D
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de la visionneuse 3D](./3d-viewer.resources/3d-viewer-01.png "3D")
+![Icône de la visionneuse 3D](./3d-viewer.resources/3d-viewer.png "3D")
 
 <b>Entrée :</b> Filtre > Effet
 
@@ -64,12 +64,12 @@ Calcule un rendu 3D pour un fichier SDF spécifié ou une scène d’intersectio
 | <b>Sortie</b> *Nombre entier* | Type de rendu 3D qui doit être généré par le nœud, généralement appelé AOV (Variables de sortie arbitraires).<br><br>Les AOV disponibles sont les suivants :<br>- <b>Beauté :</b> Résultat final du rendu 3D, avec des couleurs et des effets orientés vers l’art.<br>-<b>WS normaux :</b> Les normales d’espace univers des formes de la scène.<br>- <b>TS normaux :</b> Les normales d’espace tangentes des formes de la scène.<br>-<b>Position :</b> La position dans l’espace univers des surfaces des surfaces formes de la scène.<br>- <b>Distance :</b> Distance brute entre l’appareil photo et les formes de la scène<br>- <b>Profondeur :</b> Distance signée entre les formes et le plan cible de l’appareil photo, où le plan fait toujours face à l’appareil photo.<br>- <b>Couleur :</b> Couleur de base des formes (utilisez le nœud Définir la couleur pour attribuer des couleurs aux formes dans la fonction de scène)<br>- <b>ID de matériau :</b> ID de matériau appliqué aux surfaces de la forme (utilisez le paramètre Définir la fonction Définir les ID de matériau Nœud ID&#39; pour attribuer des ID de matériau aux formes dans la fonction de scène)<br>- <b>Étapes de vectorisation de sphère :</b> visualisation de la quantité d’étapes requises pour définir la surface d’une forme. Des valeurs plus claires signifient que davantage d&#39;étapes ont été nécessaires.<br>- <b>Personnalisé:</b> Créez une fonction personnalisée pour calculer la couleur du rendu par pixel.<br><br><i>Remarque :</i> Pour des lectures précises dans certains AOV, assurez-vous que la vue 2D utilise un espace colorimétrique linéaire et que le nœud utilise un format de sortie HDR 32 bits. |
 | <b>Sortie personnalisée</b> *Float4* | Graphique de fonction définissant les couleurs RVBA par pixel de la scène rendue, sous la forme d’une valeur Float4.<br><br>Variables disponibles :<br>- <code>scene.position</code> (Float3) Position dans l&#39;espace univers des surfaces de la scène.<br>- <code>scène.normal</code> (Float3) Les normales de l&#39;espace univers des surfaces de la scène.<br>- <code>scene.hit</code> (Booléen) Renvoie « True » lorsqu&#39;une surface est frappée par un rayon de caméra.<br>- <code>view.origin</code> (Float3) Position de l&#39;espace universel par pixel de la vue de la caméra.<br>- <code>view.direction</code> (Float3) Vecteur avant par pixel de la vue de la caméra, en fonction du mode de projection. (E.g. perspective ou orthographique)<br>- <code>material.color</code> (Float3) Couleur de base des surfaces de la scène.<br>- <code>matériau.métal</code> (Flottant) La métallisation des surfaces de la scène.<br>- <code>matériau.rugosité</code> (Flottant) Rugosité des surfaces de la scène.<br>- <code>matériau.id</code> (Entier) ID de matière des surfaces de la scène.<br><br>Les entrées d&#39;image du nœud peuvent être échantillonnées en sélectionnant les emplacements de nœud [Exemple de couleur](../../../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) suivants :<br>-<b>Entrée d&#39;image 0</b> échantillons Entrée 1.<br>- <b>Entrée d&#39;image 1</b> échantillons Entrée 2. |
 | <b>Rotation de l&#39;environnement</b> *Flotter* | Rotation de l&#39;<b>environnement</b>, en nombre de tours. |
-| <b>Mode Arrière-plan</b> *Entier* | Spécifie la source de l&#39;arrière-plan de la scène, dessinée là où aucune surface de forme n&#39;est visible.<br><br>- <b>Couleur :</b> &#39;Couleur d&#39;arrière-plan&#39; plate.<br>- <b>Environnement :</b> Image fournie à l&#39;entrée &#39;Environnement&#39;, appliquée à une sphère infinie à l&#39;aide d&#39;une projection équirectangulaire.  (Lorsque l’entrée n’est pas connectée, un environnement par défaut est utilisé.) |
+| <b>Mode Arrière-plan</b> *Nombre entier* | Spécifie la source de l&#39;arrière-plan de la scène, dessinée là où aucune surface de forme n&#39;est visible.<br><br>- <b>Couleur :</b> &#39;Couleur d&#39;arrière-plan&#39; plate.<br>- <b>Environnement :</b> Image fournie à l&#39;entrée &#39;Environnement&#39;, appliquée à une sphère infinie à l&#39;aide d&#39;une projection équirectangulaire.  (Lorsque l’entrée n’est pas connectée, un environnement par défaut est utilisé.) |
 | <b>Couleur d&#39;arrière-plan</b> *Float4* | Couleur plate utilisée comme arrière-plan de la scène. |
-| <b>Échantillons IBL</b> *Entier* | Quantité d&#39;échantillons de lumière effectuée par échantillon de caméra.<br><br>Une valeur plus élevée permet un éclairage plus fluide et plus précis au détriment des performances. |
-| <b>Échantillons de Caméra</b> *Entier* | Nombre d’échantillons de caméra effectués par pixel.<br><br>Ce paramètre affecte la qualité de l’anticrénelage et la profondeur de l’effet de champ.<br><br>Plus la valeur est élevée, plus l’image est claire et moins bruyante, au détriment des performances. |
+| <b>Échantillons IBL</b> *Nombre entier* | Quantité d&#39;échantillons de lumière effectuée par échantillon de caméra.<br><br>Une valeur plus élevée permet un éclairage plus fluide et plus précis au détriment des performances. |
+| <b>Échantillons de Caméra</b> *Nombre entier* | Nombre d’échantillons de caméra effectués par pixel.<br><br>Ce paramètre affecte la qualité de l’anticrénelage et la profondeur de l’effet de champ.<br><br>Plus la valeur est élevée, plus l’image est claire et moins bruyante, au détriment des performances. |
 | <b>Marche des rayons</b> *Nombre entier* | Le nombre d&#39;étapes effectuées dans le processus de tracé de sphère, la technique de lancer de rayons utilisée pour détecter et dessiner les surfaces des formes.<br><br>Une valeur plus élevée donne des surfaces précises et cohérentes (en particulier pour les formes complexes), au détriment des performances.<br><br><i>Conseil :</i> Définissez le paramètre <b>Sortie</b> sur l&#39;AOV des étapes de tracé de sphère pour visualiser les zones des formes qui nécessitent plus d&#39;étapes. La réduction du nombre d&#39;étapes aura d&#39;abord une incidence sur ces secteurs. |
-| <b>Étapes de défilement du rayon secondaire</b> *Entier* | Nombre d&#39;étapes effectuées dans le processus de vectorisation de sphère pour calculer l&#39;occlusion de diffusion et de specular afin de dessiner des ombres convertissez.<br><br>Une valeur plus élevée donne des ombres plus précises au détriment des performances. |
+| <b>Étapes de défilement du rayon secondaire</b> *Nombre entier* | Nombre d&#39;étapes effectuées dans le processus de vectorisation de sphère pour calculer l&#39;occlusion de diffusion et de specular afin de dessiner des ombres convertissez.<br><br>Une valeur plus élevée donne des ombres plus précises au détriment des performances. |
 | <b>Mode appareil photo</b> *Nombre entier* | Méthode de projection de la scène sur l&#39;image de rendu :<br><br>- <b>Perspective :</b> Cette projection transmet la profondeur et permet des effets d&#39;objectif tels que la profondeur de champ.<br>- <b>Orthographique :</b> Cette projection aplatit la scène, annulant la profondeur.<br>- <b>Fonction personnalisée :</b> Créez un graphique de fonction pour configurer un appareil photo personnalisé. |
 | <b>Fonction de la caméra</b> *Float3* | Graphique de fonction définissant la transformation de la caméra. Il peut être utilisé pour configurer une caméra personnalisée.<br><br>La fonction doit <b>définir</b> ces variables :<br>- <code>view.origin</code> (Float3) Position de l&#39;espace universel par pixel de la vue de la caméra.<br>- <code>view.direction</code> (Float3) Vecteur avant par pixel de la vue de la caméra, en fonction du mode de projection. (E.g. perspective ou orthographique)<br><br>Les variables suivantes sont disponibles pour <b>get</b>:<br>- <code>camera.origin</code> (Float3) Position de l’espace univers de l’appareil photo. (camera.direction * distance_caméra + camera.target)<br>- <code>camera.direction</code> (Float3) La direction de l&#39;espace univers de l&#39;appareil photo, c&#39;est-à-dire le vecteur Y vers l&#39;avant de l&#39;appareil photo.<br>- <code>camera.right</code> (Float3) Le vecteur X-right de l&#39;appareil photo.<br>- <code>camera.up</code> (Float3) Le vecteur Z-up de l&#39;appareil photo.<br>- <code>camera.target</code> (Float3) Position dans l’espace univers de la cible de la caméra. |
 | <b>Position UV</b> *Float2* | Position dans l&#39;espace d&#39;image 2D utilisée pour déduire la position et la direction de la caméra en orbite autour de la <b>position cible</b>.<br><br><i>Conseil :</i> ce paramètre peut être ajusté de manière intuitive à l&#39;aide du <i>widget de position</i> disponible dans la vue 2D lorsque le nœud est sélectionné. |
@@ -95,31 +95,31 @@ Calcule un rendu 3D pour un fichier SDF spécifié ou une scène d’intersectio
 | <b>Isolines SDF</b> *Booléen* | Visualisation colorée des isolignes de la fonction SDF (signed distance field).<br><br>Les isolignes répètent régulièrement des lignes représentant le <i>champ de distance</i> de la forme sur le plan XY à un height donné.<br><br>Ils sont utiles pour vérifier l&#39;<i>uniformité de l&#39;espace</i> défini par la Fonction SDF.<br><br>Utilisez les paramètres de <b>fréquence des isolignes SDF</b> et de <b>position des isolignes SDF</b> pour ajuster la densité et l&#39;height des isolignes. |
 | <b>Fréquence des isolignes SDF</b> *Flotter* | Nombre de répétitions d&#39;isolignes sur une distance donnée.<br><br>Une valeur plus élevée donne des lignes plus denses et plus fines. |
 | <b>Position des isolignes SDF</b> *Flotter* | Height espace monde du plan XY utilisé pour tracer les isolignes.<br><br>Utilisez cette option pour vérifier le champ de distance de la forme à différentes altitudes. |
-| <b>Min. distance d&#39;accès</b> *Flotter* | Définit la distance minimale qui translate en un accès pour le processus de lancer de rayon SDF.<br><br>Une valeur faible augmentera le nombre d&#39;étapes de lancer de rayon. |
+| <b>Min. distance d&#39;accès</b> *Flottant* | Définit la distance minimale qui translate en un accès pour le processus de lancer de rayon SDF.<br><br>Une valeur faible augmentera le nombre d&#39;étapes de lancer de rayon. |
 
 ## Exemples
 
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="Exemple 1" />
+            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="Exemple 1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="Exemple 1" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Exemple 1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="Exemple 2" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Exemple 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="Exemple 3" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Exemple 3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="Exemple 4" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Exemple 4" />
                     </td>
                 </tr>
             </table>

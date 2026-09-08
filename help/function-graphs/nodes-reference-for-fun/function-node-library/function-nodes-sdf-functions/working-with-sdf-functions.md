@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilisation des Fonctions SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Comme point de départ, gardez à l’esprit que le workflow de base se présent
 1. Créez une Fonction SDF dans un nœud de [visionneuse 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) pour visualiser le résultat.
 2. Copiez-le dans le graphe de fonction final (ou [instanciez-le](../../../../glossary/glossary.md#instance-node)) dans le paramètre de Fonction SDF d&#39;un nœud qui prend en charge les Fonctions SDF, tel que [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
-<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="Monographie de la fonction Nœuds de Fonctions SDF 3D dans Substance 3D Designer" />
+<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Monographie de la fonction Nœuds de Fonctions SDF 3D dans Substance 3D Designer" />
 
 ## Qu’est-ce qu’une Fonction SDF ?
 
@@ -39,7 +39,7 @@ Comme point de départ, gardez à l’esprit que le workflow de base se présent
             <p>Tout comme les fonctions mathématiques peuvent être tracées en 2D en tant que courbes, elles peuvent être tracées en 3D en tant que surfaces.</p><p>Un champ de distance signé est une fonction mathématique qui définit une surface dans un espace 3D en calculant la distance entre un point quelconque de l'espace et le point le plus proche de la surface.</p><p>Décomposons le nom « champ de distance signé » pour mieux le comprendre :<ul><li><b>Signé</b> signifie que la fonction renvoie une valeur positive si le point est à l'extérieur/devant la surface, une valeur négative si le point est à l'intérieur/derrière la surface et zéro si le point est exactement sur la surface.</li><li><b>Distance</b> fait référence au fait que la fonction calcule la distance entre n'importe quel point de l'espace et le point *le plus* de la surface.</li><li><b>Champ</b> signifie que la fonction décrit un champ de valeurs, car chaque point dans l'espace a une valeur correspondante qui représente sa distance à la surface la plus proche.</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-02.gif" alt="Visualisation de la forme produite par une Fonction SDF, avec des isolignes de balayage." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="Visualisation de la forme produite par une Fonction SDF, avec des isolignes de balayage." />
         </td>
     </tr>
 </table>
@@ -72,7 +72,7 @@ Ce que vous devez savoir sur les graphes de fonction de Substance :
 
 +++ Exemple de graphe de fonction définissant une Fonction SDF
 
-![working-with-sdf-function-graphe.png](working-with-sdf-functions.resources/working-with-sdf-functions-03.png)
+![working-with-sdf-function-graphe.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
 
 +++
 
@@ -86,11 +86,11 @@ Le nœud offre des fonctionnalités dédiées pour visualiser les aspects de la 
 
 Le nœud [Soleil/ciel physique](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md) peut être utilisé pour configurer rapidement l&#39;éclairage de l&#39;environnement dans la visionneuse 3D.
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-functions-04.gif" alt="Configuration du nœud de la visionneuse 3D pour la visualisation des Fonctions SDF." />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="Configuration du nœud de la visionneuse 3D pour la visualisation des Fonctions SDF." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Tous les nœuds de Fonction SDF de données, ainsi que leurs connecteurs d’entrée, disposent d’info-bulles qui vous permettent d’en savoir plus sur leur objectif et leur utilisation.</p><p>N'oubliez pas de les vérifier !</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-05.png" alt="Info-bulle du connecteur d’entrée sur le nœud de Fonction SDF." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Tous les nœuds de Fonction SDF de données, ainsi que leurs connecteurs d’entrée, disposent d’info-bulles qui vous permettent d’en savoir plus sur leur objectif et leur utilisation.</p><p>N'oubliez pas de les vérifier !</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="Info-bulle du connecteur d’entrée sur le nœud de Fonction SDF." /></td></tr></table>
 
 ### Définition des valeurs de nœud
 
@@ -101,11 +101,11 @@ Vous pouvez les créer de la manière habituelle via le menu Nœud ou vous pouve
 
 La plupart des connecteurs d’entrée des nœuds de Fonction SDF ont une valeur par défaut, qui est indiquée dans son infobulle.
 
-<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-functions-06.gif" alt="Nœuds constants utilisés pour modifier les primitives SDF." />
+<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="Nœuds constants utilisés pour modifier les primitives SDF." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Si vous n'avez pas besoin de toujours afficher certaines valeurs, ancrez les nœuds à l'aide de la touche <code>D</code> pour économiser de l'espace et désencombrer le graphe.</p><p>Vous pouvez également utiliser des commentaires pour suivre les valeurs.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-07.png" alt="Info-bulle du connecteur d’entrée sur le nœud de Fonction SDF." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Si vous n'avez pas besoin de toujours afficher certaines valeurs, ancrez les nœuds à l'aide de la touche <code>D</code> pour économiser de l'espace et désencombrer le graphe.</p><p>Vous pouvez également utiliser des commentaires pour suivre les valeurs.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="Info-bulle du connecteur d’entrée sur le nœud de Fonction SDF." /></td></tr></table>
 
 
 ### Cadre de délimitation
@@ -116,7 +116,7 @@ La plupart des connecteurs d’entrée des nœuds de Fonction SDF ont une valeur
             <p>Le cadre de contour est une zone dans l'espace 3D qui définit les <i>limites</i> dans lesquelles la Fonction SDF est évaluée et dessinée dans le nœud <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">Forme éclaboussée v2</a>.</p><p>Si le cadre de délimitation est trop petit, des parties de la forme peuvent être rognées. S'il est trop volumineux, il peut entraîner des calculs inutiles et des délais de traitement plus longs.</p><p>Le paramètre <b>cadre de délimitation</b> vous permet d'activer la visualisation du cadre de délimitation. Vous pouvez ensuite ajuster la taille du cadre de sélection en modifiant les valeurs du paramètre <b>Taille du cadre de sélection</b>.</p><p>Utilisez le paramètre <b>Coloriser hors cadre</b> pour visualiser les zones en dehors du cadre de délimitation en rouge vif afin de pouvoir ajuster le cadre en conséquence.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-08.jpg" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>
@@ -129,7 +129,7 @@ La plupart des connecteurs d’entrée des nœuds de Fonction SDF ont une valeur
             <p>Comme le transformé des formes implique de *transformer l'espace* dans lequel elles sont dessinées, le résultat des nœuds utilisés après certaines transformations peut être surprenant.<br>Dans ce cas, il est utile de visualiser l'espace lui-même. Pour ce faire, <i>visualisez le champ de distance</i> de la forme.</p><p>Pour cela, le nœud de la visionneuse 3D utilise des <i>isolignes</i>, qui répètent des lignes de contour représentant une distance donnée de la surface de la forme. Le paramètre <b>SDF isolines</b> active cette visualisation.<br>Les isolignes sont dessinées sur un plan horizontal placé à l'height spécifié par le paramètre <b>Position des isolignes SDF</b>.</p><p>Voir comment les lignes d’isolement sont déformées par les transformations appliquées à la forme peut vous aider à comprendre comment la forme elle-même est transformée et à ajuster les paramètres des nœuds en conséquence.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-09.jpg" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>
@@ -142,7 +142,7 @@ Vous pouvez créer autant de vues Bibliothèque que nécessaire pour organiser v
 
 +++ Exemple d’espace de travail
 
-![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-functions-10.png)
+![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-workspace.png)
 
 +++
 
@@ -180,7 +180,7 @@ Les blocs de construction de base de Fonctions SDF, qui vous permettent de crée
 Ces nœuds vous permettent de combiner et de modifier des formes créées avec des primitives. Il s&#39;agit notamment :
 * Les opérateurs **booléens droits** tels que [Union](sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md), [Intersection](sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md) et [Soustraction](sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md) vous permettent d&#39;associer des formes de différentes manières.
 * Opérateurs **booléens de déformation** tels que [Arrondi](sdf-functions-operators/3d-sdf-op-rounding/3d-sdf-op-rounding.md) et [Morphe](sdf-functions-operators/3d-sdf-op-morph/3d-sdf-op-morph.md) qui vous permettent d&#39;associer des formes avec un effet de fusion.
-* **Autres opérateurs spécialisés** tels que [Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md) et [Symmetry](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md) qui vous permettent de modifier et/ou de dupliquer une forme.
+* **Autres opérateurs spécialisés** tels que [Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md) et [Symétrie](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md) qui vous permettent de modifier et/ou de dupliquer une forme.
 
 +++ Nœuds
 
@@ -202,7 +202,7 @@ Ces nœuds vous permettent de combiner et de modifier des formes créées avec d
 
 ### Transformations
 
-Les formes peuvent être transformées de différentes manières, notamment en étant [traduites](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [tournées](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [mises à l’échelle](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [torsadées](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) et plus encore.
+Les formes peuvent être transformées de différentes manières, par exemple en étant [translatées](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [tournées](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [mises à l’échelle](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [torsadées](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) et plus encore.
 Ces nœuds vous permettent d&#39;effectuer ces transformations en *transformant l&#39;espace lui-même* dans lequel les surfaces sont définies.
 
 Cet espace est appelé `P`. Passez à la section suivante pour en savoir plus sur ce que cela signifie et sur le fonctionnement de la transformation d&#39;espace.
@@ -232,7 +232,7 @@ En savoir plus sur les applications de ces nœuds [ci-dessous](#material-id).
 
 +++ Nœuds
 
-* [Définir l&#39;ID matière](./sdf-functions-material/set-id/set-id.md)
+* [Définir l’ID de matériau](./sdf-functions-material/set-id/set-id.md)
 * [Définir le matériau](./sdf-functions-material/set-material/set-material.md)
 * [Définir la couleur](./sdf-functions-material/set-color/set-color.md)
 * [Définir la métallisation](./sdf-functions-material/set-metalness/set-metalness.md)
@@ -256,7 +256,7 @@ Il ne s&#39;agit pas simplement d&#39;une question de commodité, il s&#39;agit 
 
 Voici un exemple :
 
-![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-functions-11.gif)
+![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
 
 Une sphère est créée pour visualiser l’espace sous la forme d’une grille 3D. Il est répété en *répétant l&#39;espace*.\
 Sans `P` partagé, le cylindre recourbé utilise l&#39;espace de répétition utilisé par la sphère.\
@@ -271,8 +271,8 @@ Vous pouvez ensuite coller la fonction que vous avez copiée à partir du nœud 
 
 Assurez-vous d&#39;ajuster la taille du cadre de délimitation **SDF** pour qu&#39;elle corresponde au [cadre de délimitation](#the-bounding-frame) que vous utilisiez dans le nœud de la visionneuse 3D, et assurez-vous que la forme est dessinée correctement.
 
-![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
-*Forme éclaboussée v2 avec un **type de forme**&#x200B;défini sur `SDF function`. Notez que la taille du cadre de délimitation **SDF**&#x200B;a été ajustée pour s&#39;adapter à la forme.*
+![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
+*Forme éclaboussée v2 avec un **type de forme**défini sur `SDF function`. Notez que la taille du cadre de délimitation **SDF**a été ajustée pour s&#39;adapter à la forme.*
 
 >[!TIP]
 > 
@@ -292,7 +292,7 @@ Notez que les surfaces dotées d&#39;ID de matériau différents sont divisées 
 Utilisez le nœud [Définir l&#39;ID de matériau](./sdf-functions-material/set-id/set-id.md) après la partie d&#39;une forme que vous souhaitez baliser avec un ID de matériau spécifique, et utilisez un nœud constant [Entier](../../atomic-function-nodes/constant-nodes/constant-nodes.md) pour définir la valeur d&#39;ID de matériau souhaitée.\
 Dans le nœud de la visionneuse 3D, définissez le paramètre **Sortie** sur `Material ID` pour visualiser les ID de matériau des formes.
 
-![working-with-sdf-matériau-id.png](working-with-sdf-functions.resources/working-with-sdf-functions-13.png)\
+![working-with-sdf-matériau-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)\
 *À droite, la sortie de deux nœuds de visualiseur 3D est composée pour afficher la forme (à gauche) et ses ID de matériau (à droite) afin d&#39;illustrer comment, dans les formes fusionnées, les matériaux sont interpolés tandis que les ID de matériau sont divisés.*
 
 Les ID de matériau peuvent être exploités par les nœuds compagnon Shape Splatter v2 :
@@ -302,48 +302,48 @@ Les ID de matériau peuvent être exploités par les nœuds compagnon Shape Spla
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-14.jpg" alt="ID de matériau SDF pour le mappage des couleurs dans le nœud de couleurs du mappeur Shape Splatter v2."/><i>ID de matériau utilisés pour le mappage des couleurs<br>dans la couleur du mappeur Shape Splatter v2</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="ID de matériau SDF pour le mappage des couleurs dans le nœud de couleurs du mappeur Shape Splatter v2."/><i>ID de Matériau utilisés pour le mappage des couleurs<br>dans la couleur du mappeur Shape splatter v2</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-15.jpg" alt="ID de matériau SDF pour le mappage triplanaire dans le nœud de couleur du mappeur Shape Splatter v2."/><i>ID de matériau utilisés pour le mappage triplanaire<br>dans la couleur du mappeur Shape splatter v2</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="ID de matériau SDF pour le mappage triplanaire dans le nœud de couleur du mappeur Shape Splatter v2."/><i>ID de Matériau utilisés pour le mappage triplanaire<br>dans la couleur du mappeur Shape splatter v2</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-16.jpg" alt="ID de matériau SDF pour le masquage dans Shape splatter v2 vers le nœud de masque."/><br><i>ID de matériau utilisés pour le masquage<br>dans Shape splatter v2 to mask</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="ID de matériau SDF pour le masquage dans Shape splatter v2 vers le nœud de masque."/><br><i>ID de Matériau utilisés pour le masquage<br>dans Shape splatter v2 to mask</i>
         </td>
     </tr>
 </table>
 
-### Couleur, rugosité et aspect métallique
+### Couleur, rugosité et métallurgie
 
 Les nœuds [Définir la couleur](./sdf-functions-material/set-color/set-color.md), [Définir la rugosité](./sdf-functions-material/set-roughness/set-roughness.md) et [Définir la métallisation](./sdf-functions-material/set-metalness/set-metalness.md) vous permettent de définir ces attributs de matériau pour les formes de la Fonction SDF.
 
-Ensuite, lorsque vous utilisez cette Fonction SDF comme type de forme dans le nœud [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md), ces attributs de matière seront disponibles sous forme de cartes dans les sorties **Couleur SDF**, **Rugosité SDF** et **Métallurgie SDF** du nœud. Ces cartes peuvent servir de base pour des travaux de matériaux plus complexes utilisant d&#39;autres nœuds.
+Ensuite, lorsque vous utilisez cette Fonction SDF comme type de forme dans le nœud [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md), ces attributs de matériau seront disponibles en tant que mappages dans les sorties **SDF color**, **SDF rugosité** et **SDF metalness** du nœud. Ces mappages peuvent servir de base à des travaux de matériau plus complexes utilisant d&#39;autres nœuds.
 
 Notez que, contrairement aux ID de matériau, les valeurs sont *interpolées* entre les formes fusionnées sous la forme d&#39;un dégradé, comme le montrent les exemples ci-dessous.
 
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-17.jpg" alt="Sortie de couleur SDF du nœud Shape splatter v2."/><i>Sortie couleur SDF</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="Sortie de couleur SDF du nœud Shape splatter v2."/><i>Sortie couleur SDF</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-18.jpg" alt="Rugosité SDF du nœud Shape splatter v2."/><br><i>Sortie de rugosité SDF</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="Rugosité SDF du nœud Shape splatter v2."/><br><i>Sortie de rugosité SDF</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-19.jpg" alt="Métallique SDF du nœud Shape splatter v2."/><i>Sortie de métallurgie SDF</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="Métallique SDF du nœud Shape splatter v2."/><i>Sortie de métallurgie SDF</i>
         </td>
     </tr>
 </table>
 
-### Échantillon de matière
+### échantillon de matériau
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>L'<b>échantillon de matériau<a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">rouillé</b></a> est disponible pour passer aux Fonctions SDF appliquées dans le cadre du nœud Shape splatter v2.</p><p>Le graphique est organisé et annoté pour vous guider à travers sa structure, les paramètres de nœud et les configurations de Fonction SDF.</p><p>Il est également <i>entièrement modifiable</i>. Il peut donc être utilisé comme sandbox pour mieux comprendre de manière pratique les outils Shape splatter v2 et Fonctions SDF. Vous pouvez créer autant d’exemples de graphiques que vous le souhaitez, alors n’hésitez pas à jouer !</p>
+            <p>L'<b>échantillon de matériau</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">boulons rouillés</a> est disponible pour passer aux Fonctions SDF appliquées dans le contexte du nœud Shape splatter v2.</p><p>Le graphe est organisé et annoté pour vous guider à travers sa structure, les paramètres de nœud et les configurations de Fonction SDF.</p><p>Il est également <i>entièrement modifiable</i>. Il peut donc être utilisé comme sandbox pour mieux comprendre de manière pratique les outils Shape splatter v2 et Fonctions SDF. Vous pouvez créer autant de graphes d'exemple que vous le souhaitez, alors n'hésitez pas à jouer !</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Fonction de cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>

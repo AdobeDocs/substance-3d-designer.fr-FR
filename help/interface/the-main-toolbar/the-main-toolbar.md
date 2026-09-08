@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Découvrez la barre d’outils principale de Substance 3D Designer pour accéder aux outils et commandes courants de votre workflow.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barre d'outils principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barre d&#39;outils principale](the-main-toolbar.resources/the-main-toolbar-01.png "Barre d&#39;outils principale")
+![Barre d&#39;outils principale](../../assets/mainmenu.png "Barre d&#39;outils principale")
 
 </td>
 </tr>
@@ -37,22 +37,22 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 ## Boutons d’accès rapide
 
-![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Nouveau graphe de Substance...:</b> (Ctrl+N)Affiche la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), puis crée un pack avec un [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](../../assets/newsubstance.png) <b>Nouveau graphe de Substance...:</b> (Ctrl+N)Affiche la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), puis crée un pack avec un [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](../../assets/open.png) <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Enregistrer tout :</b> (Ctrl+⇧+S) Enregistre tous les packages répertoriés dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
+![](../../assets/saveall.png) <b>Enregistrer tout :</b> (Ctrl+⇧+S) Enregistre tous les packages répertoriés dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Annuler :</b> (Ctrl+Z) Annuler la dernière opération.
+![](../../assets/undo.png) <b>Annuler :</b> (Ctrl+Z) Annuler la dernière opération.
 
-![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Rétablir :</b> (Ctrl+Y) Rétablir la dernière opération annulée.
+![](../../assets/redo.png) <b>Rétablir :</b> (Ctrl+Y) Rétablir la dernière opération annulée.
 
 ## Fichier
 
 <b>Nouveau :</b> ouvre un sous-menu pour créer un graphe ou un pack :
 
 * <b>Nouveau graphe de Substance...:</b>(Ctrl+N) Vous présente la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) qui vous permet de configurer un nouveau [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md) ;
-* <b>Nouveau graphique de fonction de Substance :</b> crée un pack avec un [graphique de fonction de Substance](../../function-graphs/function-graphs.md) ;
+* <b>Nouveau graphe de fonction de Substance :</b> crée un pack avec un [graphe de fonction de Substance](../../function-graphs/function-graphs.md) ;
 * <b>Vide :</b> crée un package vide.
 
 <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
@@ -85,9 +85,9 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Annuler le rendu :</b> (Echap) arrête l&#39;opération en cours pour la Substance Engine. Peut être utilisé pour interrompre une opération lourde et indésirable.
 
-<b>Interrompre le moteur :</b> (⇧+Echap) Interrompt le moteur de rendu. Cela peut accélérer la modification de [graphiques de Substance](../../compositing-graphs/substance-compositing-graphs.md) complexes.
+<b>Suspendre le moteur :</b> (⇧+Echap) suspend le moteur de rendu. Cela peut accélérer la modification de [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) complexes.
 
-<b>Changer de moteur... : </b>(F9) offre un choix de moteurs de rendu, y compris les moteurs GPU (« DirectX » sous Windows, « OpenGL » sous macOS) ainsi que le moteur CPU (« NEON » sous Apple Silicon, « SSE » sous tous les autres).
+<b>Changer de moteur... :</b>(F9) offre un choix de moteurs de rendu, y compris les moteurs GPU (« DirectX » sous Windows, « OpenGL » sous macOS) ainsi que le moteur CPU (« NEON » sur Apple Silicon, « SSE » sur tous les autres).
 
 <b>Substance Player :</b> gérez l’intégration de Designer avec Substance Player :
 
@@ -98,9 +98,9 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 ## Windows
 
-<b>Nouvel explorateur :</b> ouvre un nouveau dock Explorateur. Plusieurs docks Explorer peuvent être ouverts.
+<b>Nouvel Explorateur :</b> ouvre un nouveau dock Explorateur. Plusieurs docks Explorateurs peuvent être ouverts.
 
-<b>Nouvelle vue 3D :</b> ouvre un nouveau dock Vue 3D. Plusieurs docks Vue 3D peuvent être ouverts.
+<b>Nouvelle vue 3D :</b> ouvre un nouveau dock vue 3D. Plusieurs docks vue 3D peuvent être ouverts.
 
 <b>Nouvelle vue Bibliothèque :</b> ouvre un nouveau dock de bibliothèque. Plusieurs docks de bibliothèque peuvent être ouverts.
 
@@ -165,7 +165,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Nouveautés...:</b> affiche un écran qui met en évidence les fonctionnalités ajoutées à la dernière version de Designer
 
-<b>Écran d’accueil...\*:</b> Affiche l’écran a qui guide les nouveaux utilisateurs à travers l’objectif de Designer et sa place dans l’[écosystème Substance 3D](https://helpx.adobe.com/fr/substance-3d.html)
+<b>Écran d’accueil...\*:</b> Affiche l’écran a qui guide les nouveaux utilisateurs à travers l’objectif de Designer et sa place dans l’[écosystème Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partenaires :</b> vous permet d&#39;accéder aux avis de non-responsabilité et aux avis pour les intégrations tierces de nos partenaires dans Designer.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Découvrez l’interface de l’espace de travail Substance 3D Designer, notamment les affichages, les panneaux et les options de personnalisation.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Espace de travail
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ L&#39;espace de travail est divisé en zones distinctes appelées <b>docks</b>, 
 
 Voici la disposition de dock par défaut de Designer :
 
-![Fenêtre principale de Substance 3D Designer](interface.resources/interface-01.jpg "Fenêtre principale de Substance 3D Designer")
+![Fenêtre principale de Substance 3D Designer](../assets/interface-overview.jpg "Fenêtre principale de Substance 3D Designer")
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ La barre d&#39;outils principale vous permet d&#39;accéder à des menus supplé
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu principal et barre d&#39;outils](interface.resources/interface-02.png "Menu principal et barre d&#39;outils")
+![Menu principal et barre d&#39;outils](../assets/mainmenu-1.png "Menu principal et barre d&#39;outils")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ La barre d&#39;outils principale vous permet d&#39;accéder à des menus supplé
 
 [La fenêtre de l&#39;Explorateur](the-explorer-window/the-explorer-window.md) est le principal moyen d&#39;interagir avec tout type de fichier et de ressource. Il offre plus d’options que le menu Fichier de la barre d’outils principale. C’est ici que commencent et terminent chaque session de travail.
 
-![Explorateur](interface.resources/interface-03.png "Explorateur")
+![Explorateur](../assets/explorer-4.png "Explorateur")
 
-## Vue Graphique
+## Vue du graphe
 
-[Le dock Vue graphique](../interface/the-graph-view/the-graph-view.md) est la fenêtre la plus importante de Substance 3D Designer. Il affiche les réseaux nodaux de tout type de graphique disponible dans Designer ([graphiques de Substance](../compositing-graphs/substance-compositing-graphs.md), [graphiques de fonction de Substance](../function-graphs/function-graphs.md), [graphiques FX-Map](../function-graphs/fxmaps/fxmaps.md)) et vous permet de les créer et de les modifier.
+[Le dock de Vue du graphe](../interface/the-graph-view/the-graph-view.md) est la fenêtre la plus importante de Substance 3D Designer. Il affiche les réseaux nodaux de tout type de graphe disponible dans Designer ([graphes de Substance](../compositing-graphs/substance-compositing-graphs.md), [graphes de fonction de Substance](../function-graphs/function-graphs.md), [graphes FX-Map](../function-graphs/fxmaps/fxmaps.md)) et vous permet de les créer et de les modifier.
 
-![Vue graphique](interface.resources/interface-04.png "Vue graphique")
+![Vue du graphe](../assets/graph-6.png "Vue du graphe")
 
 ## Propriétés
 
 Le [dock des propriétés](properties/properties.md) est la fenêtre la plus technique. Il est toujours contextuel et présente des curseurs, des listes déroulantes et d’autres éléments qui modifient le comportement d’une ressource ou d’un nœud sélectionné.
 
-![Propriétés](interface.resources/interface-05.jpg "Propriétés")
+![Propriétés](../assets/properties-15.jpg "Propriétés")
 
 ## Vue 2D
 
-[La vue 2D](../interface/2d-view/2d-view.md) est l&#39;outil de prévisualisation le plus simple. Cela fonctionne étroitement avec le graphique : un double-clic sur n’importe quel nœud dans la vue Graphique affichera le résultat visuel dans la vue 2D.
+[vue 2D](../interface/2d-view/2d-view.md) est l&#39;outil de prévisualisation le plus simple. Cela fonctionne étroitement avec le Graphe : un double-clic sur n’importe quel nœud de la Vue du graphe affiche dans la vue 2D le résultat visuel.
 
-![Vue 2D](interface.resources/interface-06.jpg "Vue 2D")
+![vue 2D](../assets/2d-view-1.jpg "vue 2D")
 
 ## Vue 3D
 
-[La vue 3D](../interface/3d-view/3d-view.md) est la fenêtre d&#39;aperçu la plus interactive et la plus avancée. Contrairement à la vue 2D, elle utilise un certain nombre de cartes de sortie différentes pour effectuer le rendu d’un matériau complet. Cela signifie que toutes les couches sont représentées, comme Couleur de base, Normal et Rugosité.
+[vue 3D](../interface/3d-view/3d-view.md) est la fenêtre d&#39;aperçu la plus interactive et la plus avancée. Contrairement à la vue 2D, elle utilise un certain nombre de cartes de sortie différentes pour effectuer le rendu d’un matériau complet. Cela signifie que toutes les couches sont représentées, comme Couleur de base, Normal et Rugosité.
 
-![Vue 3D](interface.resources/interface-07.jpg "Vue 3D")
+![vue 3D](../assets/3dview-3.jpg "vue 3D")
 
 ## Bibliothèque
 
-[Le dock de bibliothèque](../interface/the-library/the-library.md) donne accès par défaut à tout le contenu inclus dans la bibliothèque Designer, ainsi qu&#39;à votre [contenu personnalisé](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
+[Le dock de bibliothèque](../interface/the-library/the-library.md) donne accès par défaut à tout le contenu inclus dans la bibliothèque Designer, ainsi qu&#39;à votre [contenu personnalisé](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Pour mieux comprendre la différence entre les Noeuds atomiques et les Instanciers de la bibliothèque, assurez-vous de lire la [Présentation des nœuds](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
-![Bibliothèque](interface.resources/interface-08.jpg "Bibliothèque")
+![Bibliothèque](../assets/library-3.jpg "Bibliothèque")

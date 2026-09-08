@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Découvrez les types de valeur et le traitement des données dans les graphes de composition de Substances pour une création de matériau efficace.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Valeurs dans les graphes Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -34,18 +34,18 @@ Deux nouveaux Noeuds atomiques fonctionnent avec des valeurs :
 
 |  |  |
 | --- | --- |
-| <div><img alt="icône de nœud de processeur de valeurs" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-01.png" title="icône de nœud de processeur de valeurs" width="100px"/></div>  <b>[Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | Le [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) prend un nombre quelconque d&#39;entrées Niveaux de gris ou Couleur et vous permet de renvoyer une seule valeur à partir de calculs basés sur ces entrées. |
-| <div><img alt="Icône Noeud d&#39;entrée de valeur" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-02.png" title="Icône Noeud d&#39;entrée de valeur" width="100px"/></div>  **[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | L&#39;[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)vous permet de créer un emplacement d&#39;entrée sur les sous-graphes qui est explicitement défini comme Valeur. |
+| <div><img alt="icône de nœud de processeur de valeurs" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="icône de nœud de processeur de valeurs" width="100px"/></div>  <b>[Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | Le [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) prend un nombre quelconque d&#39;entrées Niveaux de gris ou Couleur et vous permet de renvoyer une seule valeur à partir de calculs basés sur ces entrées. |
+| <div><img alt="Icône Noeud d&#39;entrée de valeur" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../assets/inputnumeric.png" title="Icône Noeud d&#39;entrée de valeur" width="100px"/></div>  **[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | L&#39;[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)vous permet de créer un emplacement d&#39;entrée sur les sous-graphes qui est explicitement défini comme Valeur. |
 
 En outre, d&#39;autres nœuds les traitent d&#39;une manière spécifique :
 
 Le [nœud de sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) s&#39;ajuste automatiquement pour devenir une sortie Value si vous y connectez une connexion Value, comme auparavant avec les niveaux de gris et la couleur.
 
-![Nœud de la valeur de sortie](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-03.gif "Nœud de la valeur de sortie"){width="512px"}
+![Nœud de la valeur de sortie](../../assets/values-output.gif "Nœud de la valeur de sortie"){width="512px"}
 
 Chaque nœud ([Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) et [Library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instance) comporte un nouvel onglet qui vous permet de définir des entrées de valeur.
 
-![Ajout de valeurs d&#39;entrée sur le nœud](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-04.gif "Ajout de valeurs d&#39;entrée sur le nœud")
+![Ajout de valeurs d&#39;entrée sur le nœud](../../assets/values-inputs.gif "Ajout de valeurs d&#39;entrée sur le nœud")
 
 ## Utilisation des valeurs
 
@@ -57,4 +57,4 @@ Le processeur de valeurs ne peut renvoyer qu&#39;une seule valeur. Si vous souha
 
 Pour mettre en surbrillance l’emplacement où les valeurs sont affichées ou utilisées, tout nœud comportant des entrées de valeur ou des sorties de valeur est mis en surbrillance avec une bordure jaune épaisse :
 
-![Utilisation des valeurs](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-05.png "Utilisation des valeurs")
+![Utilisation des valeurs](../../assets/yellowhighlight.png "Utilisation des valeurs")

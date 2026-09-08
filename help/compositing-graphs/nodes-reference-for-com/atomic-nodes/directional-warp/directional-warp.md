@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Déformation directionnelle pour appliquer une distorsion directionnelle aux textures afin de créer des effets de flux et de mouvement.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation directionnelle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Déformation directionnelle](directional-warp.resources/directional-warp-01.png "Noeud atomique : Déformation directionnelle"){width="200px"}
+![Nœud atomique : Déformation directionnelle](../../../../assets/comp_directionalwarp_1.png "Nœud atomique : Déformation directionnelle"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,16 +78,16 @@ Le nœud Warp est un nœud assez simple mais utile qui sert de base pour d’aut
 
 |  |  |
 | --- | --- |
-| <b>Intensité</b> *Flottant* | Définit l’intensité de la déformation. |
-| <b>Angle de déformation</b> *Flottant* | Définit l’angle de l’effet de déformation, en nombre de tours. |
-| <b>Mode de filtrage d&#39;entrée</b> *Booléen* | Détermine si le filtrage le plus proche ou bilinéaire est utilisé pour échantillonner l&#39;<b>entrée</b>. |
+| <b>Intensité</b> *Flotter* | Définit l’intensité de la déformation. |
+| <b>Angle de déformation</b> *Flotter* | Définit l’angle de l’effet de déformation, en nombre de tours. |
+| <b>Mode de filtrage d&#39;entrée</b> *Booléen* | Contrôle si le filtrage le plus proche ou bilinéaire est utilisé pour échantillonner l&#39;<b>entrée</b>. |
 | <b>Décalage de la carte d&#39;intensité</b> *Flotter* | Cette valeur est soustraite des valeurs d&#39;image d&#39;<b>entrée d&#39;intensité</b>. |
 
 ## Connecteurs d’entrée
 
 |  |  |
 | --- | --- |
-| <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Image d&#39;entrée en niveaux de gris ou en couleurs sur laquelle l’effet de déformation doit être appliqué. |
+| <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Image d’entrée en niveaux de gris ou en couleurs sur laquelle l’effet de déformation doit être appliqué. |
 | <b>Entrée d&#39;intensité</b> *Niveaux de gris* | Image en niveaux de gris définissant la quantité de déformation à appliquer à l&#39;image <b>en entrée</b>. |
 
 ## Connecteurs de sortie
@@ -102,17 +102,17 @@ Le nœud Warp est un nœud assez simple mais utile qui sert de base pour d’aut
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Déformation Directionnelle - Exemple 1](directional-warp.resources/directional-warp-02.gif "Déformation Directionnelle - Exemple 1"){zoomable="yes"}
+![Déformation Directionnelle - Exemple 1](../../../../assets/dir-warp.gif "Déformation Directionnelle - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Déformation Directionnelle - Exemple 2](directional-warp.resources/directional-warp-03.gif "Déformation Directionnelle - Exemple 2"){zoomable="yes"}
+![Déformation Directionnelle - Exemple 2](../../../../assets/dir-warp02.gif "Déformation Directionnelle - Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Déformation Directionnelle - Exemple 3](directional-warp.resources/directional-warp-04.gif "Déformation Directionnelle - Exemple 3"){zoomable="yes"}
+![Déformation Directionnelle - Exemple 3](../../../../assets/dir-warp03.gif "Déformation Directionnelle - Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>

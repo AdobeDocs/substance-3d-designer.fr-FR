@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilisez les cadres dans la vue du graphe de données Substance 3D Designer pour organiser et regrouper les nœuds afin d’obtenir une meilleure clarté visuelle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cadre
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône de Cadre](frame.resources/frame-01.png "Icône de Cadre")
+![Icône de Cadre](../../../../assets/graphatomic-frame_1.png "Icône de Cadre")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ Par défaut, le cadre est un rectangle dont les coins arrondis sont remplis de l
 
 Le titre défini dans la propriété <b>Titre</b> est gris dans le coin supérieur gauche du cadre.
 
-![Cadre (état par défaut)](frame.resources/frame-02.png "Cadre (état par défaut)")
+![Cadre (état par défaut)](../../../../assets/graph-frames-default.png "Cadre (état par défaut)")
 
 
 
@@ -59,7 +59,7 @@ Lorsque vous survolez le haut du cadre, une barre d’en-tête s’affiche.
 
 Le cadre peut être déplacé en faisant glisser cette barre d’en-tête ou son titre.
 
-![Cadre (état de survol)](frame.resources/frame-03.png "Cadre (état de survol)")
+![Cadre (état de survol)](../../../../assets/graph-frames-hover.png "Cadre (état de survol)")
 
 
 
@@ -68,7 +68,7 @@ Le cadre peut être déplacé en faisant glisser cette barre d’en-tête ou son
 +++Sélection
 Lorsque cette option est sélectionnée, le titre et le contour du cadre sont mis en évidence en blanc. Le contour s’épaissit.
 
-![Cadre (état sélectionné)](frame.resources/frame-04.png "Cadre (état sélectionné)")
+![Cadre (état sélectionné)](../../../../assets/graph-frames-selected.png "Cadre (état sélectionné)")
 
 
 
@@ -111,7 +111,7 @@ Si une sélection est active dans un graphe lors de la création d’un cadre, c
 
 En gardant cela à l’esprit, la création de cadres à l’aide d’un raccourci de clavier rend encore plus rapide la cadre du contenu dans un graphe.
 
-![Cadres : méthodes de création](frame.resources/frame-05.gif "Cadres : méthodes de création"){width="480px"}
+![Cadres : méthodes de création](../../../../assets/graph-frames_creation.gif "Cadres : méthodes de création"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ L’illustration met en évidence les zones d’interaction pour le panoramique 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cadres : zones d&#39;interaction](frame.resources/frame-06.png "Cadres : zones d&#39;interaction")
+![Cadres : zones d&#39;interaction](../../../../assets/graph-frames_interaction-zones.png "Cadres : zones d&#39;interaction")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Maintenez la touche <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) enfoncée pour d�
 </td>
 <td style="border: 0;" valign="top">
 
-![Cadres : contraint des Grilles](frame.resources/frame-07.gif "Cadres : contraint des Grilles")
+![Cadres : contraint des Grilles](../../../../assets/graph-frames_grid-snapping.gif "Cadres : contraint des Grilles")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Le <b>Titre</b> se trouve en haut à gauche du cadre. Sa visibilité du titre pe
 
 La taille du titre peut être verrouillée à une taille d’écran minimale afin qu’il reste lisible lors d’un zoom arrière sur le graphe. Pour ce faire, cochez l&#39;option Titres du Cadre dans la liste déroulante <b>Informations</b> de la barre d&#39;outils [Vue du graphe](../../../../interface/the-graph-view/the-graph-view.md).
 
-![Cadres : Titre](frame.resources/frame-08.gif "Cadres : Titre"){width="640px"}
+![Cadres : Titre](../../../../assets/graph_frames_title.gif "Cadres : Titre"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ La taille du titre peut être verrouillée à une taille d’écran minimale afi
 +++Description
 La <b>Description</b> est une partie de texte supplémentaire facultative qui peut être utilisée pour annoter le contenu du cadre.
 
-Le texte peut être mis en forme à l’aide d’étiquettes de HTML. Cette mise en forme est basculée en cliquant sur le bouton ![](frame.resources/frame-09.png) <b>Annotation de HTML</b>.
+Le texte peut être mis en forme à l’aide d’étiquettes de HTML. Cette mise en forme est basculée en cliquant sur le bouton ![](../../../../assets/graph-frames_html-markup-button.png) <b>Annotation de HTML</b>.
 
 Pour en savoir plus, consultez la section Description ci-dessous.
 
-![Cadres : Description](frame.resources/frame-10.gif "Cadres : Description"){width="640px"}
+![Cadres : Description](../../../../assets/graph-frames_description.gif "Cadres : Description"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ La <b>couleur du Cadre</b> est utilisée pour remplir le cadre dans la Vue du gr
 
 Le canal Alpha de la couleur contrôle l&#39;*opacité* du cadre, où une valeur de 0 signifie que le cadre est entièrement transparent.
 
-![Cadres : Color](frame.resources/frame-11.gif "Cadres : Color"){width="640px"}
+![Cadres : Color](../../../../assets/graph-frames_colour.gif "Cadres : Color"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ Sa taille peut être verrouillée à une taille d’écran minimale afin qu’il
 </td>
 <td style="border: 0;" valign="top">
 
-![Cadre (description par défaut)](frame.resources/frame-12.png "Cadre (description par défaut)"){zoomable="yes"}
+![Cadre (description par défaut)](../../../../assets/graph-frames-descr.png "Cadre (description par défaut)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ Sa taille peut être verrouillée à une taille d’écran minimale afin qu’il
 
 ### formatage de HTML
 
-Le texte peut être mis en forme à l&#39;aide de balises de HTML dans la propriété <b>Description</b> du cadre. La mise en forme doit être activée à l&#39;aide du bouton ![](frame.resources/frame-09.png) <b>Annotation de HTML</b> dans cette même propriété.
+Le texte peut être mis en forme à l&#39;aide de balises de HTML dans la propriété <b>Description</b> du cadre. La mise en forme doit être activée à l&#39;aide du bouton ![](../../../../assets/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans cette même propriété.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cadre (description au format HTML)](frame.resources/frame-13.png "Cadre (description au format HTML)"){zoomable="yes"}
+![Cadre (description au format HTML)](../../../../assets/graph-frames-descr-html.png "Cadre (description au format HTML)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ Lorsque des connecteurs sont affichés ou masqués, ajoutés ou supprimés, l&#3
 
 Par conséquent, l&#39;emplacement du point central d&#39;un nœud ne doit pas être modifié tant qu&#39;il n&#39;a pas *été délibérément déplacé*.
 
-![Inclusion d’image : nœuds de grande taille](frame.resources/frame-14.png "Inclusion d’image : nœuds de grande taille")
+![Inclusion d’image : nœuds de grande taille](../../../../assets/frame_inclusion_node_tall.png "Inclusion d’image : nœuds de grande taille")
 
 
 
@@ -297,11 +297,11 @@ Si plusieurs nœuds sont ancrés dans une chaîne, le nœud hôte du dernier nœ
 
 Les badges, les connecteurs et les informations affichés sous le nœud sont tous ignorés.
 
-![inclusion de Cadre : nœuds ancrés](frame.resources/frame-15.png "inclusion de Cadre : nœuds ancrés")
+![inclusion de Cadre : nœuds ancrés](../../../../assets/frame_inclusion_node_docked.png "inclusion de Cadre : nœuds ancrés")
 
 
 
-![inclusion de Cadre : nodes](frame.resources/frame-16.png "inclusion de Cadre : nodes")
+![inclusion de Cadre : nodes](../../../../assets/frame_inclusion_node.png "inclusion de Cadre : nodes")
 
 
 
@@ -312,7 +312,7 @@ Le <b>point central</b> du point est utilisé.
 
 Les connecteurs, les icônes de portail et les noms sont tous ignorés.
 
-![Inclusion de Cadre : nœuds de point](frame.resources/frame-17.png "Inclusion de Cadre : nœuds de point")
+![Inclusion de Cadre : nœuds de point](../../../../assets/frame_inclusion_dot.png "Inclusion de Cadre : nœuds de point")
 
 
 
@@ -329,11 +329,11 @@ Les badges, les connecteurs et les informations affichés sous le nœud sont tou
 
 
 
-![inclusion de Cadre : commentaires parents](frame.resources/frame-18.png "inclusion de Cadre : commentaires parents")
+![inclusion de Cadre : commentaires parents](../../../../assets/frame_inclusion_comment_parented.png "inclusion de Cadre : commentaires parents")
 
 
 
-![inclusion de Cadre : comments](frame.resources/frame-19.png "inclusion de Cadre : comments")
+![inclusion de Cadre : comments](../../../../assets/frame_inclusion_comment.png "inclusion de Cadre : comments")
 
 
 
@@ -342,7 +342,7 @@ Les badges, les connecteurs et les informations affichés sous le nœud sont tou
 +++Épingles
 Le <b>conseil</b> de l&#39;icône d&#39;épingle est utilisé.
 
-![inclusion du Cadre : épingles de navigation](frame.resources/frame-20.png "inclusion du Cadre : épingles de navigation")
+![inclusion du Cadre : épingles de navigation](../../../../assets/frame_inclusion_pin.png "inclusion du Cadre : épingles de navigation")
 
 
 
@@ -355,7 +355,7 @@ Cela signifie qu’un cadre imbriqué doit se trouver entièrement dans les limi
 
 Le titre est ignoré.
 
-![inclusion de Cadre : cadres imbriqués](frame.resources/frame-21.png "inclusion de Cadre : cadres imbriqués")
+![inclusion de Cadre : cadres imbriqués](../../../../assets/frame_inclusion_frame.png "inclusion de Cadre : cadres imbriqués")
 
 
 
@@ -363,7 +363,7 @@ Le titre est ignoré.
 
 ## Ajuster la taille au contenu
 
-![Cadres : adapter la taille au contenu](frame.resources/frame-22.png "Cadres : adapter la taille au contenu")
+![Cadres : adapter la taille au contenu](../../../../assets/graph-frames_fit-size-to-content.png "Cadres : adapter la taille au contenu")
 
 Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Dans ce cas, il est possible d’ajuster automatiquement la position et la taille de l’image afin qu’elle s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne.
 
@@ -386,14 +386,14 @@ Si aucun objet inclus ne peut être placé dans cet espace, l’height du cadre 
 </td>
 <td style="border: 0;" valign="top">
 
-![Images : Taille adaptée au contenu (avec description)](frame.resources/frame-23.png "Images : Taille adaptée au contenu (avec description)")
+![Images : Taille adaptée au contenu (avec description)](../../../../assets/graph-frames_fit-description.png "Images : Taille adaptée au contenu (avec description)")
 
 </td>
 </tr>
 </table>
 
 +++Exemple
-![Images : Taille adaptée au contenu (GIF)](frame.resources/frame-24.gif "Images : Taille adaptée au contenu (GIF)"){width="640px"}
+![Images : Taille adaptée au contenu (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Images : Taille adaptée au contenu (GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ Si aucun objet inclus ne peut être placé dans cet espace, l’height du cadre 
 
 ## Développement automatique
 
-![Images : Développement automatique](frame.resources/frame-25.png "Images : Développement automatique")
+![Images : Développement automatique](../../../../assets/graph-frames_auto-expand.png "Images : Développement automatique")
 
 Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité.
 
@@ -416,7 +416,7 @@ Si un objet n&#39;est pas entièrement entouré par les limites du cadre, mais q
 > Bien que la touche <b>Maj</b> puisse être enfoncée ou relâchée à tout moment pendant le déplacement pour déclencher ou annuler le réglage automatique de l&#39;image, elle *doit* être maintenue pendant la réalisation du déplacement pour appliquer efficacement le réglage.
 
 +++Exemple
-![Images : Développement automatique (GIF)](frame.resources/frame-26.gif "Images : Développement automatique (GIF)"){width="640px"}
+![Images : Développement automatique (GIF)](../../../../assets/graph-frames_auto-expand.gif "Images : Développement automatique (GIF)"){width="640px"}
 
 
 

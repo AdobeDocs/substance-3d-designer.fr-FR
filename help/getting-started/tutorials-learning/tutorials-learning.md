@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: Accédez à des tutoriels et à des ressources d’apprentissage pour Substance 3D Designer afin de maîtriser les techniques de création de matériel procédural.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: apprentissage du Tutorials
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -26,7 +26,7 @@ La documentation se veut principalement une référence technique approfondie. S
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Illustration du tutoriel ![&#39;Premières étapes&#39;](tutorials-learning.resources/tutorials-learning-01.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[Illustration du tutoriel ![&#39;Premières étapes&#39;](../../assets/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ Série destinée aux débutants qui met l’accent sur les premiers pas avec Des
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;Création de votre première matière&#39; illustration du tutoriel](tutorials-learning.resources/tutorials-learning-02.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[![&#39;Création de votre première matière&#39; illustration du tutoriel](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Grande série de vidéos de démarrage qui vous guide tout au long du processus 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Illustration du tutoriel ![&#39;Quicktip&#39;](tutorials-learning.resources/tutorials-learning-03.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[Illustration du tutoriel ![&#39;Quicktip&#39;](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Chaque vidéo quicktip se concentre sur un ensemble de nœuds et de techniques d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;Votre smartphone est un scanner de matériaux&#39; illustration du tutoriel](tutorials-learning.resources/tutorials-learning-04.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
+[![&#39;Votre smartphone est un scanner de matériaux&#39; illustration du tutoriel](../../assets/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
