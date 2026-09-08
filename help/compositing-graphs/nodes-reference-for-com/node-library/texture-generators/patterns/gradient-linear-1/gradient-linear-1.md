@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dégradé linéaire 1 pour créer des dégradés linéaires afin de fusionner les couleurs et de créer des transitions lisses.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé linéaire 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-1.resources/gradient-linear-1-01.png){width="128px"}
+![](../../../../../../assets/gradient-linear-1.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ Malgré sa simplicité, il s&#39;agit d&#39;un motif extrêmement utile qui peut
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 | <b>Rotation</b> <i>0°, 90°, 180°, 270°</i> | Permet une rotation selon un angle prédéfini. Modifie la direction du dégradé. |
 
 ## Exemples
@@ -55,7 +55,7 @@ Malgré sa simplicité, il s&#39;agit d&#39;un motif extrêmement utile qui peut
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-1.resources/gradient-linear-1-02.gif" />
+            <img src="../../../../../../assets/gradient-linear-1-ex.gif" />
         </td>
     </tr>
 </table>

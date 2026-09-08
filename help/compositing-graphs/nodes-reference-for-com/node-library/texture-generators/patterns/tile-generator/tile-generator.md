@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tile Generator pour créer des motifs de mosaïque procéduraux avec des commandes personnalisables de taille, de décalage et de variation.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur de tuiles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-generator.resources/tile-generator-01.png){width="128px"}
+![](../../../../../../assets/tile-generator.png){width="128px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -118,16 +118,16 @@ Quelques conseils d’utilisation généraux :
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-02.png" />
+            <img src="../../../../../../assets/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-03.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-04.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tile-generator-05.png" />
+            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

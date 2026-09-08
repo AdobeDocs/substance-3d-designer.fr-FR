@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Aléatoire de mosaïque pour créer des motifs de mosaïque aléatoires avec une variation procédurale pour les effets de texture organique.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaïque aléatoire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random-01.png){width="128px"}
+![](../../../../../../assets/tile-random.png){width="128px"}
 
 <b>Entrée :</b> Générateurs > Motifs
 
@@ -58,7 +58,7 @@ L&#39;option Mosaïque aléatoire est utilisée à la place de l&#39;option [Til
 |:---|:---|
 | <b>X Quantité</b> <i>1 - 64</i> | Quantité de répétitions X du motif. |
 | <b>Quantité Y</b> <i>1 - 64</i> | Quantité de répétitions Y du motif. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Motif</b> |  |
 | <b>Motif</b> <i>Entrée de motif, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Filtrage d’entrée d’image (Moteur > v4)</b> <i>Bilinéaire + Mipmaps, Bilinéaire, Nearest</i> |  |
@@ -106,7 +106,7 @@ L&#39;option Mosaïque aléatoire est utilisée à la place de l&#39;option [Til
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-02.png" />
+            <img src="../../../../../../assets/tile-random-1.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fibres 1 pour créer des textures de fibre de base afin de simuler le tissu, les cheveux et les matériaux fibreux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibres 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -24,7 +24,7 @@ ht-degree: 12%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fibers-1.resources/fibers-1-01.png){width="128px"}
+![](../../../../../../assets/fibers-1.png){width="128px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -53,7 +53,7 @@ Motif simple en forme de fibre. Peut être utilisé dans [Substance 3D Designer]
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fibers-1.resources/fibers-1-02.gif" />
+            <img src="../../../../../../assets/fibers-1-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Gaussien 1 pour générer des motifs de bruit gaussiens afin de créer des textures et des variations organiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gaussien 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gaussian-1.resources/gaussian-1-01.png){width="128px"}
+![](../../../../../../assets/gaussian-1.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,15 +45,15 @@ Motif de tache gaussien simple.
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gaussian-1.resources/gaussian-1-02.gif" />
+            <img src="../../../../../../assets/gaussian-1-ex.gif" />
         </td>
     </tr>
 </table>

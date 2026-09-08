@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Checker 1 pour générer des motifs en damier avec une taille de mosaïque et des couleurs personnalisables pour les tests et les textures.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vérificateur 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](checker-1.resources/checker-1-01.png){width="128px"}
+![](../../../../../../assets/checker-1-1.png){width="128px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -56,7 +56,7 @@ Il s’agit d’un modèle utile pour les cas tests, en raison de son contraste 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="checker-1.resources/checker-1-02.gif" />
+            <img src="../../../../../../assets/checker-1-ex.gif" />
         </td>
     </tr>
 </table>
