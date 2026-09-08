@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flou de Pente pour appliquer des effets de flou directionnels en fonction des pentes de map height de création de flou directionnel.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou de pente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](slope-blur.resources/slope-blur-01.png){width="128px"}
+![](../../../../../../assets/slope-blur.png){width="128px"}
 
-![](slope-blur.resources/slope-blur-02.png){width="128px"}
+![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -60,7 +60,7 @@ Important : assurez-vous d’utiliser la version appropriée pour vos commentair
 |  |  |
 |:---|:---|
 | <b>Exemples</b> <i>0 - 32</i> | Quantité d&#39;échantillons, affecte la qualité au détriment de la vitesse. |
-| <b>Intensité</b> <i>0.0 - 16.0</i> | Niveau ou intensité du flou. |
+| <b>Intensité</b> <i>0.0 - 16.0</i> | Niveau de flou ou force. |
 | <b>Mode</b> <i>Flou, Min, Max</i> | Mode de fusion pour les passes de flou consécutives. Le « flou » se comporte davantage comme un [flou anisotrope](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) standard, tandis que Min « rongera » les zones existantes et Max « étalera » les zones blanches. |
 
 ## Exemples
@@ -68,10 +68,10 @@ Important : assurez-vous d’utiliser la version appropriée pour vos commentair
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slope-blur-03.gif" />
+            <img src="../../../../../../assets/slopeblur01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slope-blur-04.gif" />
+            <img src="../../../../../../assets/slopeblur02.gif" />
         </td>
     </tr>
 </table>
