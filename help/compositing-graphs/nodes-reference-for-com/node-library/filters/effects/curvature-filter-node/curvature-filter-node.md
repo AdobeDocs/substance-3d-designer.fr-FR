@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
 description: Utilisez le noeud de filtrage Courbure pour générer des maps curvatures à partir de maps height de détection des surfaces convexes et concaves.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Courbure (Noeud de filtrage)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curvature-filter-node.resources/curvature-filter-node-01.png){width="128px"}
+![](../../../../../../assets/curvature-1.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -55,7 +55,7 @@ Ce nœud est utile pour mettre rapidement en évidence ou obscurcir certains bor
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="curvature-filter-node.resources/curvature-filter-node-02.png" />
+            <img src="../../../../../../assets/curvature-ex.png" />
         </td>
     </tr>
 </table>

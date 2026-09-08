@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flood Fill à Niveaux de gris aléatoires pour remplir des zones avec des valeurs de niveaux de gris aléatoires afin de créer des motifs de variation.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill aux niveaux de gris aléatoires
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-random-grayscale.resources/flood-fill-to-random-grayscale-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-random-grayscale.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -44,10 +44,10 @@ Génère des valeurs de Luminance de niveaux de gris aléatoires à partir d&#39
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-grayscale.resources/flood-fill-to-random-grayscale-02.png" />
+            <img src="../../../../../../assets/floodluminane-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-grayscale.resources/flood-fill-to-random-grayscale-03.png" />
+            <img src="../../../../../../assets/floodluminane-ex1.png" />
         </td>
     </tr>
 </table>

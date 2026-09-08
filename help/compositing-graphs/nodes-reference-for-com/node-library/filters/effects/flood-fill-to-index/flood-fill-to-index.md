@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flood Fill à Index pour remplir des régions avec des valeurs d’index afin de créer des motifs numérotés et étiquetés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill à l’index
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
+![](../../../../../../assets/floodfill-index.png){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -65,7 +65,7 @@ En outre, le Flood Fill à Index utilise des [valeurs](../../../../../values-com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
+            <img src="../../../../../../assets/flood-fill-ex02.jpg" />
         </td>
     </tr>
 </table>

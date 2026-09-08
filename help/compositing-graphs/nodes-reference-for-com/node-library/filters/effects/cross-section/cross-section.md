@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Section transversale pour créer des masques de section transversale basés sur des maps height d’effets de coupe et de découpe.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Section transversale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône de nœud ![&#39;Cross section&#39;](cross-section.resources/cross-section-01.png "&#39;Cross section&#39; icon"){width="200px"}
+Icône de nœud ![&#39;Cross section&#39;](../../../../../../assets/cross-section-2.png "&#39;Cross section&#39; icon"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -69,10 +69,10 @@ Il peut également être utilisé pour créer des formes et des silhouettes 2D d
 
 ## Exemples
 
-![Section transversale : exemple 1](cross-section.resources/cross-section-02.gif "Section transversale : exemple 1")
+![Section transversale : exemple 1](../../../../../../assets/cross-section-example-01.gif "Section transversale : exemple 1")
 
-![Section transversale : exemple 2](cross-section.resources/cross-section-03.gif "Section transversale : exemple 2")
+![Section transversale : exemple 2](../../../../../../assets/cross-section-example-02.gif "Section transversale : exemple 2")
 
-![Section transversale : exemple 3](cross-section.resources/cross-section-04.png "Section transversale : exemple 3")
+![Section transversale : exemple 3](../../../../../../assets/cross-section-example-03.png "Section transversale : exemple 3")
 
-![Section transversale : exemple 4](cross-section.resources/cross-section-05.png "Section transversale : exemple 4")
+![Section transversale : exemple 4](../../../../../../assets/cross-section-example-04.png "Section transversale : exemple 4")
