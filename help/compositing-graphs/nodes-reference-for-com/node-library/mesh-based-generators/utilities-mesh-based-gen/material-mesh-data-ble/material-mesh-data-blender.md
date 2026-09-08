@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Matériau Maillage Data Blender pour fusionner les données de maillage de matériau afin de créer des transitions fluides entre différentes zones de matériau.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Matériau Maillage Data Blender
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
+![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
@@ -48,12 +48,12 @@ Elle est utile pour ajouter une mise en surbrillance des contours en fonction de
 |  |  |
 |:---|:---|
 | <b>Entrée de Matériau complète (groupe « Matériau »)</b> | Ensemble complet de cartes de matériau.<br><br>Ceux-ci sont modifiés par ce nœud, puis renvoyés en tant que sortie. |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Height</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Normal</b> <i>Entrée couleur</i> |  |
 | <b>Couleur Vertex</b> <i>Entrée couleur</i> |  |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> |  |
 
 <a name="parameters"></a>
 
@@ -72,9 +72,9 @@ Elle est utile pour ajouter une mise en surbrillance des contours en fonction de
 | <b>Contours de dessin animé Diffuse</b> <i>0.0 - 1.0</i> | Contrôle l’aspect des calculs d’éclairage du dessin animé. |
 | <b>Base color AO</b> <i>0.0 - 1.0</i> | Quantité d’Occlusion ambiante à fusionner avec la couleur de base. |
 | <b>Base color des contours nets</b> <i>0.0 - 1.0</i> | Quantité de courbe de référence à fusionner avec la couleur de base. |
-| <b>Base color À Partir De La Couleur Du Vertex</b> <i>0.0 - 1.0</i> | Degré de fusion de la couleur du sommet avec la couleur de base. |
-| <b>Intensité normale du Matériau</b> <i>0.0 - 1.0</i> | Intensité de fusion de la texture normale (tangente) cuite. |
-| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;AO dans le Specular. |
+| <b>Base color À Partir De La Couleur Du Vertex</b> <i>0.0 - 1.0</i> | Quantité de baking de couleur du Vertex à fusionner avec la couleur de base. |
+| <b>Intensité normale du Matériau</b> <i>0.0 - 1.0</i> | Force de fusion de la texture normale (tangente) bakée. |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Force de fusion de l’AO dans le Specular. |
 | <b>Bords nets Specular vifs</b> <i>0.0 - 1.0</i> | Force de fusion de la Courbure dans le Specular. |
 | <b>Contours de dessin animé Specular</b> <i>0.0 - 1.0</i> | Force de fusion d’un effet de contour de Specular de dessin animé, en fonction de la Courbure. |
 | <b>Brillance des contours sombres et nets</b> <i>0.0 - 1.0</i> | Force de fusion de la Courbure dans la Brillance. |
@@ -91,7 +91,7 @@ Elle est utile pour ajouter une mise en surbrillance des contours en fonction de
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
+            <img src="../../../../../../assets/blenddata-ex.gif" />
         </td>
     </tr>
 </table>
