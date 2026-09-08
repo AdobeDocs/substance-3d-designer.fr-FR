@@ -91,7 +91,7 @@ que d&#39;inventer un nouveau HTML intégré, sauf en cas de nécessité.
 
 * Code intégré : backticks simples.
 * Blocs clôturés : triple backticks, avec un langage facultatif pour la syntaxe
-mise en surbrillance (` ```python `, ` ```javascript `, etc.).
+mise en surbrillance (` `&#x200B;``python `, ` ``&#x200B;`javascript `, etc.).
 
 ## Blocs de note/d’alerte
 

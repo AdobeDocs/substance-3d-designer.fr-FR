@@ -9,11 +9,11 @@ ht-degree: 0%
 
 Ce fichier fournit des conseils à Claude Code (claude.ai/code) lors de l’utilisation du code dans ce référentiel.
 
-# Documentation Substance 3D Designer
+&#x200B;# Documentation Substance 3D Designer
 
 Ce référentiel contient la documentation de Substance 3D Designer. Il n&#39;y a pas de code d&#39;application, d&#39;étape de génération ou de suite de tests : le référentiel *est* le contenu, écrit dans Markdown et publié sur [Adobe Experience League](https://experienceleague.adobe.com/docs/substance3d-designer.html?lang=en).
 
-# Structure du référentiel
+&#x200B;# Structure du référentiel
 
 * `help/` — tout le contenu de la documentation, organisé pour refléter la table des matières.
 * `help/guide/TOC.md` — table des matières. Chaque entrée est un lien relatif (ancré à `/help/...`) vers le fichier Markdown d&#39;une page. `TOC.md` contient également des métadonnées d&#39;arborescence de page (`user-guide-title`, `breadcrumb-title`, `nudge`, des ancrages de section comme `{#section-id}`).
@@ -54,20 +54,20 @@ user-guide-title: ""
 
 Assurez-vous que `description` est précis et concis. Il est utilisé pour le référencement/la recherche de fragments de code.
 
-# Règles de création de contenu
+&#x200B;# Règles de création de contenu
 
 * L&#39;anglais est la source de la vérité ; toutes les autres langues en sont translatées.
 * Tous les liens vers d&#39;autres pages de documentation doivent être des liens **relatifs** ; tous les liens vers des ressources externes doivent être des liens **absolus**.
 * Le contenu est écrit dans un Markdown parfumé GitHub avec des extensions/gotchas personnalisées de l&#39;Experience League, documenté [ici](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Utilisez la compétence `write-experience-league-markdown` (le cas échéant) pour les détails.
 * Chaque modification soumise est soumise à des vérifications automatiques de liaison et à une validation de liaison dans CI (voir ci-dessous) — vérifiez `markdownlint_custom.json` et `linkcheckexclude.json` avant de supposer qu&#39;une règle s&#39;applique ou qu&#39;un lien doit être corrigé.
 
-# Validation / CI
+&#x200B;# Validation / CI
 
 * `.github/workflows/validate-articles.yml` s&#39;exécute sur les RP et envoie à `main` (et via un commentaire RP `retest`), appelant le workflow réutilisable partagé `Adobe-Enterprise-Docs/workflows` pour pointer Markdown et valider les liens. Il n&#39;y a pas de script local équivalent dans ce référentiel — CI est la source de vérité pour réussite/échec.
 * `.github/workflows/mirror.yml` reflète `main` dans le référentiel public sur push. Il s&#39;agit d&#39;une infrastructure, et non d&#39;un élément que les modifications de contenu doivent modifier.
 * `markdownlint_custom.json` étend le jeu de règles `markdownlint.json` partagé et désactive plusieurs règles (MD005, MD007, MD018, MD032, MD033, MD034, MD037, MD040) qui entrent en conflit avec les extensions Markdown personnalisées de l&#39;Experience League (par exemple, HTML en ligne, accentuation non standard). Ne « corrigez » pas le contenu pour respecter ces règles désactivées.
 * `linkcheckexclude.json` autorise les modèles de liens (actuellement `example.com`/`example-end.com`) que le vérificateur de liens doit ignorer.
 
-# Conventions de travail
+&#x200B;# Conventions de travail
 
 * Il s’agit d’une documentation riche en notes de mise à jour : les notes de mise à jour sont disponibles sous `help/release-notes/`, un dossier par version (par exemple `version-16-0`), plus `all-changes` et `old-versions` pages d’agrégation. Suivez le dossier de la version existante comme modèle lors de l’ajout d’une nouvelle version.

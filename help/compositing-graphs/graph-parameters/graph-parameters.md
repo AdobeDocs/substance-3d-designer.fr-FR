@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Paramètres de graphe
 
-Cette page décrit les paramètres standard du graphique de Substance <b>1}.</b>
+Cette page décrit les paramètres standard du graphique de Substance <b>1&rbrace;.</b>
 
 Un graphique comporte plusieurs paramètres que vous pouvez modifier. Vous pouvez les trouver en cliquant sur *espace vide* dans le graphique ou en sélectionnant l&#39;*élément de graphique* dans le panneau <b>Explorateur</b>. Les paramètres seront ensuite affichés dans la vue Paramètres.
 

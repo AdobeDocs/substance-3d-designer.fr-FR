@@ -100,7 +100,7 @@ Le mode de fusion *Division* divise la valeur des pixels d&#39;entrée de l&#39;
 
 Le mode de fusion *Incrustation* combine les modes de fusion Produit et Superposition :
 
-* 
+* &#x200B;
   * Si la valeur du pixel du calque inférieur est inférieure à 0,5, une fusion de type *Produit* est appliquée
   * Si la valeur du pixel du calque inférieur est supérieure à 0,5, une fusion de type *Écran* est appliquée
 
