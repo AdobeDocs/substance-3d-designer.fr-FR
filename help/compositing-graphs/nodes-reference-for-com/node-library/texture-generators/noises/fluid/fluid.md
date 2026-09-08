@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fluide pour générer des motifs de bruit de type fluide afin de créer des effets de texture de surface de liquide et d'eau.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fluide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fluid.resources/fluid-01.png){width="128px"}
+![](../../../../../../assets/fluid.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -51,14 +51,14 @@ Ce bruit remplit une niche spécifique : il peut être utile pour générer de l
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasez le bruit pour introduire une faible variation. |
 | <b>Intensité de déformation</b> <i>0.0 - 1.0</i> |  |
 | <b>Taille du motif</b> <i>0.0 - 1.0</i> |  |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fluid.resources/fluid-02.gif" />
+            <img src="../../../../../../assets/fluid-ex.gif" />
         </td>
     </tr>
 </table>

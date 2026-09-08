@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Vue microscope pour générer des motifs de texture microscopiques afin de créer des structures de surface détaillées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue du microscope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](microscope-view.resources/microscope-view-01.png){width="128px"}
+![](../../../../../../assets/microscope-view.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -55,7 +55,7 @@ Cela génère un bruit de déformation qui ressemble à des bactéries ou des or
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-02.gif" />
+            <img src="../../../../../../assets/microscope-view-ex.gif" />
         </td>
     </tr>
 </table>
