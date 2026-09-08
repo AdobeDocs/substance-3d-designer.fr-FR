@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-1.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Weave 1 pour créer des motifs de tissu et des textures textiles de base dans Substance 3D Designer.
 helpx_creative_field: ""

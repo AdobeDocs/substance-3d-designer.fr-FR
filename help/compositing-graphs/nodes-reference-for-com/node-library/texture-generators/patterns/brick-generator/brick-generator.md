@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Brick Generator pour créer des motifs de briques procéduraux avec des propriétés personnalisables de taille, de décalage et de mortier.
 helpx_creative_field: ""
