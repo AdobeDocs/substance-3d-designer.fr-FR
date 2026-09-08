@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Pièce de duplication pour cloner et corriger des zones dans des matériaux numérisés afin de supprimer des artefacts et des imperfections.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pièce de duplication
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-patch.resources/clone-patch-01.png){width="128px"}
+![](../../../../../../assets/clone-patch.png){width="128px"}
 
-![](clone-patch.resources/clone-patch-02.png){width="128px"}
+![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
