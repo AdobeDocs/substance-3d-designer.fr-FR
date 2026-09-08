@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de fusion RVBA pour combiner des couches séparées rouge, verte, bleue et alpha en une seule texture RVBA.
 helpx_creative_field: ""

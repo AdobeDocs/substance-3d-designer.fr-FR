@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flou non uniforme pour appliquer un flou d’intensités différentes dans les directions X et Y pour des effets anisotropes.
 helpx_creative_field: ""

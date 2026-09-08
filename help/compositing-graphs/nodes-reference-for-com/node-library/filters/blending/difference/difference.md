@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion Différence pour fusionner des textures en utilisant le mode de différence pour créer des effets d'inversion et de contraste.
 helpx_creative_field: ""
