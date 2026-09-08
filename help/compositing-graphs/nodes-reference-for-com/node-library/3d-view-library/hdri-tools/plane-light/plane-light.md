@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lumière plane pour ajouter des sources lumineuses planes aux environnements HDRI afin de contrôler l’éclairage directionnel.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Éclairage plan
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/plane-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-plane-light.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -89,7 +89,7 @@ Elle diffère de la [lumière de forme](../../../../../../compositing-graphs/nod
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-02.gif" />
+            <img src="../../../../../../assets/plane-light-ex.gif" />
         </td>
     </tr>
 </table>
