@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Découvrez comment gérer et organiser les paramètres dans les graphiques de composition de Substances pour une meilleure organisation du workflow.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gérer les paramètres
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Lorsque les propriétés d&#39;un nœud sont affichées dans le dock Propriété
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu global « Gérer les paramètres » dans Propriétés](../../assets/manage-parameters-menu-global.png "Menu global « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
+![Menu global « Gérer les paramètres » dans Propriétés](manage-parameters.resources/manage-parameters-menu-global.png "Menu global « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Si vous souhaitez gérer un paramètre *unique*, utilisez le menu « <b>Gérer l
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu local « Gérer les paramètres » dans Propriétés](../../assets/manage-parameters-menu.png "Menu local « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
+![Menu local « Gérer les paramètres » dans Propriétés](manage-parameters.resources/manage-parameters-menu.png "Menu local « Gérer les paramètres » dans Propriétés"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Les mêmes limitations répertoriées ci-dessous pour les noeuds atomiques s’a
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](../../assets/manage-parameters-node-menu.png "&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud"){zoomable="yes"}
+Menu ![&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud](manage-parameters.resources/manage-parameters-node-menu.png "&#39;Gérer les paramètres&#39; dans le menu contextuel du nœud"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Cette fonctionnalité fonctionne de la même manière que l&#39;utilisation d&#3
 </td>
 <td style="border: 0;" valign="top">
 
-![Copier et coller des paramètres](../../assets/copy-paste-parameters.gif "Copier et coller des paramètres"){zoomable="yes"}
+![Copier et coller des paramètres](manage-parameters.resources/copy-paste-parameters.gif "Copier et coller des paramètres"){zoomable="yes"}
 
 </td>
 </tr>
