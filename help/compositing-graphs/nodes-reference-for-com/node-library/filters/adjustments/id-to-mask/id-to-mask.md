@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
 description: Utilisez le nœud ID vers masque en niveaux de gris pour convertir les valeurs de mappage ID en masques en niveaux de gris pour la sélection de matériaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ID pour masquer les niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Identifier pour masquer l’icône en niveaux de gris](id-to-mask.resources/id-to-mask-01.png "Identifier pour masquer l’icône en niveaux de gris"){width="200px"}
+![Identifier pour masquer l’icône en niveaux de gris](../../../../../../assets/IDToMask.png "Identifier pour masquer l’icône en niveaux de gris"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -72,11 +72,11 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 <table>
   <tr>
     <td>
-      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID à masquer : Exemple 2](id-to-mask.resources/id-to-mask-04.gif "ID à masquer : Exemple 2"){zoomable="yes"}
+![ID à masquer : Exemple 2](../../../../../../assets/id_to_mask_example_2.gif "ID à masquer : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID à masquer : Exemple 3](id-to-mask.resources/id-to-mask-05.png "ID à masquer : Exemple 3"){zoomable="yes"}
+![ID à masquer : Exemple 3](../../../../../../assets/id_to_mask_example_3.png "ID à masquer : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>

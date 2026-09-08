@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Afficher la palette de couleurs pour visualiser les données de palette de couleurs extraites des textures à des fins d’analyse.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Afficher la palette de couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](view-color-palette.resources/view-color-palette-01.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](../../../../../../assets/ViewColorPalette.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -51,7 +51,7 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 |  |  |
 |:---|:---|
 | <b>Palette</b> <i>Couleur</i> PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Il s’agit de la palette que le nœud compresse et restitue. |
-| <b>Quantité de couleur de la palette</b> <i>Entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
+| <b>Quantité de couleur de la palette</b> <i>Nombre entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
 
 <a name="outputs"></a>
 
@@ -67,12 +67,12 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 1](view-color-palette.resources/view-color-palette-02.png "Afficher la palette de couleurs : Exemple 1"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 1](../../../../../../assets/view_color_palette_example_1.png "Afficher la palette de couleurs : Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 2](view-color-palette.resources/view-color-palette-03.png "Afficher la palette de couleurs : Exemple 2"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 2](../../../../../../assets/view_color_palette_example_2.png "Afficher la palette de couleurs : Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 3](view-color-palette.resources/view-color-palette-04.png "Afficher la palette de couleurs : Exemple 3"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 3](../../../../../../assets/view_color_palette_example_3.png "Afficher la palette de couleurs : Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 4](view-color-palette.resources/view-color-palette-05.png "Afficher la palette de couleurs : Exemple 4"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 4](../../../../../../assets/view_color_palette_example_4.png "Afficher la palette de couleurs : Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>
