@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Découvrez les graphes de composition de Substances dans Substance 3D Designer pour créer des textures procédurales et des workflows de matériau.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphes Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Les graphes de Substance sont[le type de graphe le plus largement pris en charge
 Vous trouverez ci-dessous quelques exemples typiques de cas d’utilisation courants.
 
 +++Forme simple
-![Forme simple dans le graphe Substance](../assets/simpleshape.png "Forme simple dans le graphe Substance"){width="512px"}
+![Forme simple dans le graphe Substance](substance-compositing-graphs.resources/simpleshape.png "Forme simple dans le graphe Substance"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Le texte portant le numéro ou le thickness du contour peut être exposé à l�
 +++
 
 +++Filtre Réglage
-![Filtre d&#39;ajustement dans le graphique de Substance](../assets/simplefilter.png "Filtre d&#39;ajustement dans le graphique de Substance"){width="512px"}
+![Filtre d&#39;ajustement dans le graphique de Substance](substance-compositing-graphs.resources/simplefilter.png "Filtre d&#39;ajustement dans le graphique de Substance"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Les valeurs de contraste définies dans l’histogramme peuvent être affichées
 +++
 
 +++Matière complète
-![Matière complète dans le graphique en Substances](../assets/simplematerial.png "Matière complète dans le graphique en Substances"){width="512px"}
+![Matière complète dans le graphique en Substances](substance-compositing-graphs.resources/simplematerial.png "Matière complète dans le graphique en Substances"){width="512px"}
 
 
 

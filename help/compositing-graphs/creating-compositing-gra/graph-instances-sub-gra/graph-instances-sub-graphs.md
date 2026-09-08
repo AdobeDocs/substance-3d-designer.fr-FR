@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Utilisez des instances de graphe et des sous-graphes pour créer des composants de graphe réutilisables et des workflows de matériau modulaire.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Instances de graphe et sous-graphes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instances de graphe et sous-graphes
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 Les Instances de graphe sont des nœuds qui <b>font référence à un autre graphe</b>. Un graphe référencé par un instancier dans un graphe hôte peut être appelé <b>sous-graphe</b> du graphe hôte.
 
@@ -60,20 +60,20 @@ Notez que si les concepts d&#39;instance de graphe et de sous-graphe s&#39;appli
 
 <b>Oui, c&#39;est possible </b>mais cela nécessite une configuration spécifique. Pour en savoir plus, consultez la page [Gestion du contenu et des filtres personnalisés](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) de cette documentation.
 
-### Pouvez-vous inspecter le graphe source d’une instance de graphe ?
+### Pouvez-vous inspecter le graphique source d’une instance de graphique ?
 
-![(coche)](../../../assets/check.svg) Oui, et *uniquement* pour les instances de graphes chargés à partir d&#39;un **fichier Substance 3D (SBS)**. Ces instanciers ont un libellé *rouge foncé*.\
+![(coche)](graph-instances-sub-graphs.resources/check.svg) Oui, et *uniquement* pour les instances de graphiques chargées à partir d&#39;un fichier **Substance 3D (SBS)**. Ces nœuds d&#39;instance ont un libellé *rouge foncé*.\
 Cliquez avec le bouton droit sur le nœud pour ouvrir son menu contextuel et sélectionnez l&#39;option **Ouvrir la référence**.
 
 >[!NOTE]
 >
-> Lors de l&#39;inspection du graphe source, vous pouvez utiliser les données d&#39;entrée du graphe de l&#39;instance si l&#39;option **Modification contextuelle** est *cochée* dans la section **Graphe** des [Préférences](../../../interface/preferences-window/preferences-window.md).
+> Lors de l&#39;inspection du graphique source, vous pouvez utiliser les données d&#39;entrée du graphique de l&#39;instance si l&#39;option **Édition contextuelle** est *cochée* dans la section **Graphique** des [Préférences](../../../interface/preferences-window/preferences-window.md).
 
-![(moins)](../../../assets/forbidden.svg) Il n&#39;est *pas* possible d&#39;inspecter les graphes chargés à partir d&#39;instances de **ressources Substance 3D (SBSAR)**, car ceux-ci sont déjà compilés. Vous ne pouvez charger la ressource que dans le panneau **Explorateur** pour inspecter la liste des graphes exposés et leurs paramètres. Ces instanciers ont un libellé *vert*.\
+![(moins)](graph-instances-sub-graphs.resources/forbidden.svg) Il n&#39;est *pas* possible d&#39;inspecter les graphiques chargés à partir d&#39;**instances de ressources Substance 3D (SBSAR)**, car ceux-ci sont déjà compilés. Vous ne pouvez charger la ressource que dans le panneau **Explorateur** pour inspecter la liste des graphiques exposés et leurs paramètres. Ces nœuds d&#39;instance ont un libellé *vert*.\
 Cliquez avec le bouton droit sur le nœud pour ouvrir son menu contextuel et sélectionnez l&#39;option **Charger le package**.
 
 >[!NOTE]
 >
-> **Noeuds atomiques**
+> **Nœuds atomiques**
 > 
-> Les nœuds *atomiques* sont implémentés directement via le code dans le moteur de Substance de données et ne sont *pas* des instances de graphes, d&#39;où le nom atomic : ce sont les *plus petits composants* pour *tous* les autres nœuds dans [graphes de Substance de données](../../../compositing-graphs/substance-compositing-graphs.md).
+> Les nœuds *atomiques* sont implémentés directement via le code dans le moteur de Substance de données et ne sont *pas* des instances de graphiques, d&#39;où le nom atomic : ce sont les *plus petites composantes* de *tous* les autres nœuds dans les [graphiques de Substance de données](../../../compositing-graphs/substance-compositing-graphs.md).
