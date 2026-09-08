@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Chaussée Arc
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](arc-pavement.resources/arc-pavement-01.png)
+![](../../../../../../assets/arcpavement-ex.png)
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -60,14 +60,14 @@ Génère un motif de pavage en arc de Paris. Cet effet ne peut pas être obtenu 
 | <b>Largeur aléatoire globale du motif</b> <i>0.0 - 1.0</i> | Aléatoire la largeur des carreaux, sans créer d’espaces plus grands entre eux. |
 | <b>Diminution de l&#39;Height du motif</b> <i>0.0 - 1.0</i> | Contrôle l’écrasement de l’height des carreaux aux extrémités de chaque arc. |
 | <b>Color Random</b> <i>0.0 - 1.0</i> | Aléatoire des couleurs des carreaux. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="arc-pavement.resources/arc-pavement-01.png" />
+            <img src="../../../../../../assets/arcpavement-ex.png" />
         </td>
     </tr>
 </table>

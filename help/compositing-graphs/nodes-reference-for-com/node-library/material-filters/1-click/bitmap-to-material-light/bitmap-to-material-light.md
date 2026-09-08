@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap en lumière de matériau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
+![](../../../../../../assets/b2m-light.png)
 
 <b>Entrée :</b> Filtres de matériau > En un clic
 

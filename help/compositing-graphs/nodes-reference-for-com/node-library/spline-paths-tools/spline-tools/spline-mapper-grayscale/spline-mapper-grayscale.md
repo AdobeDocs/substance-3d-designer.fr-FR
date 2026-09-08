@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Niveaux de gris du mappeur de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-mapper-grayscale.resources/spline-mapper-grayscale-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-mapper-grayscale-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -111,11 +111,11 @@ Le nœud produit l&#39;image mappée sous forme d&#39;image en niveaux de gris, 
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-03.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ Le nœud produit l&#39;image mappée sous forme d&#39;image en niveaux de gris, 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-mapper-grayscale.resources/spline-mapper-grayscale-04.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Le nœud produit l&#39;image mappée sous forme d&#39;image en niveaux de gris, 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3](spline-mapper-grayscale.resources/spline-mapper-grayscale-05.jpg "Exemple de nœud 3")
+![Exemple de nœud 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Exemple de nœud 3")
 
 </td>
 <td style="border: 0;" valign="top">

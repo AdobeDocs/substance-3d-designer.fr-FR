@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Courbure lisse
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud Arrondi de Courbure](curvature-smooth.resources/curvature-smooth-01.png "Icône de nœud Arrondi de Courbure"){width="200px"}
+![Icône de nœud Arrondi de Courbure](../../../../../../assets/CurvatureSmooth.png "Icône de nœud Arrondi de Courbure"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -64,7 +64,7 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 |:---|:---|
 | <b>Courbure</b> <i>Niveaux de gris</i> | Map curvature calculée à partir de la map normal d&#39;entrée.   Les zones plates sont grises à 50 %. Les zones convexes sont plus claires, tandis que les zones concaves sont plus sombres. |
 | <b>Convexité</b> <i>Niveaux de gris</i> | La carte de convexité calculée à partir de la map normal d&#39;entrée.   Plus une zone est convexe, plus elle est lumineuse sur la carte.  Les zones plates ou concaves sont noires. |
-| <b>Concavité</b> <i>Niveaux de gris</i> | Carte de concavité calculée à partir de la carte normale d&#39;entrée.   Plus une zone est concave, plus elle est lumineuse sur la carte.  Les zones plates ou convexes sont noires. |
+| <b>Concavité</b> <i>Niveaux de gris</i> | Carte de concavité calculée à partir de la map normal d&#39;entrée.   Plus une zone est concave, plus elle est lumineuse sur la carte.  Les zones plates ou convexes sont noires. |
 
 <a name="parameters"></a>
 
@@ -72,18 +72,18 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 
 |  |  |
 |:---|:---|
-| <b>Format normal</b> *Nombre entier* | Format du mappage normal en entrée. Inverse efficacement la couche verte.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX :</b> l&#39;axe Y pointe vers le haut</li> <li data-preserve-html="true"><b style="">OpenGL :</b> l’axe Y pointe vers le bas</li> </ul> |
+| <b>Format normal</b> *Entier* | Format de la map normal d&#39;entrée. Inverse efficacement la couche verte.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX :</b> L&#39;axe Y pointe vers le haut</li> <li data-preserve-html="true"><b style="">OpenGL :</b> l&#39;axe Y pointe vers le bas</li> </ul> |
 
 ## Exemples
 
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_blend_example_1_before">
+      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="courbure_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_blend_example_1_after">
+      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="courbure_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 2](curvature-smooth.resources/curvature-smooth-04.jpg "Lissage de courbure : Exemple 2"){zoomable="yes"}
+![Courbure lisse : Exemple 2](../../../../../../assets/curvature_smooth_example_2.jpg "Courbure lisse : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 3](curvature-smooth.resources/curvature-smooth-05.jpg "Lissage de courbure : Exemple 3"){zoomable="yes"}
+![Courbure lisse : Exemple 3](../../../../../../assets/curvature_smooth_example_3.jpg "Courbure lisse : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_blend_example_4_before">
+      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="courbure_blend_example_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_blend_example_4_after">
+      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="courbure_blend_example_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 4](curvature-smooth.resources/curvature-smooth-08.jpg "Lissage de courbure : Exemple 4"){zoomable="yes"}
+![Courbure lisse : Exemple 4](../../../../../../assets/curvature_smooth_example_5.jpg "Courbure lisse : Exemple 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lissage de courbure : Exemple 5](curvature-smooth.resources/curvature-smooth-09.jpg "Lissage de courbure : Exemple 5"){zoomable="yes"}
+![Courbure lisse : Exemple 5](../../../../../../assets/curvature_smooth_example_6.jpg "Courbure lisse : Exemple 5"){zoomable="yes"}
 
 </td>
 </tr>

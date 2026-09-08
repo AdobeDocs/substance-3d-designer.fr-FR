@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Préférences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Fenêtre Préférences
 
-![Fenêtre Préférences](preferences-window.resources/preferences-window-01.png "Fenêtre Préférences")
+![Fenêtre Préférences](../../assets/image2021-6-22-20-56-1.png "Fenêtre Préférences")
 
 Cette page présente la fenêtre <b>Préférences</b> et tous ses paramètres.
 
@@ -157,14 +157,14 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modification contextuelle désactivée](preferences-window.resources/preferences-window-02.gif "Modification contextuelle désactivée")
+![Modification contextuelle désactivée](../../assets/substance3ddesigner_incontext_no.gif "Modification contextuelle désactivée")
 
 *Ouvrir la référence*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![La modification contextuelle a été activée](preferences-window.resources/preferences-window-03.gif "La modification contextuelle a été activée")
+![La modification contextuelle a été activée](../../assets/substance3ddesigner_incontext_yes.gif "La modification contextuelle a été activée")
 
 *Ouvrir La Référence En Contexte*
 

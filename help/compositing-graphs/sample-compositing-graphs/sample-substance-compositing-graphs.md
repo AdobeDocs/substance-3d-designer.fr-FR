@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exemples de graphes Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 6%
@@ -32,12 +32,12 @@ Cette page répertorie les exemples de fichiers [Substance 3D Designer](https://
 
 Ce projet propose une configuration de graphique simple à utiliser comme filtre dans d’autres graphiques. Les [filtres](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md) sont des nœuds qui modifient et/ou fusionnent une ou plusieurs images d&#39;entrée.
 
-[Icône de fichier d&#39;exemple ![Filtres](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[Icône de fichier d&#39;exemple ![Filtres](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Filters&#39; sample](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-02.png "&#39;Filters&#39; sample"){zoomable="yes"}
+![&#39;Filters&#39; sample](../../assets/demo-filter.png "&#39;Filters&#39; sample"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ Ce projet présente les méthodes d’héritage disponibles dans les graphiques 
 
 Pour en savoir plus sur l&#39;héritage, consultez [cette page](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de notre documentation.
 
-[Icône ![Fichier d&#39;exemple hérité](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[Icône ![Fichier d&#39;exemple hérité](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Inheritance&#39; sample](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-03.png "&#39;Inheritance&#39; sample"){zoomable="yes"}
+![&#39;Inheritance&#39; sample](../../assets/demo-inheritance.png "&#39;Inheritance&#39; sample"){zoomable="yes"}
 
 </td>
 </tr>
@@ -74,12 +74,12 @@ Le nœud de [processeur de pixels](../../compositing-graphs/nodes-reference-for-
 
 Ce projet présente deux cas d’utilisation simples du processeur Pixel : en tant que générateur et en tant que filtre. C&#39;est également un tremplin pour en faire plus avec les [graphiques fonctionnels](../../function-graphs/function-graphs.md).
 
-[Icône d&#39;exemple de fichier du processeur ![Pixels](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[Icône d&#39;exemple de fichier du processeur ![Pixels](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Pixel Processor&#39; sample](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-04.png "&#39;Pixel Processor&#39; sample"){zoomable="yes"}
+![&#39;Pixel Processor&#39; sample](../../assets/demo-pixel-processor.png "&#39;Pixel Processor&#39; sample"){zoomable="yes"}
 
 </td>
 </tr>

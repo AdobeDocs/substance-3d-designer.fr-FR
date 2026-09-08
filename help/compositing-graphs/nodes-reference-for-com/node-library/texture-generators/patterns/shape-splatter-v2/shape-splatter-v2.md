@@ -1,7 +1,7 @@
 ---
 title: Éclaboussure de forme v2
 description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Générateur > Motif > Éclaboussure de forme v2
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Éclaboussure de forme v2](shape-splatter-v2.resources/shape-splatter-v2-01.png "Éclaboussure de forme v2")
+Icône ![Éclaboussure de forme v2](shape-splatter-v2.resources/shape-splatter-v2.png "Éclaboussure de forme v2")
 
 <b>Entrée :</b> Générateur > Motif
 
@@ -117,9 +117,9 @@ Dispersion des formes sur une surface d&#39;height d&#39;arrière-plan avec des 
 | <b>Workflow normalisé</b> *Booléen* | Lorsque cette option est activée, elle active le réglage automatique de l&#39;height des formes afin qu&#39;elles <i>conservent leurs proportions d&#39;origine</i> lors de leur mise à l&#39;échelle.<br><br>Lorsque cette option est désactivée, l&#39;height des formes est exprimé dans la plage d&#39;heights complète de l&#39;image, quelles que soient leurs proportions d&#39;origine.<br><br>L&#39;height des formes peut toujours être ajusté manuellement à l&#39;aide des paramètres d&#39;<b>échelle d&#39;Height</b>. |
 | <b>L&#39;échelle de forme affecte l&#39;échelle d&#39;height</b> *Booléen* | Lorsque <i>Vrai</i>, l&#39;échelle d&#39;height d&#39;une forme est ajustée à mesure que son échelle change pour conserver ses proportions.<br><br>Lorsque <i>la valeur est False</i>, l&#39;échelle de l&#39;height est indépendante de l&#39;échelle de la forme, ce qui entraîne une déformation. |
 | <b>Échelle d&#39;Height</b> *Flotter* | Multiplicateur de l’height de la forme, où 1 correspond à l’height complet de la forme exprimé dans la plage d’heights complète de l’image de la plage d’heights normalisée de la forme. (Voir <b>Workflow normalisé</b>) |
-| <b>Échelle d&#39;Height aléatoire</b> *Flottant* | Réduit de manière aléatoire l’height de chaque forme jusqu’au rapport spécifié, où 1 signifie que l’height d’une forme peut être entièrement réduit à 0. |
-| <b>multiplicateur de mappage à l&#39;échelle de l&#39;Height</b> *Flottant* | Intensité de la carte d&#39;échelle d&#39;Height <b>fournie</b>, où 1 signifie que la valeur de carte complète est multipliée par rapport à l&#39;height de la forme. |
-| <b>Opacité de l&#39;entrée d&#39;arrière-plan</b> *Flottant* | Intensité de l&#39;entrée d&#39;<b>height d&#39;arrière-plan</b> fournie dans la map height finale.<br><br>Les heights des formes et de l’arrière-plan sont associés à l’aide d’une fusion maximale, où la plus élevée des deux est utilisée. |
+| <b>Échelle d&#39;Height aléatoire</b> *Flotter* | Réduit de manière aléatoire l’height de chaque forme jusqu’au rapport spécifié, où 1 signifie que l’height d’une forme peut être entièrement réduit à 0. |
+| <b>multiplicateur de mappage à l&#39;échelle de l&#39;Height</b> *Flotter* | Intensité de la carte d&#39;échelle d&#39;Height <b>fournie</b>, où 1 signifie que la valeur de carte complète est multipliée par rapport à l&#39;height de la forme. |
+| <b>Opacité de l&#39;entrée d&#39;arrière-plan</b> *Flotter* | Intensité de l&#39;entrée d&#39;<b>height d&#39;arrière-plan</b> fournie dans la carte d&#39;height finale.<br><br>Les heights des formes et de l’arrière-plan sont associés à l’aide d’une fusion maximale, où la plus élevée des deux est utilisée. |
 | <b>Décalage de l&#39;Height par rapport à l&#39;arrière-plan</b> *Flotter* | Rapport entre l’height d’arrière-plan à ajouter et l’height des formes, où 1 signifie que l’height d’arrière-plan complet est ajouté.<br><br>Cela peut être utilisé pour que les formes « reposent » sur l&#39;height d&#39;arrière-plan. |
 | <b>Se conformer à l&#39;arrière-plan</b> *Flotter* | Intensité de la déformation appliquée à l&#39;height des formes pour correspondre à l&#39;height d&#39;arrière-plan par pixel, où 1 signifie une correspondance exacte.<br><br><i>Remarque :</i> ce paramètre n&#39;a aucun effet lorsque <b>Décalage de l&#39;Height par rapport à l&#39;arrière-plan</b> = 0. |
 | <b>Arrière-plan lisse</b> *Flotter* | Intensité du lissage appliqué à l&#39;height d&#39;arrière-plan utilisé pour les réglages <b>Décalage de l&#39;Height par rapport à l&#39;arrière-plan</b> et <b>Conformer à l&#39;arrière-plan</b>.<br><br>Cela adoucit les fréquences de déformation et de décalage d&#39;height, qui peuvent être plus dures que souhaité. |
@@ -161,10 +161,10 @@ Dispersion des formes sur une surface d&#39;height d&#39;arrière-plan avec des 
 | <b>Multiplicateur de mappage vectoriel</b> *Flotter* | Fait pivoter les formes autour de l&#39;axe spécifié par l&#39;<b>axe de rotation de la carte vectorielle</b> pour correspondre à la direction des vecteurs décrits par la texture <b>Carte vectorielle</b>.<br>C&#39;est-à-dire qu&#39;il applique une rotation égale à celle du vecteur X droit global aux vecteurs de la texture.<br><br>Ce paramètre est un facteur pour cette rotation, où 1 signifie que la rotation complète est appliquée.<br><br>Cette rotation est ajoutée à d&#39;autres rotations qui peuvent être appliquées aux formes. |
 | <b>Axe de rotation de la carte vectorielle</b> *Nombre entier* | Axe autour duquel la rotation spécifiée par la <b>carte vectorielle</b> doit être effectuée.<br><br>- <b>Normal:</b> Fait pivoter les formes autour de leur normale, de la même manière qu&#39;avec le paramètre « Rotation autour de la normale ».<br>- <b>Axe Z:</b> Fait pivoter les formes autour de l&#39;axe Z global, de la même manière qu&#39;avec le composant Z du paramètre « Rotation 3D ». |
 | <b>Masquage aléatoire</b> *Flotter* | Masque le rapport spécifié de la quantité totale de formes dans une séquence aléatoire, où 1 signifie que toutes les formes sont masquées.<br><br>Ce paramètre est combiné au mappage de masque. (Le cas échéant) |
-| <b>Seuil de mappage de masque</b> *Flottant* | Valeur de niveaux de gris dans la <b>carte de masque</b> sous laquelle les formes sont masquées.<br><br>Le mappage est combiné avec le paramètre <b>Mask random</b>. |
-| <b>Échelle UV</b> *Flottant 2* | Multiplicateur par axe pour les UV des formes, où la répétition augmente avec les valeurs. |
-| <b>Échelle UV de l&#39;extrémité</b> *Flottant 2* | Multiplicateur par axe pour les UV des calottes du cylindre, la répétition augmentant avec les valeurs. |
-| <b>Cap UV mode</b> *Entier* | Méthode de calcul des UV pour les majuscules du cylindre.<br><br>- <b>Polaire :</b> Utilisez les coordonnées polaires où U augmente autour de l&#39;axe Z du cylindre et V augmente lorsque celui-ci s&#39;éloigne.<br>- <b>Planaire :</b> Utilisez une projection planaire où les UV sont mappés à l&#39;aide du cadre de sélection des majuscules (c&#39;est-à-dire un rectangle ajusté à la taille des majuscules) |
+| <b>Seuil de mappage de masque</b> *Flotter* | Valeur de niveaux de gris dans la <b>carte de masque</b> sous laquelle les formes sont masquées.<br><br>Le mappage est combiné avec le paramètre <b>Mask random</b>. |
+| <b>Échelle UV</b> *Float2* | Multiplicateur par axe pour les UV des formes, où la mosaïque augmente avec les valeurs. |
+| <b>Échelle UV de l&#39;extrémité</b> *Float2* | Multiplicateur par axe pour les UV des calottes du cylindre, où le remplissage augmente avec les valeurs. |
+| <b>Mode UV Cap</b> *Nombre entier* | Méthode de calcul des UV pour les majuscules du cylindre.<br><br>- <b>Polaire :</b> Utilisez les coordonnées polaires où U augmente autour de l&#39;axe Z du cylindre et V augmente lorsque celui-ci s&#39;éloigne.<br>- <b>Planaire :</b> Utilisez une projection planaire où les UV sont mappés à l&#39;aide du cadre de sélection des majuscules (c&#39;est-à-dire un rectangle ajusté à la taille des majuscules) |
 | <b>Afficher la boîte 2D de forme</b> *Booléen* | Superpose une visualisation du rectangle de délimitation de la forme dans l’image. Il s’agit de la zone dans laquelle les formes sont dessinées. |
 | <b>Afficher la boîte 3D de forme</b> *Booléen* | Superpose une visualisation du volume limite de la forme dans l’espace 3D. Il s’agit de la zone dans laquelle les formes SDF et les plans extrudés sont dessinés.<br><br>Pour les formes SDF, cette zone correspond à la <b>taille du cadre de sélection SDF</b>.<br><br>Cette visualisation permet d&#39;évaluer l&#39;étendue et l&#39;orientation de la forme. |
 | <b>Afficher le pivot de forme</b> *Booléen* | Superpose une visualisation du pivot des formes, sous la forme d&#39;une combinaison de ses vecteurs d&#39;axe XYZ locaux.<br><br>Cette visualisation permet d&#39;évaluer l&#39;orientation de la forme ainsi que l&#39;origine de ses transformations. (Décalage, rotation, mise à l’échelle) |
@@ -174,29 +174,29 @@ Dispersion des formes sur une surface d&#39;height d&#39;arrière-plan avec des 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Distribution de Poisson</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Distribution de Poisson</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Distribution uniforme</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Distribution uniforme</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Map density</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Rotation 3D aléatoire</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Rotation de la Pente</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Extrusion de forme</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Map density</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>Formes 3D SDF</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Rotation 3D aléatoire</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Rotation de la Pente</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Extrusion de forme</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>Formes 3D SDF</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

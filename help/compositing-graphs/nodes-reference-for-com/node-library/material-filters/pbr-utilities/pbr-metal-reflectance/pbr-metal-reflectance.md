@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Réflectance métallique PBR pour calculer les valeurs de réflectance métallique pour les workflows de matériaux physiques.
+description: Utilisez le nœud Réflectance métallique PBR pour calculer les valeurs de réflectance métallique pour les workflows de matériau physiques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Réflectance du métal PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-metal-reflectance.resources/pbr-metal-reflectance-01.png){width="128px"}
+![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Utilitaires PBR
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Il s&#39;agit d&#39;un nœud d&#39;aide de paramètre prédéfini rapide pour renvoyer les couleurs de réflexion correctes pour quelques métaux **purs** prédéfinis. Il peut être utilisé dans la couleur de base pour le modèle métallique ou dans le canal Specular pour le modèle Specular/brillance.
+Il s&#39;agit d&#39;un nœud d&#39;assistant prédéfini rapide pour renvoyer les couleurs de reflet correctes pour quelques métaux **purs** prédéfinis. Elle peut être utilisée dans la couleur de base pour le modèle Métallique ou dans la couche de Specular pour le modèle Specular/Brillance.
 
 Ce nœud est utile lorsque vous souhaitez un point de départ pour un métal pur et vous permet d&#39;éviter le choix de couleurs dans un graphique.
 

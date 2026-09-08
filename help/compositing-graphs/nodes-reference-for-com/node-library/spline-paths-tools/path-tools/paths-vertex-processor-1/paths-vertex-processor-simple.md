@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de Vertex Paths Simple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/paths-vertex-processor-simple-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -70,7 +70,7 @@ Vous pouvez également accéder aux variables *vertex.corner* (bool) et *path.id
 
 |  |  |
 |:---|:---|
-| <b>Tracés</b> <i>Couleur</i> | Les Tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
+| <b>Tracés</b> <i>Couleur</i> | Les tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
 
 <a name="parameters"></a>
 
@@ -79,7 +79,7 @@ Vous pouvez également accéder aux variables *vertex.corner* (bool) et *path.id
 |  |  |
 |:---|:---|
 | <b>Nombre d&#39;entrées d&#39;image</b> <i>Nombre entier</i> | Nombre de connecteurs d&#39;entrée <b>Entrée #</b> visibles pour connecter des images qui doivent être échantillonnées dans la fonction de paramètre <b>Fonction par sommet</b>.<br>Une fois que vous avez terminé de configurer tous les échantillons souhaités, vous pouvez masquer les épingles inutilisées en réduisant la valeur de ce paramètre à 0.<br>Si vous avez besoin de plus d&#39;entrées, utilisez plutôt le [processeur de Vertex Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). |
-| <b>Fonction par sommet</b> <i>Flottant 2</i> | Fonction appliquée à chaque sommet. Doit renvoyer la nouvelle position du sommet.<br>Consultez la section <b>Description</b> de cette page pour plus d&#39;informations. |
+| <b>Fonction par sommet</b> <i>Float2</i> | Fonction appliquée à chaque sommet. Doit renvoyer la nouvelle position du sommet.<br>Consultez la section <b>Description</b> de cette page pour plus d&#39;informations. |
 
 ## Exemples
 
@@ -87,7 +87,7 @@ Vous pouvez également accéder aux variables *vertex.corner* (bool) et *path.id
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Exemple de nœud 2")
 
 </td>
 <td style="border: 0;" valign="top">

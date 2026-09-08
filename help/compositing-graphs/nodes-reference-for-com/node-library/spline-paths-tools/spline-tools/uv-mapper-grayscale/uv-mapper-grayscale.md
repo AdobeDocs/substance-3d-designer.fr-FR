@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur d’UV en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/uv-mapper-grayscale-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -69,11 +69,11 @@ Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fou
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fou
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
+      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -99,4 +99,4 @@ Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fou
 </tr>
 </table>
 
-![Exemple de nœud 1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/UVMapper-Graph.jpg "Exemple de nœud 1")

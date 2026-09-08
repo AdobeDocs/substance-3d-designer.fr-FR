@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sélection de tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](paths-select.resources/paths-select-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/paths-select-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -75,11 +75,11 @@ Isolez un tracé parmi les multiples contenus dans les tracés.
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
+      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>Après</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Isolez un tracé parmi les multiples contenus dans les tracés.
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
+      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>Après</i>
     </td>
   </tr>

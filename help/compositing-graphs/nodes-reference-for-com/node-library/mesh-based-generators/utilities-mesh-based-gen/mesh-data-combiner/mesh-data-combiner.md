@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Mélangeur de données de maillage pour combiner plusieurs entrées de données de maillage pour une génération avancée de texture basée sur le maillage.
+description: Utilisez le nœud Combineur de données de Maillage pour combiner plusieurs entrées de données de maillage pour la génération avancée de textures basées sur le maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mélangeur de données de maillage
+title: Maillage Data Combiner
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# Mélangeur de données de maillage
+# Maillage Data Combiner
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
+![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Description
 
-Il s&#39;agit d&#39;un nœud très simple qui « rassemble » les données de maillage cuites dans un seul groupe, pour une utilisation avec le « mode Matériau compact ».
+Il s&#39;agit d&#39;un nœud très simple qui « compresse » les données de maillage bakées dans un seul groupe, à utiliser avec « Compact Mode de matériau ».
 
-Ce nœud est principalement un assistant qui facilite le travail avec de nombreuses entrées cuites sur certains nœuds de la galerie, comme [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Cela vous permet d’éviter de tout connecter manuellement.
+Ce nœud est principalement un assistant qui facilite le travail avec beaucoup d&#39;entrées bakées sur certains nœuds de la galerie, comme [Matériau Maillage Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Cela vous permet d’éviter de tout connecter manuellement.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Activez/désactivez les entrées de mappage à activer et à générer dans le r
 
 |  |  |
 |:---|:---|
-| <b>Occlusion ambiante</b> <i>Faux/Vrai</i> |  |
+| <b>Ambient occlusion</b> <i>Faux/Vrai</i> |  |
 | <b>Masques UV</b> <i>Faux/Vrai</i> |  |
 | <b>Courbure</b> <i>Faux/Vrai</i> |  |
 | <b>Height</b> <i>Faux/Vrai</i> |  |

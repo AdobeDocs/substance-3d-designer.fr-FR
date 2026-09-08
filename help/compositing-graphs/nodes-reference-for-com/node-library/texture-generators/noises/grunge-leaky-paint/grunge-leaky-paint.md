@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Peinture avec fuite d’Usure/salissures
+title: Peinture de fuite d'Usure/salissures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -18,15 +18,15 @@ ht-degree: 2%
 ---
 
 
-# Peinture avec fuite d’Usure/salissures
+# Peinture de fuite d&#39;Usure/salissures
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
-<b>Entrée :</b> Générateurs de textures > Bruits
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,25 +45,25 @@ Le nœud **Usure/salissures Leaky Peinture** génère une carte usure/salissures
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Intensité de la fuite</b> <i>Flotter</i> | Règle la densité et l’intensité des gouttes. |
-| <b>Échelle de fuite</b> <i>Nombre entier</i> | Règle l’échelle de la séparation des gouttes. |
-| <b>Angle de fuite aléatoire</b> <i>Flotter</i> | Ajuste l&#39;*angle maximal* auquel les gouttes peuvent être tournées de manière aléatoire, en *nombre de tours*. |
-| <b>Netteté de la fuite</b> <i>Flotter</i> | Règle la netteté et la netteté des gouttes. |
+| <b>Intensité de la fuite</b> <i>Flottant</i> | Règle la densité et l’intensité des gouttes. |
+| <b>Échelle de fuite</b> <i>Entier</i> | Règle l’échelle de la séparation des gouttes. |
+| <b>Angle de fuite aléatoire</b> <i>Flottant</i> | Ajuste l&#39;*angle maximal* auquel les gouttes peuvent être tournées de manière aléatoire, en *nombre de tours*. |
+| <b>Netteté de la fuite</b> <i>Flottant</i> | Règle la netteté et la netteté des gouttes. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
+            <img src="../../../../../../assets/grungeleakypaint-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
+            <img src="../../../../../../assets/grungeleakypaint-variant2.jpg" />
         </td>
     </tr>
 </table>

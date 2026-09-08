@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Directives d’optimisation des performances
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -143,9 +143,9 @@ De cette façon, la taille du bitmap change en fonction du graphique parent et v
 >
 > Définir un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sur « Relatif au parent » et [publier](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) le graphique sur une ressource Substance 3D (SBSAR) enregistrera le bitmap à une résolution de **256x256** au lieu de sa taille d&#39;origine. Il est plutôt conseillé de conserver la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des [tailles de sortie](../../compositing-graphs/output-size/output-size.md) des nœuds Bitmap comme &#39;Absolue&#39; et d&#39;utiliser un nœud [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) défini sur &#39;Relative au parent&#39; juste après le nœud Bitmap.
 
-![Optimisation des bitmaps incorporés 1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "Optimisation des bitmaps incorporés 1")
+![Optimisation des bitmaps incorporés 1](../../assets/input-1.jpg "Optimisation des bitmaps incorporés 1")
 
-![Optimisation des bitmaps incorporés 2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "Optimisation des bitmaps incorporés 2")
+![Optimisation des bitmaps incorporés 2](../../assets/relativetoparent.jpg "Optimisation des bitmaps incorporés 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Il est également conseillé de définir le format des ressources Bitmap sur Jpe
 </td>
 <td style="border: 0;" valign="top">
 
-![Optimisation des bitmaps incorporés 3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "Optimisation des bitmaps incorporés 3")
+![Optimisation des bitmaps incorporés 3](../../assets/format.jpg "Optimisation des bitmaps incorporés 3")
 
 </td>
 </tr>

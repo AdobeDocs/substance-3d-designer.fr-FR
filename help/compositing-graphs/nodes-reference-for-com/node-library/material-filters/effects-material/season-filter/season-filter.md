@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Filtre de saison
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](season-filter.resources/season-filter-01.png){width="128px"}
+![](../../../../../../assets/default-icon.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Effets
 
@@ -80,11 +80,11 @@ Le nœud nécessite un ensemble approprié d&#39;entrées de matériau, principa
 | <b>Couleur de la mousse</b> <i>(valeur de couleur)</i> | Définit la couleur de la mousse. |
 | <b>Aquarelle</b> <i>(valeur de couleur)</i> | Définit la couleur de l’eau, y compris l’alpha/opacité. |
 | <b>Fusion</b> |  |
-| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
-| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
-| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Intensité de fusion de la normale. |
-| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
-| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
-| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Intensité de fusion de la rugosité. |
-| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Occlusion ambiante. |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Force de fusion du Diffuse. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Force de fusion de la Base color. |
+| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Force de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Force de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Force de fusion de la Brillance. |
+| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Force de fusion de la Rugosité. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Force de fusion de l’Ambient occlusion. |
 | <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Height. |

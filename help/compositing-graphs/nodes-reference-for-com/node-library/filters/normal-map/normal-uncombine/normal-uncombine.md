@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dissociation normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de dissociation normale](normal-uncombine.resources/normal-uncombine-01.png "Icône de dissociation normale"){width="200px"}
+![Icône de dissociation normale](../../../../../../assets/NormalUncombine.png "Icône de dissociation normale"){width="200px"}
 
 <b>Entrée :</b> Filtres > Mappage normal
 
@@ -70,44 +70,44 @@ Supprime d&#39;une carte de normales les détails de surface décrits par une ca
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-02.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-03.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 2](normal-uncombine.resources/normal-uncombine-04.png "Désassociation normale : Exemple 2"){zoomable="yes"}
+![Désassociation normale : Exemple 2](../../../../../../assets/normal_uncombine_example_4.png "Désassociation normale : Exemple 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-05.jpg" alt="normal_uncombine_example_1_before">
+      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-06.jpg" alt="normal_uncombine_example_1_after">
+      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 4](normal-uncombine.resources/normal-uncombine-07.png "Désassociation normale : Exemple 4"){zoomable="yes"}
+![Désassociation normale : Exemple 4](../../../../../../assets/normal_uncombine_example_6.png "Désassociation normale : Exemple 4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-08.jpg" alt="normal_uncombine_example_2_before">
+      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-09.jpg" alt="normal_uncombine_example_2_after">
+      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 6](normal-uncombine.resources/normal-uncombine-10.png "Désassociation normale : Exemple 6"){zoomable="yes"}
+![Désassociation normale : Exemple 6](../../../../../../assets/normal_uncombine_example_5.png "Désassociation normale : Exemple 6"){zoomable="yes"}

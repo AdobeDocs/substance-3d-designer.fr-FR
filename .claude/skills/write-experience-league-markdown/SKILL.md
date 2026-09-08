@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 6%
+source-wordcount: '628'
+ht-degree: 5%
 
 ---
 
@@ -62,13 +62,11 @@ libellé, par exemple `Getting started{#getting-started}`.
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Les paramètres de requête de dimensionnement/optimisation facultatifs sont pris en charge :
-  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
 * **Le texte alternatif ne doit pas contenir de traits de soulignement**, car ils ne s&#39;affichent pas correctement ;
 utilisez plutôt des tirets ou des espaces.
-* Les images spécifiques à la page se trouvent dans un dossier frère `<page-name>.resources/`
-en regard de `.md`, référencé relativement (par ex.
-  `<page-name>.resources/image.png`). `help/assets/` est un ancien partage
-  dossier — n&#39;y ajoutez pas de nouvelles images (voir CLAUDE.md).
+* Des images spécifiques à la page sont disponibles dans `<page-name>.resources/` ; icônes partagées/d’application
+vivre dans `help/assets/` (voir CLAUDE.md).
 
 ## Tableaux
 
@@ -126,7 +124,7 @@ Types pris en charge : `NOTE`, `TIP`, `IMPORTANT`, `CAUTION`, `WARNING`,
 ## Balise UICONTROL
 
 Enchaîne les noms d’éléments de l’interface utilisateur (libellés de bouton, éléments de menu, noms de champ) de manière intégrée.
-le pipeline de localisation sait qu&#39;il doit rechercher une chaîne translatée et tombe
+le pipeline de localisation sait qu&#39;il doit rechercher une chaîne traduite et tombe
 Revenir à l’étiquette anglaise s’il n’en existe aucune :
 
 ```markdown
@@ -140,7 +138,7 @@ Utilisez-le pour chaque étiquette d’interface utilisateur littérale référe
 ## Balise DNL (« Ne pas localiser »)
 
 Enchaîne les noms de produit, les noms de fonctionnalités tierces ou toute expression qui doit
-ne jamais être translaté par une machine :
+ne jamais être traduit automatiquement :
 
 ```markdown
 Use [!DNL Adobe Analytics] to track metrics.

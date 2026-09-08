@@ -10,7 +10,7 @@ helpx_tags: ""
 title: dégradé de dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dégradé de Dirt - Icône](dirt-gradient.resources/dirt-gradient-01.png "Dégradé de Dirt - Icône"){width="200px"}
+![Dégradé de Dirt - Icône](../../../../../../assets/dirt_gradient.png "Dégradé de Dirt - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -67,12 +67,12 @@ Voir aussi : [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 1](dirt-gradient.resources/dirt-gradient-02.png "Dégradé de Dirts - Exemple 1"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 1](../../../../../../assets/dirt_gradient_1.png "Dégradé de Dirts - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 2](dirt-gradient.resources/dirt-gradient-03.gif "Dégradé de Dirts - Exemple 2"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dégradé de Dirts - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Voir aussi : [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 3](dirt-gradient.resources/dirt-gradient-04.gif "Dégradé de Dirts - Exemple 3"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dégradé de Dirts - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dégradé de Dirts - Exemple 4](dirt-gradient.resources/dirt-gradient-05.gif "Dégradé de Dirts - Exemple 4"){zoomable="yes"}
+![Dégradé de Dirts - Exemple 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dégradé de Dirts - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Activation et licences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 0%
+source-wordcount: '416'
+ht-degree: 1%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 0%
 Le processus d’activation dépend de l’endroit où vous avez acheté ou accédé à Designer :
 
 | Edition | Processus d’activation |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/fr/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/fr/account/individual.html) |
+| --- | --- |
+| Application pour poste de travail Creative Cloud | Voir la page dédiée dans la [documentation HelpX](https://helpx.adobe.com/fr/support/substance-3d-designer.html). En cas de problème, la [documentation du Creative Cloud](https://helpx.adobe.com/fr/creative-cloud/user-guide.html) peut fournir des réponses supplémentaires. |
 | Vapeur | Lancez le produit directement depuis votre bibliothèque Steam. |
 | Substance (autonome) | Voir le processus d’activation décrit ci-dessous. |
 
 ## Étapes d’activation (édition Substance)
 
-### UTILISATION DE L’ASSISTANT D&#39;ACTIVATION
+### UTILISATION DE L’ASSISTANT D’ACTIVATION
 
 Trois choix s&#39;offrent à vous :
 
@@ -42,7 +42,7 @@ Trois choix s&#39;offrent à vous :
 >
 > Pour installer le fichier de licence avec l’Assistant d’activation, assurez-vous d’exécuter Designer en tant qu’administrateur et de désactiver temporairement votre antivirus.
 
-![Assistant d&#39;activation](activation-and-licenses.resources/activation-and-licenses-01.png "Assistant d&#39;activation")
+![Assistant d&#39;activation](../../assets/activation-wizard.png "Assistant d&#39;activation")
 
 ### Activation manuelle
 

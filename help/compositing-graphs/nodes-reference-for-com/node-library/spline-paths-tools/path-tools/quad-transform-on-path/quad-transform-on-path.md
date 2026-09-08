@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quad Transform on Path
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](quad-transform-on-path.resources/quad-transform-on-path-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/quad-transform-on-paths-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -75,11 +75,11 @@ Déformez un tracé à l’aide de 4 poignées.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Déformez un tracé à l’aide de 4 poignées.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ Déformez un tracé à l’aide de 4 poignées.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Exemple de nœud 2")
 
 </td>
 </tr>

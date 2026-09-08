@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spécifications de format des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Toutes les données d&#39;un pixel dans la partie &#39;supérieure&#39; sont sé
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Tracés de données codées en polygone](paths-format-specifications.resources/paths-format-specifications-01.jpg "Tracés de données codées en polygone")
+![Tracés de données codées en polygone](../../../../../../assets/PathsPolygon_Data.jpg "Tracés de données codées en polygone")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Indicateur *Est\_fermé* : 1 si le tracé est fermé (par exemple, un cercle), 0
 
 <b>Z</b>
 
-L&#39;index de chemin d&#39;accès *N.* Il doit absolument correspondre à *path\_addr* (voir la note ci-dessous).
+L&#39;index de chemin *N.* Il doit absolument correspondre à *path\_addr* (voir remarque ci-dessous).
 
 <b>W</b>
 
@@ -156,7 +156,7 @@ Formellement, chaque sommet à l&#39;adresse `*vert\_addr*` est défini comme ce
 +++Haut
 <b>XY</b>
 
-La position vertex. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de répétition à ce niveau (elle peut être gérée ou non par la mise en œuvre de chaque filtre), les chemins sont donc supposés être définis sur le plan euclidien.
+Position du sommet. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de carrelage à ce niveau (il peut être géré ou non par la mise en œuvre de chaque filtre), donc les chemins sont supposés être définis sur le plan euclidien.
 
 <b>Z</b>
 
@@ -203,15 +203,15 @@ Si vous souhaitez créer vos propres nœuds de traitement des tracés, vous disp
 
 Les bases sont fournies par les nœuds [Processeur de Vertex de tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) et [Processeur de Vertex de tracés simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), qui peuvent être utilisés de la même manière qu&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
-Si vous avez besoin de fonctionnalités au-delà de ce que proposent les nœuds du processeur de sommets de tracés (plus de textures d’entrée, ou plus de sommets précédents ou suivants), la copie de l’implémentation de ce graphique peut être un bon point de départ (en supposant que vous remplacez le nœud <b>Get(« %perVertex »)</b> par votre traitement personnalisé).
+Si vous avez besoin de fonctionnalités au-delà de ce que proposent les nœuds du processeur de Vertex Paths (plus de textures d&#39;entrée, ou plus de vertex précédents ou suivants), la copie de l&#39;implémentation de ce graphe peut être un bon point de départ (en supposant que vous remplacez le nœud <b>Get(« %perVertex »)</b> par votre traitement personnalisé).
 
-Mais au cas où vous voudriez faire quelque chose de plus extraterrestre que d&#39;appliquer une fonction par sommet, voici une explication détaillée des outils que vous pouvez utiliser. Il s&#39;agit généralement de petites fonctions d&#39;assistant qui se trouvent dans le même package que les autres nœuds Chemins (*chemins\_tools.sbs)*. (Ces fonctions ne sont pas affichées dans le [<b>menu Bibliothèque</b>](../../../../../../interface/the-library/the-library.md) et le <b>menu Nœud</b>.)
+Mais au cas où vous voudriez faire quelque chose de plus étrange que l&#39;application d&#39;une fonction par vertex, voici une explication détaillée des outils que vous pouvez utiliser. Il s&#39;agit généralement de petites fonctions d&#39;assistant qui se trouvent dans le même package que les autres nœuds Paths (*paths\_tools.sbs)*. (Ces fonctions ne sont pas exposées dans le [<b>menu Bibliothèque</b>](../../../../../../interface/the-library/the-library.md) et le <b>menu Nœud</b>.)
 
 ### Fonctions de lecture
 
 Sous le dossier `Read`, vous trouverez plusieurs de ces éléments, utiles pour collecter des informations sur les Chemins :
 
-Certains peuvent vous donner des informations sur un pixel donné. Ils prennent tous la valeur Float4 échantillonnée dans la partie \*top\* comme entrée. Si vous regardez leur mise en œuvre, ils sont super-simples. Leur but est de donner plus de sens que de simples nœuds atomiques :
+Certains peuvent vous donner des informations sur un pixel donné. Ils prennent tous la valeur Flottant 4 échantillonnée dans la partie \*top\* comme entrée. Si vous regardez leur mise en œuvre, ils sont super-simples. Leur but est de donner plus de sens que de simples noeuds atomiques :
 
 +++is_header
 Vérifiez que la valeur actuellement échantillonnée est un en-tête de chemin d’accès ou de document.
@@ -224,22 +224,22 @@ Vérifiez l’indicateur Is\_Closed (.Y) dans un en-tête de chemin. Il \*suppos
 +++
 
 +++is_vertex
-Vérifier que la valeur échantillonnée courante est un sommet, c&#39;est-à-dire non un en-tête, ni un pixel vide.
+Vérifier que la valeur échantillonnée courante est un vertex, c&#39;est-à-dire non un en-tête, ni un pixel vide.
 
 +++
 
 +++is_start_vertex
-Vérifiez si une valeur \*échantillonnage de la partie supérieure\* est un sommet de départ (pas besoin de vérifier d&#39;abord `is\_vertex`).
+Vérifiez si une valeur \*top-part samples\* est un vertex de démarrage (pas besoin de vérifier d&#39;abord `is\_vertex`).
 
 +++
 
 +++is_mid_vertex
-Vérifiez si une valeur \*échantillonnage de la partie supérieure\* est un sommet qui n&#39;est pas un sommet de début ou de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
+Vérifiez si une valeur \*top-part samples\* est un vertex qui n&#39;est pas un vertex de début ou de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
 
 +++
 
 +++is_end_vertex
-Vérifiez si une valeur \*échantillonnage de la partie supérieure\* est un sommet de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
+Vérifiez si une valeur \*top-part samples\* est un vertex de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
 
 +++
 
@@ -269,11 +269,11 @@ Veuillez noter que pour plus de simplicité, les informations sur les <b>chemins
 
 Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), dans le paramètre Itérations du troisième nœud Itération, pour obtenir un exemple d&#39;utilisation.
 
-![Cas d’utilisation minimal de sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Cas d’utilisation minimal de sample_next")
+![Cas d’utilisation minimal de sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Cas d’utilisation minimal de sample_next")
 
 
 
-![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
+![Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Cas d’utilisation de sample_next dans les chemins d’aperçu (path_trace)")
 
 
 

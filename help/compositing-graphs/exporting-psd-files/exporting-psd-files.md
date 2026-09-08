@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Export de fichiers PSD
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Substance 3D Designer permet d’exporter des textures vers un document Adobe Ph
 
 ## Boîte de dialogue Exportation de PSD
 
-La boîte de dialogue d’exportation par PSD ne peut être ouverte que par une seule méthode. Dans la [vue Graphique](../../interface/the-graph-view/the-graph-view.md) du graphique que vous souhaitez exporter vers PSD, cliquez sur le bouton ![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>Outils</b> et sélectionnez <b>Exportateur de PSDS</b>. L&#39;interface devient visible dans la <b>Vue graphique</b>.
+La boîte de dialogue d’exportation par PSD ne peut être ouverte que par une seule méthode. Dans la [vue Graphique](../../interface/the-graph-view/the-graph-view.md) du graphique que vous souhaitez exporter vers PSD, cliquez sur le bouton ![](../../assets/image2019-9-17-14-44-17.png) <b>Outils</b> et sélectionnez <b>Exportateur de PSDS</b>. L&#39;interface devient visible dans la <b>Vue graphique</b>.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Interface utilisateur de l&#39;exportateur de PSDS](exporting-psd-files.resources/exporting-psd-files-02.png "Interface utilisateur de l&#39;exportateur de PSDS")
+![Interface utilisateur de l&#39;exportateur de PSDS](../../assets/psd-dialog.png "Interface utilisateur de l&#39;exportateur de PSDS")
 
 </td>
 <td style="border: 0;" valign="top">

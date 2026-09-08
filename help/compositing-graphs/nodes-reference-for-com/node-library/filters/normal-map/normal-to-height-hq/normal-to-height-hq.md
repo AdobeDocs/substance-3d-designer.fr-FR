@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: Utilisez le nœud HQ Normal à l'Height pour convertir les maps normal en maps height de haute qualité pour l'extraction des détails de surface.
+description: Utilisez le nœud du siège de la fonction Normal à l'Height pour convertir les cartes de normales en cartes d'height de haute qualité pour l'extraction des détails de surface.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal à l’Height du QG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-to-height-hq.resources/normal-to-height-hq-01.png){width="128px"}
+![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Map normal
 
@@ -58,7 +58,7 @@ Utile lorsque vous n&#39;avez qu&#39;une source Normalmap, mais que vous souhait
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-to-height-hq.resources/normal-to-height-hq-02.png" />
+            <img src="../../../../../../assets/normal2height-hq-ex.png" />
         </td>
     </tr>
 </table>

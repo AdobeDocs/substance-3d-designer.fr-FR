@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cercle spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-circle.resources/spline-circle-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-circle-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -45,10 +45,10 @@ Génère une spline unique en forme de cercle.
 
 |  |  |
 |:---|:---|
-| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d&#39;entrée sous forme d&#39;image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée. |
 
 <a name="outputs"></a>
 
@@ -56,10 +56,10 @@ Génère une spline unique en forme de cercle.
 
 |  |  |
 |:---|:---|
-| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d’image en niveaux de gris. |
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d&#39;image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines de sortie. |
 
 <a name="parameters"></a>
 
@@ -67,12 +67,12 @@ Génère une spline unique en forme de cercle.
 
 |  |  |
 |:---|:---|
-| <b>Rayon du cercle</b> <i>Flotter</i> | Ajuste le rayon du cercle dans l’espace de la texture. |
-| <b>Pré-Rotation Du Cercle</b> <i>Flotter</i> | Applique une rotation au cercle de base avant l’application de la propriété Taille. |
-| <b>Taille du cercle</b> <i>Float2</i> | Ajuste la taille horizontale (X) et verticale (Y) du cercle. |
-| <b>Après-Rotation Du Cercle</b> <i>Flotter</i> | Applique une rotation au cercle de base après l’application de la propriété Taille. |
-| <b>Position du cercle</b> <i>Float2</i> | Définit la position du centre du cercle dans l’espace de la texture. |
-| <b>Démarrer le Thickness</b> <i>Flotter</i> | Ajuste le thickness du point de départ du cercle. Ce thickness est interpolé le long de la spline jusqu&#39;au Thickness d&#39;extrémité.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| <b>Rayon du cercle</b> <i>Flottant</i> | Ajuste le rayon du cercle dans l’espace de texture. |
+| <b>Pré-Rotation Du Cercle</b> <i>Flottant</i> | Applique une rotation au cercle de base avant l’application de la propriété Taille. |
+| <b>Taille du cercle</b> <i>Flottant 2</i> | Ajuste la taille horizontale (X) et verticale (Y) du cercle. |
+| <b>Après-Rotation Du Cercle</b> <i>Flottant</i> | Applique une rotation au cercle de base après l’application de la propriété Taille. |
+| <b>Position du cercle</b> <i>Flottant 2</i> | Définit la position du centre du cercle dans l’espace de texture. |
+| <b>Démarrer le Thickness</b> <i>Flottant</i> | Ajuste le thickness du point de départ du cercle. Ce thickness est interpolé le long de la spline jusqu&#39;au Thickness d&#39;extrémité.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
 | <b>Fin de Thickness</b> <i>Flotter</i> | Ajuste le thickness de l’extrémité du cercle. Ce thickness est interpolé le long de la spline jusqu&#39;au Thickness de départ.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
 | <b>Height de démarrage</b> <i>Flotter</i> | Ajuste l’height du point de départ du cercle, où une valeur plus faible signifie un emplacement plus bas ou plus profond. Cet height est interpolé le long de la spline jusqu&#39;à l&#39;Height Fin. |
 | <b>Height final</b> <i>Flotter</i> | Ajuste l’height de l’extrémité du cercle, à l’endroit où une valeur plus faible signifie un emplacement plus bas ou plus profond. Cet height est interpolé le long de la spline à partir de l&#39;Height Début. |
@@ -96,12 +96,12 @@ Génère une spline unique en forme de cercle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-circle.resources/spline-circle-02.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/SplineCircle-Variant1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-circle.resources/spline-circle-03.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplineCircle-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Génère une spline unique en forme de cercle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple 3](spline-circle.resources/spline-circle-04.jpg "Exemple 3")
+![Exemple 3](../../../../../../assets/SplineCircle-Variant2.jpg "Exemple 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple 4](spline-circle.resources/spline-circle-05.jpg "Exemple 4")
+![Exemple 4](../../../../../../assets/SplineCircle-Variant3.jpg "Exemple 4")
 
 </td>
 </tr>

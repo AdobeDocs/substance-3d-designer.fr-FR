@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height d'échantillon spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-sample-height.resources/spline-sample-height-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-sample-height-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -71,7 +71,7 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 |  |  |
 |:---|:---|
 | <b>Mode d&#39;échantillonnage</b> <i>Nombre entier</i> | Méthode de mappage des valeurs de la Map height aux splines :<br>- <i>espace de Texture</i> : les valeurs sont appliquées aux splines où elles se trouveraient si elles étaient placées dans une texture à l&#39;aide des coordonnées UV de la texture. Cela applique efficacement la valeur aux splines « en place »;<br>- <i>Horizontalement le long de la spline</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), où chaque ligne est appliquée à une spline différente de haut en bas ;<br>- <i>Heure. le long de la spline (rand. offset X)</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cordons de spline), avec un décalage horizontal aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cordons de spline);<br>- <i>Hor. le long de la spline (rand. décalage Y)</i> : les valeurs sont appliquées directement aux coordonnées des splines codées (voir Entrée des cœurs de spline), avec un décalage vertical aléatoire dans la carte d&#39;échelle pour chaque spline (c&#39;est-à-dire chaque ligne dans les cœurs de spline). |
-| <b>Opacité</b> <i>Flottant</i> | Multiplicateur de l&#39;intensité de la contribution de la Map height à l&#39;height de la spline. |
+| <b>Opacité</b> <i>Flotter</i> | Multiplicateur de l&#39;intensité de la contribution de la Map height à l&#39;height de la spline. |
 | <b>Mode de fusion</b> <i>Nombre entier</i> | Méthode de fusion des données de la Map height avec l&#39;height de la spline d&#39;entrée :<br>- <i>Copier</i> : remplacer l&#39;height de la spline par les valeurs de Map height ;<br>- <i>Ajouter</i> : ajouter les valeurs de Map height à l&#39;height de la spline ;<br>- <i>Subtract</i> : valeurs de Subtract à l&#39;Map height de la spline ;<br>- <i>Multiplier</i> : multiplier les valeurs de height par rapport à l&#39;Map height de la spline. |
 | <b>Aperçu</b> |  |
 | <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
@@ -88,11 +88,11 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Après</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-sample-height.resources/spline-sample-height-05.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-sample-height.resources/spline-sample-height-06.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLULES 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cellules 3 - Icône](cells-3.resources/cells-3-01.png "Cellules 3 - Icône"){width="200px"}
+![Cellules 3 - Icône](../../../../../../assets/cells_3.png "Cellules 3 - Icône"){width="200px"}
 
-<b>Entrée :</b> générateurs de Textures > Bruits
+<b>Entrée :</b> Générateurs de textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -57,7 +57,7 @@ Voir aussi : [Cellules 1](../../../../../../compositing-graphs/nodes-reference-f
 
 |  |  |
 |:---|:---|
-| <b>Échelle</b> <i>Nombre entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est élevé et plus le bruit est dense. |
+| <b>Échelle</b> <i>Nombre entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est important et plus le bruit est dense. |
 | <b>Dureté</b> <i>Flotter</i> | La définition des parois de cellule, où une valeur plus élevée donne des parois plus nettes et mieux définies. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse les valeurs de niveaux de gris de la sortie de l’image. |
 | <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
@@ -77,12 +77,12 @@ Voir aussi : [Cellules 1](../../../../../../compositing-graphs/nodes-reference-f
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 1](cells-3.resources/cells-3-02.png "Cellules 3 - Exemple 1"){zoomable="yes"}
+![Cellules 3 - Exemple 1](../../../../../../assets/cells_3_1.png "Cellules 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 2](cells-3.resources/cells-3-03.gif "Cellules 3 - Exemple 2"){zoomable="yes"}
+![Cellules 3 - Exemple 2](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso0.gif "Cellules 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Voir aussi : [Cellules 1](../../../../../../compositing-graphs/nodes-reference-f
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 3](cells-3.resources/cells-3-04.gif "Cellules 3 - Exemple 3"){zoomable="yes"}
+![Cellules 3 - Exemple 3](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso1.gif "Cellules 3 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 4](cells-3.resources/cells-3-05.gif "Cellules 3 - Exemple 4"){zoomable="yes"}
+![Cellules 3 - Exemple 4](../../../../../../assets/noise_cells_3_v2_speed0.3_aniso0.6.gif "Cellules 3 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

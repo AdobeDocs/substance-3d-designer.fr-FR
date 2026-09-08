@@ -1,7 +1,7 @@
 ---
 title: Couleur du mappeur d’éclaboussures de forme v2
 description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Générateur > Motif > Couleur du mappeur d’éclaboussures de formes v2
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de couleur du mappeur d’éclaboussures de forme v2](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Couleur du mappeur d’éclaboussures de forme v2")
+![Icône de couleur du mappeur d’éclaboussures de forme v2](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Couleur du mappeur d’éclaboussures de forme v2")
 
 <b>Entrée :</b> Générateur > Motif
 
@@ -113,24 +113,24 @@ Voir aussi [Éclaboussure de forme v2 mapper niveaux de gris](../shape-splatter-
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Mappage triplanaire</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Mappage triplanaire</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Mappage normal</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Mappage normal</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Mappage par ID de matériau à partir de formes SDF</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Mappage par ID de matériau à partir de formes SDF</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Réglage de la Répétition avec mappage triplanaire</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Réglage de la Répétition avec mappage triplanaire</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Mappage par ID de matériau à partir de la forme de cylindre</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Mappage par ID de matériau à partir de la forme de cylindre</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Nœud dans le contexte d'un graphe</i> » /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Nœud dans le contexte d'un graphe</i> » /&gt;
         </td>
     </tr>
 </table>

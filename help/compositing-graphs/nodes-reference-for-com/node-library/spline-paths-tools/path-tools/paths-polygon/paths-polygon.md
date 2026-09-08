@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polygone des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](paths-polygon.resources/paths-polygon-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/paths-polygon-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -63,12 +63,12 @@ Utilisez le nœud [Transformation 2D du tracé](../../../../../../compositing-gr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](paths-polygon.resources/paths-polygon-02.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](paths-polygon.resources/paths-polygon-03.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

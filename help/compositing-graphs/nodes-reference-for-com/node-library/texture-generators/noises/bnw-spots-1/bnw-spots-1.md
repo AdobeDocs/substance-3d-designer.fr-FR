@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Points en BnW 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Points BnW 1 - Icône](bnw-spots-1.resources/bnw-spots-1-01.png "Points BnW 1 - Icône"){width="200px"}
+![Points BnW 1 - Icône](../../../../../../assets/bnw_spots_1.png "Points BnW 1 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -70,12 +70,12 @@ Voir aussi : [Points BnW 2](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Taches BnW 1 - Exemple 1](bnw-spots-1.resources/bnw-spots-1-02.png "Taches BnW 1 - Exemple 1"){zoomable="yes"}
+![Taches BnW 1 - Exemple 1](../../../../../../assets/bnw_spots_1_1.png "Taches BnW 1 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Points BnW 1 - Exemple 2](bnw-spots-1.resources/bnw-spots-1-03.gif "Points BnW 1 - Exemple 2"){zoomable="yes"}
+![Points BnW 1 - Exemple 2](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso0.gif "Points BnW 1 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ Voir aussi : [Points BnW 2](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Taches BnW 1 - Exemple 3](bnw-spots-1.resources/bnw-spots-1-04.gif "Taches BnW 1 - Exemple 3"){zoomable="yes"}
+![Taches BnW 1 - Exemple 3](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso1.gif "Taches BnW 1 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Taches BnW 1 - Exemple 4](bnw-spots-1.resources/bnw-spots-1-05.gif "Taches BnW 1 - Exemple 4"){zoomable="yes"}
+![Taches BnW 1 - Exemple 4](../../../../../../assets/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "Taches BnW 1 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

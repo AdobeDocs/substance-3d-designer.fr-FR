@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Symétrie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](symmetry.resources/symmetry-01.png){width="128px"}
+![](../../../../../../assets/symmetry-9.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -55,7 +55,7 @@ Ce nœud est très similaire à [Miroir](../../../../../../compositing-graphs/no
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="symmetry.resources/symmetry-02.png" />
+            <img src="../../../../../../assets/symmetry-ex.png" />
         </td>
     </tr>
 </table>

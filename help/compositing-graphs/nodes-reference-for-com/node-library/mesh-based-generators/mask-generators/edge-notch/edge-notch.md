@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Encoche de bord
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-notch.resources/edge-notch-01.png){width="128px"}
+![](../../../../../../assets/edge-notch.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -64,7 +64,7 @@ Ce masque représente un simple masque pour bords relevés, rompu par un bruit h
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-notch.resources/edge-notch-02.gif" />
+            <img src="../../../../../../assets/edge-notch-ex.gif" />
         </td>
     </tr>
 </table>

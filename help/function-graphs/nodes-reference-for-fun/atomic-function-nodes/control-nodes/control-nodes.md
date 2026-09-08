@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Contrôle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Cette page décrit les nœuds des [graphes de fonction](../../../../function-gra
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud If...Else](../../../../assets/IfElse_Node.jpg "If...Else")
+![Nœud If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nœud If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condition qui contrôle la sortie du nœud.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de séquence](../../../../assets/Sequence_Node.jpg "Nœud de séquence")
+![Nœud de séquence](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nœud de séquence")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Partie du graphique à calculer en dernier
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de boucle entière](../../../../assets/WhileLoop-Node.jpg "Nœud de boucle entière")
+![Nœud de boucle entière](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nœud de boucle entière")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -115,20 +115,20 @@ Partie du graphique calculée avant la première itération, c&#39;est-à-dire l
 
 <b>Quitter Cond.</b> *Booléen*\
 Condition devant être vraie pour que la boucle s&#39;arrête. Il est recalculé à chaque itération.\
-*Remarque :* le nombre maximal d&#39;itérations est toujours limité au paramètre <b>itérations maximales</b>.
+*Remarque :* le nombre maximal d&#39;itérations est toujours limité au paramètre <b>Nombre maximal d&#39;itérations</b>.
 
 <b>Corps en boucle</b> *Type de variable*\
-Graphique qui bénéficie de la boucle. Il est recalculé à chaque itération.
+Le graphe qui bénéficie de la boucle. Il est recalculé sur chaque itération.
 
 +++
 
 +++Paramètres
-<b>Max. itérations</b> *Nombre entier*\
+<b>Max. itérations</b> *Entier*\
 Nombre maximal d&#39;itérations effectuées par le nœud.\
 Le nœud arrête l&#39;itération lorsque l&#39;un des critères suivants est rempli en premier : ce nombre maximal est atteint ou la condition de sortie devient vraie.\
 Ce maximum peut être désactivé en définissant la valeur sur *-1*. À ce stade, seule la condition de sortie peut arrêter les itérations.
 
-Paramétrage de &#39;Max. les itérations&#39; à -1 améliorent les performances dans les petites boucles car il y a un compteur de moins pour suivre et mettre à jour.
+Paramétrage de &#39;Max. L&#39;itération de -1 améliore les performances dans les petites boucles, car il y a un compteur de moins pour suivre et mettre à jour.
 
 Cependant, gardez à l&#39;esprit la façon dont le nœud est configuré, car il est possible de produire une <b>boucle infinie</b> qui peut empêcher Designer de répondre.
 

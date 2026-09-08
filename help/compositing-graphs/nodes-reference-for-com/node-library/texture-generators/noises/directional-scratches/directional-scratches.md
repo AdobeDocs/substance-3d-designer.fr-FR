@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rayures directionnelles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Rayures directionnelles - Icône](directional-scratches.resources/directional-scratches-01.png "Rayures directionnelles - Icône"){width="200px"}
+![Rayures directionnelles - Icône](../../../../../../assets/directional_scratches.png "Rayures directionnelles - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -72,27 +72,12 @@ Diffusion aléatoire de motifs de rayures avec un angle et une taille réglables
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Égratignures directionnelles - Exemple 1](directional-scratches.resources/directional-scratches-02.png "Égratignures directionnelles - Exemple 1"){zoomable="yes"}
+![Égratignures directionnelles - Exemple 1](../../../../../../assets/directional_scratches_1.png "Égratignures directionnelles - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Égratignures directionnelles - Exemple 2](directional-scratches.resources/directional-scratches-03.gif "Égratignures directionnelles - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Égratignures directionnelles - Exemple 3](directional-scratches.resources/directional-scratches-04.gif "Égratignures directionnelles - Exemple 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Égratignures directionnelles - Exemple 4](directional-scratches.resources/directional-scratches-05.gif "Égratignures directionnelles - Exemple 4"){zoomable="yes"}
+![Égratignures directionnelles - Exemple 2](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.gif "Égratignures directionnelles - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +87,22 @@ Diffusion aléatoire de motifs de rayures avec un angle et une taille réglables
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Égratignures directionnelles - Exemple 5](directional-scratches.resources/directional-scratches-06.gif "Égratignures directionnelles - Exemple 5"){zoomable="yes"}
+![Égratignures directionnelles - Exemple 3](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.6.gif "Égratignures directionnelles - Exemple 3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Égratignures directionnelles - Exemple 4](../../../../../../assets/noise-directional-scrat-1.gif "Égratignures directionnelles - Exemple 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Égratignures directionnelles - Exemple 5](../../../../../../assets/noise-directional-scrat-2.gif "Égratignures directionnelles - Exemple 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

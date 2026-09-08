@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures Scratches Dirty
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-scratches-dirty.resources/grunge-scratches-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesdirty.jpg){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -58,10 +58,10 @@ Le nœud **Usure/salissures Scratches Dirty** génère une carte usure/salissure
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-02.jpg" />
+            <img src="../../../../../../assets/grungescratchesdirty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-03.jpg" />
+            <img src="../../../../../../assets/grungescratchesdirty-variant.jpg" />
         </td>
     </tr>
 </table>

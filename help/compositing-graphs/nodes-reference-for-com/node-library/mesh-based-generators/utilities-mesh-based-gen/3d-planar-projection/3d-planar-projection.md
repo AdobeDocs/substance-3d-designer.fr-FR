@@ -10,7 +10,7 @@ helpx_tags: ""
 title: projection Planaire 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-planar-projection.resources/3d-planar-projection-01.png)![](3d-planar-projection.resources/3d-planar-projection-02.png)
+![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Utilitaires
 
@@ -74,7 +74,7 @@ Effectue une projection planaire en fonction des données de maillage bakées (P
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-planar-projection.resources/3d-planar-projection-03.gif" />
+            <img src="../../../../../../assets/3d-planar-projection-ex.gif" />
         </td>
     </tr>
 </table>

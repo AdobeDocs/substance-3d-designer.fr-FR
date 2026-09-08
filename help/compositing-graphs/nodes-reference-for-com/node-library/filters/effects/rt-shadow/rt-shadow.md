@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tons foncés RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône de nœud ![Ombres RT](rt-shadow.resources/rt-shadow-01.png "Ombres RT")
+Icône de nœud ![Ombres RT](../../../../../../assets/rt-shadow.png "Ombres RT")
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,9 +33,9 @@ Icône de nœud ![Ombres RT](rt-shadow.resources/rt-shadow-01.png "Ombres RT")
 
 ## Description
 
-Génère des ombres avec lancer de rayon à partir d’une entrée de courbe de transfert d’height.
+Génère des ombres avec lancer de rayon à partir d’une entrée de map height.
 
-Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en raison du temps de calcul.
+Ce nœud ne doit pas être utilisé en association avec le moteur CPU (SSE) en raison du temps de calcul.
 
 </td>
 </tr>
@@ -47,16 +47,16 @@ Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en r
 
 |  |  |
 |:---|:---|
-| <b>Exemples</b> <i>Nombre entier</i> | Nombre de rayons utilisés pour calculer les ombres.<br>Une valeur plus élevée offre un résultat plus lisse et plus précis, au détriment des performances. |
+| <b>Exemples</b> <i>Entier</i> | Nombre de rayons utilisés pour calculer les ombres.<br>Une valeur plus élevée offre un résultat plus lisse et plus précis, au détriment des performances. |
 | <b>Mode</b> <i>Entier</i> | Méthode de dessin des ombres sur la surface. |
-| <b>Échelle d&#39;Height</b> <i>Flottant</i> | Multiplicateur de l’intensité de la courbe d’height d’entrée. |
-| <b>Position claire</b> <i>Float2</i> | Position de la source lumineuse sur une sphère englobant la surface :<br><br>- <b>X</b> : position horizontale, en nombre de tours ;<br>- <b>Y</b> : position verticale, où 0,5 est le zénith et 0/1 est l&#39;horizon. |
-| <b>Intensité de la lumière</b> <i>Flotter</i> | Intensité de la source lumineuse. |
+| <b>Échelle d&#39;Height</b> <i>Flottant</i> | Multiplicateur de l’intensité de la map height d’entrée. |
+| <b>Position claire</b> <i>Flottant 2</i> | Position de la source lumineuse sur une sphère englobant la surface :<br><br>- <b>X</b> : position horizontale, en nombre de tours ;<br>- <b>Y</b> : position verticale, où 0,5 est le zénith et 0/1 est l&#39;horizon. |
+| <b>Intensité de la lumière</b> <i>Flottant</i> | Intensité de la source lumineuse. |
 | <b>Taille légère</b> <i>Flottant 2</i> | (Disponible lorsque le <b>Mode</b> est défini sur <i>Ombré</i>) Taille de la source lumineuse sous forme de rectangle. |
 | <b>Échelle de la lumière (ombres douces)</b> <i>Flottant</i> | Multiplicateur de la contribution de la <b>taille de la lumière</b> à la direction des rayons.<br>Plus la valeur est élevée, plus les ombres sont lisses. |
 | <b>Garder La Lumière Au-Dessus De L&#39;Horizon</b> <i>Booléen</i> | Si la <b>position de la lumière</b> est définie de manière à placer la lumière sous l&#39;horizon, ce paramètre empêche la lumière de franchir ce seuil, ce qui signifie que les valeurs Y sont ajustées à la plage [0;1]. |
-| <b>Opacité de l&#39;ombre</b> <i>Flotter</i> | Multiplicateur de l’opacité des tons foncés dessinés sur la surface. |
-| <b>Atténuation des ombres</b> <i>Flotter</i> | Multiplicateur de l&#39;atténuation des ombres à mesure qu&#39;elles s&#39;éloignent de leur projection.<br>Une valeur de 0 donne des ombres uniformes (des ombres légères sont toujours appliquées). |
+| <b>Opacité de l&#39;ombre</b> <i>Flottant</i> | Multiplicateur de l’opacité des tons foncés dessinés sur la surface. |
+| <b>Atténuation des ombres</b> <i>Flottant</i> | Multiplicateur de l&#39;atténuation des ombres à mesure qu&#39;elles s&#39;éloignent de leur projection.<br>Une valeur de 0 donne des ombres uniformes (des ombres légères sont toujours appliquées). |
 | <b>Longueur max. des ombres</b> <i>Flottant</i> | Distance maximale à laquelle une ombre peut être dessinée de sa projection.<br>Une valeur de 0 ne produit aucune ombre visible. |
 
 ## Exemples
@@ -64,13 +64,13 @@ Ce nœud ne doit pas être utilisé en combinaison avec le moteur CPU (SSE) en r
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-02.jpg" />
+            <img src="../../../../../../assets/RTShadows-01.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-03.jpg" />
+            <img src="../../../../../../assets/RTShadows-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-04.jpg" />
+            <img src="../../../../../../assets/RTShadows-03.jpg" />
         </td>
     </tr>
 </table>

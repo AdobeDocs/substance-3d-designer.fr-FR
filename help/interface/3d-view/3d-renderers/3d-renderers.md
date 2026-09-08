@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moteurs de rendu 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La vue 3D propose quatre systèmes de rendu :
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 +++
 
-![Pixellisation - Exemple 1](3d-renderers.resources/3d-renderers-04.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
+![Pixellisation - Exemple 1](../../../assets/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 +++
 
-![Pathtracer GPU - Exemple 1](3d-renderers.resources/3d-renderers-05.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
+![Pathtracer GPU - Exemple 1](../../../assets/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -290,10 +290,10 @@ Ombrage de débogage non éclairé pour visualiser les textures sans éclairage.
 
 +++
 
-Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l&#39;aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l’aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Ce moteur de rendu est **obsolète** : il ne recevra pas de nouvelles fonctionnalités et sera mis hors service dans une future version de Designer.
 
-![OpenGL - Exemple 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - Exemple 1"){zoomable="yes"}
+![OpenGL - Exemple 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}

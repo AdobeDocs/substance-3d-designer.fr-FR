@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibres désordonnées 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,16 +24,16 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibres désordonnées 2 - Icône](messy-fibers-2.resources/messy-fibers-2-01.png "Fibres désordonnées 2 - Icône"){width="200px"}
+![Fibres désordonnées 2 - Icône](../../../../../../assets/messy_fibers_2.png "Fibres désordonnées 2 - Icône"){width="200px"}
 
-<b>Entrée :</b> générateurs de Textures > Bruits
+<b>Entrée :</b> Générateurs de textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Une variante des bruits structurés <b>fibres désordonnées</b>.
+Variante des bruits structurés de <b>fibres désordonnées</b>.
 
 Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-1/messy-fibers-1.md), [Fibres désordonnées 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
 
@@ -47,7 +47,7 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 
 |  |  |
 |:---|:---|
-| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est un bitmap en niveaux de gris. |
+| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est une image bitmap en niveaux de gris. |
 
 <a name="parameters"></a>
 
@@ -55,7 +55,7 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 
 |  |  |
 |:---|:---|
-| <b>Échelle</b> <i>Entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est élevé et plus le bruit est dense. |
+| <b>Échelle</b> <i>Nombre entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est important et plus le bruit est dense. |
 | <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
 | <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
 | <b>Désorganiser l&#39;anisotropie</b> <i>Flotter</i> | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>Désorganiser l&#39;angle d&#39;anisotropie</b>. |
@@ -72,12 +72,12 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 2 - Exemple 1](messy-fibers-2.resources/messy-fibers-2-02.png "Fibres désordonnées 2 - Exemple 1"){zoomable="yes"}
+![Fibres désordonnées 2 - Exemple 1](../../../../../../assets/messy_fibers_2_1.png "Fibres désordonnées 2 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 2 - Exemple 2](messy-fibers-2.resources/messy-fibers-2-03.gif "Fibres désordonnées 2 - Exemple 2"){zoomable="yes"}
+![Fibres désordonnées 2 - Exemple 2](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "Fibres désordonnées 2 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 2 - Exemple 3](messy-fibers-2.resources/messy-fibers-2-04.gif "Fibres désordonnées 2 - Exemple 3"){zoomable="yes"}
+![Fibres désordonnées 2 - Exemple 3](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "Fibres désordonnées 2 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibres désordonnées 2 - Exemple 4](messy-fibers-2.resources/messy-fibers-2-05.gif "Fibres désordonnées 2 - Exemple 4"){zoomable="yes"}
+![Fibres désordonnées 2 - Exemple 4](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "Fibres désordonnées 2 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

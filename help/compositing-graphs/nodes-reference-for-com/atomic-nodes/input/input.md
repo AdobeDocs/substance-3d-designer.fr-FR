@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nœud atomique : couleur d&#39;entrée](input.resources/input-01.png "Nœud atomique : couleur d&#39;entrée"){width="200px"}
+![Nœud atomique : couleur d&#39;entrée](../../../../assets/comp_inputcolor_1.png "Nœud atomique : couleur d&#39;entrée"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœud atomique : Niveaux de gris d&#39;entrée](input.resources/input-02.png "Nœud atomique : Niveaux de gris d&#39;entrée"){width="200px"}
+![Nœud atomique : Niveaux de gris d&#39;entrée](../../../../assets/comp_inputgrayscale_1.png "Nœud atomique : Niveaux de gris d&#39;entrée"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœud atomique : valeur d&#39;entrée](input.resources/input-03.png "Nœud atomique : valeur d&#39;entrée"){width="200px"}
+![Nœud atomique : valeur d&#39;entrée](../../../../assets/comp_inputnumeric_1.png "Nœud atomique : valeur d&#39;entrée"){width="200px"}
 
 </td>
 </tr>
@@ -118,21 +118,21 @@ Si vous voulez le voir avec les sorties d&#39;un autre Graphe, vous devrez soit 
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Lorsque plusieurs entrées sont présentes, vous devez faire attention à la façon dont le graphique [héritera de ses paramètres de base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) à partir de ces entrées.\
-Les paramètres de base incluent, entre autres, la <b>taille de sortie</b>, le <b>format de sortie</b> et le <b>mode de mosaïque</b>.
+Lorsque plusieurs entrées sont présentes, vous devez vous intéresser à la façon dont le graphe [héritera de ses paramètres de base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) à partir de ces entrées.\
+Les paramètres de base incluent, entre autres, la <b>taille de sortie</b>, le <b>format de sortie</b> et le <b>Mode de répétition</b>.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Entrée principale dans le graphique de Substance](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Entrée principale dans le graphe de Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
 </table>
 
-Une entrée peut être définie comme [entrée principale](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Cette entrée pilote ensuite les attributs de toutes les entrées dont la méthode d&#39;héritage est définie sur *Relative au parent*. Il s&#39;agit de la méthode d&#39;héritage *définie par défaut* sur les nœuds d&#39;entrée.
+Une entrée peut être définie comme [entrée principale](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Cette entrée pilote ensuite les attributs de toutes les entrées dont la méthode d&#39;héritage est définie sur *Relatif au parent*. Il s&#39;agit de la méthode héritage *définie par défaut* sur les Noeuds d&#39;entrée.
 
-Vous pouvez définir un nœud d&#39;entrée comme entrée principale d&#39;un graphique en cliquant sur *RMB* sur le nœud et en sélectionnant l&#39;option <b>Définir comme entrée principale</b> dans le menu contextuel.\
+Vous pouvez définir un noeud d&#39;entrée comme entrée principale d&#39;un graphe en cliquant sur *RMB* sur le nœud et en sélectionnant l&#39;option <b>Définir comme entrée principale</b> dans le menu contextuel.\
 L&#39;entrée Primary d&#39;un nœud est marquée d&#39;un *petit point sombre dans le connecteur* (entouré en rouge dans l&#39;exemple à côté de cette section).
 
 Sinon, toute entrée définie sur la méthode d&#39;héritage *Relative à l&#39;entrée* héritera des attributs du nœud auquel elle est connectée, *indépendamment* de l&#39;entrée Primary.
@@ -141,15 +141,15 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 >[!TIP]
 >
-> Pour en savoir plus sur l&#39;héritage, accédez à la page [Héritage dans les graphiques de Substances](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de cette documentation.
+> Pour en savoir plus sur l&#39;héritage, consultez la page [Héritage dans les graphes de Substance](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de cette documentation.
 
 >[!IMPORTANT]
 >
-> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les nœuds d&#39;entrée n&#39;est *pas prise en charge* dans [Actifs Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des nœuds d&#39;entrée sur *Relative au parent* avant de publier votre package.
+> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les Noeuds d&#39;entrée n&#39;est *pas prise en charge* dans les [actifs Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des Noeuds d&#39;entrée sur *Relatif au parent* avant de publier votre package.
 
 ## Attributs d&#39;intégration
 
-Les entrées ne sont pas directement envoyées à la vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
+Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
 
 En outre, les attributs Utilisation sont également utilisés avec les [modes de création de lien](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), pour correspondre aux emplacements d&#39;entrée et de sortie corrects.
 
@@ -157,6 +157,6 @@ En outre, les attributs Utilisation sont également utilisés avec les [modes de
 
 |  |  |
 | --- | --- |
-| <b>Composant</b> *Chaîne* | Cela détermine quelles couches sont réellement dans l’entrée résultante.   Il s’agit d’un paramètre hérité qui n’est plus utilisé par les intégrations et les graphiques. |
+| <b>Composant</b> *Chaîne* | Cela détermine quelles couches sont réellement dans l’entrée résultante.   Il s’agit d’un paramètre hérité que les intégrations et les graphes n’utilisent plus. |
 | <b>Utilisation</b> *Chaîne* | Définissez un type ou une utilisation pour cette entrée. Elle indique comment les autres nœuds doivent se connecter à cette entrée. |
 | <b>Espace colorimétrique</b> *Chaîne* | Définit l’espace colorimétrique dans lequel cette entrée doit être interprétée. |

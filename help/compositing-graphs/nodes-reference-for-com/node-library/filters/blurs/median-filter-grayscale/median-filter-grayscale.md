@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Niveaux de gris du filtre médian pour réduire le bruit et préserver les contours des textures en niveaux de gris.
+description: Utilisez le nœud Niveaux de gris du filtre médian pour réduire le bruit et conserver les contours dans les textures de niveaux de gris.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Filtre médian en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Filtre médian en niveaux de gris : icône](median-filter-grayscale.resources/median-filter-grayscale-01.png "Filtre médian en niveaux de gris : icône")
+![Filtre médian en niveaux de gris : icône](../../../../../../assets/MedianFilter_Icon_Grayscale.png "Filtre médian en niveaux de gris : icône")
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Ce filtre lisse le bruit dans une image tout en préservant les contours.
+Ce filtre lisse le bruit d’une image tout en préservant les contours.
 
 Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de la valeur médiane des voisins du pixel.
 
@@ -67,19 +67,19 @@ Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de
 
 |  |  |
 |:---|:---|
-| <b>Taille du noyau</b> *Nombre entier* | Un noyau est un groupe spécifique de valeurs utilisées dans les calculs d’un filtre. Dans ce contexte, ce sont les valeurs des pixels voisins.<br><br>Pour chaque pixel, le filtre prend tous les voisins autour de ce pixel dans un noyau carré et calcule la valeur médiane de tous les voisins.<br><br>Ce paramètre contrôle la taille de ce noyau carré, en pixels. Un noyau plus grand produit un effet de lissage plus fort et d&#39;une plus grande portée au prix d&#39;un certain niveau de détail.<br><br>*- 3x3:* un noyau de 3 pixels de large et 3 pixels de haut, totalisant 8 pixels voisins.<br>*- 5x5:* un noyau de 5 pixels de large et 5 pixels de haut, totalisant 24 pixels voisins. |
-| <b>Type de filtre</b> *Nombre entier* | Calcul appliqué aux voisins échantillonnés dans le noyau.<br><br>*- Médiane :* Utilisez directement la valeur médiane de tous les voisins.<br>*- MLMAD :* signifie &#39;Médiane de l&#39;écart absolu le moins médian&#39;. L&#39;écart tient compte de la différence d&#39;une valeur par rapport à la médiane. Au lieu d&#39;utiliser directement la valeur médiane qui peut être inclinée par un pixel aberrant avec un écart élevé, la méthode MLMAD utilise la médiane de tous les écarts. Cette méthode produit un effet de lissage plus intense qui peut aplatir les zones en fonction de la taille du noyau. |
+| <b>Taille du noyau</b> *Entier* | Un noyau est un groupe spécifique de valeurs utilisées dans les calculs d’un filtre. Dans ce contexte, ce sont les valeurs des pixels voisins.<br><br>Pour chaque pixel, le filtre prend tous les voisins autour de ce pixel dans un noyau carré et calcule la valeur médiane de tous les voisins.<br><br>Ce paramètre contrôle la taille de ce noyau carré, en pixels. Un noyau plus grand produit un effet de lissage plus fort et d&#39;une plus grande portée au prix d&#39;un certain niveau de détail.<br><br>*- 3x3:* un noyau de 3 pixels de large et 3 pixels de haut, totalisant 8 pixels voisins.<br>*- 5x5:* un noyau de 5 pixels de large et 5 pixels de haut, totalisant 24 pixels voisins. |
+| <b>Type de filtre</b> *Entier* | Calcul appliqué aux voisins échantillonnés dans le noyau.<br><br>*- Médiane :* Utilisez directement la valeur médiane de tous les voisins.<br>*- MLMAD :* signifie &#39;Médiane de l&#39;écart absolu le moins médian&#39;. L&#39;écart tient compte de la différence d&#39;une valeur par rapport à la médiane. Au lieu d&#39;utiliser directement la valeur médiane qui peut être inclinée par un pixel aberrant avec un écart élevé, la méthode MLMAD utilise la médiane de tous les écarts. Cette méthode produit un effet de lissage plus intense qui peut aplatir les zones en fonction de la taille du noyau. |
 
 ## Exemples
 
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-02.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-03.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-04.png" alt="MedianFilter_Variant4A">
+      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-05.png" alt="MedianFilter_Variant4B">
+      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
       <br><i>Après</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ Pour chaque pixel, le nœud calcule une valeur de niveaux de gris en fonction de
 <table>
   <tr>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-06.png" alt="MedianFilter_Variant1A">
+      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="median-filter-grayscale.resources/median-filter-grayscale-07.png" alt="MedianFilter_Variant1B">
+      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
       <br><i>Après</i>
     </td>
   </tr>

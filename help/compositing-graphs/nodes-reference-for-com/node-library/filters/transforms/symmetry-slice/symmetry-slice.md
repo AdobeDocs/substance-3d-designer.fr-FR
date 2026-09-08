@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tranche de symétrie
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](symmetry-slice.resources/symmetry-slice-01.png){width="128px"}
+![](../../../../../../assets/mirror-2.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -49,7 +49,7 @@ Comparé à [Miroir](../../../../../../compositing-graphs/nodes-reference-for-co
 |:---|:---|
 | <b>Mode Symétrie</b> <i>0 - 6</i> | Sélectionnez la géométrie de symétrie/la ligne de symétrie. Les options sont Horizontal, Vertical, Diagonale Gauche-Droite, Diagonale Droite-Gauche, Inversion verticale, Angle et Angle diagonal. |
 | <b>Mode de transfert</b> <i>0 - 6</i> | mode fusion. Les options sont les suivantes : |
-| <b>Fusionner</b> <i>0.0 - 1.0</i> | Fusion l’image d’origine dans le résultat. |
+| <b>Fusion</b> <i>0.0 - 1.0</i> | Fusion l’image d’origine dans le résultat. |
 | <b>Symétrie</b> <i>Faux/Vrai</i> | Retourne l&#39;origine, ce qui signifie que le côté origine de l&#39;opération est inversé. La symétrie de gauche à droite par exemple se transforme de droite à gauche. |
 | <b>Symétrie2</b> <i>Faux/Vrai</i> | Utilisé uniquement lorsque le mode de Symétrie est 5 ou 6. Inverser l’origine des angles. |
 
@@ -58,7 +58,7 @@ Comparé à [Miroir](../../../../../../compositing-graphs/nodes-reference-for-co
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="symmetry-slice.resources/symmetry-slice-02.png" />
+            <img src="../../../../../../assets/symslice.png" />
         </td>
     </tr>
 </table>

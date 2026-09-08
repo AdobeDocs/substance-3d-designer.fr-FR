@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Mappeur de Flood Fill pour mapper les valeurs sur les régions connectées à l’aide d’algorithmes de remplissage par diffusion pour le traitement de la texture.
+description: Utilisez le nœud Mappeur de Flood Fill pour mapper des valeurs sur des régions connectées à l’aide d’algorithmes de remplissage par diffusion pour le traitement des textures.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur de mots de Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
+![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Le mappeur de Flood Fill permet de remapper un motif ou une texture existants sur chaque cellule à partir d&#39;un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Elle se distingue des autres conversions Flood Fill comme les [niveaux de gris aléatoires](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ou les [dégradés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md) en ce sens qu&#39;elle ne génère pas de couleurs ou de valeurs unies, mais vous permet d&#39;utiliser vos propres cartes d&#39;entrée. Il peut être considéré comme une sorte de combinaison de [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) et de [Mosaïque Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ou de [Mappeur de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), car il fournit un certain nombre de contrôles et d&#39;interfaces similaires.
+Le mappeur de Flood Fill permet de remapper un motif ou une Texture existante sur chaque cellule à partir d&#39;un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Elle se distingue des autres conversions Flood Fill comme les [niveaux de gris aléatoires](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ou les [dégradés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md) en ce sens qu&#39;elle ne génère pas de couleurs ou de valeurs unies, mais vous permet d&#39;utiliser vos propres maps d&#39;entrée. Il peut être considéré comme une sorte de combinaison de [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) et de [Mosaïque Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ou de [Mappeur de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), car il fournit un certain nombre de contrôles et d&#39;interfaces similaires.
 
-La version Couleur dispose de commandes supplémentaires pour travailler avec les cartes de normales, où elle peut [compenser les rotations des cartes de normales de l&#39;espace tangent](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
+La version Couleur dispose de commandes supplémentaires pour travailler avec les Maps normal, où elle peut [compenser les rotations de la carte Normap de l&#39;espace de tangente de données](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ La version Couleur dispose de commandes supplémentaires pour travailler avec le
 
 |  |  |
 |:---|:---|
-| <b>Mode mosaïque</b> <i>Pas De Répétition, H+V</i> | Indiquez si vous souhaitez utiliser la Répétition ou non. Visible uniquement si la taille ou l’échelle est inférieure à 1. |
+| <b>Mode de répétition</b> <i>Pas De Répétition, H+V</i> | Indiquez si vous souhaitez utiliser la Répétition ou non. Visible uniquement si la taille ou l’échelle est inférieure à 1. |
 | <b>Motif</b> |  |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 8</i> | Définissez la quantité d’entrées de motif personnalisé à utiliser. |
 | <b>Mode de distribution des motifs</b> <i>Aléatoire, Taille De Forme, Entrée De Mappage De Distribution</i> | Définir la méthode pour déterminer quel motif est affiché dans une cellule. |
@@ -101,10 +101,10 @@ La version Couleur dispose de commandes supplémentaires pour travailler avec le
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
+            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
+            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>

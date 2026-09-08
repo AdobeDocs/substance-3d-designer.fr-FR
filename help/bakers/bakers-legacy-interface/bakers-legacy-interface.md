@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Interface héritée Bakers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -24,25 +24,25 @@ Voici la description de l&#39;interface de Baker disponible dans les versions de
 
 ## Vue d’ensemble
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 Le panneau boulanger est divisé en 4 parties :
 
 ### 1 : Scène
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 Permet de définir la partie du maillage impliquée dans le processus de cuisson.
 
 Nouveauté de la version 6 : vous pouvez également sélectionner par matériau :
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2 : Boulangers
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-En appuyant sur le bouton ![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png), vous pouvez ajouter les boulangers souhaités à la liste de traitement
+En appuyant sur le bouton ![](../../assets/image2017-3-13-9-47-47.png), vous pouvez ajouter les boulangers souhaités à la liste de traitement
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ En appuyant sur le bouton ![](bakers-legacy-interface.resources/bakers-legacy-in
 
 Cliquer sur le « + » dans la mise en page des boulangers vous permet d&#39;ajouter les boulangers dans une pile (Vous pouvez mettre autant de boulangers que vous le souhaitez dans une pile).
 
-.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-Vous pouvez supprimer un processus de cuisson de la liste en appuyant sur ![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)
+Vous pouvez supprimer un processus de cuisson de la liste en appuyant sur ![](../../assets/image2017-3-13-9-54-33.png)
 
-Vous pouvez réorganiser la liste des processus de cuisson en sélectionnant un processus de cuisson et en utilisant ![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)
+Vous pouvez réorganiser la liste des processus de cuisson en sélectionnant un processus de cuisson et en utilisant ![](../../assets/image2017-3-13-9-55-33.png)
 
 ### 3 : Paramètres Bakers
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 Cette section affiche les options spécifiques pour le boulanger actuellement sélectionné.
 
 ### 4 : Paramètres Communs
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 Affiche les paramètres partagés entre les boulangers.
 
@@ -82,4 +82,4 @@ Le processus de cuisson démarre en appuyant sur le bouton OK en bas à droite d
 
 Nouveauté de la version 6 : vous pouvez désormais annuler le processus de cuisson à l’aide du bouton d’annulation :
 
-![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)
+![](../../assets/image2017-3-13-13-50-4.png)

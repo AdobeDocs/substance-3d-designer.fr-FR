@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Paramètres du projet
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Cela est très utile si vous souhaitez configurer un environnement de travail co
 >
 > Pour plus d&#39;informations sur la configuration et l&#39;intégration de Substance 3D Designer dans un **pipeline de production**, nous *vous recommandons vivement* de vous référer à la section [Configuration du pipeline et du projet](../../../pipeline-and-project-con/pipeline-and-project-configuration.md) de la documentation.
 
-![Paramètres du projet](project-settings.resources/project-settings-01.png "Paramètres du projet"){zoomable="yes"}
+![Paramètres du projet](../../../assets/2019-3-0-prefs-proj-01.png "Paramètres du projet"){zoomable="yes"}
 
 ## Configuration
 
@@ -132,7 +132,7 @@ Dans les colonnes de la liste, vous trouverez des options vous donnant un contr�
 * **Exclure l&#39;extension :** les fichiers qui *incluent* la chaîne de texte d&#39;entrée ne sont *pas* affichés dans la bibliothèque. Les chaînes multiples doivent être séparées par `;` points-virgules. (E.g. `jpg;png;tif;fbx`)
 
 Si des packages SBS sont ajoutés à la bibliothèque, les **graphes** et les **ressources** qu&#39;elle contient peuvent être *affichés dans la bibliothèque* en tant qu&#39;entrées distinctes, si leur paramètre **Visible dans la bibliothèque** est défini sur &#39;Oui&#39;.\
-Des options sont disponibles pour définir si ce paramètre doit être défini sur &#39;Oui&#39; *par défaut* lors de la création/l&#39;ajout d&#39;un graphique ou d&#39;une ressource dans un package.
+Des options sont disponibles pour définir si ce paramètre doit être défini sur &#39;Oui&#39; *par défaut* lors de la création/l&#39;ajout d&#39;un nouveau graphe ou d&#39;une nouvelle ressource dans un package.
 
 *Par défaut : coché*
 
@@ -163,20 +163,20 @@ Substance 3D Designer chargera automatiquement tous les [plug-ins](../../../scri
 > Cette fonctionnalité sera *retirée* dans une prochaine version en faveur de l&#39;**API Python** plus robuste. Par conséquent, nous vous recommandons de basculer vos scripts dès que possible.\
 > Pour commencer, vous pouvez accéder à la page [Rappels d&#39;application](../../../scripting/application-callbacks/application-callbacks.md) dans la section [Scripts](../../../scripting/scripting.md) de notre documentation.
 
-Cette section vous permet de configurer et de contrôler *scripts* à exécuter lorsque des *événements* spécifiques se produisent dans Designer. Elle est particulièrement utile lorsqu&#39;elle est utilisée conjointement avec l&#39;intégration [Perforce](https://www.perforce.com/) qui peut être configurée dans l&#39;onglet Contrôle de version des paramètres du projet.
+Cette section vous permet de configurer et de contrôler *scripts* à exécuter lorsque des *événements* spécifiques se produisent dans Designer. Elle est particulièrement utile lorsqu&#39;elle est utilisée conjointement avec l&#39;intégration [Perforce](https://www.perforce.com/) qui peut être configurée dans l&#39;onglet Gestion de versions des paramètres du projet.
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Actions</b> | Designer a préconfiguré **des déclencheurs de rappels**, qui *exécuteront le script* que vous fournissez à l&#39;aide de l&#39;interpréteur configuré dans la liste **Interpréteurs** décrite ci-dessous.Les rappels inclus sont les suivants :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>onBeforeFileLoaded</strong> : exécute le script <em>avant</em> le chargement d&#39;un package SBS</li><li data-preserve-html="true"><strong>onAfterFileLoaded</strong> - exécute le script <em>après</em> le chargement d&#39;un package SBS</li><li data-preserve-html="true"><strong>onBeforeFileSaved</strong> : exécute le script <em>avant</em> l’enregistrement d’un package SBS</li><li data-preserve-html="true"><strong>onAfterFileSaved</strong> - exécute le script <em>après</em> l&#39;enregistrement d&#39;un package SBS</li><li data-preserve-html="true"><strong>getGraphExportOptions</strong> : exécute le script lorsque les options [Exporter les sorties](../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) sont appelées</li></ul>Un script [Python](https://www.python.org/) est inclus dans les fichiers d&#39;installation. Les fonctions déclenchées par chaque rappel *sont déjà configurées* et prêtes à être utilisées. Vous pouvez l’utiliser comme point de départ et ajouter des fonctionnalités en fonction de vos besoins. Ce script est **function.py**. Il se trouve dans le dossier **tools > scripting** des fichiers d&#39;installation <br><br>*Par défaut : aucun *<br><br>*Remarque :* Au départ, la sélection d&#39;un script pour l&#39;un des rappels entrera ce script dans les rappels *tous* pour des raisons de commodité. Vous pouvez librement configurer différents scripts pour des rappels spécifiques après ce point. |
+| <b>Actions</b> | Designer a préconfiguré **des déclencheurs de rappels**, qui *exécuteront le script* que vous fournissez à l&#39;aide de l&#39;interpréteur configuré dans la liste **Interpréteurs** décrite ci-dessous.Les rappels inclus sont les suivants :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>onBeforeFileLoaded</strong> : exécute le script <em>avant</em> le chargement d&#39;un package SBS</li><li data-preserve-html="true"><strong>onAfterFileLoaded</strong> : exécute le script <em>après</em> le chargement d&#39;un package SBS</li><li data-preserve-html="true"><strong>onBeforeFileSaved</strong> : exécute le script <em>avant</em> l’enregistrement d’un package SBS</li><li data-preserve-html="true"><strong>onAfterFileSaved</strong> : exécute le script <em>après</em> l’enregistrement d’un package SBS</li><li data-preserve-html="true"><strong>getGraphExportOptions</strong> : exécute le script lorsque les options [Exporter les sorties](../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) sont appelées</li></ul>Un script [Python](https://www.python.org/) est inclus dans les fichiers d&#39;installation. Les fonctions déclenchées par chaque rappel *sont déjà configurées* et prêtes à être utilisées. Vous pouvez l’utiliser comme point de départ et ajouter des fonctionnalités en fonction de vos besoins. Ce script est **function.py**. Il se trouve dans le dossier **tools > scripting** des fichiers d&#39;installation <br><br>*Par défaut : aucun *<br><br>*Remarque :* Au départ, la sélection d&#39;un script pour l&#39;un des rappels entrera ce script dans les rappels *tous* pour des raisons de commodité. Vous pouvez librement configurer différents scripts pour des rappels spécifiques après ce point. |
 | **Interprètes** | Dans cette liste, vous pouvez fournir des *interpréteurs* spécifiques que Designer doit utiliser pour exécuter les scripts configurés dans la liste **Actions** décrite ci-dessus. Les interprètes sont identifiés à l&#39;aide d&#39;un *alias personnalisé* que vous pouvez modifier dans le champ de texte de chaque entrée de la liste.Un interpréteur [Python](https://www.python.org/) 3.6 est fourni avec les fichiers d&#39;installation de Designer. Vous le trouverez dans le dossier **plug-ins > pythonsdk** des fichiers d&#39;installation <br><br>*Par défaut : aucun* |
 
 ### Gestion de versions
 
 >[!WARNING]
 >
-> [Perforce](https://www.perforce.com/) est l&#39;outil *uniquement* qui est actuellement pris en charge pour le contrôle de version.
+> [Perforce](https://www.perforce.com/) est l&#39;outil *uniquement* qui est actuellement pris en charge pour la gestion de versions.
 
-Reportez-vous à la page [Contrôle de version](../../../interface/preferences-window/version-control/version-control.md).
+Reportez-vous à la page [Gestion de versions](../../../interface/preferences-window/version-control/version-control.md).
 
 **Comment devriez-vous l’utiliser ?**
 
@@ -185,7 +185,7 @@ Vous devez définir toutes les préférences *spécifiques au projet* dans un fi
 * Plugin de repère tangent
 * Bibliothèque
 * Alias
-* Paramètres de la vue 3D
+* paramètres vue 3D
 * paramètres de Baking
 * [paramètres de gestion de versions](../../../interface/preferences-window/version-control/version-control.md)
 
@@ -199,7 +199,7 @@ Tous les chemins sont stockés *par rapport à* le fichier de projet (.spsprj). 
 * 3Dview/
 * ...
 
-Au même niveau que le fichier de projet, vous pouvez également stocker un plug-in d’espace tangent ou un shader par défaut.
+Au même niveau que le fichier de projet, vous pouvez également stocker un plugin de repère tangent ou un shader par défaut.
 
 Le fichier de configuration (\*.sbscfg) doit être placé dans l’espace de travail Perforce à côté du fichier de projet.
 

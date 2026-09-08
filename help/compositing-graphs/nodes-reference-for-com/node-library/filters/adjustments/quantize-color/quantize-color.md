@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantifier la couleur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](quantize-color.resources/quantize-color-01.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](../../../../../../assets/QuantizeColor.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -45,7 +45,7 @@ En plus de l’image traitée, le nœud extrait également les éléments suivan
 </tr>
 </table>
 
-Si le paramètre Ignorer alpha est défini sur Faux, le canal Alpha de l’image d’origine est utilisé pour sélectionner les zones de l’image dans lesquelles les couleurs doivent être extraites pour le processus de quantification, tandis que les couleurs des zones transparentes sont ignorées.
+Si le paramètre Ignorer alpha est défini sur False, la couche alpha de l’image d’origine est utilisée pour sélectionner les zones de l’image dans lesquelles les couleurs doivent être extraites pour le processus de quantification, tandis que les couleurs des zones transparentes sont ignorées.
 
 Cela permet de mieux contrôler les couleurs extraites.
 
@@ -90,11 +90,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-02.jpg" alt="quantize_color_example_6_before">
+      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-03.jpg" alt="quantize_color_example_6_after">
+      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -103,11 +103,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-04.jpg" alt="quantize_color_example_2_before">
+      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-05.jpg" alt="quantize_color_example_2_after">
+      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -116,11 +116,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-06.jpg" alt="quantize_color_example_3_before">
+      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-07.jpg" alt="quantize_color_example_3_after">
+      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-08.jpg" alt="quantize_color_example_4_before">
+      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-09.jpg" alt="quantize_color_example_4_after">
+      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Créer u
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize-color-10.jpg" alt="quantize_color_example_5_before">
+      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize-color-11.jpg" alt="quantize_color_example_5_after">
+      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>Après</i>
     </td>
   </tr>

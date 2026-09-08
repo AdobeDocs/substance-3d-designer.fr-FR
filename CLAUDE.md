@@ -1,7 +1,7 @@
 ---
-source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Ce référentiel contient la documentation de Substance 3D Designer. Il n&#39;y 
 
 * `help/` — tout le contenu de la documentation, organisé pour refléter la table des matières.
 * `help/guide/TOC.md` — table des matières. Chaque entrée est un lien relatif (ancré à `/help/...`) vers le fichier Markdown d&#39;une page. `TOC.md` contient également des métadonnées d&#39;arborescence de page (`user-guide-title`, `breadcrumb-title`, `nudge`, des ancrages de section comme `{#section-id}`).
-* `help/assets/` — dossier d&#39;images partagées hérité. Les médias spécifiques à la page se trouvent désormais dans un dossier frère par page `<md-file-name>.resources/` (voir la convention Dossier/Table des matières ci-dessous) ; seules quelques images restantes non référencées par une page restent ici. Placez les nouvelles images dans le dossier `.resources` de la page d&#39;utilisation, pas ici.
+* `help/assets/` — images partagées et non spécifiques à une page (par exemple, icônes d&#39;application réutilisées sur plusieurs pages).
 * `help/glossary/glossary.md` : une seule grande page de glossaire, organisée par ordre alphabétique avec des plages d&#39;ancrage (`<span id="term"></span>`) utilisées pour la réticulation via des fragments `#term`.
 * `metadata.md` — page de garde au niveau du référentiel (ID de cloud/solution/produit, `git-repo`, etc.) qui est hérité par tous les `TOC.md`. Ne modifiez cette option que pour les modifications de métadonnées à l’échelle du référentiel ; les métadonnées spécifiques à la page appartiennent à la page de garde.
 * `redirects.csv`, `linkcheckexclude.json`, `markdownlint_custom.json`, `pipeline.opts` — configuration du pipeline de publication (redirections, exceptions de vérification de lien, remplacements de règles de liaison, options de pipeline).
@@ -31,10 +31,6 @@ Pour chaque entrée dans `help/guide/TOC.md` :
 * Si la page contient des médias sur mesure (images, GIFs, vidéos), elle se trouve dans un sous-dossier frère nommé `<md-file-name>.resources`.
 
 Lors de l&#39;ajout ou du déplacement d&#39;une page, mettez à jour `TOC.md` et la mise en page du dossier ensemble, ils doivent rester synchronisés.
-
-## Pages de référence des nœuds
-
-Les arborescences de la bibliothèque de nœuds (par exemple, `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`) sont un type de page distinct avec leur propre mise en page cohérente : une table de HTML icône/description, suivie par les tables ancrées `## Inputs` / `## Outputs` / `## Parameters` (`#inputs`/`#outputs`/`#parameters`) et une galerie `## Examples`. Ils utilisent la matière première **minimale** (uniquement `title` + `description`), et non le bloc de page de contenu standard ci-dessous, modelé sur `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`. Les médias incorporés (icône, exemple d&#39;images/de GIFs) se trouvent dans un dossier frère `<node-name>.resources/` à côté de la page, référencé de manière relative. Utilisez la compétence `generate-node-documentation` (le cas échéant) pour le modèle de création complet.
 
 ## Pages liminaires
 
@@ -60,7 +56,7 @@ Assurez-vous que `description` est précis et concis. Il est utilisé pour le r�
 
 &#x200B;# Règles de création de contenu
 
-* L&#39;anglais est la source de la vérité ; toutes les autres langues en sont traduites.
+* L&#39;anglais est la source de la vérité ; toutes les autres langues en sont translatées.
 * Tous les liens vers d&#39;autres pages de documentation doivent être des liens **relatifs** ; tous les liens vers des ressources externes doivent être des liens **absolus**.
 * Le contenu est écrit dans un Markdown parfumé GitHub avec des extensions/gotchas personnalisées de l&#39;Experience League, documenté [ici](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/writing-essentials/markdown). Utilisez la compétence `write-experience-league-markdown` (le cas échéant) pour les détails.
 * Chaque modification soumise est soumise à des vérifications automatiques de liaison et à une validation de liaison dans CI (voir ci-dessous) — vérifiez `markdownlint_custom.json` et `linkcheckexclude.json` avant de supposer qu&#39;une règle s&#39;applique ou qu&#39;un lien doit être corrigé.

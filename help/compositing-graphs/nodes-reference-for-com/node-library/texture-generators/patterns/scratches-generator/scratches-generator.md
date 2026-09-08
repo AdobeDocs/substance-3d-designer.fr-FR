@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur Scratches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](scratches-generator.resources/scratches-generator-01.png)
+![](../../../../../../assets/scratches-generator.png)
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -66,17 +66,17 @@ Il existe une version spéciale de Scratches Generator, Scratches Generator Norm
 | <b>Format normal (version normale uniquement)</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
 | <b>Mode Atténuation</b> <i>Aucun, Début, Fin, Début + Fin</i> | Définit si les splines sont atténuations et dans quel sens. |
 | <b>Longueur Atténuation</b> <i>0.0 - 1.0</i> | Définit la longueur de l’effet d’atténuation, si cette option est activée ci-dessus. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-02.png" />
+            <img src="../../../../../../assets/scratches-ex1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-03.png" />
+            <img src="../../../../../../assets/scratches-ex2.png" />
         </td>
     </tr>
 </table>

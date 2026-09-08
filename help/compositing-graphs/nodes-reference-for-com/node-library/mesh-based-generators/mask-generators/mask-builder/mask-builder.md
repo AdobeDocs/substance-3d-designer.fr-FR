@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur de masques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mask-builder.resources/mask-builder-01.png){width="128px"}
+![](../../../../../../assets/mask-builder.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -101,8 +101,8 @@ Aucun bake n&#39;est explicitement requis, mais plus vous fournissez de ressourc
 | <b>Plage</b> <i>0.0 - 1.0</i> | Définit la position du dégradé. |
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du dégradé. |
 | <b>Inverser</b> <i>Faux/Vrai</i> | Inverse le dégradé. Permute efficacement le bas et le haut. |
-| <b>Espace universel normal</b> <i>0.0 - 1.0</i> | Similaire au dégradé Haut/Bas, mais avec la carte de position et dans six directions, semblable à un faux éclairage. Les valeurs positives s’éclaircissent, les valeurs négatives s’assombrissent. |
-| <b>Espace universel normal</b> |  |
+| <b>Normale de l&#39;espace monde</b> <i>0.0 - 1.0</i> | Similaire au dégradé Haut/Bas, mais avec la carte de position et dans six directions, semblable à un faux éclairage. Les valeurs positives s’éclaircissent, les valeurs négatives s’assombrissent. |
+| <b>Normale de l&#39;espace monde</b> |  |
 | <b>Intensité supérieure</b> <i>-1.0 - 1.0</i> |  |
 | <b>Intensité inférieure</b> <i>-1.0 - 1.0</i> |  |
 | <b>Intensité avant</b> <i>-1.0 - 1.0</i> |  |

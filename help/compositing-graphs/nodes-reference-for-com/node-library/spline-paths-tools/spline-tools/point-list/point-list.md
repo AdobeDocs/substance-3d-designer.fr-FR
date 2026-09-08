@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Liste de points
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](point-list.resources/point-list-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/point-list-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -93,12 +93,12 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](point-list.resources/point-list-02.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/PointList-Variant1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](point-list.resources/point-list-03.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/PointList-Demo1.gif "Exemple de nœud 2")
 
 </td>
 </tr>

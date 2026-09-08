@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Cubique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-cubic.resources/spline-cubic-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-cubic-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -101,12 +101,12 @@ La trajectoire de la spline est contrôlée par la tangente « out » de <b>p1</
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-cubic.resources/spline-cubic-02.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/SplineCubic-Variant1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-cubic.resources/spline-cubic-03.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplineCubic-Variant2.jpg "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ La trajectoire de la spline est contrôlée par la tangente « out » de <b>p1</
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3](spline-cubic.resources/spline-cubic-04.gif "Exemple de nœud 3")
+![Exemple de nœud 3](../../../../../../assets/SplineCubic-Demo.gif "Exemple de nœud 3")
 
 </td>
 <td style="border: 0;" valign="top">

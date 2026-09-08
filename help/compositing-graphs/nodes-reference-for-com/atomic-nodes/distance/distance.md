@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Distance](distance.resources/distance-01.png "Nœud atomique : Distance"){width="200px"}
+![Nœud atomique : Distance](../../../../assets/comp_distance_1.png "Nœud atomique : Distance"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -87,7 +87,7 @@ Voir les [exemples](#examples) ci-dessous pour plus d&#39;informations.
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. Modifie également le type d’entrée « Entrée source ». |
 | <b>Distance maximale</b> *Flotter* | Ajuste la distance maximale de détection de la bordure la plus proche dans le masque, en pixels. |
 | <b>Combiner la source/la distance</b> *Booléen* | Déterminez la manière dont l&#39;entrée « Source » facultative est combinée avec les cellules finales.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combiner :</i> combine la valeur « Entrée source » avec le masque linéaire en fondu. Si l&#39;entrée &#39;Source input&#39; est connectée, sa valeur est combinée à la distance calculée.</li> <li data-preserve-html="true"><i>Source uniquement :</i> le résultat est une couleur unie provenant uniquement de l&#39;« entrée Source ».</li> </ul> |
-| <b>Mode Distance</b> *Nombre entier* | Sélectionne la méthode de calcul de la distance jusqu’à la bordure la plus proche dans le masque extrait :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidéen :</i> somme des différences X/Y carrées.</li> <li data-preserve-html="true"><i>Manhattan :</i> somme des valeurs absolues des différences X/Y.</li> <li data-preserve-html="true"><i>Chebyshev :</i> valeur maximale absolue des différences X/Y.</li> </ul>  <div><img alt="Exemples de mode Distance" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-02.jpg" title="Exemples de mode Distance"/></div> |
+| <b>Mode Distance</b> *Nombre entier* | Sélectionne la méthode de calcul de la distance jusqu’à la bordure la plus proche dans le masque extrait :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidéen :</i> somme des différences X/Y carrées.</li> <li data-preserve-html="true"><i>Manhattan :</i> somme des valeurs absolues des différences X/Y.</li> <li data-preserve-html="true"><i>Chebyshev :</i> valeur maximale absolue des différences X/Y.</li> </ul>  <div><img alt="Exemples de mode Distance" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Exemples de mode Distance"/></div> |
 
 ## Connecteurs d’entrée
 
@@ -108,17 +108,17 @@ Voir les [exemples](#examples) ci-dessous pour plus d&#39;informations.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-03.gif){width="250px"}
+![](../../../../assets/distance-ex01.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-04.gif){width="250px"}
+![](../../../../assets/distance-ex02.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-05.gif){width="250px"}
+![](../../../../assets/distance-ex03.gif){width="250px"}
 
 </td>
 </tr>

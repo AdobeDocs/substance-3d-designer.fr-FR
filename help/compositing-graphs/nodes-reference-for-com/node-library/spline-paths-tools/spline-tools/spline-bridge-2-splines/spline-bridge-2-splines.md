@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pont Spline (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-bridge-2splines-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -52,7 +52,7 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 | <b>Aperçu #1</b> <i>Niveaux de gris</i> | L&#39;aperçu des splines d&#39;entrée #1 sous forme d&#39;image en niveaux de gris. |
 | <b>Cœurs splines #1</b> <i>Couleur</i> | Les coordonnées des points des splines d&#39;entrée #1 codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>#1 de données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée #1 codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline #1</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée #1. |
+| <b>Quantité de spline #1</b> <i>Entier</i> | Nombre de splines d&#39;entrée #1. |
 | <b>Aperçu #2</b> <i>Niveaux de gris</i> | L&#39;aperçu des splines d&#39;entrée #2 sous forme d&#39;image en niveaux de gris. |
 | <b>Cœurs splines #2</b> <i>Couleur</i> | Coordonnées des points de #2 des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>#2 de données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée #2 codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
@@ -68,10 +68,10 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 
 |  |  |
 |:---|:---|
-| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d’image en niveaux de gris. |
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d&#39;image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines de sortie. |
 
 <a name="parameters"></a>
 
@@ -79,10 +79,10 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 
 |  |  |
 |:---|:---|
-| <b>Quantité de splines du pont</b> <i>Nombre entier</i> | Nombre de splines générées le long de la spline #1 à la spline #2. |
-| <b>Type de splines Bridge</b> <i>Nombre entier</i> | Type de spline générée :<br><br>- Linéaire : spline droite du début à la fin ;<br>- Cubique de Bézier : spline courbe du début à la fin, la courbe étant contrôlée par la longueur et l&#39;angle des points de début et de fin. |
-| <b>Démarrer la spline #1</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #1 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée des #1 splines.<br>Plus la valeur est élevée, plus le même nombre de splines est tassé de manière serrée. |
-| <b>Démarrer la spline #2</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #2 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée des #2 splines.<br>Plus la valeur est élevée, plus le même nombre de splines est tassé de manière serrée. |
+| <b>Quantité de splines du pont</b> <i>Entier</i> | Nombre de splines générées le long de la spline #1 à la spline #2. |
+| <b>Type de splines Bridge</b> <i>Entier</i> | Type de spline générée :<br><br>- Linéaire : spline droite du début à la fin ;<br>- Cubique de Bézier : spline courbe du début à la fin, la courbe étant contrôlée par la longueur et l&#39;angle des points de début et de fin. |
+| <b>Démarrer la spline #1</b> <i>Flottant</i> | Décale l&#39;emplacement le long des #1 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée des #1 splines.<br>Plus la valeur est élevée, plus le même nombre de splines est tassé de manière serrée. |
+| <b>Démarrer la spline #2</b> <i>Flottant</i> | Décale l&#39;emplacement le long des #2 splines à partir duquel les splines sont générées. Cette valeur correspond à la longueur normalisée des #2 splines.<br>Plus la valeur est élevée, plus le même nombre de splines est tassé de manière serrée. |
 | <b>Terminer la spline #1</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #1 splines jusqu&#39;à l&#39;endroit où les splines sont générées. Cette valeur correspond à la longueur normalisée des #1 splines.<br>Une valeur inférieure a pour effet de tasser un nombre identique de splines plus serrées. |
 | <b>Terminer la spline #1</b> <i>Flotter</i> | Décale l&#39;emplacement le long des #2 splines jusqu&#39;à l&#39;endroit où les splines sont générées. Cette valeur correspond à la longueur normalisée des #2 splines.<br>Une valeur inférieure a pour effet de tasser un nombre identique de splines plus serrées. |
 | <b>Décaler la spline #1</b> <i>Flotter</i> | Applique un décalage au point de départ de toutes les splines situées le long des #1 splines. La valeur est la longueur normalisée de la spline #1.<br>Les splines qui correspondent au début ou à la fin de la spline y sont laissées. |
@@ -108,11 +108,11 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ Génère des splines de <b>#1 spline</b> à <b>#2 spline</b> le long de ces spli
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

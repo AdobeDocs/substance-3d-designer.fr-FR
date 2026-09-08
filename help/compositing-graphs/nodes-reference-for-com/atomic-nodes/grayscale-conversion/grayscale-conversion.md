@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversion en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Conversion en niveaux de gris](grayscale-conversion.resources/grayscale-conversion-01.png "Noeud atomique : Conversion en niveaux de gris"){width="200px"}
+![Nœud atomique : conversion en niveaux de gris](../../../../assets/comp_grayscaleconversion_1.png "Nœud atomique : conversion en niveaux de gris"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -93,8 +93,8 @@ Cela signifie qu’un nœud de conversion en niveaux de gris est généralement 
 |  |  |
 | --- | --- |
 | <b>Épaisseurs de canal</b> *Float4* | Définit le poids de chaque couche RVBA dans la conversion en niveaux de gris.   Par défaut, un fractionnement régulier est effectué sur les canaux du RGB. |
-| <b>Aplatir alpha</b> *Booléen* | Définit le comportement de l’Alpha sur les niveaux de gris finaux, car les valeurs de niveaux de gris ne peuvent pas contenir d’informations sur l’Alpha.   Lorsque *True*, la conversion en niveaux de gris est multipliée par rapport au Canal Alpha de l&#39;image d&#39;entrée |
-| <b>Valeur d&#39;arrière-plan</b> *Flottant* | Définit la valeur d’arrière-plan de base lorsque l’entrée comporte un masque alpha. C’est-à-dire qui détermine les pixels à traiter comme transparents.   *Disponible lorsque &#39;Flatten alpha&#39; est défini sur &#39;True&#39;.* |
+| <b>Aplatir alpha</b> *Booléen* | Définit le comportement de l’Alpha sur les niveaux de gris finaux, car les valeurs de niveaux de gris ne peuvent pas contenir d’informations sur l’Alpha.   Lorsque *True*, la conversion en niveaux de gris est multipliée par rapport à la couche Alpha de l&#39;image d&#39;entrée |
+| <b>Valeur d&#39;arrière-plan</b> *Flotter* | Définit la valeur d’arrière-plan de base lorsque l’entrée comporte un masque alpha. C’est-à-dire qui détermine les pixels à traiter comme transparents.   *Disponible lorsque &#39;Flatten alpha&#39; est défini sur &#39;True&#39;.* |
 
 ## Connecteurs d’entrée
 

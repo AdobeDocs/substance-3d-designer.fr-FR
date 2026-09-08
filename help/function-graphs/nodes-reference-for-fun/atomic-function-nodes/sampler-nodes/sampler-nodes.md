@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Échantillonnages
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Nœuds Sampler
 
-![Nœuds Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nœuds Sampler")
+![Nœuds Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nœuds Sampler")
 
-Ces nœuds échantillonnent une valeur dans une image d&#39;entrée aux coordonnées 2D fournies :
+Ces nœuds échantillonnent une valeur dans une image d’entrée aux coordonnées 2D fournies :
 
 L&#39;option <b>Échantillon de gris</b> échantillonne une valeur de luminance à l&#39;entrée <b>Position</b> dans une image en niveaux de gris et la génère en tant que valeur <b>Float</b>.
 
@@ -39,7 +39,7 @@ Les positions hors de cette plage sont traitées selon le <b>mode d&#39;adressag
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordonnées des pixels](sampler-nodes.resources/sampler-nodes-02.png "Coordonnées des pixels")
+![Coordonnées des pixels](../../../../assets/samplercoords.png "Coordonnées des pixels")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Les positions hors de cette plage sont traitées selon le <b>mode d&#39;adressag
 
 >[!NOTE]
 >
-> L&#39;entrée <b>Position</b> doit être une valeur Flottant2 où les coordonnées X et Y de l&#39;image sont mappées aux composantes X et Y de la valeur respectivement
+> L&#39;entrée <b>Position</b> doit être une valeur Float2 où les coordonnées X et Y de l&#39;image sont mappées respectivement aux composantes X et Y de la valeur
 
 ## Paramètres
 
@@ -56,7 +56,7 @@ Permet de sélectionner l&#39;entrée de nœud à utiliser pour l&#39;échantill
 
 La liste s’adapte dynamiquement aux entrées actuellement connectées. Cela signifie que des entrées sont ajoutées lorsque vous connectez des entrées de nœud.
 
-La numérotation des entrées commence à 0, de sorte qu&#39;une image reliée à la première entrée du nœud est répertoriée comme *Image d&#39;entrée 0*.
+La numérotation des entrées commence à 0, de sorte qu&#39;une image connectée à la première entrée du nœud est répertoriée comme *Image d&#39;entrée 0*.
 
 +++
 
@@ -66,7 +66,7 @@ Permet de définir le mode d’interpolation lorsque les pixels de l’image éc
 <b>Le Plus Proche</b>\
 Le pixel sera mappé à la cible *tel quel* à la coordonnée correspondante. Si la cible est de résolution inférieure, le pixel peut être totalement ignoré. Si la cible est d’une résolution plus élevée, elle sera mappée à tous les pixels couvrant sa plage. La sortie est *plus nette* et sera légèrement *crénelée*.
 
-<b>filtrage Bilinéaire</b>\
+<b>Filtrage bilinéaire</b>\
 Un processus de filtrage est appliqué à l&#39;image source afin que ses pixels soient mappés à la résolution cible de manière à *lisser* les transitions entre les pixels. La sortie est *plus lisse* et sera légèrement *floue*.
 
 +++

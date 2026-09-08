@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures Shavings
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
+![](../../../../../../assets/grungeshavings.jpg){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -52,18 +52,18 @@ Le nœud **Rasages Usure/salissures** dans [Substance 3D Designer](https://www.a
 | <b>Avancé</b> |  |
 | <b>Quantité de défauts de rayure</b> <i>Flotter</i> | Quantité et *couverture* de l’effet de taches rayées utilisé pour générer des copeaux. |
 | <b>Répétition des défauts de rayure</b> <i>Nombre entier</i> | Niveau de répétition de l’effet de taches rayées utilisé pour générer les copeaux. |
-| <b>Intensité du Dust</b> <i>Flotter</i> | Intensité de l’incrustation du dust sur la surface. |
-| <b>Netteté</b> <i>Flotter</i> | Intensité de l’effet de netteté globale. |
+| <b>Intensité du Dust</b> <i>Flottant</i> | Intensité de l’incrustation du dust sur la surface. |
+| <b>Netteté</b> <i>Flottant</i> | Intensité de l’effet de netteté globale. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
+            <img src="../../../../../../assets/grungeshavings-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
+            <img src="../../../../../../assets/grungeshavings-variant.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur au masque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Couleur à masquer - Icône](color-to-mask.resources/color-to-mask-01.png "Couleur à masquer - Icône"){width="200px"}
+![Couleur à masquer - Icône](../../../../../../assets/color_to_mask.png "Couleur à masquer - Icône"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 

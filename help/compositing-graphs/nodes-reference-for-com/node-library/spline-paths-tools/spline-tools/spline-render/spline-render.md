@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendu spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](spline-render.resources/spline-render-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/spline-render-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -98,11 +98,11 @@ Trace des chaînes de segments le long des <b>splines</b> d&#39;entrée sur l&#3
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-02.jpg" alt="SplineRender-Variant2-Before">
+      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-03.jpg" alt="SplineRender-Variant2-After">
+      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Trace des chaînes de segments le long des <b>splines</b> d&#39;entrée sur l&#3
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-05.jpg" alt="SplineRender-Variant1-After">
+      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Trace des chaînes de segments le long des <b>splines</b> d&#39;entrée sur l&#3
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-06.jpg" alt="SplineRender-Variant3">
+      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>Après</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ Trace des chaînes de segments le long des <b>splines</b> d&#39;entrée sur l&#3
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](spline-render.resources/spline-render-07.gif "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/SplineRender-Demo.gif "Exemple de nœud 1")
 
 </td>
 </tr>

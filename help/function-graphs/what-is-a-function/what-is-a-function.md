@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Qu’est-ce qu’une fonction ? '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Les fonctions de Substance 3D Designer permettent à l’utilisateur de génére
 
 Mais plutôt que d’utiliser des lignes de codes, les fonctions de Designer conservent la même approche nodale. À première vue, un graphe de fonction ressemble beaucoup à un graphe normal.
 
-![](what-is-a-function.resources/what-is-a-function-01.png)
+![](../../assets/image2015-12-17-18-19-37.png)
 
 Vous pouvez rencontrer des fonctions dans 2 cas principaux :
 
@@ -35,16 +35,16 @@ Vous pouvez rencontrer des fonctions dans 2 cas principaux :
 
 Dans Substance 3D Designer, n’importe quel paramètre peut être contrôlé par une fonction.
 
-![](what-is-a-function.resources/what-is-a-function-02.png)
+![](../../assets/image2015-12-17-21-3-46.png)
 
 Par conséquent, vous pouvez imaginer des règles et des dépendances entre les parties de votre graphe, pour obtenir des résultats uniques.
 
 Par exemple, vous pouvez décider que l’opacité d’un nœud de fusion correspondra à la moitié de l’intensité d’un nœud de déformation :
 
-![](what-is-a-function.resources/what-is-a-function-03.gif)
+![](../../assets/warpblend.gif)
 
 En fait, vous avez peut-être déjà créé des fonctions sans en être conscient :
 
 si vous avez exposé un paramètre, vous avez automatiquement créé une fonction et une variable : la fonction contient un nœud get float qui capture la valeur de la nouvelle variable créée :
 
-![](what-is-a-function.resources/what-is-a-function-04.gif)
+![](../../assets/expose.gif)

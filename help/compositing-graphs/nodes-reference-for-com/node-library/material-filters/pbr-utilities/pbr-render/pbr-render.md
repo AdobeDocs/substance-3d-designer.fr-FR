@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendu PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render-01.png){width="250px"}
+![](../../../../../../assets/pbr-render.png){width="250px"}
 
 <b>Entrée :</b> Filtres de matériau > Utilitaires PBR
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Effectue le rendu d’un matériau PBR sur une sphère, un plan ou un cylindre à l’aide de l’éclairage basé sur l’image (IBL). Il s’agit d’un moteur de rendu à l’intérieur d’un nœud, qui peut être très utile pour générer des vignettes, des aperçus ou des ressources 2D. Il ne s’agit pas d’un rendu comme la vue 3D, mais d’une véritable texture générée dans votre graphique.
 
-Ce nœud nécessite au moins un matériau PBR complet pour être connecté. Dans l’idéal, vous devez utiliser les modes de création de lien pour connecter le matériau au Rendu PBR. En outre, vous aurez besoin d’un environnement HDRI à enveloppe sphérique pour le rendu afin de calculer l’éclairage à partir de. Les matériaux à tester se trouvent sous Matériaux PBR, les cartes d&#39;environnement sous [Vue 3D dans la bibliothèque.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idéal, vous devez utiliser les modes de création de lien pour connecter le matériau au Rendu PBR. En outre, vous aurez besoin d’un environnement HDRI à enveloppe sphérique pour le rendu afin de calculer l’éclairage à partir de. Les matériaux à tester se trouvent sous Matériaux PBR, les cartes d&#39;environnement sous [Vue 3D dans la bibliothèque.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Ce nœud nécessite au moins un matériau PBR complet pour être connecté. Dans
 |:---|:---|
 | <b>Entrées de canal Matériau</b> | Plusieurs entrées de matériau sont utilisées pour effectuer le rendu du matériau sur la géométrie :<br><br>- Base color<br>- Normal<br>- Emissive<br>- Rugosité<br>- Métallique<br>- Specular level<br>- Height<br>- Ambient occlusion<br>- Masque d&#39;opacité<br>- Anisotropy level<br>- Anisotropy angle<br>- Translucency<br>- Échelle de distance de diffusion |
 | <b>Carte de Dirt de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Carte personnalisée du dirt sur l’objectif, qui apparaît lorsque les halos sont visibles. |
-| <b>Carte d&#39;Ouverture de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Peut être utilisé pour remplacer la forme Bokeh floue. Plus il est contrasté, plus il est visible. Gardez à l’esprit que seul un cercle de la texture est échantillonné. Par conséquent, toute forme doit tenir dans un cercle. |
+| <b>Carte d&#39;Ouverture de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Peut être utilisé pour remplacer la forme Bokeh floue. Plus il est contrasté, plus il est visible. Gardez à l’esprit que seul un cercle de la texture est échantillonné, donc toute forme doit tenir dans un cercle. |
 | <b>Entrée en arrière-plan</b> <i>Entrée de couleur</i> | Mappage personnalisé utilisé comme arrière-plan lorsque le paramètre <b>Mode arrière-plan</b> est défini sur <i>Entrée arrière-plan</i> |
 | <b>Map d&#39;environnement</b> <i>Entrée couleur</i> | Carte d&#39;environnement utilisée pour calculer l&#39;éclairage. Doit être mappé sphériquement et en HDR. |
 
@@ -91,16 +91,16 @@ Ce nœud nécessite au moins un matériau PBR complet pour être connecté. Dans
 | <b>Longueur du cylindre</b> <i>0.0 - 1.0</i> | Définissez la longueur du cylindre. |
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter la forme sans faire pivoter l’éclairage. |
 | <b>Direction de la rotation</b> <i>0.0 - 1.0</i> | Définit l’axe de rotation en 2D. |
-| <b>Rotation Autour De La Direction</b> <i>0.0 - 1.0</i> | Forme de rotation sur l’axe de rotation. |
+| <b>Rotation Autour De La Direction</b> <i>0.0 - 1.0</i> | Forme en rotation sur l’axe de rotation. |
 | <b>Position de la forme</b> <i>-1.0 - 1.0</i> | Déplace les formes. |
-| <b>UV</b> <i>1.0 - 6.0</i> | Définit la quantité d’UV-Répétition. |
+| <b>UV</b> <i>1.0 - 6.0</i> | Définit la quantité de recouvrement UV. |
 | <b>Échelle UV Sphère</b> <i>0.0 - 4.0</i> | Définit l&#39;échelle des UV sur la sphère. |
-| <b>Échelle UV plane</b> <i>1.0 - 4.0</i> | Définit l&#39;échelle des UV sur le plan. |
+| <b>Échelle UV plane</b> <i>1.0 - 4.0</i> | Définit l’échelle des UV sur le plan. |
 | <b>Échelle UV de cylindre</b> <i>1.0 - 6.0</i> | Définit l&#39;échelle des UV sur le cylindre. |
-| <b>Décalage des UV</b> <i>0.0 - 1.0</i> | UV de décalage |
-| <b>Inclinaison des UV</b> <i>Faux/Vrai</i> | Inclinaison l’UV de 45° pour la sphère. |
-| <b>Caméra</b> |  |
-| <b>Exposition</b> <i>-4.0 - 4.0</i> | Définissez l’exposition de la caméra. |
+| <b>Décalage des UV</b> <i>0.0 - 1.0</i> | Décale les UV |
+| <b>Inclinaison des UV</b> <i>Faux/Vrai</i> | Inclinaison les UV de 45 degrés pour la sphère. |
+| <b>Appareil photo</b> |  |
+| <b>Exposition</b> <i>-4.0 - 4.0</i> | Définissez l’exposition de l’appareil photo. |
 | <b>Mappeur de tonalité</b> <i>Linear, ACE, Filmic Hejl</i> | Définissez la solution de mappage de tonalité à utiliser pour l’image finale. |
 | <b>Mode Caméra</b> <i>Perspective, Orthographique</i> | Permutez la caméra entre deux modes de projection. |
 | <b>Champ de vision</b> <i>0.01 - 100.0</i> | Définissez l’angle FOV de la caméra. |
@@ -160,30 +160,30 @@ Toutes les images ont été générées directement dans Designer, dans le viewp
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-02.jpg" />
+            <img src="../../../../../../assets/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-03.jpg" />
+            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-04.jpg" />
+            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-05.jpg" />
+            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-06.jpg" />
+            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-07.jpg" />
+            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-08.jpg" />
+            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-09.jpg" />
+            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

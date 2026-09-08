@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Commutateur de matière
+title: Interrupteur matériau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# Commutateur de matière
+# Interrupteur matériau
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-switch.resources/material-switch-01.png){width="128px"}
+![](../../../../../../assets/material-switch.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Fusion
 
@@ -45,5 +45,5 @@ Ce nœud est la version multi-canaux en matériau complet du [commutateur](../..
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Basculer</b> <i>Faux/Vrai</i> | Basculez pour retourner au Matériau 1 ou 2. |

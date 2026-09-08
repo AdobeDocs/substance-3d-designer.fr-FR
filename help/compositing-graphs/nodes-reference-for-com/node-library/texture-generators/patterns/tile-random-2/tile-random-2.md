@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaïque aléatoire 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
+![](../../../../../../assets/tilerandom2.jpg){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Motifs
 
@@ -57,7 +57,7 @@ Une sortie dédiée vous permet d&#39;entrer les **UV** de la forme en **Flood F
 | <b>Carte Inclinée Aléatoire</b> <i>Niveaux de gris</i> | Image d&#39;entrée en niveaux de gris qui contrôle l’inclinaison aléatoire des formes.<br><br>Son impact est contrôlé par le paramètre <b>Multiplicateur de Map d&#39;entrée oblique aléatoire</b>. |
 | <b>Courbe De Rayon D&#39;Arrondi</b> <i>Niveaux de gris</i> | Image d&#39;entrée en niveaux de gris qui contrôle le rayon des angles arrondis des formes.<br><br>Son impact est contrôlé par le multiple de Map d&#39;entrée de rayon d&#39;<b>angles arrondis</b>. paramètre. |
 | <b>Map distance en biseau</b> <i>Niveaux de gris</i> | Image d&#39;entrée en niveaux de gris qui contrôle le biseautage des formes.<br><br>Son impact est contrôlé par la <b>Map d&#39;entrée de distance en biseau Mult.</b> paramètre. |
-| <b>Mappage de masque</b> <i>Niveaux de gris</i> | Image d&#39;entrée en niveaux de gris qui contrôle le masquage des formes.<br><br>Son impact est contrôlé par les paramètres <b>Début de l&#39;entrée de mappage de masque</b> et <b>Fin de l&#39;entrée de mappage de masque</b>. |
+| <b>Mappage de masque</b> <i>Niveaux de gris</i> | Image en niveaux de gris qui contrôle le masquage des formes.<br><br>Son impact est contrôlé par les paramètres <b>Début de l&#39;entrée de mappage de masque</b> et <b>Fin de l&#39;entrée de mappage de masque</b>. |
 
 <a name="parameters"></a>
 
@@ -65,13 +65,13 @@ Une sortie dédiée vous permet d&#39;entrer les **UV** de la forme en **Flood F
 
 |  |  |
 |:---|:---|
-| <b>Quantité X</b> <i>Entier</i> | Nombre de cellules sur l&#39;axe <b>X</b>. |
-| <b>Quantité Y</b> <i>Entier</i> | Nombre de cellules sur l&#39;axe <b>Y</b>. |
+| <b>Quantité X</b> <i>Nombre entier</i> | Nombre de cellules sur l&#39;axe <b>X</b>. |
+| <b>Quantité Y</b> <i>Nombre entier</i> | Nombre de cellules sur l&#39;axe <b>Y</b>. |
 | <b>Taille</b> |  |
 | <b>Multiplicateur De Taille Aléatoire</b> <i>Flotter</i> | Applique un réglage <i>global</i> à l&#39;intensité de la mise à l&#39;échelle aléatoire. |
 | <b>Multiplicateur De Map d&#39;entrée Aléatoire</b> <i>Flotter</i> | Règle l&#39;intensité de la mise à l&#39;échelle aléatoire à l&#39;aide des valeurs <i>échantillonnées</i> à partir de l&#39;entrée <b>Mappage de taille aléatoire</b>. |
 | <b>Taille Aléatoire X</b> <i>Flotter</i> | Règle l&#39;intensité de la mise à l&#39;échelle aléatoire sur l&#39;axe <b>X</b> <i>uniquement</i>. |
-| <b>Taille aléatoire Y</b> <i>Flottant</i> | Règle l&#39;intensité de la mise à l&#39;échelle aléatoire sur l&#39;axe <b>Y</b> <i>uniquement</i>. |
+| <b>Taille aléatoire Y</b> <i>Flotter</i> | Règle l&#39;intensité de la mise à l&#39;échelle aléatoire sur l&#39;axe <b>Y</b> <i>uniquement</i>. |
 | <b>Distribution aléatoire des tailles</b> <i>Nombre entier</i> | Contrôle la méthode de distribution des valeurs de mise à l&#39;échelle aléatoire :<br><br>- <i>Uniforme</i> : l&#39;échelle aléatoire est appliquée de <i>la même manière</i> sur toutes les cellules<br>- <i>Bruit bleu</i> : l&#39;échelle aléatoire est <i>ajustée</i> à l&#39;aide d&#39;un motif de bruit bleu |
 | <b>Aspect de la forme - Transforme</b> |  |
 | <b>Thickness d&#39;interstice</b> <i>Flotter</i> | Ajuste le thickness de l’espace entre les formes. Il est <i>égal pour toutes</i> formes. |
@@ -113,25 +113,25 @@ Une sortie dédiée vous permet d&#39;entrer les **UV** de la forme en **Flood F
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
+            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-05.gif" />
+            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-06.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-07.gif" />
+            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tile-random-2-08.png" />
+            <img src="../../../../../../assets/tilerandom2-node.png" />
         </td>
     </tr>
 </table>

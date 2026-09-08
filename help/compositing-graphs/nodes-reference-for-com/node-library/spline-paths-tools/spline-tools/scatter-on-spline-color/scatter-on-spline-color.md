@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersion sur la couleur de la spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "Icône de nœud")
+![Icône de nœud](../../../../../../assets/scatter-on-spline-color-icon.png "Icône de nœud")
 
 Dans : Outils Spline et Tracé > Outils spline
 
@@ -87,7 +87,7 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 | <b>Fin</b> <i>Flotter</i> | Décale le point à partir du début d&#39;une spline à l&#39;endroit où se termine la diffusion. La valeur est la longueur normalisée de chaque spline. |
 | <b>Pivot De Forme</b> <i>Float2</i> | Décale le pivot du motif X et Y dans l&#39;espace de tangente spline.<br>Étant donné que le pivot est ce qui est placé sur la spline, cela décale efficacement les motifs le long ou perpendiculairement à la spline.<br>Remarque : les positions des pivots ont un impact sur l&#39;effet des paramètres « Échelle » et « Rotation (Pivot) ». |
 | <b>Motif</b> |  |
-| <b>Motif</b> <i>Entier</i> | Le motif qui doit être dispersé le long des splines :<br>*- Entrée de motif* : utilisez les motifs fournis pour les entrées « # d&#39;entrée de motif »;<br>*- Carré;<br>* Disque;<br>* Paraboloïde;<br>* Bell;<br>* Gaussienne;<br>* Épine;<br>* Pyramide;<br>* Brique;<br>* Graduation;<br>* Ondes;<br>* Demi-cloche;<br>* Cloche striée;<br>* Croissant;<br>* Capsule Cône ;<br>* Graduation ;<br>*  w. offset;<br>* Hemisphere.* |
+| <b>Motif</b> <i>Nombre entier</i> | Le motif qui doit être dispersé le long des splines :<br>*- Entrée de motif* : utilisez les motifs fournis pour les entrées « # d&#39;entrée de motif »;<br>*- Carré;<br>* Disque;<br>* Paraboloïde;<br>* Bell;<br>* Gaussienne;<br>* Épine;<br>* Pyramide;<br>* Brique;<br>* Graduation;<br>* Ondes;<br>* Demi-cloche;<br>* Cloche striée;<br>* Croissant;<br>* Capsule Cône ;<br>* Graduation ;<br>*  w. offset;<br>* Hemisphere.* |
 | <b>Numéro d&#39;entrée de motif</b> <i>Entier</i> (disponible lorsque « Motif » est défini sur « Entrée du motif ») | Sélectionne l&#39;index du motif d&#39;entrée qui doit être diffusé. |
 | <b>Distribution d&#39;entrée de motif</b> <i>Entier</i> (disponible lorsque « Motif » est défini sur « Entrée du motif ») | Méthode utilisée pour sélectionner lequel des motifs d&#39;entrée doit être dispersé sur une spline donnée :<br>*- Aléatoire* : un motif est sélectionné aléatoirement ;<br>*- Le long de la spline* : l&#39;index de motif augmente progressivement le long de la spline ;<br>*- Index de motif* : boucle sur l&#39;index des motifs d&#39;entrée le long de chaque spline ;<br>*- Index de spline* : boucle sur l&#39;index des motifs d&#39;entrée d&#39;une spline à la suivante dans la liste des splines d&#39;entrée. |
 | <b>Variation de distribution</b> <i>Flottant</i> (disponible lorsque l’option Distribution d’entrée de motif est définie sur Spline) | Augmente ou diminue de manière aléatoire l&#39;index sélectionné des motifs sur la spline. |
@@ -167,11 +167,11 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "Exemple de nœud 1")
+![Exemple de nœud 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "Exemple de nœud 2")
+![Exemple de nœud 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

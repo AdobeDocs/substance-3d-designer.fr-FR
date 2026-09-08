@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Contour
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-stroke.resources/shape-stroke-01.png){width="128px"}
+![](../../../../../../assets/shape-stroke.png){width="128px"}
 
-![](shape-stroke.resources/shape-stroke-02.png){width="128px"}
+![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -61,7 +61,7 @@ Très utile pour une variété d’effets de retouche d’images.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-stroke.resources/shape-stroke-03.png" />
+            <img src="../../../../../../assets/shapestroke-ex.png" />
         </td>
     </tr>
 </table>

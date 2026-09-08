@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendu du volume de texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
+![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
 
 <b>Entrée :</b> Filtre > Effet
 
@@ -70,14 +70,14 @@ Le volume est représenté dans les limites d&#39;un *cube unitaire*. L&#39;écl
 | <b>Contour progressif</b> <i>Flotter</i> | Multiplie la valeur fournie par l&#39;entrée <b>Densité</b> avec la valeur de champ de distance <i>interne</i>.<br>Cela ajuste efficacement la largeur du <i>dégradé de fondu</i> à partir de la limite extérieure du volume vers l&#39;intérieur. |
 | <b>Mode Couleur Claire</b> <i>Nombre entier</i> | Définit la méthode d&#39;acquisition de la couleur de la lumière directionnelle :<br>- <i>Température (Kelvin)</i> : la couleur résulte de la température de la lumière, où une valeur <i>inférieure</i> entraîne une couleur <i>plus chaude</i><br>- <i>RGB</i> : définissez la couleur à l&#39;aide des valeurs RGB |
 | <b>Température de la lumière (Kelvin)</b> <i>Flotter</i> | Température de la lumière directionnelle, qui affecte sa <i>couleur</i>. Une valeur <i>inférieure</i> entraîne une couleur <i>plus chaude</i>.<br>Valeurs utiles :<br>1800 K - Bougie<br>2800 K - Ampoule incandescente<br>5500 K - Lumière du jour<br>6200 K - Blanc naturel<br>7000 K - Ciel couvert<br><i>Remarque</i> : ce paramètre n’est disponible que lorsque le paramètre <b>Mode de couleur de la lumière</b> est défini sur <i>Température (Kelvin)</i>. |
-| <b>Couleur claire</b> <i>Float3</i> | Couleur de la lumière directionnelle.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Mode de couleur de la lumière</b> est défini sur <i>Couleur RGB</i>. |
-| <b>Intensité de la lumière</b> <i>Flotter</i> | Intensité de la lumière directionnelle. |
-| <b>Couleur ambiante</b> <i>Float3</i> | Couleur de la lucarne ambiante. |
-| <b>Intensité ambiante</b> <i>Flotter</i> | Intensité de la lucarne ambiante. |
-| <b>Albédo</b> <i>Float3</i> | Couleur albédo du volume. |
-| <b>Mode Arrière-plan</b> <i>Nombre entier</i> | Méthode d&#39;ombrage de l&#39;arrière-plan de la scène rendue, en fonction de la <b>couleur d&#39;arrière-plan</b> :<br>-<i>ombrée</i> : la couleur est affectée par la <i>couleur</i> et l&#39;<i>intensité</i><br>-<i>couleur constante</i> de la lumière directionnelle : la couleur est appliquée uniformément <i>quelle que soit</i> la lumière directionnelle |
-| <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur utilisée pour remplir l’arrière-plan de la scène rendue. |
-| <b>Tramage</b> <i>Flotter</i> | Règle l&#39;intensité du <i>tramage du bruit bleu</i> utilisé pour lisser l&#39;ombrage. |
+| <b>Couleur claire</b> <i>Flottant3</i> | Couleur de la lumière directionnelle.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Mode de couleur de la lumière</b> est défini sur <i>Couleur RGB</i>. |
+| <b>Intensité de la lumière</b> <i>Flottant</i> | Intensité de la lumière directionnelle. |
+| <b>Couleur ambiante</b> <i>Flottant3</i> | Couleur de la lucarne ambiante. |
+| <b>Intensité ambiante</b> <i>Flottant</i> | Intensité de la lucarne ambiante. |
+| <b>Albédo</b> <i>Flottant3</i> | Couleur albédo du volume. |
+| <b>Mode Arrière-plan</b> <i>Entier</i> | Méthode d&#39;ombrage de l&#39;arrière-plan de la scène rendue, en fonction de la <b>couleur d&#39;arrière-plan</b> :<br>-<i>ombrée</i> : la couleur est affectée par la <i>couleur</i> et l&#39;<i>intensité</i><br>-<i>couleur constante</i> de la lumière directionnelle : la couleur est appliquée uniformément <i>quelle que soit</i> la lumière directionnelle |
+| <b>Couleur d&#39;arrière-plan</b> <i>Flottant4</i> | Couleur utilisée pour remplir l’arrière-plan de la scène rendue. |
+| <b>Dithering</b> <i>Flottant</i> | Règle l&#39;intensité du <i>dithering bruit bleu</i> utilisé pour lisser l&#39;ombrage. |
 | <b>Activer le plan de Sol</b> <i>Booléen</i> | Lorsque la valeur <i>True</i> est appliquée, elle rend un plan au sol <i>infini</i>. Le <i>cube unitaire</i> entourant la forme repose sur ce plan. |
 | <b>Plan Infini</b> <i>Booléen</i> | Définit le plan du sol sur <i>s&#39;étendre à l&#39;infini</i> jusqu&#39;à l&#39;horizon.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Activer le plan du Sol</b> est défini sur <i>Vrai</i>. |
 | <b>Taille du plan du Sol</b> <i>Float2</i> | Ajuste la taille du plan du sol.<br><i>Remarque</i> : ce paramètre n&#39;est disponible que lorsque le paramètre <b>Activer le plan du Sol</b> est défini sur <i>Vrai</i> et le paramètre <b>Plan infini</b> sur <i>Faux</i>. |
@@ -87,22 +87,22 @@ Le volume est représenté dans les limites d&#39;un *cube unitaire*. L&#39;écl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>
