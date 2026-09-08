@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Javel au soleil pour générer des masques basés sur l’exposition au soleil afin de créer des effets réalistes décolorés et estompés au soleil.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Javel solaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sun-bleach.resources/sun-bleach-01.png){width="128px"}
+![](../../../../../../assets/sun-bleach.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Ce masque est similaire à [Lumière](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), mais prend également en charge l&#39;IA. Il permet d&#39;obtenir un masque qui représente le blanchiment de la lumière et l&#39;atténuation sur un effet.
 
@@ -48,7 +48,7 @@ Ce masque est similaire à [Lumière](../../../../../../compositing-graphs/nodes
 |  |  |
 |:---|:---|
 | <b>Espace monde normal</b> <i>Entrée couleur</i> |  |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
 <a name="parameters"></a>
@@ -66,7 +66,7 @@ Ce masque est similaire à [Lumière](../../../../../../compositing-graphs/nodes
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sun-bleach.resources/sun-bleach-02.gif" />
+            <img src="../../../../../../assets/sun-bleach-ex.gif" />
         </td>
     </tr>
 </table>
