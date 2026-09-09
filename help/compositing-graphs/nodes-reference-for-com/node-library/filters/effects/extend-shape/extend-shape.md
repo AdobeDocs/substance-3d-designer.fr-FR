@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Extend Shape pour étendre les formes au-delà de leurs limites afin de créer des effets de masque et de motif étendus.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extendshapegrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extendshapecolor.png){width="200px"}
 
 </td>
 </tr>
@@ -60,11 +60,11 @@ Le paramètre <b>Afficher l&#39;assistant</b> vous permet de visualiser la secti
 
 |  |  |
 |:---|:---|
-| <b>Mode</b> <i>Nombre entier</i> | Définit les <i>paramètres</i> utilisés pour appliquer l&#39;extension :<br><br>- <i>Bidirectionnel</i> : la section de l&#39;<b>entrée</b> spécifiée par les <b>position d&#39;extension</b> et <b>angle d&#39;extension</b> est étendue sur la <b>distance d&#39;extension</b> dans des <i>directions opposées</i><br>-<i>unidirectionnelles</i> : la section de l&#39;<b>entrée</b> spécifiée par les <b>position d&#39;extension</b> et <b>extension L&#39;angle</b> est étendu sur la <b>distance d&#39;extension</b> dans une <i>direction unique</i><br>-<i>positions de début/fin</i> : une extension <i>vectorielle</i> est définie par <b>position de début</b> et <b>position de fin</b>. La section <i>perpendiculaire</i> de l&#39;<b>entrée</b> à la <b>position de départ</b> est étendue <i>sur ce vecteur</i> jusqu&#39;à la <b>position de fin</b> |
-| <b>Distance d&#39;extension</b> <i>Flotter</i> | Distance sur laquelle la section spécifiée par <b>Position d&#39;extension</b> et <b>Angle d&#39;extension</b> doit être étendue. La distance est exprimée en <i>proportion</i> de l&#39;étendue d&#39;image. |
-| <b>Position de l&#39;extension</b> <i>Flotter</i> | La position dans l&#39;image de la section qui doit être étendue. La valeur est exprimée en un <i>décalage par rapport au centre</i>. |
-| <b>Angle d&#39;extension</b> <i>Flotter</i> | L&#39;angle de la section qui doit être étendue, en considérant le point de départ est une <i>section verticale</i>. |
-| <b>Position de départ</b> <i>Float2</i> | Position de début du <i>vecteur d&#39;extension</i>. |
+| <b>Mode</b> <i>Entier</i> | Définit les <i>paramètres</i> utilisés pour appliquer l&#39;extension :<br><br>- <i>Bidirectionnel</i> : la section de l&#39;<b>entrée</b> spécifiée par les <b>position d&#39;extension</b> et <b>angle d&#39;extension</b> est étendue sur la <b>distance d&#39;extension</b> dans des <i>directions opposées</i><br>-<i>unidirectionnelles</i> : la section de l&#39;<b>entrée</b> spécifiée par les <b>position d&#39;extension</b> et <b>extension L&#39;angle</b> est étendu sur la <b>distance d&#39;extension</b> dans une <i>direction unique</i><br>-<i>positions de début/fin</i> : une extension <i>vectorielle</i> est définie par <b>position de début</b> et <b>position de fin</b>. La section <i>perpendiculaire</i> de l&#39;<b>entrée</b> à la <b>position de départ</b> est étendue <i>sur ce vecteur</i> jusqu&#39;à la <b>position de fin</b> |
+| <b>Distance d&#39;extension</b> <i>Flottant</i> | Distance sur laquelle la section spécifiée par <b>Position d&#39;extension</b> et <b>Angle d&#39;extension</b> doit être étendue. La distance est exprimée en <i>proportion</i> de l&#39;étendue d&#39;image. |
+| <b>Position de l&#39;extension</b> <i>Flottant</i> | La position dans l&#39;image de la section qui doit être étendue. La valeur est exprimée en un <i>décalage par rapport au centre</i>. |
+| <b>Angle d&#39;extension</b> <i>Flottant</i> | L&#39;angle de la section qui doit être étendue, en considérant le point de départ est une <i>section verticale</i>. |
+| <b>Position de départ</b> <i>Flottant 2</i> | Position de début du <i>vecteur d&#39;extension</i>. |
 | <b>Position de fin</b> <i>Flottant 2</i> | Position de fin du <i>vecteur d&#39;extension</i>. |
 | <b>Décalage de la Luminance de début</b> <i>Flottant</i> | Applique un décalage de luminance à la zone de l&#39;image <i>précédant</i> la section étendue. Ce décalage de luminance est <i>interpolé le long de la section</i> jusqu&#39;à la luminance de la zone de l&#39;image qui suit la section.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que dans la version en <b>niveaux de gris</b> du nœud. |
 | <b>Décalage de la Luminance de fin</b> <i>Flottant</i> | Applique un décalage de luminance à la zone de l&#39;image <i>suivant</i> la section étendue. Ce décalage de luminance est <i>interpolé le long de la section</i> jusqu&#39;à la luminance de la zone de l&#39;image précédant la section.<br><br><i>Remarque</i> : ce paramètre n&#39;est disponible que dans la version <b>en niveaux de gris</b> du nœud. |
@@ -77,16 +77,16 @@ Le paramètre <b>Afficher l&#39;assistant</b> vous permet de visualiser la secti
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape.gif" />
+            <img src="extend-shape.resources/extendshape.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-variant.jpg" />
+            <img src="extend-shape.resources/extendshape-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-variant2.jpg" />
+            <img src="extend-shape.resources/extendshape-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-node.png" />
+            <img src="extend-shape.resources/extendshape-node.png" />
         </td>
     </tr>
 </table>
