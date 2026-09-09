@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Décalage de l’histogramme pour décaler les distributions d’histogramme dans les textures de réglage des plages de luminosité et de contraste.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Décalage de l’histogramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-1.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -54,10 +54,10 @@ Déplace complètement toute la plage de l’image, en la bouclant lorsque vous 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-shift.gif" />
+            <img src="histogram-shift.resources/histogram-shift.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-shift2.gif" />
+            <img src="histogram-shift.resources/histogram-shift2.gif" />
         </td>
     </tr>
 </table>
