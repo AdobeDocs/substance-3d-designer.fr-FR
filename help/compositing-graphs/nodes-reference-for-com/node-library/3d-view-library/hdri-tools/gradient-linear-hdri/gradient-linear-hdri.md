@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-linear-hdri.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-linear-hdri.html"
 breadcrumb-title: ''
 description: Utilisez le nœud HDRI Dégradé linéaire pour créer des dégradés linéaires dans des environnements HDRI pour des configurations d’éclairage personnalisées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé linéaire (HDRI)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear.png){width="200px"}
+![](gradient-linear-hdri.resources/gradient-linear.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -55,7 +55,7 @@ Crée un dégradé linéaire à travers le centre et avec un point placé par l�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-ex1.gif" />
+            <img src="gradient-linear-hdri.resources/gradient-ex1.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lumière de ligne pour créer des sources lumineuses linéaires dans des environnements HDRI afin de simuler l’éclairage fluorescent et en bande.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lumière de ligne
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-line-light.png){width="200px"}
+![](line-light.resources/panorama-line-light.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -57,8 +57,8 @@ Les modes de positionnement de ce nœud sont légèrement plus complexes que ceu
 
 |  |  |
 |:---|:---|
-| <b>Mode de position</b> <i>Sol/Plafond, Distance avec l&#39;origine, Positions Mondiales</i> | Choisissez parmi trois modes de placement différents. Manipulation de la prise en charge du sol/plafond et de la Distance avec l&#39;origine dans la vue 2D, les positions universelles ne peuvent être modifiées que par le biais des propriétés, mais prennent en charge un placement plus exact. |
-| <b>Afficher la Grille du Sol</b> <i>Faux/Vrai</i> | Fonction d&#39;aide permettant de dessiner une grille de mise à la terre de débogage. Permet d’estimer la position des lignes dans l’espace. |
+| <b>Mode de position</b> <i>Sol/Plafond, Distance avec l&#39;origine, Positions Mondiales</i> | Choisissez parmi trois modes de placement différents. Les fonctions sol/Plafond et Distance avec l&#39;origine prennent en charge la manipulation dans la Vue 2D. Les positions World ne peuvent être modifiées que par le biais des propriétés, mais elles prennent en charge un placement plus exact. |
+| <b>Afficher la Grille du Sol</b> <i>Faux/Vrai</i> | Fonction d&#39;Assistant permettant de tracer une grille de sol de débogage. Permet d’estimer la position des lignes dans l’espace. |
 | <b>Coordonnées De Position</b> |  |
 | <b>Up Vector</b> <i>Z vers le haut, Y vers le haut</i> | En mode Position universelle uniquement, déterminez l&#39;orientation du repère. |
 | <b>UV Point 1</b> | Seulement avec sol / plafond et Distance avec l&#39;origine. Définit la position du premier point dans l’espace UV. |
@@ -91,7 +91,7 @@ Les modes de positionnement de ce nœud sont légèrement plus complexes que ceu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/line-light-ex.gif" />
+            <img src="line-light.resources/line-light-ex.gif" />
         </td>
     </tr>
 </table>

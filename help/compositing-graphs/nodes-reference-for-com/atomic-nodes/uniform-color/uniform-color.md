@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Couleur uniforme pour générer des textures de couleur uniforme afin de créer des fonds de couleur unie et des calques de base.
+description: Utilisez le nœud Couleur uniforme pour générer des textures de couleur uniforme afin de créer des remplissages de couleur unie et des calques de base.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : couleur uniforme](../../../../assets/comp_uniform_1.png "Nœud atomique : couleur uniforme"){width="200px"}
+![Noeud atomique : Couleur uniforme](uniform-color.resources/comp_uniform_1.png "Noeud atomique : Couleur uniforme"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Il s’agit d’un nœud simple, très souvent utilisé comme point de départ p
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. |
-| <b>Couleur de sortie</b> *Float/Float4* | Sélectionne la couleur plate à utiliser dans l’image de sortie.   Lorsque vous utilisez le mode colorimétrique Couleur, la couche Alpha est utilisée pour l’opacité, où 0 est entièrement transparent et 1 entièrement opaque. |
+| <b>Couleur de sortie</b> *Flottant/Flottant 4* | Sélectionne la couleur plate à utiliser dans l’image de sortie.   Lors de l’utilisation du mode colorimétrique Couleur, le Canal Alpha est utilisé pour l’opacité, où 0 est entièrement transparent et 1 entièrement opaque. |
 
 ## Connecteurs de sortie
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Nadir patch pour appliquer des correctifs à la zone nadir des panoramas HDRI afin de corriger les artefacts de fond dans les cartes d’environnement.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nadir patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/panorama-nadir-patch.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -66,15 +66,15 @@ L&#39;effet peut être rapidement vérifié et validé avec [Nadir extract](../.
 | <b>Dureté de correctif</b> <i>0.0 - 1.0</i> | Définissez la dureté/le contraste de la couche alpha. |
 | <b>Décalage de rotation source</b> <i>0.0 - 1.0</i> | Rotation uniquement pour la source du correctif. |
 | <b>Coordonnées De Position</b> |  |
-| <b>Position source</b> | Position de la source. Possède un handle en vue 2D. |
-| <b>Position du correctif</b> | Position de la cible. Possède un handle en vue 2D. |
+| <b>Position source</b> | Position de la source. Possède un handle en Vue 2D. |
+| <b>Position du correctif</b> | Position de la cible. Possède un handle en Vue 2D. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nadir-patch-ex.gif" />
+            <img src="nadir-patch.resources/nadir-patch-ex.gif" />
         </td>
     </tr>
 </table>

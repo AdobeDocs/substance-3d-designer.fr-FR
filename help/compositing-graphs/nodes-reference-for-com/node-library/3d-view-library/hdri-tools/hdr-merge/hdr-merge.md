@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de fusion HDR pour fusionner plusieurs images HDR en un seul panorama afin de créer des mappages d’environnement composites.
+description: Utilisez le nœud de fusion HDR pour fusionner plusieurs images HDR en un seul panorama afin de créer des maps d'environnement composites.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > HDR Merge
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion en HDR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -33,7 +33,7 @@ ht-degree: 13%
 
 ## Description
 
-Fusionnez plusieurs expositions photographiques pour créer une image de Plage dynamique élevée. La première entrée est l’image la plus sous-exposée.
+Fusionnez plusieurs expositions photographiques pour créer une image de Plage dynamique élevée. La première entrée est l’image la moins exposée.
 
 </td>
 </tr>
