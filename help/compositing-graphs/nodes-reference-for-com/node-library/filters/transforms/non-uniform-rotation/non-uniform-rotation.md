@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rotation non uniforme pour appliquer des transformations de rotation non uniformes afin de créer des effets de spirale et de vortex.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rotation non uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Les valeurs positives de l&#39;entrée **Map rotation** entraînent une rotation
 
 |  |  |
 |:---|:---|
-| <b>Entrée</b> <i>Niveaux de gris/Couleur</i> | Image en niveaux de gris en entrée qui doit pivoter. |
+| <b>Entrée</b> <i>Niveaux de gris/Couleur</i> | Image en niveaux de gris d&#39;entrée à faire pivoter. |
 | <b>Map rotation</b> <i>Niveaux de gris</i> | Mappage utilisé pour contrôler le degré de rotation, en *nombre de tours*. Les valeurs échantillonnées sont multipliées par rapport au **multiplicateur d&#39;angle de rotation**. Les valeurs négatives entraînent une rotation *antihoraire*. |
 | <b>Cartographie de Position de pivot de rotation</b> <i>Couleur</i> | Image utilisée pour spécifier la position de la rotation *pivot*. La position **X/Y** est mappée aux couches **R/G** de l&#39;image. |
 
@@ -71,8 +71,8 @@ Les valeurs positives de l&#39;entrée **Map rotation** entraînent une rotation
 
 |  |  |
 |:---|:---|
-| <b>Multiplicateur d&#39;angle de rotation</b> <i>Flotter</i> | Règle l&#39;intensité de l&#39;entrée de **Map rotation**. |
-| <b>Décalage de l&#39;angle de rotation</b> <i>Flotter</i> | Applique la rotation supplémentaire spécifiée. |
+| <b>Multiplicateur d&#39;angle de rotation</b> <i>Flottant</i> | Règle l&#39;intensité de l&#39;entrée de **Map rotation**. |
+| <b>Décalage de l&#39;angle de rotation</b> <i>Flottant</i> | Applique la rotation supplémentaire spécifiée. |
 | <b>Utiliser le mappage de Position de pivot</b> <i>Booléen</i> | Utilisez une *entrée bitmap* pour spécifier la position du pivot de rotation. La position **X/Y** est mappée aux canaux **R/G** de l&#39;entrée **Mappage de position**. |
 | <b>Position de pivot</b> <i>Float2</i> | Position du pivot autour duquel l&#39;image est pivotée. |
 | <b>Couleur d&#39;arrière-plan</b> <i>Float/Float4</i> | Couleur d&#39;arrière-plan pour afficher *à l&#39;extérieur* des limites de l&#39;image au cas où la mosaïque n&#39;est pas définie sur **Mosaïque de type H et V**. |
@@ -83,13 +83,13 @@ Les valeurs positives de l&#39;entrée **Map rotation** entraînent une rotation
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-demo-02-resized.gif" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-demo-02-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-variant-png.jpg" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-variant-png.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-node.png" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-node.png" />
         </td>
     </tr>
 </table>
