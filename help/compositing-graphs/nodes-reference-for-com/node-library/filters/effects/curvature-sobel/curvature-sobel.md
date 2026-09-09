@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Courbure Sobel pour détecter les contours de courbure à l’aide d’opérateurs Sobel pour créer des masques de contour.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Courbure Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -55,7 +55,7 @@ Ce nœud est utile pour mettre rapidement en évidence ou obscurcir certains bor
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/curv-sobel-ex.png" />
+            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
         </td>
     </tr>
 </table>

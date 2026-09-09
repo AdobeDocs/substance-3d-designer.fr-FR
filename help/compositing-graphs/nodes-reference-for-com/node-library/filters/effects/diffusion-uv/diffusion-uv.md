@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: Utilisez l’UV Diffusion pour appliquer des effets de diffusion dans l’espace UV afin de créer des transitions et des mélanges de couleurs lisses.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV de diffusion
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -69,18 +69,18 @@ Cela peut entraîner des résultats indésirables lors de l&#39;utilisation de c
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
         </td>
     </tr>
 </table>
