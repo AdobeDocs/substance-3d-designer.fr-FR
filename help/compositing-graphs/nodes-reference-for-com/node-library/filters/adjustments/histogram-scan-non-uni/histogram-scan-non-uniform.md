@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Analyse des histogrammes non uniforme pour effectuer une analyse des histogrammes non uniforme afin d’effectuer une correction colorimétrique avancée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Analyse d'histogramme non uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
+![](histogram-scan-non-uniform.resources/histogram-scan-non-uniform.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Réglages
 

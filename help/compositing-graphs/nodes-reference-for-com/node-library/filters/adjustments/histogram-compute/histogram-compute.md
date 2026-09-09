@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de calcul d'histogramme pour calculer les données d'histogramme à partir des textures à analyser et à traiter.
+description: Utilisez le nœud de calcul d'histogramme pour calculer les données d'histogramme à partir de textures pour analyse et traitement.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Histogramme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Calcul de l&#39;histogramme : icône](../../../../../../assets/histogram_compute.png "Calcul de l&#39;histogramme : icône"){width="200px"}
+![Calcul de l&#39;histogramme : icône](histogram-compute.resources/histogram_compute.png "Calcul de l&#39;histogramme : icône"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -48,7 +48,7 @@ Les outils personnalisés peuvent être créés à l&#39;aide des données calcu
 
 >[!IMPORTANT]
 >
-> Toutes les valeurs hors de la plage [0,1] sont verrouillées, de sorte que l’histogramme peut ne pas être précis pour les images HDR.
+> Toutes les valeurs comprises dans la plage [0,1] sont verrouillées. Par conséquent, l’histogramme peut ne pas être précis pour les images HDR.
 
 <a name="inputs"></a>
 
@@ -73,20 +73,20 @@ Les outils personnalisés peuvent être créés à l&#39;aide des données calcu
 
 |  |  |
 |:---|:---|
-| <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
+| <b>Résolution de l&#39;histogramme</b> *Entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
 
 ## Exemples
 
-![Calcul de l&#39;histogramme : Exemple 1](../../../../../../assets/histogram_compute_example_1.jpg "Calcul de l&#39;histogramme : Exemple 1"){zoomable="yes"}
+![Calcul de l&#39;histogramme : Exemple 1](histogram-compute.resources/histogram_compute_example_1.jpg "Calcul de l&#39;histogramme : Exemple 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
