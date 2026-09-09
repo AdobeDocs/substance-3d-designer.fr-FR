@@ -199,8 +199,8 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 * Le Specular level [Vue 3D] n’est pas appliqué correctement
 * [Vue 3D] Le Specular edge color ne fonctionne pas lors de l’utilisation de la pixellisation Eclair
 * [Vue 3D] La matière ajoutée par l’utilisateur n’est pas appliquée aux scènes par défaut
-* [Vue 3D][Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
-* [Vue 3D][Bakers] Aucune couleur de matière du fichier FBX
+* [Vue 3D]&#x200B;[Boulangers] La couleur du matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un boulanger « Color »
+* [Vue 3D]&#x200B;[Bakers] Aucune couleur de matière du fichier FBX
 * [Boulangers] Les couleurs de matériau dans les fichiers FBX ne sont pas correctement détectées
 * [Bakers] L’option « recalculer\_tangentes » est toujours « false » dans les exportations de paramètres prédéfinis JSON
 * [Bakers] CLI : Blocage lors de l’exécution du même baker de manière consécutive via un fichier JSON

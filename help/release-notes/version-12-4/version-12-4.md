@@ -111,7 +111,7 @@ Cette version 12.4 offre également la prise en charge complète des graphiques 
 * [Vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
 * [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur la couche alpha
 * [Localisation] Des curseurs et des boutons supplémentaires s’affichent dans les propriétés OpenGL de l’environnement.
-* [MDL][Substance de données] Blocage lors de la suppression de nœuds exposés
+* [MDL]&#x200B;[Substance de données] Blocage lors de la suppression de nœuds exposés
 * [Préférences] Le fichier par défaut\_config n’est jamais recréé s’il est supprimé
 * [modèle de Substance] Paramètre de réorganisation de blocage qui n&#39;apparaît pas au niveau de l&#39;instance
 * [API] SDProperty.getDefaultValue() renvoie presque toujours None
