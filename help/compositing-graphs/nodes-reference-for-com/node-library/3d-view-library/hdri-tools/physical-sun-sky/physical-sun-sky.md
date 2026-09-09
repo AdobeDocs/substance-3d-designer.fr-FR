@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Physical SunSky pour générer des environnements d'éclairage physiquement précis du soleil et du ciel pour un aperçu de matériau réaliste.
 helpx_creative_field: ""
