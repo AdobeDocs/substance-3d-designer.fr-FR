@@ -58,7 +58,7 @@ Assurez-vous de bien comprendre les [paramètres de Graphe](../../../../../../co
 | <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate le résultat. Double-cliquez sur le curseur pour entrer des valeurs négatives. |
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter l’image d&#39;entrée. |
 | <b>Rotation Sécurisée (Carré Uniquement)</b> <i>Faux/Vrai</i> | Contraint sur des valeurs admissibles pour conserver la netteté des pixels. |
-| <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Couleur d’arrière-plan pour remplir l’image. Visible uniquement lorsque le Mode de répétition [ dans les paramètres de base est défini sur « *Aucune Répétition* »](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
+| <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Couleur d’arrière-plan pour remplir l’image. Visible uniquement lorsque le Mode de répétition [&#x200B; dans les paramètres de base est défini sur « *Aucune Répétition* »](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
 
 ## Exemples
 
