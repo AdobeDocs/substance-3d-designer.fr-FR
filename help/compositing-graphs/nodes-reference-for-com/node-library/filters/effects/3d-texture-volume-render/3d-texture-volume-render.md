@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de rendu de volume de texture 3D pour effectuer le rendu des textures volumétriques à partir de données 3D afin de créer des effets de nuage et de brouillard.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendu du volume de texture 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
 
 <b>Entrée :</b> Filtre > Effet
 
@@ -87,22 +87,22 @@ Le volume est représenté dans les limites d&#39;un *cube unitaire*. L&#39;écl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>
