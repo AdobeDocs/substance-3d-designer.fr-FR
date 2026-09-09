@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestion des couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -68,20 +68,20 @@ Ces fichiers de configuration se trouvent dans le dossier <b>ressources > ocio</
 | <b>Images 8 bits</b> | Définit l’espace colorimétrique par défaut des bitmaps 8 bits. *Par défaut : défini par le fichier de configuration OpenColorIO* |
 | <b>Images 16 bits</b> | Définit l’espace colorimétrique par défaut des bitmaps 16 bits. *Par défaut : défini par le fichier de configuration OpenColorIO* |
 | <b>Images à virgule flottante</b> | Définit l&#39;espace colorimétrique par défaut pour les bitmaps de précision à virgule flottante, telles que les images *HDR* aux formats *\*.exr *ou*\*.hdr*. *Par défaut : défini par le fichier de configuration OpenColorIO* |
-| <b>Utiliser le nom du fichier pour détecter l&#39;espace colorimétrique</b> | Permet à Designer d&#39;attribuer automatiquement un espace colorimétrique si le *suffixe* d&#39;un nom de fichier bitmap *correspond exactement* au nom en minuscules d&#39;un espace colorimétrique inclus dans la *configuration* OpenColorIO actuelle. Exemple : une ressource bitmap *mybitmap\_aces\_acescg.png* serait automatiquement définie sur l&#39;espace colorimétrique *ACE - ACEScg* et le transforme approprié serait appliqué à l&#39;espace colorimétrique de travail. *Par défaut : coché* |
+| <b>Utiliser le nom du fichier pour détecter l&#39;espace colorimétrique</b> | Permet à Designer d&#39;attribuer automatiquement un espace colorimétrique si le *suffixe* d&#39;un nom de fichier bitmap *correspond exactement* au nom en minuscules d&#39;un espace colorimétrique inclus dans la *configuration* OpenColorIO actuelle. Exemple : une ressource bitmap *mybitmap\_aces\_acescg.png* sera automatiquement définie sur l&#39;espace colorimétrique *ACES - ACEScg* et la transformation appropriée sera appliquée à l&#39;espace colorimétrique de travail. *Par défaut : coché* |
 
-### Affichage 2D et vue 3D par défaut
+### Affichage 2D et 3D par défaut
 
 |  |  |
 | --- | --- |
-| <b>Affichage 2D et 3D par défaut</b> | Définit l&#39;espace colorimétrique *d&#39;affichage* par défaut pour les viewports [Vue 2D](../interface/2d-view/2d-view.md) et [Vue 3D](../interface/3d-view/3d-view.md). *Par défaut : défini par le fichier de configuration OpenColor IO* |
-| <b>Vignettes de gestion des couleurs</b> | Permet à Designer de transformer automatiquement les *vignettes* du nœud dans l&#39;espace colorimétrique de *travail* du graphe. *Par défaut : coché* |
+| <b>Affichage 2D et 3D par défaut</b> | Définit l&#39;espace colorimétrique par défaut de l&#39;*affichage* pour les fenêtres [Vue 2D](../interface/2d-view/2d-view.md) et [Vue 3D](../interface/3d-view/3d-view.md). *Par défaut : défini par le fichier de configuration OpenColor IO* |
+| <b>Vignettes de gestion des couleurs</b> | Permet à Designer de transformer automatiquement les *vignettes* du nœud en *espace colorimétrique de travail* dans le graphique. *Par défaut : coché* |
 
 ## Adobe ACE
 
 ### Paramètres de couleurs
 
-Lors de l’utilisation du mode ACE Adobe pour la gestion des couleurs, Substance 3D Designer utilise les informations stockées dans <b>Profils ICC</b> (*\*.icc / \*.icm*) pour effectuer des transformes de couleur et identifier les espaces colorimétriques.
+Lors de l’utilisation du mode ACE Adobe pour la gestion des couleurs, Substance 3D Designer utilise les informations stockées dans <b>Profils ICC</b> (*\*.icc / \*.icm*) pour effectuer des transformations de couleur et identifier les espaces colorimétriques.
 
 Designer est livré avec un certain nombre de profils ICC. Les fichiers de ces profils se trouvent dans le dossier `resources > icc` des fichiers d’installation de Designer.\
 Vous pouvez ajouter *vos propres profils ICC* en plaçant ces fichiers à l&#39;emplacement `Adobe/Adobe Substance 3D Designer/icc` dans le dossier *Documents* de l&#39;utilisateur actuel du système.
@@ -100,13 +100,13 @@ Vous pouvez ajouter *vos propres profils ICC* en plaçant ces fichiers à l&#39;
 | <b>Images à virgule flottante</b> | Définit le profil ICC par défaut à utiliser pour les bitmaps de précision à virgule flottante, telles que les images *HDR* aux formats *\*.exr *ou*\*.hdr*. *Valeur par défaut : Raw (c’est-à-dire aucun profil appliqué)* |
 | <b>Utiliser les profils ICC incorporés lorsqu&#39;ils sont disponibles</b> | Permet à Designer d’utiliser le profil ICC incorporé dans un bitmap au lieu des paramètres par défaut répertoriés ci-dessus. *Par défaut : coché* |
 
-### Espace d’affichage 2D et vue 3D par défaut
+### Espace par défaut de l’affichage des vues 2D et 3D
 
 |  |  |
 | --- | --- |
-| <b>Affichage 2D et 3D par défaut</b> | Définit l&#39;espace colorimétrique *d&#39;affichage* par défaut pour les viewports [Vue 2D](../interface/2d-view/2d-view.md) et [Vue 3D](../interface/3d-view/3d-view.md). *Par défaut :*** Profil ICC pour l’écran principal, récupéré à partir du système d’exploitation &#x200B;**&#x200B;** |
+| <b>Affichage 2D et 3D par défaut</b> | Définit l&#39;espace colorimétrique par défaut de l&#39;*affichage* pour les fenêtres [Vue 2D](../interface/2d-view/2d-view.md) et [Vue 3D](../interface/3d-view/3d-view.md). *Par défaut :*** Profil ICC pour l’écran principal, récupéré à partir du système d’exploitation &#x200B;**&#x200B;** |
 
-### Affichage du graphe
+### Affichage graphique
 
 |  |  |
 | --- | --- |
@@ -116,9 +116,9 @@ Vous pouvez ajouter *vos propres profils ICC* en plaçant ces fichiers à l&#39;
 
 Lors de l&#39;utilisation du mode <b>hérité</b>, la gestion des couleurs est *désactivée* dans Designer-
 
-Dans ce mode, les graphes et les images se comportent exactement de la même manière que dans les versions précédentes. Cela signifie que votre workflow des versions précédentes n&#39;est *pas du tout affecté* si ce paramètre n&#39;est pas *modifié*. Il y a cependant quelques ajouts utiles :
+Dans ce mode, les graphiques et les images se comportent exactement de la même manière que dans les versions précédentes. Cela signifie que votre workflow des versions précédentes n&#39;est *pas du tout affecté* si ce paramètre n&#39;est pas *modifié*. Il y a cependant quelques ajouts utiles :
 
-Vous pouvez choisir d&#39;utiliser <b>ACE sRGB</b> *le mappage tonal* dans la <b>vue 3D</b> pour correspondre à la sortie d&#39;autres logiciels, tels que le *[Moteur irréel](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)*.
+Vous pouvez utiliser <b>ACES sRGB</b> *le mappage tonal* dans la <b>vue 3D</b> pour correspondre à la sortie d&#39;autres logiciels, tels que le *[moteur irréel](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)*.
 
 Vous pouvez définir un espace colorimétrique pour les *bitmaps exportés* comme décrit dans la section [Exportation des sorties](#exporting-outputs) de cette page. Les espaces colorimétriques disponibles sont les suivants :
 
@@ -152,18 +152,18 @@ Vous pouvez modifier l&#39;espace colorimétrique d&#39;un bitmap à tout moment
 > 
 > En particulier, le **nom de fichier** peut être utilisé pour définir l&#39;espace colorimétrique approprié *automatiquement*. Veuillez noter que le nom de l&#39;espace colorimétrique dans le nom de fichier doit *correspondre au nom* dans le fichier de configuration OpenColorIO (par exemple, *myImage\_utility - linear -srgb.png* sera défini sur l&#39;espace colorimétrique *Utility - Linear - sRGB*).
 
-![Paramètre d&#39;espace colorimétrique bitmap](../assets/2019-3-0-bitmap-clr-space.png "Paramètre d&#39;espace colorimétrique bitmap")
+![Paramètre d&#39;espace colorimétrique bitmap](color-management.resources/2019-3-0-bitmap-clr-space.png "Paramètre d&#39;espace colorimétrique bitmap")
 
 ## Exportation de sorties
 
 Lors de l&#39;utilisation de la boîte de dialogue <b>Exporter les sorties</b>, il est possible d&#39;attribuer un <b>espace colorimétrique</b> (OCIO) ou d&#39;attacher un <b>profil ICC</b> (ACE Adobe) pour *chaque sortie*.\
 Designer va *convertir* les images aux espaces colorimétriques spécifiés avant d&#39;enregistrer les fichiers image.
 
-![Boîte de dialogue Exporter les sorties](../assets/2019-3-0-clr-mgt-export-outputs.png "Boîte de dialogue Exporter les sorties"){width="512px"}
+![Boîte de dialogue Exporter les sorties](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Boîte de dialogue Exporter les sorties"){width="512px"}
 
 Vous pouvez également attribuer un espace colorimétrique (OCIO) ou joindre un profil ICC (ACE Adobe) aux images *enregistrées* à partir de la [Vue 2D](../interface/2d-view/2d-view.md).
 
-![Options d’exportation de la vue 2D](../assets/2019-3-0-clr-mgt-save-image.png "Options d’exportation de la vue 2D")
+![Options d’exportation de la vue 2D](color-management.resources/2019-3-0-clr-mgt-save-image.png "Options d’exportation de la vue 2D")
 
 ## Vues 2D et 3D
 
@@ -171,7 +171,7 @@ Vous pouvez également attribuer un espace colorimétrique (OCIO) ou joindre un 
 
 Vous pouvez *activer/désactiver la gestion des couleurs* et modifier la *transformation d&#39;affichage* pour l&#39;affichage à tout moment à l&#39;aide du menu déroulant de la barre d&#39;outils d&#39;affichage.
 
-![Paramètre d&#39;espace colorimétrique dans la vue 2D](../assets/2019-3-0-clr-mgt-display-toolbar.png "Paramètre d&#39;espace colorimétrique dans la vue 2D"){width="512px"}
+![Paramètre d&#39;espace colorimétrique dans la vue 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Paramètre d&#39;espace colorimétrique dans la vue 2D"){width="512px"}
 
 ### Environnements HDRI de bibliothèque
 
@@ -180,7 +180,7 @@ Lors de l&#39;utilisation d&#39;une configuration OpenColorIO où l&#39;espace c
 
 Dans ce cas, l&#39;espace colorimétrique pour les environnements HDRI de bibliothèque doit être défini *manuellement* dans les propriétés de l&#39;environnement, disponibles dans le menu <b>Environnement</b> du panneau Vue 3D.
 
-![Paramètre d’espace colorimétrique de l’environnement 3D View](../assets/2019-3-0-clr-mgt-hdri-env.png "Paramètre d’espace colorimétrique de l’environnement 3D View"){width="512px"}
+![Paramètre d’espace colorimétrique de l’environnement 3D View](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Paramètre d’espace colorimétrique de l’environnement 3D View"){width="512px"}
 
 ## Nœuds de conversion de couleur
 
@@ -211,7 +211,7 @@ La [bibliothèque](../interface/the-library/the-library.md) comprend les nœuds 
 
 Ils sont utiles lorsque vous travaillez avec des graphiques créés *sans* gestion des couleurs ou des matériaux de la bibliothèque [Actifs Substance 3D](https://substance3d.adobe.com/assets).
 
-![Nœuds de conversion de couleur dans la bibliothèque](../assets/2019-3-0-clr-mgt-nodes.png "Nœuds de conversion de couleur dans la bibliothèque"){width="512px"}
+![Nœuds de conversion de couleur dans la bibliothèque](color-management.resources/2019-3-0-clr-mgt-nodes.png "Nœuds de conversion de couleur dans la bibliothèque"){width="512px"}
 
 ## Limitations connues
 

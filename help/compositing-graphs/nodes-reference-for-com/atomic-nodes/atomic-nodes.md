@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nœuds atomiques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 11%
@@ -28,35 +28,35 @@ Tous les autres nœuds de graphique de Substance de données de la [bibliothèqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : Bitmap](../../../assets/comp_bitmap_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
+[![Nœud atomique : Bitmap](atomic-nodes.resources/comp_bitmap_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
 [Bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : Blend](../../../assets/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Nœud atomique : Blend](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [Fusion](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : flou](../../../assets/comp_blur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+[![Nœud atomique : flou](atomic-nodes.resources/comp_blur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 [Flou](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : courbe](../../../assets/comp_curve.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
+[![Nœud atomique : courbe](atomic-nodes.resources/comp_curve.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
 
 [Courbe](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : flou directionnel](../../../assets/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[![Nœud atomique : flou directionnel](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 [Flou directionnel](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
@@ -68,35 +68,35 @@ Tous les autres nœuds de graphique de Substance de données de la [bibliothèqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : déformation directionnelle](../../../assets/comp_directionalwarp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
+[![Nœud atomique : déformation directionnelle](atomic-nodes.resources/comp_directionalwarp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 [Déformation directionnelle](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : estampage](../../../assets/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
+[![Nœud atomique : estampage](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 [Estampage](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : distance](../../../assets/comp_distance.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
+[![Nœud atomique : distance](atomic-nodes.resources/comp_distance.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
 
 [Distance](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : dégradé (dynamique)](../../../assets/comp_dyngradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
+[![Nœud atomique : dégradé (dynamique)](atomic-nodes.resources/comp_dyngradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
 
 [Dégradé (dynamique)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : Courbe de transfert de dégradé](../../../assets/comp_gradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
+[![Nœud atomique : Courbe de transfert de dégradé](atomic-nodes.resources/comp_gradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
 [Map de dégradé](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
@@ -108,35 +108,35 @@ Tous les autres nœuds de graphique de Substance de données de la [bibliothèqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : FX-Map](../../../assets/comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+[![Nœud atomique : FX-Map](atomic-nodes.resources/comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : conversion en niveaux de gris](../../../assets/comp_grayscaleconversion.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
+[![Nœud atomique : conversion en niveaux de gris](atomic-nodes.resources/comp_grayscaleconversion.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
 
 [Conversion en niveaux de gris](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : HSL](../../../assets/comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
+[![Nœud atomique : HSL](atomic-nodes.resources/comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
 [TSL](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : couleur d&#39;entrée](../../../assets/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Nœud atomique : couleur d&#39;entrée](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Couleur en entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : Niveaux de gris d&#39;entrée](../../../assets/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Nœud atomique : Niveaux de gris d&#39;entrée](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Niveaux de gris d&#39;entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
@@ -148,35 +148,35 @@ Tous les autres nœuds de graphique de Substance de données de la [bibliothèqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : valeur d&#39;entrée](../../../assets/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Nœud atomique : valeur d&#39;entrée](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 [Valeur d&#39;entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : niveaux](../../../assets/comp_levels.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
+[![Nœud atomique : niveaux](atomic-nodes.resources/comp_levels.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
 
 [Niveaux](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : normal](../../../assets/comp_normal.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
+[![Nœud atomique : normal](atomic-nodes.resources/comp_normal.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
 
 [Normale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : sortie](../../../assets/comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+[![Nœud atomique : sortie](atomic-nodes.resources/comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 [Sortie](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : processeur de pixels](../../../assets/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![Nœud atomique : processeur de pixels](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [Processeur de pixels](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
@@ -188,35 +188,35 @@ Tous les autres nœuds de graphique de Substance de données de la [bibliothèqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : Netteté](../../../assets/comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
+[![Nœud atomique : Netteté](atomic-nodes.resources/comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
 
 [Accentuer](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : réorganisation des canaux](../../../assets/comp_shuffle_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
+[![Nœud atomique : réorganisation des canaux](atomic-nodes.resources/comp_shuffle_1.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 [Permutation de canaux](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : SVG](../../../assets/comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
+[![Nœud atomique : SVG](atomic-nodes.resources/comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
 
 [SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : texte](../../../assets/comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
+[![Nœud atomique : texte](atomic-nodes.resources/comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 [Texte](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : transformation 2D](../../../assets/comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
+[![Nœud atomique : transformation 2D](atomic-nodes.resources/comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
 
 [Transformation 2D](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
 
@@ -228,21 +228,21 @@ Tous les autres nœuds de graphique de Substance de données de la [bibliothèqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : couleur uniforme](../../../assets/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
+[![Nœud atomique : couleur uniforme](atomic-nodes.resources/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 [Couleur uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : processeur de valeur](../../../assets/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+[![Nœud atomique : processeur de valeur](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 [Processeur de valeurs](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœud atomique : Warp](../../../assets/comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
+[![Nœud atomique : Warp](atomic-nodes.resources/comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
 [Déformation](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
@@ -266,11 +266,11 @@ Il existe plusieurs façons de créer des nœuds atomiques dans les graphiques d
 
 ### <b>La palette de noeuds</b>
 
-![](../../../assets/atomic-bar.png)
+![](atomic-nodes.resources/atomic-bar.png)
 
 La palette de noeuds se trouve dans la barre d&#39;outils [Affichage graphique](../../../interface/the-graph-view/the-graph-view.md) et permet d&#39;accéder facilement aux nœuds atomiques : il vous suffit de cliquer sur un nœud ou de le faire glisser dans le graphique.
 
-La palette est basculée à l&#39;aide de ce bouton : ![](../../../assets/node-palette-toggle.png)
+La palette est basculée à l&#39;aide de ce bouton : ![](atomic-nodes.resources/node-palette-toggle.png)
 
 ### <b>Menu du nœud</b>
 

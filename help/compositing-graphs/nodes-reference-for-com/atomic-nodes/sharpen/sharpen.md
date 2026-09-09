@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Accentuer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud plus net](../../../../assets/sharpen-4.png "Icône de nœud plus net")
+![Icône de nœud plus net](sharpen.resources/sharpen-4.png "Icône de nœud plus net")
 
 <b>Entrée :</b> Noeuds atomiques
 
@@ -56,4 +56,4 @@ Détermine si le canal Alpha de l’image doit être accentué ou laissé intact
 
 ## Exemples
 
-![Nœud plus net - Exemple 1](../../../../assets/sharpen-ex.png "Nœud plus net - Exemple 1")
+![Nœud plus net - Exemple 1](sharpen.resources/sharpen-ex.png "Nœud plus net - Exemple 1")

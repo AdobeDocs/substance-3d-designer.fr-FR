@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
-description: Découvrez comment fonctionne l’héritage dans les graphiques de composition de Substances pour créer des hiérarchies et des variations de graphiques réutilisables.
+description: Découvrez comment fonctionne l’héritage dans les graphes de composition de Substances pour créer des hiérarchies et des variations de graphes réutilisables.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Héritage dans les graphes Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -20,25 +20,25 @@ ht-degree: 0%
 
 # Héritage dans les graphes Substance
 
-Cette page décrit l&#39;application de l&#39;héritage dans les [graphes de Substances](../../compositing-graphs/substance-compositing-graphs.md) dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) et son impact sur la sortie du graphe.
+Cette page décrit l&#39;application de l&#39;héritage dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) et son impact sur la sortie du graphe.
 
-![Méthodes d’héritage](../../assets/inheritance-overview-1.jpg "Méthodes d’héritage"){width="1400px"}
+![Méthodes d’Héritage](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "Méthodes d’Héritage"){width="1400px"}
 
 ## Vue d’ensemble
 
-Tous les nœuds d&#39;un graphique de Substance peuvent *hériter* de la valeur de certains paramètres d&#39;une source. L&#39;héritage signifie que la modification de la valeur dans la source *effectuera cette modification* sur tous les nœuds qui en héritent. C’est l’un des concepts fondamentaux qui sous-tendent la capacité de Substance 3D Designer à générer des ressources paramétriques.
+Tous les nœuds d&#39;un graphe de Substance peuvent *hériter* de la valeur de certains paramètres d&#39;une source. Héritage signifie que la modification de la valeur dans la source *effectuera cette modification* sur tous les nœuds qui en héritent. C’est l’un des concepts fondamentaux qui sous-tendent la capacité de Substance 3D Designer à générer des ressources paramétriques.
 
 >[!NOTE]
 >
-> Un fichier de projet annoté démontrant l&#39;héritage est disponible dans la section [Exemples de graphiques de Substance](../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) de cette documentation.
+> Un fichier de projet annoté démontrant l&#39;héritage est disponible dans la section [Exemples de graphes de Substance](../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) de cette documentation.
 
-### Méthodes d’héritage
+### méthodes d’Héritage
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icône de la méthode d&#39;héritage &#39;Absolue&#39;](../../assets/ds-inheritance-absolute.png "Icône de la méthode d&#39;héritage &#39;Absolue&#39;"){width="128px"}
+![Icône pour la méthode d&#39;héritage &#39;Absolu&#39;](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-absolute.png "Icône pour la méthode d&#39;héritage &#39;Absolu&#39;"){width="128px"}
 
 <b>Absolu</b>
 
@@ -47,7 +47,7 @@ Aucun héritage, la valeur est définie *arbitrairement et localement* pour le p
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »](../../assets/ds-inheritance-relative-to-input.png "Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »"){width="128px"}
+![Icône pour la méthode d’héritage « Relative à l’entrée »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Icône pour la méthode d’héritage « Relative à l’entrée »"){width="128px"}
 
 <b>Relative à l&#39;entrée</b>
 
@@ -56,25 +56,25 @@ La valeur est héritée des données connectées à l&#39;*entrée principale* d
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône pour la méthode d&#39;héritage « Relative au parent »](../../assets/ds-inheritance-relative-to-parent.png "Icône pour la méthode d&#39;héritage « Relative au parent »"){width="128px"}
+![Icône pour la méthode d&#39;héritage « Relatif au parent »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "Icône pour la méthode d&#39;héritage « Relatif au parent »"){width="128px"}
 
-<b>Relative au parent</b>
+<b>Relatif au parent</b>
 
-La valeur est héritée du *parent* du nœud ou du graphique
+La valeur est héritée du *parent* du nœud ou du graphe
 
 </td>
 </tr>
 </table>
 
-![Démonstration des méthodes d&#39;héritage](../../assets/inheritance-overview.gif "Démonstration des méthodes d&#39;héritage")
+![démonstration des méthodes d&#39;Héritage](inheritance-in-substance-compositing-graphs.resources/inheritance-overview.gif "démonstration des méthodes d&#39;Héritage")
 
-Les méthodes d&#39;héritage sont appliquées pour les [paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) d&#39;un nœud, qui sont l&#39;ensemble de paramètres communs à tous les nœuds qui contrôlent les *aspects fondamentaux* de leur comportement. Ces paramètres sont les suivants :
+Les méthodes d&#39;Héritage sont appliquées pour les [paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) d&#39;un nœud, qui sont l&#39;ensemble de paramètres communs à tous les nœuds qui contrôlent les *aspects fondamentaux* de leur comportement. Ces paramètres sont les suivants :
 
 * **Taille de sortie**
 * **Format de sortie** (c&#39;est-à-dire, profondeur de bits)
 * **Taille De Pixel**
 * **Rapport Pixel**
-* **Mode mosaïque**
+* **Mode de répétition**
 * **Générateur aléatoire**
 
 Cela devrait vous permettre d&#39;apprécier l&#39;impact que les modifications apportées au nœud *one* peuvent avoir sur la résolution, la précision et le comportement de mosaïque de *tous les nœuds en aval* de celui-ci.
@@ -86,8 +86,8 @@ Cela devrait vous permettre d&#39;apprécier l&#39;impact que les modifications 
 
 >[!NOTE]
 >
-> **Taille de sortie :** utilisez le bouton de verrouillage ![](../../assets/props-output-size-lock.jpg) pour que la valeur Height *corresponde* à la valeur Largeur\
-> **Valeur de départ aléatoire :** utilisez le bouton ![](../../assets/prop-randomise.jpg) pour attribuer une nouvelle valeur aléatoire à la valeur de départ aléatoire.
+> **Taille de sortie :** utilisez le bouton de verrouillage ![](inheritance-in-substance-compositing-graphs.resources/props-output-size-lock.jpg) pour que la valeur Height *corresponde* à la valeur Largeur\
+> **Valeur de départ aléatoire :** utilisez le bouton ![](inheritance-in-substance-compositing-graphs.resources/prop-randomise.jpg) pour attribuer une nouvelle valeur aléatoire à la valeur de départ aléatoire.
 
 ## Apporter des modifications
 
@@ -96,7 +96,7 @@ Cela devrait vous permettre d&#39;apprécier l&#39;impact que les modifications 
 Dans le panneau Propriétés, tous les paramètres répertoriés dans la section [Paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) des propriétés d&#39;un nœud disposent d&#39;un bouton déroulant (icône) <b>Définir la méthode d&#39;héritage</b> en regard de leur libellé.\
 Ce bouton permet de sélectionner la méthode d&#39;héritage à utiliser pour un paramètre.
 
-![Modification de la méthode d&#39;héritage](../../assets/inheritance-change.gif "Modification de la méthode d&#39;héritage"){width="512px"}
+![Modification de la méthode d&#39;héritage](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Modification de la méthode d&#39;héritage"){width="512px"}
 
 Dans la plupart des cas, les paramètres de base d&#39;un *nœud* sont définis sur *Relatif à l&#39;entrée*, pour tirer parti du comportement procédural de l&#39;enchaînement des nœuds, tandis que les paramètres de base d&#39;un *graphe* sont définis sur *Relatif au parent*, de sorte que les paramètres globaux peuvent s&#39;adapter au contexte dans lequel le graphique est utilisé.
 
@@ -146,7 +146,7 @@ Lorsqu&#39;un graphe a plusieurs entrées, chaque entrée peut hériter de ses d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »](../../assets/ds-inheritance-relative-to-input.png "Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »"){width="128px"}
+![Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »"){width="128px"}
 
 <b>Relative à l&#39;entrée</b>
 
@@ -155,7 +155,7 @@ L’entrée hérite de ses données d’entrée distinctes, quels que soient les
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône pour la méthode d&#39;héritage « Relative au parent »](../../assets/ds-inheritance-relative-to-parent.png "Icône pour la méthode d&#39;héritage « Relative au parent »"){width="128px"}
+![Icône pour la méthode d&#39;héritage « Relative au parent »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "Icône pour la méthode d&#39;héritage « Relative au parent »"){width="128px"}
 
 <b>Relative au parent</b>
 
@@ -180,17 +180,17 @@ L&#39;entrée hérite du graphe et les données qu&#39;elle reçoit sont adapté
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Couleur d&#39;entrée principale/Niveaux de gris](../../assets/inheritance-primary-input-both.png){width="48px"}
+![Couleur d&#39;entrée principale/Niveaux de gris](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-both.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Couleur d&#39;entrée principale](../../assets/inheritance-primary-input-color.png){width="48px"}
+![Couleur d&#39;entrée principale](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-color.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Niveaux de gris d&#39;entrée principaux](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
+![Niveaux de gris d&#39;entrée principaux](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-grayscale.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ L&#39;une des entrées peut être définie comme **entrée principale** du graph
 </td>
 <td style="border: 0;" valign="top">
 
-![Types de connecteurs d’entrée](../../assets/inheritance-primary-input.jpg "Types de connecteurs d’entrée")
+![Types de connecteurs d’entrée](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input.jpg "Types de connecteurs d’entrée")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Les lettres représentent *des ensembles distincts* de paramètres de base et de
 
 **Exemple A**
 
-![Diagramme d&#39;héritage A](../../assets/inheritance-schematic-a.png "Diagramme d&#39;héritage A"){zoomable="yes"}
+![Diagramme d&#39;héritage A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "Diagramme d&#39;héritage A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Exemple B**
 
-![Diagramme d&#39;héritage B](../../assets/inheritance-schematic-b.png "Diagramme d&#39;héritage B"){zoomable="yes"}
+![Diagramme d&#39;héritage B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "Diagramme d&#39;héritage B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Les lettres représentent *des ensembles distincts* de paramètres de base et de
 
 **Exemple C**
 
-![Diagramme d&#39;héritage C](../../assets/inheritance-schematic-c.png "Diagramme d&#39;héritage C"){zoomable="yes"}
+![Diagramme d&#39;héritage C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "Diagramme d&#39;héritage C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Exemple D**
 
-![Diagramme d&#39;héritage D](../../assets/inheritance-schematic-d.png "Diagramme d&#39;héritage D"){zoomable="yes"}
+![Diagramme d&#39;héritage D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "Diagramme d&#39;héritage D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ Au fur et à mesure que vous construisez votre graphique et que vous augmentez s
 Un bon point de départ consiste à vérifier les données affichées juste en dessous d&#39;un nœud : il s&#39;agit de la résolution, du format de couleur et de la précision de l&#39;image produite par la *première sortie* du nœud. Bien que la compréhension de la résolution soit simple, le deuxième élément de données vaut la peine d&#39;être détaillé :
 
 * Le *préfixe de lettre* fait référence au format de couleur de l&#39;image :
-  * <b>L</b> : luminance (c&#39;est-à-dire, niveaux de gris)
+  * <b>L</b> : Luminance (c&#39;est-à-dire en niveaux de gris)
   * <b>C</b> : Couleur
 * Le *nombre* fait référence à la profondeur de bits de l’image, de la plus faible à la plus haute précision :
   * <b>8</b> : entier 8 bits (256 étapes en 0-1)
@@ -282,19 +282,19 @@ Un bon point de départ consiste à vérifier les données affichées juste en d
 
 Si le nœud a plusieurs sorties, vous pouvez vérifier leur résolution et leur précision de deux manières simples :
 
-* Double-cliquez sur <b>LMB</b> sur le *connecteur de sortie* pour afficher l&#39;image dans la [vue 2D](../../interface/2d-view/2d-view.md) et vérifiez les informations affichées dans le *coin inférieur gauche* de l&#39;aire d&#39;affichage 2D
+* Double-cliquez sur <b>LMB</b> sur le *connecteur de sortie* pour afficher l&#39;image dans la [Vue 2D](../../interface/2d-view/2d-view.md) et vérifiez les informations affichées dans le *coin inférieur gauche* du viewport de la Vue 2D
 * Créez un nœud [Levels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) ou [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) et connectez son entrée à la sortie que vous souhaitez vérifier. Le nœud *héritera de la sortie* par défaut, et vous pouvez ensuite vérifier les valeurs sous le nœud.
 
-Vous pouvez maintenant remonter la chaîne des nœuds dans le graphique et essayer de trouver le *premier nœud* où les valeurs inattendues apparaissent. Vérifiez la méthode d&#39;héritage de ses paramètres de base.
+Vous pouvez maintenant remonter la chaîne des nœuds dans le graphe et rechercher le *premier nœud* où les valeurs inattendues apparaissent. Vérifiez la méthode d&#39;héritage de ses paramètres de base.
 
-Si rien ne cloche et que le nœud est un nœud d&#39;instance, vous devez aller plus loin et ouvrir le graphique référencé par ce nœud d&#39;instance. Répétez le processus en commençant par les nœuds de sortie du graphique et en remontant.
+Si rien ne cloche et que le nœud est un instancier, vous devez aller plus loin et ouvrir le graphe référencé par cet instancier. Répétez le processus en commençant par les nœuds de sortie du graphe et en remontant.
 
 ### UN EXEMPLE COURANT
 
 En particulier, le concept d&#39;*entrée principale* est facilement *négligé* et peut entraîner des problèmes d&#39;héritage.
 
-Le nœud [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) est très sensible à cela, car il est utilisé très fréquemment. Son entrée <b>Arrière-plan</b> est son entrée principale.
+Le nœud [Fusion](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) est très sensible à cela, car il est utilisé très fréquemment. Son entrée <b>Arrière-plan</b> est son entrée principale.
 
-![Héritage de la taille de sortie](../../assets/inheritance-blend.jpg "Héritage de la taille de sortie"){width="512px"}
+![héritage de la taille de sortie](inheritance-in-substance-compositing-graphs.resources/inheritance-blend.jpg "héritage de la taille de sortie"){width="512px"}
 
-Vous devez faire attention à l’ordre dans lequel vous fusionnez les deux entrées : l’entrée dont vous souhaitez conserver la résolution et la précision vers le bas du graphique doit être connectée à l’entrée Arrière-plan, si le mode de fusion dont vous avez besoin le permet. Si ce n&#39;est pas le cas, vous devrez peut-être modifier les paramètres de base du nœud de fusion et leur méthode d&#39;héritage pour compenser.
+Vous devez veiller à l’ordre dans lequel vous fusionnez les deux entrées : l’entrée dont vous souhaitez conserver la résolution et la précision au bas du graphe doit être connectée à l’entrée Arrière-plan, si le mode de fusion dont vous avez besoin le permet. Si ce n&#39;est pas le cas, vous devrez peut-être modifier les paramètres de base du nœud de Fusion et leur méthode d&#39;héritage pour compenser.

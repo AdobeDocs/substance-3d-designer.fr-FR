@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation directionnelle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Déformation directionnelle](../../../../assets/comp_directionalwarp_1.png "Nœud atomique : Déformation directionnelle"){width="200px"}
+![Nœud atomique : Déformation directionnelle](directional-warp.resources/comp_directionalwarp_1.png "Nœud atomique : Déformation directionnelle"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ Le nœud Warp est un nœud assez simple mais utile qui sert de base pour d’aut
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Déformation Directionnelle - Exemple 1](../../../../assets/dir-warp.gif "Déformation Directionnelle - Exemple 1"){zoomable="yes"}
+![Déformation Directionnelle - Exemple 1](directional-warp.resources/dir-warp.gif "Déformation Directionnelle - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Déformation Directionnelle - Exemple 2](../../../../assets/dir-warp02.gif "Déformation Directionnelle - Exemple 2"){zoomable="yes"}
+![Déformation Directionnelle - Exemple 2](directional-warp.resources/dir-warp02.gif "Déformation Directionnelle - Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Déformation Directionnelle - Exemple 3](../../../../assets/dir-warp03.gif "Déformation Directionnelle - Exemple 3"){zoomable="yes"}
+![Déformation Directionnelle - Exemple 3](directional-warp.resources/dir-warp03.gif "Déformation Directionnelle - Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>

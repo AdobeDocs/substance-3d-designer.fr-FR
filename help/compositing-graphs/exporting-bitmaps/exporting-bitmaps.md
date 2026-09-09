@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportation d’images bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Cette page explique comment Substance 3D Designer peut exporter des fichiers vers de nombreux formats Bitmap différents et comment exporter plusieurs fichiers UV par lots.Si vous souhaitez [exporter vers des fichiers PSD](../exporting-psd-files/exporting-psd-files.md), une page distincte est dédiée à cette opération.
 
-![Exportation simplifiée](../../assets/exportflow.png "Exportation simplifiée")
+![Exportation simplifiée](exporting-bitmaps.resources/exportflow.png "Exportation simplifiée")
 
 ## Exportation de concepts
 
@@ -43,14 +43,14 @@ Une fois que vous êtes prêt à exporter, il existe deux façons d’accéder �
 
 Dans la fenêtre de l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez avec le bouton droit de la souris sur le graphique à exporter et sélectionnez **« Exporter les sorties sous forme d&#39;images bitmap »**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-Dans la [Vue graphique](../../interface/the-graph-view/the-graph-view.md), en cliquant sur le bouton Outils ![](../../assets/image2019-9-17-14-44-17.png) et en choisissant **« Exporter les sorties... »**
+Dans la [Vue graphique](../../interface/the-graph-view/the-graph-view.md), en cliquant sur le bouton Outils ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) et en choisissant **« Exporter les sorties... »**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ La version affichée à droite est la boîte de dialogue standard. Le changement
 1. <b>Exportation automatique :</b> bouton bascule pour activer la réexportation automatique des Sorties du graphe dès qu&#39;une modification est apportée. Uniquement pour le graphe actif. Peut être lourd et lent en fonction des paramètres.
 1. <b>Bouton Exporter :</b> exporte avec les paramètres actuels ou ferme la boîte de dialogue.
 
-![Boîte de dialogue Exporter les sorties](../../assets/fromgraph-1.png "Boîte de dialogue Exporter les sorties")
+![Boîte de dialogue Exporter les sorties](exporting-bitmaps.resources/fromgraph-1.png "Boîte de dialogue Exporter les sorties")
 
 ## Boîte de dialogue Exporter (Lot/UV)
 
@@ -90,4 +90,4 @@ Démarrez la boîte de dialogue avec les mêmes méthodes que celles décrites c
 1. <b>Tuiles UV :</b> tout comme pour les sorties, vous pouvez activer ou désactiver l&#39;exportation de Tuiles UV spécifiques.
 1. <b>[Taille de sortie](../../compositing-graphs/output-size/output-size.md) : </b>Remplacez la résolution d&#39;exportation, ce qui vous permet de travailler plus petit et plus efficace, tout en exportant à la taille maximale.
 
-![Boîte de dialogue Sorties d’exportation par lot](../../assets/batch.png "Boîte de dialogue Sorties d’exportation par lot")
+![Boîte de dialogue Sorties d’exportation par lot](exporting-bitmaps.resources/batch.png "Boîte de dialogue Sorties d’exportation par lot")

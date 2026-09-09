@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Courbe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Courbe](../../../../assets/comp_curve_1.png "Nœud atomique : Courbe"){width="200px"}
+![Nœud atomique : Courbe](curve.resources/comp_curve_1.png "Nœud atomique : Courbe"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,7 +99,7 @@ Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39
 
 Pour créer un point, double-cliquez simplement n’importe où sur la vue Courbe :
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif)
 
 ### Contrôle de l’influence des points
 
@@ -112,31 +112,31 @@ Afin d&#39;obtenir des résultats précis, les nœuds de courbe offrent différe
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png) Réinitialisez le mode de point à la valeur par défaut.
+![](curve.resources/image2017-2-17-14-13-27.png) Réinitialisez le mode de point à la valeur par défaut.
 
-![](../../../../assets/image2017-2-17-14-12-6.png) Verrouillez/déverrouillez les 2 gestionnaires Bézier afin que l&#39;utilisateur puisse les déplacer ensemble ou indépendamment.
+![](curve.resources/image2017-2-17-14-12-6.png) Verrouillez/déverrouillez les 2 gestionnaires Bézier afin que l&#39;utilisateur puisse les déplacer ensemble ou indépendamment.
 
-![](../../../../assets/image2017-2-17-14-14-0.png) Les deux côtés du point sont contrôlés par un gestionnaire Bézier.
+![](curve.resources/image2017-2-17-14-14-0.png) Les deux côtés du point sont contrôlés par un gestionnaire Bézier.
 
-![](../../../../assets/image2017-2-17-14-16-22.png) Le côté droit du point est contrôlé par un gestionnaire Bézier tandis que le côté gauche reste plat.
+![](curve.resources/image2017-2-17-14-16-22.png) Le côté droit du point est contrôlé par un gestionnaire Bézier tandis que le côté gauche reste plat.
 
-![](../../../../assets/image2017-2-17-14-18-25.png) Le côté gauche du point est contrôlé par un gestionnaire Bézier tandis que le côté droit reste plat.
+![](curve.resources/image2017-2-17-14-18-25.png) Le côté gauche du point est contrôlé par un gestionnaire Bézier tandis que le côté droit reste plat.
 
-![](../../../../assets/image2017-2-17-14-19-32.png) Les côtés des points restent plats
+![](curve.resources/image2017-2-17-14-19-32.png) Les côtés des points restent plats
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curvepointsmodes.gif)
 
 ### Afficher l’histogramme d’entrée
 
-Vous pouvez afficher/masquer l&#39;histogramme de votre saisie en cliquant simplement sur ![](../../../../assets/image2017-2-17-14-50-13.png)
+Vous pouvez afficher/masquer l&#39;histogramme de votre saisie en cliquant simplement sur ![](curve.resources/image2017-2-17-14-50-13.png)
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/image2017-2-17-14-48-35.png)
 
 ### Contrôle individuel de chaque couche (entrée de couleur)
 
@@ -151,15 +151,15 @@ Sélectionnez simplement la courbe que vous souhaitez ajuster dans la liste dér
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-En mode Courbe RGB, vous pouvez masquer/afficher les courbes de couche individuelles en appuyant/déplaçant ![](../../../../assets/image2017-2-17-14-55-0.png) :
+En mode Courbe RGB, vous pouvez masquer/afficher les courbes de couche individuelles en appuyant/déplaçant ![](curve.resources/image2017-2-17-14-55-0.png) :
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/image2017-2-17-14-55-38.png)
 
 ### Alignement, mise en miroir et inversion
 
@@ -178,7 +178,7 @@ Si vous cliquez avec le bouton droit de la souris sur la vue Courbe, vous obtien
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Tracez une zone de sélection.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/ctrl.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ Contraindre le mouvement sur l’axe X ou Y.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/shift.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Rompez temporairement les poignées pour les déplacer indépendamment.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/altclick.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ Rompez temporairement les poignées pour les déplacer indépendamment.
 
 Lors de l’ajustement des gestionnaires, vous pouvez vous trouver dans un cas où un gestionnaire passe par-dessus la vue de courbe.
 
-Dans ce cas, vous pouvez utiliser le bouton ![](../../../../assets/image2017-2-20-19-11-53.png) pour adapter la taille au contenu.
+Dans ce cas, vous pouvez utiliser le bouton ![](curve.resources/image2017-2-20-19-11-53.png) pour adapter la taille au contenu.
 
-Le bouton ![](../../../../assets/image2017-2-20-19-12-45.png) réinitialise le niveau de zoom à 1
+Le bouton ![](curve.resources/image2017-2-20-19-12-45.png) réinitialise le niveau de zoom à 1
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/viewzoom.gif)
 
 ## Connecteurs d’entrée
 

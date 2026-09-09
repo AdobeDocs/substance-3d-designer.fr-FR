@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou directionnel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Flou directionnel](../../../../assets/comp_dirmotionblur_1.png "Noeud atomique : Flou directionnel"){width="200px"}
+![Noeud atomique : Flou directionnel](directional-blur.resources/comp_dirmotionblur_1.png "Noeud atomique : Flou directionnel"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ Les images ci-dessous montrent le flou directionnel et le flou [anisotrope](../.
 
 <b>Flou directionnel</b>
 
-![Comparaison du flou directionnel](../../../../assets/dirblur-01.png "Comparaison du flou directionnel"){zoomable="yes"}
+![Comparaison du flou directionnel](directional-blur.resources/dirblur-01.png "Comparaison du flou directionnel"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Flou anisotrope</b>
 
-![Comparaison du flou anisotrope](../../../../assets/aniso-01.png "Comparaison du flou anisotrope"){zoomable="yes"}
+![Comparaison du flou anisotrope](directional-blur.resources/aniso-01.png "Comparaison du flou anisotrope"){zoomable="yes"}
 
 </td>
 </tr>

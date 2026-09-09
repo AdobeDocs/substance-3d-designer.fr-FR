@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Directives d’optimisation des performances
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -65,12 +65,12 @@ Les opérations colorimétriques prennent quatre fois plus de temps que les opé
 +++
 
 +++Utiliser 8 bits lorsque le mode 16 bits n’est pas nécessaire
-La version CPU de la Substance Engine (SSE2) *ne prend pas* en charge les niveaux de gris 16 bits ou 8 bits. Le moteur GPU prend en charge les 4 combinaisons de 8/16 bits et niveaux de gris/couleur. *Actuellement, seul le moteur CPU est utilisé dans les plug-ins Unity et Unreal Engine*.
+La version CPU de la Substance Engine (SSE2) *ne prend pas* en charge les niveaux de gris 16 bits ou 8 bits. Le moteur GPU prend en charge les 4 combinaisons de 8/16 bits et niveaux de gris/couleur. *Actuellement, seul le moteur CPU est utilisé dans les plug-ins Unity et Unreal Moteur*.
 
 +++
 
 +++Réduire autant que possible la taille de la sortie du nœud
-Parfois, la réduction de certains nœuds n’affecte pas le résultat final, mais affecte les performances. Par exemple, l’utilisation d’un nœud Couleur uniforme défini sur la même taille de sortie que le document est inutile : la couleur uniforme doit être définie sur Absolue [16px x 16px] et le nœud suivant sur Relative au parent. En général, cette astuce fonctionne bien pour les images basse fréquence, telles que le bruit de Perlin.
+Parfois, la réduction de certains nœuds n’affecte pas le résultat final, mais affecte les performances. Par exemple, l’utilisation d’un nœud de Couleur uniforme défini sur la même taille de sortie que le document est inutile : la Couleur uniforme doit être définie sur Absolue [16px x 16px] et le nœud suivant sur Relatif au parent. En général, cette astuce fonctionne bien pour les images basse fréquence, telles que le bruit de Perlin.
 
 +++
 
@@ -79,7 +79,7 @@ Cela ralentit les performances de rendu.
 
 +++
 
-+++Lorsque vous utilisez le nœud Fusion, désactivez Fusion Alpha lorsqu’il n’est pas nécessaire
++++Lors de l’utilisation du nœud de Fusion, désactivez la Simulation de transparence lorsqu’elle n’est pas requise
 
 
 +++
@@ -89,23 +89,23 @@ Cela ralentit les performances de rendu.
 
 +++
 
-+++Certains générateurs de bruit sont affectés par la quantité de motifs dessinés
++++Certains générateurs de bruits sont affectés par la quantité de motifs dessinés
 Par exemple, le nœud [Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) sera plus lent à traiter le plus de motifs que vous y ajouterez.
 
 +++
 
 +++Certains bruits sont affectés par un facteur d’échelle
-Ce facteur va en fait dessiner davantage de schémas. Les nœuds affectés sont les bruits, les modèles de Cellules, etc. Si vous avez besoin d&#39;un motif de bruit blanc, n&#39;utilisez pas un bruit avec une valeur d&#39;échelle très élevée et utilisez plutôt les nœuds [Bruit blanc](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) ou [Bruit blanc accéléré](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md).
+Ce facteur va en fait dessiner davantage de schémas. Les nœuds concernés sont les bruits, les modèles de Cellules, etc. Si vous avez besoin d&#39;un motif de bruit blanc, n&#39;utilisez pas un bruit avec une valeur d&#39;échelle très élevée et utilisez plutôt les nœuds [Bruit blanc](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) ou [Bruit blanc rapide](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md).
 
 +++
 
-+++A l&#39;inverse, il existe des générateurs de bruit très rapides
-Il s&#39;agit notamment de [bruit blanc rapide](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), de [bruit de Somme fractale](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md) et de [bruit anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
++++Inversement, il y a des générateurs de bruit très rapides
+Il s&#39;agit notamment de [Bruit blanc rapide](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), de [Somme fractale de base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md) et de [Bruit anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
 
 +++
 
 +++Méfiez-vous des lourdes fonctions d’échantillonnage d’image dans certains cas
-Les fonctions sont exécutées sur le moteur CPU, sauf dans les [processeurs pixellisés](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Si vous effectuez beaucoup d&#39;échantillonnage d&#39;image lourd (modification des coordonnées $pos) dans [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ou [FXmaps](../../function-graphs/fxmaps/fxmaps.md), il y aura beaucoup de permutation entre la VRAM et la RAM du processeur, ce qui entraînera des retards de performances.
+Les fonctions sont exécutées sur le moteur CPU, sauf dans [Processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Si vous effectuez beaucoup d&#39;échantillonnage d&#39;image lourd (modification des coordonnées $pos) dans [Processeurs de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ou [FXmaps](../../function-graphs/fxmaps/fxmaps.md), il y aura beaucoup de permutation entre la mémoire vive VRAM et la mémoire vive du processeur, ce qui entraînera des retards de performances.
 
 +++
 
@@ -122,7 +122,7 @@ Utilisez plutôt des transformations de réduction d’échelle.
 +++
 
 +++Travaillez autant que possible en niveaux de gris
-Basculez en mode colorimétrique à la fin du graphique.
+Passez en mode couleur à l’extrémité du graphe.
 
 +++
 
@@ -134,18 +134,18 @@ Basculez en mode colorimétrique à la fin du graphique.
 ### OPTIMISATION DE LA TAILLE POUR LES BITMAPS INCORPORÉS
 
 La [taille de sortie](../../compositing-graphs/output-size/output-size.md) de [bitmaps](../../resources/bitmap-resource/bitmap-resource.md) est définie sur [&#39;Absolue&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) par défaut. Cela signifie que si le bitmap est connecté à une sortie via la chaîne de nœuds, il force alors la sortie finale à avoir la taille du bitmap incorporé.\
-La taille de sortie d&#39;un nœud que vous insérez après l&#39;image bitmap sera définie sur [&#39;Relative à l&#39;entrée&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Cela signifie que le nœud va également inhérenter la taille du bitmap et transporter cette taille le long de la chaîne de nœuds jusqu&#39;aux sorties. Pour corriger cela, vous devez définir le nœud après l&#39;image bitmap pour que sa taille de sortie soit définie sur [&#39;Relative au parent&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+La taille de sortie d&#39;un nœud que vous insérez après l&#39;image bitmap sera définie sur [&#39;Relative à l&#39;entrée&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Cela signifie que le nœud va également inhérenter la taille du bitmap et transporter cette taille le long de la chaîne de nœuds jusqu&#39;aux sorties. Pour corriger ce problème, vous devez définir le nœud après le bitmap pour que sa taille de sortie soit définie sur [&#39;Relatif au parent&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
-Si le graphique est défini pour avoir une résolution dynamique, vous pouvez modifier la Taille de sortie sur l’image bitmap incorporée pour qu’elle soit Relative au parent.\
-De cette façon, la taille du bitmap change en fonction du graphique parent et vous n’obtenez pas une situation où le graphique traite une résolution supérieure à celle nécessaire dans le bitmap.
+Si le graphe est défini pour avoir une résolution dynamique, vous pouvez modifier la Taille de sortie sur l’image bitmap incorporée pour qu’elle soit Relative au parent.\
+De cette façon, la taille du bitmap change en fonction du graphe parent et vous ne vous retrouvez pas dans une situation où le graphe traite une résolution plus élevée dans le bitmap que ce qui est nécessaire.
 
 >[!WARNING]
 >
-> Définir un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sur « Relatif au parent » et [publier](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) le graphique sur une ressource Substance 3D (SBSAR) enregistrera le bitmap à une résolution de **256x256** au lieu de sa taille d&#39;origine. Il est plutôt conseillé de conserver la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) des [tailles de sortie](../../compositing-graphs/output-size/output-size.md) des nœuds Bitmap comme &#39;Absolue&#39; et d&#39;utiliser un nœud [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) défini sur &#39;Relative au parent&#39; juste après le nœud Bitmap.
+> Définir un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) sur « Relatif au parent » et [publier](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) le graphe sur une ressource Substance 3D (SBSAR) enregistrera le bitmap à une résolution de **256x256** au lieu de sa taille d&#39;origine. Il est plutôt conseillé de conserver la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) de la [taille de sortie](../../compositing-graphs/output-size/output-size.md) des nœuds Bitmap comme &#39;absolue&#39; et d&#39;utiliser un nœud [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) défini sur &#39;Relatif au parent&#39; juste après le nœud Bitmap.
 
-![Optimisation des bitmaps incorporés 1](../../assets/input-1.jpg "Optimisation des bitmaps incorporés 1")
+![Optimisation des bitmaps incorporés 1](performance-optimization-guidelines.resources/input-1.jpg "Optimisation des bitmaps incorporés 1")
 
-![Optimisation des bitmaps incorporés 2](../../assets/relativetoparent.jpg "Optimisation des bitmaps incorporés 2")
+![Optimisation des bitmaps incorporés 2](performance-optimization-guidelines.resources/relativetoparent.jpg "Optimisation des bitmaps incorporés 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Il est également conseillé de définir le format des ressources Bitmap sur Jpe
 </td>
 <td style="border: 0;" valign="top">
 
-![Optimisation des bitmaps incorporés 3](../../assets/format.jpg "Optimisation des bitmaps incorporés 3")
+![Optimisation des bitmaps incorporés 3](performance-optimization-guidelines.resources/format.jpg "Optimisation des bitmaps incorporés 3")
 
 </td>
 </tr>
