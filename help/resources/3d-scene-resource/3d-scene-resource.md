@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Découvrez comment importer et utiliser des ressources de scène 3D dans Substance 3D Designer pour l’aperçu et le test des matériaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressource de scène 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Les formats de fichier de scène 3D suivants sont pris en charge :
 
 Les scènes 3D ne peuvent *être liées* que, ce qui signifie qu’elles restent à leur emplacement sur le disque et sont simplement référencées dans l’application.
 
-Lorsqu&#39;un package avec une ressource de scène 3D est publié en tant que ressource [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) (SBSAR), le maillage n&#39;est *pas incorporé*, mais ignoré.
+Lorsqu&#39;un package avec une ressource de scène 3D est publié en tant que ressource [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), le maillage n&#39;est *pas incorporé*, mais ignoré.
 
 ## Création de cartes de maillage
 
@@ -56,7 +56,7 @@ Lier une scène 3D à votre package est le seul moyen de [recréer des cartes de
 * Une fois la ressource chargée dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez sur *RMB* et sélectionnez l&#39;option <b>Informations sur le modèle de cuisson</b> dans le menu contextuel
 * La boîte de dialogue [Informations sur le modèle de cuisson](../../bakers/bakers.md) s&#39;affiche pour vous permettre de configurer et d&#39;exécuter des cuvettes de maillage
 
-![Création de cartes de maillage](3d-scene-resource.resources/3d-scene-resource-01.gif "Création de cartes de maillage"){width="512px"}
+![Création de cartes de maillage](../../assets/bake-model-information.gif "Création de cartes de maillage"){width="512px"}
 
 ## Utilisation des tuiles UDIM/UV
 

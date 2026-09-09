@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 13.1 pour en savoir plus sur les améliorations apportées au graphe de nœuds et la prise en charge de l’exportation AxF.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Date de publication : 12 décembre 2023*
 
-![Bannière Substance 3D Designer 13.1](version-13-1.resources/version-13-1-01.png "Bannière Substance 3D Designer 13.1")
+![Bannière Substance 3D Designer 13.1](../../assets/24-library-hero-1920x620.png "Bannière Substance 3D Designer 13.1")
 
 ## Améliorations en matière de cadres
 
@@ -34,19 +34,19 @@ Le cadre est un outil obligatoire pour que votre graphe reste bien organisé et 
 
 Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité. Pour faciliter ces réglages, il est désormais possible de développer automatiquement un cadre lors du déplacement d&#39;objets inclus : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin que cet objet reste dans leurs limites.
 
-![développement automatique](version-13-1.resources/version-13-1-02.gif)
+![développement automatique](../../assets/autoexpand.gif)
 
 ### Ajuster la taille au contenu
 
 Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Cette nouvelle commande vous permet d’ajuster automatiquement la position et la taille du cadre afin qu’il s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne. Si le cadre a une description, il est ajusté pour utiliser tout espace vide à côté de la description, si possible.
 
-![fitsize](version-13-1.resources/version-13-1-03.gif)
+![fitsize](../../assets/fitsize.gif)
 
 ### Descriptions améliorées
 
 Grâce au code de HTML, vous pouvez désormais avoir du texte formaté dans une description de cadre. Cela s&#39;applique également aux commentaires.
 
-![richtext](version-13-1.resources/version-13-1-04.png)
+![richtext](../../assets/description-3.png)
 
 ### <b>... Et bien plus encore !</b>
 
@@ -64,7 +64,7 @@ Beaucoup de choses ont été repensées, comme les règles d&#39;appartenance po
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![AxF](version-13-1.resources/version-13-1-05.png "AxF")
+Icône de fichier ![AxF](../../assets/axf-file-icon.png "AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Dans cette nouvelle version, nous introduisons la possibilité de modifier les m
 </tr>
 </table>
 
-![Exporter AxF](version-13-1.resources/version-13-1-06.gif)
+![Exporter AxF](../../assets/exportaxf.gif)
 
 ## API
 
@@ -130,7 +130,7 @@ Enfin, cette version 13.1 continue d’améliorer l’API Python en ajoutant deu
 
 ### Correctifs
 
-* [vue 3D] Impossible d&#39;attribuer une texture à une entrée de type texture\_2d d&#39;un Matériau MDL
+* [Vue 3D] Impossible d&#39;attribuer une texture à une entrée de type texture\_2d d&#39;un matériau MDL
 * [AxF] Les identificateurs de graphique dans la liste des modèles peuvent être vides
 * [AxF] Le champ de modèle de graphique de Substance est vide par défaut
 * atlas scatter [Contenu] : comportement incorrect dans des cas spécifiques
@@ -144,13 +144,13 @@ Enfin, cette version 13.1 continue d’améliorer l’API Python en ajoutant deu
 * [Moteur] Les valeurs booléennes dans les processeurs de traitement des valeurs sont toujours évaluées sur « False » (Apple Silicon uniquement)
 * [Explorer] L’ordre des boutons de la barre d’outils est incohérent entre les systèmes d’exploitation
 * [Images] N’accrochez pas les nœuds lorsque vous déplacez une image avec le modificateur CTRL
-* [Map de dégradé] l’option réinitialiser tout doit également réinitialiser le widget de dégradé
+* [Courbe de transfert de dégradé] réinitialiser tout doit également réinitialiser le widget de dégradé
 * [GraphRender] Certains nœuds deviennent noirs lors de l’ajustement en mode aperçu
 * [Graphique] L’aperçu de « Valeur d’entrée » est bloqué sur « Faux » lors de l’ajustement de la valeur booléenne par défaut (Apple Silicon uniquement)
 * [Graphique] Les nœuds de point proches du bord de l’image ne sont pas déplacés par l’image
 * [Interopérabilité] L’icône Renvoyer n’est pas mise à jour après l’envoi à Substance 3D Stager
-* [MDL] Impossible de modifier la Rugosité dans les nœuds où ce paramètre est disponible
-* [MDL] Connexions non valides dans le modèle « AxF to Métallique rugosité »
+* [MDL] Impossible de modifier la rugosité dans les nœuds où ce paramètre est disponible
+* [MDL] Connexions non valides dans le modèle « AxF to Metallic Roughness »
 * [UI] La fenêtre « Exporter les sorties » peut être réduite (Windows uniquement)
 * [UI] Les images apparaissent pixellisées dans l’écran À propos lors de l’utilisation de la mise à l’échelle de l’affichage
 * [UI] Les outils d’alignement de nœud de la barre d’outils graphique créent plusieurs étapes d’annulation.
