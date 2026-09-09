@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Irradiance RT pour calculer les informations d'irradiance en temps réel à partir de la géométrie pour des calculs d'éclairage réalistes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Irradiance RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -70,13 +70,13 @@ Génère une irradiance par lancer de rayons sur une entrée de carte d&#39;heig
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-irr-03-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-irr-01-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-irr-02-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
         </td>
     </tr>
 </table>
