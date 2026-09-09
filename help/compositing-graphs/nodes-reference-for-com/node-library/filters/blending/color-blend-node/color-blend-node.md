@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion de couleur pour fusionner des textures en utilisant le mode colorimétrique afin de préserver la luminance tout en modifiant la teinte et la saturation.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur (nœud de Fusion)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](color-blend-node.resources/difference.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Fusion
 
@@ -56,4 +56,4 @@ Effectue un mode de fusion des couleurs qui préserve la luminance de l’arriè
 |  |  |
 |:---|:---|
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan. |
-| <b>Simulation de transparence</b> <i>Faux/Vrai</i> | Active/désactive la fusion des couches alpha Premier plan et Arrière-plan. Si cette option est définie sur False, la couche alpha du premier plan est ignorée. |
+| <b>Simulation de transparence</b> <i>Faux/Vrai</i> | Active/désactive la fusion des canaux Alphas de premier plan et d’arrière-plan. Si la valeur est False, le canal Alpha du premier plan est ignoré. |
