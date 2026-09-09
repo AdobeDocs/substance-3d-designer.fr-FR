@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de numérisation Histogramme pour numériser et analyser les histogrammes de texture à des fins de correction et de réglage des couleurs.
 helpx_creative_field: ""
