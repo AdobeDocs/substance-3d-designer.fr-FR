@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dissociation normale pour séparer les données de mappage normales combinées en composants X, Y et Z individuels.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dissociation normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de dissociation normale](../../../../../../assets/NormalUncombine.png "Icône de dissociation normale"){width="200px"}
+![Icône de dissociation normale](normal-uncombine.resources/NormalUncombine.png "Icône de dissociation normale"){width="200px"}
 
 <b>Entrée :</b> Filtres > Mappage normal
 
@@ -70,44 +70,44 @@ Supprime d&#39;une carte de normales les détails de surface décrits par une ca
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 2](../../../../../../assets/normal_uncombine_example_4.png "Désassociation normale : Exemple 2"){zoomable="yes"}
+![Désassociation normale : Exemple 2](normal-uncombine.resources/normal_uncombine_example_4.png "Désassociation normale : Exemple 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 4](../../../../../../assets/normal_uncombine_example_6.png "Désassociation normale : Exemple 4"){zoomable="yes"}
+![Désassociation normale : Exemple 4](normal-uncombine.resources/normal_uncombine_example_6.png "Désassociation normale : Exemple 4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>Après</i>
     </td>
   </tr>
 </table>
 
-![Désassociation normale : Exemple 6](../../../../../../assets/normal_uncombine_example_5.png "Désassociation normale : Exemple 6"){zoomable="yes"}
+![Désassociation normale : Exemple 6](normal-uncombine.resources/normal_uncombine_example_5.png "Désassociation normale : Exemple 6"){zoomable="yes"}
