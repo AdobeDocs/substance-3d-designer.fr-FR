@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Flou anisotrope pour appliquer des effets de flou directionnels afin de créer des effets de flou directionnel et de traînée.
+description: Utilisez le nœud Flou anisotrope pour appliquer des effets de flou directionnel afin de créer un flou directionnel et des traînées.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou anisotrope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Flous
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## Description
 
-Effectue un [flou directionnel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) de haute qualité, avec quelques paramètres pour personnaliser l&#39;apparence. Également appelé « flou directionnel ».
+Effectue un [flou directionnel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) de haute qualité, avec quelques paramètres pour personnaliser l&#39;apparence. Également appelé « flou de mouvement ».
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Flou anisotrope » pour les valeurs Couleur ou « Niveaux de gris anisotrope » pour les valeurs Niveaux de gris.
 
@@ -59,7 +59,7 @@ Important : assurez-vous d’utiliser la version appropriée pour vos commentair
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/aniso-blur-example.gif" />
+            <img src="anisotropic-blur.resources/aniso-blur-example.gif" />
         </td>
     </tr>
 </table>

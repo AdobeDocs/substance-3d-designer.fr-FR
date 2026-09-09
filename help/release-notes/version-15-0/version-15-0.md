@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Cette mise à jour apporte un tout nouveau rendu 3D, avec les modes pixelliseur 
 
 *Date de publication : 15 juillet 2025*
 
-![Bannière](version-15-0.resources/version-15-0-01.png "Version 15.0")
+![Bannière](../../assets/banner-47.png "Version 15.0")
 
 ## Nouveau moteur de rendu 3D
 
@@ -32,7 +32,7 @@ Cette mise à jour apporte un tout nouveau rendu 3D, avec les modes pixelliseur 
 
 Cette nouvelle version vous donne accès à un [rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) avancé, avec un mode de pixellisation (pour avoir un aperçu en temps réel lorsque vous travaillez sur votre matière) et un mode de traceur de tracé (un mode de lancer de rayon pour obtenir un rendu parfait et précis). Ce nouveau moteur de rendu améliore les fonctionnalités avec des fonctionnalités telles que les ombres en mode pixellisé, améliore la qualité et les performances, et est conçu pour prendre en charge les technologies futures telles que [MaterialX](https://materialx.org/). Il complète les systèmes de rendu OpenGL et Iray existants dans Designer et s’aligne sur les systèmes de rendu disponibles dans Substance 3D Viewer et Substance 3D Sampler, garantissant une expérience uniforme dans l’ensemble de l’écosystème.
 
-![ombres et translucidité dans la pixellisation](version-15-0.resources/version-15-0-02.png)
+![ombres et translucidité dans la pixellisation](../../assets/feature_1b.png)
 
 La barre d&#39;outils de la vue [3D](../../interface/3d-view/3d-view.md) a été mise à jour pour avoir un accès rapide à certaines des nouvelles fonctionnalités disponibles dans ce moteur de rendu :
 
@@ -51,13 +51,13 @@ En outre, le raccourci clavier permettant de faire pivoter la luminosité de l&#
 * <b>Mappage des tonalités :</b>la gamme de couleurs avec les profils pour obtenir un effet HDR (High-Dynamic-Range).
 * <b>Profondeur de champ :</b> simule les propriétés de mise au point d&#39;un objectif de caméra (pixellisation uniquement).
 
-![Publier l’outil FX dans Designer 15.0](version-15-0.resources/version-15-0-03.gif)
+![Publier l’outil FX dans Designer 15.0](../../assets/postfx.gif)
 
 ## Édition d’actifs en contexte
 
-Lorsque vous travaillez sur vos matériaux, vous pouvez [les prévisualiser dans le cadre d&#39;une Scène 3D spécifique](../../working-with-3d-scenes/working-with-3d-scenes.md). C’est pourquoi nous avons ajouté la possibilité d’importer et de rendre une scène complète, avec toutes ses textures, caméras et éclairages. Et cerise sur le gâteau, si cette scène fait référence à des ombrages MaterialX, ils seront correctement rendus avec le pixelliseur !
+Lorsque vous travaillez sur vos matériaux, vous pouvez [les prévisualiser dans le contexte d&#39;une scène 3D spécifique](../../working-with-3d-scenes/working-with-3d-scenes.md). C’est pourquoi nous avons ajouté la possibilité d’importer et de rendre une scène complète, avec toutes ses textures, caméras et éclairages. Et cerise sur le gâteau, si cette scène fait référence à des ombrages MaterialX, ils seront correctement rendus avec le pixelliseur !
 
-![scène USD chargée et rendue dans Designer](version-15-0.resources/version-15-0-04.png)
+![scène USD chargée et rendue dans Designer](../../assets/feature_2.png)
 
 Une fois importé, vous pouvez travailler sur votre scène en sélectionnant un filet (avec MAJ + clic ou grâce à l’explorateur de scènes) et en [remplaçant l’une de ses matières](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Vous pouvez alors :
 
@@ -66,7 +66,7 @@ Une fois importé, vous pouvez travailler sur votre scène en sélectionnant un 
 
 Enfin, une fois votre scène 3D modifiée, vous pouvez [l’exporter](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) en tant que nouveau fichier ou en tant que nouveau calque du fichier d’origine, ce qui vous empêche de perdre des données (format USD uniquement).
 
-Enfin, d’autres formats 3D sont désormais pris en charge pour l’importation et l’exportation : USD (+ usda, usdc, usdz), STL, PLY et GLTF, en plus des formats FBX et OBJ déjà disponibles.
+Enfin, d’autres formats 3D sont désormais pris en charge pour l’importation et l’exportation : USD (+ usda, usdc, usdz), STL, PLY et GLTF, en plus des formats déjà disponibles FBX et OBJ.
 
 ## Infobulles enrichies
 
@@ -76,17 +76,17 @@ Des info-bulles riches ont été introduites pour mieux démontrer l&#39;objecti
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nœud de fusion](version-15-0.resources/version-15-0-05.gif)
+![nœud de fusion](../../assets/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nœud de flou](version-15-0.resources/version-15-0-06.gif)
+![nœud de flou](../../assets/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nœud de distance](version-15-0.resources/version-15-0-07.gif)
+![nœud de distance](../../assets/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Des info-bulles riches ont été introduites pour mieux démontrer l&#39;objecti
 
 Si vous devez travailler avec des textures non carrées, cette nouvelle option est faite pour vous. Dans les [propriétés du matériau](../../interface/3d-view/material-properties/material-properties.md) de la vue 3D, dans les options UV pour contrôler le carrelage, vous pouvez désormais définir une valeur différente pour les deux axes.
 
-![échelle U V différente](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
+![échelle U V différente](../../assets/nonsquare.png){zoomable="yes"}
 
 ## Bakers
 
@@ -110,7 +110,7 @@ Chaque année, la [plateforme de référence pour les effets visuels](https://vf
 
 ## Vidéo
 
-[![Mise à jour de Substance 3D Designer : nouveau moteur de rendu, post-FX et modification du contexte | Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Mise à jour de Substance 3D Designer : nouveau moteur de rendu, post-FX et modification du contexte | Adobe Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Notes de mise à jour
 
@@ -126,15 +126,15 @@ Chaque année, la [plateforme de référence pour les effets visuels](https://vf
 * [Vue 3D] Ajouter de nouveaux boutons de barre d’outils
 * [Vue 3D] Ajoutez la possibilité de basculer entre plusieurs caméras contenues dans une scène USD
 * [Vue 3D] Permet de se concentrer sur l’objet sélectionné en appuyant sur la touche F dans la clôture
-* [vue 3D] Autoriser à générer un Graphe de composition de Substance à partir d&#39;un matériau existant
+* [Vue 3D] Permet de générer un graphique de composition de Substance à partir d&#39;un matériau existant
 * [Vue 3D] Permet d’envoyer un graphique de composition SBS dans la vue 3D et d’affecter sa sortie unique à l’utilisation de l’environnement/du panorama
 * [Vue 3D] Effacez la sélection actuelle en appuyant sur la touche Échap
 * [Vue 3D] Afficher une scène 3D importée avec des textures
 * [Vue 3D] Distinguer les commandes de répétition de texture X et Y
 * [Vue 3D] Activer/désactiver les ombres
-* [vue 3D] Activer/désactiver le plan de sol
+* [Vue 3D] Activer/désactiver le plan au sol
 * [Vue 3D] Dans le menu « Matières », ajoutez « Supprimer » uniquement pour la Matière qui a été ajoutée manuellement et qui est inutilisée
-* [vue 3D] Dans le menu « Matériaux », supprimez l’action « Tout supprimer »
+* [Vue 3D] Dans le menu « Matières », supprimez l’action « Tout supprimer »
 * [Vue 3D] Rendre les fichiers USDZ exportés autonomes
 * [Vue 3D] Rendre les propriétés du rendu persistantes lors du changement de mode de rendu
 * [Vue 3D] Conserver les entrées de matériau existantes lors du remplacement d’un matériau
@@ -161,31 +161,31 @@ Chaque année, la [plateforme de référence pour les effets visuels](https://vf
 * [Boulangers] Permet de renommer un boulanger sans rompre les liens
 * [Boulangers] Modification de la taille par défaut du panneau central
 * [Bakers] Texture d’entrée pour le workflow UDIM
-* [Bakers] Faire correspondre l&#39;ordre de liste des cartes de vue 2D à l&#39;ordre de liste de rendu des Bakers
-* [Boulangers] Rendre la fenêtre de cuisson modale
-* [Bakers] Gestion des paramètres de mappage de tonalité
-* [Bakers] Supprimer la sélection du plug-in d’espace tangent
-* [Boulangers] Statut d&#39;enregistrement « activé » ou « désactivé » pour les Boulangers lors de l&#39;enregistrement d&#39;un Paramètre prédéfini
-* [Boulangers] Sélectionner la matière par défaut dans le widget de sélection
-* [Bakers] Définir l’orientation par défaut de la texture de sortie normale par rapport aux préférences
-* [Bakers] Définir les tuiles UV sur Tout par défaut
-* [Bakers] Option d’ajout FromTexture/FromValue dans WordSpaceDirection
-* [Bakers] World to tangent : définissez l’entrée par défaut sur « from texture »
+* [Bakers] Faire correspondre l’ordre de liste des cartes vue 2D à l’ordre de liste de rendu des Bakers
+* [Bakers] Rendre la fenêtre de baking modale
+* [Baker] Gestion des paramètres de mappage de tonalité
+* [Bakers] Supprimer la sélection de plugin de repère tangent
+* [Bakers] Statut d’enregistrement « activé » ou « désactivé » pour les Bakers lors de l’enregistrement d’un paramètre prédéfini
+* [Bakers] Sélectionner le matériau par défaut dans le widget de sélection
+* [Bakers] Définir l’orientation par défaut de la texture de sortie normale par rapport à la préférence
+* [Baker] Définissez UV tiles sur Tous par défaut
+* [Baker] Option d’ajout FromTexture/FromValue dans WordSpaceDirection
+* [Bakers] World to tangente : définissez l’entrée par défaut sur « from texture »
 * [SBSBaker] Création d’une option pour contrôler l’ordre du back-end
 * [SBSBaker] Amélioration de l’utilisation de l’argument StringList
-* [SBSBaker] Renommez « match\_source\_instance » en « match\_mesh\_name »
+* [SBSBaker] Renommez « match\_source\_instance » en « match\_maillage\_name »
 * [SBSBaker] Renommez « Submesh » en « GeomSubset ».
 * [SBSBaker] Renommer en substance3d\_baker
-* [Contenu] Ajout d’une forme « Hémisphère » aux nœuds de générateur exposant les formes de quadrant
+* [Contenu] Ajouter une forme « Hémisphère » aux nœuds de générateur exposant des formes de quadrant
 * [Interop] Prise en charge du format de fichier GLTF
 * [Interop] Prise en charge du format de fichier PLY
 * [Interop] Prise en charge du format de fichier STL
-* [Bibliothèque] Uniformisation des info-bulles pour les nœuds atomiques
+* [Bibliothèque] Uniformiser les info-bulles pour les noeuds atomiques
 * [Mac] Ne plus prendre en charge les plates-formes MacIntel
-* [Nodes] Ajouter des info-bulles riches pour les nœuds atomiques
+* [Nodes] Ajouter des info-bulles riches pour les noeuds atomiques
 * [Paramètres] Fermer la section « Attributs » par défaut
 * [Paramètres] Permet à l’utilisateur de spécifier les valeurs par défaut des paramètres de base pour les nouvelles instances
-* [Préférences] Boulangers : ajoutez une option booléenne pour calculer l’espace tangent par fragment
+* [Préférences] Bakers : ajoutez une option booléenne pour calculer l’espace de tangente par fragment
 * [Préférences] Supprimer les plug-ins d’espace tangent
 * [Préférences] Stockez les préférences par version mineure de SD (XX.X).
 * [VFX] Mise à jour de Boost vers 1.85.0

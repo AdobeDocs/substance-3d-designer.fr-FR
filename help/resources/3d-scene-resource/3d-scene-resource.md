@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressource de scène 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Lier une scène 3D à votre package est le seul moyen de [recréer des cartes de
 * Une fois la ressource chargée dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez sur *RMB* et sélectionnez l&#39;option <b>Informations sur le modèle de cuisson</b> dans le menu contextuel
 * La boîte de dialogue [Informations sur le modèle de cuisson](../../bakers/bakers.md) s&#39;affiche pour vous permettre de configurer et d&#39;exécuter des cuvettes de maillage
 
-![Création de cartes de maillage](3d-scene-resource.resources/3d-scene-resource-01.gif "Création de cartes de maillage"){width="512px"}
+![Création de cartes de maillage](../../assets/bake-model-information.gif "Création de cartes de maillage"){width="512px"}
 
 ## Utilisation des tuiles UDIM/UV
 

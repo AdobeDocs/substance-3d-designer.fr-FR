@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Courbure lisse
+title: Lissage de courbure
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# Courbure lisse
+# Lissage de courbure
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud Arrondi de Courbure](../../../../../../assets/CurvatureSmooth.png "Icône de nœud Arrondi de Courbure"){width="200px"}
+![Icône de nœud Arrondi de Courbure](curvature-smooth.resources/CurvatureSmooth.png "Icône de nœud Arrondi de Courbure"){width="200px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -79,11 +79,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="courbure_blend_example_1_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="courbure_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="courbure_blend_example_1_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="courbure_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Courbure lisse : Exemple 2](../../../../../../assets/curvature_smooth_example_2.jpg "Courbure lisse : Exemple 2"){zoomable="yes"}
+![Courbure lisse : Exemple 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Courbure lisse : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Courbure lisse : Exemple 3](../../../../../../assets/curvature_smooth_example_3.jpg "Courbure lisse : Exemple 3"){zoomable="yes"}
+![Courbure lisse : Exemple 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Courbure lisse : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="courbure_blend_example_4_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="courbure_blend_example_4_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="courbure_blend_example_4_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="courbure_blend_example_4_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ Les zones concaves et convexes sont également divisées en leurs propres sortie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Courbure lisse : Exemple 4](../../../../../../assets/curvature_smooth_example_5.jpg "Courbure lisse : Exemple 4"){zoomable="yes"}
+![Courbure lisse : Exemple 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Courbure lisse : Exemple 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Courbure lisse : Exemple 5](../../../../../../assets/curvature_smooth_example_6.jpg "Courbure lisse : Exemple 5"){zoomable="yes"}
+![Courbure lisse : Exemple 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Courbure lisse : Exemple 5"){zoomable="yes"}
 
 </td>
 </tr>

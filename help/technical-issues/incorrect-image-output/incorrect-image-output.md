@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Sortie d’image incorrecte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Cette page répertorie les problèmes techniques dans Substance 3D Designer qui 
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(erreur)](incorrect-image-output.resources/error.svg) Problème**
+**![(erreur)](../../assets/error.svg) Problème**
 
 Les dégradés de l’image en sortie sont étagés au lieu d’être lisses. Le pas est causé par la plage de valeurs *utilisée par l&#39;image trop étroite*.\
 Cela signifie qu’il n’y a pas assez de valeurs pour effectuer une transition en douceur d’une étape d’un dégradé à l’autre.
@@ -43,13 +43,13 @@ Si vous n’avez pas besoin de travailler spécifiquement avec des images HDR, l
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
+![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(coche)](incorrect-image-output.resources/check.svg) Étapes recommandées**
+**![(coche)](../../assets/check.svg) Étapes recommandées**
 
 Vérifiez le **format de sortie** (c&#39;est-à-dire la profondeur de bits) du nœud et de tous les nœuds en amont et assurez-vous que ces nœuds utilisent une *précision d&#39;Entier d&#39;au moins 16 bits*.
 
@@ -73,7 +73,7 @@ Par exemple :
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(erreur)](incorrect-image-output.resources/error.svg) Problème</b>
+<b> ![(error)](../../assets/error.svg) Problème</b>
 
 La qualité des images produites par une archive Substance 3D (SBSAR) est nettement inférieure au graphe à partir duquel le fichier Substance 3D est publié, comme le montre l’image de droite.\
 La sortie semble basse résolution.
@@ -81,13 +81,13 @@ La sortie semble basse résolution.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
+![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(coche)](incorrect-image-output.resources/check.svg) Étapes recommandées</b>
+<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
 
 Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *absolue*.
 
@@ -99,20 +99,20 @@ Si ce n&#39;est pas le cas, leur [ressource Bitmap](../../resources/bitmap-resou
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(erreur)](incorrect-image-output.resources/error.svg) Problème**
+**![(erreur)](../../assets/error.svg) Problème**
 
 Les formes sont légèrement floues après l&#39;utilisation de certains nœuds, tels que [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) ou [Fusion](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
+![](../../assets/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(coche)](incorrect-image-output.resources/check.svg) Étapes recommandées**
+**![(coche)](../../assets/check.svg) Étapes recommandées**
 
 Lors de la réorganisation des pixels dans une image, par exemple lors du redimensionnement d&#39;une forme ou de la modification de la résolution d&#39;une image, il existe deux façons de déterminer comment les pixels de la source doivent être *mappés* vers la destination :
 

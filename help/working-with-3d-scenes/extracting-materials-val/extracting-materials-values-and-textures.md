@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extraction des valeurs et des textures des matériaux
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ Voici quelques opérations qui peuvent se produire lorsque vous utilisez cette a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Créer un graphique à partir d’entrées de texture - Action dans la fenêtre d’affichage « Vue 3D »](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "Créer un graphique à partir d’entrées de texture - Action dans la fenêtre d’affichage « Vue 3D »"){zoomable="yes"}
+![Créer un graphique à partir d’entrées de texture - Action dans la fenêtre d’affichage « Vue 3D »](../../assets/createGraphFromTexturesActionViewport.png "Créer un graphique à partir d’entrées de texture - Action dans la fenêtre d’affichage « Vue 3D »"){zoomable="yes"}
 
 *Action dans la fenêtre d’affichage de la vue 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Créer un graphique à partir des entrées de texture - Action dans le menu « Matières »](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "Créer un graphique à partir des entrées de texture - Action dans le menu « Matières »"){zoomable="yes"}
+![Créer un graphique à partir des entrées de texture - Action dans le menu « Matières »](../../assets/createGraphFromTexturesActionMaterials.png "Créer un graphique à partir des entrées de texture - Action dans le menu « Matières »"){zoomable="yes"}
 
 *Action dans le menu Matières*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Créer un graphique à partir d’entrées de texture - Action dans le dock « Propriétés »](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "Créer un graphique à partir d’entrées de texture - Action dans le dock « Propriétés »"){zoomable="yes"}
+![Créer un graphique à partir d’entrées de texture - Action dans le dock « Propriétés »](../../assets/createGraphFromTexturesActionProps.png "Créer un graphique à partir d’entrées de texture - Action dans le dock « Propriétés »"){zoomable="yes"}
 
 *Action dans le dock des propriétés*
 
@@ -80,12 +80,12 @@ Voici quelques opérations qui peuvent se produire lorsque vous utilisez cette a
 </tr>
 </table>
 
-![Résultat de la création du graphique à partir des textures de matériau](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "Résultat de la création du graphique à partir des textures de matériau"){zoomable="yes"}
+![Résultat de la création du graphique à partir des textures de matériau](../../assets/createGraphFromTexturesResult.png "Résultat de la création du graphique à partir des textures de matériau"){zoomable="yes"}
 
 *Résultat de la création du graphique à partir des textures matérielles*
 
 +++Démonstration
-![Créer un graphique à partir d’entrées de texture - Démonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "Créer un graphique à partir d’entrées de texture - Démonstration"){zoomable="yes"}
+![Créer un graphique à partir d’entrées de texture - Démonstration](../../assets/createGraphFromTextures.gif "Créer un graphique à partir d’entrées de texture - Démonstration"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ Exemple : l’extraction d’une texture pour la propriété Couleur de base ver
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraire la texture pour obtenir un graphique - Action dans le dock des propriétés](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "Extraire la texture pour obtenir un graphique - Action dans le dock des propriétés"){zoomable="yes"}
+![Extraire la texture pour obtenir un graphique - Action dans le dock des propriétés](../../assets/extractTextureAction.png "Extraire la texture pour obtenir un graphique - Action dans le dock des propriétés"){zoomable="yes"}
 
 Action pour la propriété de matériau dans le dock Propriétés
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraire la texture pour obtenir un graphique - boîte de dialogue « Sélectionner le graphique de destination »](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "Extraire la texture pour obtenir un graphique - boîte de dialogue « Sélectionner le graphique de destination »"){zoomable="yes"}
+![Extraire la texture pour obtenir un graphique - boîte de dialogue « Sélectionner le graphique de destination »](../../assets/extractTextureSelectGraph.png "Extraire la texture pour obtenir un graphique - boîte de dialogue « Sélectionner le graphique de destination »"){zoomable="yes"}
 
 Boîte de dialogue Sélectionner le graphique de destination
 
@@ -136,12 +136,12 @@ Boîte de dialogue Sélectionner le graphique de destination
 </tr>
 </table>
 
-![Résultat de l’extraction de texture](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "Résultat de l’extraction de texture"){zoomable="yes"}
+![Résultat de l’extraction de texture](../../assets/extractTextureResult.png "Résultat de l’extraction de texture"){zoomable="yes"}
 
 Résultat de l’extraction de la texture
 
 +++Démonstration
-![Extraire la texture pour obtenir un graphique - Démonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "Extraire la texture pour obtenir un graphique - Démonstration"){zoomable="yes"}
+![Extraire la texture pour obtenir un graphique - Démonstration](../../assets/extractTextureToGraph.gif "Extraire la texture pour obtenir un graphique - Démonstration"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ Exemple : l’extraction d’une valeur pour la propriété « Niveau d’Anisot
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraire la valeur sur le graphique - Action dans le dock des propriétés](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "Extraire la valeur sur le graphique - Action dans le dock des propriétés"){zoomable="yes"}
+![Extraire la valeur sur le graphique - Action dans le dock des propriétés](../../assets/extractValueAction.png "Extraire la valeur sur le graphique - Action dans le dock des propriétés"){zoomable="yes"}
 
 Action pour la propriété de matériau dans le dock Propriétés
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraire la valeur du graphique - boîte de dialogue « Sélectionner le graphique de destination »](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "Extraire la valeur du graphique - boîte de dialogue « Sélectionner le graphique de destination »"){zoomable="yes"}
+![Extraire la valeur du graphique - boîte de dialogue « Sélectionner le graphique de destination »](../../assets/extractValueSelectGraph.png "Extraire la valeur du graphique - boîte de dialogue « Sélectionner le graphique de destination »"){zoomable="yes"}
 
 Boîte de dialogue Sélectionner le graphique de destination
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraire la valeur sur le graphique - Nœud constant dans la fonction du nœud du processeur de valeurs](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "Extraire la valeur sur le graphique - Nœud constant dans la fonction du nœud du processeur de valeurs"){zoomable="yes"}
+![Extraire la valeur sur le graphique - Nœud constant dans la fonction du nœud du processeur de valeurs](../../assets/extractValueResult2.png "Extraire la valeur sur le graphique - Nœud constant dans la fonction du nœud du processeur de valeurs"){zoomable="yes"}
 
 Nœud constant dans la fonction du nœud de processeur de valeurs
 
@@ -192,12 +192,12 @@ Nœud constant dans la fonction du nœud de processeur de valeurs
 </tr>
 </table>
 
-![Résultat de l&#39;extraction de valeur](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "Résultat de l&#39;extraction de valeur"){zoomable="yes"}
+![Résultat de l&#39;extraction de valeur](../../assets/extractValueResult.png "Résultat de l&#39;extraction de valeur"){zoomable="yes"}
 
 Résultat de l’extraction de valeur
 
 +++Démonstration
-![Extraire la valeur sur le graphique - Démonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "Extraire la valeur sur le graphique - Démonstration"){zoomable="yes"}
+![Extraire la valeur sur le graphique - Démonstration](../../assets/extractValueToGraph.gif "Extraire la valeur sur le graphique - Démonstration"){zoomable="yes"}
 
 
 

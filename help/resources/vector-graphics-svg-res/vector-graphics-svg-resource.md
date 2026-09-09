@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
-description: Importez et utilisez des graphiques vectoriels SVG en tant que ressources dans Substance 3D Designer pour la création de documents procéduraux.
+description: Importez et utilisez des images vectorielles de SVG en tant que ressources dans Substance 3D Designer pour la création procédurale de matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressource d’images vectorielles (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer prend en charge un nombre limité d’Images vectorielles, via le format Images vectorielles évolutives. Les fichiers du SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphes.
 
-Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Ils peuvent également être créés par [l&#39;UV vers SVG baker](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
+Les fichiers de SVG [peuvent être créés ou modifiés via le nœud de SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), ils peuvent également être créés par [le baker de SVG UV](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Les fichiers SVG [peuvent être créés ou modifiés par le biais du nœud SVG a
 
 ## stockage SVG
 
-Le stockage dans un SVG dépend de s’ils sont liés ou importés. Les fichiers de SVG importés sont incorporés dans le fichier SBS, ne nécessitent [aucun fichier externe comme Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) et peuvent être modifiés à l&#39;aide des [outils de modification vectorielle](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md).
+Le stockage dans un SVG dépend de s’ils sont liés ou importés. Les fichiers de SVG importés sont incorporés dans le fichier SBS, ne nécessitent [aucun fichier externe tel que des bitmaps](../../resources/bitmap-resource/bitmap-resource.md) et peuvent être modifiés à l&#39;aide des [outils d&#39;édition vectorielle](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md).
 
 ## Attributs du SVG
 
@@ -40,7 +40,7 @@ Les ressources de SVG d’un package ont un certain nombre d’attributs que vou
 | --- | --- |
 | Identifiant | Utilisé pour référencer la ressource SVG dans un package, doit être unique. |
 | Chemin d&#39;accès au fichier | Chemin d&#39;accès sur le disque du fichier SVG référencé par la ressource. |
-| Description | Description affichée dans les info-bulles [Explorer](../../interface/the-explorer-window/the-explorer-window.md) et [Bibliothèque](../../interface/the-library/the-library.md) pour cette ressource. |
+| Description | Description affichée dans les info-bulles de l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et de la [Bibliothèque](../../interface/the-library/the-library.md) pour cette ressource. |
 | Catégorie | Utilisé pour [trier et organiser la ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dans la [bibliothèque](../../interface/the-library/the-library.md). |
 | Libellé | Utilisé pour [trier et organiser la ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dans la [bibliothèque](../../interface/the-library/the-library.md). |
 | Auteur | Utilisé pour [trier et organiser la ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dans la [bibliothèque](../../interface/the-library/the-library.md). |
@@ -60,7 +60,7 @@ En général, ce qui suit est vrai :
 * Le contour est pris en charge, mais ne donne qu’un contour d’une largeur de 1 pixel et le style du contour est ignoré ;
 * Les styles de ligne en pointillés vont définitivement rompre ;
 * Le texte doit être converti en tracés/contour à rendre ;
-* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) ne sont pas pris en charge ;
+* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) ne sont pas pris en charge ;
 * Les fonctionnalités avancées telles que les dégradés ne sont pas prises en charge ;
 * Les éléments de style pour les propriétés CSS ne sont pas pris en charge.
 
@@ -87,7 +87,7 @@ L’image de droite présente les options d’exportation recommandées. Cliquez
 > Les plans de travail peuvent affecter le résultat du fichier de SVG généré. Certains modèles de fichiers Illustrator présentent plusieurs plans de travail.\
 > Essayez d’en avoir un seul, correctement recadré, et de le faire sélectionner dans la fenêtre Plan de travail lors de l’enregistrement en tant que SVG.
 
-![Options d’exportation Illustrator SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Options d’exportation Illustrator SVG"){width="512px"}
+![Options d’exportation Illustrator SVG](../../assets/svg-export-options-ai.jpg "Options d’exportation Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

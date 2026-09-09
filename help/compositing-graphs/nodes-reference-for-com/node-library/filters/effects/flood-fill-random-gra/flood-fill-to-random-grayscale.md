@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill aux niveaux de gris aléatoires
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-random-grayscale.png){width="128px"}
+![](flood-fill-to-random-grayscale.resources/floodfill-to-random-grayscale.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Génère des valeurs de Luminance de niveaux de gris aléatoires à partir d&#39;une base [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Utile pour ajouter une variation de Luminance aux carreaux.
+Génère des valeurs de luminance en niveaux de gris aléatoires à partir d&#39;un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Utile pour ajouter une variation de luminance aux carreaux.
 
 </td>
 </tr>
@@ -44,10 +44,10 @@ Génère des valeurs de Luminance de niveaux de gris aléatoires à partir d&#39
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodluminane-ex2.png" />
+            <img src="flood-fill-to-random-grayscale.resources/floodluminane-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodluminane-ex1.png" />
+            <img src="flood-fill-to-random-grayscale.resources/floodluminane-ex1.png" />
         </td>
     </tr>
 </table>

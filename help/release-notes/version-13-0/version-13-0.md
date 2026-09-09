@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Comme indiqué dans la version précédente, cette version ne prend plus en char
 
 *Date de publication : 6 juin 2023*
 
-![Matériau à l’aide de tracés](version-13-0.resources/version-13-0-01.png "Matériau à l’aide de tracés")
+![Matériau à l’aide de tracés](../../assets/Paths2.png "Matériau à l’aide de tracés")
 
 *Illustration de [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Cette version 13.0 apporte beaucoup de nouveau contenu. Vous y trouverez princip
 
 Tous ces nœuds offriront beaucoup de possibilités et ils auront certainement beaucoup d&#39;applications créatives. Consultez la section sur l&#39;[utilisation des tracés et des Outils spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) pour découvrir les concepts importants à prendre en compte afin de vous familiariser avec cet ensemble d&#39;outils.
 
-![Matériau à l&#39;aide de splines](version-13-0.resources/version-13-0-02.png "Matériau à l&#39;aide de splines")
+![Matériau à l&#39;aide de splines](../../assets/Splines.png "Matériau à l&#39;aide de splines")
 
 *Illustration de [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ Vous pouvez également créer des <b>ponts </b> entre les splines afin d&#39;avo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline Cubique](version-13-0.resources/version-13-0-03.gif "Spline Cubique")
+![Spline Cubique](../../assets/SplineCubic-Demo.gif "Spline Cubique")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Poly Quadratique Spline](version-13-0.resources/version-13-0-04.gif "Poly Quadratique Spline")
+![Poly Quadratique Spline](../../assets/SplinePolyQuadratic-Demo.gif "Poly Quadratique Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cercle spline](version-13-0.resources/version-13-0-05.gif "Cercle spline")
+![Cercle spline](../../assets/SplineCircle-Demo.gif "Cercle spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Liste des ponts splines](version-13-0.resources/version-13-0-06.gif "Liste des ponts splines")
+![Liste des ponts splines](../../assets/SplineBridge-List_Demo.gif "Liste des ponts splines")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Nous fournissons également des outils pour retravailler et ajuster vos splines.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformation 2D spline](version-13-0.resources/version-13-0-07.gif "Transformation 2D spline")
+![Transformation 2D spline](../../assets/Spline2DTransform-Demo1.gif "Transformation 2D spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Déformation de la spline](version-13-0.resources/version-13-0-08.gif "Déformation de la spline")
+![Déformation de la spline](../../assets/SplineWarp-Demo.gif "Déformation de la spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Thickness d&#39;échantillon spline](version-13-0.resources/version-13-0-09.gif "Thickness d&#39;échantillon spline")
+![Thickness d&#39;échantillon spline](../../assets/SplineSampleThickness-Demo.gif "Thickness d&#39;échantillon spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Merci pour le [remplissage spline](../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersion en niveaux de gris spline](version-13-0.resources/version-13-0-10.gif "Dispersion en niveaux de gris spline")
+![Dispersion en niveaux de gris spline](../../assets/ScatterOnSplineGrayscale-Demo.gif "Dispersion en niveaux de gris spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Remplissage spline](version-13-0.resources/version-13-0-11.gif "Remplissage spline")
+![Remplissage spline](../../assets/SplineFill-Demo.gif "Remplissage spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Couleur du mappeur de spline](version-13-0.resources/version-13-0-12.gif "Couleur du mappeur de spline")
+![Couleur du mappeur de spline](../../assets/SplineMapperColor-Demo.gif "Couleur du mappeur de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mappeur de flux spline](version-13-0.resources/version-13-0-13.gif "Mappeur de flux spline")
+![Mappeur de flux spline](../../assets/SplineFlowMapper-Demo.gif "Mappeur de flux spline")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Vous pouvez ensuite traiter ces tracés avec les nœuds [Transformation 2D du tr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Placer le masque sur les tracés](version-13-0.resources/version-13-0-14.gif "Placer le masque sur les tracés")
+![Placer le masque sur les tracés](../../assets/MaskToPaths-Demo2.gif "Placer le masque sur les tracés")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Placer le masque sur les tracés 2](version-13-0.resources/version-13-0-15.gif "Placer le masque sur les tracés 2")
+![Placer le masque sur les tracés 2](../../assets/MaskToPaths-Demo1.gif "Placer le masque sur les tracés 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Grâce à cette fonctionnalité, vous pouvez améliorer la lisibilité du graphi
 
 Cette nouvelle fonctionnalité est entièrement expliquée dans ce [tutoriel](https://www.adobe.com/go/designer-tutorial-portals) dédié.
 
-![Nœud de portail](version-13-0.resources/version-13-0-16.gif "Nœud de portail")
+![Nœud de portail](../../assets/PortalNodeFinal.gif "Nœud de portail")
 
 ## Écran d’accueil
 
@@ -216,9 +216,9 @@ Lorsque vous démarrez Designer, vous savez que vous avez accès à un tout nouv
 * Une page de formation où vous pouvez trouver des liens vers des ressources de formation, telles que des tutoriels pour vous présenter les nouvelles fonctionnalités ou découvrir des conseils rapides ;
 * Liens directs vers l’écran Nouveautés, l’écran À propos, le site Web Substance 3D, le forum de la communauté d’assistance, etc.
 
-![Écran d’accueil - Accueil](version-13-0.resources/version-13-0-17.png "Écran d’accueil - Accueil")
+![Écran d’accueil - Accueil](../../assets/HomeScreen.png "Écran d’accueil - Accueil")
 
-![Écran d’accueil - Formation](version-13-0.resources/version-13-0-18.png "Écran d’accueil - Formation")
+![Écran d’accueil - Formation](../../assets/LearnPage.png "Écran d’accueil - Formation")
 
 ## Nouvelles langues
 

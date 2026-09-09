@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill à GrayscaleColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-grayscale.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-color.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Description
 
-Utilise les données du Flood Fill pour générer des nuances de niveaux de gris ou de valeurs chromatiques. Contrairement à [Flood Fill à Random Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), ces deux nœuds permettent un meilleur contrôle pour définir la variation et les tons exacts, avec un mappage d&#39;entrée supplémentaire pour déterminer la valeur de base à randomiser sur une base par cellule.
+Utilise les données du Flood Fill pour générer des nuances de niveaux de gris ou de valeurs chromatiques. Contrairement à [Flood Fill à Random Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), ces deux nœuds permettent un meilleur contrôle pour définir la variation et les tons exacts, avec une map d&#39;entrée supplémentaire pour déterminer la valeur de base à randomiser sur une base par cellule.
 
 Il s&#39;agit d&#39;un système puissant qui donne à chaque cellule une valeur ou une couleur unique, tout en gardant le contrôle et en la basant sur une entrée prédéterminée.
 

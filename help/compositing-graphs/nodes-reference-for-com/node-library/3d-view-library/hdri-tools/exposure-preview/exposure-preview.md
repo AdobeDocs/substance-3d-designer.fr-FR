@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aperçu de l’exposition
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
+![](exposure-preview.resources/hdr-exposure-preview.png){width="200px"}
 
 <b>Entrée :</b> vue 3D > Outils HDRI
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Nœud d’assistant pour prévisualiser les étapes d’exposition. L’utilisateur définit une valeur minimale et maximale, le nœud génère une image beaucoup plus grande avec un certain nombre de versions exposées différentes de l’entrée d’origine. Les différentes versions sont toujours empilées horizontalement, la quantité dépend de la résolution du nœud ou du graphique.
+Nœud Assistant pour prévisualiser les étapes d’exposition. L’utilisateur définit une valeur minimale et maximale, le nœud génère une image beaucoup plus grande avec un certain nombre de versions exposées différentes de l’entrée d’origine. Les différentes versions sont toujours empilées horizontalement, la quantité dépend de la résolution du nœud ou du graphe.
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Nœud d’assistant pour prévisualiser les étapes d’exposition. L’utilisat
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/exp-preview-ex.png" />
+            <img src="exposure-preview.resources/exp-preview-ex.png" />
         </td>
     </tr>
 </table>

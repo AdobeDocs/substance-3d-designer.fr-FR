@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ambient occlusion (HBAO) (Noeud de filtrage)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/hbao.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -60,10 +60,10 @@ Pour une autre version plus avancée mais plus lente d&#39;AO, voir [Ambient occ
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2021-6-18-11-11-11-1.png" />
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-11-1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2021-6-18-11-11-22.png" />
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-22.png" />
         </td>
     </tr>
 </table>

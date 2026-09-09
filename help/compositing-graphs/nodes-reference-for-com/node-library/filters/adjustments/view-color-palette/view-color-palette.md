@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Afficher la palette de couleurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-Icône ![Quantifier la couleur](../../../../../../assets/ViewColorPalette.png "Quantifier la couleur"){width="200px"}
+Icône ![Quantifier la couleur](view-color-palette.resources/ViewColorPalette.png "Quantifier la couleur"){width="200px"}
 
 <b>Entrée :</b> Filtres > Réglages
 
@@ -67,12 +67,12 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 1](../../../../../../assets/view_color_palette_example_1.png "Afficher la palette de couleurs : Exemple 1"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 1](view-color-palette.resources/view_color_palette_example_1.png "Afficher la palette de couleurs : Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 2](../../../../../../assets/view_color_palette_example_2.png "Afficher la palette de couleurs : Exemple 2"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 2](view-color-palette.resources/view_color_palette_example_2.png "Afficher la palette de couleurs : Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 3](../../../../../../assets/view_color_palette_example_3.png "Afficher la palette de couleurs : Exemple 3"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 3](view-color-palette.resources/view_color_palette_example_3.png "Afficher la palette de couleurs : Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Afficher la palette de couleurs : Exemple 4](../../../../../../assets/view_color_palette_example_4.png "Afficher la palette de couleurs : Exemple 4"){zoomable="yes"}
+![Afficher la palette de couleurs : Exemple 4](view-color-palette.resources/view_color_palette_example_4.png "Afficher la palette de couleurs : Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Remplacement des matériaux de scène
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Lorsque vous travaillez sur des scènes 3D avec des matériaux existants, il est
 
 Votre matière peut être créée à partir de zéro ou une version ajustée de la matière d&#39;une scène qui a été [extraite dans un graphique de Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Remplacement d’un matériau de scène, modification et rétablissement de l’état de scène](overriding-scene-materials.resources/overriding-scene-materials-01.gif "Remplacement d’un matériau de scène, modification et rétablissement de l’état de scène"){zoomable="yes"}
+![Remplacement d’un matériau de scène, modification et rétablissement de l’état de scène](../../assets/tweakOverriddenMaterial.gif "Remplacement d’un matériau de scène, modification et rétablissement de l’état de scène"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ L’action « Remplacer la matière » se trouve à deux endroits :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Remplacer la matière - Action dans la fenêtre « Vue 3D »](overriding-scene-materials.resources/overriding-scene-materials-02.png "Remplacer la matière - Action dans la fenêtre « Vue 3D »"){zoomable="yes"}
+![Remplacer la matière - Action dans la fenêtre « Vue 3D »](../../assets/overrideMaterialActionViewport.png "Remplacer la matière - Action dans la fenêtre « Vue 3D »"){zoomable="yes"}
 
 *Action dans la fenêtre d’affichage de la vue 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Remplacer la matière - Action dans le menu « Matières »](overriding-scene-materials.resources/overriding-scene-materials-03.png "Remplacer la matière - Action dans le menu « Matières »"){zoomable="yes"}
+![Remplacer la matière - Action dans le menu « Matières »](../../assets/overrideMaterialActionMaterials.png "Remplacer la matière - Action dans le menu « Matières »"){zoomable="yes"}
 
 *Action dans le menu Matières*
 
@@ -119,21 +119,21 @@ L’action se trouve à trois endroits :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Réinitialiser la matière à l’état de scène - Action dans la fenêtre d’affichage « 3D VIew »](overriding-scene-materials.resources/overriding-scene-materials-04.png "Réinitialiser la matière à l’état de scène - Action dans la fenêtre d’affichage « 3D VIew »"){zoomable="yes"}
+![Réinitialiser la matière à l’état de scène - Action dans la fenêtre d’affichage « 3D VIew »](../../assets/resetMaterialToSceneStateActionViewport.png "Réinitialiser la matière à l’état de scène - Action dans la fenêtre d’affichage « 3D VIew »"){zoomable="yes"}
 
 *Action dans la fenêtre d’affichage de la vue 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »](overriding-scene-materials.resources/overriding-scene-materials-05.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »"){zoomable="yes"}
+![Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »](../../assets/resetMaterialToSceneStateActionMaterials.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »"){zoomable="yes"}
 
 *Action dans le menu Matières*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »](overriding-scene-materials.resources/overriding-scene-materials-06.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »"){zoomable="yes"}
+![Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »](../../assets/resetMaterialToSceneStateActionProps.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »"){zoomable="yes"}
 
 *Action dans les propriétés du matériau*
 
@@ -152,7 +152,7 @@ Ouvrez le menu hamburger de la propriété Matériau pour rechercher l’action 
 </td>
 <td style="border: 0;" valign="top">
 
-![Réinitialiser l&#39;état de la scène - Action dans les propriétés du matériau](overriding-scene-materials.resources/overriding-scene-materials-07.png "Réinitialiser l&#39;état de la scène - Action dans les propriétés du matériau"){zoomable="yes"}
+![Réinitialiser l&#39;état de la scène - Action dans les propriétés du matériau](../../assets/resetPropertyToSceneStateAction.png "Réinitialiser l&#39;état de la scène - Action dans les propriétés du matériau"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ D&#39;autre part, Designer a *sa propre liste* de matériaux dans son menu « Ma
 
 Il s&#39;agit d&#39;un ensemble de données *différent* qui est créé et géré uniquement dans Designer. Ces matériaux sont ensuite *connectés aux copies* qui remplacent les matériaux d&#39;origine de la scène.
 
-![Remplacement de matériaux - Schéma de données](overriding-scene-materials.resources/overriding-scene-materials-08.png "Remplacement de matériaux - Schéma de données"){zoomable="yes"}
+![Remplacement de matériaux - Schéma de données](../../assets/overridingMaterialsSchematic.png "Remplacement de matériaux - Schéma de données"){zoomable="yes"}
 
 Vous pouvez connecter l’un des matériaux répertoriés dans le menu « Matériaux » aux copies créées par Designer dans la scène de données : cliquez sur RMB sur une copie dans le navigateur de Scènes de données et accédez au sous-menu « Connecter un matériau ».
 
 Le sous-menu répertorie tous les matériaux de la scène et tous les matériaux que vous avez créés manuellement à partir du menu Matériaux.
 
-![Connecter des matériaux](overriding-scene-materials.resources/overriding-scene-materials-09.gif "Connecter des matériaux"){zoomable="yes"}
+![Connecter des matériaux](../../assets/connectMaterials.gif "Connecter des matériaux"){zoomable="yes"}
