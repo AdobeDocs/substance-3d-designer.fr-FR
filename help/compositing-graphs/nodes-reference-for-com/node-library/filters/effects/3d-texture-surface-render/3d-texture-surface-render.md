@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de rendu de surface de Texture 3D pour effectuer le rendu des textures de surface à partir de données 3D afin de créer des effets de surface procéduraux.
 helpx_creative_field: ""
