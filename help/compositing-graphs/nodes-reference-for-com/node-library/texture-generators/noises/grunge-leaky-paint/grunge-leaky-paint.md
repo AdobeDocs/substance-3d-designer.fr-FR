@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Leaky Peinture pour générer des motifs de fuite de peinture afin de créer des effets de surface vieillis et altérés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Peinture de fuite d'Usure/salissures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
 
 <b>Entrée :</b> générateurs de Textures > Bruits
 
@@ -52,18 +52,18 @@ Le nœud **Usure/salissures Leaky Peinture** génère une carte usure/salissures
 | <b>Avancé</b> |  |
 | <b>Intensité de la fuite</b> <i>Flottant</i> | Règle la densité et l’intensité des gouttes. |
 | <b>Échelle de fuite</b> <i>Entier</i> | Règle l’échelle de la séparation des gouttes. |
-| <b>Angle de fuite aléatoire</b> <i>Flottant</i> | Ajuste l&#39;*angle maximal* auquel les gouttes peuvent être tournées de manière aléatoire, en *nombre de tours*. |
-| <b>Netteté de la fuite</b> <i>Flottant</i> | Règle la netteté et la netteté des gouttes. |
+| <b>Angle de fuite aléatoire</b> <i>Flotter</i> | Ajuste l&#39;*angle maximal* auquel les gouttes peuvent être tournées de manière aléatoire, en *nombre de tours*. |
+| <b>Netteté de la fuite</b> <i>Flotter</i> | Règle la netteté et la netteté des gouttes. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
         </td>
     </tr>
 </table>
