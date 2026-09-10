@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lumière
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/light-2.png){width="128px"}
+![](light.resources/light-2.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -57,7 +57,7 @@ Ce masque est un peu différent des autres générateurs : il ne fait que de fau
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/light-ex.gif" />
+            <img src="light.resources/light-ex.gif" />
         </td>
     </tr>
 </table>

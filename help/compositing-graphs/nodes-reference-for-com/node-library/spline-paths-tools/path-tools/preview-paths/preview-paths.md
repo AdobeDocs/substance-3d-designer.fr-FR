@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tracés d’aperçu
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/preview-paths-icon.png "Icône de nœud")
+![Icône de nœud](preview-paths.resources/preview-paths-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -66,12 +66,12 @@ Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[opt
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Exemple de nœud 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height d'échantillon spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-sample-height-icon.png "Icône de nœud")
+![Icône de nœud](spline-sample-height.resources/spline-sample-height-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -74,10 +74,10 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 | <b>Opacité</b> <i>Flotter</i> | Multiplicateur de l&#39;intensité de la contribution de la Map height à l&#39;height de la spline. |
 | <b>Mode de fusion</b> <i>Nombre entier</i> | Méthode de fusion des données de la Map height avec l&#39;height de la spline d&#39;entrée :<br>- <i>Copier</i> : remplacer l&#39;height de la spline par les valeurs de Map height ;<br>- <i>Ajouter</i> : ajouter les valeurs de Map height à l&#39;height de la spline ;<br>- <i>Subtract</i> : valeurs de Subtract à l&#39;Map height de la spline ;<br>- <i>Multiplier</i> : multiplier les valeurs de height par rapport à l&#39;Map height de la spline. |
 | <b>Aperçu</b> |  |
-| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
-| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Quantité de segments</b> <i>Entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Afficher l&#39;Assistant de la direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
 | <b>Afficher l&#39;enveloppe de Thickness</b> <i>Booléen</i> | Affiche des lignes supplémentaires sur les thickness de la spline. |
-| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
+| <b>Thickness (px)</b> <i>Flottant</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
 
 ## Exemples
 
@@ -88,11 +88,11 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Après</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ L’effet de la courbe de transfert d’height mappée peut être ajusté en mod
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

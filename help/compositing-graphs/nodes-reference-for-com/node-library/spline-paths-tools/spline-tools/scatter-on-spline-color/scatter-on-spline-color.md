@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersion sur la couleur de la spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/scatter-on-spline-color-icon.png "Icône de nœud")
+![Icône de nœud](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "Icône de nœud")
 
 Dans : Outils Spline et Tracé > Outils spline
 
@@ -41,7 +41,7 @@ Trace le ou les motifs spécifiés le long des splines d&#39;entrée sur l&#39;a
 
 Le nœud offre des options de personnalisation avancées pour contrôler la façon dont les motifs sont dispersés
 
-Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;images provenant d&#39;autres nœuds dans le graphique afin de renforcer l&#39;aspect dynamique du résultat.
+Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;images provenant d&#39;autres nœuds dans le graphe pour améliorer l&#39;aspect dynamique du résultat.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 | <b>Arrière-plan</b> <i>Niveaux De Gris</i> (Principal) | Image en niveaux de gris sur les splines à tracer. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> * Signe : la spline est fermée (négative) ou ouverte (positive);<br> * Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée. |
 | <b>Entrée de motif #</b> <i>Niveaux de gris</i> | Motif(s) devant être dispersé(s) le long des splines. |
 | <b>Mappage d&#39;échelle</b> <i>Niveaux de gris</i> | La carte contrôlant l’échelle des motifs dispersés. L’effet de cette carte est contrôlé par le paramètre Multiplicateur d’entrée de carte d’échelle et est combiné aux autres paramètres du groupe Taille. |
 | <b>Mappage de l&#39;Height</b> <i>Niveaux de gris</i> | La carte contrôlant l&#39;height des motifs diffusés. L’effet de cette courbe est contrôlé par le paramètre Multiplicateur d’entrée Height et est associé aux autres paramètres Couleur du groupe Couleur. |
@@ -167,11 +167,11 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Certains aspects de la diffusion peuvent être contrôlés à l&#39;aide d&#39;i
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Exemple de nœud 1")
+![Exemple de nœud 1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

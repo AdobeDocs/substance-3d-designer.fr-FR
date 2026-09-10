@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Remplissage spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-fill-icon.png "Icône de nœud")
+![Icône de nœud](spline-fill.resources/spline-fill-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -72,11 +72,11 @@ Les splines ouvertes sont fermées par une ligne droite du début à la fin. Les
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ Les splines ouvertes sont fermées par une ligne droite du début à la fin. Les
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineFill-Demo.gif "Exemple de nœud 2")
+![Exemple de nœud 2](spline-fill.resources/SplineFill-Demo.gif "Exemple de nœud 2")
 
 </td>
 </tr>

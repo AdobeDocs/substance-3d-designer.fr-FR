@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CELLULES 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cellules 3 - Icône](../../../../../../assets/cells_3.png "Cellules 3 - Icône"){width="200px"}
+![Cellules 3 - Icône](cells-3.resources/cells_3.png "Cellules 3 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -77,12 +77,12 @@ Voir aussi : [Cellules 1](../../../../../../compositing-graphs/nodes-reference-f
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 1](../../../../../../assets/cells_3_1.png "Cellules 3 - Exemple 1"){zoomable="yes"}
+![Cellules 3 - Exemple 1](cells-3.resources/cells_3_1.png "Cellules 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 2](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso0.gif "Cellules 3 - Exemple 2"){zoomable="yes"}
+![Cellules 3 - Exemple 2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "Cellules 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Voir aussi : [Cellules 1](../../../../../../compositing-graphs/nodes-reference-f
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 3](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso1.gif "Cellules 3 - Exemple 3"){zoomable="yes"}
+![Cellules 3 - Exemple 3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "Cellules 3 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cellules 3 - Exemple 4](../../../../../../assets/noise_cells_3_v2_speed0.3_aniso0.6.gif "Cellules 3 - Exemple 4"){zoomable="yes"}
+![Cellules 3 - Exemple 4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "Cellules 3 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

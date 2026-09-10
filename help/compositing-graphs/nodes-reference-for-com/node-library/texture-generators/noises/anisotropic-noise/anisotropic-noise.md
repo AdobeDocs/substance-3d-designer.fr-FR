@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bruit anisotrope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit anisotrope - Icône](../../../../../../assets/anisotropic_noise_v2.png "Bruit anisotrope - Icône"){width="200px"}
+![Bruit anisotrope - Icône](anisotropic-noise.resources/anisotropic_noise_v2.png "Bruit anisotrope - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -71,12 +71,12 @@ La quantité de bandes est réglable, de même que le smoothness de leurs transi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit anisotrope - Exemple 1](../../../../../../assets/anisotropic_noise_v2_1.png "Bruit anisotrope - Exemple 1"){zoomable="yes"}
+![Bruit anisotrope - Exemple 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Bruit anisotrope - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit anisotrope - Exemple 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Bruit anisotrope - Exemple 2"){zoomable="yes"}
+![Bruit anisotrope - Exemple 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Bruit anisotrope - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>

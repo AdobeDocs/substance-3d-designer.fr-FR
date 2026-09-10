@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Rouille d'égouttage pour générer des motifs d'égouttement de rouille en fonction de la géométrie du maillage et de la direction de la gravité.
+description: Utilisez le nœud Rouille d'égouttage pour générer des motifs d'égouttage de rouille en fonction de la géométrie du maillage et de la direction de la gravité.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rouille goutte-à-goutte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Ce masque représente des flocons de rouille et des taches, avec des fuites qui s&#39;écoulent.
 
@@ -47,9 +47,9 @@ Ce masque représente des flocons de rouille et des taches, avec des fuites qui 
 
 |  |  |
 |:---|:---|
-| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Mappage cuit ou généré pour faciliter le placement des rouilles. |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Mappage cuit ou généré pour faciliter le placement des rouilles. |
-| <b>Position</b> <i>Entrée en niveaux de gris</i> | Carte préparée ou générée pour les directions de goutte à goutte. |
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Mappage baké ou généré pour faciliter le placement des rouilles. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Mappage baké ou généré pour faciliter le placement des rouilles. |
+| <b>Position</b> <i>Entrée en niveaux de gris</i> | Carte bakée ou générée pour les directions de goutte à goutte. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
 <a name="parameters"></a>
@@ -70,7 +70,7 @@ Ce masque représente des flocons de rouille et des taches, avec des fuites qui 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dripping-rust-ex3.gif" />
+            <img src="dripping-rust.resources/dripping-rust-ex3.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation des tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/paths-warp-icon.png "Icône de nœud")
+![Icône de nœud](paths-warp.resources/paths-warp-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -74,11 +74,11 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/PathsWarp-Demo1.gif "Exemple de nœud 1")
+![Exemple de nœud 1](paths-warp.resources/PathsWarp-Demo1.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">

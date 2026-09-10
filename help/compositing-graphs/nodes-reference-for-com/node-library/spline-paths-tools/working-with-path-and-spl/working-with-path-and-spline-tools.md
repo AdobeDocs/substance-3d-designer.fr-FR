@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Utilisation des Outils spline de tracé
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Par exemple, l&#39;image de droite représente la sortie de l&#39;image par un n
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sortie du polygone des tracés](../../../../../assets/PathsPolygon_Data.jpg "Sortie du polygone des tracés")
+![Sortie du polygone des tracés](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "Sortie du polygone des tracés")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Par exemple, les nœuds de génération de splines tels que [Spline (cubique)](.
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline cubique dans la vue 2D](../../../../../assets/SplineCubic-Demo.gif "Spline cubique dans la vue 2D")
+![Spline cubique dans la vue 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline cubique dans la vue 2D")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Les tracés et les outils spline nécessitent des calculs intensifs, à tel poin
 
 Vous remarquerez une amélioration significative des performances lorsque vous modifierez l’un de ces deux paramètres sur l’état recommandé.
 
-![Outils de tracé dans la bibliothèque](../../../../../assets/PathsTools.jpg "Outils de tracé dans la bibliothèque")
+![Outils de tracé dans la bibliothèque](working-with-path-and-spline-tools.resources/PathsTools.jpg "Outils de tracé dans la bibliothèque")
 
 ## Outils Path
 
@@ -97,7 +97,7 @@ Le [polygone des tracés](../../../../../compositing-graphs/nodes-reference-for-
 Vous pouvez également extraire des tracés d&#39;une image en niveaux de gris à l&#39;aide du nœud [Masquer sur les tracés](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md).\
 Il s&#39;agit actuellement de la seule façon de produire des formes complexes. Elle vous permet d&#39;exploiter l&#39;ensemble de la bibliothèque de [nœuds de graphe de Substance](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) pour produire les formes qui seront converties en tracés.
 
-![Nœuds de génération de tracés](../../../../../assets/Paths_Generation.jpg "Nœuds de génération de tracés"){width="600px"}
+![Nœuds de génération de tracés](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "Nœuds de génération de tracés"){width="600px"}
 
 ### Modification des tracés
 
@@ -121,7 +121,7 @@ Les tracés distincts ont une couleur unique dans l’aperçu pour distinguer fa
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud des chemins de prévisualisation](../../../../../assets/PreviewPaths_Node.jpg "Nœud des chemins de prévisualisation")
+![Nœud des chemins de prévisualisation](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "Nœud des chemins de prévisualisation")
 
 </td>
 </tr>
@@ -137,16 +137,16 @@ Une combinaison très utile pour exploiter l&#39;ensemble d&#39;outils de spline
 
 <b>Masquer > Masquer sur tracés > Tracés sur spline</b>
 
-![Chemin vers la spline](../../../../../assets/Spline_PathToSpline.jpg "Chemin vers la spline")
+![Chemin vers la spline](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "Chemin vers la spline")
 
 ### Spécifications de format de chemin d’accès
 
 Le nœud Tracés de prévisualisation est requis, car les nœuds Tracés produisent les données des tracés codés dans une image couleur.\
 Ce codage suit une spécification décrite dans la page [Spécifications de format des chemins](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md).
 
-Vous pouvez utiliser cette spécification pour produire vos propres nœuds à l&#39;aide de ce format et tirer le meilleur parti des nœuds du [processeur de sommets de tracés](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
+Vous pouvez utiliser cette spécification pour produire vos propres nœuds en utilisant ce format et tirer le meilleur parti des nœuds du [processeur de Vertex Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-![Outils spline dans la bibliothèque](../../../../../assets/SplineTools.jpg "Outils spline dans la bibliothèque")
+![Outils spline dans la bibliothèque](working-with-path-and-spline-tools.resources/SplineTools.jpg "Outils spline dans la bibliothèque")
 
 ## Outils Spline
 
@@ -165,7 +165,7 @@ Les splines peuvent également vous aider à en générer d&#39;autres. Par exem
 
 ### Modification des splines
 
-[Transformation 2D spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) et [Déformation spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) vous permettent de modifier la forme des splines.
+Le [Transforme 2D spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) et la [déformation spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) vous permettent de modifier la forme des splines.
 
 Vous pouvez également supprimer les splines indésirables en sélectionnant des tracés par index, ainsi qu&#39;en rognant les splines, à l&#39;aide du nœud [Sélection de spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-select/spline-select.md).
 
@@ -185,7 +185,7 @@ Par conséquent, il est très important de tenir compte de l&#39;ordre dans lequ
 
 Cela a un impact sur les nœuds qui doivent combiner des splines, tels que [Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) et [Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Ajout de splines avec des modes de création de liens](../../../../../assets/LinkCreationMode_Splines.gif "Ajout de splines avec des modes de création de liens")
+![Ajout de splines avec des modes de création de liens](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "Ajout de splines avec des modes de création de liens")
 
 ### Entrées et sorties splines
 
@@ -197,7 +197,7 @@ Les splines sont transmises d&#39;un nœud à un autre à l&#39;aide d&#39;un gr
 
 Chaque connecteur de sortie du nœud source doit être connecté au connecteur d&#39;entrée du nom correspondant dans le nœud cible.
 
-Pour accélérer ces connexions, vous pouvez utiliser du <b>matériau</b> ou du <b>matériau compact</b> [modes de création de liens](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Cela vous permet de connecter les trois connecteurs de spline en une seule opération.
+Pour accélérer ces connexions, vous pouvez utiliser du <b>Matériau</b> ou du <b>Matériau compact</b> [modes de création de liens](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Cela vous permet de connecter les trois connecteurs splines en une seule opération.
 
 <table>
 <tr style="border: 0;">
@@ -212,7 +212,7 @@ Cet aperçu peut être modifié dans les paramètres du nœud, à l&#39;aide des
 </td>
 <td style="border: 0;" valign="top">
 
-![Aperçu de la sortie sur le nœud spline](../../../../../assets/Spline_PreviewOutput.jpg "Aperçu de la sortie sur le nœud spline")
+![Aperçu de la sortie sur le nœud spline](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "Aperçu de la sortie sur le nœud spline")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Pour dessiner une spline en pixels, l&#39;outil les simplifie en lignes ou en se
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline rendue en tant que segments](../../../../../assets/Spline_Segments.jpg "Spline rendue en tant que segments")
+![Spline rendue en tant que segments](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "Spline rendue en tant que segments")
 
 </td>
 </tr>

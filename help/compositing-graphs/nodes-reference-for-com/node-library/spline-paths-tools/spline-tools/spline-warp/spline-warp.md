@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation de la spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-warp-icon.png "Icône de nœud")
+![Icône de nœud](spline-warp.resources/spline-warp-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -47,10 +47,10 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 
 |  |  |
 |:---|:---|
-| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d’entrée sous forme d’image en niveaux de gris. |
+| <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines d&#39;entrée sous forme d&#39;image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> - signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée. |
 | <b>Carte d&#39;intensité</b> <i>Niveaux de gris</i> | (Disponible lorsque l&#39;option Utiliser la texture vectorielle est définie sur Faux) image en niveaux de gris d&#39;entrée utilisée pour contrôler la direction et l&#39;intensité de l&#39;effet de déformation sur les splines d&#39;entrée.<br>La couleur de chaque pixel de l&#39;image spécifie un multiplicateur pour déplacer les points de la spline le long de leur normale (c&#39;est-à-dire la direction perpendiculaire à la spline), jusqu&#39;à la plage complète de l&#39;image.<br>Les valeurs [0 ; 1] de l&#39;image sont remappées sur la plage [-1 ; 1] lorsqu&#39;elles sont lues comme un multiplicateur : 0 et 1 déplacent la spline de la même distance mais dans des directions opposées. 0,5 laisse la spline en place. |
 | <b>Carte vectorielle</b> <i>Niveaux de gris</i> | (Disponible lorsque l’option Utiliser la texture vectorielle est définie sur Vrai) Image couleur d’entrée utilisée pour contrôler la direction et l’intensité de l’effet de déformation sur les splines d’entrée.<br>La couleur de chaque pixel de l&#39;image spécifie le vecteur (X, Y) dont les coordonnées sont codées dans les canaux rouge (X) et vert (Y). +X à droite et +Y en bas.<br>Les valeurs [0 ; 1] de l&#39;image sont remappées sur la plage [-1 ; 1] lorsqu&#39;elles sont lues en tant que coordonnées vectorielles : 0 rouge déplace les points vers la gauche et 0 vert déplace les points vers le haut. 0,5 rouge et vert laisse la spline en place. |
 | <b>Courbe D&#39;Atténuation</b> <i>Niveaux de gris</i> | Image décrivant une courbe en utilisant les valeurs de sa première ligne de pixels.<br>Lorsque le paramètre Utiliser la courbe d&#39;atténuation est défini sur True, cette entrée est utilisée pour contrôler l&#39;atténuation de l&#39;effet de déformation près du début et de la fin de la spline.<br>La courbe fournit un profil pour l&#39;atténuation, où le premier pixel de la ligne est l&#39;intensité de l&#39;effet de déformation au début de la spline, et le dernier est l&#39;intensité à la fin. La valeur Niveaux de gris correspond à l’intensité.<br>Vous pouvez utiliser un nœud Courbe pour créer la courbe. |
@@ -97,11 +97,11 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ L&#39;intensité de l&#39;effet de déformation peut être ajustée le long de l
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineWarp-Demo.gif "Exemple de nœud 1")
+![Exemple de nœud 1](spline-warp.resources/SplineWarp-Demo.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
