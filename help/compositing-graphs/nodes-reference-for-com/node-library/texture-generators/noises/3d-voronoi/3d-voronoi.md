@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Voronoi 3D pour générer des motifs Voronoi basés sur la position mondiale 3D afin de créer des textures cellulaires volumétriques.
+description: Utilisez le nœud Voronoi 3D pour générer des motifs Voronoi en fonction de la position mondiale 3D afin de créer des textures cellulaires volumétriques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -52,10 +52,10 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 |  |  |
 |:---|:---|
 | <b>Inverser</b> <i>Booléen</i> | Inverse l’image de sortie. |
-| <b>Échelle</b> <i>Flotter</i> | Contrôle l&#39;échelle du bruit 3D Voronoi.<br><br><i>Remarque</i> : lorsque la <b>Répétition</b> est activée sur <i>n&#39;importe quel axe</i>, l&#39;ajustement de l&#39;échelle est <i>gradué</i>. C&#39;est ce qui est attendu. |
-| <b>Taille</b> <i>Float3</i> | Contrôle la taille du bruit de Voronoï 3D sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet de <i>étiré ou d&#39;écrasement</i>.<br><br><i>Remarque</i> : lorsque la <b>Répétition</b> est activée sur <i>n&#39;importe quel axe</i>, le réglage de la taille est <i>par paliers</i>. C&#39;est ce qui est attendu. |
-| <b>Décalage</b> <i>Float3</i> | Applique un décalage à la <i>position</i> du bruit de Voronoï 3D sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
-| <b>Désordre</b> <i>Float3</i> | Intensité du <i>décalage aléatoire</i> appliqué à chaque point du bruit sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Échelle</b> <i>Flottant</i> | Contrôle l&#39;échelle du bruit 3D Voronoi.<br><br><i>Remarque</i> : lorsque la <b>Répétition</b> est activée sur <i>n&#39;importe quel axe</i>, l&#39;ajustement de l&#39;échelle est <i>gradué</i>. C&#39;est ce qui est attendu. |
+| <b>Taille</b> <i>Flottant3</i> | Contrôle la taille du bruit 3D Voronoi dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. Les valeurs non uniformes entraînent un effet de <i>étiré ou d&#39;écrasement</i>.<br><br><i>Remarque</i> : lorsque la <b>Répétition</b> est activée sur <i>n&#39;importe quel axe</i>, le réglage de la taille est <i>par paliers</i>. C&#39;est ce qui est attendu. |
+| <b>Décalage</b> <i>Flottant3</i> | Applique un décalage à la <i>position</i> du bruit Voronoi 3D dans les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
+| <b>Désordre</b> <i>Flottant3</i> | Intensité du <i>décalage aléatoire</i> appliqué à chaque point du bruit sur les axes <b>X</b>, <b>Y</b> et <b>Z</b>. |
 | <b>Intensité de la Distorsion</b> <i>Flotter</i> | Contrôle l&#39;intensité d&#39;un <i>effet de déformation</i> appliqué sur le bruit de Voronoï 3D. |
 | <b>Multiplicateur d&#39;échelle de Distorsion</b> <i>Flotter</i> | Contrôle l&#39;échelle du <i>motif de déformation</i> utilisé dans l&#39;effet de déformation contrôlé par l&#39;<b>intensité de la Distorsion</b>. |
 | <b>Courbe Arrondie</b> <i>Flotter</i> | Arrondit la <i>pente</i> autour de chaque point du bruit pour le rendre <i>convexe</i>.<br><br><i>Remarque</i> : ce paramètre n&#39;est pas disponible lorsque le paramètre <b>Style</b> est défini sur <i>Edge</i>. |
@@ -71,24 +71,24 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>
