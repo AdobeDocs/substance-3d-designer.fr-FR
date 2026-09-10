@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-014.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Map 014 pour générer des textures d'usure/salissures procédurales afin d'ajouter des détails de surface et des effets d'usure aux matériaux.
+description: Utilisez le nœud Usure/salissures Map 014 pour générer des textures usure/salissures procédurales afin d'ajouter des détails de surface et des effets d'usure aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 014
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Carte Usure/salissures 014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-014.png){width="128px"}
+![](grunge-map-014.resources/grungemap-014.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Description
 
-Cela génère une carte de bruit combinée complexe. Il peut être très utile en tant que procédure détaillée, mais gardez à l&#39;esprit qu&#39;ils sont très exigeants en termes de performances et donc plus lents à générer.
+Cela génère une carte de bruit combinée complexe. Il peut être très utile en tant que procédural détaillé, mais gardez à l’esprit qu’ils sont très exigeants en termes de performances et donc plus lents à générer.
 
 </td>
 </tr>
@@ -49,14 +49,14 @@ Cela génère une carte de bruit combinée complexe. Il peut être très utile e
 | <b>Contraste</b> <i>0.0 - 1.0</i> |  |
 | <b>Inverser</b> <i>Faux/Vrai</i> |  |
 | <b>Motif de pinceau</b> <i>0.0 - 1.0</i> | Ajoute un masque autour des bords, par exemple lorsqu’il est utilisé comme alpha de pinceau. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-014-ex.gif" />
+            <img src="grunge-map-014.resources/grungemap-014-ex.gif" />
         </td>
     </tr>
 </table>
