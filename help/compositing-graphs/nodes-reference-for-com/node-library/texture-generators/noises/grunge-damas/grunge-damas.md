@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Damas pour générer des motifs d'usure/salissures de type damas afin de créer des détails de surface patinés ornés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures Damas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
 <b>Entrée :</b> générateurs de Textures > Bruits
 
@@ -61,7 +61,7 @@ Le nœud **Usure/salissures Damas** génère une carte usure/salissures semblabl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>
