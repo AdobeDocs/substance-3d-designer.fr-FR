@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit bleu accéléré pour générer des motifs de bruit bleu accéléré afin de créer un tramage et des variations de texture de haute qualité.
 helpx_creative_field: ""
