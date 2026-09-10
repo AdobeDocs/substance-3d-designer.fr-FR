@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation multidirectionnelle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-color.png)![](multi-directional-warp.resources/multi-directional-warp-grayscalepng.png)
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -59,4 +59,4 @@ Il diffère principalement du [Non Uniform Directional Warp](../../../../../../c
 | <b>Intensité</b> <i>0.0 - 20.0</i> | Définit l’intensité de l’effet de déformation et la distance à laquelle les pixels doivent être sortis. |
 | <b>Angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’angle ou la direction d’application de l’effet de déformation. |
 | <b>Mode</b> <i>Moyenne, Max, Min, Chaîne</i> | Définit le mode de fusion pour les passes consécutives. N&#39;a d&#39;effet que si Directions est 2 ou 4 ! |
-| <b>Directions</b> <i>1, 2, 4</i> | Définit le nombre d’Axes de la déformation. 1 signifie qu&#39;il se déplace dans la direction de l&#39;angle, et l&#39;opposé de cette direction, 2 signifie l&#39;axe de l&#39;angle, plus l&#39;axe perpendiculaire, 4 signifie les axes précédents, plus 45 degrés d&#39;inclinaison. |
+| <b>Directions</b> <i>1, 2, 4</i> | Définit le nombre d’Axes de la déformation. 1 signifie qu&#39;il se déplace dans la direction de l&#39;Angle, et l&#39;opposé de cette direction, 2 signifie l&#39;axe de l&#39;angle, plus l&#39;axe perpendiculaire, 4 signifie les axes précédents, plus les inclinaisons de 45 degrés. |

@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Dégradé normal
+title: Fusion normale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Dégradé normal
+# Fusion normale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
 <b>Entrée :</b> Filtres > Map normal
 
@@ -65,7 +65,7 @@ La Fusion des normales n&#39;est pas destinée à la combinaison (superposition)
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>(.gif format introduit le dithering dans l'exemple, les résultats dans l'application sont lisses)</i>
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(.gif format introduit le dithering dans l'exemple, les résultats dans l'application sont lisses)</i>
         </td>
     </tr>
 </table>

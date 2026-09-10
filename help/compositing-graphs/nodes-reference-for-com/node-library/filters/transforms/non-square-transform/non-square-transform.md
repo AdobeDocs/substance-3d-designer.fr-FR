@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transforme non carré
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/safe-transform-grayscale.png)
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -55,7 +55,7 @@ Assurez-vous de bien comprendre les [paramètres de Graphe](../../../../../../co
 |:---|:---|
 | <b>Mode mosaïque</b> <i>Automatique, Manuel</i> | Activez ou non les compensations automatiques non carrées. |
 | <b>Mosaïque</b> <i>1 - 16</i> | Uniquement accessible lorsque le mode Mosaïque est défini sur Manuel. Permet de modifier l’échelle de manière à éviter les répétitions. |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. Double-cliquez sur le curseur pour entrer des valeurs négatives. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate le résultat. Double-cliquez sur le curseur pour entrer des valeurs négatives. |
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter l’image d&#39;entrée. |
 | <b>Rotation Sécurisée (Carré Uniquement)</b> <i>Faux/Vrai</i> | Contraint sur des valeurs admissibles pour conserver la netteté des pixels. |
 | <b>Couleur d&#39;arrière-plan</b> <i>(valeur de couleur)</i> | Couleur d’arrière-plan pour remplir l’image. Visible uniquement lorsque le Mode de répétition [&#x200B; dans les paramètres de base est défini sur « *Aucune Répétition* »](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
@@ -65,7 +65,7 @@ Assurez-vous de bien comprendre les [paramètres de Graphe](../../../../../../co
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonsquare-ex.png" />
+            <img src="non-square-transform.resources/nonsquare-ex.png" />
         </td>
     </tr>
 </table>

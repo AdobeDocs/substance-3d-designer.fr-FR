@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Noise Upscale 1 pour mettre à niveau les textures à l’aide d’algorithmes basés sur le bruit afin de préserver les détails lors de l’augmentation de la résolution de la texture.
+description: Utilisez le nœud Bruit Upscale 1 pour mettre à niveau les textures à l’aide d’algorithmes basés sur le bruit afin de préserver les détails lors de l’augmentation de la résolution des textures.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Amélioration du bruit 1
+title: Bruit Upscale 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# Amélioration du bruit 1
+# Bruit Upscale 1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
 
 <b>Entrées :</b> Filtres > Transformes
 
@@ -33,11 +33,11 @@ ht-degree: 6%
 
 ## Description
 
-Prend un bruit d’entrée procédural et le met à l’échelle jusqu’à une double résolution, en conservant les détails sans introduire trop de mosaïque. Utilise un masque de type « X » et fusionne avec un contraste similaire à l’entrée d’origine (le mode de fusion interne est Copier).
+Prend un bruit d’entrée procédural et le met à l’échelle jusqu’à une double résolution, en conservant les détails sans introduire trop de répétition. Utilise un masque de type « X » et fusionne avec un contraste similaire à l’entrée d’origine (le mode de fusion interne est Copier).
 
-Ce nœud est principalement destiné à l’optimisation des graphes lents qui utilisent des bruits intenses et importants. Cela vous permet d’utiliser des résolutions plus élevées sans ajouter trop de temps de calcul supplémentaire.
+Ce nœud est principalement destiné à optimiser les graphes lents qui utilisent des bruits lourds et volumineux. Cela vous permet d’utiliser des résolutions plus élevées sans ajouter trop de temps de calcul supplémentaire.
 
-Voir également [Amélioration du bruit 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) et [Amélioration du bruit 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) pour différentes variantes de ce processus.
+Voir également [Amélioration de Bruit 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) et [Amélioration de Bruit 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) pour différentes variantes de ce processus.
 
 </td>
 </tr>
@@ -50,7 +50,7 @@ Voir également [Amélioration du bruit 2](../../../../../../compositing-graphs/
 |  |  |
 |:---|:---|
 | <b>Décalage1X</b> <i>0.0 - 1.0</i> | Fait glisser les parties supérieure et inférieure sur l’axe X. |
-| <b>Décalage1Y</b> <i>0.0 - 1.0</i> | Permet de faire glisser les parties supérieure et inférieure sur l’axe Y. |
+| <b>Décalage1Y</b> <i>0.0 - 1.0</i> | Fait glisser les parties supérieure et inférieure sur l’axe Y. |
 | <b>Offset2X</b> <i>0.0 - 1.0</i> | Fait glisser les parties gauche et droite sur l’axe X. |
 | <b>Offset2Y</b> <i>0.0 - 1.0</i> | Fait glisser les parties gauche et droite sur l’axe Y. |
 
@@ -59,7 +59,7 @@ Voir également [Amélioration du bruit 2](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/noise1ex.png" />
+            <img src="noise-upscale-1.resources/noise1ex.png" />
         </td>
     </tr>
 </table>
