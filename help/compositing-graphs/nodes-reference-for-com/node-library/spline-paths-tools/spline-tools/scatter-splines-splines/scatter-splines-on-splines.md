@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Splines de Dispersion sur splines pour répartir les splines enfants le long des tracés de splines parents.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersion de splines sur des splines
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : icône](../../../../../../assets/scatter-splines-on-splines-icon.png "Splines de Dispersion sur splines : icône")
+![Splines de Dispersion sur splines : icône](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "Splines de Dispersion sur splines : icône")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -54,7 +54,7 @@ Cliquez sur l&#39;image à droite pour accéder à notre <b>tutoriel dédié</b>
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nœuds Spline vidéo](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![Nœuds Spline vidéo](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -122,28 +122,28 @@ Cliquez sur l&#39;image à droite pour accéder à notre <b>tutoriel dédié</b>
 | <b>Décalage aléatoire sur la spline</b> *Flotter* | Applique un décalage de position supplémentaire aux splines le long des splines parentes. |
 | <b>Décalage par Thickness</b> *Flotter* | Applique un décalage aux splines diffusées le long de la normale des splines parentes, jusqu&#39;au thickness des splines parentes.<br>En fait, la valeur 1 vous permet de placer les splines diffusées sur la *surface* de l&#39;enveloppe des splines parentes. |
 | <b>Rotation</b> |  |
-| <b>Alignement Spline Personnalisé</b> *Entier* | Contrôle l&#39;orientation initiale de la ou des splines personnalisées sur les splines parentes.<br><br>- <b>tangente du premier point</b> Les splines sont orientées en fonction de la tangente de leur premier point. En d&#39;autres termes, elles s&#39;éloignent des splines parentes dans la direction définie par leur premier point.<br>-<b>Espace de l&#39;image</b> Les splines sont placées telles qu&#39;elles apparaissent à l&#39;origine, sans aucun réglage supplémentaire de leur position ou de leur orientation, comme si l&#39;image qui les représente reposait sur la spline parente. |
-| <b>Mode Rotation</b> *Entier* | Définit l&#39;orientation initiale des splines dispersées.<br><br>- <b>À partir d&#39;une spline</b> Les splines sont orientées pour correspondre à la *normale* des splines parentes à leur emplacement.<br>-<b>Absolue</b> Les splines sont toutes orientées de la *même façon*, quelle que soit la direction des splines parentes. |
-| <b>Rotation</b> *Flottant* | Fait pivoter les splines autour de leurs pivots, en nombre de tours. La position de pivot peut être décalée à l&#39;aide du paramètre <b>Spline Pivot</b>. |
-| <b>Rotation aléatoire</b> *Flottant* | Applique une rotation aléatoire supplémentaire aux splines autour de leurs pivots, en nombre de tours. La position de pivot peut être décalée à l&#39;aide du paramètre <b>Spline Pivot</b>. |
-| <b>Angle Gauche/Droit</b> *Flottant* | Définit l&#39;angle de rotation symétrique appliqué aux splines de chaque côté des splines parentes, en nombre de tours. |
-| <b>Angle gauche/droit aléatoire</b> *Flottant* | Ajoute une quantité aléatoire de rotation symétrique aux splines de chaque côté des splines parentes, en nombre de tours. |
-| <b>Multiplicateur d&#39;entrée de Map rotation</b> *Flottant* | Contrôle l&#39;intensité de l&#39;entrée de <b>Map rotation</b>. Cette carte agit comme un multiplicateur pour la rotation actuelle des motifs.<br>L&#39;effet de cette carte est combiné aux autres paramètres du groupe <b>Rotation</b>. |
+| <b>Alignement Spline Personnalisé</b> *Nombre entier* | Contrôle l&#39;orientation initiale de la ou des splines personnalisées sur les splines parentes.<br><br>- <b>tangente du premier point</b> Les splines sont orientées en fonction de la tangente de leur premier point. En d&#39;autres termes, elles s&#39;éloignent des splines parentes dans la direction définie par leur premier point.<br>-<b>Espace de l&#39;image</b> Les splines sont placées telles qu&#39;elles apparaissent à l&#39;origine, sans aucun réglage supplémentaire de leur position ou de leur orientation, comme si l&#39;image qui les représente reposait sur la spline parente. |
+| <b>Mode Rotation</b> *Nombre entier* | Définit l&#39;orientation initiale des splines dispersées.<br><br>- <b>À partir d&#39;une spline</b> Les splines sont orientées pour correspondre à la *normale* des splines parentes à leur emplacement.<br>-<b>Absolue</b> Les splines sont toutes orientées de la *même façon*, quelle que soit la direction des splines parentes. |
+| <b>Rotation</b> *Flotter* | Fait pivoter les splines autour de leurs pivots, en nombre de tours. La position de pivot peut être décalée à l&#39;aide du paramètre <b>Spline Pivot</b>. |
+| <b>Rotation aléatoire</b> *Flotter* | Applique une rotation aléatoire supplémentaire aux splines autour de leurs pivots, en nombre de tours. La position de pivot peut être décalée à l&#39;aide du paramètre <b>Spline Pivot</b>. |
+| <b>Angle Gauche/Droit</b> *Flotter* | Définit l&#39;angle de rotation symétrique appliqué aux splines de chaque côté des splines parentes, en nombre de tours. |
+| <b>Angle gauche/droit aléatoire</b> *Flotter* | Ajoute une quantité aléatoire de rotation symétrique aux splines de chaque côté des splines parentes, en nombre de tours. |
+| <b>Multiplicateur d&#39;entrée de Map rotation</b> *Flotter* | Contrôle l&#39;intensité de l&#39;entrée de <b>Map rotation</b>. Cette carte agit comme un multiplicateur pour la rotation actuelle des motifs.<br>L&#39;effet de cette carte est combiné aux autres paramètres du groupe <b>Rotation</b>. |
 | <b>Mode D&#39;Échantillonnage D&#39;Entrée De Map rotation</b> *Nombre entier* | Méthode de mappage des valeurs de la <b>Map rotation</b> aux splines :<br><br>-<b>espace de Texture</b> Les valeurs sont appliquées aux splines où elles seraient si elles étaient placées dans une texture à l&#39;aide des coordonnées d&#39;UV de la texture. Cela applique efficacement la valeur aux splines « en place »,<br>- <b>Horizontales le long de la spline</b>. Les valeurs sont appliquées directement aux coordonnées des splines codées (voir l&#39;entrée <b>Spline Coords</b>), où chaque ligne est appliquée à une spline différente de haut en bas,<br>- <b>Heure. le long de la spline (rand. offset X)</b> Les valeurs sont directement appliquées aux coordonnées des splines codées (voir la section <b>Entrée Spline Coords</b>), avec un décalage horizontal aléatoire dans la <b>Map rotation</b> pour chaque spline (c&#39;est-à-dire chaque ligne dans <b>Spline Coords</b>).<br>- <b>Hor. le long de la spline (rand. offset Y)</b> Les valeurs sont directement appliquées aux coordonnées des splines codées (voir <b>Spline Coords</b> input), avec un décalage vertical aléatoire dans la <b>Map rotation</b> pour chaque spline (c&#39;est-à-dire chaque ligne dans <b>Spline Coords</b>)<b>.</b> |
 | <b>L&#39;Entrée De Map rotation Affecte</b> *Nombre entier* | Sélectionne le paramètre de rotation qui est affecté par la <b>Map rotation</b>:<br><br>-<b>rotation de la spline</b> La carte affecte la rotation globale des splines dans le sens horaire.<br>-<b>Angle gauche/droit</b> La carte affecte la rotation symétrique des splines <b>Gauche/Droite</b>. |
 | <b>Height</b> |  |
 | <b>Mode Height de démarrage</b> *Nombre entier* | Méthode de calcul de l&#39;height de départ des splines diffusées.<br><br>- <b>Manuel</b> Définissez la même valeur absolue pour toutes les splines diffusées.<br>- <b>À partir de la spline parent (+ spline personnalisée)</b> Utilisez l&#39;height de la spline parent, puis ajoutez l&#39;height de la spline personnalisée à l&#39;aide du <b>mult d&#39;height de départ de spline personnalisée.</b> <br>- <b>À partir d&#39;une spline personnalisée</b> Utilisez l&#39;height de la spline personnalisée telle quelle.<br><br><i>Remarque :</i> définissez <b>Type de spline</b> sur &#39;Spline personnalisée&#39; et connectez les entrées <b>Spline personnalisée</b> pour utiliser l&#39;height des splines personnalisées. |
 | <b>Height de début de spline personnalisé multiple.</b> *Flotter* | Contrôle la contribution de l&#39;height de départ de la spline personnalisée à l&#39;height de départ des splines dispersées, où 1 signifie que l&#39;height complet de la spline personnalisée est utilisé.<br>L&#39;height de la spline personnalisée est utilisé différemment selon le <b>mode d&#39;Height de départ</b> :<br>- <i>à partir de la spline parent (+ spline personnalisée) :</i> l&#39;height est ajouté à la spline parent<br>- <i>à partir de la spline personnalisée :</i> l&#39;height est utilisé directement |
 | <b>Décalage de l&#39;Height de début</b> *Flotter* | Applique un décalage absolu à l&#39;height de départ de la spline. |
-| <b>Height de démarrage</b> *Flottant* | Définit une valeur absolue pour l&#39;height de départ de la spline diffusée. |
-| <b>Mode d&#39;Height final</b> *Entier* | Méthode de calcul de l&#39;height de fin des splines diffusées.<br><br>- <b>Manuel</b> Définissez la même valeur absolue pour toutes les splines diffusées.<br>- <b>À partir de la spline parent (+ spline personnalisée)</b> Utilisez l&#39;height de la spline parent, puis ajoutez l&#39;height de la spline personnalisée à l&#39;aide de l&#39;<b>Height d&#39;extrémité personnalisé Mult.</b> <br>- <b>À partir d&#39;une spline personnalisée</b> Utilisez l&#39;height de la spline personnalisée telle quelle.<br><br><i>Remarque :</i> définissez <b>Type de spline</b> sur Spline personnalisée et connectez les entrées <b>Spline personnalisée</b> pour utiliser l&#39;height des splines personnalisées. |
-| <b>Height d&#39;extrémité de spline personnalisé multiple.</b> *Flottant* | Contrôle la contribution de l&#39;height de fin de la spline personnalisée à l&#39;height de fin des splines dispersées, où 1 signifie que l&#39;height complet de la spline personnalisée est utilisé.<br>L&#39;height de la spline personnalisée est utilisé différemment selon le <b>mode d&#39;Height final</b> :<br>- <i>à partir de la spline parent (+ spline personnalisée) :</i> l&#39;height est ajouté à la spline parent<br>- <i>à partir de la spline personnalisée :</i> l&#39;height est utilisé directement |
-| <b>Décalage de l&#39;Height de fin</b> *Flottant* | Applique un décalage absolu à l&#39;height d&#39;arrivée de la spline diffusée. |
-| <b>Height final</b> *Flottant* | Définit une valeur absolue pour l&#39;height d&#39;arrivée de la spline diffusée. |
+| <b>Height de démarrage</b> *Flotter* | Définit une valeur absolue pour l&#39;height de départ de la spline. |
+| <b>Mode d&#39;Height final</b> *Nombre entier* | Méthode de calcul de l&#39;height de fin des splines diffusées.<br><br>- <b>Manuel</b> Définissez la même valeur absolue pour toutes les splines diffusées.<br>- <b>À partir de la spline parent (+ spline personnalisée)</b> Utilisez l&#39;height de la spline parent, puis ajoutez l&#39;height de la spline personnalisée à l&#39;aide de l&#39;<b>Height d&#39;extrémité personnalisé Mult.</b> <br>- <b>À partir d&#39;une spline personnalisée</b> Utilisez l&#39;height de la spline personnalisée telle quelle.<br><br><i>Remarque :</i> définissez <b>Type de spline</b> sur Spline personnalisée et connectez les entrées <b>Spline personnalisée</b> pour utiliser l&#39;height des splines personnalisées. |
+| <b>Height d&#39;extrémité de spline personnalisé multiple.</b> *Flotter* | Contrôle la contribution de l&#39;height de fin de la spline personnalisée à l&#39;height de fin des splines dispersées, où 1 signifie que l&#39;height complet de la spline personnalisée est utilisé.<br>L&#39;height de la spline personnalisée est utilisé différemment selon le <b>mode d&#39;Height final</b> :<br>- <i>à partir de la spline parent (+ spline personnalisée) :</i> l&#39;height est ajouté à la spline parent<br>- <i>à partir de la spline personnalisée :</i> l&#39;height est utilisé directement |
+| <b>Décalage de l&#39;Height de fin</b> *Flotter* | Applique un décalage absolu à l&#39;height d&#39;arrivée de la spline diffusée. |
+| <b>Height final</b> *Flotter* | Définit une valeur absolue pour l&#39;height de fin de la spline diffusée. |
 | <b>Thickness</b> |  |
-| <b>Démarrer le mode de Thickness</b> *Entier* | Méthode de calcul du thickness de départ des splines dispersées.<br><br>- <b>Manuel</b> Définissez la même valeur absolue pour toutes les splines dispersées.<br>- <b>À partir de la spline parent</b> Utilisez le thickness de la spline parent.<br>- <b>À partir d&#39;une spline personnalisée</b> Utilisez le thickness de la spline personnalisée.<br><br><i>Remarque :</i> Définissez <b>Type de spline</b> sur Spline personnalisée et connectez les entrées <b>Spline personnalisée</b> pour utiliser le thickness de splines personnalisées. |
-| <b>Démarrer le multiplicateur de Thickness</b> *Flottant* | Met à l&#39;échelle le thickness de départ des splines dispersées, où 1 représente le thickness entier. |
-| <b>Décalage du Thickness de début</b> *Flottant* | Applique un décalage absolu au thickness de départ de la spline. |
+| <b>Démarrer le mode de Thickness</b> *Nombre entier* | Méthode de calcul du thickness de départ des splines dispersées.<br><br>- <b>Manuel</b> Définissez la même valeur absolue pour toutes les splines dispersées.<br>- <b>À partir de la spline parent</b> Utilisez le thickness de la spline parent.<br>- <b>À partir d&#39;une spline personnalisée</b> Utilisez le thickness de la spline personnalisée.<br><br><i>Remarque :</i> Définissez <b>Type de spline</b> sur Spline personnalisée et connectez les entrées <b>Spline personnalisée</b> pour utiliser le thickness de splines personnalisées. |
+| <b>Démarrer le multiplicateur de Thickness</b> *Flotter* | Met à l&#39;échelle le thickness de départ des splines dispersées, où 1 représente le thickness entier. |
+| <b>Décalage du Thickness de début</b> *Flotter* | Applique un décalage absolu au thickness de départ de la spline. |
 | <b>Démarrer le Thickness</b> *Flotter* | Définit une valeur absolue pour le thickness de départ de la spline. |
 | <b>Fin du mode de Thickness</b> *Nombre entier* | Méthode de calcul du thickness de fin des splines dispersées.<br><br>- <b>Manuel</b> Définissez la même valeur absolue pour toutes les splines dispersées.<br>- <b>À partir de la spline parent</b> Utilisez le thickness de la spline parent.<br>- <b>À partir d&#39;une spline personnalisée</b> Utilisez le thickness de la spline personnalisée.<br><br><i>Remarque :</i> Définissez <b>Type de spline</b> sur Spline personnalisée et connectez les entrées <b>Spline personnalisée</b> pour utiliser le thickness de splines personnalisées. |
 | <b>Multiplicateur de Thickness de fin</b> *Flotter* | Met à l&#39;échelle le thickness de départ des splines dispersées, où 1 représente le thickness entier. |
@@ -162,12 +162,12 @@ Cliquez sur l&#39;image à droite pour accéder à notre <b>tutoriel dédié</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : Exemple 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "Splines de Dispersion sur splines : exemple 1"){zoomable="yes"}
+![Splines de Dispersion sur splines : Exemple 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "Splines de Dispersion sur splines : exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : Exemple 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "Splines de Dispersion sur splines : exemple 1"){zoomable="yes"}
+![Splines de Dispersion sur splines : Exemple 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "Splines de Dispersion sur splines : exemple 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ Cliquez sur l&#39;image à droite pour accéder à notre <b>tutoriel dédié</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : Exemple 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "Splines de Dispersion sur splines : Exemple 3"){zoomable="yes"}
+![Splines de Dispersion sur splines : Exemple 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "Splines de Dispersion sur splines : Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : Exemple 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "Splines de Dispersion sur splines : Exemple 4"){zoomable="yes"}
+![Splines de Dispersion sur splines : Exemple 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "Splines de Dispersion sur splines : Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ Cliquez sur l&#39;image à droite pour accéder à notre <b>tutoriel dédié</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : rendu 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "Les splines de Dispersion sur splines : rendu 1"){zoomable="yes"}
+![Splines de Dispersion sur splines : rendu 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "Les splines de Dispersion sur splines : rendu 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersion sur splines : rendu 2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "Les splines de Dispersion sur splines : rendu 2"){zoomable="yes"}
+![Splines de Dispersion sur splines : rendu 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "Les splines de Dispersion sur splines : rendu 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Splines de Dispersion sur splines : rendu 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "Les splines de Dispersion sur splines : rendu 3"){zoomable="yes"}
+![Splines de Dispersion sur splines : rendu 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "Les splines de Dispersion sur splines : rendu 3"){zoomable="yes"}

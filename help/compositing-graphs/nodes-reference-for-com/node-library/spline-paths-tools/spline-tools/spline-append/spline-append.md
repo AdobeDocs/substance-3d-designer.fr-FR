@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'ajout de spline pour ajouter plusieurs splines ensemble afin de créer des tracés continus plus longs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ajouter une spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-append-icon.png "Icône de nœud")
+![Icône de nœud](spline-append.resources/spline-append-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -54,7 +54,7 @@ L&#39;ordre des listes est conservé, c&#39;est-à-dire que l&#39;ajout d&#39;un
 | <b>Aperçu #1</b> <i>Niveaux de gris</i> | Aperçu du premier jeu de splines d&#39;entrée sous la forme d&#39;une image en niveaux de gris. |
 | <b>Spline #1 Coords</b> <i>Couleur</i> | Coordonnées du premier ensemble de points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données de #1 spline</b> <i>Couleur</i> | Données supplémentaires du premier ensemble de splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de #1 spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée dans le premier jeu. |
+| <b>Quantité de #1 spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée dans le premier jeu. |
 | <b>Aperçu #2</b> <i>Niveaux de gris</i> | Aperçu du deuxième jeu de splines d&#39;entrée sous la forme d&#39;une image en niveaux de gris. |
 | <b>Spline #2 Coords</b> <i>Couleur</i> | Coordonnées du deuxième ensemble de points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données de #2 spline</b> <i>Couleur</i> | Données supplémentaires du deuxième ensemble de splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
@@ -91,15 +91,15 @@ L&#39;ordre des listes est conservé, c&#39;est-à-dire que l&#39;ajout d&#39;un
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineAppend-Demo.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-append.resources/SplineAppend-Demo.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineAppend-Graph.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-append.resources/SplineAppend-Graph.jpg "Exemple de nœud 2")
 
 </td>
 </tr>
 </table>
 
-![Démonstration de nœud](../../../../../../assets/SplineAppend-Demo2.gif "Démonstration de nœud")
+![Démonstration de nœud](spline-append.resources/SplineAppend-Demo2.gif "Démonstration de nœud")
