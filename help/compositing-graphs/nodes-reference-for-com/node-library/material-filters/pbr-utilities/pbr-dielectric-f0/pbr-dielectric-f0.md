@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
 description: Utilisez le nœud PBR Dielectric F0 pour calculer les valeurs de F0 diélectrique pour les flux de production de matériaux basés physiquement.
 helpx_creative_field: ""

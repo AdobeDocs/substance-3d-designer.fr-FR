@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion de couleur de Matériau pour fusionner des couches de couleur entre des matériaux afin de créer des effets de matériau composites.
 helpx_creative_field: ""
