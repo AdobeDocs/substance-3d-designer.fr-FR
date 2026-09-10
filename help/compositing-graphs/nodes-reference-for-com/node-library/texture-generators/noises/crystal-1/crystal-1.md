@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Crystal 1 pour générer des motifs de cristal afin de créer des effets de texture cristalline et à facettes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cristal 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -47,14 +47,14 @@ Génère un bruit de type Worlye Voronoi, avec une mesure de distance légèreme
 |:---|:---|
 | <b>Échelle</b> <i>1 - 256</i> | Définit l’échelle globale de l’effet. |
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasez le bruit pour introduire une faible variation. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/crystal-1-ex.gif" />
+            <img src="crystal-1.resources/crystal-1-ex.gif" />
         </td>
     </tr>
 </table>
