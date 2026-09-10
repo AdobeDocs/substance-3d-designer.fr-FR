@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Sélection de spline pour sélectionner et masquer des zones spécifiques en fonction des tracés de spline dans vos graphiques.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sélection spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-select-icon.png "Icône de nœud")
+![Icône de nœud](spline-select.resources/spline-select-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -76,10 +76,10 @@ Les splines sélectionnées peuvent également être rognées.
 | <b>Démarrer</b> <i>Flotter</i> | Décale le début de la partie de la spline qui doit être sélectionnée. Cela permet de raccorder efficacement la spline.<br>La valeur représente la longueur normalisée de la spline. |
 | <b>Fin</b> <i>Flotter</i> | Décale l&#39;extrémité de la partie de la spline à sélectionner. Cela permet de raccorder efficacement la spline.<br>La valeur représente la longueur normalisée de la spline. |
 | <b>Aperçu</b> |  |
-| <b>Quantité de segments</b> <i>Entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
-| <b>Afficher l&#39;Assistant de la direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
 | <b>Afficher l&#39;enveloppe de Thickness</b> <i>Booléen</i> | Affiche des lignes supplémentaires sur les thickness de la spline. |
-| <b>Thickness (px)</b> <i>Flottant</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
+| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
 
 ## Exemples
 
@@ -90,11 +90,11 @@ Les splines sélectionnées peuvent également être rognées.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>Après</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ Les splines sélectionnées peuvent également être rognées.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ Les splines sélectionnées peuvent également être rognées.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineSelect-Demo.gif "Exemple de nœud 1")
+![Exemple de nœud 1](spline-select.resources/SplineSelect-Demo.gif "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">

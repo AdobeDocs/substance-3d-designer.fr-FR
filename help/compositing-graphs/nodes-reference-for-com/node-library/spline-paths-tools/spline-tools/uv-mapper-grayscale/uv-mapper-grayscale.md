@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux de gris du mappeur d'UV pour mapper les textures en niveaux de gris le long des splines pour une génération de textures procédurale.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mappeur d’UV en niveaux de gris
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/uv-mapper-grayscale-icon.png "Icône de nœud")
+![Icône de nœud](uv-mapper-grayscale.resources/uv-mapper-grayscale-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -69,11 +69,11 @@ Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fou
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fou
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -99,4 +99,4 @@ Mappe l’image en niveaux de gris d’entrée en utilisant les coordonnées fou
 </tr>
 </table>
 
-![Exemple de nœud 1](../../../../../../assets/UVMapper-Graph.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](uv-mapper-grayscale.resources/UVMapper-Graph.jpg "Exemple de nœud 1")
