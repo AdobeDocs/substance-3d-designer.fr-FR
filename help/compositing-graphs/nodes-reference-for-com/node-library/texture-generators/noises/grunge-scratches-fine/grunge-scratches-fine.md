@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fine des Scratches Usure/salissures pour ajouter des motifs de rayures fins et obtenir ainsi des effets subtils d'usure et de détails de surface.
 helpx_creative_field: ""
