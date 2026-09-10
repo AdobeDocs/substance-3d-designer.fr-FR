@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirt pour générer des masques d’accumulation de dirts en fonction de la courbure, de la position et de l’occlusion du maillage.
+description: Utilisez le nœud Dirt pour générer des masques d'accumulation de dirt en fonction de la courbure, de la position et de l'occlusion du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Saleté
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Générateurs de masque
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque représente les dirts des bords et des coins occultés et enfoncés, en fonction de l&#39;AO et de la courbure cuits.
+Ce masque représente les dirts dans les angles et bords occultés et enfoncés, en fonction de l&#39;AO et de la courbure bakés.
 
 </td>
 </tr>
@@ -48,10 +48,10 @@ Ce masque représente les dirts des bords et des coins occultés et enfoncés, e
 |  |  |
 |:---|:---|
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Obligatoire ! |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Obligatoire ! |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Obligatoire ! |
 | <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> | Entrée de mappage usure/salissures personnalisée, facultative, activée par le paramètre. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
 | <b>Position</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
 
 <a name="parameters"></a>
@@ -74,7 +74,7 @@ Ce masque représente les dirts des bords et des coins occultés et enfoncés, e
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dirt-ex.gif" />
+            <img src="dirt.resources/dirt-ex.gif" />
         </td>
     </tr>
 </table>

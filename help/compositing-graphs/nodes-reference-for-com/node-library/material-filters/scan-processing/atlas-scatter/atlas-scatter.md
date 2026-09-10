@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Atlas scatter pour dispersion des textures dans un atlas afin de créer des motifs en mosaïque à partir de matériaux numérisés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas scatter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/atlas-scatter.png){width="200px"}
+![](atlas-scatter.resources/atlas-scatter.png){width="200px"}
 
 <b>Entrée :</b> Filtres de matériau > Traitement des numérisations
 
@@ -119,7 +119,7 @@ Extrayez des éléments d’un atlas et placez-les en dispersion sur un arrière
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/atlas-scatter-11.png" />
+            <img src="atlas-scatter.resources/atlas-scatter-11.png" />
         </td>
     </tr>
 </table>
