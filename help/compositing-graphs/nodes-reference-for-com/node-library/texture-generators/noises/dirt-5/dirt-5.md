@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dirt 5 pour générer des motifs de dirt avancés afin de créer des détails de surface patinés et vieillis.
 helpx_creative_field: ""
