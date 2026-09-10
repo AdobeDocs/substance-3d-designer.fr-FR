@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'Altération Fissures pour ajouter des motifs de fissures aux matériaux en fonction de la courbure du maillage et des points de contrainte.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Altération de fissures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
 
 <b>Entrée :</b> Générateurs basés sur le Maillage > Altération
 
@@ -71,7 +71,7 @@ Assurez-vous de bien comprendre les [modes de création de liens](../../../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cracks-ex.gif" />
+            <img src="cracks-weathering.resources/cracks-ex.gif" />
         </td>
     </tr>
 </table>
