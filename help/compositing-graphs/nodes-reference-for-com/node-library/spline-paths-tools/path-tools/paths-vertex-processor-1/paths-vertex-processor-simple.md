@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Simple du processeur de Vertex de tracés pour traiter les vertex de tracés avec des options de transformation simplifiées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de Vertex Paths Simple
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/paths-vertex-processor-simple-icon.png "Icône de nœud")
+![Icône de nœud](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -87,7 +87,7 @@ Vous pouvez également accéder aux variables *vertex.corner* (bool) et *path.id
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Exemple de nœud 2")
+![Exemple de nœud 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Exemple de nœud 2")
 
 </td>
 <td style="border: 0;" valign="top">

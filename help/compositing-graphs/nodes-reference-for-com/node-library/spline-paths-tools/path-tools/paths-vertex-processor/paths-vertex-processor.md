@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Processeur de sommets de tracés pour transformer et manipuler les sommets de tracé avec des options avancées.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de sommets de tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/paths-vertex-processor-icon.png "Icône de nœud")
+![Icône de nœud](paths-vertex-processor.resources/paths-vertex-processor-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -92,7 +92,7 @@ Vous pouvez également accéder aux variables *prev[2].pos* (Float2), *next[2].p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Exemple de nœud 2")
+![Exemple de nœud 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "Exemple de nœud 2")
 
 </td>
 <td style="border: 0;" valign="top">

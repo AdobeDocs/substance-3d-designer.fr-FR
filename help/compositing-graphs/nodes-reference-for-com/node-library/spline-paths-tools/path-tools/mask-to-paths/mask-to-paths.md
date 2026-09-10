@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Masquer sur tracés pour convertir les textures de masque en données de tracé pour la génération de tracés procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Masquer sur les tracés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/mask-to-paths-icon.png "Icône de nœud")
+![Icône de nœud](mask-to-paths.resources/mask-to-paths-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils De Tracé
 
@@ -92,11 +92,11 @@ Les tracés générés peuvent être traités ultérieurement à l’aide de nœ
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ Les tracés générés peuvent être traités ultérieurement à l’aide de nœ
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>Après</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ Les tracés générés peuvent être traités ultérieurement à l’aide de nœ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/MaskToPaths-Demo2.gif "Exemple de nœud 2"){zoomable="yes"}
+![Exemple de nœud 2](mask-to-paths.resources/MaskToPaths-Demo2.gif "Exemple de nœud 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/MaskToPaths-Demo1.gif "Exemple de nœud 1"){zoomable="yes"}
+![Exemple de nœud 1](mask-to-paths.resources/MaskToPaths-Demo1.gif "Exemple de nœud 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ Les tracés générés peuvent être traités ultérieurement à l’aide de nœ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3 : modes de démarrage](../../../../../../assets/MaskToPaths-Demo3.gif "Exemple de nœud 3 : modes de démarrage"){zoomable="yes"}
+![Exemple de nœud 3 : modes de démarrage](mask-to-paths.resources/MaskToPaths-Demo3.gif "Exemple de nœud 3 : modes de démarrage"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3 : modes de classement](../../../../../../assets/MaskToPaths-Demo4.gif "Exemple de nœud 3 : modes de classement"){zoomable="yes"}
+![Exemple de nœud 3 : modes de classement](mask-to-paths.resources/MaskToPaths-Demo4.gif "Exemple de nœud 3 : modes de classement"){zoomable="yes"}
 
 </td>
 </tr>
