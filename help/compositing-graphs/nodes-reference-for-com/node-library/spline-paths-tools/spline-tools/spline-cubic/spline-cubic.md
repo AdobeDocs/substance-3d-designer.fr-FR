@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cubique spline pour créer des splines cubiques lisses avec quatre points de contrôle pour les tracés courbes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Cubique)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud](../../../../../../assets/spline-cubic-icon.png "Icône de nœud")
+![Icône de nœud](spline-cubic.resources/spline-cubic-icon.png "Icône de nœud")
 
 <b>Entrée :</b> Outils Spline Et Tracé > Outils spline
 
@@ -83,15 +83,15 @@ La trajectoire de la spline est contrôlée par la tangente « out » de <b>p1</
 | <b>Fin de Thickness</b> <i>Flotter</i> | Ajuste le thickness du point p2. Cela a un impact sur le thickness de la spline à p2.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
 | <b>Thickness tangent automatique</b> <i>Booléen</i> | Définit automatiquement le thickness des tangentes de spline à interpoler linéairement du Thickness de début au Thickness de fin.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
 | <b>Thickness tangent p1</b> <i>Flottant</i> (disponible lorsque « Thickness de Tangente automatique » a la valeur True) | Ajuste le thickness de la tangente « out » du point p1. Cela a un impact sur le thickness le long de la spline, car il s&#39;éloigne de p1.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
-| <b>Thickness tangent p2</b> <i>Flottant</i> (disponible lorsque « Thickness de Tangente automatique » a la valeur True) | Ajuste le thickness de la tangente « entrée » du point p2. Cela a un impact sur le thickness le long de la spline, car il s&#39;éloigne de p2.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
+| thickness de Tangente <b>p2</b> <i>Flottant</i> (disponible lorsque « Thickness de Tangente automatique » a la valeur True) | Ajuste le thickness de la tangente « entrée » du point p2. Cela a un impact sur le thickness le long de la spline, car il s&#39;éloigne de p2.<br>Remarque : le Thickness est utilisé par des nœuds de spline spécifiques. |
 | <b>Coordonnées Des Points</b> |  |
-| <b>p1</b> <i>Float2</i> | Définit la position du point p1 dans l’espace de texture. |
-| <b>p1 Tangente</b> <i>Float2</i> | Définit la position de la poignée de tangente « out » du point p1 dans l’espace de texture. |
-| <b>p2</b> <i>Float2</i> | Définit la position du point p2 dans l’espace de texture. |
-| <b>p2 tangente</b> <i>Float2</i> | Définit la position de la poignée de tangente « entrée » du point p2 dans l’espace de texture. |
+| <b>p1</b> <i>Flottant 2</i> | Définit la position du point p1 dans l’espace de texture. |
+| <b>Tangente p1</b> <i>Flottant 2</i> | Définit la position de la poignée de tangente « out » du point p1 dans l’espace de texture. |
+| <b>p2</b> <i>Flottant 2</i> | Définit la position du point p2 dans l’espace de texture. |
+| <b>Tangente p2</b> <i>Flottant 2</i> | Définit la position de la poignée de tangente « entrée » du point p2 dans l’espace de texture. |
 | <b>Aperçu</b> |  |
-| <b>Afficher les tangentes</b> <i>Booléen</i> | Affiche la tangente de sortie du point p1 et la tangente d’entrée du point p2 dans la sortie d’aperçu. |
-| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Afficher les Tangentes</b> <i>Booléen</i> | Affiche la tangente de sortie du point p1 et la tangente d’entrée du point p2 dans la sortie d’aperçu. |
+| <b>Afficher l&#39;Assistant de la direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
 | <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie Aperçu. Plus la valeur est élevée, plus la ligne est lisse. |
 | <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness en pixels de la visualisation de la spline dans la sortie Aperçu. |
 
@@ -101,12 +101,12 @@ La trajectoire de la spline est contrôlée par la tangente « out » de <b>p1</
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 1](../../../../../../assets/SplineCubic-Variant1.jpg "Exemple de nœud 1")
+![Exemple de nœud 1](spline-cubic.resources/SplineCubic-Variant1.jpg "Exemple de nœud 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 2](../../../../../../assets/SplineCubic-Variant2.jpg "Exemple de nœud 2")
+![Exemple de nœud 2](spline-cubic.resources/SplineCubic-Variant2.jpg "Exemple de nœud 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ La trajectoire de la spline est contrôlée par la tangente « out » de <b>p1</
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de nœud 3](../../../../../../assets/SplineCubic-Demo.gif "Exemple de nœud 3")
+![Exemple de nœud 3](spline-cubic.resources/SplineCubic-Demo.gif "Exemple de nœud 3")
 
 </td>
 <td style="border: 0;" valign="top">
