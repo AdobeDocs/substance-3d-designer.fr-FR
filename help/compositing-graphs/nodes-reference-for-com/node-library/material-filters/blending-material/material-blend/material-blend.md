@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion de Matériau pour fusionner des matériaux entiers à l’aide de masques afin de créer des effets de matériau composites.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Fusion de matériaux
+title: Fusion du matériau
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# Fusion de matériaux
+# Fusion du matériau
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend.png){width="128px"}
 
 <b>Entrée :</b> Filtres de matériau > Fusion
 
@@ -56,11 +56,11 @@ Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une cart
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les couches de matériau dans ce groupe, lors de l’utilisation de cartes de Specular/brillance au lieu de cartes de métal/rugosité, par exemple. |
-| <b>Diffus</b> |  |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité, par exemple. |
+| <b>Diffuse</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
-| <b>Couleur de base</b> |  |
+| <b>Base color</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
 | <b>Normal</b> |  |
@@ -68,10 +68,10 @@ Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une cart
 | <b>Specular</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
-| <b>Émissif</b> |  |
+| <b>Emissive</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
-| <b>Lustre</b> |  |
+| <b>Brillance</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
 | <b>Rugosité</b> |  |

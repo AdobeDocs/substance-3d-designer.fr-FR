@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rendu PBR pour effectuer le rendu de matériaux basés physiquement avec un éclairage réaliste pour prévisualiser l’apparence du matériau.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rendu PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render.png){width="250px"}
 
 <b>Entrée :</b> Filtres de matériau > Utilitaires PBR
 
@@ -91,16 +91,16 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 | <b>Longueur du cylindre</b> <i>0.0 - 1.0</i> | Définissez la longueur du cylindre. |
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter la forme sans faire pivoter l’éclairage. |
 | <b>Direction de la rotation</b> <i>0.0 - 1.0</i> | Définit l’axe de rotation en 2D. |
-| <b>Rotation Autour De La Direction</b> <i>0.0 - 1.0</i> | Forme en rotation sur l’axe de rotation. |
+| <b>Rotation Autour De La Direction</b> <i>0.0 - 1.0</i> | Forme de rotation sur l’axe de rotation. |
 | <b>Position de la forme</b> <i>-1.0 - 1.0</i> | Déplace les formes. |
-| <b>UV</b> <i>1.0 - 6.0</i> | Définit la quantité de recouvrement UV. |
+| <b>UV</b> <i>1.0 - 6.0</i> | Définit la quantité d’UV-Répétition. |
 | <b>Échelle UV Sphère</b> <i>0.0 - 4.0</i> | Définit l&#39;échelle des UV sur la sphère. |
-| <b>Échelle UV plane</b> <i>1.0 - 4.0</i> | Définit l’échelle des UV sur le plan. |
+| <b>Échelle UV plane</b> <i>1.0 - 4.0</i> | Définit l&#39;échelle des UV sur le plan. |
 | <b>Échelle UV de cylindre</b> <i>1.0 - 6.0</i> | Définit l&#39;échelle des UV sur le cylindre. |
-| <b>Décalage des UV</b> <i>0.0 - 1.0</i> | Décale les UV |
-| <b>Inclinaison des UV</b> <i>Faux/Vrai</i> | Inclinaison les UV de 45 degrés pour la sphère. |
-| <b>Appareil photo</b> |  |
-| <b>Exposition</b> <i>-4.0 - 4.0</i> | Définissez l’exposition de l’appareil photo. |
+| <b>Décalage des UV</b> <i>0.0 - 1.0</i> | UV de décalage |
+| <b>Inclinaison des UV</b> <i>Faux/Vrai</i> | Inclinaison l’UV de 45° pour la sphère. |
+| <b>Caméra</b> |  |
+| <b>Exposition</b> <i>-4.0 - 4.0</i> | Définissez l’exposition de la caméra. |
 | <b>Mappeur de tonalité</b> <i>Linear, ACE, Filmic Hejl</i> | Définissez la solution de mappage de tonalité à utiliser pour l’image finale. |
 | <b>Mode Caméra</b> <i>Perspective, Orthographique</i> | Permutez la caméra entre deux modes de projection. |
 | <b>Champ de vision</b> <i>0.01 - 100.0</i> | Définissez l’angle FOV de la caméra. |
@@ -114,11 +114,11 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 | <b>Bague D&#39;Ouverture</b> <i>0.0 - 1.0</i> | Ajoute un dégradé interne à la forme bokeh. |
 | <b>Difraction Ouverture</b> <i>0.0 - 2.0</i> | Ajoute une aberration chromatique au bokeh. |
 | <b>Bokeh tourbillonnant</b> <i>0.0 - 1.0</i> | Ajoute un effet de tourbillon ou de rotation aux zones floues bokeh floues floues. |
-| <b>Mode Focus</b> <i>Auto, Point</i> | Définissez si le focus est prédéterminé ou défini par l’utilisateur. La mise au point vous permet de déplacer un point dans la vue 2D pour déterminer la distance de mise au point. |
-| <b>Point De Mise Au Point</b> | Si le focus est défini sur Point, vous pouvez déplacer ce point. dispose d’un widget de vue 2D. |
+| <b>Mode Focus</b> <i>Auto, Point</i> | Définissez si le focus est prédéterminé ou défini par l’utilisateur. La mise au point vous permet de déplacer un point dans la Vue 2D pour déterminer la distance de mise au point. |
+| <b>Point De Mise Au Point</b> | Si le focus est défini sur Point, vous pouvez déplacer ce point. a un gadget Vue 2D. |
 | <b>Décalage de mise au point</b> <i>-0.5 - 0.5</i> | Si le focus est défini sur Auto, vous permet de le déplacer d’avant en arrière. |
-| <b>Utiliser le mappage d&#39;Ouverture personnalisé</b> <i>Faux/Vrai</i> | Remplace les paramètres d’ouverture ci-dessus et utilise l’entrée de courbe d’ouverture pour déterminer la forme bokeh. Nécessite une entrée. |
-| <b>Effets postérieurs</b> |  |
+| <b>Utiliser le mappage d&#39;Ouverture personnalisé</b> <i>Faux/Vrai</i> | Remplace les paramètres d’Ouverture ci-dessus et utilise l’entrée de mappage d’Ouverture pour déterminer la forme bokeh. Nécessite une entrée. |
+| <b>Effets de post-traitement</b> |  |
 | <b>Activer les Effets de post-traitement</b> <i>Faux/Vrai</i> | Active/désactive les post-effets <i>tous</i> dans le rendu final. |
 | <b>Intensité de la floraison</b> <i>0.0 - 2.0</i> | Définit la force de l’effet de floraison. |
 | <b>Seuil de floraison</b> <i>0.0 - 2.0</i> | Définit le seuil d’apparition de la floraison. |
@@ -160,30 +160,30 @@ Toutes les images ont été générées directement dans Designer, dans le viewp
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>
