@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressources d’apprentissage MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Le matériau métallique clearcoat traité dans ce tutoriel est impossible à d�
 </td>
 <td style="border: 0;" valign="top">
 
-[![matériau de malachite MDL](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![matériau de malachite MDL](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Cliquez sur l&#39;image pour accéder au tutoriel*
 

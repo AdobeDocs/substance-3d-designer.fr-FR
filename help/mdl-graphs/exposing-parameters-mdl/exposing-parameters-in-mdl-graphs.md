@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exposer des paramètres dans les Graphes MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page explique le processus consistant à exposer des paramètres dans les Graphes MDL afin qu&#39;ils puissent être connectés aux valeurs et aux textures fournies par *d&#39;autres nœuds* dans le graphe ou par *sources externes*.
 
-![état Exposé des entrées de nœud](../../assets/mdl-node-inputs-hl.png "état Exposé des entrées de nœud")
+![état Exposé des entrées de nœud](exposing-parameters-in-mdl-graphs.resources/mdl-node-inputs-hl.png "état Exposé des entrées de nœud")
 
 *état Exposé des entrées de nœud*
 
@@ -32,11 +32,11 @@ Dans la plupart des cas, les *connecteurs d&#39;entrée* des propriétés d&#39;
 
 Lorsqu&#39;un nœud est sélectionné dans la <b>Vue du graphe</b>, ses propriétés sont affichées dans le panneau <b>Propriétés</b>. La plupart des propriétés sont répertoriées avec un ensemble de boutons situés à droite de leur libellé :
 
-* **![](../../assets/mdl-expose-new-node.png)Copier la valeur vers un nouveau nœud et la lier à ce paramètre** : crée un *connecteur d&#39;entrée* pour cette propriété et la connecte à un *nouveau nœud* qui génère la valeur actuelle de cette propriété
-* **![](../../assets/mdl-expose-new-input.png)Créer une épingle d&#39;entrée pour ce paramètre** : crée un *connecteur d&#39;entrée* pour cette propriété
-* **![](../../assets/mdl-expose-reset.png)Réinitialisez ce paramètre à sa valeur par défaut** : lorsqu&#39;aucune valeur n&#39;est associée au connecteur d&#39;entrée de cette propriété, réinitialise sa valeur à sa valeur par défaut
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-node.png)Copier la valeur vers un nouveau nœud et la lier à ce paramètre** : crée un *connecteur d&#39;entrée* pour cette propriété et la connecte à un *nouveau nœud* qui génère la valeur actuelle de cette propriété
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-input.png)Créer une épingle d&#39;entrée pour ce paramètre** : crée un *connecteur d&#39;entrée* pour cette propriété
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-reset.png)Réinitialisez ce paramètre à sa valeur par défaut** : lorsqu&#39;aucune valeur n&#39;est associée au connecteur d&#39;entrée de cette propriété, réinitialise sa valeur à sa valeur par défaut
 
-![](../../assets/mdl-expose-input.gif)
+![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-input.gif)
 
 *Manipulation des entrées de nœud*
 
@@ -47,7 +47,7 @@ Si vous cliquez sur l&#39;un des deux premiers boutons, un *connecteur d&#39;ent
 
 Le connecteur d&#39;entrée peut être *supprimé* en cliquant à nouveau sur le bouton **Créer une épingle d&#39;entrée pour ce paramètre**. À ce stade, la valeur de la propriété revient à la valeur définie dans le panneau **Propriétés**.
 
-![Paramètres de nœud Exposés](../../assets/mdl-exposed-float-hl.png "Paramètres de nœud Exposés")
+![Paramètres de nœud Exposés](exposing-parameters-in-mdl-graphs.resources/mdl-exposed-float-hl.png "Paramètres de nœud Exposés")
 
 *Paramètres de nœud Exposés*
 
@@ -57,7 +57,7 @@ En Graphe MDL, l&#39;expose d&#39;un paramètre au niveau du graphe - c&#39;est-
 
 Les nœuds qui peuvent être exposés disposent d&#39;une option <b>Exposer</b> dans leur menu contextuel. Dans la plupart des cas, il s’agit de nœuds qui génèrent une valeur ou des données telles que les coordonnées de Flottant, de couleur ou de texture.
 
-Option ![« Exposer » dans le menu contextuel d&#39;un nœud](../../assets/mdl-expose-float-menu-hl.png "&amp;quot ; option Exposer&amp;quot ; dans le menu contextuel d&#39;un nœud")
+Option ![« Exposer » dans le menu contextuel d&#39;un nœud](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&amp;quot ; option Exposer&amp;quot ; dans le menu contextuel d&#39;un nœud")
 
 Option « Exposer » *dans le menu contextuel d&#39;un nœud*
 
@@ -81,6 +81,6 @@ Le paramètre exposé est configuré directement dans le *nœud exposé*, et non
 >
 > Bien que les entrées de graphe soient configurées au niveau *nœud*, leur ordre est géré au niveau *graphe* dans la section **entrée de Graphe** des [propriétés de graphe](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md).
 
-![Exposer des nœuds dans des entrées de graphe](../../assets/mdl-expose-parameter.gif "Exposer des nœuds dans des entrées de graphe")
+![Exposer des nœuds dans des entrées de graphe](exposing-parameters-in-mdl-graphs.resources/mdl-expose-parameter.gif "Exposer des nœuds dans des entrées de graphe")
 
 *Exposer des nœuds dans des entrées de graphe*

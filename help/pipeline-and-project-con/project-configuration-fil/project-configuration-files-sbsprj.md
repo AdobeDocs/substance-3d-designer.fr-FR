@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les fichiers de configuration de projet SBSPRJ dans Substance 3D Designer pour gérer les paramètres du projet.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fichiers de configuration du projet - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ils sont spéciaux dans la mesure où vous pouvez utiliser plusieurs fichiers de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![SBSPRJ](../../assets/sbsprj.png "Icône de fichier SBSPRJ")
+Icône de fichier ![SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icône de fichier SBSPRJ")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Pour Windows, [le Bloc-notes++](https://notepad-plus-plus.org) est une bonne opt
 
 Une fois que vous avez ouvert le fichier SBSPRJ dans un éditeur, vous devriez voir une disposition structurée assez simple, avec des sections correspondant aux onglets dans l&#39;interface utilisateur. Tous les paramètres ne seront pas documentés ici, car ils sont assez explicites.
 
-![Modification XML](../../assets/project-xml.png "Modification XML")
+![Modification XML](project-configuration-files-sbsprj.resources/project-xml.png "Modification XML")
 
 ## Chemins relatifs et alias
 
