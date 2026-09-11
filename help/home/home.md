@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser Substance 3D Designer pour créer des matériaux, des textures et des ressources 3D procéduraux à l’aide de workflows basés sur les nœuds.
 helpx_creative_field: ""

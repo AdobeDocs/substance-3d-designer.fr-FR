@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Découvrez les formats de fichier Substance 3D et comment ils stockent les matériaux et les textures procédural pour une utilisation dans toutes les applications.
 helpx_creative_field: ""
