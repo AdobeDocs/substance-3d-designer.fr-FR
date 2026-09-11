@@ -199,8 +199,8 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 * Le Specular level [vue 3D] n&#39;est pas appliqué correctement
 * [vue 3D] Le Specular edge color ne fonctionne pas lors de l’utilisation de la pixellisation Eclair
 * [vue 3D] Le matériau ajouté par l&#39;utilisateur n&#39;est pas appliqué aux scènes par défaut
-* [vue 3D][Bakers] La couleur du Matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un baker « Couleur »
-* [vue 3D][Bakers] Aucune couleur de matériau du fichier FBX
+* [vue 3D]&#x200B;[Bakers] La couleur du Matériau est trop sombre une fois remplacée ou lors de l’utilisation d’un baker « Couleur »
+* [vue 3D]&#x200B;[Bakers] Aucune couleur de matériau du fichier FBX
 * [Bakers] Les couleurs de Matériau dans les fichiers FBX ne sont pas correctement détectées
 * [Baker] L’option « recompute\_tangentes » a toujours la valeur « false » dans les exportations de paramètres prédéfinis JSON
 * [Baker] CLI : Crash lors de l’exécution du même baker de manière consécutive à travers le Fichier JSON

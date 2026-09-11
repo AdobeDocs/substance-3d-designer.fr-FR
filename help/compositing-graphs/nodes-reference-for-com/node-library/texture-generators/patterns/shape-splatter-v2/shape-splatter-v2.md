@@ -41,7 +41,7 @@ Dispersion des formes sur une surface d&#39;height d&#39;arrière-plan avec des 
 
 >[!TIP]
 >
-> L&#39;exemple de matériau ](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample) [**&#39;Rusty bolts&#39;** est disponible pour commencer avec les nœuds Shape Splatter v2.
+> L&#39;exemple de matériau [&#128279;](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample) **&#39;Rusty bolts&#39;** est disponible pour commencer avec les nœuds Shape Splatter v2.
 > 
 > Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
 

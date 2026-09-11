@@ -595,14 +595,14 @@ mat4 worldMatrix uniforme ;\
 mat4 worldViewProjMatrix uniforme ;
 
 void main()\
-{\
+&lbrace;\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position ;\
 iFS\_Normal = iVS\_Normal.xyz ;\
 iFS\_UV = iVS\_UV ;\
 iFS\_Tangente = iVS\_Tangente.xyz ;\
 iFS\_Binormal = iVS\_Binormal.xyz ;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz ;\
-}
+&rbrace;
 
 ### Fichier de Shader de Vertex de tessellation
 
@@ -610,9 +610,9 @@ Situé dans .\tessellation\_parallax\tessellation\vs.glsl
 
 Contenu :
 
->> 
+&#x200B;>> 
 
-#version 120
+&#x200B;#version 120
 
 attribute vec4 iVS\_Position ;\
 attribute vec4 iVS\_Normal ;\
@@ -626,13 +626,13 @@ variation de vec4 oVS\_Tangente ;\
 vec4 oVS\_Binormal variable ;
 
 void main()\
-{\
+&lbrace;\
 gl\_Position = iVS\_Position ;\
 oVS\_Normal = iVS\_Normal ;\
 oVS\_UV = iVS\_UV ;\
 oVS\_Tangente = iVS\_Tangente ;\
 oVS\_Binormal = iVS\_Binormal ;\
-}
+&rbrace;
 
 ### Fichier de Shader de contrôle de tessellation
 
@@ -640,10 +640,10 @@ Situé dans .\tessellation\_parallax\tessellation\tcs.glsl
 
 Contenu :
 
->> 
+&#x200B;>> 
 
-#version 400 core\
-#extension GL\_ARB\_tessellation\_shader : enable
+&#x200B;#version 400 core\
+&#x200B;#extension GL\_ARB\_tessellation\_shader : enable
 
 layout(vertex = 3) out ;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 facteur de tessellation uniforme du flotteur ;
 
 void main()\
-{\
+&lbrace;\
 gl\_TessLevelOuter[0] = tessellationFactor ;\
 gl\_TessLevelOuter[1] = tessellationFactor ;\
 gl\_TessLevelOuter[2] = tessellationFactor ;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 oTCS\_Tangente[gl\_InvocationID] = oVS\_Tangente[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-}
+&rbrace;
 
 ### Fichier de Shader d&#39;évaluation de tessellation
 
@@ -679,9 +679,9 @@ Situé dans .\tessellation\_parallax\tessellation\tcs.glsl
 
 Contenu :
 
->> 
+&#x200B;>> 
 
-#version 400 core
+&#x200B;#version 400 core
 
 layout(triangles, equal\_espacement, ccw) in ;
 
@@ -705,17 +705,17 @@ out vec3 iFS\_Binormal ;\
 out vec3 iFS\_PointWS ;
 
 vec3 interpolate3D(vec3 v0, vec3 v1, vec3 v2, vec3 uvw)\
-{\
+&lbrace;\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2 ;\
-}
+&rbrace;
 
 vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2, vec3 uvw)\
-{\
+&lbrace;\
 return uvw.x \&#42; v0 + uvw.y \&#42; v1 + uvw.z \&#42; v2 ;\
-}
+&rbrace;
 
 void main()\
-{\
+&lbrace;\
 vec3 uvw = gl\_TessCoord.xyz ;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
@@ -735,7 +735,7 @@ iFS\_Tangente = newTangent ;\
 iFS\_Binormal = newBinormal ;\
 iFS\_Normal = newNormal ;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz ;\
-}
+&rbrace;
 
 ### Fichier de Shader de fragment
 
@@ -743,24 +743,24 @@ Situé dans .\tessellation\_parallax\fs.glsl
 
 Contenu :
 
->> 
+&#x200B;>> 
 
-#version 120
+&#x200B;#version 120
 
 // #define ALG\_NORMAL\_DIRECTX\
-#define ALG\_NORMAL\_OPENGL
+&#x200B;#define ALG\_NORMAL\_OPENGL
 
-#ifdef ALG\_NORMAL\_DIRECTX\
+&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
 // #define FLIP\_NORMAL\_X\
 SYMÉTRIE #define\_NORMALE\_Y\
 // #define FLIP\_NORMAL\_Z\
-#endif //#ifdef ALG\_NORMAL\_DIRECTX
+&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-#ifdef ALG\_NORMAL\_OPENGL\
+&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
 // #define FLIP\_NORMAL\_X\
 SYMÉTRIE #define\_NORMALE\_Y\
 // #define FLIP\_NORMAL\_Z\
-#endif //#ifdef ALG\_NORMAL\_OPENGL
+&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 variable vec3 iFS\_Normal ;\
 variable vec2 iFS\_UV ;\
@@ -801,17 +801,17 @@ mat4 worldInverseTransposeMatrix uniforme ;\
 mat4 viewInverseMatrix uniforme ;
 
 vec4 litFct(float NdotL, float NdotH, float specExp)\
-{\
+&lbrace;\
 flottant ambiant = 1,0 ;\
 diffusion flottante = max(NdotL, 0,0);\
 specular flottant = step(0.0, NdotL) \&#42; pow(max(0.0, NdotH), specExp);\
 return vec4(ambiante, diffuse, specular, 1,0);\
-}
+&rbrace;
 
 vec3 lerpFct(vec3 v0, vec3 v1, float percent)\
-{\
+&lbrace;\
 return v0 + (v1-v0) \&#42; %;\
-}
+&rbrace;
 
 // Phong Ombrage\
 void phong\_ombrage(\
@@ -821,37 +821,37 @@ dans vec3 pointToLightDirWS,\
 dans vec3 pointToCameraDirWS,\
 inout vec3 DiffuseContrib,\
 inout vec3 SpecularContrib)\
-{\
+&lbrace;\
 vec3 Hn = normalize(pointToCameraDirWS + pointToLightDirWS);\
 vec4 litV = litFct(dot(normalWS, pointToLightDirWS), dot(normalWS, Hn), SpecExpon);\
 DiffuseContrib = litV.y \&#42; LightColor ;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor ;\
-}
+&rbrace;
 
 vec3 fixNormalSample(vec3 v)\
-{\
+&lbrace;\
 vec3 résultat = v - vec3(0.5,0.5,0.5);
 
 SYMÉTRIE #ifdef\_NORMALE\_X\
 result.x = -result.x ;\
-#endif // ifdef FLIP\_NORMAL\_X\
+&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
 SYMÉTRIE #ifdef\_NORMALE\_Y\
 result.y = -result.y ;\
-#endif // ifdef FLIP\_NORMAL\_Y\
+&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
 SYMÉTRIE #ifdef\_NORMALE\_Z\
 result.z = -result.z ;\
-#endif // ifdef FLIP\_NORMAL\_Z
+&#x200B;#endif // ifdef FLIP\_NORMAL\_Z
 
 résultat du retour ;\
-}
+&rbrace;
 
 vec3 normalVecOSToWS(vec3 normal)\
-{\
+&lbrace;\
 retour normal ;\
-}
+&rbrace;
 
 void main()\
-{\
+&lbrace;\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz ;\
 vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
@@ -936,16 +936,16 @@ vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor ;
 vec3 emissive = texture 2D(emissiveMap,uv).xyz ;
 
 vec3 finalcolor = Ambiant\_final\
-+ specularColor\&#42;specContrib\
-+ diffuseColor.rgb\&#42;diffContrib\
-+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
-+ EMISSIVE ;
+&#x200B;+ specularColor\&#42;specContrib\
+&#x200B;+ diffuseColor.rgb\&#42;diffContrib\
+&#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
+&#x200B;+ EMISSIVE ;
 
 // Couleur finale\
 vec4 finalColor4 = vec4(finalcolor, texture 2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4 ;\
-}
+&rbrace;
 
 ### Fichier GLSLFX
 

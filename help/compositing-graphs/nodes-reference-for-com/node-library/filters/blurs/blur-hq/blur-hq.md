@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Description
 
-Applique un flou gaussien de haute qualité au résultat. Bien meilleure qualité que le [flou de boîte atomique standard](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Applique un flou gaussien de haute qualité au résultat. Bien meilleure qualité que le [flou de boîte atomique standard](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Blur HQ » pour les entrées Color ou « Blur HQ Grayscale » pour les entrées Grayscale.
 

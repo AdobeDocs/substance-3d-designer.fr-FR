@@ -32,15 +32,15 @@ Distribution normale
 
 Discret aléatoire [a, b]
 
-Aléatoire uniforme [-1, 1[
+Aléatoire uniforme &lbrack;-1, 1&lbrack;
 
-Uniforme aléatoire [a, b[
+Uniforme aléatoire &lbrack;a, b&lbrack;
 
-Float uniforme aléatoire2 [a, b[
+Float uniforme aléatoire2 &lbrack;a, b&lbrack;
 
-Float uniforme aléatoire3 [a, b[
+Float uniforme aléatoire3 &lbrack;a, b&lbrack;
 
-Float uniforme aléatoire4 [a, b[
+Float uniforme aléatoire4 &lbrack;a, b&lbrack;
 
 </td>
 <td style="border: 0;" valign="top">

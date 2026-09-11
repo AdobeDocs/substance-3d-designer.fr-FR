@@ -272,7 +272,7 @@ Vous pouvez ensuite coller la fonction que vous avez copiée à partir du nœud 
 Assurez-vous d&#39;ajuster la taille du cadre de délimitation **SDF** pour qu&#39;elle corresponde au [cadre de délimitation](#the-bounding-frame) que vous utilisiez dans le nœud de la visionneuse 3D, et assurez-vous que la forme est dessinée correctement.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*Forme éclaboussée v2 avec un **type de forme**défini sur `SDF function`. Notez que la taille du cadre de délimitation **SDF**a été ajustée pour s&#39;adapter à la forme.*
+*Forme éclaboussée v2 avec un **type de forme**&#x200B;défini sur `SDF function`. Notez que la taille du cadre de délimitation **SDF**&#x200B;a été ajustée pour s&#39;adapter à la forme.*
 
 >[!TIP]
 > 

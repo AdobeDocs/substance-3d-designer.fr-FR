@@ -26,7 +26,7 @@ La taille des fichiers est principalement déterminée par les [bitmaps incorpor
 
 >[!IMPORTANT]
 >
-> Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la *méthode d&#39;héritage absolue* [](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Si ce n&#39;est pas le cas, leur [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md) référencée sera enregistrée à la résolution 256\*256 par défaut dans le fichier de ressources Substance 3D publié, ce qui* impactera la qualité* d&#39;une ou plusieurs sorties.
+> Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la *méthode d&#39;héritage absolue* [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Si ce n&#39;est pas le cas, leur [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md) référencée sera enregistrée à la résolution 256\*256 par défaut dans le fichier de ressources Substance 3D publié, ce qui* impactera la qualité* d&#39;une ou plusieurs sorties.
 
 ## Facteurs de taille de fichier
 

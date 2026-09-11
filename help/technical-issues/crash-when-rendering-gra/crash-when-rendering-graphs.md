@@ -24,7 +24,7 @@ Cette page répertorie les crashs survenant pendant le processus de rendu de gra
 
 ## TDR (Windows uniquement)
 
-<b>[ ![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problème</b>
+<b>[&#x200B; ![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problème</b>
 
 Le minuteur <b>Détection et récupération du délai d&#39;attente (TDR)</b> du système est *trop court* pour permettre à Substance 3D Designer de terminer ses calculs actuels avant *redémarrage* du pilote graphique.
 

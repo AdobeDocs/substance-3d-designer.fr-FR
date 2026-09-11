@@ -414,7 +414,7 @@ La barre d’outils du nœud diffère selon le type de graphe :
 
 ![Barre d’outils Taille du gabarit](../../assets/image2020-6-26-17-0-48.png "Barre d’outils Taille du gabarit")
 
-Cette barre d&#39;outils n&#39;est disponible que dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) et définit la [taille de sortie](../../compositing-graphs/output-size/output-size.md) du *parent* du graphe, ce qui a un impact sur la taille de sortie du graphe s&#39;il utilise la *méthode d&#39;héritage Relatif au parent*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Cette barre d&#39;outils n&#39;est disponible que dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) et définit la [taille de sortie](../../compositing-graphs/output-size/output-size.md) du *parent* du graphe, ce qui a un impact sur la taille de sortie du graphe s&#39;il utilise la *méthode d&#39;héritage Relatif au parent*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Les dimensions horizontale et verticale sont liées par défaut, mais peuvent être *dissociées* pour les textures non carrées. Les valeurs peuvent également être réinitialisées sur la valeur par défaut de 256 x 256.
 
