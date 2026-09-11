@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Étoile pour générer des motifs en forme d’étoile avec des points et une taille personnalisables pour les textures géométriques.
 helpx_creative_field: ""
