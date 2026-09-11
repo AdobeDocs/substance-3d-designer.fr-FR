@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Itération et variable numérique
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Itération et variable $number
 
-![](../../../../assets/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-1.jpg)
 
 Le nœud Itérer restituera aux nœuds connectés à la sortie de droite la durée spécifiée par la valeur Itérations.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 itération : le motif gaussien est rendu une fois |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 itération : le motif gaussien est rendu une fois |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 itérations : le motif gaussien est rendu 10 fois au même endroit |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 itérations : le motif gaussien est rendu 10 fois au même endroit |
 
 Lors de l&#39;utilisation d&#39;un nœud Iterate, vous pouvez utiliser la variable $number pour obtenir la valeur d&#39;itération courante. $number est une valeur flottante commençant à 0.
 
@@ -34,12 +34,12 @@ Lors de l&#39;utilisation d&#39;un nœud Iterate, vous pouvez utiliser la variab
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
 
 </td>
 </tr>

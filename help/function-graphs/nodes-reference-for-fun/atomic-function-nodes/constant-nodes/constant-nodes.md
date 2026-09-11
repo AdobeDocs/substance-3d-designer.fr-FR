@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![icône de type d&#39;Entier](../../../../assets/fn-constant-integer.png "icône de type d&#39;Entier")
+![icône de type d&#39;Entier](constant-nodes.resources/fn-constant-integer.png "icône de type d&#39;Entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier 2](../../../../assets/fn-constant-integer2.png "Entier 2")
+Icône de type ![Entier 2](constant-nodes.resources/fn-constant-integer2.png "Entier 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Entier 2 n&#39;est pas courant, mais il est utilisé par exemple pour définir l
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier 3](../../../../assets/fn-constant-integer3.png "Entier 3")
+Icône de type ![Entier 3](constant-nodes.resources/fn-constant-integer3.png "Entier 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ L&#39;Entier 3 n&#39;est pas courant et est peu susceptible d&#39;être rencontr
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier 4](../../../../assets/fn-constant-integer4.png "Entier 4")
+Icône de type ![Entier 4](constant-nodes.resources/fn-constant-integer4.png "Entier 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Les Flottants constants génèrent des nombres à fractions et non des nombres e
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type de Flottant](../../../../assets/fn-constant-float.png "Icône Type de Flottant")
+Icône ![Type de Flottant](constant-nodes.resources/fn-constant-float.png "Icône Type de Flottant")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Un Flottant, a un seul composant, le (1) est omis du nom par souci de brièveté
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Flottant 2](../../../../assets/fn-constant-float2.png "Flottant 2")
+Icône de type ![Flottant 2](constant-nodes.resources/fn-constant-float2.png "Flottant 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Un nœud Flottant 2 génère un vecteur de Flottant statique à 2 composants. Le
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Flottant 3](../../../../assets/fn-constant-float3.png "Flottant 3")
+Icône de type ![Flottant 3](constant-nodes.resources/fn-constant-float3.png "Flottant 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Un nœud Flottant 3 génère un vecteur de Flottant statique à 3 composants. Le
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Flottant 4](../../../../assets/fn-constant-float4.png "Flottant 4")
+Icône de type ![Flottant 4](constant-nodes.resources/fn-constant-float4.png "Flottant 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Deux types de données supplémentaires existent dans les graphes de fonction de
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Booléen](../../../../assets/fn-constant-boolean.png "Booléen")
+Icône ![Booléen](constant-nodes.resources/fn-constant-boolean.png "Booléen")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Un Booléen est le type de données le plus simple qui soit, ne connaissant que 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Icône de type de chaîne](../../../../assets/fn-constant-string.png "Icône de type de chaîne")
+![Icône de type de chaîne](constant-nodes.resources/fn-constant-string.png "Icône de type de chaîne")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
