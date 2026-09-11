@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Utilisez le panneau Propriétés de Substance 3D Designer pour afficher et modifier les propriétés de nœud et les paramètres de graphe.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Propriétés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Le panneau <b>Propriétés</b>est un panneau contextuel qui change en fonction d
 </td>
 <td style="border: 0;" valign="top">
 
-![Dock des propriétés](../../assets/image2020-11-9-13-49-48.png "Dock des propriétés")
+![Dock des propriétés](properties.resources/image2020-11-9-13-49-48.png "Dock des propriétés")
 
 </td>
 </tr>
