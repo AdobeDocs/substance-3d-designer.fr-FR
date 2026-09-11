@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Utilisez le Noeud d'entrée pour créer des paramètres d'entrée pour les graphes de Substance qui peuvent être exposés et ajustés par les utilisateurs.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Les noeuds d&#39;entrée sont un type spécial de nœud qui crée un emplacement
 
 Contrairement aux [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), vous devez explicitement placer une entrée Couleur, Niveaux de gris ou Valeur. Il n’est pas possible de créer vos propres entrées « agnostiques » qui changent de type en fonction de ce qui y est connecté.
 
-Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
+Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
 
 ## Paramètres
 
@@ -104,7 +104,7 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 ## Attributs d&#39;intégration
 
-Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
+Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
 
 En outre, les attributs Utilisation sont également utilisés avec les [modes de création de lien](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), pour correspondre aux emplacements d&#39;entrée et de sortie corrects.
 
