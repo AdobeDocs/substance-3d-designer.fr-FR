@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les variables itération et nombre dans FXMaps pour créer des motifs en boucle et des variations procédurales.
 helpx_creative_field: ""
