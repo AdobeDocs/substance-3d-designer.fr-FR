@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Utilisez l'Explorateur de Scènes pour parcourir et gérer les éléments, matériaux et objets Scène 3D du viewport.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Navigateur de scènes
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -26,9 +26,9 @@ Elle offre des commandes pour sélectionner des objets, activer/désactiver leur
 
 Comme Designer utilise [USD](https://openusd.org/release/index.html) pour décrire et gérer ses scènes, sa terminologie et ses concepts se trouvent dans cet arbre de scène.
 
-Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](../../../assets/sceneBrowser-toggleButton.png) dans la [barre d&#39;outils de la scène de vue 3D](../../../interface/3d-view/3d-view.md).
+Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](scene-browser.resources/sceneBrowser-toggleButton.png) dans la [barre d&#39;outils de la scène de vue 3D](../../../interface/3d-view/3d-view.md).
 
-![Explorateur de Scènes - Scène 3D chargée](../../../assets/loaded3DScene.png "Explorateur de Scènes - Scène 3D chargée"){zoomable="yes"}
+![Explorateur de Scènes - Scène 3D chargée](scene-browser.resources/loaded3DScene.png "Explorateur de Scènes - Scène 3D chargée"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Les objets sont associés à d’autres objets jusqu’à la racine de la scène
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Explorateur de Scènes - Arborescence des Scènes](../../../assets/sceneBrowser-sceneTree.png "Explorateur de Scènes - Arborescence des Scènes"){zoomable="yes"}
+![Explorateur de Scènes - Arborescence des Scènes](scene-browser.resources/sceneBrowser-sceneTree.png "Explorateur de Scènes - Arborescence des Scènes"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Ces objets sont inclus dans la scène lors de l&#39;[exportation](../../../worki
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Explorateur de Scènes - Objets ajoutés par Designer répertoriés en gras](../../../assets/sceneBrowser-addedByDesigner.png "Explorateur de Scènes - Objets ajoutés par Designer répertoriés en gras"){zoomable="yes"}
+![Explorateur de Scènes - Objets ajoutés par Designer répertoriés en gras](scene-browser.resources/sceneBrowser-addedByDesigner.png "Explorateur de Scènes - Objets ajoutés par Designer répertoriés en gras"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Tout objet peut être activé et désactivé dans la scène. Lorsqu’il est dé
 
 L’état d’un objet parent étant transféré à ses enfants, la désactivation d’un objet parent désactive également ses enfants.
 
-La visibilité d&#39;un objet peut être basculée en cliquant sur son bouton d&#39;œil ![](../../../assets/sceneBrowser-eyeButton.png) ou à partir de son menu contextuel. Le menu propose quelques actions supplémentaires pour gérer la visibilité des objets des scènes :
+La visibilité d&#39;un objet peut être basculée en cliquant sur son bouton d&#39;œil ![](scene-browser.resources/sceneBrowser-eyeButton.png) ou à partir de son menu contextuel. Le menu propose quelques actions supplémentaires pour gérer la visibilité des objets des scènes :
 
 * <b>Masquer :</b> désactivez l&#39;objet sélectionné.
 * <b>Afficher :</b> activez l&#39;objet sélectionné.
@@ -128,7 +128,7 @@ Les objets parents ont ces actions supplémentaires :
 * <b>Développer tous les enfants :</b> développez toutes les listes d&#39;enfants sous l&#39;objet sélectionné, de manière récursive.
 * <b>Réduire tous les enfants :</b> Réduire toutes les listes d&#39;enfants sous l&#39;objet sélectionné, de manière récursive.
 
-![Explorateur de Scènes - Activation/désactivation de la visibilité des objets](../../../assets/sceneBrowser-toggleVisibility.gif "Explorateur de Scènes - Activation/désactivation de la visibilité des objets"){zoomable="yes"}
+![Explorateur de Scènes - Activation/désactivation de la visibilité des objets](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Explorateur de Scènes - Activation/désactivation de la visibilité des objets"){zoomable="yes"}
 
 ### Environnements
 
@@ -138,13 +138,13 @@ Lorsqu&#39;un éclairage d&#39;environnement est désactivé, sa contribution à
 
 Si plusieurs éclairages d&#39;environnement sont activés, leurs contributions en éclairage sont *ajoutées cumulativement*.
 
-![Explorateur de Scènes - Activation/désactivation de la visibilité de l&#39;environnement](../../../assets/sceneBrowser-toggleEnvLights.gif "Explorateur de Scènes - Activation/désactivation de la visibilité de l&#39;environnement"){zoomable="yes"}
+![Explorateur de Scènes - Activation/désactivation de la visibilité de l&#39;environnement](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Explorateur de Scènes - Activation/désactivation de la visibilité de l&#39;environnement"){zoomable="yes"}
 
 ### Lumières
 
 Il en va de même pour toutes les lumières de la scène : chacune peut être basculée individuellement.
 
-![Explorateur de Scènes - Activation/désactivation de la visibilité de la lumière](../../../assets/sceneBrowser-toggleLights.gif "Explorateur de Scènes - Activation/désactivation de la visibilité de la lumière"){zoomable="yes"}
+![Explorateur de Scènes - Activation/désactivation de la visibilité de la lumière](scene-browser.resources/sceneBrowser-toggleLights.gif "Explorateur de Scènes - Activation/désactivation de la visibilité de la lumière"){zoomable="yes"}
 
 ## Matériaux connectés
 
@@ -163,7 +163,7 @@ Un matériau remplacé offre un élément supplémentaire dans son menu contextu
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorateur de Scènes - matériau connecté](../../../assets/sceneBrowser-connectedMaterial.png "Explorateur de Scènes - matériau connecté"){zoomable="yes"}
+![Explorateur de Scènes - matériau connecté](scene-browser.resources/sceneBrowser-connectedMaterial.png "Explorateur de Scènes - matériau connecté"){zoomable="yes"}
 
 </td>
 </tr>

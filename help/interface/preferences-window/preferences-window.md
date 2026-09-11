@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Préférences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Fenêtre Préférences
 
-![Fenêtre Préférences](../../assets/image2021-6-22-20-56-1.png "Fenêtre Préférences")
+![Fenêtre Préférences](preferences-window.resources/image2021-6-22-20-56-1.png "Fenêtre Préférences")
 
 Cette page présente la fenêtre <b>Préférences</b> et tous ses paramètres.
 
@@ -157,14 +157,14 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Modification contextuelle désactivée](../../assets/substance3ddesigner_incontext_no.gif "Modification contextuelle désactivée")
+![Modification contextuelle désactivée](preferences-window.resources/substance3ddesigner_incontext_no.gif "Modification contextuelle désactivée")
 
 *Ouvrir la référence*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![La modification contextuelle a été activée](../../assets/substance3ddesigner_incontext_yes.gif "La modification contextuelle a été activée")
+![La modification contextuelle a été activée](preferences-window.resources/substance3ddesigner_incontext_yes.gif "La modification contextuelle a été activée")
 
 *Ouvrir La Référence En Contexte*
 
@@ -191,7 +191,7 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 
 |  |  |
 | --- | --- |
-| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le raytracing sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les bakers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
+| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le raytracing sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les bakers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
 
 ## Bibliothèque
 
