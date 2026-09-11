@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds Get dans les graphes de fonction Substance 3D Designer pour récupérer les valeurs et les données des variables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variables
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 Les variables permettent de <b>stocker des valeurs</b> pour les récupérer ultérieurement (<b>Get</b>) et/ou les modifier (<b>Set</b>).
 
-![graphe de fonction de Substance - Get float](../../../../assets/assign-getfloat.gif "graphe de fonction de Substance - Get float"){zoomable="yes"}
+![graphe de fonction de Substance - Get float](get-nodes.resources/assign-getfloat.gif "graphe de fonction de Substance - Get float"){zoomable="yes"}
 
 Ce que fait essentiellement un nœud Get, c&#39;est d&#39;attraper une variable dynamique, et de la retourner à partir de la sortie des nœuds Get pour l&#39;utiliser dans une fonction. Ces nœuds Get constituent le lien entre les Paramètres d&#39;entrée définis dans les [paramètres de graphe](../../../../compositing-graphs/graph-parameters/graph-parameters.md) et les [fonctions de paramètre](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
@@ -58,7 +58,7 @@ Lorsqu&#39;un paramètre est [exposé](../../../../compositing-graphs/manage-par
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Obtenir float2 - Icône](../../../../assets/fn_variables_getfloat2.png "Obtenir float2 - Icône"){width="200px"}
+![Obtenir float2 - Icône](get-nodes.resources/fn_variables_getfloat2.png "Obtenir float2 - Icône"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,25 +88,25 @@ Les nœuds &#39;Get&#39; présentent des limitations dont vous devez tenir compt
 ### Obtention des nœuds
 
 +++Flottants
-![Obtenir le flottement - Icône](../../../../assets/fn_variables_getfloat.png "Obtenir le flottement - Icône"){width="200px"}
+![Obtenir le flottement - Icône](get-nodes.resources/fn_variables_getfloat.png "Obtenir le flottement - Icône"){width="200px"}
 
 
 
 Obtenir flottant
 
-![Obtenir float2 - Icône](../../../../assets/fn_variables_getfloat2.png "Obtenir float2 - Icône"){width="200px"}
+![Obtenir float2 - Icône](get-nodes.resources/fn_variables_getfloat2.png "Obtenir float2 - Icône"){width="200px"}
 
 
 
 Obtenir flottant2
 
-![Obtenir float3 - Icône](../../../../assets/fn_variables_getfloat3.png "Obtenir float3 - Icône"){width="200px"}
+![Obtenir float3 - Icône](get-nodes.resources/fn_variables_getfloat3.png "Obtenir float3 - Icône"){width="200px"}
 
 
 
 Obtenir Flottant3
 
-![Obtenir float4 - Icône](../../../../assets/fn_variables_getfloat4.png "Obtenir float4 - Icône"){width="200px"}
+![Obtenir float4 - Icône](get-nodes.resources/fn_variables_getfloat4.png "Obtenir float4 - Icône"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Obtenir flottant4
 +++
 
 +++Entiers
-![Obtenir Un entier - Icône](../../../../assets/fn_variables_getint.png "Obtenir Un entier - Icône"){width="200px"}
+![Obtenir Un entier - Icône](get-nodes.resources/fn_variables_getint.png "Obtenir Un entier - Icône"){width="200px"}
 
 
 
 Obtenir entier
 
-![Obtenir entier 2 - Icône](../../../../assets/fn_variables_getint2.png "Obtenir entier 2 - Icône"){width="200px"}
+![Obtenir entier 2 - Icône](get-nodes.resources/fn_variables_getint2.png "Obtenir entier 2 - Icône"){width="200px"}
 
 
 
 Obtenir entier2
 
-![Obtenir entier 3 - Icône](../../../../assets/fn_variables_getint3.png "Obtenir entier 3 - Icône"){width="200px"}
+![Obtenir entier 3 - Icône](get-nodes.resources/fn_variables_getint3.png "Obtenir entier 3 - Icône"){width="200px"}
 
 
 
 Obtenir entier3
 
-![Obtenir entier 4 - Icône](../../../../assets/fn_variables_getint4.png "Obtenir entier 4 - Icône"){width="200px"}
+![Obtenir entier 4 - Icône](get-nodes.resources/fn_variables_getint4.png "Obtenir entier 4 - Icône"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Obtenir entier4
 +++
 
 +++Autres
-![Obtenir booléen - Icône](../../../../assets/fn_variables_getboolean.png "Obtenir booléen - Icône"){width="200px"}
+![Obtenir booléen - Icône](get-nodes.resources/fn_variables_getboolean.png "Obtenir booléen - Icône"){width="200px"}
 
 
 
 Obtenir booléen
 
-![Obtenir la chaîne - Icône](../../../../assets/fn_variables_getstring.png "Obtenir la chaîne - Icône"){width="200px"}
+![Obtenir la chaîne - Icône](get-nodes.resources/fn_variables_getstring.png "Obtenir la chaîne - Icône"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Obtenir chaîne
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Définir : icône de nœud](../../../../assets/fn_variables_set.png "Définir : icône de nœud"){width="200px"}
+![Définir : icône de nœud](get-nodes.resources/fn_variables_set.png "Définir : icône de nœud"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Texte
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Est défini : icône de nœud](../../../../assets/fn_variables_isdefined.png "Est défini : icône de nœud"){width="200px"}
+![Est défini : icône de nœud](get-nodes.resources/fn_variables_isdefined.png "Est défini : icône de nœud"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds de fonction dans les graphes de fonction Substance 3D Designer pour appeler et exécuter des graphes de fonction personnalisés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fonction
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Bien que leurs connecteurs d’entrée ne soient généralement pas typés, ils 
 ## Liste des nœuds
 
 +++Pow
-![Icône de nœud Pow](../../../../assets/Pow_Node.jpg "Icône de nœud Pow")
+![Icône de nœud Pow](function-nodes.resources/Pow_Node.jpg "Icône de nœud Pow")
 
 
 
@@ -36,7 +36,7 @@ Retourne la première entrée élevée à la puissance de la deuxième entrée :
 +++
 
 +++2Pow
-![Icône de 2nœud Pow](../../../../assets/2Pow_Node.jpg "Icône de 2nœud Pow")
+![Icône de 2nœud Pow](function-nodes.resources/2Pow_Node.jpg "Icône de 2nœud Pow")
 
 
 
@@ -45,7 +45,7 @@ Renvoie 2 à la puissance de sa valeur d&#39;entrée : <b>2^X</b>.
 +++
 
 +++Racine carrée
-![Icône de nœud racine carrée](../../../../assets/SquareRoot_Node.jpg "Icône de nœud racine carrée")
+![Icône de nœud racine carrée](function-nodes.resources/SquareRoot_Node.jpg "Icône de nœud racine carrée")
 
 
 
@@ -54,7 +54,7 @@ Renvoie la racine carrée de sa valeur d&#39;entrée : <b>√X</b>.
 +++
 
 +++Exponentiel
-![Icône de nœud exponentiel](../../../../assets/Exponential_Node.jpg "Icône de nœud exponentiel")
+![Icône de nœud exponentiel](function-nodes.resources/Exponential_Node.jpg "Icône de nœud exponentiel")
 
 
 
@@ -65,7 +65,7 @@ Renvoie la valeur exponentielle de sa valeur d&#39;entrée : <b>e^X</b>
 +++
 
 +++Logarithme
-![Icône de nœud de logarithme](../../../../assets/Logarithm_Node.jpg "Icône de nœud de logarithme")
+![Icône de nœud de logarithme](function-nodes.resources/Logarithm_Node.jpg "Icône de nœud de logarithme")
 
 
 
@@ -74,7 +74,7 @@ Renvoie le logarithme naturel de sa valeur d&#39;entrée : <b>ln(X)</b>.
 +++
 
 +++Logarithme base 2
-Icône ![Logarithme de base 2 de nœud](../../../../assets/LogarithmBase2_Node.jpg "Logarithme de base 2 de nœud")
+Icône ![Logarithme de base 2 de nœud](function-nodes.resources/LogarithmBase2_Node.jpg "Logarithme de base 2 de nœud")
 
 
 
@@ -83,7 +83,7 @@ Renvoie le logarithme de base 2 de sa valeur d&#39;entrée : <b>log2(X)</b>.
 +++
 
 +++Absolu
-![Icône de nœud absolu](../../../../assets/Absolute_Node.jpg "Icône de nœud absolu")
+![Icône de nœud absolu](function-nodes.resources/Absolute_Node.jpg "Icône de nœud absolu")
 
 
 
@@ -92,7 +92,7 @@ Retourne la valeur absolue de son entrée : <b>abs(X)</b>.
 +++
 
 +++Ceil
-![Icône de nœud de cellule](../../../../assets/Ceil_Node.jpg "Icône de nœud de cellule")
+![Icône de nœud de cellule](function-nodes.resources/Ceil_Node.jpg "Icône de nœud de cellule")
 
 
 
@@ -101,7 +101,7 @@ Arrondit sa valeur d’entrée à une valeur supérieure. Elle renvoie la plus p
 +++
 
 +++Arrondi à l’inférieur
-![icône de nœud d&#39;Arrondi aux inférieurs](../../../../assets/Floor_Node.jpg "icône de nœud d&#39;Arrondi aux inférieurs")
+![icône de nœud d&#39;Arrondi aux inférieurs](function-nodes.resources/Floor_Node.jpg "icône de nœud d&#39;Arrondi aux inférieurs")
 
 
 
@@ -110,7 +110,7 @@ Arrondit sa valeur d’entrée vers le bas. Elle renvoie la plus grande valeur d
 +++
 
 +++Interpolation linéaire
-![icône de nœud d&#39;Interpolation linéaire](../../../../assets/LinearInterpolation_Node.jpg "icône de nœud d&#39;Interpolation linéaire")
+![icône de nœud d&#39;Interpolation linéaire](function-nodes.resources/LinearInterpolation_Node.jpg "icône de nœud d&#39;Interpolation linéaire")
 
 
 
@@ -119,7 +119,7 @@ Renvoie l&#39;interpolation linéaire entre deux valeurs en fonction d&#39;une v
 +++
 
 +++Minimum
-![Icône de nœud minimale](../../../../assets/Minimum_Node.jpg "Icône de nœud minimale")
+![Icône de nœud minimale](function-nodes.resources/Minimum_Node.jpg "Icône de nœud minimale")
 
 
 
@@ -128,7 +128,7 @@ Renvoie la plus faible des deux valeurs d&#39;entrée : <b>min(A, B)</b>.
 +++
 
 +++Maximum
-![Icône de nœud maximale](../../../../assets/Maximum_Node.jpg "Icône de nœud maximale")
+![Icône de nœud maximale](function-nodes.resources/Maximum_Node.jpg "Icône de nœud maximale")
 
 
 
@@ -137,7 +137,7 @@ Renvoie la plus élevée des deux valeurs d&#39;entrée : <b>max(A, B)</b>.
 +++
 
 +++Cosinus
-![Icône de nœud cosinus](../../../../assets/Cosine_Node.jpg "Icône de nœud cosinus")
+![Icône de nœud cosinus](function-nodes.resources/Cosine_Node.jpg "Icône de nœud cosinus")
 
 
 
@@ -146,7 +146,7 @@ Renvoie le cosinus de sa valeur d&#39;entrée en radians : <b>cos(X)</b>.
 +++
 
 +++Sinus
-![Icône de nœud sinus](../../../../assets/Sine_Node.jpg "Icône de nœud sinus")
+![Icône de nœud sinus](function-nodes.resources/Sine_Node.jpg "Icône de nœud sinus")
 
 
 
@@ -155,7 +155,7 @@ Renvoie le sinus de sa valeur d&#39;entrée en radians : <b>sin(X)</b>.
 +++
 
 +++Tangente
-![Icône de nœud de Tangente](../../../../assets/Tangent_Node.jpg "Icône de nœud de Tangente")
+![Icône de nœud de Tangente](function-nodes.resources/Tangent_Node.jpg "Icône de nœud de Tangente")
 
 
 
@@ -164,7 +164,7 @@ Renvoie la tangente de sa valeur d&#39;entrée en radians : <b>tan(X)</b>.
 +++
 
 +++Arc tangente 2
-Icône de nœud ![Arc tangente 2](../../../../assets/ArcTangent2_Node.jpg "Arc tangente 2")
+Icône de nœud ![Arc tangente 2](function-nodes.resources/ArcTangent2_Node.jpg "Arc tangente 2")
 
 
 
@@ -177,7 +177,7 @@ Il n&#39;est pas nécessaire de permuter les composantes X et Y du vecteur d&#39
 +++
 
 +++Cartésien
-![Icône de nœud absolu](../../../../assets/Absolute_Node.jpg "Icône de nœud absolu")
+![Icône de nœud absolu](function-nodes.resources/Absolute_Node.jpg "Icône de nœud absolu")
 
 
 
@@ -190,7 +190,7 @@ Les coordonnées polaires sont une distance depuis l’origine et un angle en ra
 +++
 
 +++Aléatoire
-![Icône de nœud aléatoire](../../../../assets/Random_Node.jpg "Icône de nœud aléatoire")
+![Icône de nœud aléatoire](function-nodes.resources/Random_Node.jpg "Icône de nœud aléatoire")
 
 
 

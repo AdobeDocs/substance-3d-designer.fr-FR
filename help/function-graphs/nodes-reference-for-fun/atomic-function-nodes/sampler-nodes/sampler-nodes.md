@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Échantillonnages
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nœuds Sampler
 
-![Nœuds Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nœuds Sampler")
+![Nœuds Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nœuds Sampler")
 
 Ces nœuds échantillonnent une valeur dans une image d&#39;entrée aux coordonnées 2D fournies :
 
@@ -39,7 +39,7 @@ Les positions hors de cette plage sont traitées selon le <b>mode d&#39;adressag
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordonnées des pixels](../../../../assets/samplercoords.png "Coordonnées des pixels")
+![Coordonnées des pixels](sampler-nodes.resources/samplercoords.png "Coordonnées des pixels")
 
 </td>
 </tr>
