@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usure/salissures de Scratches bruts
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -45,13 +45,13 @@ Le nœud **Usure/salissures Scratches Rough** génère une carte usure/salissure
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Quantité de rayures</b> <i>Flotter</i> | Règle la quantité de rayures sur la surface. |
-| <b>Répétition de travail</b> <i>Nombre entier</i> | Ajuste la quantité de répétition appliquée aux rayures. |
+| <b>Quantité de rayures</b> <i>Flottant</i> | Règle la quantité de rayures sur la surface. |
+| <b>Répétition de travail</b> <i>Entier</i> | Ajuste la quantité de répétition appliquée aux rayures. |
 | <b>Flou de travail</b> <i>Flotter</i> | Règle le flou des rayures. |
 | <b>Largeur de travail</b> <i>Flotter</i> | Ajuste la largeur des rayures. |
 | <b>Longueur de rayure</b> <i>Flotter</i> | Règle la longueur des rayures. |
@@ -69,10 +69,10 @@ Le nœud **Usure/salissures Scratches Rough** génère une carte usure/salissure
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>

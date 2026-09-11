@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BRUIT DIRECTIONNEL 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit directionnel 4 - Icône](../../../../../../assets/directional_noise_4.png "Bruit directionnel 4 - Icône"){width="200px"}
+![Bruit directionnel 4 - Icône](directional-noise-4.resources/directional_noise_4.png "Bruit directionnel 4 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -71,12 +71,12 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 4 - Exemple 1](../../../../../../assets/directional_noise_4_1.png "Bruit directionnel 4 - Exemple 1"){zoomable="yes"}
+![Bruit directionnel 4 - Exemple 1](directional-noise-4.resources/directional_noise_4_1.png "Bruit directionnel 4 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 4 - Exemple 2](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Bruit directionnel 4 - Exemple 2"){zoomable="yes"}
+![Bruit directionnel 4 - Exemple 2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Bruit directionnel 4 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ Voir aussi : [Bruit directionnel 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 4 - Exemple 3](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Bruit directionnel 4 - Exemple 3"){zoomable="yes"}
+![Bruit directionnel 4 - Exemple 3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Bruit directionnel 4 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit directionnel 4 - Exemple 4](../../../../../../assets/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Bruit directionnel 4 - Exemple 4"){zoomable="yes"}
+![Bruit directionnel 4 - Exemple 4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Bruit directionnel 4 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

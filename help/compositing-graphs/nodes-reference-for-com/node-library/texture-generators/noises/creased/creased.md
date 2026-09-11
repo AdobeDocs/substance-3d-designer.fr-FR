@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Plissé
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -49,15 +49,15 @@ Cette option est utile lorsque vous avez besoin d’un bruit semi-directionnel a
 |:---|:---|
 | <b>Échelle</b> <i>1 - 8</i> | Définit l’échelle globale de l’effet. |
 | <b>Intensité de déformation</b> <i>0.0 - 128.0</i> | Définit l’intensité de l’effet de courbure/déformation. |
-| <b>Désordre</b> <i>0.0 - 100.0</i> | Décale légèrement les calques utilisés pour générer le bruit afin d’introduire une variation. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Désordre</b> <i>0.0 - 100.0</i> | Décale légèrement les calques utilisés pour générer le bruit, afin d’introduire une variation. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/creased-ex.gif" />
+            <img src="creased.resources/creased-ex.gif" />
         </td>
     </tr>
 </table>

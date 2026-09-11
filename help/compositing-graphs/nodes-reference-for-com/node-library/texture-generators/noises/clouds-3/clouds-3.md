@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nuages 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nuages 3 - Icône](../../../../../../assets/clouds_3.png "Nuages 3 - Icône"){width="200px"}
+![Nuages 3 - Icône](clouds-3.resources/clouds_3.png "Nuages 3 - Icône"){width="200px"}
 
 <b>Entrée :</b> Générateurs de textures > Bruits
 
@@ -69,12 +69,12 @@ Voir aussi : [Nuages 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuages 3 - Exemple 1](../../../../../../assets/clouds_3_1.png "Nuages 3 - Exemple 1"){zoomable="yes"}
+![Nuages 3 - Exemple 1](clouds-3.resources/clouds_3_1.png "Nuages 3 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuages 3 - Exemple 2](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso0.gif "Nuages 3 - Exemple 2"){zoomable="yes"}
+![Nuages 3 - Exemple 2](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso0.gif "Nuages 3 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Voir aussi : [Nuages 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuages 3 - Exemple 3](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso1.gif "Nuages 3 - Exemple 3"){zoomable="yes"}
+![Nuages 3 - Exemple 3](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso1.gif "Nuages 3 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuages 3 - Exemple 4](../../../../../../assets/noise_clouds_3_v2_speed0.3_aniso0.6.gif "Nuages 3 - Exemple 4"){zoomable="yes"}
+![Nuages 3 - Exemple 4](clouds-3.resources/noise_clouds_3_v2_speed0.3_aniso0.6.gif "Nuages 3 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>
