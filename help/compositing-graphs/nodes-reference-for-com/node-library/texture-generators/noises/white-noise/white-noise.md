@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit blanc pour générer des motifs de bruit blanc afin de créer des variations de texture et des effets aléatoires.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bruit blanc
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![bruit blanc - Icône](../../../../../../assets/white_noise_v2.png "bruit blanc - Icône"){width="200px"}
+![bruit blanc - Icône](white-noise.resources/white_noise_v2.png "bruit blanc - Icône"){width="200px"}
 
 <b>Entrée :</b> générateurs de Textures > Bruits
 
@@ -63,12 +63,12 @@ Génère un bruit blanc en utilisant l’une des trois méthodes ciblant différ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![bruit blanc - Exemple 1](../../../../../../assets/white_noise_v2_1.png "bruit blanc - Exemple 1"){zoomable="yes"}
+![bruit blanc - Exemple 1](white-noise.resources/white_noise_v2_1.png "bruit blanc - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![bruit blanc - Exemple 2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "bruit blanc - Exemple 2"){zoomable="yes"}
+![bruit blanc - Exemple 2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "bruit blanc - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
