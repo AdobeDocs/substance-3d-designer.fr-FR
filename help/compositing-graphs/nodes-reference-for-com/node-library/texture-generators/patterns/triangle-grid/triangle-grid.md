@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Triangle Grid pour générer des motifs de grille triangulaire afin de créer des textures géométriques dans Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
 <b>Entrée :</b> Générateurs De Textures > Motifs
 
@@ -97,37 +97,17 @@ Les *positions* des vertex peuvent être ajustées, ce qui a un impact sur le ma
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Exemple 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid : Exemple 1"){zoomable="yes"}
+![Triangle Grid : Exemple 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid : Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Exemple 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid : Exemple 2"){zoomable="yes"}
+![Triangle Grid : Exemple 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid : Exemple 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Exemple 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid : Exemple 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid : Exemple 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid : Exemple 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid : Exemple 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid : Exemple 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid : Exemple 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid : Exemple 6"){zoomable="yes"}
+![Triangle Grid : Exemple 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid : Exemple 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ Les *positions* des vertex peuvent être ajustées, ce qui a un impact sur le ma
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Cuir](../../../../../../assets/trianglegrid-demo.png "Triangle Grid : Cuir"){zoomable="yes"}
+![Triangle Grid : Exemple 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid : Exemple 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid : Graphe](../../../../../../assets/trianglegrid-node.png "Triangle Grid : Graphe"){zoomable="yes"}
+![Triangle Grid : Exemple 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid : Exemple 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid : Exemple 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid : Exemple 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid : Cuir](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid : Cuir"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid : Graphe](triangle-grid.resources/trianglegrid-node.png "Triangle Grid : Graphe"){zoomable="yes"}
 
 </td>
 </tr>
