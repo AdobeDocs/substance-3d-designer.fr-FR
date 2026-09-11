@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avertissements dans les graphes de fonction
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuv
 Les avertissements sont affichés dans l&#39;info-bulle de l&#39;icône d&#39;avertissement pour la ressource graphe dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) si le graphe est chargé.\
 Si la fonction est *appliquée à un paramètre* dans un [graphe de Substance de données](../../compositing-graphs/substance-compositing-graphs.md), tout avertissement entraînera l&#39;avertissement « *La fonction du paramètre [x] comporte des erreurs* » pour ce paramètre.
 
-## ![(erreur)](../../assets/error.svg) Aucun nœud de sortie défini
+## ![(erreur)](warnings-in-function-graphs.resources/error.svg) Aucun nœud de sortie défini
 
 La fonction n&#39;a pas de nœud de sortie défini.
 
@@ -33,7 +33,7 @@ La fonction n&#39;a pas de nœud de sortie défini.
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](warnings-in-function-graphs.resources/check.svg)**
 
 Sélectionnez un nœud dans le graphe qui génère une valeur dont le type correspond au type attendu pour cette fonction, le cas échéant, puis cliquez sur RMB et sélectionnez l&#39;option **Définir comme nœud de sortie** dans le menu contextuel.\
 Le nœud de sortie d&#39;un graphe de fonction est coloré en *orange*.
@@ -45,13 +45,13 @@ Le nœud de sortie d&#39;un graphe de fonction est coloré en *orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(erreur)](../../assets/error.svg) Le nœud de sortie actuel renvoie une valeur de type *x*
+### ![(erreur)](warnings-in-function-graphs.resources/error.svg) Le nœud de sortie actuel renvoie une valeur de type *x*
 
 Le nœud de sortie de la fonction renvoie une valeur dont le type ne correspond pas au type de valeur de sortie attendu pour cette fonction.
 
@@ -59,7 +59,7 @@ Le nœud de sortie de la fonction renvoie une valeur dont le type ne correspond 
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](warnings-in-function-graphs.resources/check.svg)**
 
 Sélectionnez un nœud dans le graphe qui génère une valeur dont le type correspond au type attendu pour cette fonction, puis cliquez sur RMB et sélectionnez l&#39;option **Définir comme nœud de sortie** dans le menu contextuel.\
 Le nœud de sortie d&#39;un graphe de fonction est coloré en *orange*.
@@ -71,13 +71,13 @@ Le nœud de sortie d&#39;un graphe de fonction est coloré en *orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(erreur)](../../assets/error.svg) Certains nœuds Get n&#39;ont pas de nom de variable
+### ![(erreur)](warnings-in-function-graphs.resources/error.svg) Certains nœuds Get n&#39;ont pas de nom de variable
 
 La propriété <b>Get...</b> d&#39;un ou plusieurs nœuds [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) reste vide. Aucune variable ne doit donc être utilisée.
 
@@ -85,7 +85,7 @@ La propriété <b>Get...</b> d&#39;un ou plusieurs nœuds [Get](../../function-g
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](warnings-in-function-graphs.resources/check.svg)**
 
 Entrez une chaîne correspondant au nom d&#39;une variable *disponible dans la portée de la fonction* dans la propriété **Get...** des nœuds Get qui déclenchent cet avertissement.
 
@@ -96,13 +96,13 @@ Entrez une chaîne correspondant au nom d&#39;une variable *disponible dans la p
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(erreur)](../../assets/error.svg) Certains nœuds Set n&#39;ont pas de nom de variable
+### ![(erreur)](warnings-in-function-graphs.resources/error.svg) Certains nœuds Set n&#39;ont pas de nom de variable
 
 La propriété **Set** d&#39;un ou de plusieurs nœuds [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) reste vide. Aucune variable ne doit donc être utilisée.
 
@@ -110,7 +110,7 @@ La propriété **Set** d&#39;un ou de plusieurs nœuds [Set](../../function-grap
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-Solution **![(tick)](../../assets/check.svg)**
+Solution **![(tick)](warnings-in-function-graphs.resources/check.svg)**
 
 Saisissez une chaîne dans la propriété **Set** des nœuds Set qui déclenchent cet avertissement.
 
@@ -125,7 +125,7 @@ Saisissez une chaîne dans la propriété **Set** des nœuds Set qui déclenchen
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
 
 </td>
 </tr>

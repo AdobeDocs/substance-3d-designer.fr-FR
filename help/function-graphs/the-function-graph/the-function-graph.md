@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphe de la fonction Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 À première vue, le graphe de fonction de Substance est très similaire à un graphe de Substance et le workflow est presque identique.
 
-![graphe de fonction de Substance](../../assets/image2015-12-18-11-29-28.png "graphe de fonction de Substance")
+![graphe de fonction de Substance](the-function-graph.resources/image2015-12-18-11-29-28.png "graphe de fonction de Substance")
 
 ## La navigation est similaire
 
@@ -53,7 +53,7 @@ Les nœuds disponibles dans le graphe de fonction de Substance sont complètemen
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Liste des nœuds de graphe de fonction de Substance](../../assets/image2015-12-18-13-46-55.png "Liste des nœuds de graphe de fonction de Substance")
+![Liste des nœuds de graphe de fonction de Substance](the-function-graph.resources/image2015-12-18-13-46-55.png "Liste des nœuds de graphe de fonction de Substance")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Autre point à noter : il n’y a pas de nœud de sortie spécifique où vous br
 </td>
 <td style="border: 0;" valign="top">
 
-![Nœud de sortie du graphe de fonction de Substance](../../assets/image2015-12-18-13-49-43.png "Nœud de sortie du graphe de fonction de Substance")
+![Nœud de sortie du graphe de fonction de Substance](the-function-graph.resources/image2015-12-18-13-49-43.png "Nœud de sortie du graphe de fonction de Substance")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Autre point à noter : il n’y a pas de nœud de sortie spécifique où vous br
 
 Pour définir la sortie, cliquez avec le bouton droit de la souris sur le nœud qui génère la sortie attendue, puis cliquez sur *Définir comme nœud de sortie :*
 
-![Définition du nœud de sortie](../../assets/setoutputnode.gif "Définition du nœud de sortie")
+![Définition du nœud de sortie](the-function-graph.resources/setoutputnode.gif "Définition du nœud de sortie")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ En ce qui concerne les graphes de Substance, vous pouvez importer des fonctions 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ouvrir le graphe de fonction de Substance référencé](../../assets/image2017-6-27-10-44-55.png "Ouvrir le graphe de fonction de Substance référencé")
+![Ouvrir le graphe de fonction de Substance référencé](the-function-graph.resources/image2017-6-27-10-44-55.png "Ouvrir le graphe de fonction de Substance référencé")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ En ce qui concerne les graphes de Substance, vous pouvez importer des fonctions 
 
 Si vous avez un sbs contenant plusieurs fonctions, vous pouvez le glisser-déposer directement dans un graphe de fonction de Substance et choisir la fonction que vous souhaitez importer dans la liste qui apparaît :
 
-![Supprimer le graphe de fonction de Substance du package](../../assets/sbsdrag.gif "Supprimer le graphe de fonction de Substance du package")
+![Supprimer le graphe de fonction de Substance du package](the-function-graph.resources/sbsdrag.gif "Supprimer le graphe de fonction de Substance du package")

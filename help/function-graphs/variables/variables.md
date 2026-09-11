@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser des variables dans les graphes de fonction Substance 3D Designer pour stocker et réutiliser efficacement des valeurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variables
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Encore une fois, toutes les valeurs doivent être du même type.
 
 Pour ce faire, vous avez le choix entre toutes ces valeurs numériques :
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Booléen
 

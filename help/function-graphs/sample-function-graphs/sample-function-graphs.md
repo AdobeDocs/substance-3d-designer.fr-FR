@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exemples de graphes de fonction
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -32,12 +32,12 @@ Cette page répertorie les exemples de fichiers [Substance 3D Designer](https://
 
 Ce projet constitue une introduction générale aux graphes de fonction et à la façon dont ils peuvent être utilisés pour étendre le contrôle que vous avez sur les paramètres de vos nœuds dans les [graphes de composition de Substances](../../compositing-graphs/substance-compositing-graphs.md).
 
-[Icône d&#39;exemple de fichier de graphe de fonction de ![Substance](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[Icône d&#39;exemple de fichier de graphe de fonction de ![Substance](sample-function-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/demo-functions.png){width="512px"}
+![](sample-function-graphs.resources/demo-functions.png){width="512px"}
 
 </td>
 </tr>
