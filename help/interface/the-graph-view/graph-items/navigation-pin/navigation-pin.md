@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Épingle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône d&#39;épingle de navigation](../../../../assets/graphatomic-pin_1.png "Icône d&#39;épingle de navigation")
+![Icône d&#39;épingle de navigation](navigation-pin.resources/graphatomic-pin_1.png "Icône d&#39;épingle de navigation")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Quel que soit le type de graphe, appuyer sur <b>F2</b> fait défiler toutes les 
 
 Les Épingles seront cadrées dans le viewport au niveau de zoom actuel.
 
-![Épingles : passage aux épingles](../../../../assets/graph-pin_jumping.gif "Épingles : passage aux épingles")
+![Épingles : passage aux épingles](navigation-pin.resources/graph-pin_jumping.gif "Épingles : passage aux épingles")

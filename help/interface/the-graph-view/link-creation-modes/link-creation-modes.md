@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Découvrez les modes de création de liens dans la vue du graphe de données Substance 3D Designer pour connecter efficacement des nœuds.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modes de création de liens
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,22 +26,22 @@ Dans les [graphes de Substance](../../../compositing-graphs/substance-compositin
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Mode de création de lien : standard](../../../assets/link-creation-mode-standard.gif "Mode de création de lien : standard"){zoomable="yes"}
+![Mode de création de lien : standard](link-creation-modes.resources/link-creation-mode-standard.gif "Mode de création de lien : standard"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
-<b>![](../../../assets/image2020-10-6-19-40-25.png) Standard</b> (1)
+<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png) Standard</b> (1)
 
 Aucune condition n&#39;est imposée.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mode de création de lien : matériau](../../../assets/link-creation-mode-material.gif "Mode de création de lien : matériau"){zoomable="yes"}
+![Mode de création de lien : matériau](link-creation-modes.resources/link-creation-mode-material.gif "Mode de création de lien : matériau"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
-![](../../../assets/image2020-10-6-17-11-20.png) <b>Matériau</b> (2)
+![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>Matériau</b> (2)
 
 Les entrées et les sorties sont mises en correspondance en fonction de leur utilisation.
 
@@ -50,11 +50,11 @@ Si un seul des deux a une utilisation, la connexion est effectuée comme en mode
 </td>
 <td style="border: 0;" valign="top">
 
-![Mode de création de lien : matériau compact](../../../assets/link-creation-mode-compact-material.gif "Mode de création de lien : matériau compact"){zoomable="yes"}
+![Mode de création de lien : matériau compact](link-creation-modes.resources/link-creation-mode-compact-material.gif "Mode de création de lien : matériau compact"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
-![](../../../assets/image2020-10-6-19-40-46.png) <b>Matériau compact</b> (3)
+![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>Matériau compact</b> (3)
 
 Comme le Matériau.
 
@@ -64,13 +64,13 @@ Les entrées et les sorties appartenant au même *groupe* sont réduites.
 </tr>
 </table>
 
-Vous pouvez basculer entre les modes à tout moment dans la barre d&#39;outils graphe en cliquant sur le bouton ![](../../../assets/link-creation-mode.png) <b>Mode de création de lien</b> ou à l&#39;aide des raccourcis clavier répertoriés ci-dessus.
+Vous pouvez basculer entre les modes à tout moment dans la barre d&#39;outils graphe en cliquant sur le bouton ![](link-creation-modes.resources/link-creation-mode.png) <b>Mode de création de lien</b> ou à l&#39;aide des raccourcis clavier répertoriés ci-dessus.
 
 Dans les modes <b>Matériau</b> et <b>Matériau compact</b>, les connexions entre les entrées et les sorties avec *utilisations non correspondantes* sont interdites.
 
 ## Les modes
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compacter | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Matériau compact |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> Compacter | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> Matériau compact |
 | --- | --- | --- | --- |
 | <b>Entrées</b> | Toutes les entrées sont visibles | Toutes les entrées sont visibles | Seulement 1 entrée par groupe |
 | <b>Sorties</b> | Toutes les sorties sont visibles | Toutes les sorties sont visibles | Une seule sortie par groupe |
@@ -92,7 +92,7 @@ Les entrées et sorties groupées d&#39;un graphe sont indiquées visuellement e
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![capsule de groupe sur le nœud](../../../assets/link-creation-mode-group-node.png "capsule de groupe sur le nœud"){zoomable="yes"}
+![capsule de groupe sur le nœud](link-creation-modes.resources/link-creation-mode-group-node.png "capsule de groupe sur le nœud"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Les entrées et sorties groupées d&#39;un graphe sont indiquées visuellement e
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Attribut de groupe](../../../assets/link-creation-mode-group.png "Attribut de groupe"){zoomable="yes"}
+![Attribut de groupe](link-creation-modes.resources/link-creation-mode-group.png "Attribut de groupe"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
@@ -133,7 +133,7 @@ Une fois les liens regroupés, les entrées individuelles doivent être mises en
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Attribut d&#39;utilisation](../../../assets/link-creation-mode-usage.png "Attribut d&#39;utilisation"){zoomable="yes"}
+![Attribut d&#39;utilisation](link-creation-modes.resources/link-creation-mode-usage.png "Attribut d&#39;utilisation"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
