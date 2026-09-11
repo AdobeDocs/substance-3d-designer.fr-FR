@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser Substance 3D Designer pour créer des matériaux, des textures et des ressources 3D procéduraux à l’aide de workflows basés sur les nœuds.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Guide de l’utilisateur de Substance 3D Designer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Guide de l’utilisateur de Substance 3D Designer
 
-![Fenêtre principale de Substance 3D Designer](../assets/sdsummerinterface.jpg "Fenêtre principale de Substance 3D Designer")
+![Fenêtre principale de Substance 3D Designer](home.resources/sdsummerinterface.jpg "Fenêtre principale de Substance 3D Designer")
 
 [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) est un logiciel de création de matériaux. Il vous permet d’utiliser un graphe de nœud pour générer des textures à partir de motifs et de bruits procéduraux, ainsi que pour manipuler des images bitmap.
 

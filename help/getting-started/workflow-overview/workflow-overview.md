@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Découvrez le workflow essentiel pour créer des matériaux procéduraux dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Présentation du workflow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer est un éditeur basé sur des nœuds. Cela signifie que pr
 
 [types de graphe](#graph-types)
 
-![Flux de données simplifié](../../assets/graph-direction.png "Flux de données simplifié")
+![Flux de données simplifié](workflow-overview.resources/graph-direction.png "Flux de données simplifié")
 
 ## Workflow basé sur les nœuds
 
@@ -40,7 +40,7 @@ Travailler dans Designer est différent des autres logiciels de retouche d’ima
 
 Le principal avantage est que votre workflow devient <b>non linéaire</b>. Contrairement aux actions exécutées manuellement qui sont consignées dans une pile de données d&#39;historique, vous pouvez toujours remplacer ou modifier un nœud à tout moment. Si vous estimez que votre tout premier réglage de contraste, qui a affecté le résultat de votre image jusqu’à la fin, a été trop important, vous pouvez toujours revenir en arrière et l’ajuster ou même le découper complètement, sans perdre tout le travail que vous avez effectué par la suite.
 
-![Instances de graphe simplifiées](../../assets/sub-graph.png "Instances de graphe simplifiées")
+![Instances de graphe simplifiées](workflow-overview.resources/sub-graph.png "Instances de graphe simplifiées")
 
 ## Workflow d’Instance de graphe
 
@@ -48,7 +48,7 @@ L’instanciation de Graphes est un processus essentiel dans Designer. Il vous p
 
 Pour plus d&#39;informations sur les Instances de graphe dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md), une [section dédiée](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) est disponible à leur sujet dans la documentation.
 
-![Paramètres de Graphe simplifiés](../../assets/parameters-5.png "Paramètres de Graphe simplifiés")
+![Paramètres de Graphe simplifiés](workflow-overview.resources/parameters-5.png "Paramètres de Graphe simplifiés")
 
 ## Paramètres personnalisés
 
@@ -62,7 +62,7 @@ Vous trouverez ci-dessous un résumé des trois types de Graphes que vous pouvez
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Les graphes de Substance sont[le type de graphe le plus largement pris en charge
 Vous trouverez ci-dessous quelques exemples typiques de cas d’utilisation courants.
 
 +++Forme simple
-![Forme simple dans le graphe Substance](../../assets/simpleshape.png "Forme simple dans le graphe Substance"){width="512px"}
+![Forme simple dans le graphe Substance](workflow-overview.resources/simpleshape.png "Forme simple dans le graphe Substance"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Le texte portant le numéro ou le thickness du contour peut être exposé à l�
 +++
 
 +++Filtre Réglage
-![Filtre de réglage dans le graphe Substance](../../assets/simplefilter.png "Filtre de réglage dans le graphe Substance"){width="512px"}
+![Filtre de réglage dans le graphe Substance](workflow-overview.resources/simplefilter.png "Filtre de réglage dans le graphe Substance"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Les valeurs de contraste définies dans l’histogramme peuvent être exposées,
 +++
 
 +++Matériau complet
-![matériau total en graphe de Substance](../../assets/simplematerial.png "matériau complet en graphe de Substance"){width="512px"}
+![matériau total en graphe de Substance](workflow-overview.resources/simplematerial.png "matériau complet en graphe de Substance"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Cet exemple utilise les [modes de création de liens](../../interface/the-graph-
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Les fonctions peuvent être utilisées dans de nombreux contextes différents, l
 Vous trouverez ci-dessous quelques exemples de cas d’utilisation courants pour les graphes de fonction de Substance.
 
 +++Fonction simple
-![graphe de fonction simple](../../assets/lerpfunction.png "graphe de fonction simple"){width="256px"}
+![graphe de fonction simple](workflow-overview.resources/lerpfunction.png "graphe de fonction simple"){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Cette fonction peut également être écrite en tant que *lerp(0.1, 0.8, Intensi
 +++
 
 +++Fonction avancée
-![Fonction avancée](../../assets/pixel-function.png "Fonction avancée"){width="512px"}
+![Fonction avancée](workflow-overview.resources/pixel-function.png "Fonction avancée"){width="512px"}
 
 
 
