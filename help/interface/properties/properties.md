@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Utilisez le panneau Propriétés de Substance 3D Designer pour afficher et modifier les propriétés de nœud et les paramètres de graphe.
 helpx_creative_field: ""
