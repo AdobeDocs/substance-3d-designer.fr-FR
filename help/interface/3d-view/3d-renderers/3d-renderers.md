@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Choisissez entre les rendus pixellisé et tracé dans la vue 3D pour obtenir une qualité d’aperçu et des performances différentes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moteurs de rendu 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La vue 3D propose quatre systèmes de rendu :
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 +++
 
-![Pixellisation - Exemple 1](../../../assets/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
+![Pixellisation - Exemple 1](3d-renderers.resources/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 +++
 
-![Pathtracer GPU - Exemple 1](../../../assets/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
+![Pathtracer GPU - Exemple 1](3d-renderers.resources/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 <b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
-L&#39;Adobe Standard Material est documenté en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
+L&#39;Adobe Standard Material est documenté en détail dans [cette section](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
 
 +++
 
@@ -296,4 +296,4 @@ Designer offre également la possibilité de configurer vos propres shaders pour
 > 
 > Ce moteur de rendu est **obsolète** : il ne recevra pas de nouvelles fonctionnalités et sera mis hors service dans une future version de Designer.
 
-![OpenGL - Exemple 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}
+![OpenGL - Exemple 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}

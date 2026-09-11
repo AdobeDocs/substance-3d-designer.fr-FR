@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outil Échantillonnage de couleur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Outil Échantillonnage de couleur
 
-![Outil Échantillonnage de couleur](../../../assets/color-sampler-demo.png "Outil Échantillonnage de couleur"){zoomable="yes"}
+![Outil Échantillonnage de couleur](color-sampler.resources/color-sampler-demo.png "Outil Échantillonnage de couleur"){zoomable="yes"}
 
 L&#39;outil Sampler des couleurs vous permet de <b>suivre la valeur d&#39;un pixel spécifique</b> dans la [vue 2D](../../../interface/2d-view/2d-view.md) lorsque vous ajustez les paramètres ou changez de nœud.
 
@@ -30,16 +30,16 @@ Il place une épingle dans le viewport et échantillonne la couleur et la positi
 
 Procédez comme suit pour accéder à l’outil et l’utiliser :
 
-1. Cliquez sur le bouton ![](../../../assets/color-sampler-information-button.png) <b>Informations</b> dans la barre d&#39;outils Vue 2D pour ouvrir le dock d&#39;informations et la barre d&#39;outils
-1. Cliquez sur le bouton ![](../../../assets/color-sampler-tool-icon.png) <b>Outil Sampler couleur</b> dans la barre d&#39;outils Informations
-1. En viewport, cliquez sur le pixel spécifique que vous souhaitez échantillonner pour placer une ![](../../../assets/color-sampler-pin-icon.png) <b>épingle</b>
+1. Cliquez sur le bouton ![](color-sampler.resources/color-sampler-information-button.png) <b>Informations</b> dans la barre d&#39;outils Vue 2D pour ouvrir le dock d&#39;informations et la barre d&#39;outils
+1. Cliquez sur le bouton ![](color-sampler.resources/color-sampler-tool-icon.png) <b>Outil Sampler couleur</b> dans la barre d&#39;outils Informations
+1. En viewport, cliquez sur le pixel spécifique que vous souhaitez échantillonner pour placer une ![](color-sampler.resources/color-sampler-pin-icon.png) <b>épingle</b>
 1. Examinez les valeurs échantillonnées dans la section dédiée du dock d’informations
-1. Une fois l&#39;outil terminé, cliquez sur le bouton ![](../../../assets/color-sampler-remove-pin.png) <b>Supprimer</b> pour supprimer l&#39;épingle du viewport.\
+1. Une fois l&#39;outil terminé, cliquez sur le bouton ![](color-sampler.resources/color-sampler-remove-pin.png) <b>Supprimer</b> pour supprimer l&#39;épingle du viewport.\
    Vous pouvez également supprimer l’épingle en cliquant sur le RMB dessus et en sélectionnant l’action « Supprimer » dans le menu contextuel.
 
 Voici une démonstration de l&#39;outil en action :
 
-![Échantillonneur de couleur : utilisation de l&#39;outil](../../../assets/color-sampler-demo.gif "Échantillonneur de couleur : utilisation de l&#39;outil"){zoomable="yes"}
+![Échantillonneur de couleur : utilisation de l&#39;outil](color-sampler.resources/color-sampler-demo.gif "Échantillonneur de couleur : utilisation de l&#39;outil"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
@@ -50,7 +50,7 @@ Les valeurs copiées peuvent être <b>collées dans les paramètres à l&#39;aid
 
 Il est également possible de faire glisser les vignettes de couleur du panneau Informations directement sur les vignettes de couleur de ces paramètres.
 
-![Échantillonneur de couleurs : copier les valeurs RVBA](../../../assets/color-sampler-demo-copy-rgba-values.gif "Échantillonneur de couleurs : copier les valeurs RVBA"){zoomable="yes"}
+![Échantillonneur de couleurs : copier les valeurs RVBA](color-sampler.resources/color-sampler-demo-copy-rgba-values.gif "Échantillonneur de couleurs : copier les valeurs RVBA"){zoomable="yes"}
 
 
 
@@ -76,7 +76,7 @@ Les informations sont regroupées en trois types et deux formats.
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Informations échantillonnées](../../../assets/color-sampler-information.png "Informations échantillonnées"){zoomable="yes"}
+![Informations échantillonnées](color-sampler.resources/color-sampler-information.png "Informations échantillonnées"){zoomable="yes"}
 
 </td>
 </tr>
