@@ -53,7 +53,7 @@ Effet tout-en-un pour ajouter de la neige sur un matériau complet. Repose forte
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Nouveau Snow</b> <i>0.0 - 1.0</i> | Définit la quantité de neige dans les zones surélevées. Le résultat est lié au paramètre Snow fondu. |
 | <b>Snow fondu</b> <i>0.0 - 1.0</i> | Définit la quantité de neige fondue dans les coins les plus bas. |
 | <b>Cumul</b> <i>0.0 - 1.0</i> | Affecte principalement la sortie d’Height, détermine l’effet d’empilement d’heights. |

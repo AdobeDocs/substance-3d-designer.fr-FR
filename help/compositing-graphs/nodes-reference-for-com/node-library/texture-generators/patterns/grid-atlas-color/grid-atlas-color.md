@@ -69,9 +69,9 @@ Voir aussi [Niveaux de gris Atlas en grille](../grid-atlas-grayscale/grid-atlas-
 
 |                                   |                                                                                                                                                                                                                                                                                                                                                                    |
 |:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Taille de la grille X</b> *Nombre entier* | Taille de la grille sur l&#39;axe X.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe X. |
-| <b>Taille de la grille Y</b> *Nombre entier* | Taille de la grille sur l&#39;axe Y.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe Y. |
-| <b>Mode Taille de sortie</b> *Nombre entier* | Méthode de définition de la taille de l&#39;image de sortie en fonction du paramètre de base « Taille de sortie » du nœud :<br><br>- <b>Manuel :</b> Utilisez la taille telle quelle.<br>- <b>Rapport automatique :</b> Ajustez le rapport d&#39;image en fonction de la taille de la grille afin de réduire la taille de l&#39;image. La déformation se produira pour les grilles non carrées utilisant 3 lignes ou colonnes, par exemple (3, 2), (4, 3) |
+| <b>Taille de Grille X</b> *Entier* | Taille de la grille sur l&#39;axe X.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe X. |
+| <b>Taille de Grille Y</b> *Entier* | Taille de la grille sur l&#39;axe Y.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe Y. |
+| <b>Mode Taille de sortie</b> *Entier* | Méthode de définition de la taille de l&#39;image de sortie en fonction du paramètre de base « Taille de sortie » du nœud :<br><br>- <b>Manuel :</b> Utilisez la taille telle quelle.<br>- <b>Rapport automatique :</b> Ajustez le rapport d&#39;image en fonction de la taille de la grille afin de réduire la taille de l&#39;image. La déformation se produira pour les grilles non carrées utilisant 3 lignes ou colonnes, par exemple (3, 2), (4, 3) |
 
 ## Exemples
 

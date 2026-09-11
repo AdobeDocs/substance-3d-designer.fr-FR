@@ -48,7 +48,7 @@ Utile dans de nombreux cas où une sorte de masque pour les bords est nécessair
 |  |  |
 |:---|:---|
 | <b>Largeur du contour</b> <i>1.0 - 16.0</i> | Largeur des zones détectées autour des bords. |
-| <b>Arrondi Des Bords</b> <i>0.0 - 16.0</i> | Arrondit, floute et lisse le masque généré ensemble. |
+| <b>Arrondi du bord</b> <i>0.0 - 16.0</i> | Arrondit, floute et lisse le masque généré ensemble. |
 | <b>Inverser</b> <i>Faux/Vrai</i> | Inverse le résultat. |
 | <b>Tolérance</b> <i>0.0 - 1.0</i> | Facteur de seuil de tolérance pour l&#39;emplacement où les arêtes doivent apparaître. |
 

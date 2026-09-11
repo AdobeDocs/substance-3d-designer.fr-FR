@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Rendu PBR pour effectuer le rendu de matériaux basés physiquement avec un éclairage réaliste pour prévisualiser l’apparence du matériau.
+description: Utilisez le nœud Rendu PBR pour effectuer le rendu de matériaux physiques avec un éclairage réaliste afin de prévisualiser l’apparence des matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Effectue le rendu d’un matériau PBR sur une sphère, un plan ou un cylindre à l’aide de l’éclairage basé sur l’image (IBL). Il s’agit d’un moteur de rendu à l’intérieur d’un nœud, qui peut être très utile pour générer des vignettes, des aperçus ou des ressources 2D. Il ne s’agit pas d’un rendu comme la vue 3D, mais d’une véritable texture générée dans votre graphique.
+Effectue le rendu d’un matériau PBR sur une sphère, un plan ou un cylindre à l’aide de l’éclairage basé sur l’image (IBL). Il s’agit d’un moteur de rendu à l’intérieur d’un nœud, qui peut être très utile pour générer des vignettes, des aperçus ou des ressources 2D. Il ne s’agit pas d’un rendu comme la vue 3D, mais d’une texture réelle générée dans votre graphe.
 
-Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idéal, vous devez utiliser les modes de création de lien pour connecter le matériau au Rendu PBR. En outre, vous aurez besoin d’un environnement HDRI à enveloppe sphérique pour le rendu afin de calculer l’éclairage à partir de. Les matériaux à tester se trouvent sous Matériaux PBR, les cartes d&#39;environnement sous [Vue 3D dans la bibliothèque.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
+Ce nœud nécessite au moins un matériau PBR complet pour être connecté. Idéalement, vous devez utiliser les modes de création de lien pour connecter le matériau au Rendu PBR. En outre, vous aurez besoin d’un environnement HDRI à déplie sphérique pour le rendu afin de calculer l’éclairage à partir de. Les matériaux de test se trouvent sous Matériaux PBR, les Maps d&#39;environnement sous [vue 3D dans la bibliothèque.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 >
 > **Moteur CPU (SSE2)**
 > 
-> Le nœud Rendu PBR est très lourd et ne fonctionne pas bien avec le moteur CPU de SSE2. Passez à un autre moteur en appuyant sur F9, si le nœud fonctionne extrêmement mal.
+> Le nœud Rendu PBR est très lourd et ne fonctionne pas bien avec le moteur CPU SSE2. Passez à un autre moteur en appuyant sur F9, si le nœud fonctionne très mal.
 
 <a name="inputs"></a>
 
@@ -55,7 +55,7 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 |:---|:---|
 | <b>Entrées de canal Matériau</b> | Plusieurs entrées de matériau sont utilisées pour effectuer le rendu du matériau sur la géométrie :<br><br>- Base color<br>- Normal<br>- Emissive<br>- Rugosité<br>- Métallique<br>- Specular level<br>- Height<br>- Ambient occlusion<br>- Masque d&#39;opacité<br>- Anisotropy level<br>- Anisotropy angle<br>- Translucency<br>- Échelle de distance de diffusion |
 | <b>Carte de Dirt de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Carte personnalisée du dirt sur l’objectif, qui apparaît lorsque les halos sont visibles. |
-| <b>Carte d&#39;Ouverture de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Peut être utilisé pour remplacer la forme Bokeh floue. Plus il est contrasté, plus il est visible. Gardez à l’esprit que seul un cercle de la texture est échantillonné, donc toute forme doit tenir dans un cercle. |
+| <b>Carte d&#39;Ouverture de l&#39;objectif</b> <i>Entrée en niveaux de gris</i> | Peut être utilisé pour remplacer la forme Bokeh floue. Plus il est contrasté, plus il est visible. Gardez à l’esprit que seul un cercle de la texture est échantillonné. Par conséquent, toute forme doit tenir dans un cercle. |
 | <b>Entrée en arrière-plan</b> <i>Entrée de couleur</i> | Mappage personnalisé utilisé comme arrière-plan lorsque le paramètre <b>Mode arrière-plan</b> est défini sur <i>Entrée arrière-plan</i> |
 | <b>Map d&#39;environnement</b> <i>Entrée couleur</i> | Carte d&#39;environnement utilisée pour calculer l&#39;éclairage. Doit être mappé sphériquement et en HDR. |
 
@@ -103,11 +103,11 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 | <b>Exposition</b> <i>-4.0 - 4.0</i> | Définissez l’exposition de la caméra. |
 | <b>Mappeur de tonalité</b> <i>Linear, ACE, Filmic Hejl</i> | Définissez la solution de mappage de tonalité à utiliser pour l’image finale. |
 | <b>Mode Caméra</b> <i>Perspective, Orthographique</i> | Permutez la caméra entre deux modes de projection. |
-| <b>Champ de vision</b> <i>0.01 - 100.0</i> | Définissez l’angle FOV de la caméra. |
-| <b>Distance</b> <i>0.0 - 4.0</i> | Définissez la distance entre la caméra et le centre de l’objet. |
+| <b>Champ de vision</b> <i>0.01 - 100.0</i> | Définir l&#39;angle de caméra FOV. |
+| <b>Distance</b> <i>0.0 - 4.0</i> | Définissez la distance de la caméra par rapport au centre de l’objet. |
 | <b>Intensité du vignetage</b> <i>0.0 - 1.0</i> | Définissez l’intensité de l’effet de vignette. |
 | <b>Rayon de vignetage</b> <i>0.0 - 1.0</i> | Définissez le rayon de l’effet de vignette. |
-| <b>Position à l&#39;écran</b> | Déplace la caméra autour de l’objet. Cette option peut également être modifiée à l’aide d’un objet dans la vue 2D. |
+| <b>Position à l&#39;écran</b> | Déplace la caméra autour de l’objet. Cette propriété peut également être modifiée à l’aide d’un objet dans la Vue 2D. |
 | <b>Profondeur de champ</b> |  |
 | <b>Rayon D&#39;Ouverture</b> <i>0.0 - 0.1</i> | Définit le rayon de l’ouverture. Des valeurs élevées signifient que les zones floues deviennent plus floues (bokeh). |
 | <b>Lames d&#39;Ouverture</b> <i>3 - 9</i> | Définit la forme du flou bokeh. |
@@ -128,26 +128,26 @@ Ce nœud nécessite au moins un matériel PBR complet à brancher. Dans l’idé
 | <b>Intensité du Dirt de l&#39;objectif</b> <i>0.0 - 1.0</i> | Définit l’effet de la texture dirt de l’objectif sur les Halos. |
 | <b>Paramètres de rendu</b> |  |
 | <b>Qualité de Diffuse</b> <i>16 Échantillons, 32 Échantillons, 64 Échantillons, 128 Échantillons</i> | Basculez entre les niveaux de qualité pour la carte de diffusion. |
-| <b>Multiplicateur Diffuse</b> <i>0.0 - 1.0</i> | Contrôle la contribution des parties émissives à l&#39;irradiation. |
+| <b>Multiplicateur Diffuse</b> <i>0.0 - 1.0</i> | Détermine dans quelle mesure les pièces d&#39;emissive contribuent à l&#39;irradiation. |
 | <b>Intensité de l&#39;ombre du Diffuse</b> <i>0.0 - 1.0</i> | Contrôle l’intensité des ombres diffuses. |
-| <b>Dithering Specular</b> <i>0.0 - 1.0</i> | Définissez la quantité de tramage pour le specular. |
+| <b>Dithering Specular</b> <i>0.0 - 1.0</i> | Définissez la quantité de dithering pour le specular. |
 | <b>Multiplicateur d&#39;ombre de Specular</b> <i>0.0 - 1.0</i> | Contrôle l’intensité des ombres dans les reflets specular. |
-| <b>Mode Opacité</b> <i>Test d&#39;Alpha tramé, Fusion d&#39;Alpha simple</i> | Contrôle la méthode d’application de la transparence. Le mode de fusion <i>Alpha simple</i> est plus visible sur des arrière-plans uniformes. |
-| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit l’intensité des ombres de l’occlusion ambiante. |
-| <b>Réglages de matière</b> |  |
-| <b>Recalculer les normales</b> <i>Faux/Vrai</i> | Les normales seront recalculées à partir de la carte d&#39;height en fonction de l&#39;intensité du displacement. |
+| <b>Mode Opacité</b> <i>Test d&#39;Alpha tramé, Fusion d&#39;Alpha simple</i> | Contrôle la méthode d’application de la transparence. Le mode <i>Fusion d&#39;Alpha simple</i> est plus visible sur des arrière-plans uniformes. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit l’intensité des ombres ambients occlusion. |
+| <b>Réglages De Matériau</b> |  |
+| <b>Recalculer les normales</b> <i>Faux/Vrai</i> | Les normales seront recalculées à partir de la map height en fonction de l’intensité du displacement. |
 | <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte) |
-| <b>Entrée F0 diélectrique</b> <i>Valeur constante, entrée de Specular level</i> | Définissez ce qui détermine les valeurs F0. Entrée de specular level signifie qu&#39;il sera piloté par un mappage d&#39;entrée. |
+| <b>Entrée F0 diélectrique</b> <i>Valeur constante, entrée de Specular level</i> | Définissez ce qui détermine les valeurs F0. La saisie du specular level signifie qu’il sera piloté par une map d&#39;entrée. |
 | <b>Diélectrique F0</b> <i>0.0 - 0.08</i> | Si l’option Valeur constante est choisie pour Entrée diélectrique F0, ce curseur vous permet de définir la valeur globale. |
 | <b>Pelage transparent</b> |  |
-| <b>Activer le pelage transparent</b> <i>Faux/Vrai</i> | Permet d’ajouter un calque de revêtement transparent simple et supplémentaire sur le matériau d’entrée. |
-| <b>Épaisseur de pelage nette</b> <i>0.0 - 1.0</i> | Définit l’intensité ou l’intensité du calque clearcoat. |
+| <b>Activer le pelage transparent</b> <i>Faux/Vrai</i> | Permet d’ajouter un calque de revêtement simple et transparent au-dessus du matériau d’entrée. |
+| <b>Épaisseur de pelage nette</b> <i>0.0 - 1.0</i> | Définit l’intensité ou la force du calque clearcoat. |
 | <b>Effacer le Coat specular level</b> <i>0.0 - 1.0</i> | Définit la rugosité du calque clearcoat. |
 | <b>Hériter de la normale à partir du calque de base</b> <i>Faux/Vrai</i> | Définissez cette option si clearcoat ignore ou utilise les normales du matériau de base. |
-| <b>Émissif</b> |  |
+| <b>Emissive</b> |  |
 | <b>Activer l&#39;éclairage Emissive</b> <i>Vrai/Faux</i> | Active/désactive la contribution diffuse de l’éclairage emissive. |
-| <b>Intensité émissive</b> <i>0.0 - 10.0</i> | Définit le multiplicateur global pour la carte émissive. |
-| <b>Diffusion Souterraine</b> |  |
+| <b>Intensité de l&#39;Emissive</b> <i>0.0 - 10.0</i> | Définit le multiplicateur global pour le mappage emissive. |
+| <b>Subsurface scattering</b> |  |
 | <b>Activer la Subsurface scattering</b> <i>Vrai/Faux</i> | Active/désactive la subsurface scattering dans le rendu final.<br><br><i>Remarque :</i> la Subsurface scattering nécessite que la valeur d&#39;entrée <b>Translucency</b> soit <i>supérieure à 0,0</i> |
 | <b>Distance de diffusion</b> <i>0.0 - 1.0</i> | Ajuste la distance maximale de l&#39;effet de diffusion.<br><br><i>Remarque :</i> cette valeur est multipliée par rapport à la valeur d&#39;entrée <i> de l&#39;<b>échelle de distance de diffusion</b> par couche de couleur</i>. |
 | <b>Décalage Rouge</b> <i>0.0 - 1.0</i> | Règle l’intensité de l’effet de décalage du rouge dans la diffusion. |

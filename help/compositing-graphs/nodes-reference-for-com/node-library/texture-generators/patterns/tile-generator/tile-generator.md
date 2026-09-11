@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur de tuiles
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -68,7 +68,7 @@ Quelques conseils d’utilisation généraux :
 |:---|:---|
 | <b>X Quantité</b> <i>1 - 64</i> | Quantité de répétitions X du motif. |
 | <b>Quantité Y</b> <i>1 - 64</i> | Quantité de répétitions Y du motif. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Motif</b> |  |
 | <b>Motif</b> <i>Entrée d&#39;image, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 6</i> | Nombre d’entrées Image différentes à utiliser. Disponible uniquement lorsque l&#39;option <i>Entrée d&#39;image</i> est sélectionnée ci-dessus. |
@@ -118,16 +118,16 @@ Quelques conseils d’utilisation généraux :
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex.png" />
+            <img src="tile-generator.resources/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

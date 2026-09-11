@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de numérisation Histogramme pour numériser et analyser les histogrammes de texture à des fins de correction et de réglage des couleurs.
+description: Utilisez le nœud Histogramme numérisé pour numériser et analyser les histogrammes de texture à des fins de correction et de réglage des couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Nœud très simple mais utile qui fournit un moyen intuitif de remapper le contraste et la luminosité des images en niveaux de gris en entrée. Peut être utilisé pour « agrandir » et « rétrécir » les masques de manière dynamique.
+Nœud très simple mais utile qui fournit un moyen intuitif de remapper le contraste et la luminosité des images en niveaux de gris d&#39;entrée. Peut être utilisé pour « agrandir » et « rétrécir » les masques de manière dynamique.
 
 [Cliquez ici pour visionner une vidéo de Substance Academy sur les opérations d&#39;histogramme.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=427s)
 

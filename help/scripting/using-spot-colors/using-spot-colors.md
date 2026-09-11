@@ -24,11 +24,11 @@ La classe </b>SDSpotColorLibrary<b>, accessible depuis la classe <b>SDApplicatio
 
 Cette classe permet de répertorier les catalogues de couleurs et les tons directs et de rechercher des tons directs spécifiques ou le ton direct le plus proche d’une couleur RGB donnée.
 
-Les tons directs ne sont *pas disponibles* dans Designer lorsque vous utilisez <b>OpenColorIO</b>. Dans ce cas, app.getSpotColorLibrary() renvoie <b>Aucun</b>.
+Les tons directs ne sont *pas disponibles* dans Designer lors de l&#39;utilisation d&#39;<b>OpenColorIO</b>. Dans ce cas, app.getSpotColorLibrary() renvoie <b>Aucun</b>.
 
 >[!IMPORTANT]
 >
-> Les tons directs ne sont *pas disponibles* dans Designer lorsque vous utilisez <b>OpenColorIO</b>. Dans ce cas, app.getSpotColorLibrary() renvoie <b>Aucun</b>.
+> Les tons directs ne sont *pas disponibles* dans Designer lors de l&#39;utilisation d&#39;<b>OpenColorIO</b>. Dans ce cas, app.getSpotColorLibrary() renvoie <b>Aucun</b>.
 
 ```
 import sd 

@@ -31,7 +31,7 @@ Il est possible de contrôler l&#39;application en écrivant des plug-ins. Les p
 * [Modules externes](../scripting/plugins-packages/plugins-packages.md)
 * [Gestionnaire de plugins](../scripting/plugin-manager/plugin-manager.md)
 * [Éditeur Python](../scripting/python-editor/python-editor.md)
-* [Accès aux graphiques et aux sélections](../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
+* [Accès aux graphes et aux sélections](../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
 * [Nœuds et propriétés](../scripting/nodes-and-properties/nodes-and-properties.md)
 * [Annuler et rétablir](../scripting/undo-and-redo/undo-and-redo.md)
 * [Rappels d’application](../scripting/application-callbacks/application-callbacks.md)

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Personnalisation de votre espace de travail
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Ce menu vous permet de gérer les principaux éléments de l’interface utilisa
 
 ### Afficher/Masquer une vue
 
-Pour afficher ou masquer un élément d&#39;interface spécifique, cliquez sur son nom dans le menu *Windows*. Les éléments affichés sont marqués d&#39;une coche ![](../../assets/image2015-12-17-10-43-24.png).
+Pour afficher ou masquer un élément d&#39;interface spécifique, cliquez sur son nom dans le menu *Windows*. Les éléments affichés sont marqués d&#39;une coche ![](customizing-your-workspace.resources/image2015-12-17-10-43-24.png).
 
 ### Remplir un dock avec une vue
 
@@ -46,7 +46,7 @@ Les options <b>Nouvel Explorateur</b>, <b>Nouvelle vue 3D</b> et <b>Nouvelle vue
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu Windows](../../assets/windows-menu-1.png "Menu Windows")
+![Menu Windows](customizing-your-workspace.resources/windows-menu-1.png "Menu Windows")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ Les options <b>Nouvel Explorateur</b>, <b>Nouvelle vue 3D</b> et <b>Nouvelle vue
 
 Les docks peuvent être redimensionnés en déplaçant l’un de leurs bords. Les autres quais seront redimensionnés dynamiquement pour s’adapter.
 
-![Redimensionnement des quais](../../assets/interface-customisation-resize.gif "Redimensionnement des quais")
+![Redimensionnement des quais](customizing-your-workspace.resources/interface-customisation-resize.gif "Redimensionnement des quais")
 
 ## Déplacement des docks
 
 Tout dock peut être déplacé autour de la fenêtre principale à l&#39;aide de sa *barre de titre*. Selon l’emplacement vers lequel le dock est déplacé, les docks seront redimensionnés pour s’adapter.
 
-![Déplacement des quais](../../assets/interface-customisation-move.gif "Déplacement des quais")
+![Déplacement des quais](customizing-your-workspace.resources/interface-customisation-move.gif "Déplacement des quais")
 
 ## Tabulation des docks
 
@@ -70,7 +70,7 @@ Les docks peuvent être empilés dans des onglets. Cela est utile pour enregistr
 
 Vous pouvez activer la tabulation des docks en déplaçant un dock à l&#39;aide de sa barre de titre *sur un dock existant*. Les docks ne sont ni redimensionnés ni déplacés, mais un *cadre* apparaît autour du dock cible.
 
-![Tabbing docks](../../assets/interface-customisation-tab.gif "Tabbing docks")
+![Tabbing docks](customizing-your-workspace.resources/interface-customisation-tab.gif "Tabbing docks")
 
 ## Désancrage
 
@@ -78,10 +78,10 @@ Un dock peut être désancré dans une *fenêtre flottante* qui peut être redim
 
 Cela peut se faire de deux manières :
 
-* Déplacer le dock à l&#39;aide de sa *barre de titre* et le placer *hors de la fenêtre principale* ou sur une zone de la fenêtre principale qui n&#39;est *pas un dock*. Vous pouvez réancrer ce dock en le déplaçant sur un autre dock *dans la fenêtre principale* ou en cliquant sur le bouton <b>![](../../assets/dock-icons-redock.png) Réancrer</b> ;
-* Cliquez sur le bouton <b>![](../../assets/dock-icons-undock.png) Annuler l&#39;ancrage</b>. Un dock non ancré avec cette méthode peut *être réancré* uniquement en cliquant sur le bouton <b>![](../../assets/dock-icons-redock.png) Réancrer</b>.
+* Déplacer le dock à l&#39;aide de sa *barre de titre* et le placer *hors de la fenêtre principale* ou sur une zone de la fenêtre principale qui n&#39;est *pas un dock*. Vous pouvez réancrer ce dock en le déplaçant sur un autre dock *dans la fenêtre principale* ou en cliquant sur le bouton <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Réancrer</b> ;
+* Cliquez sur le bouton <b>![](customizing-your-workspace.resources/dock-icons-undock.png) Annuler l&#39;ancrage</b>. Un dock non ancré avec cette méthode peut *être réancré* uniquement en cliquant sur le bouton <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Réancrer</b>.
 
-![Désancrage](../../assets/interface-customisation-undock.gif "Désancrage")
+![Désancrage](customizing-your-workspace.resources/interface-customisation-undock.gif "Désancrage")
 
 ## Agrandissement des quais
 
@@ -93,12 +93,12 @@ Tout dock peut être agrandi pour s&#39;adapter à la zone ou à sa *fenêtre pa
 Les docks peuvent être agrandis de deux manières :
 
 * Placement du curseur *sur le dock* et appui sur la touche <b>Maj+Espace</b>
-* Cliquer sur leur bouton <b>![](../../assets/dock-icons-maximise.png) Agrandir</b>
+* Cliquer sur leur bouton <b>![](customizing-your-workspace.resources/dock-icons-maximise.png) Agrandir</b>
 
 Les docks agrandis peuvent être réduits à la taille et à l&#39;emplacement qu&#39;ils occupaient *avant d&#39;être agrandis*. Cela peut se faire de trois manières :
 
 * Placement du curseur *sur le dock* et appui sur la touche <b>Maj+Espace</b>
-* Cliquer sur leur bouton <b>![](../../assets/dock-icons-minimise.png) Réduire</b>
+* Cliquer sur leur bouton <b>![](customizing-your-workspace.resources/dock-icons-minimise.png) Réduire</b>
 * Ouverture du menu <b>Windows</b> et sélection de l&#39;option <b>Annuler l&#39;agrandissement de la fenêtre</b>
 
 >[!NOTE]
@@ -114,7 +114,7 @@ Les docks agrandis peuvent être réduits à la taille et à l&#39;emplacement q
 > * Les boutons sont *désactivés* dans la barre de titre du dock
 > * Un dock agrandi dans la fenêtre principale *ne peut pas être déplacé* à l&#39;aide de sa barre de titre
 
-![Agrandissement des quais](../../assets/interface-customisation-maximise.gif "Agrandissement des quais")
+![Agrandissement des quais](customizing-your-workspace.resources/interface-customisation-maximise.gif "Agrandissement des quais")
 
 ## Épingler les docks
 
@@ -122,7 +122,7 @@ L&#39;épinglage d&#39;un dock *empêche son remplissage* avec un autre contenu 
 
 Lorsqu&#39;un dock est épinglé, tout contenu futur qui doit être affiché dans son sera *créé un nouveau dock* pour l&#39;héberger. Ce nouveau dock ne sera pas épinglé et pourra donc mettre à jour et héberger de nouveaux contenus.
 
-Pour épingle un dock, cliquez sur son bouton ![](../../assets/dock-icons-pin.png) <b>Épingle</b>. Vous pouvez ensuite *retirer* l&#39;épingle à l&#39;aide du bouton ![](../../assets/dock-icons-pinned.png) <b>Retirer</b> pour qu&#39;il soit à nouveau *disponible* pour héberger tout nouveau contenu.
+Pour épingle un dock, cliquez sur son bouton ![](customizing-your-workspace.resources/dock-icons-pin.png) <b>Épingle</b>. Vous pouvez ensuite *retirer* l&#39;épingle à l&#39;aide du bouton ![](customizing-your-workspace.resources/dock-icons-pinned.png) <b>Retirer</b> pour qu&#39;il soit à nouveau *disponible* pour héberger tout nouveau contenu.
 
 *Plusieurs docks* peuvent être épinglés à la fois, y compris plusieurs docks du *même type*.
 
@@ -132,11 +132,11 @@ L’épinglage des docks vous permet d’effectuer les opérations suivantes :
 * Affichage simultané de deux bitmaps ou plus
 * Utilisation simultanée de plusieurs graphes
 
-![Épingler les docks](../../assets/interface-customisation-pin.gif "Épingler les docks")
+![Épingler les docks](customizing-your-workspace.resources/interface-customisation-pin.gif "Épingler les docks")
 
 ## Fermeture des docks
 
-Tout dock peut être fermé en cliquant sur son bouton ![](../../assets/dock-icons-close.png) <b>Fermer</b>.
+Tout dock peut être fermé en cliquant sur son bouton ![](customizing-your-workspace.resources/dock-icons-close.png) <b>Fermer</b>.
 
 ## Réinitialisation de la disposition de l’interface
 
@@ -144,4 +144,4 @@ L&#39;interface utilisateur entière peut être réinitialisée dans sa mise en 
 
 Leur état d&#39;affichage sera également réinitialisé, ce qui signifie que les docks fermés peuvent être *rouverts* (par exemple, vue 3D) et que les docks affichés peuvent être *fermés* (par exemple, Console, Gestionnaire de dépendances, docks créés par des plug-ins).
 
-![Réinitialiser la mise en page](../../assets/interface-customisation-reset.gif "Réinitialiser la mise en page")
+![Réinitialiser la mise en page](customizing-your-workspace.resources/interface-customisation-reset.gif "Réinitialiser la mise en page")

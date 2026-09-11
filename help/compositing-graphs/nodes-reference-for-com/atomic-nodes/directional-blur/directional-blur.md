@@ -111,8 +111,8 @@ Les images ci-dessous montrent le flou directionnel et le flou [anisotrope](../.
 
 |  |  |
 | --- | --- |
-| <b>Intensité</b> *Flotter* | Définit le rayon de flou en pixels. |
-| <b>Angle</b> *Flotter* | La direction de l&#39;effet de flou en nombre de tours dans le sens horaire, en partant de l&#39;horizontale - c&#39;est-à-dire le vecteur de direction (1, 0). |
+| <b>Intensité</b> *Flottant* | Définit le rayon de flou en pixels. |
+| <b>Angle</b> *Flottant* | La direction de l&#39;effet de flou en nombre de tours dans le sens horaire, en partant de l&#39;horizontale - c&#39;est-à-dire le vecteur de direction (1, 0). |
 
 ## Connecteurs d’entrée
 

@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Version 12.4
 
-**Substance 3D Designer 12.4** apporte plusieurs améliorations à la qualité de vie (un outil pour nettoyer un graphique, utiliser des formules de base pour définir des paramètres, un bouton pour générer une vitesse aléatoire, un verrou pour la taille, etc.) et la prise en charge des graphiques de Substance de données dans l’API Python. Voir ci-dessous pour plus de détails sur toutes ces modifications.
+**Substance 3D Designer 12.4** apporte plusieurs améliorations à la qualité de vie (un outil pour nettoyer un graphe, utiliser des formules de base pour définir des paramètres, un bouton pour générer une vitesse aléatoire, un verrou pour la taille, etc.) et la prise en charge des Graphes Substance models dans l’API Python. Voir ci-dessous pour plus de détails sur toutes ces modifications.
 
 Date de publication : *31 janvier 2023*
 
@@ -28,7 +28,7 @@ Date de publication : *31 janvier 2023*
 
 ### Outil Nettoyer le graphe
 
-Lorsque vous modifiez votre graphique, vous devez parfois expérimenter plusieurs possibilités, et brancher / débrancher divers nœuds jusqu&#39;au moment où vous obtenez le résultat que vous voulez. À la fin, certains nœuds de votre graphique ne sont pas connectés à une sortie et n’ont donc aucun impact sur le résultat final. Ce nouvel outil vous permettra de détecter et de supprimer automatiquement ces nœuds afin de nettoyer vos graphiques avant de les finaliser. L’outil de nettoyage est également disponible en option dans les fonctions de paramètres. Il peut être lancé sur le graphique actuel via le bouton dédié de la barre d’outils Vue graphique ou sur une sélection de graphiques dans la vue Explorateur.
+Lorsque vous modifiez votre graphe, vous devez parfois expérimenter plusieurs possibilités, et brancher / débrancher divers nœuds jusqu&#39;au moment où vous obtenez le résultat que vous voulez. Enfin, certains nœuds de votre graphe ne sont pas connectés à une sortie et n’ont donc aucun impact sur le résultat final. Ce nouvel outil vous permettra de détecter et de supprimer automatiquement ces nœuds afin de nettoyer vos graphes avant de les finaliser. L&#39;outil de nettoyage est également disponible en option dans les fonctions de paramètres, et peut être lancé sur le graphe courant via le bouton dédié dans la barre d&#39;outils de Vue du graphe, ou sur une sélection de graphes à partir de la vue Explorateur.
 
 ![](../../assets/final-clean.gif){width="640px"}
 
@@ -40,13 +40,13 @@ Plus besoin d&#39;utiliser une calculatrice ou de calculer dans votre tête lors
 
 ### Boutons d’accès rapide dans la vue 3D
 
-Nous avons ajouté une barre d&#39;outils supplémentaire dans la [vue 3D](../../interface/3d-view/3d-view.md) correspondant à toutes les options disponibles dans le menu [Affichage](../../interface/3d-view/3d-view.md), pour un accès rapide à toutes ces options (par exemple, Structure filaire, Grille, Cadre de sélection, etc.) lorsque le bouton bascule. Nous avons également ajouté un bouton pour afficher/masquer la carte d’environnement.
+Nous avons ajouté une barre d&#39;outils supplémentaire dans la [vue 3D](../../interface/3d-view/3d-view.md) correspondant à toutes les options disponibles dans le menu [Affichage](../../interface/3d-view/3d-view.md), pour un accès rapide à toutes ces options (par exemple, Structure filaire, Grille, Cadre de sélection, etc.) lorsque le bouton bascule. Nous avons également ajouté un bouton pour afficher/masquer la map d&#39;environnement.
 
 ![](../../assets/final-3dview.gif){width="640px"}
 
 ### Bouton permettant de générer une valeur de départ aléatoire
 
-Vous pouvez désormais créer rapidement différentes variations à l’aide d’un nouveau bouton pour générer la vitesse aléatoire de votre graphique, au lieu de déplacer un curseur.
+Vous pouvez désormais créer rapidement différentes variations à l’aide d’un nouveau bouton pour générer la valeur de départ aléatoire de votre graphe, au lieu de déplacer un curseur.
 
 ![](../../assets/final-seed.gif){width="640px"}
 
@@ -56,7 +56,7 @@ Vous pouvez désormais verrouiller la largeur et l’height de la taille de sort
 
 ![](../../assets/final-lock.gif){width="640px"}
 
-### Transformation de l’entrée d’image en couleur/niveaux de gris
+### Transformer la saisie de l’image sur Couleur/Niveaux de gris
 
 Basculez rapidement entre une [couleur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et une [échelle de gris d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) via le menu contextuel du nœud.
 
@@ -70,13 +70,13 @@ Dans le panneau des propriétés, si vous cliquez sur une épingle pour modifier
 
 ### Sélectionner les nœuds en aval
 
-Nouvelle entrée dans le [menu contextuel des nœuds](../../interface/the-graph-view/the-graph-view.md) pour sélectionner tous les nœuds connectés à la sortie du ou des nœuds sélectionnés, directement ou indirectement. Vous devez donc sélectionner tous les nœuds affectés par votre nœud. Utile pour supprimer une partie de votre graphique ou pour retravailler la mise en page du graphique.
+Nouvelle entrée dans le [menu contextuel des nœuds](../../interface/the-graph-view/the-graph-view.md) pour sélectionner tous les nœuds connectés à la sortie du ou des nœuds sélectionnés, directement ou indirectement. Vous devez donc sélectionner tous les nœuds affectés par votre nœud. Utile pour supprimer une partie de votre graphe ou retravailler la disposition du graphe.
 
 ![](../../assets/final-downstream.gif){width="640px"}
 
 ## Mises à jour de l’API Python
 
-Cette version 12.4 offre également la prise en charge complète des graphiques de Substance de données via l’API Python. Cela signifie que vous disposez désormais de tous les outils nécessaires pour créer, modifier ou évaluer des graphiques de modèles de Substance. Pour plus d’informations, consultez la documentation disponible dans le menu Aide du logiciel.
+Cette version 12.4 apporte également la prise en charge complète des Graphes Substance models via l&#39;API Python. Cela signifie que vous disposez désormais de tous les outils nécessaires pour créer, modifier ou évaluer des Graphes Substance models. Pour plus d’informations, consultez la documentation disponible dans le menu Aide du logiciel.
 
 ## Notes de mise à jour
 
@@ -86,32 +86,32 @@ Cette version 12.4 offre également la prise en charge complète des graphiques 
 
 <b>Ajouté :</b>
 
-* [Vue 3D] Ajoutez des boutons d’accès rapide pour définir les options d’affichage (Structure filaire, carte d’environnement, statistiques de scène, etc.)
-* [Gestion des couleurs] Amélioration de la qualité des tables LUT 3D cuites en mode ACE
-* [Documentation] Exemples de projets pour les graphiques de Substance
-* [Documentation] Exemple de projet pour les graphiques de fonction
-* [Explorer] Autoriser le déplacement du graphique et des ressources d’un parent à un autre sans fermer ni invalider les widgets
-* [Éditeur de dégradé] Sélectionner l’épingle sur laquelle vous avez cliqué lors de l’affichage de l’éditeur de dégradé
-* [Graphique] Ajouter une option dans le menu contextuel d’un nœud pour sélectionner tous ses enfants
-* [Graphique] Nettoyer l’outil de graphique pour détecter et supprimer les nœuds inutilisés dans tous les types de graphiques et graphiques de propriétés
-* [Graphique] Transformation de l’entrée d’image en couleur/niveaux de gris
-* [Paramètres] Ajouter un verrou sur les widgets integer2
+* [vue 3D] Ajoutez des boutons d’accès rapide pour définir les options d’affichage (Structure filaire, map d&#39;environnement, état des scènes, etc.)
+* [Gestion des couleurs] Amélioration de la qualité des tables LUT 3D bakées en mode ACE
+* [Documentation] Exemples de projets pour les graphes de Substance
+* [Documentation] Projet d’exemple pour les graphes de fonction
+* [Explorateur] Autoriser le déplacement du Graphe et des ressources d’un parent à un autre sans fermer ni invalider les widgets
+* [Éditeur de dégradé] Sélectionnez l’épingle sélectionnée lors de l’affichage de l’éditeur de dégradé
+* [Graphe] Ajouter une option dans le menu contextuel d’un nœud pour sélectionner tous ses enfants
+* [Graphe] Nettoyer l&#39;outil de graphe pour détecter et supprimer les nœuds inutilisés dans tous les types de graphes et graphes de propriétés
+* [Graphe] Transformer l’entrée d’image sur couleur/niveaux de gris
+* [Paramètres] Ajouter un verrou sur les widgets entier 2
 * [Paramètres] Permet de saisir des formules de base comme paramètre
 * [Substance] Basculez entre les valeurs et les icônes pour les nœuds de valeur.
 * [UI] Bouton permettant de générer une valeur aléatoire lorsqu’un générateur aléatoire est requis
-* [UI] Mettez en surbrillance dans la vue 3D l’élément actuellement sélectionné dans l’Explorateur de scènes
+* [UI] Mettez en surbrillance dans la vue 3D l’élément actuellement sélectionné dans l’Explorateur de Scènes
 * [UX] Réinitialiser les plages de curseur lorsque leur valeur est réinitialisée
-* [API] Autoriser l’ajout d’actions aux barres d’outils d’affichage des graphiques
-* [API] Autoriser la création/modification/évaluation d’un graphique de modèle de Substance à partir de l’API
+* [API] Autoriser l’ajout d’actions aux barres d’outils de vue du graphe
+* [API] Autoriser à créer/modifier/évaluer un Graphe Substance model à partir de l’API
 
 <b>Fixe :</b>
 
-* [Vue 3D] La valeur de la propriété « DirectX normal » n’est pas partagée entre les moteurs de rendu
-* [Vue 3D] L’affichage des statistiques de scène est étiré lorsque la fenêtre est petite
-* [Vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
-* [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur la couche alpha
+* [vue 3D] La valeur de la propriété « Normal » n’est pas partagée entre les moteurs de rendu
+* [vue 3D] L&#39;affichage des statistiques de Scène est étiré lorsque le viewport est petit
+* [vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
+* [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur le canal Alpha
 * [Localisation] Des curseurs et des boutons supplémentaires s’affichent dans les propriétés OpenGL de l’environnement.
-* [MDL]&#x200B;[Substance de données] Blocage lors de la suppression de nœuds exposés
+* crash [MDL]&#x200B;[modèle de Substance] lors de la suppression de nœuds exposés
 * [Préférences] Le fichier par défaut\_config n’est jamais recréé s’il est supprimé
-* [modèle de Substance] Paramètre de réorganisation de blocage qui n&#39;apparaît pas au niveau de l&#39;instance
+* Paramètre de réorganisation de Crash [modèle de Substance] qui n&#39;apparaît pas au niveau de l&#39;instance
 * [API] SDProperty.getDefaultValue() renvoie presque toujours None

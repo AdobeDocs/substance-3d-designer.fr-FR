@@ -88,7 +88,7 @@ Si la mise à niveau vers Windows 10 n&#39;est pas possible, *ne mettez pas à j
 
 <b>![(erreur)](../../assets/error.svg) Problème</b>
 
-Blocage lors de la fermeture de l’écran d’accueil et de l’affichage de la fenêtre principale.
+Crash lors de la fermeture de l’écran d’accueil et de l’affichage de la fenêtre principale.
 
 <b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
 

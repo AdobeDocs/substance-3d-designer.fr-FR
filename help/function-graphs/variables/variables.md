@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser des variables dans les graphiques fonctionnels Substance 3D Designer pour stocker et réutiliser efficacement des valeurs.
+description: Apprenez à utiliser des variables dans les graphes de fonction Substance 3D Designer pour stocker et réutiliser efficacement des valeurs.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variables
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -44,14 +44,14 @@ Dans Substance 3D Designer, vous disposez de deux familles de variables : numér
 
 Les variables numériques sont essentiellement des nombres. Mais nous faisons une distinction claire entre deux types de chiffres :
 
-* Entiers : 0 | 1 | -1 | 203568 , etc...
-* Flotteurs : 0,23 | 1.0 | -0,3546 | etc.
+* ENTIERS : 0 | 1 | -1 | 203568 , etc...
+* Flottants : 0,23 | 1.0 | -0,3546 | etc.
 
 >[!WARNING]
 >
-> Designer établit une distinction claire entre les nombres entiers et les nombres flottants : par défaut, vous ne pouvez pas les utiliser ensemble.
+> Designer établit une distinction claire entre les entiers et les objets flottants : par défaut, vous ne pouvez pas les utiliser ensemble.
 > 
-> Heureusement, vous pouvez utiliser les nœuds *To Integer* ou To Float pour effectuer des conversions de type.
+> Heureusement, vous pouvez utiliser les nœuds *To Entier* ou To Flottant pour effectuer des conversions de type.
 
 ### Plusieurs valeurs numériques dans la même variable
 
@@ -61,8 +61,8 @@ Encore une fois, toutes les valeurs doivent être du même type.
 
 Pour ce faire, vous avez le choix entre toutes ces valeurs numériques :
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Booléen
 
-Un booléen est une valeur binaire pure, ce qui signifie que sa valeur ne peut être que *True* ou *False* (vous pouvez également dire 0 ou 1).
+Une Booléen est une valeur binaire pure, ce qui signifie que sa valeur ne peut être que *True* ou *False* (vous pouvez également dire 0 ou 1).

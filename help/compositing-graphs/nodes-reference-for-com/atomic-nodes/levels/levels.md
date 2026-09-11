@@ -90,7 +90,7 @@ Le bouton jaune en surbrillance active/désactive l’interface entre les curseu
 | <b>Entrée haute du niveau</b> *Flottant/Flottant 4* | Définit les niveaux de surbrillance de l’image d&#39;entrée.  Les remappages saisissent des valeurs élevées pour obtenir un blanc complet. |
 | <b>Entrée moyenne du niveau</b> *Flottant/Flottant 4* | Définit les niveaux de tons moyens de l’image d&#39;entrée.  Remappe les valeurs intermédiaires d’entrée pour obtenir un gris moyen. |
 | <b>Niveau bas</b> *Flottant/Flottant 4* | Définit les niveaux de surbrillance de l’image de sortie.  Verrouille les valeurs de noir en sortie pour définir une limite. |
-| <b>Sortie haute du niveau</b> *Float/Float4* | Définit les niveaux de surbrillance de l’image de sortie.  Permet de fixer des valeurs de blanc en sortie pour définir une limite. |
+| <b>Sortie haute du niveau</b> *Flottant/Flottant 4* | Définit les niveaux de surbrillance de l’image de sortie.  Verrouille les valeurs de blanc en sortie pour définir une limite. |
 | <b>Pince intermédiaire</b> *Booléen* | Détermine si la valeur d&#39;entrée transformée est fixée à [0, 1] avant de calculer le niveau de sortie. |
 
 ## Guide d’utilisation
@@ -103,15 +103,15 @@ Dans la barre d’en-tête « Paramètres spécifiques », vous trouverez des bo
 
 ![Actions rapides du nœud de niveaux](levels.resources/levels-2.png "Actions rapides du nœud de niveaux")
 
-<b>1 - Inverser :</b> permute les valeurs des paramètres « Niveau bas » et « Niveau haut ».
+<b>1 - Inverser :</b> permute les valeurs des paramètres « Niveau bas sortant » et « Sortie haute du niveau ».
 
-<b>2 - Niveau automatique :</b> ajuste automatiquement les valeurs des paramètres « Niveau en bas » et « Niveau en haut » respectivement à la valeur la plus basse et à la valeur la plus élevée présentes dans l&#39;image.
+<b>2 - Niveau automatique :</b> ajuste automatiquement les valeurs des paramètres « Entrée basse du niveau » et « Entrée haute du niveau » respectivement à la valeur la plus basse et à la valeur la plus élevée présentes dans l&#39;image.
 
 <b>3 - Changer d&#39;interface :</b> basculer entre les éditeurs d&#39;histogramme et de curseur.
 
 ### Histogramme
 
-L’éditeur d’histogramme est destiné aux réglages visuels rapides pour lesquels des valeurs précises ne sont pas vraiment nécessaires et l’exposition des paramètres n’est pas importante. Il s’agit généralement du moyen le plus rapide et le plus simple de travailler avec les niveaux.
+L’éditeur d’histogramme est destiné aux réglages visuels et rapides pour lesquels des valeurs précises ne sont pas vraiment nécessaires et l’expose de paramètres n’est pas importante. Il s’agit généralement du moyen le plus rapide et le plus simple de travailler avec les niveaux.
 
 ![](levels.resources/levels-histo.gif)
 

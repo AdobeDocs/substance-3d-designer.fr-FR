@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Flou des bords pour flouter les masques de contour afin de créer des transitions douces et des effets d’usure progressifs basés sur les contours.
+description: Utilisez le nœud Flou des contours pour flouter les masques de contour afin de créer des transitions douces et des effets d’altération lisses basés sur les contours.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Blur
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque met en surbrillance les bords en fonction d&#39;une courbe de courbe plaquée. Il s’agit de l’un des générateurs de masques les plus simples.
+Ce masque met en surbrillance les contours en fonction d’une map curvature bakée. C&#39;est l&#39;un des Générateurs de masque les plus simples.
 
 </td>
 </tr>

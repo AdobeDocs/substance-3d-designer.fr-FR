@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polygone 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-1-1.png){width="128px"}
+![](polygon-1.resources/polygon-1-1.png){width="128px"}
 
 <b>Entrée :</b> Générateurs De Textures > Motifs
 
@@ -53,8 +53,8 @@ Génère une forme polygonale avec de nombreuses options de réglage. Voir [Poly
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter la forme entière. |
 | <b>Dégradé</b> <i>Faux/Vrai</i> | Génère des tranches/triangles dégradés au lieu de tranches unies. Remarque : devient similaire à Polygone 2 lorsque ce paramètre est activé. |
 | <b>Inversion de dégradé</b> <i>Faux/Vrai</i> | Inverse la direction du dégradé si l’option Dégradé est activée. |
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Répétition Non Carrée</b> <i>Faux/Vrai</i> | Lorsque l’Extension non carrée est activée, la forme est mosaïque sans être écrasée. |
 
 ## Exemples
@@ -62,7 +62,7 @@ Génère une forme polygonale avec de nombreuses options de réglage. Voir [Poly
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/polygon-1-ex.gif" />
+            <img src="polygon-1.resources/polygon-1-ex.gif" />
         </td>
     </tr>
 </table>

@@ -46,5 +46,5 @@ Comme le nœud 2D de Transforme atomique, cela permet la transformation des cart
 |  |  |
 |:---|:---|
 | <b>Matrix2x2</b> <i>(Matrice de transformation) :</i> | Faites pivoter ou mettez à l’échelle l’entrée. |
-| <b>Décalage</b> <i>-0.5 - 0.5</i> | Déplace ou traduit le résultat. Lorsque la commande Transformation est présente, le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Décalage</b> <i>-0.5 - 0.5</i> | Déplace ou translate le résultat. Lorsque la commande Transformation est présente, le résultat peut être modifié en interagissant directement avec la zone de travail. |
 | <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte) |

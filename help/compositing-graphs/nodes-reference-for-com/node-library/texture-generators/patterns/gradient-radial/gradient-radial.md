@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé radial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-radial.png){width="128px"}
+![](gradient-radial.resources/gradient-radial.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,4 +48,4 @@ Similaire à [Circulaire de dégradé](../../../../../../compositing-graphs/node
 | <b>Forme</b> <i>Cône, Hémisphère</i> | Détermine le profil de transition. Le cône est une transition nette et linéaire, l’hémisphère est doux et arrondi au centre. |
 | <b>Point 1</b> | Point central du dégradé. Commence en blanc. |
 | <b>Point 2</b> | Point du rayon pour déterminer l’étendue du dégradé. Se termine en noir. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activer la compensation de la courbure et du étire avec des rapports non carrés. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-2.png){width="128px"}
+![](shape.resources/shape-2.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Génère diverses formes procédurales, avec des options pour modifier les formes de base. Les formes sont toujours parfaitement interpolées et de haute précision.
 
-Malgré sa simplicité, il s&#39;agit d&#39;un nœud très utile : c&#39;est la pierre angulaire de la plupart des générations de Heightmap procédurales ! En combinant des formes simples avec des nœuds de transformation, vous pouvez créer une forme Heightmap entièrement procédurale, beaucoup plus précise qu’une image bitmap.
+Malgré sa simplicité, c&#39;est un nœud très utile : c&#39;est la pierre angulaire de la génération la plus procédurale de Heightmap ! En associant des formes simples à des nœuds de transforme, vous pouvez créer une forme Heightmap entièrement procédurale, bien plus précise qu’une image bitmap.
 
 </td>
 </tr>
@@ -47,14 +47,14 @@ Malgré sa simplicité, il s&#39;agit d&#39;un nœud très utile : c&#39;est la 
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 | <b>Motif</b> <i>Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône, Hémisphère</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Spécifique Au Motif</b> <i>0.0 - 1.0</i> | Permet de modifier la forme du motif sélectionné. L’effet dépend du motif sélectionné. |
 | <b>Échelle</b> <i>0.0 - 1.0</i> | Met à l’échelle toute la forme. |
 | <b>Taille</b> <i>0.0 - 1.0</i> | Permet une mise à l’échelle non uniforme sur l’axe X ou Y. |
 | <b>Angle</b> <i>0.0 - 1.0</i> | Fait pivoter la forme entière. |
 | <b>Rotation 45°</b> <i>Faux/Vrai</i> | Permet une rotation à 45 degrés prédéfinis. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Répétition Non Carrée</b> <i>Faux/Vrai</i> | Lorsque l’Extension non carrée est activée, la forme est mosaïque sans être écrasée. |
 
 ## Exemples
@@ -62,7 +62,7 @@ Malgré sa simplicité, il s&#39;agit d&#39;un nœud très utile : c&#39;est la 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-ex.gif" />
+            <img src="shape.resources/shape-ex.gif" />
         </td>
     </tr>
 </table>

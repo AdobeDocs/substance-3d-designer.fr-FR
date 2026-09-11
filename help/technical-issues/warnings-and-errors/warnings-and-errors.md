@@ -37,7 +37,7 @@ En général, les avertissements et les erreurs sont affichés sur l&#39;éléme
 
 ### Explorateur
 
-Pour tout élément du panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
@@ -58,15 +58,15 @@ Ils suivent les règles suivantes :
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-### Vue Graphique
+### Vue du graphe
 
-Pour tout élément du panneau [Vue graphique](../../interface/the-graph-view/the-graph-view.md) qui affiche un avertissement, celui-ci s&#39;affiche avec un texte coloré dans le *coin inférieur gauche* de la fenêtre d&#39;affichage. Si l&#39;avertissement est déclenché par un nœud spécifique, ce nœud aura un badge d&#39;avertissement ![](../../assets/warning-badge.png). Laissez le curseur sur ce badge pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) qui présente un avertissement, celui-ci s&#39;affiche avec un texte coloré dans le *coin inférieur gauche* du viewport. Si l&#39;avertissement est déclenché par un nœud spécifique, ce nœud aura un badge d&#39;avertissement ![](../../assets/warning-badge.png). Laissez le curseur sur ce badge pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
-* Si un graphique source *instancié* dans un autre graphique hôte comporte un ou plusieurs avertissements, le [nœud d&#39;instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) de ce graphique source affichera un avertissement *unique* `The referenced data has some warnings`.
-* Les listes d&#39;avertissements sont *cumulatives*, dans la mesure où elles représentent la somme des avertissements du graphique *et* de tous les avertissements de ses nœuds enfants.
-* Tous les avertissements d’un graphique sont signalés sur l’élément représentant ce graphique dans le panneau Explorateur.
+* Si un graphe source *instancié* dans un autre graphe hôte comporte un ou plusieurs avertissements, l&#39;[instancier](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) de ce graphe source aura un avertissement *unique* `The referenced data has some warnings`.
+* Les listes d&#39;avertissements sont *cumulatives*, dans la mesure où elles représentent la somme des avertissements du graphe *et* de tous les avertissements de ses nœuds enfants.
+* Tous les avertissements d&#39;un graphe sont signalés sur l&#39;élément représentant ce graphe dans le panneau Explorateur.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -89,7 +89,7 @@ Ils suivent les règles suivantes :
 
 * Si l’élément est imbriqué sous un autre élément (par exemple, un en-tête de section), des avertissements lui sont appliqués s’il est réduit.
 * Les listes d&#39;avertissements sont *cumulatives*, dans la mesure où elles représentent la somme des avertissements d&#39;un élément *et* de tous les avertissements de ses enfants qui sont apparus.
-* Si le [graphique de fonction](../../function-graphs/function-graphs.md) appliqué à un [paramètre d&#39;entrée](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) comporte un ou plusieurs avertissements, l&#39;élément de paramètre aura un avertissement *unique* `The [x] parameter's function has some warnings`.
+* Si le [graphe de fonction](../../function-graphs/function-graphs.md) appliqué à un [paramètre d&#39;entrée](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) comporte un ou plusieurs avertissements, l&#39;élément de paramètre aura un avertissement *unique* `The [x] parameter's function has some warnings`.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -144,7 +144,7 @@ Voici une liste des avertissements et des erreurs que vous pouvez rencontrer dan
 </td>
 <td style="border: 0;" valign="top">
 
-### Avertissements dans les graphiques de fonctions
+### Avertissements dans les graphes de fonction
 
 * Aucun nœud de sortie défini
 * Le nœud de sortie actuel renvoie une valeur de type x
@@ -163,5 +163,5 @@ Voici une liste des avertissements et des erreurs que vous pouvez rencontrer dan
 * Fichier lié introuvable
 * Espace colorimétrique introuvable
 * Ressource de référence introuvable
-* Les tuiles UV sont attribuées plusieurs fois
-* Carreaux UV non valides
+* Les UV sont attribués plusieurs fois
+* UV non valides

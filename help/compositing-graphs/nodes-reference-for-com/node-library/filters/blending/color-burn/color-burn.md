@@ -56,4 +56,4 @@ Effectue un mélange Densité couleur + entre le premier plan et l’arrière-pl
 |  |  |
 |:---|:---|
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan. |
-| <b>Simulation de transparence</b> <i>Faux/Vrai</i> | Active/désactive la fusion des couches alpha Premier plan et Arrière-plan. Si cette option est définie sur False, la couche alpha du premier plan est ignorée. |
+| <b>Simulation de transparence</b> <i>Faux/Vrai</i> | Active/désactive la fusion des canaux Alphas de premier plan et d’arrière-plan. Si la valeur est False, le canal Alpha du premier plan est ignoré. |

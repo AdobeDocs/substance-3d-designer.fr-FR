@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Réflectance métallique PBR pour calculer les valeurs de réflectance métallique pour les workflows de matériaux physiques.
+description: Utilisez le nœud Réflectance métallique PBR pour calculer les valeurs de réflectance métallique pour les workflows de matériau physiques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Il s&#39;agit d&#39;un nœud d&#39;aide de paramètre prédéfini rapide pour renvoyer les couleurs de réflexion correctes pour quelques métaux **purs** prédéfinis. Il peut être utilisé dans la couleur de base pour le modèle métallique ou dans le canal Specular pour le modèle Specular/brillance.
+Il s&#39;agit d&#39;un nœud d&#39;assistant prédéfini rapide pour renvoyer les couleurs de reflet correctes pour quelques métaux **purs** prédéfinis. Elle peut être utilisée dans la couleur de base pour le modèle Métallique ou dans la couche de Specular pour le modèle Specular/Brillance.
 
 Ce nœud est utile lorsque vous souhaitez un point de départ pour un métal pur et vous permet d&#39;éviter le choix de couleurs dans un graphique.
 

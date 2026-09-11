@@ -33,7 +33,7 @@ Icône ![Quantifier la couleur](view-color-palette.resources/ViewColorPalette.pn
 
 ## Description
 
-Rassemble une palette de couleurs dans un carré ou un rectangle pour la visualiser plus facilement dans la vue Graphique ou 2D.\
+Rassemble une palette de couleurs dans un carré ou un rectangle pour la visualiser plus facilement dans la Vue du graphe ou la vue 2D.\
 Le packing vise à laisser le moins de créneaux vides possible.
 
 </td>
@@ -51,7 +51,7 @@ Ce nœud peut être utilisé pour visualiser les palettes produites par les nœu
 |  |  |
 |:---|:---|
 | <b>Palette</b> <i>Couleur</i> PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Il s’agit de la palette que le nœud compresse et restitue. |
-| <b>Quantité de couleur de la palette</b> <i>Nombre entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
+| <b>Quantité de couleur de la palette</b> <i>Entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
 
 <a name="outputs"></a>
 

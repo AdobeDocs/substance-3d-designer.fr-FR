@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/panorama-shape.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Forme de panorama pour créer des formes associées aux coordonnées du panorama en vue de la génération d’une texture d’environnement.
+description: Utilisez le nœud Forme de panorama pour créer des formes associées aux coordonnées du panorama en vue de la génération de la texture de l’environnement.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forme de panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 6%
@@ -24,16 +24,16 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape-1.png){width="128px"}
+![](panorama-shape.resources/panorama-shape-1.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Il s’agit d’un nœud utile pour générer des cartes panoramiques de type « Studio » procédurales. Permet de placer et de modifier des images de projecteur, ainsi que de définir leurs propriétés HDR. Il peut être enchaîné pour plusieurs formes.
+Il s’agit d’un nœud utile pour générer des cartes panoramiques procédurales de type « Studio ». Permet de placer et de modifier des images de projecteur, ainsi que de définir leurs propriétés HDR. Il peut être enchaîné pour plusieurs formes.
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Il s’agit d’un nœud utile pour générer des cartes panoramiques de type «
 
 |  |  |
 |:---|:---|
-| <b>Matrice de forme</b> | Déplace ou traduit le résultat. Modifiable en interagissant directement avec la zone de travail. |
+| <b>Matrice de forme</b> | Déplace ou translate le résultat. Modifiable en interagissant directement avec la zone de travail. |
 | <b>Forme</b> <i>carré, disque</i> | Définit le type de forme. |
 | <b>Couleur de forme</b> <i>(valeur de couleur)</i> | Définit la couleur de la forme. |
 | <b>Intensité de la forme</b> <i>0.0 - 100.0</i> | Définit l’intensité HDR de la forme. |

@@ -59,8 +59,8 @@ La Sphère lumineuse est très polyvalente et dispose d&#39;options qui lui perm
 | <b>Mode de position</b> <i>Distance avec l&#39;origine, position mondiale</i> | Choisissez entre deux modes de placement. La distance avec l&#39;origine est similaire aux coordonnées polaires, la sphère est définie par rapport au centre du panorama, la position universelle fonctionne comme les coordonnées 3D standard. |
 | <b>Coordonnées De Position</b> |  |
 | <b>Up Vector</b> <i>Z vers le haut, Y vers le haut</i> | En mode Position universelle uniquement, déterminez l&#39;orientation du repère. |
-| <b>Position mondiale Sphère</b> <i>-2.0 - 2.0</i> | Le mode Position universelle permet uniquement de définir la position de la sphère dans l’espace univers. |
-| <b>Position</b> | Uniquement en mode Distance avec l&#39;origine. Définit la position par rapport au centre. Peut être manipulé dans la vue 2D. |
+| <b>Position mondiale Sphère</b> <i>-2.0 - 2.0</i> | Uniquement avec le mode Position universelle, définit la position de la sphère dans l’espace monde. |
+| <b>Position</b> | Uniquement en mode Distance avec l&#39;origine. Définit la position par rapport au centre. Peut être manipulé en vue 2D. |
 | <b>Distance avec l&#39;origine</b> <i>0.0 - 20.0</i> | Uniquement en mode Distance avec l&#39;origine. Définit la distance par rapport à l’origine et affecte la taille visible de la sphère. |
 | <b>Mode colorimétrique de la forme</b> <i>RGB, Température (Kelvin), Entrée d&#39;image</i> | Choisissez la méthode à utiliser pour définir la couleur de la forme. Image Input permet d&#39;utiliser le deuxième emplacement d&#39;entrée. |
 | <b>Couleur</b> <i>(valeur de couleur)</i> | Uniquement avec le mode colorimétrique de la forme défini sur RGB. Choisit la couleur de la forme. |

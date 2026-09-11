@@ -48,7 +48,7 @@ Image à accentuer.
 
 ## Paramètres
 
-<b>Intensité</b> *Flotter*\
+<b>Intensité</b> *Flottant*\
 Définit l’intensité de l’effet de renforcement.
 
 <b>Alpha ponctuel</b> *Booléen* (disponible lorsqu&#39;une image couleur est connectée à l&#39;<b>entrée</b>)\

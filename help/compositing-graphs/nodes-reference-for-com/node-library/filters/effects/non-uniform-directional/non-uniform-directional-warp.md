@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Description
 
-Déformation dans une direction non uniforme est une version avancée de [Déformation directionnelle](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) qui permet de piloter l&#39;intensité et la direction de la déformation par une entrée d&#39;image. Il offre beaucoup plus de contrôle et peut créer une distorsion d&#39;image très utile et intéressante, dans le même esprit que le [flou de Pente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+La déformation à direction non uniforme est une version avancée de [Déformation directionnelle](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) qui permet de piloter l&#39;intensité et la direction de la déformation par une entrée d&#39;image. Il offre beaucoup plus de contrôle et peut créer une distorsion d&#39;image très utile et intéressante, dans le même esprit que le [flou de Pente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-Elle diffère de la [déformation multidirectionnelle](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) en ce qu&#39;elle permet de contrôler l&#39;angle via une entrée de courbe de transfert personnalisée, tandis que la déformation multidirectionnelle permet uniquement de contrôler la direction via des paramètres. Cela signifie que vous pouvez créer des effets avancés de traînée et de courbure qui ne seraient pas possibles autrement.
+Elle diffère de la [Déformation directionnelle multiple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) en ce qu&#39;elle permet de contrôler l&#39;angle via une entrée de courbe de transfert personnalisée, tandis que la Déformation directionnelle multiple permet uniquement de contrôler la direction via des paramètres. Cela signifie que vous pouvez créer des effets avancés de traînée et de courbure qui ne seraient pas possibles autrement.
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Elle diffère de la [déformation multidirectionnelle](../../../../../../composi
 |:---|:---|
 | <b>Intensité</b> <i>0.0 - 20.0</i> | Définit l’intensité de l’effet de déformation et la distance à laquelle les pixels doivent être sortis. |
 | <b>Angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’angle ou la direction d’application de l’effet de déformation. |
-| <b>Multiplicateur d&#39;entrée d&#39;angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’effet de la courbe d’entrée d’angle de déformation. La texture d’entrée Angle de déformation sera ensuite utilisée pour effectuer une interpolation de 0 à la valeur de ce paramètre. |
+| <b>Multiplicateur d&#39;entrée d&#39;angle de déformation</b> <i>0.0 - 1.0</i> | Définit l’effet de la Map d&#39;entrée Angle de déformation. La Map d&#39;entrée Angle de déformation sera ensuite utilisée pour interpoler de 0 à la valeur de ce paramètre. |
 | <b>Mode de piste</b> <i>Min, Max, Moyenne</i> | Définit la façon dont les traînées sont fusionnées. |
 | <b>Longueur de piste</b> <i>0.0 - 1.0</i> | Définit la longueur des pistes. |
 | <b>Atténuation de piste</b> <i>0.0 - 1.0</i> | Définit l’atténuation de chaque piste |

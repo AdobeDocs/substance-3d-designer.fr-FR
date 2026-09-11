@@ -50,7 +50,7 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 |  |  |
 |:---|:---|
 | <b>Palette</b> <i>Couleur</i> PRINCIPALE | Liste triée de couleurs RGB codées sous la forme d’une ligne de pixels. La palette peut contenir jusqu’à 256 couleurs.   Cette entrée est facultative. Si elles sont utilisées, les couleurs définies par le nœud sont ajoutées à cette palette.   La palette peut être visualisée avec le nœud [Afficher la palette de couleurs](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantité de couleur de la palette</b> <i>Nombre entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
+| <b>Quantité de couleur de la palette</b> <i>Entier</i> | Quantité de couleurs stockées dans la palette.   Si ce nombre ne correspond pas à la quantité réelle de couleurs dans l&#39;entrée d&#39;image « Palette », la visualisation peut être incomplète ou avoir plus d&#39;emplacements vides que nécessaire. |
 
 <a name="outputs"></a>
 
@@ -59,7 +59,7 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 |  |  |
 |:---|:---|
 | <b>Palette</b> <i>Couleur</i> | Palette mise à jour avec les couleurs spécifiées qui y sont ajoutées. |
-| <b>Quantité de couleur de la palette</b> <i>Nombre entier</i> | Quantité mise à jour de couleurs stockées dans la palette, avec la quantité spécifiée de couleurs ajoutées. |
+| <b>Quantité de couleur de la palette</b> <i>Entier</i> | Quantité mise à jour de couleurs stockées dans la palette, avec la quantité spécifiée de couleurs ajoutées. |
 
 <a name="parameters"></a>
 
@@ -67,7 +67,7 @@ Ce nœud peut être utilisé en combinaison avec les nœuds suivants : [Quantifi
 
 |  |  |
 |:---|:---|
-| <b>Quantité de couleur</b> *Nombre entier* | Quantité de couleurs à ajouter à la palette. |
+| <b>Quantité de couleur</b> *Entier* | Quantité de couleurs à ajouter à la palette. |
 | <b>Couleur #</b> *Flottant 3* *Autant de paramètres disponibles que la valeur « Quantité de couleur »* | Couleur à ajouter à la palette.   Les couleurs sont ajoutées à la palette dans le même ordre que cette liste numérotée. |
 
 ## Exemples

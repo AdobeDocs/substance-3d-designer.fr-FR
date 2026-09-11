@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Passage de vos shaders à OpenGL Core Profile
 
-Depuis la version 2018.2.0, la fenêtre d’affichage 3D utilise OpenGL Core Profile.\
+Depuis la version 2018.2.0, le viewport 3D utilise OpenGL Core Profile.\
 À cette occasion, nous avons mis à jour certains shaders que nous fournissons avec l&#39;application de GLSL version 120 à GLSL version 330.
 
 Vous pouvez mettre à jour vos propres shaders pour tirer parti des nouvelles fonctions GLSL disponibles, ou pour rendre votre code GLSL plus moderne. Veuillez noter que sur MacOS, les anciens nuanceurs peuvent ne plus fonctionner.\
@@ -33,9 +33,9 @@ Tout d&#39;abord, remplacez (ou ajoutez-le en haut de votre fichier si vous ne l
 
 ### Remplacez votre « attribut » et « variant » par « in » ou « out »
 
-Désormais, les variables `attribute` et `varying` sont explicitement déclarées en tant que `in` ou `out` en fonction de l’étape de nuanceur :
+Désormais, les variables `attribute` et `varying` sont explicitement déclarées en tant que `in` ou `out` en fonction de l’étape de shader :
 
-Dans l&#39;ombrage de sommets, `attribute` s des sommets sont déclarés comme `in`, tandis que `varying` s à passer à l&#39;ombrage de fragments sont déclarés comme `out`.\
+Dans le shader de vertex, `attribute`s des vertex sont déclarés comme `in`, tandis que `varying`s à passer au shader de fragment sont déclarés comme `out`.\
 Par exemple :
 
 ```
@@ -78,7 +78,7 @@ out vec2 fragmentUV;
 ```
 
 
-De même, dans l’ombrage de fragments, l’option variable apparaît. Vous devez également déclarer une variable de sortie qui remplacera gl\_FracColor (qui n’est plus intégrée) :
+De même dans le fragment shader, la variation devient. Vous devez également déclarer une variable de sortie qui remplacera gl\_FracColor (qui n’est plus intégrée) :
 
 ```
 ## version 120
@@ -130,7 +130,7 @@ outColor = vec4(myColor.rgb, 1.0);
 
 ### Utilisation de nouvelles fonctions de recherche de texture
 
-Avec la nouvelle version du langage ombrage, l’API de recherche de texture a été à la fois simplifiée et améliorée.
+Avec la nouvelle version du langage ombrage, l’API de recherche de texture de données a été simplifiée et améliorée.
 
 Les fonctions `texture1D()`, `texture2D()`, `texture3D()` et `textureCube()` deviennent toutes des surcharges de `texture()`.\
 De même, `texture2DLod()` devient `textureLod()`, `texture2DGrad()` devient `textureGrad()` et ainsi de suite.

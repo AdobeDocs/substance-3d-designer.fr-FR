@@ -74,9 +74,9 @@ Les valeurs positives de l&#39;entrée **Map rotation** entraînent une rotation
 | <b>Multiplicateur d&#39;angle de rotation</b> <i>Flottant</i> | Règle l&#39;intensité de l&#39;entrée de **Map rotation**. |
 | <b>Décalage de l&#39;angle de rotation</b> <i>Flottant</i> | Applique la rotation supplémentaire spécifiée. |
 | <b>Utiliser le mappage de Position de pivot</b> <i>Booléen</i> | Utilisez une *entrée bitmap* pour spécifier la position du pivot de rotation. La position **X/Y** est mappée aux canaux **R/G** de l&#39;entrée **Mappage de position**. |
-| <b>Position de pivot</b> <i>Float2</i> | Position du pivot autour duquel l&#39;image est pivotée. |
-| <b>Couleur d&#39;arrière-plan</b> <i>Float/Float4</i> | Couleur d&#39;arrière-plan pour afficher *à l&#39;extérieur* des limites de l&#39;image au cas où la mosaïque n&#39;est pas définie sur **Mosaïque de type H et V**. |
-| <b>Mode de filtrage</b> <i>Nombre entier</i> | Définit le traitement des résultats échantillonnés lors de l&#39;*interpolation* entre les pixels :<br><br>-*Nearest* : échantillonnera exactement la *même* valeur (plus rapide)<br>-*Bilinéaire* : appliquera un filtre bilinéaire sur le résultat pour un aspect *plus lisse* |
+| <b>Position de pivot</b> <i>Flottant 2</i> | Position du pivot autour duquel l&#39;image est pivotée. |
+| <b>Couleur d&#39;arrière-plan</b> <i>Flottant/Flottant 4</i> | Couleur d&#39;arrière-plan pour afficher *en dehors* des limites de l&#39;image au cas où la répétition n&#39;est pas définie sur **Répétition H et V**. |
+| <b>Mode de filtrage</b> <i>Entier</i> | Définit le traitement des résultats échantillonnés lors de l&#39;*interpolation* entre les pixels :<br><br>-*Nearest* : échantillonnera exactement la *même* valeur (plus rapide)<br>-*Bilinéaire* : appliquera un filtre bilinéaire sur le résultat pour un aspect *plus lisse* |
 
 ## Exemples
 

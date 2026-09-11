@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Lueur pour ajouter des effets de lueur aux textures afin de créer des états de matériau lumineux et émissifs.
+description: Utilisez le nœud Lueur pour ajouter des effets de lueur aux textures afin de créer des états de matériau lumineux et emissive.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow
 helpx_experience_level: ""
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 Applique un effet de type « Lueur externe », comme dans d’autres logiciels de retouche d’images courants. Ajoute essentiellement un contour en dégradé de fondu autour de l’entrée.
 
-Gardez à l’esprit qu’il ne s’agit pas d’une fonctionnalité prévue pour les images avec des couches Alpha, comme vous pourriez vous y attendre. Même la version en couleurs ne prévoit que des masques binaires, noir et blanc en entrée ; elle ne permet d’utiliser qu’une lueur colorée. Si vous recherchez une version qui fonctionne sur les images avec transparence, consultez [Shape Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
+Gardez à l’esprit qu’il ne s’agit pas d’une fonctionnalité idéale pour les images comportant des Canaux Alphas, comme vous pouvez vous y attendre. Même la version en couleurs n’attend que du binaire, du noir et des masques blancs en entrée ; elle ne permet d’utiliser qu’une lueur colorée. Si vous recherchez une version qui fonctionne sur les images avec transparence, consultez [Shape Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez Lueur pour les entrées Couleur ou Lueur en niveaux de gris pour les entrées Niveaux de gris.
 

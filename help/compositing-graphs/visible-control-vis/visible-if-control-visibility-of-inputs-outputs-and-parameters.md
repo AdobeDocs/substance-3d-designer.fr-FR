@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visible si les expressions
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Pour ce faire, vous pouvez entrer une *expression logique* dans la propriété <
 * nœud [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) d&#39;un graphe ;
 * nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) d&#39;un graphe.
 
-![Activation/désactivation de la visibilité des paramètres d&#39;entrée](../../assets/visible-if-example.gif "Activation/désactivation de la visibilité des paramètres d&#39;entrée"){width="512px"}
+![Activation/désactivation de la visibilité des paramètres d&#39;entrée](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Activation/désactivation de la visibilité des paramètres d&#39;entrée"){width="512px"}
 
 Si l&#39;expression logique est évaluée à `true`, le paramètre, l&#39;entrée ou la sortie s&#39;affiche dans tous les [instanciers](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) représentant le graphe actif. Sinon, il est *masqué*.
 
@@ -69,7 +69,7 @@ input["identifier"]
 
 Les champs « Visible si » acceptent les paramètres suivants :
 
-* Entrées booléennes, flottantes et entières.
+* Booléen, Flottant et Entier.
 * Valeurs `true` et `false` (sensibles à la casse, sans majuscules !)
 * `.x` : accéder au sous-paramètre
 * `&&`<b> </b> : et
@@ -82,9 +82,9 @@ Les champs « Visible si » acceptent les paramètres suivants :
 
 Une expression If Visible est utilisée comme condition pour une instruction « IF », ce qui signifie qu&#39;elle doit toujours produire `true` ou `false`.
 
-* Les valeurs booléennes peuvent être directement évaluées comme condition. Un simple bouton avec une valeur booléenne ne nécessite pas plus de ceci. Voir les exemples ci-dessous, premier cas ;
+* Les valeurs de Booléen peuvent être directement évaluées comme condition. Un simple bouton avec une valeur booléenne ne nécessite pas plus de ceci. Voir les exemples ci-dessous, premier cas ;
 * Les paramètres non booléens nécessitent généralement une opération de *comparaison*. Voir ci-dessus pour les opérateurs de comparaison, ci-dessous pour des exemples ;
-* Certaines valeurs non booléennes peuvent être *véridiques* ou *fausses*, ce qui signifie qu&#39;elles peuvent être évaluées comme `true` sur `false`, par exemple. une valeur entière de `0` est évaluée à false.
+* Certaines valeurs non booléennes peuvent être *véridiques* ou *fausses*, ce qui signifie qu&#39;elles peuvent être évaluées comme `true` sur `false`, par exemple. une valeur d&#39;entier de `0` est évaluée à false.
 
 ## Exemples
 
@@ -92,7 +92,7 @@ Une expression If Visible est utilisée comme condition pour une instruction « 
 | --- | --- | --- |
 | True | ` input["my_input"]   input.my_input `  ` input["my_input"] == true   input.my_input == true ` | my\_input est une valeur booléenne |
 | False | ` !input["my_input"]   !input.my_input `  ` input["my_input"] == false   input.my_input == false `  ` input["my_input"] != true   input.my_input != true ` | my\_input est une valeur booléenne |
-| Inférieur à | ` input["my_input"] < 3   input.my_input < 3 ` | my\_input est une valeur entière |
+| Inférieur à | ` input["my_input"] < 3   input.my_input < 3 ` | my\_input est une valeur entier |
 | Égal à | ` input["param1"] == 2   input.param1 == 2 ` | param1 est une valeur flottante ou entier |
 | Inférieur à | ` input["my_input"].y < 3   input.my_input.y < 3 ` | my\_input est une valeur float ou entier avec un ou plusieurs composants - par exemple float2(x, y), entier 3(x, y, z) |
 | Ou | ` input["param1"] \|\| input["param2"]   input.param1 \|\| input.param2 ` | param1 et param2 sont des valeurs booléennes |

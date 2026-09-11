@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Ajout d’actions à la barre d’outils de l’Explorateur
 
-Les plug-ins peuvent ajouter des *actions personnalisées* à la barre d&#39;outils de l&#39;<b>Explorateur</b> à l&#39;aide des rappels et des méthodes disponibles dans la classe <b>SDUIMgr</b>.
+Les plug-ins peuvent ajouter des *actions personnalisées* à la barre d&#39;outils <b>Explorateur</b> à l&#39;aide des rappels et des méthodes disponibles dans la classe <b>SDUIMgr</b>.
 
-## Exemple de plug-in Actions de la barre d’outils de l’Explorateur
+## Exemple de plug-in Actions de barre d’outils Explorateur
 
 ```
 import sd 

@@ -66,7 +66,7 @@ Mappe l’image couleur d’entrée à l’aide des coordonnées fournies dans l
 
 |  |  |
 |:---|:---|
-| <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur d’arrière-plan de l’image de sortie.<br>L&#39;arrière-plan est visible dans les zones de l&#39;image où les UV ne sont pas définis (c&#39;est-à-dire, la valeur est (0, 0, 0, 0)). |
+| <b>Couleur d&#39;arrière-plan</b> <i>Flottant4</i> | Couleur d’arrière-plan de l’image de sortie.<br>L&#39;arrière-plan est visible dans les zones de l&#39;image où les UV ne sont pas définis (c&#39;est-à-dire, la valeur est (0, 0, 0, 0)). |
 
 ## Exemples
 
@@ -107,4 +107,4 @@ Mappe l’image couleur d’entrée à l’aide des coordonnées fournies dans l
 </tr>
 </table>
 
-![Nœud dans le graphique](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nœud dans le graphique")
+![Nœud dans le graphe](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nœud dans le graphe")

@@ -47,7 +47,7 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 
 >[!IMPORTANT]
 >
-> Les connecteurs <b>Liste de points</b> et <b>Numéro de point</b> ne sont *pas compatibles* avec les connecteurs <b>Cordon spline</b>, <b>Données spline</b> et <b>Quantité spline</b>, car ils reposent sur des données différentes.
+> Les connecteurs de <b>liste de points</b> et de <b>numéro de point</b> ne sont *pas compatibles* avec les connecteurs de <b>corde de spline</b>, de <b>données de spline</b> et de <b>quantité de spline</b>, car ils reposent sur des données différentes.
 
 <a name="inputs"></a>
 
@@ -57,7 +57,7 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 |:---|:---|
 | <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des points sous forme d’image en niveaux de gris. |
 | <b>Entrée de liste de points</b> <i>Couleur</i> | Liste des points d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> * partie Entier : Smoothness ;<br> * partie fractionnaire : Thickness. |
-| <b>Entrée de numéro de point</b> <i>Nombre entier</i> | Nombre de points d’entrée. |
+| <b>Entrée de numéro de point</b> <i>Entier</i> | Nombre de points d’entrée. |
 
 <a name="outputs"></a>
 
@@ -67,7 +67,7 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 |:---|:---|
 | <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des points sous forme d’image en niveaux de gris. |
 | <b>Liste de points</b> <i>Couleur</i> | Liste de sortie des points codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> * partie Entier : Smoothness ;<br> * partie fractionnaire : Thickness. |
-| <b>Numéro De Point</b> <i>Nombre entier</i> | Nombre de points en sortie. |
+| <b>Numéro De Point</b> <i>Entier</i> | Nombre de points en sortie. |
 
 <a name="parameters"></a>
 
@@ -75,17 +75,17 @@ Si une liste de points existante est fournie aux entrées <b>Point</b>, la liste
 
 |  |  |
 |:---|:---|
-| <b>Numéro De Point</b> <i>Nombre entier</i> | Nombre de points générés. |
-| <b>Ajustement du Smoothness global</b> <i>Flotter</i> | Applique un décalage uniforme à la valeur par smoothness de tous les points.<br>La valeur de smoothness résultante est répartie sur la plage [0;1]. |
+| <b>Numéro De Point</b> <i>Entier</i> | Nombre de points générés. |
+| <b>Ajustement du Smoothness global</b> <i>Flottant</i> | Applique un décalage uniforme à la valeur par smoothness de tous les points.<br>La valeur de smoothness résultante est répartie sur la plage [0;1]. |
 | <b>Propriétés des points</b> |  |
-| <b>p# Propriétés</b> <i>Float3</i> | Définit les propriétés du point p#.<br>*- Height :* Ajuste l&#39;height du point où une valeur inférieure signifie un emplacement plus bas ou plus profond ;<br>*- Smoothness :* Décale le début du lissage de la spline à p#, où une valeur de 0 entraîne une trajectoire dure et 1 une trajectoire entièrement lisse ;<br>*- Thickness :* Ajuste le thickness de la spline à p#. Le thickness est utilisé par des nœuds Spline spécifiques. |
+| <b>p# Propriétés</b> <i>Flottant3</i> | Définit les propriétés du point p#.<br>*- Height :* Ajuste l&#39;height du point où une valeur inférieure signifie un emplacement plus bas ou plus profond ;<br>*- Smoothness :* Décale le début du lissage de la spline à p#, où une valeur de 0 entraîne une trajectoire dure et 1 une trajectoire entièrement lisse ;<br>*- Thickness :* Ajuste le thickness de la spline à p#. Le thickness est utilisé par des nœuds Spline spécifiques. |
 | <b>Coordonnées Des Points</b> |  |
-| <b>p#</b> <i>Float2</i> | Définit la position du point p# dans l’espace de texture. |
+| <b>p#</b> <i>Flottant 2</i> | Définit la position du point p# dans l’espace de texture. |
 | <b>Aperçu</b> |  |
 | <b>Afficher les libellés</b> <i>Booléen</i> | Pour chaque point, affiche le nom du point en regard de celui-ci dans la sortie « Aperçu ». |
-| <b>Taille de l&#39;étiquette</b> <i>Float</i> (disponible lorsque « Afficher les libellés » est défini sur « Vrai ») | Taille du libellé de chaque point dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture. |
+| <b>Taille de l&#39;étiquette</b> <i>Flottant</i> (disponible lorsque &#39;Show Labels&#39; est défini sur &#39;True&#39;) | Taille du libellé de chaque point dans l’espace de texture, où 0,1 correspond à un dixième de la largeur de la texture. |
 | <b>Afficher les points</b> <i>Booléen</i> | Affiche les points dans la sortie Aperçu. |
-| <b>Taille Des Points</b> <i>Float</i> (disponible lorsque « Afficher les points » est défini sur « Vrai ») | Rayon des points dans l’espace de la texture, où 0,1 correspond à un dixième de la largeur de la texture. |
+| <b>Taille Des Points</b> <i>Flottant</i> (disponible lorsque &#39;Show Points&#39; est défini sur &#39;True&#39;) | Rayon des points dans l&#39;espace de texture, où 0,1 correspond à un dixième de la largeur de la texture. |
 
 ## Exemples
 

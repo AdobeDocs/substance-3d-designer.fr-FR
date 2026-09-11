@@ -30,7 +30,7 @@ Le fichier **Substance 3D (SBS)** est chargé par une version de Substance 3D De
 
 **![(coche)](../../assets/check.svg) Étapes recommandées**
 
-Le format de fichier Substance 3D (SBS) évolue au même rythme que Substance 3D Designer. Le plus souvent, une nouvelle version du logiciel devra *mettre à jour vos fichiers* afin qu&#39;ils puissent prendre en charge les dernières fonctionnalités.
+Le format de fichier Substance 3D (SBS) évolue à mesure que Substance 3D Designer évolue. Le plus souvent, une nouvelle version du logiciel devra *mettre à jour vos fichiers* afin qu&#39;ils puissent prendre en charge les dernières fonctionnalités.
 
 Vous *êtes invité* à effectuer cette mise à jour lors du *chargement du fichier pour la première fois* dans une nouvelle version.
 
@@ -52,19 +52,19 @@ Vérifiez d’abord que vous utilisez la dernière version de Substance 3D Desig
 > 
 > Vous pouvez également *faire une copie* de votre fichier *avant* de le charger dans une nouvelle version de Substance 3D Designer, afin de toujours avoir un fichier vers lequel revenir si vous devez utiliser une version précédente du logiciel.
 
-## Blocage lors de la création ou du chargement d’un projet
+## Crash lors de la création ou du chargement d’un projet
 
 <b> ![(error)](../../assets/error.svg) Problème</b>
 
-Un crash lors de la création ou du chargement d&#39;un projet est souvent causé par une erreur lors de l&#39;initialisation de la [Vue 3D](../../interface/3d-view/3d-view.md), qui se produit lors de la configuration de l&#39;espace de travail.
+Un crash lors de la création ou du chargement d&#39;un projet est souvent causé par une erreur lors de l&#39;initialisation de [vue 3D](../../interface/3d-view/3d-view.md), qui se produit lors de la configuration de l&#39;espace de travail.
 
 Si le système est un ordinateur portable, une application tierce peut appliquer un *plan de gestion de l&#39;alimentation* qui empêche la vue 3D d&#39;utiliser le GPU du système. Cela peut entraîner un crash si aucun autre périphérique GPU ne peut effectuer la tâche à sa place.
 
-Un crash peut également se produire lorsque la configuration ou la mise à l&#39;échelle *d&#39;affichage* a été modifiée entre les sessions, de sorte que l&#39;image de rendu de la vue 3D est créée à des coordonnées non valides.
+Un crash peut également se produire lorsque la configuration ou la mise à l&#39;échelle *d&#39;affichage* a été modifiée entre les sessions, de sorte que le cadre de rendu vue 3D est créé à des coordonnées non valides.
 
 <b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
 
-Compte tenu des multiples causes possibles de ce blocage, nous vous suggérons de suivre les étapes de dépannage suivantes dans l’ordre :
+Compte tenu des multiples causes possibles de ce crash, nous vous suggérons de suivre les étapes de dépannage suivantes dans l’ordre :
 
 Mettre à jour les pilotes graphiques
 
@@ -74,7 +74,7 @@ Forcer les meilleures performances
 
 Recherchez tout logiciel qui gère la *formule d&#39;alimentation* de votre système (par exemple, ASUS Armory Crate), en particulier lorsque le système est un ordinateur portable.
 
-Certaines applications de gestion de l’alimentation peuvent limiter l’accès d’autres applications au GPU du système ou nuire aux performances du GPU, ce qui peut entraîner des blocages. Si une application de gestion de l&#39;alimentation existe et est active, passez au mode qui offre les meilleures performances.
+Certaines applications de gestion de l’alimentation peuvent limiter l’accès d’autres applications au GPU du système ou nuire aux performances du GPU, ce qui peut entraîner des crashs. Si une application de gestion de l&#39;alimentation existe et est active, passez au mode qui offre les meilleures performances.
 
 Forcer l’utilisation d’un GPU discret
 
@@ -84,7 +84,7 @@ Dans la plupart des cas, cela est réalisé dans une application dédiée qui co
 
 Réinitialiser l’interface utilisateur enregistrée dans le registre
 
-Si le blocage est dû à une modification de la configuration d’affichage ou de la mise à l’échelle, vous pouvez tenter de supprimer les entrées de registre de Designer pour réinitialiser entièrement l’interface utilisateur, entre autres paramètres.
+Si le crash est dû à une modification de la configuration d’affichage ou de la mise à l’échelle, vous pouvez tenter de supprimer les entrées de registre de Designer pour réinitialiser entièrement l’interface utilisateur, entre autres paramètres.
 
 La procédure permettant d’effectuer cette réinitialisation par système d’exploitation est décrite ci-dessous :
 
@@ -131,13 +131,13 @@ Démarrez Designer, mais ne *créez ou n’ouvrez aucun projet*
 
 Dans la barre supérieure, ouvrez le menu <b>Windows</b> et sélectionnez l&#39;option <b>Nouvelle vue 3D</b>
 
-* Vérifiez que la <b>vue 3D</b> est correctement initialisée et essayez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
+* Vérifiez que la <b>vue 3D</b> est correctement initialisée et testez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
 
-Vérifiez que la <b>vue 3D</b> est correctement initialisée et essayez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
+Vérifiez que la <b>vue 3D</b> est correctement initialisée et testez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
 
-* Création ou ouverture d’une matière
+* Création ou ouverture d’un matériau
 
-Création ou ouverture d’une matière
+Création ou ouverture d’un matériau
 
 +++
 
@@ -184,12 +184,12 @@ Démarrez Designer, mais ne *créez ou n’ouvrez aucun projet*
 
 Dans la barre supérieure, ouvrez le menu <b>Windows</b> et sélectionnez l&#39;option <b>Nouvelle vue 3D</b>
 
-* Vérifiez que la <b>vue 3D</b> est correctement initialisée et essayez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
+* Vérifiez que la <b>vue 3D</b> est correctement initialisée et testez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
 
-Vérifiez que la <b>vue 3D</b> est correctement initialisée et essayez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
+Vérifiez que la <b>vue 3D</b> est correctement initialisée et testez différents maillages d&#39;aperçu dans le menu <b>Scène</b> de la barre supérieure du panneau
 
-* Création ou ouverture d’une matière
+* Création ou ouverture d’un matériau
 
-Création ou ouverture d’une matière
+Création ou ouverture d’un matériau
 
 +++

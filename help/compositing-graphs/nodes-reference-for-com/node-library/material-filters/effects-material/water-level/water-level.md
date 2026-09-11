@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Description
 
-Effet tout-en-un qui ajoute un niveau d’eau à une entrée de matière complète. Pour que l’effet fonctionne, la matière d’entrée doit avoir une image de hauteur correcte et de haute qualité. Le résultat est PBR-correct.
+Effet tout-en-un qui ajoute un niveau d’eau à une entrée de matériau complète. Pour que l’effet fonctionne, le matériau d’entrée doit disposer d’une carte de hauteur de qualité supérieure. Le résultat est PBR-correct.
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Effet tout-en-un qui ajoute un niveau d’eau à une entrée de matière complè
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Niveau d&#39;eau</b> <i>0.0 - 1.0</i> | Contrôle principal pour élever ou abaisser le niveau de l&#39;eau. |
 | <b>Obscurcissement de l&#39;eau</b> <i>0.0 - 1.0</i> | Définit la « transparence » générale de l’eau. |
 | <b>Humidité des bords</b> <i>0.0 - 1.0</i> | Détermine l’aspect humide que doivent présenter les bords de l’eau. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -24,9 +24,9 @@ ht-degree: 15%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -51,14 +51,14 @@ Génère un effet d’étoile simple, avec des paramètres de réglage disponibl
 | <b>Taille Min</b> <i>0.0 - 1.0</i> | Définit la taille minimale de variation. |
 | <b>Taille max</b> <i>0.0 - 2.0</i> | Définit la taille maximale et contrôle l’échelle globale si aucune variation n’est utilisée. |
 | <b>Variation de taille</b> <i>0.0 - 1.0</i> | Introduit la mise à l&#39;échelle aléatoire par branche. |
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/starburst-ex.gif" />
+            <img src="starburst.resources/starburst-ex.gif" />
         </td>
     </tr>
 </table>

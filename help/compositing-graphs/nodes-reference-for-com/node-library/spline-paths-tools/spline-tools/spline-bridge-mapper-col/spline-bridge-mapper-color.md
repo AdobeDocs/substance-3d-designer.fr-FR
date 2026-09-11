@@ -57,7 +57,7 @@ Etablit une correspondance entre une image couleur et une liste de splines d&#39
 |:---|:---|
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br>- Signe : la spline est fermée (négative) ou ouverte (positive);<br>- Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée. |
 | <b>Color Map</b> <i>Couleur</i> | Image couleur d&#39;entrée à mapper sur les splines d&#39;entrée. |
 
 <a name="outputs"></a>

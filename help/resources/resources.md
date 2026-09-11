@@ -36,7 +36,7 @@ Les ressources correspondent au contenu des packs Substance 3D Designer. Ils son
 Les ressources Graphe sont les principales ressources créées dans Designer. Chacun dispose de ses propres zones dédiées dans la documentation. Il en existe trois principaux types :
 
 * [Graphes Substance](../compositing-graphs/substance-compositing-graphs.md)
-* [Graphes fonctionnels](../function-graphs/function-graphs.md)
+* [Graphes de fonction](../function-graphs/function-graphs.md)
 
 </td>
 </tr>

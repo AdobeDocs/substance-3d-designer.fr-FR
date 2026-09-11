@@ -62,8 +62,8 @@ Déformez les tracés d&#39;entrée en fonction de l&#39;<b>Entrée de dégradé
 
 |  |  |
 |:---|:---|
-| <b>Intensité</b> <i>Flotter</i> | Le paramètre <b>Intensité</b> définit l&#39;intensité de la déformation. |
-| <b>Nombre d’étapes</b> <i>Nombre entier</i> | Utilisez une valeur plus élevée pour déformer les tracés d’entrée par petits incréments multiples.<br>Cela peut empêcher le tracé de se croiser, en particulier lors de l&#39;utilisation de valeurs <b>Intensité</b> élevées. |
+| <b>Intensité</b> <i>Flottant</i> | Le paramètre <b>Intensité</b> définit l&#39;intensité de la déformation. |
+| <b>Nombre d’étapes</b> <i>Entier</i> | Utilisez une valeur plus élevée pour déformer les tracés d’entrée par petits incréments multiples.<br>Cela peut empêcher le tracé de se croiser, en particulier lors de l&#39;utilisation de valeurs <b>Intensité</b> élevées. |
 
 ## Exemples
 

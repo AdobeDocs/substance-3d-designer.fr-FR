@@ -45,7 +45,7 @@ Rapproche la plage d’entrée d’un nombre prédéfini de valeurs. Introduit e
 
 |  |  |
 |:---|:---|
-| <b>Quantifier le canal rouge</b> *Nombre entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche rouge par. |
-| <b>Quantifier le canal vert</b> *Nombre entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche verte par. |
-| <b>Quantifier le canal bleu</b> *Nombre entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche bleue. |
-| <b>Quantifier le canal d&#39;Alpha</b> *Nombre entier* | Définit le nombre d’étapes à suivre pour obtenir une approximation du Canal Alpha. |
+| <b>Quantifier le canal rouge</b> *Entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche rouge par. |
+| <b>Quantifier le canal vert</b> *Entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche verte par. |
+| <b>Quantifier le canal bleu</b> *Entier* | Définit le nombre d’étapes pour obtenir une approximation de la couche bleue. |
+| <b>Quantifier le Canal Alpha</b> *Entier* | Définit le nombre d’étapes à suivre pour obtenir une approximation du Canal Alpha. |

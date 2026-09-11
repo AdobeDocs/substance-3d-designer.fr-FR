@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
-description: Utilisez les nœuds de la fonction Couleur pour effectuer des conversions de couleurs et des opérations de mappage de tonalité dans les graphiques de fonctions.
+description: Utilisez les noeuds de fonction de couleur pour effectuer des conversions de couleurs et des opérations de mappage de tonalité dans les graphes de fonction.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Color
 helpx_experience_level: ""
@@ -34,7 +34,7 @@ HCL vers RGB
 
 HSI vers RGB
 
-Décalage TSL
+décalage TSL
 
 TSL vers RGB
 
@@ -63,17 +63,17 @@ teinte RGB hexagonale
 
 moyenne de luminosité RGB
 
-bi-hexcone à luminosité RGB
+luminosité RGB bi-hexcone
 
-hexcone de luminosité RGB
+hexcone RGB luminosité
 
-Luminosité RGB luma Rec. 601
+luminosité RGB luma Rec. 601
 
-Luminosité RGB luma Rec. 709
+luminosité RGB luma Rec. 709
 
 HSI de saturation RGB
 
-TSL à saturation RGB
+TSL de saturation RGB
 
 Saturation RGB HSV
 
@@ -94,7 +94,7 @@ sRVB vers linéaire
 
 Température en sRVB
 
-Mappeur de tonalité ACES
+mappeur de tonalité ACE
 
 Mappeur de tonalité AgX
 

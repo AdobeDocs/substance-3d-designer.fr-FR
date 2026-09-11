@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
-description: Utilisez les nuanceurs GLSLFX dans la vue 3D de Substance 3D Designer pour personnaliser le rendu des matériaux et les effets de prévisualisation.
+description: Utilisez des nuanceurs GLSLFX dans la vue 3D de Substance 3D Designer pour personnaliser le rendu des matériaux et les effets de prévisualisation.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D View > GLSLFX Shaders
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Shaders GLSLFX
+title: GLSLFX Shaders
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
@@ -18,14 +18,14 @@ ht-degree: 1%
 ---
 
 
-# Shaders GLSLFX
+# GLSLFX Shaders
 
 Les fichiers GLSLFX font le pont entre l’application et les fichiers glsl shader.\
 Il permet d&#39;utiliser n&#39;importe quel shader glsl sans avoir à modifier le code.
 
 ## Format de fichier
 
-Le format GLSLFX est un fichier XML. Les commentaires sont pris en charge.
+Le format de fichier GLSLFX est un fichier XML. Les commentaires sont pris en charge.
 
 ### En-tête et nœud racine
 
@@ -48,7 +48,7 @@ L&#39;élément de nœud racine XML est nommé <b>glslfx</b>.
 
 #### Technique
 
-Elément XML décrivant une technique. Une technique est une variante du courant FX. Un fichier GLSLFX peut contenir plusieurs techniques, mais au moins une doit être définie.
+Elément XML décrivant une technique. Une technique est une variante du courant FX. Un GLSLFX peut contenir plusieurs techniques, mais au moins une technique doit être définie.
 
 Le rendu de la géométrie s’effectue selon l’une des techniques définies par l’application.
 
@@ -88,29 +88,29 @@ Les éléments définis dans une passe de rendu remplacent les éléments défin
 
 #### Shaders
 
-Définissez les fichiers de nuanceur GLSL pour chaque type.
+Définissez les fichiers de shader GLSL pour chaque type.
 
 Définition d’élément XML :
 
 +++Définition d’élément XML
-Nuanceur <b>Name:</b>
+<b>Nom :</b> shader
 
 <b>Attributs :</b>
 
-* type : type d&#39;ombrage GLSL ;
+* type : type de shader GLSL ;
 
-* nom du fichier : chemin du fichier de nuanceur glsl. Peut être absolu ou relatif au fichier GLSLFX ;
+* nom du fichier : chemin du fichier glsl shader. Peut être absolu ou relatif par rapport au fichier GLSLFX ;
 
 * primitiveType : méthode de rendu de la primitive.
 
 
 | Valeur &#39;type&#39; | Description |
 | --- | --- |
-| sommet | Ombrage de sommet |
-| géométrie | Ombrage de géométrie |
-| test\_control | Ombrage de contrôle de la facettisation |
-| tess\_eval | Ombrage Évaluation de la facettisation |
-| fragment | Nuanceur de fragments |
+| vertex | shader vertex |
+| géométrie | Shader de géométrie |
+| test\_control | shader de contrôle de tessellation |
+| tess\_eval | shader d&#39;évaluation des tessellations |
+| fragment | Shader de fragment |
 
 
 
@@ -118,7 +118,7 @@ Nuanceur <b>Name:</b>
 | --- | --- |
 | point | Rendu sous forme de points |
 | boucle de ligne | Rendu en tant que boucle de ligne |
-| patch[1..N] | Rendu sous forme de correctifs avec [1..N] sommets |
+| patch[1..N] | Rendu sous forme de correctifs avec [1..N] vertex |
 
 
 +++
@@ -133,10 +133,10 @@ Propriété <b>Name:</b>
 <b>Attributs :</b>
 
 * name : Le nom de la propriété à définir. Le nom est basé sur la fonction OpenGL ou le nom glEnum :
-  * Syntaxe des énumérations : sans le préfixe « GL\_ », en minuscules. Exemples : glEnable(GL\_BLEND\_ENABLE) => «  » », glDisable(GL\_CULL\_FACE) => «  » »
+  * Syntaxe des énumérations : sans le préfixe « GL\_ », en minuscules. Exemples : glEnable(GL\_FUSION\_ENABLE) => «  » », glDisable(GL\_CULL\_FACE) => «  » »
   * Syntaxe des fonctions : sans le préfixe « gl », en minuscules et avec tous les mots séparés par le caractère « \_ ». Exemple : glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => «  »
 
-* Syntaxe des énumérations : sans le préfixe « GL\_ », en minuscules. Exemples : glEnable(GL\_BLEND\_ENABLE) => «  » », glDisable(GL\_CULL\_FACE) => «  » »
+* Syntaxe des énumérations : sans le préfixe « GL\_ », en minuscules. Exemples : glEnable(GL\_FUSION\_ENABLE) => «  » », glDisable(GL\_CULL\_FACE) => «  » »
 
 * Syntaxe des fonctions : sans le préfixe « gl », en minuscules et avec tous les mots séparés par le caractère « \_ ». Exemple : glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => «  »
 
@@ -168,10 +168,10 @@ Propriété <b>Name:</b>
 |  | one\_minus\_src1\_color | pour l’énumération OpenGL GL\_ONE\_MINUS\_SRC1\_COLOR |
 |  | src1\_alpha | pour OpenGL enum GL\_SRC1\_ALPHA |
 |  | one\_minus\_src1\_alpha | pour l’énumération OpenGL GL\_ONE\_MINUS\_SRC1\_ALPHA |
-| cull\_face\_enabled | booléen | Activation/désactivation de l’abattage du visage |
+| cull\_face\_enabled | booléen | Activation/désactivation de l’abattage de faces |
 |  | vrai |  |
 |  | faux |  |
-| cull\_face\_mode | chaîne | Définir le mode d&#39;abattage du visage |
+| cull\_face\_mode | chaîne | Définir le mode d&#39;abattage de la face |
 |  | avant | pour OpenGL enum GL\_FRONT |
 |  | envers | pour OpenGL enum GL\_BACK |
 |  | avant\_et\_arrière | pour l’énumération OpenGL GL\_FRONT\_AND\_BACK |
@@ -234,7 +234,7 @@ format : format interne de la cible de rendu.
 
 >[!NOTE]
 >
-> Les cibles de rendu couleur sont interdites dans une passe de rendu à l’écran, mais une cible de rendu de profondeur peut être partagée avec n’importe quelle passe de rendu (mais elle risque de rompre le rendu lors du mélange de plusieurs matières dans la scène).
+> Les cibles de rendu couleur sont interdites dans une passe de rendu « à l’écran », mais une cible de rendu de profondeur peut être partagée avec n’importe quelle passe de rendu (mais elle risque de rompre le rendu lors du mélange de plusieurs matériaux dans la scène).
 
 <b>À propos des formats</b>
 
@@ -271,9 +271,9 @@ Voir la section <b>Échantillonneurs</b> pour plus de détails sur leur définit
 
 +++
 
-## Format des sommets d’entrée
+## Format du Vertex d’entrée
 
-Cela permet de définir la sémantique de chaque attribut défini dans l&#39;ombrage de sommet.
+Cela permet de définir la sémantique de chaque attribut défini dans le shader vertex.
 
 <b>Définition d&#39;élément XML :</b>
 
@@ -281,16 +281,16 @@ Nom : &#39;vertexformat&#39;
 
 Attributs :
 
-* &#39;name&#39; : Le nom de l&#39;attribut tel que défini dans l&#39;ombrage de sommet.
+* &#39;name&#39; : Le nom de l&#39;attribut tel que défini dans le shader du vertex.
 * &#39;sémantique&#39; : Sémantique de l&#39;attribut.
 
 | Valeur sémantique | Description |
 | --- | --- |
-| position | Position du sommet (float3) |
+| position | Position du vertex (float3) |
 | normal | Vertex normal (float3) |
-| texcoord[0..N] | Tampon de coordonnées de texture de sommet N (float2) |
-| tangente[0..N] | Tampon de tangente de sommet N (float4) |
-| binormal[0..N] | Tampon binormal de sommet N (float4) |
+| texcoord[0..N] | Vertex texture coordonnée buffer N (float2) |
+| tangente[0..N] | Vertex tangente buffer N (float4) |
+| binormal[0..N] | Vertex binormal buffer N (float4) |
 
 Exemple :
 
@@ -324,7 +324,7 @@ Exemple :
 ## Échantillonnages
 
 Cela permet de définir l&#39;utilisation de chaque échantillonneur.\
-Il est utilisé par l&#39;application pour déterminer la texture à définir dans les échantillonneurs spécifiés.
+Il est utilisé par l&#39;application pour savoir quelle texture régler dans les échantillonneurs spécifiés.
 
 <b>Définition d&#39;élément XML :</b>
 
@@ -333,34 +333,34 @@ Nom : &#39;sampler&#39;
 Attributs :
 
 * &#39;name&#39; : Le nom de la variable d&#39;échantillonnage dans le fichier shader.
-* &#39;usage&#39; : Utilisation de l&#39;échantillonneur. Elle correspond à l’utilisation spécifiée dans le nœud Sortie du graphique.
+* &#39;usage&#39; : Utilisation de l&#39;échantillonneur. Elle correspond à l’utilisation spécifiée dans le nœud Sortie du graphe.
 
 | Valeur &#39;usage&#39; | Description |
 | --- | --- |
-| diffuse | Diffuse map |
-| opacité | Mappage d’opacité |
-| émissif | Carte émissive |
-| occlusion ambiante | Carte d’occlusion ambiante |
+| diffuse | Diffuse |
+| opacité | Map opacity |
+| émissif | mappage Emissive |
+| occlusion ambiante | table des Ambients occlusion |
 | ambiant | Carte d&#39;ambiance |
 | masque | Mappage de masque |
-| detailnormal | Détailler la carte de normales |
+| detailnormal | Map normal des détails |
 | normal | Map normal |
 | choc | Carte de relief |
-| hauteur | table des Heights |
+| hauteur | Map height |
 | displacement | plan de displacement |
 | niveau spéculatif | plan de specular level |
 | spécularcolor | table des couleurs specular |
 | spéculaire | carte du specular |
-| brillance | Carte de brillance |
-| rugosité | Courbe de transfert de rugosité |
+| brillance | feuille de brillance |
+| rugosité | feuille de rugosité |
 | niveau d&#39;anisotropie | Carte des niveaux d&#39;anisothropie |
 | anisotropyangle | Carte d&#39;angle d&#39;anisothropie |
-| transmissif | Carte de transmission |
+| transmissive | mappage transmissive |
 | réflexion | Carte de réflexion |
 | réfraction | Carte de réfraction |
-| environnement | Mappage d&#39;environnement (mappage de cube) |
+| environnement | Map d&#39;environnement (mappage de cube) |
 | panorama | Carte de panorama (carte de latitude/longitude) |
-| masque bleu | Texture de tramage 256 x 256 |
+| masque bleu | Texture dithering 256 x 256 |
 
 * Plusieurs utilisations sont prises en charge.
   * Exemple :
@@ -374,7 +374,7 @@ Attributs :
 ```
 
 
-&#39;isHidden&#39; : Booléen qui indique si l&#39;échantillonneur doit apparaître dans l&#39;interface utilisateur graphique
+&#39;isHidden&#39; : Booléen qui indique si l&#39;échantillonneur doit apparaître dans l&#39;interface graphique
 
 * Exemple :
 
@@ -391,7 +391,7 @@ Mode d’habillage :
 
 <table data-preserve-html="true"><tbody><tr><th>Nom</th><th>Valeur</th></tr><tr><td rowspan="4">texture_wrap_s, texture_wrap_t, texture_wrap_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">répéter<br/><br/></td></tr></tbody></table>
 
-Filtre de texture
+Filtre texture
 
 <table data-preserve-html="true"><tbody><tr><th>Nom</th><th>Valeur</th></tr><tr><td rowspan="6">texture_min_filter, texture_mag_filter<br/><br/><br/></td><td>le plus proche</td></tr><tr><td>linéaire</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
 
@@ -444,7 +444,7 @@ Attributs :
 | --- | --- |
 | monde | Matrice mondiale (float16) |
 | worldinversetranspose | Matrice de transposition inverse universelle (float16) |
-| worldviewprojection | Matrice de projection Vue du monde (float16) |
+| worldviewprojection | Matrice de Projection Vue du monde (float16) |
 | viewinverse | Matrice inverse mondiale (float16) |
 | vision du monde | Matrice Vue du monde (float16) |
 | modelview | Matrice de la vue du modèle (float16) |
@@ -452,20 +452,20 @@ Attributs :
 | ambiant | Couleur ambiante de la scène (float3) |
 | lightposition[0..N] | Position de la nième lumière de la scène (float3) |
 | lightcolor[0..N] | Couleur de la nième lumière de la scène (float3) |
-| lightintensity[0..N] | Intensité de la N ième lumière de la scène (float) |
+| lightintensity[0..N] | Intensité de la nième lumière de la scène (float) |
 | globaltime | Heure actuelle en secondes (float) |
-| résolution | Résolution de la fenêtre d’affichage (int2) |
+| résolution | Résolution du viewport (int2) |
 | souris | Position de la souris (int2) |
 | samplespostablesize | Nombre d’échantillons à utiliser pour calculer l’éclairage de l’environnement (int) |
 | irradianceshcoefs | La gamme de vecteurs d&#39;harmoniques sphériques (float3[10]) |
 | panoramamipmapheight | Nombre de niveaux du mipmap dans la carte du panorama (float) |
 | panorama | Angle Angle de rotation de la carte du panorama (flottant) |
 | intensité du panorama | Intensité de la carte du panorama (flottant) |
-| computebinormalinfragmentshader | Le binormal est-il calculé par fragment ? (sinon, par sommet) (bool) |
+| computebinormalinfragmentshader | Le binormal est-il calculé par fragment ? (sinon par vertex) (bool) |
 | isdirectxnormal | Le format de map normal est-il DirectX ? (bool) |
 | uvwscale | Valeurs d’échelle de u, v, w (float3) |
-| renderuvtile | Rendu d’une seule mosaïque UV ? (bool) |
-| uvtilecoords | Coordonnées de la mosaïque UV pour le rendu (int2) |
+| renderuvtile | Rendu d’un seul UV ? (bool) |
+| uvtilecoords | Coordonnée UV au rendu (int2) |
 
 « sémantique » : sémantique de l&#39;uniforme. (Toutes les matrices sont float16).
 
@@ -569,9 +569,9 @@ Attributs :
 * &#39;guiMin&#39; : valeur min du widget
 * &#39;guiMax&#39; : valeur maximale du widget
 
-## Exemple : Crénelage/Parallaxe
+## Exemple : Tessellation/Parallaxe
 
-### Fichier Parallax Vertex Shader
+### Fichier de Shader de Vertex Parallax
 
 Situé dans .\tessellation\_parallax\parallax\vs.glsl
 
@@ -582,13 +582,13 @@ Contenu :
 attribute vec4 iVS\_Position ;\
 attribute vec4 iVS\_Normal ;\
 attribute vec2 iVS\_UV ;\
-attribute vec4 iVS\_Tangent ;\
+attribute vec4 iVS\_Tangente ;\
 attribute vec4 iVS\_Binormal ;
 
 variable vec3 iFS\_Normal ;\
 variable vec2 iFS\_UV ;\
-variable vec3 iFS\_Tangent ;\
-variable vec3 iFS\_Binormal ;\
+variable vec3 iFS\_Tangente ;\
+vec3 iFS\_Binormal variable ;\
 variable vec3 iFS\_PointWS ;
 
 mat4 worldMatrix uniforme ;\
@@ -599,12 +599,12 @@ void main()\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position ;\
 iFS\_Normal = iVS\_Normal.xyz ;\
 iFS\_UV = iVS\_UV ;\
-iFS\_Tangent = iVS\_Tangent.xyz ;\
+iFS\_Tangente = iVS\_Tangente.xyz ;\
 iFS\_Binormal = iVS\_Binormal.xyz ;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz ;\
 &rbrace;
 
-### Fichier de nuanceur de sommets de pavage
+### Fichier de Shader de Vertex de tessellation
 
 Situé dans .\tessellation\_parallax\tessellation\vs.glsl
 
@@ -617,24 +617,24 @@ Contenu :
 attribute vec4 iVS\_Position ;\
 attribute vec4 iVS\_Normal ;\
 attribute vec2 iVS\_UV ;\
-attribute vec4 iVS\_Tangent ;\
+attribute vec4 iVS\_Tangente ;\
 attribute vec4 iVS\_Binormal ;
 
 variable vec4 oVS\_Normal ;\
-variation de vec2 oVS\_UV ;\
-variable vec4 oVS\_Tangent ;\
-variable vec4 oVS\_Binormal ;
+variable vec2 oVS\_UV ;\
+variation de vec4 oVS\_Tangente ;\
+vec4 oVS\_Binormal variable ;
 
 void main()\
 &lbrace;\
 gl\_Position = iVS\_Position ;\
 oVS\_Normal = iVS\_Normal ;\
 oVS\_UV = iVS\_UV ;\
-oVS\_Tangent = iVS\_Tangent ;\
+oVS\_Tangente = iVS\_Tangente ;\
 oVS\_Binormal = iVS\_Binormal ;\
 &rbrace;
 
-### Fichier Shader de contrôle de la pavage
+### Fichier de Shader de contrôle de tessellation
 
 Situé dans .\tessellation\_parallax\tessellation\tcs.glsl
 
@@ -645,16 +645,16 @@ Contenu :
 &#x200B;#version 400 core\
 &#x200B;#extension GL\_ARB\_tessellation\_shader : enable
 
-layout(vertices = 3) out ;
+layout(vertex = 3) out ;
 
 in vec4 oVS\_Normal[];\
 in vec2 oVS\_UV[];\
-in vec4 oVS\_Tangent[];\
+in vec4 oVS\_Tangente[];\
 in vec4 oVS\_Binormal[];
 
 out vec4 oTCS\_Normal[];\
 out vec2 oTCS\_UV[];\
-out vec4 oTCS\_Tangent[];\
+out vec4 oTCS\_Tangente[];\
 out vec4 oTCS\_Binormal[];
 
 facteur de tessellation uniforme du flotteur ;
@@ -669,11 +669,11 @@ gl\_out[gl\_InvocationID].gl\_Position = gl\_in[gl\_InvocationID].gl\_Position ;
 
 oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
-oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
+oTCS\_Tangente[gl\_InvocationID] = oVS\_Tangente[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
 &rbrace;
 
-### Fichier de nuanceur d&#39;évaluation de la facettisation
+### Fichier de Shader d&#39;évaluation de tessellation
 
 Situé dans .\tessellation\_parallax\tessellation\tcs.glsl
 
@@ -683,11 +683,11 @@ Contenu :
 
 &#x200B;#version 400 core
 
-layout(triangles, equal\_spacing, ccw) in ;
+layout(triangles, equal\_espacement, ccw) in ;
 
 in vec4 oTCS\_Normal[];\
 in vec2 oTCS\_UV[];\
-in vec4 oTCS\_Tangent[];\
+in vec4 oTCS\_Tangente[];\
 in vec4 oTCS\_Binormal[];
 
 mat4 worldMatrix uniforme ;\
@@ -695,12 +695,12 @@ mat4 worldViewProjMatrix uniforme ;
 
 sampler2D heightMap uniforme ;
 
-carrelage flottant uniforme = 1,0f ;\
+répétition uniforme du flotteur = 1,0f ;\
 uniformise float heightMapScale = 1.0f ;
 
 out vec3 iFS\_Normal ;\
 out vec2 iFS\_UV ;\
-out vec3 iFS\_Tangent ;\
+out vec3 iFS\_Tangente ;\
 out vec3 iFS\_Binormal ;\
 out vec3 iFS\_PointWS ;
 
@@ -720,24 +720,24 @@ vec3 uvw = gl\_TessCoord.xyz ;
 
 vec3 newPos = interpolate3D(gl\_in[0].gl\_Position.xyz, gl\_in[1].gl\_Position.xyz, gl\_in[2].gl\_Position.xyz, uvw);\
 vec3 newNormal = normalize(interpolate3D(oTCS\_Normal[0].xyz, oTCS\_Normal[1].xyz, oTCS\_Normal[2].xyz, uvw);\
-vec3 newTangent = normalize(interpolate3D(oTCS\_Tangent[0].xyz, oTCS\_Tangent[1].xyz, oTCS\_Tangent[2].xyz, uvw));\
-vec3 newBinormal = normalize(interpolate3D(oTCS\_Binormal[0].xyz, oTCS\_Binormal[1].xyz, oTCS\_Binormal[2].xyz, uvw));\
+vec3 newTangent = normalize(interpolate3D(oTCS\_Tangente[0].xyz, oTCS\_Tangente[1].xyz, oTCS\_Tangente[2].xyz, uvw);\
+vec3 newBinormal = normalize(interpolate3D(oTCS\_Binormal[0].xyz, oTCS\_Binormal[1].xyz, oTCS\_Binormal[2].xyz, uvw);\
 vec2 newUV = interpolate2D(oTCS\_UV[0], oTCS\_UV[1], oTCS\_UV[2], uvw);
 
-float heightTexSample = texture(heightMap, newUV \&#42; tiling).x \&#42; 2.0 - 1.0 ;\
+float heightTexSample = texture(heightMap, newUV \&#42; répétition).x \&#42; 2.0 - 1.0 ;\
 newPos += newNormal \&#42; heightTexSample \&#42; heightMapScale ;
 
 vec4 obj\_pos = vec4(newPos, 1);\
 gl\_Position = worldViewProjMatrix \&#42; obj\_pos ;
 
-iFS\_UV = newUV \&#42; mosaïque ;\
-iFS\_Tangent = newTangent ;\
+iFS\_UV = newUV \&#42; répétition ;\
+iFS\_Tangente = newTangent ;\
 iFS\_Binormal = newBinormal ;\
 iFS\_Normal = newNormal ;\
 iFS\_PointWS = (worldMatrix \&#42; obj\_pos).xyz ;\
 &rbrace;
 
-### Fichier Fragment Shader
+### Fichier de Shader de fragment
 
 Situé dans .\tessellation\_parallax\fs.glsl
 
@@ -764,8 +764,8 @@ SYMÉTRIE #define\_NORMALE\_Y\
 
 variable vec3 iFS\_Normal ;\
 variable vec2 iFS\_UV ;\
-variable vec3 iFS\_Tangent ;\
-variable vec3 iFS\_Binormal ;\
+variable vec3 iFS\_Tangente ;\
+vec3 iFS\_Binormal variable ;\
 variable vec3 iFS\_PointWS ;
 
 uniforme vec3 Lamp0Pos = vec3(0.0f,0.0f,70.0f);\
@@ -784,7 +784,7 @@ flotteur uniforme Kr = 0,5 f ;\
 int uniforme KF\_on = 1 ;\
 KFs flottants uniformes = 1,0f ;\
 uniforme vec3 AmbiColor = vec3(0.07f,0.07f,0.07f);\
-carrelage flottant uniforme = 1,0f ;\
+répétition uniforme du flotteur = 1,0f ;\
 uniforme int enableTilingInFS = 0 ;
 
 sampler2D heightMap uniforme ;\
@@ -857,7 +857,7 @@ vec3 pointToLight0DirWS = normalize(Lamp0Pos - iFS\_PointWS);\
 vec3 pointToLight1DirWS = normalize(Lamp1Pos - iFS\_PointWS);\
 vec3 pointToCameraDirWS = normalize(cameraPosWS);\
 vec3 normalOS = normalize(iFS\_Normal);\
-vec3 tangentOS = normalize(iFS\_Tangent);\
+vec3 tangentOS = normalize(iFS\_Tangente);\
 vec3 binormalOS = normalize(iFS\_Binormal);
 
 // ------------------------------------------\
@@ -868,17 +868,17 @@ tangentOS = normalize(cross(binormalOS, normalOS));
 vec3 cumulatedNormalOS = normalOS;
 
 // ------------------------------------------\
-// Mettre à jour les UV\
+// Mettre à jour l’UV\
 float a = dot(normalOS,-pointToCameraDirWS);\
 vec3 s = vec3(dot(pointToCameraDirWS,tangentOS), dot(pointToCameraDirWS,binormalOS), a);\
-vec2 uv = enableTilingInFS == 0 ? iFS\_UV : (iFS\_UV \&#42; mosaïque);\
-float height = texture2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
+vec2 uv = enableTilingInFS == 0 ? iFS\_UV : (répétition iFS\_UV \&#42;);\
+height float = texture 2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
 float parallax = parallax\_mode == 0 ? (tessellationFactor / 100000.f + heightMapScale / 500.f) : (heightMapScale / 50.f);\
 += uv (height \&#42; s.xy \&#42; parallaxe) ;
 
 // ------------------------------------------\
 // Ajouter la normale à partir de normalMap\
-vec3 normalTS = texture2D(normalMap,uv).xyz ;\
+vec3 normalTS = texture 2D(normalMap,uv).xyz ;\
 normalTS = fixNormalSample(normalTS);\
 vec3 normalMapOS = normalTS.x\&#42;tangentOS + normalTS.y\&#42;binormalOS ;\
 cumulatedNormalOS = cumulatedNormalOS + normalMapOS;\
@@ -886,7 +886,7 @@ cumulatedNormalOS = normalize(cumulatedNormalOS);
 
 // ------------------------------------------\
 // Ajouter un mappage normal détaillé\
-vec3 normalDetailTS = texture2D(detailNormalMap,uv\&#42;TilingDetail).xyz ;\
+vec3 normalDetailTS = texture 2D(detailNormalMap,uv\&#42;TilingDetail).xyz ;\
 normalDetailTS = fixNormalSample(normalDetailTS);\
 vec3 variableNormalDetailTS = lerpFct(vec3(0.0,0.0,0.5),normalDetailTS,Profondeur\_detail);\
 vec3 normalDetailOS = variableNormalDetailTS.x\&#42;tangentOS + variableNormalDetailTS.y\&#42;binormalOS ;\
@@ -899,7 +899,7 @@ cumulatedNormalOS = normalOS;
 vec3 cumulatedNormalWS = normalVecOSToWS(cumulatedNormalOS);
 
 // ------------------------------------------\
-// Calculer diffusion et Specular
+// Calculer Diffuse et Specular
 
 // Contribution Light 0\
 vec3 diffContrib = vec3(0, 0, 0);\
@@ -914,9 +914,9 @@ phong\_ombrage(Lamp1Color, cumulatedNormalWS, pointToLight1DirWS, pointToCameraD
 diffContrib += diffContrib2 ;\
 specContrib += specContrib2 ;
 
-vec4 diffuseColor = texture2D(diffuseMap,uv);
+vec4 diffuseColor = texture 2D(diffuseMap,uv);
 
-vec3 specularColor = texture2D(specularMap,uv).rgb ;\
+vec3 specularColor = texture 2D(specularMap,uv).rgb ;\
 vec3 R = reflect(pointToCameraDirWS, cumulatedNormalWS);\
 vec3 reflColor = Kr \&#42; textureCube(environmentMap,R.xyz).bgr ;
 
@@ -933,16 +933,16 @@ FallofRefl=1,0 ;
 vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor ;
 
 // ------------------------------------------\
-vec3 emissive = texture2D(emissiveMap,uv).xyz ;
+vec3 emissive = texture 2D(emissiveMap,uv).xyz ;
 
 vec3 finalcolor = Ambiant\_final\
 &#x200B;+ specularColor\&#42;specContrib\
 &#x200B;+ diffuseColor.rgb\&#42;diffContrib\
 &#x200B;+ (reflColor\&#42;specularColor\&#42;FallofRefl)\
-&#x200B;+ émissif ;
+&#x200B;+ EMISSIVE ;
 
 // Couleur finale\
-vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
+vec4 finalColor4 = vec4(finalcolor, texture 2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4 ;\
 &rbrace;
@@ -951,8 +951,8 @@ gl\_FragColor = finalColor4 ;\
 
 Le fichier glslfx définit deux techniques de rendu de la géométrie :
 
-* On utilise la technique de tessellation matérielle
-* L’autre se base sur un effet de parallaxe qui sera utilisé comme solution de secours si le matériel de l’utilisateur ne prend pas en charge la facettisation.
+* On utilise la technique de la tessellation matérielle
+* L’autre repose sur un effet de parallaxe qui sera utilisé comme solution de secours si le matériel de l’utilisateur ne prend pas en charge la Tessellation.
 
 Situé dans .\tessellation\_parallax\fs.glsl
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Éclaboussure circulaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular.png){width="128px"}
 
-![](../../../../../../assets/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
 
 <b>Entrée :</b> Générateurs De Textures > Motifs
 
@@ -64,7 +64,7 @@ Les deux entrées sont facultatives.
 | <b>Quantité aléatoire du motif</b> <i>0.0 - 1.0</i> | Randomisation de la quantité de motifs à placer. À utiliser de préférence avec une quantité d’anneau supérieure à 1. |
 | <b>Quantité aléatoire de motif min</b> <i>1 - 10</i> | Définit la quantité minimale de motifs pour la randomisation. |
 | <b>Quantité De Sonnerie</b> <i>1 - 10</i> | Définit le nombre d&#39;anneaux à remplir. Les anneaux sont toujours placés à l&#39;intérieur de l&#39;anneau extérieur, et l&#39;espace uniformément. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Motif</b> |  |
 | <b>Motif</b> <i>Entrée d&#39;image, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 6</i> | Définit le nombre d’entrées Image différentes à utiliser. Disponible uniquement lorsque l&#39;option <i>Entrée d&#39;image</i> est sélectionnée ci-dessus. |
@@ -96,7 +96,7 @@ Les deux entrées sont facultatives.
 | <b>Rotation du motif</b> <i>0.0 - 1.0</i> | Fait pivoter tous les motifs de manière uniforme. |
 | <b>Rotation aléatoire du motif</b> <i>0.0 - 1.0</i> | Rend aléatoire la rotation du motif. |
 | <b>Pivot de rotation du motif</b> <i>Centre, Min X, Max X, Min Y, Max Y</i> | Définit la position du point pivot autour duquel faire pivoter chaque motif individuellement. |
-| <b>Centrer l&#39;orientation</b> <i>Faux/Vrai</i> | Fait pivoter chaque motif de sorte qu’il soit orienté vers le centre de l’anneau. La désactiver leur donne la même orientation, ce qui peut produire des effets indésirables avec Décalage dans la direction. |
+| <b>Centrer l&#39;orientation</b> <i>Faux/Vrai</i> | Fait pivoter chaque motif de sorte qu’il se face vers le centre de l’anneau. La désactiver leur donne la même orientation, ce qui peut produire des effets indésirables avec Décalage dans la direction. |
 | <b>Rotation en anneau</b> <i>0.0 - 1.0</i> | Fait pivoter l’anneau entier autour du centre. |
 | <b>Rotation Aléatoire De L&#39;Anneau</b> <i>0.0 - 1.0</i> | Rend aléatoire la rotation par anneau. |
 | <b>Décalage de rotation de l&#39;anneau</b> <i>0.0 - 1.0</i> | Décale la rotation par anneau. |
@@ -118,7 +118,7 @@ Les deux entrées sont facultatives.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/circularsplatter-ex.png" />
         </td>
     </tr>
 </table>

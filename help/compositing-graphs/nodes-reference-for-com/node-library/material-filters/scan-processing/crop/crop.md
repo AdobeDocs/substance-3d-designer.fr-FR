@@ -37,7 +37,7 @@ ht-degree: 3%
 
 Le recadrage est une version paramétrique et non destructive de l’outil de recadrage que vous connaissez bien. Vous sélectionnez une zone d’une image et le résultat est renvoyé avec les zones non sélectionnées supprimées.
 
-Elle peut être utile de plusieurs façons, car effectuer une opération de recadrage avec des nœuds atomiques n&#39;est pas si simple. Ce nœud est particulièrement utile pour la conversion d’images non carrées. Dans ce cas, assurez-vous de définir correctement la résolution d’entrée.
+Cette fonction peut être utile de plusieurs façons, car il n’est pas si simple d’effectuer un recadrage avec des noeuds atomiques. Ce nœud est particulièrement utile pour la conversion d’images non carrées. Dans ce cas, assurez-vous de définir correctement la résolution d’entrée.
 
 Il est très important de comprendre que pour utiliser facilement ce nœud, vous devez bien utiliser la possibilité de prévisualiser un nœud différent de celui dont vous modifiez les paramètres !\
 En bref : **double-cliquez** sur le nœud que vous utilisez comme entrée pour celui-ci (l&#39;image d&#39;origine, non recadrée), puis **cliquez une fois** sur le nœud de recadrage qui suit immédiatement. Vous pouvez ensuite modifier le widget de recadrage pour l’adapter à la zone de recadrage.
@@ -54,6 +54,6 @@ En bref : **double-cliquez** sur le nœud que vous utilisez comme entrée pour c
 |:---|:---|
 | <b>Taille d&#39;entrée</b> <i>0 - 8192</i> | Résolution et proportions de l&#39;Image d&#39;entrée. Très important pour les images non carrées. |
 | <b>Arrière-plan</b> <i>(Valeur de couleur) / (Valeur de niveaux de gris)</i> | Valeur uniforme de base pour les superficies non couvertes par le recadrage. |
-| <b>Transformation</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Transformer</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
 | <b>Est normal (uniquement pour la version couleur)</b> <i>Faux/Vrai</i> | Indique si l&#39;entrée doit être traitée ou non comme un mappage normal. |

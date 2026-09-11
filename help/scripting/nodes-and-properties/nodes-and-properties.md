@@ -136,7 +136,7 @@ def printSelectedNodesInfo(nodes):
 ```
 
 
-### Accès aux types et identifiants d&#39;entrée de nœud
+### Accès aux entrées de nœud, identifiants et types
 
 ```
 import sd 

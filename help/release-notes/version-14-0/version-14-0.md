@@ -45,22 +45,22 @@ D&#39;autres nœuds puissants rejoignent le parti :
 * [<b>Courbure lisse</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) : cette nouvelle version prend désormais correctement en charge tous les modes de répétition, ajoute deux nouvelles sorties (convexité et concavité) et améliore à la fois la précision et les performances.
 * <b>[Histogramme égaliser](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md) :</b> ce nœud égalise l&#39;histogramme d&#39;une image en niveaux de gris en ajustant les valeurs pour obtenir une distribution égale. Ce nœud est fourni avec deux nœuds compagnons : [Rendu de l&#39;histogramme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) pour générer l&#39;histogramme de l&#39;image et [Calcul de l&#39;histogramme](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>pour coder un histogramme en tant que ligne de pixels.
 * <b>[Bevel smooth](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) :</b> grâce à celui-ci, vous pouvez dessiner un dégradé ou une couleur plate à partir des bordures d&#39;un masque (vers l&#39;extérieur, vers l&#39;intérieur ou les deux). Le nœud [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>dessine également le dégradé, mais dans une direction spécifique.
-* <b>[Combinaison normale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> ce nœud est l&#39;opposé du nœud [Combinaison normale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), il supprime d&#39;une carte normale les détails de surface décrits par une carte d&#39;height.
+* <b>[Combinaison normale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> ce nœud est l&#39;opposé du nœud [Combinaison normale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), il supprime d&#39;une map normal les détails de surface décrits par une map height.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Lissage de courbure
+Courbure lisse
 
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_blend_example_1_before">
+      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="courbure_blend_example_1_before">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_blend_example_1_after">
+      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="courbure_blend_example_1_after">
       <br><i>Après</i>
     </td>
   </tr>
@@ -131,11 +131,11 @@ Dissociation normale
 
 ## Amélioration de la qualité de vie
 
-* <b>Les performances </b> et la <b>réactivité</b> lors de l’utilisation de projets volumineux ont été améliorées. Par exemple, la suppression de nœuds peut être jusqu’à 75 fois plus rapide. Le temps de [cuisson](../../glossary/glossary.md) a également été réduit pour les graphiques faisant référence à plusieurs fois la même image bitmap.
+* <b>Les performances </b> et la <b>réactivité</b> lors de l’utilisation de projets volumineux ont été améliorées. Par exemple, la suppression de nœuds peut être jusqu’à 75 fois plus rapide. Le temps de [cuisson](../../glossary/glossary.md) a également été réduit pour les graphes faisant référence plusieurs fois à la même image bitmap.
 * <b>Paramètres hérités</b> : lorsqu&#39;un paramètre est [hérité](../../glossary/glossary.md), au lieu d&#39;afficher la valeur par défaut, nous affichons maintenant la valeur héritée afin que vous connaissiez la valeur actuellement utilisée. En savoir plus sur l&#39;héritage dans [cette page dédiée de notre documentation](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
-* La prise en charge de <b>Trackpad</b> sur MacOS a été entièrement remaniée pour être plus naturelle et conforme aux autres logiciels. Le déplacement des nœuds au-delà des limites de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) a également été repensé afin d&#39;être plus fluide et plus cohérent entre tous les systèmes d&#39;exploitation.
+* La prise en charge de <b>Trackpad</b> sur MacOS a été entièrement remaniée pour être plus naturelle et conforme aux autres logiciels. Le déplacement des nœuds au-delà des limites de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) a également été repensé afin d&#39;être plus fluide et plus cohérent entre tous les systèmes d&#39;exploitation.
 
-* <b>Vue 2D :</b>lorsque l’affichage en mosaïque est activé dans la [vue 2D](../../interface/2d-view/2d-view.md), vous pouvez désormais obtenir des valeurs même pour les pixels qui ne se trouvent pas sur la mosaïque d’origine : il est très utile de vérifier l’[échantillonnage](../../glossary/glossary.md) et les transitions de valeurs entre les mosaïques.
+* <b>vue 2D :</b>lorsque l&#39;affichage en mosaïque est activé dans la [vue 2D](../../interface/2d-view/2d-view.md), vous pouvez désormais obtenir des valeurs même pour les pixels qui ne se trouvent pas sur la mosaïque d&#39;origine : il est très utile de vérifier l&#39;[échantillonnage](../../glossary/glossary.md) et les transitions de valeurs entre les mosaïques.
 
 ![Vue 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
@@ -161,10 +161,10 @@ Dissociation normale
 
 L’API de script comprend quatre nouvelles méthodes :
 
-* Méthodes pour obtenir et définir le type de graphique d’un graphique de composition de Substances : myGraph.setGraphType(« newType ») ; myGraph.getGraphType()
-* Méthode d’ouverture d’une ressource de package dans son éditeur (par exemple, un graphique de Substance dans la vue Graphique) : myUIManager.openResourceInEditor(myResource)
-* Méthode de sélection d’une ressource de package dans l’Explorateur (graphique de Substance, par exemple) : myUIManager.setExplorerSelection(myResource)
-* Méthode pour cadrer un nœud spécifique dans la vue graphique : myUIManager.focusGraphNode(myGraphViewID, myNode)
+* Méthodes pour obtenir et définir le type de graphe d’un graphe de composition de Substances : myGraph.setGraphType(« newType ») ; myGraph.getGraphType()
+* Méthode d’ouverture d’une ressource de package dans son éditeur (par exemple, un graphe de Substance dans la Vue du graphe) : myUIManager.openResourceInEditor(myResource)
+* Méthode de sélection d’une ressource de package dans l’Explorateur (par exemple, un graphe de Substance) : myUIManager.setExplorerSelection(myResource)
+* Méthode de cadre d&#39;un nœud spécifique dans la vue du graphe : myUIManager.focusGraphNode(myGraphViewID, myNode)
 
 ## Configuration requise pour les plates-formes d’effets spéciaux
 
@@ -185,39 +185,39 @@ Notez que ces mises à jour ont deux conséquences majeures :
 
 * [Contenu] Nouveau filtre Kuwahara anisotrope
 * [Contenu] Nouveau nœud de Bevel smooth
-* [Contenu] Nouveau nœud v2 Courbure lisse
+* [Contenu] Nouveau nœud Courbure Lisse v2
 * [Contenu] Nouveau nœud de Directional distance
 * [Contenu] Nouveaux outils d’histogramme : calcul, égalisation, rendu
 * [Contenu] Nouvel ID vers le nœud de masque
 * [Content] Nouveau nœud de décombinaison normal
 * [Contenu] Nouveaux nœuds de palette : Créer, Appliquer, Modifier, Afficher
 * [Contenu] Nouveau nœud Quantize Color
-* [Contenu] Déformation directionnelle non uniforme : définissez la valeur par défaut de la courbe d’intensité sur 1
+* [Contenu] Déformation directionnelle non uniforme : définissez la valeur par défaut de la carte d’intensité sur 1
 * [Contenu] Ajoutez le suffixe « Color » ou « Grayscale » à tous les libellés de nœuds qui ont ces versions
-* [Contenu] La désactivation de l’option « Bruit blanc » ne permet de conserver que « Bruit blanc rapide »
-* [Content] Nœud « Negate Float1 » obsolète dans le graphique de fonction de Substance
+* [Contenu] Les anciens « Bruit blanc » conservent uniquement « Bruit blanc rapide »
+* [Contenu] Nœud « Negate Flottant 1 » déconseillé dans le graphe de fonction de Substance
 * [Contenu] Renommez « Quantize Color » en « Quantize Color (Simple) ».
-* [Vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
+* [vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
 * [Moteur]&#x200B;[Texte] Nouveau crénage pour certaines polices
-* [Graphique] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
+* [Graphe] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
 * [Linker] Ne pas dupliquer les bitmaps dans SBSASM
-* [Paramètres] Ajout d’un nouveau widget « fonction » pour tous les types de paramètres d’entrée
+* [Paramètres] Ajouter un nouveau widget « fonction » pour tous les types de paramètre d&#39;entrée
 * [Propriétés] Amélioration de l’affichage des paramètres hérités
 * [UX] Amélioration de la prise en charge du pavé tactile (Mac uniquement)
-* [UX] Moderniser le panoramique lorsque vous atteignez la bordure du graphique lors de la sélection
+* [UX] Moderniser le panoramique lorsque vous atteignez la bordure du graphe lors de la sélection
 * [UX] Supprimer la fonctionnalité « Désactiver la haute résolution »
 * [Branding] Nouveau branding pour l&#39;écran de démarrage et la fenêtre À propos
-* [Courbe de transfert de dégradé] Ajout d’un moyen de déplacer toutes les touches et de créer une boucle
+* [Map de dégradé] Ajout d’un moyen de déplacer toutes les touches et de créer une boucle
 * [Bibliothèque] Basculer tous les filtres par défaut en casse de phrase
-* [API] Méthode Add pour cadrer un nœud spécifique dans la fenêtre Vue graphique
-* [API] Ajout d’une méthode pour ouvrir un package dans son éditeur (par exemple, un graphique de Substance dans la vue Graphique)
-* [API] Ajout d’une méthode pour sélectionner une ressource de package dans l’Explorateur (par exemple, un graphique de Substance)
-* [API] Ajout de méthodes pour obtenir et définir le type de graphique d’un graphique de composition de Substances
+* [API] Ajout d’une méthode pour mettre en cadre un nœud spécifique dans le viewport de Vue du graphe
+* [API] Ajout d’une méthode pour l’ouverture d’une ressource de package dans son éditeur (par exemple, un graphe de Substance dans la Vue du graphe)
+* [API] Ajout d’une méthode pour sélectionner une ressource de package dans l’Explorateur (par exemple, un graphe de Substance)
+* [API] Ajout de méthodes pour obtenir et définir le type de graphe d’un graphe de composition de Substances
 * [Tiers] Suivez les recommandations sur les plateformes d’effets spéciaux pour 2023
 * [Tiers] Suivez les recommandations sur les plateformes d’effets spéciaux pour 2024
-* [Tiers] Mettre à jour Boost à 1.82.0 + USD à 23.08
+* [Tiers] Mise à jour de Boost vers 1.82.0 + USD vers 23.08
 * [Tiers] Mise à jour NGL vers 1.38
-* [ThirdParty] Mettre à jour OpenColorIO vers la version 2.3.x
+* [Tiers] Mise à jour d’OpenColorIO vers la version 2.3.x
 * [Tiers] Mise à jour d’OpenExr vers la version 3.2.x
 * [ThirdParty] Mettre à jour OpenSubdiv vers la version 3.6.x
 * [ThirdParty] Mettre à jour Python vers 3.11.x
@@ -229,34 +229,34 @@ Notez que ces mises à jour ont deux conséquences majeures :
 
 ### Correctifs
 
-* [Boulangers] Blocage lors de la modification du nom de fichier d’une scène
-* [Boulangers] Blocage lors de l’enregistrement du paramètre prédéfini boulangers dans le fichier JSON
-* [Content] &#39;Dispersion sur la spline&#39; : Exposer le paramètre alpha de l&#39;image d&#39;entrée
+* [Bakers] Crash lors de la modification de la scène dont le nom de fichier a été modifié
+* [Bakers] Crash lors de l’enregistrement du paramètre prédéfini bakers dans Fichier JSON
+* [Contenu] &#39;Dispersion sur la spline&#39; : Exposer le paramètre alpha de l&#39;Image d&#39;entrée
 * [Contenu] « Couleur Sampler de la vignette » : expression visible manquante
 * [Contenu] Bruit anisotrope : une valeur négative pour la quantité X/Y produit un résultat erroné
-* [Contenu] Bruit anisotrope : problème de mosaïque lors de l’utilisation de valeurs impaires comme quantité X et sans smoothness
+* [Contenu] Bruit anisotrope : problème de répétition lors de l’utilisation de valeurs impaires comme quantité X et sans smoothness
 * [Contenu] Fonction de distribution normale : max() mal placé peut conduire à NaN
 * [Content] Les ombres RTAO, Bent Normal et RT ne fonctionnent pas correctement sur certaines plateformes
-* [Contenu] Couleur de fusion des éclaboussures de forme : les cartes normales OpenGL ne sont pas fusionnées correctement
+* [Contenu] Couleur de la Fusion des éclaboussures de forme : les maps normal OpenGL ne sont pas fusionnées correctement
 * [Contenu] Espace non garanti après le préfixe « Multi » dans les étiquettes de nœuds
-* [Dépendances] Blocage lors du déplacement d’un graphique au sein d’un ou entre plusieurs packages
+* [Dépendances] Crash lors du déplacement de graphe dans ou entre les packages
 * [Moteur] Erreur de précision dans les nœuds de déformation affectant les nœuds de flou de Pente
-* [Moteur] Le calque SBSAR dans SD ne peut pas lire SBSAR avec le contenu SBSASM > 2 Go
-* [Graphique de fonction] Résultat incorrect pour 0^n
-* [Graphique] L’option « Afficher la taille du nœud » est mal étiquetée
-* [Graphique] Blocage lors de la copie d’un commentaire parent vers un autre graphique
-* [Graphique] Blocage lorsque vous faites glisser un nœud Point tout en maintenant la touche Alt enfoncée
-* [Graph] La recherche de nœud peut manquer des correspondances évidentes dans certains cas
-* [Graphique] Problème de performances lors de l’édition d’un graphique de fonction instancié plusieurs fois avec un supergraphe ouvert
-* [Graphique] Trop d’invalidations lors de la création d’une sortie
+* [Moteur] Le calque SBSAR dans SD ne peut pas lire SBSAR avec du contenu SBSASM > 2 Go
+* [graphe de fonction] Résultat incorrect pour 0^n
+* [Graphe] L&#39;option « Afficher la taille du nœud » est mal étiquetée
+* [Graphe] Crash lors de la copie d’un commentaire parent vers un autre graphe
+* [Graphe] Blocage lorsque l’option Alt fait glisser un nœud Point
+* [Graphe] La recherche de nœud peut manquer des correspondances évidentes dans certains cas
+* [Graphe] Problème de performances lors de la modification d’un graphe de fonction instancié plusieurs fois avec un supergraphe ouvert
+* [Graphe] Trop d’invalidations lors de la création d’une sortie
 * [Security] Vulnérabilité d&#39;écriture hors limites d&#39;analyse ICO
 * [Sécurité] Certains formats d’image inutilisés sont obsolètes
 * [Paramètres] Le chemin de la ressource Bitmap PKG ne doit pas être modifiable
-* [Paramètres] Correction des problèmes liés à l’exposition/l’exposition par lots du paramètre d’un processeur de valeurs
-* [Paramètres] Les paramètres de chaîne sont ignorés lors de l’exposition par lots
-* [Propriétés] Problème de performances lors de la modification d’un graphique de fonction instancié plusieurs fois avec les propriétés ouvertes
+* [Paramètres] Correction des problèmes liés à l’expose/l’expose par lots du paramètre d’un processeur de valeurs
+* [Paramètres] Les paramètres de chaîne sont ignorés lors de l&#39;expose par lots
+* [Propriétés] Problème de performances lors de la modification d’un graphe de fonction instancié plusieurs fois avec des propriétés ouvertes
 * [SVG] Les modifications apportées aux formes ne sont pas appliquées à l’image pixellisée
 * [UI] Correction de certains bugs/incohérences avec les widgets défilants (Windows uniquement)
-* [UI] Ordre incohérent des formats de fichiers de scène 3D dans les listes d’importation/exportation
+* [UI] Ordre incohérent des formats de fichier Scène 3D dans les listes d’importation/exportation
 * [UI] Les actions de la fenêtre sont dupliquées dans l’interface utilisateur
-* [Version Control] Le script &#39;perforce.py&#39; ne fonctionne pas sur Python 3
+* [Gestion de versions] Le script &#39;perforce.py&#39; ne fonctionne pas sur Python 3

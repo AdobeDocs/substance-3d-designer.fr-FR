@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## Description
 
-Réglez l’exposition de l’image d’entrée. Éclaircit ou assombrit les photos HDR selon le concept de valeur « stop », comme dans un logiciel de retouche photo.
+Réglez l’exposition de l’image d&#39;entrée. Éclaircit ou assombrit les photos HDR selon le concept de valeur « stop », comme dans un logiciel de retouche photo.
 
 </td>
 </tr>

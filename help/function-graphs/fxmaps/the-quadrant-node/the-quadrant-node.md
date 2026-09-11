@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nœud du quadrant
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -20,25 +20,25 @@ ht-degree: 2%
 
 # Nœud du quadrant
 
-De nombreuses FX-Maps se composent entièrement de chaînes de nœuds de quadrant. Les nœuds du quadrant sont les nœuds les plus puissants et les plus flexibles du groupe FX-Map, il est donc utile de comprendre comment fonctionne ce nœud.
+De nombreuses FX-Maps se composent entièrement de chaînes de nœuds de quadrant. Les nœuds du quadrant sont les nœuds les plus puissants et les plus flexibles du groupe FX-Map. Il est donc utile de comprendre le fonctionnement de ce nœud.
 
-La chose la plus importante à propos des nœuds de quadrant est qu&#39;ils sont le seul nœud qui peut augmenter la profondeur ou *octave*, du graphique FX-Map. Chaque nœud du quadrant s&#39;ajoute au graphique sous-jacent en quadrilatère ; aucun des autres nœuds ne le fait.
+La chose la plus importante à propos des nœuds de quadrant est qu&#39;ils sont le seul nœud qui peut augmenter la profondeur ou *octave* du graphe FX-Map. Chaque nœud du quadrant s&#39;ajoute au graphe sous-jacent à quatre arbres, ce qui n&#39;est le cas d&#39;aucun autre nœud.
 
 Le nœud de quadrant comporte un certain nombre de paramètres :
 
 ## Couleur/Luminosité
 
-Lorsque le nœud ajoute une image à la FX-Map, ces paramètres définissent la façon dont les couches sont fusionnées avec les autres images de la chaîne. Les paramètres *Couleur/Luminosité* s&#39;appliquent à toutes les images rendues par ce nœud particulier.
+Lorsque le nœud ajoute une image au FX-Map, ces paramètres définissent la manière dont les couches sont fusionnées avec les autres images de la chaîne. Les paramètres *Couleur/Luminosité* s&#39;appliquent à toutes les images rendues par ce nœud particulier.
 
 ### Décalage de branche
 
-Décale l’image du nœud. Le décalage est appliqué à toutes les autres images rendues par les nœuds suivants dans le graphique. Le décalage de branche applique la translation au nœud actuel du quadrant et à tous les nœuds situés en dessous dans la même branche du graphique.
+Décale l’image du nœud. Le décalage est appliqué à toutes les autres images rendues par les nœuds suivants dans le graphe. Le décalage de branche applique la translation au nœud courant du quadrant et à tous les nœuds situés en dessous dans la même branche du graphe.
 
 Ce paramètre peut être contrôlé avec une fonction dynamique.
 
 ### Motif
 
-Définit l&#39;image (le cas échéant) à ajouter au FX-Map par ce nœud.
+Définit l’image (le cas échéant) à ajouter au FX-Map par ce nœud.
 
 Les nœuds de quadrant prennent en charge une longue liste de motifs, qui sont décrits plus loin dans cette rubrique.
 
@@ -52,7 +52,7 @@ Décale l&#39;image du nœud selon la valeur spécifiée, mais n&#39;affecte pas
 
 ### Taille du motif
 
-Définit la taille de l’image (le cas échéant) à ajouter au FX-Map. Ce paramètre peut être contrôlé avec une fonction dynamique.
+Définit la taille de l’image (le cas échéant) à ajouter à FX-Map. Ce paramètre peut être contrôlé avec une fonction dynamique.
 
 ### Rotation du motif
 
@@ -64,7 +64,7 @@ Certains motifs ont des variantes. Ce paramètre vous permet de choisir la varia
 
 ### Mode de fusion
 
-Spécifie le processus de fusion à utiliser lors du mélange de l&#39;image de ce nœud (le cas échéant) avec l&#39;image FX-Map. Ce paramètre peut être contrôlé avec une fonction dynamique.
+Spécifie le processus de fusion à utiliser lors du mélange de l’image de ce nœud (le cas échéant) avec l’image FX-Map. Ce paramètre peut être contrôlé avec une fonction dynamique.
 
 ### Graine aléatoire
 
@@ -76,17 +76,17 @@ Ce paramètre peut être contrôlé avec une fonction dynamique.
 
 ### Hériter aléatoirement
 
-Si la valeur est Oui, la valeur de départ du générateur de nombres aléatoires est héritée du nœud précédent du graphique (c&#39;est-à-dire le nœud situé au-dessus de celui-ci dans l&#39;arbre quadruple). S&#39;il s&#39;agit du premier nœud, il prend sa valeur de départ aléatoire du [graphique de Substance](../../../compositing-graphs/substance-compositing-graphs.md).
+Si la valeur est Oui, la valeur de départ du générateur de nombres aléatoires est héritée du nœud précédent dans le graphe (c&#39;est-à-dire le nœud situé au-dessus de celui-ci dans l&#39;arbre quadruple). S&#39;il s&#39;agit du premier nœud, il prend sa valeur de départ aléatoire du [graphe de Substance](../../../compositing-graphs/substance-compositing-graphs.md) qui le contient.
 
 ## Motifs
 
-Chaque nœud de quadrant peut éventuellement ajouter une image à la FX-Map finale.
+Chaque nœud de quadrant peut éventuellement ajouter une image au FX-Map final.
 
-Par défaut, l’option Aucun motif est sélectionnée et aucune image n’est rendue. Le nœud de quadrant ne fait que subdiviser l&#39;image FX-Map, la divisant en quatre pour le nœud suivant de la chaîne.
+Par défaut, l’option Aucun motif est sélectionnée et aucune image n’est rendue. Le nœud du quadrant ne fait que subdiviser l’image FX-Map, en la divisant en quatre pour le nœud suivant de la chaîne.
 
-L&#39;option suivante, *Image d&#39;entrée*, consiste à utiliser une image fournie au nœud FX-Map. Le nœud FX-Map accepte les images en couleurs ou en niveaux de gris à utiliser comme arrière-plan ou en remplacement de l’un des motifs intégrés. Notez que le nœud de quadrant ne peut effectuer le rendu d’une image d’entrée en niveaux de gris que dans une FX-Map en niveaux de gris, et inversement, il ne peut effectuer le rendu d’une image d’entrée en couleurs que dans une FX-Map en couleurs. Si vous souhaitez mélanger les types de couleurs, vous devez convertir vos entrées avant dans le graphique.
+L&#39;option suivante, *Image d&#39;entrée*, consiste à utiliser une image fournie au nœud FX-Map. Le nœud FX-Map accepte la couleur ou les images en niveaux de gris à utiliser comme arrière-plan ou en remplacement de l’un des motifs intégrés. Notez que le nœud de quadrant ne peut effectuer le rendu d’une image d&#39;entrée en niveaux de gris que dans une Fx-Map en niveaux de gris, et inversement, il ne peut effectuer le rendu d’une image d&#39;entrée de couleur que dans une FX-Map de couleurs. Si vous voulez mélanger le type de couleur, vous devez convertir vos entrées avant dans le graphe.
 
-Enfin, vous pouvez choisir parmi l&#39;un des motifs intégrés : Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Gradation, Ondes, Demi-cloche, Cloche striée, Croissant et Capsule.
+Enfin, vous pouvez choisir parmi l&#39;un des motifs intégrés : Carré, Disque, paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant et Capsule.
 
 Remarque supplémentaire : vous avez la possibilité de créer une fonction dynamique dans ce paramètre, mais elle ne fonctionnera que dans Substance 3D Designer. Pour avoir accès à l’image saisie par une fonction dynamique, vous devez utiliser des valeurs allant de 256 (entrée d’image 1) à des valeurs plus élevées (257 pour l’entrée d’image 2, etc.).
 
@@ -94,7 +94,7 @@ Remarque supplémentaire : vous avez la possibilité de créer une fonction dyna
 
 Les motifs sont tous en niveaux de gris. Certaines peuvent être légèrement modifiées à l&#39;aide du paramètre *Variation de motif*.
 
-La plupart des motifs intégrés possèdent une forme de fond en dégradé radial ou similaire. Cela les rend très utiles pour de nombreux types de bruits et de motifs. D’autres motifs, tels que la brique, le disque et le carré, sont des formes simples et plates.
+La plupart des motifs intégrés possèdent une forme de fond en dégradé radial ou similaire. Cela les rend très utiles pour de nombreux types de bruits et de motifs. D’autres motifs, tels que Brique, Disque et Carré, sont des formes simples et plates.
 
 Le paramètre Variation de motif ajuste une fonction définie du motif.
 
@@ -102,12 +102,12 @@ Le paramètre Variation de motif ajuste une fonction définie du motif.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/fxmap-quadrants.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/quadrant-parameters.jpg)
 
 </td>
 </tr>

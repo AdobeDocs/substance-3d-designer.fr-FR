@@ -46,7 +46,7 @@ Effectue une projection planaire en fonction des données de maillage bakées (P
 |  |  |
 |:---|:---|
 | <b>Mappage de position</b> <i>Entrée couleur</i> | Mappage de position baké |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> | Carte de Normale de l&#39;espace monde bakée |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> | Carte de Normale de l&#39;espace monde bakée |
 | <b>Texture projetée</b> <i>Entrée couleur</i> | Texture d’entrée pour projeter sur la cible. |
 
 <a name="parameters"></a>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Moteurs de rendu 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ La vue 3D propose quatre systèmes de rendu :
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>Pathtracer GPU</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Pixellisation</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -83,20 +83,20 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Échantillons** flottants | Indique le nombre d’échantillons de pixels à calculer pour que l’image soit considérée comme convergente. |
+| flottant **Exemples** | Indique le nombre d’échantillons de pixels à calculer pour que l’image soit considérée comme convergente. |
 | flottant d&#39;**opacité de l&#39;Ambient occlusion** | Spécifie la valeur de l’opacité de l’occlusion ambiante. |
-| **Activer le displacement** booléen | Indique si le displacement doit être activé. |
+| **Activer le Booléen de displacement** | Indique si le displacement doit être activé. |
 | **Seuil de Displacement** Flottant | Définit un seuil pour activer ou désactiver la tessellation par le GPU. |
-| **Activer l&#39;abattage de la face arrière** booléen | Une valeur true permet d’éliminer les filets triangulaires dont les normales sont orientées vers l’extérieur de la caméra. Une valeur fausse désactivera l’abattage de la face arrière. |
-| Entier **mode diagnostic** | Indique le mode de diagnostic pour le rendu. |
+| **Activer la Booléen backface culling** | Une valeur vraie permet d’éliminer les maillages triangulaires dont les normales sont éloignées de la face. Une valeur false désactive la backface culling. |
+| entier du **mode diagnostic** | Indique le mode de diagnostic pour le rendu. |
 | entier du **mode Ombre de la pixellisation** | Spécifie la technique à utiliser pour le rendu des ombres :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Aucune ombre :</i> aucune ombre ne sera rendue.</li> <li data-preserve-html="true"><i>Voxel a marché :</i> mars les rayons de l&#39;ombre dans une scène voxélisée.</li> </ul> |
 | **Nombre d&#39;échantillons d&#39;ombre de la pixellisation** Entier | Spécifie le nombre de rayons d’ombre vectorisés par pixel. |
 | flottant d&#39;**opacité de l&#39;ombre de la pixellisation** | Indique l’opacité des tons foncés, de 0,0 (aucune ombre) à 1,0 (tons foncés complets). |
 | **La transparence indépendante de l&#39;ordre de pixellisation est activée** Booléen | Ne tient pas compte de l&#39;ordre des surfaces transparentes lors de leur rendu. Cela sacrifie une certaine précision pour un rendu plus rapide des surfaces transparentes. |
-| **Activer le Booléen de pixellisation SSS** | Active/désactive l&#39;effet de diffusion de la sous-surface. |
-| **Nombre d’échantillons SSS pixellisés** Entier | Spécifie le nombre d’échantillons prélevés par pixel pour le rendu de la diffusion de la sous-surface. |
-| **Activer l&#39;anticrénelage de l&#39;accumulation de pixellisation** Booléen | Active/désactive l’anticrénelage par accumulation, ce qui améliore le ou les smoothness de l’image rendue en effectuant des rendus avec variation et en calculant la couleur moyenne locale de chaque pixel, de manière cumulative. C’est-à-dire qu’il accumule des valeurs pour calculer une moyenne à partir de. |
-| **Résolution de grille voxel de la pixellisation** Entier | Détermine la résolution de la grille de voxel utilisée dans le voxel de la pixellisation.   Des valeurs élevées produisent des ombres plus précises au détriment des performances. |
+| **Activer le Booléen de pixellisation SSS** | Active/désactive l’effet subsurface scattering. |
+| **Nombre d&#39;échantillons SSS de pixellisation** Entier | Spécifie le nombre d’échantillons prélevés par pixel pour la subsurface scattering du rendu. |
+| **Activer l&#39;antialiasing d&#39;accumulation de la pixellisation** Booléen | Active/désactive l’antialiasing d’accumulation, qui améliore le ou les smoothness de l’image rendue en effectuant des rendus avec variation et en calculant la couleur moyenne locale de chaque pixel, de manière cumulative. C’est-à-dire qu’il accumule des valeurs pour calculer une moyenne à partir de. |
+| entier de **résolution de grille voxel de la pixellisation** | Détermine la résolution de la grille de voxel utilisée dans le voxel défilant dans la pixellisation.   Des valeurs élevées produisent des ombres plus précises au détriment des performances. |
 | **Nombre d’échantillons IBL pixellisés à l’exécution** Entier | Spécifie le nombre d&#39;échantillons utilisés pour calculer les réflexions de specular de l&#39;IBL lorsque la technique est définie sur `runtimeSampled`. |
 
 +++
@@ -105,13 +105,13 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 |                               |                                                                                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Booléen activé** | Active/désactive le plan au sol dans la scène rendue. |
-| Flottement **Height** | Définit le décalage d’height du plan au sol.   S’il est créé, la valeur doit avoir le biais approprié intégré, en fonction de l’échelle de la scène. |
-| **Intensité de l&#39;ombre** flottante | Lorsque l’option Ombres est activée, elle contrôle l’opacité des ombres projetées sur le plan au sol, de 0,0 (aucune ombre) à 1,0 (ombres totales). |
+| **Activé** Booléen | Active/désactive le plan de sol dans la scène rendue. |
+| flottant **Height** | Définit le décalage d’height du plan du sol.   S’il est créé, le biais approprié devrait être baké dans la valeur, en fonction de l’échelle de la scène. |
+| flottant d&#39;**intensité de l&#39;ombre** | Lorsque l’option Tons foncés est activée, elle contrôle l’opacité du convertit des tons foncés sur le plan du sol, de 0,0 (aucune ombre) à 1,0 (tons foncés complets). |
 
 +++
 
-![Pixellisation - Exemple 1](../../../assets/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
+![Pixellisation - Exemple 1](3d-renderers.resources/3dRendererRasterizer.jpg "Pixellisation - Exemple 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -121,13 +121,13 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 |                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Échantillons** flottants | Indique le nombre d’échantillons de pixels à calculer pour que l’image soit considérée comme convergente. |
-| **Activer le displacement** booléen | Indique si le displacement doit être activé. |
+| flottant **Exemples** | Indique le nombre d’échantillons de pixels à calculer pour que l’image soit considérée comme convergente. |
+| **Activer le Booléen de displacement** | Indique si le displacement doit être activé. |
 | **Seuil de Displacement** Flottant | Définit un seuil pour activer ou désactiver la tessellation par le GPU. |
-| **Activer l&#39;abattage de la face arrière** booléen | Une valeur true permet d’éliminer les filets triangulaires dont les normales sont orientées vers l’extérieur de la caméra. Une valeur fausse désactivera l’abattage de la face arrière. |
-| Entier de **type de cyclage de pixels** | Spécifie la technique à utiliser pour réduire la résolution de calcul pour le rendu interactif :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Aucun cycle :</i> désactive le cycle de pixels et calcule chaque échantillon de pixels complet.</li> <li data-preserve-html="true"><i>Optimale pour l’appareil :</i> sélectionne la résolution de cycle de pixels idéale en fonction de l’appareil utilisé pour le rendu.</li> <li data-preserve-html="true"><i>4x4:</i> Échantillonne 1/16e des pixels par passe de cycle.</li> <li data-preserve-html="true"><i>8x8:</i> Échantillonne 1/64e des pixels par passe de cycle.</li><li data-preserve-html="true"><i>Bruit bleu :</i> échantillonne de manière adaptative un certain nombre de pixels et les étalent pour cibler une cadence d&#39;images objective.</li> </ul> |
-| Entier **mode diagnostic** | Indique le mode de diagnostic pour le rendu. |
-| **Afficher l&#39;arrière-plan par transmission** booléenne | Une valeur vraie permet de voir l&#39;image d&#39;arrière-plan à travers des objets transmissifs ou réfractifs.   Lorsque ce n’est pas le cas, les objets transmissifs montrent l’image réfractée de l’environnement de la scène. |
+| **Activer la Booléen backface culling** | Une valeur vraie permet d’éliminer les maillages triangulaires dont les normales sont éloignées de la face. Une valeur false désactive la backface culling. |
+| entier du **type de cyclage en pixels** | Spécifie la technique à utiliser pour réduire la résolution de calcul pour le rendu interactif :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Aucun cycle :</i> désactive le cycle de pixels et calcule chaque échantillon de pixels complet.</li> <li data-preserve-html="true"><i>Optimale pour l’appareil :</i> sélectionne la résolution de cycle de pixels idéale en fonction de l’appareil utilisé pour le rendu.</li> <li data-preserve-html="true"><i>4x4:</i> Échantillonne 1/16e des pixels par passe de cycle.</li> <li data-preserve-html="true"><i>8x8:</i> Échantillonne 1/64e des pixels par passe de cycle.</li><li data-preserve-html="true"><i>bruit bleu :</i> échantillonne de manière adaptative un certain nombre de pixels et les étalent pour cibler un taux cadre objectif.</li> </ul> |
+| entier du **mode diagnostic** | Indique le mode de diagnostic pour le rendu. |
+| **Afficher l&#39;arrière-plan via le Booléen de transmission** | Une valeur true permet de voir l’image d’arrière-plan à travers la transmissive ou les objets réfractifs.   Lorsque la valeur est false, les objets transmissive affichent l’image réfractée de l’environnement de scène. |
 
 +++
 
@@ -135,17 +135,17 @@ Grâce à sa dépendance à USD, il peut exploiter le [plug-in USDFileFormat](ht
 
 |                                    |                                                                                                                                                                  |
 |------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Booléen activé** | Active/désactive le plan au sol dans la scène rendue. |
-| Flottement **Height** | Définit le décalage d’height du plan au sol.   S’il est créé, la valeur doit avoir le biais approprié intégré, en fonction de l’échelle de la scène. |
-| **Intensité de l&#39;ombre** flottante | Lorsque l’option Ombres est activée, elle contrôle l’opacité des ombres projetées sur le plan au sol, de 0,0 (aucune ombre) à 1,0 (ombres totales). |
-| **Activer les lumières locales** booléennes | Contrôle si la lumière directe des éclairages locaux contribue aux captages d’ombres. |
-| **Activer les réflexions** booléennes | Contrôle la visibilité de toutes les réflexions sur le plan au sol. |
-| **Opacité des reflets** flottant | Lorsque les reflets sont activés, cette option contrôle l’opacité des reflets, entre 0,0 (aucun reflet) et 1,0 (reflets complets). |
-| **Rugosité des reflets** Flottant | Lorsque les réflexions sont activées, cette option contrôle la rugosité du matériau du plan au sol contribuant aux réflexions, de 0,0 (brillant) à 1,0 (rugueux). |
+| **Activé** Booléen | Active/désactive le plan de sol dans la scène rendue. |
+| flottant **Height** | Définit le décalage d’height du plan du sol.   S’il est créé, le biais approprié devrait être baké dans la valeur, en fonction de l’échelle de la scène. |
+| flottant d&#39;**intensité de l&#39;ombre** | Lorsque l’option Tons foncés est activée, elle contrôle l’opacité du convertit des tons foncés sur le plan du sol, de 0,0 (aucune ombre) à 1,0 (tons foncés complets). |
+| **Activer l&#39;éclairage local** Booléen | Contrôle si la lumière directe des éclairages locaux contribue aux captages d’ombres. |
+| **Activer les reflets** Booléen | Contrôle la visibilité de toutes les réflexions sur le plan du sol. |
+| flottant d&#39;**opacité des reflets** | Lorsque les reflets sont activés, cette option contrôle l’opacité des reflets, entre 0,0 (aucun reflet) et 1,0 (reflets complets). |
+| flottant de la **rugosité des reflets** | Lorsque les réflexions sont activées, cette option contrôle la rugosité du matériau du plan du sol qui contribue aux réflexions, de 0,0 (brillant) à 1,0 (rugueux). |
 
 +++
 
-![Pathtracer GPU - Exemple 1](../../../assets/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
+![Pathtracer GPU - Exemple 1](3d-renderers.resources/3dRendererPathtracer.jpg "Pathtracer GPU - Exemple 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -159,9 +159,9 @@ Un modèle de matériau avec un soutien croissant soutenu par les principaux act
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 En savoir plus sur OpenPBR dans Designer [ici](../material-properties/material-properties.md#openpbr).
 
@@ -174,9 +174,9 @@ shader standardisé de l&#39;Adobe. Assure un aspect correct entre toutes les ap
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 L&#39;Adobe Standard Material est documenté en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
 
@@ -188,9 +188,9 @@ Un shader dédié à la visualisation des matériaux extraits des [Fichiers AxF]
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 Ce shader est actuellement un *travail en cours* et fournit un aperçu des caractéristiques des matériaux, mais il ne doit pas être utilisé pour des ajustements fins et certaines fonctionnalités ne sont toujours pas prises en charge.
 
@@ -202,9 +202,9 @@ Ce shader est actuellement un *travail en cours* et fournit un aperçu des carac
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 +++
 
@@ -242,9 +242,9 @@ Matériau PBR standard pour le modèle de Métallique rugosité. Utilise les cou
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 +++
 
@@ -254,9 +254,9 @@ Matériau PBR revêtu pour le modèle de Métallique rugosité. Utilise des cana
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 +++
 
@@ -266,34 +266,34 @@ Matériau PBR de diffusion sous la surface pour le modèle de Métallique rugosi
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 +++
 
 +++ Spéculaire Brillance
 
-Matériau PBR standard pour la Brillance Specular. Utilise les canaux Diffus, Specular et Brillance.
+Matériau PBR standard pour la Brillance Specular. Utilise des canaux de Diffuse, de Specular et de Brillance.
 
 Deux techniques sont disponibles pour visualiser les heights :
 
-<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion UV localisées.
+<b>Occlusion parallèle</b> : fausse displacement d&#39;height sans modifier la géométrie par déformation et occlusion localisées de l&#39;UV.
 
-<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les sommets le long de leurs normales.
+<b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
 +++
 
 +++ Non éclairé
 
-Ombrage de débogage non éclairé pour visualiser les textures sans éclairage. Utilise uniquement une couche de « couleur ».
+Déboguer le shader sans éclairage pour visualiser les cartes de texture sans éclairage. Utilise uniquement une couche de « couleur ».
 
 +++
 
-Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l’aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer offre également la possibilité de configurer vos propres shaders pour le rendu OpenGL [à l&#39;aide de fichiers GLSLFX](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 > 
 > Ce moteur de rendu est **obsolète** : il ne recevra pas de nouvelles fonctionnalités et sera mis hors service dans une future version de Designer.
 
-![OpenGL - Exemple 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}
+![OpenGL - Exemple 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Exemple 1"){zoomable="yes"}

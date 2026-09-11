@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gestion de contenu et de filtres personnalisés
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ En effet, les catégories et les filtres personnalisés peuvent être *spécifiq
 
 Cela signifie qu&#39;avec un ou plusieurs fichiers de projet, vous pouvez définir les dossiers dont le contenu doit être ajouté à la <b>bibliothèque</b>, ainsi que les catégories et les filtres qui trieront et organiseront ce contenu.
 
-![Contenu personnalisé dans la bibliothèque](../../../assets/library-filters.png "Contenu personnalisé dans la bibliothèque")
+![Contenu personnalisé dans la bibliothèque](managing-custom-content-and-filters.resources/library-filters.png "Contenu personnalisé dans la bibliothèque")
 
 ## Attributs du graphe
 
@@ -57,11 +57,11 @@ Les filtres sont de simples paramètres de recherche booléens (Vrai/Faux) qui e
 
 Les catégories (c’est-à-dire les dossiers) et les filtres sont créés et modifiés à l’aide des boutons suivants :
 
-<b>![](../../../assets/library-icon-new-folder.png) Ajouter un dossier :</b> Crée un dossier extensible dans la vue Bibliothèque. Vous *ne pouvez pas* créer de sous-dossiers.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) Ajouter un dossier :</b> Crée un dossier extensible dans la vue Bibliothèque. Vous *ne pouvez pas* créer de sous-dossiers.
 
-<b>![](../../../assets/library-icon-new-filter.png) Ajouter un filtre :</b> ajoute un nouveau filtre dans le dossier sélectionné. Vous *ne pouvez pas* ajouter de filtres aux dossiers par défaut existants.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) Ajouter un filtre :</b> ajoute un nouveau filtre dans le dossier sélectionné. Vous *ne pouvez pas* ajouter de filtres aux dossiers par défaut existants.
 
-<b>![](../../../assets/library-icon-edit.png) Modifier l&#39;élément :</b> Modifie le dossier ou le filtre actuellement sélectionné. Vous *ne pouvez pas* modifier les propriétés des dossiers et filtres par défaut.
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) Modifier l&#39;élément :</b> Modifie le dossier ou le filtre actuellement sélectionné. Vous *ne pouvez pas* modifier les propriétés des dossiers et filtres par défaut.
 
 Pour *supprimer* un dossier ou un filtre, *cliquez avec le bouton droit* dessus et sélectionnez l&#39;option <b>Supprimer</b> dans le menu contextuel.
 
@@ -76,7 +76,7 @@ Les <b>dossiers</b> et les <b>filtres</b> sont identifiés par les données suiv
 >
 > Il est *très* important de les configurer correctement, pour vous assurer de modifier le *projet correct* !
 
-![Édition de filtre personnalisée](../../../assets/library-filters-edit.png "Édition de filtre personnalisée")
+![Édition de filtre personnalisée](managing-custom-content-and-filters.resources/library-filters-edit.png "Édition de filtre personnalisée")
 
 Les **filtres** doivent généralement avoir *conditions* configurées pour atteindre leur objectif de filtrage. Ces conditions sont configurées en utilisant les critères suivants :
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rayures
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 11%
@@ -24,16 +24,16 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Génère un motif de mosaïque, d’angle et de bande. Le modèle s&#39;ajuste pour toujours assurer la continuité.
+Génère un motif de répétition, d’angle et de bande. Le modèle s&#39;ajuste pour toujours assurer la continuité.
 
 </td>
 </tr>
@@ -45,20 +45,20 @@ Génère un motif de mosaïque, d’angle et de bande. Le modèle s&#39;ajuste p
 
 |  |  |
 |:---|:---|
-| <b>Stripe</b> <i>1 - 100</i> | Définit le nombre de bandes. Décale automatiquement le résultat pour assurer une mosaïque. |
+| <b>Stripe</b> <i>1 - 100</i> | Définit le nombre de bandes. Décale automatiquement le résultat pour assurer la répétition. |
 | <b>Largeur</b> <i>0.0 - 1.0</i> | Définit la largeur du Stripe. |
 | <b>Lissage</b> <i>0.0 - 1.0</i> | Définit la transition des bords de bande. |
-| <b>Maj</b> <i>0 - 20</i> | Incline les bandes. Ajoute automatiquement d’autres bandes pour garantir la juxtaposition. |
+| <b>Maj</b> <i>0 - 20</i> | Incline les bandes. Ajoute automatiquement d’autres bandes pour assurer la répétition. |
 | <b>Aligner</b> <i>Bords, Centre</i> | Définit le pivot pour le déplacement. |
 | <b>Filtrage</b> <i>Faux/Vrai</i> | Active le filtrage. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/stripes-ex.gif" />
+            <img src="stripes.resources/stripes-ex.gif" />
         </td>
     </tr>
 </table>

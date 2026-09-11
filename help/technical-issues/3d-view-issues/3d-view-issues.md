@@ -7,7 +7,7 @@ helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Problèmes liés à la vue 3D
+title: Problèmes de vue 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Problèmes liés à la vue 3D
+# Problèmes de vue 3D
 
 Cette page répertorie les problèmes techniques liés à la [vue 3D](../../interface/3d-view/3d-view.md) dans Substance 3D Designer et propose des étapes de dépannage pour chacun d&#39;eux.
 
@@ -26,7 +26,7 @@ Cette page répertorie les problèmes techniques liés à la [vue 3D](../../inte
 
 **![(erreur)](../../assets/error.svg) Problème**
 
-Substance 3D Designer n&#39;utilise pas le GPU *discret* (<b>dGPU</b>) du système et utilise le GPU *intégré* (<b>iGPU</b>) à la place. Cela entraîne de faibles performances lors du rendu des graphiques et/ou de la [vue 3D](../../interface/3d-view/3d-view.md).
+Substance 3D Designer n&#39;utilise pas le GPU *discret* (<b>dGPU</b>) du système et utilise le GPU *intégré* (<b>iGPU</b>) à la place. Cela entraîne de faibles performances lors du rendu des graphes et/ou de la [vue 3D](../../interface/3d-view/3d-view.md).
 
 **![(coche)](../../assets/check.svg) Étapes recommandées**
 
@@ -97,11 +97,11 @@ Vous pouvez continuer à utiliser le moteur de rendu OpenGL par défaut, en util
 
 1. Accédez à Modifier > Préférences > Projets
 2. Sélectionnez le dernier fichier de projet dans la liste
-3. Sous la liste des fichiers de projet, sélectionnez l’onglet Vue 3D
+3. Dans la liste des fichiers de projet, sélectionnez l’onglet vue 3D
 4. Définissez l’option « Rendu par défaut » sur « OpenGL (obsolète) »
 5. Cliquez sur OK pour valider les modifications
 
-Désormais, toutes les nouvelles vues 3D utilisent le rendu OpenGL par défaut, ce qui vous permet de continuer à travailler comme auparavant.
+Désormais, toutes les nouvelles vues 3D utilisent le moteur de rendu OpenGL par défaut, ce qui vous permet de continuer à travailler comme auparavant.
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ Désormais, toutes les nouvelles vues 3D utilisent le rendu OpenGL par défaut, 
 
 **![(erreur)](../../assets/error.svg) Problème**
 
-Dans les versions 15.0.0 et ultérieures, le message « Moteur de rendu non pris en charge » s’affiche dans le coin inférieur droit de la fenêtre lors de l’utilisation des nouveaux rendus 3D (Pixellisation, Tracé GPU). La scène 3D n’est pas visible.
+Dans les versions 15.0.0 et ultérieures, le message « Rendu non pris en charge » s’affiche dans le coin inférieur droit du viewport lors de l’utilisation des nouveaux rendus 3D (Pixellisation, Tracé GPU). La Scène 3D n&#39;est pas visible.
 
 **![(coche)](../../assets/check.svg) Étapes recommandées**
 
@@ -123,20 +123,20 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) a introduit 
 
 Les GPU pris en charge incluent la série NVIDIA RTX 20 (Turing) ou une version ultérieure, conformément à la [configuration requise](../../getting-started/system-requirements/system-requirements.md) de Designer.
 
-Dans les paramètres par défaut, la vue 3D revient automatiquement au moteur de rendu OpenGL, si l&#39;option « Rendu par défaut » est définie sur « Par défaut (rendu prédéfini) » dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md).
+Dans les paramètres par défaut, la vue 3D revient automatiquement au moteur de rendu OpenGL, si l&#39;option « Rendu par défaut » est définie sur « Par défaut (moteur de rendu prédéfini) » dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md).
 
 Vous pouvez rechercher et ajuster cette option en procédant comme suit :
 
 1. Accédez à Modifier > Préférences > Projets
 2. Sélectionnez le dernier fichier de projet dans la liste
-3. Sous la liste des fichiers de projet, sélectionnez l’onglet Vue 3D
+3. Dans la liste des fichiers de projet, sélectionnez l’onglet vue 3D
 4. L’option Rendu par défaut est répertoriée dans les paramètres de l’onglet
 
 >[!NOTE]
 >
 > Seuls les GPU de la <b>série NVIDIA GTX</b> peuvent actuellement être détectés comme non pris en charge.
 > 
-> Cependant, la plupart des GPU AMD et Intel ne sont pas non plus pris en charge et produiront un rendu noir sans message. Reportez-vous à l’élément « La vue 3D est entièrement noire » ci-dessus pour obtenir des conseils sur ces GPU.
+> Cependant, la plupart des GPU AMD et Intel ne sont pas non plus pris en charge et produiront un rendu noir sans message. Reportez-vous à l’élément « vue 3D est entièrement noire » ci-dessus pour obtenir des conseils sur ces GPU.
 
 >[!IMPORTANT]
 >
@@ -156,7 +156,7 @@ Après avoir travaillé sur les données envoyées à l&#39;**Height** [sortie](
 
 Assurez-vous que les données d&#39;height sont *converties en normales* qui sont connectées à la **sortie normale** [sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
-Lors de l&#39;utilisation de la technique du **Displacement de facettisation** (voir « L&#39;objet 3D est plat » ci-dessus), les objets peuvent *se déformer* pour suivre les données d&#39;height, mais leur surface *ne réagira pas différemment à la lumière* jusqu&#39;à ce que ses *normales* soient également modifiées pour tenir compte des données d&#39;height.
+Lors de l&#39;utilisation de la technique du **Displacement de Tessellation** (voir « L&#39;objet 3D est plat » ci-dessus), les objets peuvent *se déformer* pour suivre les données d&#39;height, mais leur surface *ne réagira pas différemment à la lumière* jusqu&#39;à ce que ses *normales* soient également modifiées pour tenir compte des données d&#39;height.
 
 La solution est assez simple : connectez le dernier nœud du flux menant à la sortie Height à un nœud [Normal](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md). Ajustez le paramètre **Intensité** de ce nœud en fonction du matériau sur lequel vous travaillez et connectez le nœud Normal à la sortie **Normal**.
 
@@ -183,7 +183,7 @@ L&#39;image rendue semble floue ou pixellisée lorsque le système utilise la *m
 
 Par défaut, Designer utilise la résolution d&#39;affichage *mise à l&#39;échelle* pour définir la résolution de rendu de la [vue 3D](../../interface/3d-view/3d-view.md). Vous pouvez modifier ce paramètre afin que la résolution d&#39;affichage *native* soit utilisée à la place pour un rendu précis.
 
-Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. Dans la fenêtre [Préférences](../../interface/preferences-window/preferences-window.md), ouvrez la section **Vue 3D** et définissez le paramètre **Mise à l&#39;échelle de l&#39;aire d&#39;affichage** sur *Aucun*.
+Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. Dans la fenêtre [Préférences](../../interface/preferences-window/preferences-window.md), ouvrez la section **vue 3D** et définissez le paramètre de **mise à l&#39;échelle des Viewports** sur *Aucun*.
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
@@ -194,29 +194,29 @@ Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. 
 </tr>
 </table>
 
-## Je ne trouve pas la propriété « Facteur de facettisation »
+## Je ne trouve pas la propriété « facteur de Tessellation »
 
 **![(erreur)](../../assets/error.svg) Problème**
 
-Après la mise à niveau de Designer vers la version 15.0.0, je ne trouve plus le paramètre « Facteur de facettisation » dans les propriétés du matériau où il se trouvait auparavant.
+Après la mise à niveau de Designer vers la version 15.0.0, je ne trouve plus le paramètre « Tessellation factor » dans les propriétés du matériau où il se trouvait auparavant.
 
 **![(coche)](../../assets/check.svg) Étapes recommandées**
 
-Lors de l’utilisation des nouveaux systèmes de rendu (Pixellisation et Pathtracer GPU), le « facteur de facettisation » se trouve dans les propriétés de ces systèmes de rendu. Dans la vue 3D, accédez à <b>Rendu > Modifier les paramètres</b>. La propriété sera répertoriée dans le dock Propriétés.
+Lors de l’utilisation des nouveaux systèmes de rendu (Pixellisation et Pathtracer GPU), le « facteur de Tessellation » se trouve dans les propriétés de ces systèmes de rendu. Dans vue 3D, accédez à <b>Moteur de rendu > Modifier les paramètres</b>. La propriété sera répertoriée dans le dock Propriétés.
 
 >[!NOTE]
 >
-> L’étendue de la facettisation varie en fonction du moteur de rendu :
+> L’étendue de la tessellation varie en fonction du moteur de rendu :
 > 
 > * Pixellisation/Pathtracer GPU : une valeur unique appliquée globalement à l’ensemble de la scène.
-> * OpenGL : une valeur par matière.
-> * Iray : une valeur par maille.
+> * OpenGL : une valeur par matériau.
+> * Iray : une valeur par maillage.
 
 ## Les objets 3D ne semblent pas corrects : leur ombrage ne convient pas à l’éclairage
 
 **![(erreur)](../../assets/error.svg) Problème**
 
-L’ombrage des objets repose sur leurs vecteurs normaux, tangents et binormaux. Leurs coordonnées utilisent la plage [-1, 1], tandis que les cartes normales utilisent la plage [0, 1] dans la plupart des cas. Pour adapter les valeurs de l&#39;une à l&#39;autre, un <b>biais et une échelle</b> doivent être appliqués : value\*scale+bias.
+L&#39;ombrage des objets repose sur leurs vecteurs normaux, de tangente et de binormal. Leurs coordonnées utilisent la plage [-1, 1], tandis que les maps normal utilisent la plage [0, 1] dans la plupart des cas. Pour adapter les valeurs de l&#39;une à l&#39;autre, un <b>biais et une échelle</b> doivent être appliqués : value\*scale+bias.
 
 Par exemple, une échelle de 2 et un biais de -1 adaptent la valeur x de [0, 1] à [-1, 1], donc : x\*2-1.
 
@@ -229,9 +229,9 @@ Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont sp
 
 **![(coche)](../../assets/check.svg) Étapes recommandées**
 
-Pour les scènes exportées aux formats USD il y a un certain temps : réexportez la scène en utilisant une version récente de USD, qui inclut les données nécessaires. Faites attention aux propriétés liées à l’échelle normale et au biais, le cas échéant, qui dépendent du logiciel utilisé pour exporter la scène.
+Pour les scènes exportées aux formats USD il y a un certain temps : réexportez la scène en utilisant une version récente d’USD, qui comprendra les données nécessaires. Faites attention aux propriétés liées à l&#39;échelle normale et au biais s&#39;il y en a, qui dépendra du logiciel utilisé pour exporter la scène.
 
-Lorsque [remplace une matière](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer traite le maillage et calcule toutes les données manquantes relatives à ses normales, tangentes et binormales. Si l’échelle et le biais par défaut de Designer correspondent à ceux requis pour le maillage, le maillage semblera correct lorsqu’il sera remplacé.
+Lorsque [remplacez un matériau](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer traite le maillage et calcule toutes les données manquantes relatives à ses normales, tangentes et binormales. Si l’échelle et le biais par défaut de Designer correspondent à ceux requis pour le maillage, le maillage semblera correct lorsqu’il sera remplacé.
 
 ## Crash au démarrage de vue 3D
 

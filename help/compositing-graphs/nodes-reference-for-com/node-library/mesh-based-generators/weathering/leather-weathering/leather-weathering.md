@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure du cuir pour ajouter des motifs d'usure et des effets de vieillissement aux matériaux en cuir en fonction de la courbure du maillage.
+description: Utilisez le nœud Altération cuir pour ajouter des motifs d'usure et des effets de vieillissement aux matériaux en cuir en fonction de la courbure du maillage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Météo du cuir
+title: Altération en cuir
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 9%
 ---
 
 
-# Météo du cuir
+# Altération en cuir
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Description
 
-Il s’agit d’un effet matériel qui fonctionne sur plusieurs canaux à la fois. Il ajoute un effet d&#39;usure aléatoire du cuir, avec un contrôle de l&#39;âge et de la saleté. Elle est similaire à la [altération du tissu](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md), mais adaptée spécifiquement pour le cuir.<br>Cet effet ne fonctionne pas très bien à moins que vous n&#39;ayez branché les cartes AO et Normal d&#39;Espace monde bakées appropriées, car elles sont nécessaires pour calculer et générer correctement l&#39;ensemble.
+Il s’agit d’un effet de matériau complet qui fonctionne sur plusieurs canaux à la fois. Il ajoute un effet d&#39;usure aléatoire du cuir, avec un contrôle de l&#39;âge et de la saleté. Il est similaire à l&#39;[Altération du tissu](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md), mais adapté spécifiquement pour le cuir.<br>Cet effet ne fonctionne pas très bien à moins que vous n&#39;ayez branché les cartes AO et Normal d&#39;Espace monde bakées appropriées, car elles sont nécessaires pour calculer et générer correctement l&#39;ensemble.
 
 Assurez-vous de bien comprendre les [modes de création de liens](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) lorsque vous travaillez avec des matériaux complets.
 
@@ -47,7 +47,7 @@ Assurez-vous de bien comprendre les [modes de création de liens](https://suppor
 
 |  |  |
 |:---|:---|
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Espace normal</b> <i>Entrée couleur</i> |  |
 | <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Peut être basculé avec le paramètre « Mask ». |
 
@@ -57,7 +57,7 @@ Assurez-vous de bien comprendre les [modes de création de liens](https://suppor
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Avancé</b> |  |
 | <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
 | <b>Masquer</b> <i>Faux/Vrai</i> | Active ou désactive l&#39;utilisation de la carte de masque. |
@@ -75,14 +75,14 @@ Assurez-vous de bien comprendre les [modes de création de liens](https://suppor
 | <b>Désaturation Du Cuir Usé</b> <i>0.0 - 1.0</i> | Définit la saturation de l’aspect du cuir usé à partir des effets Age et Utilisé. |
 | <b>Luminosité du cuir usagé</b> <i>0.0 - 1.0</i> | Définit la luminosité de l’aspect en cuir usé à partir des effets Age et Utilisé. |
 | <b>Fusion</b> |  |
-| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
-| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
-| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Intensité de fusion de la normale. |
-| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
-| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
-| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Intensité de fusion de la rugosité. |
-| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Occlusion ambiante. |
-| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Height. |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Force de fusion du Diffuse. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Force de fusion de la Base color. |
+| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Force de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Force de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Force de fusion de la Brillance. |
+| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Force de fusion de la Rugosité. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Force de fusion de l’Ambient occlusion. |
+| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Force de fusion de l’Height. |
 
 ## Exemples
 

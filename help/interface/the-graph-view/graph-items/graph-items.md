@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Éléments du graphe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Les éléments de graphe sont des objets spéciaux qui vous aident à organiser 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icône de nœud de point](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Icône de nœud de point](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nœud Point (également Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[Icône ![Cadre](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[Icône ![Cadre](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Cadre
 
@@ -60,14 +60,14 @@ Regroupez les nœuds avec libellé et code couleur, puis déplacez-les facilemen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Icône de commentaire](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Icône de commentaire](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Commentaire
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Icône d&#39;épingle de navigation](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Icône d&#39;épingle de navigation](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Épingle
 

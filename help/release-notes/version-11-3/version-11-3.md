@@ -76,17 +76,17 @@ Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 Diverses améliorations ont été apportées à la qualité de vie :
 
 * **Entrées par rapport aux entrées**\
-  Les entrées de graphique définies dans Relative aux entrées héritent désormais de la taille des nœuds connectés au lieu de la taille par défaut du graphique parent. Cela facilite considérablement la gestion des différentes résolutions via des entrées de tailles différentes.
+  Les entrées de graphe définies sur Relative aux entrées hériteront désormais de la taille du nœud connecté au lieu de la taille du graphe parent par défaut. Cela facilite considérablement la gestion des différentes résolutions via des entrées de tailles différentes.
 
   ![](../../assets/relative-to-inputs.jpg){width="400px"}
 
-* **Nouvelle fenêtre graphique**\
-  La nouvelle fenêtre de graphique a été retravaillée et permet désormais de mieux voir les détails d’un modèle spécifique et de créer un graphique directement dans un package existant.
+* **Nouvelle fenêtre de graphe**\
+  La nouvelle fenêtre de graphe a été retravaillée et permet désormais de mieux voir les détails d’un modèle spécifique et de créer un nouveau graphe directement dans un pack existant.
 
   ![](../../assets/new-graph.png){width="400px"}
 
 * **Fermer tous les packages**\
-  Une petite action qui rend moins fastidieuse la gestion de nombreux packs dans l’explorateur. Utilisez **Fichier** > **Fermer tout** pour fermer tous les packs actuellement ouverts.
+  Une petite action qui rend moins fastidieux de gérer de nombreux paquets dans l&#39;explorateur. Utilisez **Fichier** > **Fermer tout** pour fermer tous les packs actuellement ouverts.
 
   ![](../../assets/close-all-packages.png)
 
@@ -94,7 +94,7 @@ Diverses améliorations ont été apportées à la qualité de vie :
   Utilisez la nouvelle icône de barre de titre **icône** ou le raccourci **MAJ+Espace** pour développer une fenêtre en plein écran. Cela peut également être utilisé sur une fenêtre flottante.
 
 * **Améliorations de la vue 3D**\
-  La vue 3D dispose de nouveaux paramètres d’affichage pour basculer entre l’affichage des faces arrière d’un modèle 3D et l’affichage des sommets, des tangentes et des bitangentes.
+  La vue 3D dispose de nouveaux paramètres d’affichage pour basculer entre l’affichage des faces arrières sur un mannequin 3D et l’affichage des Vertex, des Tangentes et des bitangents.
 
 ### Contenu
 
@@ -102,8 +102,8 @@ Diverses améliorations ont été apportées à la qualité de vie :
 
 Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour le nœud Rendu PBR :
 
-* <b>Nœuds de diffusion</b>\
-  Les nouveaux nœuds de couleur de diffusion, de niveaux de gris de diffusion et de diffusion UV permettent de générer des flous de saignement doux à partir d’un masque d’entrée.
+* <b>Nœuds de Diffusion</b>\
+  Les nouveaux nœuds d’UV Couleur de Diffusion, Gris de Diffusion et Diffusion permettent de générer des flous de débordement légers à partir d’un masque d’entrée.
 
   ![](../../assets/diffusion-normal.jpg){width="230px"}
 
@@ -111,11 +111,11 @@ Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour 
 
 * **Nœud de Rendu PBR amélioré**\
   Ce nœud a subi les modifications suivantes :
-  * Nouveau mode UV cubique pour la forme sphère.
-  * Prise en charge de la diffusion de surface.
-  * L&#39;Anisotropie suit maintenant le modèle Adobe Strand Material 5ASM).
+  * Nouveau mode UV cubique pour la forme Sphère.
+  * Nouvelle prise en charge de la Subsurface scattering.
+  * L’Anisotropie suit désormais le modèle du Matériau de toron d’Adobe (5ASM).
   * L’éclairage basé sur l’image a été amélioré grâce à l’échantillonnage de l’importance.
-  * L’éclairage émissif a été amélioré grâce à l’échantillonnage de l’importance.
+  * L’éclairage de l’Emissive a été amélioré grâce à l’échantillonnage de l’importance.
 
 ## Notes de mise à jour
 
@@ -126,80 +126,80 @@ Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour 
 **Ajouté :**
 
 * [Modèles de Substance] Ajout d’info-bulles pour les paramètres des nœuds
-* [Modèles de Substance] Permet d&#39;afficher dans l&#39;incrustation dans la fenêtre 3D le résultat d&#39;un nœud intermédiaire
+* [Modèles de Substance] Permet d&#39;afficher en superposition dans le viewport 3D le résultat d&#39;un nœud intermédiaire
 * [Modèles de Substance] Amélioration de l’affichage des bases
-* [Modèles de Substance] Conservez la hiérarchie des objets lors de l’exportation d’un graphique de modèle de Substance au format .fbx
-* [Modèles de Substance] Prise en charge de plusieurs matériaux dans l’exportation FBX/OBJ à partir du graphique Modèle de Substance
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de particule
-* [Modèles de Substance]&#x200B;[Contenu] Nœud Transformation générative
+* [Modèles de Substance] Conservez la hiérarchie des objets lors de l’exportation d’un Graphe Substance model au format .fbx
+* [Modèles de Substance] Prise en charge de plusieurs matériaux lors de l’exportation FBX/OBJ à partir du Graphe Substance model
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de Particule
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de Transforme générative
 * [Modèles de Substance]&#x200B;[Contenu] Nœud Motif organique
 * [Modèles de Substance]&#x200B;[Contenu] Particules du nœud Instances
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de taille des particules
+* [Modèles de Substance]&#x200B;[Contenu] Nœud d&#39;élagage de Particule
 * [Modèles de Substance]&#x200B;[Contenu] Nœud de tour
 * [Modèles de Substance]&#x200B;[Contenu] Nœud Shell
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de projection
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de Projection
 * [Modèles de Substance]&#x200B;[Contenu] Nœud de rognage de courbe
 * [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Curve Sampler
-* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Mesh Sampler
-* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud de variation
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Sampler du Maillage
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud de Variation
 * [UX] Bouton pour agrandir la vue actuelle
-* [UX] Mettre à jour la fenêtre Nouveau graphique
+* [UX] Mettre à jour la fenêtre Nouveau Graphe
 * [UX] Ajouter l&#39;option « Télécharger le lecteur » dans le menu Outils et l&#39;agréger avec « Localiser le lecteur »
 * [UX] Ajouter l’entrée « Tout fermer » au menu Fichier
 * [UX] Appliquer la même casse dans tout le menu principal
-* [UX] Afficher automatiquement les propriétés des éléments de graphique dupliqués
-* [UX] Ajoutez des boutons dans la barre d’outils du graphique pour désactiver la taille d’écran constante pour les titres d’image / commentaires / épingles
+* [UX] Afficher automatiquement les propriétés des éléments de graphe dupliqués
+* [UX] Ajoutez des boutons dans la barre d’outils graphe pour désactiver la taille d’écran constante pour les titres / commentaires / Épingles du Cadre
 * [UX] Boutons pour copier les informations de version dans le Presse-papiers dans la boîte de dialogue À propos
-* [Matières] Entrées relatives aux entrées
-* [Contenu] Ajout de l’option Limites sur les bruits Perlin 3D
-* [Contenu] Nouveau nœud de processus de diffusion
+* [Matériaux] Entrées relatives aux entrées
+* [Contenu] Ajout de l’option « Répétition » sur les Bruits Perlin 3D
+* [Contenu] Nouveau nœud de processus de Diffusion
 * [Contenu] Nouvelle version du nœud de Rendu PBR
 * [Interopérabilité] Recevoir SBS et SBSAR de Sampler
 * [Interopérabilité] Envoyer SBSM à Stager
-* [Vue 3D] Ajout d’une option pour désactiver l’abattage du dos
-* [Vue 3D] Ajout d’une option pour afficher l’espace tangent des sommets
-* [Explorateur] Mettre en surbrillance le graphique dans l’Explorateur lorsque vous double-cliquez sur l’arrière-plan de la vue Graphique
-* [Explorer] Supprimer l’option « Explorer » dans les menus contextuels
-* [Boulangers] Masquer les boulangers obsolètes
-* [Gestion des couleurs] Ajout de la prise en charge des règles du fichier de configuration OCIO v2
-* [Bibliothèque] Renommer les catégories en fonction des types de graphiques
-* [Préférences] Désactivez automatiquement le processeur dans les préférences matérielles d’Iray si un GPU CUDA pris en charge est détecté
+* [vue 3D] Ajout d’une option pour désactiver backface culling
+* [vue 3D] Ajout d’une option pour afficher l’espace de tangente du Vertex
+* [Explorateur] Mettez en surbrillance le graphe dans l’Explorateur lorsque vous double-cliquez sur l’arrière-plan de la Vue du graphe
+* [Explorateur] Supprimer l’option « Explorer » dans les menus contextuels
+* [Bakers] Masquer les bakers obsolètes
+* [Gestion des couleurs] Prise en charge des règles du fichier de configuration OCIO v2
+* [Bibliothèque] Renommer les catégories en fonction des types de graphe
+* [Préférences] Désactivez automatiquement le processeur dans les préférences de Périphériques pour Iray si un GPU CUDA pris en charge est détecté
 
 **Fixe :**
 
-* [Modèles de Substance] Blocage sur Mac lors de l’utilisation de l’option « as sudb » sur .fbx
-* [Modèles de Substance] Blocage lors de l’exportation vers SBSM dans un cas spécifique
-* [Modèles de Substance] Échec de l’exportation lors de l’exportation des paramètres exposés dont les widgets n’ont jamais été créés
-* [Modèles de Substance] Blocage aléatoire lors de l’ouverture d’un graphique faisant référence à plusieurs fichiers .fbx
-* [modèles de Substance] Les plages ne sont pas appliquées dynamiquement dans les widgets des paramètres exposés
-* [Modèles de Substance] L’option Recharger le filet ne fonctionne pas sur les ressources utilisées dans le graphique des modèles de Substance
-* [Modèles de Substance] Les scènes ne s’affichent pas dans une vue 3D disponible dans un cas spécifique
-* [UI] La zone de désactivation est trop grande dans les options de matière
+* [modèles de Substance] Crash sur Mac lors de l’utilisation de l’option « as sudb » sur .fbx
+* [modèles de Substance] Crash lors de l’exportation vers SBSM dans un cas spécifique
+* [Modèles de Substance] Échec de l’exportation lors de l’exportation de paramètres exposés dont les widgets n’ont jamais été créés
+* [Modèles de Substance] crash aléatoire lors de l’ouverture d’un graphe faisant référence à plusieurs fichiers .fbx
+* [Modèles de Substance] Les plages ne sont pas appliquées dynamiquement dans les widgets de paramètre exposé
+* [Modèles de Substance] L’option Recharger le maillage ne fonctionne pas sur les ressources utilisées dans le graphe des modèles de Substance
+* [modèles de Substance] les Scènes ne sont pas affichées dans une vue 3D disponible dans un cas spécifique
+* [UI] La zone Désactiver est trop grande dans les options de matériau
 * [UI] Problème de style dans la boîte de dialogue « Fichier de package non enregistré »
 * [UI] Appuyez deux fois sur la touche de tabulation pour naviguer entre les valeurs.
-* [UI] Le zoom avec la souris est inversé entre la vue 3D et les autres fenêtres.
+* [UI] Le zoom avec le glissement de la souris est inversé entre vue 3D et les autres Viewports
 * [UI] Le chargement d’un fichier SBS déjà ouvert à l’aide de la liste « Fichiers récents » déclenche une invite « Package introuvable »
 * [UI]&#x200B;[macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
 * [UI] Les packages ne peuvent pas être enregistrés à la racine d’un lecteur (Windows uniquement)
-* [Graphique] L’option « Afficher automatiquement dans la vue 2D » est incohérente dans un cas spécifique.
-* [Graphique] L&#39;option « Ouvrir la référence » est disponible pour les nœuds d&#39;instance SBSAR
-* [Graphique] Les propriétés des épingles ne s’affichent que lors de la création d’un élément
-* [Graphique] Les règles de chaîne d’épingles sont appliquées de manière incohérente
-* [Graphique] Blocage lors de l’enregistrement d’un graphique vide
-* [Vue 3D] L’angle d’Anisotropie est inversé dans le shader ASM
-* [Vue 3D] ASM Shader : problèmes de linéarisation avec les mappages associés à SSS
-* [Vue 3D] Rendu OpenGL rompu après la fermeture de vues 3D supplémentaires dans un cas spécifique
-* [Vue 3D] Les positions de caméra prédéfinies ne sont pas correctes dans la vue 3D avec certains fichiers .fbx
-* [MDL] L’option « Ajouter un nœud » du menu contextuel ne fonctionne pas pour les graphiques MDL.
+* [Graphe] L’option « Afficher automatiquement dans vue 2D » est incohérente dans un cas spécifique.
+* [Graphe] L’option « Ouvrir la référence » est disponible pour les instanciers SBSAR
+* [Graphe] Les propriétés d’Épingle ne s’affichent que lors de la création de l’élément
+* [Graphe] Les règles de chaîne d&#39;Épingle sont appliquées de manière incohérente
+* [Graphe] Crash lors de l’enregistrement d’un graphe vide
+* [vue 3D] Anisotropy angle inversée dans ASM shader
+* [vue 3D] Shader ASM : problèmes de linéarisation avec les cartes liées à SSS
+* [vue 3D] Rendu OpenGL rompu après la fermeture de vues 3D supplémentaires dans un cas spécifique
+* [vue 3D] Les positions des caméras prédéfinies ne sont pas correctes dans la vue 3D avec certains fichiers .fbx
+* [MDL] L’option « Ajouter un nœud » du menu contextuel ne fonctionne pas pour les Graphes MDL
 * [MDL] Bogue : la connexion du nœud échoue lors de l’utilisation de composants float2.x et similaires (SD 11.1.2)
-* [MDL] Blocage lors de l’ouverture d’un fichier .sbs spécifique
-* [MDL] Unités de scène par mètre en iris non définies au début de la session de rendu
-* [MDL] Se bloque lors de l’ajustement d’un nœud LDAP dans le graphique MDL
+* [MDL] Crash à l’ouverture du fichier specific.sbs
+* [MDL] Unités de Scène par mètre en Iray non définies au début de la session de rendu
+* [MDL] Se bloque lors de l’ajustement d’un nœud lerp dans le Graphe MDL
 * [MDL] Ordre des paramètres dans le code MDL exporté
-* [Explorer] un dossier de ressources vide est créé après l&#39;annulation de la création de la ressource
-* [Explorateur] Seul le premier élément d’un package peut être déplacé vers le bas de la liste
-* [Content] RT Bent Normal et RT AO déclenchent le calcul des nœuds dans les graphiques imbriqués
-* [Nœud d’entrée] Le bitmap dans Nœuds d’entrée n’est pas mis à jour lorsque l’UDIM est modifié
-* [Iray] L’affichage d’une scène de modèles de Substance avec de nombreuses instances prend beaucoup de temps
+* [Explorateur] un dossier de ressources vide est créé après l&#39;annulation de la création de la ressource
+* [Explorateur] Seul le premier élément d’un pack peut être déplacé au bas de la liste
+* [Content] RT Bent Normal et RT AO déclenchent un calcul de nœud dans les graphes imbriqués
+* [Noeud d&#39;entrée] Le bitmap dans Noeud d&#39;entrée n’est pas mis à jour lorsque l’UDIM change
+* [Iray] L&#39;affichage d&#39;une Scène de modèles de Substance de données avec beaucoup d&#39;instances prend beaucoup de temps
 * [Préférences] Ligne vide lors de l’annulation de l’ajout d’un fichier de projet
 * [Éditeur Python] L’option « Fermer » reste activée après la fermeture du dernier script et inclut toujours son nom e

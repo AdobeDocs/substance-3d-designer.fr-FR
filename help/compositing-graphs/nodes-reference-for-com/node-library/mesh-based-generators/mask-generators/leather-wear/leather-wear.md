@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Ce masque représente l&#39;usure avec un motif en cuir, avec plus d&#39;usure sur les bords en fonction de la Courbure. Son fonctionnement est similaire à celui de l&#39;[Edge Wear fibre de verre](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) et ses paramètres sont généralement identiques.
 
@@ -48,7 +48,7 @@ Ce masque représente l&#39;usure avec un motif en cuir, avec plus d&#39;usure s
 |  |  |
 |:---|:---|
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour le placement des contours. Obligatoire ! |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour occlure certaines zones. Recommandé, mais pas obligatoire. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour occlure certaines zones. Recommandé, mais pas obligatoire. |
 | <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> | Emplacement d&#39;entrée de mappage Usure/salissures facultatif qui peut être basculé via le paramètre « Utiliser l&#39;Usure/salissures personnalisée ». |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
@@ -62,7 +62,7 @@ Ce masque représente l&#39;usure avec un motif en cuir, avec plus d&#39;usure s
 | <b>Contraste d&#39;usure</b> <i>0.0 - 1.0</i> | Définit le contraste de l’effet. |
 | <b>Quantité Usure/salissures</b> <i>0.0 - 1.0</i> | Définit la quantité d’usure/salissures (motif de cuir par défaut) à mélanger entre les contours. |
 | <b>Masquage d&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit la mesure dans laquelle l’OA masque les effets d’usure. |
-| <b>Épaisseur de la Courbure</b> <i>0.0 - 1.0</i> | Définit la mesure dans laquelle les contours de la courbure affectent le résultat final. Même si la valeur est définie sur 0, vous avez toujours besoin d&#39;une courbe de courbure. |
+| <b>Épaisseur de la Courbure</b> <i>0.0 - 1.0</i> | Définit la mesure dans laquelle les contours de la courbure affectent le résultat final. Même si la valeur est définie sur 0, vous avez toujours besoin d’une map curvature. |
 | <b>Utiliser l&#39;Usure/salissures personnalisée</b> <i>Faux/Vrai</i> | Permet de remplacer le motif en cuir par défaut intégré. Utilisez plutôt un emplacement d’entrée personnalisé. |
 
 ## Exemples

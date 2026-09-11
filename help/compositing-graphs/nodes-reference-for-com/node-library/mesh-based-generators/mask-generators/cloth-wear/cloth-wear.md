@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Le masque représente les bords effilochés sur les matériaux en tissu. Il utilise une carte de hauteur de détail de tissu qui détermine la plupart de l&#39;aspect ; sans une carte appropriée, l&#39;effet semble très basique.
+Le masque représente les bords effilochés sur les matériaux de tissu. Il utilise une carte de hauteur de détail de tissu qui détermine la plupart de l&#39;aspect ; sans une carte appropriée, l&#39;effet semble très basique.
 
 </td>
 </tr>
@@ -47,9 +47,9 @@ Le masque représente les bords effilochés sur les matériaux en tissu. Il util
 
 |  |  |
 |:---|:---|
-| <b>Height de tissu</b> <i>Entrée en niveaux de gris</i> | Height pour le motif de tissu uniquement. Il ne s’agit pas de l’height de votre objet (cuit), mais plutôt d’un motif de détail en mosaïque. |
+| <b>Height de tissu</b> <i>Entrée en niveaux de gris</i> | Height pour le motif de tissu uniquement. Il ne s’agit pas de l’height de votre objet (baké), mais plutôt d’un motif de détail de répétition. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
-| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Courbure cuite/générée pour déterminer les bords relevés. |
+| <b>Courbure</b> <i>Entrée en niveaux de gris</i> | courbure bakée/générée pour déterminer les bords relevés. |
 
 <a name="parameters"></a>
 

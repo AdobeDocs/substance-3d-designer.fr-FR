@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
-description: Utilisez le filtre Flou en niveaux de gris MLV pour appliquer des effets de flou directionnel à des textures en niveaux de gris afin de créer des aspects dynamiques.
+description: Utilisez le filtre Flou en niveaux de gris MLV pour appliquer des effets de flou directionnel aux textures en niveaux de gris afin de créer des aspects dynamiques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV grayscale
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-MLV signifie <b>&#39;Moyenne de moindre écart&#39;</b>. Ce filtre améliore les contours et lisse le bruit dans une image.
+MLV signifie <b>&#39;Moyenne de moindre écart&#39;</b>. Ce filtre améliore les contours et lisse le bruit d’une image.
 
 Le filtre recherche les zones structurantes d’une image et les utilise pour la rendre plus nette et l’aplatir. Dans certains cas, cela peut entraîner des marches le long de dégradés plus larges que les zones de structuration.
 
@@ -67,11 +67,11 @@ Le filtre recherche les zones structurantes d’une image et les utilise pour la
 
 |  |  |
 |:---|:---|
-| <b>Intensité</b> *Flotter* | Force du filtrage appliqué à l’image.<br><br>Des valeurs plus élevées lissent les détails et accentuent le bruit des zones plus plates. |
-| <b>Smoothness</b> *Flotter* | Intensité du lissage appliqué aux zones de structuration, ce qui produit des zones plus arrondies et réduit l’effet de pas qui peut se produire à des intensités de filtrage plus élevées. |
-| <b>Critère</b> *Nombre entier* | Critère utilisé pour sélectionner les valeurs qui définiront les zones de structuration de l’image.<br><br>En d&#39;autres termes, comment les pixels doivent être *regroupés* en zones qui doivent être lissées.<br><br>*- Variance :* Sélectionnez les valeurs avec la plus faible dispersion autour de la moyenne, ce qui entraîne des clusters de pixels similaires les uns aux autres <br>*- Coefficient de variation :* Sélectionnez des valeurs tout en tenant compte de la moyenne, ce qui entraîne inversement une moindre variation dans les zones plus lumineuses |
+| <b>Intensité</b> *Flottant* | Force du filtrage appliqué à l’image.<br><br>Des valeurs plus élevées lissent les détails et accentuent le bruit des zones plus plates. |
+| <b>Smoothness</b> *Flottant* | Intensité du lissage appliqué aux zones de structuration, ce qui produit des zones plus arrondies et réduit l’effet de pas qui peut se produire à des intensités de filtrage plus élevées. |
+| <b>Critère</b> *Entier* | Critère utilisé pour sélectionner les valeurs qui définiront les zones de structuration de l’image.<br><br>En d&#39;autres termes, comment les pixels doivent être *regroupés* en zones qui doivent être lissées.<br><br>*- Variance :* Sélectionnez les valeurs avec la plus faible dispersion autour de la moyenne, ce qui entraîne des clusters de pixels similaires les uns aux autres <br>*- Coefficient de variation :* Sélectionnez des valeurs tout en tenant compte de la moyenne, ce qui entraîne inversement une moindre variation dans les zones plus lumineuses |
 | <b>Gaussien</b> *Booléen* | Utilisez une distribution gaussienne pour regrouper les pixels dans des zones de structuration.<br><br>Lorsque la valeur est True, les zones sont plus lisses et l&#39;effet d&#39;aplatissement est réduit. |
-| <b>Itérations</b> *Nombre entier* | Nombre d’exécutions du filtre, chaque itération s’appliquant au résultat de la précédente.<br><br>Plus d&#39;itérations entraînent des zones de structuration plus plates et plus nettes. |
+| <b>Itérations</b> *Entier* | Nombre d’exécutions du filtre, chaque itération s’appliquant au résultat de la précédente.<br><br>Plus d&#39;itérations entraînent des zones de structuration plus plates et plus nettes. |
 
 ## Exemples
 

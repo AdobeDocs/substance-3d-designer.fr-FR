@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Identique à la passe-haut, mais sans désaturer le résultat final.
 
-Voir également [Passe-haut de luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) pour une version plus avancée.
+Voir également [Passe-haut de Luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) pour une version plus avancée.
 
 </td>
 </tr>

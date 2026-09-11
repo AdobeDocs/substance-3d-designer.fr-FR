@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Tons foncés (nœud de filtre)
+title: Tons foncés (Noeud de filtrage)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# Tons foncés (nœud de filtre)
+# Tons foncés (Noeud de filtrage)
 
 <table>
 <tr style="border: 0;">

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Scratches directionnels pour créer des motifs de rayures directionnels afin d'ajouter des effets d'usure et d'endommagement aux matériaux.
+description: Utilisez le nœud Scratches directionnels pour créer des motifs de rayures directionnels afin d’ajouter des effets d’usure et d’endommagement aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional scratches
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![Rayures directionnelles - Icône](directional-scratches.resources/directional_scratches.png "Rayures directionnelles - Icône"){width="200px"}
 
-<b>Entrée :</b> Générateurs de textures > Bruits
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,7 +45,7 @@ Diffusion aléatoire de motifs de rayures avec un angle et une taille réglables
 
 |  |  |
 |:---|:---|
-| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est une image bitmap en niveaux de gris. |
+| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est un bitmap en niveaux de gris. |
 
 <a name="parameters"></a>
 
@@ -53,17 +53,17 @@ Diffusion aléatoire de motifs de rayures avec un angle et une taille réglables
 
 |  |  |
 |:---|:---|
-| <b>Échelle</b> <i>Nombre entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est important et plus le bruit est dense. |
-| <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Désorganiser l&#39;anisotropie</b> <i>Flotter</i> | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>Désorganiser l&#39;angle d&#39;anisotropie</b>. |
-| <b>Désorganiser l&#39;anisotropy angle</b> <i>Flotter</i> | Contrôle la direction du displacement appliqué par le paramètre <b>Disorder</b>, lorsque le paramètre <b>Disorder anisotropie</b> n&#39;est pas nul. |
-| <b>Angle</b> <i>Flotter</i> | Angle utilisé pour définir la direction des rayures, en nombre de tours et en partant de l’horizontale vers la droite. |
-| <b>Angle aléatoire</b> <i>Flotter</i> | Quantité maximale de variation aléatoire appliquée à la valeur <b>Angle</b>, en nombre de tours. |
-| <b>Quantité du motif</b> <i>Flotter</i> | Multiplicateur de la quantité de motifs de travail diffusés. |
-| <b>Taille du motif</b> <i>Float2</i> | Taille du cadre de sélection du motif de travail.    La valeur Y contrôle la longueur maximale des rayures. |
-| <b>Taille aléatoire du motif</b> <i>Float2</i> | Multiplicateur de la réduction aléatoire d’échelle appliquée aux rayures.    La valeur Y l’applique à la longueur des rayures. |
-| <b>Décalage de mosaïque</b> <i>Float2</i> | Définit la position de la partie du plan infini utilisée pour le rendu du bruit. |
+| <b>Échelle</b> <i>Entier</i> | Subdivision de la grille utilisée pour générer les éléments de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est élevé et plus le bruit est dense. |
+| <b>Désordre</b> <i>Flottant</i> | Déplace les ingrédients du bruit.    Cela permet d’animer le bruit. |
+| <b>Désorganiser la vitesse</b> <i>Flottant</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Désorganiser l&#39;anisotropie</b> <i>Flottant</i> | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>anisotropy angle de désordre</b>. |
+| <b>Désorganiser l&#39;anisotropy angle</b> <i>Flottant</i> | Contrôle la direction du displacement appliqué par le paramètre <b>Disorder</b>, lorsque le paramètre <b>Disorder anisotropie</b> n&#39;est pas nul. |
+| <b>Angle</b> <i>Flottant</i> | Angle utilisé pour définir la direction des rayures, en nombre de tours et en partant de l’horizontale vers la droite. |
+| <b>Angle aléatoire</b> <i>Flottant</i> | Quantité maximale de variation aléatoire appliquée à la valeur <b>Angle</b>, en nombre de tours. |
+| <b>Quantité du motif</b> <i>Flottant</i> | Multiplicateur de la quantité de motifs de travail diffusés. |
+| <b>Taille du motif</b> <i>Flottant 2</i> | Taille du cadre de sélection du motif de travail.    La valeur Y contrôle la longueur maximale des rayures. |
+| <b>Taille aléatoire du motif</b> <i>Flottant 2</i> | Multiplicateur de la réduction aléatoire d’échelle appliquée aux rayures.    La valeur Y l’applique à la longueur des rayures. |
+| <b>Décalage de mosaïque</b> <i>Flottant 2</i> | Définit la position de la partie du plan infini utilisée pour le rendu du bruit. |
 | <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples

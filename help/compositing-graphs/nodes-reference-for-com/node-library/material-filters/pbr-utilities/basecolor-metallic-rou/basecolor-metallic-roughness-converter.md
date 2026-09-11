@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Convertisseur de rugosité métallique de couleur de base pour convertir entre différents formats de matériau et workflows PBR.
+description: Utilisez le nœud BaseColor Métallique rugosité Converter pour effectuer la conversion entre différents formats et workflows de matériau PBR.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > BaseColor  Metallic  Roughness converter
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Convertisseur de rugosité métallique de couleur de base
+title: Convertisseur de Métallique rugosité de couleur de base
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Convertisseur couleur de base/métallique/rugosité
+# Convertisseur couleur de base/Métallique/Rugosité
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Description
 
-Ce nœud convertit les cartes de couleur de base, de métal et de rugosité en différentes sorties de modèle PBR, telles que le modèle de Specular/brillance. Certaines des cibles de sortie incluses sont des moteurs de rendu bien connus tels que Vray, Corona, Redshift, Renderman et Arnold.
+Ce nœud convertit les mappages de couleur de base, Métallique et de Rugosité en différentes sorties de modèle PBR, telles que le modèle Specular/Brillance. Certaines des cibles de sortie incluses sont des moteurs de rendu bien connus tels que Vray, Corona, Redshift, Renderman et Arnold.
 
-Ceci est utile si vous avez des graphiques ou des matériaux qui sont réalisés avec un modèle de PBR, alors que votre cible nécessite un modèle différent.
+Ceci est utile si vous avez des graphes ou des matériaux qui sont faits avec un modèle de PBR, alors que votre cible nécessite un modèle différent.
 
 </td>
 </tr>

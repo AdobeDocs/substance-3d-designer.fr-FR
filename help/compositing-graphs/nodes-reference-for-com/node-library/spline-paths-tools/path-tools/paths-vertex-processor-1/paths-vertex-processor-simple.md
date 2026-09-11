@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Applique une transformation sur la position des sommets de l&#39;entrée <b>Tracés</b>.
+Applique une transformation sur la position des vertex de l&#39;entrée <b>Tracés</b>.
 
 1. Modifier la fonction du paramètre <b>Fonction par sommet</b> ;
 1. Utilisez un nœud <b>Get Flottant 2</b> dans la variable *vertex.pos* ;
@@ -70,7 +70,7 @@ Vous pouvez également accéder aux variables *vertex.corner* (bool) et *path.id
 
 |  |  |
 |:---|:---|
-| <b>Tracés</b> <i>Couleur</i> | Les tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
+| <b>Tracés</b> <i>Couleur</i> | Les Tracés transformés. Vous pouvez utiliser [Prévisualiser les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) pour vous faire une idée de ce que le résultat représente, utiliser un autre nœud de traitement des tracés ou l&#39;entrer dans un [Tracés de la spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) pour continuer à le traiter en tant que splines. |
 
 <a name="parameters"></a>
 
@@ -78,8 +78,8 @@ Vous pouvez également accéder aux variables *vertex.corner* (bool) et *path.id
 
 |  |  |
 |:---|:---|
-| <b>Nombre d&#39;entrées d&#39;image</b> <i>Nombre entier</i> | Nombre de connecteurs d&#39;entrée <b>Entrée #</b> visibles pour connecter des images qui doivent être échantillonnées dans la fonction de paramètre <b>Fonction par sommet</b>.<br>Une fois que vous avez terminé de configurer tous les échantillons souhaités, vous pouvez masquer les épingles inutilisées en réduisant la valeur de ce paramètre à 0.<br>Si vous avez besoin de plus d&#39;entrées, utilisez plutôt le [processeur de Vertex Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). |
-| <b>Fonction par sommet</b> <i>Float2</i> | Fonction appliquée à chaque sommet. Doit renvoyer la nouvelle position du sommet.<br>Consultez la section <b>Description</b> de cette page pour plus d&#39;informations. |
+| <b>Nombre d&#39;entrées d&#39;image</b> <i>Entier</i> | Nombre de connecteurs d&#39;entrée <b>Entrée #</b> visibles pour connecter des images qui doivent être échantillonnées dans la fonction de paramètre <b>Fonction par sommet</b>.<br>Une fois que vous avez terminé de configurer tous les échantillons souhaités, vous pouvez masquer les épingles inutilisées en réduisant la valeur de ce paramètre à 0.<br>Si vous avez besoin de plus d&#39;entrées, utilisez plutôt le [processeur de Vertex Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). |
+| <b>Fonction par sommet</b> <i>Flottant 2</i> | Fonction appliquée pour chaque vertex. Doit renvoyer la nouvelle position de vertex.<br>Consultez la section <b>Description</b> de cette page pour plus d&#39;informations. |
 
 ## Exemples
 

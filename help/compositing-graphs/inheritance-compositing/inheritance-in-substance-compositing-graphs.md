@@ -77,12 +77,12 @@ Les méthodes d&#39;Héritage sont appliquées pour les [paramètres de base](..
 * **Mode de répétition**
 * **Générateur aléatoire**
 
-Cela devrait vous permettre d&#39;apprécier l&#39;impact que les modifications apportées au nœud *one* peuvent avoir sur la résolution, la précision et le comportement de mosaïque de *tous les nœuds en aval* de celui-ci.
+Cela devrait vous permettre d&#39;évaluer l&#39;impact que les modifications apportées au nœud *one* peuvent avoir sur la résolution, la précision et le comportement de répétition de *tous les nœuds en aval* de celui-ci.
 
 >[!WARNING]
 >
-> Rappel important pour comprendre les concepts abordés dans cette page : un *nœud d&#39;instance* est un [nœud représentant un graphique dans un autre graphique](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), avec ses *propres valeurs de paramètres discrets*, d&#39;où le terme *instance*.\
-> Par exemple, deux nœuds de [bruit de Perlin](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md) dans un même graphique sont des représentations d&#39;un graphique source *identique* (`perlin_noise` dans `noise_perlin_noise.sbs`) avec leurs *propres ensembles* de valeurs de paramètre.
+> Rappel important pour comprendre les concepts abordés dans cette page : un *instancier* est un [nœud représentant un graphe dans un autre graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), avec ses *valeurs de paramètre distinctes*, d&#39;où le terme *instance*.\
+> Par exemple, deux nœuds de bruit [Perlin](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md) dans un même graphe sont des représentations d&#39;un graphe source *identique* (`perlin_noise` dans `noise_perlin_noise.sbs`) avec leurs *propres ensembles* de valeurs de paramètre.
 
 >[!NOTE]
 >
@@ -93,18 +93,18 @@ Cela devrait vous permettre d&#39;apprécier l&#39;impact que les modifications 
 
 ### Modification des méthodes d’héritage
 
-Dans le panneau Propriétés, tous les paramètres répertoriés dans la section [Paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) des propriétés d&#39;un nœud disposent d&#39;un bouton déroulant (icône) <b>Définir la méthode d&#39;héritage</b> en regard de leur libellé.\
+Dans le panneau Propriétés, tous les paramètres répertoriés dans la section [Paramètres de base](../../compositing-graphs/graph-parameters/graph-parameters.md) des propriétés d&#39;un nœud disposent d&#39;un bouton déroulant <b>Définir la méthode d&#39;héritage</b> (icône) en regard de leur libellé.\
 Ce bouton permet de sélectionner la méthode d&#39;héritage à utiliser pour un paramètre.
 
 ![Modification de la méthode d&#39;héritage](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Modification de la méthode d&#39;héritage"){width="512px"}
 
-Dans la plupart des cas, les paramètres de base d&#39;un *nœud* sont définis sur *Relatif à l&#39;entrée*, pour tirer parti du comportement procédural de l&#39;enchaînement des nœuds, tandis que les paramètres de base d&#39;un *graphe* sont définis sur *Relatif au parent*, de sorte que les paramètres globaux peuvent s&#39;adapter au contexte dans lequel le graphique est utilisé.
+Dans la plupart des cas, les paramètres de base d&#39;un *nœud* sont définis sur *Relatif à l&#39;entrée*, pour tirer parti du comportement procédural de l&#39;enchaînement des nœuds, tandis que les paramètres de base d&#39;un *graphe* sont définis sur *Relatif au parent*, de sorte que les paramètres globaux peuvent s&#39;adapter au contexte dans lequel le graphe est utilisé.
 
 ### MODIFICATION DES VALEURS HÉRITÉES
 
 Certains paramètres de base, tels que [Taille de sortie](../../compositing-graphs/output-size/output-size.md), Taille de pixel ou Générateur aléatoire, peuvent être modifiés *par rapport à la valeur héritée*.
 
-Par exemple, lorsque le paramètre Taille de la sortie utilise une méthode d&#39;héritage *Relative à...*, une valeur ou `(1, -1)` signifie une puissance de deux résolutions *au-dessus* de la valeur héritée pour X et une puissance de deux résolutions *au-dessous* de la valeur héritée pour Y, par exemple :
+Par exemple, lorsque le paramètre Taille de sortie utilise une méthode d&#39;héritage *Relative à...*, une valeur ou `(1, -1)` signifie une puissance de deux résolutions *au-dessus* de la valeur héritée pour X et une puissance de deux résolutions *au-dessous* de la valeur héritée pour Y, par exemple :
 
 * Valeur héritée : `(9, 9)` qui est `2^9, 2^9 = 512, 512`
 * Valeur relative : `(1, -1)` qui est `2^(9+1), 2^(9-1) = 256, 1024`
@@ -114,17 +114,17 @@ Par exemple, lorsque le paramètre Taille de la sortie utilise une méthode d&#3
 > La page [Taille de sortie](../../compositing-graphs/output-size/output-size.md) approfondit ce paramètre de base critique et il est recommandé de la lire pour comprendre comment la résolution finale d&#39;un nœud est calculée.
 
 Si une fonction est appliquée à un paramètre Base, le résultat de la fonction sera également interprété à l&#39;aide de la méthode d&#39;héritage du paramètre.\
-En gardant à l&#39;esprit l&#39;exemple Taille de sortie, une fonction visant à augmenter de deux fois la résolution héritée en X et Y doit générer la valeur `(2, 2)` Integer2.
+En gardant à l&#39;esprit l&#39;exemple Taille de sortie, une fonction visant à augmenter de deux fois la résolution héritée en X et Y doit générer la valeur `(2, 2)` Entier 2.
 
-## Parenté des nœuds et des graphiques
+## Parenté des nœuds et des graphes
 
-Lors de l’utilisation de la méthode Héritage relatif au parent, vous devez comprendre ce qu’est exactement ce parent dans un contexte spécifique.
+Lors de l’utilisation de la méthode de l’héritage Relatif au parent, il est important de bien comprendre ce qu’est exactement ce parent dans un contexte spécifique.
 
 Le parent d&#39;un nœud est le *graphe* dans lequel il existe.
 
-Le parent d&#39;un graphique est le *contexte* dans lequel il existe :
+Le parent d&#39;un graphe est le *contexte* dans lequel il existe :
 
-* Si ce graphique est un sous-graphique instancié dans un autre graphique hôte en tant que *nœud d&#39;instance*, le parent du sous-graphique est le *nœud d&#39;instance*. Le parent de cet instancier est le *graphe hôte*.
+* Si ce graphe est un sous-graphe instancié dans un autre graphe hôte en tant qu&#39;*instancier*, le parent du sous-graphe est l&#39;*instancier*. Le parent de cet instancier est le *graphe hôte*.
 * Si ce graphe est un graphe racine, le parent est l&#39;*application elle-même* et toute valeur définie par l&#39;application pour un paramètre donné. Par exemple, les graphes hériteront du paramètre <b>Taille du parent</b> défini dans la barre d&#39;outils de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md).
 
 >[!WARNING]
@@ -146,7 +146,7 @@ Lorsqu&#39;un graphe a plusieurs entrées, chaque entrée peut hériter de ses d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Icône pour la méthode d&#39;héritage « Relative à l&#39;entrée »"){width="128px"}
+![Icône pour la méthode d’héritage « Relative à l’entrée »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "Icône pour la méthode d’héritage « Relative à l’entrée »"){width="128px"}
 
 <b>Relative à l&#39;entrée</b>
 
@@ -155,9 +155,9 @@ L’entrée hérite de ses données d’entrée distinctes, quels que soient les
 </td>
 <td style="border: 0;" valign="top">
 
-![Icône pour la méthode d&#39;héritage « Relative au parent »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "Icône pour la méthode d&#39;héritage « Relative au parent »"){width="128px"}
+![Icône pour la méthode d&#39;héritage « Relatif au parent »](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "Icône pour la méthode d&#39;héritage « Relatif au parent »"){width="128px"}
 
-<b>Relative au parent</b>
+<b>Relatif au parent</b>
 
 L&#39;entrée hérite du graphe et les données qu&#39;elle reçoit sont adaptées en conséquence.
 
@@ -201,27 +201,27 @@ L&#39;une des entrées peut être définie comme **entrée principale** du graph
 </td>
 <td style="border: 0;" valign="top">
 
-![Types de connecteurs d’entrée](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input.jpg "Types de connecteurs d’entrée")
+![Types de connecteurs d&#39;entrée](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input.jpg "Types de connecteurs d&#39;entrée")
 
 </td>
 </tr>
 </table>
 
-Lorsque le graphique est instancié dans un autre graphique en tant que nœud d&#39;instance, tous les paramètres Base du nœud d&#39;instance définis sur *Relative à l&#39;entrée* héritent des données connectées à *cette entrée*. L&#39;entrée Primary d&#39;un nœud d&#39;instance peut être identifiée par le petit point sombre dans son connecteur.
+Lorsque le graphe est instancié dans un autre graphe en tant qu&#39;instancier, tous les paramètres de base de l&#39;instancier définis sur *Relative à l&#39;entrée* héritent des données connectées à *cette entrée*. L&#39;entrée primaire d&#39;un instancier peut être identifiée par le petit point sombre dans son connecteur.
 
-Les autres entrées qui sont définies sur *Relative au parent* hériteront des mêmes valeurs de paramètres de base, car elles héritent du *graphe* qui hérite du *nœud d&#39;instance\**, qui hérite de l&#39;entrée Primary.
+Les autres entrées qui sont définies sur *Relatif au parent* hériteront des mêmes valeurs de paramètres de base, car elles héritent du *graphe* qui hérite de l&#39;*instancier\**, qui hérite de l&#39;entrée Primary.
 
-\*: c&#39;est vrai que le graphique utilise la méthode d&#39;héritage* Relative au parent*.
+\*: c&#39;est vrai que le graphe utilise la méthode d&#39;héritage* Relatif au parent*.
 
 ## Exemples
 
-Voici quelques exemples couvrant différents cas d’héritage, et l’interaction des méthodes d’héritage définies dans les acteurs suivants, de haut en bas :
+Voici quelques exemples couvrant différents cas d&#39;héritage, et l&#39;interaction des méthodes d&#39;héritage définies dans les acteurs suivants, de haut en bas :
 
 1. Application
-1. Graphique Hôte
-1. Nœud d&#39;instance dans le graphique hôte
-1. Sous-graphique : graphique référencé par le nœud d&#39;instance.
-1. Nœuds dans le sous-graphique
+1. Graphe d’hôte
+1. Instancier dans le graphe hôte
+1. Sous-graphe, c’est-à-dire le graphe référencé par l’instancier
+1. Nœuds dans le sous-graphe
 
 La *méthode d&#39;héritage* définie pour un acteur s&#39;affiche en orange juste au-dessus. Le *flux d&#39;héritage* vers sa source s&#39;affiche avec des lignes orange.
 
@@ -233,14 +233,14 @@ Les lettres représentent *des ensembles distincts* de paramètres de base et de
 
 **Exemple A**
 
-![Diagramme d&#39;héritage A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "Diagramme d&#39;héritage A"){zoomable="yes"}
+![Diagramme d&#39;Héritage A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "Diagramme d&#39;Héritage A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Exemple B**
 
-![Diagramme d&#39;héritage B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "Diagramme d&#39;héritage B"){zoomable="yes"}
+![Diagramme d&#39;Héritage B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "Diagramme d&#39;Héritage B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Les lettres représentent *des ensembles distincts* de paramètres de base et de
 
 **Exemple C**
 
-![Diagramme d&#39;héritage C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "Diagramme d&#39;héritage C"){zoomable="yes"}
+![Diagramme d&#39;Héritage C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "Diagramme d&#39;Héritage C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Exemple D**
 
-![Diagramme d&#39;héritage D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "Diagramme d&#39;héritage D"){zoomable="yes"}
+![Diagramme d&#39;Héritage D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "Diagramme d&#39;Héritage D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -267,9 +267,9 @@ Les lettres représentent *des ensembles distincts* de paramètres de base et de
 
 ## Résolution des problèmes d’héritage
 
-Au fur et à mesure que vous construisez votre graphique et que vous augmentez sa complexité, vous risquez de rencontrer des résultats inattendus causés par l’héritage. Si la sortie d&#39;un nœud a une résolution ou une précision incorrecte (c&#39;est-à-dire, la profondeur de bit), vous devez *remonter la chaîne d&#39;héritage* pour localiser l&#39;origine de ces valeurs.
+Au fur et à mesure que vous construisez votre graphe et que vous augmentez sa complexité, vous risquez de rencontrer des problèmes inattendus causés par l’héritage. Si la sortie d&#39;un nœud a une résolution ou une précision incorrecte (c&#39;est-à-dire, la profondeur de bit), vous devez *remonter la chaîne d&#39;héritage* pour localiser l&#39;origine de ces valeurs.
 
-Un bon point de départ consiste à vérifier les données affichées juste en dessous d&#39;un nœud : il s&#39;agit de la résolution, du format de couleur et de la précision de l&#39;image produite par la *première sortie* du nœud. Bien que la compréhension de la résolution soit simple, le deuxième élément de données vaut la peine d&#39;être détaillé :
+Un bon point de départ consiste à vérifier les données affichées juste en dessous d&#39;un nœud : il s&#39;agit de la résolution, du format de couleur et de la précision de l&#39;image en sortie par la *première sortie* du nœud. Bien que la compréhension de la résolution soit simple, le deuxième élément de données vaut la peine d&#39;être détaillé :
 
 * Le *préfixe de lettre* fait référence au format de couleur de l&#39;image :
   * <b>L</b> : Luminance (c&#39;est-à-dire en niveaux de gris)

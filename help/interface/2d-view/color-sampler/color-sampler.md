@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
-description: Utilisez l’outil Sampler des couleurs dans la vue 2D pour échantillonner des couleurs à partir de textures afin d’obtenir une correspondance exacte des couleurs.
+description: Utilisez l’outil Sampler de couleurs de la Vue 2D pour prélever des échantillons de couleurs sur des textures afin d’obtenir une correspondance exacte des couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 2D view > Color sampler tool
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outil Échantillonnage de couleur
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,37 +20,37 @@ ht-degree: 0%
 
 # Outil Échantillonnage de couleur
 
-![Outil Échantillonnage de couleur](../../../assets/color-sampler-demo.png "Outil Échantillonnage de couleur"){zoomable="yes"}
+![Outil Échantillonnage de couleur](color-sampler.resources/color-sampler-demo.png "Outil Échantillonnage de couleur"){zoomable="yes"}
 
 L&#39;outil Sampler des couleurs vous permet de <b>suivre la valeur d&#39;un pixel spécifique</b> dans la [vue 2D](../../../interface/2d-view/2d-view.md) lorsque vous ajustez les paramètres ou changez de nœud.
 
-Il place un coin dans la clôture et échantillonne la couleur et la position du pixel à cet emplacement.
+Il place une épingle dans le viewport et échantillonne la couleur et la position du pixel à cet emplacement.
 
 ## Utilisation de l’outil
 
 Procédez comme suit pour accéder à l’outil et l’utiliser :
 
-1. Cliquez sur le bouton ![](../../../assets/color-sampler-information-button.png) <b>Informations</b> dans la barre d&#39;outils de la vue 2D pour ouvrir le dock d&#39;informations et la barre d&#39;outils
-1. Cliquez sur le bouton ![](../../../assets/color-sampler-tool-icon.png) <b>Outil Sampler couleur</b> dans la barre d&#39;outils Informations
-1. Dans la fenêtre d&#39;affichage, cliquez sur le pixel à échantillonner pour placer une ![](../../../assets/color-sampler-pin-icon.png) <b>épingle</b>
+1. Cliquez sur le bouton ![](color-sampler.resources/color-sampler-information-button.png) <b>Informations</b> dans la barre d&#39;outils Vue 2D pour ouvrir le dock d&#39;informations et la barre d&#39;outils
+1. Cliquez sur le bouton ![](color-sampler.resources/color-sampler-tool-icon.png) <b>Outil Sampler couleur</b> dans la barre d&#39;outils Informations
+1. En viewport, cliquez sur le pixel spécifique que vous souhaitez échantillonner pour placer une ![](color-sampler.resources/color-sampler-pin-icon.png) <b>épingle</b>
 1. Examinez les valeurs échantillonnées dans la section dédiée du dock d’informations
-1. Lorsque vous avez terminé avec l&#39;outil, cliquez sur le bouton ![](../../../assets/color-sampler-remove-pin.png) <b>Supprimer</b> pour supprimer l&#39;épingle de la fenêtre d&#39;affichage.\
-   Vous pouvez également supprimer l’épingle en cliquant sur le RMB et en sélectionnant l’action « Supprimer » dans le menu contextuel.
+1. Une fois l&#39;outil terminé, cliquez sur le bouton ![](color-sampler.resources/color-sampler-remove-pin.png) <b>Supprimer</b> pour supprimer l&#39;épingle du viewport.\
+   Vous pouvez également supprimer l’épingle en cliquant sur le RMB dessus et en sélectionnant l’action « Supprimer » dans le menu contextuel.
 
 Voici une démonstration de l&#39;outil en action :
 
-![Échantillonneur de couleur : utilisation de l&#39;outil](../../../assets/color-sampler-demo.gif "Échantillonneur de couleur : utilisation de l&#39;outil"){zoomable="yes"}
+![Échantillonneur de couleur : utilisation de l&#39;outil](color-sampler.resources/color-sampler-demo.gif "Échantillonneur de couleur : utilisation de l&#39;outil"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
 +++Copie des valeurs RVBA échantillonnées
-Vous pouvez copier les valeurs échantillonnées en cliquant sur le RMB de l’épingle et en sélectionnant l’action « Copier les valeurs RVB » dans le menu contextuel.
+Vous pouvez copier les valeurs échantillonnées en cliquant sur RMB dans l’épingle et en sélectionnant l’action « Copier les valeurs RVBA » dans le menu contextuel.
 
 Les valeurs copiées peuvent être <b>collées dans les paramètres à l&#39;aide d&#39;une vignette de couleur</b>.
 
 Il est également possible de faire glisser les vignettes de couleur du panneau Informations directement sur les vignettes de couleur de ces paramètres.
 
-![Échantillonneur de couleurs : copier les valeurs RVBA](../../../assets/color-sampler-demo-copy-rgba-values.gif "Échantillonneur de couleurs : copier les valeurs RVBA"){zoomable="yes"}
+![Échantillonneur de couleurs : copier les valeurs RVBA](color-sampler.resources/color-sampler-demo-copy-rgba-values.gif "Échantillonneur de couleurs : copier les valeurs RVBA"){zoomable="yes"}
 
 
 
@@ -69,24 +69,24 @@ Les informations sont regroupées en trois types et deux formats.
 * <b>Valeurs échantillonnées</b> stockées dans chacun des canaux RVBA de l&#39;image :\
   Variation\* / Virgule flottante
 * <b>Échantillonnage de couleur</b> dans la représentation HSV :\
-  Entier 8 bits/virgule flottante
+  entier 8 bits/virgule flottante
 * <b>Position</b> du pixel en nombre de pixels et espace d&#39;image normalisé :\
-  Nombre entier/Point flottant
+  Entier / Point flottant
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Informations échantillonnées](../../../assets/color-sampler-information.png "Informations échantillonnées"){zoomable="yes"}
+![Informations échantillonnées](color-sampler.resources/color-sampler-information.png "Informations échantillonnées"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-La valeur dépend de la résolution utilisée par l’image. Dans un graphique en Substance, la profondeur de bits est contrôlée par le <b>format de sortie</b> [paramètre de base](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+La valeur dépend de la résolution utilisée par l’image. Dans un graphe de Substance, la résolution est contrôlée par le <b>format de sortie</b> [paramètre de base](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 Les débits disponibles sont les suivants :
 
-* <b>Entier 8 bits :</b> 256 valeurs entières comprises entre 0 et 255.
-* <b>Nombre entier 16 bits :</b> 65 536 valeurs entières comprises entre 0 et 65 535.
-* <b>Faible précision HDR (16 bits)</b> : valeur en virgule flottante codée à l’aide de la version 16 bits.
-* <b>Haute précision HDR (32 bits)</b> : valeur en virgule flottante codée à l’aide de la technologie 32 bits. Il s’agit de la plus haute précision disponible dans Designer.
+* <b>entier 8 bits :</b> 256 valeurs d&#39;entier comprises entre 0 et 255.
+* <b>entier 16 bits :</b> 65 536 valeurs d&#39;entier de 0 à 65 535.
+* <b>Faible précision HDR (16 bits)</b> : valeur de point flottant codée en 16 bits.
+* <b>Haute précision HDR (32 bits)</b> : valeur de point flottant codée en 32 bits. Il s’agit de la plus haute précision disponible dans Designer.

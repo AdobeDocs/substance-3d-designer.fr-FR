@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Liste de configuration - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -24,14 +24,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le fichier de configuration est beaucoup plus simple que les [fichiers de configuration de projet](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), car il contient uniquement une liste de projets, ainsi qu&#39;un mode de compatibilité du moteur. Ils servent de liste de configuration de projet/environnement de niveau supérieur à celle des fichiers de projet uniques.
+Le fichier de configuration est beaucoup plus simple que les [fichiers de configuration de projet](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), car il contient uniquement une liste de projets, ainsi qu&#39;un mode de compatibilité par moteur. Ils servent de liste de configuration de projet/environnement de niveau supérieur à celle des fichiers de projet uniques.
 
-Vous pouvez avoir plusieurs configurations pour différents environnements, ces fichiers peuvent être maintenus sous contrôle de version avec les fichiers SBSPRJ.
+Vous pouvez avoir plusieurs configurations pour différents environnements, ces fichiers peuvent être conservés sous la gestion de versions avec les fichiers SBSPRJ.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![SBSCFG](../../assets/sbscfg.png "Icône de fichier SBSCFG")
+Icône de fichier ![SBSCFG](configuration-list-sbscfg.resources/sbscfg.png "Icône de fichier SBSCFG")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ Ces fichiers sont simples, mais ils peuvent être modifiés de deux manières di
 
 La section en surbrillance est la partie qui concerne les fichiers de configuration, vous ajoutez simplement plus de projets à la liste qui sont stockés dans le fichier SBSCFG défini ci-dessus.
 
-![Paramètres du projet](../../assets/config-ui.png "Paramètres du projet")
+![Paramètres du projet](configuration-list-sbscfg.resources/config-ui.png "Paramètres du projet")
 
 ### Modification externe au format XML
 

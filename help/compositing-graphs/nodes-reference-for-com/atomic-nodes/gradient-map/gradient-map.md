@@ -86,19 +86,19 @@ Les couleurs et leur position le long du dégradé sont contrôlées par des ép
 
 Chaque épingle définit une couleur à sa position le long du dégradé.
 
-Les parties du dégradé avant et après la première et la dernière épingles sont définies sur les couleurs de ces épingles respectivement.
+Les parties du dégradé avant et après la première et la dernière épingle sont définies respectivement sur les couleurs de ces épingles.
 
 ![Éditeur de dégradé - Vue de dégradé](gradient-map.resources/image2017-2-17-17-27-46.png "Éditeur de dégradé - Vue de dégradé")
 
-Les commandes suivantes sont disponibles pour modifier des épingles :
+Les commandes suivantes permettent de modifier les épingles :
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Ajouter un coin</b>
+<b>Ajouter une épingle</b>
 
-Cliquez sur LMB sur le dégradé ou juste en dessous pour ajouter une épingle à l’endroit où vous avez cliqué dans la barre de dégradé.
+Cliquez sur LMB sur le dégradé ou juste en dessous pour ajouter une épingle à l’emplacement où vous avez cliqué dans la barre de dégradé.
 
 La nouvelle épingle sera définie sur la couleur du dégradé à cette position.
 
@@ -117,38 +117,38 @@ La nouvelle épingle sera définie sur la couleur du dégradé à cette position
 
 <b>Déplacer l&#39;épingle</b>
 
-Maintenez la touche LMB enfoncée et faites glisser les coins sélectionnés le long de la bande de dégradé pour les déplacer.
+Maintenez la touche LMB enfoncée et faites glisser les épingles sélectionnées le long de la barre de dégradé pour les déplacer.
 
-Vous pouvez également définir la position d&#39;un coin avec une valeur numérique en le sélectionnant et en utilisant le paramètre <b>Position</b>. La position est une valeur comprise dans la plage [0;1], où 0 correspond au début du dégradé et 1 à sa fin.
+Vous pouvez également définir la position d&#39;une épingle avec une valeur numérique en la sélectionnant et en utilisant le paramètre <b>Position</b>. La position est une valeur comprise dans la plage [0;1], où 0 correspond au début du dégradé et 1 à sa fin.
 
-![Éditeur de dégradé - Paramètre de position de coin](gradient-map.resources/image2015-8-27-13-56-2.png "Éditeur de dégradé - Paramètre de position de coin")
+![Éditeur de dégradé - paramètre de position d&#39;Épingle](gradient-map.resources/image2015-8-27-13-56-2.png "Éditeur de dégradé - paramètre de position d&#39;Épingle")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé - Déplacer la broche](gradient-map.resources/movepin2.gif "Éditeur de dégradé - Déplacer la broche")
+![Éditeur de dégradé - Déplacer l&#39;épingle](gradient-map.resources/movepin2.gif "Éditeur de dégradé - Déplacer l&#39;épingle")
 
 </td>
 </tr>
 </table>
 
-Lorsque plusieurs coins sont sélectionnés, ils peuvent tous être déplacés *simultanément*. Lorsqu’une ou plusieurs épingles atteignent et atteignent la fin du dégradé à mesure qu’elles sont déplacées, deux comportements sont disponibles en fonction du bouton de la souris utilisé pour le déplacement :
+Lorsque plusieurs épingles sont sélectionnées, elles peuvent toutes être déplacées *simultanément*. Lorsqu’une ou plusieurs épingles atteignent et terminent le dégradé à mesure qu’elles sont déplacées, deux comportements sont disponibles en fonction du bouton de la souris utilisé pour le déplacement :
 
-* <b>LMB:</b> les épingles restent à la fin, ce qui signifie qu&#39;elles seront empilées à cet emplacement à mesure qu&#39;elles l&#39;atteignent et que leurs positions relatives sont modifiées ;
-* <b>Mo :</b> les coins sont bouclés à l&#39;autre extrémité du dégradé, ce qui signifie que leur position relative reste inchangée.
+* <b>LMB:</b> les Épingles restent à l&#39;extrémité, ce qui signifie qu&#39;elles seront empilées à cet emplacement à mesure qu&#39;elles l&#39;atteignent et que leurs positions relatives sont modifiées ;
+* <b>Mo :</b> les Épingles sont bouclées à l&#39;autre extrémité du dégradé, ce qui signifie que leur position relative reste inchangée.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Supprimer le coin</b>
+<b>Supprimer l&#39;épingle</b>
 
-Sélectionnez les épingles et appuyez sur Supprimer, ou faites-les glisser hors de la bande de dégradé pour les supprimer.
+Sélectionnez les épingles et appuyez sur Supprimer, ou faites glisser les épingles hors de la bande de dégradé pour les supprimer.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur de dégradé - Supprimer l’épingle](gradient-map.resources/removepin.gif "Éditeur de dégradé - Supprimer l’épingle")
+![Éditeur de dégradé - Supprimer l&#39;épingle](gradient-map.resources/removepin.gif "Éditeur de dégradé - Supprimer l&#39;épingle")
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Sélectionnez les épingles et appuyez sur Supprimer, ou faites-les glisser hors
 
 <b>Inverser les positions</b>
 
-Permet de refléter la position des coins sélectionnés sur le dégradé.
+Permet de refléter la position des épingles sélectionnées sur le dégradé.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -177,7 +177,7 @@ Permet de refléter la position des coins sélectionnés sur le dégradé.
 
 <b>Tout effacer</b>
 
-Supprime tous les coins de la bande de dégradé.
+Supprime toutes les épingles de la bande de dégradé.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -190,7 +190,7 @@ Supprime tous les coins de la bande de dégradé.
 
 <b>Inverser les couleurs</b>
 
-Ce bouton applique les couleurs négatives aux coins sélectionnés.
+Ce bouton applique les couleurs négatives aux épingles sélectionnées.
 
 <b>Désaturer</b>
 
@@ -198,19 +198,19 @@ Ce bouton désature les couleurs définies sur les épingles sélectionnées.
 
 ### Modes d’interpolation
 
-Une fois les coins configurés, vous pouvez contrôler la transition des couleurs d’un coin à l’autre à l’aide des modes d’interpolation disponibles :
+Une fois les épingles configurées, vous pouvez contrôler la transition des couleurs d’une épingle à l’autre à l’aide des modes d’interpolation disponibles :
 
 +++Linéaire
-Le mode d’interpolation par défaut : applique une interpolation linéaire simple entre chaque broche pour que le dégradé progresse uniformément.
+Mode d’interpolation par défaut : applique une interpolation linéaire simple entre chaque épingle pour que le dégradé progresse uniformément.
 
 +++
 
 +++Tangentes plates
-Lorsque vous considérez la transition entre les dégradés comme des courbes de Bézier où les coins sont des points de la courbe, ce mode définit ces points pour qu’ils aient des tangentes horizontales.
+Lorsque vous considérez la transition entre les dégradés comme des courbes de Bézier où les épingles sont des points de la courbe, ce mode définit ces points pour qu’ils aient des tangentes horizontales.
 
 Il en résulte une transition évocatrice d’une interpolation à pas fluide.
 
-Lorsque ce mode est sélectionné, le paramètre <b>Milieu</b> est activé et vous permet de décaler la position horizontale du milieu vertical de la courbe entre les points. Cela permet de faire basculer efficacement l&#39;échelle entre les tangentes « out » et « in ».
+Lorsque ce mode est sélectionné, le paramètre <b>Milieu</b> est activé et vous permet de décaler la position horizontale du milieu vertical de la courbe entre les points. Cela fait basculer l&#39;échelle entre les tangentes « out » et « in ».
 
 +++
 
@@ -224,7 +224,7 @@ Lorsque ce mode est sélectionné, le paramètre <b>Smoothness</b> est activé e
 +++Aucune interpolation
 La couleur change uniquement à l’emplacement d’une épingle et reste constante jusqu’à l’épingle suivante le long de la bande de dégradé.
 
-Il en résulte des décalages importants entre les couleurs, et seules les couleurs définies par les épingles sont présentes sur le dégradé.
+Il en résulte des étapes difficiles entre les couleurs, et seules les couleurs définies par les épingles sont présentes sur le dégradé.
 
 +++
 
@@ -303,7 +303,7 @@ La moitié inférieure affiche la couleur précédemment utilisée. Double-cliqu
 </tr>
 </table>
 
-Lorsque plusieurs coins sont sélectionnés, les curseurs RGB, HSV et Alpha se transforment en curseurs delta (Δ), ce qui signifie qu’ils sont utilisés pour décaler la valeur de chaque coin d’une même valeur.
+Lorsque plusieurs épingles sont sélectionnées, les curseurs RGB, TSL et Alpha se transforment en curseurs delta (Δ), ce qui signifie qu’ils sont utilisés pour décaler la valeur de chaque épingle d’une même valeur.
 
 <table>
 <tr style="border: 0;">
@@ -321,7 +321,7 @@ En outre, les fonctionnalités suivantes sont disponibles sous la vignette de co
 
 <b>sRVB</b> : utilisez l&#39;espace colorimétrique sRVB pour afficher les couleurs. Lorsque cette option est désactivée, l’espace colorimétrique linéaire est utilisé ;
 
-<b>Flottant :</b> valeurs du RGB d&#39;affichage, de la visibilité maximale (HSV) et du curseur Alpha en virgule flottante.
+<b>Flottant :</b> affichez les valeurs du RGB d&#39;affichage, de la vue HSV et du curseur Alpha en virgule flottante.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

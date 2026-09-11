@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirt d'arête pour générer des masques d'accumulation de dirt sur les arêtes de maillage afin de créer des effets d'altération des arêtes réalistes.
+description: Utilisez le nœud Dirt d'arête pour générer des masques d'accumulation de dirt sur les arêtes de maillage afin de créer des effets d'altération d'arête réalistes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Dirt
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque représente un effet de dirt qui s’accumule autour des contours, en fonction uniquement d’une courbe de référence.
+Ce masque représente un effet de dirt qui s’accumule autour des contours, en fonction uniquement d’une map curvature.
 
 </td>
 </tr>

@@ -58,7 +58,7 @@ Fusionne toutes les splines de la liste d&#39;entrée en une seule spline.
 | <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines fusionnées sous forme d&#39;image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines fusionnées codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Position X<br><b>G</b> - Position Y<br><b>B</b> - Height<br><b>A</b> - Données compressées :<br> - Signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines fusionnées codées dans les canaux RVBA d&#39;une image couleur.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisé<br><b>A</b> - Inutilisé |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines fusionnées. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines fusionnées. |
 
 <a name="parameters"></a>
 
@@ -66,12 +66,12 @@ Fusionne toutes les splines de la liste d&#39;entrée en une seule spline.
 
 |  |  |
 |:---|:---|
-| <b>Seuil de distance spline fermée</b> <i>Flotter</i> | Distance dans l&#39;espace de texture en dessous de laquelle deux extrémités d&#39;une même spline sont traitées comme un point unique fermant cette spline.<br>Cela empêche les chevauchements lors de la diffusion de formes ou du mappage d&#39;images le long des splines. |
+| <b>Seuil de distance spline fermée</b> <i>Flottant</i> | Distance dans l&#39;espace de texture en dessous de laquelle deux extrémités d&#39;une même spline sont traitées comme un point unique fermant cette spline.<br>Cela empêche les chevauchements lors de la diffusion de formes ou du mappage d&#39;images le long des splines. |
 | <b>Aperçu</b> |  |
-| <b>Quantité de segments</b> <i>Nombre entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
-| <b>Afficher l&#39;assistant de direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
+| <b>Quantité de segments</b> <i>Entier</i> | Ajuste le nombre de segments utilisés pour dessiner la visualisation de la spline dans la sortie d&#39;aperçu.<br>Plus la valeur est élevée, plus la ligne est lisse. |
+| <b>Afficher l&#39;Assistant de la direction</b> <i>Booléen</i> | Affiche un point au début de la spline et une flèche à sa fin dans la sortie Aperçu. |
 | <b>Afficher l&#39;enveloppe de Thickness</b> <i>Booléen</i> | Affiche des lignes supplémentaires sur les thickness de la spline. |
-| <b>Thickness (px)</b> <i>Flotter</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
+| <b>Thickness (px)</b> <i>Flottant</i> | Règle le thickness de visualisation de la spline en pixels dans la sortie Aperçu. |
 
 ## Exemples
 

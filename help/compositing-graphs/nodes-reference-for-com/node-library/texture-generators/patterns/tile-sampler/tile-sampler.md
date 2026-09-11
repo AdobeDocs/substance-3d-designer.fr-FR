@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Sampler de mosaïque pour échantillonner et organiser les mosaïques à partir des textures d’entrée afin de créer des motifs en mosaïque dans Substance 3D Designer.
+description: Utilisez le nœud Sampler de mosaïque pour échantillonner et organiser les mosaïques des textures d’entrée afin de créer des motifs en mosaïque dans Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaïque Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Tile Sampler est le nœud de génération de motif de mosaïque ultime. Il s&#39;agit d&#39;une version évoluée et plus complexe de [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). À partir de 2017 2.1, les différences sont beaucoup plus faibles entre Tile Sampler et [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). Les principales différences se situent désormais uniquement dans les sept emplacements de mappage disponibles pour le pilotage de l&#39;échelle, de la position, de la rotation, de la taille, de la couleur et du masquage. Leur effet peut être fusionné séparément.
 
-Tile Sampler est utile pour créer des modèles procéduraux artificiels, avec un contrôle supplémentaire sur certains paramètres pilotés par des cartes d&#39;entrée externes.
+Tile Sampler est utile pour la création de motifs procéduraux artificiels, avec un contrôle supplémentaire sur certains paramètres pilotés par des maps d&#39;entrée externes.
 
 Familiarisez-vous avec le [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) avant de passer à la vignette Sampler. Dans la plupart des cas, vous trouverez que le [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) est suffisant et vous n&#39;aurez pas besoin de la complexité supplémentaire de Tile Sampler.
 
@@ -67,7 +67,7 @@ Familiarisez-vous avec le [Tile Generator](../../../../../../compositing-graphs/
 |:---|:---|
 | <b>X Quantité</b> <i>0 - 64</i> | Quantité de répétitions X du motif. |
 | <b>Quantité Y</b> <i>0 - 64</i> | Quantité de répétitions Y du motif. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Motif</b> |  |
 | <b>Motif</b> <i>Entrée de motif, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 6</i> | Quantité de motifs personnalisés parmi lesquels choisir de manière aléatoire. |
@@ -122,7 +122,7 @@ Familiarisez-vous avec le [Tile Generator](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>L'exemple montre comment les paramètres sont pilotés par les maps d'entrée (répartition du motif, échelle, rotation).</i>
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>L'exemple montre comment les paramètres sont pilotés par les maps d'entrée (répartition du motif, échelle, rotation).</i>
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
-description: Importez et utilisez des ressources de polices dans Substance 3D Designer pour ajouter du texte et de la typographie à vos matières.
+description: Importez et utilisez des ressources de polices dans Substance 3D Designer pour ajouter du texte et de la typographie à vos matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Font resource
 helpx_experience_level: ""
@@ -32,7 +32,7 @@ Les ressources de police sont destinées à être utilisées avec le [nœud de t
 
 * Cliquez avec le bouton droit de la souris sur un pack, puis sélectionnez <b>Lien > Police</b>
 * Sélectionnez un fichier .otf ou .ttf.
-* Placez un [nœud de texte](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) dans votre [graphique](../../compositing-graphs/substance-compositing-graphs.md).
+* Placez un [nœud de texte](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) dans votre [graphe](../../compositing-graphs/substance-compositing-graphs.md).
 * Sous la propriété <b>Police </b>, toutes les ressources de police se trouvent en haut de la liste.
 
 Notez que la liste des polices n’est pas automatiquement actualisée avec les propriétés ouvertes. Vous devrez passer à une autre fenêtre de propriété et revenir à un nœud Texte pour voir les polices nouvellement liées.

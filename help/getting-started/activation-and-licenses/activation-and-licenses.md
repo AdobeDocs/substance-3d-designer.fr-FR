@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Activation et licences
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Le processus d’activation dépend de l’endroit où vous avez acheté ou acc�
 
 ## Étapes d’activation (édition Substance)
 
-### UTILISATION DE L’ASSISTANT D’ACTIVATION
+### UTILISATION DE L’ASSISTANT D&#39;ACTIVATION
 
 Trois choix s&#39;offrent à vous :
 
@@ -40,9 +40,9 @@ Trois choix s&#39;offrent à vous :
 
 >[!IMPORTANT]
 >
-> Pour installer le fichier de licence avec l’Assistant d’activation, assurez-vous d’exécuter Designer en tant qu’administrateur et de désactiver temporairement votre antivirus.
+> Pour installer le fichier de licence avec l’Assistant d&#39;activation, assurez-vous d’exécuter Designer en tant qu’administrateur et de désactiver temporairement votre antivirus.
 
-![Assistant d&#39;activation](../../assets/activation-wizard.png "Assistant d&#39;activation")
+![Assistant d&#39;activation](activation-and-licenses.resources/activation-wizard.png "Assistant d&#39;activation")
 
 ### Activation manuelle
 

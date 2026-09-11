@@ -61,20 +61,20 @@ Ce nœud est particulièrement utile lorsque vous souhaitez introduire un indice
 | <b>Couleur</b> <i>(valeur de couleur)</i> | Valeur de couleur à fusionner au-dessus de la couche Diffuse. |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan. |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> | Mode de fusion à utiliser dans l’opération. |
-| <b>Base color</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Base color</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
 | <b>Normal</b> |  |
 | <b>Source</b> <i>Height, Masque</i> |  |
 | <b>Mode de fusion</b> <i>Combiner, Fusion</i> |  |
 | <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> |  |
 | <b>Opacité de l&#39;Height</b> <i>0.0 - 1.0</i> |  |
 | <b>Format</b> <i>DirectX, OpenGL</i> |  |
-| <b>Specular</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
-| <b>Émissif</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
-| <b>Lustre</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
-| <b>Rugosité</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
-| <b>Métallique</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
-| <b>Specular level</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
-| <b>Occlusion ambiante</b> | Fusionne une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Specular</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Emissive</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Brillance</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Rugosité</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Métallique</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Specular level</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
+| <b>Ambient occlusion</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
 | <b>Height</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
 | <b>Opacité</b> | Fusion une couleur unie au-dessus de cette couche avec des options comme dans le groupe Diffuse. |
 | <b>Masque d&#39;identifiant de couleur</b> <i>Faux/Vrai</i> | Utilisez le Masque d&#39;identifiant de couleur au lieu du masque en niveaux de gris. Gardez à l&#39;esprit qu&#39;il ne s&#39;agit que d&#39;une seule couleur !<br><br>Active toutes les options ci-dessous. |

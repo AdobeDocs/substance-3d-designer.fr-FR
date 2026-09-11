@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lumière pour générer des masques en fonction des conditions d’éclairage du maillage afin de créer des variations de matériau réalistes.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque est un peu différent des autres générateurs : il ne fait que de faux éclairages, basés sur la carte normale de l&#39;espace mondial, renvoyant un masque « lightmap » en noir et blanc.
+Ce masque est un peu différent des autres générateurs : il ne fait que de faux éclairages, basés sur l&#39;Espace monde Normalmap, renvoyant un masque « lightmap » en noir et blanc.
 
 </td>
 </tr>

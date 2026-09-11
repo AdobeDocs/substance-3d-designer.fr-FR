@@ -65,7 +65,7 @@ Les fichiers correspondant au *modèle UDIM* pour une [ressource Bitmap](../../r
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
-Lorsqu&#39;une [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md) est liée et que Designer détecte une *taxonomie d&#39;appellation UDIM* dans son nom de fichier, par exemple `0x1` dans `my_texture_0x1.png`, il propose de la lier en tant que *modèle UDIM*, de sorte que les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) puissent *basculer automatiquement* vers d&#39;autres bitmaps dans un ensemble UDIM à l&#39;aide de cette taxonomie, lors de l&#39;utilisation d&#39;un workflow UDIM dans Designer. Dans ce cas, Designer lie la ressource Bitmap d&#39;une *manière différente* qui tient compte du modèle de numérotation UDIM.
+Lorsqu&#39;une ressource [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) est liée et que Designer détecte une *taxonomie de dénomination d&#39;UDIM* dans son nom de fichier, par exemple `0x1` dans `my_texture_0x1.png`, il propose de la lier en tant que *modèle d&#39;UDIM*, de sorte que les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) puissent *basculer automatiquement* vers d&#39;autres bitmaps dans un ensemble d&#39;UDIM à l&#39;aide de cette taxonomie, lors de l&#39;utilisation d&#39;un workflow UDIM dans Designer. Dans ce cas, Designer lie la ressource Bitmap d&#39;une *manière différente* qui tient compte du modèle de numérotation UDIM.
 
 Il existe deux façons principales de corriger ce problème :
 
@@ -74,9 +74,9 @@ Il existe deux façons principales de corriger ce problème :
    Accédez à l&#39;emplacement spécifié par l&#39;attribut <b>Chemin d&#39;accès</b> de la ressource et vérifiez que les fichiers suivant le modèle existent. Si ce n’est pas le cas, restaurez-les ou recréez-les.
 
    ![&#39;Aucun fichier correspondant à la ressource&#39; solution 1](../../assets/warnings-dep-udim-2.gif "&#39;Aucun fichier correspondant à la ressource&#39; solution 1")
-1. <b>Déplacer les fichiers</b>
+1. <b>Redéfinir l&#39;emplacement les fichiers</b>
 
-   Si les fichiers ont été déplacés ou renommés, relocalisez-les en cliquant sur RMB sur l&#39;élément de ressource dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Déplacer</b> pour lier cette ressource au *premier fichier d&#39;un ensemble* d&#39;images UDIM du même type.
+   Si les fichiers ont été déplacés ou renommés, redéfinissez l&#39;emplacement-les en cliquant sur le RMB de l&#39;élément de ressource dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Redéfinir l&#39;emplacement</b> pour lier cette ressource au *premier fichier d&#39;un ensemble* d&#39;images UDIM du même type.
 
    ![&#39;Aucun fichier correspondant à la ressource&#39; solution 2](../../assets/warnings-dep-udim.gif "&#39;Aucun fichier correspondant à la ressource&#39; solution 2")
 
@@ -93,9 +93,9 @@ Il existe deux façons principales de corriger ce problème :
    Accédez à l&#39;emplacement spécifié par l&#39;attribut <b>Chemin d&#39;accès</b> de la ressource et vérifiez que le fichier existe. Si ce n’est pas le cas, restaurez-le ou recréez-le.
 
    ![&#39;Fichier lié introuvable&#39; solution 1](../../assets/warnings-dep-file-not-found.gif "&#39;Fichier lié introuvable&#39; solution 1")
-1. <b>Déplacer le fichier</b>
+1. <b>Redéfinir l&#39;emplacement le fichier</b>
 
-   Si le fichier a été déplacé ou renommé, relocalisez-le en cliquant sur RMB sur l&#39;élément de ressource dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Déplacer</b> pour lier cette ressource à un autre fichier du même type.
+   Si le fichier a été déplacé ou renommé, redéfinissez l&#39;emplacement-le en cliquant sur le RMB de l&#39;élément de ressource dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) et sélectionnez l&#39;option <b>Redéfinir l&#39;emplacement</b> pour lier cette ressource à un autre fichier du même type.
 
    ![&#39;Fichier lié introuvable&#39; solution 2](../../assets/warnings-dep-file-not-found-2.gif "&#39;Fichier lié introuvable&#39; solution 2")
 
@@ -117,26 +117,26 @@ Vous pouvez également ajouter cet espace colorimétrique à l&#39;environnement
 
 ## Ressource de référence ![(erreur)](../../assets/error.svg) introuvable
 
-Le graphique attribué à la vignette UV d&#39;une [ressource de scène 3D](../3d-scene-resource/3d-scene-resource.md) est introuvable à l&#39;emplacement indiqué dans l&#39;avertissement.
+Le graphe attribué à l&#39;UV d&#39;une [ressource Scène 3D](../3d-scene-resource/3d-scene-resource.md) est introuvable à l&#39;emplacement indiqué dans l&#39;avertissement.
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
 Il existe deux façons principales de corriger ce problème :
 
-1. <b>Restauration du graphique</b>
+1. <b>Restaurer le graphe</b>
 
-   Vérifiez le contenu du package dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) pour le graphique spécifié dans la liste <b>Carreaux UV</b>. S’il n’existe pas, restaurez-le ou recréez-le.
+   Vérifiez le contenu du package dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) pour le graphe spécifié dans la liste <b>Tuiles UV</b>. S’il n’existe pas, restaurez-le ou recréez-le.
 
    ![&#39;Ressource de référence introuvable&#39; solution 1](../../assets/warnings-dep-udim-graph-2.gif "&#39;Ressource de référence introuvable&#39; solution 1")
-1. <b>Sélectionner un autre graphique</b>
+1. <b>Sélectionner un autre graphe</b>
 
-   Affectez un autre graphique dans le package à la mosaïque UV.
+   Attribuez un autre graphe du package à l’UV.
 
    ![&#39;Ressource de référence introuvable&#39; solution 1](../../assets/warnings-dep-udim-graph.gif "&#39;Ressource de référence introuvable&#39; solution 2")
 
-## ![(erreur)](../../assets/error.svg) mosaïques UV attribuées plusieurs fois
+## ![(erreur)](../../assets/error.svg) UV sont attribués plusieurs fois
 
-Une vignette UV pour une [ressource de scène 3D](../3d-scene-resource/3d-scene-resource.md) est affectée plusieurs fois à un [graphique de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Un UV pour une [ressource Scène 3D](../3d-scene-resource/3d-scene-resource.md) est affecté plusieurs fois à un [graphe Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 

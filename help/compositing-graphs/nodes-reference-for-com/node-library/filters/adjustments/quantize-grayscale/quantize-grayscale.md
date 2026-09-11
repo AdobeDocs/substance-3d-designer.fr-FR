@@ -45,10 +45,10 @@ Génère une spline unique en forme de cercle.
 
 |  |  |
 |:---|:---|
-| <b>Étapes</b> *Nombre entier* | Nombre de valeurs séparées auxquelles la plage d&#39;entrée doit être approximée. |
-| <b>Décalage</b> *Flotter* | Applique un décalage à la plage d&#39;entrée, ce qui *décale* les résultats le long de la plage. |
-| <b>Pente</b> *Flotter* | Applique un dégradé de pente aux *transitions* entre des valeurs approximatives, jusqu&#39;à la *plage complète d&#39;une étape*. |
-| <b>Courbe De Pente</b> *Nombre entier* | Définit la méthode d&#39;acquisition de la courbe pour la pente définie par le paramètre <b>Pente</b> :<ul data-preserve-html="true"> <li data-preserve-html="true">*Linéaire* : applique une courbe linéaire, ce qui donne une pente droite</li> <li data-preserve-html="true">*Pas en douceur* : applique une courbe à pas lisse, ce qui produit une pente lisse</li> <li data-preserve-html="true">*Entrée courbe* : applique la courbe décrite par la map d&#39;entrée <b>Entrée courbe</b>. Vous pouvez utiliser un nœud [Courbe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) pour décrire cette courbe avec beaucoup de contrôle.</li> </ul> |
+| <b>Étapes</b> *Entier* | Nombre de valeurs séparées auxquelles la plage d&#39;entrée doit être approximée. |
+| <b>Décalage</b> *Flottant* | Applique un décalage à la plage d&#39;entrée, ce qui *décale* les résultats le long de la plage. |
+| <b>Pente</b> *Flottant* | Applique un dégradé de pente aux *transitions* entre des valeurs approximatives, jusqu&#39;à la *plage complète d&#39;une étape*. |
+| <b>Courbe De Pente</b> *Entier* | Définit la méthode d&#39;acquisition de la courbe pour la pente définie par le paramètre <b>Pente</b> :<ul data-preserve-html="true"> <li data-preserve-html="true">*Linéaire* : applique une courbe linéaire, ce qui donne une pente droite</li> <li data-preserve-html="true">*Pas en douceur* : applique une courbe à pas lisse, ce qui produit une pente lisse</li> <li data-preserve-html="true">*Entrée courbe* : applique la courbe décrite par la map d&#39;entrée <b>Entrée courbe</b>. Vous pouvez utiliser un nœud [Courbe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) pour décrire cette courbe avec beaucoup de contrôle.</li> </ul> |
 
 ## Exemples
 

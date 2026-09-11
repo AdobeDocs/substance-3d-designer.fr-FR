@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dégradé 2 points pour créer des dégradés à deux points dans des environnements HDRI pour les transitions de couleurs du ciel et du sol.
+description: Utilisez le nœud Dégradé 2 points pour créer des dégradés à deux points dans des environnements HDRI pour les transitions de couleurs de ciel et de sol.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points
 helpx_experience_level: ""
@@ -45,10 +45,10 @@ Crée un dégradé de 2 couleurs entre deux points sélectionnés par l’utilis
 
 |  |  |
 |:---|:---|
-| <b>Position Du Point 1</b> | Position du premier point sélectionnée par l’utilisateur. Possède un handle en vue 2D. |
+| <b>Position Du Point 1</b> | Position du premier point sélectionnée par l’utilisateur. Possède un handle en Vue 2D. |
 | <b>Couleur Point 1</b> <i>(valeur de couleur)</i> | Couleur au début du dégradé. |
 | <b>Contraste Du Point 1</b> <i>0.0 - 1.0</i> | Contraste du premier masque de point. |
-| <b>Position Du Point 2</b> | Position du deuxième point sélectionnée par l’utilisateur. Possède un handle en vue 2D. |
+| <b>Position Du Point 2</b> | Position du deuxième point sélectionnée par l’utilisateur. Possède un handle en Vue 2D. |
 | <b>Couleur Point 2</b> <i>(valeur de couleur)</i> | Couleur à la fin du dégradé. |
 | <b>Contraste du point 2</b> <i>0.0 - 1.0</i> | Contraste du second masque de point. |
 

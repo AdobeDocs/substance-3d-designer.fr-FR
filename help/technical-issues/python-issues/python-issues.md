@@ -22,13 +22,13 @@ ht-degree: 0%
 
 Cette page répertorie les problèmes techniques liés à l&#39;[API Python](../../scripting/scripting.md) de Substance 3D Designer, ainsi que les fonctionnalités implémentées dans Python, et propose des étapes de dépannage pour chacun d&#39;eux.
 
-Les fonctionnalités implémentées dans Python incluent les actions [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Envoyer à](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) dans la barre d&#39;outils de l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que l&#39;outil permettant de supprimer les nœuds inutilisés dans les graphiques.
+Les fonctionnalités implémentées dans Python incluent les actions [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Envoyer à](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) dans la barre d&#39;outils de l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que l&#39;outil permettant de supprimer les nœuds inutilisés dans les graphes.
 
 ## Le module &#39;QtForPython&#39; ne se charge pas
 
 <b> ![(error)](../../assets/error.svg) Problème</b>
 
-Le module Python « QtForPython » ne se charge pas, ce qui entraîne des fonctionnalités manquantes implémentées dans Python, telles que les actions [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Envoyer à](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) dans la barre d&#39;outils de l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que l&#39;outil permettant de supprimer les nœuds inutilisés dans les graphiques.
+Le module Python « QtForPython » ne se charge pas, ce qui entraîne des fonctionnalités manquantes implémentées dans Python, telles que les actions [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[Envoyer à](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) dans la barre d&#39;outils de [l&#39;Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que l&#39;outil permettant de supprimer les nœuds inutilisés dans les graphes.
 
 En outre, de nombreux [plug-ins Python](../../scripting/plugin-basics/plugin-basics.md) ne se chargeront pas ou ne fonctionneront pas comme prévu.
 

@@ -48,7 +48,7 @@ Les ressources de SVG d’un package ont un certain nombre d’attributs que vou
 | Balises | Utilisé pour [trier et organiser la ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dans la [bibliothèque](../../interface/the-library/the-library.md). |
 | Données utilisateur | Données supplémentaires facultatives, non utilisées sur les images vectorielles. |
 | Afficher dans la bibliothèque | Détermine si la ressource SVG doit être masquée dans [la vue Bibliothèque](../../interface/the-library/the-library.md). |
-| Qualité des images vectorielles | Affecte la qualité de rendu. La plage n&#39;est pas linéaire et la meilleure qualité est atteinte à 0,5. |
+| qualité des Images vectorielles | Affecte la qualité de rendu. La plage n&#39;est pas linéaire et la meilleure qualité est atteinte à 0,5. |
 
 ## création de mots de SVG
 
@@ -98,7 +98,7 @@ Inkscape est enregistré en mode natif en tant que SVG, mais avec moins de contr
 
 ### Adobe Photoshop
 
-Photoshop dispose d’un nombre très limité d’exportateurs de mots de SVG (<b>Fichier > Exporter > Exporter sous..</b>) qui n’est actuellement pas en mesure de produire des résultats corrects pour Substance 3D Designer. Vous pouvez obtenir vos informations de forme et de tracé, mais le style est toujours enregistré en tant qu’éléments, ce qui est incompatible.
+Photoshop a un exporteur de SVG très limité (<b>Fichier > Exporter > Exporter sous..</b>) qui n’est actuellement pas en mesure de produire des résultats corrects pour Substance 3D Designer. Vous pouvez obtenir vos informations de forme et de tracé, mais le style est toujours enregistré en tant qu’éléments, ce qui est incompatible.
 
 Il peut être utilisé pour les masques de forme simples en noir et blanc, où une solution consiste à extraire l&#39;Alpha du SVG à l&#39;aide de la [division d&#39;Alpha](../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md).
 

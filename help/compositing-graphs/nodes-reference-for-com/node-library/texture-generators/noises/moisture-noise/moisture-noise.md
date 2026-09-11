@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bruit d'humidité 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,20 +24,20 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 1 - Icône](../../../../../../assets/moisture_noise_1.png "Bruit d&#39;humidité 1 - Icône"){width="200px"}
+![bruit d&#39;humidité 1 - Icône](moisture-noise.resources/moisture_noise_1.png "bruit d&#39;humidité 1 - Icône"){width="200px"}
 
-<b>Entrée :</b> Générateurs de textures > Bruits
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Une variante des bruits riches et spongieux de l&#39;<b>humidité</b>.
+Une variante des bruits riches et spongieux de <b>l&#39;humidité</b>.
 
-Disques de dureté et de taille variables et dispersés et additionnés ou soustraits de la couleur ci-dessous, à partir d&#39;un gris de base.
+Disques de dureté et de taille variables, dispersés et additionnés ou soustraits de la couleur ci-dessous, à partir d&#39;un gris de base.
 
-Voir aussi : [Bruit d&#39;humidité 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+Voir aussi : [bruit d&#39;humidité 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Voir aussi : [Bruit d&#39;humidité 2](../../../../../../compositing-graphs/node
 
 |  |  |
 |:---|:---|
-| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est une image bitmap en niveaux de gris. |
+| <b>Sortie</b> <i>Niveaux de gris</i> | Le bruit généré est un bitmap en niveaux de gris. |
 
 <a name="parameters"></a>
 
@@ -57,16 +57,16 @@ Voir aussi : [Bruit d&#39;humidité 2](../../../../../../compositing-graphs/node
 
 |  |  |
 |:---|:---|
-| <b>Échelle</b> <i>Nombre entier</i> | Subdivision de la grille utilisée pour générer les carreaux de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est important et plus le bruit est dense. |
-| <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Désorganiser l&#39;anisotropie</b> <i>Flotter</i> | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>Désorganiser l&#39;angle d&#39;anisotropie</b>. |
-| <b>Désorganiser l&#39;anisotropy angle</b> <i>Flotter</i> | Contrôle la direction du displacement appliqué par le paramètre <b>Disorder</b>, lorsque le paramètre <b>Disorder anisotropie</b> n&#39;est pas nul. |
-| <b>Taille du motif</b> <i>Float2</i> | Multiplicateur de la taille d’un motif diffusé. , où 1,0 correspond à la taille de diffusion d’origine. |
-| <b>Angle du motif</b> <i>Flotter</i> | Angle utilisé pour définir la direction du motif diffusé, en nombre de tours et à partir de l’horizontale vers la droite. |
-| <b>Angle aléatoire du motif</b> <i>Flotter</i> | Quantité maximale de variation aléatoire appliquée à la valeur <b>Angle du motif</b>, en nombre de tours. |
-| <b>Opacité globale</b> <i>Flotter</i> | Opacité de tous les ingrédients du bruit, où 0,0 donne un gris plat de base et 1,0 est le résultat de l&#39;addition ou de la soustraction complète appliquée par les ingrédients. |
-| <b>Décalage de mosaïque</b> <i>Float2</i> | Définit la position de la partie du plan infini utilisée pour le rendu du bruit. |
+| <b>Échelle</b> <i>Entier</i> | Subdivision de la grille utilisée pour générer les éléments de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est élevé et plus le bruit est dense. |
+| <b>Désordre</b> <i>Flottant</i> | Déplace les ingrédients du bruit.    Cela permet d’animer le bruit. |
+| <b>Désorganiser la vitesse</b> <i>Flottant</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Désorganiser l&#39;anisotropie</b> <i>Flottant</i> | Contrôle l&#39;étendue des directions du displacement appliqué par le paramètre <b>Désordre</b>, où une valeur plus élevée entraîne une direction plus étroite et plus définie.    La direction est contrôlée par le paramètre <b>anisotropy angle de désordre</b>. |
+| <b>Désorganiser l&#39;anisotropy angle</b> <i>Flottant</i> | Contrôle la direction du displacement appliqué par le paramètre <b>Disorder</b>, lorsque le paramètre <b>Disorder anisotropie</b> n&#39;est pas nul. |
+| <b>Taille du motif</b> <i>Flottant 2</i> | Multiplicateur de la taille d’un motif diffusé. , où 1,0 correspond à la taille de diffusion d’origine. |
+| <b>Angle du motif</b> <i>Flottant</i> | Angle utilisé pour définir la direction du motif diffusé, en nombre de tours et à partir de l’horizontale vers la droite. |
+| <b>Angle aléatoire du motif</b> <i>Flottant</i> | Quantité maximale de variation aléatoire appliquée à la valeur <b>Angle du motif</b>, en nombre de tours. |
+| <b>Opacité globale</b> <i>Flottant</i> | L&#39;opacité de tous les ingrédients du bruit, où 0,0 donne un gris simple et 1,0 est le résultat de l&#39;addition ou de la soustraction complète appliquée par les ingrédients. |
+| <b>Décalage de mosaïque</b> <i>Flottant 2</i> | Définit la position de la partie du plan infini utilisée pour le rendu du bruit. |
 | <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples
@@ -75,12 +75,12 @@ Voir aussi : [Bruit d&#39;humidité 2](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 1 - Exemple 1](../../../../../../assets/moisture_noise_1_1.png "Bruit d&#39;humidité 1 - Exemple 1"){zoomable="yes"}
+![bruit d&#39;humidité 1 - Exemple 1](moisture-noise.resources/moisture_noise_1_1.png "bruit d&#39;humidité 1 - Exemple 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 1 - Exemple 2](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Bruit d&#39;humidité 1 - Exemple 2"){zoomable="yes"}
+![bruit d&#39;humidité 1 - Exemple 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "bruit d&#39;humidité 1 - Exemple 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Voir aussi : [Bruit d&#39;humidité 2](../../../../../../compositing-graphs/node
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 1 - Exemple 3](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Bruit d&#39;humidité 1 - Exemple 3"){zoomable="yes"}
+![bruit d&#39;humidité 1 - Exemple 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "bruit d&#39;humidité 1 - Exemple 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bruit d&#39;humidité 1 - Exemple 4](../../../../../../assets/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Bruit d&#39;humidité 1 - Exemple 4"){zoomable="yes"}
+![bruit d&#39;humidité 1 - Exemple 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "bruit d&#39;humidité 1 - Exemple 4"){zoomable="yes"}
 
 </td>
 </tr>

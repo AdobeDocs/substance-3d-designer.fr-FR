@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé linéaire 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient3.png)
+![](gradient-linear-3.resources/gradient3.png)
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,7 +45,7 @@ Dégradé linéaire le plus avancé. Au lieu du profil arrondi en forme de tuyau
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 | <b>Position</b> <i>0.0 - 1.0</i> | Définit l’emplacement du point médian ou du sommet du dégradé. |
 | <b>Rotation</b> <i>0, 90°</i> | Change le sens de gauche à droite à haut en bas, ou vice versa. |
 
@@ -54,7 +54,7 @@ Dégradé linéaire le plus avancé. Au lieu du profil arrondi en forme de tuyau
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient3-ex.gif" />
+            <img src="gradient-linear-3.resources/gradient3-ex.gif" />
         </td>
     </tr>
 </table>

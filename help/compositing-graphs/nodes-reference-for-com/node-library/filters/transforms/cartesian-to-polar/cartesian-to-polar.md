@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Cartésien vers polaire pour convertir les textures des systèmes de coordonnées cartésiens vers polaires afin de créer des effets radiaux.
+description: Utilisez le nœud Cartésien à polaire pour convertir des textures de systèmes de coordonnées Cartésien en systèmes polaires afin de créer des effets radiaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Cartesian To Polar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Cartésien À Polaire
+title: Cartésien vers polaire
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Cartésien À Polaire
+# Cartésien vers polaire
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Description
 
-Convertit une entrée de coordonnées cartésiennes (X&amp;Y) en coordonnées polaires (Angle et rayon). L&#39;inverse est possible avec [Polaire à cartésien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md).
+Convertit une entrée dont les coordonnées Cartésien (X&amp;Y) sont définies sur Coordonnées polaires (Angle et rayon). L&#39;inverse est possible avec [Polar To Cartésien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md).
 
 </td>
 </tr>

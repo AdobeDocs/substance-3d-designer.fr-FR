@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Ce nœud représente l&#39;usure des bords des objets. Il a pas mal de paramètres, mais n&#39;est pas le plus facile à utiliser : nous vous recommandons de jouer et de se faire une idée des choses. Le nœud est assez puissant, bien qu&#39;aucun masque de remplacement personnalisé ne puisse être effectué.
 

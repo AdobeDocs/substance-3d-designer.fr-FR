@@ -1,7 +1,7 @@
 ---
 helpx_url: ""
 breadcrumb-title: ''
-description: Accédez aux nœuds de constantes dans Substance 3D Designer pour définir des valeurs constantes dans les graphiques de Substances.
+description: Accédez aux nœuds de constantes dans Substance 3D Designer pour définir des valeurs constantes dans les graphes de Substance.
 helpx_creative_field: ""
 helpx_description: ""
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # Constante
 
-Les nœuds constants permettent de créer une valeur statique utilisable dans les graphes en Substance.
+Les nœuds constants permettent de créer une valeur statique utilisable dans les graphes de Substance.
 
 Vous trouverez ces nœuds dans la section **Valeurs > Constantes** de la bibliothèque.\
-Ils incluent tous un simple nœud [Value processor](../../atomic-nodes/value-processor/value-processor.md) générant la valeur.
+Ils incluent tous un nœud [Processeur de valeurs](../../atomic-nodes/value-processor/value-processor.md) simple générant la valeur.
 
 +++ Nœuds constants dans la bibliothèque
 
@@ -31,24 +31,24 @@ Ils incluent tous un simple nœud [Value processor](../../atomic-nodes/value-pro
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nœud flottant constant" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nœud de Flottant constant" /></p>
 
 ## Entiers
 
 Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 
-[Ils peuvent être convertis en flottants](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), ce qui est recommandé lors de toute opération plus complexe que les ajouts, les soustractions et les comparaisons simples.
+[Ils peuvent être convertis en Flottant](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), ce qui est recommandé lors de toute opération plus complexe que les ajouts, les soustractions et les comparaisons simples.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type d&#39;entier](../../../../assets/fn-constant-integer.png "Icône Type d&#39;entier")
+![icône de type d&#39;Entier](constant.resources/fn-constant-integer.png "icône de type d&#39;Entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Nombre entier</b>
+<b>Entier</b>
 
 Un entier a un seul composant. Il est utile comme index pour effectuer des sélections, par exemple :
 
@@ -57,7 +57,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 
 >[!IMPORTANT]
 >
-> Les <b>entiers négatifs</b> dans les fonctions de paramètre ne sont *pas pris en charge*. Voir [cette page](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md) dans la section « Problèmes techniques » pour une solution.
+> <b>Les entiers négatifs</b> dans les fonctions de paramètre ne sont *pas pris en charge*. Voir [cette page](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md) dans la section « Problèmes techniques » pour une solution.
 
 </td>
 </tr>
@@ -67,16 +67,16 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier2](../../../../assets/fn-constant-integer2.png "Entier2")
+Icône de type ![Entier 2](constant.resources/fn-constant-integer2.png "Entier 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Entier2</b>
+<b>Entier 2</b>
 
-Un nœud Integer2 génère un vecteur entier statique à 2 composantes avec des composantes (X, Y).
+Un nœud Entier 2 génère un vecteur d’entier statique à 2 composantes avec des composantes (X, Y).
 
-Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de grille X et Y, comme dans le nœud [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+Un cas d&#39;utilisation courant d&#39;Entier 2 est de définir les tailles de grille X et Y, comme dans le nœud [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 </td>
 </tr>
@@ -86,14 +86,14 @@ Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de g
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer3](../../../../assets/fn-constant-integer3.png "Icône de type Integer3")
+Icône de type ![Entier 3](constant.resources/fn-constant-integer3.png "Entier 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Entier3</b>
+<b>Entier 3</b>
 
-Un nœud Integer3 génère un vecteur entier statique à 3 composantes avec des composantes (X, Y, Z).
+Un nœud Entier 3 génère un vecteur d’entier statique à 3 composants avec des composants (X, Y, Z).
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Un nœud Integer3 génère un vecteur entier statique à 3 composantes avec des 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier 4](../../../../assets/fn-constant-integer4.png "Entier 4")
+Icône de type ![Entier 4](constant.resources/fn-constant-integer4.png "Entier 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Les valeurs de Flottant constantes génèrent des nombres fractionnaires, c&#39;
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type de Flottant](../../../../assets/fn-constant-float.png "Icône Type de Flottant")
+Icône ![Type de Flottant](constant.resources/fn-constant-float.png "Icône Type de Flottant")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Un Flottant a un seul composant et est très couramment utilisé pour toute vale
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Flottant 2](../../../../assets/fn-constant-float2.png "Flottant 2")
+Icône de type ![Flottant 2](constant.resources/fn-constant-float2.png "Flottant 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Flottant2 est couramment utilisé pour [l&#39;échantillonnage des coordonnées]
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Flottant 3](../../../../assets/fn-constant-float3.png "Flottant 3")
+Icône de type ![Flottant 3](constant.resources/fn-constant-float3.png "Flottant 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Flottant3 est principalement utilisé lors de l&#39;utilisation d&#39;objets 3D 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Flottant 4](../../../../assets/fn-constant-float4.png "Flottant 4")
+Icône de type ![Flottant 4](constant.resources/fn-constant-float4.png "Flottant 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Flottant 4 est le moyen privilégié de stocker et de définir les informations 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Booléen](../../../../assets/fn-constant-boolean.png "Booléen")
+Icône ![Booléen](constant.resources/fn-constant-boolean.png "Booléen")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

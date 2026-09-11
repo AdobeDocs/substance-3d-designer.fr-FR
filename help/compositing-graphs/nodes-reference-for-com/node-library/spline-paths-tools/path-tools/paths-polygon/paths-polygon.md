@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Polygone des tracés pour créer des tracés polygonaux à partir de données de sommet pour la génération de motifs géométriques.
+description: Utilisez le nœud Polygone des tracés pour créer des tracés polygonaux à partir des données de vertex pour la génération de motifs géométriques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 Génère une primitive (polygone) au format Tracés.
 
-Utilisez le nœud [Transformation 2D du tracé](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) pour positionner la primitive avec précision.
+Utilisez le nœud [Transforme 2D du tracé](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) pour positionner la primitive avec précision.
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Utilisez le nœud [Transformation 2D du tracé](../../../../../../compositing-gr
 
 |  |  |
 |:---|:---|
-| <b>Nombre de côtés</b> <i>Nombre entier</i> | Conseil : entrez un nombre compris entre 100 et 1 000 pour générer un cercle. |
+| <b>Nombre de côtés</b> <i>Entier</i> | Conseil : entrez un nombre compris entre 100 et 1 000 pour générer un cercle. |
 
 ## Exemples
 

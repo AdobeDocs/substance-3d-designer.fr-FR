@@ -85,15 +85,15 @@ Ce panneau contrôle l’emplacement de la texture bakée.
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Méthode** | Contrôle la façon dont les textures bakées seront stockées avec le package de Substance.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incorporé</strong> : les textures bakées sont stockées dans un sous-dossier en regard du package de Substances avec un nom spécifique.</li><li data-preserve-html="true"><strong>Lié</strong> (par défaut) : la texture cuite est stockée dans le dossier défini, puis référencée dans le pack de Substances.</li></ul> |
-| **Dossier** | Emplacement des textures cuites lors de l’enregistrement. Cliquez sur le bouton à trois points pour ouvrir une boîte de dialogue de fichier et choisissez le dossier d’exportation. Une coche sera visible à droite pour indiquer si le dossier existe réellement ou non. |
-| **Nom** | Convention de dénomination des textures cuites. Cliquez sur le bouton à trois points pour ouvrir une liste déroulante et insérer d’autres espaces réservés (nom de pain, personnalisé, matière, filet). |
+| **Méthode** | Contrôle la façon dont les textures bakées seront stockées avec le package de Substance.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incorporé</strong> : les textures bakées sont stockées dans un sous-dossier en regard du package de Substances avec un nom spécifique.</li><li data-preserve-html="true"><strong>Lié</strong> (par défaut) : les textures bakées sont stockées dans le dossier défini, puis référencées dans le package de Substances.</li></ul> |
+| **Dossier** | Emplacement des textures bakées lors de l’enregistrement. Cliquez sur le bouton à trois points pour ouvrir une boîte de dialogue de fichier et choisissez le dossier d’exportation. Une coche sera visible à droite pour indiquer si le dossier existe réellement ou non. |
+| **Nom** | Convention de dénomination des textures bakées. Cliquez sur les trois points pour ouvrir une liste déroulante et insérer d’autres espaces réservés (nom de pain, personnalisé, matériau, maillage). |
 | **Exemple** | Simuler un nom de fichier pour tester la convention de dénomination. |
-| **Placer la ressource dans un dossier spécifique au maillage** | Si cette option est activée, les textures cuites sont enregistrées dans un dossier nommé fichier de filet. |
+| **Placer la ressource dans un dossier spécifique au Maillage** | Si cette option est activée, les textures bakées sont enregistrées dans un dossier nommé par fichier de maillage. |
 
 ### Maillages haute définition
 
-Ce panneau contrôle la liste des maillages à haute densité de polices et les paramètres associés. Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
+Ce panneau contrôle la liste des maillages à haut niveau de concurrence et les paramètres associés. Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/common-parameters) pour plus d&#39;informations.
 
 ![Maillages haute définition](bakers.resources/sd-high.png "Maillages haute définition")
 
@@ -107,15 +107,15 @@ Voir les [paramètres communs](https://experienceleague.adobe.com/fr/docs/substa
 
 La **liste de rendu des Bakers** permet de choisir la texture bakée que vous souhaitez générer. Par défaut, la liste est vide.
 
-* **Ajout d&#39;un nouveau boulanger :** Cliquez sur le bouton « Ajouter un boulanger ».
-* **Suppression d&#39;un boulanger :** sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Supprimer le boulanger ».
-* **Placement d&#39;un boulanger en haut :** sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Placer en haut ».
+* **Ajout d&#39;un nouveau baker :** Cliquez sur le bouton « Ajouter un Baker ».
+* **Suppression d&#39;un baker :** sélectionnez le baker dans la liste, puis cliquez sur le bouton « Supprimer le baker ».
+* **Déplacement d&#39;un baker vers le haut :** sélectionnez le baker dans la liste, puis cliquez sur le bouton « Déplacer vers le haut ».
 * **Descente d&#39;un baker :** sélectionnez le baker dans la liste, puis cliquez sur le bouton « Push down ».
 
-Chaque boulanger hérite par défaut des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du boulanger. Cela est vrai pour les autres paramètres de la ligne.
+Par défaut, chaque baker hérite des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du baker. Cela est vrai pour les autres paramètres de la ligne.
 
-Lorsque vous cliquez sur un boulanger dans la liste, la vue Baker Parameters est mise à jour avec ses paramètres spécifiques.
+Lorsque vous cliquez sur un baker dans la liste, la vue Paramètres de Baker est mise à jour avec ses paramètres spécifiques.
 
-Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres de Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Liste de rendu des boulangers](bakers.resources/sd-baker-list.png "Liste de rendu des boulangers")
+![Liste de rendu des Bakers](bakers.resources/sd-baker-list.png "Liste de rendu des Bakers")

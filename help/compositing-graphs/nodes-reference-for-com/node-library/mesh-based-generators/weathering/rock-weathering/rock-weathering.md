@@ -72,11 +72,11 @@ ht-degree: 16%
 | <b>Désaturation De La Roche Utilisée</b> <i>0.0 - 1.0</i> |  |
 | <b>Luminosité rocheuse utilisée</b> <i>0.0 - 1.0</i> |  |
 | <b>Fusion</b> |  |
-| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
-| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
-| <b>Intensité normale</b> <i>0.0 - 64.0</i> | Intensité de fusion de la normale. |
-| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
-| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Force de fusion du Diffuse. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Force de fusion de la Base color. |
+| <b>Intensité normale</b> <i>0.0 - 64.0</i> | Force de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Force de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Force de fusion de la Brillance. |
 | <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Force de fusion de la Rugosité. |
 | <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Force de fusion de l’Ambient occlusion. |
 | <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Force de fusion de l’Height. |

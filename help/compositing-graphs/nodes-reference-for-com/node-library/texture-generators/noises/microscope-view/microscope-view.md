@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Vue microscope pour générer des motifs de texture microscopiques afin de créer des structures de surface détaillées.
+description: Utilisez le nœud Vue du microscope pour générer des motifs de texture microscopiques afin de créer des structures de surface détaillées.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue du microscope
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/microscope-view.png){width="128px"}
+![](microscope-view.resources/microscope-view.png){width="128px"}
 
 <b>Entrées :</b> Générateurs de Textures > Bruits
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Description
 
-Cela génère un bruit de déformation qui ressemble à des bactéries ou des organismes sous un microscope.
+Cela génère un bruit déformé qui ressemble à des bactéries ou des organismes sous un microscope.
 
 </td>
 </tr>
@@ -48,14 +48,14 @@ Cela génère un bruit de déformation qui ressemble à des bactéries ou des or
 | <b>Échelle</b> <i>0 - 10</i> | Définit l’échelle globale de l’effet. |
 | <b>Intensité de déformation</b> <i>0.0 - 1.0</i> | Définit l’intensité de l’effet de déformation. Gardez à l’esprit que vous pouvez également devenir négatif en double-cliquant et en saisissant -1. |
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasage du bruit pour introduire une faible variation |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/microscope-view-ex.gif" />
+            <img src="microscope-view.resources/microscope-view-ex.gif" />
         </td>
     </tr>
 </table>

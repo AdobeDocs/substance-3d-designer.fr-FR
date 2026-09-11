@@ -60,10 +60,10 @@ Voir aussi : [Somme fractale 1](../../../../../../compositing-graphs/nodes-refer
 | <b>Rugosité</b> <i>Flottant</i> | L&#39;équilibre des octaves du bruit.    Une valeur élevée rend les octaves de fréquence plus visibles. |
 | <b>Min. niveau</b> <i>Entier</i> | Octave minimale utilisée dans le bruit.    Plus la valeur est élevée, plus la fréquence de bruit est élevée. |
 | <b>Max. niveau</b> <i>Entier</i> | Octave maximale utilisée dans le bruit.    Plus la valeur est élevée, plus la fréquence de bruit est élevée. |
-| <b>Désordre</b> <i>Flotter</i> | Déplace les ingrédients du bruit.    Cela peut être utilisé pour animer le bruit. |
-| <b>Désorganiser la vitesse</b> <i>Flotter</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Contraste</b> <i>Flotter</i> | Contraste du résultat final. |
-| <b>Opacité globale</b> <i>Flotter</i> | Opacité des octaves de bruit ajoutées ensemble dans le résultat final.    Une valeur élevée peut entraîner la gravure de zones en blanc. |
+| <b>Désordre</b> <i>Flottant</i> | Déplace les ingrédients du bruit.    Cela permet d’animer le bruit. |
+| <b>Désorganiser la vitesse</b> <i>Flottant</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
+| <b>Contraste</b> <i>Flottant</i> | Contraste du résultat final. |
+| <b>Opacité globale</b> <i>Flottant</i> | Opacité des octaves de bruit ajoutées ensemble dans le résultat final.    Une valeur élevée peut entraîner la gravure de zones en blanc. |
 | <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples

@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Flood Fill à l’index convertit chaque cellule Flood Fill en une valeur correspondant à son numéro d’index, en commençant par 0 dans le coin supérieur gauche. Il peut être utilisé pour renvoyer des teintes en niveaux de gris sous une forme normalisée (0,0 à 1,0, divisé par autant de cellules que celles trouvées par Flood Fill) ou sous la forme d’une valeur HDR non répartie (0 à n où n est le nombre de cellules).
+Flood Fill à l’index convertit chaque cellule Flood Fill en une valeur correspondant à son numéro d’index, en commençant par 0 dans le coin supérieur gauche. Il peut être utilisé pour renvoyer des teintes en niveaux de gris sous une forme normalisée (0,0 à 1,0, divisé par autant de cellules que le Flood Fill en trouve) ou sous la forme d’une valeur HDR non répartie (0 à n où n est le nombre de cellules).
 
 En outre, le Flood Fill à Index utilise des [valeurs](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), renvoyant la quantité de formes trouvées et la table de données interne facultative.
 

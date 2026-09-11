@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Description
 
-Extrait la valeur de chrominance de l’entrée. La luminance est alors supprimée.
+Extrait la valeur de chrominance de l’entrée. La luminance s&#39;en est trouvée retirée.
 
 </td>
 </tr>

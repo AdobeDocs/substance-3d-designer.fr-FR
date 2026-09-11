@@ -59,4 +59,4 @@ Activez/désactivez les entrées de mappage à activer et à générer dans le r
 | <b>Position (RGB)</b> <i>Faux/Vrai</i> |  |
 | <b>ID de couleur</b> <i>Faux/Vrai</i> |  |
 | <b>Direction dans l&#39;espace monde</b> <i>Faux/Vrai</i> |  |
-| <b>Espace universel normal</b> <i>Faux/Vrai</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Faux/Vrai</i> |  |

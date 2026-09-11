@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Description
 
-Égalise l’histogramme d’une image en niveaux de gris, en ajustant efficacement les valeurs de niveaux de gris pour obtenir une distribution égale.
+Égalise l’histogramme d’une image en niveaux de gris en ajustant efficacement les valeurs de niveaux de gris pour obtenir une distribution égale.
 
 </td>
 </tr>
@@ -61,8 +61,8 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>Résolution de l&#39;histogramme</b> *Nombre entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
-| <b>Lissage de l&#39;histogramme</b> *Flotter* | L&#39;histogramme peut être lissé en redistribuant les valeurs de niveaux de gris dans l&#39;image pour égaliser la *différence* entre chaque valeur.   Ce paramètre ajuste l’intensité de ce lissage. |
+| <b>Résolution de l&#39;histogramme</b> *Entier* | La largeur de l’histogramme. Une valeur élevée permet une distribution plus fine des valeurs.   Les résolutions disponibles sont, en pixels : 256, 512, 1024, 2048, 4096 |
+| <b>Lissage de l&#39;histogramme</b> *Flottant* | L&#39;histogramme peut être lissé en redistribuant les valeurs de niveaux de gris dans l&#39;image pour égaliser la *différence* entre chaque valeur.   Ce paramètre ajuste l’intensité de ce lissage. |
 
 ## Exemples
 

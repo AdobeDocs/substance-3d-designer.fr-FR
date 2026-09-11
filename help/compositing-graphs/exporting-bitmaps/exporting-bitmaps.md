@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
-description: Découvrez comment exporter des textures et des bitmaps à partir de graphiques de composition de Substances pour les utiliser dans des applications et des workflows externes.
+description: Découvrez comment exporter des textures et des bitmaps à partir de graphes de composition de Substances pour les utiliser dans des applications et des workflows externes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exporting Bitmaps
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Exportation d’images bitmap
 
-Cette page explique comment Substance 3D Designer peut exporter des fichiers vers de nombreux formats Bitmap différents et comment exporter plusieurs fichiers UV par lots.Si vous souhaitez [exporter vers des fichiers PSD](../exporting-psd-files/exporting-psd-files.md), une page distincte est dédiée à cette opération.
+Cette page explique comment Substance 3D Designer peut exporter vers de nombreux formats de fichiers Bitmap différents et comment exporter plusieurs mosaïques d’UV par lots.Si vous souhaitez [exporter vers des fichiers PSD](../exporting-psd-files/exporting-psd-files.md), une page distincte est dédiée à cette opération.
 
 ![Exportation simplifiée](exporting-bitmaps.resources/exportflow.png "Exportation simplifiée")
 
@@ -28,8 +28,8 @@ Cette page explique comment Substance 3D Designer peut exporter des fichiers ver
 
 Il est bon de garder à l’esprit les points suivants lors de l’export d’un bitmap :
 
-* Vous<b> exportez à partir d&#39;un graphique</b>, et non d&#39;un package. Un pack ne génère pas de contenu image par lui-même.
-* Le nombre (et la résolution) de bitmaps exportés sont déterminés par les <b>sorties</b> d’un graphique.
+* Vous<b> exportez à partir d&#39;un Graphe</b>, et non d&#39;un pack. Un pack ne génère pas de contenu image par lui-même.
+* Le nombre (et la résolution) de bitmaps exportés sont déterminés par les <b>Sorties</b> d&#39;un Graphe.
 * Le type de fichier est défini pour toutes les sorties/bitmaps.
 * L&#39;exportation est différente de la [publication](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Assurez-vous de bien comprendre la différence !
 
@@ -41,14 +41,14 @@ Une fois que vous êtes prêt à exporter, il existe deux façons d’accéder �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Dans la fenêtre de l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez avec le bouton droit de la souris sur le graphique à exporter et sélectionnez **« Exporter les sorties sous forme d&#39;images bitmap »**
+Dans la fenêtre [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez avec le bouton droit de la souris sur le Graphe à exporter et sélectionnez **« Exporter les sorties sous forme d&#39;images bitmap »**
 
 ![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-Dans la [Vue graphique](../../interface/the-graph-view/the-graph-view.md), en cliquant sur le bouton Outils ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) et en choisissant **« Exporter les sorties... »**
+Dans la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md), en cliquant sur le bouton Outils ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) et en choisissant **« Exporter les sorties... »**
 
 ![](exporting-bitmaps.resources/export-graph.gif)
 
@@ -60,13 +60,13 @@ Dans la [Vue graphique](../../interface/the-graph-view/the-graph-view.md), en cl
 
 La boîte de dialogue Exporter vous présente quelques options pour personnaliser votre exportation.
 
-La version affichée à droite est la boîte de dialogue standard. Le changement de résolution se produit sur le graphique, les sorties ou en définissant la résolution parent avant d’ouvrir la boîte de dialogue.
+La version affichée à droite est la boîte de dialogue standard, le changement de résolution se produit soit sur le Graphe, les Sorties ou en définissant la résolution parent avant d’ouvrir la boîte de dialogue.
 
 1. <b>Destination : </b>emplacement de tous les fichiers à enregistrer.
 1. <b>Format :</b> type de fichier utilisé pour tous les fichiers exportés.
 1. <b>Motif</b> : méthode générique pour générer des types de fichiers basés sur des mots-clés de métadonnées. Un exemple de nom de fichier basé sur la première sortie est indiqué ci-dessous, à des fins de vérification.\
    Toutes les options disponibles sont répertoriées ci-dessous :
-   1. *$(graphe)* - nom du graphique actuel
+   1. *$(graphe)* - nom du Graphe actuel
    1. *$(identifiant)* - identifiant de la sortie actuelle
    1. *$(description)* - description de la sortie actuelle
    1. *$(label)* - libellé de la sortie actuelle

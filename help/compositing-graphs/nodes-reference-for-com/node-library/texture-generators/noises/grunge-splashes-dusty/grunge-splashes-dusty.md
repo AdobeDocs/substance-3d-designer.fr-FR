@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Splashes Dusty pour créer des motifs d’éclaboussures poussiéreuses afin d’ajouter des détails de texture usées par le temps.
+description: Utilisez le nœud Usure/salissures Splashes Dusty pour créer des motifs d’éclaboussures poussiéreuses afin d’ajouter des détails sur la texture usée.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_experience_level: ""
@@ -45,15 +45,15 @@ Le nœud **Usure/salissures Splashes Dusty** génère une carte usure/salissures
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Quantité d&#39;éclaboussures</b> <i>Flotter</i> | Règle la quantité d’éclaboussures sur la surface. |
-| <b>Distorsion des éclaboussures</b> <i>Flotter</i> | Règle l’intensité de l’effet de déformation appliqué sur les éclaboussures. |
-| <b>Rapport éclaboussures/Dirt</b> <i>Flotter</i> | Règle le *rapport* de dirt et d&#39;éclaboussures sur la surface. |
-| <b>Répartition des Dirts</b> <i>Flotter</i> | Ajuste l’étendue du dirt. |
+| <b>Quantité d&#39;éclaboussures</b> <i>Flottant</i> | Règle la quantité d’éclaboussures sur la surface. |
+| <b>Distorsion des éclaboussures</b> <i>Flottant</i> | Règle l’intensité de l’effet de déformation appliqué sur les éclaboussures. |
+| <b>Rapport éclaboussures/Dirt</b> <i>Flottant</i> | Règle le *rapport* de dirt et d&#39;éclaboussures sur la surface. |
+| <b>Répartition des Dirts</b> <i>Flottant</i> | Ajuste l’étendue du dirt. |
 
 ## Exemples
 

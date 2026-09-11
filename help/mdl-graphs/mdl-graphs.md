@@ -7,10 +7,10 @@ helpx_description: Designer > MDL graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Graphiques MDL
+title: Graphes MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Graphiques MDL
+# Graphes MDL
 
-Cette page présente des graphiques MDL dans Substance 3D Designer, qui vous permettent de créer des matériaux MDL et de prévisualiser leur comportement en temps réel.
+Cette page présente les Graphes MDL dans Substance 3D Designer, qui vous permettent de créer des Matériaux MDL et de prévisualiser leur comportement en temps réel.
 
-![Matériau MDL de malachite](../assets/mdl-malachite-example.jpg "Matériau MDL de malachite")
+![Matériau MDL de malachite](mdl-graphs.resources/mdl-malachite-example.jpg "Matériau MDL de malachite")
 
 *Malachite à la chrysocolle, Matériau MDL de [Mark Foreman](https://www.artstation.com/oggyart)* *disponible sur notre [plateforme](https://share-legacy.substance3d.com/libraries/4043)* *héritée*
 
@@ -30,17 +30,17 @@ Cette page présente des graphiques MDL dans Substance 3D Designer, qui vous per
 > 
 > La version 16.0.0 de Designer a supprimé les graphes MDL et toutes les fonctionnalités associées.
 > 
-> En savoir plus ici : [Fin de vie du graphique MDL et de l&#39;iray](../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
+> En savoir plus ici : [Graphe MDL et Iray de vie](../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
 
 +++Table des matières
 
-* [Concepts principaux du graphique MDL](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
-* [Création d’un graphique MDL](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
+* [Concepts du Graphe MDL principal](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
+* [Création d’un Graphe MDL](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
 * [Bibliothèque MDL](/help/mdl-graphs/mdl-library/mdl-library.md)
 * [Exposer des paramètres dans les Graphes MDL](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
-* [Graphiques de Substance et matériaux MDL](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
+* [graphes et Matériaux MDL de Substance](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
 * [Exportation de contenu MDL](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
-* [Avertissements dans les graphiques MDL](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
+* [Avertissements dans les Graphes MDL](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
 * [Ressources d’apprentissage MDL](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
 
 +++
@@ -62,7 +62,7 @@ Envie d&#39;intervenir ? Commencez à utiliser les Graphes MDL de la section Res
 >
 > Vous pouvez en savoir plus sur la mise en œuvre technique du langage de définition de Matériau dans la [documentation NVIDIA MDL](https://raytracing-docs.nvidia.com/mdl/index.html), qui comprend des liens vers la spécification MDL et le [manuel MDL](http://mdlhandbook.com/), tous créés et gérés par NVIDIA.
 
-![propriétés du Graphe MDL](../assets/mdl-main.png "propriétés du Graphe MDL")
+![propriétés du Graphe MDL](mdl-graphs.resources/mdl-main.png "propriétés du Graphe MDL")
 
 *Propriétés de Graphe MDL dans le panneau Propriétés*
 

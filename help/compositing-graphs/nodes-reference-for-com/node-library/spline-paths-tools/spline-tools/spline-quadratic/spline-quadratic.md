@@ -63,7 +63,7 @@ L&#39;étendue de l&#39;arc formé par la spline est *réglable*, de sorte qu&#3
 | <b>Aperçu</b> <i>Niveaux de gris</i> | Aperçu des splines de sortie sous forme d&#39;image en niveaux de gris. |
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines de sortie codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> - signe : la spline est fermée (négative) ou ouverte (positive);<br> - Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines de sortie codées dans les canaux RVBA d&#39;une image couleur : <br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Tangentes Z<br><b>A</b> - Inutilisées |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines de sortie. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines de sortie. |
 
 <a name="parameters"></a>
 
@@ -75,7 +75,7 @@ L&#39;étendue de l&#39;arc formé par la spline est *réglable*, de sorte qu&#3
 | <b>Distribution uniforme</b> <i>Booléen</i> | Lorsque <i>True</i>, les points de la spline sont espacés de manière régulière du début à la fin. |
 | <b>Ajouter une spline d&#39;entrée</b> <i>Booléen</i> | Ajoute la spline générée à la fin de la liste des splines connectées aux entrées de <b>spline</b>. |
 | <b>Correction non carrée</b> <i>Booléen</i> | Ajustez la position et le thickness des points pour conserver la forme de la spline dans des résolutions autres que carrées. Cela a également un impact sur la distribution uniforme. |
-| <b>Smoothness</b> <i>Flotter</i> | Ajuste la <i>plage de l&#39;arc</i> formé par la spline, où 1 signifie que la spline est entièrement incurvée sur toute sa longueur et 0 signifie qu&#39;elle est entièrement droite. L&#39;arc progresse à partir du point <b>p3</b> le long de la spline jusqu&#39;à ses extrémités. |
+| <b>Smoothness</b> <i>Flottant</i> | Ajuste la <i>plage de l&#39;arc</i> formé par la spline, où 1 signifie que la spline est entièrement incurvée sur toute sa longueur et 0 signifie qu&#39;elle est entièrement droite. L&#39;arc progresse à partir du point <b>p3</b> le long de la spline jusqu&#39;à ses extrémités. |
 | <b>Height</b> |  |
 | <b>height de démarrage</b> <i>Flottant</i> | Ajuste l&#39;height du point <b>p1</b> où une valeur inférieure signifie un emplacement plus bas ou plus profond.<br>Cela a un impact sur l&#39;height de la spline à <b>p1</b>. |
 | <b>height final</b> <i>Flottant</i> | Ajuste l&#39;height du point <b>p3</b> où une valeur inférieure signifie un emplacement plus bas ou plus profond.<br>Cela a un impact sur le thickness de la spline à <b>p3</b>. |

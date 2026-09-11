@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barre d'outils principale
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barre d&#39;outils principale](../../assets/mainmenu.png "Barre d&#39;outils principale")
+![Barre d&#39;outils principale](the-main-toolbar.resources/mainmenu.png "Barre d&#39;outils principale")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 ## Boutons d’accès rapide
 
-![](../../assets/newsubstance.png) <b>Nouveau graphe de Substance...:</b> (Ctrl+N)Affiche la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), puis crée un pack avec un [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/newsubstance.png) <b>Nouveau graphe de Substance...:</b> (Ctrl+N)Affiche la fenêtre [Nouveau graphe](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md), puis crée un pack avec un [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/open.png) <b>Ouvrir...:</b> (Ctrl+O) Ouvrir un package de [Substances (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](../../assets/saveall.png) <b>Enregistrer tout :</b> (Ctrl+⇧+S) Enregistre tous les packages répertoriés dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/saveall.png) <b>Enregistrer tout :</b> (Ctrl+⇧+S) Enregistre tous les packages répertoriés dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Annuler :</b> (Ctrl+Z) Annuler la dernière opération.
+![](the-main-toolbar.resources/undo.png) <b>Annuler :</b> (Ctrl+Z) Annuler la dernière opération.
 
-![](../../assets/redo.png) <b>Rétablir :</b> (Ctrl+Y) Rétablir la dernière opération annulée.
+![](the-main-toolbar.resources/redo.png) <b>Rétablir :</b> (Ctrl+Y) Rétablir la dernière opération annulée.
 
 ## Fichier
 
@@ -112,13 +112,13 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Explorateur :</b> affichez/masquez l&#39;[Explorateur](../the-explorer-window/the-explorer-window.md).
 
-<b>Graphique :</b> afficher/masquer la ou les [fenêtre de graphique](../../interface/the-graph-view/the-graph-view.md).
+<b>Graphe :</b> afficher/masquer la ou les [fenêtre(s) de graphe](../../interface/the-graph-view/the-graph-view.md).
 
 <b>Paramètres :</b> affichez/masquez les [propriétés](../properties/properties.md).
 
 <b>Console :</b> affichez/masquez la fenêtre de la console.
 
-<b>Vue 3D :</b> affichez/masquez [vue(s) 3D](../../interface/3d-view/3d-view.md).
+<b>vue 3D :</b> affichez/masquez [vue 3D(s)](../../interface/3d-view/3d-view.md).
 
 <b>Gestionnaire de dépendances :</b> affichez/masquez le [Gestionnaire de dépendances](../../interface/dependency-manager/dependency-manager.md).
 

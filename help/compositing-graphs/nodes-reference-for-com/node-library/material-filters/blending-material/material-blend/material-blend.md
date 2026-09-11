@@ -83,7 +83,7 @@ Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une cart
 | <b>Specular level</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
-| <b>Occlusion ambiante</b> |  |
+| <b>Ambient occlusion</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
 | <b>Height</b> |  |

@@ -29,11 +29,11 @@ Dans chacune des pages répertoriées, vous trouverez *étapes de dépannage* po
 * [Crash lors du rendu des graphes](../technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
 * [Les paramètres ne fonctionnent pas comme prévu](../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 * [Sortie d’image incorrecte](../technical-issues/incorrect-image-output/incorrect-image-output.md)
-* [Problèmes liés à la vue 3D](../technical-issues/3d-view-issues/3d-view-issues.md)
-* [Problèmes de boulangerie](../technical-issues/baking-issues/baking-issues.md)
+* [Problèmes de vue 3D](../technical-issues/3d-view-issues/3d-view-issues.md)
+* [Problèmes de Baking](../technical-issues/baking-issues/baking-issues.md)
 * [Problèmes avec l’interface utilisateur](../technical-issues/user-interface-issues/user-interface-issues.md)
 * [Problèmes avec Python](../technical-issues/python-issues/python-issues.md)
-* [La fonction de graphe de modèle de Substance est manquante](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
+* [La fonction de graphe Substance model est manquante](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
 
 ## Signaler un problème
 

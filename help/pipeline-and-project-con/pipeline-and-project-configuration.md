@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Configuration du pipeline et du projet
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Configuration du pipeline et du projet
 
-Substance 3D Designer dispose d’un système puissant pour configurer l’application pour l’utilisation du pipeline. Grâce à un système avancé de fichiers hiérarchiques « **Projet** », l&#39;application peut être instantanément configurée selon les normes Studio ou Project, toutes les configurations et le contenu de la bibliothèque étant sous contrôle de version. L&#39;objectif principal du système est de centraliser tous les paramètres pertinents pour le pipeline, tout en permettant à plusieurs configurations de se substituer et de s&#39;étendre les unes aux autres.
+Substance 3D Designer dispose d’un système puissant pour configurer l’application pour l’utilisation du pipeline. Grâce à un système avancé de fichiers hiérarchiques « **Projet** », l&#39;application peut être instantanément configurée selon les normes Studio ou Project, toutes les configurations et le contenu de la bibliothèque étant en cours de gestion de versions. L&#39;objectif principal du système est de centraliser tous les paramètres pertinents pour le pipeline, tout en permettant à plusieurs configurations de se substituer et de s&#39;étendre les unes aux autres.
 
 >[!WARNING]
 >
@@ -39,7 +39,7 @@ L’image illustre la relation entre les différents fichiers dans la configurat
 </td>
 <td style="border: 0;" valign="top">
 
-![Hiérarchie des fichiers de configuration](../assets/filestructureoverview.png "Hiérarchie des fichiers de configuration")
+![Hiérarchie des fichiers de configuration](pipeline-and-project-configuration.resources/filestructureoverview.png "Hiérarchie des fichiers de configuration")
 
 </td>
 </tr>
@@ -56,8 +56,8 @@ L’image illustre la relation entre les différents fichiers dans la configurat
 Chaque type de fichier est expliqué plus en détail sur les pages enfants de cette page, mais la courte présentation de la définition idéale d’une configuration personnalisée pour Designer est la suivante :
 
 1. <b>Identifiez et regroupez les paramètres à ajouter à vos fichiers de projet.</b> C&#39;est différent pour chaque studio et nécessite une certaine planification !\
-   Dans presque tous les cas, au moins 2 projets doivent être définis : un pour les valeurs par défaut globales, à l’échelle du studio (comme les modèles standard, les fichiers de nuanceur, les paramètres de boulangerie) et un avec un contenu plus spécifique, tel que le contenu de la bibliothèque. Si plusieurs projets sont exécutés simultanément, vous pouvez créer plusieurs configurations de projet pour chacun d’eux (soit 3 ou plus au total).
-1. <b>Créez les [fichiers SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) pertinents et placez-les, ainsi que leur contenu, sous contrôle de version.</b> Il est fortement recommandé de séparer le contenu du pipeline et de la bibliothèque Designer du contenu et des ressources réelles de votre projet (modèles 3D, textures, code) en créant un *référentiel distinct*.
-1. <b>Créez un fichier [&#x200B; Configuration SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) répertoriant tous les fichiers de projet, placez-le sous contrôle de version</b>. Si vous avez plusieurs projets, vous pouvez créer une configuration pour chaque projet.
+   Dans presque tous les cas, au moins 2 projets doivent être définis : un pour les valeurs par défaut globales et à l’échelle du studio (comme les modèles standard, les fichiers shader, les paramètres de baking) et un avec un contenu plus spécifique, tel que le contenu de la bibliothèque. Si plusieurs projets sont exécutés simultanément, vous pouvez créer plusieurs configurations de projet pour chacun d’eux (soit 3 ou plus au total).
+1. <b>Créez les [fichiers SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) pertinents et placez-les avec leur contenu sous gestion de versions.</b> Il est fortement recommandé de séparer le contenu du pipeline et de la bibliothèque Designer du contenu et des ressources réelles de votre projet (modèles 3D, textures, code) en créant un *référentiel distinct*.
+1. <b>Créez un fichier [&#x200B; Configuration SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) répertoriant tous les fichiers de projet, placez-le sous gestion de versions</b>. Si vous avez plusieurs projets, vous pouvez créer une configuration pour chaque projet.
 1. <b>Configurez [User\_Preferences.xml](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md) de chaque utilisateur pour référencer son fichier de configuration pertinent.</b>\
    Vous pouvez demander à chaque utilisateur de le faire manuellement ou utiliser un script en injectant des lignes dans son fichier XML. [Plus d&#39;informations sur la page concernée](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md).

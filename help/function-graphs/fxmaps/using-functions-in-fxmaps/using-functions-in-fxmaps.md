@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser les graphiques de fonction dans FXMaps pour créer des effets et des motifs de matériau procéduraux avancés.
+description: Apprenez à utiliser les graphes de fonction dans FXMaps pour créer des effets et des motifs de matériau procédural avancés.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps
 helpx_experience_level: ""

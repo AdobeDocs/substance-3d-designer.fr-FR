@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dissociation normale pour séparer les données de mappage normales combinées en composants X, Y et Z individuels.
+description: Utilisez le nœud Dissociation normale pour séparer les données de map normal en composants X, Y et Z individuels.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 2%
 
 ![Icône de dissociation normale](normal-uncombine.resources/NormalUncombine.png "Icône de dissociation normale"){width="200px"}
 
-<b>Entrée :</b> Filtres > Mappage normal
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Supprime d&#39;une carte de normales les détails de surface décrits par une carte d&#39;height.
+Supprime d&#39;une map normal les détails de surface décrits par une map height.
 
 </td>
 </tr>
@@ -45,8 +45,8 @@ Supprime d&#39;une carte de normales les détails de surface décrits par une ca
 
 |  |  |
 |:---|:---|
-| <b>Normal combiné</b> <i>Couleur</i> PRINCIPALE | Mappage normal dans lequel les détails doivent être supprimés. |
-| <b>Height</b> <i>Niveaux de gris</i> | La carte d&#39;height représentant les détails de surface qui doivent être supprimés de la carte de normales. |
+| <b>Normal combiné</b> <i>Couleur</i> PRINCIPALE | Map normal dont les détails doivent être supprimés. |
+| <b>Height</b> <i>Niveaux de gris</i> | Map height représentant les détails de la surface à supprimer de la map normal combinée. |
 
 <a name="outputs"></a>
 
@@ -54,8 +54,8 @@ Supprime d&#39;une carte de normales les détails de surface décrits par une ca
 
 |  |  |
 |:---|:---|
-| <b>Normal non combiné</b> <i>Couleur</i> | La carte de normales où les détails de surface décrits par la carte d&#39;height d&#39;entrée ont été supprimés. |
-| <b>Intensité estimée</b> <i>Flotter</i> | Estimation de l&#39;intensité qui doit être définie sur un nœud [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) relié à la carte d&#39;height d&#39;entrée, pour correspondre à l&#39;intensité de la carte de normale d&#39;entrée. |
+| <b>Normal non combiné</b> <i>Couleur</i> | Map normal dans laquelle les détails de surface décrits par la map height d&#39;entrée ont été supprimés. |
+| <b>Intensité estimée</b> <i>Flottant</i> | Estimation de l&#39;intensité qui doit être définie sur un nœud [normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) relié à la map height d&#39;entrée, pour correspondre à l&#39;intensité de la map normal d&#39;entrée. |
 
 <a name="parameters"></a>
 
@@ -63,7 +63,7 @@ Supprime d&#39;une carte de normales les détails de surface décrits par une ca
 
 |  |  |
 |:---|:---|
-| <b>Format normal</b> *Nombre entier* | Format du mappage normal en entrée. Inverse efficacement la couche verte.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX :</b> l&#39;axe Y pointe vers le haut</li> <li data-preserve-html="true"><b>OpenGL :</b> l’axe Y pointe vers le bas</li> </ul> |
+| <b>Format normal</b> *Entier* | Format de la map normal d&#39;entrée. Inverse efficacement la couche verte.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX :</b> L&#39;axe Y pointe vers le haut</li> <li data-preserve-html="true"><b>OpenGL :</b> l&#39;axe Y pointe vers le bas</li> </ul> |
 
 ## Exemples
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Flou anisotrope pour appliquer des effets de flou directionnel afin de créer un flou directionnel et des traînées.
+description: Utilisez le nœud Flou anisotrope pour appliquer des effets de flou directionnels afin de créer des effets de flou directionnel et de traînée.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ## Description
 
-Effectue un [flou directionnel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) de haute qualité, avec quelques paramètres pour personnaliser l&#39;apparence. Également appelé « flou de mouvement ».
+Effectue un [flou directionnel](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) de haute qualité, avec quelques paramètres pour personnaliser l&#39;apparence. Également appelé « flou directionnel ».
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Flou anisotrope » pour les valeurs Couleur ou « Niveaux de gris anisotrope » pour les valeurs Niveaux de gris.
 

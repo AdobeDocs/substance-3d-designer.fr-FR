@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](grunge-galvanic-small.resources/grungegalvanicsmall.jpg){width="200px"}
 
-<b>Entrée :</b> Générateurs de textures > Bruits
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,14 +45,14 @@ Le nœud **Usure/salissures Galvanic Small** génère une carte d&#39;usure/sali
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Netteté</b> <i>Flotter</i> | Règle la netteté et la netteté des formes galvanisées. |
-| <b>Dirt</b> <i>Flotter</i> | Règle l’opacité de l’incrustation du dirt. |
-| <b>Micro-Distorsion</b> <i>Flotter</i> | Règle l’intensité de l’effet de déformation haute fréquence. |
+| <b>Netteté</b> <i>Flottant</i> | Règle la netteté et la netteté des formes galvanisées. |
+| <b>Dirt</b> <i>Flottant</i> | Règle l’opacité de l’incrustation du dirt. |
+| <b>Micro-Distorsion</b> <i>Flottant</i> | Règle l’intensité de l’effet de déformation haute fréquence. |
 
 ## Exemples
 

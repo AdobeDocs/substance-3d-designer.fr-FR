@@ -59,7 +59,7 @@ Transforme une base [Flood Fill](../../../../../../compositing-graphs/nodes-refe
 | <b>Variation d&#39;angle</b> <i>0.0 - 1.0</i> | Rend aléatoire l’angle de chaque carreau individuellement. C&#39;est le paramètre le plus utile et le plus puissant ! |
 | <b>Multiplier par la taille du cadre de sélection</b> <i>0.0 - 1.0</i> | Met à l’échelle l’ensemble de l’effet linéaire en fonction de la taille de chaque cadre de sélection. Cela signifie que les carreaux plus petits finiront par être plus sombres que les plus grands. |
 | <b>Multiplicateur d&#39;entrée d&#39;image d&#39;angle</b> <i>0.0 - 1.0</i> | Définir l&#39;influence de la Map d&#39;entrée angulaire facultative sur les directions de dégradé générées |
-| <b>Multiplicateur d&#39;entrée d&#39;image de Pente</b> <i>0.0 - 1.0</i> | Définir l&#39;influence de la carte d&#39;entrée de Pente facultative sur l&#39;intensité de la pente de dégradé générée. |
+| <b>Multiplicateur d&#39;entrée d&#39;image de Pente</b> <i>0.0 - 1.0</i> | Définissez l’influence de la Map d&#39;entrée de Pente facultative sur la force de pente de dégradé générée. |
 | <b>Multiplier par l&#39;intensité de la Pente</b> <i>0.0 - 1.0</i> |  |
 | <b>Couleur de Pente plate</b> <i>(valeur Niveaux de gris)</i> | Permet de définir la valeur solide pour les pentes plates. |
 

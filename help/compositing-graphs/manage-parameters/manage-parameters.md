@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
-description: Découvrez comment gérer et organiser les paramètres dans les graphiques de composition de Substances pour une meilleure organisation du workflow.
+description: Découvrez comment gérer et organiser les paramètres dans les graphes de composition de Substances pour une meilleure organisation du workflow.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ Lorsque vous devez contrôler des paramètres autrement que directement, Designe
 * Enregistrez les valeurs ou tous les paramètres d&#39;un nœud dans un [fichier de paramètres prédéfinis](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md), afin de les réutiliser ultérieurement
 * [Exposez les paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) des nœuds pour les rendre accessibles et les lier entre eux
 * [Masquer ou afficher les paramètres](../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md) en fonction des valeurs des autres paramètres
-* Utilisez un graphique de fonction de [Substance](../../function-graphs/function-graphs.md) pour calculer la valeur d&#39;un paramètre
+* Utilisez un [graphe de fonction de Substance](../../function-graphs/function-graphs.md) pour calculer la valeur d&#39;un paramètre
 
 ## Actions de paramètre
 
@@ -40,8 +40,8 @@ Les outils disponibles pour gérer les paramètres sont disponibles aux emplacem
 
 Lorsque les propriétés d&#39;un nœud sont affichées dans le dock Propriétés, les paramètres du nœud peuvent être gérés globalement à l&#39;aide du menu « <b>Gérer les paramètres</b> » dans l&#39;en-tête de section suivant :
 
-* Pour [nœuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) : paramètres spécifiques
-* Pour [nœuds d&#39;instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) : paramètres d&#39;instance
+* Pour [noeuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) : paramètres spécifiques
+* Pour [instanciers](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) : paramètres d&#39;instance
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ Lorsque les propriétés d&#39;un nœud sont affichées dans le dock Propriété
 
 Les actions de ce menu auront un impact sur *tous* les paramètres répertoriés dans cette section :
 
-* <b>Exposer les paramètres :</b> ouvre la boîte de dialogue « Exposer les paramètres par lots ». Pour chaque paramètre exposé, l’action crée une nouvelle entrée de graphique et définit automatiquement une fonction à l’aide de cette entrée. En savoir plus sur l&#39;exposition des paramètres dans [cette page dédiée](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Paramètres d&#39;Expose :</b> ouvre la boîte de dialogue Paramètres d&#39;expose par lot. Pour chaque paramètre exposé, l’action crée une nouvelle entrée de graphe et définit automatiquement une fonction à l’aide de cette entrée de graphe. En savoir plus sur l&#39;expose des paramètres dans [cette page dédiée](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Copier les paramètres :</b> Voir la section [Copier et coller les paramètres](#copy-paste-parameters) ci-dessous.
 * <b>Coller les paramètres :</b> Voir la section [Copier et coller les paramètres](../../compositing-graphs/manage-parameters/manage-parameters.md) ci-dessous.
 * <b>Enregistrer les paramètres dans un fichier de paramètres prédéfinis :</b> Pour en savoir plus sur les paramètres prédéfinis, consultez [cette page dédiée](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
@@ -63,7 +63,7 @@ Les actions de ce menu auront un impact sur *tous* les paramètres répertoriés
 
 >[!NOTE]
 >
-> Certaines actions ne sont pas disponibles pour certains nœuds atomiques. Voir [Limitations de Noeuds atomiques](#atomic-nodes-limitations) ci-dessous.
+> Certaines actions ne sont pas disponibles pour certains noeuds atomiques. Voir [Limitations de Noeuds atomiques](#atomic-nodes-limitations) ci-dessous.
 
 ### Actions à paramètre unique
 
@@ -135,16 +135,16 @@ Cette fonctionnalité fonctionne de la même manière que l&#39;utilisation d&#3
 </tr>
 </table>
 
-## Limitations des nœuds atomiques
+## Limitations des noeuds atomiques
 
-Certaines fonctionnalités ne sont pas disponibles pour certains [nœuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), en raison de leur implémentation et de leurs contrôles spécifiques.
+Certaines fonctionnalités ne sont pas disponibles pour certains [noeuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), en raison de leur implémentation et de leurs contrôles spécifiques.
 
 Ces actions...
 
 * [Copier/coller les paramètres](#copy-paste-parameters)
 * [Enregistrer/Appliquer le fichier de paramètres prédéfinis](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
-...ne sont pas disponibles pour ces nœuds atomiques :
+...ne sont pas disponibles pour ces noeuds atomiques :
 
 <table>
 <tr style="border: 0;">

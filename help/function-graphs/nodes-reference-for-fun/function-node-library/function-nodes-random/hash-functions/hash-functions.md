@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
-description: Les fonctions de hachage des graphiques de fonctions permettent de générer des valeurs aléatoires déterministes basées sur les coordonnées d’entrée.
+description: Utilisez les fonctions de hachage dans les graphes de fonction pour générer des valeurs aléatoires déterministes en fonction des coordonnées d'entrée.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library > Random > Hash
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fonctions de hachage
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de hachage : icon](../../../../../assets/hash-icon.png "Nœud de hachage : icon"){width="200px"}
+![Nœud de hachage : icon](hash-functions.resources/hash-icon.png "Nœud de hachage : icon"){width="200px"}
 
 <b>Fonctions In:</b> > Aléatoire
 
@@ -51,20 +51,20 @@ Versions disponibles, avec leur type d’entrée et de sortie :
 
 <b>Hachage 11:</b> Flottant → Flottant
 
-<b>Hachage 14:</b> Float → Float4
+<b>Hachage 14:</b> Flottant → Flottant 4
 
-<b>Hachage 21:</b> Float2 → Float
+<b>Hachage 21:</b> Flottant 2 → Flottant
 
-<b>Hachage 22:</b> Float2 → Float2
+<b>Hachage 22:</b> Flottant 2 → Flottant 2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hachage 24:</b> Float2 → Float4
+<b>Hachage 24:</b> Flottant 2 → Flottant 4
 
-<b>Hash31:</b> Float3 → Float
+<b>Hash31:</b> Flottant 3 → Flottant
 
-<b>Hachage 32:</b> Float3 → Float2
+<b>Hachage 32:</b> Flottant 3 → Flottant 2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Versions disponibles, avec leur type d’entrée et de sortie :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemple de hachage 14](../../../../../assets/hash14-example.png "Exemple de hachage 14"){zoomable="yes"}
+![Exemple de hachage 14](hash-functions.resources/hash14-example.png "Exemple de hachage 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemple de hachage 32](../../../../../assets/hash32-example.png "Exemple de hachage 32"){zoomable="yes"}
+![Exemple de hachage 32](hash-functions.resources/hash32-example.png "Exemple de hachage 32"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Physical SunSky pour générer des environnements d'éclairage physiquement précis du soleil et du ciel pour un aperçu de matériau réaliste.
+description: Utilisez le nœud Physical SunSky pour générer des environnements d'éclairage physiquement précis du soleil et du ciel pour un aperçu réaliste du matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Physical SunSky
 helpx_experience_level: ""
@@ -48,7 +48,7 @@ Implémentation physique du Soleil et du Ciel basée sur le modèle de puits de 
 | <b>Position du soleil</b> | plage = [0,1]x[0,1] (angles longitude-latitude) |
 | <b>Turbidité</b> <i>1.0 - 10.0</i> | La turbidité varie de 1 à 10 |
 | <b>Albédo</b> <i>0.0 - 1.0</i> | Albédo compris entre 0 et 1. |
-| <b>Couleur Sol</b> <i>(valeur de couleur)</i> | Couleur du plan au sol. |
+| <b>Couleur Sol</b> <i>(valeur de couleur)</i> | Couleur du plan du sol. |
 | <b>Exposition (EV)</b> <i>-1.0 - 4.0</i> | Valeur d&#39;exposition de la sortie résultante. |
 | <b>Taille du soleil</b> <i>0.0 - 4.0</i> | Echelle du soleil, toute valeur différente de 1 n&#39;est pas physiquement correcte. La valeur a des effets subtils ! |
 | <b>Intensité du soleil</b> <i>0.0 - 1.0</i> | Intensité du disque solaire. Le disque Sun est assez petit, l&#39;effet n&#39;est donc pas immédiatement visible. |

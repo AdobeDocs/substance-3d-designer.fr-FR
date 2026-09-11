@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Luminosité (nœud de fusion)
+title: Luminosité (nœud de Fusion)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Luminosité (nœud de fusion)
+# Luminosité (nœud de Fusion)
 
 <table>
 <tr style="border: 0;">
@@ -54,4 +54,4 @@ Effectue un mode de fusion Luminosité qui préserve la teinte et la chrominance
 |  |  |
 |:---|:---|
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan. |
-| <b>Simulation de transparence</b> <i>Faux/Vrai</i> | Active/désactive la fusion des couches alpha Premier plan et Arrière-plan. Si cette option est définie sur False, la couche alpha du premier plan est ignorée. |
+| <b>Simulation de transparence</b> <i>Faux/Vrai</i> | Active/désactive la fusion des canaux Alphas de premier plan et d’arrière-plan. Si la valeur est False, le canal Alpha du premier plan est ignoré. |

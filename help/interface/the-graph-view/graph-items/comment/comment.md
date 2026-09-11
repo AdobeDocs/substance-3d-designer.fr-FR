@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Commentaire
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Icône de commentaire](../../../../assets/graphatomic-comment_1.png "Icône de commentaire")
+![Icône de commentaire](comment.resources/graphatomic-comment_1.png "Icône de commentaire")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ En Vue du graphe de compte, appuyez sur <b>RMB</b> sur n&#39;importe quel objet 
 
 +++
 
-+++Barre d’outils Graphique
++++barre d’outils graphe
 Dans la barre d&#39;outils Vue du graphe, cliquez sur le bouton Commentaire dans la <b>Palette de noeuds</b>.
 
 +++
@@ -91,7 +91,7 @@ Les commentaires qui sont créés lorsqu&#39;un nœud *unique* est actuellement 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Commentaires : commentaires parentés](../../../../assets/graph-comment_parented.gif "Commentaires : commentaires parentés")
+![Commentaires : commentaires parentés](comment.resources/graph-comment_parented.gif "Commentaires : commentaires parentés")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ Les commentaires qui sont créés lorsqu&#39;un nœud *unique* est actuellement 
 
 ## formatage de HTML
 
-Le texte peut être formaté à l’aide d’étiquettes de HTML. Cette mise en forme est basculée à l&#39;aide du bouton ![](../../../../assets/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans la propriété <b>Description</b> du commentaire.
+Le texte peut être formaté à l’aide d’étiquettes de HTML. Cette mise en forme est basculée à l&#39;aide du bouton ![](comment.resources/graph-frames_html-markup-button.png) <b>Annotation de HTML</b> dans la propriété <b>Description</b> du commentaire.
 
 >[!TIP]
 >
-> Pour en savoir plus sur cette fonctionnalité, consultez la section <b>Description</b> de la documentation [Images](../../../../interface/the-graph-view/graph-items/frame/frame.md).
+> Pour en savoir plus sur cette fonctionnalité, consultez la section <b>Description</b> de la documentation de [Cadre](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
-![Commentaires : balisage de HTML](../../../../assets/graph-comment_html-markup.gif "Commentaires : balisage de HTML")
+![Commentaires : balisage de HTML](comment.resources/graph-comment_html-markup.gif "Commentaires : balisage de HTML")

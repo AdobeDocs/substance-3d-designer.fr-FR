@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Raccourcis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 18%
@@ -32,11 +32,11 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 
 **Windows**
 
-![Raccourcis clavier sous Windows](../../assets/keyboard_shortcuts_win.png "Raccourcis clavier sous Windows"){zoomable="yes"}
+![Raccourcis clavier sous Windows](shortcuts.resources/keyboard_shortcuts_win.png "Raccourcis clavier sous Windows"){zoomable="yes"}
 
 **macOS**
 
-![Raccourcis clavier dans macOS](../../assets/keyboard_shortcuts_mac.png "Raccourcis clavier dans macOS"){zoomable="yes"}
+![Raccourcis clavier dans macOS](shortcuts.resources/keyboard_shortcuts_mac.png "Raccourcis clavier dans macOS"){zoomable="yes"}
 
 ## Listes de raccourcis
 
@@ -44,7 +44,7 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 
 | Action | Windows | macOS |
 | --- | --- | --- |
-| [Nouveau graphique de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| [Nouveau graphe de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Charger le package | Ctrl + O | ⌘ + O |
 | Fermer le(s) pack(s) sélectionné(s) | Ctrl + F4 | ⌘ + W |
 | Enregistrer le package | Ctrl + S | ⌘ + S |
@@ -53,7 +53,7 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 
 ### Vue du graphe
 
-<b>Fenêtre d&#39;affichage</b>
+<b>Viewport</b>
 
 | Action | Windows | macOS |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Matériau | 2 | 2 |
 | Matériau compact | 3 | 3 |
 
-<b>Lorsqu&#39;un objet est sélectionné dans le graphique</b>
+<b>Lorsqu&#39;un objet est sélectionné dans le graphe</b>
 
 | Action | Windows | macOS |
 | --- | --- | --- |
@@ -107,9 +107,9 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 
 | Action | Windows | macOS |
 | --- | --- | --- |
-| Caméra Dolly (panoramique avant/arrière) | Molette de la souris Alt + RMB + Glisser | Molette de souris ⌥ + RMB + Glisser |
+| Caméra Dolly (panoramique vers l’avant/arrière) | Molette de la souris Alt + RMB + Glisser | Molette de souris ⌥ + RMB + Glisser |
 | Effectuer une orbite | LMB + Glisser | LMB + Glisser |
-| Caméra de camion et de piédestal (panoramique latéral et vertical) | Mo + faire glisser Ctrl + RMB + faire glisser | Mo + faire glisser ⌘ + RMB + faire glisser |
+| Caméra pour camion et piédestal (panoramique latéral et vertical) | Mo + faire glisser Ctrl + RMB + faire glisser | Mo + faire glisser ⌘ + RMB + faire glisser |
 | Faire une Rotation de l&#39;environnement | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | Basculer temporairement vers les commandes Point Light 1 | ⇧ (maintien) | ⇧ (maintien) |
 | Lumière du point d&#39;orbite 1 | LMB + Glisser | LMB + Glisser |

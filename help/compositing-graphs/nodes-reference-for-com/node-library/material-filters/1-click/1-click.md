@@ -20,4 +20,4 @@ ht-degree: 10%
 
 # En un clic
 
-Cette catégorie contient uniquement [Bitmap vers lumière matérielle](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md). Il est destiné à la génération de matériau très facile en un seul clic.
+Cette catégorie contient uniquement [Bitmap vers Matériau Light](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md). Il est destiné à la génération de matériau très facile en un clic.

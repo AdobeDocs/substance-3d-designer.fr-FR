@@ -192,7 +192,7 @@ mainWindow.addToolBar(QtCore.Qt.TopToolBarArea, toolbar)
 ```
 
 
-### Création de barres d’outils dans la vue Graphique
+### Création de barres d’outils dans Vue du graphe
 
 ```
 from functools import partial 
@@ -289,7 +289,7 @@ uiMgr.registerGraphViewCreatedCallback(
 ```
 
 
-### Création d’actions dans la barre d’outils Vue graphique
+### Création d’actions dans la barre d’outils Vue du graphe
 
 ```
 from functools import partial 

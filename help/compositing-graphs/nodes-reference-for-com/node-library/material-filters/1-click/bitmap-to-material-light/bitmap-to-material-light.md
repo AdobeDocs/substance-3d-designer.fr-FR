@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Bitmap en matériau clair pour convertir rapidement des images bitmap en matériaux avec un éclairage optimisé pour des workflows rapides.
+description: Utilisez le nœud Bitmap en Matériau de lumière pour convertir rapidement des images bitmap en matériaux avec un éclairage optimisé pour des workflows rapides.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click > Bitmap to Material Light
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Bitmap en lumière de matériau
+title: Bitmap en lumière Matériau
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 11%
 ---
 
 
-# Bitmap en lumière de matériau
+# Bitmap en lumière Matériau
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 11%
 
 ## Description
 
-Ce nœud convertit une seule entrée Diffuse/Basecolor en un matériau complet. En tant que version simple et « légère » de Bitmap2Material entièrement développé par [Allegorithmic, qui peut être acheté séparément](https://www.allegorithmic.com/products/bitmap2material), elle vous donne un aperçu de la version complète. Cela peut bien fonctionner dans les cas les plus simples.
+Ce nœud convertit une seule entrée Diffuse/Couleur de base en un matériau complet. En tant que version simple et « légère » du Matériau Bitmap2 d’[Allegorithmic à part entière, qui peut être acheté séparément](https://www.allegorithmic.com/products/bitmap2material), elle vous donne un aperçu de la version complète. Cela peut bien fonctionner dans les cas les plus simples.
 
-Bien qu’elle ne garantisse pas l’obtention de matériaux parfaits et corrects pour le PBR, c’est un bon moyen rapide de commencer si vous n’avez qu’une seule image et que vous souhaitez un matériau complet.
+Bien qu&#39;il ne soit pas garanti que les matériaux soient parfaits et corrects pour le PBR, c&#39;est un bon moyen rapide de commencer si vous n&#39;avez qu&#39;une seule image et que vous voulez un matériau complet.
 
 </td>
 </tr>
@@ -47,10 +47,10 @@ Bien qu’elle ne garantisse pas l’obtention de matériaux parfaits et correct
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Active et désactive les couches de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Active et désactive les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Global</b> |  |
 | <b>Balance des Profondeurs</b> <i>-1.0 - 1.0</i> | Définit un biais/décalage pour la carte de hauteur. |
-| <b>Diffus</b> |  |
+| <b>Diffuse</b> |  |
 | <b>Netteté</b> <i>0.0 - 1.0</i> | Ajoute de la netteté au résultat de diffusion. |
 | <b>Teinte</b> <i>0.0 - 1.0</i> | Les Tint diffusent avec un décalage de teinte sélectionné par l’utilisateur. |
 | <b>Saturation</b> <i>0.0 - 1.0</i> | Modifie la saturation du résultat du Diffuse. |
@@ -65,13 +65,13 @@ Bien qu’elle ne garantisse pas l’obtention de matériaux parfaits et correct
 | <b>Netteté normale</b> <i>0.0 - 1.0</i> | Accentue la texture normale après la conversion, fait ressortir les détails. |
 | <b>Adoucissement normal</b> <i>0.0 - 1.0</i> | Adoucit Normalmap après la conversion, masque les détails. |
 | <b>Specular</b> |  |
-| <b>Influence du Specular</b> <i>0.0 - 1.0</i> | Définit l’influence de la diffusion sur le Specular. Affecte également les sorties Lustre et Rugosité. |
+| <b>Influence du Specular</b> <i>0.0 - 1.0</i> | Définit l’influence de la diffusion sur le Specular. Affecte également la Brillance et les sorties de Rugosité. |
 | <b>Saturation du Specular</b> <i>0.0 - 1.0</i> | Modifie la saturation de la sortie Specular. |
 | <b>Netteté Specular</b> <i>0.0 - 1.0</i> | Accentue la netteté de la sortie Specular. |
 | <b>Speculars level entrants</b> <i>0.0 - 1.0</i> | Définit les niveaux d’entrée pour l’interprétation du Specular. |
 | <b>Speculars level sortants</b> <i>0.0 - 1.0</i> | Modifie les niveaux de sortie du Specular. |
 | <b>Influence Métallique du Specular</b> <i>0.0 - 1.0</i> | Détermine l’influence de l’entrée Métallique facultative sur le mappage Specular. |
-| <b>Lustre</b> |  |
+| <b>Brillance</b> |  |
 | <b>Niveaux De Brillance Dans</b> <i>0.0 - 1.0</i> | Définit les niveaux d’entrée pour l’interprétation des Brillances. |
 | <b>Niveaux De Brillance Sortants</b> <i>0.0 - 1.0</i> | Modifie les niveaux de sortie de la Brillance. |
 | <b>Influence Métallique de la Brillance</b> <i>0.0 - 1.0</i> | Détermine l&#39;influence de l&#39;entrée Métallique facultative sur la carte de Brillance. |
@@ -79,9 +79,9 @@ Bien qu’elle ne garantisse pas l’obtention de matériaux parfaits et correct
 | <b>Niveaux De Rugosité Dans</b> <i>0.0 - 1.0</i> | Définit les niveaux d’entrée pour l’interprétation des Rugosités. |
 | <b>Niveaux De Rugosité Sortants</b> <i>0.0 - 1.0</i> | Modifie les niveaux de sortie de la Rugosité. |
 | <b>Influence de la Métallique rugosité</b> <i>0.0 - 1.0</i> | Détermine l&#39;influence de l&#39;entrée Métallique facultative sur la carte de Brillance. |
-| <b>Occlusion ambiante</b> |  |
+| <b>Ambient occlusion</b> |  |
 | <b>Ambient occlusion Dans Diffuse</b> <i>0.0 - 1.0</i> | Fusions dans l’AO généré dans la sortie de Diffuse. |
 | <b>Planche Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit la distance de propagation de l’IA générée. |
 | <b>Distance De Lumière De L&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit l’interprétation de la « profondeur » AO. A moins d’influence lorsqu’il existe une Planche importante. |
-| <b>Angle de lumière Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit l’angle de convertit AO du faux éclairage. Peut être utilisé pour compenser tout AO directionnel déjà présent dans la diffusion, s’il est défini sur un angle opposé. |
+| <b>Angle de lumière Ambient occlusion</b> <i>0.0 - 1.0</i> | Définit l’angle de convertit AO du faux éclairage. Peut être utilisé pour compenser tout AO directionnel déjà présent dans le Diffuse, s’il est défini sur un angle opposé. |
 | <b>Niveaux D&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Modifie les niveaux de sortie AO. |

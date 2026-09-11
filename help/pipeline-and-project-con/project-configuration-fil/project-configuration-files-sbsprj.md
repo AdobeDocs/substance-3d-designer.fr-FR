@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fichiers de configuration du projet - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ils sont spéciaux dans la mesure où vous pouvez utiliser plusieurs fichiers de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![SBSPRJ](../../assets/sbsprj.png "Icône de fichier SBSPRJ")
+Icône de fichier ![SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "Icône de fichier SBSPRJ")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Cette configuration de base garantit que la bibliothèque par défaut et les aut
 
 ## Développer ou remplacer
 
-La plupart des paramètres d&#39;un projet consécutif <b>remplaceront</b> ceux du projet précédent. Par exemple, un autre plug-in Tangent Space dans un fichier de projet personnalisé remplacera tout plug-in TS défini dans le projet Default ou User. Cela signifie qu’à moins d’en avoir explicitement besoin, il est recommandé de ne pas remplacer ou modifier les paramètres dans les projets enfants.
+La plupart des paramètres d&#39;un projet consécutif <b>remplaceront</b> ceux du projet précédent. Par exemple, un autre Plugin de repère tangent dans un fichier de projet personnalisé remplacera tout plug-in TS défini dans le projet Default ou User. Cela signifie qu’à moins d’en avoir explicitement besoin, il est recommandé de ne pas remplacer ou modifier les paramètres dans les projets enfants.
 
 Certains paramètres <b>se développent</b> sur les paramètres parents, au lieu de les remplacer. Il s’agit principalement des chemins et des filtres de bibliothèque. Vous devez donc toujours ajouter plus de contenu à la bibliothèque au lieu de le remplacer. En outre, il y a les alias (mots-clés de chemin pour les chemins de fichiers relatifs) qui se développent, ainsi que le remplacement si un doublon est défini. Cela permet un excellent contrôle sur les chemins de fichiers de contenu et les références.
 
@@ -55,7 +55,7 @@ Certains paramètres <b>se développent</b> sur les paramètres parents, au lieu
 
 Les fichiers de projet peuvent contenir les paramètres suivants :
 
-<b>Vue 3D :</b>Définitions des états Shader, HDR et scène par défaut.
+<b>vue 3D :</b>définitions d’état de Shader, HDR et scène par défaut.
 
 <b>Alias :</b>Alias de mots-clés pour les chemins relatifs.
 
@@ -85,7 +85,7 @@ Pour Windows, [le Bloc-notes++](https://notepad-plus-plus.org) est une bonne opt
 
 Une fois que vous avez ouvert le fichier SBSPRJ dans un éditeur, vous devriez voir une disposition structurée assez simple, avec des sections correspondant aux onglets dans l&#39;interface utilisateur. Tous les paramètres ne seront pas documentés ici, car ils sont assez explicites.
 
-![Modification XML](../../assets/project-xml.png "Modification XML")
+![Modification XML](project-configuration-files-sbsprj.resources/project-xml.png "Modification XML")
 
 ## Chemins relatifs et alias
 

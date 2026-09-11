@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Usure/salissures Rouille Fine pour générer des motifs de rouille fine afin d'ajouter des effets de corrosion et d'altération aux métaux.
+description: Le nœud Usure/salissures Rouille Fine permet de générer des motifs de rouille fine pour ajouter des effets de corrosion et d'altération aux métaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine
 helpx_experience_level: ""
@@ -45,16 +45,16 @@ Le nœud **Usure/salissures Rouille Fine** génère un mappage usure/salissures 
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Contraste d&#39;Usure/salissures de base</b> <i>Flotter</i> | Règle le contraste de la texture d’usure/salissures utilisée comme base pour la rouille. |
-| <b>Intensité de déformation de base</b> <i>Flotter</i> | Ajuste l’intensité de l’effet de déformation appliqué sur la texture usure/salissures utilisée comme base de la rouille. |
-| <b>Intensité des traînées</b> <i>Flotter</i> | Règle l’intensité des stries et des taches plus lumineuses superposées sur la texture d’usure/salissures de base. |
-| <b>Intensité du Bruit</b> <i>Flotter</i> | Ajuste l’intensité du bruit appliqué sur la texture d’usure/salissures de base. |
-| <b>Netteté</b> <i>Flotter</i> | Règle l’intensité de l’effet de netteté globale. |
+| <b>Contraste d&#39;Usure/salissures de base</b> <i>Flottant</i> | Règle le contraste de la texture d’usure/salissures utilisée comme base pour la rouille. |
+| <b>Intensité de déformation de base</b> <i>Flottant</i> | Ajuste l’intensité de l’effet de déformation appliqué sur la texture usure/salissures utilisée comme base de la rouille. |
+| <b>Intensité des traînées</b> <i>Flottant</i> | Règle l’intensité des stries et des taches plus lumineuses superposées sur la texture d’usure/salissures de base. |
+| <b>Intensité du Bruit</b> <i>Flottant</i> | Ajuste l’intensité du bruit appliqué sur la texture d’usure/salissures de base. |
+| <b>Netteté</b> <i>Flottant</i> | Règle l’intensité de l’effet de netteté globale. |
 
 ## Exemples
 

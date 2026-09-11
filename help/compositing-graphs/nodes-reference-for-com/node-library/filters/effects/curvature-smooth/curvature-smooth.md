@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Lissage de courbure
+title: Courbure lisse
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Lissage de courbure
+# Courbure lisse
 
 <table>
 <tr style="border: 0;">

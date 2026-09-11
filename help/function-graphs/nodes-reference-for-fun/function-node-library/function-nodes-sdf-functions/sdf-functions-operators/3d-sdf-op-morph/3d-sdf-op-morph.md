@@ -1,6 +1,6 @@
 ---
 title: Morphe
-description: Designer > Graphiques de composition de Substances > Référence des nœuds pour les graphiques de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Morphe
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Fonction SDF > Opérateur > Morphe
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '102'
@@ -40,6 +40,6 @@ Renvoie l’interpolation linéaire entre une forme SDF de base et une forme SDF
 
 |  |  |
 | :--- | :--- |
-| <b>SDF de base</b> *Flotter* | Forme SDF de base. |
-| <b>Cible SDF</b> *Flotter* | Forme SDF cible. |
-| <b>Facteur de mélange</b> *Flotter* | Facteur de mélange utilisé pour transformer les formes d’entrée, où 0 est la forme de base et 1 la forme cible. |
+| <b>SDF de base</b> *Flottant* | Forme SDF de base. |
+| <b>Cible SDF</b> *Flottant* | Forme SDF cible. |
+| <b>Facteur de mélange</b> *Flottant* | Facteur de mélange utilisé pour transformer les formes d’entrée, où 0 est la forme de base et 1 la forme cible. |

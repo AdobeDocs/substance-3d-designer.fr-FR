@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## Description
 
-Applique l’effet bien connu « Ombre portée » d’un autre logiciel de traitement d’image 2D, sur un masque noir et blanc d’entrée (pour la version en niveaux de gris) ou sur une image avec transparence (pour la version en couleurs).
+Applique l’effet bien connu « Ombre portée » d’un autre logiciel de traitement d’image 2D, sur une entrée en noir et masque blanc (pour la version en niveaux de gris) ou sur une image avec transparence (pour la version en couleurs).
 
 Il diffère de l&#39;effet [Ombres](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) en ce sens qu&#39;il renvoie des images avec une transparence totale appliquée, ce qui donne un effet plus complet similaire à ce que vous attendriez dans d&#39;autres logiciels.
 

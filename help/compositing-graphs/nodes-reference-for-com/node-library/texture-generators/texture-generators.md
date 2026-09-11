@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Générateurs de textures
 
-Les générateurs de textures sont des nœuds qui ne nécessitent aucune entrée : ils génèrent des images entièrement à partir de zéro. Vous pouvez considérer les « générateurs de textures » comme un autre terme pour les « procédures ».
+Les générateurs de textures sont des nœuds qui ne nécessitent aucune entrée : ils génèrent des images entièrement à partir de zéro. On peut considérer les « générateurs de textures » comme un autre mot pour les « procédures ».
 
 Elles se répartissent en deux catégories :
 

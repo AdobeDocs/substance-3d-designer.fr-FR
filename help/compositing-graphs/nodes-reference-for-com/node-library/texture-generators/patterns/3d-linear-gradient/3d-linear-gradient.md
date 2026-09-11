@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D linear gradient
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -24,16 +24,16 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
+![](3d-linear-gradient.resources/3d-linear-gradient.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Crée un dégradé volumique basé sur le mappage de position d’entrée. Génère efficacement une transition du noir au blanc entre 2 points dans l’espace 3D. Destiné à être utilisé uniquement avec le moteur GPU.
+Crée un dégradé volumique basé sur le mappage de position d’entrée. Génère efficacement une transition du noir au blanc entre 2 points dans l’espace 3D. Destiné à être utilisé avec le moteur GPU uniquement.
 
 Voir également [Masque de volume 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) pour obtenir un effet similaire.
 
@@ -57,7 +57,7 @@ Voir également [Masque de volume 3D](../../../../../../compositing-graphs/nodes
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-gradient.gif" />
+            <img src="3d-linear-gradient.resources/3d-gradient.gif" />
         </td>
     </tr>
 </table>

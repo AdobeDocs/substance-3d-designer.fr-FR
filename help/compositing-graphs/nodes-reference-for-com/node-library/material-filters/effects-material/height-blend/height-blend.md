@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Fusion Height pour fusionner des textures en fonction de cartes d'height afin de créer des transitions de matériau réalistes.
+description: Utilisez le nœud Fusion d'Height pour fusionner des textures en fonction de maps height permettant de créer des transitions de matériau réalistes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Dégradé de formes Height
+title: Fusion Height
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# Dégradé de formes Height
+# Fusion Height
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Description
 
-Combine deux cartes de hauteur en fonction de leurs informations d&#39;height. Génère une carte de hauteur fusionnée, mais également un masque noir et blanc qui peut être utilisé ailleurs.
+Combine deux cartes de hauteur en fonction de leurs informations d&#39;height. Génère une carte de hauteur fusionnée, mais également un effet Noir et Masque blanc utilisable ailleurs.
 
-Cela est utile lorsque vous avez deux cartes de hauteur de haute qualité à combiner, mais pas nécessairement un matériau complet, comme c&#39;est le cas pour le [mélange d&#39;Height de matériau](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
+Cela est utile lorsque vous avez deux cartes de hauteur de haute qualité à combiner, mais pas nécessairement un matériau complet, comme cela est nécessaire pour la [Fusion d&#39;Height de Matériau](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
 
 </td>
 </tr>

@@ -33,7 +33,7 @@ Cette version 16.0 introduit un flux de travail plus créatif pour la diffusion 
 ### Nouvelles façons de disperser des formes
 
 Les nouveaux nœuds de l&#39;[éclaboussure de forme v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) débloquent des comportements de diffusion complexes qui ont été difficiles jusqu&#39;à présent, avec **d&#39;autres méthodes de distribution de forme** (disque de Poisson, uniforme) qui sont *sans collision* par défaut, et le contrôle du *regroupement net* de formes dans des zones spécifiques avec une **map density**.\
-Les utilisateurs avancés peuvent configurer des *distributions personnalisées* définies par un graphique de fonction.
+Les utilisateurs avancés peuvent configurer *des distributions personnalisées* définies par un graphe de fonction.
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
@@ -53,7 +53,7 @@ Les utilisateurs avancés peuvent configurer des *distributions personnalisées*
 
 Les formes dispersées sont désormais des **objets 3D** qui peuvent être déplacés, pivotés et mis à l’échelle sur tous les axes XYZ.
 
-Utilisez des **primitives simples** telles que des cubes, des sphères et des cylindres, ou des **formes personnalisées complexes** formées par *extrusion d&#39;une carte d&#39;height* ou la création de *formes 3D SDF*. (Plus d’informations ci-dessous)
+Utilisez des **primitives simples** telles que des cubes, des sphères et des cylindres ou des **formes personnalisées complexes** formées par *extrusion d&#39;une map height* ou la création de *formes 3D SDF*. (Plus d’informations ci-dessous)
 
 Cela débloque des diffusions plus dynamiques, plus variées et plus crédibles à tous les niveaux. Il est désormais possible de réutiliser les formes 3D pour les variations en les retournant. (Nous vous voyons, artistes de l&#39;environnement !)
 
@@ -109,15 +109,15 @@ Encore une fois, les utilisateurs avancés peuvent configurer *des mappages de t
 
 <a name="3d-sdf-nodes"></a>
 
-### Échantillon de matière
+### échantillon de matériau
 
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>L'<b>échantillon de matériau<a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md"></b> de </a>boulons rouillés est disponible pour passer à la famille de nœuds de la version 2 des éclaboussures de forme et à leurs caractéristiques.</p><p>Le graphe est organisé et annoté pour vous guider à travers sa structure, ses paramètres de nœuds et ses techniques.</p><p>Il est également <i>entièrement modifiable</i>. Il peut donc être utilisé comme sandbox pour mieux comprendre le jeu d’outils Shape splatter v2. Vous pouvez créer autant d’exemples de graphiques que vous le souhaitez, alors n’hésitez pas à jouer !</p>
+            <p>L'<b>échantillon de matériau<a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md"></b> de </a>boulons rouillés est disponible pour passer à la famille de nœuds de la version 2 des éclaboussures de forme et à leurs caractéristiques.</p><p>Le graphe est organisé et annoté pour vous guider à travers sa structure, ses paramètres de nœuds et ses techniques.</p><p>Il est également <i>entièrement modifiable</i>. Il peut donc être utilisé comme sandbox pour mieux comprendre le jeu d’outils Shape splatter v2. Vous pouvez créer autant de graphes d'exemple que vous le souhaitez, alors n'hésitez pas à jouer !</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Fonction de cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>
@@ -327,58 +327,58 @@ sont synchronisées
 * [vue 3D] Ajouter un compteur IPS
 * [vue 3D] Déplacez la barre de progression dans la même barre d’outils horizontale que l’espace colorimétrique en bas
 * [Bakers] Afficher l’UV du baker sélectionné dans l’aperçu
-* [Graphique] Ajouter un nouvel attribut « Modèle de matériau » aux graphiques de Substance
+* [Graphe] Ajouter un nouvel attribut « Modèle de matériau » aux graphes de Substance
 * [NewGraph] Ajout de séparateurs dans la vue Miniatures
-* [Paramètres] Définissez la valeur constante par défaut pour les paramètres d’entrée avec l’éditeur « Function ».
+* [Paramètres] Définissez la valeur constante par défaut pour les paramètres d&#39;entrée avec l’éditeur « Function ».
 * [Paramètres] Remplir la zone de liste déroulante de `Set` et `Is defined` paramètres de nœud avec des variables disponibles
-* [Préférences] Supprimer l’option obsolète « Facteur de mise à l’échelle » dans l’onglet « Vue 3D »
-* [Publish] Boîte de dialogue Publish : Inclure le modèle de matériau dans les informations sur le graphique
+* [Préférences] Supprimer l’option obsolète « Facteur de mise à l’échelle » dans l’onglet « vue 3D »
+* Boîte de dialogue Publish de [Publish] : inclure le modèle de matériau dans les informations de graphe
 * [Python] Ajoutez une nouvelle classe SDMaterialModelDescription pour obtenir les informations d&#39;un modèle de matériau
 * [Python] Autoriser à obtenir/définir la propriété de modèle de matériau des objets SDSBSCompGraph
 * [Éditeur Python] Augmentez la taille de la police à 12
 * [Modèles] Ajouter des modèles d’OpenPBR
-* [Templates] Convertir des échantillons de matière en OpenPBR
+* [Modèles] Convertir des échantillons de matériau en OpenPBR
 * [Tiers] Mise à jour de Boost vers la version 1.88
 * [Tiers] Mise à jour de l’API C++ vers C++20
 * [ThirdParty] Mettre à jour NGL vers 1.42
 * [ThirdParty] Mise à jour oneTBB vers la version 2022.x
-* [ThirdParty] Mettre à jour OpenColorIO vers la version 2.5.x
+* [Tiers] Mise à jour d’OpenColorIO vers la version 2.5.x
 * [Tiers] Mise à jour OpenEXR à la version 3.4.x
 * [ThirdParty] Mettre à jour Qt &amp; QtForPython vers la version 6.8.x et Python vers la version 3.13.x
 * [ThirdParty] Mettre à jour TBB vers oneTBB 2021.x
-* [Dépréciation] Supprimer Iray et l’éditeur MDL
+* [Dépréciation] Supprimer l’Iray et l’éditeur MDL
 
 ### Correctifs
 
-* [Vue 2D] La plage de sélection de l’histogramme n’est pas conservée lorsque la largeur du widget devient petite
-* [Exportation 3D] Les filets exportés depuis Designer ne sont pas rendus de la même manière en mode d’affichage utilisateur
-* [Vue 3D] L’affectation d’éléments non-udim à la vue 3D laisse le mode de rendu en mosaïque unique
-* [Vue 3D] Résultat serré lors de l’utilisation d’OCIO
-* [Vue 3D] Blocage lors de l’application d’une texture de graphique sur un matériau non remplacé pour une scène spécifique
-* [Vue 3D] Blocage lors de la création de tampons d’image
-* [Vue 3D] Pathtracer GPU Eclair : géométrie rompue et performances réduites lors du rendu d’un modèle spécifique
-* [Vue 3D] Transformation de texture incorrecte pour des scènes spécifiques
-* [Vue 3D] Cadrage incohérent de la scène/sélection lors de l’utilisation d’une résolution de rendu fixe
-* [Vue 3D] Couleur diffuse incorrecte lors du rendu de certains fichiers GLTF
-* [Vue 3D] Environnement invisible lors du changement de moteur de rendu dans un cas spécifique
-* [Vue 3D] Les matières ne sont pas détectées correctement lors de l’importation de certains fichiers .fbx
-* [Vue 3D] Le remplacement des matériaux plusieurs fois réinitialise la mosaïque à 1
-* [Vue 3D] Les propriétés de la catégorie « UV » ne sont pas enregistrées dans les fichiers SBSSCN
-* [Vue 3D] L’option « Réinitialiser et afficher les sorties en vue 3D » à partir de graphiques à sortie unique ne réinitialise pas les matières
-* [Vue 3D] &#39;Enregistrer le rendu&#39; : le format d’image modifié n’est pas conservé
-* [Vue 3D] La sélection ne fonctionne pas sur les GPU AMD
-* [Vue 3D] La scène 3D autonome n’est pas actualisée en cas de modification sur le disque
-* [Vue 3D] Certaines propriétés de matériau de couleur ne sont pas gérées correctement lorsqu’elles sont remplacées
-* [Vue 3D] Les textures UDIM ne sont pas appliquées correctement sur un maillage spécifique
-* [Vue 3D] La scène USD avec la matière MaterialX ne s’affiche plus correctement
-* [Bakers] Blocages avec certains maillages
-* [Boulangers] Transfert de texture : blocage dans bkBufferViewCopy
+* [vue 2D] La plage de sélection de l’histogramme n’est pas conservée lorsque la largeur du widget devient petite
+* [Exportation 3D] Les Maillages exportés à partir de Designer ne sont pas rendus de la même manière en mode usdview
+* [vue 3D] L’affectation d’éléments non-udim à vue 3D laisse le mode de rendu mosaïque unique
+* [vue 3D] Résultat Verrouillé lors de l&#39;utilisation d&#39;OCIO
+* [vue 3D] Crash lors de l&#39;application d&#39;une texture de graphe sur un matériau non remplacé pour une scène spécifique
+* crash [vue 3D] lors de la création de buffers cadres
+* [vue 3D] Pathtracer GPU Eclair : géométrie rompue et performances réduites lors du rendu d’un modèle spécifique
+* [vue 3D] Transformation de texture incorrecte pour des scènes spécifiques
+* [vue 3D] Cadrage incohérent de la scène/sélection lors de l’utilisation d’une résolution de rendu fixe
+* [vue 3D] Couleur diffuse incorrecte lors du rendu de certains fichiers GLTF
+* [vue 3D] Environnement invisible lors du changement de moteur de rendu dans un cas spécifique
+* [vue 3D] Les Matériaux ne sont pas détectés correctement lors de l&#39;importation de certains fichiers .fbx
+* [vue 3D] Le remplacement de matériaux plusieurs fois réinitialise la répétition sur 1
+* [vue 3D] Les propriétés de la catégorie « UV » ne sont pas enregistrées dans les fichiers SBSSCN
+* [vue 3D] « Réinitialiser et afficher les sorties en vue 3D » à partir de graphes à sortie unique ne réinitialise pas les matériaux
+* [vue 3D] &#39;Enregistrer le rendu&#39; : le format d’image modifié n’est pas conservé
+* [vue 3D] La sélection ne fonctionne pas sur les GPU AMD
+* [vue 3D] La Scène 3D autonome n&#39;est pas actualisée en cas de modification sur le disque
+* [vue 3D] Certaines propriétés de matériau de couleur ne sont pas gérées correctement lorsqu’elles sont remplacées
+* [vue 3D] Les textures UDIM ne sont pas appliquées correctement sur un maillage spécifique
+* [vue 3D] La Scène USD avec le matériau MaterialX ne s’affiche plus correctement
+* [Bakers] Crashs avec certains maillages
+* [Bakers] Transfert de Texture : Crash dans bkBufferViewCopy
 * [Cooker] Boucle infinie dans le nœud While Loop dans un cas qui pourrait être empêché
-* [Moteur] Arrêter le moteur de Substance lors de la fermeture de l&#39;application
-* [Général] Éviter les blocages aléatoires lors de la sortie de l’application (Windows uniquement)
-* [Graphique] Graphique de fonction : la propagation de type ne fonctionne pas correctement dans certaines situations
-* [Graphique] Les liens de graphique sont supprimés lorsqu’un nœud d’entrée d’image est renommé
-* [Graphique] Les liens et les épingles affichent parfois des artefacts
+* [Moteur] Arrêter le moteur de Substance lors de la fermeture de l’application
+* [Général] Éviter les crashs aléatoires lors de la fermeture de l’application (Windows uniquement)
+* [Graphe] graphe de fonction : la propagation de type ne fonctionne pas correctement dans certaines situations
+* [Graphe] Les liens de Graphe sont supprimés lorsqu’un noeud d&#39;entrée d’image est renommé
+* [Graphe] Les liens et les épingles affichent parfois des artefacts
 * [Préférences] La mise à l’échelle du Viewport est inversée
 * [Propriétés] Crash lors de la modification de l’ajustement d’entrée de graphe lors de l’affichage de ses paramètres d’instance
 * [Python] Impossible d&#39;importer les modules PySide6 (conflit possible avec l&#39;installation existante de PySide6)
@@ -389,7 +389,7 @@ sont synchronisées
 
 ### PROBLÈMES CONNUS
 
-* [Graphique] Les icônes générées pour les OpenPBR ne sont pas précises
-* [Vue 3D] Les scènes avec des primitives animées ne sont pas prises en charge correctement
-* [Vue 3D] Le traceur de tracé n’est pas pris en charge sur toutes les cartes graphiques AMD
+* [Graphe] Les icônes générées pour les OpenPBR ne sont pas précises
+* [vue 3D] Les Scènes avec des primitives animées ne sont pas correctement prises en charge
+* [vue 3D] Le traceur de tracé n’est pas pris en charge sur toutes les cartes graphiques AMD
 

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Matériau de base pour créer des propriétés de matériau de base afin de créer de toutes pièces des matériaux physiques.
+description: Utilisez le nœud Matériau de base pour créer des propriétés de matériau de base afin de créer des matériaux physiques à partir de zéro.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > Base Material
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Le moyen le plus rapide et le plus simple de créer un matériau multicanal dans [Adobe Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html). Ce nœud renvoie une matière complète groupée basée sur des valeurs et des paramètres de couleur unie simples. Vous pouvez ensuite l’utiliser comme pseudo-élément ou l’affiner pour obtenir un matériau complexe.
+Le moyen le plus rapide et le plus simple de créer un matériau multicanal dans [Adobe Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html). Ce nœud renvoie un matériau complet groupé basé sur des valeurs et des paramètres de couleur unie simples. Vous pouvez ensuite l’utiliser comme espace réservé ou l’affiner pour créer un matériau complexe.
 
-Le nœud est très utile pour texturer des accessoires complets et fusionner plusieurs matériaux. En fait, vous pouvez démarrer chaque matériau à partir de ce nœud, sans jamais avoir besoin d&#39;une base de matériaux complexe.
+Le nœud est très utile pour texturer des accessoires complets et fusionner plusieurs matériaux. En fait, vous pouvez démarrer chaque matériau à partir de ce nœud, sans jamais avoir besoin d&#39;une base de matériau complexe.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Le nœud est très utile pour texturer des accessoires complets et fusionner plu
 |:---|:---|
 | <b>Workflow PBR</b> <i>Métal - Rugosité, Specular - Brillance</i> | Définit le modèle PBR utilisé. |
 | <b>Paramètre prédéfini de matériau</b> <i>Personnalisé, Diélectrique, Or, Argent, Aluminium, Fer, Cuivre, Titane, Nickel, Cobalt, Platine</i> | Raccourci rapide pour créer certains métaux. Désactive les options non pertinentes. |
-| <b>Couleur de base</b> <i>(valeur de couleur)</i> | Couleur unie utilisée pour la Base color. |
+| <b>Base color</b> <i>(valeur de couleur)</i> | Couleur unie utilisée pour la Base color. |
 | <b>Métallique</b> <i>(valeur Niveaux de gris)</i> | Valeur solide utilisée pour Métallique. |
 | <b>Couleur Diffuse</b> <i>(valeur de couleur)</i> | Couleur unie utilisée pour le Diffuse. |
 | <b>Specular</b> <i>(valeur de couleur)</i> | Couleur unie utilisée pour le Specular. |

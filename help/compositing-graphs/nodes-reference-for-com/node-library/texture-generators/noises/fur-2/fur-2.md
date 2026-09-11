@@ -26,7 +26,7 @@ ht-degree: 9%
 
 ![](fur-2.resources/fur-2.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Bruits
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ Cela génère un type ondulé de bruit de fourrure.
 | <b>Échelle</b> <i>1 - 8</i> | Définit l’échelle globale de l’effet. |
 | <b>Échelle des vagues</b> <i>0.0 - 1.0</i> | Modifie l’échelle des vagues. Plus la valeur est élevée, moins il y a de répétitions. |
 | <b>Rotation des vagues</b> <i>0.0 - 1.0</i> | Déforme davantage les vagues. Cette valeur doit probablement être maintenue basse, car les résultats peuvent être extrêmes. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

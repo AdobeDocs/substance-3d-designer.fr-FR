@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Scratches Generator pour créer des motifs de rayures procédurales afin d'ajouter de l'usure et des dommages aux matériaux.
+description: Utilisez le nœud Scratches Generator pour créer des motifs de rayures procéduraux afin d’ajouter de l’usure et des dommages aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur Scratches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator.png)
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Il existe une version spéciale de Scratches Generator, Scratches Generator Norm
 | <b>Fréquence de Distorsion de la spline</b> <i>0.0 - 1.0</i> | Définit la fréquence de distorsion et l’échelle des détails de la distorsion. |
 | <b>Largeur de la spline</b> <i>0.0 - 2.0</i> | Définit la largeur de toutes les splines de manière uniforme. |
 | <b>Spline Width Random</b> <i>0.0 - 1.0</i> | Rend aléatoire la largeur de spline de chaque spline individuellement. |
-| <b>Position De La Spline Aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la position de chaque spline individuellement. Plus cette valeur est faible, plus les splines seront regroupées au centre de la zone de travail. Peut être utilisé pour créer des taches de rayures. |
+| <b>Position De La Spline Aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la position de chaque spline individuellement. Plus cette valeur est faible, plus le cluster des splines sera important vers le centre de la zone de travail. Peut être utilisé pour créer des taches de rayures. |
 | <b>Définir la largeur de la spline en px</b> <i>Faux/Vrai</i> | Détermine les unités utilisées pour les paramètres de largeur de spline. |
 | <b>Luminance aléatoire (version en niveaux de gris uniquement)</b> <i>0.0 - 1.0</i> | Rend aléatoire la Luminance de chaque spline individuellement. |
 | <b>Intensité normale (version normale uniquement)</b> <i>0.0 - 1.0</i> | Définit globalement la force de l&#39;effet Normal pour chaque spline. |
@@ -73,10 +73,10 @@ Il existe une version spéciale de Scratches Generator, Scratches Generator Norm
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/scratches-ex1.png" />
+            <img src="scratches-generator.resources/scratches-ex1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/scratches-ex2.png" />
+            <img src="scratches-generator.resources/scratches-ex2.png" />
         </td>
     </tr>
 </table>

@@ -52,9 +52,9 @@ Le nœud **Usure/salissures Damas** génère une carte usure/salissures semblabl
 | <b>Avancé</b> |  |
 | <b>Distorsion</b> <i>Flottant</i> | Ajuste la quantité de distorsion dans le motif. |
 | <b>Divisions</b> <i>Entier</i> | Ajuste le nombre de divisions ou de répétitions de dégradé dans le motif. |
-| <b>Vagues</b> <i>Nombre entier</i> | Règle la quantité d’ondes dans le motif. |
-| <b>Détails</b> <i>Flotter</i> | Règle l’intensité des distorsions plus petites. |
-| <b>Rotation aléatoire</b> <i>Flotter</i> | Règle le caractère aléatoire de la rotation pour chaque onde. |
+| <b>Vagues</b> <i>Entier</i> | Règle la quantité d’ondes dans le motif. |
+| <b>Détails</b> <i>Flottant</i> | Règle l’intensité des distorsions plus petites. |
+| <b>Rotation aléatoire</b> <i>Flottant</i> | Règle le caractère aléatoire de la rotation pour chaque onde. |
 
 ## Exemples
 

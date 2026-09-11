@@ -1,6 +1,6 @@
 ---
 title: Union
-description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Union
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Fonction SDF > Opérateur > Union
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '67'
@@ -40,5 +40,5 @@ Renvoie les volumes ajoutés de deux formes SDF.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flotter* | Première forme SDF. |
-| <b>SDF 2</b> *Flotter* | Deuxième forme SDF. |
+| <b>SDF 1</b> *Flottant* | Première forme SDF. |
+| <b>SDF 2</b> *Flottant* | Deuxième forme SDF. |

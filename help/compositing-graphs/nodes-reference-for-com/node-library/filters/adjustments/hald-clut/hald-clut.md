@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Description
 
-Applique une table LUT à l’image d’entrée. Le LUT doit être au format Hald en résolution 4096\*4096. Voir <http://www.quelsolaar.com/technology/clut.html> pour plus d&#39;informations.
+Applique un LUT sur l’image d&#39;entrée. Le LUT doit être au format Hald en résolution 4096\*4096. Voir <http://www.quelsolaar.com/technology/clut.html> pour plus d&#39;informations.
 
 </td>
 </tr>

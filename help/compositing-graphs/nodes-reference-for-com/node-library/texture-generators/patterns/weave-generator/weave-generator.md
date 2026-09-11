@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Générateur d'armure
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-generator.png){width="128px"}
+![](weave-generator.resources/weave-generator.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -50,14 +50,14 @@ Ce nœud génère un motif d’armure simple avec quelques options. Il permet un
 | <b>Forme</b> <i>0.0 - 1.0</i> | Définit le profil d’height de la courbe du point. |
 | <b>Tisser</b> <i>1 - 10</i> | Définit le nombre de points par bloc. |
 | <b>Écart</b> <i>0.0 - 1.0</i> | Définit l’écart entre les points sur les axes X et Y. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/weave-generator-ex.gif" />
+            <img src="weave-generator.resources/weave-generator-ex.gif" />
         </td>
     </tr>
 </table>

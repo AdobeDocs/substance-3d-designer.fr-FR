@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Eclairage Annuler Hautes fréquences pour supprimer les détails d'éclairage haute fréquence des textures pour l'analyse des matériaux.
+description: Utilisez le nœud Eclairage Annuler Hautes fréquences pour supprimer les détails d'éclairage haute fréquence des textures pour l'analyse de matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies
 helpx_experience_level: ""

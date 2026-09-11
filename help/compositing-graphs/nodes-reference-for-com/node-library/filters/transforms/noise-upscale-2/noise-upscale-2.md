@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Noise Upscale 2 pour augmenter les textures à l’aide de l’interpolation basée sur le bruit afin de conserver la qualité de la texture à des tailles plus grandes.
+description: Utilisez le nœud Bruit Upscale 2 pour augmenter les textures à l’aide de l’interpolation par bruit afin de conserver la qualité des textures à des tailles plus grandes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 2
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Amélioration du bruit 2
+title: Bruit Upscale 2
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Amélioration du bruit 2
+# Bruit Upscale 2
 
 <table>
 <tr style="border: 0;">
@@ -33,11 +33,11 @@ ht-degree: 6%
 
 ## Description
 
-Prend un bruit d’entrée procédural et le met à l’échelle jusqu’à une double résolution, en conservant les détails sans introduire trop de mosaïque. Utilise un masque de type « X » et fusionne avec moins de contraste que l’entrée d’origine (les modes de fusion internes sont Max et Min).
+Prend un bruit d’entrée procédural et le met à l’échelle jusqu’à une double résolution, en conservant les détails sans introduire trop de répétition. Utilise un masque de type « X » et fusionne avec moins de contraste que l’entrée d’origine (les modes de fusion internes sont Max et Min).
 
-Ce nœud est principalement destiné à l’optimisation des graphes lents qui utilisent des bruits intenses et importants. Cela vous permet d’utiliser des résolutions plus élevées sans ajouter trop de temps de calcul supplémentaire.
+Ce nœud est principalement destiné à optimiser les graphes lents qui utilisent des bruits lourds et volumineux. Cela vous permet d’utiliser des résolutions plus élevées sans ajouter trop de temps de calcul supplémentaire.
 
-Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) et [Amélioration du bruit 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) pour différentes variantes de ce processus.
+Voir également [Augmentation de Bruit 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) et [Augmentation de Bruit 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) pour différentes variantes de ce processus.
 
 </td>
 </tr>
@@ -50,7 +50,7 @@ Voir également [Amélioration du bruit 1](../../../../../../compositing-graphs/
 |  |  |
 |:---|:---|
 | <b>Décalage1X</b> <i>0.0 - 1.0</i> | Fait glisser les parties supérieure et inférieure sur l’axe X. |
-| <b>Décalage1Y</b> <i>0.0 - 1.0</i> | Permet de faire glisser les parties supérieure et inférieure sur l’axe Y. |
+| <b>Décalage1Y</b> <i>0.0 - 1.0</i> | Fait glisser les parties supérieure et inférieure sur l’axe Y. |
 | <b>Offset2X</b> <i>0.0 - 1.0</i> | Fait glisser les parties gauche et droite sur l’axe X. |
 | <b>Offset2Y</b> <i>0.0 - 1.0</i> | Fait glisser les parties gauche et droite sur l’axe Y. |
 

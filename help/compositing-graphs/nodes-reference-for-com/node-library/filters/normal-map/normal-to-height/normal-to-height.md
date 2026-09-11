@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Normal à Height pour convertir les cartes de normales en cartes d'height afin d'extraire les informations de profondeur de surface.
+description: Utilisez le nœud Normal à Height pour convertir les maps normal en maps height afin d'extraire les informations de profondeur de surface.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal to Height
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Nœud de conversion inverse qui tente de reconvertir une carte normale d&#39;espace tangent en carte de hauteur. Il s&#39;agit de la version légèrement plus simple ; [Normal à l&#39;Height HQ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md) dispose de plus d&#39;options.
+Nœud de conversion inverse qui tente de reconvertir un espace de tangente Normalmap en Heightmap. Il s&#39;agit de la version légèrement plus simple ; [Normal à l&#39;Height HQ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md) dispose de plus d&#39;options.
 
 Utile lorsque vous n&#39;avez qu&#39;une source Normalmap, mais que vous souhaitez néanmoins effectuer des opérations la combinant avec une carte de hauteur. Gardez à l’esprit que cela ne permettra jamais d’obtenir un résultat correct à 100 %, car les informations sont perdues par nature lors de la conversion de l’Height en normalité. Si vous réglez les paramètres en conséquence, cette version hors siège réussit correctement à convertir les détails simples.
 
@@ -47,7 +47,7 @@ Utile lorsque vous n&#39;avez qu&#39;une source Normalmap, mais que vous souhait
 
 |  |  |
 |:---|:---|
-| <b>Balance des Reliefs</b> <i>0.0 - 1.0</i> | Ajustez la mesure dans laquelle les différentes fréquences influencent le résultat final. Cela dépend en grande partie du mappage d&#39;entrée et nécessite un peu de réglages. |
+| <b>Balance des Reliefs</b> <i>0.0 - 1.0</i> | Ajustez la mesure dans laquelle les différentes fréquences influencent le résultat final. Cela dépend en grande partie de la map d&#39;entrée et nécessite pas mal de retouches. |
 | <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
 | <b>Opacité globale</b> <i>0.0 - 1.0</i> | Règle l’opacité globale de l’effet. |
 

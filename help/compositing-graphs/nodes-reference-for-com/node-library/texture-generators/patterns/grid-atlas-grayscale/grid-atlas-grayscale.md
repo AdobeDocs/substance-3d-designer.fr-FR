@@ -43,17 +43,17 @@ Voir aussi [Couleur Atlas en grille](../grid-atlas-color/grid-atlas-color.md).
 | <b>Entrée 3</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #3. |
 | <b>Entrée 4</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #4. |
 | <b>Entrée 5</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #5. |
-| <b>Entrée 6</b> *Niveaux de gris* | #6 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 7</b> *Niveaux de gris* | #7 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 8</b> *Niveaux de gris* | #8 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 9</b> *Niveaux de gris* | #9 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 10</b> *Niveaux de gris* | #10 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 11</b> *Niveaux de gris* | #11 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 12</b> *Niveaux de gris* | #12 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 13</b> *Niveaux de gris* | #13 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 14</b> *Niveaux de gris* | #14 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 15</b> *Niveaux de gris* | #15 d’entrée de l’image en niveaux de gris. |
-| <b>Entrée 16</b> *Niveaux de gris* | #16 d’entrée de l’image en niveaux de gris. |
+| <b>Entrée 6</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #6. |
+| <b>Entrée 7</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #7. |
+| <b>Entrée 8</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #8. |
+| <b>Entrée 9</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #9. |
+| <b>Entrée 10</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #10. |
+| <b>Entrée 11</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #11. |
+| <b>Entrée 12</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #12. |
+| <b>Entrée 13</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #13. |
+| <b>Entrée 14</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #14. |
+| <b>Entrée 15</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #15. |
+| <b>Entrée 16</b> *Niveaux de gris* | La saisie de l’image en niveaux de gris #16. |
 
 <a name="outputs"></a>
 
@@ -69,11 +69,11 @@ Voir aussi [Couleur Atlas en grille](../grid-atlas-color/grid-atlas-color.md).
 
 |                                   |                                                                                                                                                                                                                                                                                                                                                                    |
 |:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Taille de la grille X</b> *Nombre entier* | Taille de la grille sur l&#39;axe X.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe X. |
-| <b>Taille de la grille Y</b> *Nombre entier* | Taille de la grille sur l&#39;axe Y.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe Y. |
-| <b>Mode Taille de sortie</b> *Nombre entier* | Méthode de définition de la taille de l&#39;image de sortie en fonction du paramètre de base « Taille de sortie » du nœud :<br><br>- <b>Manuel :</b> Utilisez la taille telle quelle.<br>- <b>Rapport automatique :</b> Ajustez le rapport d&#39;image en fonction de la taille de la grille afin de réduire la taille de l&#39;image. La déformation se produira pour les grilles non carrées utilisant 3 lignes ou colonnes, par exemple (3, 2), (4, 3) |
+| <b>Taille de Grille X</b> *Entier* | Taille de la grille sur l&#39;axe X.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe X. |
+| <b>Taille de Grille Y</b> *Entier* | Taille de la grille sur l&#39;axe Y.<br>C&#39;est-à-dire le nombre d&#39;images compressées sur l&#39;axe Y. |
+| <b>Mode Taille de sortie</b> *Entier* | Méthode de définition de la taille de l&#39;image de sortie en fonction du paramètre de base « Taille de sortie » du nœud :<br><br>- <b>Manuel :</b> Utilisez la taille telle quelle.<br>- <b>Rapport automatique :</b> Ajustez le rapport d&#39;image en fonction de la taille de la grille afin de réduire la taille de l&#39;image. La déformation se produira pour les grilles non carrées utilisant 3 lignes ou colonnes, par exemple (3, 2), (4, 3) |
 
 ## Exemples
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Nœud d&#39;Atlas en grille en niveaux de gris dans le contexte d&#39;un graphe" style="width: 50%"><br>
-<i>Nœud en niveaux de gris Atlas en grille dans le contexte d&#39;un graphique</i>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Atlas en grille d&#39;un nœud en niveaux de gris dans le contexte d&#39;un graphe" style="width: 50%"><br>
+<i>Nœud en niveaux de gris Atlas en grille dans le contexte d&#39;un graphe</i>

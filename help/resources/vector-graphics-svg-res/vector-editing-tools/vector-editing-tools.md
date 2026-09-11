@@ -30,7 +30,7 @@ Cette page décrit les outils de modification disponibles dans le panneau [vue 2
 
 Le panneau [vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view) propose des outils d&#39;édition vectorielle de base qui vous permettent de créer ou de modifier des images vectorielles *manuellement* directement dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html). Ces outils sont particulièrement utiles, par exemple, pour créer rapidement des *masques* ou des *motifs*.
 
-Les outils prennent en charge les entrées de stylet. Pour tirer parti des écrans à stylet, vous pouvez [désancrer](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) le panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view), puis le placer et le redimensionner dans une configuration plus confortable pour la peinture.
+Les outils prennent en charge les entrées de stylet. Pour tirer parti des écrans stylet, vous pouvez [désancrer](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) le panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view), puis le placer et le redimensionner dans une configuration plus confortable pour la peinture.
 
 Les modifications peuvent être *annulées individuellement* et toutes les autres fonctionnalités du panneau vue 2D sont toujours *disponibles* pendant que vous modifiez l&#39;image vectorielle, telles que le panneau [Histogramme](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram), l&#39;[affichage en mosaïque](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport) et l&#39;[image d&#39;arrière-plan](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage).
 
@@ -47,31 +47,31 @@ Les modifications peuvent être *annulées individuellement* et toutes les autre
 >
 > **Windows uniquement**
 > 
-> Les utilisateurs de tablettes doivent appliquer les paramètres décrits dans la page suivante pour une expérience optimale dans Designer : [Configuration des stylos et des tablettes](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
+> Les utilisateurs de tablettes doivent appliquer les paramètres décrits dans la page suivante pour une expérience optimale dans Designer : [Configuration des Stylets et des tablettes](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
 >[!IMPORTANT]
 >
-> Vous ne pouvez peindre *que* sur des *ressources d&#39;images vectorielles[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)&#x200B; &lbrace;8 bits*[nouvelles ou importées](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Vous pouvez effectuer des peintures *uniquement* sur des *ressources d&#39;image vectorielle[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)&#x200B; 8 bits*[nouvelles ou importées](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![Boîte de dialogue Nouvelle ressource SVG](../../../assets/2dview-new-vector-image.png "Boîte de dialogue Nouvelle ressource SVG"){width="512px"}
 
 ## Activation des outils d’édition vectorielle
 
-Les outils d&#39;édition vectorielle seront automatiquement activés dans le panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view) lorsque les critères suivants concernant une image vectorielle seront remplis :
+Les outils d&#39;édition vectorielle seront automatiquement activés dans le panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view) lorsque les critères suivants concernant une image d&#39;image vectorielle seront remplis :
 
-* L&#39;image vectorielle est une ressource [nouvelle ou importée](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)
+* L&#39;image images vectorielles est une ressource [nouvelle ou importée](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)
 * Le bitmap s&#39;affiche dans le panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view)
 
-Les *nouvelles* images d&#39;images vectorielles peuvent être créées de l&#39;une des manières suivantes :
+Les images d&#39;images vectorielles *nouvelles* peuvent être créées de l&#39;une des manières suivantes :
 
-* Dans le panneau [Explorateur](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window), cliquez sur RMB sur un *pack SBS* ou sur un *dossier* dans un pack pour ouvrir leur menu contextuel, puis ouvrez le sous-menu **Nouveau** et sélectionnez l&#39;option **SVG**
-* Dans un [graphique](https://docs.substance3d.com/display/SDDOC/The+Graph+view), créez un [nœud de SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) et sélectionnez l&#39;option **À partir d&#39;une nouvelle ressource...** dans le menu contextuel
+* Dans le panneau [Explorateur](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window), cliquez sur RMB sur un *pack SBS* ou sur un *dossier* dans un pack pour afficher son menu contextuel, puis ouvrez le sous-menu **Nouveau** et sélectionnez l&#39;option **SVG**
+* Dans un [graphe](https://docs.substance3d.com/display/SDDOC/The+Graph+view), créez un [nœud de SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) et sélectionnez l&#39;option **À partir d&#39;une nouvelle ressource...** dans le menu contextuel
 
-La fenêtre **Nouvelles données vectorielles** s’ouvre, vous permettant de définir le *nom* et la *résolution* de la nouvelle ressource d’images vectorielles.
+La fenêtre **Nouvelles données vectorielles** s&#39;ouvre et vous permet de définir le *nom* et la *résolution* de la nouvelle ressource images vectorielles.
 
 >[!TIP]
 >
-> Pour des performances optimales avec les outils d&#39;édition vectorielle, nous vous recommandons d&#39;utiliser des images vectorielles avec des résolutions *de deux*, par exemple 128, 256, 512, 1024, ...
+> Pour des performances optimales avec les outils d&#39;édition vectorielle, nous vous recommandons d&#39;utiliser des images d&#39;image vectorielle avec des résolutions *de deux*, par exemple 128, 256, 512, 1024, ...
 
 ### Exportation d’images vectorielles à partir d’autres logiciels
 
@@ -95,21 +95,21 @@ Les utilisateurs d&#39;**Adobe Illustrator** peuvent se reporter à l&#39;image 
 
 >[!NOTE]
 >
-> Pour en savoir plus sur les limitations du SVG, l&#39;exportation à partir d&#39;autres logiciels et propriétés du SVG dans Designer, consultez la section [Ressources d&#39;images vectorielles (SVG)](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> Pour en savoir plus sur les limitations du SVG, l&#39;exportation à partir d&#39;autres logiciels et propriétés du SVG dans Designer, consultez la section [Images vectorielles (SVG)](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 ## Outils
 
-Les outils et options de peinture sont organisés dans les *barres d&#39;outils* du panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view). Ces barres d&#39;outils peuvent être déplacées sur *n&#39;importe quel côté* du panneau ou en tant que *barre d&#39;outils flottante*, en cliquant et en maintenant **LMB** sur leur *poignée* (affichée sous la forme d&#39;une triple ligne), puis en relâchant **LMB** à l&#39;emplacement souhaité.
+Les outils et options de peinture sont disposés dans les *barres d&#39;outils* du panneau [Vue 2D](https://docs.substance3d.com/display/SDDOC/2D+view). Ces barres d&#39;outils peuvent être redéfinies l&#39;emplacement sur *n&#39;importe quel côté* du panneau ou sous forme de *barre d&#39;outils flottante*, en cliquant et en maintenant **LMB** sur leur *poignée* (affichée sous la forme d&#39;une triple ligne), puis en relâchant **LMB** à l&#39;emplacement souhaité.
 
 Deux barres d’outils s’affichent lorsque les outils d’édition vectorielle sont activés :
 
-* **Sélection d&#39;outil** **barre d&#39;outils** : vous permet de *sélectionner un outil* ainsi que les *couleurs de remplissage/contour*. Par défaut, cet outil est placé sur le côté *gauche* du panneau Vue 2D
-* **Barre d&#39;outils des options d&#39;outil** : vous permet de définir les *options* pour l&#39;*outil actuellement sélectionné*. Par défaut, cet outil est placé sur le côté *supérieur* du panneau Vue 2D
+* **Sélection d&#39;outil** **barre d&#39;outils** : vous permet de *sélectionner un outil* ainsi que les *couleurs de remplissage/contour*. Par défaut, cet outil est placé sur le côté *gauche* du panneau vue 2D
+* **Barre d&#39;outils des options d&#39;outil** : vous permet de définir les *options* pour l&#39;*outil actuellement sélectionné*. Par défaut, cet outil est placé dans la partie *supérieure* du panneau vue 2D
 
 Les raccourcis clavier vous permettent d’accéder rapidement aux outils et sont indiqués ci-dessous entre parenthèses après le nom de l’outil/de la fonction :
 
 +++Choix de couleur
-Les ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **vignettes *de sélection de couleurs*** vous permettent de définir une couleur de *remplissage* et de *contour* pour les formes vectorielles. Vous pouvez ouvrir l&#39;**éditeur de couleurs** pour chacune de ces couleurs de l&#39;une des manières suivantes :
+Les ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **vignettes** *de Choix de couleur* vous permettent de définir une couleur de *remplissage* et de *contour* pour les formes vectorielles. Vous pouvez ouvrir l&#39;**éditeur de couleurs** pour chacune de ces couleurs de l&#39;une des manières suivantes :
 
 * **Couleur de fond :** cliquez sur la vignette de la couleur de *fond* (en haut) ou double-cliquez sur LMB sur la zone de travail
 
@@ -117,7 +117,7 @@ Les ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../.
 
 Les couleurs définies seront ensuite appliquées aux *formes actuellement sélectionnées*.
 
-Si la couleur de *contour* actuelle est *noire*, c&#39;est-à-dire luminance 0 ou RGB (0, 0, 0), elle *ne* sera pas appliquée aux formes sélectionnées tant que vous n&#39;aurez pas *cliqué sur la vignette de couleur de contour*.
+Si la couleur de *contour* actuelle est *noire*, c&#39;est-à-dire la luminance 0 ou RGB (0, 0, 0), elle *ne* sera pas appliquée aux formes sélectionnées tant que vous n&#39;aurez pas *cliqué sur la vignette de couleur de contour*.
 
 +++
 
@@ -141,21 +141,21 @@ L&#39;outil ![](../../../assets/2dview-vectorediting-icon-transformation.png) <b
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Nœud</b> (<b>A</b>) vous permet de sélectionner des sommets individuels (c&#39;est-à-dire des nœuds) de la forme sélectionnée et de modifier sa position et ses poignées, ainsi que d&#39;ajouter et de supprimer des sommets. Une fois qu’une forme est sélectionnée, les actions suivantes peuvent être effectuées :
+L&#39;outil ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Nœud</b> (<b>A</b>) vous permet de sélectionner des vertex individuels (c&#39;est-à-dire des nœuds) de la forme sélectionnée et de modifier sa position et ses poignées, ainsi que d&#39;ajouter et de supprimer des vertex. Une fois qu’une forme est sélectionnée, les actions suivantes peuvent être effectuées :
 
-<b>Ajouter un sommet :</b> Ctrl+LMB sur le contour de la forme
+<b>Ajouter un vertex :</b> Ctrl+LMB sur le contour de la forme
 
-<b>Supprimer le sommet</b> : Ctrl+LMB sur le sommet
+<b>Supprimer le vertex</b> : Ctrl+LMB sur le vertex
 
-<b>Déplacer le sommet</b> : maintenez le repère LMB sur le sommet
+<b>Déplacer le vertex</b> : maintenez la touche LMB enfoncée sur le vertex
 
-<b>Déplacer les poignées de sommet</b> : maintenez le bouton de la souris enfoncé sur la poignée
+<b>Déplacer les poignées du vertex</b> : maintenez le bouton de la souris enfoncé sur la poignée
 
-<b>Déplacer indépendamment la poignée de sommet</b> : maintenez les touches Alt+LMB enfoncées sur la poignée. Notez que les poignées seront *dissociées* au-delà de ce point jusqu&#39;à ce qu&#39;elles soient *réinitialisées*
+<b>Déplacer indépendamment la poignée du vertex</b> : maintenez Alt+LMB enfoncés sur la poignée. Notez que les poignées seront *dissociées* au-delà de ce point jusqu&#39;à ce qu&#39;elles soient *réinitialisées*
 
-<b>Réinitialiser les poignées</b> : cliquez sur Alt+LMB sur le sommet. Les poignées seront réinitialisées à la *position du sommet*
+<b>Réinitialiser les poignées</b> : cliquez sur Alt+LMB en vertex. Les poignées seront réinitialisées à la *position du vertex*
 
-<b>Déplacer les poignées de sommet réinitialisées</b> : maintenez les touches Alt+LMB enfoncées sur le sommet. Les poignées *liées* apparaîtront
+<b>Déplacer les poignées de vertex de réinitialisation</b> : maintenez les touches Alt+LMB enfoncées sur le vertex. Les poignées *liées* apparaîtront
 
 +++
 
@@ -179,31 +179,31 @@ Pour dessiner une primitive, maintenez <b>LMB</b> n&#39;importe où dans la zone
 +++
 
 +++Stylet
-![Outil Plume](../../../assets/2dview-vectorediting-pen.png "Outil Plume"){width="512px"}
+![Outil Stylet](../../../assets/2dview-vectorediting-pen.png "Outil Stylet"){width="512px"}
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Plume</b> (<b>P</b>) vous permet de dessiner une nouvelle forme personnalisée, en utilisant la couleur actuelle de *remplissage*. Deux modes sont disponibles :
+L&#39;outil ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Stylet</b> (<b>P</b>) vous permet de dessiner une nouvelle forme personnalisée, en utilisant la couleur actuelle de *remplissage*. Deux modes sont disponibles :
 
-En mode <b>Tracé </b>, la forme est dessinée *un sommet à la fois*. Les commandes suivantes sont disponibles :
+En mode <b>Tracé </b>, la forme est dessinée *un vertex à la fois*. Les commandes suivantes sont disponibles :
 
-Ajouter <b>un sommet </b>droit dedans/droit : cliquez sur LMB
+Ajouter <b>vertex </b>droit dedans/droit : cliquez sur LMB
 
-Ajouter un sommet <b>courbe d&#39;entrée/courbe de sortie</b> (*tangentes alignées*) : maintenez enfoncé le LMB et faites glisser
+Ajouter un vertex de <b>courbe d&#39;entrée/de sortie</b> (*tangentes alignées*) : maintenez le bouton de la souris enfoncé et faites glisser
 
-Ajouter <b>courbe d’entrée/de sortie </b>sommet (*tangentes non alignées*)\* : maintenez enfoncées les touches LMB et faites glisser, puis maintenez les touches Alt+LMB enfoncées
+Ajouter <b>courbe intérieure/extérieure </b>vertex (*tangentes non alignées*)\* : maintenez enfoncées les touches LMB et faites glisser, puis maintenez les touches Alt+LMB enfoncées
 
-Ajouter <b>un sommet d&#39;entrée/de sortie</b>\*: identique au sommet d&#39;entrée/de sortie de courbe (tangentes non alignées), mais la ligne de sortie doit être placée* au-dessus du nouveau sommet*
+Ajouter <b>vertex d&#39;entrée/de sortie</b> : identique au vertex d&#39;entrée/de sortie de courbe (tangentes non alignées), mais la ligne de sortie doit être placée *au-dessus du nouveau vertex*
 
-Ajouter <b>un sommet</b> droit à l&#39;intérieur/à l&#39;extérieur\* : maintenez les touches Alt+LMB enfoncées et faites glisser
+Ajouter <b>vertex\*</b> courbe(s) droite(s) : maintenez les touches Alt+LMB enfoncées et faites glisser
 
-<b>Fermer la forme</b> sur le sommet *suivant* : maintenez la touche Ctrl enfoncée
+<b>Fermer la forme</b> sur le vertex *suivant* : maintenez la touche Ctrl enfoncée
 
-<b>Fermer la forme</b> sur le *sommet actuel* : appuyez sur Entrée ou cliquez sur LMB sur le *premier sommet* de la forme actuelle
+<b>Fermer la forme</b> sur le vertex *actif* : appuyez sur Entrée ou cliquez sur LMB sur le *premier vertex* de la forme active
 
-Le mode <b>Main levée </b> vous permet de dessiner des formes directement en faisant glisser le stylet sur la zone de travail tout en maintenant la touche LMB enfoncée.
+Le mode <b></b>vous permet de dessiner des formes directement en faisant glisser le stylet sur la zone de travail tout en maintenant la touche LMB enfoncée.
 
-Les sommets sont *automatiquement placés* le long du contour de sorte que le tracé obtenu corresponde au contour autant que possible. La forme est *fermée automatiquement* à la fin du trait, reliant le premier sommet au dernier du trait.
+Les vertex sont *automatiquement placés* le long du contour afin que le tracé obtenu corresponde au contour autant que possible. La forme est *automatiquement fermée* à la fin du trait, reliant le premier vertex au dernier du trait.
 
 +++
 
@@ -216,9 +216,9 @@ L&#39;outil ![](../../../assets/2dview-vectorediting-icon-extrude.png) **Extrusi
 
 Les *modes de dessin* suivants sont disponibles :
 
-![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **Forme libre** : dessine la forme *directement en faisant glisser* le stylet sur la zone de travail tout en maintenant la touche LMB enfoncée. La forme est ajoutée ensemble à la fin du contour.
+![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **Forme libre** : dessine la forme *directement en faisant glisser* le stylet sur la zone de travail tout en maintenant le LMB enfoncé. La forme est ajoutée ensemble à la fin du contour.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **Polygonal** : dessine la forme *face par face* en cliquant sur LMB pour ajouter un angle. La forme est ajoutée ensemble lorsque vous appuyez sur la touche Entrée.
+![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **Polygonal** : dessine la forme *une face à la fois* en cliquant sur LMB pour ajouter un angle. La forme est ajoutée ensemble lorsque vous appuyez sur la touche Entrée.
 
 La forme dessinée peut être contrôlée à l’aide des paramètres suivants :
 
@@ -242,7 +242,7 @@ Une fois le dessin terminé, la forme est ajoutée et fusionnée avec la forme a
 
 ![Opérations de forme](../../../assets/2dview-vectorediting-shape-operations.png "Opérations de forme"){width="512px"}
 
-En plus des outils répertoriés ci-dessus, un certain nombre d&#39;opérations peuvent être effectuées sur les *formes sélectionnées*, à l&#39;aide du menu contextuel disponible lorsque vous cliquez sur RMB. Ces opérations sont presque toutes dotées d’un raccourci clavier (entre parenthèses ci-dessous) et sont organisées dans les catégories suivantes :
+En plus des outils répertoriés ci-dessus, un certain nombre d&#39;opérations peuvent être effectuées sur les *formes sélectionnées*, à l&#39;aide du menu contextuel disponible lorsque vous cliquez sur RMB. Ces opérations ont presque toutes un raccourci clavier (entre parenthèses ci-dessous) sont organisées dans les catégories suivantes :
 
 +++Ajout et suppression de formes
 <b>Copier la sélection</b> (Ctrl+C) : *Copier* les formes sélectionnées dans le Presse-papiers
@@ -258,20 +258,20 @@ En plus des outils répertoriés ci-dessus, un certain nombre d&#39;opérations 
 +++
 
 +++Organisation des formes
-Les formes sont disposées en *pile*, ce qui définit l&#39;*ordre* des formes dans la zone de travail, c&#39;est-à-dire celle qui est au-dessus de laquelle. Par défaut, de nouvelles formes sont créées *au-dessus* de la zone de travail, et les commandes suivantes vous permettent de modifier cette disposition :
+Les formes sont organisées dans une *pile*, ce qui définit l&#39;*ordre* des formes dans la zone de travail, c&#39;est-à-dire celle qui est au-dessus de laquelle. Par défaut, de nouvelles formes sont créées *au-dessus* de la zone de travail, et les commandes suivantes vous permettent de modifier cette disposition :
 
-<b>Placer au premier plan</b> (Accueil) :*élève* les formes sélectionnées au *haut* de la pile de formes
+<b>Placer au premier plan</b> (Accueil) :*élève* les formes sélectionnées au *haut* de la pile des formes
 
 <b>En avant</b> (Page préc.) : *élève* les formes sélectionnées d&#39;un *niveau* dans la pile de formes
 
 <b>Envoyer vers l&#39;arrière</b> (PgDown) : *abaisse* les formes sélectionnées de *un niveau* dans la pile de formes
 
-<b>Arrière-plan</b> (Fin) : *abaisse* les formes sélectionnées au *bas* de la pile de formes
+<b>Arrière-plan</b> (Fin) : *abaisse* les formes sélectionnées au *bas* de la pile des formes
 
 +++
 
 +++Image Envoyer vers un nouveau SVG
-Vous pouvez utiliser des formes dans l&#39;image active pour créer une *nouvelle [ressource SVG](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)* dans le [package SBS](../../../getting-started/overview/overview.md) actif. À cet égard, les mesures suivantes sont disponibles :
+Vous pouvez utiliser des formes dans l&#39;image active pour créer une *nouvelle [ressource de SVG](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)* dans le [package SBS](../../../getting-started/overview/overview.md) actif. À cet égard, les mesures suivantes sont disponibles :
 
 <b>Copier la sélection dans le nouveau SVG</b> : crée une nouvelle ressource de SVG et copie les formes sélectionnées *en place* dans cette nouvelle image.
 

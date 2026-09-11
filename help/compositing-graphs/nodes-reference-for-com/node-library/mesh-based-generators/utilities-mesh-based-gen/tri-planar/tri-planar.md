@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tri Planaire pour projeter des textures à partir de trois plans orthogonaux pour une correspondance de texture transparente sur une géométrie complexe.
 helpx_creative_field: ""
@@ -52,7 +52,7 @@ Gardez à l’esprit que vos bakes doivent être d’une grande précision : les
 |  |  |
 |:---|:---|
 | <b>Position</b> <i>Entrée couleur</i> | Mappage de position baké. Idéalement, précision de 16 bits ou supérieure. |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> | Carte de Normale de l&#39;espace monde bakée, idéalement précision de 16 bits ou plus. |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> | Carte de Normale de l&#39;espace monde bakée, idéalement précision de 16 bits ou plus. |
 | <b>Entrée X</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Map d&#39;entrée de remappage de l’Espace monde UV via la Projection triplanaire. Utilisé pour tous les Axes lorsque la valeur Entrée image est définie sur 1, pour l’axe X si elle est définie sur 3. |
 | <b>Entrée Y</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Map d&#39;entrée de remappage de l’Espace monde UV vers l’Axe Y. |
 | <b>Entrée Z</b> <i>Entrée Couleur (Entrée Niveaux De Gris)</i> | Uniquement si le paramètre Entrées image est défini sur 3. Map d&#39;entrée de remappage de l’Espace monde UV vers l’Axe Z. |

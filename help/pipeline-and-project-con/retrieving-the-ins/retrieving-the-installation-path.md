@@ -34,7 +34,7 @@ Cette page regroupe des informations sur la façon de récupérer le chemin d&#3
 >[!NOTE]
 >
 > Cette clé de registre est uniquement disponible depuis la version 11.2.\
-> Pour les anciennes versions, le chemin d’installation peut être récupéré à partir des associations de fichiers dans HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts
+> Pour les anciennes versions, le chemin d’installation peut être récupéré à partir des associations de fichiers dans HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorateur\FileExts
 
 ### Substance edition (autonome)
 

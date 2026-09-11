@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
-description: Utilisez le nœud TSL pour régler la teinte, la saturation et la luminosité des textures à des fins de manipulation et de correction des couleurs.
+description: Utilisez le nœud TSL pour régler la teinte, la saturation et la luminosité des textures afin de manipuler et corriger les couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : HSL](hsl.resources/comp_hsl_1.png "Nœud atomique : HSL"){width="200px"}
+![Noeud atomique : TSL](hsl.resources/comp_hsl_1.png "Noeud atomique : TSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,9 +78,9 @@ Si vous recherchez d&#39;autres façons de modifier les tons d&#39;une image, co
 
 |  |  |
 | --- | --- |
-| <b>Teinte</b> *Flotter* | Détermine la couleur de l’image d’entrée.   Les valeurs inférieures à 0,5 modifient la teinte négativement, les valeurs supérieures à 0,5 la modifient positivement. |
-| <b>Saturation</b> *Flotter* | Détermine la saturation de la couleur de l’image d’entrée.   Les valeurs inférieures à 0,5 diminuent la saturation, les valeurs supérieures à 0,5 l’augmentent. |
-| <b>Luminosité</b> *Flotter* | Détermine la luminosité de l’image d’entrée. Les valeurs inférieures à 0,5 diminuent la luminosité, les valeurs supérieures à 0,5 l’augmentent. |
+| <b>Teinte</b> *Flottant* | Détermine la couleur de l’image d&#39;entrée.   Les valeurs inférieures à 0,5 modifient la teinte négativement, les valeurs supérieures à 0,5 la modifient positivement. |
+| <b>Saturation</b> *Flottant* | Détermine la saturation de la couleur de l’image d&#39;entrée.   Les valeurs inférieures à 0,5 diminuent la saturation, les valeurs supérieures à 0,5 l’augmentent. |
+| <b>Luminosité</b> *Flottant* | Détermine la luminosité des valeurs d’image d&#39;entrée. Les valeurs inférieures à 0,5 diminuent la Luminosité, les valeurs supérieures à 0,5 l’augmentent. |
 
 ## Connecteurs d’entrée
 

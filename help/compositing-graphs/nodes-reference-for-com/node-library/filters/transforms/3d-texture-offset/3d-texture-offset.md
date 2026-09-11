@@ -66,7 +66,7 @@ Le nœud **Décalage de Texture 3D** applique une *transformation de décalage* 
 
 |  |  |
 |:---|:---|
-| <b>Décalage</b> <i>Float3</i> | Quantité de décalage en <i>espace monde</i> appliquée à l&#39;objet décrit par la <i>texture 3D</i> connectée à l&#39;<b>entrée</b>. |
+| <b>Décalage</b> <i>Flottant3</i> | Quantité de décalage en <i>espace monde</i> appliquée à l&#39;objet décrit par la <i>texture 3D</i> connectée à l&#39;<b>entrée</b>. |
 
 ## Exemples
 

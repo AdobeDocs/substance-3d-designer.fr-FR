@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
-description: Découvrez les directives d’optimisation des performances de Substance 3D Designer pour améliorer les performances des graphiques et réduire le temps de traitement.
+description: Découvrez les directives d’optimisation des performances de Substance 3D Designer pour améliorer les performances du graphe et réduire le temps de traitement.
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Performance optimization guidelines
 helpx_experience_level: ""
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 ## Graphes Substance
 
-Plus vos [graphes de Substances](../../compositing-graphs/substance-compositing-graphs.md) sont complexes, plus la puissance de traitement nécessaire à leur rendu est importante. Essayez de <b>trouver un équilibre entre complexité et vitesse de rendu</b>.\
+Plus vos [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) sont complexes, plus vous avez besoin de puissance de traitement pour les restituer. Essayez de <b>trouver un équilibre entre complexité et vitesse de rendu</b>.\
 Ceci est *particulièrement* important si vous comptez les utiliser dans des applications graphiques en temps réel, telles que des jeux.
 
-En règle générale, les nœuds présentant des paramètres personnalisés (qui peuvent être modifiés au moment de l&#39;exécution) <b>doivent être placés le plus près possible de la fin du graphique</b>.
+En règle générale, les nœuds exposant des paramètres personnalisés (qui peuvent être modifiés au moment de l&#39;exécution) <b>doivent être placés le plus près possible de l&#39;extrémité du graphe</b>.
 
-Cela est dû au fait que la sortie de chaque nœud est mise en cache chaque fois que possible. Par conséquent, plus votre nœud personnalisable se trouve haut dans le graphique, plus le nombre de sorties à traiter est élevé chaque fois que l’un de ces paramètres exposés est modifié. Si le nœud exposé est proche de la fin du graphique, seuls les quelques nœuds situés entre lui et les nœuds de sortie doivent être recalculés.
+Cela est dû au fait que la sortie de chaque nœud est mise en cache chaque fois que possible. Par conséquent, plus le graphe de votre nœud personnalisable est élevé, plus les sorties devront être traitées chaque fois que l’un de ces paramètres exposés sera modifié. Si votre nœud exposé est proche de l&#39;extrémité du graphe, seuls les quelques nœuds situés entre lui et les nœuds de sortie devront être recalculés.
 
-Par exemple, si vous modifiez une couleur uniforme au début de votre graphique, tous les nœuds suivants seront recalculés. Si vous modifiez un nœud TSL placé juste avant la sortie, seul ce nœud sera recalculé, ce qui améliore considérablement les performances du graphique.
+Par exemple, si vous modifiez une couleur uniforme au début de votre graphe, tous les nœuds suivants seront recalculés. Si vous modifiez un nœud TSL placé juste avant la sortie, seul ce nœud sera recalculé, ce qui améliorera considérablement les performances du graphe.
 
 Veuillez prendre bonne note des directives suivantes :
 
@@ -40,8 +40,8 @@ Veuillez prendre bonne note des directives suivantes :
 
 +++
 
-+++Le changement de la résolution parent du graphique est lent
-Il recalcule le graphique, le cache et toutes les vignettes. Il est préférable d&#39;utiliser [l&#39;onglet <b>Lot</b>de la boîte de dialogue d&#39;exportation](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), car cela évite un recalcul important et inutile (par exemple lors de l&#39;exportation en résolution 8192).
++++La commutation de la résolution parent du graphe est lente
+Il recalcule le graphe, le cache et toutes les vignettes. Il est préférable d&#39;utiliser [l&#39;onglet <b>Lot</b>de la boîte de dialogue d&#39;exportation](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), car cela évite un recalcul important et inutile (par exemple lors de l&#39;exportation en résolution 8192).
 
 +++
 
@@ -50,12 +50,12 @@ L&#39;application [limite la quantité de RAM pouvant être utilisée](../../int
 
 +++
 
-### OPTIMISATION DU GRAPHIQUE
+### OPTIMISATION DU GRAPHE
 
 +++Faites attention aux résolutions des nœuds et à l&#39;héritage en général !
-Les valeurs élevées affectent considérablement les performances. Pensez donc à la manière dont le matériau est susceptible d&#39;être utilisé et à la possibilité de réduire la taille des données concernées.
+Les valeurs élevées affectent considérablement les performances. Pensez donc à la manière dont le matériau sera probablement utilisé et à la possibilité de réduire la taille des données concernées.
 
-Nous vous recommandons d&#39;en savoir plus sur la [résolution des nœuds (taille de sortie)](../../compositing-graphs/output-size/output-size.md) et l&#39;[héritage dans les graphiques de Substances](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Nous vous recommandons d&#39;en savoir plus sur la [résolution de nœud (taille de sortie)](../../compositing-graphs/output-size/output-size.md) et l&#39;[héritage dans les graphes de Substance](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 +++
 

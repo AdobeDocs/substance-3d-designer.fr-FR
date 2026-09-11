@@ -45,14 +45,14 @@ Le nœud **Usure/salissures Scratches Fine** génère une carte usure/salissures
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Montant Scratches</b> <i>Flotter</i> | Règle la quantité de fines rayures sur la surface. |
-| <b>Netteté</b> <i>Flotter</i> | Règle l’intensité de l’effet de netteté globale. |
-| <b>Biais de la valeur de travail</b> <i>Flotter</i> | Règle la balance des valeurs de luminance attribuées à chaque rayure. |
+| <b>Montant Scratches</b> <i>Flottant</i> | Règle la quantité de fines rayures sur la surface. |
+| <b>Netteté</b> <i>Flottant</i> | Règle l’intensité de l’effet de netteté globale. |
+| <b>Biais de la valeur de travail</b> <i>Flottant</i> | Règle la balance des valeurs de luminance attribuées à chaque rayure. |
 
 ## Exemples
 
