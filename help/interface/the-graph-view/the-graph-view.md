@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser la vue du graphe de Substance 3D Designer pour créer et modifier des graphes de matériau basés sur les nœuds.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue du graphe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Utilisation d’un pavé tactile (macOS uniquement)
 > 
 > Le sens du zoom peut être inversé dans les [Préférences](../../interface/preferences-window/preferences-window.md).
 
-![Navigation par Viewport](../../assets/navigating.gif "Navigation par Viewport")
+![Navigation par Viewport](the-graph-view.resources/navigating.gif "Navigation par Viewport")
 
 Vous <b>vous concentrez</b> sur le ou les nœuds sélectionnés, ou sur l&#39;ensemble du graphe si aucun nœud n&#39;est sélectionné, à l&#39;aide de la touche F.
 
@@ -150,7 +150,7 @@ Les nœuds peuvent être placés dans des graphes de 5 façons, quel que soit le
 * Appuyez sur la <b>barre d&#39;espace</b> pour accéder au <b>menu Nœud</b>. Voir ci-dessous.
 * Utilisation du raccourci clavier mappé à un nœud. Le mappage est effectué dans la [fenêtre Préférences](../../interface/preferences-window/preferences-window.md).
 
-![Placement des nœuds](../../assets/nodecreation.gif "Placement des nœuds")
+![Placement des nœuds](the-graph-view.resources/nodecreation.gif "Placement des nœuds")
 
 Si un nœud est placé alors qu’un autre nœud est sélectionné, Designer tente de connecter automatiquement le nouveau nœud à l’ancien.\
 Cette connexion automatique place toujours le nouveau nœud *après* l&#39;ancien dans le flux.
@@ -180,7 +180,7 @@ Par exemple, seuls les nœuds avec une [Entrée principale](../../compositing-gr
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu Vue du graphe : Nœud](../../assets/graph-node-menu_fuzzy-search.png "Menu Vue du graphe : Nœud")
+![Menu Vue du graphe : Nœud](the-graph-view.resources/graph-node-menu_fuzzy-search.png "Menu Vue du graphe : Nœud")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Pour sélectionner *plusieurs* nœuds, les différentes méthodes sont disponibl
 * <b>En amont :</b> cliquez sur RMB sur un nœud et sélectionnez l&#39;option <b>Sélectionner les nœuds en amont</b> : le nœud et tous les nœuds qui font partie de flux connectés aux *entrées* du nœud sont sélectionnés ;
 * <b>En aval :</b> cliquez sur RMB sur un nœud et sélectionnez l&#39;option <b>Sélectionner des nœuds en aval</b> : le nœud et tous les nœuds qui font partie de flux connectés aux *sorties* du nœud sont sélectionnés.
 
-![Sélection de nœuds](../../assets/graph-selecting-nodes.gif "Sélection de nœuds")
+![Sélection de nœuds](the-graph-view.resources/graph-selecting-nodes.gif "Sélection de nœuds")
 
 ### Menu contextuel du nœud
 
@@ -268,7 +268,7 @@ Le *connecteur de sortie* d&#39;un nœud A peut être connecté au *connecteur d
 > * pour un connecteur *d&#39;entrée* : le nœud revient à une valeur par défaut définie pour cette entrée ;
 > * pour un connecteur *de sortie* : les données sont ignorées et supprimées lors du calcul du graphe.
 
-![Nœuds de connexion](../../assets/links.gif "Nœuds de connexion")
+![Nœuds de connexion](the-graph-view.resources/links.gif "Nœuds de connexion")
 
 Vous pouvez <b>créer</b> un nouveau lien en cliquant sur LMB sur chacun de ces connecteurs, dans *n&#39;importe quel ordre*.\
 En outre, si un nœud B est créé alors qu&#39;un nœud A est sélectionné, alors la *première sortie* du nœud A sera automatiquement connectée à l&#39;*entrée principale* du nœud B.
@@ -291,7 +291,7 @@ Les nœuds peuvent être désactivés pour qu&#39;ils n&#39;aient *aucun effet* 
 
 Les nœuds désactivés ont le comportement suivant :
 
-* Ils sont affichés avec le badge ![](../../assets/graph-badge-disabled.png) <b>Désactivé</b>*,* a *contour en pointillés* et un lien interne *redirection* au lieu d’une vignette ;
+* Ils sont affichés avec le badge ![](the-graph-view.resources/graph-badge-disabled.png) <b>Désactivé</b>*,* a *contour en pointillés* et un lien interne *redirection* au lieu d’une vignette ;
 * Les nœuds produiront les données reçues dans leur *entrée principale* ;
 * Les nœuds désactivés peuvent être *enchaînés* ensemble ;
 * Leurs propriétés et connexions ne sont *pas modifiées* ;
@@ -309,7 +309,7 @@ Vous pouvez désactiver un nœud ou un groupe de nœuds sélectionnés en utilis
 > * Les *types* de l&#39;entrée principale et de la sortie doivent *correspondre*, c&#39;est-à-dire niveaux de gris à niveaux de gris, couleur à couleur
 > * Tous les nœuds sélectionnés doivent avoir le *même état*, c&#39;est-à-dire que tous doivent être activés, la même règle s&#39;applique pour leur activation
 
-![Désactivation des nœuds](../../assets/graph-disable-node.gif "Désactivation des nœuds"){width="512px"}
+![Désactivation des nœuds](the-graph-view.resources/graph-disable-node.gif "Désactivation des nœuds"){width="512px"}
 
 ## Interaction avec la Vue 2D
 
@@ -341,86 +341,86 @@ Pour appliquer une sortie de nœud dans la [vue 3D](../../interface/3d-view/3d-v
 
 La barre d’outils principale se trouve dans tous les types de graphe. Elle fournit des fonctions générales, ainsi que des options de visibilité des autres barres d’outils. Les fonctions suivantes sont disponibles :
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>Sélection du focus</b> (F)\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png) <b>Sélection du focus</b> (F)\
 Focus sur la sélection ou sur la scène entière si la sélection est vide.
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>Réinitialiser le zoom</b> (Z)\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png) <b>Réinitialiser le zoom</b> (Z)\
 Ramenez le niveau de zoom actuel à son état par défaut et centrez la vue au milieu du graphe. Cela peut signifier effectuer un zoom avant ou arrière.
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>Vue du graphe d&#39;exportation\
+![](the-graph-view.resources/image2020-6-26-16-26-26.png) <b>Vue du graphe d&#39;exportation\
 </b>Exporte le graphe complet à une résolution 1:1 sous forme d’image. Utile pour partager une capture d’écran de l’ensemble de votre graphe.
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>Informations sur le nœud\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png) <b>Informations sur le nœud\
 </b>*- Nom du connecteur d&#39;affichage :* Active/désactive l&#39;affichage du nom de chaque connecteur individuel sur un nœud.\
 *- Afficher les badges de nœud :* bascule les badges de nœud sur tous les nœuds.\
 *- Taille de nœud d&#39;affichage :* Active/désactive l&#39;affichage de la résolution de nœud ([graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md) uniquement).\
 *- Horaires d&#39;affichage :* Active/désactive l&#39;affichage des horaires en millisecondes pour chaque nœud ([graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md) uniquement).\
 *- Limiter la mise à l&#39;échelle du texte lors du zoom arrière :* conserve le texte de [éléments de graphe](../../interface/the-graph-view/graph-items/graph-items.md) à une taille d&#39;écran constante au-delà d&#39;un seuil de zoom, ce qui garde le texte clairement visible lors du zoom arrière.
 
-Finder de nœuds ![](../../assets/image2020-6-26-16-26-52.png)<b></b> (Ctrl+F)\
+Finder de nœuds ![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b></b> (Ctrl+F)\
 Permet à un outil de rechercher des nœuds, des paramètres exposés et d’autres variables dans le graphe. En savoir plus sur la [page dédiée](../../interface/the-graph-view/node-finder/node-finder.md).
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>Flux de mise en surbrillance\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png) <b>Flux de mise en surbrillance\
 </b>Mettez en surbrillance tous les nœuds connectés avant ou après le nœud actuellement sélectionné. Cette option est idéale pour tracer un chemin complexe de nœuds.
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>Palette de noeuds\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png) <b>Palette de noeuds\
 </b>Affiche ou masque la barre d&#39;outils de nœud, voir ci-dessous.
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>Liens de rectangle\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png) <b>Liens de rectangle\
 </b>Basculer entre des liens de forme arrondie ou rectangulaire entre des nœuds. Non disponible pour [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>Outils d&#39;alignement des nœuds\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png) <b>Outils d&#39;alignement des nœuds\
 </b>Permet aux outils d&#39;organiser les nœuds sélectionnés dans le graphe. En savoir plus sur la [page dédiée](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Uniquement sur [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) :
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>Taille parent\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png) <b>Taille parent\
 </b>Active/désactive l’affichage des paramètres de contrôle de résolution du gabarit, voir ci-dessous.
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>Modes De Création De Lien</b> (1, 2, 3)\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png) <b>Modes De Création De Lien</b> (1, 2, 3)\
 Choisissez entre les modes de création de liens Standard (1), Matériau (2) et Matériau compact (3) pour lier les connecteurs de nœuds individuellement ou par lots. En savoir plus sur la [page dédiée](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-![](../../assets/image2020-6-26-16-33-35.png) <b>Contrôle des durées\
+![](the-graph-view.resources/image2020-6-26-16-33-35.png) <b>Contrôle des durées\
 </b>Vous permet de réinitialiser tous les nœuds et de réinitialiser tous les minutages.
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>Outils\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png) <b>Outils\
 </b>*- Nettoyer :* supprime tous les nœuds qui font partie d&#39;un flux non connecté à un nœud [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Sorties d&#39;exportation :* ouvre l&#39;[interface d&#39;exportation bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Sorties de réexportation :* effectue à nouveau l&#39;opération d&#39;exportation précédente.\
 *- Exporteur PSD :* ouvre l&#39;interface [Exporteur PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>Cache d&#39;image de nœud\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>Cache d&#39;image de nœud\
 </b>Active/désactive l&#39;affichage du cache d&#39;image de nœud, voir ci-dessous.
 
-![](../../assets/graph-cleaner.jpg) Supprimer les nœuds inutilisés\
+![](the-graph-view.resources/graph-cleaner.jpg) Supprimer les nœuds inutilisés\
 </b>Affiche les options de suppression des nœuds inutilisés dans les graphes, voir ci-dessous.
 
 ### Palette de noeuds
 
 La barre d’outils du nœud diffère selon le type de graphe :
 
-[![Palette de noeuds](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![Palette de noeuds](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md):</b> voir [noeuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) et [éléments de graphe](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Palette d&#39;éléments de Graphe](../../assets/image2020-6-26-16-46-32.png "Palette d&#39;éléments de Graphe")<br>
+![Palette d&#39;éléments de Graphe](the-graph-view.resources/image2020-6-26-16-46-32.png "Palette d&#39;éléments de Graphe")<br>
 <b>[graphes de fonction de Substance](../../function-graphs/function-graphs.md):</b> voir [éléments de graphe](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Palette FX-Map](../../assets/image2020-6-26-16-48-4.png "Palette FX-Map")<br>
+![Palette FX-Map](the-graph-view.resources/image2020-6-26-16-48-4.png "Palette FX-Map")<br>
 <b>[graphes FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> voir [éléments de graphe](../../interface/the-graph-view/graph-items/graph-items.md).
 
 ### Taille du gabarit
 
-![Barre d’outils Taille du gabarit](../../assets/image2020-6-26-17-0-48.png "Barre d’outils Taille du gabarit")
+![Barre d’outils Taille du gabarit](the-graph-view.resources/image2020-6-26-17-0-48.png "Barre d’outils Taille du gabarit")
 
-Cette barre d&#39;outils n&#39;est disponible que dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) et définit la [taille de sortie](../../compositing-graphs/output-size/output-size.md) du *parent* du graphe, ce qui a un impact sur la taille de sortie du graphe s&#39;il utilise la *méthode d&#39;héritage Relatif au parent*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Cette barre d&#39;outils n&#39;est disponible que dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md) et définit la [taille de sortie](../../compositing-graphs/output-size/output-size.md) du *parent* du graphe, ce qui a un impact sur la taille de sortie du graphe s&#39;il utilise la *méthode d&#39;héritage Relatif au parent*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Les dimensions horizontale et verticale sont liées par défaut, mais peuvent être *dissociées* pour les textures non carrées. Les valeurs peuvent également être réinitialisées sur la valeur par défaut de 256 x 256.
 
 ### Cache d&#39;image de nœud
 
-![Paramètre du cache d&#39;image de nœud](../../assets/graph-toolbar-node-cache.png "Paramètre du cache d&#39;image de nœud")
+![Paramètre du cache d&#39;image de nœud](the-graph-view.resources/graph-toolbar-node-cache.png "Paramètre du cache d&#39;image de nœud")
 
 Cela permet d&#39;activer l&#39;utilisation du cache lors du calcul des nœuds dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
@@ -432,13 +432,13 @@ L’activation de cette option accroît considérablement la réactivité global
 
 ### Supprimer les nœuds inutilisés
 
-![Menu déroulant Supprimer les nœuds inutilisés](../../assets/graph-cleaner-menu.jpg "Menu déroulant Supprimer les nœuds inutilisés")
+![Menu déroulant Supprimer les nœuds inutilisés](the-graph-view.resources/graph-cleaner-menu.jpg "Menu déroulant Supprimer les nœuds inutilisés")
 
 Lorsque vous effectuez une itération dans des graphes et que vous essayez des choses, certains nœuds qui n’ont aucun effet sur le résultat final peuvent être laissés de côté. Cela ajoute de l’encombrement et du gaspillage de calcul, car tous les nœuds sont évalués lors des premières étapes du rendu du graphe.
 
-L&#39;outil ![](../../assets/graph-cleaner.jpg) Supprimer les nœuds inutilisés</b> supprime tous les nœuds qui ne font *pas* partie d&#39;un flux qui *se termine par un nœud de sortie*. La seule exception concerne les nœuds *d&#39;entrée*, car leur suppression modifierait l&#39;interface de [instanciers](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) référençant ce graphe.
+L&#39;outil ![](the-graph-view.resources/graph-cleaner.jpg) Supprimer les nœuds inutilisés</b> supprime tous les nœuds qui ne font *pas* partie d&#39;un flux qui *se termine par un nœud de sortie*. La seule exception concerne les nœuds *d&#39;entrée*, car leur suppression modifierait l&#39;interface de [instanciers](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) référençant ce graphe.
 
-![Supprimer les nœuds inutilisés](../../assets/graph-cleaner.gif "Supprimer les nœuds inutilisés")
+![Supprimer les nœuds inutilisés](the-graph-view.resources/graph-cleaner.gif "Supprimer les nœuds inutilisés")
 
 La première option applique le nettoyage exclusivement au graphe *actuel*.
 
