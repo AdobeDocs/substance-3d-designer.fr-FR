@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Utilisez la bibliothèque de Substance 3D Designer pour accéder aux paramètres prédéfinis de nœuds, aux matériaux et au contenu personnalisé, et les gérer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bibliothèque
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page présente le panneau **Bibliothèque** de Substance 3D Designer, sa mise en page ainsi que les outils de recherche et de filtrage qu&#39;il propose.
 
-![Bibliothèque](../../assets/library-main.png "Bibliothèque")
+![Bibliothèque](the-library.resources/library-main.png "Bibliothèque")
 
 ## Vue d’ensemble
 
@@ -103,7 +103,7 @@ Vous pouvez sélectionner *plusieurs* éléments dans la section <b>Contenu</b> 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Suppression d&#39;un nœud de la bibliothèque](../../assets/library-create-node.gif "Suppression d&#39;un nœud de la bibliothèque")
+![Suppression d&#39;un nœud de la bibliothèque](the-library.resources/library-create-node.gif "Suppression d&#39;un nœud de la bibliothèque")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Vous pouvez sélectionner *plusieurs* éléments dans la section <b>Contenu</b> 
 ### Recherche d’une ressource par nom
 
 La barre de <b>recherche</b>, située en haut à gauche de la section <b>Contenu</b>, vous permet de rechercher *n’importe quelle ressource par nom*. Lors de la recherche de contenu de cette manière, la sélection actuelle dans la section <b>Catégories</b> est ignorée et la *totalité du contenu* dans la <b>bibliothèque</b> est recherchée.\
-Vous pouvez filtrer les résultats de la recherche par *type de graphe*, à l&#39;aide de l&#39;icône ![](../../assets/library-icon-search-filter.png) <b>Filtrer par...</b> située en regard de la barre <b>Rechercher</b>.
+Vous pouvez filtrer les résultats de la recherche par *type de graphe*, à l&#39;aide de l&#39;icône ![](the-library.resources/library-icon-search-filter.png) <b>Filtrer par...</b> située en regard de la barre <b>Rechercher</b>.
 
 >[!NOTE]
 >
 > La barre de recherche tient compte du nom de l&#39;actif que vous recherchez, mais également des *balises* que l&#39;actif peut contenir ou de la *catégorie* à laquelle il appartient.\
 > Par exemple, la saisie de « *Normal* » répertorie tous les actifs pouvant être utilisés pour générer ou modifier une map normal. C&#39;est un bon moyen de découvrir de nouveaux nœuds, et donc de nouvelles possibilités !
 
-![Recherche de ressources dans la bibliothèque](../../assets/library-search-2.png "Recherche de ressources dans la bibliothèque")
+![Recherche de ressources dans la bibliothèque](the-library.resources/library-search-2.png "Recherche de ressources dans la bibliothèque")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Vous pouvez filtrer les résultats de la recherche par *type de graphe*, à l&#3
 
 ### Visualisation des ressources de la bibliothèque
 
-En utilisant le bouton déroulant ![](../../assets/library-icon-view-mode.png) <b>Mode d&#39;affichage</b>, vous pouvez sélectionner la taille d&#39;affichage des éléments de contenu.
+En utilisant le bouton déroulant ![](the-library.resources/library-icon-view-mode.png) <b>Mode d&#39;affichage</b>, vous pouvez sélectionner la taille d&#39;affichage des éléments de contenu.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Mode d’affichage des ressources de bibliothèque](../../assets/library-display-modes.png "Mode d’affichage des ressources de bibliothèque")
+![Mode d’affichage des ressources de bibliothèque](the-library.resources/library-display-modes.png "Mode d’affichage des ressources de bibliothèque")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ En utilisant le bouton déroulant ![](../../assets/library-icon-view-mode.png) <
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Le bouton ![](../../assets/library-icon-toggle-label.png) **Activer/Désactiver les étiquettes** vous permet d&#39;afficher ou de masquer les étiquettes des nœuds.
+Le bouton ![](the-library.resources/library-icon-toggle-label.png) **Activer/Désactiver les étiquettes** vous permet d&#39;afficher ou de masquer les étiquettes des nœuds.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bouton à bascule des libellés](../../assets/library-toggle-label.png "Bouton à bascule des libellés")
+![Bouton à bascule des libellés](the-library.resources/library-toggle-label.png "Bouton à bascule des libellés")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Lorsque vous placez le curseur sur un élément de contenu, une info-bulle s&#39
 </td>
 <td style="border: 0;" valign="top">
 
-![Info-bulle des informations sur les ressources](../../assets/library-item-tooltip.png "Info-bulle des informations sur les ressources")
+![Info-bulle des informations sur les ressources](the-library.resources/library-item-tooltip.png "Info-bulle des informations sur les ressources")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Lorsque vous placez le curseur sur un élément de contenu, une info-bulle s&#39
 
 ### Favoris
 
-Vous pouvez ajouter n&#39;importe quel élément de la section <b>Contenu</b> à votre liste <b>Favoris</b> à l&#39;aide du bouton ![](../../assets/library-icon-favoritepng.png) <b>Ajouter aux favoris</b>. Le bouton vous permet également de *supprimer* du contenu de cette liste s&#39;il a déjà été ajouté.\
+Vous pouvez ajouter n&#39;importe quel élément de la section <b>Contenu</b> à votre liste <b>Favoris</b> à l&#39;aide du bouton ![](the-library.resources/library-icon-favoritepng.png) <b>Ajouter aux favoris</b>. Le bouton vous permet également de *supprimer* du contenu de cette liste s&#39;il a déjà été ajouté.\
 Lorsque du contenu est ajouté à cette liste, il est disponible dans la catégorie <b>Favoris</b> de la <b>Bibliothèque</b> et s&#39;affiche dans le *haut* de la liste de menus <b>Nœud</b> lors de la recherche d&#39;un nœud dans le graphe, à condition que les termes de recherche y correspondent.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoris dans la bibliothèque](../../assets/library-favourites.png "Favoris dans la bibliothèque")
+![Favoris dans la bibliothèque](the-library.resources/library-favourites.png "Favoris dans la bibliothèque")
 
 </td>
 </tr>

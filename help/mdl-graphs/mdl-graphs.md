@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Graphes MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page présente les Graphes MDL dans Substance 3D Designer, qui vous permettent de créer des Matériaux MDL et de prévisualiser leur comportement en temps réel.
 
-![Matériau MDL de malachite](../assets/mdl-malachite-example.jpg "Matériau MDL de malachite")
+![Matériau MDL de malachite](mdl-graphs.resources/mdl-malachite-example.jpg "Matériau MDL de malachite")
 
 *Malachite à la chrysocolle, Matériau MDL de [Mark Foreman](https://www.artstation.com/oggyart)* *disponible sur notre [plateforme](https://share-legacy.substance3d.com/libraries/4043)* *héritée*
 
@@ -62,7 +62,7 @@ Envie d&#39;intervenir ? Commencez à utiliser les Graphes MDL de la section Res
 >
 > Vous pouvez en savoir plus sur la mise en œuvre technique du langage de définition de Matériau dans la [documentation NVIDIA MDL](https://raytracing-docs.nvidia.com/mdl/index.html), qui comprend des liens vers la spécification MDL et le [manuel MDL](http://mdlhandbook.com/), tous créés et gérés par NVIDIA.
 
-![propriétés du Graphe MDL](../assets/mdl-main.png "propriétés du Graphe MDL")
+![propriétés du Graphe MDL](mdl-graphs.resources/mdl-main.png "propriétés du Graphe MDL")
 
 *Propriétés de Graphe MDL dans le panneau Propriétés*
 

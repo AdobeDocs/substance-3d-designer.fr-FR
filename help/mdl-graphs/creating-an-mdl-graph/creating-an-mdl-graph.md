@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Création d’un Graphe MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Cette page décrit le processus de création d’un Graphe MDL de création de Matériaux MDL dans Substance 3D Designer.
 
-![Chemins de création de Graphe MDL](../../assets/mdl-new-graph-hl.png "Chemins de création de Graphe MDL")
+![Chemins de création de Graphe MDL](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "Chemins de création de Graphe MDL")
 
 *Méthodes de création d’un nouveau Graphe MDL dans l’interface de Designer*
 
@@ -31,12 +31,12 @@ Cette page décrit le processus de création d’un Graphe MDL de création de M
 Vous pouvez créer un Graphe MDL à l’aide de l’une des méthodes suivantes :
 
 * Sélectionnez l&#39;option **Fichier > Nouveau > Graphe MDL** dans la *barre de menus principale*
-* Cliquez sur le bouton ![](../../assets/mdl-new-graph-icon.png) **Ajouter un Graphe MDL** dans la *barre d&#39;outils principale*
+* Cliquez sur le bouton ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **Ajouter un Graphe MDL** dans la *barre d&#39;outils principale*
 * Cliquez avec le bouton droit sur un *pack existant* dans le panneau **Explorateur**, puis sélectionnez l&#39;option **Nouveau > Graphe MDL**
 
 La boîte de dialogue **Nouveau Graphe MDL** s&#39;affiche, voir ci-dessous.
 
-![Boîte de dialogue Nouveau Graphe MDL](../../assets/mdl-templates.png "Boîte de dialogue Nouveau Graphe MDL")
+![Boîte de dialogue Nouveau Graphe MDL](creating-an-mdl-graph.resources/mdl-templates.png "Boîte de dialogue Nouveau Graphe MDL")
 
 *Boîte de dialogue Nouveau Graphe MDL*
 
@@ -59,10 +59,10 @@ L&#39;option <b>Projet</b> vous permet de filtrer la liste des modèles par fich
 
 La liste des modèles peut être affichée dans différents modes à l&#39;aide des *boutons* en regard de la zone de liste déroulante **Projet** :
 
-* **![](../../assets/mdl-template-recent-icon.png)Afficher les modèles récemment utilisés** : filtre la liste pour afficher les derniers modèles utilisés dans l&#39;ordre *du plus récent au moins récent*, l&#39;élément supérieur étant le plus récent
-* **![](../../assets/mdl-template-graphs-icon.png)graphes d&#39;affichage** : les modèles sont affichés par leur *étiquette uniquement*, dans l&#39;ordre des fichiers [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) dans le répertoire des modèles
-* **![](../../assets/mdl-template-packages-icon.png)Afficher les fichiers Substance 3D** : les modèles sont affichés selon leur étiquette en tant que *enfants du fichier Substance 3D auquel ils appartiennent*, dans l&#39;ordre des fichiers dans le répertoire des modèles
-* **![](../../assets/mdl-template-directory-icon.png)Répertoires d&#39;affichage** : les modèles sont affichés par leur étiquette en tant que *enfants du répertoire auquel ils appartiennent*, dans l&#39;ordre des fichiers dans le répertoire des modèles
+* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)Afficher les modèles récemment utilisés** : filtre la liste pour afficher les derniers modèles utilisés dans l&#39;ordre *du plus récent au moins récent*, l&#39;élément supérieur étant le plus récent
+* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)graphes d&#39;affichage** : les modèles sont affichés par leur *étiquette uniquement*, dans l&#39;ordre des fichiers [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) dans le répertoire des modèles
+* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)Afficher les fichiers Substance 3D** : les modèles sont affichés selon leur étiquette en tant que *enfants du fichier Substance 3D auquel ils appartiennent*, dans l&#39;ordre des fichiers dans le répertoire des modèles
+* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)Répertoires d&#39;affichage** : les modèles sont affichés par leur étiquette en tant que *enfants du répertoire auquel ils appartiennent*, dans l&#39;ordre des fichiers dans le répertoire des modèles
 
 ### Propriétés
 

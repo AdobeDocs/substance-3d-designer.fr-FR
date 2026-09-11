@@ -10,7 +10,7 @@ helpx_tags: ""
 title: graphes et Matériaux MDL de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Lorsque vous utilisez l&#39;option <b>Afficher les sorties en vue 3D</b> pour un
 
 Les textures individuelles d&#39;un graphe de Substance peuvent être connectées à l&#39;un des paramètres de Matériau MDL qui prennent en charge l&#39;échantillonnage de texture, quel que soit l&#39;identifiant, en appuyant sur RMB sur le nœud de graphe de Substance et en faisant glisser dans la vue 3D. Une liste des utilisations d’échantillonnage disponibles s’affiche et vous pouvez sélectionner l’utilisation cible pour la texture sélectionnée.
 
-![Entrées de Graphe MDL Exposées](../../assets/mdl-graph-inputs-samplers.png "Entrées de Graphe MDL Exposées")
+![Entrées de Graphe MDL Exposées](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "Entrées de Graphe MDL Exposées")
 
 *Les Textures issues d&#39;un graphe de Substance sont connectées aux paramètres exposés d&#39;un Graphe MDL dans la vue 3D*
 
@@ -48,7 +48,7 @@ Les textures individuelles d&#39;un graphe de Substance peuvent être connectée
 Les instances de graphe de Substance peuvent être placées directement dans les Graphes MDL en les faisant glisser du panneau <b>Explorateur</b> vers le Graphe MDL. Les graphes de Substance provenant des <b>fichiers Substance 3D</b> (SBS) et des <b>fichiers de ressources Substance 3D</b> (SBSAR) peuvent être utilisés dans les Graphes MDL.
 
 +++graphe de Substance à partir du fichier Substance 3D (SBS)
-![graphe de Substance à partir du fichier SBS dans Graphe MDL](../../assets/mdl-sbs-instance-hl.png "graphe de Substance à partir du fichier SBS dans Graphe MDL")
+![graphe de Substance à partir du fichier SBS dans Graphe MDL](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "graphe de Substance à partir du fichier SBS dans Graphe MDL")
 
 
 
@@ -57,7 +57,7 @@ Instance de *[graphe de Substance](../../compositing-graphs/substance-compositin
 +++
 
 +++graphe de Substance à partir d’un actif Substance 3D (SBSAR)
-![graphe de Substance du Fichier sbsar dans le Graphe MDL](../../assets/mdl-sbsar-instance-hl.png "graphe de Substance du Fichier sbsar dans le Graphe MDL")
+![graphe de Substance du Fichier sbsar dans le Graphe MDL](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "graphe de Substance du Fichier sbsar dans le Graphe MDL")
 
 
 
