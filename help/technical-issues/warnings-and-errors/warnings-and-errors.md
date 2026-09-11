@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Trouvez des solutions aux erreurs et avertissements courants dans Substance 3D Designer pour résoudre rapidement les problèmes.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avertissements et erreurs
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ En général, les avertissements et les erreurs sont affichés sur l&#39;éléme
 
 ### Explorateur
 
-Pour tout élément du panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](warnings-and-errors.resources/warning-icon.png) sur le bord le plus à droite de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
@@ -48,7 +48,7 @@ Ils suivent les règles suivantes :
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Ils suivent les règles suivantes :
 
 ### Vue du graphe
 
-Pour tout élément du panneau [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) qui présente un avertissement, celui-ci s&#39;affiche avec un texte coloré dans le *coin inférieur gauche* du viewport. Si l&#39;avertissement est déclenché par un nœud spécifique, ce nœud aura un badge d&#39;avertissement ![](../../assets/warning-badge.png). Laissez le curseur sur ce badge pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) qui présente un avertissement, celui-ci s&#39;affiche avec un texte coloré dans le *coin inférieur gauche* du viewport. Si l&#39;avertissement est déclenché par un nœud spécifique, ce nœud aura un badge d&#39;avertissement ![](warnings-and-errors.resources/warning-badge.png). Laissez le curseur sur ce badge pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
@@ -71,7 +71,7 @@ Ils suivent les règles suivantes :
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Ils suivent les règles suivantes :
 
 ### Propriétés
 
-Pour tout élément du panneau [Propriétés](../../interface/properties/properties.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](../../assets/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
+Pour tout élément du panneau [Propriétés](../../interface/properties/properties.md) qui présente un avertissement, celui-ci s&#39;affiche avec une icône ![](warnings-and-errors.resources/warning-icon.png) sur le bord le plus à droite de l&#39;entrée de l&#39;élément dans la liste. Laissez le curseur sur cette icône pendant quelques secondes pour afficher une *info-bulle* répertoriant tous les avertissements en détail.
 
 Ils suivent les règles suivantes :
 
@@ -94,7 +94,7 @@ Ils suivent les règles suivantes :
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Les avertissements et les erreurs sont signalés dans le panneau **Console**, au
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Voici une liste des avertissements et des erreurs que vous pouvez rencontrer dan
 ### Avertissements dans les graphes Substance
 
 * Aucun nœud de sortie défini
-* La fonction du paramètre [x] comporte des avertissements
+* La fonction du paramètre `[x]` comporte des avertissements
 * Les données référencées comportent des avertissements
 * Ressource de référence introuvable
 * Le nœud de texte utilise une police non valide

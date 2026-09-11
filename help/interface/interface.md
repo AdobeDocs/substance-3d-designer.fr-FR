@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Découvrez l’interface de l’espace de travail Substance 3D Designer, notamment les affichages, les panneaux et les options de personnalisation.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Espace de travail
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -117,6 +117,6 @@ Le [dock des propriétés](properties/properties.md) est la fenêtre la plus tec
 
 ## Bibliothèque
 
-[Le dock de bibliothèque](../interface/the-library/the-library.md) donne accès par défaut à tout le contenu inclus dans la bibliothèque Designer, ainsi qu&#39;à votre [contenu personnalisé](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Pour mieux comprendre la différence entre les Noeuds atomiques et les Instanciers de la bibliothèque, assurez-vous de lire la [Présentation des nœuds](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[Le dock de bibliothèque](../interface/the-library/the-library.md) donne accès par défaut à tout le contenu inclus dans la bibliothèque Designer, ainsi qu&#39;à votre [contenu personnalisé](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ![Bibliothèque](interface.resources/library-3.jpg "Bibliothèque")

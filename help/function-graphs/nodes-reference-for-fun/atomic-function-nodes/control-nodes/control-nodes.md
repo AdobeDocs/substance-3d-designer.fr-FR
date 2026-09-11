@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Accès aux nœuds de contrôle dans les graphes de fonction Substance 3D Designer pour contrôler le flux et la logique d’exécution.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Contrôle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65827855542d37bf8c090d4d3072684848b73515
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Cette page décrit les nœuds des [graphes de fonction](../../../../function-gra
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nœud If...Else")
+![Nœud If...Else](../../../../assets/IfElse_Node.jpg "If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ Condition qui contrôle la sortie du nœud.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de séquence](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nœud de séquence")
+![Nœud de séquence](../../../../assets/Sequence_Node.jpg "Nœud de séquence")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Partie du graphe qui doit être calculée en dernier
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud de boucle entière](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nœud de boucle entière")
+![Nœud de boucle entière](../../../../assets/WhileLoop-Node.jpg "Nœud de boucle entière")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
