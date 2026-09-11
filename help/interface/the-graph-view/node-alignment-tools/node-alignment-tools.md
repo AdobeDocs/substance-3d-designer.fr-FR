@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outils d’alignement des nœuds
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: a43ec663c271976e3f472d62026083a04333a401
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Outils d’alignement des nœuds
 
-![Barre d&#39;outils d&#39;alignement des nœuds](../../../assets/node-alignment-toolbar.png "Barre d&#39;outils d&#39;alignement des nœuds"){zoomable="yes"}
+![Barre d&#39;outils d&#39;alignement des nœuds](node-alignment-tools.resources/node-alignment-toolbar.png "Barre d&#39;outils d&#39;alignement des nœuds"){zoomable="yes"}
 
 Les outils d&#39;alignement des nœuds vous permettent d&#39;organiser les nœuds en graphes pour améliorer leur lisibilité et leur expérience de création. Ils proposent des actions permettant d’aligner les nœuds, de les répartir uniformément et de les contraindre à la grille.
 
@@ -40,31 +40,31 @@ Les nœuds peuvent être alignés horizontalement et verticalement, avec trois m
 
 ### Alignements horizontaux
 
-<b>![](../../../assets/node-alignment-h-left.png) Gauche :</b> alignez le côté gauche des nœuds sélectionnés sur le côté gauche du nœud le plus à gauche.
+<b>![](node-alignment-tools.resources/node-alignment-h-left.png) Gauche :</b> alignez le côté gauche des nœuds sélectionnés sur le côté gauche du nœud le plus à gauche.
 
-<b>![](../../../assets/node-alignment-h-center.png) Centre (H) :</b> Alignez le centre horizontal des nœuds sélectionnés sur le centre horizontal du cadre de sélection qui les entoure.
+<b>![](node-alignment-tools.resources/node-alignment-h-center.png) Centre (H) :</b> Alignez le centre horizontal des nœuds sélectionnés sur le centre horizontal du cadre de sélection qui les entoure.
 
-<b>![](../../../assets/node-alignment-h-right.png) Droite :</b> alignez le côté droit des nœuds sélectionnés sur le côté droit du nœud le plus à droite.
+<b>![](node-alignment-tools.resources/node-alignment-h-right.png) Droite :</b> alignez le côté droit des nœuds sélectionnés sur le côté droit du nœud le plus à droite.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Outils d&#39;alignement de nœud : left](../../../assets/node-alignment-left.gif "Outils d&#39;alignement de nœud : left"){zoomable="yes"}
+![Outils d&#39;alignement de nœud : left](node-alignment-tools.resources/node-alignment-left.gif "Outils d&#39;alignement de nœud : left"){zoomable="yes"}
 
 *À Gauche*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Outils d&#39;alignement des nœuds : centre](../../../assets/node-alignment-center.gif "Outils d&#39;alignement des nœuds : centre"){zoomable="yes"}
+![Outils d&#39;alignement des nœuds : centre](node-alignment-tools.resources/node-alignment-center.gif "Outils d&#39;alignement des nœuds : centre"){zoomable="yes"}
 
 *Centrer*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Outils d&#39;alignement de nœud : right](../../../assets/node-alignment-right.gif "Outils d&#39;alignement de nœud : right"){zoomable="yes"}
+![Outils d&#39;alignement de nœud : right](node-alignment-tools.resources/node-alignment-right.gif "Outils d&#39;alignement de nœud : right"){zoomable="yes"}
 
 *Droite*
 
@@ -74,31 +74,31 @@ Les nœuds peuvent être alignés horizontalement et verticalement, avec trois m
 
 ### Alignements verticaux
 
-<b>![](../../../assets/node-alignment-v-top.png) Haut :</b> Alignez le bord supérieur des nœuds sélectionnés sur le bord supérieur du nœud le plus haut.
+<b>![](node-alignment-tools.resources/node-alignment-v-top.png) Haut :</b> Alignez le bord supérieur des nœuds sélectionnés sur le bord supérieur du nœud le plus haut.
 
-<b>![](../../../assets/node-alignment-v-middle.png) Milieu (V) :</b> Alignez le centre vertical des nœuds sélectionnés sur le centre vertical du cadre de sélection qui les entoure.
+<b>![](node-alignment-tools.resources/node-alignment-v-middle.png) Milieu (V) :</b> Alignez le centre vertical des nœuds sélectionnés sur le centre vertical du cadre de sélection qui les entoure.
 
-<b>![](../../../assets/node-alignment-v-bottom.png) Bas :</b> Alignez le bas des nœuds sélectionnés sur le bas du nœud le plus bas.
+<b>![](node-alignment-tools.resources/node-alignment-v-bottom.png) Bas :</b> Alignez le bas des nœuds sélectionnés sur le bas du nœud le plus bas.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Outils d&#39;alignement des nœuds : top](../../../assets/node-alignment-top.gif "Outils d&#39;alignement des nœuds : top"){zoomable="yes"}
+![Outils d&#39;alignement des nœuds : top](node-alignment-tools.resources/node-alignment-top.gif "Outils d&#39;alignement des nœuds : top"){zoomable="yes"}
 
 *Haut*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Outils d&#39;alignement de nœud : milieu](../../../assets/node-alignment-middle.gif "Outils d&#39;alignement de nœud : milieu"){zoomable="yes"}
+![Outils d&#39;alignement de nœud : milieu](node-alignment-tools.resources/node-alignment-middle.gif "Outils d&#39;alignement de nœud : milieu"){zoomable="yes"}
 
 *Milieu*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Outils d&#39;alignement des nœuds : bas](../../../assets/node-alignment-bottom.gif "Outils d&#39;alignement des nœuds : bas"){zoomable="yes"}
+![Outils d&#39;alignement des nœuds : bas](node-alignment-tools.resources/node-alignment-bottom.gif "Outils d&#39;alignement des nœuds : bas"){zoomable="yes"}
 
 *Bas*
 
@@ -108,19 +108,19 @@ Les nœuds peuvent être alignés horizontalement et verticalement, avec trois m
 
 ### Empilement
 
-L&#39;option ![](../../../assets/node-alignment-stack.png) de <b>Pile </b> vous permet d&#39;<b>éviter tout chevauchement</b> lors de l&#39;utilisation des alignements. Elle est activée par défaut.
+L&#39;option ![](node-alignment-tools.resources/node-alignment-stack.png) de <b>Pile </b> vous permet d&#39;<b>éviter tout chevauchement</b> lors de l&#39;utilisation des alignements. Elle est activée par défaut.
 
 Lorsque cette option est activée, les nœuds sont déplacés le plus loin possible vers la position de référence jusqu&#39;à ce qu&#39;ils entrent en collision avec un autre nœud dans la sélection. Ceci les pile effectivement dans l&#39;axe sélectionné avec une marge d&#39;une cellule de grille moyenne entre chaque nœud.
 
-![Outils d&#39;alignement des nœuds : empilement](../../../assets/node-alignment-stacking.gif "Outils d&#39;alignement des nœuds : empilement"){zoomable="yes"}
+![Outils d&#39;alignement des nœuds : empilement](node-alignment-tools.resources/node-alignment-stacking.gif "Outils d&#39;alignement des nœuds : empilement"){zoomable="yes"}
 
 ## Distributions
 
 Les nœuds peuvent être répartis uniformément entre les nœuds à chaque extrémité de la sélection courante sur l&#39;axe souhaité.
 
-<b>![](../../../assets/node-alignment-distribute-h.png) horizontalement :</b> nœuds sont répartis uniformément entre les nœuds les plus à gauche et à droite de la sélection.
+<b>![](node-alignment-tools.resources/node-alignment-distribute-h.png) horizontalement :</b> nœuds sont répartis uniformément entre les nœuds les plus à gauche et à droite de la sélection.
 
-<b>![](../../../assets/node-alignment-distribute-v.png) Verticalement :</b> nœuds sont répartis uniformément entre les nœuds les plus élevés et les plus bas de la sélection.
+<b>![](node-alignment-tools.resources/node-alignment-distribute-v.png) Verticalement :</b> nœuds sont répartis uniformément entre les nœuds les plus élevés et les plus bas de la sélection.
 
 Les distributions visent un <b>espacement régulier</b> entre les nœuds, quelle que soit leur taille.
 
@@ -132,14 +132,14 @@ Notez que lorsque la taille totale des nœuds sélectionnés est supérieure à 
 <tr style="border: 0;">
 <td width="58.33%" style="border: 0;" valign="top">
 
-![Outils d&#39;alignement des nœuds : distribution horizontale](../../../assets/node-alignment-distribute-h.gif "Outils d&#39;alignement des nœuds : distribution horizontale"){zoomable="yes"}
+![Outils d&#39;alignement des nœuds : distribution horizontale](node-alignment-tools.resources/node-alignment-distribute-h.gif "Outils d&#39;alignement des nœuds : distribution horizontale"){zoomable="yes"}
 
 *Horizontalement*
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Outils d&#39;alignement des nœuds : distribution verticale](../../../assets/node-alignment-distribute-v.gif "Outils d&#39;alignement des nœuds : distribution verticale"){zoomable="yes"}
+![Outils d&#39;alignement des nœuds : distribution verticale](node-alignment-tools.resources/node-alignment-distribute-v.gif "Outils d&#39;alignement des nœuds : distribution verticale"){zoomable="yes"}
 
 *Verticalement*
 
@@ -153,12 +153,12 @@ Notez que lorsque la taille totale des nœuds sélectionnés est supérieure à 
 
 ## contraint de grille
 
-L&#39;action <b>Contraindre (S) ![](../../../assets/node-alignment-snap.png)</b> déplace chaque nœud sélectionné de sorte que son coin supérieur gauche repose sur le point le plus proche sur la grille moyenne.
+L&#39;action <b>Contraindre (S) ![](node-alignment-tools.resources/node-alignment-snap.png)</b> déplace chaque nœud sélectionné de sorte que son coin supérieur gauche repose sur le point le plus proche sur la grille moyenne.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Outils d&#39;alignement de nœud : contraint de grille](../../../assets/node-alignment-snapping.gif "Outils d&#39;alignement de nœud : contraint de grille"){zoomable="yes"}
+![Outils d&#39;alignement de nœud : contraint de grille](node-alignment-tools.resources/node-alignment-snapping.gif "Outils d&#39;alignement de nœud : contraint de grille"){zoomable="yes"}
 
 </td>
 </tr>
