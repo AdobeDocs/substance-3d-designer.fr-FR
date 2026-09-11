@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds de filtrage dans Substance 3D Designer pour appliquer des effets, des réglages, des transformes et des opérations de traitement aux textures.
 helpx_creative_field: ""

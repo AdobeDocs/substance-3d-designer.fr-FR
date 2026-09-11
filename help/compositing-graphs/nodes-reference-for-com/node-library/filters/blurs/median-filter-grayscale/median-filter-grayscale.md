@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveaux de gris du filtre médian pour réduire le bruit et conserver les contours dans les textures de niveaux de gris.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Somme fractale 1 pour générer des motifs de bruit fractal en additionnant plusieurs octaves afin de créer des textures détaillées.
 helpx_creative_field: ""

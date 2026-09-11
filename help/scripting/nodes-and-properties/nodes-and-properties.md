@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et manipuler des nœuds et des propriétés dans les plug-ins Substance 3D Designer Python.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Découvrez les concepts clés des graphes de composition de Substances, notamment les nœuds, les connexions et les fondamentaux du workflow.
 helpx_creative_field: ""

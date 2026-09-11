@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Recadrage Matériau pour recadrer les zones de texture des matériaux numérisés afin d'isoler des zones spécifiques d'intérêt.
 helpx_creative_field: ""

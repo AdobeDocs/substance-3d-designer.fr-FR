@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normale courbée pour générer des maps normal courbées qui prennent en compte l'éclairage ambient occlusion et indirect.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: Utilisez les noeuds de fonction de couleur pour effectuer des conversions de couleurs et des opérations de mappage de tonalité dans les graphes de fonction.
 helpx_creative_field: ""

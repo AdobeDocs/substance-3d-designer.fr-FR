@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: Découvrez les variables système intégrées disponibles dans les graphes fonctionnels Substance 3D Designer pour les workflows avancés.
 helpx_creative_field: ""
@@ -62,5 +62,5 @@ Variables système
 
 | Nom | Type | Objectif |
 | --- | --- | --- |
-| $time | Flottant | Cette variable renvoie le temps en secondes depuis le démarrage de la Substance Engine. Il peut être utilisé dans des graphes dont le résultat doit changer en fonction du temps écoulé.  **Remarque :** bien qu&#39;il n&#39;y ait actuellement aucun moyen de modifier cette valeur dans Designer, les applications qui intègrent la Substance Engine peuvent l&#39;exploiter, telles que [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) pour l&#39;animation ou [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) pour [traits dynamiques](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
+| $time | Flottant | Cette variable renvoie le temps en secondes depuis le démarrage de la Substance Engine. Il peut être utilisé dans des graphes dont le résultat doit changer en fonction du temps écoulé.  **Remarque :** bien qu&#39;il n&#39;y ait actuellement aucun moyen de modifier cette valeur dans Designer, les applications qui intègrent la Substance Engine peuvent l&#39;exploiter, telles que [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) pour l&#39;animation ou [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour [traits dynamiques](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes). |
 | $normalformat | Entier | Format normal (c’est-à-dire DirectX ou OpenGL) utilisé dans l’environnement actuel.  **Remarque :** cette variable n&#39;a aucun effet dans Designer et peut être utilisée par d&#39;autres applications qui intègrent la Substance Engine. |

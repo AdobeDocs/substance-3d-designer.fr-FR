@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds de filtrage de fusion dans Substance 3D Designer pour combiner des textures à l’aide de divers modes de fusion et opérations.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Altération de métal pour ajouter des effets de rouille et de corrosion réalistes aux matériaux métalliques en fonction de la géométrie du maillage.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Color Equalizer multiple pour égaliser les couleurs sur plusieurs canaux de texture afin d’assurer un traitement cohérent des matériaux numérisés.
 helpx_creative_field: ""

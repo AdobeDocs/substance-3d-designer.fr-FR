@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Niveau d'eau pour fusionner des matériaux en fonction de l'height du niveau d'eau afin de créer des effets d'eau réalistes.
 helpx_creative_field: ""

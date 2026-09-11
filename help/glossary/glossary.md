@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Accédez au glossaire Substance 3D Designer pour trouver les définitions de termes, de concepts et de terminologie technique.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene" data-preserve-html="true"></span>Scène 3D</b> | Collection d’objets et de données impliqués dans la représentation et l’animation d’une visualisation de l’espace 3D :<ul data-preserve-html="true"> <li data-preserve-html="true">[Maillages](#mesh)</li> <li data-preserve-html="true">[Matériaux](#material)</li> <li data-preserve-html="true">Caméras</li> <li data-preserve-html="true">Lumières</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulations</li> <li data-preserve-html="true">...</li> </ul>[Les formats de fichiers les plus populaires](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) pour stocker les scènes 3D incluent [USD](#usd) de Pixar et FBX d&#39;Autodesk. Tous les formats de fichiers ne prennent pas en charge tous ces composants |
+| <b><span id="three-d-scene" data-preserve-html="true"></span>Scène 3D</b> | Collection d’objets et de données impliqués dans la représentation et l’animation d’une visualisation de l’espace 3D :<ul data-preserve-html="true"> <li data-preserve-html="true">[Maillages](#mesh)</li> <li data-preserve-html="true">[Matériaux](#material)</li> <li data-preserve-html="true">Caméras</li> <li data-preserve-html="true">Lumières</li> <li data-preserve-html="true">Animation</li> <li data-preserve-html="true">Simulations</li> <li data-preserve-html="true">...</li> </ul>[Les formats de fichiers les plus populaires](https://www.adobe.com/fr/products/substance3d/discover/3d-files-formats.html) pour stocker les scènes 3D incluent [USD](#usd) de Pixar et FBX d&#39;Autodesk. Tous les formats de fichiers ne prennent pas en charge tous ces composants |
 
 ## A
 

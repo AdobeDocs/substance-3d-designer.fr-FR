@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fuites pour générer des motifs de fuite en fonction de la géométrie du maillage afin de créer des taches d'eau et des effets de fluide.
 helpx_creative_field: ""

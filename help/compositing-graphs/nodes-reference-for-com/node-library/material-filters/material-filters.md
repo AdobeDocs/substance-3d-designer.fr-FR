@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds de filtrage de matériau dans Substance 3D Designer pour traiter, fusionner et convertir des matériaux pour divers workflows.
 helpx_creative_field: ""

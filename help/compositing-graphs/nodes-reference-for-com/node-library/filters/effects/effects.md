@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds de filtrage d’effets dans Substance 3D Designer pour ajouter des effets visuels tels qu’une lueur, des ombres et une déformation à vos textures.
 helpx_creative_field: ""

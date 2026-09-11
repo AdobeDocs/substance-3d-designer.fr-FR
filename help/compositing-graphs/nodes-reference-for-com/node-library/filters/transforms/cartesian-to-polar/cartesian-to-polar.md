@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cartésien à polaire pour convertir des textures de systèmes de coordonnées Cartésien en systèmes polaires afin de créer des effets radiaux.
 helpx_creative_field: ""

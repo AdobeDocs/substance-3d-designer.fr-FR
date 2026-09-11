@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Liquide pour générer des motifs liquides et fluides afin de créer des effets de surface d'eau, d'huile et d'autres fluides.
 helpx_creative_field: ""

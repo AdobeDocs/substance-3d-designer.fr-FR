@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
 breadcrumb-title: ''
 description: Découvrez les noeuds de fonction atomiques, les plus petites unités de nœud dans les graphes de fonction de Substance pour créer des fonctions personnalisées.
 helpx_creative_field: ""

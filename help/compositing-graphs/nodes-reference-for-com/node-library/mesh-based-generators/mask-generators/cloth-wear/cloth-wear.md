@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure du tissu pour générer des masques d'usure sur les surfaces du tissu en fonction de la courbure du maillage et des zones de contact.
 helpx_creative_field: ""

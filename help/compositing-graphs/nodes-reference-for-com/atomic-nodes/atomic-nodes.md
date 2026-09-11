@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds atomiques dans Substance 3D Designer pour effectuer des opérations de base telles que les entrées, les sorties, la fusion et le réglage des couleurs.
 helpx_creative_field: ""

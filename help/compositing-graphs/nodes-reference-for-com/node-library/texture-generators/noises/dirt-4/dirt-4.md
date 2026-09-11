@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dirt 4 pour générer des motifs de dirt intermédiaires afin de créer des détails de surface altérés et des effets d’accumulation.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Direct vers prémultiplié pour convertir les canaux Alphas du format direct vers le format prémultiplié pour la composition.
 helpx_creative_field: ""

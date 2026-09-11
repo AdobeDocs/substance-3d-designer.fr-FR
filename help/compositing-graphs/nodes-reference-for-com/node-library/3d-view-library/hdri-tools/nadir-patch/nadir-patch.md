@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Nadir patch pour appliquer des correctifs à la zone nadir des panoramas HDRI afin de corriger les artefacts de fond dans les maps d'environnement.
 helpx_creative_field: ""

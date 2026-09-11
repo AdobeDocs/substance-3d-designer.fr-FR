@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
 breadcrumb-title: ''
 description: Accédez à tous les nœuds de l’outil Tracé pour créer, manipuler et convertir des tracés dans vos graphes de Substance.
 helpx_creative_field: ""

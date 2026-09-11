@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Lumière de ligne pour créer des sources lumineuses linéaires dans des environnements HDRI afin de simuler l’éclairage fluorescent et en bande.
 helpx_creative_field: ""

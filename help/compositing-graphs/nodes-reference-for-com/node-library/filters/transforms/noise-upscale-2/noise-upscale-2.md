@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Bruit Upscale 2 pour augmenter les textures à l’aide de l’interpolation par bruit afin de conserver la qualité des textures à des tailles plus grandes.
 helpx_creative_field: ""

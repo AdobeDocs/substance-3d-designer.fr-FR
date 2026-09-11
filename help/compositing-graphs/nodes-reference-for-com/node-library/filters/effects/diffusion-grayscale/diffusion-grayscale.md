@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Diffusion des niveaux de gris pour appliquer des effets de diffusion en niveaux de gris afin de créer des transitions et des mélanges de couleurs lisses.
 helpx_creative_field: ""

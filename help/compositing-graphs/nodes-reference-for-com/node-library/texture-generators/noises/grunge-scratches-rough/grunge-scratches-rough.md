@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Brut d’Usure/salissures Scratches pour ajouter des motifs de rayures bruts afin de créer des effets d’usure et d’endommagement importants.
 helpx_creative_field: ""

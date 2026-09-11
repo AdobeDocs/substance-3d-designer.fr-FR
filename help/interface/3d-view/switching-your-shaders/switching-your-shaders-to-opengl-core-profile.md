@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Découvrez comment passer des ombrages au profil OpenGL Core dans la vue 3D de Substance 3D Designer pour plus de compatibilité et de performances.
 helpx_creative_field: ""

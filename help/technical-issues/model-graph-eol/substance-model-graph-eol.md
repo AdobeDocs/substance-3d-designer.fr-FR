@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
 breadcrumb-title: ''
 description: Découvrez l’état de fin de vie de la fonctionnalité Graphe Substance model et trouvez des solutions alternatives.
 helpx_creative_field: ""

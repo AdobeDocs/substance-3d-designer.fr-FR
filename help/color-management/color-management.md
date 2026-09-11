@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Découvrez la gestion des couleurs dans Substance 3D Designer, notamment les espaces colorimétriques, les profils et les workflows de tons directs.
 helpx_creative_field: ""

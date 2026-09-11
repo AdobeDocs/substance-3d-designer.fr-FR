@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Découvrez les consignes à suivre pour réduire la taille des fichiers graphes de Substance afin d’optimiser les performances et les exigences de stockage.
 helpx_creative_field: ""

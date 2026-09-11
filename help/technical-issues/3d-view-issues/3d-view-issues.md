@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de vue 3D dans Substance 3D Designer, notamment les problèmes de rendu, d’affichage et de performances.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: Utilisez le nœud TSL pour régler la teinte, la saturation et la luminosité des textures afin de manipuler et corriger les couleurs.
 helpx_creative_field: ""

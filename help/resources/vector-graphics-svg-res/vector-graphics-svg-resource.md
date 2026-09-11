@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importez et utilisez des images vectorielles de SVG en tant que ressources dans Substance 3D Designer pour la création procédurale de matériaux.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer prend en charge un nombre limité d’Images vectorielles, via le format Images vectorielles évolutives. Les fichiers du SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphes.
 
-Les fichiers de SVG [peuvent être créés ou modifiés via le nœud de SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), ils peuvent également être créés par [le baker de SVG UV](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
+Les fichiers de SVG [peuvent être créés ou modifiés via le nœud de SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), ils peuvent également être créés par [le baker de SVG UV](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Les options d’exportation sont légèrement différentes pour chaque applicati
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
+[Illustrator](https://www.adobe.com/fr/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
 
 * Utilisez uniquement <b>Enregistrer sous</b>, *pas* Exporter sous !
 * Le <b>profil de SVG</b> n&#39;a pas beaucoup d&#39;importance, bien que le profil Tiny utilise (principalement) par défaut des paramètres qui sont définitivement corrects ;

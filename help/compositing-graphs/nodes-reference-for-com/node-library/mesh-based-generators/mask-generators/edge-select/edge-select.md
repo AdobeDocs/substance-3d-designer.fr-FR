@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de sélection des contours pour générer des masques en sélectionnant des contours de maillage afin de créer des effets d'altération et d'usure basés sur les contours.
 helpx_creative_field: ""

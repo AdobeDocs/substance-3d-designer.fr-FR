@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Uber Embossage pour créer des effets d’embossage avancés avec des commandes personnalisables de profondeur, d’angle et d’éclairage.
 helpx_creative_field: ""

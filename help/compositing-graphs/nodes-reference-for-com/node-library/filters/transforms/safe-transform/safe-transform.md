@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Transforme admissible pour appliquer des transformations tout en préservant les limites de la texture et en évitant les artefacts.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Découvrez comment exporter des textures et des bitmaps à partir de graphes de composition de Substances pour les utiliser dans des applications et des workflows externes.
 helpx_creative_field: ""

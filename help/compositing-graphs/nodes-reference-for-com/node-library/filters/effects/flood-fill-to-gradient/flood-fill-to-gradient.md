@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flood Fill vers dégradé pour remplir les régions avec des valeurs de dégradé afin de créer des transitions de couleur lisses.
 helpx_creative_field: ""

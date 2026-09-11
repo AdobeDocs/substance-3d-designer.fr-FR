@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms.html"
 breadcrumb-title: ''
 description: Accédez aux noeuds de filtrage de transforme dans Substance 3D Designer pour appliquer des transformations géométriques aux textures et aux motifs.
 helpx_creative_field: ""

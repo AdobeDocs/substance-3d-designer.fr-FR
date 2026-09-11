@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
 breadcrumb-title: ''
 description: Accédez au guide de référence complet pour tous les nœuds disponibles dans les graphes fonctionnels Substance 3D Designer.
 helpx_creative_field: ""

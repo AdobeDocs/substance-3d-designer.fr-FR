@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Rough Dirty pour générer des textures d'usure/salissures rugueuses et sales afin d'ajouter des détails de surface altérés.
 helpx_creative_field: ""

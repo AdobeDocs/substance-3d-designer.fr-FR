@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Inversion de normales pour inverser les vecteurs de map normal pour inverser l'orientation de la surface et la direction de l'éclairage.
 helpx_creative_field: ""

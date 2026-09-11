@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds de la bibliothèque de vues 3D dans Substance 3D Designer pour contrôler l’éclairage, les environnements HDRI et les paramètres de vues 3D.
 helpx_creative_field: ""

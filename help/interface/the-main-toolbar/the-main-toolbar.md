@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Découvrez la barre d’outils principale de Substance 3D Designer pour accéder aux outils et commandes courants de votre workflow.
 helpx_creative_field: ""
@@ -165,7 +165,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Nouveautés...:</b> affiche un écran qui met en évidence les fonctionnalités ajoutées à la dernière version de Designer
 
-<b>Écran d’accueil...\*:</b> Affiche l’écran a qui guide les nouveaux utilisateurs à travers l’objectif de Designer et sa place dans l’[écosystème Substance 3D](https://helpx.adobe.com/substance-3d.html)
+<b>Écran d’accueil...\*:</b> Affiche l’écran a qui guide les nouveaux utilisateurs à travers l’objectif de Designer et sa place dans l’[écosystème Substance 3D](https://helpx.adobe.com/fr/substance-3d.html)
 
 <b>Partenaires :</b> vous permet d&#39;accéder aux avis de non-responsabilité et aux avis pour les intégrations tierces de nos partenaires dans Designer.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Brique 2 pour générer des modèles de brique avancés avec des commandes améliorées pour créer des textures de maçonnerie réalistes.
 helpx_creative_field: ""

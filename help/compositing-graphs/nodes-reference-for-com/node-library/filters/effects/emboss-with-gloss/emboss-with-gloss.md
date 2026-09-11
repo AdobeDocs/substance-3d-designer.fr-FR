@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Embossage avec brillance pour créer des effets d’estampage avec des cartes de brillance afin d’ajouter de la profondeur et de la brillance aux textures.
 helpx_creative_field: ""

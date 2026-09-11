@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Découvrez les bonnes pratiques et les règles de création de graphes de Substance pour assurer des workflows propres, maintenables et efficaces.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion de réglage du Matériau pour fusionner les réglages de matériau entre les matériaux afin d’affiner les effets composites.
 helpx_creative_field: ""

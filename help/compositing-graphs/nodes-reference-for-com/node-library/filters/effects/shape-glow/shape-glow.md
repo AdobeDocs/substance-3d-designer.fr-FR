@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Shape Glow pour ajouter des effets de lueur aux formes et aux textures afin de créer des effets visuels lumineux et atmosphériques.
 helpx_creative_field: ""

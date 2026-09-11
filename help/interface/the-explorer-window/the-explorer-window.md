@@ -61,7 +61,7 @@ Cette barre d’outils vous permet d’exécuter rapidement des fonctions liées
 ![](../../assets/sendto-icon.jpg) <b>élément(s) sélectionné(s) dans Publish ou [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> :
 
 * [Publish tout pack sélectionné vers une ressource Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ;
-* Envoyez le package sélectionné à [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
+* Envoyez le package sélectionné à [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Substance 3D Stager](https://www.adobe.com/fr/products/substance3d-stager.html).
 
 ![](../../assets/republish.png) <b>Publish ou envoi comme précédent :</b> Publish ou envoi des éléments sélectionnés avec les mêmes paramètres qu&#39;auparavant. Cette option est uniquement disponible sur un pack qui a déjà été publié *au moins une fois* dans la session *actuelle*.
 
@@ -120,7 +120,7 @@ Un espace vide est uniquement disponible sous les packs actuellement ouverts. Cl
 
 <b>L&#39;exportation avec dépendances</b> est différente de l&#39;enregistrement et de la publication. Il prend vos fichiers SBS, collecte toutes les ressources et dépendances référencées et crée un package autonome. La boîte de dialogue vous permet de choisir les bibliothèques à collecter et de préciser si le fichier doit être une archive compressée (7-zip). C’est un bon choix pour partager un fichier SBS avec quelqu’un d’autre, sans se soucier des dépendances manquantes.
 
-<b>Envoyer à...</b> ouvre un sous-menu vous permettant d&#39;[envoyer](send-to-interoperability/send-to-interoperability.md) directement votre pack à [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) ou [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Envoyer à...</b> ouvre un sous-menu vous permettant d&#39;[envoyer](send-to-interoperability/send-to-interoperability.md) directement votre pack à [Substance 3D Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/fr/products/substance3d-stager.html) ou [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copier</b> copie le package sélectionné.
 

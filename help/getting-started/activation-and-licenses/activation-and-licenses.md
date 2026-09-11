@@ -24,7 +24,7 @@ Le processus d’activation dépend de l’endroit où vous avez acheté ou acc�
 
 | Edition | Processus d’activation |
 | --- | --- |
-| Application pour poste de travail Creative Cloud | Voir la page dédiée dans la [documentation HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). En cas de problème, la [documentation du Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) peut fournir des réponses supplémentaires. |
+| Application pour poste de travail Creative Cloud | Voir la page dédiée dans la [documentation HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). En cas de problème, la [documentation du Creative Cloud](https://helpx.adobe.com/fr/creative-cloud/user-guide.html) peut fournir des réponses supplémentaires. |
 | Vapeur | Lancez le produit directement depuis votre bibliothèque Steam. |
 | Substance (autonome) | Voir le processus d’activation décrit ci-dessous. |
 

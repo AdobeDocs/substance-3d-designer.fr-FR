@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cube 3D pour générer des textures basées sur les projections du cube 3D afin de créer des maps d'environnement et des effets.
 helpx_creative_field: ""

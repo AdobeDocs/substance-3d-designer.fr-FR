@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Description
 
-Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) dans [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/features/smart-materials-and-masks) dans [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home).
 
 Cela génère une transition du blanc vers le noir du bas vers le haut d&#39;un modèle, ce qui est utile pour effectuer des réductions et des sélections basées sur la géométrie.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Permutation de canaux pour réorganiser les couches de couleur dans les textures de création d’effets de couleur et de permutation de couches.
 helpx_creative_field: ""

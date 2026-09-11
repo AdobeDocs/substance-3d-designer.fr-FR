@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Choisissez entre les rendus pixellisé et tracé dans la vue 3D pour obtenir une qualité d’aperçu et des performances différentes.
 helpx_creative_field: ""
@@ -178,7 +178,7 @@ Deux techniques sont disponibles pour visualiser les heights :
 
 <b>Tessation + Displacement</b> : subdivise la géométrie et déplace les vertex le long de leurs normales.
 
-L&#39;Adobe Standard Material est documenté en détail dans [cette section](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
+L&#39;Adobe Standard Material est documenté en détail dans [cette section](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de notre documentation.
 
 +++
 

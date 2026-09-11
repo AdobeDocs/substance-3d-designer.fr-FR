@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Accédez à la référence complète des nœuds pour les graphes de composition de Substances dans Designer pour en savoir plus sur tous les nœuds disponibles.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Utilisez le Noeud de filtrage Saison pour appliquer des effets de saison aux matériaux afin de créer des variations printanières, estivales, automnales et hivernales.
 helpx_creative_field: ""

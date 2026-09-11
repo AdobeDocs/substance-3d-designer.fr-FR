@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Min Max pour verrouiller les valeurs de texture entre les seuils minimal et maximal afin de contrôler les plages de valeurs.
 helpx_creative_field: ""

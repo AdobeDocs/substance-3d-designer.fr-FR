@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de Bruit Perlin pour générer des motifs de bruit lisses et naturels afin de créer des textures et des variations organiques.
 helpx_creative_field: ""

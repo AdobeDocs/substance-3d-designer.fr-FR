@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Rendu du volume de la Texture 3D pour effectuer le rendu des textures volumétriques à partir de données 3D afin de créer des effets de nuage et de brouillard.
 helpx_creative_field: ""
