@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Découvrez les spécifications de format des tracés et la structure des données utilisées par les nœuds de tracé et de spline.
 helpx_creative_field: ""
@@ -30,9 +30,9 @@ Cette page décrit le format Tracés et fournit des instructions sur la manipula
 
 Cette section explique comment un document <b>Chemins d&#39;accès</b> (ou une image) est codé :
 
-Un document Tracés est une liste de tracés, chacun décrivant une liste de segments, codés dans une <b>texture de couleur 32 bits à virgule flottante</b>.
+Un document Tracés est une liste de tracés, chacun décrivant une liste de segments, codés dans une <b>texture de couleurs à virgule flottante</b> de 32 bits.
 
-La texture est divisée en parties « supérieure » (*$pos.y &lt; 0.5*) et « inférieure » (*$pos.y > 0.5*).
+La texture est divisée en parties « supérieures » (*$pos.y &lt; 0.5*) et « inférieures » (*$pos.y > 0.5*).
 
 Toutes les données d&#39;un pixel dans la partie &#39;supérieure&#39; sont sémantiquement étroitement liées au pixel correspondant dans la partie &#39;inférieure&#39;, et vice-versa.
 
@@ -49,7 +49,7 @@ Toutes les données d&#39;un pixel dans la partie &#39;supérieure&#39; sont sé
 >
 > Les données de tracés nécessitent une précision de 32 bits et une résolution inférieure produira des résultats incorrects.
 > 
-> Par conséquent, assurez-vous de définir le paramètre « Format de sortie » des nœuds générant des données de chemins sur « Haute précision HDR (32F) ».
+> Par conséquent, veillez à définir le paramètre « Format de sortie » des nœuds générant des données de chemins sur « HDR Haute précision (32F) ».
 
 Soit `*uv\_pos*` une adresse 2D (telle que *$pos*) d&#39;un pixel de la partie supérieure.
 
@@ -58,7 +58,7 @@ Dans la suite de ce document :
 * <b>top[uv\_pos].XYZW</b> fera référence aux 4 flotteurs stockés dans le pixel de la partie supérieure.\
   top[uv\_pos] == sample\_color(paths, uv\_pos)
 * <b>bottom[uv\_pos].XYZW</b> fera référence aux 4 flotteurs stockés dans le pixel correspondant de la partie inférieure.\
-  bottom[uv\_pos] == sample\_color(paths, uv\_pos + Float2(0, 0.5))
+  bottom[uv\_pos] == sample\_color(paths, uv\_pos + Flottant 2(0, 0.5))
 
 top[uv\_pos] et bottom[uv\_pos] forment ensemble une unité sémantique U[uv\_pos] du document, composée de 8 flotteurs.
 
@@ -69,7 +69,7 @@ Chaque document Tracés commence par un en-tête de document. Il s&#39;agit de l
 +++Haut
 <b>X</b>
 
-Le nombre de chemins (doit être un entier positif dans [0 ; 16777216]).
+Le nombre de tracés (doit être un entier positif dans [0 ; 16777216]).
 
 Si certains tracés sont vides, ils comptent toujours ici. Vous pouvez donc l’envisager comme un « nombre d’en-têtes de chemins à décoder ».
 
@@ -77,7 +77,7 @@ Si certains tracés sont vides, ils comptent toujours ici. Vous pouvez donc l’
 
 Taille de pixel de ce document (c&#39;est-à-dire exactement `Float2(1,1) / $size`).
 
-Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou d&#39;un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), par exemple, dont la taille de sortie est différente.
+Cela est utile lors de la lecture des tracés à partir d&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou d&#39;un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), par exemple, dont la taille de sortie est différente.
 
 <b>W</b>
 
@@ -88,13 +88,13 @@ Cela est utile lors de la lecture des tracés à partir d&#39;un [processeur de 
 +++Bas
 <b>XY</b>
 
-Adresse du dernier sommet défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
+Adresse du dernier vertex défini dans ce document. Ceci est utile pour ajouter de nouvelles données.
 
-Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de lignes de balayage) à l&#39;adresse du dernier sommet. Il doit être compris entre &rbrack;0, 1[×]0,.5&lbrack;
+Il peut donc s&#39;agir en fait de toute adresse supérieure (par ordre de balayage) à l&#39;adresse du dernier vertex. Il doit être compris entre ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
-Inutilisé, doit être Float2(0, 1)
+Inutilisé, doit être Flottant 2(0, 1)
 
 +++
 
@@ -111,10 +111,10 @@ L&#39;en-tête de chemin du Nième chemin sera défini à l&#39;adresse `path\_a
 +++Haut
 <b>X</b>
 
-Nombre de sommets dans ce tracé. Doit être compris dans la plage [0, 16777216].
+Nombre de vertex dans ce chemin. Doit être compris dans la plage [0, 16777216].
 
-Si les sommets de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 sommets.\
-Un tracé avec 0 sommet est un tracé valide.
+Si les vertex de début et de fin d’un tracé fermé se trouvent à la même position, ils comptent toujours pour 2 vertex.\
+Un chemin avec 0 vertex est un chemin valide.
 
 <b>Y</b>
 
@@ -133,11 +133,11 @@ Indicateur d’en-tête : 1/16 = 0,0625.
 +++Bas
 <b>XY</b>
 
-Adresse de début (ou de premier) sommet.
+Adresse de début (ou première) du vertex.
 
 <b>ZW</b>
 
-Adresse de fin (ou de dernier) sommet.
+Fin (ou dernière) adresse du vertex.
 
 +++
 
@@ -145,22 +145,22 @@ Adresse de fin (ou de dernier) sommet.
 >
 > Vous pouvez calculer `path\_addr` à partir de N à l&#39;aide de la fonction `Utils/pixel\_index\_to\_position` dans paths\_tools.sbs : `path\_addr = pixel\_index\_to\_position(N+1)`
 
-### Informations sur les sommets
+### informations sur les vertex
 
-Les sommets se trouvent n’importe où dans l’image après les en-têtes (en-têtes de document ou de tracé). Les sommets peuvent être de différents « types » (Début, Milieu ou Fin) et ils sont explicitement liés entre eux à l’aide de 2 pointeurs d’adresse (« liens »).
+Les vertex se trouvent n’importe où dans l’image après les en-têtes (en-têtes de document ou de chemin). Les vertex peuvent être de différents « types » (Début, Milieu ou Fin) et ils sont explicitement liés entre eux à l&#39;aide de 2 pointeurs d&#39;adresse (« liens »).
 
-Les sommets <b>Début</b> et <b>Fin</b> sont spéciaux à cet égard : pour permettre la représentation de tracés fermés ou d&#39;un réseau arbitraire de tracés liés entre eux, l&#39;un des liens est en fait utilisé pour former une liste circulaire avant liée de tous les autres sommets Début ou Fin qui représentent le même sommet. Ces sommets correspondants sont appelés « frères ». [Illustration accueillie]
+Les vertex <b>Début</b> et <b>Fin</b> sont spéciaux à cet égard : pour permettre la représentation de tracés fermés ou d&#39;un réseau arbitraire de tracés liés entre eux, l&#39;un des liens est en fait utilisé pour constituer une liste circulaire avant liée de tous les autres vertex Début ou Fin qui représentent le même vertex. Ces vertex qui se correspondent sont appelés « frères et sœurs ». [Illustration accueillie]
 
-Formellement, chaque sommet à l&#39;adresse `*vert\_addr*` est défini comme ceci :
+Formellement, chaque vertex à l&#39;adresse `*vert\_addr*` est défini comme ceci :
 
 +++Haut
 <b>XY</b>
 
-Position du sommet. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de carrelage à ce niveau (il peut être géré ou non par la mise en œuvre de chaque filtre), donc les chemins sont supposés être définis sur le plan euclidien.
+La position vertex. Les coordonnées peuvent être n&#39;importe quelle valeur flottante autre que NaN ou ±inf. Il n&#39;y a pas de notion de répétition à ce niveau (elle peut être gérée ou non par la mise en œuvre de chaque filtre), les chemins sont donc supposés être définis sur le plan euclidien.
 
 <b>Z</b>
 
-Index de tracé de sommet. Un sommet ne peut appartenir qu’à un seul tracé. (Comme mentionné précédemment, les sommets de début et de fin peuvent toutefois avoir des frères.) L’index de chemin peut être utilisé pour récupérer l’en-tête de chemin (voir la section En-têtes de chemin de section ci-dessus). Assurez-vous donc qu’il est synchronisé.
+Index de chemin de vertex. Un vertex ne peut appartenir qu’à un seul chemin. (Comme mentionné précédemment, les vertex de début et de fin peuvent toutefois avoir des frères.) L’index de chemin peut être utilisé pour récupérer l’en-tête de chemin (voir la section En-têtes de chemin de section ci-dessus). Assurez-vous donc qu’il est synchronisé.
 
 <b>W</b>
 
@@ -203,15 +203,15 @@ Si vous souhaitez créer vos propres nœuds de traitement des tracés, vous disp
 
 Les bases sont fournies par les nœuds [Processeur de Vertex de tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) et [Processeur de Vertex de tracés simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md), qui peuvent être utilisés de la même manière qu&#39;un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
-Si vous avez besoin de fonctionnalités au-delà de ce que proposent les nœuds du processeur de sommets de tracés (plus de textures d’entrée, ou plus de sommets précédents ou suivants), la copie de l’implémentation de ce graphique peut être un bon point de départ (en supposant que vous remplacez le nœud <b>Get(« %perVertex »)</b> par votre traitement personnalisé).
+Si vous avez besoin de fonctionnalités au-delà de ce que proposent les nœuds du processeur de Vertex Paths (plus de textures d&#39;entrée, ou plus de vertex précédents ou suivants), la copie de l&#39;implémentation de ce graphe peut être un bon point de départ (en supposant que vous remplacez le nœud <b>Get(« %perVertex »)</b> par votre traitement personnalisé).
 
-Mais au cas où vous voudriez faire quelque chose de plus extraterrestre que d&#39;appliquer une fonction par sommet, voici une explication détaillée des outils que vous pouvez utiliser. Il s&#39;agit généralement de petites fonctions d&#39;assistant qui se trouvent dans le même package que les autres nœuds Chemins (*chemins\_tools.sbs)*. (Ces fonctions ne sont pas affichées dans le [<b>menu Bibliothèque</b>](../../../../../../interface/the-library/the-library.md) et le <b>menu Nœud</b>.)
+Mais au cas où vous voudriez faire quelque chose de plus étrange que l&#39;application d&#39;une fonction par vertex, voici une explication détaillée des outils que vous pouvez utiliser. Il s&#39;agit généralement de petites fonctions d&#39;assistant qui se trouvent dans le même package que les autres nœuds Paths (*paths\_tools.sbs)*. (Ces fonctions ne sont pas exposées dans le [<b>menu Bibliothèque</b>](../../../../../../interface/the-library/the-library.md) et le <b>menu Nœud</b>.)
 
 ### Fonctions de lecture
 
 Sous le dossier `Read`, vous trouverez plusieurs de ces éléments, utiles pour collecter des informations sur les Chemins :
 
-Certains peuvent vous donner des informations sur un pixel donné. Ils prennent tous la valeur Float4 échantillonnée dans la partie \*top\* comme entrée. Si vous regardez leur mise en œuvre, ils sont super-simples. Leur but est de donner plus de sens que de simples nœuds atomiques :
+Certains peuvent vous donner des informations sur un pixel donné. Ils prennent tous la valeur Flottant 4 échantillonnée dans la partie \*top\* comme entrée. Si vous regardez leur mise en œuvre, ils sont super-simples. Leur but est de donner plus de sens que de simples noeuds atomiques :
 
 +++is_header
 Vérifiez que la valeur actuellement échantillonnée est un en-tête de chemin d’accès ou de document.
@@ -224,22 +224,22 @@ Vérifiez l’indicateur Is\_Closed (.Y) dans un en-tête de chemin. Il \*suppos
 +++
 
 +++is_vertex
-Vérifier que la valeur échantillonnée courante est un sommet, c&#39;est-à-dire non un en-tête, ni un pixel vide.
+Vérifier que la valeur échantillonnée courante est un vertex, c&#39;est-à-dire non un en-tête, ni un pixel vide.
 
 +++
 
 +++is_start_vertex
-Vérifiez si une valeur \*échantillonnage de la partie supérieure\* est un sommet de départ (pas besoin de vérifier d&#39;abord `is\_vertex`).
+Vérifiez si une valeur \*top-part samples\* est un vertex de démarrage (pas besoin de vérifier d&#39;abord `is\_vertex`).
 
 +++
 
 +++is_mid_vertex
-Vérifiez si une valeur \*échantillonnage de la partie supérieure\* est un sommet qui n&#39;est pas un sommet de début ou de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
+Vérifiez si une valeur \*top-part samples\* est un vertex qui n&#39;est pas un vertex de début ou de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
 
 +++
 
 +++is_end_vertex
-Vérifiez si une valeur \*échantillonnage de la partie supérieure\* est un sommet de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
+Vérifiez si une valeur \*top-part samples\* est un vertex de fin (pas besoin de vérifier d&#39;abord `is\_vertex`).
 
 +++
 
@@ -249,25 +249,25 @@ Abréviation de `is\_start\_vertex || is\_mid\_vertex`. Plus utile pour le trait
 +++
 
 +++is_corner
-Vérifiez l&#39;indicateur d&#39;angle du sommet (pas besoin de vérifier d&#39;abord `is\_vertex` : si la réponse est vraie, vous êtes sur un sommet à coup sûr). Rappelez-vous que cet indicateur n&#39;est pas encore pris en charge par les nœuds officiels.
+Vérifiez l&#39;indicateur d&#39;angle du vertex (pas besoin de vérifier d&#39;abord `is\_vertex` : si la réponse est vraie, vous êtes sur un vertex pour sûr). Rappelez-vous que cet indicateur n&#39;est pas encore pris en charge par les nœuds officiels.
 
 +++
 
 +++has_trivial_links
-S&#39;il s&#39;agit d&#39;un sommet, indique si vous pouvez facilement déduire la position des sommets précédent et suivant sans échantillonner la partie inférieure. (Remarque : un non-sommet renvoie toujours la valeur false.)
+S&#39;il s&#39;agit d&#39;un vertex, indique si vous pouvez facilement déduire la position des vertex précédent et suivant sans échantillonner la partie inférieure. (Remarque : un non-vertex renvoie toujours la valeur false.)
 
 Vous ne voulez probablement pas l&#39;utiliser directement, mais utilisez plutôt l&#39;une des fonctions `sample\_next\*` ou `sample\_prev\*`, qui s&#39;en occupent pour vous.
 
 +++
 
 +++sample_next, sample_prev
-Compte tenu de la valeur échantillonnée de la partie supérieure `*sampled*` et de sa position `*sampled\_position*`, renvoie la valeur échantillonnée de la partie supérieure du sommet suivante (respectivement précédente) et définit une variable Float2 `*next\_sampled\_pos*` à la position (dans la partie supérieure) de ce voisin (c&#39;est-à-dire &lt;valeur renvoyée> = SampleColor(next\_sampl\_pos, image0)). `*input0PixSize*`doit être égal à la taille en pixels du tracé (top[(0,0)].YZ).
+Compte tenu de la valeur échantillonnée de la partie supérieure `*sampled*` et de sa position `*sampled\_position*`, renvoie la valeur échantillonnée de la partie supérieure du vertex suivante (respectivement précédente) et Définit une variable Flottant 2 `*next\_sampled\_pos*` à la position (dans la partie supérieure) de ce voisin (c&#39;est-à-dire &lt;valeur renvoyée> = SampleColor(next\_sampl\_pos, image0)). `*input0PixSize*`doit être égal à la taille en pixels du tracé (top[(0,0)].YZ).
 
-Si le pixel actuel (`*sampled*`) est un sommet <b>Début</b>, *sample\_prev* renvoie le prochain frère de ce sommet. De même s&#39;il s&#39;agit d&#39;un sommet <b>Fin</b>, *sample\_next* renvoie le prochain frère de ce sommet (c&#39;est-à-dire peut-être pas ce que vous voulez). Voir `*sample\_next\_advanced*` et `*sample\_prev\_advanced*` ci-dessous pour résoudre ce problème.
+Si le pixel actif (`*sampled*`) est un vertex <b>Début</b>, *sample\_prev* renvoie le frère suivant de ce vertex. De même, s&#39;il s&#39;agit d&#39;un vertex <b>Fin</b>, *sample\_next* renvoie le frère suivant de ce vertex (ce qui n&#39;est peut-être pas ce que vous voulez). Voir `*sample\_next\_advanced*` et `*sample\_prev\_advanced*` ci-dessous pour résoudre ce problème.
 
 Veuillez noter que pour plus de simplicité, les informations sur les <b>chemins d&#39;accès sont supposées être stockées dans input0 !</b> En outre, contrairement à ce qu&#39;indique le document de la fonction, vous n&#39;avez pas besoin de déclarer préalablement `*next\_sampled\_pos*`. `*[out]next\_sampled\_pos*` est un paramètre fictif pour vous rappeler que cette deuxième « valeur renvoyée » existe.
 
-Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), dans le paramètre Itérations du troisième nœud Itération, pour obtenir un exemple d&#39;utilisation.
+Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), dans le paramètre Itérations du troisième nœud d&#39;itération, pour obtenir un exemple d&#39;utilisation.
 
 ![Cas d’utilisation minimal de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Cas d’utilisation minimal de sample_next")
 
@@ -280,15 +280,15 @@ Vous pouvez vérifier le `*paths\_trace*` [Fx-Map](../../../../../../compositing
 +++
 
 +++sample_next_advanced, sample_prev_advanced
-Il est destiné à fonctionner sur des tracés fermés. Pour les tracés ouverts, le sommet de début ou de fin n’a pas de frère et, dans ce cas, les deux fonctions renvoient le même et seul voisin. Pour les sommets de début ou de fin avec plusieurs frères (Tracés connectés en tant que réseau), qui renvoie le sommet voisin du frère suivant dans la liste liée.
+Il est destiné à fonctionner sur des tracés fermés. Pour les tracés ouverts, le vertex de début ou de fin n’a pas de frère et, dans ce cas, les deux fonctions renvoient le même et seul voisin. Pour les vertex de début ou de fin ayant plusieurs éléments frères (Tracés connectés en tant que réseau), qui renvoie le vertex voisin du frère suivant dans la liste liée.
 
 +++
 
 ### Fonctions &#39;Write&#39;
 
-Sous le dossier `Write`, vous trouverez de petits assistants qui créent un fichier Float4 prêt à être écrit <b>par un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
+Sous le dossier `Write`, vous trouverez de petits assistants qui créent un Flottant 4 prêt à être écrit <b>par un [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
-En effet, la [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplie le RGB par Alpha avant de dessiner, de sorte que les valeurs réelles ne sont pas prémultipliées pour compenser. Si vous souhaitez utiliser ces fonctions, par exemple dans un [processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), nous vous recommandons de réappliquer la prémultiplication vous-même ou d&#39;écrire une version personnalisée (plus optimisée pour votre cas d&#39;utilisation et plus facile à utiliser).
+En effet, la [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplie le RGB par Alpha avant de dessiner, de sorte que les valeurs réelles ne sont pas prémultipliées pour compenser. Si vous souhaitez utiliser ces fonctions, par exemple dans un [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), nous vous recommandons de réappliquer la prémultiplication vous-même ou d&#39;écrire une version personnalisée (plus optimisée pour votre cas d&#39;utilisation et plus facile à utiliser).
 
 +++document_header
 Génère la partie supérieure de l’en-tête du document, en déclarant le nombre de chemins d’accès que vous fournissez.
@@ -296,32 +296,32 @@ Génère la partie supérieure de l’en-tête du document, en déclarant le nom
 +++
 
 +++document_last_vertex_spec
-Crée la partie \*bottom\* de l’en-tête du document, qui spécifie la dernière adresse de sommet (voir A.1).
+Crée la partie \*bottom\* de l’en-tête du document, qui spécifie le dernier vertex (voir A.1.).
 
 +++
 
 +++path_header
-Crée la partie supérieure d&#39;un en-tête de tracé, en fonction du nombre de sommets du tracé `*nbVertices*`, de l&#39;indicateur `*isClosed*` et de l&#39;indicateur `*pathIndex*`.
+Crée la partie supérieure d&#39;un en-tête de chemin, en fonction du nombre de vertex dans le chemin `*nbVertices*`, de l&#39;indicateur `*isClosed*` et de l&#39;indicateur `*pathIndex*`.
 
 +++
 
-+++start_vertex, mid_vertex, end_vertex
-Crée la partie supérieure d’un sommet, en définissant la position, le texte et d’autres options en conséquence.
++++vertex_début, vertex_milieu, vertex_fin
+Crée la partie supérieure d’un vertex, en définissant la position, le texte et d’autres options en conséquence.
 
-À propos de *mid\_vertex* et du paramètre *hasTrivialLinks* : idéalement, vous devez définir la valeur appropriée, mais si, pour une raison quelconque, vous ne parvenez pas à dire si les liens seront triviaux ou non, vous pouvez la définir en toute sécurité sur false (au prix d’un traitement plus lent de votre chemin généré).
+Environ *mid\_vertex* et le paramètre *hasTrivialLinks* : idéalement, vous devez définir la valeur appropriée, mais si, pour une raison quelconque, vous ne parvenez pas à dire si les liens seront triviaux ou non, vous pouvez sans danger la définir sur false (au prix d’un traitement plus lent de votre chemin généré).
 
 +++
 
-Il n’existe pas de générateur de partie inférieure pour les en-têtes de tracé ou les sommets : les deux codent deux liens vers la partie supérieure, de sorte que cette fonction serait essentiellement un constructeur Vector Float4 de deux Float2. N&#39;oubliez pas de diviser XYZ par W si vous écrivez à l&#39;aide d&#39;une [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (W étant le Y d&#39;une adresse, elle ne doit jamais être nulle).
+Il n’existe pas de générateur de partie inférieure pour les en-têtes de tracé ou les vertex : les deux codent deux liens vers la partie supérieure, de sorte que cette fonction serait essentiellement un constructeur Vecteur flottant4 de deux Flottant 2. N&#39;oubliez pas de diviser XYZ par W si vous écrivez à l&#39;aide d&#39;une [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (W étant le Y d&#39;une adresse, elle ne doit jamais être nulle).
 
 Vous trouverez un exemple pertinent d&#39;utilisation de ces fonctions dans le package <b>*chemins\_polygon.sbs* </b>hébergeant le nœud [polygone des chemins](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md).
 
 ### Procédés de traitement de tracés
 
-Vous utiliserez probablement un processeur de pixels ou un Fx-Map pour mettre en œuvre votre traitement personnalisé, chacun ayant ses forces et ses faiblesses :
+Vous utiliserez probablement un Processeur de pixels ou un Fx-Map pour mettre en œuvre votre traitement personnalisé, chacun ayant sa force et ses faiblesses :
 
 +++FX-Map
-La solution basée sur [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) sera généralement préférée lors de l&#39;exécution d&#39;opérations de haut niveau nécessitant une connaissance globale du (ou des) chemin(s) entier(s), ou cumulative(s) (par exemple, le reconditionnement des sommets après décimation ou facettisation). Il s&#39;agit également de l&#39;approche la plus simple. Par conséquent, si vous effectuez un traitement personnalisé pour la première fois, vous pouvez utiliser une Fx-Map, même si *est peut-être* plus lent.
+La solution basée sur [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) est généralement préférée lors de l&#39;exécution d&#39;opérations de haut niveau nécessitant une connaissance globale de l&#39;ensemble du (ou des) chemin(s), ou d&#39;une connaissance cumulative (par exemple, le reconditionnement des vertex après décimation ou tessellation). Il s&#39;agit également de l&#39;approche la plus simple. Par conséquent, si vous effectuez un traitement personnalisé pour la première fois, vous pouvez utiliser une Fx-Map, même si *est peut-être* plus lent.
 
 Vous devez d’abord vous familiariser avec Fx-Map. Si ce n&#39;est pas le cas, consultez la [documentation spécifique](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md).
 
@@ -330,12 +330,12 @@ Nous vous recommandons d’examiner l’implémentation des [chemins d’aperçu
 +++
 
 +++Processeur de pixels
-La solution de [processeur en pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) conviendra si vous avez uniquement besoin d&#39;informations « locales ». Ici, nous voulons dire « local » non pas spatialement (la distance entre les éléments) mais plutôt topologiquement (les sommets liés entre eux). Voici comment le processeur de sommets est implémenté. Le processeur de pixels est généralement plus rapide que le Fx-Map pour ce type d&#39;opération, car la fonction de chaque pixel est évaluée en parallèle, alors que seule une quantité limitée de données est accessible. L’effort d’implémentation peut être beaucoup plus important, car vous ne pouvez modifier que le pixel actuel.
+La solution [Processeur de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) conviendra si vous avez uniquement besoin d&#39;informations « locales ». Ici, nous voulons dire « local » non pas spatialement (la distance entre les éléments) mais plutôt topologiquement (les vertex liés entre eux). C&#39;est ainsi que le processeur de Vertex est implémenté. Le Processeur de pixels est généralement plus rapide que la Fx-Map pour ce type d&#39;opération, car la fonction de chaque pixel est évaluée en parallèle, alors que seule une quantité limitée de données est accessible. L’effort d’implémentation peut être beaucoup plus important, car vous ne pouvez modifier que le pixel actuel.
 
 Nous n&#39;entrerons pas dans les détails, car il y a tant à dire en fonction de votre cas d&#39;utilisation spécifique, mais la première chose à faire est de vérifier où vous êtes :
 
-Êtes-vous dans la partie supérieure ($pos.y &lt; 0,5) ou inférieure ($pos.y > 0,5) ? Nous vous recommandons de ne pas oublier que dans une variable dédiée (par exemple, `*isTop*`) et que vous créez un `*vert.addr*` Float2, cette valeur est `*$pos*` pour la partie supérieure et `$pos - (0,0.5)` pour la partie inférieure.
+Êtes-vous dans la partie supérieure ($pos.y &lt; 0,5) ou inférieure ($pos.y > 0,5) ? Nous vous recommandons de ne pas oublier que dans une variable dédiée (par exemple, `*isTop*`) et de créer un Flottant 2 `*vert.addr*`, cette valeur est `*$pos*` pour la partie supérieure et `$pos - (0,0.5)` pour la partie inférieure.
 
-Qu&#39;en est-il à *vert.addr* ? Échantillonnez-le et vérifiez s&#39;il y a quelque chose (W != 0), puis, s&#39;il y en a, quoi exactement. Un en-tête (W = 0,0625) (cochez avec `*Read/is\_header*`) ou un sommet (cochez avec `Read/is\_vertex`) ? S’il s’agit d’un en-tête, est-ce l’en-tête du document ou un en-tête Chemin ? (Vous pouvez utiliser `*Read/current\_pixel\_is\_document\_header*` pour vérifier cela.) Utilisez une ou plusieurs des fonctions d’assistant pour faire correspondre ce qui vous intéresse.
+Qu&#39;en est-il à *vert.addr* ? Échantillonnez-le et vérifiez s&#39;il y a quelque chose (W != 0), puis, s&#39;il y en a, quoi exactement. Un en-tête (W = 0,0625) (cochez avec `*Read/is\_header*`) ou un vertex (cochez avec `Read/is\_vertex`) ? S’il s’agit d’un en-tête, est-ce l’en-tête du document ou un en-tête Chemin ? (Vous pouvez utiliser `*Read/current\_pixel\_is\_document\_header*` pour vérifier cela.) Utilisez une ou plusieurs fonctions d’assistant pour trouver ce qui vous intéresse.
 
 +++

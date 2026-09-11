@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes qui empêchent Substance 3D Designer de démarrer et trouvez des solutions pour lancer l’application.
 helpx_creative_field: ""
@@ -88,7 +88,7 @@ Si la mise à niveau vers Windows 10 n&#39;est pas possible, *ne mettez pas à j
 
 <b>![(erreur)](../../assets/error.svg) Problème</b>
 
-Blocage lors de la fermeture de l’écran d’accueil et de l’affichage de la fenêtre principale.
+Crash lors de la fermeture de l’écran d’accueil et de l’affichage de la fenêtre principale.
 
 <b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Crystal 2 pour générer des motifs de cristal avancés afin de créer des effets de texture cristalline et géométrique.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Génère un motif angular ressemblant à un pli de tissu. Similaire à [Bruit de pli](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/creased/creased.md).
+Génère un motif angular ressemblant à un pli de tissu. Similaire à [Bruit du pli](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/creased/creased.md).
 
-C&#39;est un peu un bruit de niche : il peut être utile pour les rares cas où vous recherchez ce type de détail, comme lorsque vous recréez des motifs de marbre subtils ou que vous faites du tissu.
+C&#39;est un peu un bruit de niche : il peut être utile pour les rares cas où vous recherchez ce type de détails, comme lorsque vous recréez des motifs de marbre subtils ou que vous faites du tissu.
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ C&#39;est un peu un bruit de niche : il peut être utile pour les rares cas où 
 |:---|:---|
 | <b>Échelle</b> <i>1 - 16</i> | Définit l’échelle globale de l’effet. |
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasez le bruit pour introduire une faible variation. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

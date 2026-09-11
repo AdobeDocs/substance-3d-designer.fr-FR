@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Découvrez la barre d’outils principale de Substance 3D Designer pour accéder aux outils et commandes courants de votre workflow.
 helpx_creative_field: ""
@@ -112,13 +112,13 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Explorateur :</b> affichez/masquez l&#39;[Explorateur](../the-explorer-window/the-explorer-window.md).
 
-<b>Graphique :</b> afficher/masquer la ou les [fenêtre de graphique](../../interface/the-graph-view/the-graph-view.md).
+<b>Graphe :</b> afficher/masquer la ou les [fenêtre(s) de graphe](../../interface/the-graph-view/the-graph-view.md).
 
 <b>Paramètres :</b> affichez/masquez les [propriétés](../properties/properties.md).
 
 <b>Console :</b> affichez/masquez la fenêtre de la console.
 
-<b>Vue 3D :</b> affichez/masquez [vue(s) 3D](../../interface/3d-view/3d-view.md).
+<b>vue 3D :</b> affichez/masquez [vue 3D(s)](../../interface/3d-view/3d-view.md).
 
 <b>Gestionnaire de dépendances :</b> affichez/masquez le [Gestionnaire de dépendances](../../interface/dependency-manager/dependency-manager.md).
 
@@ -165,7 +165,7 @@ Cette page décrit la barre d&#39;outils principale et le menu de [Substance 3D 
 
 <b>Nouveautés...:</b> affiche un écran qui met en évidence les fonctionnalités ajoutées à la dernière version de Designer
 
-<b>Écran d’accueil...\*:</b> Affiche l’écran a qui guide les nouveaux utilisateurs à travers l’objectif de Designer et sa place dans l’[écosystème Substance 3D](https://helpx.adobe.com/fr/substance-3d.html)
+<b>Écran d’accueil...\*:</b> Affiche l’écran a qui guide les nouveaux utilisateurs à travers l’objectif de Designer et sa place dans l’[écosystème Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Partenaires :</b> vous permet d&#39;accéder aux avis de non-responsabilité et aux avis pour les intégrations tierces de nos partenaires dans Designer.
 

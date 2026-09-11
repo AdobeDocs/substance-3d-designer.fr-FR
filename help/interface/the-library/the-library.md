@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Utilisez la bibliothèque de Substance 3D Designer pour accéder aux paramètres prédéfinis de nœuds, aux matériaux et au contenu personnalisé, et les gérer.
 helpx_creative_field: ""
@@ -181,7 +181,7 @@ Lorsque vous placez le curseur sur un élément de contenu, une info-bulle s&#39
 ### Favoris
 
 Vous pouvez ajouter n&#39;importe quel élément de la section <b>Contenu</b> à votre liste <b>Favoris</b> à l&#39;aide du bouton ![](../../assets/library-icon-favoritepng.png) <b>Ajouter aux favoris</b>. Le bouton vous permet également de *supprimer* du contenu de cette liste s&#39;il a déjà été ajouté.\
-Lorsque du contenu est ajouté à cette liste, il est disponible dans la catégorie <b>Favoris</b> de la <b>Bibliothèque</b> et s&#39;affiche dans le *haut* de la liste de menus <b>Nœud</b> lors de la recherche d&#39;un nœud dans le graphique, à condition que les termes de recherche y correspondent.
+Lorsque du contenu est ajouté à cette liste, il est disponible dans la catégorie <b>Favoris</b> de la <b>Bibliothèque</b> et s&#39;affiche dans le *haut* de la liste de menus <b>Nœud</b> lors de la recherche d&#39;un nœud dans le graphe, à condition que les termes de recherche y correspondent.
 
 </td>
 <td style="border: 0;" valign="top">

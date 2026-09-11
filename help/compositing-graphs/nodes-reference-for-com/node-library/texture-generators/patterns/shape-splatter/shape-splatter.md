@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dispersion de forme pour dispersion des formes entre les textures afin de créer des motifs et des détails procéduraux.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 ![](../../../../../../assets/shape-splatter.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

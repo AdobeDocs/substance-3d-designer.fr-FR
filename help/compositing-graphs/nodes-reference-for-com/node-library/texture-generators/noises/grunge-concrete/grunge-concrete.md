@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Concrete pour générer des motifs d'usure/salissures de type béton afin de créer des textures de maçonnerie usées par le temps.
 helpx_creative_field: ""
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-<b>Entrée :</b> Générateurs de textures > Bruits
+<b>Entrée :</b> générateurs de Textures > Bruits
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Le nœud **Usure/salissures Concrete** génère une carte d&#39;usure/salissures semblable à la carte d&#39;height d&#39;une surface concrète.
+Le nœud **Usure/salissures Concrete** génère une carte usure/salissures semblable à la map height d&#39;une surface en béton.
 
 </td>
 </tr>
@@ -45,17 +45,17 @@ Le nœud **Usure/salissures Concrete** génère une carte d&#39;usure/salissures
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Bruit de base</b> <i>Flotter</i> | Règle le niveau de bruit de la texture de base. |
-| <b>Opacité des taches de Dirt</b> <i>Flotter</i> | Règle l’opacité des taches de dirt. |
+| <b>Bruit de base</b> <i>Flottant</i> | Règle le niveau de bruit de la texture de base. |
+| <b>Opacité des taches de Dirt</b> <i>Flottant</i> | Règle l’opacité des taches de dirt. |
 | <b>Inverser le Dirt</b> <i>Booléen</i> | Inverse l’impact des taches de dirt. |
-| <b>Opacité Scratches</b> <i>Flotter</i> | Règle l’opacité des rayures. |
-| <b>Netteté</b> <i>Flotter</i> | Règle l’intensité d’un effet de netteté appliqué à l’image. |
-| <b>Grande intensité de variation</b> <i>Flotter</i> | Règle les variations à grande échelle (basse fréquence) appliquées à la texture de base. |
+| <b>Opacité Scratches</b> <i>Flottant</i> | Règle l’opacité des rayures. |
+| <b>Netteté</b> <i>Flottant</i> | Règle l’intensité d’un effet de netteté appliqué à l’image. |
+| <b>Grande intensité de variation</b> <i>Flottant</i> | Règle les variations à grande échelle (basse fréquence) appliquées à la texture de base. |
 
 ## Exemples
 

@@ -1,6 +1,6 @@
 ---
 title: Torus coiffé
-description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Primitive > Tore coiffé
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Fonction SDF > Primitive > Tore coiffé
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '234'
@@ -40,10 +40,10 @@ Une Fonction SDF pour un tore coiffé, où le balayage du petit cercle le long d
 
 |  |  |
 | :--- | :--- |
-| <b>Rayon majeur</b> *Flotter* | Rayon du cercle principal le long duquel le cercle secondaire est balayé pour former la surface du tore.<br><br><i>Valeur par défaut : 0.5</i> |
-| <b>Rayon mineur</b> *Flotter* | Rayon du petit cercle balayé le long du grand cercle pour former la surface du tore.<br><br><i>Valeur par défaut : 0.2</i> |
-| <b>Angle</b> *Flotter* | Angle central, à tour de rôle, définissant l&#39;arc de rognage du cercle principal le long duquel le cercle secondaire ne sera pas balayé.<br><br><i>Par défaut : 0.75</i> |
-| <b>Décalage de l&#39;angle</b> *Flotter* | Décalage, le long du rayon principal, de l&#39;arc de raccord le long duquel le cercle secondaire ne sera pas balayé.<br><br><i>Valeur par défaut : 0</i> |
+| <b>Rayon majeur</b> *Flottant* | Rayon du cercle principal le long duquel le cercle secondaire est balayé pour former la surface du tore.<br><br><i>Valeur par défaut : 0.5</i> |
+| <b>Rayon mineur</b> *Flottant* | Rayon du petit cercle balayé le long du grand cercle pour former la surface du tore.<br><br><i>Valeur par défaut : 0.2</i> |
+| <b>Angle</b> *Flottant* | Angle central, à tour de rôle, définissant l&#39;arc de rognage du cercle principal le long duquel le cercle secondaire ne sera pas balayé.<br><br><i>Par défaut : 0.75</i> |
+| <b>Décalage de l&#39;angle</b> *Flottant* | Décalage, le long du rayon principal, de l&#39;arc de raccord le long duquel le cercle secondaire ne sera pas balayé.<br><br><i>Valeur par défaut : 0</i> |
 | <b>Symétrique</b> *Booléen* | Détermine si l&#39;arc de raccord doit être dessiné dans une ou deux directions.<br><br><i>Valeur par défaut : True</i> |
-| <b>Position centrale</b> *Float3* | Position dans l&#39;espace universel du pivot du tore coiffé.<br><br><i>Par défaut : (0, 0, 0.5)</i> |
-| <b>P</b> *Float3* | La position spatiale mondiale transformée. Utilisez cette entrée pour appliquer des transformations supplémentaires à l&#39;aide des nœuds <b>Décalage P</b> et <b>Rotation P</b>.<br><br><i>Par défaut : position de l&#39;espace univers non transformée.</i> |
+| <b>Position centrale</b> *Flottant3* | Position espace monde du pivot du tore coiffé.<br><br><i>Valeur par défaut : (0, 0, 0.5)</i> |
+| <b>P</b> *Flottant3* | Position espace monde transformée. Utilisez cette entrée pour appliquer des transformations supplémentaires à l&#39;aide des nœuds <b>Décalage P</b> et <b>Rotation P</b>.<br><br><i>Par défaut : position de l&#39;espace monde non transformé.</i> |

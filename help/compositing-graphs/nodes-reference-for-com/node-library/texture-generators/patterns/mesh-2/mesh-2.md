@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Maillage 2 pour générer des motifs de maillage avancés avec des commandes améliorées pour la création de textures géométriques.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 ![](../../../../../../assets/mesh-2.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,9 +45,9 @@ Modèle de maillage simple avec des blocs de graisse. Peut être utilisé pour c
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 | <b>Rotation De 45 Degrés</b> <i>Faux/Vrai</i> | Fait pivoter le résultat. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

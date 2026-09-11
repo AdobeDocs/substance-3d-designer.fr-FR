@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les threads dans les scripts Substance 3D Designer Python pour le traitement et les performances parallèles.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Il est possible pour les plug-ins de <b>créer des threads</b> à l&#39;aide du 
 
 Cela peut être utile pour effectuer des traitements en arrière-plan ou des opérations d’E/S pendant l’exécution de Designer.
 
-Il est important de noter que la plupart des classes et méthodes de l&#39;API Python Designer peuvent *être appelées uniquement* à partir du <b>thread d&#39;application principal</b>. Ainsi, si vous souhaitez apporter des modifications à un graphique actuellement ouvert dans Designer, vous devez les effectuer à partir du thread d’application principal.
+Il est important de noter que la plupart des classes et méthodes de l&#39;API Python Designer peuvent *être appelées uniquement* à partir du <b>thread d&#39;application principal</b>. Ainsi, si vous souhaitez apporter des modifications à un graphe actuellement ouvert dans Designer, vous devez les effectuer à partir du thread d’application principal.
 
 Une solution possible consiste à utiliser <b>QThread</b> et <b>les connexions placées en file d&#39;attente</b>, comme dans l&#39;exemple suivant :
 

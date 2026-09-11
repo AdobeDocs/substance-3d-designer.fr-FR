@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 13.1 pour en savoir plus sur les améliorations apportées au graphe de nœuds et la prise en charge de l’exportation AxF.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ Le cadre est un outil obligatoire pour que votre graphe reste bien organisé et 
 
 ### Développement automatique
 
-Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité. Pour faciliter ces réglages, il est désormais possible de développer automatiquement un cadre lors du déplacement d&#39;objets inclus : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin que cet objet reste dans leurs limites.
+Au fur et à mesure que le graphe se développe, le contenu cadre devra peut-être être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité. Pour faciliter ces réglages, il est désormais possible de développer automatiquement un cadre lors du déplacement d&#39;objets inclus : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin que cet objet reste dans leurs limites.
 
 ![développement automatique](../../assets/autoexpand.gif)
 
@@ -55,8 +55,8 @@ Beaucoup de choses ont été repensées, comme les règles d&#39;appartenance po
 ## Amélioration de la qualité de vie
 
 * <b>Améliorations du menu Nœud :</b>afin de gagner du temps lors de la recherche du nœud dont vous avez besoin, nous avons légèrement amélioré le menu Nœud. La recherche est maintenant plus indulgente et vous donnera un résultat même s&#39;il n&#39;y a pas de correspondance parfaite. En outre, vous pouvez désormais utiliser la flèche vers le haut pour accéder directement au dernier élément de la liste.
-* <b>Position des nœuds :</b>si vous souhaitez avoir une disposition parfaite pour votre graphique, ces deux petits changements vous feront plaisir ! Lorsque vous copiez/collez des nœuds d’un graphique vers un autre, les nœuds collés sont désormais alignés sur la grille principale. Et lorsque vous ajoutez un nœud sur un lien long, celui-ci sera désormais placé au milieu de la partie visible du lien, afin de le rendre visible dans toutes les situations.
-* <b>Options d&#39;affichage 2D :</b>si vous êtes un utilisateur intensif de la [vue 2D](../../interface/2d-view/2d-view.md), vous gagnerez du temps car des options telles que « Afficher le damier », « Conserver la taille de l&#39;affichage », « Utiliser la taille physique » et « Afficher la mosaïque » sont désormais enregistrées, de sorte que vous n&#39;avez pas à les redéfinir lors de la création d&#39;une nouvelle vue 2D ou même au redémarrage de Designer.
+* <b>Position des nœuds :</b>si vous souhaitez avoir une disposition parfaite pour votre graphe, ces deux petits changements vous plairont ! Lorsque vous copiez/collez des nœuds d’un graphe vers un autre, les nœuds collés sont désormais alignés sur la grille principale. Et lorsque vous ajoutez un nœud sur un lien long, celui-ci sera désormais placé au milieu de la partie visible du lien, afin de le rendre visible dans toutes les situations.
+* <b>Options vue 2D :</b>si vous êtes un utilisateur intensif de [Vue 2D](../../interface/2d-view/2d-view.md), vous gagnerez du temps car des options telles que « Afficher le damier », « Conserver la taille de l&#39;affichage », « Utiliser la taille physique » et « Afficher la répétition » sont désormais enregistrées, de sorte que vous n&#39;avez pas à les redéfinir lors de la création d&#39;une nouvelle Vue 2D ou même au redémarrage de Designer.
 
 ## Exportation AxF
 
@@ -64,14 +64,14 @@ Beaucoup de choses ont été repensées, comme les règles d&#39;appartenance po
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier ![AxF](../../assets/axf-file-icon.png "AxF")
+![icône de Fichier AxF](../../assets/axf-file-icon.png "icône de Fichier AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF est un format de [X-Rite](https://www.xrite.com/axf). Il permet de capturer, de stocker, de modifier et de communiquer les caractéristiques de matériaux complexes à l’aide de données numériques tout au long du processus de conception numérique. Dans les versions précédentes de Designer, vous pouviez [importer des fichiers AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md), puis améliorer la juxtaposition ou ajouter des effets de procédure, mais vous étiez ensuite contraint d’exporter les modifications sous la forme d’un nouveau fichier .sbsar.
+AxF est un format de [X-Rite](https://www.xrite.com/axf). Il permet de capturer, de stocker, de modifier et de communiquer des caractéristiques de matériau complexes à l’aide de données numériques tout au long du processus de conception numérique. Dans les versions précédentes de Designer, vous pouviez [importer des Fichiers AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md), puis améliorer la répétition ou ajouter des effets procéduraux, mais vous étiez ensuite contraint d&#39;exporter les modifications en tant que nouveau .fichier sbsar.
 
-Dans cette nouvelle version, nous introduisons la possibilité de modifier les matériaux AxF sur place, puis [exportez vos modifications](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) en tant que nouveau calque dans le fichier AxF importé.
+Dans cette nouvelle version, nous introduisons la possibilité de modifier les matériaux AxF sur place, puis d&#39;[exporter vos modifications](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) en tant que nouveau calque dans le Fichier AxF importé.
 
 </td>
 </tr>
@@ -83,8 +83,8 @@ Dans cette nouvelle version, nous introduisons la possibilité de modifier les m
 
 Enfin, cette version 13.1 continue d’améliorer l’API Python en ajoutant deux possibilités supplémentaires :
 
-* <b>&#39;Propriétés Visible if&#39; : </b>vous pouvez désormais définir cette propriété pour les paramètres de graphiques, les entrées et les sorties.
-* <b>Ordre des entrées/sorties des graphiques :</b> utilisez sdsbscompgraph::reorderGraphInput et sdsbscompgraph::reorderGraphOutput pour organiser les paramètres selon vos besoins.
+* <b>&#39;Propriétés Visible if&#39; : </b>vous pouvez désormais définir cette propriété pour les paramètres, entrées et sorties des graphes.
+* <b>Ordre des entrées/sorties des graphes :</b> utilisez sdsbscompgraph::reorderGraphInput et sdsbscompgraph::reorderGraphOutput pour organiser les paramètres selon vos besoins.
 
 >[!NOTE]
 >
@@ -98,69 +98,69 @@ Enfin, cette version 13.1 continue d’améliorer l’API Python en ajoutant deu
 
 ### Ajouté
 
-* [Images] Développement automatique
-* [Cadres] Modification des règles pour définir à quel moment un objet appartient à un cadre
-* [Cadres] Désactiver la mise à l’échelle du texte pour la description des cadres
-* [Images] Taille adaptée au contenu
-* [Images] Nouveaux états par défaut, survol et sélectionné
-* [Cadres] Magnétisme de la grande grille
-* [Images] Prise en charge du code de HTML pour la description des images
-* [Images] Mise à jour des zones d’interaction
-* [Images] Mise à jour de l’aspect visuel
-* [Graphique] Créer le nœud au milieu du lien visible au lieu du milieu du lien
-* [Graphique] Affiche les propriétés d’un élément s’il est le seul élément avec des propriétés disponibles dans une sélection
-* [Graphique] Supprimer l’option « Mise à l’échelle » pour les commentaires dans le graphique
-* [Graphique] Accrocher les nœuds sur la grille principale lors du copier/coller
+* [Cadre] Développement automatique
+* [Cadres] Modification des règles pour définir quand un objet appartient à un cadre
+* [Cadre] Désactiver la mise à l’échelle du texte pour la description cadre
+* [Cadre] Taille adaptée au contenu
+* [Cadre] Nouveaux états par défaut, survol et sélectionné
+* [Cadre] Contraindre sur Grande Grille
+* [Cadre] Code de HTML de prise en charge pour la description Cadre
+* [Cadre] Mise à jour des zones d’interaction
+* [Cadre] Mise à jour de l’aspect visuel
+* [Graphe] Crée le nœud au milieu du lien visible au lieu du milieu du lien
+* [Graphe] Afficher les propriétés d’un élément s’il est le seul élément avec des propriétés disponibles dans une sélection
+* [Graphe] Supprimer l’option « Mise à l’échelle » pour les commentaires dans le graphe
+* [Graphe] Contraindre les nœuds sur la grille principale lors du copier/coller
 * [UX] Autoriser la recherche floue dans le menu Nœud et la recherche dans la bibliothèque
 * [UX] Effectuer une boucle N dans la liste du menu Nœud
 * [AxF] Prise en charge de l’exportation AxF
 * [AxF] Désactiver AxF sous Linux
-* [API] Définissez la propriété « Visible if » des paramètres, entrées et sorties du graphique à l’aide de l’API Python
-* [API] Définition de l’ordre des E/S de graphiques à l’aide de l’API Python
+* [API] Définissez la propriété « Visible if » des paramètres, entrées et sorties de graphe à l’aide de l’API Python
+* [API] Définition de l’ordre des E/S de graphe à l’aide de l’API Python
 * [Dépendances] Mettre à jour Boost vers 1.80.0
 * [Dépendances] Mettre à jour OpenSubdiv vers la version 3.5.x
 * [Dépendances] Mise à jour du SDK FBX vers 2020.3
 * [Dépendances] Mettre à jour NGL vers 1.35.0.20
-* [Gestion des couleurs] Prise en charge supplémentaire des écrans ICC OCIO
+* [Gestion des couleurs] Ajout de la prise en charge des écrans OCIO ICC
 * [Levels] Ajouter un moyen de réinitialiser l&#39;histogramme
 * [Python] Avertir les utilisateurs si QtForPython ne peut pas être importé
-* [Vue 2D] Enregistrer l&#39;état des options d&#39;affichage
-* [Vue 3D] Ajout d’une technique de positionnement au nuanceur d’informations de maillage
+* [Vue 2D] Enregistrement de l’état des options d’affichage
+* [vue 3D] Ajout d’une technique de positionnement au shader Informations sur le maillage
 * [Exporter] Ajoutez un bouton « Enregistrer les paramètres » pour enregistrer les modifications apportées aux options d’exportation.
 
 ### Correctifs
 
-* [Vue 3D] Impossible d&#39;attribuer une texture à une entrée de type texture\_2d d&#39;un matériau MDL
-* [AxF] Les identificateurs de graphique dans la liste des modèles peuvent être vides
-* [AxF] Le champ de modèle de graphique de Substance est vide par défaut
+* [vue 3D] Impossible d&#39;attribuer une texture à une entrée de type texture\_2d d&#39;un Matériau MDL
+* [AxF] Les identifiants de Graphe dans la liste des modèles peuvent être vides
+* [AxF] Le champ de modèle de graphe de Substance est vide par défaut
 * atlas scatter [Contenu] : comportement incorrect dans des cas spécifiques
 * [Contenu] Mappeur de Flood Fill : sortie vide lorsque toutes les formes ont la même taille de boîte de dialogue
 * [Content] FloodFill à la position : artefacts d’imprécision dans certaines situations
-* [Contenu] Sortie « Specular » incorrecte dans le nœud « Convertisseur couleur de base/métallique/rugosité »
+* [Contenu] Sortie « Specular » incorrecte dans le nœud « BaseColor/Métallique/Rugosité converter »
 * [Contenu] L’option Masquer sur tracé ne fonctionne pas à la verticale
 * [Contenu] Description manquante pour les nœuds Valeur d’entrée, Niveaux de gris en entrée, Couleur d’entrée et Sortie
 * [Contenu] Description manquante pour les nœuds Set et Sequence
 * [Contenu] Éclaboussure de forme : artefacts d’imprécision dans la sortie « Splatter data 2 »
-* [Moteur] Les valeurs booléennes dans les processeurs de traitement des valeurs sont toujours évaluées sur « False » (Apple Silicon uniquement)
-* [Explorer] L’ordre des boutons de la barre d’outils est incohérent entre les systèmes d’exploitation
-* [Images] N’accrochez pas les nœuds lorsque vous déplacez une image avec le modificateur CTRL
-* [Courbe de transfert de dégradé] réinitialiser tout doit également réinitialiser le widget de dégradé
+* [Moteur] Les valeurs booléennes dans les Processeurs de valeurs sont toujours évaluées sur « False » (Apple Silicon uniquement).
+* [Explorateur] L’ordre des boutons de la barre d’outils est incohérent entre les systèmes d’exploitation
+* [Cadres] N’attrapez pas les nœuds lorsque vous déplacez un cadre avec le modificateur CTRL
+* [Map de dégradé] l’option réinitialiser tout doit également réinitialiser le widget de dégradé
 * [GraphRender] Certains nœuds deviennent noirs lors de l’ajustement en mode aperçu
-* [Graphique] L’aperçu de « Valeur d’entrée » est bloqué sur « Faux » lors de l’ajustement de la valeur booléenne par défaut (Apple Silicon uniquement)
-* [Graphique] Les nœuds de point proches du bord de l’image ne sont pas déplacés par l’image
+* [Graphe] L’aperçu de « Valeur d’entrée » est bloqué sur « False » lors de l’ajustement de la valeur booléenne par défaut (Apple Silicon uniquement)
+* [Graphe] Les nœuds de point proches du bord Cadre ne sont pas déplacés par le Cadre
 * [Interopérabilité] L’icône Renvoyer n’est pas mise à jour après l’envoi à Substance 3D Stager
-* [MDL] Impossible de modifier la rugosité dans les nœuds où ce paramètre est disponible
-* [MDL] Connexions non valides dans le modèle « AxF to Metallic Roughness »
+* [MDL] Impossible de modifier la Rugosité dans les nœuds où ce paramètre est disponible
+* [MDL] Connexions non valides dans le modèle « AxF to Métallique rugosité »
 * [UI] La fenêtre « Exporter les sorties » peut être réduite (Windows uniquement)
 * [UI] Les images apparaissent pixellisées dans l’écran À propos lors de l’utilisation de la mise à l’échelle de l’affichage
-* [UI] Les outils d’alignement de nœud de la barre d’outils graphique créent plusieurs étapes d’annulation.
+* [UI] Les outils d’alignement de nœud de la barre d’outils graphe créent plusieurs étapes d’annulation.
 
 ### PROBLÈMES CONNUS
 
 * [AxF OpenGL Shader] Largeur incorrecte pour la distribution anisotrope
-* [AxF OpenGL Shader] Rugosité par défaut incorrecte
-* [AxF OpenGL Shader] Rotation de base d’ombrage incorrecte
-* [AxF OpenGL Shader] Détection incorrecte du rayon sous l&#39;hémisphère
+* [AxF OpenGL Shader] rugosité par défaut incorrecte
+* [Shader OpenGL AxF] Rotation de base d’ombrage incorrecte
+* [AxF OpenGL Shader] Rayon incorrect sous la détection de l&#39;hémisphère
 * [AxF OpenGL Shader] Détection de contribution incorrecte
 * [AxF] Les valeurs de mappage « Couleur Specular » sont incorrectes lors de l’exportation.
 * [AxF] L’aperçu et les textures ne s’affichent pas correctement dans la boîte de dialogue « Importer AxF »

@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de filtre Dupliquer pour dupliquer et décaler des zones de texture afin de créer des motifs et des effets de mosaïque continus.
+description: Utilisez le noeud de filtrage Clone pour dupliquer et décaler des zones de texture afin de créer des motifs et des effets de répétition homogènes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Cloner (nœud de filtre)
+title: Clone (Noeud de filtrage)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Cloner (nœud de filtre)
+# Clone (Noeud de filtrage)
 
 <table>
 <tr style="border: 0;">
@@ -33,11 +33,11 @@ ht-degree: 4%
 
 ## Description
 
-Clone l’image d’entrée une fois à un emplacement spécifié. Peut fonctionner comme un outil de « tampon de duplication » brut.
+Clone l’image d&#39;entrée une fois à un emplacement spécifié. Peut fonctionner comme un outil de « tampon de duplication » brut.
 
 Nécessite un certain soin pour obtenir les résultats escomptés :
 
-* Idéalement, l’image d’entrée doit avoir une couche alpha (comme une décalcomanie), puisque la fusion est une copie directe.
+* Idéalement, l’image d&#39;entrée doit avoir un canal Alpha (comme une décalcomanie), car la fusion n’est qu’une copie directe.
 * Le masque étant défini par défaut sur le noir, une valeur de niveaux de gris blanc uniforme doit au moins être utilisée pour visualiser les résultats.
 * Le décalage se découpe facilement en dehors de l’image. Utilisez donc des valeurs faibles.
 
@@ -51,7 +51,7 @@ Nécessite un certain soin pour obtenir les résultats escomptés :
 
 |  |  |
 |:---|:---|
-| <b>Source</b> <i>Entrée couleur</i> | Image à dupliquer. Important : idéalement, l’image doit avoir une couche alpha ! |
+| <b>Source</b> <i>Entrée couleur</i> | Image à dupliquer. Important : idéalement, l’image aura un canal Alpha ! |
 | <b>Masquer</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. Par défaut, c’est le noir ! |
 
 <a name="parameters"></a>
@@ -60,7 +60,7 @@ Nécessite un certain soin pour obtenir les résultats escomptés :
 
 |  |  |
 |:---|:---|
-| <b>Décalage</b> <i>-</i> | Déplace ou traduit le résultat. Positif correspond à Gauche et Haut, Négatif à Droite et Bas. Utilisez de petites valeurs, 1,0 et plus le déplace en dehors de l’image ! |
+| <b>Décalage</b> <i>-</i> | Déplace ou translate le résultat. Positif correspond à Gauche et Haut, Négatif à Droite et Bas. Utilisez de petites valeurs, 1,0 et plus le déplace en dehors de l’image ! |
 | <b>Masque de flou</b> <i>0.0 - 10.0</i> | Appliquez un filtre de flou au masque pour adoucir les contours. |
 
 ## Exemples

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importez et utilisez des images vectorielles de SVG en tant que ressources dans Substance 3D Designer pour la création procédurale de matériaux.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer prend en charge un nombre limité d’Images vectorielles, via le format Images vectorielles évolutives. Les fichiers du SVG peuvent être importés sous forme de ressources de différentes manières et utilisés comme ressources pour vos graphes.
 
-Les fichiers de SVG [peuvent être créés ou modifiés via le nœud de SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), ils peuvent également être créés par [le baker de SVG UV](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
+Les fichiers de SVG [peuvent être créés ou modifiés via le nœud de SVG atomique](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md), ils peuvent également être créés par [le baker de SVG UV](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Les ressources de SVG d’un package ont un certain nombre d’attributs que vou
 | Balises | Utilisé pour [trier et organiser la ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dans la [bibliothèque](../../interface/the-library/the-library.md). |
 | Données utilisateur | Données supplémentaires facultatives, non utilisées sur les images vectorielles. |
 | Afficher dans la bibliothèque | Détermine si la ressource SVG doit être masquée dans [la vue Bibliothèque](../../interface/the-library/the-library.md). |
-| Qualité des images vectorielles | Affecte la qualité de rendu. La plage n&#39;est pas linéaire et la meilleure qualité est atteinte à 0,5. |
+| qualité des Images vectorielles | Affecte la qualité de rendu. La plage n&#39;est pas linéaire et la meilleure qualité est atteinte à 0,5. |
 
 ## création de mots de SVG
 
@@ -70,7 +70,7 @@ Les options d’exportation sont légèrement différentes pour chaque applicati
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/fr/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
+[Illustrator](https://www.adobe.com/products/illustrator.html) offre un meilleur contrôle sur les exportations de votre SVG si vous tenez compte des options suivantes.
 
 * Utilisez uniquement <b>Enregistrer sous</b>, *pas* Exporter sous !
 * Le <b>profil de SVG</b> n&#39;a pas beaucoup d&#39;importance, bien que le profil Tiny utilise (principalement) par défaut des paramètres qui sont définitivement corrects ;
@@ -98,7 +98,7 @@ Inkscape est enregistré en mode natif en tant que SVG, mais avec moins de contr
 
 ### Adobe Photoshop
 
-Photoshop dispose d’un nombre très limité d’exportateurs de mots de SVG (<b>Fichier > Exporter > Exporter sous..</b>) qui n’est actuellement pas en mesure de produire des résultats corrects pour Substance 3D Designer. Vous pouvez obtenir vos informations de forme et de tracé, mais le style est toujours enregistré en tant qu’éléments, ce qui est incompatible.
+Photoshop a un exporteur de SVG très limité (<b>Fichier > Exporter > Exporter sous..</b>) qui n’est actuellement pas en mesure de produire des résultats corrects pour Substance 3D Designer. Vous pouvez obtenir vos informations de forme et de tracé, mais le style est toujours enregistré en tant qu’éléments, ce qui est incompatible.
 
 Il peut être utilisé pour les masques de forme simples en noir et blanc, où une solution consiste à extraire l&#39;Alpha du SVG à l&#39;aide de la [division d&#39;Alpha](../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md).
 

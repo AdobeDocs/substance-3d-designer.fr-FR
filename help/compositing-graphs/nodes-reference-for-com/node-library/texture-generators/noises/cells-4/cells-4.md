@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Cellules 4 pour générer des motifs cellulaires avancés afin de créer des effets de texture organique et biologique.
 helpx_creative_field: ""
@@ -68,8 +68,8 @@ Voir aussi : [Cellules 1](../../../../../../compositing-graphs/nodes-reference-f
 | <b>Échelle</b> <i>Entier</i> | Subdivision de la grille utilisée pour générer les éléments de bruit.    Plus la valeur est élevée, plus le nombre de carreaux dessinés est élevé et plus le bruit est dense. |
 | <b>Désordre</b> <i>Flottant</i> | Déplace les ingrédients du bruit.    Cela permet d’animer le bruit. |
 | <b>Désorganiser la vitesse</b> <i>Flottant</i> | Ajuste la distance de displacement appliquée par le paramètre <b>Désordre</b>.    Cela permet de contrôler la vitesse du displacement lors de l’animation du bruit. |
-| <b>Source de couleur</b> <i>Nombre entier</i> | Source de la couleur plate appliquée aux cellules :<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Aléatoire :</i></b> utilisez une couleur aléatoire contrôlée par la valeur de départ aléatoire du nœud</li> <li data-preserve-html="true"><b><i>Pseudorandom :</i></b> utilisez une couleur aléatoire prédéfinie par une valeur distincte définie par l&#39;utilisateur</li> <li data-preserve-html="true"><b><i>Entrée d&#39;image :</i></b> utilisez la couleur échantillonnée à l&#39;emplacement de la cellule dans l&#39;image d&#39;entrée</li> </ul> |
-| <b>Graine pseudo-aléatoire</b> <i>Nombre entier</i>   *Disponible lorsque &#39;Color source&#39; est défini sur &#39;Pseudorandom&#39;* | Permet de modifier la valeur initiale de la couleur séparément de la valeur initiale du nœud. |
+| <b>Source de couleur</b> <i>Entier</i> | Source de la couleur plate appliquée aux cellules :<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Aléatoire :</i></b> utilisez une couleur aléatoire contrôlée par la valeur de départ aléatoire du nœud</li> <li data-preserve-html="true"><b><i>Pseudorandom :</i></b> utilisez une couleur aléatoire prédéfinie par une valeur distincte définie par l&#39;utilisateur</li> <li data-preserve-html="true"><b><i>Entrée d&#39;image :</i></b> utilisez la couleur échantillonnée à l&#39;emplacement de la cellule dans l&#39;image d&#39;entrée</li> </ul> |
+| <b>Graine pseudo-aléatoire</b> <i>Entier</i>   *Disponible lorsque &#39;Color source&#39; est défini sur &#39;Pseudorandom&#39;* | Permet de modifier la valeur initiale de la couleur séparément de la valeur initiale du nœud. |
 | <b>Expansion non carrée</b> <i>Booléen</i> | Dans les images non carrées, la mosaïque générée reste carrée et étend la génération de bruit aux limites de l’image. |
 
 ## Exemples

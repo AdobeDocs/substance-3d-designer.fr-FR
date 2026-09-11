@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Couleur du mappeur d'UV pour mapper les textures de couleur le long des splines pour une génération de texture procédurale.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Mappe l’image couleur d’entrée à l’aide des coordonnées fournies dans l
 
 |  |  |
 |:---|:---|
-| <b>Couleur d&#39;arrière-plan</b> <i>Float4</i> | Couleur d’arrière-plan de l’image de sortie.<br>L&#39;arrière-plan est visible dans les zones de l&#39;image où les UV ne sont pas définis (c&#39;est-à-dire, la valeur est (0, 0, 0, 0)). |
+| <b>Couleur d&#39;arrière-plan</b> <i>Flottant4</i> | Couleur d’arrière-plan de l’image de sortie.<br>L&#39;arrière-plan est visible dans les zones de l&#39;image où les UV ne sont pas définis (c&#39;est-à-dire, la valeur est (0, 0, 0, 0)). |
 
 ## Exemples
 
@@ -107,4 +107,4 @@ Mappe l’image couleur d’entrée à l’aide des coordonnées fournies dans l
 </tr>
 </table>
 
-![Nœud dans le graphique](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nœud dans le graphique")
+![Nœud dans le graphe](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Nœud dans le graphe")

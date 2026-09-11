@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Réaction Diffusion Rapide pour générer des motifs organiques à l'aide d'algorithmes de réaction-diffusion rapide pour les textures procédurales.
+description: Utilisez le nœud Diffusion de réaction rapide pour générer des motifs organiques à l'aide d'algorithmes de diffusion de réaction rapide pour les textures procédurales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Réaction Diffusion Rapide
+title: Diffusion de réaction rapide
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Réaction Diffusion Rapide
+# Diffusion de réaction rapide
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône du nœud de diffusion de réaction](reaction-diffusion-fast.resources/reaction-diffusion.png "Icône du nœud de diffusion de réaction")
+![Icône de nœud de Diffusion de réaction](reaction-diffusion-fast.resources/reaction-diffusion.png "Icône de nœud de Diffusion de réaction")
 
 <b>Entrée :</b> Filtres > Effets
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## Description
 
-Ce nœud réalise un effet de réaction-diffusion sur une image en niveaux de gris d&#39;entrée.
+Ce nœud effectue un effet de diffusion de réaction sur une image en niveaux de gris d&#39;entrée.
 
-La réaction-diffusion est un processus par lequel la matière se répand (diffuse) et interagit (réagit) avec d’autres matières. Il s&#39;agit d&#39;un modèle mathématique qui simule ce qui se passe dans la nature lorsque certains motifs se forment sur la peau des animaux par exemple.
+La réaction-diffusion est un processus dans lequel la matière se propage (diffuse) et interagit (réagit) avec d’autres matières. Il s&#39;agit d&#39;un modèle mathématique qui simule ce qui se passe dans la nature lorsque certains motifs se forment sur la peau des animaux par exemple.
 
 Ce nœud est optimisé pour les performances et effectue certains compromis de précision pour la vitesse.
 
@@ -65,8 +65,8 @@ Ce nœud est optimisé pour les performances et effectue certains compromis de p
 
 |  |  |
 |:---|:---|
-| <b>Rayon</b> *Flotter* | L’étendue de l’effet. |
-| <b>Contraste</b> *Flotter* | Règle le contraste de l’entrée et sert de seuil. |
+| <b>Rayon</b> *Flottant* | L’étendue de l’effet. |
+| <b>Contraste</b> *Flottant* | Règle le contraste de l’entrée et sert de seuil. |
 
 ## Exemples
 

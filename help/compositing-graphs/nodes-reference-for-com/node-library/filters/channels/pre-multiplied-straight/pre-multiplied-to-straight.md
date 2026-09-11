@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Prémultiplié vers Direct pour convertir les textures alpha prémultipliées au format alpha direct.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ ht-degree: 1%
 
 ## Description
 
-Supprime la couleur prémultipliée du RGB sur les contours fusionnés alpha. La couleur d’arrière-plan est effectivement « déprémultipliée », mais la couche alpha est supprimée du processus.
+Supprime la couleur prémultipliée du RGB sur les contours fusionnés alpha. La couleur d’arrière-plan est effectivement « déprémultipliée », mais le canal Alpha est supprimé dans le processus.
 
-Cela supprime l’effet de frange parfois observé autour des bords des images avec une couche alpha.
+Cela supprime l’effet de frange parfois observé autour des bords des images avec un canal Alpha.
 
 </td>
 </tr>

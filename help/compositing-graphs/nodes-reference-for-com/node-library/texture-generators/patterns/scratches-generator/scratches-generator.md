@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Scratches Generator pour créer des motifs de rayures procédurales afin d'ajouter de l'usure et des dommages aux matériaux.
+description: Utilisez le nœud Scratches Generator pour créer des motifs de rayures procéduraux afin d’ajouter de l’usure et des dommages aux matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 ![](../../../../../../assets/scratches-generator.png)
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Il existe une version spéciale de Scratches Generator, Scratches Generator Norm
 | <b>Fréquence de Distorsion de la spline</b> <i>0.0 - 1.0</i> | Définit la fréquence de distorsion et l’échelle des détails de la distorsion. |
 | <b>Largeur de la spline</b> <i>0.0 - 2.0</i> | Définit la largeur de toutes les splines de manière uniforme. |
 | <b>Spline Width Random</b> <i>0.0 - 1.0</i> | Rend aléatoire la largeur de spline de chaque spline individuellement. |
-| <b>Position De La Spline Aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la position de chaque spline individuellement. Plus cette valeur est faible, plus les splines seront regroupées au centre de la zone de travail. Peut être utilisé pour créer des taches de rayures. |
+| <b>Position De La Spline Aléatoire</b> <i>0.0 - 1.0</i> | Rend aléatoire la position de chaque spline individuellement. Plus cette valeur est faible, plus le cluster des splines sera important vers le centre de la zone de travail. Peut être utilisé pour créer des taches de rayures. |
 | <b>Définir la largeur de la spline en px</b> <i>Faux/Vrai</i> | Détermine les unités utilisées pour les paramètres de largeur de spline. |
 | <b>Luminance aléatoire (version en niveaux de gris uniquement)</b> <i>0.0 - 1.0</i> | Rend aléatoire la Luminance de chaque spline individuellement. |
 | <b>Intensité normale (version normale uniquement)</b> <i>0.0 - 1.0</i> | Définit globalement la force de l&#39;effet Normal pour chaque spline. |

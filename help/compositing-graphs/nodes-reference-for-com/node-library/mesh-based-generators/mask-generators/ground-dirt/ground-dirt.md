@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/ground-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/ground-dirt.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirt au sol pour générer des masques d’accumulation de dirt en fonction de la position et de l’orientation du maillage par rapport au sol.
+description: Utilisez le nœud Dirt de Sol pour générer des masques d'accumulation de dirt en fonction de la position et de l'orientation du maillage par rapport au sol.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Ground Dirt
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Dirt au sol
+title: Dirt sol
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# Dirt au sol
+# Dirt sol
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque représente le dirt qui s&#39;est accumulé de bas en haut, à l&#39;opposé de [Bas en haut](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) ou [Dust](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). Il n’a pas de mappage personnalisé personnalisé personnalisé personnalisé personnalisé.
+Ce masque représente le dirt qui s&#39;est accumulé de sol en haut, à l&#39;opposé de [Bas en haut](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) ou [Dust](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). Il n’a pas de mappage personnalisé personnalisé personnalisé personnalisé personnalisé.
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Ce masque représente le dirt qui s&#39;est accumulé de bas en haut, à l&#39;o
 
 |  |  |
 |:---|:---|
-| <b>Position</b> <i>Entrée en niveaux de gris</i> | Positionnement ancré sur lequel baser l’effet. Obligatoire ! |
+| <b>Position</b> <i>Entrée en niveaux de gris</i> | Mappage de position baké sur lequel baser l’effet. Obligatoire ! |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
 <a name="parameters"></a>

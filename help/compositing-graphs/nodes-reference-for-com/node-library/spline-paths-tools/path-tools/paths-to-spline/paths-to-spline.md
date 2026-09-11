@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tracés vers spline pour convertir les données de tracé en splines à utiliser avec des nœuds basés sur spline.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ Convertit un tracé en splines qui peuvent être visualisées à l&#39;aide d&#3
 |:---|:---|
 | <b>Couleurs splines</b> <i>Couleur</i> | Coordonnées des points des splines d&#39;entrée codés dans les canaux RVBA d&#39;une image couleur :<br><b>R</b> - position X<br><b>G</b> - position Y<br><b>B</b> - Height<br><b>A</b> - données compressées :<br> * Signe : la spline est fermée (négative) ou ouverte (positive);<br> * Valeur absolue : Thickness + 1. |
 | <b>Données splines</b> <i>Couleur</i> | Données supplémentaires des splines d&#39;entrée codées dans les canaux RVBA d&#39;une image <b>couleur</b> :<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Inutilisée<br><b>A</b> - Inutilisée |
-| <b>Quantité de spline</b> <i>Nombre entier</i> | Nombre de splines d&#39;entrée. |
+| <b>Quantité de spline</b> <i>Entier</i> | Nombre de splines d&#39;entrée. |
 
 <a name="parameters"></a>
 
@@ -71,7 +71,7 @@ Convertit un tracé en splines qui peuvent être visualisées à l&#39;aide d&#3
 
 |  |  |
 |:---|:---|
-| <b>Précision des splines</b> <i>Nombre entier</i> | Logarithme en base 2 (log2) du nombre de sommets échantillonnés dans chaque tracé de l&#39;entrée Tracés pour construire la spline correspondante. |
+| <b>Précision des splines</b> <i>Entier</i> | Logarithme de base 2 (log2) du nombre de vertex échantillonnés dans chaque chemin de l&#39;entrée Chemins pour construire la spline correspondante. |
 
 ## Exemples
 

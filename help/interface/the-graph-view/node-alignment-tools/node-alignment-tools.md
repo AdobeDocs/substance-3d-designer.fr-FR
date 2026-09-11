@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
-description: Utilisez les outils d’alignement des nœuds pour organiser et aligner les nœuds dans la vue graphique afin de rendre les graphiques plus nets et plus lisibles.
+description: Utilisez les outils d’alignement des nœuds pour organiser et aligner les nœuds de la vue du graphe afin de rendre les graphes plus nets et plus lisibles.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > The graph view > Node alignment tools
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Barre d&#39;outils d&#39;alignement des nœuds](../../../assets/node-alignment-toolbar.png "Barre d&#39;outils d&#39;alignement des nœuds"){zoomable="yes"}
 
-Les outils d&#39;alignement des nœuds vous permettent d&#39;organiser les nœuds dans des graphiques pour améliorer leur lisibilité et leur expérience de création. Ils proposent des actions permettant d’aligner les nœuds, de les répartir uniformément et de les aligner sur la grille.
+Les outils d&#39;alignement des nœuds vous permettent d&#39;organiser les nœuds en graphes pour améliorer leur lisibilité et leur expérience de création. Ils proposent des actions permettant d’aligner les nœuds, de les répartir uniformément et de les contraindre à la grille.
 
 Ils agissent sur les <b>nœuds actuellement sélectionnés uniquement</b>.
 
@@ -32,7 +32,7 @@ Ils agissent sur les <b>nœuds actuellement sélectionnés uniquement</b>.
 > 
 > Certaines actions disposent de raccourcis clavier pour un accès rapide : H, V et S. Ils s’affichent entre parenthèses dans la liste des actions ci-dessous.
 > 
-> Notez que ces raccourcis remplaceront tout [raccourci clavier attribué aux nœuds](../../../interface/preferences-window/preferences-window.md).
+> Notez que ces raccourcis remplaceront tout [raccourci du clavier attribué aux nœuds](../../../interface/preferences-window/preferences-window.md).
 
 ## Alignements
 
@@ -108,15 +108,15 @@ Les nœuds peuvent être alignés horizontalement et verticalement, avec trois m
 
 ### Empilement
 
-L&#39;option ![](../../../assets/node-alignment-stack.png) <b>Empiler</b> vous permet d&#39;<b>éviter tout chevauchement</b> lors de l&#39;utilisation des alignements. Elle est activée par défaut.
+L&#39;option ![](../../../assets/node-alignment-stack.png) de <b>Pile </b> vous permet d&#39;<b>éviter tout chevauchement</b> lors de l&#39;utilisation des alignements. Elle est activée par défaut.
 
-Lorsque cette option est activée, les nœuds sont déplacés le plus loin possible vers la position de référence jusqu&#39;à ce qu&#39;ils entrent en collision avec un autre nœud dans la sélection. Cela permet de les empiler dans l’axe sélectionné avec une marge d’une cellule de grille moyenne entre chaque nœud.
+Lorsque cette option est activée, les nœuds sont déplacés le plus loin possible vers la position de référence jusqu&#39;à ce qu&#39;ils entrent en collision avec un autre nœud dans la sélection. Ceci les pile effectivement dans l&#39;axe sélectionné avec une marge d&#39;une cellule de grille moyenne entre chaque nœud.
 
 ![Outils d&#39;alignement des nœuds : empilement](../../../assets/node-alignment-stacking.gif "Outils d&#39;alignement des nœuds : empilement"){zoomable="yes"}
 
 ## Distributions
 
-Les nœuds peuvent être répartis uniformément entre les nœuds à chaque extrémité de la sélection actuelle sur l&#39;axe souhaité.
+Les nœuds peuvent être répartis uniformément entre les nœuds à chaque extrémité de la sélection courante sur l&#39;axe souhaité.
 
 <b>![](../../../assets/node-alignment-distribute-h.png) horizontalement :</b> nœuds sont répartis uniformément entre les nœuds les plus à gauche et à droite de la sélection.
 
@@ -151,14 +151,14 @@ Notez que lorsque la taille totale des nœuds sélectionnés est supérieure à 
 <tr style="border: 0;">
 <td width="58.33%" style="border: 0;" valign="top">
 
-## Magnétisme de la grille
+## contraint de grille
 
-L&#39;action <b>Accrocher (S) ![](../../../assets/node-alignment-snap.png)</b> déplace chaque nœud sélectionné de sorte que son coin supérieur gauche repose sur le point le plus proche sur la grille moyenne.
+L&#39;action <b>Contraindre (S) ![](../../../assets/node-alignment-snap.png)</b> déplace chaque nœud sélectionné de sorte que son coin supérieur gauche repose sur le point le plus proche sur la grille moyenne.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Outils d&#39;alignement de nœud : accrochage à la grille](../../../assets/node-alignment-snapping.gif "Outils d&#39;alignement de nœud : accrochage à la grille"){zoomable="yes"}
+![Outils d&#39;alignement de nœud : contraint de grille](../../../assets/node-alignment-snapping.gif "Outils d&#39;alignement de nœud : contraint de grille"){zoomable="yes"}
 
 </td>
 </tr>

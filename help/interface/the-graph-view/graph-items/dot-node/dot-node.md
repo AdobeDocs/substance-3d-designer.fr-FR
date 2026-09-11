@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
-description: Utilisez des nœuds de point et de portail dans Substance 3D Designer pour créer des points de connexion et organiser le flux graphique.
+description: Utilisez les nœuds de point et les nœuds de portail dans Substance 3D Designer pour créer des points de connexion et organiser le flux de graphe.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le nœud <b>Point</b> est un assistant qui vous permet de simplifier et de nettoyer les graphiques en redirigeant et en regroupant les connexions. Elle est particulièrement utile pour les graphiques comportant de nombreuses connexions longues s&#39;exécutant sur d&#39;autres connexions ou nœuds.
+Le nœud <b>Point</b> est un assistant qui vous permet de simplifier et de nettoyer les graphes en réacheminant et en regroupant les connexions. Elle est particulièrement utile pour les graphes avec de nombreuses connexions longues s&#39;exécutant sur d&#39;autres connexions ou nœuds.
 
 Une paire de nœuds Dot peut être utilisée comme <b>portails</b> pour masquer une connexion sur une longue distance ou dans des endroits où le routage de la connexion serait difficile.
 
@@ -39,7 +39,7 @@ Une paire de nœuds Dot peut être utilisée comme <b>portails</b> pour masquer 
 
 ## Création de nœuds Point
 
-Les nœuds de point peuvent être ajoutés dans n’importe quel type de graphique, de l’une des manières suivantes :
+Les nœuds de point peuvent être ajoutés dans n’importe quel type de graphe, de l’une des manières suivantes :
 
 +++Insérer sur le lien
 Maintenez la touche <b>Alt</b> enfoncée tout en survolant une connexion pour afficher l&#39;aperçu du nœud Point, puis cliquez sur LMB pour ajouter un nœud Point sur la connexion à cet emplacement.
@@ -51,7 +51,7 @@ Maintenez la touche <b>Alt</b> enfoncée tout en survolant une connexion pour af
 +++
 
 +++Connecteur de nœud
-Appuyez sur la touche <b>Alt</b> tout en faisant glisser une nouvelle connexion à partir d&#39;un connecteur de nœud pour insérer un nœud Dot à cet emplacement.
+Appuyez sur la touche <b>Alt</b> tout en faisant glisser une nouvelle connexion à partir d&#39;un connecteur de nœuds pour insérer un nœud Point à cet emplacement.
 
 Vous pouvez continuer à faire glisser la nouvelle connexion et répéter l&#39;opération pour router cette connexion comme vous le souhaitez.
 
@@ -102,7 +102,7 @@ Appuyez sur ALT et déplacez un nœud Point sur les liens pour fusionner plusieu
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Les nœuds point peuvent être utilisés comme <b>portails</b> pour envoyer des données sur une longue distance dans le graphique sans avoir un lien long encombrant qui nuit à la lisibilité. Cela masque efficacement le lien entre les nœuds Point.
+Les nœuds point peuvent être utilisés comme <b>portails</b> pour envoyer des données sur une longue distance dans le graphe sans avoir un lien long encombrant qui nuit à la lisibilité. Cela masque efficacement le lien entre les nœuds Point.
 
 </td>
 </tr>
@@ -112,9 +112,9 @@ Les nœuds point peuvent être utilisés comme <b>portails</b> pour envoyer des 
 
 ### Création de portails
 
-Un portail est automatiquement créé entre deux nœuds Dot - un émetteur et un récepteur - lorsque le nœud Dot de l&#39;émetteur est nommé. Pour nommer un nœud Point, définissez un identificateur unique dans sa propriété <b>Name</b>.
+Un portail est automatiquement créé entre deux nœuds Dot - un émetteur et un récepteur - lorsque le nœud Dot de l&#39;émetteur est nommé. Pour nommer un nœud Point, définissez un identifiant unique dans sa propriété <b>Name</b>.
 
-Lorsqu’un ou plusieurs nœuds Dot nommés existent dans un graphe, n’importe quel nœud Dot peut y être connecté en tant que récepteur :
+Lorsqu&#39;un ou plusieurs nœuds Dot nommés existent dans un graphe, n&#39;importe quel nœud Dot peut y être connecté en tant que récepteur en :
 
 * la création d&#39;une liaison entre l&#39;entrée du récepteur et la sortie d&#39;un émetteur;
 * Sélection du nom de l&#39;émetteur dans la propriété <b>Portail d&#39;entrée</b> du récepteur.
@@ -123,7 +123,7 @@ La duplication ou la copie de récepteurs préserve leur connexion à l&#39;éme
 
 ### Identification des portails
 
-Les nœuds de point utilisés comme portails ont une icône de signal sans fil placée à côté du connecteur utilisé comme portail.
+Les points nodaux utilisés comme portails ont une icône de signal sans fil placée à côté du connecteur utilisé comme portail.
 
 La sélection d&#39;un nœud Point utilisé comme portail affiche ses connexions masquées à d&#39;autres portails sous la forme d&#39;une ligne en pointillés.
 
@@ -136,6 +136,6 @@ Un portail est supprimé lorsque le <b>nom</b> de l&#39;émetteur est effacé ou
 
 >[!IMPORTANT]
 >
-> L&#39;utilisation de nœuds Point comme portails n&#39;est pas prise en charge dans les [graphiques FX-Map](../../../../function-graphs/fxmaps/fxmaps.md).
+> L&#39;utilisation de nœuds Point comme portails n&#39;est pas prise en charge dans [FX-Map graphe](../../../../function-graphs/fxmaps/fxmaps.md).
 
 Consultez ce tutoriel sur les nœuds Point en tant que portails :

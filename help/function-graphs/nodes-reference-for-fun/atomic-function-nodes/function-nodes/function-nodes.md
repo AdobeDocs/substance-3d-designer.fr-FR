@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
-description: Accédez aux nœuds de fonction dans les graphiques de fonctions Substance 3D Designer pour appeler et exécuter des graphiques de fonctions personnalisés.
+description: Accédez aux noeuds de fonction dans les graphes de fonction Substance 3D Designer pour appeler et exécuter des graphes de fonction personnalisés.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 5%
 
 # Nœuds de fonction
 
-Les nœuds de fonction transforment la valeur d&#39;entrée en fonction de la fonction mathématique qu&#39;ils représentent.
+Les noeuds de fonction transforment la valeur d’entrée en fonction de la fonction mathématique qu’ils représentent.
 
-Bien que leurs connecteurs d&#39;entrée ne soient généralement pas typés, ils ne prennent pas en charge tous les types valeur.
+Bien que leurs connecteurs d’entrée ne soient généralement pas typés, ils ne prennent pas en charge tous les types valeur.
 
 ## Liste des nœuds
 
@@ -87,7 +87,7 @@ Renvoie le logarithme de base 2 de sa valeur d&#39;entrée : <b>log2(X)</b>.
 
 
 
-Renvoie la valeur absolue de son entrée : <b>abs(X)</b>.
+Retourne la valeur absolue de son entrée : <b>abs(X)</b>.
 
 +++
 
@@ -96,21 +96,21 @@ Renvoie la valeur absolue de son entrée : <b>abs(X)</b>.
 
 
 
-Arrondit sa valeur d’entrée à une valeur supérieure. Elle renvoie la plus petite valeur entière non inférieure à X : <b>ceil(X)</b>.
+Arrondit sa valeur d’entrée à une valeur supérieure. Elle renvoie la plus petite valeur d&#39;entier non inférieure à X : <b>ceil(X)</b>.
 
 +++
 
 +++Arrondi à l’inférieur
-![Icône de nœud de plancher](../../../../assets/Floor_Node.jpg "Icône de nœud de plancher")
+![icône de nœud d&#39;Arrondi aux inférieurs](../../../../assets/Floor_Node.jpg "icône de nœud d&#39;Arrondi aux inférieurs")
 
 
 
-Arrondit sa valeur d’entrée vers le bas. Elle renvoie la plus grande valeur entière inférieure ou égale à X : <b>floor(X)</b>.
+Arrondit sa valeur d’entrée vers le bas. Elle renvoie la plus grande valeur d&#39;entier ne dépassant pas X : <b>floor(X)</b>.
 
 +++
 
 +++Interpolation linéaire
-![Icône de nœud d&#39;interpolation linéaire](../../../../assets/LinearInterpolation_Node.jpg "Icône de nœud d&#39;interpolation linéaire")
+![icône de nœud d&#39;Interpolation linéaire](../../../../assets/LinearInterpolation_Node.jpg "icône de nœud d&#39;Interpolation linéaire")
 
 
 
@@ -155,7 +155,7 @@ Renvoie le sinus de sa valeur d&#39;entrée en radians : <b>sin(X)</b>.
 +++
 
 +++Tangente
-![Icône de nœud tangent](../../../../assets/Tangent_Node.jpg "Icône de nœud tangent")
+![Icône de nœud de Tangente](../../../../assets/Tangent_Node.jpg "Icône de nœud de Tangente")
 
 
 
@@ -164,13 +164,13 @@ Renvoie la tangente de sa valeur d&#39;entrée en radians : <b>tan(X)</b>.
 +++
 
 +++Arc tangente 2
-![Icône de nœud Arc Tangent 2](../../../../assets/ArcTangent2_Node.jpg "Icône de nœud Arc Tangent 2")
+Icône de nœud ![Arc tangente 2](../../../../assets/ArcTangent2_Node.jpg "Arc tangente 2")
 
 
 
 Renvoie l’angle entre le vecteur 2D d’entrée et l’horizontale.
 
-C&#39;est l&#39;inverse de la fonction <b>cartésienne</b>.
+C&#39;est l&#39;inverse de la fonction <b>Cartésien</b>.
 
 Il n&#39;est pas nécessaire de permuter les composantes X et Y du vecteur d&#39;entrée comme dans la fonction <b>atan2</b> habituelle.
 
@@ -183,7 +183,7 @@ Il n&#39;est pas nécessaire de permuter les composantes X et Y du vecteur d&#39
 
 Convertit les coordonnées polaires en coordonnées cartésiennes.
 
-Il s&#39;agit de l&#39;inverse de la fonction <b>Arc tangent 2 </b> : <b>Longueur \* Float2(cos(Angle), sin(Angle).</b>
+Il s&#39;agit de l&#39;inverse de la fonction <b>tangente d&#39;arc 2 </b> : <b>Longueur \* Flottant 2(cos(Angle), sin(Angle).</b>
 
 Les coordonnées polaires sont une distance depuis l’origine et un angle en radians depuis l’horizontale.
 

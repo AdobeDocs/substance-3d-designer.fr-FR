@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Fuites pour générer des motifs de fuite basés sur la géométrie du maillage afin de créer des taches d'eau et des effets de fluide.
+description: Utilisez le nœud Fuites pour générer des motifs de fuite en fonction de la géométrie du maillage afin de créer des taches d'eau et des effets de fluide.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leaks
 helpx_experience_level: ""
@@ -33,11 +33,11 @@ ht-degree: 3%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce nœud représente des stries de dirt et de crasse qui fuient à partir des arêtes vives. Comme les traînées sont générées avec la position cuite, elles s&#39;étendent toujours vers le bas.
+Ce nœud représente des stries de dirt et de crasse qui fuient à partir des arêtes vives. Comme les traînées sont générées avec la position bakée, elles s’étendent toujours vers le bas.
 
-Assurez-vous de modifier le masque de variation : comme il détermine le placement des traînées, il peut avoir une influence beaucoup plus grande qu’avec d’autres générateurs de masques.
+Assurez-vous de modifier le masque de variation : comme il détermine le placement des traînées, il peut avoir une influence beaucoup plus grande qu’avec d’autres Générateurs de masque.
 
 </td>
 </tr>
@@ -49,10 +49,10 @@ Assurez-vous de modifier le masque de variation : comme il détermine le placeme
 
 |  |  |
 |:---|:---|
-| <b>Position</b> <i>Entrée en niveaux de gris</i> | Carte de position ancrée, utilisée pour l’orientation des stries. Obligatoire ! |
+| <b>Position</b> <i>Entrée en niveaux de gris</i> | Carte de position bakée, utilisée pour les directions des stries. Obligatoire ! |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour la mise en place des stries. Obligatoire ! |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Recommandé, mais vous pouvez utiliser un blanc plat à la place. |
-| <b>Espace monde normal</b> <i>Entrée couleur</i> | Carte normale de l&#39;espace mondial au four, utilisée pour la direction des stries. Obligatoire ! |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. Recommandé, mais vous pouvez utiliser un blanc plat à la place. |
+| <b>Espace monde normal</b> <i>Entrée couleur</i> | Baké Espace monde Normalmap, utilisé pour la direction de la strie. Obligatoire ! |
 | <b>Masque de variation</b> <i>Entrée en niveaux de gris</i> | Masque de variation facultatif, activez en définissant le remplacement sur True. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 

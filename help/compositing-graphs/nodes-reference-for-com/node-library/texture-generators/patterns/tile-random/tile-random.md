@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Aléatoire de mosaïque pour créer des motifs de mosaïque aléatoires avec une variation procédurale pour les effets de texture organique.
 helpx_creative_field: ""
@@ -85,7 +85,7 @@ L&#39;option Mosaïque aléatoire est utilisée à la place de l&#39;option [Til
 | <b>Rotation aléatoire</b> <i>0.0 - 1.0</i> | Permet une rotation aléatoire par carreau. |
 | <b>Contrainte de rotation</b> <i>Faux/Vrai</i> | Contraint l’échelle afin que les carreaux pivotés ne se chevauchent jamais. |
 | <b>Position</b> |  |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit les carreaux globalement, en glissant uniquement sur l’axe X |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate les carreaux globalement, en les faisant glisser uniquement sur l’axe X |
 | <b>Décalage aléatoire</b> <i>0.0 - 1.0</i> | Décalage aléatoire par carreau, diapositives sur l’axe X uniquement |
 | <b>Aléatoire</b> <i>0.0 - 1.0</i> | Aléatoire de la position, les carreaux se déplacent sur les axes X et Y. |
 | <b>Contraintes aléatoires</b> <i>Faux/Vrai</i> | Réduit l’échelle pour que les mosaïques se touchent, sans se chevaucher. Atténue considérablement l’effet Position aléatoire. |

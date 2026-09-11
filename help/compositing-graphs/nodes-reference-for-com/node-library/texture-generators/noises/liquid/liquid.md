@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Liquide pour générer des motifs liquides et fluides afin de créer des effets de surface d'eau, d'huile et d'autres fluides.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## Description
 
-Il s&#39;agit d&#39;une variante simple du [bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), qui [se déforme](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) avec lui-même pour créer un effet de type liquide.
+Il s&#39;agit d&#39;une variante simple du [Bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), qui [se déforme](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) avec lui-même pour créer un effet de liquide.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Il s&#39;agit d&#39;une variante simple du [bruit gaussien](../../../../../../co
 | <b>Échelle</b> <i>1 - 128</i> | Définit l’échelle globale de l’effet. |
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasage du bruit pour introduire une faible variation |
 | <b>Intensité de déformation</b> <i>0.0 - 1.0</i> | Définit l’intensité de l’effet de déformation. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

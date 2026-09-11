@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/warnings-in-mdl-graphs.html"
 breadcrumb-title: ''
-description: Comprendre et résoudre les avertissements dans les graphiques MDL pour garantir une définition et un rendu de matériau corrects.
+description: Comprendre et résoudre les avertissements dans les Graphes MDL pour assurer une définition et un rendu corrects des matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > MDL graphs > Warnings in MDL graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Avertissements dans les graphiques MDL
+title: Avertissements dans les Graphes MDL
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,19 +18,19 @@ ht-degree: 0%
 ---
 
 
-# Avertissements dans les graphiques MDL
+# Avertissements dans les Graphes MDL
 
-Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les graphiques MDL dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html), et propose des étapes de dépannage courantes pour chacun d&#39;eux.
+Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par des Graphes MDL dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) et propose des étapes de dépannage courantes pour chacun d&#39;eux.
 
-Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.
+Les avertissements sont affichés dans l&#39;info-bulle de l&#39;icône d&#39;avertissement pour la ressource graphe dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) si le graphe est chargé.
 
 >[!NOTE]
 >
-> Les illustrations de cette section ont été enregistrées dans des <b>graphiques de Substances de données</b>, qui ont été *retirés* dans la version <b>13.0.0</b> de Substance 3D Designer. Cependant, ils s’appliquent également aux graphiques MDL.
+> Les illustrations de cette section ont été enregistrées dans <b>Graphes Substance models</b>, qui ont été *retirés* dans la version <b>13.0.0</b> de Substance 3D Designer. Cependant, elles s&#39;appliquent également aux Graphes MDL.
 
 ## ![(erreur)](../../assets/error.svg) Aucun nœud de sortie défini
 
-Aucun nœud de sortie n’est défini pour le graphique.
+Aucun nœud de sortie n&#39;est défini pour le graphe.
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
@@ -55,7 +55,7 @@ Une valeur d&#39;entrée attendue par un nœud pour effectuer son calcul n&#39;e
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
-Certains paramètres de nœud ne peuvent pas revenir à une valeur par défaut lorsqu&#39;aucune donnée n&#39;est fournie à leur connecteur d&#39;entrée. C’est souvent le cas pour les entrées Scène.
+Certains paramètres de nœud ne peuvent pas revenir à une valeur par défaut lorsqu&#39;aucune donnée n&#39;est fournie à leur connecteur d&#39;entrée. C&#39;est souvent le cas pour les intrants de Scène.
 
 Connectez les entrées de nœud au connecteur de sortie d&#39;un autre nœud de type correspondant.
 
@@ -67,7 +67,7 @@ Les informations fournies au nœud sont incomplètes ou non valides, le nœud n&
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
-Montez en amont dans le graphique et recherchez les avertissements déclenchés par des problèmes qui empêchent les nœuds de fournir une sortie valide.
+Montez en amont dans le graphe et recherchez les avertissements déclenchés par des problèmes qui empêchent les nœuds de fournir une sortie valide.
 
 ![&#39;Le nœud n&#39;était pas calculé&#39; solution](../../assets/warnings-model-no-input-value.gif "&#39;Le nœud n&#39;était pas calculé&#39; solution")
 
@@ -76,13 +76,13 @@ Montez en amont dans le graphique et recherchez les avertissements déclenchés 
 La ressource référencée par un nœud comporte un ou plusieurs avertissements. Voici quelques nœuds référençant une ressource :
 
 * Un nœud d&#39;instance de graphe référence un graphe
-* Un nœud de ressource Scène référence une ressource de scène 3D bitmap
+* Un nœud de ressource de Scène fait référence à une ressource Scène 3D Bitmap
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
-Dans le panneau Explorateur, recherchez la ressource référencée et résolvez tous les avertissements déclenchés par la ressource :
+Dans le panneau Explorateur, recherchez la ressource référencée et résolvez tous les avertissements générés par la ressource :
 
-* Pour les graphiques, reportez-vous aux autres éléments de cette page
+* Pour les graphes, reportez-vous aux autres éléments de cette page
 * Pour tout autre type de ressource, reportez-vous à la page Avertissements des dépendances
 
 ![&#39;Les données référencées ont la solution de certains avertissements](../../assets/warnings-model-referenced-data.gif "&#39;Les données référencées ont la solution de certains avertissements")
@@ -92,19 +92,19 @@ Dans le panneau Explorateur, recherchez la ressource référencée et résolvez 
 La ressource référencée par un nœud est introuvable au chemin d&#39;accès enregistré dans le fichier Substance 3D (SBS). Voici quelques nœuds référençant une ressource :
 
 * Un nœud d&#39;instance de graphe référence un graphe
-* Un nœud de ressource Scène référence une ressource de scène 3D bitmap
+* Un nœud de ressource de Scène fait référence à une ressource Scène 3D Bitmap
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
 Pour les nœuds d’instance de graphe
 
-Vérifiez que le graphique source existe dans le package situé au chemin enregistré dans leur attribut <b>Package</b>.\
-Si ce n&#39;est pas le cas, supprimez le nœud d&#39;instance et remplacez-le par un nœud d&#39;instance référençant un package valide. Vous pouvez également recréer le package et le graphique référencés par le nœud d&#39;instance, puis recharger le package hôte en cliquant sur *RMB* dans le panneau [Explorateur](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) et en sélectionnant l&#39;option <b>Recharger</b> dans le menu contextuel.
+Vérifiez que le graphe source existe dans le package situé au chemin d&#39;accès enregistré dans leur attribut <b>Package</b>.\
+Si ce n’est pas le cas, supprimez l’instancier et remplacez-le par un instancier faisant référence à un package valide. Vous pouvez également recréer le package et le graphe référencés par l&#39;instancier, puis recharger le package hôte en cliquant sur *RMB* dans le panneau [Explorateur](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) et en sélectionnant l&#39;option <b>Recharger</b> dans le menu contextuel.
 
-Pour les nœuds de ressource Scène
+Pour les nœuds de ressources de Scène
 
 Recherchez les ressources référencées dans le panneau [Explorateur](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) et vérifiez qu&#39;elles existent à l&#39;emplacement enregistré dans leur attribut <b>Chemin d&#39;accès</b>.\
-Si ce n&#39;est pas le cas, cliquez sur *RMB* sur l&#39;élément de ressource dans l&#39;Explorateur et sélectionnez l&#39;option <b>Déplacer...</b> dans le menu contextuel pour définir un nouveau fichier cible valide pour cette ressource.
+Si ce n&#39;est pas le cas, cliquez sur *RMB* sur l&#39;élément de ressource dans l&#39;Explorateur et sélectionnez l&#39;option <b>Redéfinir l&#39;emplacement...</b> dans le menu contextuel pour définir un nouveau fichier cible valide pour cette ressource.
 
 ![&#39;Ressource référencée introuvable&#39; solution](../../assets/warnings-model-referenced-resource.gif "&#39;Ressource référencée introuvable&#39; solution")
 
@@ -118,13 +118,13 @@ Ajustez la valeur par défaut ou la plage adoucie afin d’inclure la première 
 
 >[!NOTE]
 >
-> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour inclure la valeur par défaut. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
+> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour inclure la valeur par défaut. Seule la modification directe des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
-La plage souple ![&#x200B; ne contient pas la valeur « solution &#x200B;](../../assets/warnings-model-ranges.gif " » La plage souple ne contient pas la valeur « solution ") »
+La plage souple ![ ne contient pas la valeur « solution ](../../assets/warnings-model-ranges.gif " » La plage souple ne contient pas la valeur « solution ") »
 
 ### ![(erreur)](../../assets/error.svg) La plage souple est hors de la plage fixe
 
-La plage paramétrée et le paramètre exposé ne sont pas entièrement inclus dans la plage fixe définie pour ce paramètre.
+La plage paramétrée et le paramètre exposé ne sont pas entièrement inclus dans la plage paramétrée définie pour ce paramètre.
 
 <b> ![(tick)](../../assets/check.svg) Solution</b>
 
@@ -132,7 +132,7 @@ Ajustez la plage souple ou la plage stricte de sorte que la première soit enti�
 
 >[!NOTE]
 >
-> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour qu&#39;elle soit entièrement incluse dans la plage dure. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
+> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la plage souple pour qu&#39;elle soit entièrement incluse dans la plage dure. Seule la modification directe des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
 ![&#39;La plage souple est hors de la plage dure&#39; solution](../../assets/warnings-model-ranges.gif "&#39;La plage souple est hors de la plage dure&#39; solution")
 
@@ -146,6 +146,6 @@ Ajustez la valeur par défaut ou la plage fixe de manière à inclure la premiè
 
 >[!NOTE]
 >
-> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la valeur par défaut à inclure dans la plage fixe. Seule la modification des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
+> Cet avertissement ne peut pas être déclenché via l&#39;interface utilisateur, car il *ajuste automatiquement* la valeur par défaut à inclure dans la plage fixe. Seule la modification directe des données dans le fichier Substance 3D (SBS) *directement* peut déclencher cet avertissement.
 
 ![&#39;La valeur est hors plage&#39; solution](../../assets/warnings-model-ranges.gif "&#39;La valeur est hors plage&#39; solution")

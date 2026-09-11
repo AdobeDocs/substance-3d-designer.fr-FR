@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/creating-user-interface-elements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/creating-user-interface-elements.html"
 breadcrumb-title: ''
 description: Découvrez comment créer des éléments d’interface utilisateur dans les plug-ins Substance 3D Designer Python pour des expériences utilisateur interactives.
 helpx_creative_field: ""
@@ -192,7 +192,7 @@ mainWindow.addToolBar(QtCore.Qt.TopToolBarArea, toolbar)
 ```
 
 
-### Création de barres d’outils dans la vue Graphique
+### Création de barres d’outils dans Vue du graphe
 
 ```
 from functools import partial 
@@ -289,7 +289,7 @@ uiMgr.registerGraphViewCreatedCallback(
 ```
 
 
-### Création d’actions dans la barre d’outils Vue graphique
+### Création d’actions dans la barre d’outils Vue du graphe
 
 ```
 from functools import partial 

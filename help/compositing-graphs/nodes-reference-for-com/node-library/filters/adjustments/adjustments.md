@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
-description: Accédez aux nœuds de filtre de réglage dans Substance 3D Designer pour modifier la couleur, la luminosité, le contraste et d’autres propriétés de texture.
+description: Accédez aux noeuds de filtrage de réglage dans Substance 3D Designer pour modifier la couleur, la luminosité, le contraste et d’autres propriétés de texture.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Réglages
 
-Il s’agit de l’une des principales catégories de filtres, avec des nœuds destinés à ajuster les valeurs et les plages d’entrées de différentes manières. La plupart des nœuds sont une façon avancée et étendue d&#39;utiliser les nœuds [Levels](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) et [Blend](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Ils sont conçus comme des raccourcis plus intelligents pour certaines opérations.
+Il s’agit de l’une des principales catégories de filtres, avec des nœuds destinés à ajuster les valeurs et les plages d’entrées de différentes manières. La plupart des nœuds sont une façon avancée et étendue d&#39;utiliser les nœuds de [niveaux](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) et de [Fusion](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Ils sont conçus comme des raccourcis plus intelligents pour certaines opérations.
 
 Utilisez la <b>liste de navigation sur la gauche</b> pour parcourir tous les nœuds sous Réglages.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Normal pour traiter et manipuler les textures de map normal afin de contrôler les détails de la surface et l'éclairage.
 helpx_creative_field: ""
@@ -78,7 +78,7 @@ C&#39;est un nœud très utile qui est souvent utilisé pour convertir les entr�
 
 |  |  |
 | --- | --- |
-| <b>Intensité</b> *Flotter* | Modifie l’intensité de la map height.   Définit l’intensité de l’interprétation de la map height d’entrée pour la conversion en normales. En fonction des maps d&#39;entrée, les valeurs supérieures à 100 ont peu plus d’effet. |
+| <b>Intensité</b> *Flottant* | Modifie l’intensité de la map height.   Définit l’intensité de l’interprétation de la map height d’entrée pour la conversion en normales. En fonction des maps d&#39;entrée, les valeurs supérieures à 100 ont peu plus d’effet. |
 | <b>Format normal</b> *Booléen* | Inverse les coordonnées Y de la map height (OpenGL).   Définit le mode de codage de la couche verte (Y). En gros un commutateur « Flip Green/Y ». |
 | <b>Contenu Canal Alpha</b> *Booléen* | Remplissez le canal Alpha de la map normal avec la texture d’entrée.   Alpha de remplissage avec l’Alpha Entrée/Force sur 1 : permet de définir le Canal Alpha sur solide, au lieu d’utiliser l’entrée comme Alpha supplémentaire. |
 

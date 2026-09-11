@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Shape Glow pour ajouter des effets de lueur aux formes et aux textures afin de créer des effets visuels lumineux et atmosphériques.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Description
 
-Crée une lueur diffuse autour d’un masque d’entrée (pour la version en niveaux de gris) ou d’une forme avec une couche alpha (pour la version en couleurs). Comparé à [Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md), ce réglage est plus proche de celui d&#39;autres logiciels de retouche d&#39;images 2D, car il s&#39;agit d&#39;un effet plus complet avec plus de commandes.
+Crée une lueur diffuse autour d’un masque d’entrée (pour la version en niveaux de gris) ou d’une forme avec un canal Alpha (pour la version en couleurs). Comparé à [Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md), ce réglage est plus proche de celui d&#39;autres logiciels de retouche d&#39;images 2D, car il s&#39;agit d&#39;un effet plus complet avec plus de commandes.
 
 </td>
 </tr>

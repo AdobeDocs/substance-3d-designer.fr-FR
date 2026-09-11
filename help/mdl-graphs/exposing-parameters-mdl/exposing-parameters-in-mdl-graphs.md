@@ -55,15 +55,15 @@ Le connecteur d&#39;entrée peut être *supprimé* en cliquant à nouveau sur le
 
 En Graphe MDL, l&#39;expose d&#39;un paramètre au niveau du graphe - c&#39;est-à-dire qu&#39;il apparaît comme un paramètre d&#39;entrée de Matériau MDL - se fait en exposant le nœud qui produit la valeur.
 
-Les nœuds qui peuvent être exposés disposent d&#39;une option <b>Exposer</b> dans leur menu contextuel. Dans la plupart des cas, il s’agit de nœuds qui génèrent une valeur ou des données telles que les coordonnées Float, Color ou Texture.
+Les nœuds qui peuvent être exposés disposent d&#39;une option <b>Exposer</b> dans leur menu contextuel. Dans la plupart des cas, il s’agit de nœuds qui génèrent une valeur ou des données telles que les coordonnées de Flottant, de couleur ou de texture.
 
-Option ![« Exposer » dans le menu contextuel d&#39;un nœud](../../assets/mdl-expose-float-menu-hl.png "&quot;Option Exposer&quot; dans le menu contextuel d&#39;un nœud")
+Option ![« Exposer » dans le menu contextuel d&#39;un nœud](../../assets/mdl-expose-float-menu-hl.png "&amp;quot ; option Exposer&amp;quot ; dans le menu contextuel d&#39;un nœud")
 
-Option *« Exposer » dans le menu contextuel d&#39;un nœud*
+Option « Exposer » *dans le menu contextuel d&#39;un nœud*
 
-Le paramètre exposé est configuré directement dans le *nœud exposé*, et non dans les propriétés du graphique. Les propriétés des paramètres exposés sont les suivantes :
+Le paramètre exposé est configuré directement dans le *nœud exposé*, et non dans les propriétés du graphe. Les propriétés des paramètres exposés sont les suivantes :
 
-* <b>Identificateur</b> : nom unique de ce paramètre d&#39;entrée dans le graphique actuel
+* <b>Identifiant</b> : nom unique de ce paramètre d&#39;entrée dans le graphe actif
 * <b>Valeur par défaut</b> : valeur par défaut pour ce paramètre. Il peut également être utilisé comme *aperçu* de l&#39;aspect du paramètre d&#39;entrée dans Designer. Les propriétés <b>Nom d&#39;affichage</b>, <b>Dans le groupe</b> et <b>Plages</b> sont utilisées pour un aperçu le plus précis possible
 * <b>Plages</b> :
   * *Plage souple* : définit la plage par défaut du widget utilisé pour afficher ce paramètre, par exemple un curseur. Cette propriété n&#39;existe qu&#39;à des fins d&#39;interface et les valeurs au-delà de la plage souple peuvent être saisies manuellement
@@ -71,10 +71,10 @@ Le paramètre exposé est configuré directement dans le *nœud exposé*, et non
 * <b>Description</b> : description du paramètre
 * <b>Dans le groupe</b> : groupe de paramètres auquel appartient ce paramètre d&#39;entrée. S’il n’est pas vide, le paramètre s’affiche dans Designer dans le cadre d’une section réductible nommée d’après le groupe
 * <b>Nom d&#39;affichage</b> : nom du paramètre affiché dans l&#39;interface
-* <b>Masqué</b> : lorsque ce paramètre est défini sur True, il n&#39;est pas visible dans les entrées de graphique et les propriétés de matière MDL
-* <b>Type de gamma</b> : gamma qui doit être utilisé lors de l&#39;échantillonnage des valeurs d&#39;une texture connectée à ce paramètre
+* <b>Masqué</b> : lorsqu&#39;il est défini sur True, le paramètre n&#39;est pas visible dans les entrées de graphe et les propriétés de Matériau MDL
+* <b>Type de gamma</b> : gamma qui doit être utilisé lors de l&#39;échantillonnage des valeurs à partir d&#39;une texture liée à ce paramètre
 * <b>Visible par défaut</b> : définit la visibilité de ce paramètre dans les intégrations MDL dans les cas où certains paramètres peuvent être masqués
-* <b>Modificateur de type</b> : définit si la valeur est uniforme ou variable. Lorsqu’il est défini sur auto, le paramètre hérite de cette propriété à partir de son entrée (par exemple, pour une valeur Float : uniforme lorsqu’il est connecté à un objet Float, variable lorsqu’il est connecté à une texture)
+* <b>Modificateur de type</b> : définit si la valeur est uniforme ou variable. Lorsqu’il est défini sur auto, le paramètre hérite de cette propriété à partir de son entrée (par exemple, pour une valeur de Flottant : uniforme lors de la connexion à un Flottant, variable lors de la connexion à une texture)
 * <b>Utilisation de Sampler</b> : identifiant de l&#39;utilisation du paramètre, qui est utilisé pour *connecter la texture appropriée* s lorsque plusieurs sorties sont connectées à un Matériau MDL à la fois. Par exemple, lors de la connexion d&#39;un [graphe de Substance](../../compositing-graphs/substance-compositing-graphs.md) à un Matériau MDL dans la vue 3D, les textures sont connectées aux entrées correctes en fonction de leur identifiant d&#39;utilisation.
 
 >[!WARNING]

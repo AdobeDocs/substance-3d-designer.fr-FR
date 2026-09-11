@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Pièce de duplication pour cloner et corriger des zones dans des matériaux numérisés afin de supprimer des artefacts et des imperfections.
+description: Utilisez le nœud Correctif de Clone pour cloner et corriger des zones dans les matériaux numérisés afin de supprimer des artefacts et des imperfections.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Pièce de duplication
+title: Correctif de clone
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Pièce de duplication
+# Correctif de clone
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Description
 
-Le patch de duplication est un nœud paramétrique procédural « Clone Stamp ». Il duplique une zone d’une entrée vers une autre, masquant ainsi les détails potentiellement indésirables. Bien qu&#39;il ne soit pas aussi rapide et facile que d&#39;utiliser un outil familier dans une application à base de pinceaux, il offre l&#39;avantage clé d&#39;être non destructif et de travailler dans un workflow basé sur les nœuds. En outre, ce nœud effectue une analyse intelligente de la zone cible et de la zone source, et tente de fusionner les éléments aussi bien que possible en fonction du contraste, des valeurs et des formes.
+Clone Patch est un nœud procédural et paramétrique de type « Tampon de Clone ». Il duplique une zone d’une entrée vers une autre, masquant ainsi les détails potentiellement indésirables. Bien qu&#39;il ne soit pas aussi rapide et facile que d&#39;utiliser un outil familier dans une application à base de pinceaux, il offre l&#39;avantage clé d&#39;être non destructif et de travailler dans un workflow basé sur les nœuds. En outre, ce nœud effectue une analyse intelligente de la zone cible et de la zone source, et tente de fusionner les éléments aussi bien que possible en fonction du contraste, des valeurs et des formes.
 
 Cette fonctionnalité est principalement destinée aux rares moments où vous souhaitez effectuer une correction manuelle d’une zone spécifique, au cas où il y aurait un détail indésirable quelque part.
 
@@ -45,9 +45,9 @@ Il est également important de comprendre que vous pouvez déplacer la zone cibl
 
 >[!NOTE]
 >
-> Si vous le souhaitez pour un matériau complet (comme c&#39;est le plus souvent le cas), consultez [Pièce de duplication de matériau](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
+> Si vous souhaitez obtenir un matériau complet (comme c&#39;est le cas le plus souvent), consultez [Correctif de Clone de Matériau](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
 > 
-> Pour les cas où vous souhaitez effectuer cette opération sur plusieurs entrées en même temps (sans qu&#39;il s&#39;agisse d&#39;un matériau), consultez [Pièce à plusieurs clones](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
+> Pour les cas où vous souhaitez effectuer cette opération sur plusieurs entrées en même temps (sans qu&#39;il s&#39;agisse d&#39;un matériau), consultez [Correctif multi-Clones](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
 </td>
 </tr>

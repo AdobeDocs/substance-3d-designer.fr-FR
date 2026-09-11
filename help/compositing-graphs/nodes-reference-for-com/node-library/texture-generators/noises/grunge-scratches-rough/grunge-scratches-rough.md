@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Brut d’Usure/salissures Scratches pour ajouter des motifs de rayures bruts afin de créer des effets d’usure et d’endommagement importants.
 helpx_creative_field: ""
@@ -52,17 +52,17 @@ Le nœud **Usure/salissures Scratches Rough** génère une carte usure/salissure
 | <b>Avancé</b> |  |
 | <b>Quantité de rayures</b> <i>Flottant</i> | Règle la quantité de rayures sur la surface. |
 | <b>Répétition de travail</b> <i>Entier</i> | Ajuste la quantité de répétition appliquée aux rayures. |
-| <b>Flou de travail</b> <i>Flotter</i> | Règle le flou des rayures. |
-| <b>Largeur de travail</b> <i>Flotter</i> | Ajuste la largeur des rayures. |
-| <b>Longueur de rayure</b> <i>Flotter</i> | Règle la longueur des rayures. |
-| <b>Masquage de rayure</b> <i>Flotter</i> | Règle l’intensité du masquage appliqué sur certaines parties des rayures. |
-| <b>Sale Des Rayures</b> <i>Flotter</i> | Règle l’encrassement des rayures, ce qui a pour effet de rompre leur netteté et leur continuité. |
-| <b>Double rayure</b> <i>Flotter</i> | Règle l’opacité d’une deuxième rayure appliquée à côté de chaque rayure avec un léger effet de déformation. |
-| <b>Intensité des défauts de rayure</b> <i>Flotter</i> | Règle l’intensité des taches endommagées appliquées le long des rayures. |
-| <b>Répétition des défauts de rayure</b> <i>Nombre entier</i> | Règle la répétition des points endommagés. |
-| <b>Intensité du Dust</b> <i>Flotter</i> | Règle l’intensité de l’incrustation du dust. |
-| <b>Répétition de Dust</b> <i>Nombre entier</i> | Ajuste la répétition de l’incrustation du dust. |
-| <b>Netteté</b> <i>Flotter</i> | Règle l’intensité de l’effet de netteté globale. |
+| <b>Flou de travail</b> <i>Flottant</i> | Règle le flou des rayures. |
+| <b>Largeur de travail</b> <i>Flottant</i> | Ajuste la largeur des rayures. |
+| <b>Longueur de rayure</b> <i>Flottant</i> | Règle la longueur des rayures. |
+| <b>Masquage de rayure</b> <i>Flottant</i> | Règle l’intensité du masquage appliqué sur certaines parties des rayures. |
+| <b>Sale Des Rayures</b> <i>Flottant</i> | Règle l’encrassement des rayures, ce qui a pour effet de rompre leur netteté et leur continuité. |
+| <b>Double rayure</b> <i>Flottant</i> | Règle l’opacité d’une deuxième rayure appliquée à côté de chaque rayure avec un léger effet de déformation. |
+| <b>Intensité des défauts de rayure</b> <i>Flottant</i> | Règle l’intensité des taches endommagées appliquées le long des rayures. |
+| <b>Répétition des défauts de rayure</b> <i>Entier</i> | Règle la répétition des points endommagés. |
+| <b>Intensité du Dust</b> <i>Flottant</i> | Règle l’intensité de l’incrustation du dust. |
+| <b>Répétition de Dust</b> <i>Entier</i> | Ajuste la répétition de l’incrustation du dust. |
+| <b>Netteté</b> <i>Flottant</i> | Règle l’intensité de l’effet de netteté globale. |
 
 ## Exemples
 

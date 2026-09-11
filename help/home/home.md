@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser Substance 3D Designer pour créer des matières procédurales, des textures et des ressources 3D à l’aide de workflows basés sur les nœuds.
+description: Apprenez à utiliser Substance 3D Designer pour créer des matériaux, des textures et des ressources 3D procéduraux à l’aide de workflows basés sur les nœuds.
 helpx_creative_field: ""
 helpx_description: Designer > User guide
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 ![Fenêtre principale de Substance 3D Designer](../assets/sdsummerinterface.jpg "Fenêtre principale de Substance 3D Designer")
 
-[Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) est un logiciel de création de matériaux. Il vous permet d’utiliser un graphique à nœuds pour générer des textures à partir de bruits et de motifs procéduraux, ainsi que pour manipuler des images bitmap.
+[Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) est un logiciel de création de matériaux. Il vous permet d’utiliser un graphe de nœud pour générer des textures à partir de motifs et de bruits procéduraux, ainsi que pour manipuler des images bitmap.
 
 Un mot ou un concept de Designer vous échappe ? Consultez notre [glossaire](../glossary/glossary.md) pour en savoir plus.
 
@@ -53,7 +53,7 @@ Si vous avez une question à laquelle ce manuel ne répond pas, n’hésitez pas
 * [Explorateur](../interface/the-explorer-window/the-explorer-window.md) : cette page décrit le dock Explorateur dans Adobe Substance 3D Designer. Ce dock vous permet de gérer les packages et leurs ressources.
 * [Vue du graphe](../interface/the-graph-view/the-graph-view.md) : cette page présente la Vue du graphe de Substance 3D Designer.
 * [Bibliothèque](../interface/the-library/the-library.md) : cette page présente le panneau Bibliothèque de Substance 3D Designer, sa mise en page ainsi que les outils qu’il propose pour la recherche et le filtrage de contenu.
-* [Propriétés](../interface/properties/properties.md) : cette page présente le panneau Propriétés de Substance 3D Designer, sa mise en page, ainsi que les différents déploiements, catégories et paramètres disponibles. Il est axé sur les propriétés des graphes Substance. Les graphiques de fonction Substance et FX-Map ont une mise en page plus simple.
+* [Propriétés](../interface/properties/properties.md) : cette page présente le panneau Propriétés de Substance 3D Designer, sa mise en page, ainsi que les différents déploiements, catégories et paramètres disponibles. Il est axé sur les propriétés des graphes Substance. Les graphes de fonction de Substance et les graphes FX-Map ont des mises en page plus simples.
 * [Vue 2D](../interface/2d-view/2d-view.md) : cette page décrit l’interface utilisateur et les fonctionnalités du panneau Vue 2D dans Substance 3D Designer.
 * [Vue 3D](../interface/3d-view/3d-view.md) : la vue 3D vous permet d’afficher et de comprendre vos matériaux avec des maillages personnalisés et des matériaux PBR rendus.
 * [Gestionnaire de dépendances](../interface/dependency-manager/dependency-manager.md)

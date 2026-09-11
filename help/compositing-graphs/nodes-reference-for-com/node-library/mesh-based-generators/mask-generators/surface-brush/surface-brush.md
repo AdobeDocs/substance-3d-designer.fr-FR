@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Pinceau de surface pour générer des masques en fonction de l'orientation de la surface afin de créer des effets directionnels d'usure.
+description: Utilisez le nœud Pinceau de surface pour générer des masques en fonction de l'orientation de la surface afin de créer des effets d'altération et d'usure directionnels.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Surface Brush
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Ce masque représente un effet intéressant de brossage du métal sur une surface de l&#39;objet, occulté par la géométrie de l&#39;objet et l&#39;AO.
 
@@ -47,9 +47,9 @@ Ce masque représente un effet intéressant de brossage du métal sur une surfac
 
 |  |  |
 |:---|:---|
-| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> |  |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Position</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 

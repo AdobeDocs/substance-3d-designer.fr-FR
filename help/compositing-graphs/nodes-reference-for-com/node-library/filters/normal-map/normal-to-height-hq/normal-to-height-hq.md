@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
-description: Utilisez le nœud du siège de la fonction Normal à l'Height pour convertir les cartes de normales en cartes d'height de haute qualité pour l'extraction des détails de surface.
+description: Utilisez le nœud HQ Normal à l'Height pour convertir les maps normal en maps height de haute qualité pour l'extraction des détails de surface.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Nœud de conversion inverse qui tente de reconvertir une carte normale d&#39;espace tangent en carte de hauteur. Il s&#39;agit du nœud le plus avancé ; l&#39;option [Normal à l&#39;Height](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md) offre moins d&#39;options et utilise des calculs différents.
+Nœud de conversion inverse qui tente de reconvertir un espace de tangente Normalmap en Heightmap. Il s&#39;agit du nœud le plus avancé ; l&#39;option [Normal à l&#39;Height](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md) offre moins d&#39;options et utilise des calculs différents.
 
 Utile lorsque vous n&#39;avez qu&#39;une source Normalmap, mais que vous souhaitez néanmoins effectuer des opérations la combinant avec une carte de hauteur. Gardez à l’esprit que cela ne permettra jamais d’obtenir un résultat correct à 100 %, car les informations sont perdues par nature lors de la conversion de l’Height en normalité. Il ne peut jamais remplacer une carte de hauteur correctement générée !
 

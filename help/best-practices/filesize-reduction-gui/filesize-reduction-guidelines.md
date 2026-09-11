@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
-description: Découvrez les consignes à suivre pour réduire la taille des fichiers de graphiques en Substance afin d’optimiser les performances et les besoins de stockage.
+description: Découvrez les consignes à suivre pour réduire la taille des fichiers graphes de Substance afin d’optimiser les performances et les exigences de stockage.
 helpx_creative_field: ""
 helpx_description: Designer > Best Practices > Filesize Reduction Guidelines
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 Dans certains cas, la taille totale des fichiers de [ressources Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) peut être un facteur important. Cette page couvre quelques domaines et paramètres importants à garder à l’esprit lorsque vous tentez de réduire la taille des fichiers.
 
-La taille des fichiers est principalement déterminée par les [bitmaps incorporés](../../resources/bitmap-resource/bitmap-resource.md). Ce sont des fichiers liés, incorporés ou préparés et ajoutés au fichier [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) (SBS) en tant que ressource. Seules les images bitmap utilisées dans un graphique (c’est-à-dire connectées à une sortie directement ou via la chaîne de nœuds) sont publiées dans la ressource Substance 3D. Dans un fichier Substance 3D, les bitmaps n’ont aucun impact sur la taille du fichier, car toutes les ressources bitmap sont toujours stockées en dehors du fichier.
+La taille des fichiers est principalement déterminée par les [bitmaps incorporés](../../resources/bitmap-resource/bitmap-resource.md). Ce sont des fichiers liés, incorporés ou bakés et ajoutés au fichier [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) (SBS) en tant que ressource. Seules les images bitmap utilisées dans un graphe, c’est-à-dire connectées à une sortie directement ou via la chaîne de nœuds, sont publiées dans la ressource Substance 3D. Dans un fichier Substance 3D, les bitmaps n’ont aucun impact sur la taille du fichier, car toutes les ressources bitmap sont toujours stockées en dehors du fichier.
 
 >[!IMPORTANT]
 >
-> Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *absolue*. Si ce n&#39;est pas le cas, leur [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md) référencée sera enregistrée à la résolution 256\*256 par défaut dans le fichier de ressources Substance 3D publié, ce qui* impactera la qualité* d&#39;une ou plusieurs sorties.
+> Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la *méthode d&#39;héritage absolue* [](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Si ce n&#39;est pas le cas, leur [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md) référencée sera enregistrée à la résolution 256\*256 par défaut dans le fichier de ressources Substance 3D publié, ce qui* impactera la qualité* d&#39;une ou plusieurs sorties.
 
 ## Facteurs de taille de fichier
 
@@ -53,8 +53,8 @@ Le format de fichier de vos images fait une différence, bien qu’elle puisse �
 
 +++
 
-+++Utilisation dans le graphique
-Le mode défini pour le nœud Bitmap influe également sur la manière dont Designer compresse le fichier. L’utilisation d’un fichier en mode Niveaux de gris comme image bitmap couleur dans le graphique produit des fichiers plus volumineux. Assurez-vous de les définir correctement !
++++Utilisation dans graphe
+Le mode défini pour le nœud Bitmap a également un effet sur la façon dont Designer compresse le fichier. L’utilisation d’un fichier en mode Niveaux de gris comme image bitmap couleur dans le graphe produit des fichiers plus volumineux. Assurez-vous de les définir correctement !
 
 *Trouvé dans :[Propriétés du nœud bitmap.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)*
 
@@ -63,14 +63,14 @@ Le mode défini pour le nœud Bitmap influe également sur la manière dont Desi
 +++Format bitmap dans le package
 Dans les propriétés de la ressource, vous pouvez choisir entre la compression « Brut » et « Jpeg ». Cela peut avoir un effet considérable sur le résultat final.
 
-*Trouvé dans : Propriétés de la ressource Bitmap, via la fenêtre de l&#39;Explorateur.*
+*Trouvé dans : Propriétés de ressource Bitmap, via la fenêtre Exploratrice.*
 
 +++
 
 +++Qualité de compression bitmap dans le package
 Lors de l’utilisation du format bitmap « Jpeg », le curseur ci-dessous peut affecter la qualité et la taille du fichier. Ce curseur n&#39;a pas un comportement très prévisible, mais 1 tend à correspondre à la compression JPG de qualité la plus élevée, et 0,5 tend à donner la plus petite taille.
 
-*Trouvé dans : Propriétés de la ressource Bitmap, via la fenêtre de l&#39;Explorateur.*
+*Trouvé dans : Propriétés de ressource Bitmap, via la fenêtre Exploratrice.*
 
 +++
 
@@ -83,9 +83,9 @@ Lors de la publication sur SBSAR, vous avez le choix entre « Auto », « Optima
 
 ## Comparaison des tailles de fichiers
 
-Le tableau ci-dessous illustre l’influence réciproque de tous les paramètres. L’image bitmap utilisée est une image 4 096 x 4 096 de bruit généré, exportée à partir de Photoshop en tant que TGA 24 bits ou JPG en qualité 8. Les balises ont également été exportées en mode Niveaux de gris et RVBA.
+Le tableau ci-dessous illustre l’influence réciproque de tous les paramètres. Le bitmap utilisé est une image 4 096 x 4 096 de bruit généré, exportée à partir de Photoshop en tant que TGA 24 bits ou JPG en qualité 8. Les balises ont également été exportées en mode Niveaux de gris et RVBA.
 
-Le graphique ne place qu’un seul nœud Bitmap connecté à une seule sortie. Le mode Bitmap est défini en fonction du mode du fichier source.
+Le Graphe place simplement un seul nœud Bitmap connecté à une seule sortie. Le mode Bitmap est défini en fonction du mode du fichier source.
 
 Bien que le tableau de droite ne soit pas entièrement concluant, voici ce qui peut être appris en comparant les résultats visuels et les tailles de fichiers :
 
@@ -98,7 +98,7 @@ Bien que le tableau de droite ne soit pas entièrement concluant, voici ce qui p
 >
 > **Format Bitmap Jpeg**
 > 
-> Il est important de noter que les cartes spéciales qui nécessitent une grande précision, telles que les cartes de normales, les cartes vectorielles et autres, ne doivent probablement pas être définies sur la compression Jpeg, car cela conduira à des artefacts beaucoup plus visibles !
+> Il est important de noter que les cartes spéciales qui nécessitent une grande précision, telles que les Maps normal, les cartes vectorielles et autres, ne doivent probablement pas être définies sur la compression Jpeg, car cela conduira à des artefacts beaucoup plus visibles !
 
 | Image source | Balise de couleur | Mot de passe JPG couleur | Grayscale TGA | Mot de passe JPG Niveaux de gris |
 | --- | --- | --- | --- | --- |

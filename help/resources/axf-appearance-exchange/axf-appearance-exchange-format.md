@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
-description: Découvrez comment importer et utiliser les ressources de format d’exchange d’apparence AxF dans Substance 3D Designer pour l’importation de matières.
+description: Découvrez comment importer et utiliser des ressources de format d’exchange d’apparence AxF dans Substance 3D Designer pour l’importation de matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
 helpx_experience_level: ""
@@ -24,41 +24,41 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-Icône de fichier [![AxF](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
+Icône [![Fichier AxF](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Substance 3D Designer prend en charge le format d&#39;exchange d&#39;apparence de [X-Rite.](https://www.xrite.com/axf) Les créateurs du format le décrivent comme suit :
 
-«Les fichiers AxF sont utilisés pour capturer, stocker, modifier et communiquer les caractéristiques complexes des matériaux tout au long du flux de conception numérique. AxF fournit un moyen standard de stocker et de partager toutes les données d&#39;apparence pertinentes (couleur, texture, brillance, réfraction, translucidité, effets spéciaux (étincelles) et propriétés de réflexion) dans des applications de gestion du cycle de vie des produits (PLM), de conception assistée par ordinateur (CAO) et de rendu de pointe.»
+«Les Fichiers AxF sont utilisés pour capturer, stocker, modifier et communiquer les caractéristiques de matériaux complexes tout au long du processus de conception numérique. AxF fournit un moyen standard de stocker et de partager toutes les données d&#39;apparence pertinentes (couleur, texture, brillance, réfraction, translucency, effets spéciaux (étincelles) et propriétés de réflexion) dans des applications de gestion du cycle de vie des produits (PLM), de conception assistée par ordinateur (CAO) et de rendu de pointe.»
 
 </td>
 </tr>
 </table>
 
-En termes simples, les fichiers AxF hébergent un certain nombre de textures extraites par le matériel de scanner TAC7 de X-Rite, associées à des métadonnées qui décrivent des propriétés supplémentaires du matériau. Cela signifie qu&#39;un AxF est plus que de simples données de texture : il comporte également des propriétés d&#39;ombrage.
+En termes simples, les Fichiers AxF hébergent un certain nombre de textures extraites par le matériel de scanner TAC7 de X-Rite, associées à des métadonnées qui décrivent des propriétés supplémentaires du matériau. Cela signifie qu&#39;un AxF est plus que de simples données de texture : il comporte également des propriétés d&#39;ombrage.
 
-Les fichiers AxF ne sont *pas* importés en tant que package [ressource](../../resources/resources.md). Le [processus d&#39;importation](#import) implique plutôt l&#39;extraction des textures et des métadonnées du fichier AxF, puis leur utilisation pour préparer des graphiques créés à partir de [modèles dédiés](#graph-templates).
+Les fichiers AxF ne sont *pas* importés en tant que package [ressource](../../resources/resources.md). Le [processus d&#39;importation](#import) implique plutôt l&#39;extraction des textures et des métadonnées du Fichier AxF, puis leur utilisation pour préparer des graphes créés à partir de [modèles dédiés](#graph-templates).
 
 Les modèles disponibles s’adressent à deux workflows AxF :
 
-* <b>conversion</b> d&#39;un matériau SVBRDF dans un fichier AxF en un matériau PBR ;
-* <b>Modification</b> d&#39;un matériau SVBRDF en place et [exportation](#export) vers un fichier AxF existant en tant que nouveau calque.
+* <b>conversion</b> d&#39;un matériau SVBRDF dans un Fichier AxF en matériau PBR ;
+* <b>Modification</b> d&#39;un matériau SVBRDF en place et [exportation](#export) vers un Fichier AxF existant en tant que nouveau calque.
 
 >[!NOTE]
 >
 > Modèles de matériau pris en charge
 > 
-> Seules les matières utilisant un modèle <b>SVBRDF</b> (BRDF à variation spatiale) peuvent être *entièrement* chargées et modifiées dans Designer.
+> Seuls les matériaux utilisant un modèle <b>SVBRDF</b> (BRDF à variation spatiale) peuvent être *entièrement* chargés et modifiés dans Designer.
 > 
-> Les matériaux utilisant le modèle <b>EP-SVBRDF</b> (SVBRDF de préservation d&#39;énergie) peuvent être chargés, mais seules les fonctionnalités existantes dans le modèle SVBRDF peuvent être modifiées et visualisées. Les fonctionnalités exclusives à EP-SVBRDF ne sont pas prises en charge.
+> Les matériaux utilisant le modèle <b>EP-SVBRDF</b> (Energy Preserving SVBRDF) peuvent être chargés, mais seules les fonctions du modèle SVBRDF peuvent être modifiées et visualisées. Les fonctionnalités exclusives à EP-SVBRDF ne sont pas prises en charge.
 > 
 > Les autres modèles ne sont pas pris en charge.
 
-## Importation de fichiers AxF
+## Importation de Fichiers AxF
 
-Le workflow d’importation des fichiers AxF peut être démarré à partir de l’une des deux méthodes ci-dessous :
+Le workflow d’importation de Fichiers AxF peut être démarré à partir de l’une des deux méthodes ci-dessous :
 
 +++Écran d’accueil
 
@@ -72,40 +72,40 @@ Cliquez sur le bouton <b>Importer AxF...</b> dans la section de gauche de l&#39;
 
 Cliquez sur RMB sur un pack dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), puis accédez à <b>Importer > AxF</b> dans le menu contextuel du pack.
 
-![AxF : démarrer l&#39;importation à partir de l&#39;Explorateur](../../assets/axf_explorer.png "AxF : démarrer l&#39;importation à partir de l&#39;Explorateur"){width="600px"}
+![AxF : commencer l&#39;importation à partir de l&#39;Explorateur](../../assets/axf_explorer.png "AxF : commencer l&#39;importation à partir de l&#39;Explorateur"){width="600px"}
 
 +++
 
 ### Boîte de dialogue Importer
 
-La boîte de dialogue <b>Importation AxF</b> vous permet de vérifier les données chargées à partir du fichier AxF sélectionné et de configurer les modèles de graphiques requis pour effectuer les modifications ou conversions prévues.
+La boîte de dialogue <b>Importation AxF</b> vous permet de vérifier les données chargées à partir du Fichier AxF sélectionné et de configurer les modèles de graphe requis pour effectuer les modifications ou conversions prévues.
 
 Il comporte quatre sections :
 
-L&#39;<b>En-tête</b> affiche le nom du matériau détecté dans le fichier AxF, ainsi que sa représentation (actuellement, toujours SVBRDF). La vignette d’aperçu incorporée au fichier s’affiche également.
+L&#39;<b>En-tête</b> affiche le nom du matériau détecté dans le Fichier AxF, ainsi que sa représentation (actuellement, toujours SVBRDF). La vignette d’aperçu incorporée au fichier s’affiche également.
 
-La section <b>Modèles</b> vous permet de configurer le modèle de [graphique à Substances](../../compositing-graphs/substance-compositing-graphs.md) pour commencer à travailler sur le matériau. Consultez la section [Modèles de graphique](#graph-templates) ci-dessous pour en savoir plus sur ces modèles et leur configuration.
+La section <b>Modèles</b> vous permet de configurer le modèle [Substance de graphes](../../compositing-graphs/substance-compositing-graphs.md) pour commencer à travailler sur le matériau. Consultez la section [Modèles de Graphe](#graph-templates) ci-dessous pour en savoir plus sur ces modèles et leur configuration.
 
-<b>Textures</b> répertorie toutes les textures extraites du fichier AxF impliqué dans le matériau détecté. Le nom, la résolution native, le format de données et la taille physique de chaque texture sont affichés.
+<b>Textures</b> répertorie toutes les textures extraites du Fichier AxF impliqué dans le matériau détecté. Pour chaque texture, son nom, sa résolution native, son format de données et sa taille physique sont affichés.
 
-Les <b>métadonnées</b> et les <b>propriétés</b> répertorient les données extraites du matériau dans le fichier AxF. Cela a un impact sur la configuration de certaines propriétés de modèles de graphiques de Substance de données (voir la section [Modèles de graphiques](#graph-templates) ci-dessous).
+Les <b>métadonnées</b> et les <b>propriétés</b> répertorient les données extraites du matériau dans le Fichier AxF. Cela a un impact sur la configuration de certaines propriétés de modèles de graphe de Substance (voir la section [Modèles de Graphe](#graph-templates) ci-dessous).
 
 ![AxF : boîte de dialogue Importer](../../assets/axf_import.png "AxF : boîte de dialogue Importer")
 
 ### Résultat
 
-Après avoir cliqué sur le bouton <b>OK</b>, un package est créé dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md). Le package comprend les ressources suivantes :
+Après avoir cliqué sur le bouton <b>OK</b>, un pack est créé dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md). Le package comprend les ressources suivantes :
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Un dossier <b>Ressources</b> héberge un *sous-dossier* pour chaque matériau importé à partir du fichier AxF.
+Un dossier <b>Ressources</b> héberge un *sous-dossier* pour chaque matériau importé du Fichier AxF.
 
-Chaque sous-dossier comprend un autre sous-dossier qui contient les *textures* extraites du fichier AxF pour ce matériau. Ce dernier sous-dossier porte le nom du matériau *représentation* utilisé par les textures (actuellement uniquement <b>SVBRDF</b>).
+Chaque sous-dossier comprend un autre sous-dossier qui contient les *textures* extraites du Fichier AxF pour ce matériau. Ce dernier sous-dossier porte le nom du matériau *représentation* utilisé par les textures (actuellement uniquement <b>SVBRDF</b>).
 
-Un graphique pour chaque modèle configuré dans la section <b>Modèles</b> de la boîte de dialogue d&#39;importation.\
-Dans le cas des [graphiques de Substances](../../compositing-graphs/substance-compositing-graphs.md), ils sont préconfigurés avec les textures et les données extraites du fichier AxF, ainsi que les paramètres de modèle sélectionnés (voir la section Modèles de graphiques ci-dessous).
+Un graphe pour chaque modèle configuré dans la section <b>Modèles</b> de la boîte de dialogue d&#39;importation.\
+Dans le cas des [graphes de Substance de données](../../compositing-graphs/substance-compositing-graphs.md), ceux-ci sont préconfigurés avec les textures et les données extraites du Fichier AxF, ainsi que les paramètres de modèle que vous avez sélectionnés (voir la section Modèles de Graphe ci-dessous).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -116,15 +116,15 @@ Dans le cas des [graphiques de Substances](../../compositing-graphs/substance-co
 </tr>
 </table>
 
-## Modèles de graphiques
+## Modèles de graphe
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Il existe des modèles de graphiques dédiés aux workflows AxF pour les [graphiques de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Il existe des modèles de graphe dédiés aux workflows AxF pour les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-Cliquez sur le bouton <b>Ajouter un modèle</b> et sélectionnez le type de graphique souhaité dans le menu déroulant.
+Cliquez sur le bouton <b>Ajouter un modèle</b> et sélectionnez le type de graphe souhaité dans le menu déroulant.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -135,23 +135,23 @@ Cliquez sur le bouton <b>Ajouter un modèle</b> et sélectionnez le type de grap
 </tr>
 </table>
 
-### Modèles de graphiques de Substance
+### Modèles de graphe de Substance
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Deux types de modèles de graphiques de Substance sont disponibles :
+Deux types de modèles de graphe de Substance sont disponibles :
 
-Les modèles <b>AxF à rugosité métallique</b> et <b>AxF à brillance au Specular</b> sont des modèles de *conversion* qui vous permettent de mapper les matériaux AxF aux modèles PBR standard.\
-Ils peuvent ensuite être utilisés avec les nuanceurs 3D View par défaut et combinés avec d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
+Les modèles <b>AxF vers Métallique rugosité</b> et <b>AxF vers Specular Brillance</b> sont des modèles *de conversion* qui vous permettent de mapper les matériaux AxF vers des modèles PBR standard.\
+Ils peuvent ensuite être utilisés avec les nuanceurs vue 3D par défaut et associés à d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
 
-<b>AxF à AxF</b> est un modèle *transparent* qui vous permet de modifier les matériaux AxF en place et d&#39;exporter ces modifications sous forme de nouveaux calques dans les fichiers AxF existants. Voir Exportation de fichiers AxF ci-dessous pour en savoir plus.
+<b>AxF à AxF</b> est un modèle *transparent* qui vous permet de modifier les matériaux AxF en place et d&#39;exporter ces modifications sous forme de nouveaux calques dans les Fichiers AxF existants. Voir Exportation de Fichiers AxF ci-dessous pour en savoir plus.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF : modèles de graphiques de Substance](../../assets/axf-templates.png "AxF : modèles de graphiques de Substance")
+![AxF : modèles de graphe de Substance](../../assets/axf-templates.png "AxF : modèles de graphe de Substance")
 
 </td>
 </tr>
@@ -161,45 +161,45 @@ Ils peuvent ensuite être utilisés avec les nuanceurs 3D View par défaut et co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Pour tous les modèles de graphique de Substance ajoutés dans la liste <b>Modèles</b>, les opérations supplémentaires suivantes sont effectuées :
+Pour tous les modèles de graphe de Substance ajoutés dans la liste <b>Modèles</b>, les opérations supplémentaires suivantes sont effectuées :
 
-Pour tout nœud [<b>d&#39;entrée</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) dont l&#39;*utilisation* correspond à l&#39;*identificateur* d&#39;une texture extraite du fichier AxF, ce nœud d&#39;entrée est remplacé par un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) référençant cette texture ;
+Pour tout nœud [<b>d&#39;entrée</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) dont l&#39;*utilisation* correspond à l&#39;*identifiant* d&#39;une texture extraite du Fichier AxF, ce Noeud d&#39;entrée est remplacé par un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) référençant cette texture ;
 
-La propriété <b>Résolution</b> du graphique (c&#39;est-à-dire Taille de la sortie) est automatiquement définie sur la puissance de deux égale ou supérieure à la résolution de la texture extraite *la plus grande* ;
+La propriété <b>Résolution</b> du graphe (c&#39;est-à-dire Taille de la sortie) est automatiquement définie sur la puissance de deux égale ou supérieure à la résolution de la texture extraite *la plus grande* ;
 
-La propriété <b>Résolution</b> des nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) (c&#39;est-à-dire Taille de la sortie) est automatiquement définie pour correspondre à celle du graphique, après l&#39;application de l&#39;opération précédente ;
+La propriété <b>Résolution</b> des nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) (c&#39;est-à-dire Taille de la sortie) est automatiquement définie pour correspondre à celle du graphe, après l&#39;application de l&#39;opération précédente ;
 
-La propriété <b>Taille physique</b> du graphique est définie sur la taille physique de la *première* texture extraite ;
+La propriété <b>Taille physique</b> du graphe est définie sur la taille physique de la *première* texture extraite ;
 
-Les *valeurs par défaut* des paramètres du graphique sont définies pour correspondre aux données du fichier AxF.
+Les *valeurs par défaut* des paramètres du graphe sont définies pour correspondre aux données du Fichier AxF.
 
-Les *métadonnées* extraites du matériau dans le fichier AxF sont copiées dans la propriété <b>Description</b> du graphique.
+Les *métadonnées* extraites du matériau dans le Fichier AxF sont copiées dans la propriété <b>Description</b> du graphe.
 
 >[!IMPORTANT]
 >
-> Les valeurs par défaut des paramètres du graphique ne doivent pas être modifiées après cette configuration initiale.
+> Les valeurs par défaut des paramètres du graphe ne doivent pas être modifiées après cette configuration initiale.
 > 
 > Ils spécifient les propriétés d’ombrage indispensables pour interpréter correctement les valeurs des textures.
 > 
-> Par conséquent, la modification de ces paramètres entraînera un rendu incorrect lors de la visualisation de la matière dans la [vue 3D](../../interface/3d-view/3d-view.md).
+> Par conséquent, la modification de ces paramètres entraînera un rendu incorrect lors de la visualisation du matériau dans la [vue 3D](../../interface/3d-view/3d-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF : paramètres de graphique de Substance](../../assets/axf_graph-props.png "AxF : paramètres de graphique de Substance")
+![AxF : paramètres de graphe de Substance](../../assets/axf_graph-props.png "AxF : paramètres de graphe de Substance")
 
 </td>
 </tr>
 </table>
 
-## Exportation de fichiers AxF
+## Exportation de Fichiers AxF
 
-Les fichiers AxF existants peuvent être modifiés directement depuis Designer, leurs ressources sont mises à jour à l&#39;aide des [sorties](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) d&#39;un [graphique de Substances](../../compositing-graphs/substance-compositing-graphs.md).
+Les Fichiers AxF existants peuvent être modifiés sur place à partir de Designer, leurs ressources sont mises à jour à l&#39;aide des [sorties](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) d&#39;un [graphe de Substances](../../compositing-graphs/substance-compositing-graphs.md).
 
-Avec la possibilité d’exporter des sorties graphiques vers des fichiers AxF, un workflow AxF standard dans Designer peut ressembler à ceci :
+Avec la possibilité d’exporter des sorties du graphe vers les Fichiers AxF, un workflow AxF standard dans Designer peut ressembler à ceci :
 
-1. Importer un fichier AxF
-1. Utiliser le modèle de graphique de Substance « AxF à AxF »
+1. Importer un Fichier AxF
+1. Utiliser le modèle de graphe de Substance « AxF à AxF »
 1. Modifiez les textures extraites à l’aide des fonctions et des nœuds disponibles dans les graphes de Substance
 1. Exporter les sorties du graphe vers le même Fichier AxF
 
@@ -254,36 +254,36 @@ Le résultat s’affiche sous forme de message en regard de la barre de progress
 
 ### Mappage des sorties aux ressources AxF
 
-Lors de l’exportation vers un Fichier AxF existant, ses ressources sont mises à jour à l’aide des sorties du graphe. Designer fait correspondre l&#39;identificateur de ressource aux nœuds [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) qui ont le même identificateur qu&#39;une <b>utilisation</b>.
+Lors de l’exportation vers un Fichier AxF existant, ses ressources sont mises à jour à l’aide des sorties du graphe. Designer fait correspondre l&#39;identifiant des ressources aux nœuds [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) qui ont le même identifiant qu&#39;une <b>Utilisation</b>.
 
 En outre, la propriété *Groupe</b> de la sortie <b>doit* être définie sur &#39;AxF&#39; pour qu&#39;elle soit répertoriée dans la boîte de dialogue d&#39;exportation AxF (voir ci-dessus).
 
-![AxF : Utilisation de la sortie du graphique de Substance](../../assets/axf_output_usage.png "AxF : Utilisation de la sortie du graphique de Substance")
+![Utilisation de la sortie du graphe de Substance](../../assets/axf_output_usage.png "AxF : Utilisation de la sortie du graphe de Substance")
 
-Les ressources peuvent être des textures (c’est-à-dire des bitmaps) ou des uniformes (c’est-à-dire des valeurs) avec un nombre spécifique de couches. Il est obligatoire que la sortie du graphique corresponde exactement à ce nombre de canaux. Si ce n’est pas le cas, une erreur sera générée pour cette ressource pendant l’exportation et elle restera inchangée.
+Les ressources peuvent être des textures (c’est-à-dire des bitmaps) ou des uniformes (c’est-à-dire des valeurs) avec un nombre spécifique de canaux. Il est obligatoire que la sortie du graphe corresponde exactement à ce nombre de chaînes. Si ce n’est pas le cas, une erreur sera générée pour cette ressource pendant l’exportation et elle restera inchangée.
 
 Le nombre de canaux est spécifié différemment selon le type de données fournies au nœud de sortie :
 
-* <b>Bitmap (texture) :</b> la propriété [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) permet de spécifier le nombre de canaux, où R représente un canal, RG deux canaux, etc. La propriété est utilisée pour indiquer à Designer quels canaux RVBA de l’image bitmap couleur doivent être codés dans la ressource.
-* <b>Valeur (uniforme) :</b> le nombre de composants de la valeur vectorielle est utilisé pour spécifier le nombre de canaux, où [Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) est un canal, [Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) est deux canaux, et ainsi de suite.
+* <b>Bitmap (Texture) :</b> la propriété [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) permet de spécifier le nombre de canaux, où R représente un canal, RG deux canaux, etc. La propriété est utilisée pour indiquer à Designer quels canaux RVBA de l’image bitmap couleur doivent être codés dans la ressource.
+* <b>Valeur (uniforme) :</b> le nombre de composants de la valeur vectorielle est utilisé pour spécifier le nombre de canaux, où [Flottant](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) correspond à un canal, [Flottant 2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) à deux canaux, et ainsi de suite.
 
 >[!IMPORTANT]
 >
-> Dans le modèle de graphique de Substance <b>AxF à AxF</b>, le nœud [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) de la contribution <b>Lobe de Specular</b> est configuré par défaut sur un *canal unique* (c&#39;est-à-dire que sa propriété Components est définie sur &#39;R&#39;).\
-> Si le fichier AxF importé utilise plusieurs canaux dans sa ressource Lobe Specular, définissez la propriété <b>Components</b> de la sortie en conséquence.
+> Dans le modèle de graphe de Substance <b>AxF à AxF</b>, le nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) pour la contribution <b>Specular Lobe</b> est configuré par défaut sur un *canal unique* (c&#39;est-à-dire que sa propriété Components est définie sur &#39;R&#39;).\
+> Si le Fichier AxF importé utilise plusieurs canaux dans sa ressource Lobe Specular, définissez la propriété <b>Components</b> de la sortie en conséquence.
 > 
 > Par exemple, pour une ressource Lobe Specular utilisant deux couches (Rouge pour Rugosité Specular et Vert pour Anisotropie Specular), définissez la propriété Components sur &#39;RG&#39;.
 
-## Affichage des fichiers AxF dans la vue 3D
+## Affichage des Fichiers AxF dans la vue 3D
 
-La méthode de rendu des matériaux AxF SVBRDF dans la [vue 3D](../../interface/3d-view/3d-view.md) dépend de la [configuration d&#39;importation](#import).
+La méthode de rendu des matériaux SVBRDF AxF dans la [vue 3D](../../interface/3d-view/3d-view.md) dépend de la [configuration d&#39;importation](#import).
 
 +++Convertir en PBR
 
-Si vous souhaitez convertir un matériau SVBRDF dans un fichier AxF en matériau PBR standard, votre configuration d&#39;importation impliquera probablement un [modèle de conversion de graphique de Substance](#graph-templates).
+Si vous souhaitez convertir un matériau SVBRDF d&#39;un Fichier AxF en matériau PBR standard, votre configuration d&#39;importation impliquera probablement un [modèle de conversion de graphe Substance](#graph-templates).
 
-Dans ce cas, vous devez utiliser le **rendu OpenGL** dans la vue 3D et sélectionner le <code>SVBRF AxF</code> shader.\
-Vous pouvez ensuite faire glisser et déposer le graphique de Substance que vous avez configuré dans la boîte de dialogue d’importation, afin de connecter ses sorties au nuanceur.
+Dans ce cas, vous devez utiliser le **moteur de rendu OpenGL** dans vue 3D et sélectionner le <code>SVBRF AxF</code> shader.\
+Ensuite, vous pouvez glisser-déposer le graphe de Substance que vous avez configuré dans la boîte de dialogue d’importation, afin de connecter ses sorties au shader.
 
 ![AxF : affichage pour la conversion](../../assets/axf-view-for-convert.gif "AxF : affichage pour la conversion")
 
@@ -291,34 +291,34 @@ Vous pouvez ensuite faire glisser et déposer le graphique de Substance que vous
 
 +++Modifier sur place
 
-Si votre objectif est d&#39;effectuer *des modifications* sur un fichier AxF existant, suivez les instructions ci-dessous pour visualiser sa matière SVBRDF en fonction du moteur de rendu sélectionné :
+Si votre objectif est d&#39;effectuer *des modifications* sur un Fichier AxF existant, suivez les instructions ci-dessous pour visualiser son matériau SVBRDF en fonction du moteur de rendu sélectionné :
 
-Un shader GLSLFX dédié est disponible pour visualiser les matériaux à l&#39;aide d&#39;une représentation SVBRDF à partir d&#39;un fichier AxF : <b>AxF SVBRDF</b>.
+Un shader GLSLFX dédié est disponible pour visualiser des matériaux à l&#39;aide d&#39;une représentation SVBRDF à partir d&#39;un Fichier AxF : <b>AxF SVBRDF</b>.
 
-L&#39;ombrage est disponible dans le menu <b>Matières</b> : ouvrez le sous-menu pour la matière de la scène (« Par défaut ») et sélectionnez une technique sous l&#39;entrée <b>AxF SVBRDF</b>.
-
-Utilisez l&#39;option <b>Modifier</b> dans le même sous-menu pour afficher les propriétés du shader dans le dock [Propriétés](../../interface/properties/properties.md).\
-En particulier, la propriété <b>Mosaïque</b> vous permet d&#39;ajuster la mosaïque des textures sur le modèle, afin de visualiser la matière à une échelle appropriée.
-
-Après avoir sélectionné l&#39;ombrage, cliquez sur RMB dans l&#39;espace vide du graphique et sélectionnez l&#39;option <b>Afficher les sorties en vue 3D</b> pour visualiser ses sorties dans la [vue 3D](../../interface/3d-view/3d-view.md).
-
-![AxF : SVBRDF GLSLFX shader](../../assets/axf_glslfx-svbrdf.png "AxF : SVBRDF GLSLFX shader"){width="600px"}
-
-Ce nuanceur est actuellement un *travail en cours* et certaines fonctionnalités ne sont toujours pas prises en charge. Par conséquent, bien qu&#39;il puisse donner une vue d&#39;ensemble des caractéristiques des matériaux, il ne devrait pas être utilisé pour des ajustements fins .
+Le shader est disponible dans le menu <b>Matériaux</b> : ouvrez le sous-menu du matériau de la scène (« Par défaut ») et sélectionnez une technique sous l&#39;entrée <b>AxF SVBRDF</b>.
 
 Utilisez l&#39;option <b>Modifier</b> dans le même sous-menu pour afficher les propriétés du shader dans le dock [Propriétés](../../interface/properties/properties.md).\
-En particulier, la propriété <b>Mosaïque</b> vous permet d&#39;ajuster la mosaïque des textures sur le modèle, afin de visualiser la matière à une échelle appropriée.
+En particulier, la propriété <b>Répétition</b> vous permet d&#39;ajuster la répétition des textures sur le matériau afin de visualiser ce dernier à une échelle appropriée.
 
-Après avoir sélectionné l&#39;ombrage, cliquez sur RMB dans l&#39;espace vide du graphique et sélectionnez l&#39;option <b>Afficher les sorties en vue 3D</b> pour visualiser ses sorties dans la [vue 3D](../../interface/3d-view/3d-view.md).
+Après avoir sélectionné le shader, cliquez sur RMB dans l&#39;espace vide du graphe et sélectionnez l&#39;option <b>Afficher les sorties en vue 3D</b> pour visualiser ses sorties en [vue 3D](../../interface/3d-view/3d-view.md).
+
+![AxF : shader GLSLFX SVBRDF](../../assets/axf_glslfx-svbrdf.png "AxF : shader GLSLFX SVBRDF"){width="600px"}
+
+Ce shader est actuellement un *travail en cours* et certaines fonctionnalités ne sont toujours pas prises en charge. Par conséquent, bien qu&#39;il puisse donner une vue d&#39;ensemble des caractéristiques des matériaux, il ne devrait pas être utilisé pour des ajustements fins.
+
+Utilisez l&#39;option <b>Modifier</b> dans le même sous-menu pour afficher les propriétés du shader dans le dock [Propriétés](../../interface/properties/properties.md).\
+En particulier, la propriété <b>Répétition</b> vous permet d&#39;ajuster la répétition des textures sur le matériau afin de visualiser ce dernier à une échelle appropriée.
+
+Après avoir sélectionné le shader, cliquez sur RMB dans l&#39;espace vide du graphe et sélectionnez l&#39;option <b>Afficher les sorties en vue 3D</b> pour visualiser ses sorties en [vue 3D](../../interface/3d-view/3d-view.md).
 
 ![AxF : Affichage pour l&#39;édition](../../assets/axf-view-for-edit.gif "AxF : Affichage pour l&#39;édition")
-<i>Remarque :</i> ignorez la partie de la vidéo du passage au rendu Iray jusqu&#39;à la fin, car le rendu Iray et la prise en charge de MDL ont été <i>supprimés</i> de Designer dans la version 16.0.0.
+<i>Remarque :</i> ignorez la partie de la vidéo du basculement vers le rendu d&#39;Iray jusqu&#39;à la fin, car le rendu d&#39;Iray et la prise en charge de MDL ont été <i>supprimés</i> de Designer dans la version 16.0.0.
 
 +++
 
 ### Variantes de modèle prises en charge
 
-Les shaders utilisés dans la vue 3D prennent en charge les variantes suivantes pour les modèles de transmission de specular, Fresnel et Clear Coat :
+Les shaders utilisés dans la vue 3D prennent en charge les variantes suivantes pour les modèles de transmission de specular, de Fresnel et de couche claire:
 
 <table>
 <tr style="border: 0;">

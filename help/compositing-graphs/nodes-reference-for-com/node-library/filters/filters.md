@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
 breadcrumb-title: ''
-description: Accédez aux nœuds de filtre dans Substance 3D Designer pour appliquer des effets, des réglages, des transformations et des opérations de traitement aux textures.
+description: Accédez aux noeuds de filtrage dans Substance 3D Designer pour appliquer des effets, des réglages, des transformes et des opérations de traitement aux textures.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Filtres
 
-Les filtres sont des nœuds qui traitent une entrée pour créer une sortie modifiée « filtrée », d’une manière que vous pourriez utiliser dans d’autres applications d’imagerie connues. La grande différence avec les [filtres Matériau](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md) est qu&#39;ils ne fonctionnent que sur une (parfois plus) entrée qui ne représente pas un matériau complet.
+Les filtres sont des nœuds qui traitent une entrée pour créer une sortie modifiée « filtrée », d’une manière que vous pourriez utiliser dans d’autres applications d’imagerie connues. La grande différence avec les [Filtres de matériau](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md), c&#39;est qu&#39;ils ne fonctionnent que sur une (parfois plus) entrée qui ne représente pas un matériau complet.
 
-Les filtres sont l’une des catégories principales les plus utilisées. À l&#39;exception de la catégorie [Nœuds atomiques](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), aucune autre catégorie n&#39;est aussi utile pour créer des textures à partir de zéro. Prenez le temps de connaître chacune des sous-catégories :
+Les filtres sont l’une des catégories principales les plus utilisées. À l&#39;exception de la catégorie [Noeuds atomiques](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), aucune autre catégorie n&#39;est aussi utile lors de la création de textures à partir de zéro. Prenez le temps de connaître chacune des sous-catégories :
 
 * [Réglages](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/adjustments.md)\
   Réglages étendus des couleurs, des tonalités et des valeurs.
@@ -34,13 +34,13 @@ Les filtres sont l’une des catégories principales les plus utilisées. À l&#
   Nœuds de mélange de canaux étendus.
 * [Effets](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/effects.md)\
   Effets d’image axés sur la texturation, ainsi que des effets de type « Style de calque ».
-* [Carte des normales](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-map.md)\
-  Opérations centrées sur la carte normale.
-* [Mosaïque](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/tiling.md)\
-  Nœuds se concentrent sur la réparation et l&#39;amélioration des carreaux.
-* [Transformations](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)\
+* [Map normal](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-map.md)\
+  opérations axées sur la map normal.
+* [Répétition](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/tiling.md)\
+  Nœuds axés sur la réparation et l&#39;amélioration de la répétition.
+* [Transformes](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)\
   Opérations avancées (mathématiques) de transformation de l’espace 2D.
 
 >[!NOTE]
 >
-> Un fichier de projet illustrant la configuration simple d&#39;un filtre *personnalisé* est disponible dans la section [Exemples de graphiques de composition de Substances](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) de cette documentation.
+> Un fichier de projet illustrant la configuration simple d&#39;un filtre *personnalisé* est disponible dans la section [Exemples de graphes de composition de Substances](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) de cette documentation.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Mosaïque automatique dynamique pour créer automatiquement des mosaïques homogènes à partir de matériaux numérisés à l’aide de la détection intelligente de motif.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Description
 
-Ce nœud transforme un ensemble sans mosaïque de couleurs de base, de normales et de hauteurs en une version de mosaïque en fonction de l’analyse intelligente des entrées. Il est similaire à [Make It Tile Photo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), mais beaucoup plus avancé car il utilise des informations de tous les canaux pour fusionner les éléments de la manière la plus intelligente (similaire à ce que fait [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)). Il possède également une fonction interne [Recadrage](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) pour déterminer la zone à utiliser lors de la juxtaposition. Pour bien comprendre cette fonction, [en savoir plus sur le nœud Recadrage](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md).
+Ce nœud transforme un ensemble non répétition de couleurs de base, de normales et de hauteurs en une version de répétition en fonction de l&#39;analyse intelligente des entrées. Il est similaire à [Make It Tile Photo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), mais beaucoup plus avancé car il utilise des informations de tous les canaux pour fusionner les éléments de la manière la plus intelligente (similaire à ce que fait [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)). Il dispose également d&#39;une fonction interne [Recadrage](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) pour déterminer la zone à utiliser lors de la répétition. Pour bien comprendre cette fonction, [en savoir plus sur le nœud Recadrage](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md).
 
 Pour utiliser ce nœud, commencez par définir votre zone recadrée, puis utilisez les paramètres Contour pour déterminer la manière dont les contours carrelés sont fusionnés au centre. Les paramètres Seuil sont d&#39;une importance capitale pour cela ! Gardez à l’esprit que les zones grandes et uniformes ne fonctionnent pas très bien avec cet effet ; plus il y a de détails et de formes, plus cela doit fonctionner.
 
@@ -57,8 +57,8 @@ Pour utiliser ce nœud, commencez par définir votre zone recadrée, puis utilis
 |:---|:---|
 | <b>Recadrer</b> |  |
 | <b>Taille d&#39;entrée</b> <i>0 - 8192</i> | Résolution et proportions des Images d&#39;entrée. Très important pour les images non carrées. |
-| <b>Transformation</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Transformer</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
 | <b>Edge</b> |  |
 | <b>Détecter les contours</b> <i>Faux/Vrai</i> | Active ou désactive la fusion détectée par arête spéciale. |
 | <b>Utiliser Le Seuil Par Canal</b> <i>Faux/Vrai</i> | Bascule entre une valeur de seuil globale ou une valeur pour chaque canal. |

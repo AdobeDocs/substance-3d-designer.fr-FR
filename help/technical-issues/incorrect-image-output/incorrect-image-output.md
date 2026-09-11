@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes d’image en sortie incorrecte dans Substance 3D Designer et découvrez comment résoudre les problèmes de rendu.
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ Si vous n’avez pas besoin de travailler spécifiquement avec des images HDR, l
 
 Vérifiez le **format de sortie** (c&#39;est-à-dire la profondeur de bits) du nœud et de tous les nœuds en amont et assurez-vous que ces nœuds utilisent une *précision d&#39;Entier d&#39;au moins 16 bits*.
 
-Le paramètre Format de sortie est souvent défini sur la méthode d&#39;héritage *Relative à l&#39;entrée* [3&rbrace;, qui peut propager la faible précision dans tout le graphe. &#x200B;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)Idéalement, en remontant dans le graphe, vous trouverez la cause première du problème.
+Le paramètre Format de sortie est souvent défini sur la méthode d&#39;héritage *Relative à l&#39;entrée* [3}, qui peut propager la faible précision dans tout le graphe. ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)Idéalement, en remontant dans le graphe, vous trouverez la cause première du problème.
 
 Vous pouvez rapidement identifier la précision de la sortie d&#39;un nœud en examinant les informations textuelles affichées sous le nœud :
 
@@ -89,7 +89,7 @@ La sortie semble basse résolution.
 
 <b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
 
-Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la [méthode d&#39;héritage](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *absolue*.
+Assurez-vous que la propriété [Taille de sortie](../../compositing-graphs/output-size/output-size.md) de tous les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) est définie sur la *méthode d&#39;héritage absolue* [](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Si ce n&#39;est pas le cas, leur [ressource Bitmap](../../resources/bitmap-resource/bitmap-resource.md) référencée sera enregistrée à la résolution 256\*256 par défaut dans l&#39;archive Substance 3D publiée, ce qui* impactera la qualité* d&#39;une ou plusieurs sorties.
 

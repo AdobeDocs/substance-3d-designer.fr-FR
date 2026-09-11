@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Altération de mousse pour ajouter des modèles de croissance de mousse aux matériaux en fonction de la courbure et de la position du maillage.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Il s’agit d’un effet matériel qui fonctionne sur plusieurs canaux à la fois. Il génère un effet de mousse sur-développée, avec un seul contrôle pour la propagation.
+Il s’agit d’un effet de matériau complet qui fonctionne sur plusieurs canaux à la fois. Il génère un effet de mousse sur-développée, avec un seul contrôle pour la propagation.
 
 Cet effet fonctionne mieux avec un mappage de position d’Espace monde baké et un mappage de hauteur supplémentaire. Bien que ce ne soit pas une exigence exacte, cela confère à l&#39;effet un placement plus crédible.
 
@@ -59,21 +59,21 @@ Assurez-vous de bien comprendre les [modes de création de liens](https://suppor
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Avancé</b> |  |
 | <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
 | <b>Masquer</b> <i>Faux/Vrai</i> | Active ou désactive l&#39;utilisation de la carte de masque. |
 | <b>Effet</b> |  |
 | <b>Propagation de la mousse</b> <i>0.0 - 1.0</i> | Définit la propagation de la mousse. Pousse par étapes, d&#39;une couverture légère à une mousse épaisse, épaisse et foncée. |
 | <b>Fusion</b> |  |
-| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
-| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
-| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Intensité de fusion de la normale. |
-| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
-| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
-| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Intensité de fusion de la rugosité. |
-| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Occlusion ambiante. |
-| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Height. |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Force de fusion du Diffuse. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Force de fusion de la Base color. |
+| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Force de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Force de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Force de fusion de la Brillance. |
+| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Force de fusion de la Rugosité. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Force de fusion de l’Ambient occlusion. |
+| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Force de fusion de l’Height. |
 
 ## Exemples
 

@@ -1,6 +1,6 @@
 ---
 title: Union lisse
-description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Lissage de l’union
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Fonction SDF > Opérateur > Lissage Union
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '101'
@@ -40,6 +40,6 @@ Renvoie les volumes ajoutés de deux formes SDF, avec un lissage réglable des b
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flotter* | Première forme SDF. |
-| <b>SDF 2</b> *Flotter* | Deuxième forme SDF. |
-| <b>Smoothness</b> *Flotter* | Rayon de lissage, à partir des bords de l&#39;intersection.<br><br><i>Valeur par défaut : 0</i><br><br><i>Remarque :</i> les bords durs peuvent apparaître à l&#39;intersection des rayons de lissage. |
+| <b>SDF 1</b> *Flottant* | Première forme SDF. |
+| <b>SDF 2</b> *Flottant* | Deuxième forme SDF. |
+| <b>Smoothness</b> *Flottant* | Rayon de lissage, à partir des bords de l&#39;intersection.<br><br><i>Valeur par défaut : 0</i><br><br><i>Remarque :</i> les bords durs peuvent apparaître à l&#39;intersection des rayons de lissage. |

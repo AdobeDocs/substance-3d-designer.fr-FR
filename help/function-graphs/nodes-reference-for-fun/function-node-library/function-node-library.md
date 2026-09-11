@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
-description: Accédez à des graphiques de fonctions de Substance prédéfinis sous forme de nœuds d’instance pour accélérer le workflow et améliorer les fonctionnalités.
+description: Accédez à des graphes de fonction de Substance prédéfinis comme instanciers pour accélérer le workflow et améliorer les capacités.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Bibliothèque de nœuds de fonction
+title: bibliothèque Noeud de fonction
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
@@ -18,9 +18,9 @@ ht-degree: 6%
 ---
 
 
-# Bibliothèque de nœuds de fonction
+# bibliothèque Noeud de fonction
 
-En plus des [nœuds atomiques](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md), Designer propose également des graphiques de fonction de Substance prédéfinis en tant que nœuds d&#39;instance. Ils offrent de nombreux outils pour accélérer le workflow et fournir plus de capacités pour travailler avec des vecteurs ou des couleurs, remapper des valeurs, effectuer une algèbre plus avancée, ...
+En plus des [noeuds atomiques](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md), Designer propose également des graphes de fonction de Substance prédéfinis en tant qu’instanciers. Ils offrent de nombreux outils pour accélérer le workflow et fournir plus de capacités pour travailler avec des vecteurs ou des couleurs, remapper des valeurs, effectuer une algèbre plus avancée, ...
 
 Ces outils sont répartis en plusieurs catégories :
 
@@ -72,7 +72,7 @@ Ces nœuds vous permettent de créer des Fonctions SDF qui peuvent être utilis�
 
 [Pyramide](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid/3d-sdf-pyramid.md)
 
-[Carré pyramidal](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
+[Pyramide carrée](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
 
 [Rock](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-rock/3d-sdf-rock.md)
 
@@ -141,7 +141,7 @@ Ces nœuds vous permettent de créer des Fonctions SDF qui peuvent être utilis�
 
 [Définir la couleur](function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
 
-[Définir l&#39;ID matière](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
+[Définir l’ID de matériau](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
 
 [Définir le matériau](function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
 
@@ -194,7 +194,7 @@ Différent de float4
 
 [a, b] à [0, 1]
 
-Valeur booléenne à float1
+Booléen to float1
 
 Degrés en radians
 
@@ -333,7 +333,7 @@ HCL vers RGB
 
 HSI vers RGB
 
-Décalage TSL
+décalage TSL
 
 TSL vers RGB
 
@@ -362,17 +362,17 @@ teinte RGB hexagonale
 
 moyenne de luminosité RGB
 
-bi-hexcone à luminosité RGB
+luminosité RGB bi-hexcone
 
-hexcone de luminosité RGB
+hexcone RGB luminosité
 
-Luminosité RGB luma Rec.601
+luminosité RGB luma Rec.601
 
-Luminosité RGB luma Rec.709
+luminosité RGB luma Rec.709
 
 HSI de saturation RGB
 
-TSL à saturation RGB
+TSL de saturation RGB
 
 Saturation RGB HSV
 
@@ -393,7 +393,7 @@ sRVB vers linéaire
 
 Température en RGB
 
-Mappeur de tonalité ACES
+mappeur de tonalité ACE
 
 Mappeur de tonalité agx (approx)
 
@@ -411,7 +411,7 @@ Mappeur de tonalité d’aide
 
 ## Transformation
 
-Cartésien à polaire
+Cartésien-polaire
 
 Décalage directionnel
 
@@ -465,15 +465,15 @@ Global aléatoire
 
 Distribution normale
 
-Aléatoire uniforme &lbrack;-1, 1&lbrack;
+Aléatoire uniforme [-1, 1[
 
-Uniforme aléatoire &lbrack;a, b&lbrack;
+Uniforme aléatoire [a, b[
 
-Float uniforme aléatoire2 &lbrack;a, b&lbrack;
+Float uniforme aléatoire2 [a, b[
 
-Float uniforme aléatoire3 &lbrack;a, b&lbrack;
+Float uniforme aléatoire3 [a, b[
 
-Float uniforme aléatoire4 &lbrack;a, b&lbrack;
+Float uniforme aléatoire4 [a, b[
 
 </td>
 </tr>
@@ -577,29 +577,29 @@ Commutateur à 8 entrées float4
 </td>
 <td style="border: 0;" valign="top">
 
-Permuter les entrées d’entier 2
+Basculer entre les entrées entier 2
 
-Permuter les entrées d’entier 4
+Commutation des entrées d’entier 4
 
-Permuter les entrées d&#39;entier 8
+Commutation de 8 entrées d’entier
 
-Basculer les entrées de type entier2 2
+Basculer entre les entrées entier 2 2
 
-Changer d’entrée de 4 pour un entier 2
+Commutation entier 2 4 entrées
 
-Changer d’entier2 8 entrées
+Basculer entre 8 entrées entier 2
 
-Changer d’entrée d’entier3 2
+Basculer entre les entrées entier 3 2
 
-Changer d’entier3 4 entrées
+Commutation entier 3 4 entrées
 
-Changer d’entier3 8 entrées
+Basculer entre 8 entrées entier 3
 
-Basculer les entrées de type entier4 2
+Commutation entier 4 2 entrées
 
-Changer d’entrée en entier4 4
+Commutateur entier 4 4 entrées
 
-Changer d’entrée d’entier4 8
+Commutation entier 4 8 entrées
 
 </td>
 </tr>

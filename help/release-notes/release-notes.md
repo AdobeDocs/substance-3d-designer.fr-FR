@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes.html"
 breadcrumb-title: ''
 description: Accédez aux notes de mise à jour de Substance 3D Designer pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues de chaque version.
 helpx_creative_field: ""

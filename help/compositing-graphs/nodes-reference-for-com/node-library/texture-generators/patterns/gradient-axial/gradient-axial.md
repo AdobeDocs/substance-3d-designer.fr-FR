@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Axial de dégradé pour créer des dégradés axiaux destinés aux transitions de couleur directionnelles dans Substance 3D Designer.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](../../../../../../assets/gradient-axial.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,4 +47,4 @@ Crée une transition de dégradé en niveaux de gris entre deux points définis 
 |:---|:---|
 | <b>Point 1</b> | Premier point de départ du dégradé (noir) |
 | <b>Point 2</b> | Deuxième point pour terminer le dégradé à (blanc) |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activer la compensation de la courbure et du étire avec des rapports non carrés. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fluide pour générer des motifs de bruit de type fluide afin de créer des effets de texture de surface de liquide et d'eau.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Ce bruit remplit une niche spécifique : il peut être utile pour générer de l
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasez le bruit pour introduire une faible variation. |
 | <b>Intensité de déformation</b> <i>0.0 - 1.0</i> |  |
 | <b>Taille du motif</b> <i>0.0 - 1.0</i> |  |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

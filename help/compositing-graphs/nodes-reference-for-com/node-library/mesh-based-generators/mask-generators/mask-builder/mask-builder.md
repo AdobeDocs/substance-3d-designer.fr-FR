@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Concepteur de masque pour combiner plusieurs entrées de masque et créer des motifs de masque complexes pour des effets de matériau.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 10%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Il s’agit de la version Designer de Painter Mask Builder.
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Il s’agit de la version Designer de Painter Mask Builder.
 
 Il s&#39;agit d&#39;un outil complexe conçu comme un constructeur de masques global, basé sur des maps bakées, des paramètres utilisateur et des modèles et cartes d&#39;usure/salissures. Il est principalement conçu comme un nœud très avancé et à contrôle total pour se fondre dans le dirt de pli et l&#39;usure des bords. Ce nœud est assez puissant pour imiter tous les autres Générateurs de masque.
 
@@ -49,9 +49,9 @@ Aucun bake n&#39;est explicitement requis, mais plus vous fournissez de ressourc
 
 |  |  |
 |:---|:---|
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> |  |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> |  |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> |  |
 | <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Entrée Usure/salissures 2</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Entrée Dispersion</b> <i>Entrée en niveaux de gris</i> | Tampon de dispersion personnalisé, requis pour utiliser les paramètres de Dispersion. |
@@ -101,8 +101,8 @@ Aucun bake n&#39;est explicitement requis, mais plus vous fournissez de ressourc
 | <b>Plage</b> <i>0.0 - 1.0</i> | Définit la position du dégradé. |
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste du dégradé. |
 | <b>Inverser</b> <i>Faux/Vrai</i> | Inverse le dégradé. Permute efficacement le bas et le haut. |
-| <b>Espace universel normal</b> <i>0.0 - 1.0</i> | Similaire au dégradé Haut/Bas, mais avec la carte de position et dans six directions, semblable à un faux éclairage. Les valeurs positives s’éclaircissent, les valeurs négatives s’assombrissent. |
-| <b>Espace universel normal</b> |  |
+| <b>Normale de l&#39;espace monde</b> <i>0.0 - 1.0</i> | Similaire au dégradé Haut/Bas, mais avec la carte de position et dans six directions, semblable à un faux éclairage. Les valeurs positives s’éclaircissent, les valeurs négatives s’assombrissent. |
+| <b>Normale de l&#39;espace monde</b> |  |
 | <b>Intensité supérieure</b> <i>-1.0 - 1.0</i> |  |
 | <b>Intensité inférieure</b> <i>-1.0 - 1.0</i> |  |
 | <b>Intensité avant</b> <i>-1.0 - 1.0</i> |  |

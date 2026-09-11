@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Edge Wear Fibre Glass pour générer des masques d'usure sur les bords en fibre de verre en fonction de la courbure du maillage.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Représente un masque spécifiquement destiné à une usure de type fibre de verre, qui pourrait éventuellement être utilisé pour un tissu. En raison de la nature très mosaïque et répétitive des fibres, le mélange triplanaire peut éventuellement être activé.
 
@@ -48,10 +48,10 @@ Représente un masque spécifiquement destiné à une usure de type fibre de ver
 |  |  |
 |:---|:---|
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour la mise en surbrillance des contours. Obligatoire ! |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour masquer les zones occultées. Non requis, mais certainement recommandé. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour masquer les zones occultées. Non requis, mais certainement recommandé. |
 | <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> | Emplacement personnalisé en option pour remplacer le motif de fibre. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
 | <b>Position</b> <i>Entrée couleur</i> | Utilisé uniquement pour le format triplanaire. |
 
 <a name="parameters"></a>

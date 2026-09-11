@@ -1,6 +1,6 @@
 ---
 title: Lissage de l’intersection
-description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Lissage d’intersection
+description: Designer > graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Lissage d’intersection
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '114'
@@ -40,6 +40,6 @@ Renvoie le volume commun à deux formes SDF, c’est-à-dire le volume créé à
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flotter* | Première forme SDF. |
-| <b>SDF 2</b> *Flotter* | Deuxième forme SDF. |
-| <b>Smoothness</b> *Flotter* | Smoothness des arêtes à l&#39;intersection des deux formes SDF.<br><br><i>Remarque :</i> des arêtes dures peuvent apparaître à l&#39;intersection des rayons de lissage.<br><br><i>Par défaut : 0</i> |
+| <b>SDF 1</b> *Flottant* | Première forme SDF. |
+| <b>SDF 2</b> *Flottant* | Deuxième forme SDF. |
+| <b>Smoothness</b> *Flottant* | Smoothness des arêtes à l&#39;intersection des deux formes SDF.<br><br><i>Remarque :</i> des arêtes dures peuvent apparaître à l&#39;intersection des rayons de lissage.<br><br><i>Par défaut : 0</i> |

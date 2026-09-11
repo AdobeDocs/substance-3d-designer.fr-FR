@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Circulaire à éclaboussures pour effectuer une dispersion de formes circulaires entre les textures afin de créer des motifs organiques et aléatoires.
 helpx_creative_field: ""
@@ -64,7 +64,7 @@ Les deux entrées sont facultatives.
 | <b>Quantité aléatoire du motif</b> <i>0.0 - 1.0</i> | Randomisation de la quantité de motifs à placer. À utiliser de préférence avec une quantité d’anneau supérieure à 1. |
 | <b>Quantité aléatoire de motif min</b> <i>1 - 10</i> | Définit la quantité minimale de motifs pour la randomisation. |
 | <b>Quantité De Sonnerie</b> <i>1 - 10</i> | Définit le nombre d&#39;anneaux à remplir. Les anneaux sont toujours placés à l&#39;intérieur de l&#39;anneau extérieur, et l&#39;espace uniformément. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Motif</b> |  |
 | <b>Motif</b> <i>Entrée d&#39;image, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 6</i> | Définit le nombre d’entrées Image différentes à utiliser. Disponible uniquement lorsque l&#39;option <i>Entrée d&#39;image</i> est sélectionnée ci-dessus. |
@@ -96,7 +96,7 @@ Les deux entrées sont facultatives.
 | <b>Rotation du motif</b> <i>0.0 - 1.0</i> | Fait pivoter tous les motifs de manière uniforme. |
 | <b>Rotation aléatoire du motif</b> <i>0.0 - 1.0</i> | Rend aléatoire la rotation du motif. |
 | <b>Pivot de rotation du motif</b> <i>Centre, Min X, Max X, Min Y, Max Y</i> | Définit la position du point pivot autour duquel faire pivoter chaque motif individuellement. |
-| <b>Centrer l&#39;orientation</b> <i>Faux/Vrai</i> | Fait pivoter chaque motif de sorte qu’il soit orienté vers le centre de l’anneau. La désactiver leur donne la même orientation, ce qui peut produire des effets indésirables avec Décalage dans la direction. |
+| <b>Centrer l&#39;orientation</b> <i>Faux/Vrai</i> | Fait pivoter chaque motif de sorte qu’il se face vers le centre de l’anneau. La désactiver leur donne la même orientation, ce qui peut produire des effets indésirables avec Décalage dans la direction. |
 | <b>Rotation en anneau</b> <i>0.0 - 1.0</i> | Fait pivoter l’anneau entier autour du centre. |
 | <b>Rotation Aléatoire De L&#39;Anneau</b> <i>0.0 - 1.0</i> | Rend aléatoire la rotation par anneau. |
 | <b>Décalage de rotation de l&#39;anneau</b> <i>0.0 - 1.0</i> | Décale la rotation par anneau. |

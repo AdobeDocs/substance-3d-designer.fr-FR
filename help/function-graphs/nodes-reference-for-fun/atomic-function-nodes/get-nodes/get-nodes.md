@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds Get dans les graphes de fonction Substance 3D Designer pour récupérer les valeurs et les données des variables.
 helpx_creative_field: ""
@@ -81,13 +81,13 @@ Les nœuds &#39;Get&#39; présentent des limitations dont vous devez tenir compt
 >
 > Variables intégrées
 > 
-> Plusieurs nœuds « Get » offriront des variables intégrées pour accéder aux valeurs existantes en fonction du contexte actuel - par exemple : la position actuelle des pixels dans un processeur de pixels, le mode de mosaïque actuel d&#39;un nœud, ...
+> Plusieurs nœuds « Get » offriront des variables intégrées pour accéder aux valeurs existantes en fonction du contexte actuel - par exemple : la position actuelle des pixels dans un Processeur de pixels, le mode de répétition actuel d&#39;un nœud, ...
 > 
 > Toutes les variables intégrées sont répertoriées dans [cette page dédiée](../../../../function-graphs/variables/system-variables/system-variables.md).
 
 ### Obtention des nœuds
 
-+++Flotteurs
++++Flottants
 ![Obtenir le flottement - Icône](../../../../assets/fn_variables_getfloat.png "Obtenir le flottement - Icône"){width="200px"}
 
 
@@ -115,25 +115,25 @@ Obtenir flottant4
 +++
 
 +++Entiers
-![Obtenir l&#39;entier - Icône](../../../../assets/fn_variables_getint.png "Obtenir l&#39;entier - Icône"){width="200px"}
+![Obtenir Un entier - Icône](../../../../assets/fn_variables_getint.png "Obtenir Un entier - Icône"){width="200px"}
 
 
 
 Obtenir entier
 
-![Obtenir entier2 - Icône](../../../../assets/fn_variables_getint2.png "Obtenir entier2 - Icône"){width="200px"}
+![Obtenir entier 2 - Icône](../../../../assets/fn_variables_getint2.png "Obtenir entier 2 - Icône"){width="200px"}
 
 
 
 Obtenir entier2
 
-![Obtenir entier3 - Icône](../../../../assets/fn_variables_getint3.png "Obtenir entier3 - Icône"){width="200px"}
+![Obtenir entier 3 - Icône](../../../../assets/fn_variables_getint3.png "Obtenir entier 3 - Icône"){width="200px"}
 
 
 
 Obtenir entier3
 
-![Obtenir entier4 - Icône](../../../../assets/fn_variables_getint4.png "Obtenir entier4 - Icône"){width="200px"}
+![Obtenir entier 4 - Icône](../../../../assets/fn_variables_getint4.png "Obtenir entier 4 - Icône"){width="200px"}
 
 
 

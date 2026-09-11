@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de 3D linear gradient pour créer des dégradés linéaires basés sur la position universelle 3D pour les effets spatiaux.
 helpx_creative_field: ""
@@ -26,14 +26,14 @@ ht-degree: 3%
 
 ![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Crée un dégradé volumique basé sur le mappage de position d’entrée. Génère efficacement une transition du noir au blanc entre 2 points dans l’espace 3D. Destiné à être utilisé uniquement avec le moteur GPU.
+Crée un dégradé volumique basé sur le mappage de position d’entrée. Génère efficacement une transition du noir au blanc entre 2 points dans l’espace 3D. Destiné à être utilisé avec le moteur GPU uniquement.
 
 Voir également [Masque de volume 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) pour obtenir un effet similaire.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Découvrez comment automatiser la configuration des préférences utilisateur dans Substance 3D Designer pour rationaliser le workflow.
 helpx_creative_field: ""
@@ -194,7 +194,7 @@ def SetConfigurationFile(p_ConfigPath):
 ```
 
 
-## Raccourci d’argument de ligne de commande
+## Raccourci d&#39;argument de ligne de commande
 
 De manière beaucoup plus simple, il est possible d’indiquer à Designer d’utiliser un SBSCFG spécifique au démarrage à l’aide de l’argument « —config-file » (facultatif).
 

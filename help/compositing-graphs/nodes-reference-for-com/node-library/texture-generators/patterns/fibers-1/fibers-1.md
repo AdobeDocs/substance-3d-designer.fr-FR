@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fibres 1 pour créer des textures de fibre de base afin de simuler le tissu, les cheveux et les matériaux fibreux.
 helpx_creative_field: ""
@@ -26,14 +26,14 @@ ht-degree: 12%
 
 ![](../../../../../../assets/fibers-1.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Motif simple en forme de fibre. Peut être utilisé dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) pour les cartes de hauteur et les détails de corde, de filet ou de tissu.
+Motif simple en forme de fibre. Peut être utilisé dans [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) pour les cartes de hauteur et les détails de corde, de maillage ou de tissu.
 
 </td>
 </tr>
@@ -45,8 +45,8 @@ Motif simple en forme de fibre. Peut être utilisé dans [Substance 3D Designer]
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

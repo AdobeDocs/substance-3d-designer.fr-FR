@@ -1,6 +1,6 @@
 ---
 title: Arrondi
-description: Designer > Graphiques de composition de Substances > Référence des nœuds pour les graphiques de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Arrondi
+description: Designer > graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Opérateur > Arrondi
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '85'
@@ -40,5 +40,5 @@ Développe une forme SDF, la gonfle et lisse ses bords nets.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Flotter* | Forme SDF d’entrée. |
-| <b>Rayon</b> *Flotter* | Rayon des arcs arrondis appliqués aux bords de la forme.<br><br><i>Remarque :</i> les arêtes dures peuvent apparaître à l&#39;intersection des rayons d&#39;arrondi.<br><br><i>Valeur par défaut : 0.05</i> |
+| <b>SDF</b> *Flottant* | Forme SDF d’entrée. |
+| <b>Rayon</b> *Flottant* | Rayon des arcs arrondis appliqués aux bords de la forme.<br><br><i>Remarque :</i> les arêtes dures peuvent apparaître à l&#39;intersection des rayons d&#39;arrondi.<br><br><i>Valeur par défaut : 0.05</i> |

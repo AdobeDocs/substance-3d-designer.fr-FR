@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Flood Fill à Niveaux de gris aléatoires pour remplir des zones avec des valeurs de niveaux de gris aléatoires afin de créer des motifs de variation.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Génère des valeurs de luminance en niveaux de gris aléatoires à partir d&#39;un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Utile pour ajouter une variation de luminance aux carreaux.
+Génère des valeurs de Luminance de niveaux de gris aléatoires à partir d&#39;une base [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Utile pour ajouter une variation de Luminance aux carreaux.
 
 </td>
 </tr>

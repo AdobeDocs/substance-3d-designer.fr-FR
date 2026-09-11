@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Directional distance pour calculer les champs de distance dans des directions spécifiques pour les effets procéduraux.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ La distance du dégradé peut être ajustée dynamiquement le long de la bordure
 |  |  |
 |:---|:---|
 | <b>Entrée</b> <i>Niveaux de gris</i> PRINCIPAUX | Image à partir de laquelle extraire le masque.   Toutes les valeurs supérieures à 0,5 sont blanches dans ce masque. |
-| <b>Map distance</b> <i>Niveaux de gris</i> | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur de Map distance est supérieure à 0.   Il est utilisé pour ajuster la distance de biseautage/dilatation le long des bordures du masque, où une valeur plus sombre entraîne une distance plus courte. |
+| <b>Map distance</b> <i>Niveaux de gris</i> | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur de Map distance est supérieure à 0.   Il est utilisé pour ajuster la distance de biseautage/dilatation le long des bordures du masque, où une valeur plus sombre réduit la distance. |
 | <b>Angle map</b> <i>Niveaux de gris</i> | Entrée facultative utilisée lorsque la valeur du paramètre Multiplicateur d’angle de courbe est supérieure à 0.   Il est utilisé pour ajuster la direction du dégradé de distance en ajoutant sa valeur à l&#39;angle de direction, en nombre de tours.   Le paramètre Décalage de la courbe de référence vous permet de remapper les valeurs en spécifiant la valeur 0. |
 
 <a name="outputs"></a>

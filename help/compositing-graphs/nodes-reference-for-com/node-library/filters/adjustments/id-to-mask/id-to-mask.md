@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
-description: Utilisez le nœud ID vers masque en niveaux de gris pour convertir les valeurs de mappage ID en masques en niveaux de gris pour la sélection de matériaux.
+description: Utilisez le nœud ID pour masquer les niveaux de gris pour convertir les valeurs de Map id en masques en niveaux de gris pour la sélection de matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## Description
 
-Crée un masque à partir d’un mappage d’ID où les pixels avec les valeurs de pixels sélectionnées sont blancs.
+Crée un masque à partir d’un Map id où les pixels avec les valeurs de pixels sélectionnées sont blancs.
 
-Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (par exemple, une forme) contiennent tous la même valeur d’identification unique. Dans ce cas, la valeur est un nombre entier.
+Un Map id est une image dont les pixels qui font partie d’un tout (par exemple, une forme) contiennent tous la même valeur d’identification unique. Dans ce cas, la valeur est un entier.
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 
 |  |  |
 |:---|:---|
-| <b>ID</b> <i>Niveaux de gris</i> PRINCIPAUX | Mappage d’ID d’entrée à partir duquel un masque doit être extrait. |
+| <b>ID</b> <i>Niveaux de gris</i> PRINCIPAUX | Mot de Map id de saisie à partir duquel un masque doit être extrait. |
 
 <a name="outputs"></a>
 
@@ -55,7 +55,7 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 
 |  |  |
 |:---|:---|
-| <b>Sortie</b> <i>Niveaux de gris</i> | Masque binaire extrait du mappage d&#39;ID d&#39;entrée. |
+| <b>Sortie</b> <i>Niveaux de gris</i> | Masque binaire extrait du Map id d&#39;entrée. |
 
 <a name="parameters"></a>
 
@@ -63,9 +63,9 @@ Un mappage d’ID est une image où les pixels qui font partie d’un ensemble (
 
 |  |  |
 |:---|:---|
-| <b>Mode de sélection</b> *Nombre entier* | Méthode de sélection des valeurs de pixels dans la carte d’ID, qui doivent être blanches dans le masque :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo :</b> sélectionnez une seule valeur de pixel</li> <li data-preserve-html="true"><b>Plage :</b> sélectionnez une plage de valeurs de pixels</li> </ul> |
-| <b>Nombre entier d&#39;ID</b> *Nombre entier* *Disponible lorsque le « mode Sélection » est défini sur « Solo »* | Valeur de pixel dans le mappage d’ID qui doit être blanche dans le masque de sortie. |
-| <b>Plage d’ID</b> *Entier2* *Disponible lorsque &#39;Mode de sélection&#39; est défini sur &#39;Plage&#39;* | Plage de valeurs de pixels dans le mappage ID, du début à la fin, qui doit être blanche dans le masque de sortie. |
+| <b>Mode de sélection</b> *Entier* | Méthode de sélection des valeurs de pixels dans le Map id, qui doivent être blanches dans le masque :<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo :</b> sélectionnez une seule valeur de pixel</li> <li data-preserve-html="true"><b>Plage :</b> sélectionnez une plage de valeurs de pixels</li> </ul> |
+| <b>Entier ID</b> *Entier* *Disponible lorsque &#39;Mode de sélection&#39; est défini sur &#39;Solo&#39;* | Valeur de pixel dans le Map id qui doit être blanche dans le masque de sortie. |
+| <b>Plage d’ID</b> *Entier 2* *Disponible lorsque &#39;Mode de sélection&#39; est défini sur &#39;Plage&#39;* | Plage de valeurs de pixels dans le Map id, du début à la fin, qui doit être blanche dans le masque de sortie. |
 
 ## Exemples
 

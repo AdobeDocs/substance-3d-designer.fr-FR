@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et gérer des métadonnées de pack dans Substance 3D Designer pour les bibliothèques de ressources organisées.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Les métadonnées de package sont un dictionnaire de valeurs de texte (chaînes)
 
 Si vous développez un plug-in Python, vous pouvez modifier les métadonnées manuellement à des fins de test et de débogage. Voici comment procéder :
 
-1. Si vous double-cliquez sur un pack dans l’explorateur, le panneau Propriétés s’ouvre sur ce pack.
+1. Si vous double-cliquez sur un pack dans l’explorateur, le panneau Propriétés s’affiche sur ce pack.
 
    ![Métadonnées du package](../assets/empty.png "Métadonnées du package")
 1. Ici, vous avez une section dédiée « Métadonnées ». Il est probablement vide dans votre cas, comme dans la capture ci-dessus.
@@ -63,7 +63,7 @@ Si vous développez un plug-in Python, vous pouvez modifier les métadonnées ma
 
 ## Métadonnées dans les fichiers SBSAR publiés
 
-Dans certains cas, vous pouvez récupérer les métadonnées que vous avez définies sur un package dans le SBSAR publié correspondant. Vous trouverez ci-dessous la manière dont les métadonnées sont transformées et stockées dans l&#39;archive, ainsi que la manière appropriée de les exploiter.
+Dans certains cas, vous pouvez récupérer les métadonnées que vous avez définies sur un package dans le SBSAR publié correspondant. Vous trouverez ci-dessous la manière dont les métadonnées sont transformées et stockées dans l’archive, ainsi que la manière appropriée de les exploiter.
 
 Les métadonnées sont stockées au format JSON dans un fichier nommé /assemblies/content/0000/metadata.json (le chemin est relatif à la racine de l’archive .sbsar).
 
@@ -71,7 +71,7 @@ Les métadonnées normales (chaîne) sont stockées telles quelles, par exemple 
 
 Comme le but des métadonnées d&#39;URL est de permettre aux utilisateurs et aux plug-ins d&#39;inclure des fichiers étrangers dans l&#39;archive .sbsar, ils sont soumis à une transformation spécifique : Tout d&#39;abord, le fichier de la ressource correspondant à l&#39;URL stockée est copié dans l&#39;archive dans un emplacement défini par l&#39;implémentation (généralement dans un sous-dossier numéroté, qui contiendra uniquement ce fichier. Il s’agit d’éviter tout conflit de nom.) Le fichier conserve son nom d’origine (le nom de la ressource est ignoré à ce stade). Ainsi, au lieu de l’URL d’origine dans metadata.json, le chemin d’accès au fichier copié dans l’archive relatif à metadata.json est écrit.
 
-Si nous exportons l’exemple de pack créé dans la section précédente (après avoir créé au moins un graphique avec certaines sorties), nous obtenons ce contenu d’archive :
+Si nous exportons l’exemple de pack créé dans la section précédente (après avoir créé au moins un graphe avec des sorties), nous obtenons ce contenu d’archive :
 
 ```
 myPackage.sbsar

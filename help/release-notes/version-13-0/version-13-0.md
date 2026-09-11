@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 13.0 pour en savoir plus sur les nouveaux nœuds, la Substance Engine 9.0 et les nœuds de portail.
 helpx_creative_field: ""
@@ -94,7 +94,7 @@ Nous fournissons également des outils pour retravailler et ajuster vos splines.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformation 2D spline](../../assets/Spline2DTransform-Demo1.gif "Transformation 2D spline")
+![Transforme 2D spline](../../assets/Spline2DTransform-Demo1.gif "Transforme 2D spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -119,7 +119,7 @@ Nous fournissons également des outils pour retravailler et ajuster vos splines.
 
 La dernière catégorie est celle qui permet de créer la forme ou le motif final en fonction de vos splines. La première idée qui vous viendra à l&#39;esprit sera de reproduire une forme donnée le long de la spline : le nœud [Dispersion sur la spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) vous permet de le faire, avec beaucoup de paramètres pour contrôler parfaitement la répartition (rotation, mise à l&#39;échelle, décalage, couleurs, masques, etc.).
 
-Merci pour le [remplissage spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nœud, vous pouvez facilement créer un motif à partir d&#39;une spline fermée. Et si vous souhaitez mapper n&#39;importe quelle texture sur vos splines, avec un degré élevé de contrôle et de précision, le nœud [Mappeur de splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) est fait pour vous !
+Merci pour le [remplissage spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nœud, vous pouvez facilement créer un motif à partir d&#39;une spline fermée. Et si vous voulez mapper n&#39;importe quelle texture sur vos splines, avec un degré élevé de contrôle et de précision, le nœud [Mappeur de splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) est fait pour vous !
 
 <table>
 <tr style="border: 0;">
@@ -150,7 +150,7 @@ Merci pour le [remplissage spline](../../compositing-graphs/nodes-reference-for-
 
 Le nœud [Masquer sur tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) vous permet d&#39;extraire la bordure d&#39;un motif en niveaux de gris, sous la forme d&#39;une liste de segments.
 
-Vous pouvez ensuite traiter ces tracés avec les nœuds [Transformation 2D du tracé](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Déformation des tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) afin de les ajuster en fonction de vos besoins.  Et grâce au nœud [Tracés vers spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), vous pouvez convertir votre tracé en spline, et ainsi profiter de tous les nœuds dédiés aux splines mentionnées précédemment, comme la diffusion.
+Vous pouvez ensuite traiter ces tracés avec les nœuds [Transforme 2D du tracé](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Déformation des tracés](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) afin de les ajuster en fonction de vos besoins.  Et grâce au nœud [Tracés vers spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), vous pouvez convertir votre tracé en spline, et ainsi profiter de tous les nœuds dédiés aux splines mentionnées précédemment, comme la diffusion.
 
 <table>
 <tr style="border: 0;">
@@ -186,22 +186,22 @@ Et pour vous aider à apprendre tous ces nouveaux nœuds, nous avons publié deu
 
 Tous les nouveaux nœuds répertoriés ci-dessus sont fondés sur la nouvelle version de la Substance Engine de données et ils tirent pleinement parti de sa nouvelle fonctionnalité principale : <b>boucles</b>.
 
-Les boucles sont destinées à être utilisées uniquement à l&#39;intérieur des [graphiques de fonction de Substance](../../function-graphs/function-graphs.md). Vous êtes plus susceptible de les implémenter dans un [processeur de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), un [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) ou un [processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Les boucles vous permettront bien sûr de répéter facilement une fonction plusieurs fois, jusqu’à ce qu&#39;une condition soit respectée. Cela vous aidera à éclaircir beaucoup vos graphiques et à gagner en précision.
+Les boucles sont destinées à être utilisées uniquement à l&#39;intérieur de [graphes de fonction de Substance](../../function-graphs/function-graphs.md) et vous êtes le plus susceptible de les implémenter dans un [Processeur de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), une [carte d&#39;effets](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) ou un [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Les boucles vous permettront bien sûr de répéter facilement une fonction plusieurs fois, jusqu’à ce qu&#39;une condition soit respectée. Cela vous aidera à éclaircir beaucoup vos graphes et à gagner en précision.
 
 Ce [tutoriel](https://www.youtube.com/watch?v=Ggoy8G90oDI)dédié vous aidera à commencer à travailler avec les boucles.
 
 La Substance Engine v9 apporte également les améliorations suivantes :
 
-* Nouveau mode Solide dans l&#39;éditeur de dégradé du nœud [Courbe de transfert de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (c&#39;est-à-dire aucune interpolation)
-* Nœud pow() atomique dans les graphiques de fonction de Substance
+* Nouveau mode Solide dans l&#39;éditeur de dégradé du nœud [Map de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (c&#39;est-à-dire aucune interpolation)
+* Nœud pow() atomique dans les graphes de fonction de Substance
 * Ajout d’options d’habillage de bordure (serrer sur le contour, répéter) dans les nœuds Sampler
 * Échantillonnage le plus proche dans les nœuds [Déformation](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) et [Déformation directionnelle](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 ## Nœud de portail
 
-Le nœud [Portal](../../interface/the-graph-view/graph-items/graph-items.md) est une nouvelle extension du nœud [Dot](../../interface/the-graph-view/graph-items/graph-items.md) avec la possibilité de masquer les connexions dans votre graphique.
+Le nœud [Portal](../../interface/the-graph-view/graph-items/graph-items.md) est une nouvelle extension du nœud [Dot](../../interface/the-graph-view/graph-items/graph-items.md) avec la possibilité de masquer les connexions dans votre graphe.
 
-Grâce à cette fonctionnalité, vous pouvez améliorer la lisibilité du graphique en masquant les connexions très longues et accéder rapidement aux nœuds clés où que vous soyez sur le graphique.
+Grâce à cette fonctionnalité, vous pouvez améliorer la lisibilité du graphe en masquant les connexions très longues et également avoir un accès rapide aux nœuds clés à partir de n&#39;importe où dans le graphe.
 
 Cette nouvelle fonctionnalité est entièrement expliquée dans ce [tutoriel](https://www.adobe.com/go/designer-tutorial-portals) dédié.
 
@@ -211,7 +211,7 @@ Cette nouvelle fonctionnalité est entièrement expliquée dans ce [tutoriel](ht
 
 Lorsque vous démarrez Designer, vous savez que vous avez accès à un tout nouvel [écran d&#39;accueil](../../interface/home-screen/home-screen.md), comme celui que vous avez dans d&#39;autres produits Adobe. À partir de cet écran, vous pouvez :
 
-* Créer rapidement un graphique ;
+* Créer rapidement un nouveau graphe ;
 * Consultez la liste de tous les fichiers récemment ouverts dans Designer, avec quelques détails tels que la taille, la date à laquelle il a été modifié pour la dernière fois ou le chemin d’accès complet ;
 * Une page de formation où vous pouvez trouver des liens vers des ressources de formation, telles que des tutoriels pour vous présenter les nouvelles fonctionnalités ou découvrir des conseils rapides ;
 * Liens directs vers l’écran Nouveautés, l’écran À propos, le site Web Substance 3D, le forum de la communauté d’assistance, etc.
@@ -238,7 +238,7 @@ Pour rappel, si vous souhaitez modifier la langue dans Designer, il vous suffit 
 
 ### Ajouté
 
-* [Graph] Nœud du portail
+* [Graphe] Nœud de portail
 * [Intégration] Nouvel écran d’accueil
 * [Content] Nœud spline (cubique)
 * [Contenu] Nœud spline (polyquadratique)
@@ -249,7 +249,7 @@ Pour rappel, si vous souhaitez modifier la langue dans Designer, il vous suffit 
 * [Content] Nœud Spline Append
 * [Contenu] Nœud de sélection de spline
 * [Contenu] Nœud de la liste de fusion spline
-* [Content] Nœud de transformation 2D spline
+* [Content] Nœud de Transforme Spline 2D
 * [Contenu] Nœud de déformation de spline
 * [Content] Nœud d&#39;Height d&#39;échantillon spline
 * [Content] Nœud de Thickness d&#39;exemple de spline
@@ -261,54 +261,54 @@ Pour rappel, si vous souhaitez modifier la langue dans Designer, il vous suffit 
 * [Content] Nœud de couleur du mappeur de pont spline
 * [Content] Nœud Niveaux de gris du mappeur de pont spline
 * [Content] Nœud du mappeur de flux spline
-* [Contenu] Nœud de couleur du mappeur UV
-* [Contenu] Nœud Niveaux de gris du mappeur UV
+* Nœud Couleur du mappeur d&#39;UV [Content]
+* [Contenu] Nœud Niveaux de gris du mappeur d&#39;UV
 * [Contenu] Nœud Tracés vers splines
 * [Contenu] Nœud Masques vers tracés
-* [Contenu] Tracés 2D Transform nodenode
+* [Contenu] Tracés 2D Transforme nodenode
 * [Contenu] Tracés Nœud Polygone
 * [Contenu] Nœud Chemins d’accès d’aperçu
 * [Contenu] Nœud Déformation des tracés
 * [Contenu] Nœud de sélection des tracés
-* [Content] Nœud Processeur de sommets de tracés
-* [Contenu] Processeur de sommets de tracés Nœud simple
-* [Contenu] Quad Transform sur le nœud de chemin
-* [Contenu] Occlusion ambiante avec lancer de rayon v2
+* [Contenu] Chemins d&#39;accès Nœud Processeur de Vertex
+* [Content] Chemins Processeur de Vertex Nœud simple
+* [Contenu] Quad Transforme sur le nœud de chemin
+* [Contenu] Ambient occlusion Lancer de rayon v2
 * [Contenu] Courbure Lancer De Rayon Normal v2
 * [Contenu] Ombres vectorisées avec rayon v2
 * [Moteur] Mise à jour vers la version 9
-* [Moteur] Nœud de boucle dans les graphiques de fonction
+* [Moteur] Nœud de boucle dans les graphes de fonction
 * [Moteur] Ajouter le mode solide au dégradé
-* [Moteur] Nœud Pow() atomique dans le graphique de fonctions
-* [Moteur] Ajout d’options d’habillage de bordure (serrage sur le bord/répétition) dans le nœud Sampler
-* [Moteur] Échantillonnage le plus proche dans le nœud Déformation et Déformation directionnelle
+* [Moteur] Nœud pow() atomique dans le Graphe de fonction
+* [Moteur] Ajout d’options d’habillage de bordure (serrage sur le contour/répétition) dans le nœud Sampler
+* [Moteur] Échantillonnage le plus proche dans le nœud de déformation et de Déformation directionnelle
 * [Moteur] Ajout d’un mode « alpha pénétrant » au filtre Netteté pour les entrées de couleur
-* [Engine] FxMap : morphlet de l&#39;hémisphère
-* [Engine] Opérations Get/Set atomiques dans les graphiques de fonction
+* [Moteur] FxMap : morphlet de l&#39;hémisphère
+* [Moteur] Opérations Get/Set atomiques dans les graphes de fonction
 * [Moteur] Fonctions : utiliser la fonction précise de log/log2/exp, 2pow - Unifier les fonctions entre le cuiseur et le moteur
-* [Moteur] Ajoutez un paramètre « décalage d’intensité » au filtre Déformation directionnelle
-* [API] Prise en charge de la gestion des paramètres prédéfinis pour la composition de graphiques
-* [Fonctions] Modification du nom d&#39;entrée des fonctions nœuds atomiques
+* [Moteur] Ajout d’un paramètre « décalage d’intensité » au filtre Déformation directionnelle
+* [API] Prise en charge de la gestion des paramètres prédéfinis pour les graphes de composition
+* [Fonctions] Modifier le nom d&#39;entrée pour les noeuds atomiques de fonctions
 * [Localisation] Ajouter Portugais (Brésil), Italien (Italie) et Espagnol (Espagne)
 * [Localisation] Respectez la règle « Langue (Pays) » dans la liste des langues
-* [Paramètres prédéfinis] Désactiver les panneaux « Aperçu » et « Paramètres prédéfinis » dans les propriétés du graphique lors de l’utilisation de l’édition contextuelle
-* [Graphique des modèles de Substance] Fin de la prise en charge des graphiques des modèles de Substance
+* [Paramètres prédéfinis] Désactiver les panneaux « Aperçu » et « Paramètres prédéfinis » dans les propriétés de graphe lors de l’utilisation de l’édition contextuelle
+* [Substance models graphe] Fin de la prise en charge des modèles de Substance graphes
 
 ### Correctifs
 
-* [Vue 3D] L’affichage des chaînes longues dans les statistiques de scène est coupé (macOS uniquement)
+* [vue 3D] L’affichage des chaînes longues dans les statistiques de scène est coupé (macOS uniquement)
 * Le module [API] &#39;structure::Structure&#39; est toujours inclus dans la référence API
-* [API] Les nœuds de point dans les graphiques MDL n&#39;ont aucune définition ni propriété
-* [API] Comportement incorrect lors de la définition du paramètre des nœuds de fonction
+* [API] Les nœuds point dans les Graphes MDL n’ont aucune définition ni propriété
+* [API] Comportement incorrect lors de la définition du paramètre des noeuds de fonction
 * [Contenu] 3D Voronoi et 3D voronoi fractal nodes génèrent un avertissement de cuisson
 * [Moteur] Le paramètre « Décalage de la carte d’intensité » n’a aucun effet sur les données en niveaux de gris dans le moteur SSE2
-* [Explorer] L’e/s du graphique peut être supprimée
-* [Graphique] Le bitmap est ignoré lorsqu’il est utilisé dans des instances
-* [Graphique] Position de nœud de point incorrecte lors de la création d&#39;un nœud à partir d&#39;un nœud
-* [Graphique] Focus incorrect dans la boîte de dialogue « Exposer le paramètre » lors de l’utilisation de la touche « Entrée »
-* [Graphique] Résultat incorrect dans la numérisation d’histogramme avec un bitmap dans l’édition du contexte
+* [Explorateur] les e/s de Graphe peuvent être supprimées
+* [Graphe] Le bitmap est ignoré lorsqu’il est utilisé dans des occurrences
+* [Graphe] Position de nœud de point incorrecte lors de la création d&#39;un nœud à partir d&#39;un nœud
+* [Graphe] Focus incorrect dans la boîte de dialogue « Exposer le paramètre » lors de l&#39;utilisation de la touche « Entrée »
+* [Graphe] Résultat incorrect lors de la numérisation d’histogramme avec un bitmap dans l’édition du contexte
 * [Localisation] Correction de divers problèmes d’écrêtage
-* [Paramètres] Blocage lors de la suppression d’un paramètre d’entrée
-* [Publish] Les graphiques dans les dossiers sont déplacés à la racine dans le package publié
-* [Ressources] Blocage lors de la mise à jour d’une ressource chargée sur le disque
+* [Paramètres] Crash lors de la suppression d’un paramètre d&#39;entrée
+* [Publish] Les Graphes des dossiers sont déplacés à la racine dans le package publié
+* [Ressources] Crash lors de la mise à jour d&#39;une ressource chargée sur le disque
 * [VisibleIf] Correction de la régression dans l’évaluation de la visibilité conditionnelle

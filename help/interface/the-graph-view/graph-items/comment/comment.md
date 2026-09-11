@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Ajoutez des commentaires aux graphes Substance 3D Designer pour documenter votre workflow et expliquer les connexions de nœuds.
 helpx_creative_field: ""
@@ -64,7 +64,7 @@ En Vue du graphe de compte, appuyez sur <b>RMB</b> sur n&#39;importe quel objet 
 
 +++
 
-+++Barre d’outils Graphique
++++barre d’outils graphe
 Dans la barre d&#39;outils Vue du graphe, cliquez sur le bouton Commentaire dans la <b>Palette de noeuds</b>.
 
 +++
@@ -103,6 +103,6 @@ Le texte peut être formaté à l’aide d’étiquettes de HTML. Cette mise en 
 
 >[!TIP]
 >
-> Pour en savoir plus sur cette fonctionnalité, consultez la section <b>Description</b> de la documentation [Images](../../../../interface/the-graph-view/graph-items/frame/frame.md).
+> Pour en savoir plus sur cette fonctionnalité, consultez la section <b>Description</b> de la documentation de [Cadre](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
 ![Commentaires : balisage de HTML](../../../../assets/graph-comment_html-markup.gif "Commentaires : balisage de HTML")

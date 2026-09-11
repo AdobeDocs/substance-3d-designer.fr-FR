@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Graisse pour générer des masques d'accumulation de graisse en fonction de la géométrie du maillage et des zones de contact.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque est spécialement conçu pour les visages de personnages et d’autres zones spécifiques. Génère un masque de type peau-graisse sur les zones à faible thickness.
+Ce masque est spécialement conçu pour les faces de caractères et d’autres zones spécifiques. Génère un masque de type peau-graisse sur les zones à faible thickness.
 
 </td>
 </tr>
@@ -47,8 +47,8 @@ Ce masque est spécialement conçu pour les visages de personnages et d’autres
 
 |  |  |
 |:---|:---|
-| <b>Thickness</b> <i>Entrée en niveaux de gris</i> | Placage de Thickness cuit sur lequel repose l’ensemble de l’effet. Obligatoire ! |
-| <b>Bruit</b> <i>Entrée en niveaux de gris</i> | Carte Bruit en option pour remplacer l’usure/salissures de la graisse. |
+| <b>Thickness</b> <i>Entrée en niveaux de gris</i> | Map thickness bakée sur laquelle repose l’intégralité de l’effet. Obligatoire ! |
+| <b>Bruit</b> <i>Entrée en niveaux de gris</i> | Mappage de Bruit facultatif pour remplacer l’usure/salissures de graisse. |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
 
 <a name="parameters"></a>

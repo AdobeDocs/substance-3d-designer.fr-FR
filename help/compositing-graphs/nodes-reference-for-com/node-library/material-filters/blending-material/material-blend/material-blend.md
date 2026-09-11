@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Fusion de Matériau pour fusionner des matériaux entiers à l’aide de masques afin de créer des effets de matériau composites.
 helpx_creative_field: ""
@@ -83,7 +83,7 @@ Ce nœud est utile si vous souhaitez fusionner deux matériaux et avoir une cart
 | <b>Specular level</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
-| <b>Occlusion ambiante</b> |  |
+| <b>Ambient occlusion</b> |  |
 | <b>Opacité</b> <i>0.0 - 1.0</i> | Opacité de fusion entre le premier plan et l’arrière-plan |
 | <b>Mode de fusion</b> <i>Normal, Ajouter, Subtract, Multiplier, Ajouter/Sub, Max, Min, Commuter</i> |  |
 | <b>Height</b> |  |

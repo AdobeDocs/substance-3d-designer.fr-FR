@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser des variables dans les graphiques fonctionnels Substance 3D Designer pour stocker et réutiliser efficacement des valeurs.
+description: Apprenez à utiliser des variables dans les graphes de fonction Substance 3D Designer pour stocker et réutiliser efficacement des valeurs.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables
 helpx_experience_level: ""
@@ -44,14 +44,14 @@ Dans Substance 3D Designer, vous disposez de deux familles de variables : numér
 
 Les variables numériques sont essentiellement des nombres. Mais nous faisons une distinction claire entre deux types de chiffres :
 
-* Entiers : 0 | 1 | -1 | 203568 , etc...
-* Flotteurs : 0,23 | 1.0 | -0,3546 | etc.
+* ENTIERS : 0 | 1 | -1 | 203568 , etc...
+* Flottants : 0,23 | 1.0 | -0,3546 | etc.
 
 >[!WARNING]
 >
-> Designer établit une distinction claire entre les nombres entiers et les nombres flottants : par défaut, vous ne pouvez pas les utiliser ensemble.
+> Designer établit une distinction claire entre les entiers et les objets flottants : par défaut, vous ne pouvez pas les utiliser ensemble.
 > 
-> Heureusement, vous pouvez utiliser les nœuds *To Integer* ou To Float pour effectuer des conversions de type.
+> Heureusement, vous pouvez utiliser les nœuds *To Entier* ou To Flottant pour effectuer des conversions de type.
 
 ### Plusieurs valeurs numériques dans la même variable
 
@@ -65,4 +65,4 @@ Pour ce faire, vous avez le choix entre toutes ces valeurs numériques :
 
 ## Booléen
 
-Un booléen est une valeur binaire pure, ce qui signifie que sa valeur ne peut être que *True* ou *False* (vous pouvez également dire 0 ou 1).
+Une Booléen est une valeur binaire pure, ce qui signifie que sa valeur ne peut être que *True* ou *False* (vous pouvez également dire 0 ou 1).

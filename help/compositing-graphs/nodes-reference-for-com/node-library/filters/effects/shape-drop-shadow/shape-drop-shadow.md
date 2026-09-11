@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Ombre portée de forme pour ajouter des effets d’ombre portée aux formes afin de créer une profondeur et une dimension dans les textures.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## Description
 
-Applique l’effet bien connu « Ombre portée » d’un autre logiciel de traitement d’image 2D, sur un masque noir et blanc d’entrée (pour la version en niveaux de gris) ou sur une image avec transparence (pour la version en couleurs).
+Applique l’effet bien connu « Ombre portée » d’un autre logiciel de traitement d’image 2D, sur une entrée en noir et masque blanc (pour la version en niveaux de gris) ou sur une image avec transparence (pour la version en couleurs).
 
 Il diffère de l&#39;effet [Ombres](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) en ce sens qu&#39;il renvoie des images avec une transparence totale appliquée, ce qui donne un effet plus complet similaire à ce que vous attendriez dans d&#39;autres logiciels.
 

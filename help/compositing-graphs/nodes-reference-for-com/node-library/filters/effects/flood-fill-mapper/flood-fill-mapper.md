@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Mappeur de Flood Fill pour mapper les valeurs sur les régions connectées à l’aide d’algorithmes de remplissage par diffusion pour le traitement de la texture.
+description: Utilisez le nœud Mappeur de Flood Fill pour mapper des valeurs sur des régions connectées à l’aide d’algorithmes de remplissage par diffusion pour le traitement des textures.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Description
 
-Le mappeur de Flood Fill permet de remapper un motif ou une texture existants sur chaque cellule à partir d&#39;un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Elle se distingue des autres conversions Flood Fill comme les [niveaux de gris aléatoires](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ou les [dégradés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md) en ce sens qu&#39;elle ne génère pas de couleurs ou de valeurs unies, mais vous permet d&#39;utiliser vos propres cartes d&#39;entrée. Il peut être considéré comme une sorte de combinaison de [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) et de [Mosaïque Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ou de [Mappeur de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), car il fournit un certain nombre de contrôles et d&#39;interfaces similaires.
+Le mappeur de Flood Fill permet de remapper un motif ou une Texture existante sur chaque cellule à partir d&#39;un [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). Elle se distingue des autres conversions Flood Fill comme les [niveaux de gris aléatoires](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) ou les [dégradés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md) en ce sens qu&#39;elle ne génère pas de couleurs ou de valeurs unies, mais vous permet d&#39;utiliser vos propres maps d&#39;entrée. Il peut être considéré comme une sorte de combinaison de [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) et de [Mosaïque Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ou de [Mappeur de forme](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), car il fournit un certain nombre de contrôles et d&#39;interfaces similaires.
 
-La version Couleur dispose de commandes supplémentaires pour travailler avec les cartes de normales, où elle peut [compenser les rotations des cartes de normales de l&#39;espace tangent](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
+La version Couleur dispose de commandes supplémentaires pour travailler avec les Maps normal, où elle peut [compenser les rotations de la carte Normap de l&#39;espace de tangente de données](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ La version Couleur dispose de commandes supplémentaires pour travailler avec le
 
 |  |  |
 |:---|:---|
-| <b>Mode mosaïque</b> <i>Pas De Répétition, H+V</i> | Indiquez si vous souhaitez utiliser la Répétition ou non. Visible uniquement si la taille ou l’échelle est inférieure à 1. |
+| <b>Mode de répétition</b> <i>Pas De Répétition, H+V</i> | Indiquez si vous souhaitez utiliser la Répétition ou non. Visible uniquement si la taille ou l’échelle est inférieure à 1. |
 | <b>Motif</b> |  |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 8</i> | Définissez la quantité d’entrées de motif personnalisé à utiliser. |
 | <b>Mode de distribution des motifs</b> <i>Aléatoire, Taille De Forme, Entrée De Mappage De Distribution</i> | Définir la méthode pour déterminer quel motif est affiché dans une cellule. |
@@ -88,8 +88,8 @@ La version Couleur dispose de commandes supplémentaires pour travailler avec le
 | <b>Multiplicateur de mappage de décalage de Luminance</b> <i>0.0 - 1.0</i> | Définit l’influence de la courbe de décalage de Luminance facultative. |
 | <b>Couleur d&#39;arrière-plan</b> <i>(valeur Niveaux de gris)</i> | Définit la couleur d’arrière-plan sur laquelle les textures sont fusionnées. |
 | <b>Couleur (uniquement pour la version Color)</b> |  |
-| <b>La Map normal</b> <i>Faux/Vrai</i> | Définit pour interpréter l’entrée de motif comme une Map normal. Permet de compenser et de corriger la rotation de l’espace tangente normale. |
-| <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte). Actif uniquement lorsque l’option Est mappage normal a la valeur True. |
+| <b>La Map normal</b> <i>Faux/Vrai</i> | Définit pour interpréter l’entrée de motif comme une Map normal. Compense et fixe la rotation normale de l’espace de Tangente. |
+| <b>Format normal</b> <i>DirectX, OpenGL</i> | Basculer entre différents Formats de map normaux (inverse la couche verte). Actif uniquement lorsque la Map normal Is a la valeur True. |
 | <b>Réglage TSL</b> <i>-1.0 - 1.0</i> | Ajustez la TSL globalement. |
 | <b>TSL aléatoire</b> <i>-1.0 - 1.0</i> | Définissez la randomisation TSL par cellule. |
 | <b>Réglage de l&#39;Alpha</b> <i>-1.0 - 1.0</i> | Définissez le réglage global de l&#39;Alpha, réduit le contraste de l&#39;Alpha. |

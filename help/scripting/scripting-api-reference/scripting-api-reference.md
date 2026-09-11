@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: Accédez à la référence complète de l’API de script Substance 3D Designer Python pour le développement de plug-ins.
 helpx_creative_field: ""
@@ -42,7 +42,7 @@ Vous pouvez enregistrer <b>rappels</b> auprès de l&#39;application qui sera app
 
 ## Gestionnaire de modules (SDPackageMgr)
 
-Cet objet gère tous les <b>packs</b> de l&#39;application. Les packages sont affichés dans le composant « <b>*Explorer*</b> ».
+Cet objet gère tous les <b>packs</b> de l&#39;application. Les packages sont affichés dans le composant « <b>*Explorateur*</b> ».
 
 Il permet de :
 
@@ -72,7 +72,7 @@ Il existe plusieurs <b>types</b> de ressources :
 * Bitmaps (*SDResourceBitmap*);
 * Images de SVG (*SDResourceSVG*);
 * Polices (*SDResourceFont*);
-* Scenes (*SDResourceScene*);
+* Scènes (*SDResourceScene*);
 * Mesures BSDF (*SDResourceBSDFMeasurement*);
 * Profils lumineux (*SDResourceLightProfile*).
 
@@ -87,25 +87,25 @@ Une ressource peut avoir plusieurs <b>propriétés</b> (*SDProperty*).
 
 Le gestionnaire d&#39;interface utilisateur permet de <b>créer des éléments d&#39;interface utilisateur</b> dans la fenêtre principale de la Substance Designer, tels que des <b>menus</b>, des <b>docks</b> et d&#39;enregistrer des <b>rappels</b> à appeler lorsque des événements liés à l&#39;interface utilisateur se produisent.
 
-En outre, le gestionnaire d&#39;interface utilisateur a accès au <b>graphique actif actuel</b> et à la <b>sélection</b> du graphique actif.
+En outre, le gestionnaire d&#39;interface utilisateur a accès au <b>graphe actif</b> et à la <b>sélection</b> du graphe actif.
 
-## Graphiques (SDGraph)
+## Graphes (graphique ODD)
 
-Un graphique (*SDGraph*) est un objet qui contient :
+Un graphe (*SDGraph*) est un objet qui contient :
 
 * <b>nodes </b>(*SDNode*);
-* <b>objets graphiques</b> (*SDGraphObjects*);
+* <b>Objets graphe</b> (*SDGraphObjects*);
 * <b>propriétés </b>(*SDProperty*).
 
-Il existe 4 types de graphiques différents :
+Il existe 4 types de graphes différents :
 
-* Graphique de Substance (*SDSBSCompGraph*)
-* Graphique de fonction de Substance (*SDSBSFunctionGraph*)
-* Graphique FXMap de Substance (*SDSBSFxMapGraph*)
+* graphe de Substance (*SDSBSCompGraph*)
+* graphe de fonction de Substance (*SDSBSFunctionGraph*)
+* graphe FXMap de Substance (*SDSBSFxMapGraph*)
 
-Un graphique peut avoir un ou plusieurs nœuds de <b>sortie</b>. Les nœuds de sortie représentent les <b>résultats</b> du graphique.
+Un graphe peut avoir un ou plusieurs nœuds de <b>sortie</b>. Les nœuds de sortie représentent les <b>résultats</b> du graphe.
 
-Tous les nœuds disponibles pour un graphique peuvent être <b>récupérés</b> avec la méthode &#39;*getNodeDefinitions()*&#39;.
+Tous les nœuds disponibles pour un graphe peuvent être <b>récupérés</b> avec la méthode &#39;*getNodeDefinitions()*&#39;.
 
 Un nouveau nœud peut être <b>créé</b> avec la méthode &#39;*newNode()*&#39;.
 
@@ -126,35 +126,35 @@ Il existe plusieurs <b>types</b> de nœud :
 
 * *<b>SDSBSCompNode</b>* : nœud du Graphe Substance (*SDSBSCompGraph*);
 * *<b>SDSBSFunctionNode</b>* : nœud du Graphe de fonction Substance (*SDSBSFunctionGraph*);
-* *<b>SDSBSFxMapNode</b>* : nœud du graphique FXMap de Substance de données (*SDSBSFxMapGraph*);
+* *<b>SDSBSFxMapNode</b>* : nœud du Graphe FXMap de la Substance de données (*SDSBSFxMapGraph*);
 
-## Objets graphiques (SDGraphObjects)
+## Objets Graphe (SDGraphObjects)
 
-Un objet graphe (*SDGraphObject*) est un objet qui <b>ajoute des informations supplémentaires</b> au graphique, mais qui <b>*n&#39;est pas* pris en compte</b> lors du processus d&#39;évaluation du graphique.
+Un objet de graphe (*SDGraphObject*) est un objet qui <b>ajoute des informations supplémentaires</b> au graphe, mais qui <b>*n&#39;est pas* pris en compte</b> pendant le processus d&#39;évaluation du graphe.
 
-Il existe <b>3 types</b> d&#39;objets graphiques :
+Il existe <b>3 types</b> d&#39;objets graphe :
 
 * <b>Épingle</b> (*SDGraphObjectPin*)
 * <b>Commentaire</b> (*SDGraphObjectComment*)
-* <b>Frame</b> (*SDGraphObjectFrame*)
+* <b>Cadre</b> (*SDGraphObjectFrame*)
 
 Pour plus d&#39;informations sur la <b>création</b> de ces objets, consultez la méthode statique &#39;*sNew()*&#39;.
 
 ## Propriétés (SDProperty)
 
-Une propriété (*SDProperty*) est un objet qui <b>décrit</b> une propriété de <b>un autre objet</b> (un graphique, un nœud, une ressource, etc.).
+Une propriété (*SDProperty*) est un objet qui <b>décrit</b> une propriété de <b>un autre objet</b> (un graphe, un nœud, une ressource, etc.).
 
 Il appartient à une <b>catégorie</b> spécifique (*SDPropertyCategory*) :
 
 * <b>Entrée</b> : classe les propriétés d&#39;entrée d&#39;un objet, qui ont généralement<b> un impact sur l&#39;opération</b> effectuée par l&#39;objet actuel ;
-  * Exemple : la propriété « *color* » d&#39;un nœud Couleur uniforme dans un graphique de Substance est une propriété d&#39;entrée ;
+  * Exemple : la propriété &#39;*color*&#39; d&#39;un nœud de Couleur uniforme dans un graphe de Substance est une propriété d&#39;entrée ;
 * <b>Sortie</b> : classe les propriétés de sortie d&#39;un objet. Il est utilisé pour identifier un <b>résultat</b> d&#39;un objet ;
 * <b>Annotation</b> : classe les propriétés qui <b>*n&#39;ont pas* d&#39;impact sur l&#39;opération</b> effectuée par un objet ;
-  * Ex. : le &#39;*label*&#39; d&#39;un graphique est une propriété d&#39;annotation, car il n&#39;a aucune incidence sur le calcul du graphique.
+  * Ex. : le &#39;*label*&#39; d&#39;un graphe est une propriété d&#39;annotation, car il n&#39;a aucune incidence sur le calcul du graphe.
 
 Il contient les <b>membres</b> suivants :
 
-* <b>Id</b> : identifiant de la propriété dans le contexte de cette catégorie ;
+* <b>Id</b> : identifiant de la propriété dans le cadre de cette catégorie ;
 * <b>Types</b> : types pris en charge par la propriété actuelle. Certaines propriétés peuvent prendre en charge *plusieurs* types : &#39;*int*&#39;, &#39;*float*&#39;, etc.;
   * Ex. : les propriétés d&#39;entrée d&#39;un nœud &#39;*sbs::function::add*&#39; peuvent prendre en charge différents types : &#39;*int&#39;*, &#39;*int2&#39;*, &#39;*int3&#39;*, &#39;*int4&#39;*, &#39;*float&#39;*, &#39;*float2&#39;*, &#39;*float3&#39;*, &#39;*float4&#39;, etc.;*
 * <b>Catégorie</b> : catégorie à laquelle la propriété appartient (entrée, sortie, annotation);
@@ -170,17 +170,17 @@ Exemples :
 
 * Propriétés du nœud &#39;*sbs::compositing::input*&#39; :
 
-<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::input</th></tr><tr><td style="text-align: left;"><strong>Entrée</strong></td><td style="text-align: left;"><strong>Annotation</strong></td><td style="text-align: left;"><strong>Sortie</strong></td></tr><tr><td>$outputsize</td><td>étiquette</td><td><p>unique_filter_output (CONNECTABLE)</p></td></tr><tr><td>$format</td><td>description</td><td><br/></td></tr><tr><td>$pixelsize</td><td>identifiant</td><td><br/></td></tr><tr><td>$pixelratio</td><td>userdata</td><td><br/></td></tr><tr><td>$tiling</td><td>groupe</td><td><br/></td></tr><tr><td>$randomseed</td><td>visible si</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>usages</td><td><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 276.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::input</th></tr><tr><td style="text-align: left;"><strong>Entrée</strong></td><td style="text-align: left;"><strong>Annotation</strong></td><td style="text-align: left;"><strong>Sortie</strong></td></tr><tr><td>$outputsize</td><td>étiquette</td><td><p>unique_filter_output (CONNECTABLE)</p></td></tr><tr><td>$format</td><td>description</td><td><br/></td></tr><tr><td>$pixelsize</td><td>identifiant</td><td><br/></td></tr><tr><td>$pixelratio</td><td>userdata</td><td><br/></td></tr><tr><td>$répétition</td><td>groupe</td><td><br/></td></tr><tr><td>$randomseed</td><td>visible si</td><td><br/></td></tr><tr><td><p>bitmapresourcepath</p></td><td>usages</td><td><br/></td></tr></tbody></table>
 
 * Propriétés du nœud &#39;*sbs::compositing::blend*&#39; :
 
-<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::blend</th></tr><tr><td style="text-align: left;"><strong>Entrée</strong></td><td style="text-align: left;"><strong>Annotation</strong></td><td style="text-align: left;"><strong>Sortie</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output (CONNECTABLE)</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelratio</td><td><br/></td><td><br/></td></tr><tr><td>$tiling</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.connector (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.connector (CONNECTABLE)</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.connector (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td>opacitymult</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">mode de fusion</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">mélange de couleurs</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">maskrectangle</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><colgroup><col style="width: 278.0px;"/><col style="width: 129.0px;"/><col style="width: 283.0px;"/></colgroup><tbody><tr><th colspan="3" style="text-align: center;">sbs::compositing::blend</th></tr><tr><td style="text-align: left;"><strong>Entrée</strong></td><td style="text-align: left;"><strong>Annotation</strong></td><td style="text-align: left;"><strong>Sortie</strong></td></tr><tr><td>$outputsize</td><td><br/></td><td>unique_filter_output (CONNECTABLE)</td></tr><tr><td>$format</td><td><br/></td><td><br/></td></tr><tr><td>$pixelsize</td><td><br/></td><td><br/></td></tr><tr><td>$pixelratio</td><td><br/></td><td><br/></td></tr><tr><td>$répétition</td><td><br/></td><td><br/></td></tr><tr><td>$randomseed</td><td><br/></td><td><br/></td></tr><tr><td>source.connecteur (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td><p>destination.connecteur (CONNECTABLE)</p></td><td><br/></td><td><br/></td></tr><tr><td>opacity.connecteur (CONNECTABLE)</td><td><br/></td><td><br/></td></tr><tr><td>opacitymult</td><td><br/></td><td><br/></td></tr><tr><td colspan="1">mode de fusion</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">mélange de couleurs</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr><tr><td colspan="1">maskrectangle</td><td colspan="1"><br/></td><td colspan="1"><br/></td></tr></tbody></table>
 
 ## Type (SDType)
 
 Un type (*SDType*) contient des informations d&#39;une valeur <b>type</b>, telles que :
 
-* <b>Id</b> : identificateur du type ;
+* <b>Id</b> : identifiant du type ;
 * <b>Modificateur</b> : le modificateur de type qui peut être l&#39;une des valeurs &#39;*SDTypeModificateur&#39;* <b>enum</b> :
   * *Auto*;
   * *Uniforme* : la valeur est évaluée *une* fois par opération ;

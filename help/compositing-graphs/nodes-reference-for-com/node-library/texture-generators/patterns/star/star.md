@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/star.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Étoile pour générer des motifs en forme d’étoile avec des points et une taille personnalisables pour les textures géométriques.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 ![](../../../../../../assets/star-5.png)
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,4 +46,4 @@ Génère une étoile à cinq branches.
 |  |  |
 |:---|:---|
 | <b>Échelle</b> <i>0.0 - 1.0</i> | Met à l’échelle la forme entière de manière uniforme. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |

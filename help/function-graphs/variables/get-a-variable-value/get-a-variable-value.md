@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
-description: Découvrez comment récupérer des valeurs de variable dans les graphiques fonctionnels Substance 3D Designer à l’aide du nœud Obtenir la variable.
+description: Découvrez comment récupérer des valeurs de variable dans les graphes de fonction Substance 3D Designer à l’aide du nœud Obtenir la variable.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Variables > Get a variable value
 helpx_experience_level: ""
@@ -50,5 +50,5 @@ Notez que seules les variables qui proviennent du même type du nœud Get appara
 > 
 > N&#39;oubliez pas que vous pouvez simplement appeler une variable créée avec un nœud Set, si :
 > 
-> * Les nœuds Get et Set se trouvent dans des graphiques de fonction contrôlant les paramètres d&#39;un même nœud
-> * Le paramètre contrôlé par le graphique de nœud *Get* est identique ou se trouve sous le paramètre du graphique de nœud *Set*, dans la pile de paramètres.
+> * Les nœuds Get et Set se trouvent dans des graphes de fonction contrôlant les paramètres d&#39;un même nœud
+> * Le paramètre contrôlé par le graphe de nœuds *Get* est le même ou se trouve sous le paramètre du graphe de nœuds *Set*, dans la pile de paramètres.

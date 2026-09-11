@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dégradé axial réfléchi pour créer des dégradés axiaux réfléchis pour des transitions de couleurs symétriques.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,4 +47,4 @@ Comme l&#39;[axe de dégradé](../../../../../../compositing-graphs/nodes-refere
 |:---|:---|
 | <b>Point 1</b> | Premier point de départ du dégradé (noir) |
 | <b>Point 2</b> | Deuxième point pour terminer le dégradé à (blanc) |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activer la compensation de la courbure et du étire avec des rapports non carrés. |

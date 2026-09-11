@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
-description: Utilisez les nœuds de fonction Aléatoire pour générer des valeurs aléatoires dans des limites spécifiques à l'aide de divers algorithmes.
+description: Utilisez des noeuds de fonction aléatoires pour générer des valeurs aléatoires dans des limites spécifiques à l’aide de divers algorithmes.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random
 helpx_experience_level: ""
@@ -32,15 +32,15 @@ Distribution normale
 
 Discret aléatoire [a, b]
 
-Aléatoire uniforme &lbrack;-1, 1&lbrack;
+Aléatoire uniforme [-1, 1[
 
-Uniforme aléatoire &lbrack;a, b&lbrack;
+Uniforme aléatoire [a, b[
 
-Float uniforme aléatoire2 &lbrack;a, b&lbrack;
+Float uniforme aléatoire2 [a, b[
 
-Float uniforme aléatoire3 &lbrack;a, b&lbrack;
+Float uniforme aléatoire3 [a, b[
 
-Float uniforme aléatoire4 &lbrack;a, b&lbrack;
+Float uniforme aléatoire4 [a, b[
 
 </td>
 <td style="border: 0;" valign="top">

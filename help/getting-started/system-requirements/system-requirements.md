@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Vérifiez la configuration requise pour Substance 3D Designer pour vous assurer que votre ordinateur répond aux spécifications requises.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ Vous trouverez ci-dessous une liste des GPU compatibles avec l’application :
 >
 > **TDR (Windows uniquement)**
 > 
-> Pour une meilleure stabilité globale lors de l&#39;exécution de calculs lourds sur le GPU (par exemple, le rendu de graphiques complexes, le rendu dans la vue 3D, l&#39;exportation d&#39;une scène à partir de la vue 3D, etc.), il est fortement recommandé de s&#39;assurer que les valeurs <b>Détection et récupération du délai d&#39;expiration (TDR)</b> correspondent aux recommandations figurant dans [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation.
+> Pour une meilleure stabilité globale lors de l&#39;exécution de calculs lourds sur le GPU (par exemple, le rendu de graphes complexes, le rendu dans la vue 3D, l&#39;exportation d&#39;une scène à partir de la vue 3D, etc.), il est fortement recommandé de s&#39;assurer que les valeurs <b>Détection et récupération du délai d&#39;expiration (TDR)</b> correspondent aux recommandations figurant dans [cette page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation.
 
 ## Configurations non prises en charge
 
@@ -93,14 +93,14 @@ Vous trouverez ci-dessous une liste des GPU compatibles avec l’application :
 
 * Les GPU intégrés ne sont pas pris en charge sur les processeurs x86-64 (Intel, AMD).
 * L’utilisation de Designer en association avec un logiciel tiers qui intercepte les appels Designer aux pilotes graphiques n’est pas prise en charge. Ces logiciels comprennent :
-  * Injecteurs de post-traitement tels que les nuanciers qui appliquent un étalonnage des couleurs, des effets de caméra, ...
+  * Injecteurs de post-traitement tels que des nuanciers qui appliquent un étalonnage des couleurs, des effets de caméra, ...
   * Incrustations à l’écran telles que les réticules personnalisés, les métriques de performance GPU, les habillages pour la diffusion vidéo...
 
 ## Versions minimales du pilote GPU
 
 Vous trouverez ci-dessous une liste des versions minimales du pilote GPU requises pour que l’application s’exécute sans problème. Cette liste peut être modifiée à mesure que de nouvelles versions sont publiées.
 
-Pour télécharger de nouveaux pilotes, voir : [Le GPU a des pilotes obsolètes](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Pour télécharger de nouveaux pilotes, voir : [Le GPU a des pilotes obsolètes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SE | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -111,22 +111,22 @@ Pour télécharger de nouveaux pilotes, voir : [Le GPU a des pilotes obsolètes]
 >
 > Sur **Mac OS**, le pilote GPU est fourni par le système d&#39;exploitation lui-même. Effectuez une mise à jour vers la dernière version de votre système d’exploitation pour accéder au pilote le plus récent.
 
-## GPU raytracing à cuire
+## GPU raytracing de baking
 
 Pour activer GPU raytracing via Optix ou DXR, les pilotes recommandés ci-dessus doivent être installés.
 
 <b>DXR</b> nécessite la configuration minimale suivante :
 
-* <b>Windows 10</b> version 1809, consultez [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing) pour plus d&#39;informations
+* <b>Windows 10</b> version 1809, consultez [cette page](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) pour plus d&#39;informations
 * <b>GPU avec architecture Pascal</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
-> GPU raytracing s’exécute de manière optimale sur du matériel de lancer de rayons dédié tel que les GPU NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
+> GPU raytracing s’exécute de manière optimale sur le matériel de raytracing dédié tel que les GPU NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
 
 ## Utilisation des comprimés
 
-Les utilisateurs de tablettes sous <b>Windows</b> doivent appliquer les paramètres décrits dans la page suivante pour bénéficier de l&#39;expérience la plus fiable : [Configuration des stylos et des tablettes](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+Les utilisateurs de tablettes sous <b>Windows</b> doivent appliquer les paramètres décrits dans la page suivante pour bénéficier d&#39;une expérience optimale : [Configuration des stylets et des tablettes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Langues
 

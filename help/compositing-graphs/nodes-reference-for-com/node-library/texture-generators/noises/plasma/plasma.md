@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Plasma pour générer des motifs de bruit de type plasma afin de créer des effets de texture organique et fluide.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Description
 
-Cela génère une variante légèrement différente du [bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), avec des traînées sombres plus longues comme vallées. La commande Distance est similaire pour l’échelle, qui conserve la structure en mosaïque.
+Cela génère une variante légèrement différente du [Bruit gaussien](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), avec des traînées sombres plus longues comme vallées. La commande Distance est similaire pour l’échelle, ce qui permet de conserver la répétition.
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Cela génère une variante légèrement différente du [bruit gaussien](../../..
 |:---|:---|
 | <b>Échelle</b> <i>1 - 128</i> | Définit l’échelle globale de l’effet. |
 | <b>Désordre</b> <i>0.0 - 1.0</i> | Déphasez le bruit pour introduire une faible variation. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

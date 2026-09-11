@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Hald CLUT pour appliquer des tables de correspondance de couleur à l'aide du format Hald CLUT pour l'étalonnage et la correction des couleurs.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Description
 
-Applique une table LUT à l’image d’entrée. Le LUT doit être au format Hald en résolution 4096\*4096. Voir <http://www.quelsolaar.com/technology/clut.html> pour plus d&#39;informations.
+Applique un LUT sur l’image d&#39;entrée. Le LUT doit être au format Hald en résolution 4096\*4096. Voir <http://www.quelsolaar.com/technology/clut.html> pour plus d&#39;informations.
 
 </td>
 </tr>

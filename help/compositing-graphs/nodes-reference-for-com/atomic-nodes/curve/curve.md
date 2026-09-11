@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Courbe pour ajuster les valeurs de texture à l’aide de courbes personnalisables afin de contrôler avec précision la couleur et la luminosité.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nœud atomique : Courbe](curve.resources/comp_curve_1.png "Nœud atomique : Courbe"){width="200px"}
+![Noeud atomique : Courbe](curve.resources/comp_curve_1.png "Noeud atomique : Courbe"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -89,8 +89,8 @@ Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39
 
 |  |  |
 | --- | --- |
-| <b>Appliquer/Exposer la courbe</b> *Booléen* | Permet de copier la courbe utilisateur vers la sortie au lieu de l’appliquer à l’image d’entrée |
-| <b>Adressage des courbes</b> *Booléen* | Ce paramètre détermine la façon dont les pixels HDR hors de la plage [0, 1] dans l’entrée sont traités : ils sont bridés ou pliés jusqu’à [0, 1]. |
+| <b>Appliquer/Exposer la courbe</b> *Booléen* | Permet de copier la courbe utilisateur vers la sortie au lieu de l’appliquer à l’image d&#39;entrée |
+| <b>Adressage des courbes</b> *Booléen* | Ce paramètre détermine la façon dont les pixels HDR hors de la plage [0, 1] dans l’entrée sont traités : bridés ou pliés jusqu’à [0, 1]. |
 | <b>Courbe</b> *Tableau de touches de courbes* | Courbe personnalisée utilisée pour mapper les valeurs de niveaux de gris en entrée.   Peut être modifié à l&#39;aide de l&#39;[éditeur de courbes](#curve-editor). |
 
 ## Éditeur de courbes
@@ -188,7 +188,7 @@ Si vous cliquez avec le bouton droit de la souris sur la vue Courbe, vous obtien
 
 <b>Symétrie horizontale/verticale :</b> inversez les points sélectionnés en fonction de l&#39;axe sélectionné.
 
-<b>Symétrie horizontale/verticale :</b> reflète la courbe entière, selon l&#39;axe sélectionné
+<b>Symétrie horizontale/verticale :</b> reflète la totalité de la courbe, en fonction de l&#39;axe sélectionné
 
 ### Raccourcis clavier
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Matériau Maillage Data Blender pour fusionner les données de maillage de matériau afin de créer des transitions fluides entre différentes zones de matériau.
 helpx_creative_field: ""
@@ -48,12 +48,12 @@ Elle est utile pour ajouter une mise en surbrillance des contours en fonction de
 |  |  |
 |:---|:---|
 | <b>Entrée de Matériau complète (groupe « Matériau »)</b> | Ensemble complet de cartes de matériau.<br><br>Ceux-ci sont modifiés par ce nœud, puis renvoyés en tant que sortie. |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Height</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Normal</b> <i>Entrée couleur</i> |  |
 | <b>Couleur Vertex</b> <i>Entrée couleur</i> |  |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> |  |
 
 <a name="parameters"></a>
 
@@ -61,20 +61,20 @@ Elle est utile pour ajouter une mise en surbrillance des contours en fonction de
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. Affecte la disponibilité des paramètres ci-dessous. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. Affecte la disponibilité des paramètres ci-dessous. |
 | <b>Maps bakées</b> | Indique si les maps bakées répertoriées doivent être utilisées pour les calculs. Affecte la disponibilité des paramètres ci-dessous. |
 | <b>Diffuse AO</b> <i>0.0 - 1.0</i> | Quantité d’Ambient occlusion à fusionner dans le Diffuse. |
-| <b>Bords nets</b> Diffuse <i>0.0 - 1.0</i> | Valeur de la courbe de référence à fusionner avec le diffus. |
-| <b>Couleur De Diffuse À Partir De La Couleur De Vertex</b> <i>0.0 - 1.0</i> | Degré de fusion de la couleur du sommet dans le mode Diffus. |
-| <b>Diffuse Pré-Éclairage</b> <i>0.0 - 1.0</i> | Quantité de (faux) pré-éclairage, en fonction des normales de l’espace universel. |
-| <b>Balance de l&#39;éclairage des dessins animés</b> <i>0.0 - 1.0</i> | Permet de passer d’un éclairage réaliste à un éclairage caricatural pour le diffus. |
+| <b>Bords nets</b> Diffuse <i>0.0 - 1.0</i> | Quantité de map curvature à fusionner dans le Diffuse. |
+| <b>Couleur De Diffuse À Partir De La Couleur De Vertex</b> <i>0.0 - 1.0</i> | Quantité de baking de couleur du Vertex à fusionner avec le Diffuse. |
+| <b>Diffuse Pré-Éclairage</b> <i>0.0 - 1.0</i> | Quantité de (faux) pré-éclairage, en fonction des Normales des espaces monde. |
+| <b>Balance de l&#39;éclairage des dessins animés</b> <i>0.0 - 1.0</i> | Permet de passer d’un éclairage réaliste à un éclairage caricatural pour le Diffuse. |
 | <b>Calques De Pré-Éclairage De Dessin Animé Par Diffuse</b> <i>0 - 10</i> | Contrôle l’aspect des calculs d’éclairage du dessin animé. |
 | <b>Contours de dessin animé Diffuse</b> <i>0.0 - 1.0</i> | Contrôle l’aspect des calculs d’éclairage du dessin animé. |
-| <b>Base color AO</b> <i>0.0 - 1.0</i> | Quantité d’Occlusion ambiante à fusionner avec la couleur de base. |
-| <b>Base color des contours nets</b> <i>0.0 - 1.0</i> | Quantité de courbe de référence à fusionner avec la couleur de base. |
-| <b>Base color À Partir De La Couleur Du Vertex</b> <i>0.0 - 1.0</i> | Degré de fusion de la couleur du sommet avec la couleur de base. |
-| <b>Intensité normale du Matériau</b> <i>0.0 - 1.0</i> | Intensité de fusion de la texture normale (tangente) cuite. |
-| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;AO dans le Specular. |
+| <b>Base color AO</b> <i>0.0 - 1.0</i> | Quantité d’Ambient occlusion à fusionner avec la couleur de base. |
+| <b>Base color des contours nets</b> <i>0.0 - 1.0</i> | Quantité de map curvature à fusionner avec la couleur de base. |
+| <b>Base color À Partir De La Couleur Du Vertex</b> <i>0.0 - 1.0</i> | Quantité de baking de couleur du Vertex à fusionner avec la couleur de base. |
+| <b>Intensité normale du Matériau</b> <i>0.0 - 1.0</i> | Force de fusion de la texture normale (tangente) bakée. |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Force de fusion de l’AO dans le Specular. |
 | <b>Bords nets Specular vifs</b> <i>0.0 - 1.0</i> | Force de fusion de la Courbure dans le Specular. |
 | <b>Contours de dessin animé Specular</b> <i>0.0 - 1.0</i> | Force de fusion d’un effet de contour de Specular de dessin animé, en fonction de la Courbure. |
 | <b>Brillance des contours sombres et nets</b> <i>0.0 - 1.0</i> | Force de fusion de la Courbure dans la Brillance. |

@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Uber Emboss pour créer des effets d’estampage avancés avec des commandes personnalisables de profondeur, d’angle et d’éclairage.
+description: Utilisez le nœud Uber Embossage pour créer des effets d’embossage avancés avec des commandes personnalisables de profondeur, d’angle et d’éclairage.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Uber Emboss
+title: Uber Embossage
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
@@ -18,7 +18,7 @@ ht-degree: 9%
 ---
 
 
-# Uber Emboss
+# Uber Embossage
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 ## Description
 
-Version avancée et riche en fonctionnalités de [Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Applique un effet d’éclairage 2D sophistiqué basé sur une courbe de hauteur.
+Version avancée et riche en fonctionnalités de [Embossage](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Applique un effet d’éclairage 2D sophistiqué basé sur une courbe de hauteur.
 
-Utile lors de la création d’un éclairage intégré pour certains styles de texture lorsqu’un contrôle important est nécessaire.
+Utile lors de la création d’un éclairage baké pour certains styles de texture pour lesquels beaucoup de contrôle est nécessaire.
 
 </td>
 </tr>

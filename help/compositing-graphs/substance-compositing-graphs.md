@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Découvrez les graphes de composition de Substances dans Substance 3D Designer pour créer des textures procédurales et des workflows de matériau.
 helpx_creative_field: ""
@@ -55,22 +55,22 @@ Le texte portant le numéro ou le thickness du contour peut être exposé à l�
 +++
 
 +++Filtre Réglage
-![Filtre d&#39;ajustement dans le graphique de Substance](substance-compositing-graphs.resources/simplefilter.png "Filtre d&#39;ajustement dans le graphique de Substance"){width="512px"}
+![Filtre de réglage dans le graphe Substance](substance-compositing-graphs.resources/simplefilter.png "Filtre de réglage dans le graphe Substance"){width="512px"}
 
 
 
-Un graphique de filtre prend une carte normale comme [entrée](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (avec un aperçu personnalisé), [la convertit en courbure](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md), puis [ajuste le contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) pour créer un masque de bords convexes en tant que [sortie](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
+Un graphe de filtrage prend une map normal en tant que [entrée](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (avec un aperçu personnalisé), [la convertit en courbure](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md), puis [ajuste le contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) pour créer un masque de contours convexes en tant que [sortie](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
 
-Les valeurs de contraste définies dans l’histogramme peuvent être affichées, ce qui en fait un filtre simple mais utile en combinaison avec l’emplacement d’entrée dynamique.
+Les valeurs de contraste définies dans l’histogramme peuvent être exposées, ce qui en fait un filtre simple mais utile associé à l’emplacement d’entrée dynamique.
 
 +++
 
-+++Matière complète
-![Matière complète dans le graphique en Substances](substance-compositing-graphs.resources/simplematerial.png "Matière complète dans le graphique en Substances"){width="512px"}
++++Matériau complet
+![matériau total en graphe de Substance](substance-compositing-graphs.resources/simplematerial.png "matériau complet en graphe de Substance"){width="512px"}
 
 
 
-Un graphique plus complexe[fusionne deux Matériaux de base](../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). L&#39;un des [Matériaux de base](../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) est simple, tandis que l&#39;autre utilise des entrées personnalisées pour susciter l&#39;intérêt. Un masque est utilisé pour déterminer lequel des deux matériaux apparaît à l&#39;endroit où il se trouve avant d&#39;être défini comme [sorties](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finales.
+Un graphe plus compliqué[fusionne deux Matériaux de base](../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). L&#39;un des [Matériaux de base](../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) est simple, tandis que l&#39;autre utilise des entrées personnalisées pour susciter l&#39;intérêt. Un masque est utilisé pour déterminer lequel des deux matériaux apparaît à l&#39;endroit où il se trouve avant d&#39;être défini comme [sorties](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finales.
 
 Cet exemple utilise les [modes de création de liens](../interface/the-graph-view/link-creation-modes/link-creation-modes.md) pour simplifier l&#39;utilisation de plusieurs liens.
 

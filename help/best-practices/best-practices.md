@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/best-practices.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
 breadcrumb-title: ''
 description: Accédez aux guides de bonnes pratiques pour Substance 3D Designer afin d’optimiser votre workflow et de créer des matériaux efficaces.
 helpx_creative_field: ""
@@ -26,10 +26,10 @@ Dans des domaines spécifiques, il est logique d’accorder une attention partic
 
 Dans certains cas, la taille totale des fichiers des ressources Substance 3D (SBSAR) peut être un facteur important. Cette page couvre quelques domaines et paramètres importants à garder à l’esprit lorsque vous tentez de réduire la taille des fichiers.
 
-## Règles de création de graphiques
+## Règles de création des graphes
 
-La création de graphes volumineux et complexes peut rapidement devenir déroutante et difficile à explorer. Un certain nombre d&#39;outils peuvent être utilisés pour atténuer ces problèmes, et il y a de bonnes habitudes à prendre pour éviter les problèmes plus tard. Cette page fournit une liste concluante des techniques que nous vous recommandons d’utiliser pour créer des graphiques propres, efficaces et fonctionnels, faciles à partager et à comprendre.
+La création de graphes volumineux et complexes peut rapidement devenir déroutante et compliquée à explorer. Un certain nombre d&#39;outils peuvent être utilisés pour atténuer ces problèmes, et il y a de bonnes habitudes à prendre pour éviter les problèmes plus tard. Cette page fournit une liste concluante des techniques que nous recommandons d&#39;utiliser pour des Graphes propres, efficaces et fonctionnels qui sont faciles à partager et à comprendre.
 
 ## Directives d’optimisation des performances
 
-Plus les graphiques de Substances sont complexes, plus la puissance de traitement nécessaire à leur rendu est importante. Vous devez essayer de trouver un équilibre entre complexité et vitesse de rendu.
+Plus les graphes de Substance sont complexes, plus la puissance de traitement nécessaire à leur rendu est importante. Vous devez essayer de trouver un équilibre entre complexité et vitesse de rendu.

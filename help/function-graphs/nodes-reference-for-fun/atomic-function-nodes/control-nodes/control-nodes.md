@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Accès aux nœuds de contrôle dans les graphes de fonction Substance 3D Designer pour contrôler le flux et la logique d’exécution.
 helpx_creative_field: ""
@@ -74,10 +74,10 @@ Pour en savoir plus sur le nœud Séquence, consultez la page [Utilisation des n
 
 +++Connecteurs d’entrée
 <b>Entrée</b> *Type de variable*\
-Partie du graphique qui doit être calculée en premier
+Partie du graphe qui doit être calculée en premier
 
 <b>Dernier</b> *Type de variable*\
-Partie du graphique à calculer en dernier
+Partie du graphe qui doit être calculée en dernier
 
 +++
 
@@ -102,20 +102,20 @@ Une fois la boucle terminée, le nœud génère le résultat de la dernière it�
 
 Les boucles ont un nombre maximum implicite d&#39;itérations qui peuvent être désactivées en le réglant à -1.
 
-Les variables conservent leur valeur au fil des itérations et sont accessibles dans la condition de sortie (Cond. de sortie).\
+Les variables conservent leur valeur entre les itérations et sont accessibles dans la condition de sortie (Cond. de sortie).\
 Cela signifie que vous pouvez ajouter à une valeur d&#39;index chaque itération et vérifier sa valeur dans la condition de sortie pour contrôler le nombre de boucles dont vous avez besoin.
 
 >[!IMPORTANT]
 >
-> Nœuds connectés au <b>conteneur de sortie</b> et les branches <b>Corps de boucle</b> ne peuvent pas être connectées à d&#39;autres branches du graphique.
+> Nœuds connectés au <b>conteneur de sortie</b> et les branches <b>Corps de boucle</b> ne peuvent pas être connectées à d&#39;autres branches du graphe.
 
 +++Connecteurs d’entrée
 <b>Init.</b> *Type de variable*\
-Partie du graphique calculée avant la première itération, c&#39;est-à-dire le début de la boucle.
+Partie du graphe calculée avant la première itération, c&#39;est-à-dire le début de la boucle.
 
 <b>Quitter Cond.</b> *Booléen*\
-Condition devant être vraie pour que la boucle s&#39;arrête. Il est recalculé à chaque itération.\
-*Remarque :* le nombre maximal d&#39;itérations est toujours limité au paramètre <b>Nombre maximal d&#39;itérations</b>.
+Condition devant être vraie pour que la boucle s&#39;arrête. Il est recalculé sur chaque itération.\
+*Remarque :* le nombre maximal d&#39;itérations est toujours limité au paramètre <b>itérations maximales</b>.
 
 <b>Corps en boucle</b> *Type de variable*\
 Le graphe qui bénéficie de la boucle. Il est recalculé sur chaque itération.

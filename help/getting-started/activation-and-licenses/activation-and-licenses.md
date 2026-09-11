@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Découvrez comment activer Substance 3D Designer et gérer les licences pour accéder à toutes les fonctionnalités et capacités.
 helpx_creative_field: ""
@@ -24,13 +24,13 @@ Le processus d’activation dépend de l’endroit où vous avez acheté ou acc�
 
 | Edition | Processus d’activation |
 | --- | --- |
-| Application pour poste de travail Creative Cloud | Voir la page dédiée dans la [documentation HelpX](https://helpx.adobe.com/fr/support/substance-3d-designer.html). En cas de problème, la [documentation du Creative Cloud](https://helpx.adobe.com/fr/creative-cloud/user-guide.html) peut fournir des réponses supplémentaires. |
+| Application pour poste de travail Creative Cloud | Voir la page dédiée dans la [documentation HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). En cas de problème, la [documentation du Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) peut fournir des réponses supplémentaires. |
 | Vapeur | Lancez le produit directement depuis votre bibliothèque Steam. |
 | Substance (autonome) | Voir le processus d’activation décrit ci-dessous. |
 
 ## Étapes d’activation (édition Substance)
 
-### UTILISATION DE L’ASSISTANT D’ACTIVATION
+### UTILISATION DE L’ASSISTANT D&#39;ACTIVATION
 
 Trois choix s&#39;offrent à vous :
 
@@ -40,7 +40,7 @@ Trois choix s&#39;offrent à vous :
 
 >[!IMPORTANT]
 >
-> Pour installer le fichier de licence avec l’Assistant d’activation, assurez-vous d’exécuter Designer en tant qu’administrateur et de désactiver temporairement votre antivirus.
+> Pour installer le fichier de licence avec l’Assistant d&#39;activation, assurez-vous d’exécuter Designer en tant qu’administrateur et de désactiver temporairement votre antivirus.
 
 ![Assistant d&#39;activation](../../assets/activation-wizard.png "Assistant d&#39;activation")
 

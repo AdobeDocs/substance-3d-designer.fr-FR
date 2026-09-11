@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser des tracés et des outils spline pour créer des motifs procéduraux et des formes organiques dans vos graphiques.
+description: Apprenez à utiliser des tracés et des outils spline pour créer des motifs procéduraux et des formes organiques dans vos graphes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
 helpx_experience_level: ""
@@ -41,7 +41,7 @@ Chacun peut créer des formes fermées ou ouvertes.
 
 Les nœuds produisent des images qui contiennent des <b>données codées</b> représentant des chemins et des splines.
 
-Par exemple, l&#39;image de droite représente la sortie de l&#39;image par un nœud [Polygone des tracés](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md).
+Par exemple, l&#39;image de droite représente l&#39;image en sortie par un nœud de type [Polygone des tracés](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ Par exemple, l&#39;image de droite représente la sortie de l&#39;image par un n
 </tr>
 </table>
 
-Ainsi, les images qu’ils produisent ne sont pas directement utilisables en tant qu’élément graphique. Ils doivent être traités par d&#39;autres nœuds de la palette d&#39;outils qui peuvent les convertir en un résultat graphique qui peut ensuite être utilisé avec les autres nœuds disponibles pour les graphiques de Substance.
+Ainsi, les images qu’ils produisent ne sont pas directement utilisables en tant qu’élément graphique. Ils doivent être traités par d&#39;autres nœuds de la palette d&#39;outils qui peuvent les convertir en un résultat graphique qui peut ensuite être utilisé avec les autres nœuds disponibles pour les graphes de Substance.
 
 Lorsque vous travaillez avec des tracés et des splines, vous pouvez prévisualiser ces objets mappés dans une image à l&#39;aide du nœud [Tracés d&#39;aperçu](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) dédié pour les tracés et de la sortie <b>Aperçu</b> dédiée pour les splines.
 
@@ -60,16 +60,16 @@ Lorsque vous travaillez avec des tracés et des splines, vous pouvez prévisuali
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Interaction avec la vue 2D
+### interaction vue 2D
 
 Un grand nombre de nœuds dans l&#39;ensemble d&#39;outils permettent d&#39;effectuer des modifications directement dans la [vue 2D](../../../../../interface/2d-view/2d-view.md) à l&#39;aide de gadgets de contrôle. Ces gadgets comprennent le widget de position et la matrice de transformation.
 
-Par exemple, les nœuds de génération de splines tels que [Spline (cubique)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) ou [Spline (polyquadratique)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) vous permettent de déplacer les points de contrôle des splines. Pour les tracés, la commande [Quad Transform on Path](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) possède des options similaires lorsqu&#39;elle est sélectionnée.
+Par exemple, les nœuds de génération de splines tels que [Spline (cubique)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) ou [Spline (polyquadratique)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) vous permettent de déplacer les points de contrôle des splines. Pour les tracés, le [Quad Transforme on Path](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) comporte des commandes similaires lorsqu&#39;il est sélectionné.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline cubique dans la vue 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline cubique dans la vue 2D")
+![Spline cubique en vue 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline cubique en vue 2D")
 
 </td>
 </tr>

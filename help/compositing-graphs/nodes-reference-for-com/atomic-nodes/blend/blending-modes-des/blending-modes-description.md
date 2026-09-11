@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Découvrez les modes de fusion disponibles dans Substance 3D Designer pour combiner des textures avec différents effets de composition.
 helpx_creative_field: ""
@@ -28,17 +28,17 @@ Le mode de fusion *Copier* place simplement le premier plan sur l&#39;arrière-p
 
 ![Mode de fusion : Copier](blending-modes-description.resources/image2015-8-20-9-38-0.png "Mode de fusion : Copier"){zoomable="yes"}
 
-Pour les images couleur, la couche alpha est prise en compte par défaut dans l’opacité.
+Pour les images couleur, le canal Alpha est pris en compte par défaut dans l’opacité.
 
-Vous pouvez modifier ce paramètre à l’aide du paramètre Fusion d’Alpha.
+Ce paramètre peut être modifié à l&#39;aide du paramètre « Simulation de transparence ».
 
 ![Mode de fusion : Copier (2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "Mode de fusion : Copier (2)"){zoomable="yes"}
 
-## Ajouter (Densité linéaire)
+## Ajouter (Linear dodge)
 
 Le mode de fusion *Ajouter* ajoute la valeur d&#39;entrée de premier plan à chaque pixel correspondant en arrière-plan.
 
-![Mode de fusion : Ajouter (Densité linéaire)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Mode de fusion : Ajouter (Densité linéaire)"){zoomable="yes"}
+![Mode de fusion : Ajouter (Linear dodge)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Mode de fusion : Ajouter (Linear dodge)"){zoomable="yes"}
 
 ## Soustraction
 
@@ -69,7 +69,7 @@ Le mode de fusion *Ajouter sub* fonctionne comme suit :
 
 Le mode de fusion *Max* sélectionnera la valeur la plus élevée entre l&#39;arrière-plan et le premier plan.
 
-![Mode de fusion : Max (Éclaircir)](blending-modes-description.resources/image2015-8-20-9-40-12.png "Mode de fusion : Max (Éclaircir)"){zoomable="yes"}
+![Mode de fusion : Max (Lighten)](blending-modes-description.resources/image2015-8-20-9-40-12.png "Mode de fusion : Max (Lighten)"){zoomable="yes"}
 
 ## Min. (obscurcir)
 
@@ -84,7 +84,7 @@ Le mode de fusion du *commutateur* est similaire au mode de copie, avec une diff
 * &#39;Opacité&#39; définie sur 0 : le flux de nœuds connectés à l&#39;entrée &#39;Foreground&#39; *ne sera pas calculé*.
 * « Opacité » définie sur 1 : le flux de nœuds connectés à l&#39;entrée « Arrière-plan » *ne sera pas calculé*.
 
-Par conséquent, ce mode peut être utilisé pour améliorer les performances de votre graphique.
+Ce mode peut donc être utilisé pour améliorer les performances de votre graphe.
 
 Les nœuds [Switch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) et [Switch grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) sont configurés pour utiliser les nœuds de fusion dans ces configurations spécifiques.
 
@@ -92,15 +92,15 @@ Les nœuds [Switch](../../../../../compositing-graphs/nodes-reference-for-com/no
 
 ## Division
 
-Le mode de fusion *Division* divise la valeur des pixels d&#39;entrée de l&#39;arrière-plan par chaque pixel correspondant au premier plan.
+Le mode de fusion *Divide* divisera la valeur des pixels d&#39;entrée de l&#39;arrière-plan par chaque pixel correspondant au premier plan.
 
-![Mode de fusion : Division](blending-modes-description.resources/image2015-8-20-9-41-32.png "Mode de fusion : Division"){zoomable="yes"}
+![Mode de fusion : Divide](blending-modes-description.resources/image2015-8-20-9-41-32.png "Mode de fusion : Divide"){zoomable="yes"}
 
 ## Superposition
 
 Le mode de fusion *Incrustation* combine les modes de fusion Produit et Superposition :
 
-* &#x200B;
+* 
   * Si la valeur du pixel du calque inférieur est inférieure à 0,5, une fusion de type *Produit* est appliquée
   * Si la valeur du pixel du calque inférieur est supérieure à 0,5, une fusion de type *Écran* est appliquée
 
@@ -116,8 +116,8 @@ L’effet inverse est à multiplier, et la luminosité est toujours égale ou su
 
 ## Soft light
 
-Le mode de fusion Lumière tamisée crée un résultat subtil plus clair ou plus sombre selon la luminosité de la couleur de premier plan.
+Le mode de fusion Soft light crée un résultat subtil plus clair ou plus sombre en fonction de la luminosité de la couleur de premier plan.
 
 Les couleurs de fusion dont la luminosité est supérieure à 50 % éclaircissent les pixels de l’arrière-plan, tandis que les couleurs dont la luminosité est inférieure à 50 % assombrissent les pixels de l’arrière-plan.
 
-![Mode de fusion : Lumière tamisée](blending-modes-description.resources/image2015-8-20-9-42-32.png "Mode de fusion : Lumière tamisée"){zoomable="yes"}
+![Mode de fusion : Soft light](blending-modes-description.resources/image2015-8-20-9-42-32.png "Mode de fusion : Soft light"){zoomable="yes"}

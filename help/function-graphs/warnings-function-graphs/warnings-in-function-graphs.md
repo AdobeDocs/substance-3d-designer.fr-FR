@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
-description: Familiarisez-vous avec les avertissements dans les graphiques de fonction de Substance 3D Designer et découvrez comment résoudre les problèmes courants.
+description: Familiarisez-vous avec les avertissements dans les graphes fonctionnels Substance 3D Designer et découvrez comment résoudre les problèmes courants.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Warnings in function graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Avertissements dans les graphiques de fonctions
+title: Avertissements dans les graphes de fonction
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,12 +18,12 @@ ht-degree: 0%
 ---
 
 
-# Avertissements dans les graphiques de fonctions
+# Avertissements dans les graphes de fonction
 
-Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les [graphiques fonctionnels](../../function-graphs/function-graphs.md) dans Substance 3D Designer et propose des étapes de dépannage courantes pour chacun d&#39;eux.
+Cette page répertorie les messages d&#39;avertissement et d&#39;erreur qui peuvent être déclenchés par les [graphes de fonction](../../function-graphs/function-graphs.md) dans Substance 3D Designer et propose des étapes de dépannage courantes pour chacun d&#39;eux.
 
-Les avertissements sont affichés dans l&#39;infobulle de l&#39;icône d&#39;avertissement pour la ressource de graphique dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [vue graphique](../../interface/the-graph-view/the-graph-view.md) si le graphique est chargé.\
-Si la fonction est *appliquée à un paramètre* dans un [graphe de Substances](../../compositing-graphs/substance-compositing-graphs.md), tout avertissement entraîne l&#39;avertissement « *La fonction du paramètre [x] comporte des erreurs* » pour ce paramètre.
+Les avertissements sont affichés dans l&#39;info-bulle de l&#39;icône d&#39;avertissement pour la ressource graphe dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md), ainsi que dans le coin inférieur gauche de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) si le graphe est chargé.\
+Si la fonction est *appliquée à un paramètre* dans un [graphe de Substance de données](../../compositing-graphs/substance-compositing-graphs.md), tout avertissement entraînera l&#39;avertissement « *La fonction du paramètre [x] comporte des erreurs* » pour ce paramètre.
 
 ## ![(erreur)](../../assets/error.svg) Aucun nœud de sortie défini
 
@@ -35,12 +35,12 @@ La fonction n&#39;a pas de nœud de sortie défini.
 
 Solution **![(tick)](../../assets/check.svg)**
 
-Sélectionnez un nœud dans le graphique qui génère une valeur dont le type correspond au type attendu pour cette fonction, le cas échéant, puis cliquez sur RMB et sélectionnez l&#39;option **Définir comme nœud de sortie** dans le menu contextuel.\
-Le nœud de sortie d&#39;un graphique de fonction est coloré en *orange*.
+Sélectionnez un nœud dans le graphe qui génère une valeur dont le type correspond au type attendu pour cette fonction, le cas échéant, puis cliquez sur RMB et sélectionnez l&#39;option **Définir comme nœud de sortie** dans le menu contextuel.\
+Le nœud de sortie d&#39;un graphe de fonction est coloré en *orange*.
 
 >[!NOTE]
 >
-> Si une fonction a un type de valeur de sortie attendu, une note dans le coin inférieur gauche de la [vue Graphique](../../interface/the-graph-view/the-graph-view.md) vous permet de connaître ce type.
+> Si une fonction a un type de valeur de sortie attendu, une note dans le coin inférieur gauche de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) vous permet de connaître ce type.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -61,12 +61,12 @@ Le nœud de sortie de la fonction renvoie une valeur dont le type ne correspond 
 
 Solution **![(tick)](../../assets/check.svg)**
 
-Sélectionnez n&#39;importe quel nœud dans le graphique qui génère une valeur dont le type correspond au type attendu pour cette fonction, puis cliquez sur RMB et sélectionnez l&#39;option **Définir comme nœud de sortie** dans le menu contextuel.\
-Le nœud de sortie d&#39;un graphique de fonction est coloré en *orange*.
+Sélectionnez un nœud dans le graphe qui génère une valeur dont le type correspond au type attendu pour cette fonction, puis cliquez sur RMB et sélectionnez l&#39;option **Définir comme nœud de sortie** dans le menu contextuel.\
+Le nœud de sortie d&#39;un graphe de fonction est coloré en *orange*.
 
 >[!NOTE]
 >
-> Si une fonction a un type de valeur de sortie attendu, une note dans le coin inférieur gauche de la [vue Graphique](../../interface/the-graph-view/the-graph-view.md) vous permet de connaître ce type.
+> Si une fonction a un type de valeur de sortie attendu, une note dans le coin inférieur gauche de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) vous permet de connaître ce type.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

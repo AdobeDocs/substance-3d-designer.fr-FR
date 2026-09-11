@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/metal-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/metal-edge-wear.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Edge Wear de métal pour générer des masques d'usure sur les bords métalliques en fonction de la courbure et de la position du maillage.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## Description
 
-Génère un masque noir et blanc en fonction des maps bakées et des paramètres utilisateur. Similaires aux [masques dynamiques](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Génère une image en noir et masque blanc en fonction des maps bakées et des paramètres utilisateur. Similaire à [Masques adaptables](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) dans [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Ce masque représente l&#39;usure des bords d&#39;un objet métallique, avec des rayures et des copeaux apparaissant sur les bords relevés convexes, potentiellement masqués par les zones sombres de l&#39;AO cuites.
+Ce masque représente l&#39;usure des bords d&#39;un objet métallique, avec des rayures et des copeaux apparaissant sur les bords relevés convexes, potentiellement masqués par des zones sombres AO bakées.
 
 </td>
 </tr>
@@ -48,10 +48,10 @@ Ce masque représente l&#39;usure des bords d&#39;un objet métallique, avec des
 |  |  |
 |:---|:---|
 | <b>Courbure</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
-| <b>Occlusion ambiante</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
+| <b>Ambient occlusion</b> <i>Entrée en niveaux de gris</i> | Map bakée utilisée pour les effets internes et le masquage. |
 | <b>Entrée Usure/salissures</b> <i>Entrée en niveaux de gris</i> |  |
 | <b>Masquer (facultatif)</b> <i>Entrée en niveaux de gris</i> | Emplacement de masque utilisé pour masquer les effets du nœud. |
-| <b>Espace universel normal</b> <i>Entrée couleur</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Entrée couleur</i> |  |
 | <b>Position</b> <i>Entrée couleur</i> |  |
 
 <a name="parameters"></a>

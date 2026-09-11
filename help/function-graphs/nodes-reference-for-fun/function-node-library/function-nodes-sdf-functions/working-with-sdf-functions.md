@@ -58,7 +58,7 @@ Cela signifie que ces nœuds doivent être utilisés dans le cadre de nœuds qui
 
 Les nœuds incluent [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) et [Visualiseur 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md).
 
-### Graphique de la fonction Substance
+### Graphe de la fonction Substance
 
 Les nœuds de fonction SDF sont destinés à être utilisés dans des graphes de fonction de Substance dédiés et ne sont donc disponibles que dans ce type de graphe.
 Les paramètres de nœud destinés à être exprimés en tant que fonction utilisent un bouton « Modifier la fonction ».
@@ -116,7 +116,7 @@ La plupart des connecteurs d’entrée des nœuds de Fonction SDF ont une valeur
             <p>Le cadre de contour est une zone dans l'espace 3D qui définit les <i>limites</i> dans lesquelles la Fonction SDF est évaluée et dessinée dans le nœud <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">Forme éclaboussée v2</a>.</p><p>Si le cadre de délimitation est trop petit, des parties de la forme peuvent être rognées. S'il est trop volumineux, il peut entraîner des calculs inutiles et des délais de traitement plus longs.</p><p>Le paramètre <b>cadre de délimitation</b> vous permet d'activer la visualisation du cadre de délimitation. Vous pouvez ensuite ajuster la taille du cadre de sélection en modifiant les valeurs du paramètre <b>Taille du cadre de sélection</b>.</p><p>Utilisez le paramètre <b>Coloriser hors cadre</b> pour visualiser les zones en dehors du cadre de délimitation en rouge vif afin de pouvoir ajuster le cadre en conséquence.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Fonction de cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>
@@ -129,7 +129,7 @@ La plupart des connecteurs d’entrée des nœuds de Fonction SDF ont une valeur
             <p>Comme le transformé des formes implique de *transformer l'espace* dans lequel elles sont dessinées, le résultat des nœuds utilisés après certaines transformations peut être surprenant.<br>Dans ce cas, il est utile de visualiser l'espace lui-même. Pour ce faire, <i>visualisez le champ de distance</i> de la forme.</p><p>Pour cela, le nœud de la visionneuse 3D utilise des <i>isolignes</i>, qui répètent des lignes de contour représentant une distance donnée de la surface de la forme. Le paramètre <b>SDF isolines</b> active cette visualisation.<br>Les isolignes sont dessinées sur un plan horizontal placé à l'height spécifié par le paramètre <b>Position des isolignes SDF</b>.</p><p>Voir comment les lignes d’isolement sont déformées par les transformations appliquées à la forme peut vous aider à comprendre comment la forme elle-même est transformée et à ajuster les paramètres des nœuds en conséquence.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Fonction Cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Fonction de cadre de délimitation du nœud de la visionneuse 3D, pour les Fonctions SDF." />
         </td>
     </tr>
 </table>
@@ -162,7 +162,7 @@ Les blocs de construction de base de Fonctions SDF, qui vous permettent de crée
 [Cylindre (2 points)](./sdf-functions-primitives/3d-sdf-cylinder-2-points/3d-sdf-cylinder-2-points.md)\
 [Ellipsoïde](./sdf-functions-primitives/3d-sdf-ellipsoid/3d-sdf-ellipsoid.md)\
 [Cylindre allongé](./sdf-functions-primitives/3d-sdf-elongated-cylinder/3d-sdf-elongated-cylinder.md)\
-[Plan au sol](./sdf-functions-primitives/3d-sdf-ground-plane/3d-sdf-ground-plane.md)\
+[Plan de Sol](./sdf-functions-primitives/3d-sdf-ground-plane/3d-sdf-ground-plane.md)\
 [Hélice](./sdf-functions-primitives/3d-sdf-helix/3d-sdf-helix.md)\
 [Prisme hexagonal](./sdf-functions-primitives/3d-sdf-hexagonal-prism/3d-sdf-hexagonal-prism.md)\
 [Plan infini](./sdf-functions-primitives/3d-sdf-infinite-plane/3d-sdf-infinite-plane.md)\
@@ -272,7 +272,7 @@ Vous pouvez ensuite coller la fonction que vous avez copiée à partir du nœud 
 Assurez-vous d&#39;ajuster la taille du cadre de délimitation **SDF** pour qu&#39;elle corresponde au [cadre de délimitation](#the-bounding-frame) que vous utilisiez dans le nœud de la visionneuse 3D, et assurez-vous que la forme est dessinée correctement.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*Forme éclaboussée v2 avec un **type de forme**&#x200B;défini sur `SDF function`. Notez que la taille du cadre de délimitation **SDF**&#x200B;a été ajustée pour s&#39;adapter à la forme.*
+*Forme éclaboussée v2 avec un **type de forme**défini sur `SDF function`. Notez que la taille du cadre de délimitation **SDF**a été ajustée pour s&#39;adapter à la forme.*
 
 >[!TIP]
 > 

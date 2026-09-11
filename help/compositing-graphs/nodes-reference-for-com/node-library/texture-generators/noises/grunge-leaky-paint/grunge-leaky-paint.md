@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Usure/salissures Leaky Peinture pour générer des motifs de fuite de peinture afin de créer des effets de surface vieillis et altérés.
 helpx_creative_field: ""
@@ -52,8 +52,8 @@ Le nœud **Usure/salissures Leaky Peinture** génère une carte usure/salissures
 | <b>Avancé</b> |  |
 | <b>Intensité de la fuite</b> <i>Flottant</i> | Règle la densité et l’intensité des gouttes. |
 | <b>Échelle de fuite</b> <i>Entier</i> | Règle l’échelle de la séparation des gouttes. |
-| <b>Angle de fuite aléatoire</b> <i>Flotter</i> | Ajuste l&#39;*angle maximal* auquel les gouttes peuvent être tournées de manière aléatoire, en *nombre de tours*. |
-| <b>Netteté de la fuite</b> <i>Flotter</i> | Règle la netteté et la netteté des gouttes. |
+| <b>Angle de fuite aléatoire</b> <i>Flottant</i> | Ajuste l&#39;*angle maximal* auquel les gouttes peuvent être tournées de manière aléatoire, en *nombre de tours*. |
+| <b>Netteté de la fuite</b> <i>Flottant</i> | Règle la netteté et la netteté des gouttes. |
 
 ## Exemples
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Checker 1 pour générer des motifs en damier avec une taille de mosaïque et des couleurs personnalisables pour les tests et les textures.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 ![](../../../../../../assets/checker-1-1.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,9 +47,9 @@ Il s’agit d’un modèle utile pour les cas tests, en raison de son contraste 
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 | <b>Rotation De 45 Degrés</b> <i>Faux/Vrai</i> | Fait pivoter le motif entier de 45 degrés. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

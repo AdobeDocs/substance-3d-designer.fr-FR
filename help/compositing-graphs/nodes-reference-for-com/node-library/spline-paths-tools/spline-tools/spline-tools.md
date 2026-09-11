@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
 breadcrumb-title: ''
-description: Accédez à tous les nœuds de l'outil de spline pour créer, manipuler et rendre des splines dans vos graphiques de Substance.
+description: Accédez à tous les nœuds de l'outil de spline pour créer, manipuler et rendre des splines dans vos graphes de Substance.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Les Outils spline sont un ensemble de nœuds permettant de générer et d&#39;ajuster des splines, ainsi que de les utiliser pour le mappage, la diffusion ou la déformation d&#39;images.
 
-Les splines sont des courbes lisses dont les trajectoires sont formées par des points de contrôle et les tangentes de ces points. Chaque point contrôle également les attributs d&#39;height et de thickness d&#39;une spline, qui sont utilisés pour piloter la mise en correspondance, la déformation et la diffusion des images.
+Les splines sont des courbes lisses dont les trajectoires sont formées par des points de contrôle et par les tangentes de ces points. Chaque point contrôle également les attributs d&#39;height et de thickness d&#39;une spline, qui sont utilisés pour piloter la mise en correspondance, la déformation et la diffusion des images.
 
 Consultez ce tutoriel pour commencer :
 
@@ -46,7 +46,7 @@ Consultez ce tutoriel pour commencer :
 
 [Dispersion de splines sur des splines](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)
 
-[Transformation 2D spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
+[Transforme 2D spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
 
 [Spline (Cubique)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)
 
@@ -87,9 +87,9 @@ Consultez ce tutoriel pour commencer :
 
 [Déformation de la spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)
 
-[Couleur du mappeur UV](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)
+[Couleur du mappeur d’UV](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)
 
-[Mappeur UV Niveaux de gris](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
+[Mappeur d’UV en niveaux de gris](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
 
 </td>
 </tr>

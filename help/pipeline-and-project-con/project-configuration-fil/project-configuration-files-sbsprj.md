@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les fichiers de configuration de projet SBSPRJ dans Substance 3D Designer pour gérer les paramètres du projet.
 helpx_creative_field: ""
@@ -47,7 +47,7 @@ Cette configuration de base garantit que la bibliothèque par défaut et les aut
 
 ## Développer ou remplacer
 
-La plupart des paramètres d&#39;un projet consécutif <b>remplaceront</b> ceux du projet précédent. Par exemple, un autre plug-in Tangent Space dans un fichier de projet personnalisé remplacera tout plug-in TS défini dans le projet Default ou User. Cela signifie qu’à moins d’en avoir explicitement besoin, il est recommandé de ne pas remplacer ou modifier les paramètres dans les projets enfants.
+La plupart des paramètres d&#39;un projet consécutif <b>remplaceront</b> ceux du projet précédent. Par exemple, un autre Plugin de repère tangent dans un fichier de projet personnalisé remplacera tout plug-in TS défini dans le projet Default ou User. Cela signifie qu’à moins d’en avoir explicitement besoin, il est recommandé de ne pas remplacer ou modifier les paramètres dans les projets enfants.
 
 Certains paramètres <b>se développent</b> sur les paramètres parents, au lieu de les remplacer. Il s’agit principalement des chemins et des filtres de bibliothèque. Vous devez donc toujours ajouter plus de contenu à la bibliothèque au lieu de le remplacer. En outre, il y a les alias (mots-clés de chemin pour les chemins de fichiers relatifs) qui se développent, ainsi que le remplacement si un doublon est défini. Cela permet un excellent contrôle sur les chemins de fichiers de contenu et les références.
 
@@ -55,7 +55,7 @@ Certains paramètres <b>se développent</b> sur les paramètres parents, au lieu
 
 Les fichiers de projet peuvent contenir les paramètres suivants :
 
-<b>Vue 3D :</b>Définitions des états Shader, HDR et scène par défaut.
+<b>vue 3D :</b>définitions d’état de Shader, HDR et scène par défaut.
 
 <b>Alias :</b>Alias de mots-clés pour les chemins relatifs.
 

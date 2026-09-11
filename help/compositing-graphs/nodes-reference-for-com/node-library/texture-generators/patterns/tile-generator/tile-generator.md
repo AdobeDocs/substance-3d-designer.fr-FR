@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tile Generator pour créer des motifs de mosaïque procéduraux avec des commandes personnalisables de taille, de décalage et de variation.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 ![](../../../../../../assets/tile-generator.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -68,7 +68,7 @@ Quelques conseils d’utilisation généraux :
 |:---|:---|
 | <b>X Quantité</b> <i>1 - 64</i> | Quantité de répétitions X du motif. |
 | <b>Quantité Y</b> <i>1 - 64</i> | Quantité de répétitions Y du motif. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Motif</b> |  |
 | <b>Motif</b> <i>Entrée d&#39;image, Carré, Disque, Paraboloïde, Cloche, Gaussien, Épine, Pyramide, Brique, Graduation, Ondes, Demi-cloche, Cloche striée, Croissant, Capsule, Cône</i> | Sélectionne la forme de motif à utiliser. |
 | <b>Numéro d&#39;entrée de motif</b> <i>1 - 6</i> | Nombre d’entrées Image différentes à utiliser. Disponible uniquement lorsque l&#39;option <i>Entrée d&#39;image</i> est sélectionnée ci-dessus. |

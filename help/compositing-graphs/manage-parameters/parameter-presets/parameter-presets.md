@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et utiliser des paramètres prédéfinis dans Substance 3D Designer pour enregistrer et appliquer des configurations de paramètres.
 helpx_creative_field: ""
@@ -30,25 +30,25 @@ Il existe deux façons de stocker et de charger des paramètres prédéfinis. Le
 
 Les paramètres prédéfinis externes impliquent un fichier externe sur le disque, un fichier \*.SBSPRS. Ils peuvent être transférés entre différents graphes et nœuds, mais uniquement au sein de l’application. Leur objectif principal est exactement le suivant : transférer un certain nombre de valeurs trop grandes pour les copier une par une.
 
-Les paramètres prédéfinis externes sont disponibles pour tous les paramètres spécifiques sur [instances de graphique](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), pour la plupart des paramètres spécifiques sur [nœuds atomiques](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([les exceptions sont les paramètres qui ne peuvent pas être exposés](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) et pour les paramètres d&#39;entrée exposés dans les [paramètres](../../graph-parameters/graph-parameters.md)paramètres d&#39;un graphique de Substance.
+Les paramètres prédéfinis externes sont disponibles pour tous les paramètres spécifiques sur [Instances de graphe](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), pour la plupart des paramètres spécifiques sur [Noeuds atomiques](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([les exceptions sont les paramètres qui ne peuvent pas être exposés](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), et pour les paramètres d&#39;entrée exposés dans les [paramètres](../../graph-parameters/graph-parameters.md)d&#39;un graphe de Substance de données.
 
-Ils sont simplement enregistrés et chargés via ce menu. Les fichiers SBSPRS enregistrés peuvent être chargés sur n’importe quel autre nœud ou graphique.
+Ils sont simplement enregistrés et chargés via ce menu. Les fichiers SBSPRS enregistrés peuvent être chargés sur tout autre nœud ou graphe.
 
 >[!NOTE]
 >
-> Même les correspondances partielles fonctionneront : les paramètres stockés dans un SBSPRS qui n&#39;existent pas sur le nœud chargé, seront simplement ignorés. Cela signifie que vous pouvez transférer des propriétés entre des nœuds qui sont généralement similaires, [comme la version en couleurs et en niveaux de gris de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ! Tous les paramètres partagés se chargeront. La correspondance se produit sur l&#39;identificateur et le type.
+> Même les correspondances partielles fonctionneront : les paramètres stockés dans un SBSPRS qui n&#39;existent pas sur le nœud chargé, seront simplement ignorés. Cela signifie que vous pouvez transférer des propriétés entre des nœuds qui sont généralement similaires, [comme la version en couleurs et en niveaux de gris de Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ! Tous les paramètres partagés se chargeront. La correspondance se produit sur l’identifiant et le type.
 
 ![Modification des paramètres prédéfinis intégrés](parameter-presets.resources/preset-embed.gif "Modification des paramètres prédéfinis intégrés"){width="512px"}
 
 ## Paramètres prédéfinis intégrés
 
-Le fonctionnement des paramètres prédéfinis intégrés est différent de celui des paramètres prédéfinis externes. Leur principal avantage est qu&#39;ils sont contenus dans le fichier SBS ou SBSAR, de sorte qu&#39;ils peuvent être facilement transférés et chargés en Substance Painter, Maya et 3DS Max (actuellement non disponible dans Substance 3D Sampler, UE4 et Unity). L&#39;utilisateur n&#39;a pas à jouer avec les fichiers SBSPRS non plus.
+Le fonctionnement des paramètres prédéfinis intégrés est différent de celui des paramètres prédéfinis externes. Leur principal avantage est qu&#39;ils sont contenus dans le SBS ou le Fichier sbsar, de sorte qu&#39;ils peuvent être facilement transférés et chargés en Substance Painter, Maya et 3DS Max (actuellement non disponible dans Substance 3D Sampler, UE4 et Unity). L&#39;utilisateur n&#39;a pas à jouer avec les fichiers SBSPRS non plus.
 
-Ils ont un autre objectif : il n’est pas possible de les transférer entre les nœuds et les graphiques (il vous faudrait utiliser des paramètres prédéfinis externes pour cela). Ils peuvent également être créés uniquement sur les paramètres d’entrée des propriétés d’un graphique et uniquement en mode Aperçu.
+Ils ont un autre objectif : il n’est pas possible de les transférer entre les nœuds et les Graphes (il vous faudrait utiliser des paramètres prédéfinis externes pour cela). Ils peuvent également être créés uniquement sur les Paramètres d&#39;entrée des propriétés d’un Graphe, et uniquement en mode Aperçu.
 
 Le workflow est le suivant :
 
-1. Basculez en <b>mode Aperçu</b> pour les <b>paramètres d&#39;entrée</b>
+1. Passez en <b>mode Aperçu</b> pour les <b>Paramètres d&#39;entrée</b>
 1. Définir les valeurs sur le résultat souhaité
 1. Cliquez sur <b>+</b> en regard de la liste déroulante des paramètres prédéfinis pour créer un nouveau paramètre prédéfini incorporé. Le paramètre prédéfini est ensuite immédiatement créé et stocké
 

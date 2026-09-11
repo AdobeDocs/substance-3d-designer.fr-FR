@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Utilisez le Noeud de filtrage Saison pour appliquer des effets de saison aux matériaux afin de créer des variations printanières, estivales, automnales et hivernales.
 helpx_creative_field: ""
@@ -80,11 +80,11 @@ Le nœud nécessite un ensemble approprié d&#39;entrées de matériau, principa
 | <b>Couleur de la mousse</b> <i>(valeur de couleur)</i> | Définit la couleur de la mousse. |
 | <b>Aquarelle</b> <i>(valeur de couleur)</i> | Définit la couleur de l’eau, y compris l’alpha/opacité. |
 | <b>Fusion</b> |  |
-| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
-| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
-| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Intensité de fusion de la normale. |
-| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Intensité de fusion du Specular. |
-| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Intensité de fusion du brillant. |
-| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Intensité de fusion de la rugosité. |
-| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Occlusion ambiante. |
-| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Intensité de fusion de l&#39;Height. |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Force de fusion du Diffuse. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Force de fusion de la Base color. |
+| <b>Intensité normale</b> <i>0.0 - 1.0</i> | Force de fusion de la normale. |
+| <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Force de fusion du Specular. |
+| <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Force de fusion de la Brillance. |
+| <b>Intensité de la Rugosité</b> <i>0.0 - 1.0</i> | Force de fusion de la Rugosité. |
+| <b>Intensité de l&#39;Ambient occlusion</b> <i>0.0 - 1.0</i> | Force de fusion de l’Ambient occlusion. |
+| <b>Intensité de l&#39;Height</b> <i>0.0 - 1.0</i> | Force de fusion de l’Height. |

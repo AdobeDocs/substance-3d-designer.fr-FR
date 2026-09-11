@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-crop.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Recadrage multiple pour recadrer simultanément plusieurs couches de texture afin de traiter efficacement les matériaux numérisés.
+description: Utilisez le nœud Recadrage multiple pour recadrer simultanément plusieurs canaux de texture afin de traiter efficacement les matériaux numérisés.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Crop
 helpx_experience_level: ""
@@ -54,6 +54,6 @@ Il s’agit de la version multicanal de Recadrage. Il rogne une zone d&#39;une i
 | <b>Nombre d&#39;entrées</b> <i>1 - 8</i> | Définit le nombre d’entrées à traiter en parallèle. |
 | <b>Taille d&#39;entrée</b> <i>0 - 8192</i> | Résolution et proportions des Images d&#39;entrée. Très important pour les images non carrées. |
 | <b>Arrière-plan</b> <i>(Valeur de couleur) / (Valeur de niveaux de gris)</i> | Valeur uniforme de base pour les superficies non couvertes par le recadrage. |
-| <b>Transformation</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Transformer</b> <i>(Matrice de transformation)</i> | Fait pivoter et met à l’échelle le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate le résultat. Le résultat peut être modifié en interagissant directement avec la zone de travail. |
 | <b>Est normal (uniquement pour la version couleur)</b> <i>Faux/Vrai</i> | Indique si l&#39;entrée doit être traitée ou non comme un mappage normal. |

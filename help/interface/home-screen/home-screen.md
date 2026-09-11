@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Utilisez l’écran d’accueil de Substance 3D Designer pour accéder aux projets, modèles et ressources de formation récents.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Écran d’accueil](../../assets/home-screen-home.jpg "Écran d’accueil")
 
-Écran d&#39;accueil <b>1&rbrace;<b> </b></b>vous souhaite la bienvenue lorsque vous lancez Substance 3D Designer. Il vous aide à démarrer vos projets et à accéder à des liens utiles.
+Écran d&#39;accueil <b>1}<b> </b></b>vous souhaite la bienvenue lorsque vous lancez Substance 3D Designer. Il vous aide à démarrer vos projets et à accéder à des liens utiles.
 
 <table>
 <tr style="border: 0;">
@@ -48,7 +48,7 @@ Cette bannière peut être réduite à l&#39;aide du bouton ![](../../assets/hom
 
 Vous trouverez ci-dessous une liste des fichiers récents sous l&#39;en-tête <b>Récents</b> qui offre un accès rapide aux derniers projets chargés, du plus récent au plus ancien.
 
-Les fichiers récents peuvent être filtrés à l&#39;aide du champ de saisie <b>Filtre</b> en haut à droite de la liste. Le filtrage correspond à toute chaîne de caractères présente dans le nom de fichier d’un projet.
+Les fichiers récents peuvent être filtrés à l&#39;aide du champ de saisie <b>Filtre</b> en haut à droite de la liste. Filtrage correspond à toute chaîne de caractères présente dans le nom de fichier d’un projet.
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Ces ressources sont répertoriées sous forme de liens de carte et regroupées c
 * Les <b>tutoriels pratiques</b> couvrent les dernières fonctionnalités ;
 * <b>Plus de ressources</b> rassemble les ressources auxquelles vous pourriez avoir besoin de revenir régulièrement :
   * [Premières étapes dans Designer](https://substance3d.adobe.com/tutorials/courses/First-Steps-with-Substance-3D-Designer/youtube-VyFgpitTsYg) est notre tutoriel de référence pour les débutants ;
-  * [Quicktip](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) est une liste de lecture organisée de techniques pour la création de matériaux, de motifs, de filtres, etc. ;
+  * [Quicktip](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) est une liste de lecture soigneusement sélectionnée de techniques permettant de créer des matériaux, des motifs, des filtres, etc. ;
   * La [documentation en ligne](../../home/home.md) vous amène à cette documentation.
 
 ![Écran Nouveautés](../../assets/home-screen-whats-new.jpg "Nouveautés"){width="512px"}
@@ -76,9 +76,9 @@ Le bouton ![](../../assets/home-screen-whats-new-icon.jpg) <b>Nouveautés</b> en
 
 ## Démarrer le projet
 
-Sur la gauche de l’écran, vous trouverez une liste de raccourcis pour créer un graphique dans un nouveau package :
+À gauche de l’écran, vous trouverez une liste de raccourcis pour la création d’un nouveau graphe dans un nouveau pack :
 
-* <b>Nouveau graphique de Substance :</b> ouvre la fenêtre [Nouveau graphique de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) ;
+* <b>Nouveau graphe de Substance :</b> ouvre la fenêtre [Nouveau graphe de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) ;
 * <b>Ouvrir le pack :</b> vous permet de charger un pack existant ;
 * <b>Importer AxF :</b> démarre un [workflow d&#39;importation AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 

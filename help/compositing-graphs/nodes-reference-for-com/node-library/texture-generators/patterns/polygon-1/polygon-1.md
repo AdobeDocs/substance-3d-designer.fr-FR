@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Polygone 1 pour générer des motifs polygonaux de base avec des côtés et des propriétés personnalisables pour les textures géométriques.
 helpx_creative_field: ""
@@ -53,8 +53,8 @@ Génère une forme polygonale avec de nombreuses options de réglage. Voir [Poly
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter la forme entière. |
 | <b>Dégradé</b> <i>Faux/Vrai</i> | Génère des tranches/triangles dégradés au lieu de tranches unies. Remarque : devient similaire à Polygone 2 lorsque ce paramètre est activé. |
 | <b>Inversion de dégradé</b> <i>Faux/Vrai</i> | Inverse la direction du dégradé si l’option Dégradé est activée. |
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Répétition Non Carrée</b> <i>Faux/Vrai</i> | Lorsque l’Extension non carrée est activée, la forme est mosaïque sans être écrasée. |
 
 ## Exemples

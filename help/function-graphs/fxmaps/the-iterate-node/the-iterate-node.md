@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Itérer dans FXMaps pour créer des répétitions et des variations de procédure dans vos matériaux.
+description: Utilisez le nœud Itérer dans FXMaps pour créer des répétitions et des variations procédurales dans vos matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Iterate Node
 helpx_experience_level: ""
@@ -32,10 +32,10 @@ Par exemple : si vous appliquez une rotation aléatoire à chaque image d&#39;un
 
 Toutes les fonctions dynamiques disponibles sur le nœud de quadrant s&#39;appliquent également aux images répétées produites par le nœud itéré. C’est comme si le nœud dupliquait le nœud du quadrant au même niveau, au lieu d’ajouter un autre niveau de profondeur.
 
-## Connecteur direct
+## Le Connecteur direct
 
-Chaque nœud itéré a deux connecteurs le long de sa base. Le connecteur de gauche est un connecteur direct. L’image qu’il reçoit est transmise directement au connecteur de sortie du nœud, où elle est fusionnée avec les images répétées :
+Chaque nœud itéré a deux connecteurs le long de sa base. Le connecteur de gauche est un connecteur direct. L’image qu’il reçoit est transmise directement au connecteur de sortie du nœud, où elle est fusionnée avec d’éventuelles images répétées :
 
-Notez que l’image directe est toujours transmise sans modification, quel que soit le paramètre Itération.
+Notez que l’image directe est toujours transmise sans modification, quel que soit le paramètre d’Itération.
 
 ![](../../../assets/iterate.jpg)

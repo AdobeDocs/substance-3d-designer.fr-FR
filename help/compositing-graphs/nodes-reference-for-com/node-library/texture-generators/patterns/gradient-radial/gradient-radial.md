@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dégradé radial pour créer des dégradés radiaux rayonnant à partir d’un point central pour des transitions de couleur circulaires.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![](../../../../../../assets/gradient-radial.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,4 +48,4 @@ Similaire à [Circulaire de dégradé](../../../../../../compositing-graphs/node
 | <b>Forme</b> <i>Cône, Hémisphère</i> | Détermine le profil de transition. Le cône est une transition nette et linéaire, l’hémisphère est doux et arrondi au centre. |
 | <b>Point 1</b> | Point central du dégradé. Commence en blanc. |
 | <b>Point 2</b> | Point du rayon pour déterminer l’étendue du dégradé. Se termine en noir. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activez la compensation de la courbure et de l’étirement avec des rapports non carrés. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Activer la compensation de la courbure et du étire avec des rapports non carrés. |

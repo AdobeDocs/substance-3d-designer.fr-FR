@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Chemins d’aperçu pour visualiser les données de chemin dans la vue 2D à des fins de débogage et de vérification.
+description: Utilisez le nœud Chemins d’accès de prévisualisation pour visualiser les données de chemin dans la Vue 2D à des fins de débogage et de vérification.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Description
 
-Tracez des segments et des sommets du tracé au-dessus de l’arrière-plan donné. Une couleur aléatoire par tracé.
+Tracez des segments et des vertex du tracé par-dessus l’arrière-plan donné. Une couleur aléatoire par tracé.
 
 Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[option Masquer sur les tracés](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md), mais avec plus d&#39;options.
 
@@ -56,9 +56,9 @@ Vous obtiendrez un résultat similaire à la sortie <b>Aperçu</b> de l&#39;[opt
 
 |  |  |
 |:---|:---|
-| <b>Afficher les coins</b> <i>Booléen</i> | Affiche un carré sur chaque sommet marqué comme angle (fusion additive). |
-| <b>Afficher les sommets</b> <i>Booléen</i> | Affiche une forme circulaire sur chaque sommet (fusion additive). Les coins sont toujours affichés sous forme de carrés. |
-| <b>Thickness des segments (px)</b> <i>Flotter</i> | Ajuste le thickness des segments rendus en pixels. |
+| <b>Afficher les coins</b> <i>Booléen</i> | Affiche un carré sur chaque vertex marqué comme angle (fusion additive). |
+| <b>Afficher les Vertex</b> <i>Booléen</i> | Affiche une forme circulaire sur chaque vertex (fusion additive). Les coins sont toujours affichés sous forme de carrés. |
+| <b>Thickness des segments (px)</b> <i>Flottant</i> | Ajuste le thickness des segments rendus en pixels. |
 
 ## Exemples
 

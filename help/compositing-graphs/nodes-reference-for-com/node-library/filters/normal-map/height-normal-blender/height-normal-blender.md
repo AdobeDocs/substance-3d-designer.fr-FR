@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Mélangeur Height normal pour fusionner les cartes d'height et de normales afin de combiner les informations de détails de surface.
+description: Utilisez le nœud Mélangeur Height normal pour fusionner l'height et les maps normal de combinaison des informations de détails de surface.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Nœud de raccourci qui fusionne une image en niveaux de gris en hauteur sur une image normale. L’entrée Height est convertie en mappage normal en interne, puis fusionnée correctement avec l’entrée Normal.
+Nœud de raccourci qui fusionne une carte de hauteur en niveaux de gris en une carte normale. L’entrée Height est convertie en mappage normal en interne, puis fusionnée correctement avec l’entrée Normal.
 
 Il s&#39;agit d&#39;un moyen plus rapide de fusionner les détails que de le faire manuellement avec des nœuds distincts, mais vous pourriez trouver qu&#39;il manque un peu de contrôle et d&#39;affinement pour certains besoins.
 

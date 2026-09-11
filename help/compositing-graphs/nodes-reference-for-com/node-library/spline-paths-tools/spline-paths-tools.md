@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ''
-description: Accédez aux nœuds des outils de spline et de tracé pour créer des motifs de procédure, des courbes et des formes organiques dans les graphiques de Substance.
+description: Accédez aux nœuds des outils de spline et de tracé pour créer des motifs, des courbes et des formes organiques procéduraux dans les graphes de Substance.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Outils Spline et Tracé
 
-Les outils Spline et Tracé sont un ensemble de nœuds permettant de travailler avec des tracés et des splines dans des graphiques de Substance :
+Les outils Spline et Tracé sont un ensemble de nœuds permettant de travailler avec des tracés et des splines dans des graphes de Substance :
 
 Les <b>tracés</b> sont une série de points connectés en lignes droites.
 

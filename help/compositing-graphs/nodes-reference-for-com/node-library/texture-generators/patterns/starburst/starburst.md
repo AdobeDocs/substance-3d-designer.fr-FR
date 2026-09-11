@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Étoile pour créer des motifs en forme d’étoile qui rayonnent à partir d’un point central pour créer des effets de texture décoratifs.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 15%
 
 ![](../../../../../../assets/starburst.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -51,7 +51,7 @@ Génère un effet d’étoile simple, avec des paramètres de réglage disponibl
 | <b>Taille Min</b> <i>0.0 - 1.0</i> | Définit la taille minimale de variation. |
 | <b>Taille max</b> <i>0.0 - 2.0</i> | Définit la taille maximale et contrôle l’échelle globale si aucune variation n’est utilisée. |
 | <b>Variation de taille</b> <i>0.0 - 1.0</i> | Introduit la mise à l&#39;échelle aléatoire par branche. |
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 
 ## Exemples
 

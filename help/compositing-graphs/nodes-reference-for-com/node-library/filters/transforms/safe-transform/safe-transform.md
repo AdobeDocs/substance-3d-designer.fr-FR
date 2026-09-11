@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Transformation sécurisée pour appliquer des transformations tout en préservant les limites de la texture et en évitant les artefacts.
+description: Utilisez le nœud Transforme admissible pour appliquer des transformations tout en préservant les limites de la texture et en évitant les artefacts.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformation sécurisée
+title: Transforme sécurisé
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# Transformation sécurisée
+# Transforme sécurisé
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## Description
 
-Version sans mosaïque de [Transformation 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Permet de mettre à l’échelle, de faire pivoter et de décaler sans casser la mosaïque et sans perdre les détails des pixels (perte de netteté) en raison de petits décalages et rotations.
+Version sans répétition de [Transformer 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Permet de mettre à l’échelle, de faire pivoter et de décaler les éléments sans rompre la répétition ni perdre les détails des pixels (perte de netteté) en raison de petits décalages et rotations.
 
 Utile pour transformer le bruit lorsque un contrôle maximal ou une netteté parfaite sont requis.
 
@@ -51,7 +51,7 @@ Utile pour transformer le bruit lorsque un contrôle maximal ou une netteté par
 |:---|:---|
 | <b>Mosaïque</b> <i>1 - 16</i> | Diminue l’échelle de l’entrée par répétition. |
 | <b>Mode Décalage</b> <i>Manuel, Aléatoire</i> | Bascule vers un décalage aléatoire au lieu d’un décalage défini manuellement. |
-| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou traduit le résultat. S’assure que les pixels sont accrochés et non interpolés. |
+| <b>Décalage</b> <i>0.0 - 1.0</i> | Déplace ou translate le résultat. S’assure que les pixels sont contraints et non interpolés. |
 | <b>Rotation</b> <i>0.0 - 1.0</i> | Fait pivoter l’entrée selon un angle. |
 | <b>Rotation de mosaïque sécurisée</b> <i>Faux/Vrai</i> | Détermine le comportement de la Rotation, s’il doit contraindre sur des valeurs sûres qui ne floutent aucun pixel. |
 | <b>Symétrie</b> <i>aucun, X, Y, X+Y</i> |  |

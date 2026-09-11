@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
 breadcrumb-title: ''
 description: Accédez aux nœuds du générateur de textures dans Substance 3D Designer pour créer des textures procédurales à partir de motifs, de bruits et de formes.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Générateurs de textures
 
-Les générateurs de textures sont des nœuds qui ne nécessitent aucune entrée : ils génèrent des images entièrement à partir de zéro. Vous pouvez considérer les « générateurs de textures » comme un autre terme pour les « procédures ».
+Les générateurs de textures sont des nœuds qui ne nécessitent aucune entrée : ils génèrent des images entièrement à partir de zéro. On peut considérer les « générateurs de textures » comme un autre mot pour les « procédures ».
 
 Elles se répartissent en deux catégories :
 

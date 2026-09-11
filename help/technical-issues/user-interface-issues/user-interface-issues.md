@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/user-interface-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes d’interface utilisateur dans Substance 3D Designer, notamment les problèmes d’affichage et les problèmes d’interface utilisateur.
 helpx_creative_field: ""

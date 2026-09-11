@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
-description: Utilisez l’Explorateur de scènes pour parcourir et gérer les éléments, matières et objets de scène 3D dans la clôture.
+description: Utilisez l'Explorateur de Scènes pour parcourir et gérer les éléments, matériaux et objets Scène 3D du viewport.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
 helpx_experience_level: ""
@@ -28,7 +28,7 @@ Comme Designer utilise [USD](https://openusd.org/release/index.html) pour décri
 
 Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](../../../assets/sceneBrowser-toggleButton.png) dans la [barre d&#39;outils de la scène de vue 3D](../../../interface/3d-view/3d-view.md).
 
-![Explorateur de scènes - Scène 3D chargée](../../../assets/loaded3DScene.png "Explorateur de scènes - Scène 3D chargée"){zoomable="yes"}
+![Explorateur de Scènes - Scène 3D chargée](../../../assets/loaded3DScene.png "Explorateur de Scènes - Scène 3D chargée"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](../../../assets/
 </td>
 <td style="border: 0;" valign="top">
 
-### Activation/désactivation d’objets dans la scène
+### Basculement d’objets dans la scène
 
 </td>
 <td style="border: 0;" valign="top">
@@ -56,14 +56,14 @@ Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](../../../assets/
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-L’explorateur de scènes affiche une liste d’objets organisés en arborescence hiérarchique.
+L’explorateur de scènes de données affiche une liste d’objets organisés en arborescence hiérarchique.
 
-Les objets sont associés à d’autres objets, jusqu’à la racine de la scène. Un objet parent possède un bouton fléché qui permet de développer ou de réduire la liste de ses enfants.
+Les objets sont associés à d’autres objets jusqu’à la racine de la scène. Un objet parent possède un bouton fléché qui permet de développer ou de réduire la liste de ses enfants.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene browser - Scene tree](../../../assets/sceneBrowser-sceneTree.png "Scene browser - Scene tree"){zoomable="yes"}
+![Explorateur de Scènes - Arborescence des Scènes](../../../assets/sceneBrowser-sceneTree.png "Explorateur de Scènes - Arborescence des Scènes"){zoomable="yes"}
 
 </td>
 </tr>
@@ -71,11 +71,11 @@ Les objets sont associés à d’autres objets, jusqu’à la racine de la scèn
 
 Laissez le curseur sur n’importe quel élément de l’arborescence pendant quelques secondes pour afficher une info-bulle avec les informations suivantes :
 
-* <b>Chemin :</b> chemin complet de l&#39;objet dans la scène.
-* <b>TypeName:</b> type USD de l&#39;objet.
+* <b>Chemin d&#39;accès :</b> Chemin d&#39;accès complet de l&#39;objet dans la scène.
+* <b>TypeName:</b> Type USD de l&#39;objet.
 * <b>Documentation :</b> informations détaillées sur l&#39;objet en tant qu&#39;élément de scène USD.
 
-Les filets contiennent des informations supplémentaires : Nombre de sommets, Nombre de faces et Nombre d’UV.
+Les maillages disposent d’informations supplémentaires : nombre de Vertex, nombre de faces et nombre d’UV.
 
 ### Objets ajoutés par Designer
 
@@ -83,16 +83,16 @@ Les filets contiennent des informations supplémentaires : Nombre de sommets, No
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Designer ajoute des objets à n’importe quelle scène chargée. Les objets ajoutés par Designer sont étiquetés en <b>gras</b>.
+Designer ajoute des objets à toute scène chargée. Les objets ajoutés par Designer sont étiquetés en <b>gras</b>.
 
-Lorsque vous utilisez l’action « Modifier... » dans les menus Lumière, Caméra et Environnement, il s’agit des objets en cours de modification, qu’il y ait d’autres lumières, caméras ou environnements dans la scène.
+Lorsque vous utilisez l’action « Modifier ... » dans les menus Lumière, Caméra et Environnement, il s’agit des objets en cours de modification, qu’il y ait d’autres lumières, caméras ou environnements dans la scène.
 
-Ces objets sont inclus dans la scène lorsque [exporté](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Ces objets sont inclus dans la scène lors de l&#39;[exportation](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene browser - Objets ajoutés par Designer et répertoriés en gras](../../../assets/sceneBrowser-addedByDesigner.png "Scene browser - Objets ajoutés par Designer et répertoriés en gras"){zoomable="yes"}
+![Explorateur de Scènes - Objets ajoutés par Designer répertoriés en gras](../../../assets/sceneBrowser-addedByDesigner.png "Explorateur de Scènes - Objets ajoutés par Designer répertoriés en gras"){zoomable="yes"}
 
 </td>
 </tr>
@@ -132,38 +132,38 @@ Les objets parents ont ces actions supplémentaires :
 
 ### Environnements
 
-La visibilité d’un éclairage d’environnement (DomeLight) peut être activée et désactivée de la même manière que pour les autres objets.
+La visibilité de tout éclairage d&#39;environnement (DomeLight) peut être activée et désactivée de la même manière que les autres objets.
 
-Lorsqu’un éclairage d’environnement est désactivé, sa contribution à l’éclairage de la scène est également désactivée.
+Lorsqu&#39;un éclairage d&#39;environnement est désactivé, sa contribution à l&#39;éclairage de la scène est également désactivée.
 
-Si plusieurs éclairages de l&#39;environnement sont activés, leurs contributions en éclairage sont *cumulées*.
+Si plusieurs éclairages d&#39;environnement sont activés, leurs contributions en éclairage sont *ajoutées cumulativement*.
 
-![Explorateur de scènes - Activation/désactivation de la visibilité de l’environnement](../../../assets/sceneBrowser-toggleEnvLights.gif "Explorateur de scènes - Activation/désactivation de la visibilité de l’environnement"){zoomable="yes"}
+![Explorateur de Scènes - Activation/désactivation de la visibilité de l&#39;environnement](../../../assets/sceneBrowser-toggleEnvLights.gif "Explorateur de Scènes - Activation/désactivation de la visibilité de l&#39;environnement"){zoomable="yes"}
 
 ### Lumières
 
-Il en va de même pour tous les éclairages de la scène : vous pouvez basculer individuellement.
+Il en va de même pour toutes les lumières de la scène : chacune peut être basculée individuellement.
 
-![Explorateur de scènes - Activation/désactivation de la visibilité de la lumière](../../../assets/sceneBrowser-toggleLights.gif "Explorateur de scènes - Activation/désactivation de la visibilité de la lumière"){zoomable="yes"}
+![Explorateur de Scènes - Activation/désactivation de la visibilité de la lumière](../../../assets/sceneBrowser-toggleLights.gif "Explorateur de Scènes - Activation/désactivation de la visibilité de la lumière"){zoomable="yes"}
 
 ## Matériaux connectés
 
-L&#39;explorateur de scènes vous permet également de connecter toute matière remplacée à une autre matière répertoriée par Designer dans le menu [Matières](../../../interface/3d-view/3d-view.md) de la vue 3D.
+L&#39;explorateur de scènes vous permet également de connecter tout matériau remplacé à un autre matériau répertorié par Designer dans le menu [Matériaux](../../../interface/3d-view/3d-view.md) de la vue 3D.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Les matériaux répertoriés par Designer sont les objets Matériau de l’arborescence de la scène utilisés sur au moins un filet.
+Les matériaux répertoriés par Designer sont les objets de Matériau de l’arborescence de scène utilisés sur au moins un maillage.
 
-Lorsque [vous remplacez](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) l&#39;une de ces matières, Designer crée une copie avec un suffixe numérique.
+Lorsque [vous remplacez](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) l&#39;un de ces matériaux, une copie est créée par Designer, avec un suffixe numérique.
 
-Un matériau remplacé offre un élément supplémentaire dans son menu contextuel : le sous-menu « [Matériau connecté](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) » répertorie tous les autres matériaux disponibles pouvant être utilisés pour remplacer ce matériau.
+Un matériau remplacé offre un élément supplémentaire dans son menu contextuel : le sous-menu « [matériau connecté](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) » répertorie tous les autres matériaux disponibles qui peuvent être utilisés pour remplacer ce matériau.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorateur de scènes - Matériau connecté](../../../assets/sceneBrowser-connectedMaterial.png "Explorateur de scènes - Matériau connecté"){zoomable="yes"}
+![Explorateur de Scènes - matériau connecté](../../../assets/sceneBrowser-connectedMaterial.png "Explorateur de Scènes - matériau connecté"){zoomable="yes"}
 
 </td>
 </tr>

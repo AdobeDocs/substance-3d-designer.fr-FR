@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
 breadcrumb-title: ''
-description: Accédez aux nœuds de filtre de mosaïque dans Substance 3D Designer pour créer des motifs de texture juxtaposés homogènes.
+description: Accédez aux noeuds de filtrage de répétition dans Substance 3D Designer pour créer des motifs de texture en mosaïque homogènes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 # Répétition
 
-La catégorie Juxtaposition contient les nœuds utilisés pour améliorer la juxtaposition des textures. Gardez à l&#39;esprit qu&#39;il existe d&#39;autres nœuds disponibles pour cela dans le [Traitement de l&#39;analyse](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).
+La catégorie répétition contient des nœuds utilisés pour améliorer la répétition des textures. Gardez à l&#39;esprit que d&#39;autres nœuds sont disponibles pour cela dans [Traitement des numérisations](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).
 
-Utilisez la liste de navigation sur la gauche pour parcourir tous les nœuds sous <b>Limites</b>.
+Utilisez la liste de navigation sur la gauche pour parcourir tous les nœuds sous la <b>Répétition</b>.
 
 Il existe deux nœuds dans cette catégorie :
 

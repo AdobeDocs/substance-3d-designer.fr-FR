@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Accédez à la fenêtre Préférences de Substance 3D Designer pour personnaliser les paramètres et le comportement de l’application.
 helpx_creative_field: ""
@@ -55,21 +55,21 @@ Nous vous recommandons de passer en revue tous ces paramètres pour mieux compre
 
 |  |  |
 | --- | --- |
-| <b>Inverser le zoom avant</b>  *Par défaut : décoché* | Si cette case est cochée, les commandes de zoom seront inversées dans la [vue 2D](../../interface/2d-view/2d-view.md), la [vue 3D](../../interface/3d-view/3d-view.md) et les [graphiques](../../interface/the-graph-view/the-graph-view.md). |
+| <b>Inverser le zoom avant</b>  *Par défaut : décoché* | Si cette case est cochée, les commandes de zoom seront inversées dans les [vue 2D](../../interface/2d-view/2d-view.md), [vue 3D](../../interface/3d-view/3d-view.md) et [graphes](../../interface/the-graph-view/the-graph-view.md). |
 
 ### Chemins
 
 |  |  |
 | --- | --- |
 | <b>Chemin d&#39;enregistrement/d&#39;exportation</b>  *Par défaut : dernier chemin* | Détermine si le chemin d&#39;enregistrement/d&#39;exportation suggéré est le dernier chemin sélectionné ou le chemin du [package SBS](../../getting-started/overview/overview.md). Le dernier chemin sélectionné est enregistré d’une session à l’autre. |
-| <b>Dossier temporaire</b>  *Par défaut : chemin en fonction du système d&#39;exploitation du système* | Lorsque les données d&#39;image d&#39;un graphique dépassent le pool de mémoire alloué (voir ci-dessous <b>Mémoire > Cache d&#39;images</b>), les données de débordement sont écrites sur le disque. Ce paramètre vous permet de définir l’emplacement dans lequel les données de la mémoire cache de l’image débordante sont écrites.   Cet emplacement est également utilisé pour stocker une copie du package SBS actuellement ouvert avec les dernières modifications apportées depuis le dernier enregistrement manuel. |
+| <b>Dossier temporaire</b>  *Par défaut : chemin en fonction du système d&#39;exploitation du système* | Lorsque les données d&#39;image d&#39;un graphe dépassent le pool de mémoire alloué (voir ci-dessous <b>Mémoire > Cache d&#39;images</b>), les données de débordement sont écrites sur le disque. Ce paramètre vous permet de définir l’emplacement dans lequel les données de la mémoire cache de l’image débordante sont écrites.   Cet emplacement est également utilisé pour stocker une copie du package SBS actuellement ouvert avec les dernières modifications apportées depuis le dernier enregistrement manuel. |
 
 ### Mémoire
 
 #### Cache d&#39;image
 
-L&#39;application conserve dans le cache une *image pleine résolution non compressée* pour chaque nœud rendu dans le graphique actuel.\
-Les nœuds d&#39;instance génèrent ces images pour tous les nœuds du graphique qu&#39;ils référencent et les suppriment une fois leurs [sorties](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) calculées. Seules les sorties sont conservées en mémoire à ce moment-là.
+L&#39;application conserve dans le cache une *image pleine résolution non compressée* pour chaque nœud rendu dans le graphe actif.\
+Les Instanciers génèrent ces images pour tous les nœuds du graphe qu&#39;ils référencent et les suppriment une fois leurs [sorties](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) calculées. Seules les sorties sont conservées en mémoire à ce moment-là.
 
 Vous pouvez définir la taille maximale de cache allouée aux vignettes et aux images dans la mémoire système et voir l’utilisation actuelle. Si les données du cache débordent de leur pool alloué, les données excédentaires sont écrites dans le <b>dossier temporaire</b> (voir plus haut <b>Chemins > dossier temporaire</b>).
 
@@ -77,12 +77,12 @@ Vous pouvez définir la taille maximale de cache allouée aux vignettes et aux i
 | --- | --- |
 | <b>Budget mémoire</b>  *Par défaut : automatique* | Cette allocation est calculée automatiquement à environ 75 % du pool de mémoire système total. Pour définir cette valeur manuellement, sélectionnez l&#39;option &#39;*Personnalisé*&#39; et définissez une valeur dans le champ de saisie adjacent. |
 
-Notez que l&#39;écriture sur le disque est *de ordres de grandeur plus lente* que l&#39;écriture sur la mémoire système. Par conséquent, le temps de rendu des graphiques *augmentera de manière exponentielle*, car les données qui débordent doivent être écrites dans le dossier temporaire.\
-Pour éviter cela, nous vous recommandons d&#39;examiner les suggestions de réduction de l&#39;empreinte mémoire d&#39;un graphique dans la section [Directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) de la documentation.
+Notez que l&#39;écriture sur le disque est *de ordres de grandeur plus lente* que l&#39;écriture sur la mémoire système. Par conséquent, le temps de rendu du graphe va *augmenter de manière exponentielle*, car les données qui débordent doivent être écrites dans le dossier temporaire.\
+Pour éviter cela, nous vous recommandons d&#39;examiner les suggestions pour réduire l&#39;empreinte mémoire d&#39;un graphe dans la section [Directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) de la documentation.
 
 #### Planificateur de tâches
 
-Au cours de tâches spécifiques, telles que les conversions d&#39;images pour les vignettes ou la [Vue 2D](../../interface/2d-view/2d-view.md), des tâches distinctes seront créées et réparties entre les cœurs de traitement du système pour plus d&#39;efficacité. Chaque tâche écrira des données dans la mémoire système pour effectuer ses opérations.\
+Au cours de tâches spécifiques, telles que les conversions d&#39;images pour les vignettes ou la [vue 2D](../../interface/2d-view/2d-view.md), des tâches distinctes seront créées et réparties entre les cœurs de traitement du système pour plus d&#39;efficacité. Chaque tâche écrira des données dans la mémoire système pour effectuer ses opérations.\
 Ce paramètre vous permet de définir le pool de mémoire alloué pour *toutes les tâches simultanées*. Lorsque ce pool est entièrement utilisé, les nouveaux travaux sont mis en file d&#39;attente jusqu&#39;à ce que les travaux actuels soient terminés.
 
 |  |  |
@@ -97,7 +97,7 @@ Ce paramètre vous permet de définir le pool de mémoire alloué pour *toutes l
 
 ### Sauvegarde automatique
 
-Une fonctionnalité d&#39;enregistrement automatique est incluse par défaut, qui crée des copies de l&#39;état actuel des [packs SBS](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) ouverts à des périodes définies. Les enregistrements automatiques sont placés dans un dossier <b>.autosave</b> à l’emplacement du package SBS.
+Une fonctionnalité d&#39;enregistrement automatique est incluse par défaut, qui crée des copies de l&#39;état actuel des [packages SBS](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion) ouverts à des périodes définies. Les enregistrements automatiques sont placés dans un dossier <b>.autosave</b> à l’emplacement du package SBS.
 
 |  |  |
 | --- | --- |
@@ -105,7 +105,7 @@ Une fonctionnalité d&#39;enregistrement automatique est incluse par défaut, qu
 | <b>Garder jusqu’à # versions</b>  *Par défaut : 6* | Nombre maximal d’enregistrements automatiques à conserver à un moment donné. |
 
 Lorsque le nombre maximal de versions est atteint, les sauvegardes plus récentes suppriment les sauvegardes les plus anciennes.\
-Notez également que les enregistrements automatiques doivent être ouverts *après leur déplacement* vers l&#39;emplacement d&#39;origine du package SBS. Ils ne doivent *pas* être ouverts à leur emplacement actuel.
+Notez également que les enregistrements automatiques doivent être ouverts *après leur déplacement* vers l’emplacement d’origine du package SBS. Ils ne doivent *pas* être ouverts à leur emplacement actuel.
 
 ### Publication et envoi de fichiers SBSAR
 
@@ -141,17 +141,17 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 | --- | --- |
 | La touche de tabulation <b>affiche le menu du nœud</b>  *Par défaut : coché* | Si cette case est cochée, la touche Tab ouvre le menu <b>Nœud</b>, en répliquant la fonctionnalité de la touche Espace. |
 | <b>Activer la création de nœuds en faisant glisser les connecteurs</b>  *Par défaut : coché* | Si cette case est cochée, lorsque vous cliquez sur un connecteur, faites glisser le curseur et relâchez le lien créé dans l&#39;espace vide du graphe pour afficher le <b>menu Nœud</b>.   Le menu sera également *filtré* en fonction du type de connecteur sur lequel vous avez cliqué. Cela signifie que seuls les nœuds compatibles avec le connecteur cliqué seront affichés. |
-| <b>Afficher les sorties en vue 3D lors de l’ouverture d’un graphique</b>  *Par défaut : coché* | Si cette case est cochée, toutes les sorties de graphique sont automatiquement appliquées dans la [Vue 3D](../../interface/3d-view/3d-view.md) lorsque ce graphique est ouvert.   Cela a également pour effet de rendre tous les nœuds qui font partie d&#39;un flux menant à un nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Afficher les sorties en vue 3D lors de l&#39;ouverture d&#39;un graphe</b>  *Par défaut : coché* | Si cette case est cochée, toutes les sorties du graphe sont automatiquement appliquées dans la [vue 3D](../../interface/3d-view/3d-view.md) lorsque ce graphe est ouvert.   Cela a également pour effet de rendre tous les nœuds qui font partie d&#39;un flux menant à un nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
 
 ### Graphe de composition Substance
 
 |  |  |
 | --- | --- |
-| <b>Calculer automatiquement toutes les miniatures de nœuds lors de l&#39;ouverture d&#39;un graphique</b>  *Par défaut : coché* | Si cette case est cochée, le rendu de toutes les miniatures de nœud est automatique lors du chargement du graphique. |
-| <b>Afficher la sortie en vue 2D lors de l’ouverture d’un graphique</b>  *Par défaut : coché* | Si cette case est cochée, la première sortie de graphique s&#39;affiche automatiquement dans la [Vue 2D](../../interface/2d-view/2d-view.md) lorsque ce graphique est ouvert. Cela a également pour effet de rendre tous les nœuds qui font partie d&#39;un flux menant à ce nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
-| <b>Afficher automatiquement le nœud de composition nouvellement créé</b>  *Par défaut : coché* | Si cette case est cochée, la [Vue 2D](../../interface/2d-view/2d-view.md) se mettra automatiquement à jour pour afficher la sortie d&#39;un nœud nouvellement créé. |
-| <b>Insérer automatiquement le nœud de conversion couleur/niveaux de gris</b>  *Par défaut : décoché* | Si cette case est cochée, résolvez automatiquement les incohérences de types de connexion Couleur/Niveaux de gris en *plaçant des nœuds spécifiques* pour effectuer la conversion appropriée.   Lorsqu&#39;une sortie *Niveaux de gris* (connecteur gris) est connectée à une entrée *Couleur* (connecteur jaune), un nœud [Courbe de transfert de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) est automatiquement placé entre les deux connecteurs.   Lorsqu&#39;une sortie *couleur* (connecteur jaune) est connectée à une entrée *niveaux de gris* (connecteur gris), un nœud [conversion des niveaux de gris](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) est automatiquement placé entre les deux connecteurs. |
-| <b>Activer la modification de graphiques en contexte</b>  *Par défaut : décoché* | Par défaut, lorsque vous ouvrez un graphique référencé par un [nœud d&#39;instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) avec un clic droit sur le nœud et que vous sélectionnez <b>Ouvrir la référence</b>, ce graphique est chargé et modifié *séparément*.   Si cette case est cochée, vous pouvez modifier les graphiques référencés par les instances *à l&#39;aide des informations transmises dans l&#39;instance* par le graphique actuel. Pour ce faire, cliquez avec le bouton droit de la souris sur un nœud d&#39;instance et sélectionnez <b>Ouvrir la référence en contexte</b>, ou utilisez la touche Ctrl+E.   Cela signifie qu’un graphique instancié peut être modifié dans le contexte du graphique dans lequel il est instancié. Cette fonction est très utile pour voir les effets des modifications sur le graphique sur lequel vous travailliez. Voir l’exemple ci-dessous.  **Remarque :** les onglets <b>Aperçu</b> et <b>Paramètres prédéfinis</b> sont *désactivés* dans les [propriétés du graphique](../../compositing-graphs/graph-parameters/graph-parameters.md) lors de l&#39;utilisation de l&#39;édition contextuelle. |
+| <b>Calculer automatiquement toutes les miniatures de nœuds lors de l&#39;ouverture d&#39;un graphe</b>  *Par défaut : coché* | Si cette case est cochée, le rendu de toutes les miniatures de nœud est automatique lors du chargement du graphe. |
+| <b>Afficher la sortie dans Vue 2D lors de l&#39;ouverture d&#39;un graphe</b>  *Par défaut : coché* | Si cette case est cochée, la première sortie du graphe s&#39;affiche automatiquement dans la [vue 2D](../../interface/2d-view/2d-view.md) lorsque ce graphe est ouvert. Cela a également pour effet de rendre tous les nœuds qui font partie d&#39;un flux menant à ce nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Afficher automatiquement le nœud de composition nouvellement créé</b>  *Par défaut : coché* | Si cette case est cochée, la [vue 2D](../../interface/2d-view/2d-view.md) se met automatiquement à jour pour afficher la sortie d&#39;un nœud nouvellement créé. |
+| <b>Insérer automatiquement le nœud de conversion couleur/niveaux de gris</b>  *Par défaut : décoché* | Si cette case est cochée, résolvez automatiquement les incohérences de types de connexion Couleur/Niveaux de gris en *plaçant des nœuds spécifiques* pour effectuer la conversion appropriée.   Lorsqu&#39;une sortie en *niveaux de gris* (connecteur gris) est connectée à une entrée en *couleurs* (connecteur jaune), un nœud de [Map de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) est automatiquement placé entre les deux connecteurs.   Lorsqu&#39;une sortie *couleur* (connecteur jaune) est connectée à une entrée *niveaux de gris* (connecteur gris), un nœud [Conversion en niveaux de gris](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) est automatiquement placé entre les deux connecteurs. |
+| <b>Activer la modification de graphe dans le contexte</b>  *Par défaut : décoché* | Par défaut, lors de l&#39;ouverture d&#39;un graphe référencé par un [instancier](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) avec un clic droit sur le nœud et en sélectionnant <b>Ouvrir la référence</b>, ce graphe est chargé et modifié *isolément*.   Si cette case est cochée, vous pouvez modifier les graphes référencés par les instances *à l&#39;aide des informations transmises dans l&#39;instance* par le graphe actif. Pour ce faire, cliquez avec le bouton droit de la souris sur un instancier et sélectionnez <b>Ouvrir la référence en contexte</b>, ou utilisez la touche Ctrl+E.   Cela signifie qu&#39;un graphe instancié peut être modifié dans le même graphe que le  dans lequel il est instancié. Cela est très utile pour voir les effets des modifications sur le graphe dans lequel vous travailliez. Voir l’exemple ci-dessous.  **Remarque :** les onglets <b>Aperçu</b> et <b>Paramètres prédéfinis</b> sont *désactivés* dans les [propriétés de graphe](../../compositing-graphs/graph-parameters/graph-parameters.md) lors de l&#39;utilisation de l&#39;édition contextuelle. |
 
 <table>
 <tr style="border: 0;">
@@ -179,19 +179,19 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 |  |  |
 | --- | --- |
 | <b>Environnement masqué par défaut</b>  *Par défaut : coché* | Détermine le paramètre de visibilité par défaut de [Environnement](../../interface/3d-view/3d-view.md). Lorsque cette option est masquée, l&#39;arrière-plan de la vue 3D est remplacé par une *couleur unie*. |
-| <b>Mise à l&#39;échelle de l&#39;aire d&#39;affichage</b>  *Par défaut : Auto* | Contrôle la mise à l’échelle de la résolution de rendu de la vue 3D lorsque le système utilise la mise à l’échelle de l’affichage.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Auto</i> : la résolution de rendu est basée sur la résolution d&#39;affichage <i>mise à l&#39;échelle</i></li> <li data-preserve-html="true"><i>Aucun</i> : la résolution de rendu est basée sur la résolution d&#39;affichage <i>native</i></li> </ul> |
+| <b>Mise à l&#39;échelle des Viewports</b>  *Par défaut : Auto* | Contrôle la mise à l’échelle de la résolution de rendu de la vue 3D lorsque le système utilise la mise à l’échelle de l’affichage.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Auto</i> : la résolution de rendu est basée sur la résolution d&#39;affichage <i>mise à l&#39;échelle</i></li> <li data-preserve-html="true"><i>Aucun</i> : la résolution de rendu est basée sur la résolution d&#39;affichage <i>native</i></li> </ul> |
 
 ### OpenGL
 
 |  |  |
 | --- | --- |
-| <b>Nombre d&#39;échantillons</b>  *Par défaut : 64* | A un impact sur la taille de la table d’exemple des ombrages de la vue 3D. Plus la valeur est élevée, plus la qualité de l’image est élevée, au détriment des performances.  **Remarque :** la table d&#39;exemple des nuanceurs est également affectée par le GPU et le système d&#39;exploitation du système. |
+| <b>Nombre d&#39;échantillons</b>  *Par défaut : 64* | A un impact sur la taille de la table d&#39;exemple des shaders vue 3D. Plus la valeur est élevée, plus la qualité de l’image est élevée, au détriment des performances.  **Remarque :** la table d&#39;exemple des nuanceurs est également affectée par le GPU et le système d&#39;exploitation du système. |
 
 ## Bakers
 
 |  |  |
 | --- | --- |
-| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le lancer de rayons sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les boulangers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
+| <b>GPU raytracing</b>  *Par défaut : coché* | Si cette case est cochée, le raytracing sera effectué sur le GPU pour les [bakers compatibles](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   Les principaux GPU raytracings suivants seront définis par défaut en fonction de l’architecture GPU NVIDIA :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i> : Turing et plus récent</li> <li data-preserve-html="true"><i>Optix</i> : Pascal et Maxwell</li> </ul>  **Remarque :** des informations supplémentaires sur les bakers optimisés par GPU sont disponibles dans la section [GPU raytracing](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) de la documentation [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Conseil :** vous pouvez utiliser les *arguments de ligne de commande* suivants lors du démarrage de l&#39;application pour *forcer* l&#39;utilisation d&#39;un autre back-end de GPU raytracing : <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forcer l’utilisation d’Optix sur les GPU Nvidia Turing ou plus récents</li> <li data-preserve-html="true"><code>—force-dxr</code> : forcer l’utilisation de DXR sur les GPU Nvidia Pascal</li> </ul> |
 
 ## Bibliothèque
 
@@ -201,18 +201,18 @@ Reportez-vous à la page [Paramètres des projets](../../interface/preferences-w
 
 ## Raccourcis
 
-Vous pouvez attribuer des raccourcis clavier personnalisés pour la création de nœuds dans les graphiques.
+Vous pouvez attribuer des raccourcis clavier personnalisés pour la création de nœuds dans des graphes.
 
-Des raccourcis peuvent être attribués pour les nœuds dans tous les types de graphiques : [graphiques de Substance](../../compositing-graphs/substance-compositing-graphs.md), [graphiques de fonction de Substance](../../function-graphs/function-graphs.md) et [graphiques FX-Map](../../function-graphs/fxmaps/fxmaps.md).
+Des raccourcis peuvent être attribués pour les nœuds de tous les types de graphes : [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md), [graphes de fonction de Substance](../../function-graphs/function-graphs.md) et [graphes FX-Map](../../function-graphs/fxmaps/fxmaps.md).
 
-Un raccourci peut être attribué à n’importe quel nœud, même aux nœuds de bibliothèque personnalisés. Un même raccourci peut être affecté à différents types de graphiques. Aucun raccourci n’est attribué par défaut, vous pouvez le personnaliser à votre convenance.
+Tout nœud peut se voir attribuer un raccourci, même des nœuds de bibliothèque personnalisés. Un même raccourci peut être attribué dans différents types de graphes. Aucun raccourci n’est attribué par défaut, vous pouvez le personnaliser à votre convenance.
 
-En cas de conflit avec un autre raccourci de nœud ou un raccourci de programme intégré, l’entrée est mise en surbrillance et un avertissement s’affiche. Le raccourci n&#39;aura *aucun effet* tant que le conflit n&#39;aura pas été résolu.
+En cas de conflit avec un autre raccourci de nœud ou un raccourci de programme intégré, l&#39;entrée sera mise en surbrillance et un avertissement sera affiché. Le raccourci n&#39;aura *aucun effet* tant que le conflit n&#39;aura pas été résolu.
 
 >[!IMPORTANT]
 >
 > Raccourcis remplacés par les plug-ins Python
 > 
-> Lorsqu’un plug-in Python définit un raccourci clavier attribué à un nœud, le plug-in remplace ce raccourci. Cela signifie que la clé déclenchera l’action du plug-in au lieu de créer un nœud.
+> Lorsqu’un plug-in Python définit un raccourci de clavier qui est attribué à un nœud, le plug-in remplace ce raccourci. Cela signifie que la clé déclenchera l’action du plug-in au lieu de créer un nœud.
 > 
 > C&#39;est déjà le cas pour les touches H, S et V utilisées par les [outils d&#39;alignement des nœuds](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).

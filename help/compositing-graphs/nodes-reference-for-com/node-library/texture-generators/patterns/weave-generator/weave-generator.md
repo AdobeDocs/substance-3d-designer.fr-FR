@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Weave Generator pour créer des motifs de tissu procédural et des textures de tissu dans Substance 3D Designer.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 ![](../../../../../../assets/weave-generator.png){width="128px"}
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -50,7 +50,7 @@ Ce nœud génère un motif d’armure simple avec quelques options. Il permet un
 | <b>Forme</b> <i>0.0 - 1.0</i> | Définit le profil d’height de la courbe du point. |
 | <b>Tisser</b> <i>1 - 10</i> | Définit le nombre de points par bloc. |
 | <b>Écart</b> <i>0.0 - 1.0</i> | Définit l’écart entre les points sur les axes X et Y. |
-| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Faux/Vrai</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 
 ## Exemples
 

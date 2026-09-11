@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
-description: Les fonctions de hachage des graphiques de fonctions permettent de générer des valeurs aléatoires déterministes basées sur les coordonnées d’entrée.
+description: Utilisez les fonctions de hachage dans les graphes de fonction pour générer des valeurs aléatoires déterministes en fonction des coordonnées d'entrée.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library > Random > Hash
 helpx_experience_level: ""
@@ -51,20 +51,20 @@ Versions disponibles, avec leur type d’entrée et de sortie :
 
 <b>Hachage 11:</b> Flottant → Flottant
 
-<b>Hachage 14:</b> Float → Float4
+<b>Hachage 14:</b> Flottant → Flottant 4
 
-<b>Hachage 21:</b> Float2 → Float
+<b>Hachage 21:</b> Flottant 2 → Flottant
 
-<b>Hachage 22:</b> Float2 → Float2
+<b>Hachage 22:</b> Flottant 2 → Flottant 2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hachage 24:</b> Float2 → Float4
+<b>Hachage 24:</b> Flottant 2 → Flottant 4
 
-<b>Hash31:</b> Float3 → Float
+<b>Hash31:</b> Flottant 3 → Flottant
 
-<b>Hachage 32:</b> Float3 → Float2
+<b>Hachage 32:</b> Flottant 3 → Flottant 2
 
 </td>
 </tr>

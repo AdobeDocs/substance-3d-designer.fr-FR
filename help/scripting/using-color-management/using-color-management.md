@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/using-color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-color-management.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les fonctionnalités de gestion des couleurs dans les scripts Substance 3D Designer Python pour obtenir des couleurs précises.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 La classe </b>SDColorManagementEngine<b>, accessible à partir de la classe <b>SDApplication</b>, contient des informations sur les *paramètres de gestion des couleurs actuels*.
 
-## Accès et interrogation du moteur de gestion des couleurs
+## Accès et interrogation du Moteur de gestion des couleurs
 
 ```
 import sd 

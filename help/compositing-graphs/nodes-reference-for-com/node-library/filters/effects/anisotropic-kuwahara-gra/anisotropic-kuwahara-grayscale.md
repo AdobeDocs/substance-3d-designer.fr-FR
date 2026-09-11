@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
 breadcrumb-title: ''
 description: Utilisez le filtre Niveaux de gris anisotrope de Kuwahara pour créer des effets de peinture stylisés avec un lissage directionnel.
 helpx_creative_field: ""
@@ -73,9 +73,9 @@ Gauche : Anisotropie 0,0 / Droite : Anisotropie 1,0
 |  |  |
 |:---|:---|
 | <b>Entrée</b> <i>Niveaux de gris</i> <b>PRINCIPAL</b> | Image en niveaux de gris à traiter. |
-| <b>Mappage de l&#39;angle d&#39;Anisotropie</b> <i>Niveaux de gris</i> | Image en niveaux de gris décrivant la rotation supplémentaire appliquée à la direction calculée, où la valeur de niveaux de gris correspond à un nombre de tours.   Le mappage a toujours un effet lorsque le paramètre « Anisotropie » est défini sur 0, car il affecte la rotation du noyau utilisé par le filtre Kuwahara. |
+| <b>Mappage d&#39;Anisotropy angle</b> <i>Niveaux de gris</i> | Image en niveaux de gris décrivant la rotation supplémentaire appliquée à la direction calculée, où la valeur de niveaux de gris correspond à un nombre de tours.   Le mappage a toujours un effet lorsque le paramètre « Anisotropie » est défini sur 0, car il affecte la rotation du noyau utilisé par le filtre Kuwahara. |
 | <b>feuille de Pente</b> <i>Niveaux de gris</i> | Mappage représentant les pentes auxquelles la map direction est conforme, en fonction de la valeur du paramètre Multiplicateur d&#39;entrée de mappage de Pente. |
-| <b>Mappage de rayon (facultatif)</b> <i>Niveaux de gris</i> | Une fois connecté, le « rayon » de flou est multiplié par rapport à l’image d’entrée. |
+| <b>Mappage de rayon (facultatif)</b> <i>Niveaux de gris</i> | Une fois connecté, le « rayon » de flou est multiplié par rapport à l’image d&#39;entrée. |
 | <b>Map direction</b> <i>Couleur</i> | Carte décrivant la direction utilisée par le noyau du filtre anisotrope.   Le mappage a toujours un effet lorsque le paramètre « Anisotropie » est défini sur 0, car il affecte la rotation du noyau utilisé par le filtre Kuwahara.   Remarque : cette entrée est utilisée uniquement lorsque le paramètre « Utiliser la Map direction d’entrée » est défini sur « Vrai ». |
 
 <a name="outputs"></a>
@@ -84,8 +84,8 @@ Gauche : Anisotropie 0,0 / Droite : Anisotropie 1,0
 
 |  |  |
 |:---|:---|
-| <b>Sortie</b> <i>Niveaux de gris</i> | Résultat du flou anisotrope appliqué par le nœud sur l’image d’entrée. |
-| <b>Map direction</b> <i>Couleur</i> | Map direction calculée à partir de l’image d’entrée et utilisée pour appliquer le flou anisotrope.   Si le paramètre « Utiliser la Map direction d’entrée » est défini sur « Vrai », l’image fournie à l’entrée « Map direction » est utilisée et la sortie telle quelle. |
+| <b>Sortie</b> <i>Niveaux de gris</i> | Résultat du flou anisotrope appliqué par le nœud sur l’image d&#39;entrée. |
+| <b>Map direction</b> <i>Couleur</i> | Map direction calculée à partir de l’image d&#39;entrée et utilisée pour appliquer le flou anisotrope.   Si le paramètre « Utiliser la Map direction d’entrée » est défini sur « Vrai », l’image fournie à l’entrée « Map direction » est utilisée et la sortie telle quelle. |
 
 <a name="parameters"></a>
 
@@ -93,15 +93,15 @@ Gauche : Anisotropie 0,0 / Droite : Anisotropie 1,0
 
 |  |  |
 |:---|:---|
-| <b>Rayon</b> *Flotter* | Le rayon d’atténuation, où une valeur plus élevée produit un effet d’atténuation plus intense.   La valeur maximale est 32. |
-| <b>Smoothness</b> *Flotter* | Règle la quantité de fusion des couleurs dans la direction calculée.   Lorsque cette valeur est définie sur 0, les couleurs sont principalement déplacées dans cette direction et il se produit très peu de fusion. |
-| <b>Netteté</b> *Flotter* | Augmente le contraste des zones floues, les rendant plus plates et plus clairement définies. |
-| <b>Anisotropie</b> *Flotter* | Ajuste la contribution de la map direction dans le flou.   La map direction et tous ses modificateurs (à la fois les paramètres et les cartes d&#39;entrée) ont toujours un effet lorsque cette valeur de paramètre est 0, car la map direction est utilisée dans le noyau de filtre Kuwahara. |
-| <b>Utiliser la map direction d&#39;entrée</b> *Booléen* | Lorsque la valeur est True, aucune map direction n&#39;est calculée à partir de l&#39;image d&#39;entrée et l&#39;image connectée à l&#39;entrée Map direction est utilisée pour appliquer le flou anisotrope à la place. |
-| <b>smoothness de capteur</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;False&#39;* | Règle l’intensité du flou appliquée aux directions calculées à partir de l’image et stockées dans la map direction.   L’augmentation de cette valeur garantit un résultat plus lisse lorsque l’image présente de nombreux détails de hautes fréquences. |
-| <b>Angle d&#39;Anisotropie</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;False&#39;* | Permet d’ajouter une rotation à la map direction, en nombre de tours.   Cette rotation supplémentaire est *cumulative* avec celle spécifiée par l&#39;entrée « Courbe d&#39;angle d&#39;Anisotropie ». |
-| <b>Multiplicateur de courbe d&#39;angle d&#39;Anisotropie</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;False&#39;* | Règle l’intensité des valeurs de l’entrée Courbe d’angle de l’Anisotropie, qui sont ensuite ajoutées au-dessus de la rotation appliquée à la map direction, en nombre de tours.   Cette rotation supplémentaire est *cumulative* avec celle spécifiée par le paramètre « Angle d&#39;Anisotropie ». |
-| <b>multiplicateur d&#39;entrée de mappage de Pente</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;False&#39;* | Règle l’intensité d’uniformisation de la map direction par rapport aux pentes fournies par l’entrée « Pente ». |
+| <b>Rayon</b> *Flottant* | Le rayon d’atténuation, où une valeur plus élevée produit un effet d’atténuation plus intense.   La valeur maximale est 32. |
+| <b>Smoothness</b> *Flottant* | Règle la quantité de fusion des couleurs dans la direction calculée.   Lorsque cette valeur est définie sur 0, les couleurs sont principalement déplacées dans cette direction et il se produit très peu de fusion. |
+| <b>Netteté</b> *Flottant* | Augmente le contraste des zones floues, les rendant plus plates et plus clairement définies. |
+| <b>Anisotropie</b> *Flottant* | Ajuste la contribution de la map direction dans le flou.   La map direction et tous ses modificateurs (à la fois les paramètres et les maps d&#39;entrée) ont toujours un effet lorsque cette valeur de paramètre est 0, car la map direction est utilisée dans le noyau de filtre Kuwahara. |
+| <b>Utiliser la map direction d&#39;entrée</b> *Booléen* | Lorsque la valeur est True, aucune map direction n&#39;est calculée à partir de l&#39;image d&#39;entrée, et l&#39;image reliée à l&#39;entrée Map direction est utilisée pour appliquer le flou anisotrope à la place. |
+| <b>smoothness de capteur</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;Faux&#39;* | Règle l’intensité du flou appliquée aux directions calculées à partir de l’image et stockées dans la map direction.   L’augmentation de cette valeur garantit un résultat plus lisse lorsque l’image présente de nombreux détails de hautes fréquences. |
+| <b>Anisotropy angle</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;Faux&#39;* | Permet d’ajouter une rotation à la map direction, en nombre de tours.   Cette rotation supplémentaire est *cumulative* avec celle spécifiée par l&#39;entrée &#39;Anisotropy angle Map&#39;. |
+| <b>multiplicateur de mappage d&#39;Anisotropy angle</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;Faux&#39;* | Règle l’intensité des valeurs de l’entrée Cartographie, qui sont ensuite ajoutées au-dessus de la map direction, en nombre de tours.   Cette rotation supplémentaire est *cumulative* avec celle spécifiée par le paramètre « Anisotropy angle ». |
+| <b>multiplicateur d&#39;entrée de mappage de Pente</b> *Flottant* *Disponible lorsque &#39;Utiliser la map direction d&#39;entrée&#39; est défini sur &#39;Faux&#39;* | Règle l’intensité d’uniformisation de la map direction par rapport aux pentes fournies par l’entrée « Pente ». |
 
 ## Exemples
 

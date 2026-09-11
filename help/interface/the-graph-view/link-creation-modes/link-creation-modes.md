@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Découvrez les modes de création de liens dans la vue du graphe de données Substance 3D Designer pour connecter efficacement des nœuds.
 helpx_creative_field: ""
@@ -83,16 +83,16 @@ Dans les modes <b>Matériau</b> et <b>Matériau compact</b>, les connexions entr
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Vous devez affecter des groupes aux nœuds <b>Entrée</b> et <b>Sortie</b> du graphique afin d&#39;utiliser les modes <b>Matériau</b> et <b>Matériau compact</b>.
+Vous devez affecter des groupes aux nœuds <b>Entrée</b> et <b>Sortie</b> du graphe afin d&#39;utiliser les modes <b>Matériau</b> et <b>matériau compact</b>.
 
 Vous attribuez un groupe dans les paramètres <b>Attributs</b> du nœud en remplissant le nom du groupe dans la propriété <b>Groupe</b>. Un groupe peut correspondre à n&#39;importe quelle valeur de chaîne et les liens seront regroupés s&#39;ils partagent *exactement le même* nom de groupe sensible à la casse.
 
-Les entrées et sorties groupées d&#39;un graphique sont indiquées visuellement en étant *entourées d&#39;une capsule sombre* sur les instances de nœuds référençant ce graphique.
+Les entrées et sorties groupées d&#39;un graphe sont indiquées visuellement en étant *entourées d&#39;une capsule sombre* sur les instances de nœuds référençant ce graphe.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Capsule de groupe sur le nœud](../../../assets/link-creation-mode-group-node.png "Capsule de groupe sur le nœud"){zoomable="yes"}
+![capsule de groupe sur le nœud](../../../assets/link-creation-mode-group-node.png "capsule de groupe sur le nœud"){zoomable="yes"}
 
 </td>
 </tr>

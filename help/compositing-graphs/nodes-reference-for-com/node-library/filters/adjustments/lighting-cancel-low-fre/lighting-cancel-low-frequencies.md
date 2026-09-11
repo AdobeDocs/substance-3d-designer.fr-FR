@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Eclairage Annuler Basses fréquences pour supprimer les variations d'éclairage basse fréquence des textures pour l'extraction de matériaux.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 Identique à la passe-haut, mais sans désaturer le résultat final.
 
-Voir également [Passe-haut de luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) pour une version plus avancée.
+Voir également [Passe-haut de Luminance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) pour une version plus avancée.
 
 </td>
 </tr>

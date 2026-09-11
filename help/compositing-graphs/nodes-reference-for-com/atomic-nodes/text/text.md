@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Texte pour générer des textures de texte avec des polices et des styles personnalisables afin de créer des modèles textuels.
 helpx_creative_field: ""
@@ -83,12 +83,12 @@ Lorsqu’un Graphe utilisant du texte est publié sur sbsar, la police est incor
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. |
 | <b>Texte</b> *Chaîne* | Détermine la description du texte. |
 | <b>Police</b> *Chaîne* | Ressource de police utilisée pour le rendu du texte. |
-| <b>Taille de police</b> *Flotter* | Taille de police du texte, en points. |
-| <b>Alignement</b> *Nombre entier* | Définit l’alignement du texte à gauche, au centre (par défaut) ou à droite. |
-| <b>Transformation</b> *Float4* | Matrice de transformation 2x2 appliquée au texte rendu. |
-| <b>Position</b> *Float2* | Position du texte dans l’image de sortie. |
-| <b>Arrière-plan</b> *Float/Float4* | Couleur d’arrière-plan de l’image de sortie. |
-| <b>Couleur de la police</b> *Float/Float4* | Couleur du texte. |
+| <b>Taille de police</b> *Flottant* | Taille de police du texte, en points. |
+| <b>Alignement</b> *Entier* | Définit l’alignement du texte à gauche, au centre (par défaut) ou à droite. |
+| <b>Transformation</b> *Flottant4* | Matrice de transformation 2x2 appliquée au texte rendu. |
+| <b>Position</b> *Flottant 2* | Position du texte dans l’image de sortie. |
+| <b>Arrière-plan</b> *Flottant/Flottant 4* | Couleur d’arrière-plan de l’image de sortie. |
+| <b>Couleur de la police</b> *Flottant/Flottant 4* | Couleur du texte. |
 
 ## Connecteurs d’entrée
 

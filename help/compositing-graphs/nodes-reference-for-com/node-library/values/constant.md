@@ -1,7 +1,7 @@
 ---
 helpx_url: ""
 breadcrumb-title: ''
-description: Accédez aux nœuds de constantes dans Substance 3D Designer pour définir des valeurs constantes dans les graphiques de Substances.
+description: Accédez aux nœuds de constantes dans Substance 3D Designer pour définir des valeurs constantes dans les graphes de Substance.
 helpx_creative_field: ""
 helpx_description: ""
 helpx_experience_level: ""
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # Constante
 
-Les nœuds constants permettent de créer une valeur statique utilisable dans les graphes en Substance.
+Les nœuds constants permettent de créer une valeur statique utilisable dans les graphes de Substance.
 
 Vous trouverez ces nœuds dans la section **Valeurs > Constantes** de la bibliothèque.\
-Ils incluent tous un simple nœud [Value processor](../../atomic-nodes/value-processor/value-processor.md) générant la valeur.
+Ils incluent tous un nœud [Processeur de valeurs](../../atomic-nodes/value-processor/value-processor.md) simple générant la valeur.
 
 +++ Nœuds constants dans la bibliothèque
 
@@ -31,24 +31,24 @@ Ils incluent tous un simple nœud [Value processor](../../atomic-nodes/value-pro
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nœud flottant constant" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nœud de Flottant constant" /></p>
 
 ## Entiers
 
 Les entiers constants génèrent des nombres entiers et ont un pas de 1.
 
-[Ils peuvent être convertis en flottants](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), ce qui est recommandé lors de toute opération plus complexe que les ajouts, les soustractions et les comparaisons simples.
+[Ils peuvent être convertis en Flottant](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), ce qui est recommandé lors de toute opération plus complexe que les ajouts, les soustractions et les comparaisons simples.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône ![Type d&#39;entier](../../../../assets/fn-constant-integer.png "Icône Type d&#39;entier")
+![icône de type d&#39;Entier](../../../../assets/fn-constant-integer.png "icône de type d&#39;Entier")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Nombre entier</b>
+<b>Entier</b>
 
 Un entier a un seul composant. Il est utile comme index pour effectuer des sélections, par exemple :
 
@@ -57,7 +57,7 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 
 >[!IMPORTANT]
 >
-> Les <b>entiers négatifs</b> dans les fonctions de paramètre ne sont *pas pris en charge*. Voir [cette page](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md) dans la section « Problèmes techniques » pour une solution.
+> <b>Les entiers négatifs</b> dans les fonctions de paramètre ne sont *pas pris en charge*. Voir [cette page](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md) dans la section « Problèmes techniques » pour une solution.
 
 </td>
 </tr>
@@ -67,16 +67,16 @@ Un entier a un seul composant. Il est utile comme index pour effectuer des séle
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Entier2](../../../../assets/fn-constant-integer2.png "Entier2")
+Icône de type ![Entier 2](../../../../assets/fn-constant-integer2.png "Entier 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Entier2</b>
+<b>Entier 2</b>
 
-Un nœud Integer2 génère un vecteur entier statique à 2 composantes avec des composantes (X, Y).
+Un nœud Entier 2 génère un vecteur d’entier statique à 2 composantes avec des composantes (X, Y).
 
-Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de grille X et Y, comme dans le nœud [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+Un cas d&#39;utilisation courant d&#39;Entier 2 est de définir les tailles de grille X et Y, comme dans le nœud [Tile Generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 </td>
 </tr>
@@ -86,14 +86,14 @@ Un cas d&#39;utilisation courant d&#39;Integer2 est de définir les tailles de g
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-Icône de type ![Integer3](../../../../assets/fn-constant-integer3.png "Icône de type Integer3")
+Icône de type ![Entier 3](../../../../assets/fn-constant-integer3.png "Entier 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Entier3</b>
+<b>Entier 3</b>
 
-Un nœud Integer3 génère un vecteur entier statique à 3 composantes avec des composantes (X, Y, Z).
+Un nœud Entier 3 génère un vecteur d’entier statique à 3 composants avec des composants (X, Y, Z).
 
 </td>
 </tr>

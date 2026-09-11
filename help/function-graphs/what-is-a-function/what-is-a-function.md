@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/what-is-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/what-is-a-function.html"
 breadcrumb-title: ''
 description: Découvrez les fonctions de Substance 3D Designer et comment les utiliser pour créer des réseaux de nœuds réutilisables.
 helpx_creative_field: ""

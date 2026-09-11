@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d’extraction de chrominance pour extraire les informations de chrominance des textures à des fins d’analyse et de traitement des couleurs.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Description
 
-Extrait la valeur de chrominance de l’entrée. La luminance est alors supprimée.
+Extrait la valeur de chrominance de l’entrée. La luminance s&#39;en est trouvée retirée.
 
 </td>
 </tr>

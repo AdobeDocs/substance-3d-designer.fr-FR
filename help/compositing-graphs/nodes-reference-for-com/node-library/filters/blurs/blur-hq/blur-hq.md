@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Blur HQ pour appliquer des effets de flou de haute qualité aux textures afin de créer des effets de flou lisses et de qualité professionnelle.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Description
 
-Applique un flou gaussien de haute qualité au résultat. Bien meilleure qualité que le [flou de boîte atomique standard](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Applique un flou gaussien de haute qualité au résultat. Bien meilleure qualité que le [flou de boîte atomique standard](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Important : assurez-vous d’utiliser la version appropriée pour vos commentaires. Utilisez « Blur HQ » pour les entrées Color ou « Blur HQ Grayscale » pour les entrées Grayscale.
 

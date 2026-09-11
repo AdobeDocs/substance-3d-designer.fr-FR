@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Découvrez le workflow essentiel pour créer des matériaux procéduraux dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -101,16 +101,16 @@ Le texte portant le numéro ou le thickness du contour peut être exposé à l�
 
 Un graphe de filtrage prend une map normal en tant que [entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (avec un aperçu personnalisé), [la convertit en courbure](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md), puis [ajuste le contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) pour créer un masque de contours convexes en tant que [sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
 
-Les valeurs de contraste définies dans l’histogramme peuvent être affichées, ce qui en fait un filtre simple mais utile en combinaison avec l’emplacement d’entrée dynamique.
+Les valeurs de contraste définies dans l’histogramme peuvent être exposées, ce qui en fait un filtre simple mais utile associé à l’emplacement d’entrée dynamique.
 
 +++
 
-+++Matière complète
-![Matière complète dans le graphique en Substances](../../assets/simplematerial.png "Matière complète dans le graphique en Substances"){width="512px"}
++++Matériau complet
+![matériau total en graphe de Substance](../../assets/simplematerial.png "matériau complet en graphe de Substance"){width="512px"}
 
 
 
-Un graphique plus complexe[fusionne deux Matériaux de base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). L&#39;un des [Matériaux de base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) est simple, tandis que l&#39;autre utilise des entrées personnalisées pour susciter l&#39;intérêt. Un masque est utilisé pour déterminer lequel des deux matériaux apparaît à l&#39;endroit où il se trouve avant d&#39;être défini comme [sorties](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finales.
+Un graphe plus compliqué[fusionne deux Matériaux de base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). L&#39;un des [Matériaux de base](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) est simple, tandis que l&#39;autre utilise des entrées personnalisées pour susciter l&#39;intérêt. Un masque est utilisé pour déterminer lequel des deux matériaux apparaît à l&#39;endroit où il se trouve avant d&#39;être défini comme [sorties](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finales.
 
 Cet exemple utilise les [modes de création de liens](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) pour simplifier l&#39;utilisation de plusieurs liens.
 
@@ -125,9 +125,9 @@ Cet exemple utilise les [modes de création de liens](../../interface/the-graph-
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-### graphiques de fonction de Substance
+### graphes de fonction de Substance
 
-Les fonctions <b>traitent des valeurs uniques</b> (entiers, flottants, vecteurs) au lieu de données d&#39;image (ensembles entiers de pixels). Les fonctions sont également des graphes avec des réseaux de nœuds, mais les [nœuds utilisés](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et l&#39;interface sont différents des [graphes de Substance standard](../../compositing-graphs/substance-compositing-graphs.md). Le workflow est entièrement basé sur <b>des opérations mathématiques</b> et n&#39;affiche aucune vignette d&#39;aperçu d&#39;image, ce qui en fait une méthode de travail <b>beaucoup plus avancée</b> avec Substance 3D Designer.
+Les fonctions <b>traitent des valeurs uniques</b> (entiers, flots, vecteurs) au lieu de données d&#39;image (ensembles entiers de pixels). Les fonctions sont également des Graphes avec des réseaux de nœuds, mais les [nœuds utilisés](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et l&#39;interface sont différents des [graphes de Substance normaux](../../compositing-graphs/substance-compositing-graphs.md). Le workflow est entièrement basé sur <b>des opérations mathématiques</b> et n&#39;affiche aucune vignette d&#39;aperçu d&#39;image, ce qui en fait une méthode de travail <b>beaucoup plus avancée</b> avec Substance 3D Designer.
 
 Les fonctions peuvent être utilisées dans de nombreux contextes différents, les principaux étant de modifier le comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), de créer le comportement de [Processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) et d&#39;utiliser des [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) dans un graphe de Substance.
 
@@ -137,14 +137,14 @@ Les fonctions peuvent être utilisées dans de nombreux contextes différents, l
 
 #### Exemples
 
-Vous trouverez ci-dessous quelques exemples de cas d&#39;utilisation courants des graphiques de fonction de Substance.
+Vous trouverez ci-dessous quelques exemples de cas d’utilisation courants pour les graphes de fonction de Substance.
 
 +++Fonction simple
-![Graphique de fonction simple](../../assets/lerpfunction.png "Graphique de fonction simple"){width="256px"}
+![graphe de fonction simple](../../assets/lerpfunction.png "graphe de fonction simple"){width="256px"}
 
 
 
-Fonction simple dans le contexte d&#39;un paramètre exposé. Il obtient une valeur flottante d’entrée appelée « Intensité » qui est déterminée pour aller de 0 à 1 (une plage facile à comprendre) et la remappe vers une plage définie de 0,1 à 0,8. Cela signifie que si l&#39;utilisateur définit l&#39;intensité sur 0, en interne 0,1 sera utilisé, si l&#39;interface utilisateur est définie sur 1, 0,8 sera utilisé, et toute valeur entre les deux sera interpolée linéairement. Ce type de fonction est couramment utilisé lors de l&#39;[exposition de paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), mais à l&#39;aide de fonctions personnalisées.
+Fonction simple dans le contexte d&#39;un paramètre exposé. Il obtient une valeur flottante d’entrée appelée « Intensité » qui est déterminée pour aller de 0 à 1 (une plage facile à comprendre) et la remappe vers une plage définie de 0,1 à 0,8. Cela signifie que si l&#39;utilisateur définit l&#39;intensité sur 0, en interne 0,1 sera utilisé, si l&#39;interface utilisateur est définie sur 1, 0,8 sera utilisé, et toute valeur entre les deux sera interpolée linéairement. Ce type de fonction est couramment utilisé lorsque [exposez des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), mais utilisez des fonctions personnalisées.
 
 Cette fonction peut également être écrite en tant que *lerp(0.1, 0.8, Intensité)* dans un pseudocode similaire à HLSL ou GLSL.
 
@@ -155,9 +155,9 @@ Cette fonction peut également être écrite en tant que *lerp(0.1, 0.8, Intensi
 
 
 
-Cette fonction avancée montre le fonctionnement interne d&#39;un [processeur de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) conçu pour régler la teinte d&#39;une entrée de table des couleurs en fonction de l&#39;intensité d&#39;une seconde entrée de masque en niveaux de gris.
+Cette fonction avancée montre le fonctionnement interne d&#39;un [Processeur de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destiné à ajuster la teinte d&#39;une entrée de table des couleurs en fonction de l&#39;intensité d&#39;une seconde entrée de masque en niveaux de gris.
 
-Il échantillonne les deux entrées avec la variable système « $pos », puis supprime l&#39;Alpha, convertit la valeur de couleur en TSL et modifie la composante de teinte en la multipliant par la valeur de niveaux de gris échantillonnée. Ensuite, il réassemble le vecteur, reconvertit le TSL en RGB et ajoute l’Alpha pour la sortie finale.
+Il échantillonne les deux entrées avec la variable système « $pos », puis supprime l&#39;Alpha, convertit la valeur de couleur en TSL et modifie la composante Teinte en la multipliant par la valeur de niveaux de gris échantillonnée. Ensuite, il réassemble le vecteur, reconvertit le TSL en RGB et ajoute l’Alpha pour la sortie finale.
 
 dans le pseudo-code, il s&#39;agirait d&#39;une fonction beaucoup plus compliquée qui ne tiendrait pas sur une seule ligne.
 

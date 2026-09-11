@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les listes de configuration SBSCFG dans Substance 3D Designer pour gérer les paramètres et les préconfigurations de projet.
 helpx_creative_field: ""
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Le fichier de configuration est beaucoup plus simple que les [fichiers de configuration de projet](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), car il contient uniquement une liste de projets, ainsi qu&#39;un mode de compatibilité du moteur. Ils servent de liste de configuration de projet/environnement de niveau supérieur à celle des fichiers de projet uniques.
+Le fichier de configuration est beaucoup plus simple que les [fichiers de configuration de projet](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), car il contient uniquement une liste de projets, ainsi qu&#39;un mode de compatibilité par moteur. Ils servent de liste de configuration de projet/environnement de niveau supérieur à celle des fichiers de projet uniques.
 
-Vous pouvez avoir plusieurs configurations pour différents environnements, ces fichiers peuvent être maintenus sous contrôle de version avec les fichiers SBSPRJ.
+Vous pouvez avoir plusieurs configurations pour différents environnements, ces fichiers peuvent être conservés sous la gestion de versions avec les fichiers SBSPRJ.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">

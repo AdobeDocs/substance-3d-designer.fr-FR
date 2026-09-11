@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: Appliquez des effets de post-traitement à la caméra de vue 3D pour une prévisualisation et une visualisation du matériau améliorées.
 helpx_creative_field: ""
@@ -522,7 +522,7 @@ Ainsi, l’effet de flou semble être réparti de manière plus égale.
 +++Œil de chat
 Active l’effet d’œil de chat dans la scène. Ce dernier simule comment la lumière pénétrant à un angle oblique ne pénètre pas dans un disque, mais dans un ovale irrégulier, ce qui provoque une distorsion.
 
-Cet effet est plus prononcé aux ouvertures supérieures, c&#39;est-à-dire aux valeurs F-Stop plus faibles.
+Cet effet est plus prononcé aux ouvertures plus élevées, c&#39;est-à-dire aux valeurs F-Stop plus basses.
 
 *À Gauche : Vrai/À Droite : Faux*
 

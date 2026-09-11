@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de fusion Alpha pour combiner des textures RGB avec des couches alpha afin de créer des textures RVBA.
+description: Utilisez le nœud de fusion Alpha pour associer des textures de RGB à des canaux Alphas de création de textures RVBA.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Merge
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Description
 
-Ajoute une couche alpha à une entrée sans couche alpha. À ne pas confondre avec la [fusion RVBA](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), ce nœud est beaucoup plus simple et n&#39;ajoute que de l&#39;alpha !
+Ajoute un canal Alpha à une entrée sans canal Alpha. À ne pas confondre avec la [fusion RVBA](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), ce nœud est beaucoup plus simple et n&#39;ajoute que de l&#39;alpha !
 
 Nœud simple mais pratique lorsque vous souhaitez simplement masquer quelque chose, ou lorsque votre résultat nécessite un alpha.
 

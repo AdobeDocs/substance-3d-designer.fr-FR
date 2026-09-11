@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Utilisez le nœud d'Altération Fissures pour ajouter des motifs de fissures aux matériaux en fonction de la courbure du maillage et des points de contrainte.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Description
 
-Il s’agit d’un effet matériel qui fonctionne sur plusieurs canaux à la fois. Il ajoute un motif de fissure aléatoire, avec un contrôle sur l’étendue et la profondeur.
+Il s’agit d’un effet de matériau complet qui fonctionne sur plusieurs canaux à la fois. Il ajoute un motif de fissure aléatoire, avec un contrôle sur l’étendue et la profondeur.
 
 Assurez-vous de bien comprendre les [modes de création de liens](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) lorsque vous travaillez avec des matériaux complets.
 
@@ -57,7 +57,7 @@ Assurez-vous de bien comprendre les [modes de création de liens](../../../../..
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Avancé</b> |  |
 | <b>Format normal</b> <i>DirectX, OpenGL</i> | Bascule entre différents formats de mappage normal (inverse la couche verte). |
 | <b>Masquer</b> <i>Faux/Vrai</i> | Active ou désactive l&#39;utilisation de la carte de masque. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Décalage de la Texture 3D pour décaler les textures dans l’espace 3D afin de créer des effets de parallaxe et des variations de surface.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Le nœud **Décalage de Texture 3D** applique une *transformation de décalage* 
 
 |  |  |
 |:---|:---|
-| <b>Décalage</b> <i>Float3</i> | Quantité de décalage en <i>espace monde</i> appliquée à l&#39;objet décrit par la <i>texture 3D</i> connectée à l&#39;<b>entrée</b>. |
+| <b>Décalage</b> <i>Flottant3</i> | Quantité de décalage en <i>espace monde</i> appliquée à l&#39;objet décrit par la <i>texture 3D</i> connectée à l&#39;<b>entrée</b>. |
 
 ## Exemples
 

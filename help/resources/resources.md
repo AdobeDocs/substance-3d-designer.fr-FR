@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Découvrez comment importer, créer et gérer des ressources dans Substance 3D Designer, y compris des bitmaps, des polices et des scènes 3D.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Les ressources correspondent au contenu des packs Substance 3D Designer. Ils son
 Les ressources Graphe sont les principales ressources créées dans Designer. Chacun dispose de ses propres zones dédiées dans la documentation. Il en existe trois principaux types :
 
 * [Graphes Substance](../compositing-graphs/substance-compositing-graphs.md)
-* [Graphes fonctionnels](../function-graphs/function-graphs.md)
+* [Graphes de fonction](../function-graphs/function-graphs.md)
 
 </td>
 </tr>

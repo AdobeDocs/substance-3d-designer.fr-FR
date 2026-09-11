@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
-description: Utilisez la vue 2D dans Substance 3D Designer pour prévisualiser et inspecter les textures produites par vos graphiques Matériau.
+description: Utilisez la Vue 2D de Substance 3D Designer pour prévisualiser et inspecter les sorties de texture de vos graphes de matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 2D view
 helpx_experience_level: ""
@@ -20,45 +20,45 @@ ht-degree: 0%
 
 # Vue 2D
 
-Cette page décrit l&#39;interface utilisateur et les fonctionnalités du panneau **Vue 2D** dans Substance 3D Designer.
+Cette page décrit l&#39;interface utilisateur et les fonctionnalités du panneau **vue 2D** dans Substance 3D Designer.
 
-![Vue 2D](../../assets/2d-view-main.png "Vue 2D")
+![vue 2D](../../assets/2d-view-main.png "vue 2D")
 
 ## Vue d’ensemble
 
-La [Vue 2D](https://substance3d.adobe.com/) est l’un des panneaux principaux de l’interface utilisateur de Designer. Ses principaux objectifs sont les suivants :
+La [vue 2D](https://substance3d.adobe.com/) est l&#39;un des panneaux principaux de l&#39;interface utilisateur de Designer. Ses principaux objectifs sont les suivants :
 
-* affichage de la sortie *valeur* ou *image* par un *nœud* spécifié ou via un *connecteur de nœud* spécifié
-* affichage de [bitmaps](../../resources/bitmap-resource/bitmap-resource.md) et de [graphiques vectoriels](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) [ressources](../../resources/resources.md)
+* affichage de la sortie *valeur* ou *image* par un *nœud* spécifié ou par un *connecteur de nœud* spécifié
+* affichage de [bitmaps](../../resources/bitmap-resource/bitmap-resource.md) et de [images vectorielles](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) [ressources](../../resources/resources.md)
 * affichage de *informations supplémentaires* sur le contenu qu&#39;il contient actuellement, telles que les couches de couleur ou les valeurs de couleur exactes
 * contrôle des paramètres *gizmos*
 
 Lorsqu&#39;une image ou une valeur affichée est modifiée, la vue 2D *se met à jour automatiquement* pour rester synchronisée avec l&#39;état actuel des données.\
-Les panneaux d&#39;affichage 2D *multiples* peuvent être actifs à tout moment et chacun peut afficher différentes images ou valeurs. Vous pouvez contrôler quand un nouveau panneau doit être utilisé à l&#39;aide de la fonctionnalité ![](../../assets/2d-view-icon-pin.png) <b>Coin</b> du panneau de l&#39;interface utilisateur.
+Les panneaux vue 2D *multiples* peuvent être actifs à tout moment et chacun peut afficher différentes images ou valeurs. Vous pouvez contrôler quand un nouveau panneau doit être utilisé à l&#39;aide de la fonction ![](../../assets/2d-view-icon-pin.png) <b>Épingle</b> du panneau de l&#39;interface utilisateur.
 
 ### Affichage du contenu dans la vue 2D
 
 >[!WARNING]
 >
-> Toutes les mentions d&#39;actions effectuées sur *nœuds* dans cette section ne s&#39;appliquent qu&#39;aux [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+> Toutes les mentions d&#39;actions effectuées sur *nœuds* dans cette section s&#39;appliquent uniquement aux [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-Le moyen le plus simple d&#39;afficher une image dans la vue 2D consiste à double-cliquer sur *LMB*...
+Le moyen le plus simple d&#39;afficher une image dans la vue 2D est de double-cliquer sur *LMB*...
 
-* ...sur une ressource [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) ou [graphiques vectoriels](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md)
-* ...sur un nœud ou un connecteur de nœud dans la [Vue graphique](../../interface/the-graph-view/the-graph-view.md)
+* ...sur une ressource [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) ou [images vectorielles](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md)
+* ...sur un nœud ou un connecteur de nœuds dans la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md)
 
-Vous pouvez également *faire glisser et déposer* des images directement dans la fenêtre d&#39;affichage en maintenant *LMB* sur une [ressource](../../resources/resources.md) dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) ou *RMB* sur un nœud dans la vue Graphique.
+Vous pouvez également *faire glisser et déposer* des images directement dans le viewport en maintenant *LMB* sur une [ressource](../../resources/resources.md) dans le panneau [Explorateur](../../interface/the-explorer-window/the-explorer-window.md) ou *RMB* sur un nœud de la Vue du graphe.
 
-Dans la vue Graphique, vous pouvez envoyer une image à la vue 2D à l&#39;aide de l&#39;option de menu contextuel <b>Afficher la sortie en vue 2D</b>, accessible en cliquant sur *RMB*...
+En Vue du graphe de compte, vous pouvez envoyer une image vers vue 2D à l&#39;aide de l&#39;option de menu contextuel <b>Afficher la sortie dans vue 2D</b>, accessible en cliquant sur *RMB*...
 
 * ...sur un *nœud* pour afficher *la sortie de ce nœud*. Si le nœud a plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
-* ...sur *espace vide* dans la vue Graphique pour afficher *la sortie de ce graphique*. Si le graphique comporte plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
+* ...sur *espace vide* dans la Vue du graphe pour afficher *la sortie de ce graphe*. Si le graphe comporte plusieurs sorties, sélectionnez la sortie souhaitée dans le sous-menu
 
-Lors du chargement d&#39;un graphique, sa *première sortie* s&#39;affiche automatiquement dans la vue 2D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à <b>Modifier > Préférences > Graphe > graphe de composition de Substance</b> et *décochez* l&#39;<b>Afficher la sortie dans Vue 2D lors de l&#39;ouverture d&#39;un graphe</b>.
+Lors du chargement d&#39;un graphe, sa *première sortie* s&#39;affiche automatiquement dans la vue 2D par défaut. Vous pouvez désactiver ce comportement dans les [Préférences](../../interface/preferences-window/preferences-window.md). Accédez à <b>Modifier > Préférences > Graphe > graphe de composition de Substance</b> et *décochez* l&#39;<b>Afficher la sortie dans Vue 2D lors de l&#39;ouverture d&#39;un graphe</b>.
 
 ## Viewport
 
-La fenêtre d&#39;affichage est la *zone d&#39;affichage* de la <b>Vue 2D</b> et vous permet de *parcourir* l&#39;image affichée à l&#39;aide des raccourcis clavier et de la souris suivants :
+Le viewport est la *zone d&#39;affichage* de la <b>vue 2D</b>. Il vous permet de *parcourir* l&#39;image affichée à l&#39;aide des raccourcis clavier et de la souris suivants :
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ La fenêtre d&#39;affichage est la *zone d&#39;affichage* de la <b>Vue 2D</b> et
 </td>
 <td style="border: 0;" valign="top">
 
-![Navigation dans la fenêtre d&#39;affichage 2D](../../assets/2d-view-viewport-navigation.gif "Navigation dans la fenêtre d&#39;affichage 2D")
+![Navigation dans le viewport vue 2D](../../assets/2d-view-viewport-navigation.gif "Navigation dans le viewport vue 2D")
 
 </td>
 </tr>
@@ -103,20 +103,20 @@ Utilisation d’un pavé tactile (macOS uniquement)
 > 
 > Le sens du zoom peut être inversé dans les [Préférences](../../interface/preferences-window/preferences-window.md).
 
-La *résolution*, le *format de couleur* et le *nombre de bits par pixel* natifs de l&#39;image apparaissent dans la zone inférieure gauche de la fenêtre d&#39;affichage.
+L&#39;image native *résolution*, *format de couleur* et *nombre de bits par pixel* s&#39;affiche dans la zone inférieure gauche du viewport.
 
-En plus de la navigation, la clôture offre les fonctionnalités suivantes :
+En plus de la navigation, le viewport offre les fonctionnalités suivantes :
 
-* Affichage en mosaïque : *répète l&#39;image* dans la fenêtre d&#39;affichage avec un motif en mosaïque. Ceci est utile pour vérifier la manière dont un motif ou une texture se répétera. Elle est activée à l&#39;aide du bouton **Barre d&#39;espace** ou ![](../../assets/2d-view-icon-tiling.png) **Affichage en mosaïque**
-* Affichage de la taille physique : affiche l&#39;image avec un *rapport* correspondant à la propriété [Taille physique](../../compositing-graphs/graph-parameters/graph-parameters.md) du graphique. Elle est activée à l&#39;aide du bouton ![](../../assets/2d-view-icon-physical-size.png) **Rapport de Taille physique**
+* Affichage en mosaïque : *répète l&#39;image* dans le viewport selon un motif en mosaïque. Ceci est utile pour vérifier la manière dont un motif ou une texture se répétera. Elle est activée à l&#39;aide du bouton **Barre d&#39;espace** ou ![](../../assets/2d-view-icon-tiling.png) **Affichage en mosaïque**
+* Affichage de la taille physique : affiche l&#39;image avec un *ratio* correspondant à la propriété [Taille physique](../../compositing-graphs/graph-parameters/graph-parameters.md) du graphe. Elle est activée à l&#39;aide du bouton ![](../../assets/2d-view-icon-physical-size.png) **ratio de Taille physique**
 * Conserver la taille de l&#39;affichage : cette option *verrouille l&#39;échelle d&#39;affichage* afin qu&#39;elle reste cohérente sur les différentes images. Elle est *activée par défaut* et peut être désactivée à l&#39;aide du bouton ![](../../assets/2d-view-icon-lock-scale.png) **Conserver la taille de l&#39;affichage**
 
 ## Barre d&#39;outils principale
 
-La barre d&#39;outils principale du panneau <b>Vue 2D</b> vous permet d&#39;en faire plus avec vos images affichées et offre les fonctionnalités suivantes :
+La barre d&#39;outils principale du panneau <b>vue 2D</b> vous permet d&#39;en faire plus avec les images affichées et offre les fonctionnalités suivantes :
 
 +++Image d’arrière-plan
-![Image d&#39;arrière-plan de la vue 2D](../../assets/2d-view-background.png "Image d&#39;arrière-plan de la vue 2D"){width="360px"}
+![Image d&#39;arrière-plan vue 2D](../../assets/2d-view-background.png "Image d&#39;arrière-plan vue 2D"){width="360px"}
 
 
 
@@ -139,21 +139,21 @@ Un curseur vous permet de *contrôler manuellement* l&#39;opacité de l&#39;imag
 +++
 
 +++Exporter l’image
-![Image d&#39;exportation de la vue 2D](../../assets/2d-view-export-bitmap.png "Image d&#39;exportation de la vue 2D"){width="360px"}
+![Image d&#39;exportation vue 2D](../../assets/2d-view-export-bitmap.png "Image d&#39;exportation vue 2D"){width="360px"}
 
 
 
 L&#39;image actuellement affichée peut être *exportée vers un fichier image*. Appuyez sur le bouton ![](../../assets/2d-view-icon-export.png) <b>Enregistrer l&#39;image...</b> et vous serez invité à sélectionner un *emplacement*, un *nom* et un *format de fichier* pour le fichier exporté.
 
-Bien que l&#39;image soit exportée en tant que *résolution native* (affichée dans la zone inférieure gauche de la fenêtre d&#39;affichage), le *format de nombre de bits par pixel* et le *format de couleur* *dépendent du format d&#39;image* sélectionné. Par exemple, les images 32 bits en virgule flottante ne peuvent être exportées à leur plage de données complète qu’avec des formats d’image qui prennent en charge cette précision, tels que TIFF, EXR et HDR. Si le format de l’image ne prend pas en charge les données, un verrouillage et/ou un effet de bande chromatique risquent de se produire dans l’image exportée.\
+Bien que l&#39;image soit exportée en tant que *résolution native* (affichée dans la zone inférieure gauche du viewport), le *format de nombre de bits par pixel* et le *format de couleur* *dépendent du format d&#39;image* sélectionné. Par exemple, les images de précision 32 bits en virgule flottante ne peuvent être exportées à leur plage de données complète qu’avec des formats d’image qui prennent en charge cette précision, tels que TIFF, EXR et HDR. Si le format de l’image ne prend pas en charge les données, un verrouillage et/ou un effet de bande chromatique risquent de se produire dans l’image exportée.\
 En général, n’oubliez pas quelles sont la précision et les fonctionnalités offertes par les formats d’image que vous avez l’intention d’utiliser (prise en charge de la virgule flottante, profils ICC, etc.).
 
-Si <b>OCIO</b> ou <b>ACE Adobe</b> Le [mode de gestion des couleurs](../../color-management/color-management.md) est actuellement utilisé et une option supplémentaire est disponible pour sélectionner l&#39;*espace colorimétrique* de l&#39;image exportée.
+Si <b>OCIO</b> ou <b>Adobe ACE</b> Le [mode de gestion des couleurs](../../color-management/color-management.md) est actuellement utilisé et une option supplémentaire est disponible pour sélectionner l&#39;*espace colorimétrique* de l&#39;image exportée.
 
 +++
 
 +++Copier dans le presse-papiers
-![Copie de la vue 2D dans le presse-papiers](../../assets/2d-view-copy-clipboard.gif "Copie de la vue 2D dans le presse-papiers"){width="360px"}
+![Copie vue 2D dans le presse-papiers](../../assets/2d-view-copy-clipboard.gif "Copie vue 2D dans le presse-papiers"){width="360px"}
 
 
 
@@ -253,9 +253,9 @@ La sélection peut être *effacée* en cliquant sur **RMB** dans l&#39;histogram
 
 La représentation de certaines des valeurs ci-dessus dépend de la précision sélectionnée dans la section inférieure du panneau, comme suit :
 
-* **8 bits** : 0-255 entier
+* **8 bits** : entier de 0 à 255
 
-* **16 bits** : entier de 0 à 65532
+* **16 bits** : entier 0-65532
 
 * **32 bits** : valeur brute en virgule flottante
 
@@ -265,7 +265,7 @@ Certaines parties de l’histogramme peuvent inclure des valeurs de nombre de pi
 
 ## Afficher la barre d’outils
 
-La barre d&#39;outils **Affichage**, qui se trouve par défaut au *bas* du panneau **Vue 2D**, vous permet de contrôler l&#39;affichage de l&#39;image dans la clôture.
+La barre d&#39;outils **Affichage**, qui se trouve par défaut au *bas* du panneau **vue 2D**, vous permet de contrôler l&#39;affichage de l&#39;image dans le viewport.
 
 La section *la plus à gauche* inclut des contrôles pour la *couleur* et la *transparence*, tandis que la section *la plus à droite* inclut les contrôles *viewport* détaillés dans la section Viewport de cette page.
 
@@ -335,7 +335,7 @@ Les <b>outils de peinture bitmap</b> sont disponibles pour les [ressources bitma
 </td>
 <td style="border: 0;" valign="top">
 
-![Outils de peinture bitmap en vue 2D](../../assets/2dview-paintingtools-main.png "Outils de peinture bitmap en vue 2D")
+![Outils de peinture bitmap vue 2D](../../assets/2dview-paintingtools-main.png "Outils de peinture bitmap vue 2D")
 
 </td>
 </tr>
@@ -349,9 +349,9 @@ Les <b>outils de peinture bitmap</b> sont disponibles pour les [ressources bitma
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Éditeur d’images vectorielles
+## éditeur d’Images vectorielles
 
-L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressources de SVG* [importées](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md). Les ressources liées ne sont *pas* prises en charge.
+L&#39;<b>éditeur d&#39;Images vectorielles</b> est disponible pour les *ressources de SVG* [importées](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md). Les ressources liées ne sont *pas* prises en charge.
 
 >[!NOTE]
 >
@@ -360,7 +360,7 @@ L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressour
 </td>
 <td style="border: 0;" valign="top">
 
-![Éditeur d’images vectorielles Vue 2D](../../assets/2dview-vectorediting-main.png "Éditeur d’images vectorielles Vue 2D")
+![éditeur d&#39;images vectorielles vue 2D](../../assets/2dview-vectorediting-main.png "éditeur d&#39;images vectorielles vue 2D")
 
 </td>
 </tr>
@@ -370,21 +370,21 @@ L&#39;<b>éditeur d&#39;images vectorielles</b> est disponible pour les *ressour
 >
 > Pour en savoir plus, consultez la page [Outils de modification vectorielle](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsolète) de la documentation.
 
-![Gestion des couleurs en vue 2D](../../assets/2d-view-color-management-ocio.png "Gestion des couleurs en vue 2D"){width="360px"}
+![Gestion des couleurs vue 2D](../../assets/2d-view-color-management-ocio.png "Gestion des couleurs vue 2D"){width="360px"}
 
 ## Gestion des couleurs
 
-La <b>Vue 2D</b> offre des commandes simples de *gestion des couleurs* pour vous permettre de choisir l&#39;*espace colorimétrique d&#39;affichage* à utiliser lors de l&#39;affichage de l&#39;image.
+La <b>vue 2D</b> offre des commandes simples de *gestion des couleurs* pour vous permettre de choisir l&#39;*espace colorimétrique d&#39;affichage* à utiliser lors de l&#39;affichage de l&#39;image.
 
 Ces commandes s&#39;adapteront au [mode de gestion des couleurs](../../color-management/color-management.md) actuel défini dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md), comme suit :
 
 * <b>Hérité :</b> vous pouvez afficher l&#39;image dans les espaces colorimétriques sRVB ![](../../assets/2d-view-icon-color-space.png) ou sRVB ![](../../assets/2d-view-icon-color-space-linear.png) linéaires ;
-* <b>ACE d&#39;Adobe :</b> vous pouvez ![](../../assets/2d-view-icon-color-space.png) *activer* la gestion des couleurs et définir l&#39;espace colorimétrique le plus approprié pour le *moniteur actif* tel que détecté par le Adobe ACE, ou ![](../../assets/2d-view-icon-color-space-linear.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brute ;
-* <b>OCIO :</b> vous pouvez ![](../../assets/2d-view-icon-color-space.png) *activer* la gestion des couleurs et définir le moniteur le plus approprié pour le *moniteur actuel* tel que détecté par le moteur OCIO, utiliser la zone de liste déroulante et sélectionner l&#39;un des *espaces colorimétriques d&#39;affichage* disponibles dans le [fichier de configuration OCIO](../../color-management/color-management.md) actuellement utilisé, ou ![](../../assets/2d-view-icon-color-space-linear.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brute.
+* <b>Adobe ACE :</b> vous pouvez ![](../../assets/2d-view-icon-color-space.png) *activer* la gestion des couleurs et définir l&#39;espace colorimétrique le plus approprié pour le *moniteur actif* tel que détecté par le moteur ACE Adobe, ou ![](../../assets/2d-view-icon-color-space-linear.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brute ;
+* <b>OCIO :</b> vous pouvez ![](../../assets/2d-view-icon-color-space.png) *activer* la gestion des couleurs et définir le moniteur le plus approprié pour le *moniteur actuel* tel que détecté par le moteur OCIO, utiliser la zone de liste déroulante et sélectionner l&#39;un des *espaces colorimétriques d&#39;affichage* disponibles dans le [fichier de configuration OCIO](../../color-management/color-management.md) actuellement utilisé, ou ![](../../assets/2d-view-icon-color-space-linear.png) *désactiver* la gestion des couleurs et afficher l&#39;image à l&#39;aide des valeurs de couleur brutes.
 
 >[!WARNING]
 >
-> Gardez à l&#39;esprit que ces commandes *n&#39;affectent* que l&#39;*espace colorimétrique d&#39;affichage*. L&#39;*espace colorimétrique d&#39;origine* des images et l&#39;*espace colorimétrique de travail* doivent également être pris en compte pour s&#39;assurer que les couleurs s&#39;affichent correctement dans la **Vue 2D**.
+> Gardez à l&#39;esprit que ces commandes *n&#39;affectent* que l&#39;*espace colorimétrique d&#39;affichage*. L&#39;*espace colorimétrique d&#39;origine* des images et l&#39;*espace colorimétrique de travail* doivent également être pris en compte pour s&#39;assurer que les couleurs s&#39;affichent correctement dans la **vue 2D**.
 
 >[!TIP]
 >

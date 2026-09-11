@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Nadir patch pour appliquer des correctifs à la zone nadir des panoramas HDRI afin de corriger les artefacts de fond dans les cartes d’environnement.
+description: Utilisez le nœud Nadir patch pour appliquer des correctifs à la zone nadir des panoramas HDRI afin de corriger les artefacts de fond dans les maps d'environnement.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Patch
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Description
 
-Ce nœud fournit une fonctionnalité permettant de corriger le point au sol central (nadir) d&#39;une image mappée de manière sphérique. Il peut être utilisé pour masquer ou « cloner » un vilain nadir, ou un appareil photo ou un trépied visible. Cela fonctionne comme un [patch de duplication](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), mais avec des réglages pour les images mappées de manière sphérique. L’utilisateur sélectionne un point ailleurs dans l’image, c’est-à-dire le clone et le mélange au nadir. Le traitement ne nécessite aucune autre entrée externe qu’une seule HDRI, mais un masque externe peut être utilisé comme alpha pour l’effet de pièce.
+Ce nœud fournit une fonctionnalité permettant de corriger le point sol central (nadir) d&#39;une image mappée de manière sphérique. Il peut être utilisé pour masquer ou « cloner » un vilain nadir, ou une caméra ou un trépied visible. Il fonctionne comme un [patch de Clone](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), mais avec des réglages pour les images mappées de manière sphérique. L’utilisateur sélectionne un point ailleurs dans l’image, c’est-à-dire le clone et le mélange au nadir. Le traitement ne nécessite aucune autre entrée externe qu’une seule HDRI, mais un masque externe peut être utilisé comme alpha pour l’effet de pièce.
 
 L&#39;effet peut être rapidement vérifié et validé avec [Nadir extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
@@ -57,8 +57,8 @@ L&#39;effet peut être rapidement vérifié et validé avec [Nadir extract](../.
 |  |  |
 |:---|:---|
 | <b>Activer</b> <i>Faux/Vrai</i> | Activez ou désactivez l’effet de correction. |
-| <b>Afficher l&#39;Assistant Cadre</b> <i>Faux/Vrai</i> | Afficher ou masquer les lignes d&#39;assistant, à des fins de débogage. |
-| <b>Thickness Cadre</b> <i>0.0 - 1.0</i> | Thickness des lignes auxiliaires. |
+| <b>Afficher l&#39;Assistant Cadre</b> <i>Faux/Vrai</i> | Affichez ou masquez les lignes d&#39;assistant, à des fins de débogage. |
+| <b>Thickness Cadre</b> <i>0.0 - 1.0</i> | Thickness des lignes d&#39;assistant. |
 | <b>Échelle de correctif</b> <i>0.0 - 1.0</i> | Échelle globale et uniforme du correctif. Affecte la source et la cible. |
 | <b>Taille du correctif</b> <i>0.0 - 1.0</i> | Taille non uniforme du patch. |
 | <b>Rotation du correctif</b> <i>0.0 - 1.0</i> | Rotation du patch. Affecte la source et la cible. |

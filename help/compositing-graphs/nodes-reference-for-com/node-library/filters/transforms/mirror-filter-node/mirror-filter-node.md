@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
 breadcrumb-title: ''
-description: Utilisez le nœud de filtre Miroir pour créer une symétrie horizontale ou verticale des textures en vue de créer des motifs et des effets symétriques.
+description: Utilisez le noeud de filtrage Miroir pour créer une symétrie horizontale ou verticale des textures en vue de créer des motifs et des effets symétriques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Miroir (nœud de filtre)
+title: Miroir (Noeud de filtrage)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Miroir (nœud de filtre)
+# Miroir (Noeud de filtrage)
 
 <table>
 <tr style="border: 0;">
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## Description
 
-Permet de refléter l’image d’entrée sur un axe choisi, d’un côté choisi. C&#39;est un moyen très utile et rapide d&#39;obtenir des effets symétriques.
+Permet de refléter l’image d&#39;entrée sur un axe choisi, d’un côté choisi. C&#39;est un moyen très utile et rapide d&#39;obtenir des effets symétriques.
 
 </td>
 </tr>

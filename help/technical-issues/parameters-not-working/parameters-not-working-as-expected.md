@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes liés aux paramètres du graphe de Substance qui ne fonctionnent pas comme prévu et trouvez des solutions.
 helpx_creative_field: ""
@@ -53,4 +53,4 @@ Un graphe de fonction de Substance appliqué à un paramètre de nœud ne produi
 
 <b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
 
-Les entiers négatifs ne sont actuellement pas pris en charge correctement. Pour contourner le problème, utilisez la valeur entière négative dans une valeur [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) et extrayez-la à l&#39;aide d&#39;un nœud [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).
+Les entiers négatifs ne sont actuellement pas correctement pris en charge. Pour contourner le problème, utilisez la valeur d&#39;entier négative dans une valeur [Entier 2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) et extrayez-la à l&#39;aide d&#39;un nœud [Swizzle integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).

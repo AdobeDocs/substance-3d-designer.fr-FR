@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Visualiseur de plage HDR pour visualiser les plages de textures HDR afin d’analyser et de régler les valeurs de plage dynamique élevée.
+description: Utilisez le nœud HDR Range Viewer pour visualiser les plages de texture HDR afin d'analyser et de régler les valeurs de plage dynamique élevée.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > HDR Range Viewer
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Visionneuse de plage HDR
+title: HDR Range Viewer
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
@@ -18,7 +18,7 @@ ht-degree: 10%
 ---
 
 
-# Visionneuse de plage HDR
+# HDR Range Viewer
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: Découvrez comment implémenter la journalisation dans les plug-ins Substance 3D Designer Python pour le débogage et la surveillance.
 helpx_creative_field: ""

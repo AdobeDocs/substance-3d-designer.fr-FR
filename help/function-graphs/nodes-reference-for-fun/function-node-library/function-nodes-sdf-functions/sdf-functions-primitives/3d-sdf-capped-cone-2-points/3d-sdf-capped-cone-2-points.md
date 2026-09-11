@@ -1,6 +1,6 @@
 ---
 title: Cône coiffé de 2 points
-description: Designer > Graphes de composition de Substances > Référence des nœuds pour les graphes de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Primitive > Cône fermé de 2 points
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Fonction SDF > Primitive > Cône fermé 2 points
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '158'
@@ -40,8 +40,8 @@ Fonction SDF d’un cône coiffé défini par les positions de son embase et de 
 
 |  |  |
 | :--- | :--- |
-| <b>Base de position</b> *Float3* | Position de la base du cône coiffé.<br><br><i>Valeur par défaut : (0, 0, 0)</i> |
-| <b>Positionner en haut</b> *Float3* | Position du sommet du cône coiffé.<br><br><i>Par défaut : (0, 0, 1)</i> |
-| <b>Base de rayon</b> *Flotter* | Rayon de la base du cône coiffé.<br><br><i>Valeur par défaut : 0.5</i> |
-| <b>Rayon supérieur</b> *Flotter* | Rayon du cône coiffé.<br><br><i>Valeur par défaut : 0.2</i> |
-| <b>P</b> *Float3* | La position spatiale mondiale transformée. Utilisez cette entrée pour appliquer des transformations supplémentaires à l&#39;aide des nœuds <b>Décalage P</b> et <b>Rotation P</b>.<br><br><i>Par défaut : position de l&#39;espace univers non transformée.</i> |
+| <b>Base de position</b> *Flottant3* | Position de la base du cône coiffé.<br><br><i>Valeur par défaut : (0, 0, 0)</i> |
+| <b>Positionner en haut</b> *Flottant3* | Position du sommet du cône coiffé.<br><br><i>Par défaut : (0, 0, 1)</i> |
+| <b>Base de rayon</b> *Flottant* | Rayon de la base du cône coiffé.<br><br><i>Valeur par défaut : 0.5</i> |
+| <b>Rayon supérieur</b> *Flottant* | Rayon du cône coiffé.<br><br><i>Valeur par défaut : 0.2</i> |
+| <b>P</b> *Flottant3* | Position espace monde transformée. Utilisez cette entrée pour appliquer des transformations supplémentaires à l&#39;aide des nœuds <b>Décalage P</b> et <b>Rotation P</b>.<br><br><i>Par défaut : position de l&#39;espace monde non transformé.</i> |

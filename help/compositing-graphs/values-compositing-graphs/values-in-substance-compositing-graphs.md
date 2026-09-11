@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Découvrez les types de valeur et le traitement des données dans les graphes de composition de Substances pour une création de matériau efficace.
 helpx_creative_field: ""
@@ -49,12 +49,12 @@ Chaque nœud ([Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-n
 
 ## Utilisation des valeurs
 
-L’utilisation de valeurs est légèrement différente du travail normal sur un graphique à Substances :
+L’utilisation de valeurs est légèrement différente du travail de graphe de Substance normal :
 
-Les connexions de valeur peuvent uniquement être effectuées à partir d&#39;un [processeur de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), d&#39;une [entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ou d&#39;un [sous-graphique](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Cela signifie en fait qu&#39;un processeur de valeurs est la seule façon de créer une connexion Value à partir de zéro, il n&#39;y a pas de nœud « Valeur statique » ou quelque chose de similaire. Créez plutôt un processeur de valeurs, placez une valeur statique et définissez-la comme sortie pour obtenir le même résultat.
+Les connexions de valeur ne peuvent être effectuées qu&#39;à partir d&#39;un [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), d&#39;une [entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ou d&#39;un [sous-Graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Cela signifie en fait qu&#39;un Processeur de valeurs est la seule façon de créer une connexion Value à partir de zéro, il n&#39;y a pas de nœud « Static Value » ou quelque chose de similaire. Créez plutôt un Processeur de valeurs, placez une valeur statique et définissez-la comme sortie pour obtenir le même résultat.
 
-Le processeur de valeurs ne peut renvoyer qu&#39;une seule valeur. Si vous souhaitez renvoyer plusieurs valeurs, ensembles ou groupes de valeurs, vous devez créer un [sous-graphique](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Processeur de valeurs ne peut renvoyer qu&#39;une seule valeur. Si vous souhaitez renvoyer plusieurs valeurs, ensembles ou groupes de valeurs, vous devez créer un [sous-Graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
-Pour mettre en surbrillance l’emplacement où les valeurs sont affichées ou utilisées, tout nœud comportant des entrées de valeur ou des sorties de valeur est mis en surbrillance avec une bordure jaune épaisse :
+Pour mettre en surbrillance l’emplacement où les valeurs sont exposées ou en cours d’utilisation, tout nœud comportant des entrées de valeur ou des sorties de valeur est mis en surbrillance avec une bordure jaune épaisse :
 
 ![Utilisation des valeurs](../../assets/yellowhighlight.png "Utilisation des valeurs")

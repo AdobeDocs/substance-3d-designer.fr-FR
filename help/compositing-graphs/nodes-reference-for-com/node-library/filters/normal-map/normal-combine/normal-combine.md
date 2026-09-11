@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Combinaison de normales pour combiner plusieurs cartes de normales pour superposer les détails de surface et les détails.
+description: Utilisez le nœud Combinaison normale pour combiner plusieurs maps normal afin de superposer les détails de surface et les détails.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Combine
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 4%
 
 ![](normal-combine.resources/normal-combine.png){width="128px"}
 
-<b>Entrée :</b> Filtres > Mappage normal
+<b>Entrée :</b> Filtres > Map normal
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Combinaison normale combine les détails de deux cartes normales d&#39;une manière mathématique correcte.
+Combinaison normale combine les détails de deux maps normal d&#39;une manière mathématique correcte.
 
 Elle est similaire à la méthode bien connue « Incrustation » d’autres logiciels de retouche d’images 2D, mais fonctionne légèrement différemment en interne (trois options).
 
@@ -41,9 +41,9 @@ Elle est similaire à la méthode bien connue « Incrustation » d’autres logi
 </tr>
 </table>
 
-Il s&#39;agit de la meilleure façon et de la plus correcte d&#39;ajouter des détails de carte de normales générées en 2D à une map bakée.
+Il s’agit de la meilleure façon et de la plus correcte d’ajouter des détails de map normal générés en 2D à une map bakée.
 
-Si vous souhaitez fusionner deux cartes normales sans combiner leurs détails (à l&#39;aide d&#39;un masque, par exemple), vous devez utiliser [Fusion normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
+Si vous souhaitez fusionner deux maps normal sans associer leurs détails (à l&#39;aide d&#39;un masque, par exemple), utilisez la [Fusion normale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
 <a name="inputs"></a>
 
@@ -60,6 +60,6 @@ Si vous souhaitez fusionner deux cartes normales sans combiner leurs détails (�
 
 |  |  |
 |:---|:---|
-| <b>Technique</b> *Nombre entier* | Définit la technique de fusion interne à utiliser, en échangeant la vitesse contre la qualité.<br><br>*- Whiteout (qualité faible)<br>* Mélangeur de canaux (qualité élevée)<br>* Orienté vers le détail (qualité élevée)* |
+| <b>Technique</b> *Entier* | Définit la technique de fusion interne à utiliser, en échangeant la vitesse contre la qualité.<br><br>*- Whiteout (qualité faible)<br>* Mélangeur de canaux (qualité élevée)<br>* Orienté vers le détail (qualité élevée)* |
 
 ## Exemples

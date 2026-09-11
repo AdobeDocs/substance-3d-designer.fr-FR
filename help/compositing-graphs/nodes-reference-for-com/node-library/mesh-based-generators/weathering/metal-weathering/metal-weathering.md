@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Altération de métal pour ajouter des effets de rouille et de corrosion réalistes aux matériaux métalliques en fonction de la géométrie du maillage.
 helpx_creative_field: ""
@@ -74,8 +74,8 @@ ht-degree: 14%
 | <b>Valeur De La Brillance Raw Metal</b> <i>(valeur Niveaux de gris)</i> |  |
 | <b>Valeur De La Rugosité Raw Metal</b> <i>(valeur Niveaux de gris)</i> |  |
 | <b>Fusion</b> |  |
-| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Intensité de fusion du diffus. |
-| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Intensité de fusion de la couleur de base. |
+| <b>Intensité de Diffuse</b> <i>0.0 - 1.0</i> | Force de fusion du Diffuse. |
+| <b>Intensité de la Base color</b> <i>0.0 - 1.0</i> | Force de fusion de la Base color. |
 | <b>Intensité normale</b> <i>0.0 - 64.0</i> | Force de fusion de la normale. |
 | <b>Intensité du Specular</b> <i>0.0 - 1.0</i> | Force de fusion du Specular. |
 | <b>Intensité de la Brillance</b> <i>0.0 - 1.0</i> | Force de fusion de la Brillance. |

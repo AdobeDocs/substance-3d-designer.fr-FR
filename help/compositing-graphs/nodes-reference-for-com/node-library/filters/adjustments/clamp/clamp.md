@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Clamp pour verrouiller les valeurs de texture dans les plages minimum et maximum spécifiées afin de contrôler les limites de valeurs.
+description: Utilisez le nœud de Verrouille pour verrouiller les valeurs de texture dans les plages minimum et maximum spécifiées pour contrôler les limites de valeur.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## Description
 
-Rattache les valeurs d’entrée aux limites définies.
+Verrouille les valeurs d’entrée aux limites définies.
 
 </td>
 </tr>

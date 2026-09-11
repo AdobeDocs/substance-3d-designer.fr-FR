@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
-description: Accédez à la référence complète des nœuds pour les graphiques de composition de Substances dans Designer pour en savoir plus sur tous les nœuds disponibles.
+description: Accédez à la référence complète des nœuds pour les graphes de composition de Substances dans Designer pour en savoir plus sur tous les nœuds disponibles.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Nodes reference for Substance graphs
 helpx_experience_level: ""
@@ -24,8 +24,8 @@ Substance 3D Designer étant un logiciel de texturation basé sur les nœuds, il
 
 Ce que nous appelons « nœud » à l&#39;intérieur de SD, peut être divisé en 2 groupes principaux :
 
-* [Les nœuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), les composantes de base de tout graphique.
-* [Les instances de graphiques](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), nœuds composés, dont une grande sélection de contenu prédéfini est disponible dans la [bibliothèque de nœuds](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
+* [Les noeuds atomiques](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), les éléments de base de tout graphe.
+* [instances de graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), nœuds composés, dont une grande sélection de contenu prédéfini est disponible dans la [bibliothèque de nœuds](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
 ## Dans cette section :
 

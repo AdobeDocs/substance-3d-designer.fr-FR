@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Combineur de données de Maillage pour combiner plusieurs entrées de données de maillage pour la génération avancée de textures basées sur le maillage.
 helpx_creative_field: ""
@@ -59,4 +59,4 @@ Activez/désactivez les entrées de mappage à activer et à générer dans le r
 | <b>Position (RGB)</b> <i>Faux/Vrai</i> |  |
 | <b>ID de couleur</b> <i>Faux/Vrai</i> |  |
 | <b>Direction dans l&#39;espace monde</b> <i>Faux/Vrai</i> |  |
-| <b>Espace universel normal</b> <i>Faux/Vrai</i> |  |
+| <b>Normale de l&#39;espace monde</b> <i>Faux/Vrai</i> |  |

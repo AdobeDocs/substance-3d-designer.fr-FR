@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Utilisez le Finder de nœuds pour rechercher et localiser rapidement des nœuds dans vos graphes de Substance de données afin d’assurer une navigation efficace.
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ Dans la barre d&#39;outils Vue du graphe, cliquez sur le bouton <b>Node Finder !
 * FX-Map : Modifier le graphe FX-Map (Ctrl+E / Cmd+E)
 * Paramètres de nœud : fonction Modifier
 
-![Node finder : parcours des graphiques pendant la recherche](../../../assets/node-finder-traversal.gif "Node finder : parcours des graphiques pendant la recherche"){zoomable="yes"}
+![Node finder : parcours des graphes pendant la recherche](../../../assets/node-finder-traversal.gif "Node finder : parcours des graphes pendant la recherche"){zoomable="yes"}
 
 ### Requête de recherche
 
@@ -65,46 +65,46 @@ Pour en savoir plus sur les requêtes que vous pouvez effectuer, consultez la se
 
 Cette zone de liste déroulante vous permet de filtrer les résultats de la recherche pour ne conserver qu&#39;un type spécifique de nœuds.
 
-Notez que tous les nœuds d&#39;instance sont du *même type* de nœud (en fait, le type « instance »), tandis que les nœuds atomiques sont chacun leur propre type.
+Notez que tous les instanciers sont du *même type* de nœud (en fait, le type « instance »), tandis que les noeuds atomiques sont de leur propre type.
 
 +++Listes de types de nœuds
-La liste est contextuelle par rapport au type de graphique actuel.
+La liste est contextuelle par rapport au type de graphe actif.
 
 ![Types de nœuds (composition)](../../../assets/node-finder-types-compositing.png "Types de nœuds (composition)"){zoomable="yes"}
 
 
 
-*Types de nœuds pour la composition de graphiques*
+*Types de nœuds pour la composition de graphes*
 
 ![Types de nœuds (fonction)](../../../assets/node-finder-types-function.png "Types de nœuds (fonction)"){zoomable="yes"}
 
 
 
-*Types de nœuds pour les graphiques de fonctions*
+*Types de nœuds pour les graphes de fonction*
 
 +++
 
-+++Recherche de nœuds atomiques
++++Recherche de noeuds atomiques
 ![Finder de nœuds : recherche par type de « niveaux » (composition)](../../../assets/node-finder-compositing-levels.png "Finder de nœuds : recherche par type de « niveaux » (composition)"){zoomable="yes"}
 
 
 
-*Recherche du type de nœud « Levels » dans un graphique de Substances*
+*Recherche du type de nœud « Levels » dans un graphe de Substance*
 
 +++
 
-+++Recherche de nœuds d&#39;instance
++++Recherche d’instanciers
 ![Finder de nœuds : recherche par type d&#39;« instance » (composition)](../../../assets/node-finder-compositing-instances.png "Finder de nœuds : recherche par type d&#39;« instance » (composition)"){zoomable="yes"}
 
 
 
-*Recherche du type de nœud « Instance » dans un graphique de Substance*
+*Recherche du type de nœud &#39;Instance&#39; dans un graphe de Substance de données*
 
 ![Finder de nœuds : recherche par type d&#39;&#39;instance (fonction)](../../../assets/node-finder-functions-instances.png "Finder de nœuds : recherche par type d&#39;&#39;instance (fonction)"){zoomable="yes"}
 
 
 
-*Recherche du type de nœud « Instance » dans un graphique de fonction de Substance*
+*Recherche du type de nœud &#39;Instance&#39; dans un graphe de fonction de Substance*
 
 +++
 
@@ -137,20 +137,20 @@ Pour rechercher des nœuds, une requête de texte est mise en correspondance ave
 > 
 > * La recherche ne respecte pas la casse. Par exemple, « Mon libellé de nœud » et « Mon libellé de nœud » renvoient les mêmes résultats.
 > * Les espaces avant et après la requête sont ignorés.
-> * Plusieurs requêtes ne peuvent pas être effectuées en même temps dans le même graphique. Par exemple, « levels blur » ne correspondra pas aux nœuds « Levels » et « Blur ». De même, les opérateurs logiques ne sont pas pris en charge.
+> * Plusieurs requêtes ne peuvent pas être effectuées en même temps dans le même graphe. Par exemple, « levels blur » ne correspondra pas aux nœuds « Levels » et « Blur ». De même, les opérateurs logiques ne sont pas pris en charge.
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Identificateurs de graphiques d’instance
+### Identifiants du graphe d’instance
 
-[Des nœuds d&#39;instance](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sont disponibles à l&#39;aide de l&#39;<b>identificateur</b> des graphiques auxquels ils font référence.
+[Les Instanciers](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sont disponibles à l&#39;aide de <b>l&#39;identifiant</b> des graphes auxquels ils font référence.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node finder : recherche par identificateur de graphe](../../../assets/node-finder-functions-identifier.png "Node finder : recherche par identificateur de graphe"){zoomable="yes"}
+![Node finder : recherche par identifiant de graphe](../../../assets/node-finder-functions-identifier.png "Node finder : recherche par identifiant de graphe"){zoomable="yes"}
 
 *Cliquer sur l&#39;image pour l&#39;agrandir*
 
@@ -158,19 +158,19 @@ Pour rechercher des nœuds, une requête de texte est mise en correspondance ave
 </tr>
 </table>
 
-+++Identificateur dans l’Explorateur
-Les graphiques sont répertoriés en fonction de leurs identifiants dans l’Explorateur.
++++Identifiant dans l’Explorateur
+Les graphes sont répertoriés par leur identifiant dans l’Explorateur.
 
-![Explorateur : contenu du package](../../../assets/explorer-package-simple.png "Explorateur : contenu du package"){zoomable="yes"}
+![Explorateur : contenu du pack](../../../assets/explorer-package-simple.png "Explorateur : contenu du pack"){zoomable="yes"}
 
 
 
 +++
 
-+++Identificateur dans l&#39;info-bulle du nœud d&#39;instance
-L&#39;info-bulle des nœuds d&#39;instance inclut l&#39;identifiant de leur graphique référencé.
++++Identifiant dans l’info-bulle de l’instancier
+L’info-bulle des instanciers inclut l’identifiant de leur graphe référencé.
 
-![Identificateur de graphique dans l&#39;info-bulle du nœud d&#39;instance](../../../assets/node-finder-compositing-identifier.png "Identificateur de graphique dans l&#39;info-bulle du nœud d&#39;instance"){zoomable="yes"}
+![identifiant de Graphe dans l&#39;info-bulle de l&#39;instancier](../../../assets/node-finder-compositing-identifier.png "identifiant de Graphe dans l&#39;info-bulle de l&#39;instancier"){zoomable="yes"}
 
 
 
@@ -180,9 +180,9 @@ L&#39;info-bulle des nœuds d&#39;instance inclut l&#39;identifiant de leur grap
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Paramètres et variables exposés
+### Paramètres exposés et variables
 
-L&#39;identificateur des [paramètres exposés](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) ou de toute autre variable peut être recherché directement.
+L&#39;identifiant de [paramètres exposés](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) ou de toute autre variable peut être recherché directement.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -304,20 +304,20 @@ Les deux peuvent être activés en même temps.
 
 ### Mode récursif
 
-Activez cette option pour que les recherches traversent [les instances de graphique](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) afin d&#39;inclure les résultats de [sous-graphes](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Activez cette option pour que les recherches parcourent les [instances de graphe](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) pour inclure les résultats de [sous-graphes](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
-Cette option peut être essentielle lors du dépannage des graphiques, si vous devez rechercher un nœud par son UID acquis à partir d&#39;un message d&#39;avertissement ou d&#39;erreur dans la console.
+Cette option peut être essentielle lors du dépannage des graphes, si vous devez rechercher un nœud par son UID acquis à partir d&#39;un message d&#39;avertissement ou d&#39;erreur dans la Console.
 
 ![Recherche de nœud : recherche récursive](../../../assets/node-finder-recursion-01.png "Recherche de nœud : recherche récursive"){zoomable="yes"}
 
-*La requête à droite met en surbrillance le nœud d&#39;instance ci-dessous, car son graphique référencé à gauche contient des correspondances pour cette requête*
+*La requête à droite met en surbrillance l&#39;instancier ci-dessous, car son graphe référencé à gauche a des correspondances pour cette requête*
 
 +++Exemple 1
 ![Node finder : exemple de recherche récursive 1](../../../assets/node-finder-recursion-01.gif "Node finder : exemple de recherche récursive 1"){zoomable="yes"}
 
 
 
-Un nœud d&#39;instance référence un graphique où plusieurs nœuds correspondent à la requête.
+Un instancier fait référence à un graphe où plusieurs nœuds correspondent à la requête.
 
 +++
 
@@ -326,7 +326,7 @@ Un nœud d&#39;instance référence un graphique où plusieurs nœuds correspond
 
 
 
-L’activation de l’option « Recherche récursive » met en surbrillance le nœud d’instance référençant un graphique où un nœud de processeur de pixels utilise une variable correspondant à la requête.
+L&#39;activation de l&#39;option « Recherche récursive » met en surbrillance l&#39;instancier référençant un graphe où un nœud de Processeur de pixels utilise une variable correspondant à la requête.
 
 +++
 

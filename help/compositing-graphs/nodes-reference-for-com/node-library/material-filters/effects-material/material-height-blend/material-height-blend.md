@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: Utilisez le nœud de Fusion d’Height de Matériau pour fusionner plusieurs matériaux en fonction de maps height de création d’effets de matériau multicalque.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Fusion d’Height de matière
+title: Fusion Height matériau
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Fusion d’Height de matière
+# Fusion Height matériau
 
 <table>
 <tr style="border: 0;">
@@ -49,7 +49,7 @@ Si vous souhaitez vous fondre dans l&#39;eau ou la neige, les nœuds [Couverture
 
 |  |  |
 |:---|:---|
-| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lorsque vous utilisez des cartes de Specular/brillance au lieu de cartes de métal/rugosité. |
+| <b>Canaux</b> | Activez et désactivez les canaux de matériau dans ce groupe, par exemple lors de l’utilisation de cartes de Specular/Brillance au lieu de cartes Métallique/Rugosité. |
 | <b>Décalage Height</b> <i>0.0 - 1.0</i> | Décale les cartes de hauteur de sorte que le niveau de fusion soit déplacé le long de l’axe height. Il s’agit du contrôle principal de la fusion. |
 | <b>Contraste</b> <i>0.0 - 1.0</i> | Règle le contraste de la fusion et accentue la netteté des transitions. |
 | <b>Mode</b> <i>height équilibré, priorité d&#39;height inférieure</i> |  |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Utilisez les cadres dans la vue du graphe de données Substance 3D Designer pour organiser et regrouper les nœuds afin d’obtenir une meilleure clarté visuelle.
 helpx_creative_field: ""
@@ -95,7 +95,7 @@ En Vue du graphe de compte, appuyez sur <b>RMB</b> sur n&#39;importe quel objet 
 
 +++
 
-+++Barre d’outils Graphique
++++barre d’outils graphe
 Dans la barre d&#39;outils Vue du graphe, cliquez sur le bouton Cadre dans la <b>Palette de noeuds</b>.
 
 +++
@@ -140,7 +140,7 @@ L’illustration met en évidence les zones d’interaction pour le panoramique 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### Magnétisme de la grille
+### contraint de grille
 
 Par défaut, un cadre contraint à la grille moyenne lorsqu’il est déplacé ou redimensionné.
 
@@ -270,14 +270,14 @@ Voici une liste de balises utiles pour la mise en forme du texte :
 
 ## Règles d’inclusion
 
-Un objet est considéré comme inclus dans une image s’il répond à sa règle d’inclusion. Ces règles varient en fonction de l’objet et du cas particulier. Ils sont répertoriés ci-dessous.
+Un objet est considéré comme inclus dans un cadre s’il répond à sa règle d’inclusion. Ces règles varient en fonction de l’objet et du cas particulier. Ils sont répertoriés ci-dessous.
 
-Le symbole jaune de chaque illustration représente le point ou la zone qui doit se trouver entièrement à l’intérieur des limites d’un cadre pour qu’un objet soit inclus dans ce cadre.
+Le symbole jaune de chaque illustration représente le point ou la zone qui doit se trouver entièrement dans les limites d’un cadre pour qu’un objet soit inclus dans ce cadre.
 
 +++Nœuds
 Le <b>point central</b> est utilisé.
 
-Les badges, les connecteurs et les informations affichés sous le nœud sont tous ignorés.
+Les badges, connecteurs et informations affichés sous le nœud sont tous ignorés.
 
 Les nœuds peuvent être d&#39;heights différents, selon leur nombre de connecteurs d&#39;entrée ou de sortie.
 
@@ -285,7 +285,7 @@ Lorsque des connecteurs sont affichés ou masqués, ajoutés ou supprimés, l&#3
 
 Par conséquent, l&#39;emplacement du point central d&#39;un nœud ne doit pas être modifié tant qu&#39;il n&#39;a pas *été délibérément déplacé*.
 
-![Inclusion d’image : nœuds de grande taille](../../../../assets/frame_inclusion_node_tall.png "Inclusion d’image : nœuds de grande taille")
+![inclusion de Cadre : grands nœuds](../../../../assets/frame_inclusion_node_tall.png "inclusion de Cadre : grands nœuds")
 
 
 
@@ -295,7 +295,7 @@ Le nœud hôte est le nœud auquel un nœud est ancré.
 
 Si plusieurs nœuds sont ancrés dans une chaîne, le nœud hôte du dernier nœud ancré est utilisé pour toute la chaîne.
 
-Les badges, les connecteurs et les informations affichés sous le nœud sont tous ignorés.
+Les badges, connecteurs et informations affichés sous le nœud sont tous ignorés.
 
 ![inclusion de Cadre : nœuds ancrés](../../../../assets/frame_inclusion_node_docked.png "inclusion de Cadre : nœuds ancrés")
 
@@ -325,7 +325,7 @@ Les commentaires parents ne suivent pas les règles d’inclusion des commentair
 
 À la place, le <b>point central</b> du nœud *parent* est utilisé.
 
-Les badges, les connecteurs et les informations affichés sous le nœud sont tous ignorés.
+Les badges, connecteurs et informations affichés sous le nœud sont tous ignorés.
 
 
 
@@ -348,7 +348,7 @@ Le <b>conseil</b> de l&#39;icône d&#39;épingle est utilisé.
 
 +++
 
-+++Images
++++Cadre
 Le <b>cadre de sélection</b> du cadre imbriqué est utilisé.
 
 Cela signifie qu’un cadre imbriqué doit se trouver entièrement dans les limites d’un autre cadre pour être inclus dans ce dernier.
@@ -365,13 +365,13 @@ Le titre est ignoré.
 
 ![Cadres : adapter la taille au contenu](../../../../assets/graph-frames_fit-size-to-content.png "Cadres : adapter la taille au contenu")
 
-Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Dans ce cas, il est possible d’ajuster automatiquement la position et la taille de l’image afin qu’elle s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne.
+Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Dans ce cas, il est possible d&#39;ajuster automatiquement la position et la taille du cadre afin qu&#39;il s&#39;ajuste à l&#39;étendue de son contenu, avec un remplissage d&#39;une cellule de grille moyenne.
 
-Pour ce faire, cliquez sur <b>RMB</b> sur la barre de titre ou d&#39;en-tête du cadre (voir [Apparence](#appearance)) et sélectionnez l&#39;option <b>Adapter à la taille du contenu</b> dans le menu contextuel.
+Pour ce faire, cliquez sur <b>RMB</b> dans la barre de titre ou d&#39;en-tête du cadre (voir [Apparence](#appearance)) et sélectionnez l&#39;option <b>Adapter à la taille du contenu</b> dans le menu contextuel.
 
 >[!NOTE]
 >
-> L&#39;option est disponible si au moins *un* objet graphique respecte les [règles d&#39;inclusion](../../../../interface/the-graph-view/graph-items/frame/frame.md) du cadre.
+> L&#39;option est disponible si au moins *un* objet de graphe respecte les [règles d&#39;inclusion](../../../../interface/the-graph-view/graph-items/frame/frame.md) du cadre.
 
 <table>
 <tr style="border: 0;">
@@ -379,21 +379,21 @@ Pour ce faire, cliquez sur <b>RMB</b> sur la barre de titre ou d&#39;en-tête du
 
 ### Ajustement du texte de description
 
-Si le cadre comporte une description, sa valeur est ajustée pour utiliser tout espace vide en regard de la description, si possible.
+Si le cadre comporte une description, son contenu est ajusté pour utiliser tout espace vide en regard de la description, si possible.
 
-Si aucun objet inclus ne peut être placé dans cet espace, l’height du cadre est ajusté pour tenir compte de la description.
+Si aucun objet inclus ne peut être placé dans cet espace, l&#39;height du cadre est ajusté davantage pour s&#39;adapter à la description.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Images : Taille adaptée au contenu (avec description)](../../../../assets/graph-frames_fit-description.png "Images : Taille adaptée au contenu (avec description)")
+![Cadres : adapter la taille au contenu (avec description)](../../../../assets/graph-frames_fit-description.png "Cadres : adapter la taille au contenu (avec description)")
 
 </td>
 </tr>
 </table>
 
 +++Exemple
-![Images : Taille adaptée au contenu (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Images : Taille adaptée au contenu (GIF)"){width="640px"}
+![Cadres : adapter la taille au contenu (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Cadres : adapter la taille au contenu (GIF)"){width="640px"}
 
 
 
@@ -401,22 +401,22 @@ Si aucun objet inclus ne peut être placé dans cet espace, l’height du cadre 
 
 ## Développement automatique
 
-![Images : Développement automatique](../../../../assets/graph-frames_auto-expand.png "Images : Développement automatique")
+![Cadres : développement automatique](../../../../assets/graph-frames_auto-expand.png "Cadres : développement automatique")
 
-Au fur et à mesure que le graphique se développe, le contenu des blocs peut devoir être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité.
+Au fur et à mesure que le graphe se développe, le contenu cadre devra peut-être être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité.
 
 Pour faciliter ces réglages, il est possible de développer automatiquement un cadre lors du déplacement de [objets inclus](#inclusion-rules) : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin de maintenir cet objet dans leurs limites.
 
-Cela s’applique également aux sélections qui peuvent inclure plusieurs objets. Dans ce cas, l’image hôte de chaque objet sera ajustée simultanément.
+Cela s’applique également aux sélections qui peuvent inclure plusieurs objets. Dans ce cas, le cadre hôte de chaque objet est ajusté simultanément.
 
-Si un objet n&#39;est pas entièrement entouré par les limites du cadre, mais qu&#39;il respecte toujours sa [règle d&#39;inclusion](#inclusion-rules), le cadre est ajusté pour l&#39;entourer entièrement avec un remplissage supplémentaire d&#39;une cellule de grille moyenne dès que la touche <b>Maj</b> est enfoncée.
+Si un objet n&#39;est pas entièrement entouré par les limites du cadre, mais qu&#39;il satisfait toujours à sa [règle d&#39;inclusion](#inclusion-rules), le cadre est ajusté pour l&#39;entourer entièrement d&#39;un remplissage supplémentaire d&#39;une cellule de grille moyenne dès que la touche <b>Maj</b> est enfoncée.
 
 >[!NOTE]
 >
-> Bien que la touche <b>Maj</b> puisse être enfoncée ou relâchée à tout moment pendant le déplacement pour déclencher ou annuler le réglage automatique de l&#39;image, elle *doit* être maintenue pendant la réalisation du déplacement pour appliquer efficacement le réglage.
+> Bien que la touche <b>Maj</b> puisse être enfoncée ou relâchée à tout moment pendant le déplacement pour déclencher ou annuler le réglage automatique du cadre, elle *doit* être maintenue pendant la réalisation du déplacement pour effectuer efficacement le réglage.
 
 +++Exemple
-![Images : Développement automatique (GIF)](../../../../assets/graph-frames_auto-expand.gif "Images : Développement automatique (GIF)"){width="640px"}
+![Cadres : développement automatique (par GIF)](../../../../assets/graph-frames_auto-expand.gif "Cadres : développement automatique (par GIF)"){width="640px"}
 
 
 

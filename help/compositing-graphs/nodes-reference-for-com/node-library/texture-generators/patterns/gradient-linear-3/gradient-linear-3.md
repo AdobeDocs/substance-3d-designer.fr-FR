@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Dégradé linéaire 3 pour créer des dégradés linéaires avancés avec des commandes améliorées pour des transitions de couleur lisses.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 ![](../../../../../../assets/gradient3.png)
 
-<b>Entrée :</b> Générateurs de textures > Motifs
+<b>Entrée :</b> Générateurs De Textures > Motifs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,7 +45,7 @@ Dégradé linéaire le plus avancé. Au lieu du profil arrondi en forme de tuyau
 
 |  |  |
 |:---|:---|
-| <b>Mosaïque</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
+| <b>Répétition</b> <i>1 - 16</i> | Définit le nombre de fois où le résultat doit se produire. |
 | <b>Position</b> <i>0.0 - 1.0</i> | Définit l’emplacement du point médian ou du sommet du dégradé. |
 | <b>Rotation</b> <i>0, 90°</i> | Change le sens de gauche à droite à haut en bas, ou vice versa. |
 

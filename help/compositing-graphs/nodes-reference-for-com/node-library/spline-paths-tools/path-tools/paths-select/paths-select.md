@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Sélection de tracés pour sélectionner et filtrer des tracés spécifiques dans une liste de tracés en fonction de critères.
 helpx_creative_field: ""
@@ -61,8 +61,8 @@ Isolez un tracé parmi les multiples contenus dans les tracés.
 
 |  |  |
 |:---|:---|
-| <b>Mode de sélection</b> <i>Nombre entier</i> | La méthode utilisée pour sélectionner les chemins :<br>*- Par ID :* sélectionne le chemin dans la liste dont l&#39;index correspond à celui spécifié dans <b>ID de chemin</b>;<br>*- Par longueur :* sélectionne les chemins dont la longueur est supérieure ou inférieure au seuil spécifié dans <b>Longueur cible</b>. |
-| <b>Path ID</b> <i>Nombre entier</i> (disponible lorsque <b>Mode de sélection</b> est défini sur *Par ID*) | Index du chemin sélectionné.<br>Une valeur supérieure au nombre de chemins dans <b>Chemins d&#39;accès *entraîne*</b> une sortie vide. |
+| <b>Mode de sélection</b> <i>Entier</i> | La méthode utilisée pour sélectionner les chemins :<br>*- Par ID :* sélectionne le chemin dans la liste dont l&#39;index correspond à celui spécifié dans <b>ID de chemin</b>;<br>*- Par longueur :* sélectionne les chemins dont la longueur est supérieure ou inférieure au seuil spécifié dans <b>Longueur cible</b>. |
+| <b>Path ID</b> <i>Entier</i> (disponible lorsque <b>Mode de sélection</b> est défini sur *Par ID*) | Index du chemin sélectionné.<br>Une valeur supérieure au nombre de chemins dans <b>Chemins d&#39;accès *entraîne*</b> une sortie vide. |
 | <b>Longueur supérieure ou inférieure ?</b> <i>Booléen</i> (disponible lorsque le <b>mode de sélection</b> est défini sur *Par longueur*) | Détermine si la sélection doit inclure une longueur supérieure ou inférieure à la <b>longueur cible</b>. |
 | <b>Longueur cible</b> <i>Flottant</i> (disponible lorsque <b>Mode de sélection</b> est défini sur *Par longueur*) | Seuil de longueur utilisé pour sélectionner les splines. |
 

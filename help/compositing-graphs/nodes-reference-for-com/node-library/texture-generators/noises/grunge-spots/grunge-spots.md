@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tons directs Usure/salissures pour générer des motifs de tons directs afin d'ajouter des effets d'usure et d'usure/salissures aux matériaux.
 helpx_creative_field: ""
@@ -45,14 +45,14 @@ Le nœud **Taches d&#39;Usure/salissures** génère une carte d&#39;usure/saliss
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Détails</b> <i>Flotter</i> | Ajuste la quantité de taches *déformées* et divisées en taches plus fines. |
-| <b>Couverture</b> <i>Flotter</i> | Règle la couverture des taches dans l’image. |
-| <b>Contraste de couverture</b> <i>Flotter</i> | Règle le contraste du *masque* utilisé pour contrôler la couverture des taches dans l&#39;image. |
+| <b>Détails</b> <i>Flottant</i> | Ajuste la quantité de taches *déformées* et divisées en taches plus fines. |
+| <b>Couverture</b> <i>Flottant</i> | Règle la couverture des taches dans l’image. |
+| <b>Contraste de couverture</b> <i>Flottant</i> | Règle le contraste du *masque* utilisé pour contrôler la couverture des taches dans l&#39;image. |
 
 ## Exemples
 

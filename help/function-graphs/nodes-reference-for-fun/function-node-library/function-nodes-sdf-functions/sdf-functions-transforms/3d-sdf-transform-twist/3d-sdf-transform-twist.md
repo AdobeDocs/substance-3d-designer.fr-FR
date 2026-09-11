@@ -1,6 +1,6 @@
 ---
 title: Torsion (inexacte)
-description: Designer > Graphiques de composition de Substances > Référence des nœuds pour les graphiques de composition de Substances > Bibliothèque de nœuds > Fonction SDF > Transformation > Torsion (inexact)
+description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Fonction SDF > Transforme > Torsion (inexact)
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '173'
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Icône ![Torsion (inexacte)](./3d-sdf-transform-twist.png "Torsion (inexacte)")
 
-<b>Entrée :</b> Fonction SDF > Transformation
+<b>Entrée :</b> Fonction SDF > Transformer
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -40,8 +40,8 @@ Tournez une forme SDF autour de son axe Z local entre un point de départ et un 
 
 |  |  |
 | :--- | :--- |
-| <b>SDF</b> *Flotter* | Forme SDF d’entrée. |
-| <b>Angle</b> *Flotter* | Angle, en tours, de la rotation appliquée à la fin de la torsion. |
-| <b>Démarrer</b> *Flotter* | Position universelle sur l’axe Z où commence la torsion. Tout le volume en dessous n’est pas tordu. |
-| <b>Fin</b> *Flotter* | Position universelle sur l’axe Z à l’endroit où la torsion se termine. Tout le volume ci-dessus pivote uniformément selon l’angle spécifié. |
-| <b>P</b> *Float3* | La position spatiale mondiale transformée. Utilisez cette entrée pour appliquer des transformations supplémentaires à l&#39;aide des nœuds <b>Décalage P</b> et <b>Rotation P</b>.<br><br><i>Par défaut : position de l&#39;espace univers non transformée.</i> |
+| <b>SDF</b> *Flottant* | Forme SDF d’entrée. |
+| <b>Angle</b> *Flottant* | Angle, en tours, de la rotation appliquée à la fin de la torsion. |
+| <b>Démarrer</b> *Flottant* | Position mondiale sur l’axe Z où commence la torsion. Tout le volume en dessous n’est pas tordu. |
+| <b>Fin</b> *Flottant* | Position mondiale sur l’axe Z à l’extrémité de la torsion. Tout le volume ci-dessus pivote uniformément selon l’angle spécifié. |
+| <b>P</b> *Flottant3* | Position espace monde transformée. Utilisez cette entrée pour appliquer des transformations supplémentaires à l&#39;aide des nœuds <b>Décalage P</b> et <b>Rotation P</b>.<br><br><i>Par défaut : position de l&#39;espace monde non transformé.</i> |

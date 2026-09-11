@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Masque de volume 3D pour créer des masques volumiques basés sur la position 3D pour des effets de matériau avancés.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Description
 
-Le nœud **Masque de volume 3D** génère une représentation d&#39;une *forme primitive* basée sur le mappage d&#39;entrée **Position**.
+Le nœud **Masque de volume 3D** génère une représentation d&#39;une *forme primitive* en fonction de la map d&#39;entrée **Position**.
 
 </td>
 </tr>
@@ -53,10 +53,10 @@ Le nœud **Masque de volume 3D** génère une représentation d&#39;une *forme p
 
 |  |  |
 |:---|:---|
-| <b>Forme</b> <i>Nombre entier</i> | La forme primitive qui doit être représentée :<br><br>- *Cube*<br>- *Cylindre*<br>- *Sphère* |
-| <b>Échelle</b> <i>Flotter</i> | Définit l&#39;échelle *globale* de la primitive, appliquée *uniformément* sur tous les axes. |
-| <b>Taille</b> <i>Float3</i> | Définit la taille de la forme sur chaque axe. |
-| <b>Entrée de position</b> <i>Nombre entier</i> | Méthode de *représentation de l&#39;espace* via l&#39;entrée **Position** :<br><br>- *UV* : utilisez un *UV map*. Les coordonnées X/Y (U/V) sont respectivement mappées aux canaux R/G. L&#39;axe Z est supposé être le vecteur *avant orthogonal*.<br>-*Position de l&#39;Espace monde* : utilisez une *carte de position* pour mapper la primitive dans l&#39;espace 3D. Les coordonnées X/Y/Z sont respectivement mappées sur les canaux R/G/B. |
+| <b>Forme</b> <i>Entier</i> | La forme primitive qui doit être représentée :<br><br>- *Cube*<br>- *Cylindre*<br>- *Sphère* |
+| <b>Échelle</b> <i>Flottant</i> | Définit l&#39;échelle *globale* de la primitive, appliquée *uniformément* sur tous les axes. |
+| <b>Taille</b> <i>Flottant3</i> | Définit la taille de la forme sur chaque axe. |
+| <b>Entrée de position</b> <i>Entier</i> | Méthode de *représentation de l&#39;espace* via l&#39;entrée **Position** :<br><br>- *UV* : utilisez un *UV map*. Les coordonnées X/Y (U/V) sont respectivement mappées aux canaux R/G. L&#39;axe Z est supposé être le vecteur *avant orthogonal*.<br>-*Position de l&#39;Espace monde* : utilisez une *carte de position* pour mapper la primitive dans l&#39;espace 3D. Les coordonnées X/Y/Z sont respectivement mappées sur les canaux R/G/B. |
 | <b>UV de position</b> <i>Flottant 2</i> | Position de la primitive dans l&#39;espace UV.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Entrée de position** est défini sur *UV*. |
 | <b>Position</b> <i>Flottant3</i> | Position de la primitive dans l&#39;espace monde.<br><br>*Remarque* : ce paramètre n&#39;est disponible que lorsque le paramètre **Entrée de position** est défini sur *Position de l&#39;Espace monde*. |
 | <b>Rotation</b> <i>Flottant3</i> | Définit la rotation de la forme en espace monde. |

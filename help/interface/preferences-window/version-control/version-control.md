@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
-description: Configurez les paramètres de contrôle de version dans les préférences de Substance 3D Designer pour les intégrer à Git et à d’autres systèmes.
+description: Configurez les paramètres de gestion de versions dans les préférences de Substance 3D Designer pour les intégrer à Git et à d’autres systèmes.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Preferences window > Version control
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Contrôle de version
+title: Gestion de versions
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,17 +18,17 @@ ht-degree: 0%
 ---
 
 
-# Contrôle de version
+# Gestion de versions
 
 >[!IMPORTANT]
 >
 > La version <b>14.0.0</b> de Substance 3D Designer met à niveau la prise en charge de Perforce vers <b>Python 3</b>.
 > 
-> Assurez-vous que vos autres scripts et votre environnement de contrôle de version sont ajustés en conséquence.
+> Assurez-vous que les autres scripts et l’environnement de gestion de versions sont ajustés en conséquence.
 
-Designer offre une intégration Python du système de contrôle de version [Perforce](https://www.perforce.com/) (P4).
+Designer offre une intégration Python du système de gestion de versions [Perforce](https://www.perforce.com/) (P4).
 
-L&#39;intégration ajoute un sous-menu personnalisé « Contrôle de version » au menu contextuel des packs dans l&#39;[Explorateur](../../../interface/the-explorer-window/the-explorer-window.md), ainsi que des icônes personnalisées pour correspondre à l&#39;état d&#39;un pack dans P4.
+L&#39;intégration ajoute un sous-menu « Gestion de versions » personnalisé au menu contextuel des packs dans l&#39;[Explorateur](../../../interface/the-explorer-window/the-explorer-window.md), ainsi que des icônes personnalisées pour correspondre au statut d&#39;un pack dans P4.
 
 ## Préparation de P4
 
@@ -52,13 +52,13 @@ cVerbose = False
 
 ## Configuration dans Designer
 
-Le contrôle de version est configuré dans les [paramètres du projet](../../../interface/preferences-window/project-settings/project-settings.md), qui sont disponibles dans les [préférences](../../../interface/preferences-window/preferences-window.md) de Designer.
+La gestion de versions est configurée dans les [paramètres du projet](../../../interface/preferences-window/project-settings/project-settings.md), qui sont disponibles dans les [préférences](../../../interface/preferences-window/preferences-window.md) de Designer.
 
-Onglet ![&#39;Contrôle de version&#39; dans les paramètres du projet](../../../assets/p4v-project-settings.jpg "&#39;Contrôle de version&#39; dans les paramètres du projet"){zoomable="yes"}
+Onglet ![&#39;Gestion de versions&#39; dans les paramètres du projet](../../../assets/p4v-project-settings.jpg "&#39;Gestion de versions&#39; dans les paramètres du projet"){zoomable="yes"}
 
 1. Accédez à Modifier > Préférences.
-1. Accédez à « Projets », sélectionnez le [fichier de projet](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) cible et accédez à l&#39;onglet « Contrôle de version »
-1. Cochez « Contrôle de version activé ».
+1. Accédez à « Projets », sélectionnez le [fichier de projet cible](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) et accédez à l&#39;onglet « Gestion de versions »
+1. Cochez « Gestion de versions activée ».
 1. Renseignez ces informations dans la section « Espace de travail » :
 
    * <b>Nom :</b> entrez le « Nom de l&#39;espace de travail » précédemment récupéré dans P4V
@@ -68,7 +68,7 @@ Onglet ![&#39;Contrôle de version&#39; dans les paramètres du projet](../../..
 
 ### Configuration des actions
 
-Les actions seront disponibles dans le menu contextuel d’un pack dans l’Explorateur. Il existe des actions prédéfinies qui correspondent à la plupart des concepts de l’outil de contrôle de version :
+Les actions seront disponibles dans le menu contextuel d’un pack dans l’Explorateur. Il existe des actions prédéfinies correspondant à la plupart des concepts d’outils de Gestion de versions :
 
 * Tous les libellés d’action peuvent être modifiés selon les besoins.
 * Toutes les actions nécessitent un script pour être valides.
@@ -92,7 +92,7 @@ Un script de démarrage pour toutes les actions est disponible dans l&#39;instal
 
 ### Configuration d’actions personnalisées
 
-Comme tous les outils de contrôle de version sont différents et incluent de nombreuses fonctionnalités, nous permettons à l’utilisateur d’ajouter des actions personnalisées.
+Comme tous les outils de gestion de versions sont différents et incluent de nombreuses fonctionnalités, nous permettons à l’utilisateur d’ajouter des actions personnalisées.
 
 1. Cliquez sur Ajouter un élément.
 1. Renseignez le libellé de la nouvelle action et définissez son chemin de script
@@ -105,11 +105,11 @@ Comme tous les outils de contrôle de version sont différents et incluent de no
 
 ![Configuration de P4 dans Designer : interprète](../../../assets/p4v-project-settings-interpreters.jpg "Configuration de P4 dans Designer : interprète"){zoomable="yes"}
 
-## Comment utiliser le contrôle de version
+## Comment utiliser gestion de versions
 
 1. Création d’un pack
 1. Enregistrez le package sous le répertoire « Chemin d’accès de l’espace de travail »
-1. Cliquez sur RMB sur le pack : vous avez maintenant accès au sous-menu « Contrôle de version »
+1. Cliquez sur RMB sur le pack : vous avez maintenant accès au sous-menu « Gestion de versions »
 1. Plusieurs actions sont disponibles, en fonction de l’état du fichier du package dans l’espace de travail :
 
    * <b>Ajouter :</b> marquez les fichiers comme « ToAdd »
@@ -138,7 +138,7 @@ Comme tous les outils de contrôle de version sont différents et incluent de no
 >
 > Toutes les actions prennent en charge la sélection multiple
 > 
-> Pour les outils de contrôle de version P4 et autres qui utilisent une autorisation de fichier en lecture seule pour restreindre les modifications, l’utilisateur devra d’abord extraire le package avant de le modifier.
+> Pour les outils de gestion de versions P4 et autres qui utilisent une autorisation de fichier en lecture seule pour restreindre les modifications, l’utilisateur devra d’abord extraire le package avant de le modifier.
 > 
 > Les fichiers du package en lecture seule ne peuvent pas être modifiés dans SD.
 

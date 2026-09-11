@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
 breadcrumb-title: ''
-description: Accédez aux nœuds de filtre de canal dans Substance 3D Designer pour manipuler et combiner les données de canal RVBA.
+description: Accédez aux noeuds de filtrage de canal dans Substance 3D Designer pour manipuler et combiner les données de canal RGBA.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels
 helpx_experience_level: ""

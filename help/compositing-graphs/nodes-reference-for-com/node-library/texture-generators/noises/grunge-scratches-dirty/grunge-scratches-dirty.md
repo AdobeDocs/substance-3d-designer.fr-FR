@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
 breadcrumb-title: ''
-description: Utilisez le nœud Dirty d’Usure/salissures Scratches pour ajouter des motifs de rayures sales afin de créer des effets de matière vieillis et usés.
+description: Utilisez le nœud Dirty d’Usure/salissures Scratches pour ajouter des motifs de rayures sales afin de créer des effets de matériau usés et vieillis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Dirty
 helpx_experience_level: ""
@@ -45,13 +45,13 @@ Le nœud **Usure/salissures Scratches Dirty** génère une carte usure/salissure
 
 |  |  |
 |:---|:---|
-| <b>Balance</b> <i>Flotter</i> | Règle la balance entre les valeurs sombres et claires. |
-| <b>Contraste</b> <i>Flotter</i> | Règle le contraste de l’image. |
+| <b>Balance</b> <i>Flottant</i> | Règle la balance entre les valeurs sombres et claires. |
+| <b>Contraste</b> <i>Flottant</i> | Règle le contraste de l’image. |
 | <b>Inverser</b> <i>Booléen</i> | Inverse la sortie de l&#39;image, à l&#39;aide d&#39;une opération `1-x`. |
-| <b>Extension non carrée</b> <i>Booléen</i> | Permet la compensation de la courbure et de l’étirement avec des proportions non carrées. |
+| <b>Extension non carrée</b> <i>Booléen</i> | Active la compensation de la courbure et de la étire avec des proportions non carrées. |
 | <b>Avancé</b> |  |
-| <b>Intensité d&#39;Usure/salissures de base</b> <i>Flotter</i> | Ajuste l&#39;intensité de l&#39;usure/salissures appliquée à la surface de base. |
-| <b>Intensité Scratches</b> <i>Flotter</i> | Règle l’intensité des rayures sur la surface de base. |
+| <b>Intensité d&#39;Usure/salissures de base</b> <i>Flottant</i> | Ajuste l&#39;intensité de l&#39;usure/salissures appliquée à la surface de base. |
+| <b>Intensité Scratches</b> <i>Flottant</i> | Règle l’intensité des rayures sur la surface de base. |
 
 ## Exemples
 
