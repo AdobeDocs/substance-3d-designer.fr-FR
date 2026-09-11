@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Utilisez les outils d’alignement des nœuds pour organiser et aligner les nœuds de la vue du graphe afin de rendre les graphes plus nets et plus lisibles.
 helpx_creative_field: ""
