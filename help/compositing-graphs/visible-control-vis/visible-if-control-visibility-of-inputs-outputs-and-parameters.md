@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser les expressions visible if dans Substance 3D Designer pour contrôler la visibilité des paramètres en fonction des conditions.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visible si les expressions
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Pour ce faire, vous pouvez entrer une *expression logique* dans la propriété <
 * nœud [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) d&#39;un graphe ;
 * nœud [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) d&#39;un graphe.
 
-![Activation/désactivation de la visibilité des paramètres d&#39;entrée](../../assets/visible-if-example.gif "Activation/désactivation de la visibilité des paramètres d&#39;entrée"){width="512px"}
+![Activation/désactivation de la visibilité des paramètres d&#39;entrée](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Activation/désactivation de la visibilité des paramètres d&#39;entrée"){width="512px"}
 
 Si l&#39;expression logique est évaluée à `true`, le paramètre, l&#39;entrée ou la sortie s&#39;affiche dans tous les [instanciers](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) représentant le graphe actif. Sinon, il est *masqué*.
 

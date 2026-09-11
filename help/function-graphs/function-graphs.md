@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Découvrez comment créer et utiliser des graphes de fonction de Substance dans Designer pour créer des fonctions personnalisées et des réseaux de nœuds réutilisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: graphes de fonction de Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](function-graphs.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ Vous trouverez ci-dessous quelques exemples d’utilisations courantes des Fonct
 
 ### Fonction simple
 
-![](../assets/lerpfunction_1.png)
+![](function-graphs.resources/lerpfunction_1.png)
 
 Fonction simple dans le contexte d&#39;un paramètre exposé. Il obtient une valeur flottante d’entrée appelée « Intensité » qui est déterminée pour aller de 0 à 1 (une plage facile à comprendre) et la remappe vers une plage définie de 0,1 à 0,8. Cela signifie que si l&#39;utilisateur définit l&#39;intensité sur 0, en interne 0,1 sera utilisé, si l&#39;interface utilisateur est définie sur 1, 0,8 sera utilisé, et toute valeur entre les deux sera interpolée linéairement. Ce type de fonction est couramment utilisé lorsque [exposez des paramètres](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), mais utilisez des fonctions personnalisées.
 
@@ -51,7 +51,7 @@ Cette fonction peut également être écrite en tant que *lerp(0.1, 0.8, Intensi
 
 ### Fonction avancée
 
-![](../assets/pixel-function_1.png){width="545px"}
+![](function-graphs.resources/pixel-function_1.png){width="545px"}
 
 Cette fonction avancée montre le fonctionnement interne d&#39;un [Processeur de pixels](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destiné à ajuster la teinte d&#39;une entrée de table des couleurs en fonction de l&#39;intensité d&#39;une seconde entrée de masque en niveaux de gris.
 
