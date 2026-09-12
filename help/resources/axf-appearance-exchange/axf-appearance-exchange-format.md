@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Découvrez comment importer et utiliser des ressources de format d’exchange d’apparence AxF dans Substance 3D Designer pour l’importation de matériaux.
 helpx_creative_field: ""
@@ -144,7 +144,7 @@ Cliquez sur le bouton <b>Ajouter un modèle</b> et sélectionnez le type de grap
 Deux types de modèles de graphe de Substance sont disponibles :
 
 Les modèles <b>AxF vers Métallique rugosité</b> et <b>AxF vers Specular Brillance</b> sont des modèles *de conversion* qui vous permettent de mapper les matériaux AxF vers des modèles PBR standard.\
-Ils peuvent ensuite être utilisés avec les nuanceurs vue 3D par défaut et associés à d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
+Ils peuvent ensuite être utilisés avec les nuanceurs vue 3D par défaut et associés à d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
 
 <b>AxF à AxF</b> est un modèle *transparent* qui vous permet de modifier les matériaux AxF en place et d&#39;exporter ces modifications sous forme de nouveaux calques dans les Fichiers AxF existants. Voir Exportation de Fichiers AxF ci-dessous pour en savoir plus.
 

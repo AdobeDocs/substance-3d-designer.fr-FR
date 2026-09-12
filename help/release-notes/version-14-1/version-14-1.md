@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.1 pour en savoir plus sur les outils de disposition des nœuds et les nouveaux nœuds Spline et Tracé.
 helpx_creative_field: ""
