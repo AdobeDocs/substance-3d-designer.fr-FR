@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-12-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 12.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Date de publication : *19 juillet 2022*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/final3.png)
 
 ## Principales fonctionnalités
 
@@ -32,20 +32,20 @@ Date de publication : *19 juillet 2022*
 
 La version 12.2 de Designer est la première à bénéficier de la prise en charge native complète des nouveaux ordinateurs Apple équipés de la puce M1. Bien que Designer puisse s’exécuter techniquement sur les appareils Apple Silicon précédemment, la prise en charge native vous offrira une expérience plus rapide et plus efficace. Comme vous pouvez le voir sur l&#39;image ci-dessous, les calculs sont *jusqu&#39;à deux fois plus rapides* avec cette nouvelle version sur ces ordinateurs.
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
 
 ### Améliorations pour les Graphes Substance models
 
 * <b>Info-bulles sur les nœuds\
-  </b>Il n&#39;est pas toujours possible d&#39;expliquer ce qu&#39;un nœud fait avec une simple icône et un titre. C&#39;est pourquoi nous avons maintenant une info-bulle avec une *description complète du nœud* lorsque vous êtes dans la bibliothèque ou dans la Vue du graphe de données. Il vous aidera à trouver le nœud que vous recherchez ou à mieux comprendre quelles sont ses capacités. ![](../../assets/tootlipnode.png)
+  </b>Il n&#39;est pas toujours possible d&#39;expliquer ce qu&#39;un nœud fait avec une simple icône et un titre. C&#39;est pourquoi nous avons maintenant une info-bulle avec une *description complète du nœud* lorsque vous êtes dans la bibliothèque ou dans la Vue du graphe de données. Il vous aidera à trouver le nœud que vous recherchez ou à mieux comprendre quelles sont ses capacités. ![](version-12-2.resources/tootlipnode.png)
 
 * <b>Raccourcis pour la création de nœuds\
-  </b>Pour accélérer la création de vos nœuds les plus utilisés, vous pouvez désormais définir vos propres raccourcis dans les Préférences, comme pour les autres types de graphes.![](../../assets/shorcuts.png)
+  </b>Pour accélérer la création de vos nœuds les plus utilisés, vous pouvez désormais définir vos propres raccourcis dans les Préférences, comme pour les autres types de graphes.![](version-12-2.resources/shorcuts.png)
 
 * <b>Aperçu du nœud à partir du menu contextuel du nœud\
   </b>Dans notre dernière version, nous avons ajouté la possibilité de prévisualiser un nœud dans la vue 3D grâce à un raccourci du clavier (*MAJ+clic* sur un nœud). Cette fonctionnalité est désormais également disponible dans le *menu contextuel des nœuds* afin de la rendre plus facilement identifiable.
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/previewnode.gif){width="600px"}
 * <b>Rechercher en fonction de la compatibilité des nœuds\
   </b>Lorsque vous recherchez un nœud dans le menu des nœuds (accessible en appuyant sur *barre d&#39;espace* dans la Vue du graphe de données), les nœuds sont désormais correctement filtrés afin d&#39;afficher uniquement ceux qui sont *compatibles avec celui actuellement sélectionné* dans le graphe. Cela vous aide à trouver rapidement le nœud que vous recherchez.
 
@@ -59,7 +59,7 @@ La version 12.2 de Designer est la première à bénéficier de la prise en char
 * <b>Modèle CLO</b>\
   Afin d&#39;améliorer l&#39;interopérabilité avec le logiciel CLO, nous avons ajouté un *nouveau modèle dédié*. Cela ajoutera automatiquement à votre graphe toutes les *métadonnées* requises pour importer correctement votre matériau dans CLO.
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/clo.png){width="600px"}
 
 * <b>Configuration requise pour la plateforme de référence VFX</b>\
   Chaque année, la Plateforme de Référence VFX publie une liste d&#39;outils et de bibliothèques à utiliser dans chaque logiciel pour l&#39;industrie des effets visuels afin de minimiser les incompatibilités entre les logiciels. Comme d&#39;habitude, nous *mettons à jour toutes nos dépendances* afin de respecter toutes ces recommandations.

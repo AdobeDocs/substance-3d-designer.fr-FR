@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 11.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Date de publication : *24 novembre 2021*
 
 ### Nouvelles fonctionnalités de graphe model
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 De nombreuses améliorations ont été apportées au graphe model pour étendre les capacités de modélisation :
 
@@ -41,7 +41,7 @@ De nombreuses améliorations ont été apportées au graphe model pour étendre 
   * Rognage de particule
   * Particules d&#39;instances
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>Nouveaux nœuds de modélisation et de déformation</b>\
   D’autres nœuds ont été ajoutés pour créer des formes plus complexes. Cliquez sur chaque nœud pour en savoir plus :
@@ -59,7 +59,7 @@ De nombreuses améliorations ont été apportées au graphe model pour étendre 
 
 ### Interopérabilité améliorée
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 
@@ -71,24 +71,24 @@ Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 
 ### Divers
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 Diverses améliorations ont été apportées à la qualité de vie :
 
 * **Entrées par rapport aux entrées**\
   Les entrées de graphe définies sur Relative aux entrées hériteront désormais de la taille du nœud connecté au lieu de la taille du graphe parent par défaut. Cela facilite considérablement la gestion des différentes résolutions via des entrées de tailles différentes.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **Nouvelle fenêtre de graphe**\
   La nouvelle fenêtre de graphe a été retravaillée et permet désormais de mieux voir les détails d’un modèle spécifique et de créer un nouveau graphe directement dans un pack existant.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **Fermer tous les packages**\
   Une petite action qui rend moins fastidieux de gérer de nombreux paquets dans l&#39;explorateur. Utilisez **Fichier** > **Fermer tout** pour fermer tous les packs actuellement ouverts.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **Agrandir la vue actuelle**\
   Utilisez la nouvelle icône de barre de titre **icône** ou le raccourci **MAJ+Espace** pour développer une fenêtre en plein écran. Cela peut également être utilisé sur une fenêtre flottante.
@@ -98,16 +98,16 @@ Diverses améliorations ont été apportées à la qualité de vie :
 
 ### Contenu
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour le nœud Rendu PBR :
 
 * <b>Nœuds de Diffusion</b>\
   Les nouveaux nœuds d’UV Couleur de Diffusion, Gris de Diffusion et Diffusion permettent de générer des flous de débordement légers à partir d’un masque d’entrée.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **Nœud de Rendu PBR amélioré**\
   Ce nœud a subi les modifications suivantes :
@@ -130,18 +130,18 @@ Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour 
 * [Modèles de Substance] Amélioration de l’affichage des bases
 * [Modèles de Substance] Conservez la hiérarchie des objets lors de l’exportation d’un Graphe Substance model au format .fbx
 * [Modèles de Substance] Prise en charge de plusieurs matériaux lors de l’exportation FBX/OBJ à partir du Graphe Substance model
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de Particule
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de Transforme générative
-* [Modèles de Substance]&#x200B;[Contenu] Nœud Motif organique
-* [Modèles de Substance]&#x200B;[Contenu] Particules du nœud Instances
-* [Modèles de Substance]&#x200B;[Contenu] Nœud d&#39;élagage de Particule
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de tour
-* [Modèles de Substance]&#x200B;[Contenu] Nœud Shell
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de Projection
-* [Modèles de Substance]&#x200B;[Contenu] Nœud de rognage de courbe
-* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Curve Sampler
-* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Sampler du Maillage
-* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud de Variation
+* [Modèles de Substance][Contenu] Nœud de Particule
+* [Modèles de Substance][Contenu] Nœud de Transforme générative
+* [Modèles de Substance][Contenu] Nœud Motif organique
+* [Modèles de Substance][Contenu] Particules du nœud Instances
+* [Modèles de Substance][Contenu] Nœud d&#39;élagage de Particule
+* [Modèles de Substance][Contenu] Nœud de tour
+* [Modèles de Substance][Contenu] Nœud Shell
+* [Modèles de Substance][Contenu] Nœud de Projection
+* [Modèles de Substance][Contenu] Nœud de rognage de courbe
+* [Modèles de Substance][Contenu] Mettre à jour le nœud Curve Sampler
+* [Modèles de Substance][Contenu] Mettre à jour le nœud Sampler du Maillage
+* [Modèles de Substance][Contenu] Mettre à jour le nœud de Variation
 * [UX] Bouton pour agrandir la vue actuelle
 * [UX] Mettre à jour la fenêtre Nouveau Graphe
 * [UX] Ajouter l&#39;option « Télécharger le lecteur » dans le menu Outils et l&#39;agréger avec « Localiser le lecteur »
@@ -179,7 +179,7 @@ Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour 
 * [UI] Appuyez deux fois sur la touche de tabulation pour naviguer entre les valeurs.
 * [UI] Le zoom avec le glissement de la souris est inversé entre vue 3D et les autres Viewports
 * [UI] Le chargement d’un fichier SBS déjà ouvert à l’aide de la liste « Fichiers récents » déclenche une invite « Package introuvable »
-* [UI]&#x200B;[macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
+* [UI][macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
 * [UI] Les packages ne peuvent pas être enregistrés à la racine d’un lecteur (Windows uniquement)
 * [Graphe] L’option « Afficher automatiquement dans vue 2D » est incohérente dans un cas spécifique.
 * [Graphe] L’option « Ouvrir la référence » est disponible pour les instanciers SBSAR
