@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Découvrez comment importer et utiliser des ressources Scène 3D dans Substance 3D Designer pour l’aperçu et les tests par matériau.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Les formats de fichier Scène 3D suivants sont pris en charge :
 
 Les scènes 3D ne peuvent *être liées* que, ce qui signifie qu’elles restent à leur emplacement sur le disque et sont simplement référencées dans l’application.
 
-Lorsqu&#39;un package avec une ressource Scène 3D est publié en tant qu&#39;actif [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), le maillage *n&#39;est pas incorporé*, mais supprimé.
+Lorsqu&#39;un package avec une ressource Scène 3D est publié en tant qu&#39;actif [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) (SBSAR), le maillage *n&#39;est pas incorporé*, mais supprimé.
 
 ## maps de maillage de Baking
 
