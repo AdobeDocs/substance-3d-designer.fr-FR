@@ -130,18 +130,18 @@ Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour 
 * [Modèles de Substance] Amélioration de l’affichage des bases
 * [Modèles de Substance] Conservez la hiérarchie des objets lors de l’exportation d’un Graphe Substance model au format .fbx
 * [Modèles de Substance] Prise en charge de plusieurs matériaux lors de l’exportation FBX/OBJ à partir du Graphe Substance model
-* [Modèles de Substance][Contenu] Nœud de Particule
-* [Modèles de Substance][Contenu] Nœud de Transforme générative
-* [Modèles de Substance][Contenu] Nœud Motif organique
-* [Modèles de Substance][Contenu] Particules du nœud Instances
-* [Modèles de Substance][Contenu] Nœud d&#39;élagage de Particule
-* [Modèles de Substance][Contenu] Nœud de tour
-* [Modèles de Substance][Contenu] Nœud Shell
-* [Modèles de Substance][Contenu] Nœud de Projection
-* [Modèles de Substance][Contenu] Nœud de rognage de courbe
-* [Modèles de Substance][Contenu] Mettre à jour le nœud Curve Sampler
-* [Modèles de Substance][Contenu] Mettre à jour le nœud Sampler du Maillage
-* [Modèles de Substance][Contenu] Mettre à jour le nœud de Variation
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de Particule
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de Transforme générative
+* [Modèles de Substance]&#x200B;[Contenu] Nœud Motif organique
+* [Modèles de Substance]&#x200B;[Contenu] Particules du nœud Instances
+* [Modèles de Substance]&#x200B;[Contenu] Nœud d&#39;élagage de Particule
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de tour
+* [Modèles de Substance]&#x200B;[Contenu] Nœud Shell
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de Projection
+* [Modèles de Substance]&#x200B;[Contenu] Nœud de rognage de courbe
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Curve Sampler
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud Sampler du Maillage
+* [Modèles de Substance]&#x200B;[Contenu] Mettre à jour le nœud de Variation
 * [UX] Bouton pour agrandir la vue actuelle
 * [UX] Mettre à jour la fenêtre Nouveau Graphe
 * [UX] Ajouter l&#39;option « Télécharger le lecteur » dans le menu Outils et l&#39;agréger avec « Localiser le lecteur »
@@ -179,7 +179,7 @@ Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour 
 * [UI] Appuyez deux fois sur la touche de tabulation pour naviguer entre les valeurs.
 * [UI] Le zoom avec le glissement de la souris est inversé entre vue 3D et les autres Viewports
 * [UI] Le chargement d’un fichier SBS déjà ouvert à l’aide de la liste « Fichiers récents » déclenche une invite « Package introuvable »
-* [UI][macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
+* [UI]&#x200B;[macOS] Disposition d’interface par défaut incorrecte après le démarrage de l’application
 * [UI] Les packages ne peuvent pas être enregistrés à la racine d’un lecteur (Windows uniquement)
 * [Graphe] L’option « Afficher automatiquement dans vue 2D » est incohérente dans un cas spécifique.
 * [Graphe] L’option « Ouvrir la référence » est disponible pour les instanciers SBSAR
