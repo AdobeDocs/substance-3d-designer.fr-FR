@@ -51,7 +51,7 @@ Les modifications peuvent être *annulées individuellement* et toutes les autre
 
 >[!IMPORTANT]
 >
-> Vous pouvez effectuer des peintures *uniquement* sur des *ressources d&#39;image vectorielle[ 8 bits*[nouvelles ou importées](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+> Vous pouvez effectuer des peintures *uniquement* sur des *ressources d&#39;image vectorielle[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)&#x200B; 8 bits*[nouvelles ou importées](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![Boîte de dialogue Nouvelle ressource SVG](vector-editing-tools.resources/2dview-new-vector-image.png "Boîte de dialogue Nouvelle ressource SVG"){width="512px"}
 

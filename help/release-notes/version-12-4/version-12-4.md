@@ -111,7 +111,7 @@ Cette version 12.4 apporte également la prise en charge complète des Graphes S
 * [vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
 * [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur le canal Alpha
 * [Localisation] Des curseurs et des boutons supplémentaires s’affichent dans les propriétés OpenGL de l’environnement.
-* crash [MDL][modèle de Substance] lors de la suppression de nœuds exposés
+* crash [MDL]&#x200B;[modèle de Substance] lors de la suppression de nœuds exposés
 * [Préférences] Le fichier par défaut\_config n’est jamais recréé s’il est supprimé
 * Paramètre de réorganisation de Crash [modèle de Substance] qui n&#39;apparaît pas au niveau de l&#39;instance
 * [API] SDProperty.getDefaultValue() renvoie presque toujours None

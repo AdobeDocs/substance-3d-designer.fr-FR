@@ -134,7 +134,7 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 * [Content] Nouvelle version du nœud Quantize Grayscale
 * [Contenu] Nouveaux Bruits fractaux Voronoi et Voronoi (2D/3D)
 * [Contenu] Seuil : ajout du mode de comparaison « Inférieur » et « Inférieur et égal »
-* [Content][vue 3D] Ajoutez un ajustement de maillage pour afficher les fabric dans les ressources livrées
+* [Content]&#x200B;[vue 3D] Ajoutez un ajustement de maillage pour afficher les fabric dans les ressources livrées
 * [Modèles de Substance] Nouveau nœud Développer les instances de groupe
 * [Modèles de Substance] Nouveau nœud de Fuse
 * [Modèles de Substance] Nouveau nœud Renommer
@@ -176,8 +176,8 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 * [Contenu] Flood Fill : fond perdu de texte dans les boutons de paramètres booléens
 * [Contenu] Plage incorrecte pour le paramètre Angle du premier échantillon de lumière du nœud Plusieurs angles vers Normal
 * [Modèles de Substance] Les propriétés du nœud affichent identifiant au lieu de libellé
-* [Modèles de Substance][Vue 3D] Problème d’actualisation lors de la réouverture d’un projet
-* [Modèles de Substance][3Dview] Problème d’actualisation lors de l’utilisation de l’aperçu structure filaire
+* [Modèles de Substance]&#x200B;[Vue 3D] Problème d’actualisation lors de la réouverture d’un projet
+* [Modèles de Substance]&#x200B;[3Dview] Problème d’actualisation lors de l’utilisation de l’aperçu structure filaire
 * [Paramètres] Crash lors de la suppression d’entrées de graphe en succession rapide dans un cas spécifique
 * [Paramètres] Crash lors de la réinitialisation d&#39;un paramètre d&#39;instance lors de la modification de sa description de référence
 * [Bitmap] La détection UDIM n&#39;est pas déclenchée pour les fichiers bitmap déposés dans le graphe
