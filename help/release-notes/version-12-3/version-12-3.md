@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour de Substance 3D Designer version 12.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Date de publication : *6 octobre 2022*
 
-![](../../assets/largef.png){width="1111px"}
+![](version-12-3.resources/largef.png){width="1111px"}
 
 ## Principales fonctionnalités
 
@@ -33,20 +33,20 @@ Date de publication : *6 octobre 2022*
 Si vous avez l&#39;habitude de créer des graphes, vous voulez être en mesure de faire des sous-graphes (ou des instances de graphe) afin de réutiliser votre travail, de rendre les graphes moins encombrés et plus efficaces.\
 Cela est désormais possible également pour les Graphes Substance models : il vous suffit de faire glisser votre sous-graphe de l’Explorateur vers votre graphe principal pour l’utiliser comme un instancier.
 
-![](../../assets/subgraph.gif){width="600px"}
+![](version-12-3.resources/subgraph.gif){width="600px"}
 
 Nous avons également introduit le concept de nœuds de sortie pour les Graphes Substance models, tels que la scène de sortie. Vous avez désormais la possibilité d’avoir une ou plusieurs sorties dans votre graphe.\
 Chaque sortie correspondra à une épingle de sortie lorsque votre graphe sera instancié dans un autre graphe.
 
-![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-15-31-27.png){width="600px"}
 
 Lorsque vous faites un clic droit sur un instancier, vous pouvez bien sûr accéder à son sous-graphe référencé afin de le visualiser ou de le modifier.
 
-![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-16-28-36.png){width="600px"}
 
 Grâce aux sous-graphes et aux paramètres exposés, vous pouvez créer des actifs complexes et appliquer des variations infinies, comme le montre l’illustration ci-dessous.
 
-![](../../assets/seasons.gif){width="600px"}
+![](version-12-3.resources/seasons.gif){width="600px"}
 
 ### Autres améliorations pour les Graphes Substance models
 
@@ -55,18 +55,18 @@ Grâce aux sous-graphes et aux paramètres exposés, vous pouvez créer des acti
   Avec <b>Visible si</b>, vous pouvez ajouter des conditions à la visibilité des paramètres, en conservant une interface utilisateur propre et fonctionnelle. Ce mécanisme déjà disponible pour les graphes de Substance est maintenant étendu aux Graphes Substance models, en utilisant, bien sûr, la même syntaxe. <b>\
   </b>
 
-  ![](../../assets/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/visibleif.gif){width="600px"}
 
 * <b>Nouveaux nœuds dédiés à l’édition des courbes\
   </b>Cette version apporte de nouveaux nœuds dédiés à l&#39;édition de courbes : la <b>courbe inverse</b> échange les deux extrémités d&#39;une courbe, la <b>subdivision de courbe</b> ajoute plus de vertex sur les segments selon deux méthodes, la <b>courbe de lissage </b> lisse tous les angles sur une courbe 2D et enfin la <b>courbe de décalage</b> gonfle ou dégonfle une courbe 2D, comme indiqué ci-dessous.<b>
 
   </b>
 
-  ![](../../assets/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/curve-offset-4.gif){width="600px"}
 * <b>Nouvelle fenêtre de graphe </b>\
   La fenêtre <b>Nouveau Graphe Substance model</b> est désormais également disponible pour les Graphes Substance models. Vous pouvez ajouter vos propres modèles ou sélectionner un modèle par défaut, puis saisir directement le nom de votre graphe et sélectionner le pack auquel le graphe sera ajouté.
 
-  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/image2022-10-5-15-25-42.png){width="600px"}
 
 ### Panneaux Bienvenue et Nouveautés
 
@@ -76,9 +76,9 @@ Tout d&#39;abord, le panneau <b>Bienvenue</b>, affiché la première fois que vo
 
 Ces deux panneaux sont également accessibles à partir du menu Aide.
 
-![](../../assets/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/image2022-10-3-15-47-28.png)
 
-![](../../assets/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/image2022-10-3-15-47-55.png)
 
 ### Divers
 
@@ -88,7 +88,7 @@ Ces deux panneaux sont également accessibles à partir du menu Aide.
   Dans les versions précédentes, Designer ne pouvait pas gérer correctement le facteur de mise à l’échelle défini dans le système d’exploitation. Comme vous pouvez le voir dans l’illustration ci-dessous, tout est parfaitement géré sur un écran 4K avec une mise à l’échelle de 125 %, toutes les polices et tous les boutons étant affichés à une taille cohérente.\
   Notez que l&#39;option « Désactiver la haute résolution » dans les Préférences a été réinitialisée sur *Faux* dans cette nouvelle version, car cette option n&#39;est plus nécessaire pour avoir une interface utilisable.
 
-  ![](../../assets/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/highdpi-fix.gif){width="600px"}
 
 * **Prise en charge native d’Apple Silicon (M1/M2) pour Steam version**\
   La version 12.2 de Designer a été la première à offrir une prise en charge complète des nouveaux ordinateurs Apple équipés de puces M1 ou M2, mais cette prise en charge était absente de l’édition Steam. Désormais, tous les utilisateurs de Designer peuvent bénéficier d’une expérience plus rapide et plus efficace sur ces ordinateurs.

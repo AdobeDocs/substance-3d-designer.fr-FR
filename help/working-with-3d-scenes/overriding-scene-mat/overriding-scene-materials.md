@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: Remplacez les matériaux existants dans les scènes 3D pour les remplacer par vos propres matériaux de Substance à tester et prévisualiser.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Remplacement des matériaux de scène
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Lorsque vous utilisez des scènes 3D avec des matériaux existants, il est néce
 
 Votre matériau peut être créé à partir de zéro ou une version ajustée du matériau d&#39;une scène [extraite dans un graphe de Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Remplacement d&#39;un matériau de scène, modification et rétablissement de l&#39;état de scène](../../assets/tweakOverriddenMaterial.gif "Remplacement d&#39;un matériau de scène, modification et rétablissement de l&#39;état de scène"){zoomable="yes"}
+![Remplacement d&#39;un matériau de scène, modification et rétablissement de l&#39;état de scène](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Remplacement d&#39;un matériau de scène, modification et rétablissement de l&#39;état de scène"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ L’action « Remplacer le matériau » se trouve à deux endroits :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Remplacer le matériau - Action dans le viewport « vue 3D »](../../assets/overrideMaterialActionViewport.png "Remplacer le matériau - Action dans le viewport « vue 3D »"){zoomable="yes"}
+![Remplacer le matériau - Action dans le viewport « vue 3D »](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Remplacer le matériau - Action dans le viewport « vue 3D »"){zoomable="yes"}
 
 *Action dans le viewport vue 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Remplacer le matériau - Action dans le menu « Matériaux »](../../assets/overrideMaterialActionMaterials.png "Remplacer le matériau - Action dans le menu « Matériaux »"){zoomable="yes"}
+![Remplacer le matériau - Action dans le menu « Matériaux »](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Remplacer le matériau - Action dans le menu « Matériaux »"){zoomable="yes"}
 
 *Action dans le menu Matériaux*
 
@@ -119,21 +119,21 @@ L’action se trouve à trois endroits :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Réinitialiser le matériau à l&#39;état de scène - Action dans le viewport « vue 3D »](../../assets/resetMaterialToSceneStateActionViewport.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le viewport « vue 3D »"){zoomable="yes"}
+![Réinitialiser le matériau à l&#39;état de scène - Action dans le viewport « vue 3D »](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le viewport « vue 3D »"){zoomable="yes"}
 
 *Action dans le viewport vue 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »](../../assets/resetMaterialToSceneStateActionMaterials.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »"){zoomable="yes"}
+![Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le menu « Matériaux »"){zoomable="yes"}
 
 *Action dans le menu Matériaux*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »](../../assets/resetMaterialToSceneStateActionProps.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »"){zoomable="yes"}
+![Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Réinitialiser le matériau à l&#39;état de scène - Action dans le dock « Propriétés »"){zoomable="yes"}
 
 *Action dans les propriétés du matériau*
 
@@ -152,7 +152,7 @@ Ouvrez le menu hamburger de la propriété matériau pour rechercher l’action 
 </td>
 <td style="border: 0;" valign="top">
 
-![Rétablir l’état de scène - Action dans les propriétés du matériau](../../assets/resetPropertyToSceneStateAction.png "Rétablir l’état de scène - Action dans les propriétés du matériau"){zoomable="yes"}
+![Rétablir l’état de scène - Action dans les propriétés du matériau](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Rétablir l’état de scène - Action dans les propriétés du matériau"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ D&#39;autre part, Designer a *sa propre* liste de matériaux dans son menu « Ma
 
 Il s&#39;agit d&#39;un ensemble de données *différent* qui est créé et géré uniquement dans Designer. Ces matériaux sont ensuite *connectés aux copies* qui remplacent les matériaux d&#39;origine de la scène.
 
-![Remplacement de matériaux - Schéma de données](../../assets/overridingMaterialsSchematic.png "Remplacement de matériaux - Schéma de données"){zoomable="yes"}
+![Remplacement de matériaux - Schéma de données](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Remplacement de matériaux - Schéma de données"){zoomable="yes"}
 
 Vous pouvez connecter l’un des matériaux répertoriés dans le menu « Matériaux » aux copies créées par Designer dans la scène de données : cliquez sur RMB sur une copie dans le navigateur de Scènes de données et accédez au sous-menu « Connecter un matériau ».
 
 Le sous-menu répertorie tous les matériaux de la scène et tous les matériaux que vous avez créés manuellement à partir du menu Matériaux.
 
-![Connecter des matériaux](../../assets/connectMaterials.gif "Connecter des matériaux"){zoomable="yes"}
+![Connecter des matériaux](overriding-scene-materials.resources/connectMaterials.gif "Connecter des matériaux"){zoomable="yes"}

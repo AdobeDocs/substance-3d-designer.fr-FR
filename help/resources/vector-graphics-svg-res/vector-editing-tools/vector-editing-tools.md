@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Utilisez les outils d’édition vectorielle pour créer et modifier des graphiques SVG dans Substance 3D Designer afin de bénéficier de textures procédurales.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outils d’édition vectorielle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Les modifications peuvent être *annulées individuellement* et toutes les autre
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -51,9 +51,9 @@ Les modifications peuvent être *annulées individuellement* et toutes les autre
 
 >[!IMPORTANT]
 >
-> Vous pouvez effectuer des peintures *uniquement* sur des *ressources d&#39;image vectorielle[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)&#x200B; 8 bits*[nouvelles ou importées](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Vous pouvez effectuer des peintures *uniquement* sur des *ressources d&#39;image vectorielle[ 8 bits*[nouvelles ou importées](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 
-![Boîte de dialogue Nouvelle ressource SVG](../../../assets/2dview-new-vector-image.png "Boîte de dialogue Nouvelle ressource SVG"){width="512px"}
+![Boîte de dialogue Nouvelle ressource SVG](vector-editing-tools.resources/2dview-new-vector-image.png "Boîte de dialogue Nouvelle ressource SVG"){width="512px"}
 
 ## Activation des outils d’édition vectorielle
 
@@ -87,7 +87,7 @@ Pour optimiser la compatibilité et la fiabilité de Designer et de ses outils d
 Les utilisateurs d&#39;**Adobe Illustrator** peuvent se reporter à l&#39;image jointe pour connaître les *paramètres d&#39;exportation recommandés pour le SVG.*
 
 +++Options d’exportation Adobe Illustrator
-![Options d’exportation Illustrator pour SVG](../../../assets/demo-svg.png "Options d’exportation Illustrator pour SVG")
+![Options d’exportation Illustrator pour SVG](vector-editing-tools.resources/demo-svg.png "Options d’exportation Illustrator pour SVG")
 
 
 
@@ -109,7 +109,7 @@ Deux barres d’outils s’affichent lorsque les outils d’édition vectorielle
 Les raccourcis clavier vous permettent d’accéder rapidement aux outils et sont indiqués ci-dessous entre parenthèses après le nom de l’outil/de la fonction :
 
 +++Choix de couleur
-Les ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **vignettes** *de Choix de couleur* vous permettent de définir une couleur de *remplissage* et de *contour* pour les formes vectorielles. Vous pouvez ouvrir l&#39;**éditeur de couleurs** pour chacune de ces couleurs de l&#39;une des manières suivantes :
+Les ![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) **vignettes** *de Choix de couleur* vous permettent de définir une couleur de *remplissage* et de *contour* pour les formes vectorielles. Vous pouvez ouvrir l&#39;**éditeur de couleurs** pour chacune de ces couleurs de l&#39;une des manières suivantes :
 
 * **Couleur de fond :** cliquez sur la vignette de la couleur de *fond* (en haut) ou double-cliquez sur LMB sur la zone de travail
 
@@ -122,11 +122,11 @@ Si la couleur de *contour* actuelle est *noire*, c&#39;est-à-dire la luminance 
 +++
 
 +++Transformation
-![Outil Transformation](../../../assets/2dview-vectorediting-transformation.png "Outil Transformation"){width="512px"}
+![Outil Transformation](vector-editing-tools.resources/2dview-vectorediting-transformation.png "Outil Transformation"){width="512px"}
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icon-transformation.png) <b>Transformation</b> (<b>V</b>) peut sélectionner des formes, qui sont ensuite incluses dans un gadget de transformation. Cet objet vous permet d&#39;effectuer les actions suivantes :
+L&#39;outil ![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png) <b>Transformation</b> (<b>V</b>) peut sélectionner des formes, qui sont ensuite incluses dans un gadget de transformation. Cet objet vous permet d&#39;effectuer les actions suivantes :
 
 <b>Déplacer</b> : cliquez et maintenez le LMB *à l&#39;intérieur* de l&#39;objet
 
@@ -137,11 +137,11 @@ L&#39;outil ![](../../../assets/2dview-vectorediting-icon-transformation.png) <b
 +++
 
 +++Nœud
-![Outil Nœud](../../../assets/2dview-vectorediting-node.png "Outil Nœud"){width="512px"}
+![Outil Nœud](vector-editing-tools.resources/2dview-vectorediting-node.png "Outil Nœud"){width="512px"}
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Nœud</b> (<b>A</b>) vous permet de sélectionner des vertex individuels (c&#39;est-à-dire des nœuds) de la forme sélectionnée et de modifier sa position et ses poignées, ainsi que d&#39;ajouter et de supprimer des vertex. Une fois qu’une forme est sélectionnée, les actions suivantes peuvent être effectuées :
+L&#39;outil ![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>Nœud</b> (<b>A</b>) vous permet de sélectionner des vertex individuels (c&#39;est-à-dire des nœuds) de la forme sélectionnée et de modifier sa position et ses poignées, ainsi que d&#39;ajouter et de supprimer des vertex. Une fois qu’une forme est sélectionnée, les actions suivantes peuvent être effectuées :
 
 <b>Ajouter un vertex :</b> Ctrl+LMB sur le contour de la forme
 
@@ -160,11 +160,11 @@ L&#39;outil ![](../../../assets/2dview-vectorediting-icon-node.png) <b>Nœud</b>
 +++
 
 +++Forme
-![Outil Forme](../../../assets/2dview-vectorediting-main.png "Outil Forme"){width="512px"}
+![Outil Forme](vector-editing-tools.resources/2dview-vectorediting-main.png "Outil Forme"){width="512px"}
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icons-shape.png) <b>Formes</b> (<b>M</b>) offre un ensemble de formes primitives, utilisant la couleur actuelle de *remplissage*, qui peut être créée et modifiée :
+L&#39;outil ![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png) <b>Formes</b> (<b>M</b>) offre un ensemble de formes primitives, utilisant la couleur actuelle de *remplissage*, qui peut être créée et modifiée :
 
 * <b>Rectangle ;</b>
 
@@ -179,11 +179,11 @@ Pour dessiner une primitive, maintenez <b>LMB</b> n&#39;importe où dans la zone
 +++
 
 +++Stylet
-![Outil Stylet](../../../assets/2dview-vectorediting-pen.png "Outil Stylet"){width="512px"}
+![Outil Stylet](vector-editing-tools.resources/2dview-vectorediting-pen.png "Outil Stylet"){width="512px"}
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icon-pen.png) <b>Stylet</b> (<b>P</b>) vous permet de dessiner une nouvelle forme personnalisée, en utilisant la couleur actuelle de *remplissage*. Deux modes sont disponibles :
+L&#39;outil ![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b>Stylet</b> (<b>P</b>) vous permet de dessiner une nouvelle forme personnalisée, en utilisant la couleur actuelle de *remplissage*. Deux modes sont disponibles :
 
 En mode <b>Tracé </b>, la forme est dessinée *un vertex à la fois*. Les commandes suivantes sont disponibles :
 
@@ -208,17 +208,17 @@ Les vertex sont *automatiquement placés* le long du contour afin que le tracé 
 +++
 
 +++Extrusion
-![Outil Extrusion](../../../assets/2dview-vectorediting-extrude.png "Outil Extrusion"){width="512px"}
+![Outil Extrusion](vector-editing-tools.resources/2dview-vectorediting-extrude.png "Outil Extrusion"){width="512px"}
 
 
 
-L&#39;outil ![](../../../assets/2dview-vectorediting-icon-extrude.png) **Extrusion** (E) *ajoute* une forme de *diamètre défini*, dessinée le long d&#39;un tracé à l&#39;aide du *mode de dessin* sélectionné, et applique le résultat dans la zone de travail en suivant le *mode de fusion* défini dans la barre d&#39;outils Options.
+L&#39;outil ![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **Extrusion** (E) *ajoute* une forme de *diamètre défini*, dessinée le long d&#39;un tracé à l&#39;aide du *mode de dessin* sélectionné, et applique le résultat dans la zone de travail en suivant le *mode de fusion* défini dans la barre d&#39;outils Options.
 
 Les *modes de dessin* suivants sont disponibles :
 
-![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png) **Forme libre** : dessine la forme *directement en faisant glisser* le stylet sur la zone de travail tout en maintenant le LMB enfoncé. La forme est ajoutée ensemble à la fin du contour.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png) **Forme libre** : dessine la forme *directement en faisant glisser* le stylet sur la zone de travail tout en maintenant le LMB enfoncé. La forme est ajoutée ensemble à la fin du contour.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png) **Polygonal** : dessine la forme *une face à la fois* en cliquant sur LMB pour ajouter un angle. La forme est ajoutée ensemble lorsque vous appuyez sur la touche Entrée.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png) **Polygonal** : dessine la forme *une face à la fois* en cliquant sur LMB pour ajouter un angle. La forme est ajoutée ensemble lorsque vous appuyez sur la touche Entrée.
 
 La forme dessinée peut être contrôlée à l’aide des paramètres suivants :
 
@@ -228,19 +228,19 @@ La forme dessinée peut être contrôlée à l’aide des paramètres suivants :
 
 Une fois le dessin terminé, la forme est ajoutée et fusionnée avec la forme actuellement sélectionnée en utilisant l&#39;un des *modes de fusion* disponibles suivants :
 
-![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png) **Aucune fusion** : la forme est dessinée *au-dessus* de la forme sélectionnée en tant que *objet distinct*.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png) **Aucune fusion** : la forme est dessinée *au-dessus* de la forme sélectionnée en tant que *objet distinct*.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-union.png) **Union** : la forme est *ajoutée* à la forme sélectionnée.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png) **Union** : la forme est *ajoutée* à la forme sélectionnée.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png) **Soustraction** : la forme est *découpée* de la forme sélectionnée.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png) **Soustraction** : la forme est *découpée* de la forme sélectionnée.
 
-![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png) **Intersection** : seules les parties *superposées* de la nouvelle forme et de la forme sélectionnée restent.
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png) **Intersection** : seules les parties *superposées* de la nouvelle forme et de la forme sélectionnée restent.
 
 +++
 
 ## Opérations sur les formes
 
-![Opérations de forme](../../../assets/2dview-vectorediting-shape-operations.png "Opérations de forme"){width="512px"}
+![Opérations de forme](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "Opérations de forme"){width="512px"}
 
 En plus des outils répertoriés ci-dessus, un certain nombre d&#39;opérations peuvent être effectuées sur les *formes sélectionnées*, à l&#39;aide du menu contextuel disponible lorsque vous cliquez sur RMB. Ces opérations ont presque toutes un raccourci clavier (entre parenthèses ci-dessous) sont organisées dans les catégories suivantes :
 

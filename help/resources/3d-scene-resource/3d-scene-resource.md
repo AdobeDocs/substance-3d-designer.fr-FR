@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Découvrez comment importer et utiliser des ressources Scène 3D dans Substance 3D Designer pour l’aperçu et les tests par matériau.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressource de scène 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Les formats de fichier Scène 3D suivants sont pris en charge :
 
 Les scènes 3D ne peuvent *être liées* que, ce qui signifie qu’elles restent à leur emplacement sur le disque et sont simplement référencées dans l’application.
 
-Lorsqu&#39;un package avec une ressource Scène 3D est publié en tant qu&#39;actif [Substance 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) (SBSAR), le maillage *n&#39;est pas incorporé*, mais supprimé.
+Lorsqu&#39;un package avec une ressource Scène 3D est publié en tant qu&#39;actif [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), le maillage *n&#39;est pas incorporé*, mais supprimé.
 
 ## maps de maillage de Baking
 
@@ -56,7 +56,7 @@ Lier une Scène 3D à votre package est le seul moyen de [baker des maps de mail
 * Une fois la ressource chargée dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez sur *RMB* et sélectionnez l&#39;<b>option Informations sur le modèle de Baking</b> dans le menu contextuel
 * La boîte de dialogue [Informations sur le modèle Baker](../../bakers/bakers.md) s&#39;affiche pour vous permettre de configurer et d&#39;exécuter des bakes de maps de maillage
 
-![maps de maillage de Baking](../../assets/bake-model-information.gif "maps de maillage de Baking"){width="512px"}
+![maps de maillage de Baking](3d-scene-resource.resources/bake-model-information.gif "maps de maillage de Baking"){width="512px"}
 
 ## Utilisation des vignettes UDIM/UV
 

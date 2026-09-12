@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: Extrayez les propriétés de matériau des scènes 3D pour les utiliser dans les graphes de Substance pour les workflows de création de matériaux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extraction de valeurs et de textures de matériaux
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ Voici quelques opérations qui peuvent se produire lorsque vous utilisez cette a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Créer un graphe à partir des entrées de texture - Action dans le viewport « vue 3D »](../../assets/createGraphFromTexturesActionViewport.png "Créer un graphe à partir des entrées de texture - Action dans le viewport « vue 3D »"){zoomable="yes"}
+![Créer un graphe à partir des entrées de texture - Action dans le viewport « vue 3D »](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Créer un graphe à partir des entrées de texture - Action dans le viewport « vue 3D »"){zoomable="yes"}
 
 *Action dans le viewport vue 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Créer un graphe à partir des entrées de texture - Action dans le menu « Matériaux »](../../assets/createGraphFromTexturesActionMaterials.png "Créer un graphe à partir des entrées de texture - Action dans le menu « Matériaux »"){zoomable="yes"}
+![Créer un graphe à partir des entrées de texture - Action dans le menu « Matériaux »](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionMaterials.png "Créer un graphe à partir des entrées de texture - Action dans le menu « Matériaux »"){zoomable="yes"}
 
 *Action dans le menu Matériaux*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Créer un graphe à partir des entrées de texture - Action dans le dock « Propriétés »](../../assets/createGraphFromTexturesActionProps.png "Créer un graphe à partir des entrées de texture - Action dans le dock « Propriétés »"){zoomable="yes"}
+![Créer un graphe à partir des entrées de texture - Action dans le dock « Propriétés »](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionProps.png "Créer un graphe à partir des entrées de texture - Action dans le dock « Propriétés »"){zoomable="yes"}
 
 *Action dans le dock des propriétés*
 
@@ -80,12 +80,12 @@ Voici quelques opérations qui peuvent se produire lorsque vous utilisez cette a
 </tr>
 </table>
 
-![Résultat de la création de graphe à partir de textures de matériau](../../assets/createGraphFromTexturesResult.png "Résultat de la création de graphe à partir de textures de matériau"){zoomable="yes"}
+![Résultat de la création de graphe à partir de textures de matériau](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "Résultat de la création de graphe à partir de textures de matériau"){zoomable="yes"}
 
 *Résultat de la création du graphe à partir des textures de matériau*
 
 +++Démonstration
-![Créer un graphe à partir d&#39;entrées de texture - Démonstration](../../assets/createGraphFromTextures.gif "Créer un graphe à partir d&#39;entrées de texture - Démonstration"){zoomable="yes"}
+![Créer un graphe à partir d&#39;entrées de texture - Démonstration](extracting-materials-values-and-textures.resources/createGraphFromTextures.gif "Créer un graphe à partir d&#39;entrées de texture - Démonstration"){zoomable="yes"}
 
 
 
@@ -116,14 +116,14 @@ Par exemple : l’extraction d’une texture pour la propriété « Base color �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraire la texture vers le graphe - Action dans le dock des propriétés](../../assets/extractTextureAction.png "Extraire la texture vers le graphe - Action dans le dock des propriétés"){zoomable="yes"}
+![Extraire la texture vers le graphe - Action dans le dock des propriétés](extracting-materials-values-and-textures.resources/extractTextureAction.png "Extraire la texture vers le graphe - Action dans le dock des propriétés"){zoomable="yes"}
 
 Action pour la propriété de matériau dans le dock Propriétés
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraire la texture vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »](../../assets/extractTextureSelectGraph.png "Extraire la texture vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »"){zoomable="yes"}
+![Extraire la texture vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »](extracting-materials-values-and-textures.resources/extractTextureSelectGraph.png "Extraire la texture vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »"){zoomable="yes"}
 
 Boîte de dialogue Sélectionner le graphe de destination
 
@@ -136,12 +136,12 @@ Boîte de dialogue Sélectionner le graphe de destination
 </tr>
 </table>
 
-![Résultat de l&#39;extraction de texture](../../assets/extractTextureResult.png "Résultat de l&#39;extraction de texture"){zoomable="yes"}
+![Résultat de l&#39;extraction de texture](extracting-materials-values-and-textures.resources/extractTextureResult.png "Résultat de l&#39;extraction de texture"){zoomable="yes"}
 
 Résultat de l&#39;extraction de texture
 
 +++Démonstration
-![Extraire la texture vers le graphe - Démonstration](../../assets/extractTextureToGraph.gif "Extraire la texture vers le graphe - Démonstration"){zoomable="yes"}
+![Extraire la texture vers le graphe - Démonstration](extracting-materials-values-and-textures.resources/extractTextureToGraph.gif "Extraire la texture vers le graphe - Démonstration"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ Par exemple : l’extraction d’une valeur pour la propriété « Anisotropy le
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extraire la valeur vers le graphe - Action dans le dock des propriétés](../../assets/extractValueAction.png "Extraire la valeur vers le graphe - Action dans le dock des propriétés"){zoomable="yes"}
+![Extraire la valeur vers le graphe - Action dans le dock des propriétés](extracting-materials-values-and-textures.resources/extractValueAction.png "Extraire la valeur vers le graphe - Action dans le dock des propriétés"){zoomable="yes"}
 
 Action pour la propriété de matériau dans le dock Propriétés
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraire la valeur vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »](../../assets/extractValueSelectGraph.png "Extraire la valeur vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »"){zoomable="yes"}
+![Extraire la valeur vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »](extracting-materials-values-and-textures.resources/extractValueSelectGraph.png "Extraire la valeur vers le graphe - boîte de dialogue « Sélectionner le graphe de destination »"){zoomable="yes"}
 
 Boîte de dialogue Sélectionner le graphe de destination
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extraire la valeur vers le graphe - Nœud constant dans la fonction du nœud de Processeur de valeurs](../../assets/extractValueResult2.png "Extraire la valeur vers le graphe - Nœud constant dans la fonction du nœud de Processeur de valeurs"){zoomable="yes"}
+![Extraire la valeur vers le graphe - Nœud constant dans la fonction du nœud de Processeur de valeurs](extracting-materials-values-and-textures.resources/extractValueResult2.png "Extraire la valeur vers le graphe - Nœud constant dans la fonction du nœud de Processeur de valeurs"){zoomable="yes"}
 
 Nœud constant dans la fonction du nœud de Processeur de valeurs
 
@@ -192,12 +192,12 @@ Nœud constant dans la fonction du nœud de Processeur de valeurs
 </tr>
 </table>
 
-![Résultat de l&#39;extraction de valeur](../../assets/extractValueResult.png "Résultat de l&#39;extraction de valeur"){zoomable="yes"}
+![Résultat de l&#39;extraction de valeur](extracting-materials-values-and-textures.resources/extractValueResult.png "Résultat de l&#39;extraction de valeur"){zoomable="yes"}
 
 Résultat de l’extraction de valeur
 
 +++Démonstration
-![Extraire la valeur vers le graphe - Démonstration](../../assets/extractValueToGraph.gif "Extraire la valeur vers le graphe - Démonstration"){zoomable="yes"}
+![Extraire la valeur vers le graphe - Démonstration](extracting-materials-values-and-textures.resources/extractValueToGraph.gif "Extraire la valeur vers le graphe - Démonstration"){zoomable="yes"}
 
 
 
