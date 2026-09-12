@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ressource d’images vectorielles (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ En général, ce qui suit est vrai :
 * Le contour est pris en charge, mais ne donne qu’un contour d’une largeur de 1 pixel et le style du contour est ignoré ;
 * Les styles de ligne en pointillés vont définitivement rompre ;
 * Le texte doit être converti en tracés/contour à rendre ;
-* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) ne sont pas pris en charge ;
+* [Les chemins composés](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) ne sont pas pris en charge ;
 * Les fonctionnalités avancées telles que les dégradés ne sont pas prises en charge ;
 * Les éléments de style pour les propriétés CSS ne sont pas pris en charge.
 
@@ -87,7 +87,7 @@ L’image de droite présente les options d’exportation recommandées. Cliquez
 > Les plans de travail peuvent affecter le résultat du fichier de SVG généré. Certains modèles de fichiers Illustrator présentent plusieurs plans de travail.\
 > Essayez d’en avoir un seul, correctement recadré, et de le faire sélectionner dans la fenêtre Plan de travail lors de l’enregistrement en tant que SVG.
 
-![Options d’exportation Illustrator SVG](../../assets/svg-export-options-ai.jpg "Options d’exportation Illustrator SVG"){width="512px"}
+![Options d’exportation Illustrator SVG](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Options d’exportation Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

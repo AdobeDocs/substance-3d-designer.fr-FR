@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problèmes de Baking
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Cette page répertorie les problèmes techniques liés aux [textures de baking](
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b> ![(error)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](baking-issues.resources/error.svg) Problème</b>
 
 Lorsque l’option Correspondance est définie sur Par nom de maillage, la correspondance ne semble pas être appliquée ou n’est pas cohérente sur tous les objets des scènes.
 
-<b> ![(tick)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](baking-issues.resources/check.svg) Étapes recommandées</b>
 
 Dans les versions 14.1 et antérieures de Designer, les objets en mode low poly et high poly étaient mis en correspondance à l&#39;aide du nom de leurs *objets parents*, c&#39;est-à-dire, dans la plupart des cas, leur transforme parent.
 
@@ -45,7 +45,7 @@ Depuis Designer 15.0, le nom des objets *géométrie* est utilisé directement.
 </td>
 <td style="border: 0;" valign="top">
 
-![Objet Géométrie et son parent dans l&#39;arbre de scène](../../assets/sceneTree_objectsName.png "Objet Géométrie et son parent dans l&#39;arbre de scène"){zoomable="yes"}
+![Objet Géométrie et son parent dans l&#39;arbre de scène](baking-issues.resources/sceneTree_objectsName.png "Objet Géométrie et son parent dans l&#39;arbre de scène"){zoomable="yes"}
 
 </td>
 </tr>

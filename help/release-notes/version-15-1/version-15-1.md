@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La Substance Designer 15.1 offre une fenêtre de création de graphe entièremen
 
 *Date de publication : 11 décembre 2025*
 
-![Bannière Designer 15.1](../../assets/bannerweb.png)
+![Bannière Designer 15.1](version-15-1.resources/bannerweb.png)
 
 ## Améliorer la création de graphes
 
@@ -36,13 +36,13 @@ Bien que l’interface principale ait été mise à niveau, les utilisateurs con
 
 [En savoir plus](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![reconcevoir la nouvelle fenêtre de graphe](../../assets/newgraph.png){zoomable="yes"}
+![reconcevoir la nouvelle fenêtre de graphe](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## Échantillons incorporés
 
 Avec le lancement de notre nouvelle fenêtre de création de graphes, nous avons ajouté une variété de [<b>matériaux d&#39;exemple</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directement dans le logiciel. Cette amélioration fait suite à votre demande d&#39;un meilleur accès aux ressources d&#39;apprentissage.
 
-![Fenêtre de création d&#39;un nouveau graphe pour les échantillons](../../assets/GraphSample.png){zoomable="yes"}
+![Fenêtre de création d&#39;un nouveau graphe pour les échantillons](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 Pour répondre à ce besoin, nous avons inclus des échantillons de matériau tels que des tissus (y compris le cuir et le satin), le bois, le métal, le plastique, la céramique et plus encore. Ces exemples ont pour but de vous aider à démarrer vos projets en toute simplicité et à vous familiariser avec les principaux nœuds de la famille disponibles dans Substance 3D Designer
 
@@ -54,7 +54,7 @@ Parallèlement à ces matériaux fondamentaux, nous avons également fourni des 
 
 [En savoir plus](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![échantillon de bois dans substance designer](../../assets/samplegraph.png){zoomable="yes"}
+![échantillon de bois dans substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## Nouveaux bruits
 
@@ -70,7 +70,7 @@ Consultez la liste complète des bruits mis à jour dans les [notes de mise à j
 
 Exemples : [Cellules 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuages 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Rayures directionnelles](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [bruit d&#39;humidité 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![bruit de désordre directionnel](../../assets/directionaldisorder.gif){zoomable="yes"}
+![bruit de désordre directionnel](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## Hiérarchie dans le menu des nœuds
 
@@ -82,12 +82,12 @@ Le grand nombre de nœuds disponibles peut rendre difficile la recherche rapide 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![recherche de nœud avec catégorie 1](../../assets/search1-2.png){zoomable="yes"}
+![recherche de nœud avec catégorie 1](version-15-1.resources/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![recherche de nœud avec catégorie 2](../../assets/search2.png){zoomable="yes"}
+![recherche de nœud avec catégorie 2](version-15-1.resources/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Jouez avec l’image ci-dessous pour voir la différence avant et après la déf
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Avant</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="Avec la sortie par défaut, les vignettes sont toujours pertinentes.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="Avec la sortie par défaut, les vignettes sont toujours pertinentes.">
       <br><i>Après</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Par exemple, la détection de l’absence d’une variable vous permet de fourni
 
 [En savoir plus](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Nœud défini](../../assets/isdefined.png){zoomable="yes"}
+![Nœud défini](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## Notes de mise à jour
 

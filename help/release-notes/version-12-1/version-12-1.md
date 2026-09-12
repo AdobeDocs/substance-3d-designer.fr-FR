@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Date de publication : *26 avril 2022*
 
 ### Nouveau contenu pour les graphes de matériau de Substance
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
 Beaucoup de nœuds ont été ajoutés dans cette version, vous y trouverez de nouveaux motifs, de nouveaux bruits, de nouveaux filtres, ...
 
@@ -38,36 +38,36 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 
   * Nous avons ajouté un nouveau nœud <b>Mosaïque aléatoire 2</b> pour générer des mosaïques adjacentes de tailles et de rapports aléatoires, ce qui est très utile pour créer rapidement des grilles totalement irrégulières avec des coins et des biseaux inclinés et arrondis.
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
   * Nouveau motif de <b>Triangle Grid</b> pour générer une grille composée de triangles. Nous l&#39;utilisons dans le matériau ci-dessous pour simuler facilement et parfaitement le grain du cuir. Ce générateur représente une surface de vertex dans l’espace 3D et peut être utilisé pour créer divers styles polygonaux.
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **Nouveaux Bruits**
 
   * Afin de vous donner plus de variété, un ensemble de <b>15 nouvelles cartes d&#39;Usure/salissures</b> (béton, fuites, éclaboussures sales, ...) a été ajouté à la bibliothèque.
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
   * Vous trouverez également de <b>nouveaux Bruits 2D et 3D</b>, tels que Voronoi (2D et 3D), Voronoi Fractal (2D et 3D), 3D Ridged Fractal et une mise à jour du Bruit Perlin 3D actuel (ajout de répétition et d’options absolues).\
     Ces bruits sont tous cartographiés dans l&#39;espace 3D et offrent plusieurs styles, ce qui permet une plus grande variété et un contrôle qui vous donnera beaucoup de choix pour créer la carte parfaite pour votre matériau, comme la mer et les panneaux de science-fiction matériaux ci-dessous.
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
   * Collection de <b>nœuds de Texture 3D</b> (position, SDF, décalage) et de <b>nœuds de rendu 3D </b> (surface ou volume) permettant de créer et de rendre des textures 3D, qui sont un atlas des tranches d’un modèle 3D.
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **Nouveaux filtres**
 
   * Avec le nœud <b>Recadrage automatique</b>, vous pouvez placer une forme au *centre* de l&#39;image sans être redimensionnée, ou la redimensionner pour l&#39;adapter à l&#39;espace. Par exemple, votre forme peut être librement modifiée tout en conservant une position et une taille cohérentes lorsqu’elle est dispersée.
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
   * Avec le nœud <b> Extend Shape</b>, vous pourrez étirer une section d&#39;une forme dans une direction et une distance personnalisées.
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * Et avec le nœud <b>Rotation non uniforme</b>, vous pouvez faire pivoter une entrée en fonction d&#39;un mappage donné.
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **Et aussi...**
 
   * Des fonctions d&#39;accélération (graphe de fonction) très utiles pour piloter une valeur de manière non linéaire.
@@ -89,19 +89,19 @@ Jetez un œil aux pages de nœuds liées ci-dessous pour des exemples de l&#39;a
 * <b>Envoyer vers Stager\
   </b>Vous pouvez désormais envoyer votre matériau de Substance à Stager en un clic, comme cela était déjà possible avec Sampler et Painter. Grâce à cette fonctionnalité, plus besoin de publier en tant que SBSAR et de charger des fichiers individuels (nécessite Stager version 1.2.0 avec le nouveau gestionnaire de matériau)
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### Divers
 
 * Si vous travaillez sur des tissus, vous pouvez désormais afficher un maillage dédié dans la vue 3D afin de mieux voir comment votre matériau est rendu sur une forme drapée. Ouvrez le menu <b>Scène</b> dans le panneau Vue 3D et sélectionnez l&#39;option <b>Tissu</b> pour afficher ce modèle.
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
 * Nous avons également ajouté de nouveaux nœuds de gestion des scènes pour les Graphes Substance models. Ces nœuds vous permettent de renommer, redéfinir la parenté, fusionner ou développer vos éléments de scène de données afin d&#39;organiser votre hiérarchie de scène de données. Il existe également un nouveau nœud pour définir le pivot d&#39;un ou plusieurs éléments d&#39;une scène.
 
 * Lorsque vous travaillez sur des projets dans Designer, vous pouvez rencontrer des avertissements et des messages d’erreur, qui vous informent d’un problème dans le projet. Dans cette version, nous <b>améliorons le système de gestion des erreurs</b> afin de faire apparaître toutes les erreurs et tous les avertissements dans l&#39;Explorateur : tout est répertorié au même endroit et il est donc plus facile de vérifier si votre projet contient des problèmes.
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## Notes de mise à jour
 

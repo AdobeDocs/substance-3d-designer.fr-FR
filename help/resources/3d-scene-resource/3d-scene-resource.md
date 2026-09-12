@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ressource de scène 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Lier une Scène 3D à votre package est le seul moyen de [baker des maps de mail
 * Une fois la ressource chargée dans l&#39;[Explorateur](../../interface/the-explorer-window/the-explorer-window.md), cliquez sur *RMB* et sélectionnez l&#39;<b>option Informations sur le modèle de Baking</b> dans le menu contextuel
 * La boîte de dialogue [Informations sur le modèle Baker](../../bakers/bakers.md) s&#39;affiche pour vous permettre de configurer et d&#39;exécuter des bakes de maps de maillage
 
-![maps de maillage de Baking](../../assets/bake-model-information.gif "maps de maillage de Baking"){width="512px"}
+![maps de maillage de Baking](3d-scene-resource.resources/bake-model-information.gif "maps de maillage de Baking"){width="512px"}
 
 ## Utilisation des vignettes UDIM/UV
 

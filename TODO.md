@@ -1,8 +1,8 @@
 ---
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 # TODO
@@ -19,10 +19,10 @@ ht-degree: 11%
 * Exemples dans la page contextuelle Documentation
 * Glossaire :
   * HDR
-  * Métallique / Métallique
+  * Métallurgie / Métallique
   * HDR
   * Spéculaire
-  * table des Heights
+  * Map height
   * Opacité
   * Frustum
   * Repère tangent
@@ -33,9 +33,8 @@ ht-degree: 11%
 
 ## Correctifs
 
-* Liens et formatage rompus dans le [nœud de sortie](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Corrigez le lien du 1er exemple d&#39;image dans les pages de nœuds (par ex. nouveaux bruits)
-* Élément « Entier négatif » manquant et liens rompus dans [parameters-not-working-as-Expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
+* Élément « entier négatif » manquant et liens rompus dans [parameters-not-working-as-Expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## Enquête
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problèmes techniques
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Partagez une <b>adresse e-mail valide</b> afin que nous puissions vous contacter
 </td>
 <td style="border: 0;" valign="top">
 
-![Boîte de dialogue de rapport de Crash](../assets/crash-reporter-2.png "Boîte de dialogue de rapport de Crash"){zoomable="yes"}
+![Boîte de dialogue de rapport de Crash](technical-issues.resources/crash-reporter-2.png "Boîte de dialogue de rapport de Crash"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 
@@ -91,7 +91,7 @@ Vous pouvez nous informer du problème dans le champ Description afin que nous p
 </td>
 <td style="border: 0;" valign="top">
 
-![Boîte de dialogue de rapport de bogue](../assets/bug-reporter.png "Boîte de dialogue de rapport de bogue"){zoomable="yes"}
+![Boîte de dialogue de rapport de bogue](technical-issues.resources/bug-reporter.png "Boîte de dialogue de rapport de bogue"){zoomable="yes"}
 
 *Cliquer pour agrandir*
 

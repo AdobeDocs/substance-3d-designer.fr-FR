@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -30,49 +30,49 @@ Date de publication : *31 janvier 2023*
 
 Lorsque vous modifiez votre graphe, vous devez parfois expérimenter plusieurs possibilités, et brancher / débrancher divers nœuds jusqu&#39;au moment où vous obtenez le résultat que vous voulez. Enfin, certains nœuds de votre graphe ne sont pas connectés à une sortie et n’ont donc aucun impact sur le résultat final. Ce nouvel outil vous permettra de détecter et de supprimer automatiquement ces nœuds afin de nettoyer vos graphes avant de les finaliser. L&#39;outil de nettoyage est également disponible en option dans les fonctions de paramètres, et peut être lancé sur le graphe courant via le bouton dédié dans la barre d&#39;outils de Vue du graphe, ou sur une sélection de graphes à partir de la vue Explorateur.
 
-![](../../assets/final-clean.gif){width="640px"}
+![](version-12-4.resources/final-clean.gif){width="640px"}
 
 ### Saisir des formules dans les champs de paramètres
 
 Plus besoin d&#39;utiliser une calculatrice ou de calculer dans votre tête lorsque vous voulez entrer des valeurs de paramètres spécifiques. Vous pouvez désormais saisir directement des formules de base telles que les additions, les divisions, les multiplications ou les soustractions lors de la définition d&#39;une valeur numérique pour un paramètre dans les Propriétés et à d&#39;autres endroits dans l&#39;application.
 
-![](../../assets/final-formula.gif){width="640px"}
+![](version-12-4.resources/final-formula.gif){width="640px"}
 
 ### Boutons d’accès rapide dans la vue 3D
 
 Nous avons ajouté une barre d&#39;outils supplémentaire dans la [vue 3D](../../interface/3d-view/3d-view.md) correspondant à toutes les options disponibles dans le menu [Affichage](../../interface/3d-view/3d-view.md), pour un accès rapide à toutes ces options (par exemple, Structure filaire, Grille, Cadre de sélection, etc.) lorsque le bouton bascule. Nous avons également ajouté un bouton pour afficher/masquer la map d&#39;environnement.
 
-![](../../assets/final-3dview.gif){width="640px"}
+![](version-12-4.resources/final-3dview.gif){width="640px"}
 
 ### Bouton permettant de générer une valeur de départ aléatoire
 
 Vous pouvez désormais créer rapidement différentes variations à l’aide d’un nouveau bouton pour générer la valeur de départ aléatoire de votre graphe, au lieu de déplacer un curseur.
 
-![](../../assets/final-seed.gif){width="640px"}
+![](version-12-4.resources/final-seed.gif){width="640px"}
 
 ### Verrouillage du widget Taille de sortie
 
 Vous pouvez désormais verrouiller la largeur et l’height de la taille de sortie afin de vous assurer de conserver une taille carrée et d’éviter de manipuler les deux valeurs à chaque mise à jour.
 
-![](../../assets/final-lock.gif){width="640px"}
+![](version-12-4.resources/final-lock.gif){width="640px"}
 
 ### Transformer la saisie de l’image sur Couleur/Niveaux de gris
 
 Basculez rapidement entre une [couleur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et une [échelle de gris d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) via le menu contextuel du nœud.
 
-![](../../assets/final-switch.gif){width="640px"}
+![](version-12-4.resources/final-switch.gif){width="640px"}
 
 ### Sélectionner l’épingle sélectionnée lors de l’affichage de l’Éditeur de dégradé
 
 Dans le panneau des propriétés, si vous cliquez sur une épingle pour modifier un dégradé, vous allez maintenant sélectionner automatiquement l&#39;épingle correspondante dans l&#39;[Éditeur de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) affiché.
 
-![](../../assets/final-gradient.gif){width="640px"}
+![](version-12-4.resources/final-gradient.gif){width="640px"}
 
 ### Sélectionner les nœuds en aval
 
 Nouvelle entrée dans le [menu contextuel des nœuds](../../interface/the-graph-view/the-graph-view.md) pour sélectionner tous les nœuds connectés à la sortie du ou des nœuds sélectionnés, directement ou indirectement. Vous devez donc sélectionner tous les nœuds affectés par votre nœud. Utile pour supprimer une partie de votre graphe ou retravailler la disposition du graphe.
 
-![](../../assets/final-downstream.gif){width="640px"}
+![](version-12-4.resources/final-downstream.gif){width="640px"}
 
 ## Mises à jour de l’API Python
 

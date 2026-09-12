@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problèmes de vue 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Cette page répertorie les problèmes techniques liés à la [vue 3D](../../inte
 
 ## Basse performance : le GPU discret n’est pas utilisé
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Substance 3D Designer n&#39;utilise pas le GPU *discret* (<b>dGPU</b>) du système et utilise le GPU *intégré* (<b>iGPU</b>) à la place. Cela entraîne de faibles performances lors du rendu des graphes et/ou de la [vue 3D](../../interface/3d-view/3d-view.md).
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Les systèmes avec graphiques commutables peuvent *forcer le dGPU* qui doit être utilisé pour une *application spécifique* dans un logiciel dédié, selon le fabricant du GPU.
 
@@ -47,11 +47,11 @@ Par exemple, les utilisateurs disposant d&#39;un <b>dGPU Nvidia</b> peuvent effe
 
 ## L’objet 3D est plat
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Un objet 3D qui présentait des volumes détaillés dans une session devient plat dans la session suivante, mais le graphe n’a pas changé et la Map height contient les mêmes données.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 L&#39;effet de déformation d&#39;un objet 3D selon une Map height est effectué à l&#39;aide d&#39;une technique appelée **displacement de Tessellation**. Cette technique comporte deux étapes:
 
@@ -75,11 +75,11 @@ Cette valeur peut être modifiée de l’une des manières suivantes :
 
 ## La vue 3D est entièrement noire
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Dans les versions 15.0.0 et ultérieures, le viewport de la vue 3D est noir et plat. Je vois des incrustations de texte (par exemple, des échantillons et le temps de rendu), mais la Scène 3D n’est pas visible.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Versions 15.1 et ultérieures
 
@@ -113,11 +113,11 @@ Désormais, toutes les nouvelles vues 3D utilisent le moteur de rendu OpenGL par
 
 ## Le message « Moteur de rendu non pris en charge » s’affiche
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Dans les versions 15.0.0 et ultérieures, le message « Rendu non pris en charge » s’affiche dans le coin inférieur droit du viewport lors de l’utilisation des nouveaux rendus 3D (Pixellisation, Tracé GPU). La Scène 3D n&#39;est pas visible.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) a introduit nos nouveaux [rendus 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) internes, qui utilisent des technologies modernes et ne sont donc pas pris en charge par les GPU plus anciens.
 
@@ -144,7 +144,7 @@ Vous pouvez rechercher et ajuster cette option en procédant comme suit :
 
 ## L’objet 3D a l’air entièrement lisse
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Après avoir travaillé sur les données envoyées à l&#39;**Height** [sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), l&#39;objet semble avoir un certain volume, mais *semble tout à fait fluide*, comme si les informations d&#39;height étaient ignorées dans l&#39;ombrage.
 
@@ -152,7 +152,7 @@ Après avoir travaillé sur les données envoyées à l&#39;**Height** [sortie](
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Assurez-vous que les données d&#39;height sont *converties en normales* qui sont connectées à la **sortie normale** [sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
@@ -163,7 +163,7 @@ La solution est assez simple : connectez le dernier nœud du flux menant à la s
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ La solution est assez simple : connectez le dernier nœud du flux menant à la s
 
 ## Le rendu est flou/pixellisé
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 L&#39;image rendue semble floue ou pixellisée lorsque le système utilise la *mise à l&#39;échelle de l&#39;affichage*.
 
@@ -179,7 +179,7 @@ L&#39;image rendue semble floue ou pixellisée lorsque le système utilise la *m
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Par défaut, Designer utilise la résolution d&#39;affichage *mise à l&#39;échelle* pour définir la résolution de rendu de la [vue 3D](../../interface/3d-view/3d-view.md). Vous pouvez modifier ce paramètre afin que la résolution d&#39;affichage *native* soit utilisée à la place pour un rendu précis.
 
@@ -188,7 +188,7 @@ Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
 
 </td>
 </tr>
@@ -196,11 +196,11 @@ Ouvrez le menu **Modifier** et sélectionnez l&#39;option **Préférences...**. 
 
 ## Je ne trouve pas la propriété « facteur de Tessellation »
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Après la mise à niveau de Designer vers la version 15.0.0, je ne trouve plus le paramètre « Tessellation factor » dans les propriétés du matériau où il se trouvait auparavant.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Lors de l’utilisation des nouveaux systèmes de rendu (Pixellisation et Pathtracer GPU), le « facteur de Tessellation » se trouve dans les propriétés de ces systèmes de rendu. Dans vue 3D, accédez à <b>Moteur de rendu > Modifier les paramètres</b>. La propriété sera répertoriée dans le dock Propriétés.
 
@@ -214,11 +214,11 @@ Lors de l’utilisation des nouveaux systèmes de rendu (Pixellisation et Pathtr
 
 ## Les objets 3D ne semblent pas corrects : leur ombrage ne convient pas à l’éclairage
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
-L&#39;ombrage des objets repose sur leurs vecteurs normaux, de tangente et de binormal. Leurs coordonnées utilisent la plage [-1, 1], tandis que les maps normal utilisent la plage [0, 1] dans la plupart des cas. Pour adapter les valeurs de l&#39;une à l&#39;autre, un <b>biais et une échelle</b> doivent être appliqués : value\*scale+bias.
+L&#39;ombrage des objets repose sur leurs vecteurs normaux, de tangente et de binormal. Leurs coordonnées utilisent la plage `[-1, 1]`, tandis que les maps normal utilisent la plage `[0, 1]` dans la plupart des cas. Pour adapter les valeurs de l&#39;une à l&#39;autre, un <b>biais et une échelle</b> doivent être appliqués : `value * scale + bias`.
 
-Par exemple, une échelle de 2 et un biais de -1 adaptent la valeur x de [0, 1] à [-1, 1], donc : x\*2-1.
+Par exemple, une échelle de 2 et un biais de -1 adaptent la valeur x de `[0, 1]` à `[-1, 1]` de sorte que : `x * 2 - 1`.
 
 Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont spécifiés par un Maillage 3D. Si ces informations sont manquantes, un avertissement s&#39;affiche dans la console lorsque [l&#39;un de ses matériaux](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) est remplacé :
 
@@ -227,7 +227,7 @@ Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont sp
 ```
 
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Pour les scènes exportées aux formats USD il y a un certain temps : réexportez la scène en utilisant une version récente d’USD, qui comprendra les données nécessaires. Faites attention aux propriétés liées à l&#39;échelle normale et au biais s&#39;il y en a, qui dépendra du logiciel utilisé pour exporter la scène.
 
@@ -235,11 +235,11 @@ Lorsque [remplacez un matériau](../../working-with-3d-scenes/overriding-scene-m
 
 ## Crash au démarrage de vue 3D
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](3d-view-issues.resources/error.svg) Problème**
 
 Designer effectue des crashs au moment du démarrage de vue 3D, lors de la création d’un projet, du chargement d’un projet ou du démarrage manuel d’une vue 3D.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](3d-view-issues.resources/check.svg) Étapes recommandées**
 
 Tout d&#39;abord, assurez-vous que votre système est conforme à la [configuration requise](../../getting-started/system-requirements/system-requirements.md) de Designer.
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Entrée
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -46,51 +46,6 @@ Contrairement aux [nœuds de sortie](../../../../compositing-graphs/nodes-refere
 
 Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## PARAMÈTRES
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ATTRIBUTS
-
-</td>
-<td style="border: 0;" valign="top">
-
-### héritage
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ATTRIBUTS D’INTÉGRATION
-
-</td>
-</tr>
-</table>
-
 ## Paramètres
 
 Par défaut, la couleur d’entrée ou les niveaux de gris renvoient du noir si aucun élément n’est connecté. Vous pouvez soit définir une valeur par défaut différente, soit faire glisser une [ressource bitmap](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) vers le Noeud d&#39;entrée de votre graphe pour prévisualiser ces données dans l&#39;emplacement. Cela ne fonctionne que pour les entrées Couleur et Niveaux de gris. La valeur par défaut est persistante lorsqu’elle est utilisée dans d’autres contextes, le bitmap d’aperçu est ignoré partout ailleurs.
@@ -116,21 +71,21 @@ Si vous voulez le voir avec les sorties d&#39;un autre Graphe, vous devrez soit 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 Lorsque plusieurs entrées sont présentes, vous devez vous intéresser à la façon dont le graphe [héritera de ses paramètres de base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) à partir de ces entrées.\
 Les paramètres de base incluent, entre autres, la <b>taille de sortie</b>, le <b>format de sortie</b> et le <b>Mode de répétition</b>.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+Une entrée peut être définie comme [entrée principale](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Cette entrée pilote ensuite les attributs de toutes les entrées dont la méthode d&#39;héritage est définie sur *Relatif au parent*. Il s&#39;agit de la méthode héritage *définie par défaut* sur les Noeuds d&#39;entrée.
 
-[![Entrée principale dans le graphe de Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![Entrée principale dans le graphe de Substance](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-Une entrée peut être définie comme [entrée principale](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Cette entrée pilote ensuite les attributs de toutes les entrées dont la méthode d&#39;héritage est définie sur *Relatif au parent*. Il s&#39;agit de la méthode héritage *définie par défaut* sur les Noeuds d&#39;entrée.
 
 Vous pouvez définir un noeud d&#39;entrée comme entrée principale d&#39;un graphe en cliquant sur *RMB* sur le nœud et en sélectionnant l&#39;option <b>Définir comme entrée principale</b> dans le menu contextuel.\
 L&#39;entrée Primary d&#39;un nœud est marquée d&#39;un *petit point sombre dans le connecteur* (entouré en rouge dans l&#39;exemple à côté de cette section).
@@ -145,7 +100,7 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 >[!IMPORTANT]
 >
-> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les Noeuds d&#39;entrée n&#39;est *pas prise en charge* dans les [actifs Substance 3D (SBSAR)](https://helpx.adobe.com/fr/substance-3d-assets.html). Définissez toutes les méthodes d&#39;héritage des Noeuds d&#39;entrée sur *Relatif au parent* avant de publier votre package.
+> La méthode d&#39;héritage *Relative à l&#39;entrée* pour les Noeuds d&#39;entrée n&#39;est *pas prise en charge* dans les [actifs Substance 3D (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Définissez toutes les méthodes d&#39;héritage des Noeuds d&#39;entrée sur *Relatif au parent* avant de publier votre package.
 
 ## Attributs d&#39;intégration
 

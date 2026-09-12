@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Publication de fichiers Substance 3D Assets (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Cette page explique comment Substance 3D Designer peut publier des packs en tant que fichiers de <b>ressources Substance 3D</b>, un format de fichier spécial avec l’extension <b>SBSAR</b>, utilisé dans l’écosystème de Substance de données ainsi que dans d’autres applications qui le prennent en charge.
 
-Il est généralement préférable d’utiliser une ressource Substance 3D plutôt que des bitmaps, car elle est beaucoup plus flexible et légère. Si vous les utilisez dans Substance 3D [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/fr/substance-3d-sampler.html) ou [Player](https://helpx.adobe.com/substance-3d-player/home.html), il est plus rapide d&#39;utiliser la fonctionnalité [&#39;Envoyer à...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+Il est généralement préférable d’utiliser une ressource Substance 3D plutôt que des bitmaps, car elle est beaucoup plus flexible et légère. Si vous les utilisez dans Substance 3D [Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/fr/docs/substance-3d-sampler/using/home) ou [Player](https://helpx.adobe.com/substance-3d-player/home.html), il est plus rapide d&#39;utiliser la fonctionnalité [&#39;Envoyer à...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Publication de fichiers SBSAR simplifiée](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Publication de fichiers SBSAR simplifiée")
 

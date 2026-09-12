@@ -10,7 +10,7 @@ helpx_tags: ""
 title: L’application ne démarre pas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 734525cdd187aac666168f8a9e1f9e49f3dad03e
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -32,21 +32,21 @@ Cette page répertorie les causes courantes d’échec du démarrage de Substanc
 
 ## Designer 15.0 et versions ultérieures
 
-<b>![(erreur)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](application-does-not-start.resources/error.svg) Problème</b>
 
 Les versions 15.0 et ultérieures de Designer ne peuvent pas démarrer sur les systèmes disposant à la fois d’un GPU intégré (iGPU) et d’un GPU distinct (dGPU).
 
-<b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées</b>
 
 Mettez à jour les pilotes graphiques de l’iGPU. Vous trouverez les derniers pilotes ici : [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](application-does-not-start.resources/error.svg) Problème**
 
 Substance 3D Designer ne démarre pas sur les systèmes utilisant Windows 10 ou Windows 11.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées**
 
 Les anciennes versions de Designer peuvent ne pas démarrer sous Windows 10 ou Windows 11 en raison d&#39;une bibliothèque *obsolète* `libeay32.dll` utilisée dans le processus de validation de licence.
 
@@ -67,11 +67,11 @@ Vous pouvez essayer de remplacer la bibliothèque par une *version mise à jour*
 
 ## Windows 7/8/8.1
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](application-does-not-start.resources/error.svg) Problème**
 
 Substance 3D Designer ne démarre pas sur les systèmes utilisant Windows 7, Windows 8 ou Windows 8.1.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées**
 
 Dans le cadre de la mise à jour de la version **11.3.0**, nous avons mis à niveau plusieurs bibliothèques, outils et SDK qui *n&#39;étaient plus compatibles* avec les versions de Windows antérieures à Windows 10.
 
@@ -86,11 +86,11 @@ Si la mise à niveau vers Windows 10 n&#39;est pas possible, *ne mettez pas à j
 
 ## Linux
 
-<b>![(erreur)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](application-does-not-start.resources/error.svg) Problème</b>
 
 Crash lors de la fermeture de l’écran d’accueil et de l’affichage de la fenêtre principale.
 
-<b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées</b>
 
 Designer ne parvient pas à charger les composants Python, car il charge la bibliothèque <b>libffi.so</b> du système au lieu de la sienne.
 
@@ -111,17 +111,17 @@ Les utilisateurs Linux qui démarrent Designer à partir de Steam peuvent défin
 
 Une fois cela fait, Designer peut être démarré à partir de Steam normalement pour toutes les sessions futures.
 
-![Options de lancement de vapeur](../../assets/steam_linux_launch_option.jpg "Options de lancement de vapeur")
+![Options de lancement de vapeur](application-does-not-start.resources/steam_linux_launch_option.jpg "Options de lancement de vapeur")
 
 
 
 +++
 
-**![(erreur)](../../assets/error.svg) Problème**
+**![(erreur)](application-does-not-start.resources/error.svg) Problème**
 
 L’édition Steam de Designer ne démarre pas avec et ne produit aucun message d’erreur.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées**
 
 Vous pouvez obtenir des messages d&#39;erreur en enregistrant l&#39;application Steam à la place.
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![(erreur)](../../assets/error.svg) Issu</b><b>e</b>
+<b>![(erreur)](application-does-not-start.resources/error.svg) Issu</b><b>e</b>
 
 Impossible de charger le plug-in `<b>xcb</b>`. Le message suivant s’affiche dans la ligne de commande :
 
@@ -151,7 +151,7 @@ Aborted (core dumped)
 ```
 
 
-**![(coche)](../../assets/check.svg) Étapes recommandées**
+**![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées**
 
 Certains packages requis sont manquants. Exécutez la commande suivante à partir du répertoire d’installation de Designer :
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![(erreur)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](application-does-not-start.resources/error.svg) Problème</b>
 
 Cette erreur se produit lors du démarrage de Designer :
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Une bibliothèque système chargée par Designer n&#39;est pas compatible avec la bibliothèque <b>libcrypto.so.1.1</b> de Designer.
 
-<b>![(coche)](../../assets/check.svg) Étapes recommandées</b>
+<b>![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées</b>
 
 Supprimez la bibliothèque <b>`libcrypto.so.1.1`</b> du répertoire d&#39;installation de Designer afin que la bibliothèque du système soit utilisée à la place.
 
@@ -193,11 +193,11 @@ Supprimez la bibliothèque <b>`libcrypto.so.1.1`</b> du répertoire d&#39;instal
 >
 > Cette solution fonctionne uniquement lorsque le système dispose de sa propre bibliothèque libcrypto.so.1. Sur les distributions récentes, un package de compatibilité tel que <b>libxcrypt-compat</b> doit peut-être être installé.
 
-<b>![(erreur)](../../assets/error.svg) Problème</b>
+<b>![(erreur)](application-does-not-start.resources/error.svg) Problème</b>
 
 Substance 3D Designer ne démarre pas sur les systèmes utilisant des distributions Linux *basées sur Arch*.
 
-**![(coche)](../../assets/check.svg) Étapes recommandées *(![(avertissement)](../../assets/warning.svg) instables, GPU AMD uniquement !)***
+**![(coche)](application-does-not-start.resources/check.svg) Étapes recommandées *(![(avertissement)](application-does-not-start.resources/warning.svg) instables, GPU AMD uniquement !)***
 
 Essayez d&#39;installer **progl** (qui fait partie des pilotes [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO)) et démarrez Designer. Pour ce faire, vous pouvez utiliser le préfixe `progl` dans la commande de lancement de l&#39;application :
 

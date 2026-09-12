@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Un tout nouveau type de Graphe, le Graphe Substance model, est disponible. Il vo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Il s’agit d’une première version, alors attendez-vous à quelques limitatio
 
 Les versions Adobes de Substance 3D Designer possèdent une nouvelle fonctionnalité Envoyer vers, qui vous permet d’envoyer rapidement des actifs à d’autres applications Substance 3D. Plus besoin de publier au format SBSAR et de charger des fichiers individuels, Envoyer vers résout ce problème en un clic.
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Aucune version de Designer n’est terminée sans nouveaux nœuds. En s&#39;appu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Aucune version de Designer n’est terminée sans nouveaux nœuds. En s&#39;appu
 
 La fonction RTAO offre un résultat encore meilleur à un AO précis et correct que le nœud HBAO précédent.
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 L’option Caustiques génère des caustiques physiquement corrects avec lancer de rayon basés sur une carte de hauteur, comme un simple bruit de Perlin. Parfait pour créer des textures de flipbook animées réalistes pour des caustiques en temps réel.
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 RT Shadow génère des ombres précises avec lancer de rayons, avec quelques commandes simples.
 
@@ -92,17 +92,17 @@ RT Shadow génère des ombres précises avec lancer de rayons, avec quelques com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow génère des ombres précises avec lancer de rayons, avec quelques com
 
 RT Irradiance est le plus avancé des nouveaux nœuds. Il effectue une irradiation raytracée à partir d&#39;un matériau avec map height, et d&#39;une Map d&#39;environnement et/ou d&#39;une carte d&#39;Emissive.
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
 Cela signifie que vous pouvez effectuer des textures avec un éclairage prébaké, comme pour les projets stylisés, ou vous pouvez baker dans le rebond de la lueur lancer de rayons sur votre carte de hauteur.
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 Enfin, il y a le nœud Bent Normal. Par rapport à une conversion normale normale ordinaire, ce nœud utilise AO pour modifier votre mappage normal afin d&#39;utiliser ces informations d&#39;AO. Avant que vous n&#39;ayez besoin de bakers de maillage pour créer l&#39;effet, ce nœud le fait dans l&#39;espace de la texture pour vous.
 

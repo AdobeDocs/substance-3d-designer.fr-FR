@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Date de publication : *24 novembre 2021*
 
 ### Nouvelles fonctionnalités de graphe model
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 De nombreuses améliorations ont été apportées au graphe model pour étendre les capacités de modélisation :
 
@@ -41,7 +41,7 @@ De nombreuses améliorations ont été apportées au graphe model pour étendre 
   * Rognage de particule
   * Particules d&#39;instances
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>Nouveaux nœuds de modélisation et de déformation</b>\
   D’autres nœuds ont été ajoutés pour créer des formes plus complexes. Cliquez sur chaque nœud pour en savoir plus :
@@ -59,7 +59,7 @@ De nombreuses améliorations ont été apportées au graphe model pour étendre 
 
 ### Interopérabilité améliorée
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 
@@ -71,24 +71,24 @@ Les actions d&#39;envoi ont été étendues, avec deux nouvelles possibilités :
 
 ### Divers
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 Diverses améliorations ont été apportées à la qualité de vie :
 
 * **Entrées par rapport aux entrées**\
   Les entrées de graphe définies sur Relative aux entrées hériteront désormais de la taille du nœud connecté au lieu de la taille du graphe parent par défaut. Cela facilite considérablement la gestion des différentes résolutions via des entrées de tailles différentes.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **Nouvelle fenêtre de graphe**\
   La nouvelle fenêtre de graphe a été retravaillée et permet désormais de mieux voir les détails d’un modèle spécifique et de créer un nouveau graphe directement dans un pack existant.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **Fermer tous les packages**\
   Une petite action qui rend moins fastidieux de gérer de nombreux paquets dans l&#39;explorateur. Utilisez **Fichier** > **Fermer tout** pour fermer tous les packs actuellement ouverts.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **Agrandir la vue actuelle**\
   Utilisez la nouvelle icône de barre de titre **icône** ou le raccourci **MAJ+Espace** pour développer une fenêtre en plein écran. Cela peut également être utilisé sur une fenêtre flottante.
@@ -98,16 +98,16 @@ Diverses améliorations ont été apportées à la qualité de vie :
 
 ### Contenu
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 Cette version ajoute de nouveaux nœuds de diffusion et des améliorations pour le nœud Rendu PBR :
 
 * <b>Nœuds de Diffusion</b>\
   Les nouveaux nœuds d’UV Couleur de Diffusion, Gris de Diffusion et Diffusion permettent de générer des flous de débordement légers à partir d’un masque d’entrée.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **Nœud de Rendu PBR amélioré**\
   Ce nœud a subi les modifications suivantes :

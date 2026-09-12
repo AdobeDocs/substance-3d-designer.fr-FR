@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *Date de publication : 12 décembre 2023*
 
-![Bannière Substance 3D Designer 13.1](../../assets/24-library-hero-1920x620.png "Bannière Substance 3D Designer 13.1")
+![Bannière Substance 3D Designer 13.1](version-13-1.resources/24-library-hero-1920x620.png "Bannière Substance 3D Designer 13.1")
 
 ## Améliorations en matière de cadres
 
@@ -34,19 +34,19 @@ Le cadre est un outil obligatoire pour que votre graphe reste bien organisé et 
 
 Au fur et à mesure que le graphe se développe, le contenu cadre devra peut-être être réorganisé. Les nœuds peuvent se déplacer pour faire de la place pour les ajouts ou le contenu peut devoir être plus espacé pour promouvoir la lisibilité. Pour faciliter ces réglages, il est désormais possible de développer automatiquement un cadre lors du déplacement d&#39;objets inclus : maintenez la touche <b>Maj</b> enfoncée tout en déplaçant un objet pour que les bordures du cadre s&#39;ajustent automatiquement afin que cet objet reste dans leurs limites.
 
-![développement automatique](../../assets/autoexpand.gif)
+![développement automatique](version-13-1.resources/autoexpand.gif)
 
 ### Ajuster la taille au contenu
 
 Lorsque vous effectuez des réglages dans votre graphe, il se peut qu’un cadre ne soit plus correctement ajusté à son contenu. Cette nouvelle commande vous permet d’ajuster automatiquement la position et la taille du cadre afin qu’il s’adapte à l’étendue de son contenu, avec un remplissage d’une cellule de grille moyenne. Si le cadre a une description, il est ajusté pour utiliser tout espace vide à côté de la description, si possible.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### Descriptions améliorées
 
 Grâce au code de HTML, vous pouvez désormais avoir du texte formaté dans une description de cadre. Cela s&#39;applique également aux commentaires.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>... Et bien plus encore !</b>
 
@@ -64,7 +64,7 @@ Beaucoup de choses ont été repensées, comme les règles d&#39;appartenance po
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![icône de Fichier AxF](../../assets/axf-file-icon.png "icône de Fichier AxF")
+![icône de Fichier AxF](version-13-1.resources/axf-file-icon.png "icône de Fichier AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Dans cette nouvelle version, nous introduisons la possibilité de modifier les m
 </tr>
 </table>
 
-![Exporter AxF](../../assets/exportaxf.gif)
+![Exporter AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 
