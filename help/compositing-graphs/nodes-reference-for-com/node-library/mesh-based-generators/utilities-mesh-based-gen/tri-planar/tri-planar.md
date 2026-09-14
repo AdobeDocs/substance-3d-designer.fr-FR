@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: Utilisez le nœud Tri Planaire pour projeter des textures à partir de trois plans orthogonaux pour une correspondance de texture transparente sur une géométrie complexe.
 helpx_creative_field: ""
