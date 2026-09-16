@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Utilisez le nœud SVG pour importer et rendre des images vectorielles de SVG en tant que textures de création d’éléments graphiques évolutifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : SVG](svg.resources/comp_svg_1.png "Noeud atomique : SVG"){width="20%"}
+![Noeud atomique : SVG](svg.resources/comp_svg_1.png "Noeud atomique : SVG")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Effectue le rendu d&#39;une [image SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) sous forme d&#39;image bitmap. En d’autres termes, mappe les formes vectorielles aux pixels.
 
@@ -35,7 +35,7 @@ Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="info-bulle svg" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="info-bulle svg" /></div>
 
 Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de SVG dans la Vue du graphe de données.
 

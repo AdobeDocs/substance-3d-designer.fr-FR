@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Permutation de canaux pour réorganiser les couches de couleur dans les textures de création d’effets de couleur et de permutation de couches.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Permutation de canaux
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Permutation de canaux](channel-shuffle.resources/comp_shuffle.png "Noeud atomique : Permutation de canaux"){width="20%"}
+![Noeud atomique : Permutation de canaux](channel-shuffle.resources/comp_shuffle.png "Noeud atomique : Permutation de canaux")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Réorganise les canaux de couleur d’une ou deux images d’entrée dans l’image de sortie.
 
@@ -37,7 +37,7 @@ Il vous permet essentiellement de compresser et d&#39;échanger les canaux de RG
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="info-bulle de réorganisation des canaux" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="info-bulle de réorganisation des canaux" /></div>
 
 La fonctionnalité Réorganisation des canaux offre des options de base, mais dans la plupart des cas de packing de canaux ou d&#39;entrelacement et de définition des Canaux Alphas, il est plus rapide d&#39;utiliser la [fusion RVBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), le [fractionnement RVBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), la [fusion d&#39;Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) et le [fractionnement d&#39;Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Ils sont configurés pour effectuer des actions par défaut qui ne nécessitent pas de modifier plusieurs paramètres et de convertir ensuite en niveaux de gris. Si vous recherchez une version plus avancée avec davantage d&#39;options de fusion, consultez le [Mélangeur de couches](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 

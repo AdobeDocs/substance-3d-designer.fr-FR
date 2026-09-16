@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Flou directionnel pour appliquer des effets de flou dans une direction spécifique afin de créer des effets de flou directionnel et de traînée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou directionnel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : Flou directionnel](directional-blur.resources/comp_dirmotionblur_1.png "Noeud atomique : Flou directionnel"){width="20%"}
+![Noeud atomique : Flou directionnel](directional-blur.resources/comp_dirmotionblur_1.png "Noeud atomique : Flou directionnel")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applique un floutage dans une direction spécifiée selon une map d’intensité.
 
@@ -35,7 +35,7 @@ Ce nœud effectue une opération similaire à un flou directionnel sur une entr�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="info-bulle flou directionnel" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="info-bulle flou directionnel" /></div>
 
 Comme pour le flou, il s&#39;agit également d&#39;une opération plus rapide et de qualité médiocre. Une alternative étendue et de meilleure qualité est fournie dans [Flou anisotrope](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), avec un compromis de performances
 
@@ -50,7 +50,7 @@ Les images ci-dessous montrent le flou directionnel et le flou [anisotrope](../.
 
 <b>Flou directionnel</b>
 
-![Comparaison du flou directionnel](directional-blur.resources/dirblur-01.png "Comparaison du flou directionnel"){width="20%"}{zoomable="yes"}
+![Comparaison du flou directionnel](directional-blur.resources/dirblur-01.png "Comparaison du flou directionnel"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Texte pour générer des textures de texte avec des polices et des styles personnalisables afin de créer des modèles textuels.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Texte
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Texte](text.resources/comp_text_1.png "Noeud atomique : Texte"){width="20%"}
+![Noeud atomique : Texte](text.resources/comp_text_1.png "Noeud atomique : Texte")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Le nœud Texte fournit un moyen de placer du texte créé par l’utilisateur dans vos graphes. Les utilisateurs peuvent également sélectionner des paramètres tels que la police, l’alignement et la rotation pour personnaliser l’emplacement du texte.
 
@@ -35,7 +35,7 @@ Le nœud Texte est très puissant et constitue le seul moyen de placer facilemen
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="info-bulle de texte" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="info-bulle de texte" /></div>
 
 Seules les polices Truetype (.ttf) et certaines polices Opentype sont prises en charge. Si des polices sont absentes de la liste, il s’agit probablement de la raison. <b>Les polices ne peuvent pas être exposées en tant que paramètre.</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Conversion en niveaux de gris pour convertir les textures de couleur en niveaux de gris à l’aide de diverses méthodes de conversion.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversion en niveaux de gris
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Conversion en niveaux de gris](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Noeud atomique : Conversion en niveaux de gris"){width="20%"}
+![Noeud atomique : Conversion en niveaux de gris](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Noeud atomique : Conversion en niveaux de gris")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Convertit une image couleur en niveaux de gris en évaluant la luminance de chaque canal de couleur.
 
@@ -35,7 +35,7 @@ Ce nœud peut être utilisé comme méthode optimisée pour extraire une couche 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="info-bulle de conversion des niveaux de gris" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="info-bulle de conversion des niveaux de gris" /></div>
 
 La plupart des nœuds peuvent être définis pour une sortie en niveaux de gris ou en couleurs, le premier étant préférable pour des raisons de simplicité et de performances.
 

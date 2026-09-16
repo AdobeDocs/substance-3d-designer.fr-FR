@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Déformation pour appliquer des effets de distorsion à des textures afin de créer des effets de déformation et de displacement.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp"){width="20%"}
+![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Déplace les valeurs de pixels de l’image d’entrée en fonction des pentes calculées à partir d’une entrée de dégradé distincte, ce qui entraîne une déformation.
 
@@ -35,7 +35,7 @@ Contrairement à la Déformation directionnelle, ce nœud s’éloigne uniformé
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></div>
 
 Le nœud peut être un peu difficile à manipuler, car le résultat de l’effet dépend très fortement de l’entrée de dégradé : de petits réglages du dégradé peuvent faire une énorme différence visuelle avec les mêmes valeurs d’intensité. Assurez-vous de jouer avec le contraste, la Luminance et l’échelle de l’entrée de dégradé, ainsi que le curseur Intensité sur ce nœud.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Courbe pour ajuster les valeurs de texture à l’aide de courbes personnalisables afin de contrôler avec précision la couleur et la luminosité.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Courbe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Courbe](curve.resources/comp_curve_1.png "Noeud atomique : Courbe"){width="20%"}
+![Noeud atomique : Courbe](curve.resources/comp_curve_1.png "Noeud atomique : Courbe")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remappe les valeurs d’une image à l’aide d’une courbe personnalisée.
 
@@ -35,7 +35,7 @@ Le nœud fournit une interface pour le remappage de tonalité d’image, similai
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="infobulle courbe" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="infobulle courbe" /></div>
 
 Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39;interface standard standard avec les curseurs et les paramètres, mais présente plutôt un éditeur de courbes complet. Voir la section ci-dessous, qui peut être développée, pour savoir comment l’utiliser.
 
@@ -57,13 +57,13 @@ Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39
 
 Pour créer un point, double-cliquez simplement n’importe où sur la vue Courbe :
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### Contrôle de l’influence des points
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Afin d&#39;obtenir des résultats précis, les nœuds de courbe offrent différents modes pour chaque point:
 
@@ -100,7 +100,7 @@ Vous pouvez afficher/masquer l&#39;histogramme de votre saisie en cliquant simpl
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Lorsque vous saisissez un nœud de couleur, vous avez la possibilité d’ajuster la courbe de chaque couche :
 
@@ -123,7 +123,7 @@ En mode Courbe RGB, vous pouvez masquer/afficher les courbes de couche individue
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Si vous cliquez avec le bouton droit de la souris sur la vue Courbe, vous obtiendrez d&#39;autres options.
 

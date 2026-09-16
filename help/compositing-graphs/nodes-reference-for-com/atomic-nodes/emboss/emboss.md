@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Embossage pour créer des effets d'estampage sur les textures afin d'ajouter de la profondeur et du relief aux détails d'une surface.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Estampage
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 9%
@@ -20,12 +20,12 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : Embossage](emboss.resources/comp_emboss_1.png "Noeud atomique : Embossage"){width="20%"}
+![Noeud atomique : Embossage](emboss.resources/comp_emboss_1.png "Noeud atomique : Embossage")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applique un effet d’embossage en éclairant les côtés des formes d’une image selon une direction de source lumineuse spécifiée.
 
@@ -35,7 +35,7 @@ C’est-à-dire que le nœud exécute un ombrage 2D simple sur la base de 2 entr
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="Info-bulle embossage" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="Info-bulle embossage" /></div>
 
 Ce nœud n’est pas souvent utilisé pour les projets de type PBR, mais il peut être utile dans certains cas où vous souhaitez un éclairage simple et baké dans votre texture. L&#39;[Embossage avec brillance](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) et l&#39;[Embossage Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) offrent une fonctionnalité similaire, mais plus étendue.
 

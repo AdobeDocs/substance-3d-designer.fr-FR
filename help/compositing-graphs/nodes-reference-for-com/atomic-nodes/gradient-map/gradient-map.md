@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilisez le nœud de Map de dégradé pour mapper les valeurs de niveaux de gris aux couleurs à l’aide des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Map de dégradé
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="20%"}
+![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remappe les valeurs de niveaux de gris d’une image à l’aide d’un dégradé personnalisé.
 
@@ -35,7 +35,7 @@ Ce nœud a un double objectif : il peut être simplement utilisé comme <b> </b>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="info-bulle gradient-map" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="info-bulle gradient-map" /></div>
 
 Le nœud offre un éditeur de dégradé avancé et riche en fonctionnalités pour mapper plusieurs couleurs avec précision : accédez à la section [Éditeur de dégradé](#gradient-editor) de cette page pour en savoir plus.
 
@@ -56,7 +56,7 @@ Il peut être ouvert à partir des <b>propriétés</b> du nœud de Map de dégra
 * Cliquez sur LMB sur le bouton <b>Éditeur de dégradé</b> ;
 * Double-cliquez sur LMB sur une épingle dans la barre de dégradé. L’épingle cliquée sera alors automatiquement sélectionnée dans l’Éditeur de dégradé afin que vous puissiez modifier directement ses valeurs.
 
-![Éditeur de dégradé](gradient-map.resources/image2017-2-17-16-13-5.png "Éditeur de dégradé"){width="20%"}
+![Éditeur de dégradé](gradient-map.resources/image2017-2-17-16-13-5.png "Éditeur de dégradé")
 
 ### Modification des épingles de dégradé
 
@@ -233,7 +233,7 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Les curseurs RGB, TSL et Alpha vous permettent de définir une couleur avec précision, en ajustant les curseurs ou en définissant directement leurs valeurs numériques.
 
@@ -267,7 +267,7 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 La couleur sélectionnée est prévisualisée dans la moitié supérieure de la vignette couleur.\
 La moitié inférieure affiche la couleur précédemment utilisée. Double-cliquez sur le LMB pour rétablir la couleur modifiée.
@@ -285,7 +285,7 @@ Lorsque plusieurs épingles sont sélectionnées, les curseurs RGB, TSL et Alpha
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 En outre, les fonctionnalités suivantes sont disponibles sous la vignette de couleur en tant que boutons :
 

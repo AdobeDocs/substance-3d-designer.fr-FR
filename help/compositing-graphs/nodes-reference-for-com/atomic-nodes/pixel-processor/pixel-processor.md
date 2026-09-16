@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Processeur de pixels pour traiter des pixels individuels à l’aide d’expressions personnalisées pour une manipulation avancée des textures.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de pixels
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -20,12 +20,12 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : Processeur de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Noeud atomique : Processeur de pixels"){width="20%"}
+![Noeud atomique : Processeur de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Noeud atomique : Processeur de pixels")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Génère une image où la valeur de chaque pixel est le résultat du [graphe de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) spécifié.
 
@@ -37,7 +37,7 @@ C&#39;est de loin le nœud le plus polyvalent, car il permet d&#39;exécuter n&#
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="info-bulle du processeur de pixels" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="info-bulle du processeur de pixels" /></div>
 
 Comme pour [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), il nécessite la configuration de la fonctionnalité interne pour effectuer toute opération. Le Processeur de pixels diffère de FX-Map par le fait qu’il ne se concentre pas sur le placement de motifs, plusieurs fonctions contrôlant la forme et le placement des motifs. Au lieu de cela, une seule fonction est exécutée en parallèle pour chaque pixel, chaque pixel ignorant les résultats de calcul de ses voisins.
 

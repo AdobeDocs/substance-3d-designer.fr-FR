@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Normal pour traiter et manipuler les textures de map normal afin de contrôler les détails de la surface et l'éclairage.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normale
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Normal](normal.resources/comp_normal_1.png "Noeud atomique : Normal"){width="20%"}
+![Noeud atomique : Normal](normal.resources/comp_normal_1.png "Noeud atomique : Normal")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Calcule une map normal à partir d’une image en niveaux de gris interprétée comme une map height.
 
@@ -35,7 +35,7 @@ Le nœud convertit un mappage en niveaux de gris d&#39;entrée en une sortie de 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="normal.resources/normal-tooltip.gif" alt="info-bulle normale" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="normal.resources/normal-tooltip.gif" alt="info-bulle normale" /></div>
 
 C&#39;est un nœud très utile qui est souvent utilisé pour convertir les entrées de map height en maps normal pour des matériaux prêts à l&#39;emploi. Il existe des alternatives dans [Sobel normal](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) et l&#39;Height des unités universelles normales.
 
