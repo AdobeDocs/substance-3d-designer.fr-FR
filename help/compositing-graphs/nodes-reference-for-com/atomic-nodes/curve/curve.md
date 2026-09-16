@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Courbe pour ajuster les valeurs de texture à l’aide de courbes personnalisables afin de contrôler avec précision la couleur et la luminosité.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Courbe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '611'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Noeud atomique : Courbe](curve.resources/comp_curve_1.png "Noeud atomique : Courbe"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Le nœud fournit une interface pour le remappage de tonalité d’image, similai
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="infobulle courbe" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="infobulle courbe" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39;interface standard standard avec les curseurs et les paramètres, mais présente plutôt un éditeur de courbes complet. Voir la section ci-dessous, qui peut être développée, pour savoir comment l’utiliser.
 
@@ -68,7 +76,7 @@ Pour créer un point, double-cliquez simplement n’importe où sur la vue Courb
 Afin d&#39;obtenir des résultats précis, les nœuds de courbe offrent différents modes pour chaque point:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -107,7 +115,7 @@ Lorsque vous saisissez un nœud de couleur, vous avez la possibilité d’ajuste
 Sélectionnez simplement la courbe que vous souhaitez ajuster dans la liste déroulante située en haut à droite :
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Déformation directionnelle pour appliquer une distorsion directionnelle aux textures afin de créer des effets de flux et de mouvement.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Déformation directionnelle
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Noeud atomique : Déformation directionnelle](directional-warp.resources/comp_directionalwarp_1.png "Noeud atomique : Déformation directionnelle"){width="100%"}
+
+**<b>Entrée :</b> Noeuds atomiques**
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Déforme une entrée dans une direction définie par l’utilisateur, multiplié
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="info-bulle de déformation directionnelle" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="info-bulle de déformation directionnelle" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Le nœud Warp est un nœud assez simple mais utile qui sert de base pour d’autres effets plus avancés. Il existe des alternatives plus avancées, telles que d&#39;autres nœuds connexes intéressants, comme le [flou de Pente](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) et la [déformation vectorielle](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 

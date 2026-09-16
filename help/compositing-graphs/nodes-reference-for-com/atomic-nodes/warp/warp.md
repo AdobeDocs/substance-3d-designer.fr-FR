@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Déformation pour appliquer des effets de distorsion à des textures afin de créer des effets de déformation et de displacement.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Déformation
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Contrairement à la Déformation directionnelle, ce nœud s’éloigne uniformé
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Le nœud peut être un peu difficile à manipuler, car le résultat de l’effet dépend très fortement de l’entrée de dégradé : de petits réglages du dégradé peuvent faire une énorme différence visuelle avec les mêmes valeurs d’intensité. Assurez-vous de jouer avec le contraste, la Luminance et l’échelle de l’entrée de dégradé, ainsi que le curseur Intensité sur ce nœud.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
 description: Utilisez le nœud TSL pour régler la teinte, la saturation et la luminosité des textures afin de manipuler et corriger les couleurs.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: TSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '152'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Noeud atomique : TSL](hsl.resources/comp_hsl_1.png "Noeud atomique : TSL"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ Si vous recherchez d&#39;autres façons de modifier les tons d&#39;une image, co
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="info-bulle tsl" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="hsl.resources/hsl-tooltip.gif" alt="info-bulle tsl" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 
 

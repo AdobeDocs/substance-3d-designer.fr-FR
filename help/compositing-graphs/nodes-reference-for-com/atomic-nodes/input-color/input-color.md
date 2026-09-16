@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Couleur en entrée
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '804'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Noeud atomique : couleur d&#39;entrée](input-color.resources/comp_inputcolor_1.png "Noeud atomique : couleur d&#39;entrée"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +35,7 @@ Les noeuds d&#39;entrée sont un type spécial de nœud qui crée un emplacement
 
 Contrairement aux [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), vous devez explicitement placer une entrée Couleur, Niveaux de gris ou Valeur. Il n’est pas possible de créer vos propres entrées « agnostiques » qui changent de type en fonction de ce qui y est connecté.
 
-Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ou d&#39;un [filtre](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
+Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ou d&#39;un [filtre](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
 
 Voir aussi : [Entrée en niveaux de gris](../input-grayscale/input-grayscale.md), [Valeur d&#39;entrée](../input-value/input-value.md)
 
@@ -41,7 +43,13 @@ Voir aussi : [Entrée en niveaux de gris](../input-grayscale/input-grayscale.md)
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="Info-bulle Couleur d’entrée" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="input-color.resources/input-color-tooltip.gif" alt="Info-bulle Couleur d’entrée" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## Paramètres
 
@@ -101,7 +109,7 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 ## Attributs d&#39;intégration
 
-Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
+Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 En outre, les attributs Utilisation sont également utilisés avec les [modes de création de lien](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), pour correspondre aux emplacements d&#39;entrée et de sortie corrects.
 

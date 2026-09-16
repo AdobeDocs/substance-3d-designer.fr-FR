@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Niveaux pour régler la luminosité, le contraste et la gamme de tons des textures de correction et d’amélioration des couleurs.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Niveaux
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '552'
 ht-degree: 3%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Noeud atomique : Levels](levels.resources/comp_levels_1.png "Noeud atomique : Levels"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Le nœud Niveaux vous permet de remapper les tons d’une entrée en définissan
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="info-bulle niveaux" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="info-bulle niveaux" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Il s’agit de l’un des nœuds principaux les plus utiles de Substance 3D Designer. Il est très souvent utilisé pour remapper et ajuster les valeurs dans un graphe, car il fournit l’interface la plus précise et précise aux valeurs changeantes.
 
