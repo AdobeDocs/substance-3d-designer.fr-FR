@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+breadcrumb-title: ""
 description: Découvrez comment gérer et organiser les paramètres dans les graphes de composition de Substances pour une meilleure organisation du workflow.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gérer les paramètres
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # Gérer les paramètres
 
@@ -165,11 +163,11 @@ Ces actions...
 
 [Map de dégradé](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Couleur en entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Couleur en entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Niveaux de gris en entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Niveaux de gris en entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Valeur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Valeur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [Sortie](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

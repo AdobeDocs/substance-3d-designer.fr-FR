@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+breadcrumb-title: ""
 description: Découvrez comment importer et utiliser des ressources de format d’exchange d’apparence AxF dans Substance 3D Designer pour l’importation de matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: AxF (Appearance eXchange Format)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 
 # AxF (Appearance eXchange Format)
 
@@ -144,7 +142,7 @@ Cliquez sur le bouton <b>Ajouter un modèle</b> et sélectionnez le type de grap
 Deux types de modèles de graphe de Substance sont disponibles :
 
 Les modèles <b>AxF vers Métallique rugosité</b> et <b>AxF vers Specular Brillance</b> sont des modèles *de conversion* qui vous permettent de mapper les matériaux AxF vers des modèles PBR standard.\
-Ils peuvent ensuite être utilisés avec les nuanceurs vue 3D par défaut et associés à d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/fr/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
+Ils peuvent ensuite être utilisés avec les nuanceurs vue 3D par défaut et associés à d&#39;autres matériaux PBR produits dans Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) ou acquis à partir de notre bibliothèque [Ressources 3D](https://substance3d.adobe.com/assets/).
 
 <b>AxF à AxF</b> est un modèle *transparent* qui vous permet de modifier les matériaux AxF en place et d&#39;exporter ces modifications sous forme de nouveaux calques dans les Fichiers AxF existants. Voir Exportation de Fichiers AxF ci-dessous pour en savoir plus.
 
@@ -163,7 +161,7 @@ Ils peuvent ensuite être utilisés avec les nuanceurs vue 3D par défaut et ass
 
 Pour tous les modèles de graphe de Substance ajoutés dans la liste <b>Modèles</b>, les opérations supplémentaires suivantes sont effectuées :
 
-Pour tout nœud [<b>d&#39;entrée</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) dont l&#39;*utilisation* correspond à l&#39;*identifiant* d&#39;une texture extraite du Fichier AxF, ce Noeud d&#39;entrée est remplacé par un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) référençant cette texture ;
+Pour tout nœud [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) dont l&#39;*utilisation* correspond à l&#39;*identifiant* d&#39;une texture extraite du Fichier AxF, ce Noeud d&#39;entrée est remplacé par un nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) référençant cette texture ;
 
 La propriété <b>Résolution</b> du graphe (c&#39;est-à-dire Taille de la sortie) est automatiquement définie sur la puissance de deux égale ou supérieure à la résolution de la texture extraite *la plus grande* ;
 

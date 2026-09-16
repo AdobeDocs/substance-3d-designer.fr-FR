@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+breadcrumb-title: ""
 description: Utilisez des instances de graphe et des sous-graphes pour créer des composants de graphe réutilisables et des workflows de matériau modulaire.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Instances de graphe et sous-graphes
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # Instances de graphe et sous-graphes
 
@@ -42,7 +40,7 @@ Faites glisser un graphe A de l&#39;Explorateur vers un autre graphe B pour cré
 
 Les nœuds peuvent être rapidement divisés en un nouveau graphe en sélectionnant les nœuds et en utilisant l&#39;option « Créer un graphe à partir de la sélection » dans le menu contextuel. Vous êtes ensuite invité à définir l’identifiant du nouveau graphe, qui doit être unique.
 
-Notez que si les nœuds sélectionnés étaient connectés à d&#39;autres nœuds du graphe, vous devez également créer des nœuds [Entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et [Sortie](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) dans le nouveau graphe pour reporter ces connexions sur le sous-graphe.
+Notez que si les nœuds sélectionnés étaient connectés à d&#39;autres nœuds du graphe, vous devez également créer des nœuds [Entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) et [Sortie](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) dans le nouveau graphe pour reporter ces connexions sur le sous-graphe.
 
 En outre, le remplacement des nœuds d&#39;origine par un instancier référençant le nouveau graphe doit être effectué manuellement par la suite.
 

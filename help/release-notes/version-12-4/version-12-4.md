@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Designer version 12.4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Version 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
-
 ---
-
 
 # Version 12.4
 
@@ -58,7 +56,7 @@ Vous pouvez désormais verrouiller la largeur et l’height de la taille de sort
 
 ### Transformer la saisie de l’image sur Couleur/Niveaux de gris
 
-Basculez rapidement entre une [couleur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et une [échelle de gris d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) via le menu contextuel du nœud.
+Basculez rapidement entre une [couleur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) et une [échelle de gris d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) via le menu contextuel du nœud.
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 
@@ -111,7 +109,7 @@ Cette version 12.4 apporte également la prise en charge complète des Graphes S
 * [vue 3D] La propriété d&#39;affichage Structure filaire n&#39;est pas enregistrée
 * [Contenu] Les paramètres Couleur de flou radial n’ont aucun effet sur le canal Alpha
 * [Localisation] Des curseurs et des boutons supplémentaires s’affichent dans les propriétés OpenGL de l’environnement.
-* crash [MDL]&#x200B;[modèle de Substance] lors de la suppression de nœuds exposés
+* crash [MDL][modèle de Substance] lors de la suppression de nœuds exposés
 * [Préférences] Le fichier par défaut\_config n’est jamais recréé s’il est supprimé
 * Paramètre de réorganisation de Crash [modèle de Substance] qui n&#39;apparaît pas au niveau de l&#39;instance
 * [API] SDProperty.getDefaultValue() renvoie presque toujours None

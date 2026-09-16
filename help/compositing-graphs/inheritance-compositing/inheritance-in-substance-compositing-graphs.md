@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: Découvrez comment fonctionne l’héritage dans les graphes de composition de Substances pour créer des hiérarchies et des variations de graphes réutilisables.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Héritage dans les graphes Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Héritage dans les graphes Substance
 
@@ -196,7 +194,7 @@ L&#39;entrée hérite du graphe et les données qu&#39;elle reçoit sont adapté
 </tr>
 </table>
 
-L&#39;une des entrées peut être définie comme **entrée principale** du graphe en cliquant sur **RMB** sur ce nœud [Entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) et en sélectionnant l&#39;option **Définir comme entrée principale** dans le menu contextuel.
+L&#39;une des entrées peut être définie comme **entrée principale** du graphe en cliquant sur **RMB** sur ce nœud [Entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) et en sélectionnant l&#39;option **Définir comme entrée principale** dans le menu contextuel.
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+breadcrumb-title: ""
 description: Découvrez les concepts clés des graphes de composition de Substances, notamment les nœuds, les connexions et les fondamentaux du workflow.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Concepts clés du graphe Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Concepts clés du graphe Substance
 
@@ -43,7 +41,7 @@ Voici quelques informations à connaître sur les sorties :
 * Les sorties peuvent et doivent être <b>nommées de manière unique</b> pour les identifier, ce qui est utile lors de l&#39;exportation.
 * Chaque connecteur à droite d’un nœud est en fait une sortie (voir « Sous-graphes pour plus d’informations »).
 
-Une [entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) est similaire à une sortie. Il s&#39;agit d&#39;un emplacement vide et ouvert auquel vous ou un autre utilisateur pouvez connecter vos propres données. Il permet de créer un graphe qui, dans des données d’image externes définies par l’utilisateur, modifie une image d&#39;entrée (un flou ou un réglage Contraste par exemple).
+Une [entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) est similaire à une sortie. Il s&#39;agit d&#39;un emplacement vide et ouvert auquel vous ou un autre utilisateur pouvez connecter vos propres données. Il permet de créer un graphe qui, dans des données d’image externes définies par l’utilisateur, modifie une image d&#39;entrée (un flou ou un réglage Contraste par exemple).
 
 Voici quelques informations à connaître sur les entrées :
 

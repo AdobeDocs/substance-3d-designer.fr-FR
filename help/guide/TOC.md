@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 22%
 ---
 
@@ -130,7 +130,9 @@ ht-degree: 22%
       + [Processeur de valeurs](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Déformation](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Sortie](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Entrée](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Couleur en entrée](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Niveaux de gris en entrée](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valeur d&#39;entrée](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Bibliothèque de nœuds{#node-library}
       + [Bibliothèque de nœuds](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Générateurs de textures{#texture-generators}
