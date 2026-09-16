@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Distance pour calculer les maps distance des formes afin de créer des masques et des effets procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : Distance](distance.resources/comp_distance_1.png "Noeud atomique : Distance")
+![Noeud atomique : Distance](distance.resources/comp_distance_1.png "Noeud atomique : Distance"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Ce nœud crée une atténuation linéaire vers l’extérieur (dégradé) à par
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="infobulle de distance" /></div>
+<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="infobulle de distance" /></div>
 
 L&#39;atténuation extérieure en expansion se terminera dès qu&#39;elle rencontrera une autre cellule : elles ne se chevaucheront jamais. En interne, il s&#39;agit en fait de calculer et d&#39;afficher la distance au pixel le plus proche > 0,5, le nœud de distance étant défini comme une pince/maximum.
 

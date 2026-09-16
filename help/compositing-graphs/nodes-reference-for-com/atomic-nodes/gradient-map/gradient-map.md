@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Utilisez le nœud de Map de dégradé pour mapper les valeurs de niveaux de gris aux couleurs à l’aide des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Map de dégradé
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé")
+![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Ce nœud a un double objectif : il peut être simplement utilisé comme <b> </b>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="info-bulle gradient-map" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="info-bulle gradient-map" /></div>
 
 Le nœud offre un éditeur de dégradé avancé et riche en fonctionnalités pour mapper plusieurs couleurs avec précision : accédez à la section [Éditeur de dégradé](#gradient-editor) de cette page pour en savoir plus.
 

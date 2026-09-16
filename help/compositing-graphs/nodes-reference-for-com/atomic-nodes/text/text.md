@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Texte pour générer des textures de texte avec des polices et des styles personnalisables afin de créer des modèles textuels.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Texte
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Texte](text.resources/comp_text_1.png "Noeud atomique : Texte")
+![Noeud atomique : Texte](text.resources/comp_text_1.png "Noeud atomique : Texte"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Le nœud Texte est très puissant et constitue le seul moyen de placer facilemen
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="info-bulle de texte" /></div>
+<div data-preserve-html="true" align="center"><img src="text.resources/text-tooltip.gif" alt="info-bulle de texte" /></div>
 
 Seules les polices Truetype (.ttf) et certaines polices Opentype sont prises en charge. Si des polices sont absentes de la liste, il s’agit probablement de la raison. <b>Les polices ne peuvent pas être exposées en tant que paramètre.</b>
 

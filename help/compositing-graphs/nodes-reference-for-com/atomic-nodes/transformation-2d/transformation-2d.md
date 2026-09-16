@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Transformation 2D pour appliquer des transformations 2D aux textures, y compris la translation, la rotation et la mise à l’échelle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformation 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Noeud atomique : Transformation 2D")
+![Noeud atomique : Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Noeud atomique : Transformation 2D"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Il est très similaire au Transformé (Ctrl-T) dans Photoshop ou à l’utilisat
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="info-bulle transformation-2d" /></div>
+<div data-preserve-html="true" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="info-bulle transformation-2d" /></div>
 
 C&#39;est un nœud extrêmement utile et largement utilisé, il permet d&#39;augmenter la répétition, de supprimer la répétition, de placer une image dans une position spécifique, de étirer ou d&#39;écraser une entrée, etc.
 

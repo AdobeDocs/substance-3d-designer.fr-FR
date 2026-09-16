@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Utilisez le nœud FX-Map pour appliquer des graphes de fonction aux textures de création de motifs et d’effets procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : FX-Map](fx-map.resources/fxmap.png "Noeud atomique : FX-Map")
+![Noeud atomique : FX-Map](fx-map.resources/fxmap.png "Noeud atomique : FX-Map"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ C&#39;est l&#39;un des noeuds atomiques les plus puissants, ainsi que le nœud l
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="info-bulle fx-map" /></div>
+<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="info-bulle fx-map" /></div>
 
 Comme pour le [Processeur de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), c&#39;est à vous de définir et de créer les fonctions qui déterminent le comportement et la sortie de ce nœud.
 

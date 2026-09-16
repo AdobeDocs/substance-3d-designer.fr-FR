@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Couleur uniforme pour générer des textures de couleur uniforme afin de créer des remplissages de couleur unie et des calques de base.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur uniforme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Noeud atomique : Couleur uniforme](uniform-color.resources/comp_uniform_1.png "Noeud atomique : Couleur uniforme")
+![Noeud atomique : Couleur uniforme](uniform-color.resources/comp_uniform_1.png "Noeud atomique : Couleur uniforme"){width="100%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ Il s’agit d’un nœud simple, très souvent utilisé comme point de départ p
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="info-bulle de couleur uniforme" /></div>
+<div data-preserve-html="true" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="info-bulle de couleur uniforme" /></div>
 
 
 >[!TIP]

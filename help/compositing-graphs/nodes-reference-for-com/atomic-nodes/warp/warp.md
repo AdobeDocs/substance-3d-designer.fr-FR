@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Déformation pour appliquer des effets de distorsion à des textures afin de créer des effets de déformation et de displacement.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Déformation
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp")
+![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Contrairement à la Déformation directionnelle, ce nœud s’éloigne uniformé
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></div>
+<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></div>
 
 Le nœud peut être un peu difficile à manipuler, car le résultat de l’effet dépend très fortement de l’entrée de dégradé : de petits réglages du dégradé peuvent faire une énorme différence visuelle avec les mêmes valeurs d’intensité. Assurez-vous de jouer avec le contraste, la Luminance et l’échelle de l’entrée de dégradé, ainsi que le curseur Intensité sur ce nœud.
 

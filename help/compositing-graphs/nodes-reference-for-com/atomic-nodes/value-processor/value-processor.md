@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
 description: Utilisez le nœud de Processeur de valeurs pour traiter et manipuler les valeurs de texture à l’aide d’opérations mathématiques pour des réglages personnalisés.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de valeurs
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : Processeur de valeurs](value-processor.resources/comp_valueprocessor_1.png "Noeud atomique : Processeur de valeurs")
+![Noeud atomique : Processeur de valeurs](value-processor.resources/comp_valueprocessor_1.png "Noeud atomique : Processeur de valeurs"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Elle est comparable à un [Processeur de pixels](../../../../compositing-graphs/
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="info-bulle value-processor" /></div>
+<div data-preserve-html="true" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="info-bulle value-processor" /></div>
 
 
 >[!TIP]

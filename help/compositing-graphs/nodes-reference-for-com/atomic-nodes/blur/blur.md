@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Flou pour appliquer des effets de flou aux textures afin de lisser les détails et de créer des effets de flou.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Bien que le flou fonctionne bien pour les opérations rapides et simples, comme 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="blur.resources/blur-tooltip.gif" alt="info-bulle flou" /></div>
+<div data-preserve-html="true" align="center"><img src="blur.resources/blur-tooltip.gif" alt="info-bulle flou" /></div>
 
 ## Paramètres
 

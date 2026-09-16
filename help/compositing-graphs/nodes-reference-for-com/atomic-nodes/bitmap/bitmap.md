@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Bitmap pour importer et utiliser des images bitmap en tant que textures dans des graphes de composition de Substances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Bitmap](bitmap.resources/comp_bitmap.png "Noeud atomique : Bitmap")
+![Noeud atomique : Bitmap](bitmap.resources/comp_bitmap.png "Noeud atomique : Bitmap"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="info-bulle bitmap" /></div>
+<div data-preserve-html="true" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="info-bulle bitmap" /></div>
 
 Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](../../../../glossary/glossary.md) dans un format pris en charge dans la Vue du graphe de données.
 

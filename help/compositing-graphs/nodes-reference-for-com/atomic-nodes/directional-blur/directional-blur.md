@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Flou directionnel pour appliquer des effets de flou dans une direction spécifique afin de créer des effets de flou directionnel et de traînée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou directionnel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : Flou directionnel](directional-blur.resources/comp_dirmotionblur_1.png "Noeud atomique : Flou directionnel")
+![Noeud atomique : Flou directionnel](directional-blur.resources/comp_dirmotionblur_1.png "Noeud atomique : Flou directionnel"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Ce nœud effectue une opération similaire à un flou directionnel sur une entr�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="info-bulle flou directionnel" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="info-bulle flou directionnel" /></div>
 
 Comme pour le flou, il s&#39;agit également d&#39;une opération plus rapide et de qualité médiocre. Une alternative étendue et de meilleure qualité est fournie dans [Flou anisotrope](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), avec un compromis de performances
 

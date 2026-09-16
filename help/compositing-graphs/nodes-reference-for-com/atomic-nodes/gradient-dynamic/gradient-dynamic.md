@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Dégradé (dynamique) pour créer des dégradés dynamiques contrôlables par des paramètres d'entrée et des valeurs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dégradé (dynamique)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Dégradé dynamique](gradient-dynamic.resources/comp_dyngradient_1.png "Noeud atomique : Dégradé dynamique")
+![Noeud atomique : Dégradé dynamique](gradient-dynamic.resources/comp_dyngradient_1.png "Noeud atomique : Dégradé dynamique"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Elle constitue une légère alternative au nœud de dégradé, mais contrairemen
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="info-bulle dégradé-dynamique" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="info-bulle dégradé-dynamique" /></div>
 
 Cela permet principalement d&#39;éviter le problème où les paramètres ne peuvent pas être exposés, car les paramètres de couleur sont déplacés en dehors du nœud. C&#39;est ce qui la rend « dynamique ».
 

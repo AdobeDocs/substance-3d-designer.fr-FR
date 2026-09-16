@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Utilisez le nœud SVG pour importer et rendre des images vectorielles de SVG en tant que textures de création d’éléments graphiques évolutifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Noeud atomique : SVG](svg.resources/comp_svg_1.png "Noeud atomique : SVG")
+![Noeud atomique : SVG](svg.resources/comp_svg_1.png "Noeud atomique : SVG"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="info-bulle svg" /></div>
+<div data-preserve-html="true" align="center"><img src="svg.resources/svg-tooltip.gif" alt="info-bulle svg" /></div>
 
 Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de SVG dans la Vue du graphe de données.
 
