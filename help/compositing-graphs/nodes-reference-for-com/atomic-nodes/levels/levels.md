@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Niveaux pour régler la luminosité, le contraste et la gamme de tons des textures de correction et d’amélioration des couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Niveaux
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
-
+source-wordcount: '549'
+ht-degree: 3%
 ---
-
 
 # Niveaux
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Levels](levels.resources/comp_levels_1.png "Noeud atomique : Levels"){width="200px"}
+![Noeud atomique : Levels](levels.resources/comp_levels_1.png "Noeud atomique : Levels"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,33 +35,13 @@ Le nœud Niveaux vous permet de remapper les tons d’une entrée en définissan
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="info-bulle niveaux" /></div>
+
 Il s’agit de l’un des nœuds principaux les plus utiles de Substance 3D Designer. Il est très souvent utilisé pour remapper et ajuster les valeurs dans un graphe, car il fournit l’interface la plus précise et précise aux valeurs changeantes.
 
 Bien qu&#39;il s&#39;agisse d&#39;un nœud important, pour certains cas d&#39;utilisation, l&#39;interface peut être un peu lourde. Assurez-vous donc de rechercher des alternatives dans [Niveaux automatiques](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contraste/Luminosité](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) et [Histogramme de balayage](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Exemples
-
-## Paramètres
 
 Le nœud offre deux interfaces pour ajuster ses valeurs : l’histogramme et les curseurs. Vous pouvez basculer entre eux avec le bouton le plus à droite dans la barre d’en-tête « Paramètres spécifiques » :
 
@@ -76,7 +54,7 @@ Le bouton jaune en surbrillance active/désactive l’interface entre les curseu
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-2-1.png){width="20%"}
 
 ![](levels.resources/levels-1-1.png)
 
@@ -129,11 +107,6 @@ Les curseurs changent en fonction d’une entrée de couleur ou de niveaux de gr
 | --- | --- |
 | <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Image à traiter. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

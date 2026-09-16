@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+breadcrumb-title: ""
 description: Utilisez le nœud de Processeur de valeurs pour traiter et manipuler les valeurs de texture à l’aide d’opérations mathématiques pour des réglages personnalisés.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Processeur de valeurs
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
-
+source-wordcount: '153'
+ht-degree: 3%
 ---
-
 
 # Processeur de valeurs
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Processeur de valeurs](value-processor.resources/comp_valueprocessor_1.png "Noeud atomique : Processeur de valeurs"){width="200px"}
+![Noeud atomique : Processeur de valeurs](value-processor.resources/comp_valueprocessor_1.png "Noeud atomique : Processeur de valeurs"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,25 +35,8 @@ Elle est comparable à un [Processeur de pixels](../../../../compositing-graphs/
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="info-bulle value-processor" /></div>
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -63,20 +44,6 @@ Elle est comparable à un [Processeur de pixels](../../../../compositing-graphs/
 > 
 > Considérez également que travailler avec ce type de graphe et effectuer des opérations mathématiques est obligatoire pour obtenir quoi que ce soit de ce nœud.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -90,11 +57,6 @@ Elle est comparable à un [Processeur de pixels](../../../../compositing-graphs/
 | --- | --- |
 | <b>Image d&#39;entrée #</b> *Niveaux de gris/Couleur* | Utilisez un nœud [Échantillon de couleur](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) ou [Échantillon de niveaux de gris](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) pour accéder aux valeurs dans l&#39;entrée de l&#39;index spécifié. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Tout type de valeur disponible* |  |
 
 ## Exemples
 

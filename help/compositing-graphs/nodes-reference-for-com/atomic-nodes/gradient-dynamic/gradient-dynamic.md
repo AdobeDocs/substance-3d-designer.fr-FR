@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Dégradé (dynamique) pour créer des dégradés dynamiques contrôlables par des paramètres d'entrée et des valeurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Dégradé (dynamique)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '310'
+ht-degree: 8%
 ---
-
 
 # Dégradé (dynamique)
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Dégradé dynamique](gradient-dynamic.resources/comp_dyngradient_1.png "Noeud atomique : Dégradé dynamique"){width="200px"}
+![Noeud atomique : Dégradé dynamique](gradient-dynamic.resources/comp_dyngradient_1.png "Noeud atomique : Dégradé dynamique"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ Elle constitue une légère alternative au nœud de dégradé, mais contrairemen
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="info-bulle dégradé-dynamique" /></div>
+
 Cela permet principalement d&#39;éviter le problème où les paramètres ne peuvent pas être exposés, car les paramètres de couleur sont déplacés en dehors du nœud. C&#39;est ce qui la rend « dynamique ».
 
 Bien que le dégradé (dynamique) ne soit pas un nœud difficile à utiliser seul, ses cas d&#39;utilisation sont un peu plus avancés : la plupart des utilisations standard peuvent être couvertes par le nœud de dégradé régulier.
@@ -45,50 +45,7 @@ Ce nœud entre en jeu lorsque vous êtes trop limité par le système de touches
 
 Vous pouvez également utiliser le curseur Position de l’entrée de dégradé pour alterner entre plusieurs dégradés stockés dans une seule entrée Dégradé.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs d’entrée
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -105,11 +62,6 @@ Vous pouvez également utiliser le curseur Position de l’entrée de dégradé 
 | <b>Entrée en niveaux de gris</b> *Niveaux de gris* PRINCIPAUX | Image en niveaux de gris de remappage. |
 | <b>Entrée de dégradé</b> *Couleur/Niveaux De Gris* | Le dégradé est prélevé sur cette image |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Couleur/Niveaux De Gris* |  |
 
 ## Exemples
 

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fusion
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '326'
+ht-degree: 8%
 ---
-
 
 # Fusion
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Fusion](blend.resources/comp_blend_1.png "Noeud atomique : Fusion"){width="200px"}
+![Noeud atomique : Fusion](blend.resources/comp_blend_1.png "Noeud atomique : Fusion"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,46 +35,15 @@ Il s&#39;agit du nœud le plus utile de tous les Noeuds atomiques. Presque tous 
 </tr>
 </table>
 
-Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="info-bulle de fusion" /></div>
+
+Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
 
 >[!TIP]
 >
 > Découvrez les modes de fusion disponibles dans le nœud de Fusion de données de [cette page dédiée](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -103,11 +70,6 @@ Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-de
 > 
 > C’est la principale raison pour laquelle les nouveaux utilisateurs rencontrent des problèmes de connexion entre les couleurs et les niveaux de gris : assurez-vous que les deux connexions sont du même type !
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

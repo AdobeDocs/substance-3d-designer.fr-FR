@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 22%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -374,7 +372,7 @@ ht-degree: 22%
           + [Section transversale](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [Courbure](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
           + [Courbure lisse](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [Courbure sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [Courbure Sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [couleur de diffusion](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [Diffusion en niveaux de gris](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
           + [UV de diffusion](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
@@ -518,7 +516,7 @@ ht-degree: 22%
           + [Usure du cuir](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [Lumière](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [Créateur de masques](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [Oreille de bord métallique](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [Usure des bords métalliques](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [usure de la peinture](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [Dirt sélectif](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [Javel solaire](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -622,7 +620,7 @@ ht-degree: 22%
     + [Nœud Itération](/help/function-graphs/fxmaps/the-iterate-node/the-iterate-node.md)
     + [Nœud du quadrant](/help/function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md)
     + Utilisation de graphes de fonction de Substance dans FX-Maps{#using-substance-function-graphs-in-fx-maps}
-      + [Utilisation des graphiques de fonction de Substance dans FX-Maps](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
+      + [Utilisation de graphes de fonction de Substance dans FX-Maps](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
       + [Itération et variable $number](/help/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md)
       + [Utilisation des nœuds Sampler](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes/using-the-sampler-nodes.md)
       + [Utilisation des nœuds Définir/Séquence](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)

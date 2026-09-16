@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Sortie
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # Sortie
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Noeud atomique : Sortie](output.resources/comp_output_1.png "Noeud atomique : Sortie"){width="200px"}
+![Noeud atomique : Sortie](output.resources/comp_output_1.png "Noeud atomique : Sortie"){width="20%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -36,6 +34,8 @@ L&#39;image ou la valeur connectée au nœud de sortie d&#39;un graphe est gén�
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="info-bulle de sortie" /></div>
 
 De même, lorsqu&#39;un [Fichier sbsar publié](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) inclut ce graphe, ce fichier peut générer cette image dans n&#39;importe quelle intégration ou plug-in qui consomme le fichier.
 
@@ -52,7 +52,7 @@ Chaque graphe de Substance doit avoir *au moins un* nœud de sortie. Si aucune s
 | <b>Identifiant</b> *Chaîne* | Identifiant unique de la sortie. Cette propriété ne peut pas rester vide et ne peut pas contenir de caractères spéciaux ou d&#39;espaces.   L&#39;identifiant est utilisé car le libellé du nœud est la propriété « Label » laissée vide. Il peut également être utilisé pour nommer [textures exportées](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Description</b> *Chaîne* | Description facultative utilisée comme info-bulle de la sortie : graphes de Substance. |
 | <b>Libellé</b> *Chaîne* | Il est utilisé comme libellé pour le nœud de sortie et son connecteur correspondant dans [instanciers](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphe. L’étiquette peut contenir des espaces et des caractères spéciaux. |
-| <b>Données utilisateur</b> *Chaîne* | Métadonnées facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d/apps/painter.html) utilisez ces données pour [piloter certaines fonctionnalités](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
+| <b>Données utilisateur</b> *Chaîne* | Métadonnées facultatives pouvant être utilisées pour des opérations de filtrage spécifiques. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) utilisez ces données pour [piloter certaines fonctionnalités](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data).. |
 | <b>Groupe</b> *Chaîne* | Attribut utilisé pour regrouper les sorties afin de [lier les modes de création](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de Designer.   Les sorties avec un attribut « Group » identique sont présentées comme une connexion unique dans le mode de création de lien « Compact Matériau ». |
 
 ## Attributs d&#39;intégration

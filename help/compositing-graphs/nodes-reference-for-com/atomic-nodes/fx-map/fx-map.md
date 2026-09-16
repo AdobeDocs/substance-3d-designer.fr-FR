@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+breadcrumb-title: ""
 description: Utilisez le nœud FX-Map pour appliquer des graphes de fonction aux textures de création de motifs et d’effets procéduraux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: FX-Map
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
-
+source-wordcount: '318'
+ht-degree: 1%
 ---
-
 
 # FX-Map
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : FX-Map](fx-map.resources/fxmap.png "Noeud atomique : FX-Map"){width="200px"}
+![Noeud atomique : FX-Map](fx-map.resources/fxmap.png "Noeud atomique : FX-Map"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ C&#39;est l&#39;un des noeuds atomiques les plus puissants, ainsi que le nœud l
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="info-bulle fx-map" /></div>
+
 Comme pour le [Processeur de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), c&#39;est à vous de définir et de créer les fonctions qui déterminent le comportement et la sortie de ce nœud.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -67,9 +48,6 @@ Comme pour le [Processeur de pixels](../../../../compositing-graphs/nodes-refere
 >
 > Il est recommandé de bien connaître tous les aspects du logiciel et de ne pas rencontrer de problème lors de la création de [fonctions mathématiques](../../../../function-graphs/function-graphs.md) pour les paramètres avant de tenter d&#39;utiliser le nœud FX-Map.
 
-## Exemples
-
-## Paramètres
 
 Gardez à l&#39;esprit que, contrairement à d&#39;autres nœuds, la majorité d&#39;un comportement de FX-Map n&#39;est pas déterminée par les paramètres, mais plutôt [par la modification des fonctions FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) qu&#39;il contient.
 
@@ -94,12 +72,7 @@ Gardez à l&#39;esprit que, contrairement à d&#39;autres nœuds, la majorité d
 | <b>Arrière-plan</b> *Niveaux de gris/Couleur* PRINCIPAL | Couleur d’arrière-plan de l’image de sortie. |
 | <b>Image d&#39;entrée #</b> *Niveaux de gris/Couleur* |  |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 
-![](fx-map.resources/image2015-9-10-17-28-32.png)
+![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Netteté pour améliorer les détails et les contours de la texture afin de créer des détails de surface nets et définis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Accentuer
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 4%
-
 ---
-
 
 # Accentuer
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Icône de nœud plus net](sharpen.resources/sharpen-4.png "Icône de nœud plus net")
+![Icône de nœud plus net](sharpen.resources/sharpen-4.png "Icône de nœud plus net"){width="20%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
@@ -38,6 +36,8 @@ Le nœud Netteté effectue une opération de netteté sur une entrée. Il s’ag
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="info-bulle netteté" /></div>
 
 Il est mathématiquement très similaire au filtre Accentuation de Photoshop, bien que son nom soit différent. Cela fonctionne bien pour les cartes de couleur de base, par exemple, mais doit être évité sur les cartes comme les Maps normal et les cartes Métalliques.
 

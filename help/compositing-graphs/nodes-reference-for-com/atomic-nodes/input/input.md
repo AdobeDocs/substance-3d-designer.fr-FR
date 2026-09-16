@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+breadcrumb-title: ""
 description: Utilisez le Noeud d'entrée pour créer des paramètres d'entrée pour les graphes de Substance qui peuvent être exposés et ajustés par les utilisateurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Entrée
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 
 # Entrée
 
@@ -24,27 +22,31 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Noeud atomique : couleur d&#39;entrée](input.resources/comp_inputcolor_1.png "Noeud atomique : couleur d&#39;entrée"){width="200px"}
+![Noeud atomique : couleur d&#39;entrée](input.resources/comp_inputcolor_1.png "Noeud atomique : couleur d&#39;entrée"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Noeud atomique : Niveaux de gris d&#39;entrée](input.resources/comp_inputgrayscale_1.png "Noeud atomique : Niveaux de gris d&#39;entrée"){width="200px"}
+![Noeud atomique : Niveaux de gris d&#39;entrée](input.resources/comp_inputgrayscale_1.png "Noeud atomique : Niveaux de gris d&#39;entrée"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Noeud atomique : valeur d&#39;entrée](input.resources/comp_inputnumeric_1.png "Noeud atomique : valeur d&#39;entrée"){width="200px"}
+![Noeud atomique : valeur d&#39;entrée](input.resources/comp_inputnumeric_1.png "Noeud atomique : valeur d&#39;entrée"){width="20%"}
 
 </td>
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-color-tooltip.gif" alt="Info-bulle Couleur d’entrée" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-grayscale-tooltip.gif" alt="Info-bulle Niveaux de gris en entrée" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-value-tooltip.gif" alt="Info-bulle de la valeur d’entrée" /></div>
+
 Les noeuds d&#39;entrée sont un type spécial de nœud qui crée un emplacement dynamique dans votre graphe, ce qui permet de connecter n&#39;importe quelle entrée une fois que votre Graphe est utilisé dans un autre contexte.
 
 Contrairement aux [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), vous devez explicitement placer une entrée Couleur, Niveaux de gris ou Valeur. Il n’est pas possible de créer vos propres entrées « agnostiques » qui changent de type en fonction de ce qui y est connecté.
 
-Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
+Les noeuds d&#39;entrée ne sont pas aussi importants que les [nœuds de sortie](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) : vous pouvez avoir des Graphes avancés qui fonctionnent parfaitement et qui n&#39;ont pas besoin d&#39;une entrée. Les entrées ne sont utilisées que lorsque vous souhaitez baser les résultats de votre instance de Graphe ou de nœud sur une entrée externe, par exemple lors de la création d&#39;une [instance](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou d&#39;un [filtre](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) pour Substance 3D Painter.
 
 ## Paramètres
 
@@ -81,7 +83,7 @@ Une entrée peut être définie comme [entrée principale](../../../../compositi
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Entrée principale dans le graphe de Substance](input.resources/node-primary-input.png)
+![Entrée principale dans le graphe de Substance](input.resources/node-primary-input.png){width="20%"}
 
 </td>
 </tr>
@@ -104,7 +106,7 @@ Enfin, vous pouvez remplacer n&#39;importe quelle valeur pour un attribut donné
 
 ## Attributs d&#39;intégration
 
-Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/effects/filter)).
+Les entrées ne sont pas directement envoyées à vue 3D, mais leurs attributs d&#39;utilisation sont utilisés par [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) pour remplir automatiquement les emplacements avec certains mappages (principalement utilisés avec des [filtres](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 En outre, les attributs Utilisation sont également utilisés avec les [modes de création de lien](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), pour correspondre aux emplacements d&#39;entrée et de sortie corrects.
 

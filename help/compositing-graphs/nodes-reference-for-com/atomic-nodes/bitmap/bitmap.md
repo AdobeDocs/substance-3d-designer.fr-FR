@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Bitmap pour importer et utiliser des images bitmap en tant que textures dans des graphes de composition de Substances.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '453'
+ht-degree: 0%
 ---
-
 
 # Bitmap
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Bitmap](bitmap.resources/comp_bitmap.png "Noeud atomique : Bitmap"){width="200px"}
+![Noeud atomique : Bitmap](bitmap.resources/comp_bitmap.png "Noeud atomique : Bitmap"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,27 +37,10 @@ Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous 
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="info-bulle bitmap" /></div>
+
 Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](../../../../glossary/glossary.md) dans un format pris en charge dans la Vue du graphe de données.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -74,30 +55,6 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](.
 > * D&#39;autre part, soyez prudent lorsque vous supprimez une [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) dans l&#39;Explorateur : elle fonctionnera toujours dans le graphe pour cette session, car elle est conservée dans le cache, mais elle sera marquée comme manquante la prochaine fois que vous chargerez le [package](../../../../glossary/glossary.md).
 > * Lorsqu&#39;un graphe de Substance est [cuit](../../../../glossary/glossary.md), la résolution du bitmap est fixée à sa résolution à l&#39;intérieur du graphe et non en fonction de sa taille d&#39;origine. Il est recommandé de s&#39;assurer que le [paramètre de Transforme](../../../../glossary/glossary.md) « Taille de sortie » d&#39;un nœud Bitmap utilise la [méthode d&#39;héritage](../../../../glossary/glossary.md) « Absolue » et que le nœud est suivi d&#39;un nœud [2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) « Relative au parent » (c&#39;est-à-dire la résolution du graphe hôte).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Paramètres
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Outils de peinture bitmap
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -111,11 +68,6 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](.
 
 Les bitmaps peuvent être modifiés dans Designer. En savoir plus sur les outils de modification dans [cette section](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

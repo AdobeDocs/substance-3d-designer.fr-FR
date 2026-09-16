@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
 description: Utilisez le nœud de Map de dégradé pour mapper les valeurs de niveaux de gris aux couleurs à l’aide des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Map de dégradé
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1157'
 ht-degree: 2%
-
 ---
-
 
 # Map de dégradé
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="200px"}
+![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,11 @@ Ce nœud a un double objectif : il peut être simplement utilisé comme <b> </b>
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="info-bulle gradient-map" /></div>
+
 Le nœud offre un éditeur de dégradé avancé et riche en fonctionnalités pour mapper plusieurs couleurs avec précision : accédez à la section [Éditeur de dégradé](#gradient-editor) de cette page pour en savoir plus.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Exemples
-
-## Paramètres
 
 |  |  |
 | --- | --- |
@@ -78,7 +56,7 @@ Il peut être ouvert à partir des <b>propriétés</b> du nœud de Map de dégra
 * Cliquez sur LMB sur le bouton <b>Éditeur de dégradé</b> ;
 * Double-cliquez sur LMB sur une épingle dans la barre de dégradé. L’épingle cliquée sera alors automatiquement sélectionnée dans l’Éditeur de dégradé afin que vous puissiez modifier directement ses valeurs.
 
-![Éditeur de dégradé](gradient-map.resources/image2017-2-17-16-13-5.png "Éditeur de dégradé")
+![Éditeur de dégradé](gradient-map.resources/image2017-2-17-16-13-5.png "Éditeur de dégradé"){width="20%"}
 
 ### Modification des épingles de dégradé
 
@@ -346,11 +324,6 @@ Le curseur <b>Précision</b> vous aidera à ajuster le dégradé que vous venez 
 | --- | --- |
 | <b>Entrée</b> *Niveaux de gris* PRINCIPAUX | Image en niveaux de gris à traiter. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* |  |
 
 ## Exemples
 

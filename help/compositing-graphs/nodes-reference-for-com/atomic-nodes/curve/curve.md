@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Courbe pour ajuster les valeurs de texture à l’aide de courbes personnalisables afin de contrôler avec précision la couleur et la luminosité.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Courbe
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '608'
 ht-degree: 2%
-
 ---
-
 
 # Courbe
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Noeud atomique : Courbe](curve.resources/comp_curve_1.png "Noeud atomique : Courbe"){width="200px"}
+![Noeud atomique : Courbe](curve.resources/comp_curve_1.png "Noeud atomique : Courbe"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,53 +35,13 @@ Le nœud fournit une interface pour le remappage de tonalité d’image, similai
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="infobulle courbe" /></div>
+
 Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39;interface standard standard avec les curseurs et les paramètres, mais présente plutôt un éditeur de courbes complet. Voir la section ci-dessous, qui peut être développée, pour savoir comment l’utiliser.
 
 [Cela signifie toutefois qu&#39;aucun des paramètres d&#39;un nœud Courbe ne peut être exposé à un sous-graphe](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). La seule option ici est d&#39;utiliser un [commutateur multiple](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) pour basculer entre différents profils de courbe.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Paramètres
-
-### Éditeur de courbes
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connecteurs d’entrée
-
-### Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -99,7 +57,7 @@ Contrairement à la plupart des autres nœuds, le nœud Courbe n&#39;a pas d&#39
 
 Pour créer un point, double-cliquez simplement n’importe où sur la vue Courbe :
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### Contrôle de l’influence des points
 
@@ -259,11 +217,6 @@ Le bouton ![](curve.resources/image2017-2-20-19-12-45.png) réinitialise le nive
 | --- | --- |
 | <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Image à traiter. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 
