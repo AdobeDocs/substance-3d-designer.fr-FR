@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Déformation pour appliquer des effets de distorsion à des textures afin de créer des effets de déformation et de displacement.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Déformation
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 9%
-
 ---
-
 
 # Déformation
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp"){width="200px"}
+![Noeud atomique : Warp](warp.resources/comp_warp_1.png "Noeud atomique : Warp"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Déplace les valeurs de pixels de l’image d’entrée en fonction des pentes calculées à partir d’une entrée de dégradé distincte, ce qui entraîne une déformation.
 
@@ -37,44 +37,19 @@ Contrairement à la Déformation directionnelle, ce nœud s’éloigne uniformé
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="info-bulle de déformation" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 Le nœud peut être un peu difficile à manipuler, car le résultat de l’effet dépend très fortement de l’entrée de dégradé : de petits réglages du dégradé peuvent faire une énorme différence visuelle avec les mêmes valeurs d’intensité. Assurez-vous de jouer avec le contraste, la Luminance et l’échelle de l’entrée de dégradé, ainsi que le curseur Intensité sur ce nœud.
 
 Si vous connaissez les Maps normal, vous pouvez imaginer le fonctionnement de ce nœud comme la conversion de l&#39;entrée de dégradé en une [Map normal](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), puis la distorsion de l&#39;entrée de base dans la direction définie par les vecteurs de Map normal. En fait, la [déformation vectorielle](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md) permet d’obtenir le même résultat. Des effets similaires sont également disponibles dans [Flou de Pente](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -90,11 +65,6 @@ Si vous connaissez les Maps normal, vous pouvez imaginer le fonctionnement de ce
 | <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Couleur ou image en niveaux de gris. |
 | <b>Entrée de dégradé</b> *Niveaux de gris* | La pente du dégradé de l’image d&#39;entrée en niveaux de gris détermine l’effet de déformation dans l’image de sortie. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud de Map de dégradé pour mapper les valeurs de niveaux de gris aux couleurs à l’aide des dégradés de dégradé pour la colorisation et les effets.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Map de dégradé
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # Map de dégradé
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="200px"}
+![Noeud atomique : Courbe de transfert de dégradé](gradient-map.resources/comp_gradient_1.png "Noeud atomique : Courbe de transfert de dégradé"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remappe les valeurs de niveaux de gris d’une image à l’aide d’un dégradé personnalisé.
 
@@ -37,31 +37,17 @@ Ce nœud a un double objectif : il peut être simplement utilisé comme <b> </b>
 </tr>
 </table>
 
-Le nœud offre un éditeur de dégradé avancé et riche en fonctionnalités pour mapper plusieurs couleurs avec précision : accédez à la section [Éditeur de dégradé](#gradient-editor) de cette page pour en savoir plus.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="info-bulle gradient-map" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 
-## Exemples
+Le nœud offre un éditeur de dégradé avancé et riche en fonctionnalités pour mapper plusieurs couleurs avec précision : accédez à la section [Éditeur de dégradé](#gradient-editor) de cette page pour en savoir plus.
 
-## Paramètres
+
 
 |  |  |
 | --- | --- |
@@ -255,14 +241,14 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Les curseurs RGB, TSL et Alpha vous permettent de définir une couleur avec précision, en ajustant les curseurs ou en définissant directement leurs valeurs numériques.
 
   Vous pouvez également utiliser un code hexadécimal dans le champ de saisie dédié situé sous les curseurs.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Sélecteur de couleurs - Curseurs RGB, TSL et Alpha](gradient-map.resources/image2017-2-17-18-31-41.png "Sélecteur de couleurs - Curseurs RGB, TSL et Alpha")
 
@@ -289,7 +275,7 @@ Le sélecteur de couleurs permet de définir une couleur de plusieurs manières 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 La couleur sélectionnée est prévisualisée dans la moitié supérieure de la vignette couleur.\
 La moitié inférieure affiche la couleur précédemment utilisée. Double-cliquez sur le LMB pour rétablir la couleur modifiée.
@@ -307,7 +293,7 @@ Lorsque plusieurs épingles sont sélectionnées, les curseurs RGB, TSL et Alpha
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 En outre, les fonctionnalités suivantes sont disponibles sous la vignette de couleur en tant que boutons :
 
@@ -346,11 +332,6 @@ Le curseur <b>Précision</b> vous aidera à ajuster le dégradé que vous venez 
 | --- | --- |
 | <b>Entrée</b> *Niveaux de gris* PRINCIPAUX | Image en niveaux de gris à traiter. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris* |  |
 
 ## Exemples
 

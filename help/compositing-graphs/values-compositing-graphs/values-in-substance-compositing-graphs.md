@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les types de valeur et le traitement des données dans les graphes de composition de Substances pour une création de matériau efficace.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Valeurs dans les graphes Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 2%
-
 ---
-
 
 # Valeurs dans les graphes Substance
 
@@ -32,10 +30,10 @@ Il existe quelques cas d’utilisation pour cela, tels que :
 
 Deux nouveaux Noeuds atomiques fonctionnent avec des valeurs :
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="icône de nœud de processeur de valeurs" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="icône de nœud de processeur de valeurs" width="100px"/></div>  <b>[Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | Le [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) prend un nombre quelconque d&#39;entrées Niveaux de gris ou Couleur et vous permet de renvoyer une seule valeur à partir de calculs basés sur ces entrées. |
-| <div><img alt="Icône Noeud d&#39;entrée de valeur" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icône Noeud d&#39;entrée de valeur" width="100px"/></div>  **[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | L&#39;[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)vous permet de créer un emplacement d&#39;entrée sur les sous-graphes qui est explicitement défini comme Valeur. |
+| <div><img alt="Icône Noeud d&#39;entrée de valeur" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Icône Noeud d&#39;entrée de valeur" width="100px"/></div>  **[Valeur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | L&#39;[Entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)vous permet de créer un emplacement d&#39;entrée sur les sous-graphes qui est explicitement défini comme Valeur. |
 
 En outre, d&#39;autres nœuds les traitent d&#39;une manière spécifique :
 
@@ -51,9 +49,9 @@ Chaque nœud ([Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-n
 
 L’utilisation de valeurs est légèrement différente du travail de graphe de Substance normal :
 
-Les connexions de valeur ne peuvent être effectuées qu&#39;à partir d&#39;un [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), d&#39;une [entrée de valeur](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ou d&#39;un [sous-Graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Cela signifie en fait qu&#39;un Processeur de valeurs est la seule façon de créer une connexion Value à partir de zéro, il n&#39;y a pas de nœud « Static Value » ou quelque chose de similaire. Créez plutôt un Processeur de valeurs, placez une valeur statique et définissez-la comme sortie pour obtenir le même résultat.
+Les connexions de valeur ne peuvent être établies qu&#39;à partir d&#39;un [Processeur de valeurs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), d&#39;une [valeur d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md) ou d&#39;un [sous-graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Cela signifie en fait qu&#39;un Processeur de valeurs est la seule façon de créer une connexion Value à partir de zéro, il n&#39;y a pas de nœud « Static Value » ou quelque chose de similaire. Créez plutôt un Processeur de valeurs, placez une valeur statique et définissez-la comme sortie pour obtenir le même résultat.
 
-Processeur de valeurs ne peut renvoyer qu&#39;une seule valeur. Si vous souhaitez renvoyer plusieurs valeurs, ensembles ou groupes de valeurs, vous devez créer un [sous-Graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Processeur de valeurs ne peut renvoyer qu&#39;une seule valeur. Si vous souhaitez renvoyer plusieurs valeurs, ensembles ou groupes de valeurs, vous devez créer un [sous-graphe](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 Pour mettre en surbrillance l’emplacement où les valeurs sont exposées ou en cours d’utilisation, tout nœud comportant des entrées de valeur ou des sorties de valeur est mis en surbrillance avec une bordure jaune épaisse :
 

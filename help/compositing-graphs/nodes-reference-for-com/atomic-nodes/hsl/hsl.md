@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud TSL pour régler la teinte, la saturation et la luminosité des textures afin de manipuler et corriger les couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: TSL
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '152'
 ht-degree: 9%
-
 ---
-
 
 # TSL
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : TSL](hsl.resources/comp_hsl_1.png "Noeud atomique : TSL"){width="200px"}
+![Noeud atomique : TSL](hsl.resources/comp_hsl_1.png "Noeud atomique : TSL"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Règle la teinte, la saturation et la luminosité d’une image couleur.
 
@@ -40,39 +40,14 @@ Si vous recherchez d&#39;autres façons de modifier les tons d&#39;une image, co
 </table>
 
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="hsl.resources/hsl-tooltip.gif" alt="info-bulle tsl" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
 
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -88,11 +63,6 @@ Si vous recherchez d&#39;autres façons de modifier les tons d&#39;une image, co
 | --- | --- |
 | <b>Entrée</b> *Couleur* PRINCIPALE | Image à traiter. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Couleur* |  |
 
 ## Exemples
 

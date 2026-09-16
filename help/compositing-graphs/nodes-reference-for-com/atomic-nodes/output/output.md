@@ -1,30 +1,30 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Sortie
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 
 # Sortie
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
-![Noeud atomique : Sortie](output.resources/comp_output_1.png "Noeud atomique : Sortie"){width="200px"}
+![Noeud atomique : Sortie](output.resources/comp_output_1.png "Noeud atomique : Sortie"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -34,6 +34,14 @@ Le nœud Output spécifie le <b>résultat</b> d&#39;un graphe de Substance de do
 L&#39;image ou la valeur connectée au nœud de sortie d&#39;un graphe est générée par n&#39;importe quel [instancier](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) représentant ce graphe et peut [être exportée en tant que sortie du graphe](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="info-bulle de sortie" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

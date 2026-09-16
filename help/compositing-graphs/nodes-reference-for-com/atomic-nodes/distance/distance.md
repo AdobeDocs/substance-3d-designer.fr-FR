@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Distance pour calculer les maps distance des formes afin de créer des masques et des effets procéduraux.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,32 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Distance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '395'
 ht-degree: 8%
-
 ---
-
 
 # Distance
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : Distance](distance.resources/comp_distance_1.png "Noeud atomique : Distance"){width="200px"}
+![Noeud atomique : Distance](distance.resources/comp_distance_1.png "Noeud atomique : Distance"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Recherche la position du pixel blanc le plus proche dans un masque et génère soit un dégradé à partir de cette position, soit la couleur à cette position dans une image source.
 
 Ce nœud crée une atténuation linéaire vers l’extérieur (dégradé) à partir de tous les pixels de la valeur d’entrée max. supérieure à 0,5 échelle de gris.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="distance.resources/distance-tooltip.gif" alt="infobulle de distance" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 
@@ -45,40 +53,7 @@ Le nœud de distance n&#39;est pas facile à maîtriser, mais ses principaux cas
 
 Voir les [exemples](#examples) ci-dessous pour plus d&#39;informations.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -96,11 +71,6 @@ Voir les [exemples](#examples) ci-dessous pour plus d&#39;informations.
 | <b>Entrée de masque</b> *Niveaux de gris* PRINCIPAUX | Masque en niveaux de gris dont les bordures doivent être calculées pour une valeur de distance.   Un masque binaire est extrait de l&#39;image, en utilisant une valeur de seuil de 0,5, où toutes les valeurs au-dessus de ce seuil sont blanches et toutes les valeurs au-dessous sont noires. |
 | <b>Entrée source</b> *Couleur/Niveaux De Gris* | Image en niveaux de gris facultative à partir de laquelle la valeur de pixel à la bordure la plus proche de l’entrée de masque doit être copiée. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Couleur/Niveaux De Gris* |  |
 
 ## Exemples
 
@@ -108,17 +78,17 @@ Voir les [exemples](#examples) ci-dessous pour plus d&#39;informations.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment créer et gérer des paramètres de graphe dans Substance 3D Designer pour contrôler les propriétés et les comportements de matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Paramètres de graphe
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
-
 ---
-
 
 # Paramètres de graphe
 
@@ -143,7 +141,7 @@ L&#39;éditeur du paramètre sélectionné apparaîtra en haut de la liste des p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Dans cette partie, tous les nœuds [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) du graphe sont répertoriés.
+Dans cette partie, tous les nœuds [d&#39;entrée](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) du graphe sont répertoriés.
 
 Vous pouvez les réorganiser en les faisant glisser sur la poignée située à l’extrême gauche de chaque élément.
 

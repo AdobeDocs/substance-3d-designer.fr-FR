@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Accédez aux noeuds atomiques dans Substance 3D Designer pour effectuer des opérations de base telles que les entrées, les sorties, la fusion et le réglage des couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Nœuds atomiques
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 11%
-
+ht-degree: 12%
 ---
-
 
 # Nœuds atomiques
 
@@ -129,16 +127,16 @@ Tous les autres nœuds de graphe de Substance de la [bibliothèque](../../../int
 </td>
 <td style="border: 0;" valign="top">
 
-[![Noeud atomique : couleur d&#39;entrée](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Noeud atomique : couleur d&#39;entrée](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Couleur en entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Couleur en entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Noeud atomique : saisie en niveaux de gris](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Noeud atomique : saisie en niveaux de gris](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Niveaux de gris d&#39;entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Niveaux de gris en entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
 </td>
 </tr>
@@ -148,9 +146,9 @@ Tous les autres nœuds de graphe de Substance de la [bibliothèque](../../../int
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Noeud atomique : valeur d&#39;entrée](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Noeud atomique : valeur d&#39;entrée](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
-[Valeur d&#39;entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Valeur d&#39;entrée](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Texte pour générer des textures de texte avec des polices et des styles personnalisables afin de créer des modèles textuels.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Texte
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 1%
-
 ---
-
 
 # Texte
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : Texte](text.resources/comp_text_1.png "Noeud atomique : Texte"){width="200px"}
+![Noeud atomique : Texte](text.resources/comp_text_1.png "Noeud atomique : Texte"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Le nœud Texte fournit un moyen de placer du texte créé par l’utilisateur dans vos graphes. Les utilisateurs peuvent également sélectionner des paramètres tels que la police, l’alignement et la rotation pour personnaliser l’emplacement du texte.
 
@@ -37,44 +37,19 @@ Le nœud Texte est très puissant et constitue le seul moyen de placer facilemen
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="text.resources/text-tooltip.gif" alt="info-bulle de texte" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 Seules les polices Truetype (.ttf) et certaines polices Opentype sont prises en charge. Si des polices sont absentes de la liste, il s’agit probablement de la raison. <b>Les polices ne peuvent pas être exposées en tant que paramètre.</b>
 
 Lorsqu’un Graphe utilisant du texte est publié sur sbsar, la police est incorporée dans le package, tout comme les bitmaps et autres ressources, pour s’assurer qu’elle fonctionne sur tous les systèmes et applications.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -96,11 +71,6 @@ Lorsqu’un Graphe utilisant du texte est publié sur sbsar, la police est incor
 | --- | --- |
 | <b>Arrière-plan</b> *Niveaux de gris/Couleur* PRINCIPAL | Couleur d’arrière-plan de l’image de sortie. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # TODO
 
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## Correctifs
 
 * Corrigez le lien du 1er exemple d&#39;image dans les pages de nœuds (par ex. nouveaux bruits)
-* Élément « entier négatif » manquant et liens rompus dans [parameters-not-working-as-Expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## Enquête
 

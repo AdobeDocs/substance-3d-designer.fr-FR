@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les graphes de composition de Substances dans Substance 3D Designer pour créer des textures procédurales et des workflows de matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Graphes Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Graphes Substance
 
@@ -59,7 +57,7 @@ Le texte portant le numéro ou le thickness du contour peut être exposé à l�
 
 
 
-Un graphe de filtrage prend une map normal en tant que [entrée](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (avec un aperçu personnalisé), [la convertit en courbure](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md), puis [ajuste le contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) pour créer un masque de contours convexes en tant que [sortie](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
+Un graphe de filtrage prend une map normal en tant que [entrée](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (avec un aperçu personnalisé), [la convertit en courbure](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md), puis [ajuste le contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) pour créer un masque de contours convexes en tant que [sortie](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) finale.
 
 Les valeurs de contraste définies dans l’histogramme peuvent être exposées, ce qui en fait un filtre simple mais utile associé à l’emplacement d’entrée dynamique.
 

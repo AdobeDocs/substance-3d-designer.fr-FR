@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Transformation 2D pour appliquer des transformations 2D aux textures, y compris la translation, la rotation et la mise à l’échelle.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Transformation 2D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 5%
-
 ---
-
 
 # Transformation 2D
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Noeud atomique : Transformation 2D"){width="200px"}
+![Noeud atomique : Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Noeud atomique : Transformation 2D"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applique une matrice de transformation 2D à une image : translation, rotation, mise à l’échelle, symétrie et cisaillement.
 
@@ -37,29 +37,18 @@ Il est très similaire au Transformé (Ctrl-T) dans Photoshop ou à l’utilisat
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="info-bulle transformation-2d" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 C&#39;est un nœud extrêmement utile et largement utilisé, il permet d&#39;augmenter la répétition, de supprimer la répétition, de placer une image dans une position spécifique, de étirer ou d&#39;écraser une entrée, etc.
 
 Il ne peut toutefois pas correspondre parfaitement à certaines applications. Les nœuds suivants peuvent donc être intéressants : [Transforme sécurisée](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [Transforme non carrée](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [Transforme quadrillée](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) et [Transforme trapézoïdale](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -73,20 +62,6 @@ Il ne peut toutefois pas correspondre parfaitement à certaines applications. Le
 >
 > Les valeurs de mise à l&#39;échelle et de rotation dans les propriétés du nœud sont *relatives à la transformation courante* et ne sont pas appliquées à la vue 2D tant que vous n&#39;avez pas cliqué sur le bouton Appliquer.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Connecteurs de sortie
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemples
-
-</td>
-</tr>
-</table>
 
 ## Paramètres
 
@@ -105,11 +80,6 @@ Il ne peut toutefois pas correspondre parfaitement à certaines applications. Le
 | --- | --- |
 | <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Image à transformer. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

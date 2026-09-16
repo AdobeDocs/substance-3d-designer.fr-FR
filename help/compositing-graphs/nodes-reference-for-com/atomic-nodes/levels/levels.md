@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Niveaux pour régler la luminosité, le contraste et la gamme de tons des textures de correction et d’amélioration des couleurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Niveaux
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
-
+source-wordcount: '552'
+ht-degree: 3%
 ---
-
 
 # Niveaux
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
-![Noeud atomique : Levels](levels.resources/comp_levels_1.png "Noeud atomique : Levels"){width="200px"}
+![Noeud atomique : Levels](levels.resources/comp_levels_1.png "Noeud atomique : Levels"){width="100%"}
+
+<b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Règle la gamme de tons et la balance des couleurs globales pour les ombres, les tons moyens et les hautes lumières d’une image.
 
@@ -37,39 +37,25 @@ Le nœud Niveaux vous permet de remapper les tons d’une entrée en définissan
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="info-bulle niveaux" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 Il s’agit de l’un des nœuds principaux les plus utiles de Substance 3D Designer. Il est très souvent utilisé pour remapper et ajuster les valeurs dans un graphe, car il fournit l’interface la plus précise et précise aux valeurs changeantes.
 
 Bien qu&#39;il s&#39;agisse d&#39;un nœud important, pour certains cas d&#39;utilisation, l&#39;interface peut être un peu lourde. Assurez-vous donc de rechercher des alternatives dans [Niveaux automatiques](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contraste/Luminosité](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) et [Histogramme de balayage](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Exemples
-
-## Paramètres
 
 Le nœud offre deux interfaces pour ajuster ses valeurs : l’histogramme et les curseurs. Vous pouvez basculer entre eux avec le bouton le plus à droite dans la barre d’en-tête « Paramètres spécifiques » :
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Le bouton jaune en surbrillance active/désactive l’interface entre les curseurs de valeur de l’histogramme (en haut) (en bas)
 
@@ -129,11 +115,6 @@ Les curseurs changent en fonction d’une entrée de couleur ou de niveaux de gr
 | --- | --- |
 | <b>Entrée</b> *Niveaux de gris/Couleur* PRINCIPAL | Image à traiter. |
 
-## Connecteurs de sortie
-
-|  |  |
-| --- | --- |
-| <b>Sortie</b> *Niveaux de gris/Couleur* |  |
 
 ## Exemples
 

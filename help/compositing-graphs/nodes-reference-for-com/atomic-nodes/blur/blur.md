@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Flou pour appliquer des effets de flou aux textures afin de lisser les détails et de créer des effets de flou.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Flou
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 6%
-
 ---
-
 
 # Flou
 
@@ -24,7 +22,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Icône de nœud de flou](blur.resources/blur-9.png){width="200px"}
+![Icône de nœud de flou](blur.resources/blur-9.png)
 
 **Entrée :** Noeuds atomiques
 
@@ -40,6 +38,14 @@ Le nœud de flou effectue une opération « box-blur » : calcul de la moyenne d
 Bien que le flou fonctionne bien pour les opérations rapides et simples, comme adoucir légèrement certains bords, dans tout scénario plus exigeant, [Blur HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) est un meilleur choix, sacrifiant les performances à la qualité.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="info-bulle flou" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

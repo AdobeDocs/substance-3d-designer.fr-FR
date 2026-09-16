@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les raccourcis clavier de Substance 3D Designer pour accélérer votre workflow et améliorer votre productivité.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Raccourcis
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 18%
-
 ---
-
 
 # Raccourcis
 
 Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3D Designer.
-
-## Table des matières
-
-[Keymaps](#keymaps)
-
-[Listes de raccourcis](#shortcuts-lists)
 
 ## Keymaps
 
