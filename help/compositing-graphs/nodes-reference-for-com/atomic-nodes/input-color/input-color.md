@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Couleur en entrée
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : couleur d&#39;entrée](input-color.resources/comp_inputcolor_1.png "Noeud atomique : couleur d&#39;entrée"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## Description
 
@@ -45,9 +45,9 @@ Voir aussi : [Entrée en niveaux de gris](../input-grayscale/input-grayscale.md)
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-color.resources/input-color-tooltip.gif" alt="Info-bulle Couleur d’entrée" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-color.resources/input-color-tooltip.gif" alt="Info-bulle Couleur d’entrée" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

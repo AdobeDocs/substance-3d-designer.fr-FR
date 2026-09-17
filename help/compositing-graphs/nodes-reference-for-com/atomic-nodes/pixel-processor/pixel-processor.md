@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de pixels
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : Processeur de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Noeud atomique : Processeur de pixels"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Génère une image où la valeur de chaque pixel est le résultat du [graphe de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) spécifié.
 
@@ -41,9 +41,9 @@ C&#39;est de loin le nœud le plus polyvalent, car il permet d&#39;exécuter n&#
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="info-bulle du processeur de pixels" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="info-bulle du processeur de pixels" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

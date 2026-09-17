@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de valeurs
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -20,14 +20,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : Processeur de valeurs](value-processor.resources/comp_valueprocessor_1.png "Noeud atomique : Processeur de valeurs"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Calcule un [graphe de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) et génère son résultat.
 
@@ -39,9 +39,9 @@ Elle est comparable à un [Processeur de pixels](../../../../compositing-graphs/
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="info-bulle value-processor" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="info-bulle value-processor" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

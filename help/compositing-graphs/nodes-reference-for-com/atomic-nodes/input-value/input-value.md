@@ -10,26 +10,24 @@ helpx_tags: ""
 title: Valeur d'entrée
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 1%
+source-wordcount: '803'
+ht-degree: 0%
 ---
 
 # Valeur d&#39;entrée
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : valeur d&#39;entrée](input-value.resources/comp_inputnumeric_1.png "Noeud atomique : valeur d&#39;entrée"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
-
-## Description
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Les noeuds d&#39;entrée sont un type spécial de nœud qui crée un emplacement dynamique dans votre graphe, ce qui permet de connecter n&#39;importe quelle entrée une fois que votre Graphe est utilisé dans un autre contexte.
 
@@ -45,9 +43,9 @@ Voir aussi : [Couleur d&#39;entrée](../input-color/input-color.md), [Niveaux de
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-value.resources/input-value-tooltip.gif" alt="Info-bulle de la valeur d’entrée" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="Info-bulle de la valeur d’entrée" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

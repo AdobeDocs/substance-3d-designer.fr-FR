@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : FX-Map](fx-map.resources/fxmap.png "Noeud atomique : FX-Map"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Le FX-Map peut répliquer et subdiviser une image ou un motif saisi à plusieurs reprises, et contrôler la répartition de chaque motif grâce à des paramètres et des fonctions logiques.
 
@@ -39,9 +39,9 @@ C&#39;est l&#39;un des noeuds atomiques les plus puissants, ainsi que le nœud l
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="info-bulle fx-map" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="info-bulle fx-map" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : Distance](distance.resources/comp_distance_1.png "Noeud atomique : Distance"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Recherche la position du pixel blanc le plus proche dans un masque et génère soit un dégradé à partir de cette position, soit la couleur à cette position dans une image source.
 
@@ -39,9 +39,9 @@ Ce nœud crée une atténuation linéaire vers l’extérieur (dégradé) à par
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="distance.resources/distance-tooltip.gif" alt="infobulle de distance" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="distance.resources/distance-tooltip.gif" alt="infobulle de distance" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

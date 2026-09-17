@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformation 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 5%
@@ -20,14 +20,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Noeud atomique : Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Noeud atomique : Transformation 2D"){width="100%"}
 
 <b>Entrée :</b> Noeuds atomiques
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Applique une matrice de transformation 2D à une image : translation, rotation, mise à l’échelle, symétrie et cisaillement.
 
@@ -39,9 +39,9 @@ Il est très similaire au Transformé (Ctrl-T) dans Photoshop ou à l’utilisat
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="info-bulle transformation-2d" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="info-bulle transformation-2d" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
