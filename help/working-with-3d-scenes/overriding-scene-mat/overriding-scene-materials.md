@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+breadcrumb-title: ""
 description: Remplacez les matériaux existants dans les scènes 3D pour les remplacer par vos propres matériaux de Substance à tester et prévisualiser.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Remplacement des matériaux de scène
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
-
 
 # Remplacement des matériaux de scène
 
@@ -25,26 +23,6 @@ Lorsque vous utilisez des scènes 3D avec des matériaux existants, il est néce
 Votre matériau peut être créé à partir de zéro ou une version ajustée du matériau d&#39;une scène [extraite dans un graphe de Substance](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
 ![Remplacement d&#39;un matériau de scène, modification et rétablissement de l&#39;état de scène](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Remplacement d&#39;un matériau de scène, modification et rétablissement de l&#39;état de scène"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Remplacer le matériau de scène
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Rétablir l’état de scène
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Matériau connecté
-
-</td>
-</tr>
-</table>
 
 ## Remplacer le matériau de scène
 

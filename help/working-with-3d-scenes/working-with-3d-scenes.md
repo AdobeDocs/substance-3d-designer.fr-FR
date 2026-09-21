@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
 description: Apprenez à importer, modifier et utiliser des scènes 3D dans Substance 3D Designer pour prévisualiser et tester vos matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Utilisation des scènes 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # Utilisation des scènes 3D
 
@@ -32,26 +30,6 @@ Lorsque vous avez terminé avec Scène 3D, vous pouvez [l&#39;exporter](../worki
 Lors de l&#39;exportation aux formats USD, ce workflow peut être entièrement <b>non destructif</b>, ce qui signifie que seules les modifications et les ajouts sont exportés.
 
 Tout d’abord, vous devez charger une Scène 3D sur laquelle travailler et être en mesure de conserver son état dans Designer entre les sessions.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Contenu des scènes 3D
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Chargement d’une scène
-
-</td>
-<td style="border: 0;" valign="top">
-
-### fichiers d’état de scène
-
-</td>
-</tr>
-</table>
 
 ## Contenu des scènes 3D
 

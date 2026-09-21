@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+breadcrumb-title: ""
 description: Utilisez le nœud de Bruit 3D Simplex pour générer des motifs de bruit 3D simplex afin de créer des textures volumiques lisses et naturelles.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: bruit simplifié 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 5%
-
 ---
-
 
 # bruit simplifié 3D
 
@@ -53,10 +51,12 @@ Ce bruit peut être testé avec [Cube 3D GBuffers](https://support.allegorithmic
 
 ## Exemples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-simplex-noise.resources/3d-simplex.gif" class="modal-image" alt="bruit simplifié 3D - Exemple 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

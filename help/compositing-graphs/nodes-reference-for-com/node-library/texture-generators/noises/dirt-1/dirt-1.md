@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Dirt 1 pour générer des modèles de dirt de base afin de créer des détails de surface altérés et des effets d’accumulation.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: DIRT 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '247'
 ht-degree: 1%
-
 ---
-
 
 # DIRT 1
 
@@ -66,32 +64,23 @@ Voir aussi : [Dirt 2](../../../../../../compositing-graphs/nodes-reference-for-c
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 1 - Exemple 1](dirt-1.resources/dirt_1_1.png "Dirt 1 - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 1 - Exemple 2](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso0.gif "Dirt 1 - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 1 - Exemple 3](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso1.gif "Dirt 1 - Exemple 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 1 - Exemple 4](dirt-1.resources/noise_dirt_1_v2_speed0.3_aniso0.6.gif "Dirt 1 - Exemple 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-1.resources/dirt_1_1.png" class="modal-image" alt="Dirt 1 - Exemple 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="Dirt 1 - Exemple 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso1.gif" class="modal-image" alt="Dirt 1 - Exemple 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-1.resources/noise_dirt_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Dirt 1 - Exemple 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+breadcrumb-title: ""
 description: Utilisez le nœud fractal de Bruit strié 3D pour générer des motifs de bruit fractal strié dans l’espace 3D afin de créer des textures de type montagne.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: bruit 3D à arête fractale
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 
 # bruit 3D à arête fractale
 
@@ -68,13 +66,14 @@ Ce nœud peut être testé avec [Cube 3D GBuffers](../../../../../../compositing
 
 ## Exemples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" class="modal-image" alt="bruit 3D à arête fractale - Exemple 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" class="modal-image" alt="bruit 3D à arête fractale - Exemple 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
