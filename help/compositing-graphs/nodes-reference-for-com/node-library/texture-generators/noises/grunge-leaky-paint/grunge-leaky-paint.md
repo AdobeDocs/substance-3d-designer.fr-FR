@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+breadcrumb-title: ""
 description: Utilisez le nœud Usure/salissures Leaky Peinture pour générer des motifs de fuite de peinture afin de créer des effets de surface vieillis et altérés.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Peinture de fuite d'Usure/salissures
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '150'
 ht-degree: 2%
-
 ---
-
 
 # Peinture de fuite d&#39;Usure/salissures
 
@@ -57,13 +55,14 @@ Le nœud **Usure/salissures Leaky Peinture** génère une carte usure/salissures
 
 ## Exemples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" class="modal-image" alt="Usure/salissures Leaky Peinture - Exemple 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" class="modal-image" alt="Usure/salissures Leaky Peinture - Exemple 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

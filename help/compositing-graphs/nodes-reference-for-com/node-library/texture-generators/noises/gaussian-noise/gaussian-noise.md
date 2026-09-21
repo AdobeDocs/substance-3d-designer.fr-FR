@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
+breadcrumb-title: ""
 description: Utilisez le nœud de Bruit gaussien pour générer des motifs de bruit distribués par gaussie afin de créer des textures et des variations organiques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bruit gaussien
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '260'
 ht-degree: 1%
-
 ---
-
 
 # Bruit gaussien
 
@@ -65,32 +63,23 @@ Voir aussi : [Taches gaussiennes 1](../../../../../../compositing-graphs/nodes-r
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![bruit Gaussien - Exemple 1](gaussian-noise.resources/gaussian_noise-1_1.png "bruit Gaussien - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![bruit Gaussien - Exemple 2](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso0.gif "bruit Gaussien - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![bruit gaussien - Exemple 3](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso1.gif "bruit gaussien - Exemple 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![bruit gaussien - Exemple 4](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif "bruit gaussien - Exemple 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/gaussian_noise-1_1.png" class="modal-image" alt="Bruit gaussien - Exemple 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso0.gif" class="modal-image" alt="Bruit gaussien - Exemple 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso1.gif" class="modal-image" alt="Bruit gaussien - Exemple 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Bruit gaussien - Exemple 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
