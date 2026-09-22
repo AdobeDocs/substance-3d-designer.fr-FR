@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Règles de syntaxe, extensions personnalisées et pièges pour l’écriture de contenu Markdown publié sur Adobe Experience League. Utilisez cette compétence lors de la création ou de la modification d’une page sous help/ dans ce référentiel (ou tout autre référentiel de contenu Experience League) : en-têtes, liens, images, tableaux, blocs de notes/d’alertes, balises UICONTROL/DNL, incorporations vidéo, ancres et pièges de rendu connus. Source : https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Règles de syntaxe, extensions personnalisées et pièges pour l’écriture de contenu Markdown publié sur Adobe Experience League. Utilisez cette compétence lors de la création ou de la modification d’une page sous help/ dans ce référentiel (ou tout autre référentiel de contenu Experience League) : en-têtes, liens, images, tableaux, blocs de notes/d’alertes, balises UICONTROL/DNL, incorporations vidéo, ancres et pièges de rendu connus. Source : https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
