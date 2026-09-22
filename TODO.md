@@ -45,7 +45,7 @@ ht-degree: 6%
 
 - Comprendre ce qui bloque le téléchargement de fichiers SBS (interrogé [ici](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Découvrez comment tester des pages en direct sans être visibles pour le public ni inclus dans les conditions d’utilisation.
-- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/fr/tools/campaign-error-codes))
 - Automatisation de la création d’un exemple d’élément
   - Assimiler les métadonnées du fichier (JSON, YAML, ...)
   - Vignette intégrée (cliquer pour agrandir)
