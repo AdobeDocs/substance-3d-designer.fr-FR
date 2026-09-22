@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Dirty d’Usure/salissures Scratches pour ajouter des motifs de rayures sales afin de créer des effets de matériau usés et vieillis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Usure/salissures Scratches Dirty
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '130'
 ht-degree: 2%
-
 ---
-
 
 # Usure/salissures Scratches Dirty
 
@@ -55,13 +53,14 @@ Le nœud **Usure/salissures Scratches Dirty** génère une carte usure/salissure
 
 ## Exemples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant2.jpg" class="modal-image" alt="Usure/salissures Scratches Dirty - Exemple 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant.jpg" class="modal-image" alt="Usure/salissures Scratches Dirty - Exemple 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

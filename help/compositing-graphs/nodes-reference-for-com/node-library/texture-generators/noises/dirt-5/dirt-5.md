@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Dirt 5 pour générer des motifs de dirt avancés afin de créer des détails de surface patinés et vieillis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 5
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: DIRT 5
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '246'
 ht-degree: 1%
-
 ---
-
 
 # DIRT 5
 
@@ -65,32 +63,23 @@ Voir aussi : [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-c
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - Exemple 1](dirt-5.resources/dirt_5_1.png "Dirt 5 - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - Exemple 2](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso0.gif "Dirt 5 - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - Exemple 3](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso1.gif "Dirt 5 - Exemple 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - Exemple 4](dirt-5.resources/noise_dirt_5_v2_speed0.3_aniso0.6.gif "Dirt 5 - Exemple 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-5.resources/dirt_5_1.png" class="modal-image" alt="Dirt 5 - Exemple 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso0.gif" class="modal-image" alt="Dirt 5 - Exemple 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso1.gif" class="modal-image" alt="Dirt 5 - Exemple 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-5.resources/noise_dirt_5_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Dirt 5 - Exemple 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Waveform 1 pour générer des motifs de forme d’onde afin de créer des textures organiques et des variations procédurales.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Forme d’onde 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 1%
-
 ---
-
 
 # Forme d’onde 1
 
@@ -69,17 +67,12 @@ Disposition horizontale de motifs sélectionnés par l’utilisateur empilés da
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Forme D&#39;Onde 1 - Exemple 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Forme D&#39;Onde 1 - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif" class="modal-image" alt="Forme d’onde 1 - Exemple 1" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

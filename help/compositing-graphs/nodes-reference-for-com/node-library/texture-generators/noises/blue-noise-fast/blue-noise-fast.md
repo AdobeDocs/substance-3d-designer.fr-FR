@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Bruit bleu rapide pour générer des motifs de bruit bleu rapide afin de créer un dithering et des variations de texture de haute qualité.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Blue Noise Fast
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bruit bleu rapide
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '82'
 ht-degree: 6%
-
 ---
-
 
 # Bruit bleu rapide
 
@@ -49,10 +47,12 @@ Un bruit simple, rapide et à l’échelle des pixels.
 
 ## Exemples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="blue-noise-fast.resources/blue-noise-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="blue-noise-fast.resources/blue-noise-ex.gif" class="modal-image" alt="Bruit bleu rapide - Exemple 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

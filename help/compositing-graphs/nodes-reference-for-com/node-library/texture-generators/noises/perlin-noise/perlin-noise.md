@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud de Bruit Perlin pour générer des motifs de bruit lisses et naturels afin de créer des textures et des variations organiques.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Perlin noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bruit Perlin
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '172'
 ht-degree: 2%
-
 ---
-
 
 # Bruit Perlin
 
@@ -61,17 +59,14 @@ Génère un bruit de Perlin, une distribution lissée des valeurs de niveaux de 
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![bruit Perlin - Exemple 1](perlin-noise.resources/perlin_noise_1.png "bruit Perlin - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![bruit Perlin - Exemple 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "bruit Perlin - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="perlin-noise.resources/perlin_noise_1.png" class="modal-image" alt="Bruit Perlin - Exemple 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif" class="modal-image" alt="Bruit Perlin - Exemple 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

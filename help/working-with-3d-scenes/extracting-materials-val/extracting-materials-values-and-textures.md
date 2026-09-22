@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Extrayez les propriétés de matériau des scènes 3D pour les utiliser dans les graphes de Substance pour les workflows de création de matériaux.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,39 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Extraction de valeurs et de textures de matériaux
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # Extraction de valeurs et de textures de matériaux
 
 Les propriétés des matériaux peuvent être extraites pour être utilisées dans des graphes de Substance.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Nouveau graphe à partir des textures
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extraire la texture
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extraire une valeur
-
-</td>
-</tr>
-</table>
 
 ## Nouveau graphe à partir des textures
 

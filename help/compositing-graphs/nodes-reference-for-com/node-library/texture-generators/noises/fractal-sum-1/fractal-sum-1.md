@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Somme fractale 1 pour générer des motifs de bruit fractal en additionnant plusieurs octaves afin de créer des textures détaillées.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SOMME FRACTALE 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '145'
 ht-degree: 2%
-
 ---
-
 
 # SOMME FRACTALE 1
 
@@ -61,17 +59,14 @@ Voir aussi : [Somme fractale de base](../../../../../../compositing-graphs/nodes
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Somme fractale 1 - Exemple 1](fractal-sum-1.resources/fractal_sum_1_1.png "Somme fractale 1 - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Somme fractale 1 - Exemple 2](fractal-sum-1.resources/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "Somme fractale 1 - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fractal-sum-1.resources/fractal_sum_1_1.png" class="modal-image" alt="Somme fractale 1 - Exemple 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="fractal-sum-1.resources/noise_fractal_sum_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="Somme fractale 1 - Exemple 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

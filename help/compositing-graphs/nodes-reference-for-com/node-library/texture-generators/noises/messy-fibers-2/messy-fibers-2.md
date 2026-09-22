@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Messy Fibres 2 pour générer des motifs de fibres intermédiaires afin de créer des textures tissées et textiles.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fibres désordonnées 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '311'
 ht-degree: 1%
-
 ---
-
 
 # Fibres désordonnées 2
 
@@ -68,32 +66,23 @@ Voir aussi : [Fibres désordonnées 1](../../../../../../compositing-graphs/node
 
 ## Exemples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fibres désordonnées 2 - Exemple 1](messy-fibers-2.resources/messy_fibers_2_1.png "Fibres désordonnées 2 - Exemple 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fibres désordonnées 2 - Exemple 2](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "Fibres désordonnées 2 - Exemple 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fibres désordonnées 2 - Exemple 3](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "Fibres désordonnées 2 - Exemple 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fibres désordonnées 2 - Exemple 4](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "Fibres désordonnées 2 - Exemple 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/messy_fibers_2_1.png" class="modal-image" alt="Fibres désordonnées 2 - Exemple 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif" class="modal-image" alt="Fibres désordonnées 2 - Exemple 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif" class="modal-image" alt="Fibres désordonnées 2 - Exemple 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif" class="modal-image" alt="Fibres désordonnées 2 - Exemple 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

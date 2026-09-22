@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez le nœud Usure/salissures Shavings pour générer des motifs de rasage afin de créer des détails de grain de bois et de texture de matériau.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Usure/salissures Shavings
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '160'
 ht-degree: 5%
-
 ---
-
 
 # Usure/salissures Shavings
 
@@ -57,13 +55,14 @@ Le nœud **Rasages Usure/salissures** dans [Substance 3D Designer](https://www.a
 
 ## Exemples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" class="modal-image" alt="Usure/salissures Shavings - Exemple 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" class="modal-image" alt="Usure/salissures Shavings - Exemple 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
