@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
 description: Utilisez l'Explorateur de Scènes pour parcourir et gérer les éléments, matériaux et objets Scène 3D du viewport.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Navigateur de scènes
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # Navigateur de scènes
 
@@ -30,26 +28,6 @@ Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](scene-browser.re
 
 ![Explorateur de Scènes - Scène 3D chargée](scene-browser.resources/loaded3DScene.png "Explorateur de Scènes - Scène 3D chargée"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Arborescence de scène
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Basculement d’objets dans la scène
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Matériaux connectés
-
-</td>
-</tr>
-</table>
-
 ## Arborescence de scène
 
 <table>
@@ -59,6 +37,8 @@ Il s&#39;affiche en cliquant sur son bouton bascule dédié ![](scene-browser.re
 L’explorateur de scènes de données affiche une liste d’objets organisés en arborescence hiérarchique.
 
 Les objets sont associés à d’autres objets jusqu’à la racine de la scène. Un objet parent possède un bouton fléché qui permet de développer ou de réduire la liste de ses enfants.
+
+Certains objets ont des propriétés qui peuvent être affichées et modifiées dans le dock [Propriétés](../../../interface/properties/properties.md) lorsqu&#39;ils sont sélectionnés : environnement, caméra, éclairage, `Mesh` objets et [remplacements](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) de matériau.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
