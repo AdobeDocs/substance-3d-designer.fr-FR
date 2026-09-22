@@ -196,7 +196,7 @@ nécessaire. Les tableaux de HTML ne peuvent pas contenir de tableaux imbriqués
 
 * Code intégré : backticks simples.
 * Blocs clôturés : triple backticks, avec un langage facultatif pour la syntaxe
-mise en surbrillance (` ```python `, ` ```javascript `, etc.).
+mise en surbrillance (` `&#x200B;``python `, ` ``&#x200B;`javascript `, etc.).
 
 ## Blocs de note/d’alerte
 

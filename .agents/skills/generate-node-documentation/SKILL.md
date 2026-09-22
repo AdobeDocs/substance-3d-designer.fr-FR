@@ -25,7 +25,7 @@ lint gotchas) suivez la compétence `write-experience-league-markdown`.
   `.../node-library/<category>/<subcategory>/<node-name>/<node-name>.md`.
 * Le dossier porte le nom de nœud kebab-case ; il contient le fichier **one** `.md`
 nommé de la même manière.
-* Tous les médias incorporés de la page (icône, exemples d&#39;images, GIFs) résident dans un frère **  `<node-name>.resources/` dossier **en regard de `.md` et sont référencés par un
+* Tous les médias incorporés de la page (icône, exemples d&#39;images, GIFs) résident dans un frère **&#x200B;  `<node-name>.resources/` dossier &#x200B;** en regard de `.md` et sont référencés par un
   chemin relatif (par exemple `<node-name>.resources/<file>.png`). Ne pas pointer les pages de nœud sur
   le dossier partagé `help/assets/`, c&#39;est-à-dire un modèle hérité en cours de suppression progressive ; nouveau et
   les pages modifiées utilisent leur propre dossier `.resources`.
@@ -88,8 +88,8 @@ Conventions de la prose des cellules de description :
 les noms de sous-catégories du nœud lui-même ; ne les inventez pas.
 * Pour les nœuds avec plusieurs versions (par exemple, couleur/niveaux de gris/valeur ou variantes numérotées)
 comme les Cellules 1 / Cellules 2), ajouter un dernier paragraphe de description qui fait référence à l&#39;autre
-les versions avec des liens relatifs, séparés par un seul saut de ligne. Exemple : `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`.
+les versions avec des liens relatifs, séparés par un seul saut de ligne. Exemple : &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;.
 
 ### &#x200B;3. Légendes facultatives
 
