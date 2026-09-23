@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # TODO
 
@@ -14,7 +14,6 @@ ht-degree: 11%
 ## Ajouts
 
 * Points d’entrée pour la documentation de l’API Python sur Adobe Docs
-* Vue 3D : utilisez `refineLevel = 0` pour améliorer les performances lors de l’utilisation du displacement sur les maillages à poly élevé
 * Exemples dans la page contextuelle Documentation
 * Glossaire :
   * HDR
@@ -41,3 +40,17 @@ ht-degree: 11%
 ## Enquête
 
 * Composant Avant/Après
+
+## CENTRE D’APPRENTISSAGE
+
+- Comprendre ce qui bloque le téléchargement de fichiers SBS (interrogé [ici](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
+- Découvrez comment tester des pages en direct sans être visibles pour le public ni inclus dans les conditions d’utilisation.
+- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/fr/tools/campaign-error-codes))
+- Automatisation de la création d’un exemple d’élément
+  - Assimiler les métadonnées du fichier (JSON, YAML, ...)
+  - Vignette intégrée (cliquer pour agrandir)
+  - Marqueur de complexité dans les éléments d’exemple
+- Fournir des exemples d’auteurs avec un outil de validation SBS
+- Mentionnez les fichiers SBS téléchargeables à partir de ressources 3D (avec abonnement actif)
+
+Microsite pour le glossaire ?

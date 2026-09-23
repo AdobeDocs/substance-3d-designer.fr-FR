@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Appliquez des effets de post-traitement à la caméra de vue 3D pour une prévisualisation et une visualisation du matériau améliorées.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Effets de post-traitement
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # Effets de post-traitement
 
@@ -27,31 +25,6 @@ Dans les propriétés de caméra, vous pouvez activer les effets de post-traitem
 Ces effets sont développés en interne et ne sont disponibles que pour le pixelliseur et les [rendus](../../../../interface/3d-view/3d-renderers/3d-renderers.md) Pathtracer GPU.
 
 Tout effet de post activé au moment de l&#39;enregistrement des [ressources Scène 3D](../../../../resources/3d-scene-resource/3d-scene-resource.md) ou des [fichiers d&#39;état de scène](../../../../working-with-3d-scenes/working-with-3d-scenes.md) sera enregistré comme faisant partie de l&#39;état de scène.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Mappage de tons
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Flou lumineux
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Profondeur de champ
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Mappage de tons
 

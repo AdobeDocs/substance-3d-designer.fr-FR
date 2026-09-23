@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez la vue 3D dans Substance 3D Designer pour prévisualiser les matériaux sur des objets 3D et tester les conditions d’éclairage.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Vue 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 1%
-
 ---
-
 
 # Vue 3D
 
@@ -169,20 +167,21 @@ Il existe quelques [shaders](../../glossary/glossary.md) différents disponibles
 
 Gardez à l’esprit que les nuanciers sont différents entre les [systèmes de rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) de Designer et que seuls les paramètres marqués avec un libellé « Commun » sont conservés lors du changement de système de rendu.
 
-Pour modifier le shader actuel, accédez à <b> Dans le menu « </b>Matériaux », ouvrez le sous-menu correspondant au matériau que vous souhaitez modifier.
+Pour modifier le shader actuel, accédez au menu **Matériaux**, puis ouvrez le sous-menu correspondant au matériau que vous souhaitez modifier.
 
-Par exemple, pour ajuster la propriété « Échelle d’Height » pour le matériau « Par défaut » dans la scène « Plan (haute résolution) », accédez à « Matériaux > Par défaut > Modifier les propriétés ». Recherchez ensuite la propriété « Échelle d’Height » dans le dock Propriétés.
+Par exemple, pour ajuster la propriété de matériau a pour le matériau « `Default` » dans la scène « Plan (haute résolution) », accédez à **Matériaux > Par défaut > Modifier les propriétés**. Recherchez ensuite la propriété matériau dans le dock Propriétés.
 
 Les shaders peuvent être réinitialisés à l’aide des actions « Réinitialiser le matériau » ou « Réinitialiser l’état de la scène » dans le sous-menu. Si vous visualisiez des sorties du graphe de Substance dans la vue 3D, vous devrez les réappliquer.
 
 >[!NOTE]
 >
-> À propos de la tessellation
+> **À propos de la tessellation**
 > 
-> La propriété « Facteur de Tessellation » varie en fonction du moteur de rendu 3D sélectionné :
+> La tessellation d&#39;un maillage peut être ajustée à l&#39;aide du paramètre **Facteur de Tessellation** dans la fenêtre contextuelle [Displacement](displacement/displacement.md#tessellation).
+> La propriété spécifique contrôlée par ce paramètre varie en fonction du moteur de rendu 3D actif :
 > 
-> * <b>Pixellisation/Pathtracer GPU :</b> situé dans les paramètres de rendu (Moteur de rendu > Modifier les paramètres), a un impact sur *la scène entière*.
-> * <b>OpenGL :</b> situé dans les propriétés du matériau, affecte le matériau.
+> * **Pixellisation/Pathtracer GPU :** propriété par objet nommée **Affiner le niveau**. Sélectionnez un objet `Mesh` dans l&#39;[explorateur de Scènes de données](scene-browser/scene-browser.md) pour afficher ses propriétés et le modifier directement.
+> * **OpenGL :** propriété par matériau nommée **facteur de Tessellation**. Accédez aux [propriétés du matériau](#change-shader-properties) pour le modifier directement.
 
 ![Exportation de la scène](3d-view.resources/3d-view-export-scene.gif "Exportation de la scène")
 

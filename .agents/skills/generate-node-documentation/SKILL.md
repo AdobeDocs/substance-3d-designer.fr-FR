@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  Comment créer une page de référence de nœud Substance 3D Designer afin qu’elle corresponde à la mise en page standard utilisée dans help/compositing-graphes/nodes-reference-for-com/node-library/. Utilisez cette compétence lors de la création ou de la modification d'une page de nœud (description, entrées, sorties, paramètres ou exemples d'un nœud) sous cette arborescence de la bibliothèque de nœuds, ou des pages de référence de fonction/nœud atomique équivalentes. Couvre la convention du dossier/de la table des matières, la page de garde minimale, le tableau des icônes/descriptions, les tableaux des entrées/sorties/paramètres ancrés et la galerie d’exemples. Pour les règles générales Adobe Experience League Markdown (légendes, liens, UICONTROL/DNL, images), utilisez la compétence write-experience-league-markdown ; cette compétence ne couvre que la structure nœud-page. Exemple canonique : help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # Génération de la documentation du nœud
 
@@ -31,13 +30,13 @@ nommé de la même manière.
   le dossier partagé `help/assets/`, c&#39;est-à-dire un modèle hérité en cours de suppression progressive ; nouveau et
   les pages modifiées utilisent leur propre dossier `.resources`.
 * Chaque page a une entrée correspondante dans `help/guide/TOC.md`. Lors de l’ajout ou du déplacement d’un
-mettre à jour `TOC.md` et la disposition du dossier ensemble (voir le dossier/la table des matières de CLAUDE.md
+mettre à jour `TOC.md` et la disposition du dossier ensemble (voir Dossier/Table des matières d&#39;AGENTS.md
 convention).
 
 ## Pages liminaires
 
 Les pages de nœud utilisent le bloc **minimal** : uniquement `title` et un style de chemin de navigation
-`description`. (Ce bloc est différent des documents CLAUDE.md hérités à 11 champs pour
+`description`. (Ceci est différent des 11 champs du bloc existant AGENTS.md documents pour
 pages de contenu standard.)
 
 ```yaml
@@ -87,6 +86,10 @@ Conventions de la prose des cellules de description :
 * Les parties d&#39;entrée utilisent `<i>Note:</i>` / `<i>Tip:</i>` au début de la phrase.
 * Utilisez `&gt;` pour `>` sur la ligne `In:` (elle se trouve dans le HTML). Choisir la catégorie /
 les noms de sous-catégories du nœud lui-même ; ne les inventez pas.
+* Pour les nœuds avec plusieurs versions (par exemple, couleur/niveaux de gris/valeur ou variantes numérotées)
+comme les Cellules 1 / Cellules 2), ajouter un dernier paragraphe de description qui fait référence à l&#39;autre
+les versions avec des liens relatifs, séparés par un seul saut de ligne. Exemple : &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;.
 
 ### &#x200B;3. Légendes facultatives
 
@@ -148,27 +151,35 @@ lignes du groupe :
 
 ### &#x200B;7. Exemples
 
-Inclure uniquement s’il existe des exemples d’images/de GIFs. Utiliser un tableau de galerie de HTMLS ; un `<td>`
-par image avec une légende facultative ; effectuez un retour à la ligne vers un nouveau `<tr>` après 3 images. Chemins d’accès aux médias
-pointez dans le dossier `.resources` de la page.
+Inclure uniquement s’il existe des exemples d’images/de GIFs. Utilisation d’un HTML sans bordure à mise en page fixe
+table de la galerie ; un `<td>` par image ; retour à la ligne vers un nouveau `<tr>` après 3 images. Chemins d’accès aux médias
+pointez dans le dossier `.resources` de la page. Utiliser un élément de HTML `<img>` pour chaque
+par exemple, avec `class="modal-image"` pour que l&#39;image publiée s&#39;ouvre dans la norme
+visionneuse d’images. Fournissez un texte `alt` significatif qui identifie le nœud et l&#39;exemple
+nombre. N’utilisez pas la syntaxe d’image Markdown dans cette galerie.
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-Laisser les cellules de fin dans une dernière ligne partiellement remplie vides (`<td …></td>`) plutôt que
-redistribution. Omettez les sous-titres si la source n’en a pas.
+Conserver le `style="table-layout:fixed"` de la table et le `style="border: 0;"`
+attributs tels qu’ils apparaissent ; n’ajoutez pas de bordures, de marges ni de styles d’arrière-plan.
+Laisser les cellules de fin dans une dernière ligne partiellement remplie vides
+(`<td style="border: 0;"></td>`) plutôt que de redistribuer. Utiliser l’image existante
+ordre et noms de fichiers. Si une page comporte des légendes, conservez-les plutôt en tant que texte `alt`
+plutôt que d’ajouter une annotation de légende visible. Omettre toute la section lorsque la page n’a pas
+exemple de média.
 
 ## Valeurs de type canonique
 

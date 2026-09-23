@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Utilisez la fenêtre contextuelle Displacement pour régler rapidement le displacement et la tessellation appliqués aux maillages d’une Scène 3D.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: vue 3D - Fenêtre contextuelle Displacement
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # Fenêtre contextuelle displacement
 
@@ -74,6 +72,13 @@ valeur de subdivision.
 
 La subdivision est contextuelle : elle est optimisée de sorte que seule une surface présente une *valeur d&#39;height non uniforme* ou
 une *map height non plate* sera subdivisée, quelle que soit la valeur du paramètre.
+
+>[!TIP]
+>
+>La technique de tessellation implique une étape de préparation qui s&#39;exécute indépendamment de toute tessellation qui se produit réellement. (C’Est-À-Dire `Tessellation factor = 1`)
+>Pour les maillages à haute densité de poly, cette étape peut être longue et avoir un impact significatif sur les performances lors de l&#39;utilisation du displacement.
+>
+>Si la tessellation n&#39;est pas nécessaire, vous pouvez la désactiver entièrement en définissant le paramètre **Affiner le niveau** sur `0` dans les propriétés des objets `Mesh` répertoriés dans l&#39;[Explorateur de Scènes](../scene-browser/scene-browser.md#scene-tree).
 
 ### Par matériau
 
