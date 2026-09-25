@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: Découvrez le workflow essentiel pour créer des matériaux procéduraux dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -10,37 +10,43 @@ helpx_tags: ""
 title: Présentation du workflow
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
 
 # Présentation du workflow
 
-Substance 3D Designer est un éditeur basé sur des nœuds. Cela signifie que presque tous les types de projet ou de ressource impliqueront de placer des nœuds (composantes) et de les connecter pour créer une chaîne d’opérations (un Graphe). Cette page explique le concept des workflows basés sur les nœuds et fournit un résumé des 3 principaux types de Graphes que vous pouvez créer dans Designer.
+Substance 3D Designer est un éditeur basé sur les nœuds. Cela signifie que presque tous les types de projet ou de ressource impliquent de placer des nœuds (composantes) et de les connecter pour créer une chaîne d&#39;opérations (un graphe).\
+Cette page explique le concept de workflows basés sur les nœuds et fournit un résumé des 3 principaux types de graphes que vous pouvez créer dans Designer.
 
 ![Flux de données simplifié](workflow-overview.resources/graph-direction.png "Flux de données simplifié"){zoomable="yes"}
 
 ## Workflow basé sur les nœuds
 
-Travailler dans Designer est différent des autres logiciels de retouche d’images 2D tels que Photoshop. Au lieu d&#39;effectuer une action manuellement (comme ajuster la saturation en accédant à une option de menu et en modifiant un curseur), <b>construisez les étapes logiques</b> de la modification ou de la création de votre image. Cela se produit en construisant un réseau de petits blocs de construction appelés «nœuds». Les données d&#39;image se déplacent de <b> gauche à droite</b> à travers les composantes, connectées par des liens qui déterminent le chemin des informations. Chaque nœud, s&#39;il est connecté, contribuera aux résultats finaux.
+Travailler dans Designer est différent des autres logiciels de retouche d’images 2D tels que Photoshop. Au lieu d’effectuer une action manuellement (comme ajuster la saturation en accédant à une option de menu et en modifiant un curseur), vous construisez les étapes logiques de la modification ou de la création de votre image. Cela se produit en construisant un réseau de petits blocs de construction appelés «nœuds». Les données d&#39;image se déplacent de <b> gauche à droite</b> à travers les composantes, connectées par des liens qui déterminent le chemin des informations. Chaque nœud, s&#39;il est connecté, contribuera aux résultats finaux.
 
-Le principal avantage est que votre workflow devient <b>non linéaire</b>. Contrairement aux actions exécutées manuellement qui sont consignées dans une pile de données d&#39;historique, vous pouvez toujours remplacer ou modifier un nœud à tout moment. Si vous estimez que votre tout premier réglage de contraste, qui a affecté le résultat de votre image jusqu’à la fin, a été trop important, vous pouvez toujours revenir en arrière et l’ajuster ou même le découper complètement, sans perdre tout le travail que vous avez effectué par la suite.
+Le principal avantage est que votre workflow devient **non linéaire** : contrairement aux actions effectuées manuellement qui sont consignées dans une pile de données d&#39;historique, vous pouvez toujours remplacer ou modifier un nœud à tout moment.
+Si vous estimez que votre tout premier réglage de contraste affectant le résultat final a été trop intense, vous pouvez toujours revenir en arrière et le régler, voire le couper complètement, sans perdre tout le travail que vous avez effectué par la suite.
 
 ![Instances de graphe simplifiées](workflow-overview.resources/sub-graph.png "Instances de graphe simplifiées")
 
 ## Workflow d’Instance de graphe
 
-L’instanciation de Graphes est un processus essentiel dans Designer. Il vous permet de créer vos propres nœuds en prenant n&#39;importe quelle taille ou type de Graphe et en le regroupant comme nouveau bloc de construction Node. Ces types de nœuds sont appelés « Instances de graphe » Cela vous permet d&#39;être beaucoup plus efficace, de gagner du temps et de partager le travail avec d&#39;autres. Avez-vous développé une excellente technique pour l&#39;usure des bords par exemple ? Créez-en une Instance de graphe et réutilisez-la vous-même, partagez-la avec la communauté ou votre équipe !
+L’instanciation de graphes est un processus essentiel dans Designer. Il vous permet de créer vos propres nœuds en regroupant un graphe ou une partie d’un graphe en tant que nœud réutilisable. Ceux-ci sont appelés [instanciers](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) et vous permettent de travailler plus efficacement en réutilisant les graphes.\
+Par exemple : Avez-vous développé une excellente technique pour l&#39;usure des bords ? Divisez-le en un graphe séparé et réutilisez-le dans d’autres projets !
 
-Pour plus d&#39;informations sur les Instances de graphe dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md), une [section dédiée](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) est disponible à leur sujet dans la documentation.
+Pour plus d&#39;informations sur les instances de graphe, il existe une [section dédiée](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sur leur utilisation dans les [graphes de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 ![Paramètres de Graphe simplifiés](workflow-overview.resources/parameters-5.png "Paramètres de Graphe simplifiés"){zoomable="yes"}
 
 ## Paramètres personnalisés
 
-Tous les nœuds de votre chaîne d’opérations auront une forme de contrôle : des boutons, des curseurs, des paramètres que vous pourrez modifier, ce qui influencera le résultat final. Si vous créez un Sous-Graphe, ou si vous voulez exporter votre Fichier de Substance de données vers une autre application, vous pouvez construire votre propre « panneau de contrôle » pour vos fichiers, permettant à quiconque utilisant le Graphe de le modifier avec un panneau de contrôle entièrement unique, exposant des possibilités infinies. [Découvrez le concept général des paramètres personnalisés ici](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), ou allez plus loin dans la profondeur et [commencez à exposer des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Tous les nœuds de votre chaîne d’opérations disposeront d’une forme ou d’une autre de commandes : boutons, curseurs, paramètres que vous pourrez modifier pour influencer le résultat final.\
+Si vous créez un sous-graphe ou voulez exporter votre fichier de Substance de données vers une autre application, vous pouvez construire votre propre « panneau de contrôle » pour vos graphes, permettant aux autres utilisateurs de les modifier avec un panneau de contrôle entièrement unique.
+
+Découvrez le concept général des paramètres personnalisés [ici](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), ou allez plus loin dans la profondeur et [commencez à exposer des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## types de graphe
 
@@ -69,7 +75,7 @@ Les graphes de Substance sont [le type de graphe le plus largement pris en charg
 
 #### Exemples
 
-Vous trouverez ci-dessous quelques exemples typiques de cas d’utilisation courants.
+Vous trouverez ci-dessous quelques exemples types de cas d’utilisation courants.
 
 +++ Forme simple
 
@@ -112,9 +118,14 @@ Cet exemple utilise les [modes de création de liens](../../interface/the-graph-
 
 ### graphes de fonction de Substance
 
-Les fonctions <b>traitent des valeurs uniques</b> (entiers, flots, vecteurs) au lieu de données d&#39;image (ensembles entiers de pixels). Les fonctions sont également des Graphes avec des réseaux de nœuds, mais les [nœuds utilisés](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et l&#39;interface sont différents des [graphes de Substance normaux](../../compositing-graphs/substance-compositing-graphs.md). Le workflow est entièrement basé sur <b>des opérations mathématiques</b> et n&#39;affiche aucune vignette d&#39;aperçu d&#39;image, ce qui en fait une méthode de travail <b>beaucoup plus avancée</b> avec Substance 3D Designer.
+Les fonctions traitent **des valeurs uniques** (entiers, images flottantes, vecteurs) plutôt que des ensembles de pixels (images). Les fonctions sont également des graphes de nœuds, mais les [nœuds impliqués](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et leur interface sont différents des graphes de Substance.
 
-Les fonctions peuvent être utilisées dans de nombreux contextes différents, les principaux étant de modifier le comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), de créer le comportement de [Processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) et d&#39;utiliser des [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) dans un graphe de Substance.
+En effet, le workflow repose sur **des opérations mathématiques et logiques**, ce qui en fait une méthode de travail beaucoup plus avancée dans Designer.
+
+Les fonctions peuvent être utilisées dans de nombreux contextes différents, les principaux étant :
+* Modification du comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+* Création du comportement de [Processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+* Utilisation de [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) au lieu d&#39;images dans les graphes de Substance, à des fins spécifiques
 
 </td>
 </tr>
@@ -128,9 +139,9 @@ Vous trouverez ci-dessous quelques exemples de cas d’utilisation courants pour
 
 ![graphe de fonction simple](workflow-overview.resources/lerpfunction.png "graphe de fonction simple"){width="256px" zoomable="yes"}
 
-Fonction simple dans le contexte d&#39;un paramètre exposé. Il obtient une valeur flottante d’entrée appelée « Intensité » qui est déterminée pour aller de 0 à 1 (une plage facile à comprendre) et la remappe vers une plage définie de 0,1 à 0,8. Cela signifie que si l&#39;utilisateur définit l&#39;intensité sur 0, en interne 0,1 sera utilisé, si l&#39;interface utilisateur est définie sur 1, 0,8 sera utilisé, et toute valeur entre les deux sera interpolée linéairement. Ce type de fonction est couramment utilisé lorsque [exposez des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), mais utilisez des fonctions personnalisées.
+Fonction simple dans le contexte d&#39;un paramètre exposé. Il obtient une valeur flottante d’entrée appelée « Intensité » qui est déterminée pour aller de 0 à 1 (une plage facile à comprendre) et la remappe vers une plage définie de 0,1 à 0,8. Cela signifie que si l’utilisateur définit l’intensité sur 0, en interne 0,1 sera utilisé, si l’interface utilisateur est définie sur 1, 0,8 sera utilisé et toute valeur comprise entre les deux sera interpolée linéairement. Ce type de fonction est couramment utilisé lorsque [exposez des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), mais utilisez des fonctions personnalisées.
 
-Cette fonction peut également être écrite en tant que *lerp(0.1, 0.8, Intensité)* dans un pseudocode similaire à HLSL ou GLSL.
+Cette fonction peut également être écrite en tant que `lerp(0.1, 0.8, Intensity)` dans un pseudocode similaire à HLSL ou GLSL.
 
 +++
 
@@ -142,6 +153,6 @@ Cette fonction avancée montre le fonctionnement interne d&#39;un [Processeur de
 
 Il échantillonne les deux entrées avec la variable système « $pos », puis supprime l&#39;Alpha, convertit la valeur de couleur en TSL et modifie la composante Teinte en la multipliant par la valeur de niveaux de gris échantillonnée. Ensuite, il réassemble le vecteur, reconvertit le TSL en RGB et ajoute l’Alpha pour la sortie finale.
 
-dans le pseudo-code, il s&#39;agirait d&#39;une fonction beaucoup plus compliquée qui ne tiendrait pas sur une seule ligne.
+dans le pseudocode, il s&#39;agirait d&#39;une fonction beaucoup plus compliquée qui ne s&#39;adapterait pas à une seule ligne.
 
 +++

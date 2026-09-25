@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/activation-and-licenses.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+breadcrumb-title: ""
 description: Découvrez comment activer Substance 3D Designer et gérer les licences pour accéder à toutes les fonctionnalités et capacités.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Activation and licenses
@@ -8,29 +8,29 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Activation et licences
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 
 # Processus d’activation par type d’application
 
 Le processus d’activation dépend de l’endroit où vous avez acheté ou accédé à Designer :
 
 | Edition | Processus d’activation |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/fr/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/fr/account/individual.html) |
+|:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creative Cloud Desktop (CCD) | Installez le produit à partir de l’application CCD, puis lancez-le. Accédez à ces pages si vous rencontrez des problèmes avec votre licence : [Les applications ne se lanceront pas en raison d’une erreur d’abonnement](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Aide sur le compte, les formules et la facturation](https://helpx.adobe.com/account/individual.html) |
 | Vapeur | Lancez le produit directement depuis votre bibliothèque Steam. |
 | Substance (autonome) | Voir le processus d’activation décrit ci-dessous. |
 
 ## Étapes d’activation (édition Substance)
 
-### UTILISATION DE L’ASSISTANT D&#39;ACTIVATION
+### Utilisation de l’assistant d’activation
+
+Lorsque vous lancez Designer pour la première fois, l’Assistant d&#39;activation s’ouvre et vous guide tout au long du processus d’activation.
 
 Trois choix s&#39;offrent à vous :
 
@@ -49,34 +49,51 @@ Trois choix s&#39;offrent à vous :
 Vous pouvez activer manuellement Designer en plaçant le fichier license.key dans le dossier suivant :
 
 <table data-preserve-html="true">
-<colgroup> <col/> <col/> <col/> <col/> </colgroup><tbody><tr><th style="text-align: left;">Plateforme</th>
-<th style="text-align: left;">Version</th>
-<th colspan="2" style="text-align: left;">Chemin</th>
-</tr><tr><td rowspan="4" style="text-align: left;"><b>Windows</b></td>
-<td rowspan="2" style="text-align: left;"><b>11.2</b> ou version ultérieure</td>
-<td style="text-align: left;">AppData &gt; Local</td>
-<td style="text-align: left;">C:\Users\[nom d’utilisateur]\AppData\Local\Adobe\Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;">AppData &gt; Itinérance</td>
-<td style="text-align: left;">C:\Users\[nom d’utilisateur]\AppData\Roaming\Adobe\Adobe Substance 3D Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>11.1</b> ou version antérieure</td>
-<td style="text-align: left;">AppData &gt; Local</td>
-<td style="text-align: left;">C:\Users\[nom d’utilisateur]\AppData\Local\Allegorithmic\Substance Designer</td>
-</tr><tr><td style="text-align: left;">AppData &gt; Itinérance</td>
-<td style="text-align: left;">C:\Users\[nom d’utilisateur]\AppData\Roaming\Allegorithmic\Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Mac</b></td>
-<td style="text-align: left;"><b>11.2</b> ou version ultérieure<br/>
-</td>
-<td colspan="2" style="text-align: left;">/Users/[nom d’utilisateur]/Library/Application Support/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b> ou version antérieure<br/>
-</td>
-<td colspan="2" style="text-align: left;">/Users/[nom d’utilisateur]/Library/Application Support/Allegorithmic/Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Linux</b></td>
-<td style="text-align: left;"><b>11.2</b> ou version ultérieure</td>
-<td colspan="2" style="text-align: left;">/home/[nom d’utilisateur]/.local/share/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b> ou version antérieure<br/>
-</td>
-<td colspan="2" style="text-align: left;">/home/[nom d’utilisateur]/.local/share/Allegorithmic/Substance Designer</td>
-</tr></tbody></table>
+    <tbody>
+        <tr>
+            <th style="text-align: left;">Plateforme</th>
+            <th style="text-align: left;">Version</th>
+            <th colspan="2" style="text-align: left;">Chemin</th>
+        </tr>
+        <tr>
+            <td rowspan="4" style="text-align: left;"><b>Windows</b></td>
+            <td rowspan="2" style="text-align: left;"><b>11.2</b> ou version ultérieure</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>11.1</b> ou version antérieure</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>macOS</b></td>
+            <td style="text-align: left;"><b>11.2</b> ou version ultérieure<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b> ou version antérieure<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Allegorithmic/Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>Linux</b></td>
+            <td style="text-align: left;"><b>11.2</b> ou version ultérieure</td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b> ou version antérieure<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Allegorithmic/Substance Designer</code></td>
+        </tr>
+    </tbody>
+</table>
 
 >[!NOTE]
 >
@@ -84,8 +101,8 @@ Vous pouvez activer manuellement Designer en plaçant le fichier license.key dan
 
 >[!IMPORTANT]
 >
-> Assurez-vous que le fichier s&#39;appelle **license.key**, sinon l&#39;application ne pourra pas le trouver.
+> Assurez-vous que le fichier s&#39;appelle `license.key`, sinon l&#39;application ne pourra pas le trouver.
 
-### VARIABLE D’ENVIRONNEMENT
+### Variable d’environnement
 
-Vous pouvez remplacer l&#39;emplacement que Designer recherche pour le fichier <b>license.key</b> par une [variable d&#39;environnement](../../pipeline-and-project-con/environment-variables/environment-variables.md).
+Vous pouvez remplacer l&#39;emplacement que Designer recherche pour le fichier `license.key` par une [variable d&#39;environnement](../../pipeline-and-project-con/environment-variables/environment-variables.md).
