@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '229'
+ht-degree: 5%
 ---
 # TODO
 
@@ -31,9 +31,15 @@ ht-degree: 6%
 * Mettez à jour le fichier AGENTS.md et les compétences pour gérer :
   * Images : centrage, zoom
   * Tableaux : mise en page automatique/fixe, alignement du texte
+* DESIGNER-12465 : le paramètre `Refine level` est inerte lorsque la Map height est absente ou plate
+* DESIGNER-12652 : guide de dépannage des performances pour le rendu OpenGL destiné aux utilisateurs
+* DESIGNER-11866 : Fonctions de mappage tonal
+* DESIGNER-10655 : ajout d’exemples et de références à des exemples de projets pour Processeur de pixels et FX-Maps
+
 
 ## Correctifs
 
+* Correction de la taille des icônes dans [overview.md](help/getting-started/overview/overview.md)
 * Corriger une image rompue dans la page `BnW spots 2`
 * Corrigez le lien du 1er exemple d&#39;image dans les pages de nœuds (par ex. nouveaux bruits)
 
@@ -41,7 +47,7 @@ ht-degree: 6%
 
 * Composant Avant/Après
 
-## CENTRE D’APPRENTISSAGE
+## Concentrateur d&#39;apprentissage (branche `learning`)
 
 - Comprendre ce qui bloque le téléchargement de fichiers SBS (interrogé [ici](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Découvrez comment tester des pages en direct sans être visibles pour le public ni inclus dans les conditions d’utilisation.

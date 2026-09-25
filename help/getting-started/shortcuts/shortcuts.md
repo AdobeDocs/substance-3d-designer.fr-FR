@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Raccourcis
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 18%
 ---
 
@@ -35,7 +35,7 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 ### Global
 
 | Action | Windows | macOS |
-| --- | --- | --- |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
 | [Nouveau graphe de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Charger le package | Ctrl + O | ⌘ + O |
 | Fermer le(s) pack(s) sélectionné(s) | Ctrl + F4 | ⌘ + W |
@@ -43,15 +43,17 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Annuler | Ctrl + Z | ⌘ + Z |
 | Rétablir | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Vue du graphe
 
-<b>Viewport</b>
+**Viewport**
 
 | Action | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Molette de la souris Alt + RMB + Glisser | Molette de souris ⌥ + RMB + Glisser |
-| Zoom rapide | ⇧ + ⇧ de la molette de la souris + Alt + RMB + Faire glisser | ⇧ + ⇧ de la molette de la souris + ⌥ + RMB + Glisser |
-| Panoramique | Mo + faire glisser Ctrl + RMB + faire glisser | Mo + faire glisser ⌘ + RMB + faire glisser |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | Molette de souris<br>Alt + RMB + Glisser | MouseWheel<br>⌥ + RMB + Glisser |
+| Zoom rapide | ⇧ + Molette de la souris<br>⇧ + Alt + RMB + Faire glisser | ⇧ + Molette de souris<br>⇧ + ⌥ + RMB + Faire glisser |
+| Panoramique | Mo + faire glisser<br>Ctrl + RMB + faire glisser | Mo + faire glisser<br>⌘ + RMB + faire glisser |
 | Réinitialiser le zoom | Z | Z |
 | Pleine vue | F | F |
 | Copier | Ctrl + C | ⌘ + C |
@@ -60,22 +62,26 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Menu Nœud | Barre d’espace | Barre d’espace |
 | Parcourir [les épingles de navigation](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
-<b>Modes de création de liens</b>
+{style="table-layout:fixed"}
+
+**Modes de création de liens**
 
 >[!NOTE]
 >
 > Découvrez les modes de création de liens dans [cette page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) de cette documentation.
 
 | Mode | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | Standard | 1 | 1 |
 | Matériau | 2 | 2 |
 | Matériau compact | 3 | 3 |
 
-<b>Lorsqu&#39;un objet est sélectionné dans le graphe</b>
+{style="table-layout:fixed"}
+
+**Lorsqu&#39;un objet est sélectionné dans le graphe**
 
 | Action | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | Copier la sélection | Ctrl + C | ⌘ + C |
 | Dupliquer la sélection | Ctrl + D | ⌘ + D |
 | Dupliquer sans liens | Ctrl + ⇧ + D | ⌘ + ⇧ + D |
@@ -84,25 +90,31 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Ancrer/annuler l’ancrage du nœud | B | B |
 | Désactiver le(s) nœud(s) | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### Vue 2D
 
 | Action | Windows | macOS |
-| --- | --- | --- |
-| Zoom | Molette de la souris Alt + RMB + Glisser | Molette de souris ⌥ + RMB + Glisser |
-| Zoom rapide | ⇧ + ⇧ de la molette de la souris + Alt + RMB + Faire glisser | ⇧ + ⇧ de la molette de la souris + ⌥ + RMB + Glisser |
-| Panoramique | Mo + faire glisser Ctrl + RMB + faire glisser | Mo + faire glisser ⌘ + RMB + faire glisser |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | Molette de souris<br>Alt + RMB + Glisser | MouseWheel<br>⌥ + RMB + Glisser |
+| Zoom rapide | ⇧ + Molette de la souris<br>⇧ + Alt + RMB + Faire glisser | ⇧ + Molette de souris<br>⇧ + ⌥ + RMB + Faire glisser |
+| Panoramique | Mo + faire glisser<br>Ctrl + RMB + faire glisser | Mo + faire glisser<br>⌘ + RMB + faire glisser |
 | Rétablir l’échelle à 100 % | Z | Z |
 | Pleine vue | F | F |
 | Activer/désactiver l’affichage des mosaïques | Barre d’espace | Barre d’espace |
 
+{style="table-layout:fixed"}
+
 ### Vue 3D
 
 | Action | Windows | macOS |
-| --- | --- | --- |
-| Caméra Dolly (panoramique vers l’avant/arrière) | Molette de la souris Alt + RMB + Glisser | Molette de souris ⌥ + RMB + Glisser |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| Caméra Dolly (panoramique vers l’avant/arrière) | Molette de souris<br>Alt + RMB + Glisser | MouseWheel<br>⌥ + RMB + Glisser |
 | Effectuer une orbite | LMB + Glisser | LMB + Glisser |
-| Caméra pour camion et piédestal (panoramique latéral et vertical) | Mo + faire glisser Ctrl + RMB + faire glisser | Mo + faire glisser ⌘ + RMB + faire glisser |
+| Caméra pour camion et piédestal (panoramique latéral et vertical) | Mo + faire glisser<br>Ctrl + RMB + faire glisser | Mo + faire glisser<br>⌘ + RMB + faire glisser |
 | Faire une Rotation de l&#39;environnement | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | Basculer temporairement vers les commandes Point Light 1 | ⇧ (maintien) | ⇧ (maintien) |
 | Lumière du point d&#39;orbite 1 | LMB + Glisser | LMB + Glisser |
 | Lumière Dolly Point 1 | RMB + Glisser | RMB + Glisser |
+
+{style="table-layout:fixed"}
