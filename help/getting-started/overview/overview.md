@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Obtenez une présentation de Substance 3D Designer et découvrez ses fonctionnalités de création de matériaux et de textures procéduraux.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vue d’ensemble
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 2%
 ---
 
@@ -60,9 +60,10 @@ L’application et son écosystème utilisent 4 types de fichiers différents. S
 
 ![](overview.resources/ds-sbs-48.png)
 
-### Fichier Substance 3D
+**Fichier Substance 3D**\
+(pack)
 
-*(\*.SBS)*
+`\*.sbs`
 
 Les fichiers de Substance de données sont les **fichiers source principaux** pour Designer. Lorsque vous ouvrez un fichier de Substance de données, vous pouvez **afficher et modifier tous les nœuds d&#39;un Graphe**. Ils sont représentés comme des paquets, qui peuvent contenir un nombre quelconque de ressources telles que des Graphes, des Fonctions, des Bitmaps, des Maillages, etc... Ils sont plus difficiles à partager et moins rapides à calculer. Ils ne peuvent être ouverts que dans Substance 3D Designer et la Substance Player.
 
@@ -71,20 +72,20 @@ Les fichiers de Substance de données sont les **fichiers source principaux** po
 
 ![](overview.resources/sbsar-48.png)
 
-### Ressource Substance 3D
+**Archive Substance 3D**
 
-*(\*.SBSAR)*
+`\*.sbsar`
 
-Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphe est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telles qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Moteur ou Unity Moteur.
+Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphe est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telles qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Moteur ou Unity Moteur.
 
 </td>
 <td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### Fichiers statiques
+**Fichiers statiques**
 
-*(\*.TGA, \*.BMP, \*.PNG, \*.FBX, \*.OBJ, etc...)*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 Substance 3D Designer prend toujours en charge l’exportation vers des types de fichiers statiques. Une image 2D peut être exportée vers un fichier bitmap, un modèle 3D peut être exporté vers des types de fichiers 3D courants. Lors de l&#39;exportation vers des fichiers statiques, **toutes les fonctionnalités dynamiques sont perdues**. Les images sont verrouillées en résolution, les modèles 3D sont verrouillés en polycount.
 

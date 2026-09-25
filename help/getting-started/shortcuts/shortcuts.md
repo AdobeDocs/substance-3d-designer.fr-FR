@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Découvrez les raccourcis clavier de Substance 3D Designer pour accélérer votre workflow et améliorer votre productivité.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Raccourcis
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 18%
@@ -43,6 +43,8 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Annuler | Ctrl + Z | ⌘ + Z |
 | Rétablir | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Vue du graphe
 
 **Viewport**
@@ -60,6 +62,8 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Menu Nœud | Barre d’espace | Barre d’espace |
 | Parcourir [les épingles de navigation](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
+{style="table-layout:fixed"}
+
 **Modes de création de liens**
 
 >[!NOTE]
@@ -71,6 +75,8 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Standard | 1 | 1 |
 | Matériau | 2 | 2 |
 | Matériau compact | 3 | 3 |
+
+{style="table-layout:fixed"}
 
 **Lorsqu&#39;un objet est sélectionné dans le graphe**
 
@@ -84,6 +90,8 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Ancrer/annuler l’ancrage du nœud | B | B |
 | Désactiver le(s) nœud(s) | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### Vue 2D
 
 | Action | Windows | macOS |
@@ -94,6 +102,8 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Rétablir l’échelle à 100 % | Z | Z |
 | Pleine vue | F | F |
 | Activer/désactiver l’affichage des mosaïques | Barre d’espace | Barre d’espace |
+
+{style="table-layout:fixed"}
 
 ### Vue 3D
 
@@ -106,3 +116,5 @@ Vous trouverez sur cette page un aperçu de tous les raccourcis pour Substance 3
 | Basculer temporairement vers les commandes Point Light 1 | ⇧ (maintien) | ⇧ (maintien) |
 | Lumière du point d&#39;orbite 1 | LMB + Glisser | LMB + Glisser |
 | Lumière Dolly Point 1 | RMB + Glisser | RMB + Glisser |
+
+{style="table-layout:fixed"}

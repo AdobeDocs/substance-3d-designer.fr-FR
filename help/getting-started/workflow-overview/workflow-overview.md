@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: Découvrez le workflow essentiel pour créer des matériaux procéduraux dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Présentation du workflow
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -54,24 +54,24 @@ Vous trouverez ci-dessous un résumé des trois types de Graphes que vous pouvez
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Graphes Substance
+
+</td>
+</tr>
+</table>
 
 Les [graphes de Substance](https://substance3d.adobe.com/) sont le principal type de graphe créé dans Substance 3D Designer. Leur objectif est de <b>générer et traiter des données d&#39;image 2D</b> qui ne sont pas limitées à une résolution, une couleur ou une forme définie. Ils sont conçus comme des outils de traitement d&#39;image et de génération extrêmement polyvalents, et pas seulement comme des résultats statiques prédéfinis.
 
 Les résultats peuvent se présenter sous la forme d’un motif simple en noir et blanc, d’un filtre qui s’exécute uniquement sur les autres images et ne génère pas de contenu à lui seul, ou même d’un matériau procédural complet avec plusieurs canaux.
 
 Les graphes de Substance sont [le type de graphe le plus largement pris en charge](../../getting-started/overview/overview.md). Ils peuvent être exportés et utilisés dans une multitude de workflows différents.
-
-</td>
-</tr>
-</table>
 
 #### Exemples
 
@@ -109,14 +109,18 @@ Cet exemple utilise les [modes de création de liens](../../interface/the-graph-
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### graphes de fonction de Substance
+
+</td>
+</tr>
+</table>
 
 Les fonctions traitent **des valeurs uniques** (entiers, images flottantes, vecteurs) plutôt que des ensembles de pixels (images). Les fonctions sont également des graphes de nœuds, mais les [nœuds impliqués](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) et leur interface sont différents des graphes de Substance.
 
@@ -126,10 +130,6 @@ Les fonctions peuvent être utilisées dans de nombreux contextes différents, l
 * Modification du comportement d&#39;[un paramètre exposé](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * Création du comportement de [Processeurs de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou de [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 * Utilisation de [valeurs](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) au lieu d&#39;images dans les graphes de Substance, à des fins spécifiques
-
-</td>
-</tr>
-</table>
 
 #### Exemples
 

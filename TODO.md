@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 5%
 ---
 # TODO
@@ -39,6 +39,7 @@ ht-degree: 5%
 
 ## Correctifs
 
+* Correction de la taille des icônes dans [overview.md](help/getting-started/overview/overview.md)
 * Corriger une image rompue dans la page `BnW spots 2`
 * Corrigez le lien du 1er exemple d&#39;image dans les pages de nœuds (par ex. nouveaux bruits)
 
@@ -50,7 +51,7 @@ ht-degree: 5%
 
 - Comprendre ce qui bloque le téléchargement de fichiers SBS (interrogé [ici](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Découvrez comment tester des pages en direct sans être visibles pour le public ni inclus dans les conditions d’utilisation.
-- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/fr/tools/campaign-error-codes))
+- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Automatisation de la création d’un exemple d’élément
   - Assimiler les métadonnées du fichier (JSON, YAML, ...)
   - Vignette intégrée (cliquer pour agrandir)
