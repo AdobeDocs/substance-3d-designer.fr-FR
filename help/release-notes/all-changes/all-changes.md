@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/all-changes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Passez en revue toutes les modifications et mises à jour des versions de Substance 3D Designer pour suivre l’évolution et les améliorations des fonctionnalités.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > All changes
@@ -8,19 +8,36 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Toutes les modifications
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 470ce4ff25b81c710c4b446b160c29663c31d356
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 323708f930162cdc9f1a8df90f191e447e888797
 workflow-type: tm+mt
-source-wordcount: '32107'
+source-wordcount: '32205'
 ht-degree: 0%
-
 ---
-
 
 # Toutes les modifications
 
 ## Version 16
+
+### 16.0.7
+
+*(Publié le 8 octobre 2026)*
+
+**Ajouté :**
+
+* [Moteur] Mettre à jour le moteur de Substance vers la version 9.6.1
+* [OpenGL]&#x200B;[OpenPBR] Amélioration de la stabilité numérique de l’échantillonnage VNDF et des optimisations mineures d’ALU
+
+**Fixe :**
+
+* [vue 3D]&#x200B;[USD] Apparence incorrecte de la surface après remplacement du matériau dans une scène USD spécifique
+* [Contenu] Morphe vectoriel : le mode répétition n’est pas pris en charge
+* [Sécurité] Correction d’une vulnérabilité de déréférence de pointeur NULL dans l’analyse de fichier PLY
+* [Sécurité] Correction d’une vulnérabilité de débordement de pile dans l’analyse de fichiers FBX
+* [Sécurité] Correction d’une vulnérabilité de débordement de pile dans l’analyse de Fichier sbsar
+* [Sécurité] Correction d’une vulnérabilité de lecture hors limites dans l’analyse de Fichier sbsar
+* [Sécurité] Correction d’une vulnérabilité d’écriture hors limites dans l’analyse de fichiers FBX.
 
 ### 16.0.6
 
