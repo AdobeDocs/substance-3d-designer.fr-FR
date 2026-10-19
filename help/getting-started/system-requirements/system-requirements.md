@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ""
 description: Vérifiez la configuration requise pour Substance 3D Designer pour vous assurer que votre ordinateur répond aux spécifications requises.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Configuration requise
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 0250b1ff7cba48ff8d2909e01ccc4618aa4708a3
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '873'
 ht-degree: 0%
 ---
 
@@ -24,8 +24,8 @@ Vous trouverez ci-dessous une liste du matériel et des systèmes pris en charge
 
 ### Windows
 
-|             | Minimum | Recommandé | Optimale |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  | Minimum | Recommandé | Optimale |
+| --- | --- | --- | --- |
 | **SE** | Windows 11 64 bits version 23H2 | Windows 11 64 bits version 24H1 | Windows 11 64 bits version 24H2 |
 | **CPU** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
 | **GPU** | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Ada Generation<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
@@ -35,19 +35,23 @@ Vous trouverez ci-dessous une liste du matériel et des systèmes pris en charge
 
 ### macOS
 
-|             | Minimum | Recommandé | Optimale |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **SE** | macOS 14 Sonoma | macOS 26 Tahoe | macOS 26 Tahoe |
+|  | Minimum | Recommandé | Optimale |
+| --- | --- | --- | --- |
+| **SE** | macOS 15 Sequoia | macOS 27 Golden Gate | macOS 27 Golden Gate |
 | **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 16 Go | 32 Go | 64 Go |
 | **Stockage** | Disque SSD avec 30 Go d’espace disponible | Disque SSD avec 50 Go d’espace disponible | Disque SSD avec 70 Go d’espace disponible |
 
+>[!WARNING]
+>
+> Pour les pipelines construits avec la [plateforme de référence VFX](https://vfxplatform.com/) en tête, Substance 3D Designer peut toujours être installé sur macOS 14 Sonoma. Cependant, Designer n’est plus testé sur les versions du système d’exploitation inférieures à la configuration minimale requise, de sorte que la stabilité n’est pas garantie. La mise à jour vers une version plus récente du système d’exploitation est recommandée.
+
 ### Linux
 
 | Grands comptes | Vapeur |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## Recommandations générales
 
@@ -69,8 +73,8 @@ Vous trouverez ci-dessous une liste des GPU compatibles avec l’application :
 >[!TIP]
 >
 > **TDR (Windows uniquement)**
-> 
-> Pour une meilleure stabilité globale lors de l&#39;exécution de calculs lourds sur le GPU (par exemple, le rendu de graphes complexes, le rendu dans la vue 3D, l&#39;exportation d&#39;une scène à partir de la vue 3D, etc.), il est fortement recommandé de s&#39;assurer que les valeurs **Détection et récupération du délai d&#39;expiration (TDR)** correspondent aux recommandations figurant dans [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation.
+>
+> Pour une meilleure stabilité globale lors de l&#39;exécution de calculs lourds sur le GPU (par exemple, le rendu de graphes complexes, le rendu dans la vue 3D, l&#39;exportation d&#39;une scène à partir de la vue 3D, etc.), il est fortement recommandé de s&#39;assurer que les valeurs **Détection et récupération du délai d&#39;expiration (TDR)** correspondent aux recommandations figurant dans [cette page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation.
 
 ## Configurations non prises en charge
 
@@ -100,10 +104,10 @@ Vous trouverez ci-dessous une liste des GPU compatibles avec l’application :
 
 Vous trouverez ci-dessous une liste des versions minimales du pilote GPU requises pour que l’application s’exécute sans problème. Cette liste peut être modifiée à mesure que de nouvelles versions sont publiées.
 
-Pour télécharger de nouveaux pilotes, voir : [Le GPU a des pilotes obsolètes](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Pour télécharger de nouveaux pilotes, voir : [Le GPU a des pilotes obsolètes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SE | NVIDIA | AMD | Intel |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
+| --- | --- | --- | --- |
 | **Windows** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
 | **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | Non pris en charge |
 
@@ -117,7 +121,7 @@ Pour activer GPU raytracing via Optix ou DXR, les pilotes recommandés ci-dessus
 
 **DXR** nécessite la configuration minimale suivante :
 
-* **Windows 10** version 1809, consultez [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/features/gpu-raytracing) pour plus d&#39;informations
+* **Windows 10** version 1809, consultez [cette page](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) pour plus d&#39;informations
 * **GPU avec architecture Pascal** (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +130,7 @@ Pour activer GPU raytracing via Optix ou DXR, les pilotes recommandés ci-dessus
 
 ## Utilisation des comprimés
 
-Les utilisateurs de tablettes sous **Windows** doivent appliquer les paramètres décrits dans la page suivante pour bénéficier d&#39;une expérience optimale : [Configuration des stylets et des tablettes](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+Les utilisateurs de tablettes sous **Windows** doivent appliquer les paramètres décrits dans la page suivante pour bénéficier d&#39;une expérience optimale : [Configuration des stylets et des tablettes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Langues
 
