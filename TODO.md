@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # TODO
 
@@ -13,6 +13,7 @@ ht-degree: 5%
 
 ## Ajouts
 
+* Raccourcis : ajout de raccourcis du pavé tactile pour macOS
 * Points d’entrée pour la documentation de l’API Python sur Adobe Docs
 * Exemples dans la page contextuelle Documentation
 * Glossaire :
@@ -36,6 +37,9 @@ ht-degree: 5%
 * DESIGNER-11866 : Fonctions de mappage tonal
 * DESIGNER-10655 : ajout d’exemples et de références à des exemples de projets pour Processeur de pixels et FX-Maps
 
+## Modifications
+
+* Mise à jour [En cours] et achèvement de la page Raccourcis clavier
 
 ## Correctifs
 
@@ -51,7 +55,7 @@ ht-degree: 5%
 
 - Comprendre ce qui bloque le téléchargement de fichiers SBS (interrogé [ici](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Découvrez comment tester des pages en direct sans être visibles pour le public ni inclus dans les conditions d’utilisation.
-- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/fr/tools/campaign-error-codes))
+- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Automatisation de la création d’un exemple d’élément
   - Assimiler les métadonnées du fichier (JSON, YAML, ...)
   - Vignette intégrée (cliquer pour agrandir)
