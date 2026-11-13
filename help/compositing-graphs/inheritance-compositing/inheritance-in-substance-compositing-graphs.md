@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: Découvrez comment fonctionne l’héritage dans les graphes de composition de Substances pour créer des hiérarchies et des variations de graphes réutilisables.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Héritage dans les graphes Substance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Le parent d&#39;un graphe est le *contexte* dans lequel il existe :
 >[!WARNING]
 >
 > La parenté est *appliquée telle quelle* lors de la publication d’un pack dans des fichiers de ressources Substance 3D (SBSAR). Cela signifie que la définition de tout paramètre sur la méthode d&#39;héritage *Absolue* *verrouillera* ce paramètre à sa valeur actuelle dans la ressource publiée.\
-> Bien que cela soit souhaitable pour les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) ou à des [fins d&#39;optimisation](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md), par exemple, nous vous recommandons *vivement* d&#39;utiliser des méthodes d&#39;héritage *relatives à...* lorsque vous travaillez dans des graphes de Substance, à moins qu&#39;il n&#39;y ait un *objectif clair et délibéré* à faire autrement.
+> Bien que cela soit souhaitable pour les nœuds [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) ou à des [fins d&#39;optimisation](../../best-practices/performance-optimization/performance-optimization-guidelines.md), par exemple, nous vous recommandons *vivement* d&#39;utiliser des méthodes d&#39;héritage *relatives à...* lorsque vous travaillez dans des graphes de Substance, à moins qu&#39;il n&#39;y ait un *objectif clair et délibéré* à faire autrement.
 
 ### MODIFICATION CONTEXTUELLE
 

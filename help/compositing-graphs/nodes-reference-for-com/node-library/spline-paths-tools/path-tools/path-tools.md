@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
 breadcrumb-title: ""
 description: Accédez à tous les nœuds de l’outil Tracé pour créer, manipuler et convertir des tracés dans vos graphes de Substance.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Outils de tracé
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Consultez ce tutoriel pour commencer :
 
 >[!TIP]
 >
-> Nous vous recommandons d&#39;en savoir plus sur l&#39;[utilisation du chemin et des Outils spline](../../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) pour tirer le meilleur parti de l&#39;ensemble d&#39;outils.
+> Nous vous recommandons d&#39;en savoir plus sur l&#39;[utilisation du chemin et des Outils spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) pour tirer le meilleur parti de l&#39;ensemble d&#39;outils.
 > 
 > Pour les utilisateurs avancés, la [spécification de format des chemins](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) explique comment les données des chemins sont codées dans des images couleur et fournit des conseils pour manipuler ces données directement.
 

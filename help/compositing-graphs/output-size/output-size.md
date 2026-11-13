@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ""
 description: Configurez les paramètres de taille de sortie des graphes de composition de Substances pour contrôler la résolution et la qualité des textures.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Taille de sortie
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -62,7 +62,7 @@ Cela s&#39;applique également lorsque la valeur Taille de sortie est contrôlé
 >[!IMPORTANT]
 >
 > L&#39;augmentation ou la diminution de la résolution à la fois en X et en Y multiplie ou divise le nombre de pixels par *4*, ce qui a un impact significatif sur les *performances* et l&#39;*empreinte mémoire* d&#39;un graphe.\
-> Par conséquent, nous vous recommandons vivement d&#39;utiliser la *plus faible résolution* réellement nécessaire pour obtenir le résultat souhaité. Contrôler les résolutions est l&#39;une de nos [directives d&#39;optimisation des performances](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md).
+> Par conséquent, nous vous recommandons vivement d&#39;utiliser la *plus faible résolution* réellement nécessaire pour obtenir le résultat souhaité. Contrôler les résolutions est l&#39;une de nos [directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md).
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Dans la plupart des cas, la [méthode d&#39;héritage](../../compositing-graphs/
 
 * Graphe : *Relatif au parent*
 * Nœud : *Relative à l&#39;entrée* : les valeurs héritées par l&#39;[entrée principale](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) du nœud sont utilisées dans ce cas
-* Nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) :*Absolu* - consultez la page [Ressources bitmap](../../resources/bitmap-resource/bitmap-resource.md) et les [directives d&#39;optimisation des performances](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) pour savoir pourquoi
+* Nœud [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) :*Absolu* - consultez la page [Ressources bitmap](../../resources/bitmap-resource/bitmap-resource.md) et les [directives d&#39;optimisation des performances](../../best-practices/performance-optimization/performance-optimization-guidelines.md) pour savoir pourquoi
 
 Affichez les propriétés d&#39;un nœud ou d&#39;un graphe en cliquant sur cet élément, puis dans le panneau [Propriétés](../../interface/properties/properties.md) recherchez la propriété <b>Taille de sortie</b> dans la section <b>Paramètres de base</b>. Cliquez sur le menu déroulant Méthode d’héritage et sélectionnez la méthode d’héritage souhaitée.
 

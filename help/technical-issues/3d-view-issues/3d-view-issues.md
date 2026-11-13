@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ""
 description: Résolvez les problèmes de vue 3D dans Substance 3D Designer, notamment les problèmes de rendu, d’affichage et de performances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problèmes de vue 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -231,7 +231,7 @@ L&#39;ombrage des objets repose sur leurs vecteurs normaux, de tangente et de bi
 
 Par exemple, une échelle de 2 et un biais de -1 adaptent la valeur x de `[0, 1]` à `[-1, 1]` de sorte que : `x * 2 - 1`.
 
-Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont spécifiés par un Maillage 3D. Si ces informations sont manquantes, un avertissement s&#39;affiche dans la console lorsque [l&#39;un de ses matériaux](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) est remplacé :
+Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont spécifiés par un Maillage 3D. Si ces informations sont manquantes, un avertissement s&#39;affiche dans la console lorsque [l&#39;un de ses matériaux](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) est remplacé :
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -242,7 +242,7 @@ Designer n’applique pas d’échelle ni de biais normaux, sauf s’ils sont sp
 
 Pour les scènes exportées aux formats USD il y a un certain temps : réexportez la scène en utilisant une version récente d’USD, qui comprendra les données nécessaires. Faites attention aux propriétés liées à l&#39;échelle normale et au biais s&#39;il y en a, qui dépendra du logiciel utilisé pour exporter la scène.
 
-Lorsque [remplacez un matériau](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md), Designer traite le maillage et calcule toutes les données manquantes relatives à ses normales, tangentes et binormales. Si l’échelle et le biais par défaut de Designer correspondent à ceux requis pour le maillage, le maillage semblera correct lorsqu’il sera remplacé.
+Lorsque [remplacez un matériau](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer traite le maillage et calcule toutes les données manquantes relatives à ses normales, tangentes et binormales. Si l’échelle et le biais par défaut de Designer correspondent à ceux requis pour le maillage, le maillage semblera correct lorsqu’il sera remplacé.
 
 ## Crash au démarrage de vue 3D
 

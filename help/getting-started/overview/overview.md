@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Obtenez une présentation de Substance 3D Designer et découvrez ses fonctionnalités de création de matériaux et de textures procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue d’ensemble
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Substance 3D Designer est un éditeur basé sur des nœuds qui vous permet de cr
 
 **[Non linéaire](../../compositing-graphs/substance-compositing-graphs.md):** vous pouvez créer une multitude de sorties de texture à la fois. Modifiez un masque ou un curseur, et automatiquement toute sortie connectée est recalculée. Plus besoin de créer séparément des mappages tels que base color, rugosité, normal, etc.
 
-**[Non destructif](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md):** vous pouvez annuler n&#39;importe quelle action *sans* perdre votre travail. Il devient beaucoup plus rapide d’itérer et d’expérimenter, trouvant des workflows encore plus efficaces.
+**[Non destructif](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):** vous pouvez annuler n&#39;importe quelle action *sans* perdre votre travail. Il devient beaucoup plus rapide d’itérer et d’expérimenter, trouvant des workflows encore plus efficaces.
 
 **[baking intégré](../../bakers/bakers.md):** accédez à des outils de baking de maillage avancés et ultra-rapides directement dans le logiciel. Vous n’avez plus besoin d’effectuer le baking dans un logiciel séparé et d’effectuer de longs processus d’importation et d’exportation.
 
@@ -76,7 +76,7 @@ Les fichiers de Substance de données sont les **fichiers source principaux** po
 
 `\*.sbsar`
 
-Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphe est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telles qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Moteur ou Unity Moteur.
+Les archives de Substances sont <b> compilées, optimisées</b> fichiers de Substances. Ils sont beaucoup plus rapides à calculer et peuvent facilement être partagés sans problèmes de référence. Les paramètres peuvent encore être modifiés, mais la modification du graphe est <b>verrouillée</b>. Les archives de Substances peuvent être utilisées dans toutes les applications Substance 3D et toute application disposant d&#39;une [intégration Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (certaines avec un plug-in externe), telles qu&#39;Autodesk 3DS Max &amp; Maya, Unreal Moteur ou Unity Moteur.
 
 </td>
 <td style="border: 0;">

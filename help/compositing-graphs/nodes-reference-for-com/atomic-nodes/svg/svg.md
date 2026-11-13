@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Utilisez le nœud SVG pour importer et rendre des images vectorielles de SVG en tant que textures de création d’éléments graphiques évolutifs.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -57,12 +57,12 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un fichier de
 > Ce nœud dépend d&#39;une ressource externe, il y a donc quelques points à garder à l&#39;esprit lorsque vous travaillez avec eux :
 > 
 > * Les nœuds SVG peuvent renvoyer une couleur ou des niveaux de gris, mais la couleur par défaut est sélectionnée même si la ressource est un vecteur en niveaux de gris. Cela peut affecter les performances et la complexité du graphe. Assurez-vous donc toujours de passer en [mode colorimétrique](#parameters) « Niveaux de gris » si nécessaire.
-> * La suppression d&#39;un nœud de SVG ne supprime pas la [ressource de SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) dans votre [package](../../../../learning-tutorials/essentials/glossary/glossary.md#package). Vous devez le faire manuellement dans l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md).
-> * Les formes SVG sont [tesselées](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphes de Substance en tant qu&#39;images bitmap. La technologie utilisée pour ces opérations ne prend pas en charge plusieurs propriétés vectorielles, telles que les contours. En savoir plus sur ces limitations [ici](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> * La suppression d&#39;un nœud de SVG ne supprime pas la [ressource de SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) dans votre [package](../../../../glossary/glossary.md). Vous devez le faire manuellement dans l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md).
+> * Les formes SVG sont [tesselées](../../../../glossary/glossary.md) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphes de Substance en tant qu&#39;images bitmap. La technologie utilisée pour ces opérations ne prend pas en charge plusieurs propriétés vectorielles, telles que les contours. En savoir plus sur ces limitations [ici](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 >[!WARNING]
 >
-> Les formes SVG sont [tesselées](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphes de Substance en tant qu&#39;images bitmap.
+> Les formes SVG sont [tesselées](../../../../glossary/glossary.md) en géométrie/polygones, puis *pixellisées* afin d&#39;être utilisées dans les graphes de Substance en tant qu&#39;images bitmap.
 > 
 > La technologie utilisée pour ces opérations ne prend pas en charge plusieurs propriétés vectorielles, telles que les contours.
 > 

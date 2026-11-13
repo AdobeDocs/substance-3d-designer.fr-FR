@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ""
 description: Résolvez les problèmes liés aux paramètres du graphe de Substance qui ne fonctionnent pas comme prévu et trouvez des solutions.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Les paramètres ne fonctionnent pas comme prévu
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Certains paramètres exposés d&#39;un graphe ne sont *pas répertoriés* lors d
 
 ![(coche)](parameters-not-working-as-expected.resources/check.svg) <b>Étapes recommandées</b>
 
-Les paramètres manquants sont probablement des [paramètres statiques](../../learning-tutorials/essentials/glossary/glossary.md#static-parameter), qui *ne peuvent pas être modifiés à la volée* une fois le graphe *cuit*, c&#39;est-à-dire traité afin d&#39;exécuter son algorithme rapidement et efficacement. La cuisson a lieu dans Designer chaque fois que le graphe est *modifié* ou *publié*. Les paramètres affectés par ces limitations sont répertoriés dans la section [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) de la page [Exposer un paramètre](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) de cette documentation.
+Les paramètres manquants sont probablement des [paramètres statiques](../../glossary/glossary.md), qui *ne peuvent pas être modifiés à la volée* une fois le graphe *cuit*, c&#39;est-à-dire traité afin d&#39;exécuter son algorithme rapidement et efficacement. La cuisson a lieu dans Designer chaque fois que le graphe est *modifié* ou *publié*. Les paramètres affectés par ces limitations sont répertoriés dans la section [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) de la page [Exposer un paramètre](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) de cette documentation.
 
 Ainsi, les paramètres statiques sont visibles et modifiables dans Designer, mais sont *masqués* dans une ressource Substance 3D publiée. Vous pouvez utiliser le [mode Aperçu](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) pour voir ces limitations en vigueur avant de publier sur une ressource Substance 3D.
 

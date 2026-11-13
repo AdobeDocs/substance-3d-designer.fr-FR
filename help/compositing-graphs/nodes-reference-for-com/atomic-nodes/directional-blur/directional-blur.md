@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Flou directionnel pour appliquer des effets de flou dans une direction spécifique afin de créer des effets de flou directionnel et de traînée.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flou directionnel
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -83,7 +83,7 @@ Les images ci-dessous montrent le flou directionnel et le flou [anisotrope](../.
 
 |  |  |
 | --- | --- |
-| <b>Entrée</b> *Niveaux de gris/Couleur* [PRIMAIRE](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | Image à traiter. |
+| <b>Entrée</b> *Niveaux de gris/Couleur* [PRIMAIRE](../../../../glossary/glossary.md) | Image à traiter. |
 
 
 ## Exemples

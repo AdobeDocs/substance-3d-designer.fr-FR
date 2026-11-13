@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Processeur de pixels pour traiter des pixels individuels à l’aide d’expressions personnalisées pour une manipulation avancée des textures.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processeur de pixels
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Comme pour [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), il nécessite
 
 Le Processeur de pixels est similaire au [Processeur de valeurs](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), qui s&#39;exécute sur des valeurs uniques et peut fournir une optimisation agréable par rapport au Processeur de pixels.
 
-Pour toute personne habituée à créer des fonctions [shader](../../../../learning-tutorials/essentials/glossary/glossary.md#shader) dans des éditeurs basés sur les nœuds, le Processeur de pixels doit offrir un environnement familier.
+Pour toute personne habituée à créer des fonctions [shader](../../../../glossary/glossary.md) dans des éditeurs basés sur les nœuds, le Processeur de pixels doit offrir un environnement familier.
 
 
 >[!TIP]
@@ -62,7 +62,7 @@ Pour toute personne habituée à créer des fonctions [shader](../../../../learn
 > 
 > Considérez également que travailler avec ce type de graphe et effectuer des opérations mathématiques est obligatoire pour obtenir quoi que ce soit de ce nœud.
 > 
-> Nous vous recommandons également de vous familiariser avec le concept des [UV](../../../../learning-tutorials/essentials/glossary/glossary.md#uv), de l&#39;[échantillonnage de textures](../../../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) et des vecteurs.
+> Nous vous recommandons également de vous familiariser avec le concept des [UV](../../../../glossary/glossary.md), de l&#39;[échantillonnage de textures](../../../../glossary/glossary.md) et des vecteurs.
 
 
 ## Paramètres
@@ -70,7 +70,7 @@ Pour toute personne habituée à créer des fonctions [shader](../../../../learn
 |  |  |
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Permet de basculer entre une image en niveaux de gris et une image en couleur. |
-| <b>Par fonction de pixel</b> *Flottant/Flottant 4* | [graphe de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) évalué par pixel dans l&#39;image de sortie.   Utilisez le nœud [Get Flottant 2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) défini sur la variable <b>$pos</b> pour accéder à la position [normalisée](../../../../learning-tutorials/essentials/glossary/glossary.md#normalization) du pixel actif. |
+| <b>Par fonction de pixel</b> *Flottant/Flottant 4* | [graphe de fonction de Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) évalué par pixel dans l&#39;image de sortie.   Utilisez le nœud [Get Flottant 2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) défini sur la variable <b>$pos</b> pour accéder à la position [normalisée](../../../../glossary/glossary.md) du pixel actif. |
 
 ## Connecteurs d’entrée
 

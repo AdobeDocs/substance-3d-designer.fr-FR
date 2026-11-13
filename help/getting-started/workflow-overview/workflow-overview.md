@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: Découvrez le workflow essentiel pour créer des matériaux procéduraux dans Substance 3D Designer du début à la fin.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Présentation du workflow
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Pour plus d&#39;informations sur les instances de graphe, il existe une [section
 Tous les nœuds de votre chaîne d’opérations disposeront d’une forme ou d’une autre de commandes : boutons, curseurs, paramètres que vous pourrez modifier pour influencer le résultat final.\
 Si vous créez un sous-graphe ou voulez exporter votre fichier de Substance de données vers une autre application, vous pouvez construire votre propre « panneau de contrôle » pour vos graphes, permettant aux autres utilisateurs de les modifier avec un panneau de contrôle entièrement unique.
 
-Découvrez le concept général des paramètres personnalisés [ici](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md), ou allez plus loin dans la profondeur et [commencez à exposer des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Découvrez le concept général des paramètres personnalisés [ici](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), ou allez plus loin dans la profondeur et [commencez à exposer des paramètres](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## types de graphe
 

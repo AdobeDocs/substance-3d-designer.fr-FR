@@ -1,7 +1,7 @@
 ---
 title: Définir le matériau
 description: Définissez la base color, la rugosité et la métallisation du matériau d'une scène SDF.
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -32,7 +32,7 @@ Ces valeurs peuvent ensuite être récupérées pour toutes les formes SDF écla
 
 >[!INFO]
 > 
-> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../working-with-sdf-functions.md)
 
 ## Entrées
 

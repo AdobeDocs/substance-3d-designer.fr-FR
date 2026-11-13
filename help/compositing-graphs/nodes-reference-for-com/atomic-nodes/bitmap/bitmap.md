@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Bitmap pour importer et utiliser des images bitmap en tant que textures dans des graphes de composition de Substances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Charge une [ressource bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) dans le graphe.
 
-Ce nœud est utilisé pour importer un [bitmap](../../../../learning-tutorials/essentials/glossary/glossary.md#bitmap) dans votre graphe ou pour créer un bitmap à utiliser avec les [outils de peinture bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
+Ce nœud est utilisé pour importer un [bitmap](../../../../glossary/glossary.md) dans votre graphe ou pour créer un bitmap à utiliser avec les [outils de peinture bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
 Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous compreniez[la différence entre lier et importer des ressources](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
@@ -47,7 +47,7 @@ Il existe plusieurs façons de créer ce nœud, et toutes nécessitent que vous 
 </tr>
 </table>
 
-Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](../../../../learning-tutorials/essentials/glossary/glossary.md#bitmap) dans un format pris en charge dans la Vue du graphe de données.
+Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](../../../../glossary/glossary.md) dans un format pris en charge dans la Vue du graphe de données.
 
 
 >[!TIP]
@@ -59,9 +59,9 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](.
 > Ce nœud dépend d&#39;une ressource externe, il y a donc quelques points à garder à l&#39;esprit lorsque vous travaillez avec eux :
 > 
 > * Les nœuds bitmap peuvent renvoyer une couleur ou une échelle de gris, mais la couleur est définie par défaut, même si la ressource est un bitmap en niveaux de gris. Cela peut affecter les performances et la complexité du graphe. Assurez-vous donc toujours de passer en [mode colorimétrique](#parameters) « Niveaux de gris » si nécessaire.
-> * La suppression d&#39;un nœud bitmap ne supprime pas la [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) dans votre [pack](../../../../learning-tutorials/essentials/glossary/glossary.md#package). Vous devez le faire manuellement dans l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md).
-> * D&#39;autre part, soyez prudent lorsque vous supprimez une [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) dans l&#39;Explorateur : elle fonctionnera toujours dans le graphe pour cette session, car elle est conservée dans le cache, mais elle sera marquée comme manquante la prochaine fois que vous chargerez le [package](../../../../learning-tutorials/essentials/glossary/glossary.md#package).
-> * Lorsqu&#39;un graphe de Substance est [cuit](../../../../learning-tutorials/essentials/glossary/glossary.md#cooking), la résolution du bitmap est fixée à sa résolution à l&#39;intérieur du graphe et non en fonction de sa taille d&#39;origine. Il est recommandé de s&#39;assurer que le [paramètre de Transforme](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter) « Taille de sortie » d&#39;un nœud Bitmap utilise la [méthode d&#39;héritage](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance) « Absolue » et que le nœud est suivi d&#39;un nœud [2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) « Relative au parent » (c&#39;est-à-dire la résolution du graphe hôte).
+> * La suppression d&#39;un nœud bitmap ne supprime pas la [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) dans votre [pack](../../../../glossary/glossary.md). Vous devez le faire manuellement dans l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md).
+> * D&#39;autre part, soyez prudent lorsque vous supprimez une [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) dans l&#39;Explorateur : elle fonctionnera toujours dans le graphe pour cette session, car elle est conservée dans le cache, mais elle sera marquée comme manquante la prochaine fois que vous chargerez le [package](../../../../glossary/glossary.md).
+> * Lorsqu&#39;un graphe de Substance est [cuit](../../../../glossary/glossary.md), la résolution du bitmap est fixée à sa résolution à l&#39;intérieur du graphe et non en fonction de sa taille d&#39;origine. Il est recommandé de s&#39;assurer que le [paramètre de Transforme](../../../../glossary/glossary.md) « Taille de sortie » d&#39;un nœud Bitmap utilise la [méthode d&#39;héritage](../../../../glossary/glossary.md) « Absolue » et que le nœud est suivi d&#39;un nœud [2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) « Relative au parent » (c&#39;est-à-dire la résolution du graphe hôte).
 
 
 ## Paramètres
@@ -70,7 +70,7 @@ Vous pouvez soit créer le nœud à partir de zéro, soit déposer un [bitmap](.
 | --- | --- |
 | <b>Mode colorimétrique</b> *Booléen* | Détermine le type de sortie du nœud, à retourner en couleur ou en niveaux de gris. |
 | <b>Chemin de ressource PKG</b> *Chaîne* | Chemin d&#39;accès à la [ressource Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) référencée par le nœud.   Il est recommandé de ne pas taper manuellement, mais de copier une ressource de l&#39;explorateur et de la coller dans le champ de texte du paramètre, ou de glisser-déposer une ressource bitmap directement de l&#39;[Explorateur](../../../../interface/the-explorer-window/the-explorer-window.md) sur le nœud Bitmap dans le graphe. |
-| <b>Méthode de redimensionnement</b> *Entier* | Méthode de rééchantillonnage à utiliser lors de la mise à l’échelle supérieure ou inférieure d’un bitmap :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>étire lisse :</i> appliquez [du filtrage bilinéaire](../../../../learning-tutorials/essentials/glossary/glossary.md#bilinear-filtering) pour effectuer une interpolation sur les pixels source de l&#39;image étirée.</li> <li data-preserve-html="true"><i>étire le plus proche :</i> Étirez l&#39;image et utilisez la couleur du pixel source le plus proche telle quelle.</li> </ul> |
+| <b>Méthode de redimensionnement</b> *Entier* | Méthode de rééchantillonnage à utiliser lors de la mise à l’échelle supérieure ou inférieure d’un bitmap :<ul data-preserve-html="true"> <li data-preserve-html="true"><i>étire lisse :</i> appliquez [du filtrage bilinéaire](../../../../glossary/glossary.md) pour effectuer une interpolation sur les pixels source de l&#39;image étirée.</li> <li data-preserve-html="true"><i>étire le plus proche :</i> Étirez l&#39;image et utilisez la couleur du pixel source le plus proche telle quelle.</li> </ul> |
 
 ## Outils de peinture bitmap
 

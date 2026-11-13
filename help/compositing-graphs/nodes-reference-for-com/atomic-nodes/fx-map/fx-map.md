@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Utilisez le nœud FX-Map pour appliquer des graphes de fonction aux textures de création de motifs et d’effets procéduraux.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Gardez à l&#39;esprit que, contrairement à d&#39;autres nœuds, la majorité d
 | <b>Arrière-plan</b> *Flottant/Flottant 4* | Définit la couleur de départ de l’arrière-plan sur laquelle composer les résultats. |
 | <b>Zone de rendu</b> *Flottant4* | Permet de définir la plage de pixels de départ de chaque côté du FX-Map, ce qui produit un effet de étiré. |
 | <b>Zone de Répétition</b> *Flottant4* | Permet de décaler la distance de répétition du FX-Map. |
-| <b>Abattre à l&#39;extérieur</b> *Booléen* | Effectue une optimisation en [éliminant](../../../../learning-tutorials/essentials/glossary/glossary.md#culling) les motifs qui se trouvent en dehors de la plage normale. |
+| <b>Abattre à l&#39;extérieur</b> *Booléen* | Effectue une optimisation en [éliminant](../../../../glossary/glossary.md) les motifs qui se trouvent en dehors de la plage normale. |
 | <b>Rugosité</b> *Flottant* | Fonctionne comme un multiplicateur de profondeur et d’opacité. Il applique un biais au processus de fusion FX-map. |
 | <b>Opacité globale</b> *Flottant* | Définit l’opacité globale de la sortie du mappage FX. |
 

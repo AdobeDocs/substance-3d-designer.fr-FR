@@ -1,7 +1,7 @@
 ---
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '243'
 ht-degree: 4%
 ---
 # TODO
@@ -41,10 +41,6 @@ ht-degree: 4%
 
 * Mise à jour [En cours] et achèvement de la page Raccourcis clavier
 
-## Modifications
-
-* Restructurer [Utilisation des splines](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) pour définir les priorités des splines
-
 ## Correctifs
 
 * Correction de la taille des icônes dans [overview.md](help/getting-started/overview/overview.md)
@@ -59,18 +55,12 @@ ht-degree: 4%
 
 - Comprendre ce qui bloque le téléchargement de fichiers SBS (interrogé [ici](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Découvrez comment tester des pages en direct sans être visibles pour le public ni inclus dans les conditions d’utilisation.
-- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/fr/tools/campaign-error-codes))
+- Options de filtrage Explorateur pour la liste des échantillons : Microsite ? ([Exemple](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - Automatisation de la création d’un exemple d’élément
   - Assimiler les métadonnées du fichier (JSON, YAML, ...)
   - Vignette intégrée (cliquer pour agrandir)
   - Marqueur de complexité dans les éléments d’exemple
 - Fournir des exemples d’auteurs avec un outil de validation SBS
 - Mentionnez les fichiers SBS téléchargeables à partir de ressources 3D (avec abonnement actif)
-
-### Ajouts
-
-* Page de destination
-* Section « Nouvelles fonctionnalités »
-* Section « Fonctions » ( ?)
 
 Microsite pour le glossaire ?

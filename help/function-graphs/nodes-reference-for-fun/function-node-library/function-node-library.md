@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ""
 description: Accédez à des graphes de fonction de Substance prédéfinis comme instanciers pour accélérer le workflow et améliorer les capacités.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: bibliothèque Noeud de fonction
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Ces nœuds vous permettent de créer des Fonctions SDF qui peuvent être utilis�
 
 >[!INFO]
 > 
-> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">
@@ -463,15 +463,15 @@ Global aléatoire
 
 Distribution normale
 
-Aléatoire uniforme &lbrack;-1, 1&lbrack;
+Aléatoire uniforme [-1, 1[
 
-Uniforme aléatoire &lbrack;a, b&lbrack;
+Uniforme aléatoire [a, b[
 
-Float uniforme aléatoire2 &lbrack;a, b&lbrack;
+Float uniforme aléatoire2 [a, b[
 
-Float uniforme aléatoire3 &lbrack;a, b&lbrack;
+Float uniforme aléatoire3 [a, b[
 
-Float uniforme aléatoire4 &lbrack;a, b&lbrack;
+Float uniforme aléatoire4 [a, b[
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ""
 description: Utilisez la vue 3D dans Substance 3D Designer pour prévisualiser les matériaux sur des objets 3D et tester les conditions d’éclairage.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '3549'
 ht-degree: 1%
@@ -157,13 +157,13 @@ Vous pouvez afficher une sortie du graphe individuelle en développant la ressou
 Designer propose une douzaine de maillages prédéfinis. Ces maillages ont des coordonnées d&#39;UV uniformes et utilisables et servent à la plupart des scénarios pour les textures de répétition. Il est également possible d’importer et d’afficher vos propres maillages 3D.\
 Sélectionnez l&#39;un des maillages par défaut dans le menu déroulant <b>Scène</b> de la barre supérieure.
 
-Pour des scènes 3D personnalisées, consultez la section [Utilisation des scènes 3D](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md).
+Pour des scènes 3D personnalisées, consultez la section [Utilisation des scènes 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
 ![Modification des propriétés du matériau](3d-view.resources/3d-materials.gif "Modification des propriétés du matériau")
 
 ## Modification des propriétés du shader
 
-Il existe quelques [shaders](../../learning-tutorials/essentials/glossary/glossary.md#shader) différents disponibles par défaut dans Designer, et chaque shader a des options au-delà des canaux de texture. Ils peuvent être configurés individuellement.
+Il existe quelques [shaders](../../glossary/glossary.md) différents disponibles par défaut dans Designer, et chaque shader a des options au-delà des canaux de texture. Ils peuvent être configurés individuellement.
 
 Gardez à l’esprit que les nuanciers sont différents entre les [systèmes de rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) de Designer et que seuls les paramètres marqués avec un libellé « Commun » sont conservés lors du changement de système de rendu.
 
@@ -187,7 +187,7 @@ Les shaders peuvent être réinitialisés à l’aide des actions « Réinitiali
 
 ## Exporter la scène
 
-Découvrez comment exporter des scènes 3D dans [cette page](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Découvrez comment exporter des scènes 3D dans [cette page](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 ### Exportation d’un maillage tesellé (moteur de rendu OpenGL uniquement)
 
@@ -220,7 +220,7 @@ Pour exporter le maillage vue 3D, accédez à <b>Scène > Exporter le maillage t
 >
 > **TDR (Windows uniquement)**
 > 
-> Cette fonctionnalité nécessite que la <b>détection et récupération du délai d&#39;attente (TDR)</b> corresponde aux valeurs recommandées dans [cette page](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation, comme indiqué dans Designer [Configuration technique](../../getting-started/system-requirements/system-requirements.md).
+> Cette fonctionnalité nécessite que la <b>détection et récupération du délai d&#39;attente (TDR)</b> corresponde aux valeurs recommandées dans [cette page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de notre documentation, comme indiqué dans Designer [Configuration technique](../../getting-started/system-requirements/system-requirements.md).
 
 ## Barre de menus
 
@@ -269,18 +269,18 @@ Le menu <b>Scène</b> traite de la géométrie (ressource 3D) affichée et des �
 
 <b>Créer une ressource 3D à partir de la scène active...:</b> Crée une nouvelle [ressource Scène 3D](../../resources/3d-scene-resource/3d-scene-resource.md) dans un package à partir de la scène active.
 
-<b>Charger le fichier d&#39;état... : </b>Charge un fichier d&#39;état de scène de données [enregistré en externe](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Ne remplace pas le Maillage 3D, charge uniquement les paramètres du rendu 3D, de la caméra et des éclairages.
+<b>Charger le fichier d&#39;état... : </b>Charge un fichier d&#39;état de scène de données [enregistré en externe](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Ne remplace pas le Maillage 3D, charge uniquement les paramètres du rendu 3D, de la caméra et des éclairages.
 
-<b>Charger le fichier d&#39;état avec maillage...:</b> Charge un [fichier d&#39;état de scène](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) enregistré en externe (\*.sbsscn). Charge les paramètres de rendu 3D, de caméra, d’éclairage, ainsi que sa Scène 3D de référence. .
+<b>Charger le fichier d&#39;état avec maillage...:</b> Charge un [fichier d&#39;état de scène](../../working-with-3d-scenes/working-with-3d-scenes.md) enregistré en externe (\*.sbsscn). Charge les paramètres de rendu 3D, de caméra, d’éclairage, ainsi que sa Scène 3D de référence. .
 
-<b>Enregistrer le fichier d&#39;état... :</b>Enregistrez l&#39;état actuel de la vue 3D dans un [fichier d&#39;état de scène](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
+<b>Enregistrer le fichier d&#39;état... :</b>Enregistrez l&#39;état actuel de la vue 3D dans un [fichier d&#39;état de scène](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
-<b>Enregistrer l&#39;état actuel comme valeur par défaut :</b>Définissez l&#39;état actuel de la vue 3D en tant que [fichier d&#39;état de scène](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) à utiliser par défaut lors de la création de nouvelles vues 3D. Ce fichier est chargé chaque fois que la vue 3D est réinitialisée ou initialisée. Il peut être défini dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md).
+<b>Enregistrer l&#39;état actuel comme valeur par défaut :</b>Définissez l&#39;état actuel de la vue 3D en tant que [fichier d&#39;état de scène](../../working-with-3d-scenes/working-with-3d-scenes.md) à utiliser par défaut lors de la création de nouvelles vues 3D. Ce fichier est chargé chaque fois que la vue 3D est réinitialisée ou initialisée. Il peut être défini dans les [paramètres du projet](../../interface/preferences-window/project-settings/project-settings.md).
 
-<b>scène d&#39;exportation :</b> *(Pixellisation/Rendu de Pathtracer GPU uniquement)* Exporte la scène active en tant que [scène aplatie](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), où seule la scène finale est écrite et où toutes les références à la scène d&#39;origine sont perdues. Le contenu de la scène exportée dépend des fonctions prises en charge par le format d’exportation sélectionné.\
+<b>scène d&#39;exportation :</b> *(Pixellisation/Rendu de Pathtracer GPU uniquement)* Exporte la scène active en tant que [scène aplatie](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), où seule la scène finale est écrite et où toutes les références à la scène d&#39;origine sont perdues. Le contenu de la scène exportée dépend des fonctions prises en charge par le format d’exportation sélectionné.\
 Formats disponibles : STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Exporter la scène avec les calques :</b> *(Rendu pixellisé/Pathtracer GPU uniquement)*Exporte la scène active en tant que [scène multicalque](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), où toutes les modifications apportées à la scène d&#39;origine sont enregistrées dans des fichiers séparés dans un workflow non destructif. Cette option est uniquement disponible pour les formats de fichier USD.\
+<b>Exporter la scène avec les calques :</b> *(Rendu pixellisé/Pathtracer GPU uniquement)*Exporte la scène active en tant que [scène multicalque](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), où toutes les modifications apportées à la scène d&#39;origine sont enregistrées dans des fichiers séparés dans un workflow non destructif. Cette option est uniquement disponible pour les formats de fichier USD.\
 Les formats disponibles sont : USDC, USD, USDA.
 
 <b>Exporter la géométrie répartie :</b> *(moteur de rendu OpenGL uniquement)* Exporte la scène active avec la tessellation comme géométrie brute, voir la section Exporter la scène.
@@ -300,19 +300,19 @@ Le menu Matériaux comporte une liste de tous les matériaux affectés à un mai
 
 <b>Modifier</b> : modifiez les paramètres du matériau actif dans la fenêtre Propriétés.
 
-<b>Liste des nuanciers</b> : tous les [nuanciers](../../learning-tutorials/essentials/glossary/glossary.md#shader) sont disponibles pour le [moteur de rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) actuel.
+<b>Liste des nuanciers</b> : tous les [nuanciers](../../glossary/glossary.md) sont disponibles pour le [moteur de rendu 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) actuel.
 
 <b>Charger la définition... :</b>(moteur de rendu OpenGL uniquement) vous permet de charger votre propre [shader GLSLFX personnalisé.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) Le shader est ajouté à la liste ci-dessus.
 
-<b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre le rendu Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre à l&#39;[Adobe Standard Material](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
+<b>Réinitialiser les paramètres communs :</b> réinitialise tous les paramètres communs aux nuanceurs. Par exemple, lors du basculement entre le rendu Pixellisation/Pathtracer GPU et OpenGL, plusieurs valeurs de paramètre à l&#39;[Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) sont reportées.
 
 <b>Renommer :</b> modifiez l&#39;étiquette de ce matériau.
 
 <b>Réinitialiser le matériau :</b> réinitialise tous les paramètres shader à leurs valeurs par défaut. Si des textures sont connectées à l&#39;un des échantillonneurs du shader, elles sont déconnectées.
 
-<b>Réinitialiser le matériau à l&#39;état de scène : </b>*(Rendu pixellisé/Pathtracer GPU uniquement)* Réinitialise toutes les propriétés des [matériaux remplacés](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) à leurs valeurs d&#39;origine à partir de la scène, y compris les textures d&#39;origine, le cas échéant.
+<b>Réinitialiser le matériau à l&#39;état de scène : </b>*(Rendu pixellisé/Pathtracer GPU uniquement)* Réinitialise toutes les propriétés des [matériaux remplacés](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) à leurs valeurs d&#39;origine à partir de la scène, y compris les textures d&#39;origine, le cas échéant.
 
-<b>Ajouter :</b>Ajoute un nouveau matériau à la liste. Il n&#39;est pas utilisé par défaut et peut être [connecté à un matériau de scènes](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) à l&#39;aide de l&#39;[explorateur de Scènes](../../interface/3d-view/scene-browser/scene-browser.md).
+<b>Ajouter :</b>Ajoute un nouveau matériau à la liste. Il n&#39;est pas utilisé par défaut et peut être [connecté à un matériau de scènes](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) à l&#39;aide de l&#39;[explorateur de Scènes](../../interface/3d-view/scene-browser/scene-browser.md).
 
 +++
 

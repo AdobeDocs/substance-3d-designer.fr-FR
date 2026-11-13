@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.0 pour en savoir plus sur les nouveaux nœuds, la navigation par graphe et les améliorations des performances.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Version 14.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Cette version 14.0 apporte beaucoup de nouveau contenu avec les nouveaux nœuds 
 
 * <b>Filtre Kuwahara</b> : si vous souhaitez aller encore plus loin avec la stylisation, vous pouvez générer des effets picturaux grâce aux filtres [couleur Kuwahara anisotrope](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [niveaux de gris](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Dans les détails, il applique un flou directionnel anisotrope conforme aux détails de l’image. Le résultat est une image qui semble s’écouler dans la direction des formes qu’elle contient.
 
-Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize_fr). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
+Ces nœuds (Quantize color et Anisotropic Kuwahara) sont expliqués dans [ce tutoriel](https://www.adobe.com/go/designer-tutorial-quantize). Il montre comment les utiliser pour styliser les matériaux et gérer les couleurs de manière plus efficace et intuitive !
 
 D&#39;autres nœuds puissants rejoignent le parti :
 
@@ -129,11 +129,11 @@ Dissociation normale
 
 ## Amélioration de la qualité de vie
 
-* <b>Les performances </b> et la <b>réactivité</b> lors de l’utilisation de projets volumineux ont été améliorées. Par exemple, la suppression de nœuds peut être jusqu’à 75 fois plus rapide. Le temps de [cuisson](../../learning-tutorials/essentials/glossary/glossary.md#cooking) a également été réduit pour les graphes faisant référence plusieurs fois à la même image bitmap.
-* <b>Paramètres hérités</b> : lorsqu&#39;un paramètre est [hérité](../../learning-tutorials/essentials/glossary/glossary.md#inheritance), au lieu d&#39;afficher la valeur par défaut, nous affichons maintenant la valeur héritée afin que vous connaissiez la valeur actuellement utilisée. En savoir plus sur l&#39;héritage dans [cette page dédiée de notre documentation](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+* <b>Les performances </b> et la <b>réactivité</b> lors de l’utilisation de projets volumineux ont été améliorées. Par exemple, la suppression de nœuds peut être jusqu’à 75 fois plus rapide. Le temps de [cuisson](../../glossary/glossary.md) a également été réduit pour les graphes faisant référence plusieurs fois à la même image bitmap.
+* <b>Paramètres hérités</b> : lorsqu&#39;un paramètre est [hérité](../../glossary/glossary.md), au lieu d&#39;afficher la valeur par défaut, nous affichons maintenant la valeur héritée afin que vous connaissiez la valeur actuellement utilisée. En savoir plus sur l&#39;héritage dans [cette page dédiée de notre documentation](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 * La prise en charge de <b>Trackpad</b> sur MacOS a été entièrement remaniée pour être plus naturelle et conforme aux autres logiciels. Le déplacement des nœuds au-delà des limites de la [Vue du graphe](../../interface/the-graph-view/the-graph-view.md) a également été repensé afin d&#39;être plus fluide et plus cohérent entre tous les systèmes d&#39;exploitation.
 
-* <b>vue 2D :</b>lorsque l&#39;affichage en mosaïque est activé dans la [vue 2D](../../interface/2d-view/2d-view.md), vous pouvez désormais obtenir des valeurs même pour les pixels qui ne se trouvent pas sur la mosaïque d&#39;origine : il est très utile de vérifier l&#39;[échantillonnage](../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) et les transitions de valeurs entre les mosaïques.
+* <b>vue 2D :</b>lorsque l&#39;affichage en mosaïque est activé dans la [vue 2D](../../interface/2d-view/2d-view.md), vous pouvez désormais obtenir des valeurs même pour les pixels qui ne se trouvent pas sur la mosaïque d&#39;origine : il est très utile de vérifier l&#39;[échantillonnage](../../glossary/glossary.md) et les transitions de valeurs entre les mosaïques.
 
 ![Vue 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
@@ -196,7 +196,7 @@ Notez que ces mises à jour ont deux conséquences majeures :
 * [Contenu] Nœud « Negate Flottant 1 » déconseillé dans le graphe de fonction de Substance
 * [Contenu] Renommez « Quantize Color » en « Quantize Color (Simple) ».
 * [vue 2D] Valeurs d’affichage dans le panneau Informations pour les pixels en dehors de la plage 0-1
-* [Moteur]&#x200B;[Texte] Nouveau crénage pour certaines polices
+* [Moteur][Texte] Nouveau crénage pour certaines polices
 * [Graphe] Amélioration du temps d’invalidation lors de l’édition de sous-graphes profonds lors de l’utilisation de l’édition contextuelle
 * [Linker] Ne pas dupliquer les bitmaps dans SBSASM
 * [Paramètres] Ajouter un nouveau widget « fonction » pour tous les types de paramètre d&#39;entrée
