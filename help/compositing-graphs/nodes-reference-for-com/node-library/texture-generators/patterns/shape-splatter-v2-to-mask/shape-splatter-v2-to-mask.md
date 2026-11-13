@@ -38,7 +38,7 @@ Calcule un masque à partir d&#39;une sélection de formes générées par le n�
 
 >[!TIP]
 > 
-> L&#39;exemple de matériau ](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample) [**&#39;Rusty bolts&#39;** est disponible pour commencer avec les nœuds Shape Splatter v2.
+> L&#39;exemple de matériau [&#128279;](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample) **&#39;Rusty bolts&#39;** est disponible pour commencer avec les nœuds Shape Splatter v2.
 > 
 > Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
