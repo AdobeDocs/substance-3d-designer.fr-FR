@@ -1,7 +1,7 @@
 ---
 title: Tous les échantillons
 description: Retrouvez tous les exemples de projets et de graphes produits par l’équipe Substance 3D Designer, y compris les fichiers d’exemple utilisés dans les tutoriels.
-source-git-commit: f732f434bd33cc70e614e6800d4649e727354d00
+source-git-commit: 6c764898ce73567e13bfe30b1dd4a885b6c003e6
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 0%
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 # Tous les échantillons
 
-<table style="border: 0">
+<table style="border: 0; table-layout:auto">
 
 {{sample-abstract-fabric}}
 {{sample-brick-wall}}
@@ -23,7 +23,6 @@ ht-degree: 0%
 {{sample-quilted-satin}}
 {{sample-recycled-plastic}}
 {{sample-rusty-bolts}}
-{{sample-spot-colors}}
 {{sample-stone-ground}}
 {{sample-stylized-mosaic}}
 {{sample-wood}}
