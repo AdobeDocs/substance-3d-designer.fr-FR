@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Glossaire
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 2300aac9a3edca60c3950f94d531c3f6073f7b4e
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '4529'
 ht-degree: 1%

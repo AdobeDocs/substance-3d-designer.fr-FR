@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/output-size.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Configurez les paramètres de taille de sortie des graphes de composition de Substances pour contrôler la résolution et la qualité des textures.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Output size
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Taille de sortie
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
-
 ---
-
 
 # Taille de sortie
 

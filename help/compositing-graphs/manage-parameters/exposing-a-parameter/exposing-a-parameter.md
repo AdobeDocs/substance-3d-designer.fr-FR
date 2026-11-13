@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à exposer des paramètres dans les graphes de composition Substance 3D Designer pour rendre les matériaux personnalisables et réutilisables.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exposition d’un paramètre
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
-
 ---
-
 
 # Exposition d’un paramètre
 

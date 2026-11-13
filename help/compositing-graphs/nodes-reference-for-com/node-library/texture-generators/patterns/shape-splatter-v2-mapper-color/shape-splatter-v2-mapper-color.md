@@ -1,13 +1,11 @@
 ---
 title: Couleur du mappeur d’éclaboussures de forme v2
 description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Générateur > Motif > Couleur du mappeur d’éclaboussures de forme v2
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
-
 ---
-
 
 # Couleur du mappeur d’éclaboussures de forme v2
 

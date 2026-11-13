@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/bitmap-resource.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à importer, créer et utiliser des images bitmap dans Substance 3D Designer pour créer des matériaux basés sur des textures.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Ressource bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
-
 ---
-
 
 # Ressource bitmap
 

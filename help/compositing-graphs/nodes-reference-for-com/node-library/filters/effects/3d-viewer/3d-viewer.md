@@ -1,7 +1,7 @@
 ---
 title: Visionneuse 3D
 description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Filtre > Effet > Visualiseur 3D
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%

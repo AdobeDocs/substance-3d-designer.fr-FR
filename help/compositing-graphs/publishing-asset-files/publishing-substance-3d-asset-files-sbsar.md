@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez comment publier des fichiers de ressources Substance 3D (SBSAR) à partir de Designer pour les utiliser dans d’autres applications et moteurs.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Publication de fichiers Substance 3D Assets (SBSAR)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 2%
-
 ---
-
 
 # Publication de fichiers Substance 3D Assets (SBSAR)
 

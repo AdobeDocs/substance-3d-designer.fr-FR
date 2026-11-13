@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/home.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à utiliser Substance 3D Designer pour créer des matériaux, des textures et des ressources 3D procéduraux à l’aide de workflows basés sur les nœuds.
 helpx_creative_field: ""
 helpx_description: Designer > User guide
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Guide de l’utilisateur de Substance 3D Designer
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
-
 ---
-
 
 # Guide de l’utilisateur de Substance 3D Designer
 

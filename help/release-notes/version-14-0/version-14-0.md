@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-14-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Designer version 14.0 pour en savoir plus sur les nouveaux nœuds, la navigation par graphe et les améliorations des performances.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 14.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Version 14.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
-
 ---
-
 
 # Version 14.0
 

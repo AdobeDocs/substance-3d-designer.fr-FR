@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Découvrez les nœuds de Fonction SDF disponibles dans Designer, qui vous permettent de créer des Fonctions SDF pour générer des formes 3D dans les nœuds de la projection de formes éclaboussées v2 et 3D.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Utilisation des Fonctions SDF
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
-
 ---
-
 
 # Utilisation des Fonctions SDF
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vue 3D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '3549'
 ht-degree: 1%

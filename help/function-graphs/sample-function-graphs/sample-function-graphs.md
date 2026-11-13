@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/function-graphs/sample-function-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Explorez les exemples de graphes de fonction dans Substance 3D Designer pour découvrir les techniques avancées et les bonnes pratiques.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Sample function graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exemples de graphes de fonction
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
-
 ---
-
 
 # Exemples de graphes de fonction
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Apprenez à utiliser des tracés et des outils spline pour créer des motifs procéduraux et des formes organiques dans vos graphes.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Utilisation des Outils spline de tracé
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
-
 ---
-
 
 # Utilisation des tracés et des Outils spline
 

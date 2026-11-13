@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Héritage dans les graphes Substance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
