@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Transformation 2D pour appliquer des transformations 2D aux textures, y compris la translation, la rotation et la mise à l’échelle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformation 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 5%
@@ -54,7 +54,7 @@ Il ne peut toutefois pas correspondre parfaitement à certaines applications. Le
 >
 > Désactivation de la répétition
 > 
-> Définissez la [méthode d&#39;héritage](../../../../glossary/glossary.md) du [paramètre de base](../../../../glossary/glossary.md) &#39;Mode Répétition&#39; sur &#39;Absolu&#39;, ce qui vous permet de définir la valeur du paramètre sur &#39;Aucune Répétition&#39; :
+> Définissez la [méthode d&#39;héritage](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance) du [paramètre de base](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter) &#39;Mode Répétition&#39; sur &#39;Absolu&#39;, ce qui vous permet de définir la valeur du paramètre sur &#39;Aucune Répétition&#39; :
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
@@ -69,8 +69,8 @@ Il ne peut toutefois pas correspondre parfaitement à certaines applications. Le
 | --- | --- |
 | <b>Matrice de transformation</b> *Flottant4* | Ouvrez la matrice de transformation sous-jacente pour la modifier directement. Permet de modifier la rotation et la mise à l’échelle. Peut également être ajusté à l&#39;aide du gadget dans la Vue 2D.   Avertissement : ils ne sont pas directement corrélés à la vue et constituent des ajustements relatifs qui peuvent être appliqués par étapes. |
 | <b>Décalage</b> *Flottant 2* | Définit le displacement 2D de l’image. Permet de modifier la position ou le décalage Peut également être ajusté via l&#39;objet dans la Vue 2D.   Est directement lié à la sortie Vue 2D. |
-| <b>Mode Mipmap</b> *Entier* | Permet de passer à un niveau manuel de [mipmap](../../../../glossary/glossary.md), qui réduit les artefacts dans une image à l&#39;aide du filtrage de texture. |
-| <b>Niveau du mipmap</b> *Entier* | Définit le niveau de [mipmap](../../../../glossary/glossary.md) à utiliser.     *Disponible lorsque le mode Mipmap est défini sur Manuel* |
+| <b>Mode Mipmap</b> *Entier* | Permet de passer à un niveau manuel de [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap), qui réduit les artefacts dans une image à l&#39;aide du filtrage de texture. |
+| <b>Niveau du mipmap</b> *Entier* | Définit le niveau de [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) à utiliser.     *Disponible lorsque le mode Mipmap est défini sur Manuel* |
 | <b>Cache</b> *Flottant4* | Couleur utilisée comme arrière-plan lorsque la répétition de transformation est désactivée. C’est-à-dire qu’il définit la couleur utilisée lorsque l’entrée transformée ne couvre pas une zone de la sortie.   Peut être rendu transparent si vous travaillez en couleur RVBA. |
 | <b>Filtrage</b> *Entier* | Définit la méthode de sous-échantillonnage utilisée. Ne fonctionne pas particulièrement bien lorsque le Niveau du mipmap est réduit. |
 

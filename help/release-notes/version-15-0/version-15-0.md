@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-15-0.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Designer version 15.0 pour en savoir plus sur le nouveau moteur de rendu 3D et la prise en charge native d’USD.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Version 15.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
-
 ---
-
 
 # Version 15.0
 
@@ -55,16 +53,16 @@ En outre, le raccourci clavier pour faire pivoter l&#39;éclairage d&#39;environ
 
 ## Édition d’actifs en contexte
 
-Lorsque vous travaillez sur vos matériaux, vous pouvez [les prévisualiser dans le cadre d&#39;une Scène 3D spécifique](../../working-with-3d-scenes/working-with-3d-scenes.md). C’est pourquoi nous avons ajouté la possibilité d’importer et de rendre une scène complète, avec toutes ses textures, caméras et éclairages. Et cerise sur le gâteau, si cette scène fait référence à des ombrages MaterialX, ils seront correctement rendus avec le pixelliseur !
+Lorsque vous travaillez sur vos matériaux, vous pouvez [les prévisualiser dans le cadre d&#39;une Scène 3D spécifique](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md). C’est pourquoi nous avons ajouté la possibilité d’importer et de rendre une scène complète, avec toutes ses textures, caméras et éclairages. Et cerise sur le gâteau, si cette scène fait référence à des ombrages MaterialX, ils seront correctement rendus avec le pixelliseur !
 
 ![scène USD chargée et rendue dans Designer](version-15-0.resources/feature_2.png)
 
-Une fois importé, vous pouvez travailler sur votre scène en sélectionnant un maillage (avec une combinaison MAJ+clic ou grâce à l&#39;explorateur de scènes) et en [remplaçant l&#39;un de ses matériaux](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Vous pouvez alors :
+Une fois importé, vous pouvez travailler sur votre scène en sélectionnant un maillage (avec une combinaison MAJ+clic ou grâce à l&#39;explorateur de scènes) et en [remplaçant l&#39;un de ses matériaux](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md). Vous pouvez alors :
 
 * Créez ou chargez un graphe et appliquez-le sur un matériau de scène.
-* Ajustez un matériau existant en [extrayant ses textures](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) dans un nouveau graphe.
+* Ajustez un matériau existant en [extrayant ses textures](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md) dans un nouveau graphe.
 
-Enfin, une fois votre scène 3D modifiée, vous pouvez [l&#39;exporter](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) en tant que nouveau fichier ou en tant que nouveau calque du fichier d&#39;origine, ce qui vous empêche de perdre des données (format USD uniquement).
+Enfin, une fois votre scène 3D modifiée, vous pouvez [l&#39;exporter](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) en tant que nouveau fichier ou en tant que nouveau calque du fichier d&#39;origine, ce qui vous empêche de perdre des données (format USD uniquement).
 
 Enfin, d’autres formats 3D sont désormais pris en charge pour l’importation et l’exportation : USD (+ usda, usdc, usdz), STL, PLY et GLTF, en plus des formats FBX et OBJ déjà disponibles.
 

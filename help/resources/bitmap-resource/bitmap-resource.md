@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/resources/bitmap-resource.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+breadcrumb-title: ""
 description: Apprenez à importer, créer et utiliser des images bitmap dans Substance 3D Designer pour créer des matériaux basés sur des textures.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Ressource bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 2%
-
 ---
-
 
 # Ressource bitmap
 
@@ -66,9 +64,9 @@ Les ressources bitmap d’un package possèdent un certain nombre d’attributs 
 | Balises | Utilisé pour [trier et organiser la ressource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) dans la [bibliothèque](../../interface/the-library/the-library.md). |
 | Données utilisateur | Données supplémentaires facultatives, non utilisées sur les bitmaps. |
 | Afficher dans la bibliothèque | Détermine si le bitmap doit être masqué dans [la vue Bibliothèque](../../interface/the-library/the-library.md). |
-| Format bitmap | Raw ou Jpeg a un grand effet sur la taille des fichiers SBSAR. Consultez nos [directives de réduction de la taille des fichiers](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) pour en savoir plus. |
+| Format bitmap | Raw ou Jpeg a un grand effet sur la taille des fichiers SBSAR. Consultez nos [directives de réduction de la taille des fichiers](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) pour en savoir plus. |
 | Qualité de compression bitmap | N’a d’effet qu’avec la compression Jpeg, et détermine l’équilibre qualité/taille de fichier. |
 
 ## Réduction de la taille des fichiers
 
-Consultez la page [Directives de réduction de la taille des fichiers](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) dans la section [Pratiques recommandées](../../best-practices/best-practices.md) pour nos recommandations concernant la réduction de la taille des fichiers des bitmaps incorporés dans [ressources Substance 3D publiées (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
+Consultez la page [Directives de réduction de la taille des fichiers](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) dans la section [Pratiques recommandées](../../learning-tutorials/essentials/best-practices/best-practices.md) pour nos recommandations concernant la réduction de la taille des fichiers des bitmaps incorporés dans [ressources Substance 3D publiées (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).

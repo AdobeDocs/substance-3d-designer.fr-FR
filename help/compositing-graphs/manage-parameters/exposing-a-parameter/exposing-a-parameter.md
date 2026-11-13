@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+breadcrumb-title: ""
 description: Apprenez à exposer des paramètres dans les graphes de composition Substance 3D Designer pour rendre les matériaux personnalisables et réutilisables.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exposition d’un paramètre
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
-
 ---
-
 
 # Exposition d’un paramètre
 
@@ -104,7 +102,7 @@ Certaines limitations sont liées à l’expose de paramètres, comme indiqué d
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Exiger des widgets qui ne sont pas disponibles pour les paramètres créés par l’utilisateur. |
 
-Une autre limitation importante est liée aux [paramètres statiques](../../../glossary/glossary.md). Ils ne peuvent pas être modifiés dans une [ressource Substance 3D publiée (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
+Une autre limitation importante est liée aux [paramètres statiques](../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter). Ils ne peuvent pas être modifiés dans une [ressource Substance 3D publiée (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 Les paramètres statiques (par opposition aux paramètres dynamiques) *ne peuvent pas être modifiés à la volée* une fois le graphe *cuit*, c&#39;est-à-dire traité afin d&#39;exécuter son algorithme rapidement et efficacement. La cuisson a lieu dans Designer chaque fois que le graphe est *modifié* ou *publié*.
 

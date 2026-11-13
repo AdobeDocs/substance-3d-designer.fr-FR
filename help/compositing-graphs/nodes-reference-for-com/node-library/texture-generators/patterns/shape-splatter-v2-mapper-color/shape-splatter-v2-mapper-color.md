@@ -1,13 +1,11 @@
 ---
 title: Couleur du mappeur d’éclaboussures de forme v2
 description: Designer > graphes de composition de Substance > Référence des nœuds pour les graphes de composition de Substance > Bibliothèque de nœuds > Générateur > Motif > Couleur du mappeur d’éclaboussures de forme v2
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
-
 ---
-
 
 # Couleur du mappeur d’éclaboussures de forme v2
 
@@ -43,9 +41,9 @@ Voir aussi [Éclaboussure de forme v2 mapper niveaux de gris](../shape-splatter-
 
 >[!TIP]
 > 
-> L&#39;exemple de matériau [&#128279;](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample) **&#39;Rusty bolts&#39;** est disponible pour commencer avec les nœuds Shape Splatter v2.
+> L&#39;exemple de matériau ](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample) [**&#39;Rusty bolts&#39;** est disponible pour commencer avec les nœuds Shape Splatter v2.
 > 
-> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 

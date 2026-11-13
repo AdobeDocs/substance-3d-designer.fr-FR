@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/home.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+breadcrumb-title: ""
 description: Apprenez à utiliser Substance 3D Designer pour créer des matériaux, des textures et des ressources 3D procéduraux à l’aide de workflows basés sur les nœuds.
 helpx_creative_field: ""
 helpx_description: Designer > User guide
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Guide de l’utilisateur de Substance 3D Designer
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
-
 ---
-
 
 # Guide de l’utilisateur de Substance 3D Designer
 
@@ -24,7 +22,7 @@ ht-degree: 89%
 
 [Substance 3D Designer](https://www.adobe.com/fr/products/substance3d-designer.html) est un logiciel de création de matériaux. Il vous permet d’utiliser un graphe de nœud pour générer des textures à partir de motifs et de bruits procéduraux, ainsi que pour manipuler des images bitmap.
 
-Un mot ou un concept de Designer vous échappe ? Consultez notre [glossaire](../glossary/glossary.md) pour en savoir plus.
+Un mot ou un concept de Designer vous échappe ? Consultez notre [glossaire](../learning-tutorials/essentials/glossary/glossary.md) pour en savoir plus.
 
 Si vous avez une question à laquelle ce manuel ne répond pas, n’hésitez pas à la poser sur notre [forum d’assistance de la communauté](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer). Vous pouvez également télécharger notre [guide Rendu physique réaliste](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1) si vous souhaitez en savoir plus sur le PBR.
 
@@ -68,7 +66,7 @@ Si vous avez une question à laquelle ce manuel ne répond pas, n’hésitez pas
 
 ## Graphes Substance
 
-* [Concepts clés du graphe Substance](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
+* [Concepts clés du graphe Substance](../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
 * [Création d’un graphe Substance](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 * [Exposition d’un paramètre](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * [Paramètres de graphe](../compositing-graphs/graph-parameters/graph-parameters.md)

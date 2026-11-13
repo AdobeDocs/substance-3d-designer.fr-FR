@@ -1,13 +1,11 @@
 ---
 title: Définir la couleur
 description: Définissez la base color du matériau d’une scène SDF.
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
-
 ---
-
 
 # Définir la couleur
 
@@ -34,7 +32,7 @@ Cette couleur peut ensuite être récupérée pour toutes les formes SDF éclabo
 
 >[!INFO]
 > 
-> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../working-with-sdf-functions.md)
+> Pour en savoir plus sur les concepts et les workflows impliquant des Fonctions SDF, consultez la page dédiée : [Utilisation des Fonctions SDF](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## Entrées
 

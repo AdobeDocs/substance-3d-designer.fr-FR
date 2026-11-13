@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/release-notes/version-13-0.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+breadcrumb-title: ""
 description: Consultez les notes de mise à jour de Substance 3D Designer version 13.0 pour en savoir plus sur les nouveaux nœuds, la Substance Engine 9.0 et les nœuds de portail.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Version 13.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
-
 ---
-
 
 # Version 13.0
 
@@ -37,7 +35,7 @@ Cette version 13.0 apporte beaucoup de nouveau contenu. Vous y trouverez princip
 * Les [Outils spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) sont une collection de nœuds permettant de générer et d&#39;ajuster des splines, ainsi que de les utiliser pour le mappage, la diffusion ou la déformation d&#39;images.
 * Les [outils de tracé](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md) sont un autre ensemble de nœuds à extraire, sous la forme d&#39;une liste de segments, des contours d&#39;un masque, puis à les modifier et à les améliorer.
 
-Tous ces nœuds offriront beaucoup de possibilités et ils auront certainement beaucoup d&#39;applications créatives. Consultez la section sur l&#39;[utilisation des tracés et des Outils spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) pour découvrir les concepts importants à prendre en compte afin de vous familiariser avec cet ensemble d&#39;outils.
+Tous ces nœuds offriront beaucoup de possibilités et ils auront certainement beaucoup d&#39;applications créatives. Consultez la section sur l&#39;[utilisation des tracés et des Outils spline](../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) pour découvrir les concepts importants à prendre en compte afin de vous familiariser avec cet ensemble d&#39;outils.
 
 ![Matériau à l&#39;aide de splines](version-13-0.resources/Splines.png "Matériau à l&#39;aide de splines")
 

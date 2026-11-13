@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ""
 description: Utilisez l'Explorateur de Scènes pour parcourir et gérer les éléments, matériaux et objets Scène 3D du viewport.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Navigateur de scènes
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
+source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 L’explorateur de scènes de la vue 3D répertorie tous les éléments de la scène et leur hiérarchie.
 
-Elle offre des commandes pour sélectionner des objets, activer/désactiver leur visibilité ainsi que sélectionner quel matériau doit [remplacer un matériau de scène](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Elle offre des commandes pour sélectionner des objets, activer/désactiver leur visibilité ainsi que sélectionner quel matériau doit [remplacer un matériau de scène](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
 
 Comme Designer utilise [USD](https://openusd.org/release/index.html) pour décrire et gérer ses scènes, sa terminologie et ses concepts se trouvent dans cet arbre de scène.
 
@@ -38,7 +38,7 @@ L’explorateur de scènes de données affiche une liste d’objets organisés e
 
 Les objets sont associés à d’autres objets jusqu’à la racine de la scène. Un objet parent possède un bouton fléché qui permet de développer ou de réduire la liste de ses enfants.
 
-Certains objets ont des propriétés qui peuvent être affichées et modifiées dans le dock [Propriétés](../../../interface/properties/properties.md) lorsqu&#39;ils sont sélectionnés : environnement, caméra, éclairage, `Mesh` objets et [remplacements](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) de matériau.
+Certains objets ont des propriétés qui peuvent être affichées et modifiées dans le dock [Propriétés](../../../interface/properties/properties.md) lorsqu&#39;ils sont sélectionnés : environnement, caméra, éclairage, `Mesh` objets et [remplacements](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) de matériau.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Designer ajoute des objets à toute scène chargée. Les objets ajoutés par Des
 
 Lorsque vous utilisez l’action « Modifier ... » dans les menus Lumière, Caméra et Environnement, il s’agit des objets en cours de modification, qu’il y ait d’autres lumières, caméras ou environnements dans la scène.
 
-Ces objets sont inclus dans la scène lors de l&#39;[exportation](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Ces objets sont inclus dans la scène lors de l&#39;[exportation](../../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -136,9 +136,9 @@ L&#39;explorateur de scènes vous permet également de connecter tout matériau 
 
 Les matériaux répertoriés par Designer sont les objets de Matériau de l’arborescence de scène utilisés sur au moins un maillage.
 
-Lorsque [vous remplacez](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) l&#39;un de ces matériaux, une copie est créée par Designer, avec un suffixe numérique.
+Lorsque [vous remplacez](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) l&#39;un de ces matériaux, une copie est créée par Designer, avec un suffixe numérique.
 
-Un matériau remplacé offre un élément supplémentaire dans son menu contextuel : le sous-menu « [matériau connecté](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) » répertorie tous les autres matériaux disponibles qui peuvent être utilisés pour remplacer ce matériau.
+Un matériau remplacé offre un élément supplémentaire dans son menu contextuel : le sous-menu « [matériau connecté](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) » répertorie tous les autres matériaux disponibles qui peuvent être utilisés pour remplacer ce matériau.
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: Utilisez le nœud Fusion pour fusionner deux textures à l’aide de différents modes de fusion afin de créer des effets composites.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fusion
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -45,7 +45,7 @@ Il s&#39;agit du nœud le plus utile de tous les Noeuds atomiques. Presque tous 
 </tr>
 </table>
 
-Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/fr/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
+Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-dessus l&#39;un de l&#39;autre dans [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), qui se fondent l&#39;un dans l&#39;autre selon le mode de fusion que vous définissez sur le calque supérieur.
 
 >[!TIP]
 >
@@ -58,9 +58,9 @@ Sa fonctionnalité est similaire à celle consistant à avoir deux calques au-de
 |  |  |
 | --- | --- |
 | <b>Opacité</b> *Flottant* | Opacité du calque de premier plan fusionné avec l’arrière-plan. Il fonctionne indépendamment de l’entrée Opacité et agit comme un multiplicateur supplémentaire. |
-| <b>Mode de fusion</b> *Entier* [Statique](../../../../glossary/glossary.md) | Définit l’opération de fusion à utiliser.   Consultez la [page dédiée aux modes de fusion](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Simulation de transparence</b> *Entier* [Statique](../../../../glossary/glossary.md) | Détermine le comportement de fusion lorsque les entrées de couleur ont des Canaux Alphas :<ul data-preserve-html="true"> <li data-preserve-html="true">Utiliser l’alpha de la source</li> <li data-preserve-html="true">Ignorer l’alpha</li> <li data-preserve-html="true">Simulation de transparence droite</li> <li data-preserve-html="true">Simulation de transparence prémultipliée</li> </ul> |
-| <b>Zone de recadrage</b> *Flottant 4* [Statique](../../../../glossary/glossary.md) | Permet de définir une zone de recadrage personnalisée qui se comporte comme un masque d’opacité supplémentaire. Toute zone recadrée affiche uniquement l’arrière-plan. |
+| <b>Mode de fusion</b> *Entier* [Statique](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | Définit l’opération de fusion à utiliser.   Consultez la [page dédiée aux modes de fusion](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Simulation de transparence</b> *Entier* [Statique](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | Détermine le comportement de fusion lorsque les entrées de couleur ont des Canaux Alphas :<ul data-preserve-html="true"> <li data-preserve-html="true">Utiliser l’alpha de la source</li> <li data-preserve-html="true">Ignorer l’alpha</li> <li data-preserve-html="true">Simulation de transparence droite</li> <li data-preserve-html="true">Simulation de transparence prémultipliée</li> </ul> |
+| <b>Zone de recadrage</b> *Flottant 4* [Statique](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | Permet de définir une zone de recadrage personnalisée qui se comporte comme un masque d’opacité supplémentaire. Toute zone recadrée affiche uniquement l’arrière-plan. |
 
 ## Connecteurs d’entrée
 
